@@ -1,0 +1,453 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.utils;
+
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.image.FilteredImageSource;
+import java.awt.image.ImageFilter;
+import java.awt.image.ImageProducer;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Utility class for system icons.
+ * @author Andreas Kirschbaum
+ */
+public class SystemIcons {
+
+    /**
+     * The directory that contains the common-use icons.
+     */
+    private static final String ICON_DIR = "icons/";
+
+    /**
+     * The directory that contains the system icons.
+     */
+    public static final String SYSTEM_DIR = "system/";
+
+    public static final String SQUARE_SELECTED_SQUARE = SYSTEM_DIR + "selected_square.png";
+
+    public static final String SQUARE_SELECTED_SQUARE_NORTH = SYSTEM_DIR + "selected_square_n.png";
+
+    public static final String SQUARE_SELECTED_SQUARE_EAST = SYSTEM_DIR + "selected_square_e.png";
+
+    public static final String SQUARE_SELECTED_SQUARE_SOUTH = SYSTEM_DIR + "selected_square_s.png";
+
+    public static final String SQUARE_SELECTED_SQUARE_WEST = SYSTEM_DIR + "selected_square_w.png";
+
+    public static final String SQUARE_PRE_SELECTED_SQUARE = SYSTEM_DIR + "pre_selected_square.png";
+
+    public static final String SQUARE_CURSOR = SYSTEM_DIR + "cursor.png";
+
+    public static final String SQUARE_EMPTY = SYSTEM_DIR + "empty.png";
+
+    public static final String SQUARE_UNKNOWN = SYSTEM_DIR + "unknown.png";
+
+    public static final String SQUARE_WARNING = SYSTEM_DIR + "warning.png";
+
+    /**
+     * The name of the image for highlighting map squares that are affected by
+     * nearby light emitting game objects.
+     */
+    public static final String SQUARE_LIGHT = SYSTEM_DIR + "light.png";
+
+    public static final String SQUARE_NO_FACE = SYSTEM_DIR + "no_face.png";
+
+    public static final String SQUARE_NO_ARCH = SYSTEM_DIR + "no_arch.png";
+
+    private static final String TREASURE_LIST = SYSTEM_DIR + "treasure_list.png";
+
+    private static final String TREASUREONE_LIST = SYSTEM_DIR + "treasureone_list.png";
+
+    private static final String TREASURE_YES = SYSTEM_DIR + "treasure_yes.png";
+
+    private static final String TREASURE_NO = SYSTEM_DIR + "treasure_no.png";
+
+    /**
+     * The default map icon to use if no icon can be created.
+     */
+    public static final String DEFAULT_ICON = SYSTEM_DIR + "default_icon.png";
+
+    /**
+     * The default map preview to use if no icon can be created.
+     */
+    public static final String DEFAULT_PREVIEW = SYSTEM_DIR + "default_preview.png";
+
+    private static final String CLOSE_TAB_SMALL_ICON = ICON_DIR + "close_tab_small_icon.gif";
+
+    private static final String AUTO_RUN_SMALL_ICON = ICON_DIR + "auto_run_small_icon.gif";
+
+    private static final String FILTER_SMALL_ICON = ICON_DIR + "filter_small_icon.gif";
+
+    private static final String RUN_PLUGIN_SMALL_ICON = ICON_DIR + "run_plugin_small_icon.gif";
+
+    /**
+     * Application icon definitions (icon-dir).
+     */
+    private static final String APP_ICON = ICON_DIR + "app_icon.gif";
+
+    /**
+     * The {@link GUIUtils} for creating icons.
+     */
+    @NotNull
+    private final GUIUtils guiUtils;
+
+    @Nullable
+    private ImageIcon mapSelIcon;
+
+    @Nullable
+    private ImageIcon mapSelIconNorth;
+
+    @Nullable
+    private ImageIcon mapSelIconEast;
+
+    @Nullable
+    private ImageIcon mapSelIconSouth;
+
+    @Nullable
+    private ImageIcon mapSelIconWest;
+
+    @Nullable
+    private ImageIcon mapPreSelIcon;
+
+    @Nullable
+    private ImageIcon mapCursorIcon;
+
+    @Nullable
+    private Icon emptySquareIcon;
+
+    @Nullable
+    private ImageIcon unknownSquareIcon;
+
+    @Nullable
+    private ImageIcon warningSquareIcon;
+
+    @Nullable
+    private ImageIcon lightSquareIcon;
+
+    @Nullable
+    private ImageIcon noFaceSquareIcon;
+
+    @Nullable
+    private ImageIcon noArchSquareIcon;
+
+    /**
+     * The default icon {@link Image} for map previews.
+     */
+    @Nullable
+    private Image defaultIcon;
+
+    /**
+     * The default preview {@link Image} for map icon.
+     */
+    @Nullable
+    private Image defaultPreview;
+
+    @Nullable
+    private Icon treasureListIcon;
+
+    @Nullable
+    private Icon treasureOneListIcon;
+
+    @Nullable
+    private Icon treasureYesIcon;
+
+    @Nullable
+    private Icon treasureNoIcon;
+
+    @Nullable
+    private ImageIcon closeTabSmallIcon;
+
+    @Nullable
+    private Icon autoRunSmallIcon;
+
+    @Nullable
+    private Icon filterSmallIcon;
+
+    @Nullable
+    private Icon runPluginSmallIcon;
+
+    /**
+     * The application's icon or <code>null</code> if none is available.
+     */
+    @Nullable
+    private ImageIcon appIcon;
+
+    /**
+     * Creates a new instance.
+     * @param guiUtils the gui utils for creating icons
+     */
+    public SystemIcons(@NotNull final GUIUtils guiUtils) {
+        this.guiUtils = guiUtils;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapCursorIcon() {
+        if (mapCursorIcon == null) {
+            mapCursorIcon = guiUtils.getResourceIcon(SQUARE_CURSOR);
+        }
+        return mapCursorIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getEmptySquareIcon() {
+        if (emptySquareIcon == null) {
+            emptySquareIcon = guiUtils.getResourceIcon(SQUARE_EMPTY);
+        }
+        return emptySquareIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getUnknownSquareIcon() {
+        if (unknownSquareIcon == null) {
+            unknownSquareIcon = guiUtils.getResourceIcon(SQUARE_UNKNOWN);
+        }
+        return unknownSquareIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getWarningSquareIcon() {
+        if (warningSquareIcon == null) {
+            final ImageFilter alphaFilter = AlphaImageFilterInstance.ALPHA_FILTER;
+            final ImageIcon sysIcon = guiUtils.getResourceIcon(SQUARE_WARNING);
+            final Image image = sysIcon.getImage();
+            final ImageProducer source = image.getSource();
+            final ImageProducer producer = new FilteredImageSource(source, alphaFilter);
+            final Image image2 = Toolkit.getDefaultToolkit().createImage(producer);
+            warningSquareIcon = new ImageIcon(image2);
+        }
+        return warningSquareIcon;
+    }
+
+    /**
+     * Returns the {@link ImageIcon} for highlighting map squares that are
+     * affected by nearby light emitting game objects.
+     * @return the image icon
+     */
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getLightSquareIcon() {
+        if (lightSquareIcon == null) {
+            final ImageFilter alphaFilter = AlphaImageFilterInstance.ALPHA_FILTER;
+            final ImageIcon sysIcon = guiUtils.getResourceIcon(SQUARE_LIGHT);
+            final Image image = sysIcon.getImage();
+            final ImageProducer source = image.getSource();
+            final ImageProducer producer = new FilteredImageSource(source, alphaFilter);
+            final Image image2 = Toolkit.getDefaultToolkit().createImage(producer);
+            lightSquareIcon = new ImageIcon(image2);
+        }
+        return lightSquareIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getNoFaceSquareIcon() {
+        if (noFaceSquareIcon == null) {
+            noFaceSquareIcon = guiUtils.getResourceIcon(SQUARE_NO_FACE);
+        }
+        return noFaceSquareIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getNoArchSquareIcon() {
+        if (noArchSquareIcon == null) {
+            noArchSquareIcon = guiUtils.getResourceIcon(SQUARE_NO_ARCH);
+        }
+        return noArchSquareIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapSelectedIcon() {
+        if (mapSelIcon == null) {
+            mapSelIcon = guiUtils.getResourceIcon(SQUARE_SELECTED_SQUARE);
+        }
+        return mapSelIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapSelectedIconNorth() {
+        if (mapSelIconNorth == null) {
+            mapSelIconNorth = guiUtils.getResourceIcon(SQUARE_SELECTED_SQUARE_NORTH);
+        }
+        return mapSelIconNorth;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapSelectedIconEast() {
+        if (mapSelIconEast == null) {
+            mapSelIconEast = guiUtils.getResourceIcon(SQUARE_SELECTED_SQUARE_EAST);
+        }
+        return mapSelIconEast;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapSelectedIconSouth() {
+        if (mapSelIconSouth == null) {
+            mapSelIconSouth = guiUtils.getResourceIcon(SQUARE_SELECTED_SQUARE_SOUTH);
+        }
+        return mapSelIconSouth;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapSelectedIconWest() {
+        if (mapSelIconWest == null) {
+            mapSelIconWest = guiUtils.getResourceIcon(SQUARE_SELECTED_SQUARE_WEST);
+        }
+        return mapSelIconWest;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getMapPreSelectedIcon() {
+        if (mapPreSelIcon == null) {
+            mapPreSelIcon = guiUtils.getResourceIcon(SQUARE_PRE_SELECTED_SQUARE);
+        }
+        return mapPreSelIcon;
+    }
+
+    /**
+     * Returns the default icon {@link Image} for map previews.
+     * @return the image
+     */
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Image getDefaultIcon() {
+        if (defaultIcon == null) {
+            final ImageIcon icon = guiUtils.getResourceIcon(DEFAULT_ICON);
+            defaultIcon = icon.getImage();
+        }
+        assert defaultIcon != null;
+        return defaultIcon;
+    }
+
+    /**
+     * Returns the default preview {@link Image} for map icon.
+     * @return the image
+     */
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Image getDefaultPreview() {
+        if (defaultPreview == null) {
+            final ImageIcon icon = guiUtils.getResourceIcon(DEFAULT_PREVIEW);
+            defaultPreview = icon.getImage();
+        }
+        assert defaultPreview != null;
+        return defaultPreview;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getTreasureListIcon() {
+        if (treasureListIcon == null) {
+            treasureListIcon = guiUtils.getResourceIcon(TREASURE_LIST);
+        }
+        return treasureListIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getTreasureOneListIcon() {
+        if (treasureOneListIcon == null) {
+            treasureOneListIcon = guiUtils.getResourceIcon(TREASUREONE_LIST);
+        }
+        return treasureOneListIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getTreasureYesIcon() {
+        if (treasureYesIcon == null) {
+            treasureYesIcon = guiUtils.getResourceIcon(TREASURE_YES);
+        }
+        return treasureYesIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getTreasureNoIcon() {
+        if (treasureNoIcon == null) {
+            treasureNoIcon = guiUtils.getResourceIcon(TREASURE_NO);
+        }
+        return treasureNoIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getCloseTabSmallIcon() {
+        if (closeTabSmallIcon == null) {
+            closeTabSmallIcon = guiUtils.getResourceIcon(CLOSE_TAB_SMALL_ICON);
+        }
+        return closeTabSmallIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getAutoRunSmallIcon() {
+        if (autoRunSmallIcon == null) {
+            autoRunSmallIcon = guiUtils.getResourceIcon(AUTO_RUN_SMALL_ICON);
+        }
+        return autoRunSmallIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getFilterSmallIcon() {
+        if (filterSmallIcon == null) {
+            filterSmallIcon = guiUtils.getResourceIcon(FILTER_SMALL_ICON);
+        }
+        return filterSmallIcon;
+    }
+
+    @NotNull
+    @SuppressWarnings("NullableProblems")
+    public Icon getRunPluginSmallIcon() {
+        if (runPluginSmallIcon == null) {
+            runPluginSmallIcon = guiUtils.getResourceIcon(RUN_PLUGIN_SMALL_ICON);
+        }
+        return runPluginSmallIcon;
+    }
+
+    /**
+     * Returns the application's icon.
+     * @return the icon or <code>null</code> if none is available
+     */
+    @Nullable
+    @SuppressWarnings("NullableProblems")
+    public ImageIcon getAppIcon() {
+        if (appIcon == null) {
+            appIcon = guiUtils.getResourceIcon(APP_ICON);
+        }
+        return appIcon;
+    }
+
+}

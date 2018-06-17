@@ -1,0 +1,261 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2011 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+html, body {
+    background-color: white;
+    color: #11111A;
+}
+
+body {
+    margin: auto auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    /*background-image: url(http://www.w3.org/Icons/logo-WMVS.png);
+    background-attachment: fixed;
+    background-position: 0 0;
+    background-repeat: no-repeat;*/
+    font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+    font-size: 1em; /* setting base font to user's preferred size */
+    line-height: 130%;
+}
+
+div.header {
+    background-color: #eee;
+    color: inherit;
+    height: 45px;
+    text-align: center;
+}
+
+div.header a {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+div.content {
+    background-color: white;
+    color: inherit;
+    border-bottom: 0;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 0;
+    margin: 0px;
+    padding: 15px;
+}
+
+address {
+    background-color: #eee;
+    background-image: url(http://validator.w3.org/images/footer.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right;
+    color: inherit;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    clear: right;
+
+}
+
+address img {
+    display: inline;
+    float: left;
+    vertical-align: middle;
+    width: 88px;
+    border: none;
+}
+
+p.copyright {
+    margin-top: 20px;
+    width: 50%;
+    font-size: x-small;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-left: 222px;
+    font-family: "Bitstream Vera Sans Mono", monospace;
+    color: #888;
+    background-color: inherit;
+    line-height: 120%;
+}
+
+p.copyright a {
+    color: #88f;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+img.screenshot {
+    display: inline;
+    vertical-align: top;
+    margin: 3px;
+    border: 1px solid #eee;
+}
+
+img.now {
+    width: 88px;
+    height: 31px;
+    margin: 1px;
+}
+
+fieldset.screenshot {
+    padding: .5em;
+    background: white;
+    color: inherit;
+    border: 1px dotted #aaaa77;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: .5em;
+}
+
+fieldset.screenshot legend {
+    background-color: #aaaa77;
+    color: #fff;
+    font-size: smaller;
+    padding: .1ex .5ex;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+}
+
+pre.listing {
+    font-size: 10pt;
+}
+
+/* Java */
+td.java, td.java-ln {
+    vertical-align: top;
+}
+
+tt.java, tt.java-ln, pre.java, pre.java-ln {
+    line-height: 1em;
+    margin-bottom: 0em;
+}
+
+td.java-ln {
+    text-align: right;
+}
+
+tt.java-ln, pre.java-ln {
+    background-color: inherit;
+    color: #888888;
+}
+
+/* Background           */
+span.java0 {
+    background-color: inherit;
+    color: #ffffff;
+}
+
+/* Line numbers         */
+span.java1 {
+    background-color: inherit;
+    color: #808080;
+}
+
+/* Multi-line comments  */
+span.java2 {
+    background-color: inherit;
+    color: #3f7f5f;
+}
+
+/* Single-line comments */
+span.java3 {
+    background-color: inherit;
+    color: #3f7f5f;
+}
+
+/* Keywords             */
+span.java4 {
+    background-color: inherit;
+    color: #7f0055;
+    font-weight: bold;
+}
+
+/* Strings              */
+span.java5 {
+    background-color: inherit;
+    color: #2a00ff;
+}
+
+/* Character constants  */
+span.java6 {
+    background-color: inherit;
+    color: #990000;
+}
+
+/* Numeric constants    */
+span.java7 {
+    background-color: inherit;
+    color: #990000;
+}
+
+/* Parenthesis          */
+span.java8 {
+    background-color: inherit;
+    color: #000000;
+}
+
+/* Primitive Types      */
+span.java9 {
+    background-color: inherit;
+    color: #7f0055;
+    font-weight: bold;
+}
+
+/* Others               */
+span.java10 {
+    background-color: inherit;
+    color: #000000;
+}
+
+/* Javadoc keywords     */
+span.java11 {
+    background-color: inherit;
+    color: #7f9fbf;
+}
+
+/* Javadoc HTML tags    */
+span.java12 {
+    background-color: inherit;
+    color: #7f7f9f;
+}
+
+/* Javadoc links        */
+span.java13 {
+    background-color: inherit;
+    color: #3f3fbf;
+}
+
+/* Javadoc others       */
+span.java14 {
+    background-color: inherit;
+    color: #3f5fbf;
+}
+
+/* Undefined            */
+span.java15 {
+    background-color: inherit;
+    color: #ff6100;
+}
+
+/* Annotation           */
+span.java16 {
+    background-color: inherit;
+    color: #646464;
+}

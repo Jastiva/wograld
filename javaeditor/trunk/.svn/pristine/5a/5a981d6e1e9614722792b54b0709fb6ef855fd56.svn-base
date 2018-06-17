@@ -1,0 +1,220 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.archetype;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import net.sf.gridarta.model.baseobject.BaseObject;
+import net.sf.gridarta.model.errorview.ErrorViewCategory;
+import net.sf.gridarta.model.errorview.ErrorViewCollector;
+import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.gameobject.GameObjectFactory;
+import net.sf.gridarta.model.maparchobject.MapArchObject;
+import net.sf.gridarta.utils.StringUtils;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Creates {@link Archetype} instances. An archetype builder is like an {@link
+ * Archetype} but can be modified.
+ * @author Andreas Kirschbaum
+ */
+public abstract class AbstractArchetypeBuilder<G extends GameObject<G, A, R>, A extends MapArchObject<A>, R extends Archetype<G, A, R>> {
+
+    /**
+     * The base {@link Archetype} for artifacts. Set to <code>null</code> when
+     * parsing archetypes.
+     */
+    @Nullable
+    private R prototype;
+
+    /**
+     * The {@link ErrorViewCollector} for reporting errors.
+     */
+    @Nullable
+    private ErrorViewCollector errorViewCollector;
+
+    /**
+     * The {@link Archetype} being built. Set to <code>null</code> when not
+     * building an archetype.
+     */
+    @Nullable
+    private R archetype;
+
+    /**
+     * Collected attributes.
+     */
+    @NotNull
+    private final Map<String, String> attributes = new LinkedHashMap<String, String>();
+
+    /**
+     * The {@link GameObjectFactory} for creating new {@link Archetype
+     * Archetypes}.
+     */
+    @NotNull
+    private final GameObjectFactory<G, A, R> gameObjectFactory;
+
+    /**
+     * Creates a new instance.
+     * @param gameObjectFactory the game object factory for creating the new
+     * archetype
+     */
+    protected AbstractArchetypeBuilder(@NotNull final GameObjectFactory<G, A, R> gameObjectFactory) {
+        this.gameObjectFactory = gameObjectFactory;
+    }
+
+    /**
+     * @param prototype the base archetype for artifacts; <code>null</code> when
+     * parsing archetypes
+     */
+    public void init(@Nullable final R prototype, @NotNull final ErrorViewCollector errorViewCollector) {
+        this.prototype = prototype;
+        this.errorViewCollector = errorViewCollector;
+        // start with new clean GameObject instance
+        if (prototype == null) {
+            archetype = gameObjectFactory.newArchetype(""); // XXX: undefined archetype name
+        } else {
+            archetype = prototype.clone();
+        }
+        attributes.clear();
+    }
+
+    public void reInit(@NotNull final String archetypeName) {
+        if (archetype == null) {
+            archetype = gameObjectFactory.newArchetype(archetypeName);
+        } else {
+            archetype.setArchetypeName(archetypeName);
+        }
+        attributes.clear();
+    }
+
+    public void setMsgText(@NotNull final String msgText) {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        archetype.setMsgText(msgText);
+    }
+
+    @NotNull
+    public String getArchetypeName() {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        return archetype.getArchetypeName();
+    }
+
+    public void addObjectText(@NotNull final String line) {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        if (errorViewCollector == null) {
+            throw new IllegalStateException();
+        }
+
+        if (line.indexOf('\n') != -1) {
+            throw new IllegalArgumentException();
+        }
+
+        final String[] tmp = StringUtils.PATTERN_SPACES.split(line, 2);
+        final String key = tmp[0];
+        if (tmp.length < 2) {
+            assert archetype != null;
+            final String archetypeName = archetype.getArchetypeName();
+            assert errorViewCollector != null;
+            errorViewCollector.addWarning(ErrorViewCategory.ARCHETYPE_INVALID, archetypeName + ": invalid attribute definition: " + line);
+            return;
+        }
+        final String value = tmp[1];
+        final String previousValue = attributes.put(key, value);
+        if (previousValue != null) {
+            assert archetype != null;
+            final String archetypeName = archetype.getArchetypeName();
+            assert errorViewCollector != null;
+            errorViewCollector.addWarning(ErrorViewCategory.ARCHETYPE_INVALID, archetypeName + ": duplicate attribute definition: " + line + ", previous value was " + previousValue);
+        }
+    }
+
+    public void addLast(@NotNull final G invObject) {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        archetype.addLast(invObject);
+    }
+
+    /**
+     * Finishes archetype construction.
+     * @return the constructed archetype
+     * @noinspection TypeMayBeWeakened
+     */
+    @NotNull
+    public R finish() {
+        if (prototype != null && prototype.getAttributeString(BaseObject.NAME).isEmpty() && !attributes.containsKey(BaseObject.NAME)) {
+            assert prototype != null;
+            addObjectText(BaseObject.NAME + " " + prototype.getArchetypeName());
+        }
+
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        final R result = archetype;
+        final StringBuilder sb = new StringBuilder();
+        archetype = null;
+        for (final String attribute : StringUtils.PATTERN_END_OF_LINE.split(result.getObjectText())) {
+            final String[] tmp = StringUtils.PATTERN_SPACES.split(attribute, 2);
+            if (tmp.length == 2 && !attributes.containsKey(tmp[0])) {
+                sb.append(attribute).append('\n');
+            }
+        }
+        for (final Entry<String, String> attribute : attributes.entrySet()) {
+            sb.append(attribute.getKey()).append(' ').append(attribute.getValue()).append('\n');
+        }
+        result.setObjectText(sb.toString());
+        attributes.clear();
+        return result;
+    }
+
+    public void setMultiX(final int multiX) {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        archetype.setMultiX(multiX);
+    }
+
+    public void setMultiY(final int multiY) {
+        if (archetype == null) {
+            throw new IllegalStateException();
+        }
+        archetype.setMultiY(multiY);
+    }
+
+    /**
+     * @noinspection TypeMayBeWeakened
+     */
+    @NotNull
+    protected R getArchetype() {
+        final R result = archetype;
+        if (result == null) {
+            throw new IllegalStateException();
+        }
+        return result;
+    }
+
+}

@@ -1,0 +1,40 @@
+arch map
+name test for UndefinedFace map validator
+difficulty 1
+width 2
+height 4
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch exit1
+face altar.111
+end
+arch exit1
+face altar.112
+y 1
+end
+arch exit1
+animation altar
+x 1
+is_animated 1
+end
+arch exit1
+animation altar2
+x 1
+y 1
+is_animated 1
+end
+arch exit1
+animation altar3
+x 1
+y 2
+is_animated 1
+end
+arch exit1
+face altar.111
+animation altar3
+x 1
+y 3
+is_animated 1
+end

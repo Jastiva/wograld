@@ -1,0 +1,101 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <TITLE>The Edit Menu</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<h1>The Edit menu</h1>
+
+<P>
+    Often you will want to copy, move, delete or fill large areas of your map.
+    To accomplish this, you can use the appropriate commands from the Edit
+    menu.</P>
+
+<h2>Undo and Redo</h2>
+
+<p>
+    Undo allows you to undo your edits if you did make a mistake. Redo undoes an
+    undo operation. (Note that the number of possible undo operations is rather
+    limited.)</p>
+
+<h2>Clear</h2>
+
+<p>
+    By activating the Clear command, everything in the currently selected area
+    of the map will be deleted. Unlike for the Cut command, the copy buffer
+    remains unchanged.</p>
+
+<h2>Cut</h2>
+
+<p>
+    By activating the Cut command, everything in the currently selected area of
+    the map will be deleted and stored into the copy buffer.</p>
+
+<h2>Copy</h2>
+
+<p>
+    By activating the Copy command, everything in the currently selected area is
+    stored into the copy buffer. The map itself remains unchanged.</p>
+
+<p>
+    (Note that multi-part game objects will usually be copied only when their
+    "head"-tile is located within the selected area. Since the position of this
+    "head"-tile differs, expect some strange behavior there.)</p>
+
+<h2>Paste</h2>
+
+<p>
+    The Paste command allows to dump the contents of the copy buffer onto the
+    map. First, select a square on the map to be the top-left corner of the
+    pasted area. Anything which doesn't fit within the borders of the map will
+    not get pasted. Multi-part game objects which would reach outside of the map
+    borders, and be it only with their small toe, don't get pasted either.</P>
+
+<h2>Replace</h2>
+
+<p>
+    The Replace replaces (or deletes) game objects by the selection in the
+    Object Chooser.</p>
+
+<h2>Fill</h2>
+
+<p>
+    There are different fill commands:</p>
+
+<ul>
+    <li>Fill Above: if the selected map square is not empty, insert the new game
+        object above
+    <li>Fill Below: if the selected map square is not empty, insert the new game
+        object below
+    <li>Random Fill Above: same as "Fill Above" but fills only a fraction of the
+        selected map squares
+    <li>Random Fill Below: same as "Fill Below" but fills only a fraction of the
+        selected map squares
+    <li>Flood fill: if the cursor is on an empty map square, fills the cursor
+        map square and all adjacent empty map squares
+</ul>
+
+</BODY>
+</HTML>

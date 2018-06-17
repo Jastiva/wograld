@@ -1,0 +1,49 @@
+arch map
+name test for ConnectedInsideContainer map validator
+difficulty 1
+width 2
+height 4
+msg
+Created:  2010-06-24 Andreas Kirschbaum
+endmsg
+end
+arch altar1
+connected 1
+end
+arch mob1
+y 1
+arch altar1
+connected 1
+end
+end
+arch altar1
+y 2
+connected 1
+no_pick 0
+end
+arch altar1
+y 3
+connected 2
+end
+arch gate1
+x 1
+connected 1
+end
+arch mob1
+x 1
+y 1
+arch gate1
+connected 1
+end
+end
+arch gate1
+x 1
+y 2
+connected 1
+no_pick 0
+end
+arch gate1
+x 1
+y 3
+connected 3
+end

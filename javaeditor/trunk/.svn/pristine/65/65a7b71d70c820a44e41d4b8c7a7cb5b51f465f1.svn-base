@@ -1,0 +1,63 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<body>
+This package contains the checks for validating maps.
+<h3>How to create your own checks</h3>
+
+<p>The easiest way to create your own checks is this:</p>
+
+<ol>
+    <li>Extend {@link net.sf.gridarta.model.validation.AbstractValidator
+        AbstractValidator} by a class named like
+        net.sf.gridarta.map.validation.checks.MyMapChecker that additionally
+        implements one of the {@link net.sf.gridarta.model.validation.Validator
+        Validator} sub-interfaces
+    </li>
+    <li>Extend {@link net.sf.gridarta.model.validation.errors.ValidationError
+        ValidationError} or one of its subclasses by a class named like <code>net.sf.gridarta.map.model.validation.checks.MyError</code>.
+    </li>
+</ol>
+<p>Note: to use the automatic localization feature, the error class and
+    validator class must match name like the existing checkers.</p>
+
+<h3>Caveats</h3>
+
+<p>If you extend {@link net.sf.gridarta.model.validation.AbstractValidator
+    AbstractValidator} without actually really implementing one of the {@link
+    net.sf.gridarta.model.validation.Validator Validator}, your validator will
+    be a valid and compilable validator but also a dysfunctional stub. So don't
+    forget to extend the corresponding sub-interface.</p>
+
+<h3>FAQ</h3>
+<dl>
+    <dt>Do I really have to always extend {@link
+        net.sf.gridarta.model.validation.errors.ValidationError ValidationError}
+        for my validator's errors?
+    </dt>
+    <dd>Well not really. But the automatic localization of
+        <code>ValidationError</code>s depends on separate error class names.
+        Also, {@link net.sf.gridarta.model.validation.errors.CorrectableError
+        CorrectableError} depends on separate error classes.
+    </dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,324 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.io;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.util.Map;
+import net.sf.gridarta.model.anim.AnimationObjects;
+import net.sf.gridarta.model.anim.AnimationParseException;
+import net.sf.gridarta.model.anim.DuplicateAnimationException;
+import net.sf.gridarta.model.anim.IllegalAnimationException;
+import net.sf.gridarta.model.errorview.ErrorViewCategory;
+import net.sf.gridarta.model.errorview.ErrorViewCollector;
+import net.sf.gridarta.model.face.FaceObjects;
+import net.sf.gridarta.model.face.FaceObject;
+import net.sf.gridarta.utils.IOUtils;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Utility class for reading {@link AnimationObjects} from files.
+ * @author <a href="mailto:cher@riedquat.de">Christian Hujer</a>
+ * @author Andreas Kirschbaum
+ */
+public class AnimationObjectsReader {
+
+    /**
+     * Private constructor to prevent instantiation.
+     */
+    private AnimationObjectsReader() {
+    }
+
+    /**
+     * Loads animations from a file.
+     * @param animationObjects the animation objects to update
+     * @param errorViewCollector the error view collector for reporting errors
+     * @param path the animation path
+     * @param animFile file to load animations from
+     * @param startKey the key that begins an animation block; it must end with
+     * a space character
+     * @param ignoreOtherText if set, ignore all text outside animation
+     * definitions
+     * @throws IOException in case of I/O errors
+     * @throws java.io.FileNotFoundException in case the file couldn't be
+     * opened
+     * @throws AnimationParseException in case parsing the animation reveals
+     * errors
+     */
+    public static void loadAnimations(@NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, @NotNull final String path, @NotNull final File animFile, @NotNull final String startKey, final boolean ignoreOtherText) throws IOException, AnimationParseException {
+        final FileInputStream fileInputStream = new FileInputStream(animFile);
+        try {
+            final Reader inputStreamReader = new InputStreamReader(fileInputStream, IOUtils.MAP_ENCODING);
+            try {
+                loadAnimations(animationObjects, errorViewCollector, inputStreamReader, startKey, ignoreOtherText, path, null);
+            } finally {
+                inputStreamReader.close();
+            }
+        } finally {
+            fileInputStream.close();
+        }
+    }
+
+    /**
+     * Loads any number of animations from a reader. It is not necessary to
+     * provide a BufferedReader for buffering. This method will always wrap the
+     * supplied <var>reader</var> with a BufferedReader if the supplied reader
+     * isn't already a BufferedReader itself.
+     * @param animationObjects the animation objects to update
+     * @param errorViewCollector the error view collector for reporting errors
+     * @param reader the reader to load animations from
+     * @param startKey the key that begins an animation block; it must end with
+     * a space character
+     * @param ignoreOtherText if set, ignore all text outside animation
+     * definitions
+     * @param path the path relative to the arch directory, used to create tree
+     * information; either <code>animations</code> or this parameter must be
+     * non-<code>null</code>
+     * @param animations maps animation name to animation path; either
+     * <code>path</code> or this parameter must be non-<code>null</code>
+     * @throws AnimationParseException in case parsing the animation reveals
+     * errors
+     * @throws IOException in case of I/O errors
+     */
+    public static void loadAnimations(@NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, final Reader reader, @NotNull final String startKey, final boolean ignoreOtherText, @Nullable final String path, @Nullable final Map<String, String> animations) throws AnimationParseException, IOException {
+        if (path == null && animations == null) {
+            throw new IllegalArgumentException();
+        }
+        if (path != null && animations != null) {
+            throw new IllegalArgumentException();
+        }
+        final BufferedReader in = new BufferedReader(reader);
+        try {
+            int lineNumber = 1;
+            while (true) {
+                final String line2 = in.readLine();
+                if (line2 == null) {
+                    break;
+                }
+                final String line = line2.trim();
+                if (line.startsWith("#") || line.length() == 0) {
+                    /* ignore comment lines. */
+                } else if (line.startsWith(startKey)) {
+                    lineNumber += processAnimation(line.substring(startKey.length()), lineNumber, in, startKey, animationObjects, errorViewCollector, path, animations);
+                } else if (line.equals("mina") || !ignoreOtherText) {
+                    throw new AnimationParseException(startKey + "...", line2, lineNumber);
+                }
+
+                lineNumber++;
+            }
+        } finally {
+            in.close();
+        }
+    }
+    
+    /* as with seven argument loadAnimations, but using faceobjects instead of animtree */
+    public static void loadAnimations2(@NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, final Reader reader, @NotNull final String startKey, final boolean ignoreOtherText, @NotNull final FaceObjects faceObjects) throws AnimationParseException, IOException {
+        
+        final BufferedReader in = new BufferedReader(reader);
+        try {
+            int lineNumber = 1;
+            while (true) {
+                final String line2 = in.readLine();
+                if (line2 == null) {
+                    break;
+                }
+                final String line = line2.trim();
+                if (line.startsWith("#") || line.length() == 0) {
+                    /* ignore comment lines. */
+                } else if (line.startsWith(startKey)) {
+                    lineNumber += processAnimation2(line.substring(startKey.length()), lineNumber, in, startKey, animationObjects, errorViewCollector, faceObjects);
+                } else if (line.equals("mina") || !ignoreOtherText) {
+                    throw new AnimationParseException(startKey + "...", line2, lineNumber);
+                }
+
+                lineNumber++;
+            }
+        } finally {
+            in.close();
+        }
+    }
+    
+
+    /**
+     * Processes an anim..mina block.
+     * @param animName the name of this animation
+     * @param startLineNumber the line number of the anim line
+     * @param in the reader to read from
+     * @param startKey the "anim" tag name
+     * @param animationObjects the animation objects to update
+     * @param errorViewCollector the error view collector for reporting errors
+     * @param path the path relative to the arch directory, used to create tree
+     * information; either <code>animations</code> or this parameter must be
+     * non-<code>null</code>
+     * @param animations maps animation name to animation path; either
+     * <code>path</code> or this parameter must be non-<code>null</code>
+     * @return the number of processed lines
+     * @throws AnimationParseException in case parsing the animation reveals
+     * errors
+     * @throws IOException in case of I/O errors
+     */
+    private static int processAnimation(@NotNull final String animName, final int startLineNumber, @NotNull final BufferedReader in, @NotNull final String startKey, @NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, @Nullable final String path, @Nullable final Map<String, String> animations) throws AnimationParseException, IOException {
+        int lineNumber = startLineNumber;
+        final StringBuilder animText = new StringBuilder();
+        while (true) {
+            lineNumber++;
+            final String line3 = in.readLine();
+            if (line3 == null) {
+                throw new AnimationParseException("mina", "<end of file>", lineNumber);
+            }
+            final String line4 = line3.trim();
+            if (line4.startsWith("#") || line4.length() == 0) {
+                /* ignore comment lines. */
+            } else if (line4.startsWith(startKey)) {
+                throw new AnimationParseException("mina", line4, lineNumber);
+            } else if (line4.equals("mina")) {
+                processAnimationLine(animationObjects, errorViewCollector, path, animations, animName, animText.toString());
+                break;
+            } else {
+                animText.append(line4).append('\n');
+            }
+        }
+        return lineNumber - startLineNumber;
+    }
+    
+    /* as with processAnimation, but using faceObjects instead of animtree */
+    private static int processAnimation2(@NotNull final String animName, final int startLineNumber, @NotNull final BufferedReader in, @NotNull final String startKey, @NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector,@NotNull final FaceObjects faceObjects) throws AnimationParseException, IOException {
+        int lineNumber = startLineNumber;
+        final StringBuilder animText = new StringBuilder();
+        String tFirst;
+        while(true){
+            lineNumber++;
+            final String firstFrame = in.readLine();
+            if (firstFrame == null) {
+                throw new AnimationParseException("mina", "<end of file>", lineNumber);
+            }
+            tFirst = firstFrame.trim();
+            if (tFirst.startsWith("#") || tFirst.length() == 0  ) {
+                /* ignore comment lines. */
+            } else if (tFirst.startsWith(startKey)) {
+                throw new AnimationParseException("mina", tFirst, lineNumber);
+            } else if (tFirst.equals("mina")) {
+                return 1;
+            } else if (tFirst.startsWith("facings")){
+                animText.append(tFirst).append('\n');
+                // keep looking
+            }
+            else {
+                animText.append(tFirst).append('\n');
+                break;
+            }
+        }
+        while (true) {
+            lineNumber++;
+            final String line3 = in.readLine();
+            if (line3 == null) {
+                throw new AnimationParseException("mina", "<end of file>", lineNumber);
+            }
+            final String line4 = line3.trim();
+            if (line4.startsWith("#") || line4.length() == 0) {
+                /* ignore comment lines. */
+            } else if (line4.startsWith(startKey)) {
+                throw new AnimationParseException("mina", line4, lineNumber);
+            } else if (line4.equals("mina")) {
+                processAnimationLine2(animationObjects, errorViewCollector, tFirst, faceObjects, animName, animText.toString());
+                break;
+            } else {
+                animText.append(line4).append('\n');
+            }
+        }
+        return lineNumber - startLineNumber;
+    }
+    
+
+    /**
+     * Processes a complete anim..mina block.
+     * @param animationObjects the animation objects to update
+     * @param errorViewCollector the error view collector for reporting errors
+     * @param path the path relative to the arch directory, used to create tree
+     * information; either <code>animations</code> or this parameter must be
+     * non-<code>null</code>
+     * @param animations maps animation name to animation path; either
+     * <code>path</code> or this parameter must be non-<code>null</code>
+     * @param animName the name of this animation
+     * @param animText the contents of the anim..mina block without comments
+     */
+    private static void processAnimationLine(@NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, @Nullable final String path, @Nullable final Map<String, String> animations, @NotNull final String animName, @NotNull final String animText) {
+        if (path == null && animations == null) {
+            throw new IllegalArgumentException();
+        }
+
+        final String animPath;
+        if (path != null) {
+            animPath = path;
+        } else {
+            final String tmp = animations.get(animName);
+            if (tmp == null) {
+                errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, "no path found for animation: " + animName);
+                animPath = "/" + animName;
+            } else {
+                animPath = tmp;
+            }
+        }
+        try {
+            animationObjects.addAnimationObject(animName, animText, animPath);
+        } catch (final DuplicateAnimationException ex) {
+            errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, ex.getMessage());
+        } catch (final IllegalAnimationException ex) {
+            errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, "illegal animation: " + ex.getAnimationObject().getPath());
+        }
+    }
+    
+    private static void processAnimationLine2(@NotNull final AnimationObjects animationObjects, @NotNull final ErrorViewCollector errorViewCollector, String faceName,@NotNull final FaceObjects faceObjects ,@NotNull final String animName, @NotNull final String animText) {
+       
+        final String animPath;
+        
+       // final String tmp = animations.get(animName);
+        final FaceObject firstFace = faceObjects.get(faceName);
+        if(firstFace != null){
+            String tmp = firstFace.getOriginalFilename();
+            
+            if (tmp == null) {
+                    errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, "no path found for animation: " + animName);
+                    animPath = "/" + animName;
+            } else {
+                    animPath = tmp;
+            } 
+            
+        } else {
+            errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, "no path found for animation: " + animName);
+            animPath = "/" + animName;
+        }
+        
+        try {
+            animationObjects.addAnimationObject(animName, animText, animPath);
+        } catch (final DuplicateAnimationException ex) {
+            errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, ex.getMessage());
+        } catch (final IllegalAnimationException ex) {
+            errorViewCollector.addWarning(ErrorViewCategory.ANIMATIONS_ENTRY_INVALID, "illegal animation: " + ex.getAnimationObject().getPath());
+        }
+    }
+    
+
+}

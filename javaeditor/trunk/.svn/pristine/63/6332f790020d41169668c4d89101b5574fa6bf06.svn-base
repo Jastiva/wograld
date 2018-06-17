@@ -1,0 +1,133 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.var.crossfire.gui.map.renderer;
+
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Point;
+import java.awt.Rectangle;
+import javax.swing.ImageIcon;
+import net.sf.gridarta.gui.map.renderer.GridMapSquarePainter;
+import net.sf.gridarta.model.baseobject.BaseObject;
+import net.sf.gridarta.model.io.GameObjectParser;
+import net.sf.gridarta.model.mapgrid.MapGrid;
+import net.sf.gridarta.model.mapmodel.MapModel;
+import net.sf.gridarta.model.mapmodel.MapSquare;
+import net.sf.gridarta.model.mapviewsettings.MapViewSettings;
+import net.sf.gridarta.utils.CommonConstants;
+import net.sf.gridarta.var.crossfire.IGUIConstants;
+import net.sf.gridarta.var.crossfire.model.archetype.Archetype;
+import net.sf.gridarta.var.crossfire.model.gameobject.GameObject;
+import net.sf.gridarta.var.crossfire.model.maparchobject.MapArchObject;
+import org.jetbrains.annotations.NotNull;
+
+/**
+ * A {@link AbstractFlatMapRenderer} to render map files.
+ * @author Andreas Kirschbaum
+ */
+public class FlatPickmapRenderer extends AbstractFlatMapRenderer {
+
+    /**
+     * Serial Version UID.
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * Creates a new instance.
+     * @param mapViewSettings the map view settings instance to use
+     * @param mapModel the map model to render
+     * @param mapGrid the grid to render
+     * @param gridMapSquarePainter the grid square painter to use
+     * @param gameObjectParser the game object parser for creating tooltip
+     * information
+     */
+    public FlatPickmapRenderer(@NotNull final MapViewSettings mapViewSettings, @NotNull final MapModel<GameObject, MapArchObject, Archetype> mapModel, @NotNull final MapGrid mapGrid, @NotNull final GridMapSquarePainter gridMapSquarePainter, @NotNull final GameObjectParser<GameObject, MapArchObject, Archetype> gameObjectParser) {
+        super(mapViewSettings, mapModel, mapGrid, 0, gridMapSquarePainter, gameObjectParser);
+        setBackground(CommonConstants.BG_COLOR);
+        init();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateSquare(@NotNull final Point point) {
+        // nothing to do
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateSquares(@NotNull final Rectangle rectangle) {
+        // nothing to do
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateAll() {
+        // nothing to do
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void paintComponent(@NotNull final Graphics g) {
+        paintComponent(g, false, true);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void resizeBackBuffer(@NotNull final Dimension size) {
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void paintSquare(@NotNull final Graphics g, final int x, final int y, @NotNull final MapSquare<GameObject, MapArchObject, Archetype> square) {
+        g.setColor(getBackground());
+        g.fillRect(x, y, IGUIConstants.SQUARE_WIDTH, IGUIConstants.SQUARE_HEIGHT);
+        if (square.isEmpty()) {
+            return;
+        }
+
+        for (final BaseObject<?, ?, ?, ?> node : square) {
+            final ImageIcon img = node.getNormalImage();
+            final int xx;
+            final int yy;
+            if (!node.isMulti() || (img.getIconWidth() == IGUIConstants.SQUARE_WIDTH && img.getIconHeight() == IGUIConstants.SQUARE_HEIGHT)) {
+                xx = 0;
+                yy = 0;
+            } else {
+                // this is an oversized image, so it must be shifted
+                xx = IGUIConstants.SQUARE_WIDTH * (node.getArchetype().getMultiX() - node.getMinX());
+                yy = IGUIConstants.SQUARE_HEIGHT * (node.getArchetype().getMultiY() - node.getMinY());
+            }
+            g.drawImage(img.getImage(), x, y, x + IGUIConstants.SQUARE_WIDTH, y + IGUIConstants.SQUARE_HEIGHT, xx, yy, xx + IGUIConstants.SQUARE_WIDTH, yy + IGUIConstants.SQUARE_HEIGHT, this);
+        }
+    }
+
+}

@@ -1,0 +1,394 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.var.crossfire.gui.map.renderer;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
+import java.awt.image.RenderedImage;
+import java.lang.ref.SoftReference;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import net.sf.gridarta.gui.filter.FilterControl;
+import net.sf.gridarta.gui.filter.FilterState;
+import net.sf.gridarta.gui.map.renderer.GridMapSquarePainter;
+import net.sf.gridarta.model.filter.FilterConfig;
+import net.sf.gridarta.model.filter.FilterConfigChangeType;
+import net.sf.gridarta.model.filter.FilterConfigListener;
+import net.sf.gridarta.model.io.GameObjectParser;
+import net.sf.gridarta.model.mapgrid.MapGrid;
+import net.sf.gridarta.model.mapmodel.MapModel;
+import net.sf.gridarta.model.mapmodel.MapSquare;
+import net.sf.gridarta.model.mapviewsettings.MapViewSettings;
+import net.sf.gridarta.utils.SystemIcons;
+import net.sf.gridarta.var.crossfire.IGUIConstants;
+import net.sf.gridarta.var.crossfire.model.archetype.Archetype;
+import net.sf.gridarta.var.crossfire.model.gameobject.GameObject;
+import net.sf.gridarta.var.crossfire.model.maparchobject.MapArchObject;
+import org.apache.log4j.Category;
+import org.apache.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * A {@link AbstractFlatMapRenderer} to render map files.
+ * @author Andreas Kirschbaum
+ */
+public class FlatMapRenderer extends AbstractFlatMapRenderer {
+
+    /**
+     * The Logger for printing log messages.
+     */
+    @NotNull
+    private static final Category log = Logger.getLogger(FlatMapRenderer.class);
+
+    /**
+     * Serial Version UID.
+     */
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * The {@link MapModel} to render.
+     * @serial
+     */
+    @NotNull
+    private final MapModel<GameObject, MapArchObject, Archetype> mapModel;
+
+    /**
+     * The {@link FilterControl} for filtering painted game objects.
+     */
+    @NotNull
+    private final FilterControl<GameObject, MapArchObject, Archetype> filterControl;
+
+    /**
+     * The colors for highlighting.
+     * @serial
+     */
+    @NotNull
+    private final Color[] highLightMask = { new Color(1.0f, 0.0f, 0.0f, 0.33f), new Color(0.0f, 1.0f, 0.0f, 0.33f), new Color(0.0f, 1.0f, 1.0f, 0.33f), };
+
+    /**
+     * The {@link Icon} for painting empty map squares.
+     */
+    @NotNull
+    private final Icon emptySquareIcon;
+
+    /**
+     * The offset for painting the map contents.
+     * @serial
+     */
+    @NotNull
+    private final Point offset = new Point();
+
+    /**
+     * The back buffer for this map. A soft reference is used because back
+     * buffers are huge and therefore frequently cause out of memory errors when
+     * loading large and/or multiple maps.
+     */
+    @Nullable
+    private SoftReference<BufferedImage> backBufferRef = null;
+
+    /**
+     * The map view settings instance.
+     */
+    @NotNull
+    private final MapViewSettings mapViewSettings;
+
+    /**
+     * The filter state instance for this map renderer.
+     */
+    @NotNull
+    private final FilterState filterState = new FilterState();
+
+    /**
+     * The {@link SmoothingRenderer} for rendering smoothed faces.
+     */
+    @NotNull
+    private final SmoothingRenderer smoothingRenderer;
+
+    /**
+     * The {@link FilterConfigListener} attached to {@link #filterControl} to
+     * repaint all after config changes.
+     */
+    @NotNull
+    private final FilterConfigListener filterConfigListener = new FilterConfigListener() {
+
+        @Override
+        public void configChanged(@NotNull final FilterConfigChangeType filterConfigChangeType, @NotNull final FilterConfig<?, ?> filterConfig) {
+            forceRepaint();
+        }
+
+    };
+
+    /**
+     * Creates a new instance.
+     * @param mapViewSettings the map view settings instance to use
+     * @param filterControl the filter to use
+     * @param mapModel the map model to render
+     * @param mapGrid the grid to render
+     * @param gridMapSquarePainter the grid square painter to use
+     * @param gameObjectParser the game object parser for creating tooltip
+     * information
+     * @param systemIcons the system icons for creating icons
+     * @param smoothingRenderer the smoothing renderer to use
+     */
+    public FlatMapRenderer(@NotNull final MapViewSettings mapViewSettings, @NotNull final FilterControl<GameObject, MapArchObject, Archetype> filterControl, @NotNull final MapModel<GameObject, MapArchObject, Archetype> mapModel, @NotNull final MapGrid mapGrid, @NotNull final GridMapSquarePainter gridMapSquarePainter, @NotNull final GameObjectParser<GameObject, MapArchObject, Archetype> gameObjectParser, @NotNull final SystemIcons systemIcons, @NotNull final SmoothingRenderer smoothingRenderer) {
+        super(mapViewSettings, mapModel, mapGrid, 32, gridMapSquarePainter, gameObjectParser);
+        this.mapModel = mapModel;
+        emptySquareIcon = systemIcons.getEmptySquareIcon();
+        this.filterControl = filterControl;
+        this.mapViewSettings = mapViewSettings;
+        this.smoothingRenderer = smoothingRenderer;
+        init();
+        this.filterControl.addConfigListener(filterConfigListener);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void closeNotify() {
+        super.closeNotify();
+        filterControl.removeConfigListener(filterConfigListener);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateSquare(@NotNull final Point point) {
+        if (!mapModel.getMapArchObject().isPointValid(point)) {
+            return;
+        }
+
+        final Image backBuffer = getBackBufferImage();
+        if (backBuffer == null) {
+            return;
+        }
+
+        final Graphics g = backBuffer.getGraphics();
+        try {
+         //   paintSquare(g, getBorderOffsetX() + point.x * IGUIConstants.SQUARE_WIDTH, getBorderOffsetY() + point.y * IGUIConstants.SQUARE_HEIGHT, mapModel.getMapSquare(point));
+            paintSquare(g, getBorderOffsetX() + point.x * 64, getBorderOffsetY() + point.y * 64, mapModel.getMapSquare(point));
+            paintSquareGrid(g, point);
+            paintSquareSelection(g, point);
+        } finally {
+            g.dispose();
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateSquares(@NotNull final Rectangle rectangle) {
+        final Point point = new Point();
+        if (mapViewSettings.isSmoothing()) {
+            for (point.x = rectangle.x - 1; point.x < rectangle.x + rectangle.width + 1; point.x++) {
+                for (point.y = rectangle.y - 1; point.y < rectangle.y + rectangle.height + 1; point.y++) {
+                    updateSquare(point);
+                }
+            }
+        } else {
+            for (point.x = rectangle.x; point.x < rectangle.x + rectangle.width; point.x++) {
+                for (point.y = rectangle.y; point.y < rectangle.y + rectangle.height; point.y++) {
+                    updateSquare(point);
+                }
+            }
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void updateAll() {
+        final Image backBuffer = getBackBufferImage();
+        if (backBuffer == null) {
+            return;
+        }
+
+        final Graphics graphics = backBuffer.getGraphics();
+        try {
+            paintComponent(graphics, false, false);
+        } finally {
+            graphics.dispose();
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void paintComponent(@NotNull final Graphics g) {
+        final BufferedImage backBuffer = getBackBufferImage();
+        if (backBuffer != null) {
+            final int w = backBuffer.getWidth();
+            final int h = backBuffer.getHeight();
+            g.drawImage(backBuffer, 0, 0, w, h, 0, 0, w, h, null);
+        } else {
+            paintComponent(g, false, true);
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void resizeBackBuffer(@NotNull final Dimension size) {
+        final RenderedImage backBuffer = getBackBufferImage();
+        if (backBuffer != null && backBuffer.getWidth() == size.width && backBuffer.getHeight() == size.height) {
+            return;
+        }
+
+        backBufferRef = null;
+
+        if (log.isDebugEnabled()) {
+            log.debug("Creating a backbuffer of size " + size.width + "x" + size.height + ".");
+        }
+        final BufferedImage newBackBuffer;
+        //The backbuffer is optional
+        //noinspection ErrorNotRethrown
+        try {
+            newBackBuffer = new BufferedImage(size.width, size.height, BufferedImage.TYPE_INT_ARGB);
+        } catch (final OutOfMemoryError ignore) {
+            if (log.isDebugEnabled()) {
+                log.debug("out of memory creating new back buffer");
+            }
+            return;
+        }
+        final Graphics g = newBackBuffer.getGraphics();
+        try {
+            g.setColor(getBackground());
+            g.fillRect(0, 0, size.width, size.height);
+        } finally {
+            g.dispose();
+        }
+        backBufferRef = new SoftReference<BufferedImage>(newBackBuffer);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    protected void paintSquare(@NotNull final Graphics g, final int x, final int y, @NotNull final MapSquare<GameObject, MapArchObject, Archetype> square) {
+        filterControl.newSquare(filterState);
+        if (square.isEmpty()) {
+            emptySquareIcon.paintIcon(this, g, x, y);
+        } else {
+            
+         //   g.fillRect(x, y, IGUIConstants.SQUARE_WIDTH, IGUIConstants.SQUARE_HEIGHT);
+              g.fillRect(x, y, 64, 64);
+            if (mapViewSettings.isSmoothing()) {
+                final int borderOffsetX = getBorderOffsetX();
+                final int borderOffsetY = getBorderOffsetY();
+                int layer = -1;
+                for (final GameObject node : square) {
+                    if (node.getAttributeInt(GameObject.INVISIBLE, true) == 0) {
+                        layer++;
+                    }
+                    filterControl.objectInSquare(filterState, node);
+                    if (filterControl.canShow(node) && mapViewSettings.isEditType(node)) {
+                        paintGameObject(g, x, y, node);
+                        if (node.getAttributeInt(GameObject.SMOOTHLEVEL, true) > 0) {
+                            smoothingRenderer.paintSmooth(g, square.getMapLocation(), node.getAttributeInt(GameObject.SMOOTHLEVEL, true), layer, false, borderOffsetX, borderOffsetY);
+                        }
+                    }
+                }
+                if (layer > -1) {
+                    smoothingRenderer.paintSmooth(g, square.getMapLocation(), 1, layer + 1, true, borderOffsetX, borderOffsetY);
+                }
+            } else {
+                for (final GameObject node : square) {
+                    filterControl.objectInSquare(filterState, node);
+                    if (filterControl.canShow(node) && mapViewSettings.isEditType(node)) {
+                        paintGameObject(g, x, y, node);
+                    }
+                }
+            }
+        }
+        for (int i = 0; i < FilterControl.MAX_HIGHLIGHT; i++) {
+            if (filterControl.isHighlightedSquare(filterState, i)) {
+                final Color color = g.getColor();
+                g.setColor(highLightMask[i]);
+            //    g.fillRect(x, y, IGUIConstants.SQUARE_WIDTH, IGUIConstants.SQUARE_HEIGHT);
+                g.fillRect(x, y, 64, 64);
+                g.setColor(color);
+            }
+        }
+    }
+
+    /**
+     * Paints one game object.
+     * @param g the graphics to paint into
+     * @param x the x-coordinate to paint at
+     * @param y the y-coordinate to paint at
+     * @param node the game object to paint
+     */
+    private void paintGameObject(@NotNull final Graphics g, final int x, final int y, @NotNull final net.sf.gridarta.model.gameobject.GameObject<GameObject, MapArchObject, Archetype> node) {
+        final ImageIcon img = node.getImage(mapViewSettings);
+       // if (!node.isMulti() || (img.getIconWidth() == IGUIConstants.SQUARE_WIDTH && img.getIconHeight() == IGUIConstants.SQUARE_HEIGHT)) {
+         if (!node.isMulti() || (img.getIconWidth() == 64 && img.getIconHeight() == 64)) {   
+            offset.x = 0;
+            offset.y = 0;
+            // this is a test
+            // what if multi, and w,h are less than 64? mess?
+        } else {
+            // this is an oversized image, so it must be shifted
+            // XXX: it must also be clipped to not overwrite filter information
+         //   offset.x = IGUIConstants.SQUARE_WIDTH * (node.getArchetype().getMultiX() - node.getMinX());
+            offset.x = 64 * (node.getArchetype().getMultiX() - node.getMinX());
+           // offset.y = IGUIConstants.SQUARE_HEIGHT * (node.getArchetype().getMultiY() - node.getMinY());
+            offset.y = 64 * (node.getArchetype().getMultiY() - node.getMinY());
+        }
+     //   g.drawImage(img.getImage(), x, y, x + IGUIConstants.SQUARE_WIDTH, y + IGUIConstants.SQUARE_HEIGHT, offset.x, offset.y, offset.x + IGUIConstants.SQUARE_WIDTH, offset.y + IGUIConstants.SQUARE_HEIGHT, this);
+        g.drawImage(img.getImage(), x, y, x + 64, y + 64, offset.x, offset.y, offset.x + 64, offset.y + 64, this);
+    }
+
+    /**
+     * Get the back buffer image for the map. Sets {@link #backBufferRef} to
+     * <code>null</code> if the back buffer has been deleted by the garbage
+     * collector.
+     * @return the back buffer image, or <code>null</code> if the map has no
+     *         back buffer
+     */
+    @Nullable
+    private BufferedImage getBackBufferImage() {
+        if (backBufferRef == null) {
+            return null;
+        }
+
+        final BufferedImage backBuffer = backBufferRef.get();
+        if (backBuffer == null) {
+            if (log.isDebugEnabled()) {
+                log.debug("lost back buffer");
+            }
+            backBufferRef = null;
+            return null;
+        }
+
+        return backBuffer;
+    }
+
+}

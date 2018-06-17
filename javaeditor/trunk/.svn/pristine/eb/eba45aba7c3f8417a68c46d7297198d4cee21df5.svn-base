@@ -1,0 +1,40 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2010 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+# Warning: This file MUST be ISO-8859-1
+# See http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html#encoding
+#
+# Tip Of The Day
+
+tod.text.1=<html>Sie können mit Hilfe der Pfeiltasten durch die Tipps navigieren.<br>(Pfeil links / Pfeil rechts)
+tod.text.2=<html>Dieses Tipps-Fenster ist nicht modal.<p>Das bedeutet, Sie können es offen lassen, während Sie den Editor verwenden.
+tod.text.3=<html>Sie können den Editor auf die aktuelle Version aktualisieren.<p>Menü: <code>Hilfe -> Update</code>.<br>Tastatur: <kbd>Ctrl-U</kbd>.
+tod.text.4=<html>Sie können schnell zwischen geöffneten Fenstern wechseln.<p>Menü: <code>Ansicht->Vorheriges / Nächstes Fenster.</code>.<br>Tastatur: <kbd>Umschalt-Bild Auf</kbd> / <kbd>Umschalt-Bild Ab</kbd>.
+tod.text.5=<html>Wie man die Maus benutzt?<ul><li>Zum <em>Selektieren</em>, linke Maustaste.<li>Zum <em>Einfügen</em>, rechte Maustaste.<li>Zum <em>Löschen</em>: mittlere Maustaste oder Strg+rechte Maustaste.</ul>
+tod.text.6=<html>Sie können alle Felder einer Karte gleichzeitig selektieren.<p>Menü: <code>Bearbeiten -> Alles auswählen</code><br>Tastatur: <kbd>Strg-A</kbd>.
+tod.text.7=<html>Sie können die letzten 10 geöffneten Karten einfach erreichen.<p>Menü: <code>Datei -> Zuletzt geöffnet -> ...</code><br>Tastatur: <kbd>Alt-n</kbd> wobei n eine Ziffer ist (1..9, 0)
+tod.text.8=<html>Wie kann man den Editor beschleunigen?<ul><li>Vorbereitete Archetypen laden<li>Linux verwenden<li>Die aktuelle Java-Version verwenden</ul>
+tod.text.9=<html>Der Editor lädt beim Start nicht alle Bilder.<p>Diese werden erst dann geladen, wenn sie tatsächlich benötigt werden.<p>Dieses Verfahren nennt man "lazy image loading".
+tod.text.10=<html>Das Werkzeug "Zoom" unterstützt verschiedene Vergößerungsstufen.<p>Dadurch ist es ein interessantes Feature für Autoren, die Ansichten ihrer Karten veröffentlichen möchten.
+tod.text.11=<html>Viele Features haben Tooltips.<p>Bleiben Sie mit der Maus über dem Element, für das Sie Hilfe benötigen, für eine Weile stehen.
+tod.text.12=<html>Um eine Karte mit anderen Karten zu verbinden müssen Sie diese zuerst sichern.
+tod.text.13=<html>Vorsicht beim Bearbeiten von großen Karten: der Platz im Hauptspeicher könnte nicht ausreichen.<br>Vergrößern Sie die "heap size" (Parameter -Xmx beim Aufruf von java) von Gridarta, wenn Sie große Karten (bspw. 240×240) bearbeiten möchten.
+tod.text.14=<html>Es ist verblüffend, wie viele Archetypen man mit "Archetypen finden" entdecken kann.<p>Menü: <code>Archetypen -> Archetypen finden</code>.
+tod.text.15=<html>Sie können den Objekt-Editor über die Tastenkombination <code>CTRl-ALT-E</code> öffnen. Dieselbe Tastenkombination schließt ihn wieder.
+tod.text.16=<html>Sie können Karten hinter Ausgängen über <code>Karte -> Folge Ausgang...</code> oder über die Tastenkombination <code>CTRL-F12</code> öffnen.

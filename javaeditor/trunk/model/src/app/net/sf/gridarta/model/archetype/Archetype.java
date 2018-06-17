@@ -1,0 +1,200 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.archetype;
+
+import java.util.Iterator;
+import net.sf.gridarta.model.baseobject.BaseObject;
+import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.maparchobject.MapArchObject;
+import net.sf.gridarta.model.face.FaceObject;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Reflects an Archetype. This interface is part of extracting the Archetype
+ * functionality from GameObject into a class of its own. The plan is to let
+ * GameObject implement this interface and change the type of getArchetype() and
+ * other Archetype related methods from {@link GameObject} to {@link Archetype}
+ * and see what breaks. Then all method signatures are copied to this interface.
+ * Once that is done we technically know what an Archetype is and can create a
+ * class for it. Once the Archetype classes are finished, GameObject will no
+ * longer implement Archetype and we've separated Archetype from GameObject.
+ * @author <a href="mailto:cher@riedquat.de">Christian Hujer</a>
+ */
+public interface Archetype<G extends GameObject<G, A, R>, A extends MapArchObject<A>, R extends Archetype<G, A, R>> extends BaseObject<G, A, R, R> {
+
+    /**
+     * Returns all inventory objects.
+     * @return an iterator returning all inventory objects
+     */
+    @NotNull
+    @Override
+    Iterator<G> iterator();
+
+    /**
+     * Adds the given {@link GameObject} at the end of this Container.
+     * @param gameObject the free yet unlinked <code>GameObject</code> to be
+     * placed in the inventory
+     * @throws IllegalArgumentException if <var>gameObject</var> already is
+     * inside another container
+     */
+    void addLast(@NotNull G gameObject);
+
+    /**
+     * Adds the given {@link GameObject} at the beginning of this Container.
+     * @param gameObject the free yet unlinked <code>GameObject</code> to be
+     * placed in the inventory
+     * @throws IllegalArgumentException if <var>gameObject</var> already is
+     * inside another container
+     */
+    void addFirst(@NotNull G gameObject);
+
+    /**
+     * Returns the name of this archetype.
+     * @return the name
+     */
+    @NotNull
+    String getArchetypeName();
+
+    /**
+     * Sets the name of this archetype.
+     * @param archetypeName the name
+     */
+    void setArchetypeName(@NotNull String archetypeName);
+
+    /**
+     * Return whether this archetype denotes an undefined archetype.
+     * @return <code>true</code> if this archetype denotes an undefined
+     *         archetype
+     */
+    boolean isUndefinedArchetype();
+
+    /**
+     * Sets the x-position of this part of a multi-part object. The x-position
+     * is relative to the head part.
+     * @param multiX the x-distance of this part to the head part
+     */
+    void setMultiX(int multiX);
+
+    /**
+     * Sets the y-position of this part of a multi-part object. The y-position
+     * is relative to the head part.
+     * @param multiY the y-distance of this part to the head part
+     */
+    void setMultiY(int multiY);
+
+    /**
+     * Returns the x-distance of this part to the head part. For single-part
+     * objects this is always zero.
+     * @return the x-distance of this part to the head part
+     */
+    int getMultiX();
+
+    /**
+     * Returns the y-distance of this part to the head part. For single-part
+     * objects this is always zero.
+     * @return the y-distance of this part to the head part
+     */
+    int getMultiY();
+
+    /**
+     * Returns whether this part has the smallest y coordinate when painting the
+     * image.
+     * @return whether this part has the smallest y coordinate
+     */
+    boolean isLowestPart();
+
+    /**
+     * Sets whether this part has the smallest y coordinate when painting the
+     * image.
+     * @param isLowestPart whether this part has the smallest y coordinate
+     */
+    void setLowestPart(boolean isLowestPart);
+
+    /**
+     * Returns the multi shape id.
+     * @return the multi shape id
+     */
+    int getMultiShapeID();
+
+    /**
+     * Sets the multi shape id.
+     * @param multiShapeID the multi shape id
+     */
+    void setMultiShapeID(int multiShapeID);
+
+    /**
+     * Returns the multi part id.
+     * @return the multi part id
+     */
+    int getMultiPartNr();
+
+    /**
+     * Sets the multi part id.
+     * @param multiPartNr the multi part id
+     */
+    void setMultiPartNr(int multiPartNr);
+
+    /**
+     * Returns the editor folder.
+     * @return the editor folder
+     */
+    @Nullable
+    String getEditorFolder();
+
+    /**
+     * Set the editor folder.
+     * @param editorFolder the editor folder
+     */
+    void setEditorFolder(@Nullable String editorFolder);
+
+    /**
+     * Returns whether this GameObject is an Artifact. Artifacts are special
+     * forms of Archetypes, and they are excluded from Archetypes collection.
+     * @return <code>true</code> if this GameObject is an Artifact, otherwise
+     *         <code>false</code>.
+     */
+    boolean isArtifact();
+
+    /**
+     * Converts this game object into an artifact.
+     * @see #isArtifact()
+     */
+    void setArtifact();
+    
+    void set_visibility(String vis);
+    
+     void set_magicmap(String magicmap);
+               
+     void setForegroundColor(String colorFg );
+         
+     void setBackgroundColor(String colorBg);
+     
+     void setFloorStr(String isFl);
+     
+     void setQuad(String quadrant);
+     
+     void augmentFacedata();
+       
+        
+     void augmentOneFace(FaceObject faceob);
+         
+
+}

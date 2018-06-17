@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="Date" content="$Date: 2013/05/29 19:04:23 $"/>
+    <title>Game object matchers</title>
+</head>
+<body>
+<h1>Overview</h1>
+
+<p>This page explains &quot;game object matchers&quot;. Every matcher (in this
+    page the term &quot;matcher&quot; is used instead of &quot;game object
+    matcher&quot;) has a unique name and consists of a set of rules for
+    selecting game objects.</p>
+
+<p>Matchers may be marked as &quot;system&quot;. These matchers are not shown to
+    the user but may be used internally by Gridarta or by editor plugin
+    scripts.</p>
+
+<p>Gridarta uses matchers for:</p>
+<dl>
+    <dt>Map validation:</dt>
+    <dd>
+        <ul>
+            <li>All editors:
+                <br/>
+                <ul>
+                    <li>Checks for shop tiles that allow spells. Shop tiles are
+                        selected by matcher 'system_shop_tile' (or fallback
+                        'shop_tile'); denied spells are selected by matcher
+                        'system_no_spells' (or fallback 'no_spells'). If matcher
+                        'system_blocked' (or fallback blocked') exists, also
+                        checks for shop tiles with adjacent map squares that
+                        allow spells which are both not blocked. Not checked if
+                        either matcher is not defined.
+                    </li>
+                    <li>Checks for shop tiles that contain paid items. Shop
+                        tiles are selected by matcher 'system_shop_tile' (or
+                        fallback 'shop_tile'); paid items are selected by
+                        matcher 'system_paid_item'. Not checked if either
+                        matcher is not defined.
+                    </li>
+                    <li>Checks for connected objects without sources or sinks.
+                        Sources are selected by matcher
+                        'system_connection_source'; sinks are selected by
+                        matchers 'system_connection_sink' and
+                        'system_connection_sink2'.
+                    </li>
+                </ul>
+            </li>
+
+            <li>DaimoninEditor, AtrinikEditor:
+                <br/>
+                <ul>
+                    <li>Checks &quot;level&quot; and &quot;dam&quot; values
+                        within matchers 'system_monster_only', 'system_monster',
+                        or 'monster'; if no matcher is found, no check is
+                        performed; otherwise the first existing matcher is used.
+                    </li>
+                    <li>Checks &quot;attack_*&quot; and &quot;resist_*&quot;
+                        values within matcher 'system_combat_values_objects'; no
+                        check is performed if the matcher does not exist.
+                    </li>
+                    <li>Checks for valid syntax of &quot;slaying&quot;
+                        attributes within matcher 'system_environment_sensor';
+                        no check is performed if the matcher does not exist.
+                    </li>
+                </ul>
+            </li>
+            <li>CrossfireEditor:
+                <br/>
+                <ul>
+                    <li>Checks &quot;level&quot; values within matcher
+                        'system_monster'; no check is performed if the matcher
+                        does not exist.
+                    </li>
+                    <li>Checks objects matching the 'system_exit' matcher for
+                        &quot;slaying&quot; values which are not absolute paths;
+                        no check is performed if the matcher does not exist.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </dd>
+
+    <dt>Map view filtering:</dt>
+    <dd>
+        All non-system matchers are added to the &quot;View&quot; menu.
+    </dd>
+
+    <dt>Editor plugin script parameters:</dt>
+    <dd>
+        All non-system matchers can be passed to scripts accepting
+        NamedFilterConfig values.
+    </dd>
+
+    <dt>Tools:</dt>
+    <dd>
+        <ul>
+            <li>
+                The insertion and deletion tools use the 'system_floor' (or
+                fallback 'floor') matcher for selecting floor game objects.
+            </li>
+            <li>
+                The insertion and deletion tools use the 'system_wall' (or
+                fallback 'wall') matcher for selecting wall game objects.
+            </li>
+            <li>
+                The deletion tool uses the 'system_monster' (or fallback
+                'monster') matcher for selecting monster game objects.
+            </li>
+            <li>
+                The insertion tool uses the 'system_below_floor' (or fallback
+                'below_floor') matcher for selecting game objects that should be
+                inserted below floors.
+            </li>
+            <li>
+                The insertion tool uses the 'system_system_object' matcher for
+                selecting game objects that should be inserted on top of
+                non-system objects.
+            </li>
+        </ul>
+    </dd>
+
+    <dt>Game object attributes panel:</dt>
+    <dd>
+        The 'Monsters' tab uses the 'system_monster' (or fallback 'monster')
+        matcher for selecting monster game objects.
+    </dd>
+
+    <dt>'Enter Exit' action:</dt>
+    <dd>
+        The 'Enter Exit' action uses the 'system_exit' (or fallback 'exit')
+        matcher. The action is enabled if and only if the selected tile contains
+        a matching game object.
+    </dd>
+
+    <dt>'Connect Exits' actions:</dt>
+    <dd>
+        The 'Connect Exits' actions use the 'system_exit' (or fallback 'exit')
+        matcher. The action is enabled if and only if the selected tile contains
+        a matching game object.
+    </dd>
+</dl>
+
+<h1>Reference</h1>
+
+<h2>The element GameObjectMatchers</h2>
+
+<pre><![CDATA[
+    <!ELEMENT GameObjectMatchers (GameObjectMatcher+)>
+]]></pre>
+
+<p>The file GameObjectMatchers.xml consists of a set of &lt;GameObjectMatcher&gt;
+    elements. The order of the elements is ignored.</p>
+
+<h2>The element GameObjectMatcher</h2>
+
+<pre><![CDATA[
+    <!ELEMENT GameObjectMatcher (title+,Env?,%Match;)>
+    <!ATTLIST GameObjectMatcher
+        id CDATA #IMPLIED
+        system (true|false) 'false'
+    >
+]]></pre>
+
+A &lt;GameObjectMatcher&gt; element defines a matcher. Matchers are identified
+by name (as specified in the &quot;id&quot; attribute). These names must be
+unique.
+
+Matchers marked as 'system=&quot;true&quot;' are not directly available to the
+user; they are hidden from the GUI.
+
+<h2>The title element</h2>
+
+<pre><![CDATA[
+    <!ELEMENT title (#PCDATA)>
+    <!ATTLIST title
+        xml:lang CDATA #REQUIRED
+    >
+]]></pre>
+
+A title attaches a human readable title to a matcher. Multiple titles may be
+defined to support multiple languages.
+
+Currently supported languages are: 'en' for English, 'de' for German, 'sv' for
+Swedish, and 'fr' for French. Lookup is done with the user interface language.
+If no such title exists, 'en' is used. If this also fails, the matchers 'id'
+attribute is used.
+
+Example:
+<pre><![CDATA[
+    <title xml:lang="en">Wall</title><title xml:lang="de">Wand</title>
+]]></pre>
+This uses 'Wand' for German and 'Wall' for any other language.
+
+<h2>Matchers</h2>
+
+<pre><![CDATA[
+    <!ENTITY % Match "(And|Or|Attrib|TypeNrs)">
+    <!ENTITY % Matches "%Match;+">
+]]></pre>
+
+Different kinds of matchers exist; the following paragraphs explain the
+different kinds. The kind of a matcher is defined by an &lt;And&gt;, &quot;Or&quot;,
+etc. element.
+
+<h3>The And element</h3>
+
+<pre><![CDATA[
+    <!ELEMENT And (%Matches;)>
+]]></pre>
+
+Matchers of type 'And' match if all child matchers do match.
+
+<h3>The Or element</h3>
+
+<pre><![CDATA[
+    <!ELEMENT Or (%Matches;)>
+]]></pre>
+
+Matchers of type 'Or' match if at least one child matcher does match.
+
+<h3>The Attrib element</h3>
+
+<pre><![CDATA[
+    <!ELEMENT Attrib EMPTY>
+    <!ATTLIST Attrib
+        useArchetype (true|false) 'true'
+        name NMTOKEN #REQUIRED
+        value CDATA '1'
+        op (eq|ne|ge|gt|le|lt) 'eq'
+    >
+]]></pre>
+
+Matchers of type 'Attrib' check an game object attribute's value.
+
+The 'name' attribute specifies the game object attribute's name; it is required.
+The 'value' attribute specifies the expected attribute value; it's value
+defaults to &quot;1&quot;.
+
+Note that checks for zero integer values must be written as
+<pre><![CDATA[
+    <Attrib name="connected" value="">
+]]></pre>
+since zero values are identical to missing attributes. Missing attributes match
+the empty string.
+
+The 'op' attribute specifies how the attribute's value is compared to the
+expected value: eq=equal, ne=not equal, ge=greater or equal, gt=greater, le=less
+or equal, lt=less. If omitted, 'eq' is assumed.
+
+The 'type' attribute may be set to "int" to compare the attribute values as
+integers. If omitted or set to "string", a string comparison is used.
+
+The 'useArchetype' attribute specifies whether the archetype's value should be
+used if the game object does not define a value; it defaults to 'true' which is
+the normal behavior for the server. If set to 'false', a matcher can check for
+game objects having non-default attributes.
+
+<h3>The TypeNrs element</h3>
+
+<pre><![CDATA[
+    <!ELEMENT TypeNrs EMPTY>
+    <!ATTLIST TypeNrs
+        numbers CDATA #REQUIRED
+    >
+]]></pre>
+
+The 'TypeNrs' element checks for game object types. The 'numbers' attribute
+specifies a list of type numbers to match.
+
+<h2>The Env element</h2>
+
+<pre><![CDATA[
+    <!ELEMENT Env ((%Match;)?)>
+]]></pre>
+
+A matcher may optionally include an &lt;Env&gt; element. If it is present, this
+matcher applies only to game objects in the inventory of game objects matching
+the &lt;Env&gt; matcher. (Inventory here means direct or indirect inventory.) If
+the &lt;Env&gt; element does not contain a matcher definition, this matcher
+applies to all game objects in inventories.
+
+<h1>Examples</h1>
+
+<h2>Match game objects with types 3 or 4</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <TypeNrs numbers="3 4"/>
+    </GameObjectMatcher>
+]]></pre>
+
+<h2>Match game objects with a damage attribute between 10 and 15</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <And>
+            <Attrib name="damage" type="int" value="10" op="ge"/>
+            <Attrib name="damage" type="int" value="15" op="le"/>
+        </And>
+    </GameObjectMatcher>
+]]></pre>
+
+<h2>Match game objects having the slaying attribute</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <Attrib name="slaying" value="" op="ne"/>
+    </GameObjectMatcher>
+]]></pre>
+
+<h2>Match game objects having a slaying attribute differing from the archetype's
+    default</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <Attrib name="slaying" value="" op="ne" useArchetype="false"/>
+    </GameObjectMatcher>
+]]></pre>
+
+<h2>Match game objects with type 3 in inventories</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <Env/>
+        <TypeNrs numbers="3"/>
+    </GameObjectMatcher>
+]]></pre>
+
+<h2>Match game objects with type 3 in inventories of game objects having type
+    4</h2>
+
+<pre><![CDATA[
+    <GameObjectMatcher id="name">
+        <Env>
+            <TypeNrs numbers="4"/>
+        </Env>
+        <TypeNrs numbers="3"/>
+    </GameObjectMatcher>
+]]></pre>
+
+</body>
+</html>

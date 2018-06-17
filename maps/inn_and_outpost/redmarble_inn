@@ -1,0 +1,1714 @@
+arch map
+name Wanderer Inn
+difficulty 1
+region scorn
+width 16
+height 16
+enter_x 7
+enter_y 15
+msg
+Created:  1993-10-15
+Modified: 2008-01-13 Kevin Bulgrien
+endmsg
+end
+arch grass_br_gr
+end
+arch grass
+y 1
+smoothlevel 0
+move_block swim boat
+end
+arch grass_br_gr
+y 1
+end
+arch grass_br_gr
+y 2
+end
+arch grass_br_gr
+y 3
+end
+arch lostlabfloor9
+y 4
+end
+arch woodwall_2_2_2
+y 4
+end
+arch lostlabfloor9
+y 5
+end
+arch woodwall_2_1_1
+y 5
+end
+arch lostlabfloor9
+y 6
+end
+arch woodwall_2_1_1
+y 6
+end
+arch lostlabfloor9
+y 7
+end
+arch woodwall_2_1_1
+y 7
+end
+arch beigemarble
+y 8
+end
+arch woodwall_2_1_1
+y 8
+end
+arch beigemarble
+y 9
+end
+arch woodwall_2_1_1
+y 9
+end
+arch beigemarble
+y 10
+end
+arch woodwall_2_1_1
+y 10
+end
+arch redmarble
+y 11
+end
+arch woodwall_3_2
+y 11
+end
+arch redmarble
+y 12
+end
+arch woodwall_2_1_1
+y 12
+end
+arch redmarble
+y 13
+end
+arch woodwall_2_1_1
+y 13
+end
+arch redmarble
+y 14
+end
+arch woodwall_2_1_1
+y 14
+end
+arch redmarble
+y 15
+end
+arch woodwall_2_2_1
+y 15
+end
+arch grass_br_gr
+x 1
+end
+arch grass_br_gr
+x 1
+y 1
+end
+arch grass_br_gr
+x 1
+y 2
+end
+arch grass_br_gr
+x 1
+y 3
+end
+arch lostlabfloor9
+x 1
+y 4
+end
+arch swall_1_4_half
+x 1
+y 4
+end
+arch woodwall_1_3
+x 1
+y 4
+end
+arch lostlabfloor9
+x 1
+y 5
+end
+arch bed_save
+x 1
+y 5
+end
+arch lostlabfloor9
+x 1
+y 6
+end
+arch lostlabfloor9
+x 1
+y 7
+end
+arch button_lever
+x 1
+y 7
+connected 1
+end
+arch beigemarble
+x 1
+y 8
+end
+arch igate_closed_1
+x 1
+y 8
+connected 1
+end
+arch beigemarble
+x 1
+y 9
+end
+arch button_lever
+x 1
+y 9
+connected 1
+end
+arch beigemarble
+x 1
+y 10
+end
+arch redmarble
+x 1
+y 11
+end
+arch woodwall_1_3
+x 1
+y 11
+end
+arch redmarble
+x 1
+y 12
+end
+arch redmarble
+x 1
+y 13
+end
+arch redmarble
+x 1
+y 14
+end
+arch redmarble
+x 1
+y 15
+end
+arch woodwall_2_1_2
+x 1
+y 15
+end
+arch grass_br_gr
+x 2
+end
+arch grass_br_gr
+x 2
+y 1
+end
+arch grass_br_gr
+x 2
+y 2
+end
+arch grass_br_gr
+x 2
+y 3
+end
+arch lostlabfloor9
+x 2
+y 4
+end
+arch swall_2_1_2
+x 2
+y 4
+end
+arch lostlabfloor9
+x 2
+y 5
+end
+arch lostlabfloor9
+x 2
+y 6
+end
+arch chair_1.1
+x 2
+y 6
+end
+arch lostlabfloor9
+x 2
+y 7
+end
+arch table
+x 2
+y 7
+end
+arch beigemarble
+x 2
+y 8
+end
+arch woodwall_1_4
+x 2
+y 8
+end
+arch beigemarble
+x 2
+y 9
+end
+arch beigemarble
+x 2
+y 10
+end
+arch button_lever
+x 2
+y 10
+connected 96
+end
+arch redmarble
+x 2
+y 11
+end
+arch igate_closed_1
+x 2
+y 11
+connected 96
+end
+arch redmarble
+x 2
+y 12
+end
+arch button_lever
+x 2
+y 12
+connected 96
+end
+arch redmarble
+x 2
+y 13
+end
+arch redmarble
+x 2
+y 14
+end
+arch bed_save
+x 2
+y 14
+end
+arch redmarble
+x 2
+y 15
+end
+arch woodwall_2_1_2
+x 2
+y 15
+end
+arch grass
+x 3
+smoothlevel 0
+move_block swim boat
+end
+arch grass_br_gr
+x 3
+end
+arch grass_br_gr
+x 3
+y 1
+end
+arch grass_br_gr
+x 3
+y 2
+end
+arch grass_br_gr
+x 3
+y 3
+end
+arch lostlabfloor9
+x 3
+y 4
+end
+arch swall_1_3_half
+x 3
+y 4
+end
+arch woodwall_2_2_2
+x 3
+y 4
+end
+arch lostlabfloor9
+x 3
+y 5
+end
+arch woodwall_2_1_1
+x 3
+y 5
+end
+arch lostlabfloor9
+x 3
+y 6
+end
+arch woodwall_2_1_1
+x 3
+y 6
+end
+arch lostlabfloor9
+x 3
+y 7
+end
+arch woodwall_2_1_1
+x 3
+y 7
+end
+arch beigemarble
+x 3
+y 8
+end
+arch woodwall_2_2_4
+x 3
+y 8
+end
+arch beigemarble
+x 3
+y 9
+end
+arch beigemarble
+x 3
+y 10
+end
+arch redmarble
+x 3
+y 11
+end
+arch woodwall_1_4
+x 3
+y 11
+end
+arch redmarble
+x 3
+y 12
+end
+arch table_burl_3
+x 3
+y 12
+end
+arch redmarble
+x 3
+y 13
+end
+arch chair_2.3
+x 3
+y 13
+end
+arch redmarble
+x 3
+y 14
+end
+arch bed_save
+x 3
+y 14
+end
+arch redmarble
+x 3
+y 15
+end
+arch woodwall_2_1_2
+x 3
+y 15
+end
+arch grass_br_gr
+x 4
+end
+arch grass_br_gr
+x 4
+y 1
+end
+arch grass_br_gr
+x 4
+y 2
+end
+arch grass_br_gr
+x 4
+y 3
+end
+arch tile_white_floor
+x 4
+y 4
+end
+arch swall_1_4_half
+x 4
+y 4
+end
+arch woodwall_1_3
+x 4
+y 4
+end
+arch tile_white_floor
+x 4
+y 5
+end
+arch bed_save
+x 4
+y 5
+end
+arch tile_white_floor
+x 4
+y 6
+end
+arch tile_white_floor
+x 4
+y 7
+end
+arch button_lever
+x 4
+y 7
+connected 2
+end
+arch beigemarble
+x 4
+y 8
+end
+arch igate_closed_1
+x 4
+y 8
+connected 2
+end
+arch beigemarble
+x 4
+y 9
+end
+arch button_lever
+x 4
+y 9
+connected 2
+end
+arch beigemarble
+x 4
+y 10
+end
+arch redmarble
+x 4
+y 11
+end
+arch woodwall_2_1_2
+x 4
+y 11
+end
+arch redmarble
+x 4
+y 12
+end
+arch chair_2.2
+x 4
+y 12
+end
+arch redmarble
+x 4
+y 13
+end
+arch redmarble
+x 4
+y 14
+end
+arch redmarble
+x 4
+y 15
+end
+arch woodwall_2_1_2
+x 4
+y 15
+end
+arch grass_br_gr
+x 5
+end
+arch grass_br_gr
+x 5
+y 1
+end
+arch grass
+x 5
+y 2
+end
+arch tree4
+x 5
+y 2
+end
+arch grass_br_gr
+x 5
+y 3
+end
+arch tile_white_floor
+x 5
+y 4
+end
+arch swall_2_1_2
+x 5
+y 4
+end
+arch tile_white_floor
+x 5
+y 5
+end
+arch tile_white_floor
+x 5
+y 6
+end
+arch chair_1.1
+x 5
+y 6
+end
+arch tile_white_floor
+x 5
+y 7
+end
+arch table
+x 5
+y 7
+end
+arch beigemarble
+x 5
+y 8
+end
+arch woodwall_1_4
+x 5
+y 8
+end
+arch beigemarble
+x 5
+y 9
+end
+arch beigemarble
+x 5
+y 10
+end
+arch redmarble
+x 5
+y 11
+end
+arch swall_1_4_half
+x 5
+y 11
+end
+arch woodwall_2_2_3
+x 5
+y 11
+end
+arch redmarble
+x 5
+y 12
+end
+arch woodwall_2_1_1
+x 5
+y 12
+end
+arch redmarble
+x 5
+y 13
+end
+arch woodwall_2_1_1
+x 5
+y 13
+end
+arch redmarble
+x 5
+y 14
+end
+arch woodwall_2_1_1
+x 5
+y 14
+end
+arch redmarble
+x 5
+y 15
+end
+arch woodwall_3_1
+x 5
+y 15
+end
+arch grass_br_gr
+x 6
+end
+arch grass_br_gr
+x 6
+y 1
+end
+arch grass
+x 6
+y 2
+end
+arch tree4
+x 6
+y 2
+end
+arch grass
+x 6
+y 3
+end
+arch tile_white_floor
+x 6
+y 4
+end
+arch swall_1_3_half
+x 6
+y 4
+end
+arch woodwall_2_2_2
+x 6
+y 4
+end
+arch tile_white_floor
+x 6
+y 5
+end
+arch woodwall_2_1_1
+x 6
+y 5
+end
+arch tile_white_floor
+x 6
+y 6
+end
+arch woodwall_2_1_1
+x 6
+y 6
+end
+arch tile_white_floor
+x 6
+y 7
+end
+arch woodwall_2_1_1
+x 6
+y 7
+end
+arch beigemarble
+x 6
+y 8
+end
+arch woodwall_2_2_4
+x 6
+y 8
+end
+arch beigemarble
+x 6
+y 9
+end
+arch beigemarble
+x 6
+y 10
+end
+arch redmarble
+x 6
+y 11
+end
+arch swall_2_1_2
+x 6
+y 11
+end
+arch redmarble
+x 6
+y 12
+end
+arch chair_wv_1.1
+x 6
+y 12
+end
+arch redmarble
+x 6
+y 13
+end
+arch table_3
+x 6
+y 13
+end
+arch redmarble
+x 6
+y 14
+end
+arch clock
+x 6
+y 14
+end
+arch redmarble
+x 6
+y 15
+end
+arch woodwall_1_3
+x 6
+y 15
+end
+arch grass_br_gr
+x 7
+end
+arch grass_br_gr
+x 7
+y 1
+end
+arch grass
+x 7
+y 2
+end
+arch grass
+x 7
+y 3
+end
+arch woodfloor
+x 7
+y 4
+end
+arch swall_1_4_half
+x 7
+y 4
+end
+arch woodwall_1_3
+x 7
+y 4
+end
+arch redmarble
+x 7
+y 5
+end
+arch bed_save
+x 7
+y 5
+end
+arch redmarble
+x 7
+y 6
+end
+arch redmarble
+x 7
+y 7
+end
+arch button_lever
+x 7
+y 7
+connected 3
+end
+arch beigemarble
+x 7
+y 8
+end
+arch igate_closed_1
+x 7
+y 8
+connected 3
+end
+arch beigemarble
+x 7
+y 9
+end
+arch button_lever
+x 7
+y 9
+connected 3
+end
+arch beigemarble
+x 7
+y 10
+end
+arch redmarble
+x 7
+y 11
+end
+arch swall_2_1_2
+x 7
+y 11
+end
+arch redmarble
+x 7
+y 12
+end
+arch chair_wv_1.1
+x 7
+y 12
+end
+arch redmarble
+x 7
+y 13
+end
+arch table_3
+x 7
+y 13
+end
+arch book_read
+name Guestbook
+msg
+Guests:         From:      To:
+=====================================
+- Lord Murky    14/12-134  16/12-134
+- Sir Gwain     15/12-134  25/12-134
+- Lord Skud     19/12-134   4/ 1-135
+- Sir Gwendale  25/12-134   2/ 1-135
+- Mr Pompel      1/ 1-135
+- Sir Wse        2/ 1-135   3/ 1-135
+endmsg
+x 7
+y 13
+end
+arch redmarble
+x 7
+y 14
+end
+arch exit
+slaying /world/world_105_112
+hp 14
+sp 16
+x 7
+y 15
+end
+arch redmarble
+x 7
+y 15
+end
+arch door_look_1
+x 7
+y 15
+no_pass 0
+end
+arch grass_br_gr
+x 8
+end
+arch grass_br_gr
+x 8
+y 1
+end
+arch grass_br_gr
+x 8
+y 2
+end
+arch grass_br_gr
+x 8
+y 3
+end
+arch redmarble
+x 8
+y 4
+end
+arch swall_2_1_2
+x 8
+y 4
+end
+arch redmarble
+x 8
+y 5
+end
+arch redmarble
+x 8
+y 6
+end
+arch chair_1.1
+x 8
+y 6
+end
+arch redmarble
+x 8
+y 7
+end
+arch table
+x 8
+y 7
+end
+arch beigemarble
+x 8
+y 8
+end
+arch woodwall_1_4
+x 8
+y 8
+end
+arch beigemarble
+x 8
+y 9
+end
+arch beigemarble
+x 8
+y 10
+end
+arch redmarble
+x 8
+y 11
+end
+arch swall_1_3
+x 8
+y 11
+end
+arch redmarble
+x 8
+y 12
+end
+arch chair_cw_1.1
+x 8
+y 12
+end
+arch chair_wv_1.1
+x 8
+y 12
+end
+arch redmarble
+x 8
+y 13
+end
+arch table_3
+x 8
+y 13
+end
+arch redmarble
+x 8
+y 14
+end
+arch exit
+slaying /world/world_105_112
+hp 14
+sp 16
+x 8
+y 15
+end
+arch redmarble
+x 8
+y 15
+end
+arch door_look_1
+x 8
+y 15
+no_pass 0
+end
+arch grass_br_gr
+x 9
+end
+arch grass_br_gr
+x 9
+y 1
+end
+arch grass_br_gr
+x 9
+y 2
+end
+arch grass_br_gr
+x 9
+y 3
+end
+arch woodfloor
+x 9
+y 4
+end
+arch swall_1_3_half
+x 9
+y 4
+end
+arch woodwall_2_2_2
+x 9
+y 4
+end
+arch redmarble
+x 9
+y 5
+end
+arch woodwall_2_1_1
+x 9
+y 5
+end
+arch redmarble
+x 9
+y 6
+end
+arch woodwall_2_1_1
+x 9
+y 6
+end
+arch redmarble
+x 9
+y 7
+end
+arch woodwall_2_1_1
+x 9
+y 7
+end
+arch beigemarble
+x 9
+y 8
+end
+arch woodwall_2_2_4
+x 9
+y 8
+end
+arch beigemarble
+x 9
+y 9
+end
+arch beigemarble
+x 9
+y 10
+end
+arch redmarble
+x 9
+y 11
+end
+arch redmarble
+x 9
+y 12
+end
+arch redmarble
+x 9
+y 13
+end
+arch redmarble
+x 9
+y 14
+end
+arch sign
+name Help
+msg
+To save, Apply a handle into
+a room, then Apply the bed.
+To get out Apply one of the
+doors.
+endmsg
+x 9
+y 14
+end
+arch redmarble
+x 9
+y 15
+end
+arch woodwall_1_4
+x 9
+y 15
+end
+arch grass_br_gr
+x 10
+end
+arch grass_br_gr
+x 10
+y 1
+end
+arch grass_br_gr
+x 10
+y 2
+end
+arch grass_br_gr
+x 10
+y 3
+end
+arch redmarble
+x 10
+y 4
+end
+arch swall_1_4_half
+x 10
+y 4
+end
+arch woodwall_1_3
+x 10
+y 4
+end
+arch redmarble
+x 10
+y 5
+end
+arch bed_save
+x 10
+y 5
+end
+arch redmarble
+x 10
+y 6
+end
+arch redmarble
+x 10
+y 7
+end
+arch button_lever
+x 10
+y 7
+connected 4
+end
+arch beigemarble
+x 10
+y 8
+end
+arch igate_closed_1
+x 10
+y 8
+connected 4
+end
+arch beigemarble
+x 10
+y 9
+end
+arch button_lever
+x 10
+y 9
+connected 4
+end
+arch beigemarble
+x 10
+y 10
+end
+arch redmarble
+x 10
+y 11
+end
+arch redcwall_2_2_2
+x 10
+y 11
+end
+arch redmarble
+x 10
+y 12
+end
+arch woodwall_2_1_1
+x 10
+y 12
+end
+arch redmarble
+x 10
+y 13
+end
+arch woodwall_2_1_1
+x 10
+y 13
+end
+arch redmarble
+x 10
+y 14
+end
+arch woodwall_2_1_1
+x 10
+y 14
+end
+arch redmarble
+x 10
+y 15
+end
+arch woodwall_3_1
+x 10
+y 15
+end
+arch grass_br_gr
+x 11
+end
+arch grass_br_gr
+x 11
+y 1
+end
+arch grass_br_gr
+x 11
+y 2
+end
+arch grass_br_gr
+x 11
+y 3
+end
+arch redmarble
+x 11
+y 4
+end
+arch swall_2_1_2
+x 11
+y 4
+end
+arch redmarble
+x 11
+y 5
+end
+arch redmarble
+x 11
+y 6
+end
+arch chair_1.1
+x 11
+y 6
+end
+arch redmarble
+x 11
+y 7
+end
+arch table
+x 11
+y 7
+end
+arch redmarble
+x 11
+y 8
+end
+arch woodwall_1_4
+x 11
+y 8
+end
+arch redmarble
+x 11
+y 9
+end
+arch redmarble
+x 11
+y 10
+end
+arch redmarble
+x 11
+y 11
+end
+arch redcwall_2_1_2
+x 11
+y 11
+end
+arch redmarble
+x 11
+y 12
+end
+arch table_burl_3
+x 11
+y 12
+end
+arch redmarble
+x 11
+y 13
+end
+arch chair_2.3
+x 11
+y 13
+end
+arch redmarble
+x 11
+y 14
+end
+arch redmarble
+x 11
+y 15
+end
+arch redcwall_2_1_2
+x 11
+y 15
+end
+arch grass_br_gr
+x 12
+end
+arch grass_br_gr
+x 12
+y 1
+end
+arch grass_br_gr
+x 12
+y 2
+end
+arch grass_br_gr
+x 12
+y 3
+end
+arch redmarble
+x 12
+y 4
+end
+arch swall_1_3_half
+x 12
+y 4
+end
+arch woodwall_2_2_2
+x 12
+y 4
+end
+arch redmarble
+x 12
+y 5
+end
+arch woodwall_2_1_1
+x 12
+y 5
+end
+arch redmarble
+x 12
+y 6
+end
+arch woodwall_2_1_1
+x 12
+y 6
+end
+arch redmarble
+x 12
+y 7
+end
+arch woodwall_2_1_1
+x 12
+y 7
+end
+arch redmarble
+x 12
+y 8
+end
+arch woodwall_2_2_4
+x 12
+y 8
+end
+arch redmarble
+x 12
+y 9
+end
+arch redmarble
+x 12
+y 10
+end
+arch redmarble
+x 12
+y 11
+end
+arch redcwall_2_1_2
+x 12
+y 11
+end
+arch redmarble
+x 12
+y 12
+end
+arch chair_2.2
+x 12
+y 12
+end
+arch redmarble
+x 12
+y 13
+end
+arch redmarble
+x 12
+y 14
+end
+arch bed_save
+x 12
+y 14
+end
+arch redmarble
+x 12
+y 15
+end
+arch redcwall_2_1_2
+x 12
+y 15
+end
+arch grass_br_gr
+x 13
+end
+arch grass_br_gr
+x 13
+y 1
+end
+arch grass_br_gr
+x 13
+y 2
+end
+arch grass_br_gr
+x 13
+y 3
+end
+arch redmarble
+x 13
+y 4
+end
+arch swall_1_4_half
+x 13
+y 4
+end
+arch woodwall_1_3
+x 13
+y 4
+end
+arch redmarble
+x 13
+y 5
+end
+arch bed_save
+x 13
+y 5
+end
+arch redmarble
+x 13
+y 6
+end
+arch redmarble
+x 13
+y 7
+end
+arch button_lever
+x 13
+y 7
+connected 5
+end
+arch redmarble
+x 13
+y 8
+end
+arch igate_closed_1
+x 13
+y 8
+connected 5
+end
+arch redmarble
+x 13
+y 9
+end
+arch button_lever
+x 13
+y 9
+connected 5
+end
+arch redmarble
+x 13
+y 10
+end
+arch button_lever
+x 13
+y 10
+connected 6
+end
+arch redmarble
+x 13
+y 11
+end
+arch igate_closed_1
+x 13
+y 11
+connected 6
+end
+arch redmarble
+x 13
+y 12
+end
+arch button_lever
+x 13
+y 12
+connected 6
+end
+arch redmarble
+x 13
+y 13
+end
+arch redmarble
+x 13
+y 14
+end
+arch bed_save
+x 13
+y 14
+end
+arch redmarble
+x 13
+y 15
+end
+arch redcwall_2_1_2
+x 13
+y 15
+end
+arch grass_br_gr
+x 14
+end
+arch grass_br_gr
+x 14
+y 1
+end
+arch grass_br_gr
+x 14
+y 2
+end
+arch grass_br_gr
+x 14
+y 3
+end
+arch redmarble
+x 14
+y 4
+end
+arch swall_2_1_2
+x 14
+y 4
+end
+arch redmarble
+x 14
+y 5
+end
+arch redmarble
+x 14
+y 6
+end
+arch chair_1.1
+x 14
+y 6
+end
+arch redmarble
+x 14
+y 7
+end
+arch table
+x 14
+y 7
+end
+arch redmarble
+x 14
+y 8
+end
+arch woodwall_1_4
+x 14
+y 8
+end
+arch redmarble
+x 14
+y 9
+end
+arch redmarble
+x 14
+y 10
+end
+arch redmarble
+x 14
+y 11
+end
+arch redcwall_2_1_2
+x 14
+y 11
+end
+arch redmarble
+x 14
+y 12
+end
+arch redmarble
+x 14
+y 13
+end
+arch redmarble
+x 14
+y 14
+end
+arch redmarble
+x 14
+y 15
+end
+arch redcwall_2_1_2
+x 14
+y 15
+end
+arch grass_br_gr
+x 15
+end
+arch grass_br_gr
+x 15
+y 1
+end
+arch grass_br_gr
+x 15
+y 2
+end
+arch grass_br_gr
+x 15
+y 3
+end
+arch redmarble
+x 15
+y 4
+end
+arch woodwall_1_1
+x 15
+y 4
+end
+arch swall_1_3_half
+x 15
+y 4
+end
+arch redmarble
+x 15
+y 5
+end
+arch woodwall_2_1_1
+x 15
+y 5
+end
+arch redmarble
+x 15
+y 6
+end
+arch woodwall_2_1_1
+x 15
+y 6
+end
+arch redmarble
+x 15
+y 7
+end
+arch woodwall_2_1_1
+x 15
+y 7
+end
+arch redmarble
+x 15
+y 8
+end
+arch woodwall_3_4
+x 15
+y 8
+end
+arch redmarble
+x 15
+y 9
+end
+arch woodwall_2_1_1
+x 15
+y 9
+end
+arch redcwall_2_1_1
+x 15
+y 9
+end
+arch redmarble
+x 15
+y 10
+end
+arch woodwall_2_1_1
+x 15
+y 10
+end
+arch redcwall_2_1_1
+x 15
+y 10
+end
+arch redmarble
+x 15
+y 11
+end
+arch redcwall_2_1_2
+x 15
+y 11
+end
+arch redcwall_3_4
+x 15
+y 11
+end
+arch redmarble
+x 15
+y 12
+end
+arch redcwall_2_1_1
+x 15
+y 12
+end
+arch redmarble
+x 15
+y 13
+end
+arch woodwall_2_1_1
+x 15
+y 13
+end
+arch redcwall_2_1_1
+x 15
+y 13
+end
+arch redmarble
+x 15
+y 14
+end
+arch woodwall_2_1_1
+x 15
+y 14
+end
+arch redcwall_2_1_1
+x 15
+y 14
+end
+arch redmarble
+x 15
+y 15
+end
+arch redcwall_2_2_4
+x 15
+y 15
+end

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="Date" content="$Date: 2013/05/29 19:04:20 $"/>
+    <title>Validators</title>
+</head>
+<body>
+<h1>Overview</h1>
+
+<p>This page explains &quot;validators&quot;. Validators check for problems in
+    maps. There are three types of validators:</p>
+
+<ul>
+    <li>game object validators: these validators check single game objects.</li>
+    <li>square validators: these validators check problems related to a single
+        map square. They process all game objects on the map square.
+    </li>
+    <li>map validators: these validators check problems related to game objects
+        located on different map squares (on a single map) or related to map
+        attributes.
+    </li>
+</ul>
+
+<h1>Reference</h1>
+
+<p>Map validators are defined in the editor specific messages.properties
+    file.</p>
+
+<p>A validator is defined by the key &quot;validator.&lt;id&gt;&quot;. The first
+    validator uses &lt;id&gt; 0; all following validators use increasing
+    numbers. Duplicate numbers are invalid (but not detected and therefore no
+    warning message occurs; one of these definitions is ignored). Definitions
+    following a missing are ignored (and also not detected).</p>
+
+<p>The value for the keys are: <code>&lt;class name&gt; &lt;optional parameters&gt;</code>.
+</p>
+
+<p>&lt;class name&gt; is the Java class name that implements the validator; it
+    must be a subclass of <code>net.sf.gridarta.validation.Validator</code>.</p>
+
+<p>&lt;optional parameters&quot; are parameters for the validator. Acceptable
+    values depend on the class name.</p>
+
+<p>The following sections describe all validators defined by Gridarta.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.AttributeRangeChecker</h2>
+
+<p>This game object validator is used internally by Gridarta. Explicit
+    instantiation is not useful.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.BlockedMobOrSpawnPointChecker
+    type...</h2>
+
+<p>This square validator checks that mobs or spawn points aren't on blocked
+    squares. &quot;type...&quot; is a comma separated list of game object types
+    to check.</p>
+
+<p>A square is considered blocked if at least one game object on that square as
+    the attribute &quot;no_pass&quot; set to a non-zero value.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.BlockedSpawnPointChecker
+    type...</h2>
+
+<p>This map validator checks that spawn points aren't completely blocked. &quot;type...&quot;
+    is a comma separated list of game object types to check.</p>
+
+<p>A spawn point (an object that has one of the given types) may place a new mob
+    on some map squares around itself. The number of map squares to check is
+    given in the spawn point's &quot;last_heal&quot; attribute. The value zero
+    means only the spawn point's square. The value 1 means the spawn point and
+    the map square directly north of it. Higher values add more map squares
+    clockwise.</p>
+
+<p>A square is considered blocked if at least one game object on that square as
+    the attribute &quot;no_pass&quot; set to a non-zero value.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.ConnectedInsideContainerChecker</h2>
+
+<p>A game object validator that checks for game objects having a non-empty
+    &quot;connected&quot; attribute and that are in the inventory of another
+    game object.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.ConnectedPickableChecker</h2>
+
+<p>A game object validator that checks for game objects having a non-empty
+    &quot;connected&quot; attribute and that are &quot;no_pick 0&quot;.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.ConnectionChecker source_matcher
+    sink_matcher sink2_matcher</h2>
+
+<p>A map validator that checks for valid &quot;connected&quot; attributes:</p>
+
+<ul>
+    <li>A game object defines the &quot;connected&quot; attribute but is not
+        supposed to do so.
+    </li>
+    <li>A specific &quot; connected&quot; value appears only in connection
+        sources but in no connection sinks. These connections are not useful
+        because they have no effect when triggered.
+    </li>
+    <li>A specific &quot; connected&quot; value appears only in connection sinks
+        but in no connection sources. These connections are not useful because
+        they cannot be triggered.
+    </li>
+</ul>
+
+<p>A game object is considered a connection source if the game object matcher
+    &quot;source_matcher&quot; matches the game object.</p>
+
+<p>A game object is considered a connection sink if either of the game object
+    matchers &quot;sink_matcher&quot; or &quot;sink2_matcher&quot; matches the
+    game object.</p>
+
+<p>A game object is not supposed to define a &quot;connected&quot; attribute if
+    it is neither a connection source nor a connection sink.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.CustomTypeChecker from,to[,env]</h2>
+
+<p>A game object validator that checks that the &quot;type&quot; attribute is
+    not changed from the archetype's default value.</p>
+
+<p>The parameters &quot;from,to&quot; or &quot;from,to,env&quot; define allowed
+    exceptions: a change from archetype's type &quot;from&quot; to game object's
+    type &quot;to&quot; is allowed. The form &quot;from,to,env&quot; restricts
+    the allowed change for game objects in the inventory of game objects with
+    type &quot;env&quot;.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.DoubleLayerChecker</h2>
+
+<p>A square validator that checks that no layer within a given map square
+    contains more than one game object. The layer of a game object is given by
+    its &quot;layer&quot; attribute. The layer 0 is ignored; no warnings are
+    reported for game objects on layer 0.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.DoubleTypeChecker</h2>
+
+<p>A square validator that checks that a given map square does not contain two
+    or more game objects having the same &quot;type&quot; attribute value.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.EmptySpawnPointChecker type...</h2>
+
+<p>A game object validator that checks that spawn points are not empty. A spawn
+    point is a game object having one of the given types. &quot;type...&quot; is
+    a comma separated list.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.EnvironmentChecker</h2>
+
+<p>A game object validator that checks game object environments according to
+    &lt;map&gt; and &lt;inv&gt; specifications in "types.xml". This game object
+    validator is used internally by Gridarta. Explicit instantiation is not
+    useful.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.ExitChecker type</h2>
+
+<p>A game object validator that checks for exit game objects having an invalid
+    &quot;slaying&quot; attribute. An exit is a game object having the given
+    type.</p>
+
+<p>A &quot;slaying&quot; attribute is considered valid if</p>
+
+<ul>
+    <li>it is empty or</li>
+    <li>it contains the value &quot;/!&quot; or</li>
+    <li>it references to an existing file in the maps directory (and that file
+        is not a directory)
+    </li>
+</ul>
+
+<p>Note: relative &quot;slaying&quot; paths are not checked if the map has not
+    yet been saved. In this case there exists no base path to resolve the
+    relative path against.</p>
+
+<h2>
+    net.sf.gridarta.model.validation.checks.net.sf.gridarta.model.validation.checks
+    cmd arg...</h2>
+
+<p>A map validator that runs an external command and reports reported problems.
+    The script must not run longer than one second; after that it is forcibly
+    terminated.</p>
+
+<p>The command and arguments may contain the following placeholders. The
+    placeholder ${MAP} must occur at least once in the arguments.</p>
+
+<ul>
+    <li>${ARCH} the arch directory</li>
+    <li>${COLLECTED}the collected directory</li>
+    <li>${MAP} the map to check. This is a temporary file which might not be
+        located below ${MAPS}.
+    </li>
+    <li>${MAPS} the maps directory</li>
+</ul>
+
+<p>The command is searched on all paths given in the environment variable "PATH"
+    if it is relative.</p>
+
+<p>The script's output is one problem per line. No headers before the messages
+    or footers after the messages are allowed. A line matching &quot;&lt;x&gt;
+    &lt;y&gt; &lt;message&gt;&quot; is reported as a per map square warning. Any
+    other lines are reported as per map warnings.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.MapDifficultyChecker min max</h2>
+
+<p>A map validator that checks that the &quot;difficulty&quot; map attribute is
+    within &quot;min..max&quot; (inclusive).</p>
+
+<h2>net.sf.gridarta.model.validation.checks.MobOutsideSpawnPointChecker
+    type...</h2>
+
+<p>A game object validator that checks that mobs are not outside spawn points. A
+    mob is any game object that is placed directly on a map (but not in an
+    inventory) and has one of the given types. &quot;type...&quot; is a comma
+    separated list.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.PaidItemShopSquareChecker
+    shop_matcher paid_item_matcher</h2>
+
+<p>A map validator that checks for shop squares that contain paid items.</p>
+
+<p>A map square is considered a shop square if at least one of the contained
+    game objects matches the game object matcher &quot;shop_matcher&quot;.</p>
+
+<p>A paid game object is a game object that matches the game object matcher
+    &quot;paid_item_matcher&quot;.</p>
+
+<p>Note: game object within inventories are not checked.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.ShopSquareChecker shop_matcher
+    no_spells_matcher</h2>
+
+<p>A map validator that checks for shop squares which allow magic or
+    prayers.</p>
+
+<p>A map square is considered a shop square if at least one of the contained
+    game objects matches the game object matcher &quot;shop_matcher&quot;.</p>
+
+<p>A map square is considered to block spells if at least one of the contained
+    game objects matches the game object matcher
+    &quot;no_spells_matcher&quot;.</p>
+
+<p>Note: game object within inventories are not checked.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.SlayingChecker pattern
+    matcher,pattern</h2>
+
+<h2>net.sf.gridarta.model.validation.checks.SquareWithoutFloorChecker
+    type...</h2>
+
+<p>A square validator that checks that all squares include a floor game object.
+    A game object is considered a floor game object if it has one of the given
+    types. &quot;type...&quot; is a comma separated list.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.SysObjectNotOnLayerZeroChecker</h2>
+
+<p>A game object validator that checks that system objects are placed on layer
+    zero. A game object is a system object if it has &quot;sys_object 1&quot;. A
+    game object's layer is defined by the &quot;layer&quot; attribute.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.TilePathsChecker number</h2>
+
+<p>A map validator that checks for valid tile paths. The parameter &quot;number&quot;
+    defines how many tile paths are checked. Typically this is either 4 (north,
+    east, south, west only) or 8 (all directions).</p>
+
+<p>A map path is considered valid if</p>
+
+<ul>
+    <li>it is empty or</li>
+    <li>it references to an existing file in the maps directory (and that file
+        is not a directory)
+    </li>
+</ul>
+
+<h2>net.sf.gridarta.model.validation.checks.UndefinedArchetypeChecker</h2>
+
+<p>A game object validator that reports game objects referencing undefined
+    archetypes.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.UndefinedFaceChecker</h2>
+
+<p>A game object validator that reports game objects referencing undefined
+    faces.</p>
+
+<h2>net.sf.gridarta.model.validation.checks.UnsetSlayingChecker type...
+    allowed...</h2>
+
+<p>A game object validator that checks for not customized &quot;slaying&quot;
+    attribute values. &quot;type...&quot; is a command separated list and
+    specifies the game objects to check.</p>
+
+<p>&quot;allowed...quot; is a space separated list of &quot;slaying&quot;
+    attributes values. If the game object's archetype defaults to an allowed
+    value, the game object is not checked.</p>
+
+<p>A game object is flagged if it's &quot;slaying&quot; attribute is unmodified
+    from its archetype's default.</p>
+
+<h2>
+    net.sf.gridarta.var.crossfire.model.validation.checks.NonAbsoluteExitPathChecker
+    exit_matcher</h2>
+
+<p>A game object validator that checks for relative exit paths within unique
+    maps. Such paths do not work reliably in Crossfire and Atrinik.</p>
+
+<p>A game object is considered an exit if it matches the game object matcher
+    &quot;exit_matcher&quot;.</p>
+
+<p>A map is a unique map if it sets the &quot;unique&quot; map attribute.</p>
+
+<p>A map path is considered valid if</p>
+
+<ul>
+    <li>it is empty or</li>
+    <li>it starts with the character '/'
+    </li>
+</ul>
+
+</body>
+</html>

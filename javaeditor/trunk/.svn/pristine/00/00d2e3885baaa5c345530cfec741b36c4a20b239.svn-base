@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Gridarta Transaction System</title>
+</head>
+<body>
+<h1>Gridarta Transaction System</h1>
+
+<p>
+    The Gridarta editor (currently daimonin only, in future crossfire as well)
+    has a transaction system. This document describes the current and future
+    purposes of the transaction system. </p>
+
+<h2>History</h2>
+
+<p>
+    Originally the transaction system was developed during reimplementing the
+    maps as model view controller. Before I (Cher) started working on the
+    editor, the code looked like being model view controller but it wasn't. The
+    central point of model view controller is not naming classes model, view and
+    control or whatever. The central point of model view controller is a message
+    system and a view registry so each time the model changes, all registered
+    views are notified and updated automatically. In Java, this is done via
+    event listeners. This was missing. </p>
+
+<p>
+    When adding the event listeners to the map MVC, the system might have run
+    into the problem that for instance when deleting a whole selected region, an
+    event would be fired for every single deleted object, resulting in bulky
+    slow behavior. I've added a transaction system that's first purpose was to
+    group changes to the model so only the last change actually fires an event.
+    The typical call sequence is: <code>beginTransaction()</code>, perform
+    changes, <code>endTransaction()</code>. The event will be fired when <code>endTransaction()</code>
+    is called. </p>
+
+<p>
+    The transaction system supports nesting. That means if a call sequence is:
+    <code>beginTransaction()</code> ... <code>beginTransaction()</code> ...
+    <code>endTransaction()</code> ... <code>endTransaction()</code>, only the
+    last <code>endTransaction()</code> actually fires an event. In case an
+    exception occurs, the transaction system also supports an <code>endAllTransactions()</code>,
+    and for completeness I've added a <code>getTransactionDepth()</code> method.
+</p>
+
+<h2>Future / New Requirements</h2>
+
+<p>
+    There are some requirements that could also be fulfilled using the
+    transaction system. </p>
+
+<ul>
+    <li>The transaction system could support undo / redo by creating a backup
+        and storing that in the undo buffer each time the outermost transaction
+        ends.
+    </li>
+    <li>To support undo/redo, transactions need names. The name of the outermost
+        transaction determines the name of the undo / redo operation as visible
+        to the user.
+    </li>
+    <li>An implementation of undo/redo via such a transaction system would also
+        automatically provide undo/redo to scripts and plugins that change maps.
+    </li>
+    <li>If used for scripts and plugins, the transaction system should also
+        provide rollback.
+    </li>
+</ul>
+</body>
+</html>

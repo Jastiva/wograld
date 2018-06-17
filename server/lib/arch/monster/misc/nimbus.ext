@@ -1,0 +1,154 @@
+#! perl
+
+# handle the nimbus map and other stuff
+
+my @STATS = qw(
+   Str Dex Con Wis Cha Int Pow
+   wc ac hp maxhp sp maxsp grace maxgrace
+   exp food dam luck
+);
+
+sub stats_get($) {
+   my ($stats, $save) = @_;
+
+   for my $stat (@STATS) {
+      $save->{$stat} = $stats->$stat;
+   }
+   
+   $save
+}
+
+sub stats_set($$) {
+   my ($stats, $save) = @_;
+
+   for my $stat (@STATS) {
+      $stats->$stat ($save->{$stat});
+   }
+
+   $stats->hp    ($stats->maxhp);
+   $stats->grace ($stats->maxgrace);
+   $stats->food  (999);
+}
+
+sub skills_get($) {
+   my ($ob) = @_;
+
+   +{
+      map +($_->skill => $_->stats->exp),
+         grep $_->type == cf::SKILL,
+            $ob->inv
+   }
+}
+
+sub skills_set($$) {
+   my ($ob, $skills) = @_;
+
+   for my $skill (grep $_->type == cf::SKILL, $ob->inv) {
+      my $name = $skill->skill;
+
+      if ($skill->stats->exp < $skills->{$name}) {
+         $skill->stats->exp ($skills->{$name});
+         $ob->player_lvl_adj ($skill);
+      }
+   }
+}
+
+# called when the player will likely die (modulo explore mode)
+# but before any stats/exp is changed
+sub on_player_death {
+   my ($ob) = @_;
+
+   my $pl = $ob->contr;
+
+   # save player stats and experience to restore it later
+
+   unless ($ob->{in_nimbus}) {
+      my $save = {
+         stats      => stats_get $ob->stats,
+         orig_stats => stats_get $pl->orig_stats,
+         savebed    => [$pl->get_savebed],
+         skill_exp  => skills_get $ob,
+      };
+
+      $ob->{in_nimbus} = $save;
+
+      $ob->message ("\n");
+      $ob->message ("You start to feel dizzy.\n");
+      $ob->message ("The world around you blurs.\n");
+      $ob->message ("\n");
+   }
+
+   my $path = sprintf "%s/%s/%s/%s",
+      cf::localdir, cf::playerdir, $ob->name, "nimbus";
+
+   if ($ob->map->path ne $path) {
+      my $nimbus = cf::map::get_map "/schmorp/nimbus";
+      $nimbus->set_path ($path);
+      $nimbus->set_unique (1);
+      
+      $pl->set_savebed ($path, 24, 12);
+   }
+
+   0
+}
+
+sub teleport {
+   my ($pl, $map, $x, $y) = @_;
+
+   return if $pl->ob->map->path eq $map
+          && abs ($pl->ob->x - $x) <= 1
+          && abs ($pl->ob->y - $y) <= 1;
+
+   my $portal = cf::object::new "exit";
+
+   $portal->set_slaying ($map);
+   $portal->set_hp      ($x);
+   $portal->set_sp      ($y);
+
+   $portal->apply ($pl->ob);
+
+   $portal->free;
+}
+
+sub on_trigger {
+   my ($event, $porter, $ob) = @_;
+
+   my $options = $event->options;
+   my $pl = $ob->contr;
+   my @savebed;
+
+   if (my $save = delete $ob->{in_nimbus}) {
+      @savebed = @{$save->{savebed}};
+
+      if ($options eq "restore") {
+         $ob->message ("The gods acknowledge your success.\n");
+         stats_set $ob->stats, $save->{stats};
+         stats_set $pl->orig_stats, $save->{orig_stats};
+         $ob->player_lvl_adj; # update overall level
+         skills_set $ob, $save->{skill_exp};
+      } else {
+         $ob->message ("The gods are disappointed with you.\n");
+      }
+
+   } else {
+      @savebed = ("/scorn/taverns/inn", 10, 5);
+   }
+
+   $pl->set_savebed (@savebed);
+
+   my $map = $ob->map;
+
+   teleport $pl, @savebed;
+
+   # should make this a temporary map and let cf deal with it
+   unlink $map->path;
+   unlink $map->path . ".cfperl";
+   $map->delete_map;
+
+   $pl->play_sound_player_only (cf::SOUND_PLAYER_DIES);
+
+   $ob->message ("You feel as if you woke up from a dream.\n");
+   $ob->message ("You have a headache.\n");
+   $ob->message ("Maybe you should have a drink.\n");
+
+   1

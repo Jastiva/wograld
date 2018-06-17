@@ -1,0 +1,70 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>Treasurelists Producing Multi Items</title>
+</head>
+<body>
+
+<p>
+    <a href="treasurelists.html"><img src="back.gif" width="42" height="22" align="bottom" naturalsizeflag="3" border="0">Back</a>
+
+<h1>Treasurelists producing multiple items</h1>
+
+<p>You can recognize this type of treasurelist by the icon:
+    <img src="treasure_list.png" width="32" height="20" align="bottom" alt="[multi]">.
+    Such a treasurelist can produce multiple items from the list. Items with no
+    chance set are always generated - others are only generated when they
+    succeed a random-roll at the given chance.</p>
+
+<h2>Example for a treasurelist producing multiple items</h2>
+
+<p>Look at the example below, the "giant" treasurelist:</p>
+
+<p>Club, throwing skill and boulders will always be generated. Gold coins have a
+    chance of 65% to be generated, and there is only a 10% chance that one item
+    out of the giant_parts list is generated.</p>
+
+<p>Numbers like in "<b>80</b> goldcoin" indicate that if chance succeeds, a
+    stack of 1-80 gold coins can appear.</p>
+
+<p>
+    <img src="treasure3.jpg" width="242" height="202" align="center" alt="Treasurelist 'giant'">
+</p>
+
+<h2>Example for a treasurelist using YES/NO option</h2>
+
+<p>Note that chances of different items do not influence each other in any way.
+    However, the YES/NO option allows to set dependencies between items. Look at
+    the example below, the "goblin" treasurelist:</p>
+
+<p>There is a 10% chance for the bow to be generated. Now <b>if</b> the bow is
+    generated, automatically arrows are generated too.</p>
+
+<p>There is a 5% chance for the sword to be generated. If that fails, the short
+    sword has a 10% chance to be generated. If that fails again, there is a 15%
+    chance for the dagger.</p>
+
+<p>
+    <img src="treasure4.jpg" width="277" height="366" align="center" alt="Treasurelist 'goblin">
+</p>
+
+</body>
+</html>

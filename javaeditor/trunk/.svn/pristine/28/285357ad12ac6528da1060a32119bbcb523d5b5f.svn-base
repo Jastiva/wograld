@@ -1,0 +1,165 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>Map Properties</title>
+</head>
+<body>
+
+<p>
+    <a href="start.html"><img src="back.gif" width="42" height="22" align="BOTTOM" naturalsizeflag="3" border="0">Back</a>
+</p>
+
+<h1>Modifying the map properties</h1>
+
+<p>Every map has "global properties": Reset time settings, map text, etc. These
+    can be viewed and modified by selecting menu "Map->Map Properties".</p>
+
+<h2><a name="properties">Map properties tab</a></h2>
+
+This tab contains general properties of the map.
+
+<p><b>Name:</b> The in-game map name as the player sees it. It can be viewed
+    with the Crossfire command "mapinfo".</p>
+
+<p><b>Region:</b> The in-game region name of this map. It can be viewed with the
+    Crossfire command "mapinfo".</p>
+
+<p><b>Width, Height:</b> The map size in tiles. You can resize the map by
+    entering a new value. Selecting a larger map size inserts empty map squares
+    to the right and/or bottom; selecting a smaller map size cuts off a part
+    from the right and/or bottom.</p>
+
+<p><b>Unique map:</b> If set, this entire map is unique. Exactly unique to what
+    will depend on how it is used (It could be a per player unique map, or maybe
+    a common map that is just permanent for all the players). Generally,
+    "unique" means the map never loses its state when it resets.</p>
+
+<p><b>Outdoor map:</b> This is a very important attribute. It must be set for
+    all outdoor maps. An outdoor map is a map which is not meant to have a
+    "ceiling" of any kind. If your map contains grass and trees or rocks and
+    hills, it is most likely an outdoor map and you should set this flag.</p>
+
+<p><b>Fixed reset:</b> If enabled, the map reset countdown will not start over
+    when someone enters the map. Thus, once the map has been loaded, it will
+    reset in after <a href="#parameters">"Reset Timeout"</a> seconds, no matter
+    what access happens. This is very useful for shops and towns which are
+    constantly accessed, but should be reset periodically.</p>
+
+<p><b>Nosmooth map:</B> If enabled, no faces in this map will be smoothed.</p>
+
+<h2><a name="description">Description tab</a></h2>
+
+<p>This textfield is meant to contain the map creator's name, and the date when
+    the map was created or last modified. If you are planning to publish your
+    maps on the net or get them into the official Crossfire distribution then
+    <b>please write your name into that textfield for every map you create</b>.
+    This information with shown in the Crossfire "mapinfo" command.</p>
+
+<h2><a name="lore">Lore tab</a></h2>
+
+<p>If your map has some kind of "lore" attached to it, you should add it
+    here.</p>
+
+<h2><a name="parameters">Parameters tab</a></h2>
+
+<p><b>Enter X, Y:</b> These values represent the location where players get
+    inserted if entering through an exit that has no destination coordinates
+    set. Usage of this functionality is <b>not advisable</b>. It might even
+    happen that these attributes get removed in future.</p>
+
+<p><b>Difficulty:</b> This value stores the map difficulty. If set to zero, the
+    server code will try to come up with a reasonable difficulty value.</p>
+
+<p><b>Darkness:</b> Light/darkness of the map (overall). If 0, all of the map is
+    fully bright. Maximum darkness is 5.</p>
+
+<p><b>Swap time:</b>: This controls how many ticks must elapse after the map has
+    not been used before it gets swapped out. Swapping out is different than
+    reset, as a swapped out map will get loaded back into memory if someone
+    re-visits it before it is reset. Zero means the server takes a certain
+    default value.</p>
+
+<p>Don't modify this value unless you know exactly what you're doing.</p>
+
+<p><b>Reset timeout:</b> Stores the number of seconds that need to elapse before
+    this map will be reset. For instance, if set to 1800, the map expires after
+    30 minutes. If set to zero, a default value is applied.</p>
+
+<h2><a name="shop">Shop tab</a></h2>
+
+This tab specifies parameters for shopkeeper.
+
+<p><b>Shop type:</b> This field specifies which items the shop trades in. It is
+    a semicolon delimited list of item types and values. For a potion shop it
+    might be
+<pre>
+potion:95;*:-80
+</pre>
+This example means that the shop is interested in "potion"s (with a value of
+95%) and not interested in any other item (with a value of -80%).</p>
+
+<p><b>Greed:</b> Specifies how greedy the shopkeeper is. It is a multiplier on
+    all prices offered. Items brought from the player are done so at a price
+    divided by the greed; items sold to a player are overcharged by a factor of
+    shopgreed.</p>
+
+<p><b>Upper price limit:</b> The shopkeeper will not like items that are more
+    value than this limit. It does not mean the shopkeeper will not buy such
+    item; he just will not pay well. The price is given in silver coins.</p>
+
+<p><b>Lower price limit:</b> The shopkeeper will not buy items that are less
+    value than this limit. The price is given in silver coins.</p>
+
+<p><b>Race:</b> Specifies the player race the shopkeeper likes. If set, the
+    shopkeeper offers only 80% for players <em>not</em> matching.</p>
+
+<h2><a name="weather">Weather tab</a></h2>
+
+<p>This tab contains weather related settings. All values are just base values
+    and will be modified by the weather code. Also, the settings only affect
+    "world" maps.</p>
+
+<p><b>These attributes are yet not fully implemented. Please use them only when
+    you know exactly how they work!</b></p>
+
+<p><b>Temperature:</b> Specifies the overall temperature of the map.</p>
+
+<p><b>Pressure:</b> Specifies the overall pressure of the map.</p>
+
+<p><b>Humidity:</b> Specifies the overall humidity of the map.</p>
+
+<p><b>Wind speed:</b> Specifies the overall wind speed of the map.</p>
+
+<p><b>Wind direction:</b> Specifies the overall wind direction of the map. It
+    should be a value between 1 and 8.</p>
+
+<p><b>Sky setting:</b> ???</p>
+
+<h2><a name="map_tiles">Map tiles tab</a></h2>
+
+<p>These entries determine what map is tiled in that direction. Map tiling is a
+    feature that lets multiple maps be connected, effectively forming a much
+    larger single map. This is most useful for the outdoor world maps, where it
+    is not practical to have one massive map, but the old style tiling
+    method.</p>
+
+</body>
+</html>

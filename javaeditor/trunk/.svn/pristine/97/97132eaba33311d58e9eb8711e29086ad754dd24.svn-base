@@ -1,0 +1,25 @@
+arch map
+name test for Environment map validator
+difficulty 1
+width 2
+height 3
+msg
+Created:  2011-06-27 Andreas Kirschbaum
+Modified: 2011-06-28 ank
+endmsg
+end
+arch player1
+end
+arch mob1
+y 1
+arch player1
+end
+end
+arch creator
+y 2
+arch player1
+end
+end
+arch disease1
+x 1
+end

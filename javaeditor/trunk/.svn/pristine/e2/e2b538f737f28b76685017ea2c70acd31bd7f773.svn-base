@@ -1,0 +1,73 @@
+How to run the editor:
+^^^^^^^^^^^^^^^^^^^^^
+Simply run the jar file "CrossfireEditor.jar" in the main directory.
+In Windows this is done by a double-click on "CrossfireEditor.jar".
+In Linux/Unix you type in the console: "java -jar CrossfireEditor.jar".
+
+If you have enough memory, it is recommended to run the editor
+with a higher maximum memory size, like 128 Mb:
+"java -jar -Xmx128m CrossfireEditor.jar"
+(Note that in this way, the editor won't *always* use 128 Mb.
+It will only use that much when it is required.)
+
+
+In case there is no jar file available, that means you will need
+to compile the editor from the sources first. Read next paragraph.
+
+
+How to build the CrossfireEditor from sources:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you have checked out the Gridarta sources from SVN, or
+downloaded a "developer version", then you've got the Java sources.
+Now you can modify the Java code, you can add classes, but please
+don't move or rename any directories.
+
+When you find yourself in the position that you want to compile the
+Java sources for the editor, you need Apache Ant. Visit
+<http://ant.apache.org/> for more information about Ant.
+
+
+Compiling the sources:
+^^^^^^^^^^^^^^^^^^^^^
+Install Ant on your system. Make sure both the JAVA_HOME
+and ANT_HOME environment variables are set correctly.
+
+Change into the crossfire sub-directory or the Gridarta directory.
+On the console type "ant" - that's all.
+
+
+(Note that, if you want, you can also run the editor with
+ant by typing "ant run". This does exactly the same as
+"java -jar CrossfireEditor.jar".)
+
+
+How to create a CrossfireEditor release package:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+A "release" version is meant to be a complete running version of
+the CrossfireEditor, without sources. A binary so to speak, though for
+Java the most suitable thing is a jar file.
+The jar file will contain everything except pickmaps, hence a
+release package should only contain these two things:
+Jar file and pickmaps.
+
+1. Run Ant to create the jar file "CrossfireEditor.jar" (see above).
+
+2. Assemble jar file and pickmaps in the following directory tree:
+
+   crossfire/
+       resource/
+           pickmaps/
+               [all pickmap files]
+       CrossfireEditor.jar
+       ChangeLog
+
+3. Zip the package in a widely available compression format.
+   Preferably use tar.gz as this is available both on Unix/Linux
+   and windows (winzip).
+
+
+System requirements & Supported Java Versions:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You need at least 128 MB of system RAM and 400 MHz CPU speed
+in order to run the editor. It has been reported to work
+on systems with lesser specs, but the speed was very slow.

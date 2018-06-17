@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE module PUBLIC
+        "-//Puppy Crawl//DTD Check Configuration 1.2//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_2.dtd"
+        ><!--
+  - Checkstyle configuration that checks the sun coding conventions from:
+  -
+  -   * the Java Language Specification at
+  -     http://java.sun.com/docs/books/jls/second_edition/html/index.html
+  -
+  -   * the Sun Code Conventions at http://java.sun.com/docs/codeconv/
+  -
+  -   * the Javadoc guidelines at
+  -     http://java.sun.com/j2se/javadoc/writingdoccomments/index.html
+  -
+  -   * the JDK Api documentation http://java.sun.com/j2se/docs/api/index.html
+  -
+  -   * some best practices
+  -
+  - Checkstyle is very configurable. Be sure to read the documentation at
+  - http://checkstyle.sf.net (or in your downloaded distribution).
+  -
+  - Most Checks are configurable, be sure to consult the documentation.
+  -
+  - To completely disable a check, just comment it out or delete it from the file.
+  -
+  - Finally, it is worth reading the documentation.
+  -->
+
+<module name="Checker">
+    <module name="TreeWalker">
+        <!-- Checks for imports                              --><!-- See http://checkstyle.sf.net/config_import.html -->
+        <module name="AvoidStarImport"/>
+        <module name="IllegalImport"/>
+        <!-- defaults to sun.* packages -->
+        <module name="RedundantImport"/>
+        <module name="UnusedImports"/>
+
+
+        <!-- Modifier Checks                                    --><!-- See http://checkstyle.sf.net/config_modifiers.html -->
+        <module name="ModifierOrder"/>
+        <!--module name="RedundantModifier"/-->
+
+
+        <!-- Checks for common coding problems               --><!-- See http://checkstyle.sf.net/config_coding.html --><!--module name="AvoidInlineConditionals"/-->
+        <module name="DoubleCheckedLocking"/>
+        <!-- MY FAVOURITE -->
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <!--module name="HiddenField"/ Hiding fields is intentional in setters and constructors. -->
+        <module name="IllegalInstantiation"/>
+        <module name="InnerAssignment"/>
+        <!--module name="MagicNumber"/ FIXME enable me! -->
+        <module name="MissingSwitchDefault"/>
+        <!--module name="RedundantThrows"/ NOTE: don't enable me, redundant throws are a form of documentation. -->
+        <module name="SimplifyBooleanExpression"/>
+        <module name="SimplifyBooleanReturn"/>
+
+        <!-- Checks for class design                         --><!-- See http://checkstyle.sf.net/config_design.html --><!--module name="DesignForExtension"/ NOTE: don't enable me, I'm stupid and don't recognize this project isn't a framework. -->
+        <module name="FinalClass"/>
+        <module name="HideUtilityClassConstructor"/>
+        <module name="InterfaceIsType"/>
+        <module name="VisibilityModifier"/>
+
+
+        <!-- Miscellaneous other checks.                   --><!-- See http://checkstyle.sf.net/config_misc.html -->
+        <module name="ArrayTypeStyle"/>
+        <!--module name="FinalParameters"/ FIXME enable me! -->
+        <module name="GenericIllegalRegexp">
+            <property name="format" value="\s+$"/>
+            <property name="message" value="Line has trailing spaces."/>
+        </module>
+        <!--module name="TodoComment"/ FIXME enable me! -->
+        <module name="UpperEll"/>
+    </module>
+</module>

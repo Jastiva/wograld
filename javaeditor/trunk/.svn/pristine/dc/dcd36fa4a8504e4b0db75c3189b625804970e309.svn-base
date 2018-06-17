@@ -1,0 +1,71 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2011 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+selection.icon=misc/Select16
+selection.shortdescription=Select regions of the map.
+deletion.icon=misc/Delete16
+deletion.shortdescription=Delete objects.
+insertion.icon=misc/Insert16
+insertion.shortdescription=Insert objects.
+void.icon=misc/Void16
+void.shortdescription=Do nothing (makes selected mouse button inactive).
+left=left
+middle=middle
+right=right
+mouse=Mouse button
+
+selectionToolAutoFill.text=Auto-fill selection
+selectionToolAutoFill.shortdescription=Automatically fill the selected area.
+selectionTool.mode.text=Mode:
+selectionTool.mode.shortdescription=<html>Selects the insertion mode:<br>auto=guess insertion point depending on object type<br>topmost=insert above existing objects<br>above floor=insert right above floor<br>below floor=insert right below floor<br>bottom=insert below existing objects
+selectionTool.mode.auto=auto
+selectionTool.mode.topmost=topmost
+selectionTool.mode.aboveFloor=above floor
+selectionTool.mode.belowFloor=below floor
+selectionTool.mode.bottommost=bottommost
+
+deletionTool.delete.text=Delete:
+deletionTool.delete.shortdescription=<html>Selects the objects to delete:<br>topmost object=only the topmost object in scope<br>all=all objects in scope<br>bottommost object=only the bottommost object in scope
+deletionTool.delete.top=topmost object
+deletionTool.delete.all=all objects
+deletionTool.delete.bottom=bottommost object
+
+deletionTool.scope.text=Scope:
+deletionTool.scope.shortdescription=<html>Selects the scope to delete:<br>square=all objects in the square<br>above floor=only objects above floor objects<br>below floor=only objects below floor objects<br>selected object=objects matching the Object Chooser's selection<br>wall=all wall objects<br>floor=all floor objects
+deletionTool.scope.square=square
+deletionTool.scope.aboveFloor=above floor
+deletionTool.scope.belowFloor=below floor
+deletionTool.scope.selectedObject=selected object
+deletionTool.scope.wall=wall
+deletionTool.scope.floor=floor
+
+deletionToolExceptionsIgnoreWalls.text=ignore walls
+deletionToolExceptionsIgnoreWalls.shortdescription=Prevents walls from being deleted.
+deletionToolExceptionsIgnoreFloors.text=ignore floors
+deletionToolExceptionsIgnoreFloors.shortdescription=Prevents floors from being deleted.
+deletionToolExceptionsIgnoreMonsters.text=ignore monsters
+deletionToolExceptionsIgnoreMonsters.shortdescription=Prevents monsters from being deleted.
+
+insertionTool.mode.text=Mode:
+insertionTool.mode.shortdescription=<html>Selects the insertion mode:<br>auto=guess insertion point depending on object type<br>topmost=insert above existing objects<br>above floor=insert right above floor<br>below floor=insert right below floor<br>bottom=insert below existing objects
+insertionTool.mode.auto=auto
+insertionTool.mode.topmost=topmost
+insertionTool.mode.aboveFloor=above floor
+insertionTool.mode.belowFloor=below floor
+insertionTool.mode.bottommost=bottommost

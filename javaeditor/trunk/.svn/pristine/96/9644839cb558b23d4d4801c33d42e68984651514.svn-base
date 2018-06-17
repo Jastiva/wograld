@@ -1,0 +1,60 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2010 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+# Warning: This file MUST be ISO-8859-1
+# See http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html#encoding
+
+application.name=Gridarta für Crossfire
+mainWindow.title=Gridarta für Crossfire
+
+
+##########
+# Dialogs
+
+# Map Properties
+mapParametersTabTitle=Parameter
+mapShopTabTitle=Geschäft
+mapWeatherTabTitle=Wetter
+mapTextTabTitle=Beschreibung
+mapLoreTabTitle=Geschichte
+mapErrorInvalidDarkness.title=Ungültiger Wert
+mapErrorInvalidDarkness.message=Die Dunkelheit muss zwischen 0 und 5 liegen.
+
+mapRegion=Region
+mapUnique=Permanente Karte
+mapOutdoor=Im Freien
+mapNosmooth=Ohne Bildübergäng
+mapShopType=Typ
+mapShopGreed=Geldgier
+mapLowerPriceLimit=Mindestpreis
+mapUpperPriceLimit=Maximalpreis
+mapShopRace=Rasse
+mapTemperature=Temperatur
+mapPressure=Luftdruck
+mapHumidity=Luftfeuchte
+mapWindSpeed=Windgeschwindigkeit
+mapWindDirection=Windrichtung
+mapSkySetting=Wetterbedingung
+
+
+#######
+# Help
+
+about.title=Über Gridarta für Crossfire
+about=<html><h1 align="center">Gridarta für Crossfire</h1><p>Editor für Crossfire MMORPG Karten und Objekte</p><table><tr><td valign="top" align="right" width="50%">Copyright © 2001-2010</td><td width="50%">Michael Toennies<br>Andreas Vogl<br>Peter Plischewsky<br>Gecko<br>Christian Hujer<br>Daniel Viegas<br>Andreas Kirschbaum</td></tr><tr><td align="right">Java version:</td><td>{0}</td></tr><tr><td align="right">Version:</td><td>{1}</td></tr><tr><td align="right">Entwickler:</td><td>{2}</td></tr><tr><td align="right">Erstellung:</td><td>{3}</td></tr></table></html>

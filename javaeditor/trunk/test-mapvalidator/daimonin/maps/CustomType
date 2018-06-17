@@ -1,0 +1,36 @@
+arch map
+name test for CustomType map validator
+msg
+Modified: 2010-10-28 ank
+endmsg
+width 3
+height 1
+difficulty 1
+darkness -1
+end
+arch floor1
+end
+arch spawnpoint1
+arch mob1
+type 83
+dam 1
+end
+end
+arch floor1
+x 1
+end
+arch spawnpoint1
+x 1
+arch mob1
+type 82
+dam 1
+end
+end
+arch floor1
+x 2
+end
+arch mob1
+type 83
+dam 1
+x 2
+end

@@ -1,0 +1,408 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.var.crossfire.maincontrol;
+
+import java.awt.Component;
+import net.sf.gridarta.gui.dialog.mapproperties.MapPropertiesDialogFactory;
+import net.sf.gridarta.gui.dialog.newmap.NewMapDialogFactory;
+import net.sf.gridarta.gui.dialog.prefs.AppPreferences;
+import net.sf.gridarta.gui.dialog.prefs.AppPreferencesModel;
+import net.sf.gridarta.gui.dialog.prefs.DevPreferences;
+import net.sf.gridarta.gui.dialog.prefs.GUIPreferences;
+import net.sf.gridarta.gui.dialog.prefs.MapValidatorPreferences;
+import net.sf.gridarta.gui.dialog.prefs.MiscPreferences;
+import net.sf.gridarta.gui.dialog.prefs.NetPreferences;
+import net.sf.gridarta.gui.dialog.prefs.ResPreferences;
+import net.sf.gridarta.gui.dialog.prefs.UpdatePreferences;
+import net.sf.gridarta.gui.filter.FilterControl;
+import net.sf.gridarta.gui.map.mapview.DefaultMapViewFactory;
+import net.sf.gridarta.gui.map.mapview.MapViewFactory;
+import net.sf.gridarta.gui.map.mapview.MapViewManager;
+import net.sf.gridarta.gui.map.mapview.MapViewsManager;
+import net.sf.gridarta.gui.map.renderer.GridMapSquarePainter;
+import net.sf.gridarta.gui.map.renderer.RendererFactory;
+import net.sf.gridarta.gui.scripts.ScriptArchDataUtils;
+import net.sf.gridarta.gui.scripts.ScriptedEventEditor;
+import net.sf.gridarta.maincontrol.DefaultMainControl;
+import net.sf.gridarta.maincontrol.EditorFactory;
+import net.sf.gridarta.maincontrol.GUIMainControl;
+import net.sf.gridarta.model.anim.AnimationObjects;
+import net.sf.gridarta.model.archetype.ArchetypeFactory;
+import net.sf.gridarta.model.archetypechooser.ArchetypeChooserModel;
+import net.sf.gridarta.model.archetypeset.ArchetypeSet;
+import net.sf.gridarta.model.archetypeset.DefaultArchetypeSet;
+import net.sf.gridarta.model.archetypetype.ArchetypeTypeList;
+import net.sf.gridarta.model.archetypetype.ArchetypeTypeSet;
+import net.sf.gridarta.model.autojoin.AutojoinLists;
+import net.sf.gridarta.model.configsource.ConfigSourceFactory;
+import net.sf.gridarta.model.direction.Direction;
+import net.sf.gridarta.model.errorview.ErrorView;
+import net.sf.gridarta.model.errorview.ErrorViewCollector;
+import net.sf.gridarta.model.exitconnector.ExitConnectorModel;
+import net.sf.gridarta.model.face.ArchFaceProvider;
+import net.sf.gridarta.model.face.FaceObjectProviders;
+import net.sf.gridarta.model.face.FaceObjects;
+import net.sf.gridarta.model.gameobject.GameObjectFactory;
+import net.sf.gridarta.model.io.AbstractArchetypeParser;
+import net.sf.gridarta.model.io.DefaultMapReaderFactory;
+import net.sf.gridarta.model.io.DirectoryCacheFiles;
+import net.sf.gridarta.model.io.GameObjectParser;
+import net.sf.gridarta.model.io.GameObjectParserFactory;
+import net.sf.gridarta.model.io.MapWriter;
+import net.sf.gridarta.model.io.PathManager;
+import net.sf.gridarta.model.maparchobject.MapArchObjectFactory;
+import net.sf.gridarta.model.mapcontrol.MapControlFactory;
+import net.sf.gridarta.model.mapmanager.AbstractMapManager;
+import net.sf.gridarta.model.mapmanager.FileControl;
+import net.sf.gridarta.model.mapmanager.MapManager;
+import net.sf.gridarta.model.mapmodel.InsertionMode;
+import net.sf.gridarta.model.mapmodel.MapModelFactory;
+import net.sf.gridarta.model.mappathnormalizer.MapPathNormalizer;
+import net.sf.gridarta.model.mapviewsettings.MapViewSettings;
+import net.sf.gridarta.model.match.GameObjectMatcher;
+import net.sf.gridarta.model.match.GameObjectMatchers;
+import net.sf.gridarta.model.resource.AbstractResources;
+import net.sf.gridarta.model.scripts.DefaultScriptArchData;
+import net.sf.gridarta.model.scripts.ScriptArchData;
+import net.sf.gridarta.model.scripts.ScriptArchUtils;
+import net.sf.gridarta.model.scripts.ScriptedEventFactory;
+import net.sf.gridarta.model.settings.GlobalSettings;
+import net.sf.gridarta.model.smoothface.SmoothFaces;
+import net.sf.gridarta.model.spells.GameObjectSpell;
+import net.sf.gridarta.model.spells.NumberSpell;
+import net.sf.gridarta.model.spells.Spells;
+import net.sf.gridarta.model.validation.DelegatingMapValidator;
+import net.sf.gridarta.model.validation.ValidatorPreferences;
+import net.sf.gridarta.model.validation.checks.AttributeRangeChecker;
+import net.sf.gridarta.model.validation.checks.InvalidCheckException;
+import net.sf.gridarta.plugin.PluginExecutor;
+import net.sf.gridarta.plugin.PluginModel;
+import net.sf.gridarta.plugin.PluginParameters;
+import net.sf.gridarta.plugin.parameter.PluginParameterFactory;
+import net.sf.gridarta.utils.ConfigFileUtils;
+import net.sf.gridarta.utils.GUIUtils;
+import net.sf.gridarta.utils.GuiFileFilters;
+import net.sf.gridarta.utils.SystemIcons;
+import net.sf.gridarta.var.crossfire.IGUIConstants;
+import net.sf.gridarta.var.crossfire.gui.map.renderer.DefaultRendererFactory;
+import net.sf.gridarta.var.crossfire.gui.mappropertiesdialog.DefaultMapPropertiesDialogFactory;
+import net.sf.gridarta.var.crossfire.gui.scripts.DefaultScriptArchUtils;
+import net.sf.gridarta.var.crossfire.model.archetype.Archetype;
+import net.sf.gridarta.var.crossfire.model.archetype.DefaultArchetypeFactory;
+import net.sf.gridarta.var.crossfire.model.gameobject.DefaultGameObjectFactory;
+import net.sf.gridarta.var.crossfire.model.gameobject.GameObject;
+import net.sf.gridarta.var.crossfire.model.io.ArchetypeParser;
+import net.sf.gridarta.var.crossfire.model.io.DefaultGameObjectParserFactory;
+import net.sf.gridarta.var.crossfire.model.io.DefaultMapArchObjectParserFactory;
+import net.sf.gridarta.var.crossfire.model.maparchobject.DefaultMapArchObjectFactory;
+import net.sf.gridarta.var.crossfire.model.maparchobject.MapArchObject;
+import net.sf.gridarta.var.crossfire.model.mapcontrol.DefaultMapControlFactory;
+import net.sf.gridarta.var.crossfire.model.scripts.DefaultScriptedEventFactory;
+import net.sf.gridarta.var.crossfire.model.settings.DefaultGlobalSettings;
+import net.sf.gridarta.var.crossfire.resource.DefaultResources;
+import net.sf.japi.swing.prefs.PreferencesGroup;
+import org.apache.log4j.Category;
+import org.apache.log4j.Logger;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * An {@link EditorFactory} that creates Crossfire objects.
+ * @author Andreas Kirschbaum
+ */
+public class DefaultEditorFactory implements EditorFactory<GameObject, MapArchObject, Archetype> {
+
+    /**
+     * Preferences default for auto validation.
+     */
+    private static final boolean PREFERENCES_VALIDATOR_AUTO_DEFAULT = true;
+
+    /**
+     * The {@link Logger} for printing log messages.
+     */
+    private static final Category log = Logger.getLogger(DefaultEditorFactory.class);
+
+    /**
+     * The {@link SmoothFaces} instance.
+     */
+    @Nullable
+    private SmoothFaces smoothFaces;
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public DefaultMainControl<GameObject, MapArchObject, Archetype> newMainControl(final boolean forceReadFromFiles, @NotNull final ErrorView errorView, @NotNull final GlobalSettings globalSettings, @NotNull final ConfigSourceFactory configSourceFactory, @NotNull final PathManager pathManager, @NotNull final GameObjectMatchers gameObjectMatchers, @NotNull final GameObjectFactory<GameObject, MapArchObject, Archetype> gameObjectFactory, @NotNull final ArchetypeTypeSet archetypeTypeSet, @NotNull final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet, @NotNull final ArchetypeChooserModel<GameObject, MapArchObject, Archetype> archetypeChooserModel, @NotNull final AutojoinLists<GameObject, MapArchObject, Archetype> autojoinLists, @NotNull final AbstractMapManager<GameObject, MapArchObject, Archetype> mapManager, @NotNull final PluginModel<GameObject, MapArchObject, Archetype> pluginModel, @NotNull final DelegatingMapValidator<GameObject, MapArchObject, Archetype> validators, @NotNull final ScriptedEventEditor<GameObject, MapArchObject, Archetype> scriptedEventEditor, @NotNull final AbstractResources<GameObject, MapArchObject, Archetype> resources, @NotNull final Spells<NumberSpell> numberSpells, @NotNull final Spells<GameObjectSpell<GameObject, MapArchObject, Archetype>> gameObjectSpells, @NotNull final PluginParameterFactory<GameObject, MapArchObject, Archetype> pluginParameterFactory, @NotNull final ValidatorPreferences validatorPreferences, @NotNull final MapWriter<GameObject, MapArchObject, Archetype> mapWriter) {
+        return new DefaultMainControl<GameObject, MapArchObject, Archetype>(GuiFileFilters.pythonFileFilter, ".py", "Python", Archetype.TYPE_SPELL, null, IGUIConstants.SCRIPTS_DIR, errorView, this, false, globalSettings, configSourceFactory, pathManager, gameObjectMatchers, gameObjectFactory, archetypeTypeSet, archetypeSet, archetypeChooserModel, autojoinLists, mapManager, pluginModel, validators, scriptedEventEditor, resources, numberSpells, gameObjectSpells, pluginParameterFactory, validatorPreferences, mapWriter);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public int getDoubleFaceOffset() {
+        return 1;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public MapArchObjectFactory<MapArchObject> newMapArchObjectFactory(@NotNull final GlobalSettings globalSettings) {
+        return new DefaultMapArchObjectFactory(globalSettings);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public DefaultMapArchObjectParserFactory newMapArchObjectParserFactory() {
+        return new DefaultMapArchObjectParserFactory();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public GameObjectFactory<GameObject, MapArchObject, Archetype> newGameObjectFactory(@NotNull final FaceObjectProviders faceObjectProviders, @NotNull final AnimationObjects animationObjects, @NotNull final ArchetypeTypeSet archetypeTypeSet) {
+        return new DefaultGameObjectFactory(faceObjectProviders, animationObjects);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public GameObjectParserFactory<GameObject, MapArchObject, Archetype> newGameObjectParserFactory(@NotNull final GameObjectFactory<GameObject, MapArchObject, Archetype> gameObjectFactory, @NotNull final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet) {
+        return new DefaultGameObjectParserFactory(gameObjectFactory, archetypeSet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public GlobalSettings newGlobalSettings() {
+        return new DefaultGlobalSettings();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public ArchetypeFactory<GameObject, MapArchObject, Archetype> newArchetypeFactory(@NotNull final FaceObjectProviders faceObjectProviders, @NotNull final AnimationObjects animationObjects) {
+        return new DefaultArchetypeFactory(faceObjectProviders, animationObjects);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public ArchetypeSet<GameObject, MapArchObject, Archetype> newArchetypeSet(@NotNull final GlobalSettings globalSettings, @NotNull final ArchetypeFactory<GameObject, MapArchObject, Archetype> archetypeFactory) {
+        final String imageSet = globalSettings.getImageSet();
+        return new DefaultArchetypeSet<GameObject, MapArchObject, Archetype>(archetypeFactory, imageSet.equals("none") ? null : imageSet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public MapControlFactory<GameObject, MapArchObject, Archetype> newMapControlFactory(@NotNull final MapWriter<GameObject, MapArchObject, Archetype> mapWriter, @NotNull final GlobalSettings globalSettings, @NotNull final MapModelFactory<GameObject, MapArchObject, Archetype> mapModelFactory) {
+        return new DefaultMapControlFactory(mapWriter, globalSettings, mapModelFactory);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public boolean getIncludeFaceNumbers() {
+        return true;
+        // although this file is wograld only, should messages.properties be used to store this?
+        // perhaps a menu box is wanted, although the operator may have to guess when trying to import
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void initSmoothFaces(@NotNull final FaceObjects faceObjects) {
+        if (smoothFaces != null) {
+            throw new IllegalStateException();
+        }
+        smoothFaces = new SmoothFaces(faceObjects);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void initMapValidators(@NotNull final DelegatingMapValidator<GameObject, MapArchObject, Archetype> mapValidators, @NotNull final ErrorViewCollector errorViewCollector, @NotNull final GlobalSettings globalSettings, @NotNull final GameObjectMatchers gameObjectMatchers, @NotNull final AttributeRangeChecker<GameObject, MapArchObject, Archetype> attributeRangeChecker, @NotNull final ValidatorPreferences validatorPreferences) {
+        final GameObjectMatcher monsterMatcher = gameObjectMatchers.getMatcherWarn(errorViewCollector, "system_monster");
+        if (monsterMatcher != null) {
+            try {
+                attributeRangeChecker.add(monsterMatcher, "level", "level", 1, 200);
+            } catch (final InvalidCheckException ex) {
+                log.warn(ex.getMessage() + " for monster checker");
+            }
+        }
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public ArchetypeParser newArchetypeParser(@NotNull final ErrorView errorView, final GameObjectParser<GameObject, MapArchObject, Archetype> gameObjectParser, final AnimationObjects animationObjects, final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet, @NotNull final GameObjectFactory<GameObject, MapArchObject, Archetype> gameObjectFactory, @NotNull final GlobalSettings globalSettings) {
+        if (smoothFaces == null) {
+            throw new IllegalStateException();
+        }
+        return new ArchetypeParser(gameObjectParser, animationObjects, archetypeSet, gameObjectFactory, smoothFaces);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public DefaultScriptArchUtils newScriptArchUtils(@NotNull final ArchetypeTypeList eventTypes) {
+        return new DefaultScriptArchUtils(eventTypes, "subtype", Archetype.TYPE_EVENT_CONNECTOR);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public ScriptedEventFactory<GameObject, MapArchObject, Archetype> newScriptedEventFactory(@NotNull final ScriptArchUtils scriptArchUtils, @NotNull final GameObjectFactory<GameObject, MapArchObject, Archetype> gameObjectFactory, @NotNull final ScriptedEventEditor<GameObject, MapArchObject, Archetype> scriptedEventEditor, @NotNull final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet) {
+        return new DefaultScriptedEventFactory(scriptArchUtils, "subtype", gameObjectFactory, scriptedEventEditor, archetypeSet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public ScriptArchData<GameObject, MapArchObject, Archetype> newScriptArchData() {
+        return new DefaultScriptArchData<GameObject, MapArchObject, Archetype>("subtype", Archetype.TYPE_EVENT_CONNECTOR);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public ScriptArchDataUtils<GameObject, MapArchObject, Archetype> newScriptArchDataUtils(@NotNull final ScriptArchUtils scriptArchUtils, @NotNull final ScriptedEventFactory<GameObject, MapArchObject, Archetype> scriptedEventFactory, @NotNull final ScriptedEventEditor<GameObject, MapArchObject, Archetype> scriptedEventEditor) {
+        return new ScriptArchDataUtils<GameObject, MapArchObject, Archetype>(Archetype.TYPE_EVENT_CONNECTOR, scriptArchUtils, scriptedEventFactory, scriptedEventEditor);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public RendererFactory<GameObject, MapArchObject, Archetype> newRendererFactory(@NotNull final MapViewSettings mapViewSettings, @NotNull final FilterControl<GameObject, MapArchObject, Archetype> filterControl, @NotNull final GameObjectParser<GameObject, MapArchObject, Archetype> gameObjectParser, @NotNull final FaceObjectProviders faceObjectProviders, @NotNull final SystemIcons systemIcons) {
+        final GridMapSquarePainter gridMapSquarePainter = new GridMapSquarePainter(systemIcons);
+        if (smoothFaces == null) {
+            throw new IllegalStateException();
+        }
+        return new DefaultRendererFactory(mapViewSettings, filterControl, smoothFaces, gridMapSquarePainter, gameObjectParser, faceObjectProviders, systemIcons);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public MapViewFactory<GameObject, MapArchObject, Archetype> newMapViewFactory(@NotNull final RendererFactory<GameObject, MapArchObject, Archetype> rendererFactory, @NotNull final PathManager pathManager) {
+        return new DefaultMapViewFactory<GameObject, MapArchObject, Archetype>(rendererFactory, IGUIConstants.SQUARE_WIDTH, IGUIConstants.SQUARE_HEIGHT, pathManager);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public AppPreferencesModel createAppPreferencesModel() {
+        return new AppPreferencesModel("crossfire-server", System.getProperty("os.name").toLowerCase().startsWith("win") ? "GTKClient.exe" : "crossfire-client-gtk2", "vim");
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public MapPropertiesDialogFactory<GameObject, MapArchObject, Archetype> newMapPropertiesDialogFactory(@NotNull final GlobalSettings globalSettings, @NotNull final MapManager<GameObject, MapArchObject, Archetype> mapManager, @NotNull final MapPathNormalizer mapPathNormalizer) {
+        return new DefaultMapPropertiesDialogFactory(mapManager, globalSettings, mapPathNormalizer);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public NewMapDialogFactory<GameObject, MapArchObject, Archetype> newNewMapDialogFactory(@NotNull final MapViewsManager<GameObject, MapArchObject, Archetype> mapViewsManager, @NotNull final MapArchObjectFactory<MapArchObject> mapArchObjectFactory, @NotNull final Component parent) {
+        return new NewMapDialogFactory<GameObject, MapArchObject, Archetype>(mapViewsManager, mapArchObjectFactory, IGUIConstants.DEF_MAPSIZE, IGUIConstants.DEF_MAPSIZE, 0, false, false, IGUIConstants.DEF_PICKMAP_WIDTH, IGUIConstants.DEF_PICKMAP_HEIGHT, parent);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public PreferencesGroup createPreferencesGroup(@NotNull final GlobalSettings globalSettings, @NotNull final DelegatingMapValidator<GameObject, MapArchObject, Archetype> validators, @NotNull final AppPreferencesModel appPreferencesModel, @NotNull final ExitConnectorModel exitConnectorModel, @NotNull final ConfigSourceFactory configSourceFactory) {
+        return new PreferencesGroup("Gridarta for Crossfire", new ResPreferences(globalSettings, configSourceFactory), new AppPreferences(appPreferencesModel), new NetPreferences(), new GUIPreferences(globalSettings), new MiscPreferences(exitConnectorModel, globalSettings), new DevPreferences(), new UpdatePreferences(), new MapValidatorPreferences(validators, PREFERENCES_VALIDATOR_AUTO_DEFAULT));
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public GUIMainControl<GameObject, MapArchObject, Archetype> createGUIMainControl(@NotNull final DefaultMainControl<GameObject, MapArchObject, Archetype> mainControl, @NotNull final ErrorView errorView, @NotNull final GUIUtils guiUtils, @NotNull final ConfigSourceFactory configSourceFactory, @NotNull final RendererFactory<GameObject, MapArchObject, Archetype> rendererFactory, @NotNull final FilterControl<GameObject, MapArchObject, Archetype> filterControl, @NotNull final PluginExecutor<GameObject, MapArchObject, Archetype> pluginExecutor, @NotNull final PluginParameters pluginParameters, @NotNull final AbstractMapManager<GameObject, MapArchObject, Archetype> mapManager, @NotNull final MapManager<GameObject, MapArchObject, Archetype> pickmapManager, @NotNull final MapModelFactory<GameObject, MapArchObject, Archetype> mapModelFactory, @NotNull final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet, @NotNull final FaceObjects faceObjects, @NotNull final GlobalSettings globalSettings, @NotNull final MapViewSettings mapViewSettings, @NotNull final FaceObjectProviders faceObjectProviders, @NotNull final PathManager pathManager, @NotNull final InsertionMode<GameObject, MapArchObject, Archetype> topmostInsertionMode, @NotNull final GameObjectFactory<GameObject, MapArchObject, Archetype> gameObjectFactory, @NotNull final SystemIcons systemIcons, @NotNull final ArchetypeTypeSet archetypeTypeSet, @NotNull final MapArchObjectFactory<MapArchObject> mapArchObjectFactory, @NotNull final DefaultMapReaderFactory<GameObject, MapArchObject, Archetype> mapReaderFactory, @NotNull final DelegatingMapValidator<GameObject, MapArchObject, Archetype> validators, @NotNull final GameObjectMatchers gameObjectMatchers, @NotNull final PluginModel<GameObject, MapArchObject, Archetype> pluginModel, @NotNull final AnimationObjects animationObjects, @NotNull final ArchetypeChooserModel<GameObject, MapArchObject, Archetype> archetypeChooserModel, @NotNull final ScriptedEventEditor<GameObject, MapArchObject, Archetype> scriptedEventEditor, @NotNull final AbstractResources<GameObject, MapArchObject, Archetype> resources, @NotNull final Spells<NumberSpell> numberSpells, @NotNull final Spells<GameObjectSpell<GameObject, MapArchObject, Archetype>> gameObjectSpells, @NotNull final PluginParameterFactory<GameObject, MapArchObject, Archetype> pluginParameterFactory) {
+        return mainControl.createGUIMainControl(GuiFileFilters.pythonFileFilter, ".py", false, mapManager, pickmapManager, archetypeSet, mapModelFactory, null, "CrossfireEditor.jar", new int[] { Archetype.TYPE_LOCKED_DOOR, Archetype.TYPE_SPECIAL_KEY, Archetype.TYPE_TRIGGER_ALTAR, Archetype.TYPE_DETECTOR, Archetype.TYPE_TRIGGER_MARKER, Archetype.TYPE_MARKER, Archetype.TYPE_INVENTORY_CHECKER, Archetype.TYPE_CONTAINER, }, PREFERENCES_VALIDATOR_AUTO_DEFAULT, null, this, errorView, new DirectoryCacheFiles(ConfigFileUtils.getHomeFile("thumbnails"), ".png"), configSourceFactory, rendererFactory, filterControl, pluginExecutor, pluginParameters, faceObjects, globalSettings, mapViewSettings, faceObjectProviders, pathManager, topmostInsertionMode, gameObjectFactory, systemIcons, 0, archetypeTypeSet, mapArchObjectFactory, mapReaderFactory, validators, gameObjectMatchers, IGUIConstants.SCRIPTS_DIR, pluginModel, animationObjects, archetypeChooserModel, true, scriptedEventEditor, new Direction[] { Direction.NORTH, Direction.EAST, Direction.SOUTH, Direction.WEST, Direction.NORTH_EAST, Direction.SOUTH_EAST, Direction.SOUTH_WEST, Direction.NORTH_WEST, }, resources, gameObjectSpells, numberSpells, pluginParameterFactory);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public AbstractResources<GameObject, MapArchObject, Archetype> newResources(@NotNull final GameObjectParser<GameObject, MapArchObject, Archetype> gameObjectParser, @NotNull final ArchetypeSet<GameObject, MapArchObject, Archetype> archetypeSet, @NotNull final AbstractArchetypeParser<GameObject, MapArchObject, Archetype, ?> archetypeParser, @NotNull final MapViewSettings mapViewSettings, @NotNull final FaceObjects faceObjects, @NotNull final AnimationObjects animationObjects, @NotNull final ArchFaceProvider archFaceProvider, @NotNull final FaceObjectProviders faceObjectProviders) {
+        if (smoothFaces == null) {
+            throw new IllegalStateException();
+        }
+        return new DefaultResources(gameObjectParser, archetypeSet, archetypeParser, mapViewSettings, faceObjects, animationObjects, smoothFaces, archFaceProvider, faceObjectProviders);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void newServerActions(@NotNull final MapViewManager<GameObject, MapArchObject, Archetype> mapViewManager, @NotNull final FileControl<GameObject, MapArchObject, Archetype> fileControl, @NotNull final PathManager pathManager) {
+        // do nothing: action not supported
+    }
+
+}

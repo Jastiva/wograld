@@ -1,0 +1,133 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2011 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.collectable;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import net.sf.gridarta.model.anim.AnimationObject;
+import net.sf.gridarta.model.anim.AnimationObjects;
+import net.sf.gridarta.model.data.NamedObject;
+import net.sf.gridarta.utils.ActionBuilderUtils;
+import net.sf.gridarta.utils.IOUtils;
+import net.sf.japi.swing.action.ActionBuilder;
+import net.sf.japi.swing.action.ActionBuilderFactory;
+import net.sf.japi.swing.misc.Progress;
+import org.jetbrains.annotations.NotNull;
+
+/**
+ * a {@link Collectable} that creates the "animations" file. It also creates the
+ * editor helper file "animtree".
+ * @author <a href="mailto:cher@riedquat.de">Christian Hujer</a>
+ * @author Andreas Kirschbaum
+ */
+public class AnimationObjectsCollectable implements Collectable {
+
+    /**
+     * The {@link ActionBuilder} instance.
+     */
+    private static final ActionBuilder ACTION_BUILDER = ActionBuilderFactory.getInstance().getActionBuilder("net.sf.gridarta");
+
+    /**
+     * The {@link AnimationObjects} being collected.
+     */
+    @NotNull
+    private final AnimationObjects animationObjects;
+
+    /**
+     * The collected animation tree file.
+     */
+    @NotNull
+    private final String animTreeFile;
+
+    /**
+     * Creates a new instance.
+     * @param animationObjects the animation objects to be collected
+     * @param animTreeFile the collected animation tree file
+     */
+    public AnimationObjectsCollectable(@NotNull final AnimationObjects animationObjects, @NotNull final String animTreeFile) {
+        this.animationObjects = animationObjects;
+        this.animTreeFile = animTreeFile;
+    }
+
+    /**
+     * {@inheritDoc} Collects the Animations. The animation data is written to
+     * "animations". The tree information for the editor is written to
+     * "animtree".
+     */
+    @Override
+    public void collect(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException {
+        collectAnimations(progress, collectedDirectory);
+        collectAnimTree(progress, collectedDirectory);
+    }
+
+    /**
+     * Collects the animation data into the file "animations".
+     * @param progress the progress to report progress to
+     * @param collectedDirectory the destination directory to collect data to
+     * @throws IOException in case of I/O problems during collection
+     */
+    private void collectAnimations(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException {
+        progress.setLabel(ActionBuilderUtils.getString(ACTION_BUILDER, "archCollectAnimations"), animationObjects.size());
+        
+      //  final BufferedWriter animations = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(collectedDirectory, "animations")), IOUtils.MAP_ENCODING));
+        final BufferedWriter animations = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("animations"), IOUtils.MAP_ENCODING));
+        try {
+            int counter = 0; // counter for progress bar
+            for (final AnimationObject anim : animationObjects) {
+                animations.append("anim ").append(anim.getAnimName()).append('\n').append(anim.getAnimList()).append("mina\n");
+                if (counter++ % 128 == 0) {
+                    progress.setValue(counter);
+                }
+            }
+        } finally {
+            animations.close();
+        }
+        progress.setValue(animationObjects.size());
+    }
+
+    /**
+     * Collects the animation data into the file "animations".
+     * @param progress the progress to report progress to
+     * @param collectedDirectory the destination directory to collect data to
+     * @throws IOException in case of I/O problems during collection
+     */
+    private void collectAnimTree(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException {
+        progress.setLabel(ActionBuilderUtils.getString(ACTION_BUILDER, "archCollectAnimTree"), animationObjects.size());
+     //   final BufferedWriter animtree = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(collectedDirectory, animTreeFile)), IOUtils.MAP_ENCODING));
+        final BufferedWriter animtree = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(animTreeFile), IOUtils.MAP_ENCODING));
+        try {
+            int counter = 0; // counter for progress bar
+            for (final NamedObject anim : animationObjects) {
+                animtree.append(anim.getPath()).append('\n');
+                if (counter++ % 128 == 0) {
+                    progress.setValue(counter);
+                }
+            }
+        } finally {
+            animtree.close();
+        }
+        progress.setValue(animationObjects.size());
+    }
+
+
+}

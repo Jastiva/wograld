@@ -1,0 +1,284 @@
+<?xml version="1.0"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE GameObjectMatchers SYSTEM "GameObjectMatchers.dtd">
+<GameObjectMatchers>
+    <GameObjectMatcher id="monster">
+        <title xml:lang="en">Monster</title>
+        <title xml:lang="de">Monster</title>
+        <title xml:lang="fr">Monstres</title>
+        <title xml:lang="sv">Monster</title>
+        <And>
+            <Attrib name="alive" type="int" op="ne" value="0"/>
+            <Or>
+                <Attrib name="monster" type="int" op="ne" value="0"/>
+                <Attrib name="generator" type="int" op="ne" value="0"/>
+            </Or>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="wall">
+        <title xml:lang="en">Wall</title>
+        <title xml:lang="de">Wand</title>
+        <title xml:lang="fr">Murs</title>
+        <title xml:lang="sv">Väggar</title>
+        <And>
+            <TypeNrs numbers="0"/>
+            <Attrib name="move_block" type="int" op="ne" value="0"/>
+            <Attrib name="is_floor" type="int" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="connected">
+        <title xml:lang="en">Connected</title>
+        <title xml:lang="de">Verbunden</title>
+        <title xml:lang="fr">Objets connectés</title>
+        <title xml:lang="sv">Anslutna</title>
+        <Attrib name="connected" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="exit">
+        <title xml:lang="en">Exit</title>
+        <title xml:lang="de">Ausgang</title>
+        <title xml:lang="fr">Sorties</title>
+        <title xml:lang="sv">Utgångar</title>
+        <TypeNrs numbers="41 57 58 66 94 95"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="treasure">
+        <title xml:lang="en">Treasure</title>
+        <title xml:lang="de">Schatz</title>
+        <title xml:lang="fr">Trésors</title>
+        <title xml:lang="sv">Skatter</title>
+        <And>
+            <TypeNrs numbers="4 5 36 60 85 111 123 124 130"/>
+            <Attrib name="no_pick" type="int" value="0"/>
+            <Attrib name="weight" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="door">
+        <title xml:lang="en">Doors and Keys</title>
+        <title xml:lang="de">Türen und Schlüssel</title>
+        <title xml:lang="fr">Portes et Clés</title>
+        <title xml:lang="sv">Dörrar och Nycklar</title>
+        <TypeNrs numbers="20 21 23 24 26 91"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="equipment">
+        <title xml:lang="en">Equipment</title>
+        <title xml:lang="de">Ausrüstung</title>
+        <title xml:lang="fr">Équipement</title>
+        <title xml:lang="sv">Utrustning</title>
+        <And>
+            <TypeNrs numbers="3 13 14 15 16 33 34 35 39 70 87 99 100 104 109 113 122"/>
+            <Attrib name="no_pick" type="int" value="0"/>
+            <Attrib name="weight" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="blocked">
+        <title xml:lang="en">Blocked</title>
+        <title xml:lang="de">Blockiert</title>
+        <Attrib name="move_block" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="weak_wall">
+        <title xml:lang="en">Weak wall</title>
+        <title xml:lang="de">Zerstörbare Wand</title>
+        <And>
+            <Attrib name="alive" type="int" op="ne" value="0"/>
+            <Attrib name="tear_down" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="invisible">
+        <title xml:lang="en">Hidden items</title>
+        <title xml:lang="de">Versteckte Objekte</title>
+        <Attrib name="invisible" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="floor">
+        <title xml:lang="en">Floor</title>
+        <title xml:lang="de">Boden</title>
+        <Attrib name="is_floor" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="no_magic">
+        <title xml:lang="en">Magic forbidden</title>
+        <title xml:lang="de">Magie verboten</title>
+        <And>
+            <Attrib name="no_magic" type="int" op="ne" value="0"/>
+            <Attrib name="no_pick" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="no_prayer">
+        <title xml:lang="en">Unholy ground</title>
+        <title xml:lang="de">Ungeweihter Boden</title>
+        <And>
+            <Attrib name="damned" type="int" op="ne" value="0"/>
+            <Attrib name="no_pick" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="no_spells">
+        <title xml:lang="en">Spells forbidden</title>
+        <title xml:lang="de">Zaubern verboten</title>
+        <And>
+            <Attrib name="no_magic" type="int" op="ne" value="0"/>
+            <Attrib name="damned" type="int" op="ne" value="0"/>
+            <Attrib name="no_pick" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="living">
+        <title xml:lang="en">Living creature</title>
+        <title xml:lang="de">Lebewesen</title>
+        <Attrib name="alive" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="shop_square">
+        <title xml:lang="en">Shop Square</title>
+        <title xml:lang="de">Verkaufsfläche</title>
+        <TypeNrs numbers="68"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="shop">
+        <title xml:lang="en">Shop Square</title>
+        <title xml:lang="de">Geschäft</title>
+        <TypeNrs numbers="68"/>
+    </GameObjectMatcher>
+    <GameObjectMatcher id="unique">
+        <title xml:lang="en">Unique squares/objects</title>
+        <title xml:lang="de">'unique'-Felder/Objekte</title>
+        <Attrib name="unique" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+
+    <!-- Objects to be treated as floors in insertion tool -->
+    <GameObjectMatcher id="system_floor" system="true">
+        <title xml:lang="en">Floor</title>
+        <title xml:lang="de">Boden</title>
+        <Attrib name="is_floor" type="int" op="ne" value="0"/>
+    </GameObjectMatcher>
+
+    <!-- Objects to be put below the floor in insertion tool -->
+    <GameObjectMatcher id="system_below_floor" system="true">
+        <title xml:lang="en">Below Floor</title>
+        <title xml:lang="de">Unter Boden</title>
+        <TypeNrs numbers="-666"/>
+        <!-- do not match anything for now -->
+    </GameObjectMatcher>
+
+    <!-- Objects to be put below the floor in insertion tool -->
+    <GameObjectMatcher id="system_wall" system="true">
+        <title xml:lang="en">Wall</title>
+        <title xml:lang="de">Wand</title>
+        <title xml:lang="fr">Murs</title>
+        <title xml:lang="sv">Väggar</title>
+        <And>
+            <TypeNrs numbers="0"/>
+            <Attrib name="move_block" type="int" op="ne" value="0"/>
+            <Attrib name="is_floor" type="int" value="0"/>
+        </And>
+    </GameObjectMatcher>
+
+    <!-- Objects to be treated as monsters in insertion tool -->
+    <GameObjectMatcher id="system_monster" system="true">
+        <title xml:lang="en">Monster</title>
+        <title xml:lang="de">Monster</title>
+        <title xml:lang="fr">Monstres</title>
+        <title xml:lang="sv">Monster</title>
+        <And>
+            <Attrib name="alive"/>
+            <Or>
+                <Attrib name="monster" type="int" op="ne" value="0"/>
+                <Attrib name="generator" type="int" op="ne" value="0"/>
+            </Or>
+        </And>
+    </GameObjectMatcher>
+
+    <!-- Objects to be treated as exits by the GUI and in the 'Exit path is not
+         absolute' map validator-->
+    <GameObjectMatcher id="system_exit" system="true">
+        <title xml:lang="en">Exit</title>
+        <title xml:lang="de">Ausgang</title>
+        <title xml:lang="fr">Sorties</title>
+        <title xml:lang="sv">Utgångar</title>
+        <TypeNrs numbers="41 57 58 66 94 95"/>
+    </GameObjectMatcher>
+
+    <GameObjectMatcher id="event_object">
+        <title xml:lang="en">Event Object</title>
+        <title xml:lang="de">Ereignisgegenstand</title>
+        <title xml:lang="fr">Objet d'Événement</title>
+        <Env/>
+        <TypeNrs numbers="116"/>
+    </GameObjectMatcher>
+
+    <!-- Objects checked by the "Suspicious connection" map validator: objects
+         matching this matcher are connection sources. -->
+    <GameObjectMatcher id="system_connection_source" system="true">
+        <title xml:lang="en">Connected objects being a source</title>
+        <title xml:lang="de">Verbundene Objekte (Quellen)</title>
+        <TypeNrs numbers="17 18 27 29 30 31 32 51 64 92 93 155"/>
+    </GameObjectMatcher>
+
+    <!-- Objects checked by the "Suspicious connection" map validator: objects
+         matching this matcher are connection sinks. -->
+    <GameObjectMatcher id="system_connection_sink" system="true">
+        <title xml:lang="en">Connected objects being a sink</title>
+        <title xml:lang="de">Verbundene Objekte (Senken)</title>
+        <Or>
+            <TypeNrs numbers="26 41 42 52 62 65 83 91 94 98 112"/>
+        </Or>
+    </GameObjectMatcher>
+
+    <!-- Objects checked by the "Suspicious connection" map validator: objects
+         matching this matcher are connection sinks. This matcher exists in
+         order to match inventory objects since &lt;Env&gt; cannot be included
+         into &lt;Or&gt;. -->
+    <GameObjectMatcher id="system_connection_sink2" system="true">
+        <title xml:lang="en">Connected objects being a sink</title>
+        <title xml:lang="de">Verbundene Objekte (Senken)</title>
+        <Env/>
+        <And>
+            <TypeNrs numbers="116"/>
+            <Attrib name="subtype" type="int" value="10"/>
+        </And>
+    </GameObjectMatcher>
+
+    <!-- Objects checked by the "Shop square contains paid item" map validator:
+         objects matching this matcher are paid items. -->
+    <GameObjectMatcher id="system_paid_item" system="true">
+        <title xml:lang="en">Paid items</title>
+        <title xml:lang="de">Bezahlte Gegenstände</title>
+        <And>
+            <Attrib name="no_pick" type="int" value="0"/>
+            <Attrib name="unpaid" type="int" value="0"/>
+            <Attrib name="monster" type="int" value="0"/>
+            <Attrib name="generator" type="int" value="0"/>
+            <Attrib name="weight" type="int" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+
+    <!-- Objects to be treated as blocked in map validator -->
+    <GameObjectMatcher id="system_blocked" system="true">
+        <title xml:lang="en">Blocked</title>
+        <title xml:lang="de">Blockiert</title>
+        <And>
+            <Attrib name="move_block" op="ne" value=""/>
+            <Attrib name="move_block" op="ne" value="0"/>
+        </And>
+    </GameObjectMatcher>
+
+    <!-- Objects having a non-empty msg..endmsg field -->
+    <GameObjectMatcher id="messages">
+        <title xml:lang="en">Messages</title>
+        <title xml:lang="de">Text</title>
+        <And>
+            <Attrib name="msg" op="ne" value=""/>
+        </And>
+    </GameObjectMatcher>
+
+</GameObjectMatchers>

@@ -1,0 +1,102 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <TITLE>Creating a Basic Map</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<H1 align="center">Creating a basic map in the Crossfire Editor</H1>
+
+<H2 align="center">Step 1 - Create a new empty map:</H2>
+
+<P>Select menu "File->New", or click on the toolbar icon:
+    <IMG SRC="map1_new.png" WIDTH="19" HEIGHT="18">
+
+    <br>
+    A popup window appears, where you can enter file name, map name and map
+    size. The "map name" should be a descriptive name for what the map contains.
+    It can be read by players in the game. Write something like "small house",
+    "forest", "dark cave". The illustrated examples will show a very small map,
+    for practical reasons. Of course you can make a bigger map than that.
+</P>
+<P>
+<center><IMG SRC="map1_create.jpg" width="270" height="217"></center>
+</P>
+
+<H2 align="center">Step 2 - Floor:</H2>
+
+<P>Now it's time to put some floor tiles on your map. Look at the
+    <A HREF="tut_frames.html">Default-Archetype panel</A> on the left side.
+    These are the default objects you can choose from. Click on the "Pickmaps"
+    tab and "background". Now left-click on one of the floors you like, and then
+    right-click on the map to insert. (Middle-click to delete misplaced
+    objects.)</P>
+
+<P>
+<center><IMG SRC="map1_floor.jpg" width="224" height="192"></center>
+</P>
+
+<H2 align="center">Step 3 - Walls:</H2>
+
+<P>Let's add some walls next. On the <A HREF="tut_frames.html">Default-Archetype
+    panel</A> (left side) select "Arch List" - "wall". Now pick one of the wall
+    types. You can enable the menu "Map->Auto-Joining". This will automatically
+    join the wall parts as you insert them on the map. Later you can switch off
+    Auto-Joining again and replace some wall parts with special parts, like a
+    window as seen below.</P>
+
+<P>
+<center><IMG SRC="map1_walls.jpg" width="224" height="192"></center>
+</P>
+
+<H2 align="center">Step 4 - Decorations:</H2>
+
+<P>The basic structure is done, but it looks empty and boring. Let's add some
+    decoration: A few furniture maybe, a barrel/statue/brazier or whatever is
+    fitting. Different types of maps need different style of decoration of
+    course. An undead map could show some tombstones/mist, pillars belong in a
+    castle, altars in a church, trees/bushes for outdoor maps etc. (At this
+    point I assume you know how to find things in the <A HREF="tut_frames.html">Default-Archetype
+        panel</A>.)
+    <br>
+    You can place some doors between separate rooms. And maybe add a little
+    food, because players are always hungry.
+</P>
+<P>
+<center><IMG SRC="map1_deco.jpg" width="224" height="192"></center>
+</P>
+
+<H2 align="center">Step 5 - Monsters and Treasure:</H2>
+
+<P>Okay, now the map looks nice - yet there is nothing a player can really do on
+    this map (except for eating the food). If the map is supposed to be a
+    dungeon, there have to be monsters. Let's insert some monsters and
+    eventually some generators too.</P>
+
+<P>
+<center><IMG SRC="map1_monster.jpg" width="224" height="192"></center>
+</P>
+
+</BODY>
+</HTML>

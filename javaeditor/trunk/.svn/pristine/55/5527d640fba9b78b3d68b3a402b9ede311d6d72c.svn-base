@@ -1,0 +1,48 @@
+Source: gridarta
+Section: editors
+Priority: optional
+Maintainer: Andreas Kirschbaum <akirschbaum@users.sourceforge.net>
+Build-Depends: debhelper (>= 7.0.50~), ant, ant-optional, openjdk-6-jdk | sun-java6-jdk
+Standards-Version: 3.9.1
+Homepage: http://gridarta.sourceforge.net/
+
+Package: gridarta-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: Common files for Gridarta
+ Gridarta is a map editor for Atrinik, Crossfire, and Daimonin map files.
+ .
+ This package contains common files for all editor variants.
+
+Package: gridarta-atrinik
+Architecture: all
+Tag: implemented-in::java, interface::x11, works-with::atrinik, x11::application, role::program, scope::application
+Depends: ${misc:Depends}, openjdk-6-jre | sun-java6-jre
+#Recommends: atrinik-maps
+Suggests: menu
+Description: A map editor for Atrinik map files
+ Gridarta is a map editor for Atrinik, Crossfire, and Daimonin map files.
+ .
+ This package contains the editor variant for Atrinik map files.
+
+Package: gridarta-crossfire
+Architecture: all
+Tag: implemented-in::java, interface::x11, works-with::crossfire, x11::application, role::program, scope::application
+Depends: ${misc:Depends}, openjdk-6-jre | sun-java6-jre
+Recommends: crossfire-maps
+Suggests: menu
+Description: A map editor for Crossfire map files
+ Gridarta is a map editor for Atrinik, Crossfire, and Daimonin map files.
+ .
+ This package contains the editor variant for Crossfire map files.
+
+Package: gridarta-daimonin
+Architecture: all
+Tag: implemented-in::java, interface::x11, works-with::daimonin, x11::application, role::program, scope::application
+Depends: ${misc:Depends}, openjdk-6-jre | sun-java6-jre
+#Recommends: daimonin-maps
+Suggests: menu
+Description: A map editor for Daimonin map files
+ Gridarta is a map editor for Atrinik, Crossfire, and Daimonin map files.
+ .
+ This package contains the editor variant for Daimonin map files.

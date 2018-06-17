@@ -1,0 +1,1787 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2011 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+# Warning: This file MUST be ISO-8859-1
+# See http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html#encoding
+
+chooseNamedObject.title=Choose a {0}
+archCollectTitle=Collect...
+archCollectArches=Collecting Arches...
+archCollectImages=Collecting Images...
+archCollectTree=Collecting Images Tree...
+archCollectBmaps=Collecting Image Numbers...
+archCollectErrorIOException.title=Collect Error
+archCollectErrorIOException.message=Collect Error: An I/O Exception occurred on file {0}:\n{1}
+nameOfAnimationObject=Animation
+archCollectAnimations=Collecting Animations...
+archCollectAnimTree=Collecting Animation Tree...
+nameOfFaceObject=Face
+
+
+# Menus
+
+# File menu
+cursor.text=Cursor
+cursor.mnemonic=C
+
+moveCursor.text=Move Cursor
+moveCursor.shortdescription=Moves the map cursor.
+
+moveCursorNorth.text=Move Cursor North
+moveCursorNorth.shortdescription=Moves the map cursor north.
+
+moveCursorNorthEast.text=Move Cursor Northeast
+moveCursorNorthEast.shortdescription=Moves the map cursor north east.
+
+moveCursorEast.text=Move Cursor East
+moveCursorEast.shortdescription=Moves the map cursor east.
+
+moveCursorSouthEast.text=Move Cursor Southeast
+moveCursorSouthEast.shortdescription=Moves the map cursor south east.
+
+moveCursorSouth.text=Move Cursor South
+moveCursorSouth.shortdescription=Moves the map cursor south.
+
+moveCursorSouthWest.text=Move Cursor Southwest
+moveCursorSouthWest.shortdescription=Moves the map cursor south west.
+
+moveCursorWest.text=Move Cursor West
+moveCursorWest.shortdescription=Moves the map cursor west.
+
+moveCursorNorthWest.text=Move Cursor Northwest
+moveCursorNorthWest.shortdescription=Moves the map cursor north west.
+
+goMap.text=Goto Map...
+goMap.mnemonic=M
+goMap.shortdescription=Opens a map by map name.
+goMap.accel=ctrl pressed N
+
+#######
+# Map
+
+map.text=Map
+map.mnemonic=M
+
+goLocation.text=Goto Location
+goLocation.mnemonic=L
+goLocation.shortdescription=Opens the goto location dialog.
+goLocation.accel=ctrl pressed L
+
+selectSquare.text=Select square
+selectSquare.shortdescription=Selects the map cursor square.
+selectSquare.accel=NUMPAD5
+
+startStopDrag.text=Start/Stop dragging
+startStopDrag.shortdescription=Starts/stops dragging new selection.
+startStopDrag.accel=SPACE
+
+addToSelection.text=Add to selection
+addToSelection.shortdescription=Adds new selection to existing selection.
+addToSelection.accel=ADD
+
+subFromSelection.text=Sub from selection
+subFromSelection.shortdescription=Removes new selection from existing selection.
+subFromSelection.accel=SUBTRACT
+
+releaseDrag.text=Release Selection
+releaseDrag.shortdescription=Releases new selection.
+releaseDrag.accel=BACK_SPACE
+
+insertArch.text=Insert Object
+insertArch.shortdescription=Inserts a new game object from the object chooser.
+insertArch.accel=NUMPAD0
+
+deleteArch.text=Delete Object
+deleteArch.shortdescription=Deletes the selected game object.
+deleteArch.accel=DECIMAL
+
+selectArchAbove.text=Select Object above
+selectArchAbove.shortdescription=Selects the game object above the currently selected game object.
+selectArchAbove.accel=DIVIDE
+
+selectArchBelow.text=Select Object below
+selectArchBelow.shortdescription=Selects the game object below the currently selected game object.
+selectArchBelow.accel=MULTIPLY
+
+archAttributes.text=Object Attributes
+archAttributes.shortdescription=Opens the game object attributes dialog.
+archAttributes.accel=ENTER
+
+
+# Map Manager
+closeAllMaps.text=Close All Maps
+closeAllMaps.mnemonic=L
+closeAllMaps.shortdescription=Closes all open maps.
+closeAllMaps.longdescription=Closes all open maps. Asks for confirmation before closing modified maps.
+closeAllMaps.accel=ctrl shift pressed W
+
+saveAllMaps.text=Save All Maps
+saveAllMaps.shortdescription=Saves all modified maps.
+
+gridVisible.text=Show Grid
+gridVisible.mnemonic=G
+gridVisible.shortdescription=Draws a grid that shows the individual map squares.
+gridVisible.accel=ctrl pressed G
+
+lightVisible.text=Show Light
+lightVisible.mnemonic=L
+lightVisible.shortdescription=Highlights map squares that are lighted.
+lightVisible.accel=ctrl shift pressed L
+
+smoothing.text=Show Smoothing
+smoothing.mnemonic=S
+smoothing.shortdescription=Hides square borders by smearing faces into adjacent squares.
+
+tileShow.text=Show adjacent tiled maps
+tileShow.shortdescription=Shows adjacent tiled maps.
+
+mapCreateView.text=Create View
+mapCreateView.shortdescription=Creates a new map view.
+mapCreateView.longdescription=Creates a new view for the current map. All views display the same map; map modifications affect all views.
+
+mapProperties.text=Map Properties
+mapProperties.mnemonic=M
+mapProperties.shortdescription=Opens the map properties dialog.
+mapProperties.longdescription=Opens the map properties dialog for the current map.
+mapProperties.accel=ctrl pressed M
+
+shrinkMapSize.text=Shrink Map Size...
+shrinkMapSize.shortdescription=Removes empty squares from the right or bottom map borders.
+
+openInClient.text=Open In Client
+openInClient.shortdescription=Save map and teleport character in client to map.
+
+autoJoin.text=Autojoin
+autoJoin.mnemonic=J
+autoJoin.shortdescription=Toggles autojoining of wall game objects.
+autoJoin.longdescription=Toggles autojoining of wall game objects when inserted into or deleted from maps.
+
+goExit.text=Go To Exit...
+goExit.shortdescription=Opens a popup to follow an exit.
+goExit.accel=ctrl pressed F12
+
+enterExit.text=Enter Exit
+enterExit.mnemonic=E
+enterExit.shortdescription=Opens the map the exit in the map cursor square.
+enterExit.longdescription=Opens the map the exit in the map cursor square. Prefers the selected game object in the selected square view, or the top-most exit game object on the map cursor square.
+enterExitIOException.title=Invalid path
+enterExitIOException.message=Failed to load file for path.\n{0}
+
+enterExitClose.title=Close previous map?
+enterExitClose.message=You''ve opened a new map.\nShould I close the previous one?
+
+enterTileIOException.title=Invalid path
+enterTileIOException.message=Failed to load file for tiled map.\n{0}
+
+enterExitRandomDestination.title=Destination invalid
+enterExitRandomDestination.message=The destination of the exit ''{0}'' is a random map.
+enterExitNotSaved.title=Map not saved
+enterExitNotSaved.message=You must save the map first to follow the relative path {0}.
+
+nextExit.text=Next Exit
+nextExit.mnemonic=N
+nextExit.shortdescription=Selects the next exit game object.
+nextExit.longdescription=Selects the next exit game object. Starts searching from the map cursor square or, if no map cursor is active, from the top left corner.
+nextExit.accel=ctrl shift pressed E
+
+prevExit.text=Previous Exit
+prevExit.mnemonic=P
+prevExit.shortdescription=Selects the previous exit game object.
+prevExit.longdescription=Selects the previous exit game object. Starts searching from the map cursor square or, if no map cursor is active, from the bottom right corner.
+
+exitConnector.text=Connect Exits
+exitConnector.mnemonic=C
+exitConnector.shortdescription=Creates or updates exit game objects.
+exitCopy.text=Copy Exit
+exitCopy.mnemonic=C
+exitCopy.shortdescription=Copies the map cursor square as the exit location.
+exitCopy.accel=ctrl shift pressed C
+exitPaste.text=Paste Exit
+exitPaste.mnemonic=P
+exitPaste.shortdescription=Pastes the exit location into the map cursor square.
+exitPaste.longdescription=Pastes a previously copied exit location into the map cursor square. An existing exit game object is updated; otherwise a new exit game object is created.
+exitPaste.accel=ctrl shift pressed V
+exitConnect.text=Connect Exits
+exitConnect.mnemonic=O
+exitConnect.shortdescription=Bidirectionally connects the exit location with the map cursor square.
+exitConnect.longdescription=Bidirectionally connects the previously copied exit location with the cursor map square. Existing exit game objects are updated; otherwise new exit game objects are created.
+exitConnect.accel=ctrl shift pressed Y
+
+enterNorthMap.text=Enter North Map
+enterNorthMap.shortdescription=Opens the tiled map north of the current map.
+
+enterNorthEastMap.text=Enter Northeast Map
+enterNorthEastMap.shortdescription=Opens the tiled map north east of the current map.
+
+enterEastMap.text=Enter East Map
+enterEastMap.shortdescription=Opens the tiled map east of the current map.
+
+enterSouthEastMap.text=Enter Southeast Map
+enterSouthEastMap.shortdescription=Opens the tiled map south east of the current map.
+
+enterSouthMap.text=Enter South Map
+enterSouthMap.shortdescription=Opens the tiled map south of the current map.
+
+enterSouthWestMap.text=Enter Southwest Map
+enterSouthWestMap.shortdescription=Opens the tiled map south west of the current map.
+
+enterWestMap.text=Enter West Map
+enterWestMap.shortdescription=Opens the tiled map west of the current map.
+
+enterNorthWestMap.text=Enter Northwest Map
+enterNorthWestMap.shortdescription=Opens the tiled map north west of the current map.
+
+deleteUnknownObjects.text=Delete unknown objects
+deleteUnknownObjects.shortdescription=Deletes game objects referring to undefined archetypes from the current map.
+
+gameObjectTextEditor.text=Toggle Game Object Text Editor
+gameObjectTextEditor.shortdescription=Toggles the game object text editor.
+gameObjectTextEditor.longdescription=Toggles the game object text editor: activates it if currently inactive or otherwise restores the previously active tab.
+gameObjectTextEditor.accel=ctrl alt pressed E
+
+
+# Plugins
+
+plugins.text=Plugins
+plugins.mnemonic=L
+plugins.shortdescription=Manage and use beanshell plugins
+
+editPlugins.text=Edit plugins...
+editPlugins.mnemonic=E
+editPlugins.shortdescription=Opens the plugin script editor.
+
+runPlugin.text=Run {0}
+runPlugin.shortdescription=Executes the plugin script.
+
+savePlugins.text=Save plugins
+savePlugins.mnemonic=S
+savePlugins.shortdescription=Saves all modified plugin scripts.
+
+importPlugin.text=Import a plugin...
+importPlugin.mnemonic=I
+importPlugin.shortdescription=Imports a plugin script from an XML file.
+
+
+# Resources
+viewTreasurelists.text=View Treasurelists
+viewTreasurelists.mnemonic=T
+viewTreasurelists.shortdescription=Opens the treasurelist dialog.
+
+collectSpells.text=Collect Spells
+collectSpells.mnemonic=S
+collectSpells.shortdescription=Updates defined spells from a file.
+
+
+# Zoom
+zoomMen.text=Zoom
+zoomMen.mnemonic=Z
+zoom0.text=special
+zoom12.text=12.5%
+zoom25.text=25%
+zoom50.text=50%
+zoom100.text=100%
+zoom100.mnemonic=1
+zoom100.accel=ctrl pressed 1
+zoom150.text=150%
+zoom200.text=200%
+zoom250.text=250%
+zoom300.text=300%
+zoom400.text=400%
+zoomSave.text=Save preview...
+zoomSave.mnemonic=S
+zoomSave.accel=ctrl pressed S
+zoomClose.text=Close
+zoomClose.mnemonic=C
+zoomClose.accel=ctrl pressed W
+zoomSaveException.title=Save zoom
+zoomSave.exception.java.io.IOException.title=I/O Exception
+zoomSave.exception.java.io.IOException.message=Error while saving:\n{0}
+zoomSave.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomSave.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom0.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom0.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom12.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom12.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom25.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom25.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom50.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom50.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom100.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom100.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom150.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom150.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom200.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom200.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom250.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom250.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom300.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom300.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoom400.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoom400.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+
+zoomAlg.text=Zoom Algorithm
+zoomAlg.mnemonic=A
+zoomAlgDefault.text=Default
+zoomAlgDefault.mnemonic=D
+zoomAlgDefault.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomAlgDefault.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoomAlgFast.text=Fast
+zoomAlgFast.mnemonic=F
+zoomAlgFast.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomAlgFast.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoomAlgSmooth.text=Smooth
+zoomAlgSmooth.mnemonic=S
+zoomAlgSmooth.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomAlgSmooth.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoomAlgReplicate.text=Replicate
+zoomAlgReplicate.mnemonic=R
+zoomAlgReplicate.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomAlgReplicate.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+zoomAlgAreaAveraging.text=Area Averaging
+zoomAlgAreaAveraging.mnemonic=A
+zoomAlgAreaAveraging.exception.java.lang.OutOfMemoryError.title=Out of Memory
+zoomAlgAreaAveraging.exception.java.lang.OutOfMemoryError.message=<html>Not enough memory to write zoomed image.<br>Try restarting with more memory,<br>use <code>-Xmx128m</code> or <code>-Xmx256m</code>.<br><br>{0}
+
+
+# Dialogs
+mapDirDoesntExist.title=Invalid map directory
+mapDirDoesntExist.message=The map directory "{0}" doesn''t exist.\nPlease select menu ''File->Options...'' and correct that.
+
+mapOutOfMemory.title=Out of memory
+mapOutOfMemory.message=<html>Not enough memory available to open the map {0}!<br>You can increase the memory limit by using the <code>-Xmx</code> runtime flag.<br>For example: <code>java -Xmx128m -jar CrossfireEditor.jar</code></html>
+
+openFileLoadMap.title=Cannot open map
+openFileLoadMap.message=An I/O error occurred while loading {0}:\n{1}
+openFileOutOfMapBoundsDeleted.title=Loading map file {0}
+openFileOutOfMapBoundsDeleted.message=While loading map file {0}:\nDeleted {1} game objects outside map bounds:{2}
+
+teleportCharacterError.title=Cannot teleport character
+teleportCharacterError.message=Cannot teleport the character to {0}:\n{1}
+
+overwriteOtherFile.title=Overwrite file?
+overwriteOtherFile.message=A file named "{0}" already exists.\n\nReally overwrite it?
+
+mkdirIOError.title=Cannot Create Directory
+mkdirIOError.message=Cannot create the directory:\n{0}
+
+pickmapExists.title=Cannot Create Pickmap
+pickmapExists.message=A pickmap named {0} already exists.\nEither remove the existing one or choose a different name.
+pickmapIOError.title=Cannot Create Pickmap
+pickmapIOError.message=The pickmap {0} cannot be created:\n{1}
+
+pickmapConfirmSaveChanges.title=Save changes?
+pickmapConfirmSaveChanges.message=Do you want to save changes to pickmap {0}?
+
+dialogDontShowAgain=Show this dialog again next time.
+
+openScriptNotFound.title=Script file not found
+openScriptNotFound.message=The file ''{0}'' does not exist.\nPlease correct the path.
+
+# New Map
+newMap.title=Create New Map
+newPickmap.title=Create New Pickmap
+newPickmapFolder.title=Create New Pickmap Folder
+newMapMapName=Map name:
+mapSizeDefault.text=default map size (24 \u00d7 24)
+newMapParameters=Parameters
+newMapPickmapName=Pickmap name:
+newMapPickmapFolderName=Pickmap folder name:
+newPickmapFolderInvalidName.title=Pickmap folder name is invalid
+newPickmapFolderInvalidName.message=The pickmap folder ''{0}'' is invalid.\nPlease choose a different name.
+newPickmapFolderExists.title=Pickmap folder name exists
+newPickmapFolderExists.message=The pickmap folder ''{0}'' already exists.\nPlease choose a different name.
+
+deletePickmapFolderNotEmpty.title=Pickmap folder not empty
+deletePickmapFolderNotEmpty.message=The pickmap folder ''{0}'' contains sub-folders.\nPlease delete these first.
+
+openAttrDialogNoDefaultArch.title=No default arch
+openAttrDialogNoDefaultArch.message=Changing attributes of arches without archetype is not supported.
+
+encodeMapFile.title=Error saving map
+encodeMapFile.message=Error writing file {0}:\n{1}
+
+createImageIOException.title=Couldn''t create image
+createImageIOException.message=The image could not be created because the file {0} cannot be written:\n{1}
+
+enterExitOutside.title=Destination invalid
+enterExitOutside.message=The destination of this exit is outside the map.
+enterExitInvalidPath.title=Invalid path
+enterExitInvalidPath.message=The specified path is invalid:\n{0}
+
+revertPickmapGone.title=Cannot revert pickmap
+revertPickmapGone.message=The file for pickmap "{0}" doesn''t exist.
+
+confirmDeletePickmap.title=Delete pickmap file?
+confirmDeletePickmap.message=Do you really want to delete the pickmap file ''{0}''?\nDoing so will permanently delete the pickmap.
+
+confirmDeletePickmapFolder.title=Delete pickmap folder?
+confirmDeletePickmapFolder.message=The pickmap folder ''{0}'' contains {1} pickmaps.\nDo you really want to delete the pickmap folder?\nDoing so will permanently delete all these pickmap.
+
+confirmSaveChanges.title=Save changes?
+confirmSaveChanges.message=Do you want to save changes to map {0}?
+
+confirmRevertPickmap.title=Revert pickmap?
+confirmRevertPickmap.message=If you revert the pickmap ''{0}''\n to its last saved state, all recent changes will be lost.\nDo  you really want to revert this pickmap?
+
+goLocation.title=Goto Location
+goLocationOkay.text=Ok
+goLocationApply.text=Apply
+goLocationCancel.text=Cancel
+goLocationText=Move map cursor in map {0} to:
+goLocationX=X coordinate:
+goLocationY=Y coordinate:
+goLocationCoordinateNotANumber.title=Illegal Value
+goLocationCoordinateNotANumber.message=Coordinate value must be a numerical integer value.
+goLocationCoordinateOutOfRange.title=Illegal Value
+goLocationCoordinateOutOfRange.message=Coordinate value is invalid.
+
+# The Edit Bookmark dialog
+editBookmark.title=Edit Bookmark
+editBookmarkOkay.text=Ok
+editBookmarkCancel.text=Cancel
+editBookmark.description=Description:
+
+# The Bookmark Directory dialog
+bookmarkDirectory.title=Bookmark Directory
+bookmarkDirectoryOkay.text=Ok
+bookmarkDirectoryCancel.text=Cancel
+bookmarkDirectory.description=Directory:
+
+# The Manage Bookmarks dialog
+manageBookmarks.title=Manage Bookmarks
+manageBookmarksEdit.text=Edit
+manageBookmarksRemove.text=Remove
+manageBookmarksUnDelete.text=Undo Remove
+manageBookmarksUnDelete.shortdescription=Restores the last deleted bookmark.
+manageBookmarksNewDirectory.text=New Directory
+manageBookmarksClose.text=Close
+
+# The Configure Keyboard Shortcuts dialog
+shortcuts.title=Configure Keyboard Shortcuts
+shortcuts.allActions=All Actions
+shortcuts.defaultIcon=EmptySmallIcon
+shortcuts.borderAllActions=All Actions
+shortcuts.actionDescription=Action Description:
+shortcuts.shortcut=Shortcut:
+shortcuts.selectedAction=Selected Action
+shortcutsOkay.text=Ok
+shortcutsDefaults.text=Restore All Defaults
+shortcutsDefaults.shortdescription=Restore all shortcuts to their default values.
+shortcutsRestoreDefaults.title=Restore Shortcuts?
+shortcutsRestoreDefaults.message=Restore all shortcuts to their default values?\n\nNote that this operation cannot be reverted.
+shortcutsSetShortcut.text=Set Shortcut
+shortcutsSetShortcut.mnemonic=S
+shortcutsUnsetShortcut.text=Unset Shortcut
+shortcutsUnsetShortcut.mnemonic=U
+
+# The Select Key Stroke dialog (part of Configure Keyboard Shortcuts dialog)
+keyStroke.title=Select Key Stroke
+keyStroke.borderKeyStroke=Key Stroke
+keyStroke.borderConflicts=Conflicts
+keyStroke.borderConflictAssigned=Also assigned to {0} in category {1}.
+keyStrokeOkay.text=Ok
+keyStrokeCancel.text=Cancel
+
+shrinkMapSizeDialogTitle=Shrink Map Size
+shrinkMapSizeDialogLabel=Remove empty squares from:
+shrinkMapSizeDialogEast.text=east border
+shrinkMapSizeDialogSouth.text=south border
+shrinkMapSizeDialogOk.text=Ok
+shrinkMapSizeDialogCancel.text=Cancel
+shrinkMapSizeDialogWarning=Warning:
+shrinkMapSizeDialogNoEmptySpace=no empty space at map border
+shrinkMapSizeDialogEastBreaksNorthTiling=removing empty squares from the east border breaks north tiling
+shrinkMapSizeDialogEastBreaksSouthTiling=removing empty squares from the east border breaks south tiling
+shrinkMapSizeDialogSouthBreaksWestTiling=removing empty squares from the south border breaks west tiling
+shrinkMapSizeDialogSouthBreaksEastTiling=removing empty squares from the south border breaks east tiling
+
+loadArchesNoArchetypes.title=No Archetypes
+loadArchesNoArchetypes.message=No archetypes could be found. If you have no archetypes\n\
+  yet, you need to download them. If you do, make sure\n\
+  the path is correct under menu ''File|Options...''.
+
+loadDuplicateFace=Duplicate face: ''{0}''; Files: ''{1}'' and ''{2}''. I will ignore this duplicate.
+loadIllegalFace=Illegal face: ''{0}''; File: ''{1}''. I will ignore this face.
+
+# Map Properties
+mapTitle={0} ({1}) - Map Properties
+mapHelp.text=Help
+mapRestore.text=Restore
+mapMapTabTitle=Map properties
+mapTilesTabTitle=Map tiles
+mapErrorMissingMapName.title=Missing Map Name
+mapErrorMissingMapName.message=You must specify a map name.
+mapErrorInvalidEntry.title=Invalid Entry
+mapErrorInvalidEntry.message=Invalid Entry:\n{0}
+mapErrorIllegalSize.title=Illegal Value
+mapErrorIllegalSize.message=Map dimensions must be greater than zero.
+# attribute fields:
+mapName=Name
+mapBackgroundMusic=Background music
+mapSwapTime=Swap Time
+mapFixedReset=Fixed Reset
+mapEnterX=Enter X
+mapEnterY=Enter Y
+mapDifficulty=Difficulty
+mapDarkness=Darkness
+mapResetTimeout=Reset Timeout
+mapNorth=North
+mapEast=East
+mapSouth=South
+mapWest=West
+mapNorthEast=Northeast
+mapNorthWest=Northwest
+mapSouthEast=Southeast
+mapSouthWest=Southwest
+mapTiles=Paths for Map-Tiling
+mapControl=Control Map-Tiling
+mapTilesAttach.text=Attach Map
+mapTilesAttach.shortdescription=Automatically attach the map in all possible directions
+mapTilesClear.text=Clear Paths
+mapTilesClear.shortdescription=Clear all path names
+mapTilesNoMapFileNoMapTilePane.title=Map tiles card unavailable
+mapTilesNoMapFileNoMapTilePane.message=The map has no file name (it wasn''t saved yet).\nA map without filename cannot be attached to other maps.\nTherefore, the Map tiles card is unavailable.
+mapQueryLoaded.title=Map is loaded
+mapQueryLoaded.message=The map {0} is opened in the editor.\nShould I autosave & update the map?
+mapErrorPath2.title=Can''t find map
+mapErrorPath2.message=Please check your map file path: "{0}".
+mapErrorInvalid.title=Invalid tile link
+mapErrorInvalid.message=In {0}: {1}\nthe link to {2} is invalid.\nLink to {3} is {4}\ngenerated link:{5}\nShould we stop attaching?
+mapErrorFatalWrite.title=Can''t write map
+mapErrorFatalWrite.message=Can''t write map\nFatal Error:\n{0}
+mapErrorDifferentSize.title=Different size
+mapErrorDifferentSize.message=The maps you''re attaching have different sizes.\n{0} has size {1} \u00ef\u00bf\u00bd {2}, while\n{3} has size {4} \u00ef\u00bf\u00bd {5}.\nThis is hazardous for server and client and MUST BE FIXED!
+mapTileRevert.shortdescription=Revert to stored path
+mapTileRevert.text=
+mapTileClear.shortdescription=Delete path
+mapTileClear.text=
+mapTileChoose.shortdescription=Choose path to tile map
+mapTileChoose.text=
+mapTilePathMode.shortdescription=Switch between relative and absolute path
+
+# Other Strings
+mapWidth=Width
+mapHeight=Height
+mapOkay.text=Ok
+mapCancel.text=Cancel
+
+#find dialog
+findTitle=Find on {0}
+findFind=Find:
+findFind.shortdescription=<html>Selects the text to find.
+findWhere=Where:
+findWhere.shortdescription=<html>Selects the categories to search.
+findWhereName='name' attribute
+findWhereArch=archetype name
+findWhereMsg='msg' attribute
+findWhereFace='face' or 'animation' attribute
+findWhereSlaying='slaying' attribute
+findWhereOther=any other attribute
+findOk.text=OK
+findCancel.text=Cancel
+
+#replace
+replaceTitle=Replace
+replaceOn=On
+replaceOn.shortdescription=<html>Selects the area to replace on:<br>- entire map: all game object on the map; ignores the selection<br>- selected squares of: replacement affects only selected squares
+replaceOnMap=entire map
+replaceOnSelection=selected squares of
+replaceDelete=delete objects with
+replaceDelete.shortdescription=<html>Selects the objects to delete:<br>- archetype: by archetype name<br>- name: by game object name
+replaceArchetype=archetype
+replaceName=name
+replaceInput1.shortdescription=<html>The name to match.<br>''*'' matches any number of characters (including none)<br>''?'' matches a single character<br>The match is preformed case-insensitive.
+replaceBy=and replace by
+replaceBy.shortdescription=<html>Selects the replacement:<br>- object: the active object in the object chooser<br>- clipboard: random objects from previously copied or cut game objects<br>- pickmap: random objects from the object chooser<br>- nothing: deletes the affected game objects
+replaceByObject=object
+replaceByCopyBuffer=clipboard
+replaceByPickmap=pickmap
+replaceByNothing=nothing
+replaceDensity=Replace density:
+replaceDensity.shortdescription=<html>The replacement density in % (1..100).<br>100=replace all affected objects<br>else=randomly replace this fraction of affected objects
+
+replaceInvalidDensity.title=Invalid Value
+replaceInvalidDensity.message=Invalid replace density value.\nThe value must be between 1 and 100.
+
+replaceMapNoSelection.title=No selection
+replaceMapNoSelection.message=You chose to replace on selected squares of\nmap "{0}", but there is no selected area.
+replacedZero.title=Replace failed
+replacedZero.message=No matching object found.
+replacedOne.title=Replace successful
+replacedOne.message=1 Object has been replaced.
+replacedMany.title=Replace successful
+replacedMany.message={0} Objects have been replaced.
+
+replaceOk.text=OK
+replaceApply.text=Apply
+replaceCancel.text=Cancel
+
+#attribute dialog
+attribTitle=Object Attributes
+attribHelp.text=Help
+attribSummary.text=Summary
+attribEdit.text=Edit
+attribOk.text=Ok
+attribApply.text=Apply
+attribCancel.text=Cancel
+
+fileDialog.filter.maps=Map Files
+fileDialog.filter.png=PNG Images
+fileDialog.filter.python=Python Scripts
+
+
+#############
+# Status Bar
+memory=({0}/{1}) Memory: {2} used, {3} free, {4} total.
+
+
+##################
+# Status Messages
+
+statusMouseOff=Mouse off map
+statusMouseOn=Mouse {0,number,integer}/{1,number,integer}
+statusCursorDragging=Cursor {0,number,integer}/{1,number,integer} [{2,number,integer}/{3,number,integer}]
+statusCursorActive=Cursor {0,number,integer}/{1,number,integer}
+statusCursorInactive=Cursor off map
+
+#######################
+# Various Log Messages
+logImageCreated=Created image "{0}" of map "{1}".
+logUnexpectedException=Unexpected exception: {0}
+logCanonIOE=IOException while canonizing path: {0}
+logDuplicateAnimation=Duplicate Animation: {0}
+logExitWithExit=Exiting with System.exit().
+logExitWithoutExit=Trying to exit without System.exit().
+logFaceObjectWithoutOriginalName=No originalName for {0}!
+logFoundCoordInDefArchSingleSquareOrHead=Found {0} cmd in single square or head (add it to arch text): {1}
+logInventoryInDefArch=Found inventory Object in def arch: {0}
+
+# Edit
+undo.text=Undo
+undo.name=Undo {0}
+undo.mnemonic=U
+undo.shortdescription=Undoes the last action.
+undo.accel=ctrl pressed Z
+
+redo.text=Redo
+redo.name=Redo {0}
+redo.mnemonic=E
+redo.shortdescription=Redoes the last undo action.
+redo.accel=ctrl pressed Y
+
+
+###########
+# File Menu
+
+file.text=File
+file.mnemonic=F
+
+saveMap.text=Save Map
+saveMap.mnemonic=S
+saveMap.shortdescription=Saves the current map if modified.
+saveMap.accel=ctrl pressed S
+saveMap.error.text.title=Error while saving
+saveMap.error.text=Error while saving:\n{0}
+
+saveMapAs.text=Save Map As...
+saveMapAs.mnemonic=A
+saveMapAs.shortdescription=Saves the current map with a new name.
+saveMapAs.accel=ctrl shift pressed S
+saveMapAs.error.text=Error while saving as
+
+createImage.text=Create Map Image
+createImage.mnemonic=I
+createImage.shortdescription=Saves an image of the current map to a file.
+createImage.error.text=Error while creating snapshot image
+
+reloadMap.text=Reload Map
+reloadMap.mnemonic=R
+reloadMap.shortdescription=Reloads the current map from its last saved state.
+reloadMap.error.text=Error while reloading map
+
+closeMap.text=Close Map
+closeMap.mnemonic=C
+closeMap.shortdescription=Closes the current map.
+closeMap.longdescription=Closes the current map. Asks for confirmation if the map is modified.
+closeMap.accel=ctrl pressed W
+
+recent.text=Recent Maps
+recent.mnemonic=T
+recent.shortdescription=Loads a recently opened map.
+
+newMap.text=New Map...
+newMap.mnemonic=N
+newMap.shortdescription=Creates a new map.
+newMap.accel=ctrl shift pressed N
+
+openFile.text=Open File...
+openFile.mnemonic=O
+openFile.shortdescription=Opens a file.
+openFile.accel=ctrl pressed O
+openFile.error.text=Error while loading
+
+options.text=Options...
+options.mnemonic=P
+options.shortdescription=Shows the options dialog.
+options.longdescription=Shows the options dialog for changing editor settings.
+options.accel=ctrl alt pressed S
+
+shortcuts.text=Configure Shortcuts...
+shortcuts.shortdescription=Shows the configure shortcuts dialog.
+shortcuts.longdescription=Shows the configure shortcuts dialog for changing keyboard shortcuts.
+
+exit.text=Exit
+exit.mnemonic=X
+exit.shortdescription=Exits the editor.
+exit.longdescription=Exits the editor. Asks for confirmation is modified maps or plugin scripts exist.
+exit.accel=ctrl pressed Q
+
+
+#######
+# Edit
+
+edit.text=Edit
+edit.mnemonic=E
+
+clear.text=Clear
+clear.mnemonic=L
+clear.shortdescription=Clears the selected squares.
+clear.accel=DELETE
+
+cut.text=Cut
+cut.mnemonic=T
+cut.shortdescription=Cuts the selected squares to clipboard.
+cut.accel=ctrl pressed X
+
+copy.text=Copy
+copy.mnemonic=C
+copy.shortdescription=Copies the selected squares to clipboard.
+copy.accel=ctrl pressed C
+
+paste.text=Paste
+paste.mnemonic=P
+paste.shortdescription=Pastes the clipboard to map cursor.
+paste.accel=ctrl pressed V
+
+pasteTiled.text=Paste Tiled
+pasteTiled.shortdescription=Pastes the clipboard to selected map squares.
+pasteTiled.longdescription=Pastes the clipboard to selected map squares. Pastes the clipboard as tiles if the clipboard''s size is smaller than the selected area.
+
+shift.text=Shift
+shift.shortdescription=Shifts the selected squares.
+shift.mnemonic=H
+
+shiftNorth.text=Shift North
+shiftNorth.mnemonic=N
+shiftNorth.shortdescription=Shifts the selected squares north.
+shiftNorthEast.text=Shift Northeast
+shiftNorthEast.shortdescription=Shifts the selected squares north east.
+shiftEast.text=Shift East
+shiftEast.mnemonic=E
+shiftEast.shortdescription=Shifts the selected squares east.
+shiftSouthEast.text=Shift Southeast
+shiftSouthEast.shortdescription=Shifts the selected squares south east.
+shiftSouth.text=Shift South
+shiftSouth.mnemonic=S
+shiftSouth.shortdescription=Shifts the selected squares south.
+shiftSouthWest.text=Shift Southwest
+shiftSouthWest.shortdescription=Shifts the selected squares south west.
+shiftWest.text=Shift West
+shiftWest.mnemonic=W
+shiftWest.shortdescription=Shifts the selected squares west.
+shiftNorthWest.text=Shift Northwest
+shiftNorthWest.shortdescription=Shifts the selected squares north west.
+
+find.text=Find
+find.shortdescription=Opens the find dialog.
+find.accel=ctrl pressed F
+
+findNext.text=Find Next
+findNext.shortdescription=Repeats the previous find operation.
+findNext.accel=pressed F3
+
+findPrev.text=Find Previous
+findPrev.shortdescription=Repeats the previous find operation.
+findPrev.accel=shift pressed F3
+
+replace.text=Replace
+replace.mnemonic=R
+replace.shortdescription=Opens the replace dialog.
+replace.accel=ctrl pressed R
+
+fillAuto.text=Fill
+fillAuto.mnemonic=alt pressed F
+fillAuto.shortdescription=Fills the selected squares.
+fillAuto.longdescription=Fills the selected squares. Existing floor game objects are replaced when filled with other floor game objects.
+fillAuto.accel=ctrl shift pressed F
+
+fillAbove.text=Fill Above
+fillAbove.mnemonic=A
+fillAbove.shortdescription=Fills the selected squares above existing game objects.
+fillAbove.longdescription=Fills the selected squares above existing game objects. New game objects are added regardless of already existing game objects.
+
+fillBelow.text=Fill Below
+fillBelow.mnemonic=B
+fillBelow.shortdescription=Fills the selected squares below existing game objects.
+fillBelow.longdescription=Fills the selected squares below existing game objects. New game objects are added regardless of already existing game objects.
+fillBelow.accel=ctrl shift pressed F
+
+randFillAuto.text=Random Fill
+randFillAuto.shortdescription=Randomly fills the selected squares.
+randFillAuto.longdescription=Randomly fills the selected squares. Existing floor game objects are replaced when filled with other floor game objects.
+randFillAuto.accel=ctrl pressed D
+
+randFillAbove.text=Random Fill Above
+randFillAbove.shortdescription=Randomly fills the selected squares above existing game objects.
+randFillAbove.longdescription=Randomly fills the selected squares above existing game objects. New game objects are added regardless of already existing game objects.
+
+randFillBelow.text=Random Fill Below
+randFillBelow.shortdescription=Randomly fills the selected squares below existing game objects.
+randFillBelow.longdescription=Randomly fills the selected squares below existing game objects. New game objects are added regardless of already existing game objects.
+randFillBelow.accel=ctrl shift pressed D
+
+floodFill.text=Flood Fill
+floodFill.shortdescription=Fills empty squares.
+floodFill.longdescription=Fills empty squares starting from the map cursor square.
+
+selectAll.text=Select All
+selectAll.mnemonic=S
+selectAll.shortdescription=Selects all map squares of the current map.
+selectAll.accel=ctrl pressed A
+
+invertSelection.text=Invert Selection
+invertSelection.mnemonic=I
+invertSelection.shortdescription=Inverts the selection.
+invertSelection.accel=ctrl pressed I
+
+expandEmptySelection.text=Expand Empty Selection
+expandEmptySelection.shortdescription=Includes empty map squares surrounding selected empty squares to the selection.
+
+growSelection.text=Grow Selection
+growSelection.shortdescription=Grows the selection by one square.
+
+shrinkSelection.text=Shrink Selection
+shrinkSelection.shortdescription=Shrinks the selection by one square.
+
+
+############
+# Resources
+
+resources.text=Resources
+resources.mnemonic=R
+
+collectArches.text=Collect Arches
+collectArches.mnemonic=A
+collectArches.shortdescription=Collects archetypes into files.
+collectArches.longdescription=Collects archetypes into files. The collected files are needed by the server.
+
+reloadFaces.text=Reload Faces
+reloadFaces.mnemonic=F
+reloadFaces.shortdescription=Reloads all archetype faces.
+reloadFaces.accel=ctrl pressed F5
+
+
+#########
+# Analyze
+
+analyze.text=Analyze
+analyze.mnemonic=Y
+enabled.text=
+
+
+########
+# Tools
+
+tools.text=Tools
+tools.mnemonic=T
+
+newScript.text=New Script
+newScript.mnemonic=N
+newScript.shortdescription=Creates a new event script.
+
+editScript.text=Edit Script
+editScript.mnemonic=E
+editScript.shortdescription=Opens an event script.
+
+validateMap.text=Check Map
+validateMap.mnemonic=M
+validateMap.shortdescription=Runs the map validator on the current map.
+
+zoom.text=Zoom
+zoom.mnemonic=Z
+zoom.shortdescription=Opens the map previewer.
+
+gc.text=Garbage Collection
+gc.mnemonic=G
+gc.shortdescription=Immediately starts a garbage collection.
+
+cleanCompletelyBlockedSquares.text=Clean blocked squares
+cleanCompletelyBlockedSquares.mnemonic=B
+cleanCompletelyBlockedSquares.shortdescription=Cleans map squares which blocks view and passage and are completely surrounded by such squares.
+
+
+###########
+# Bookmarks
+bookmarks.text=Bookmarks
+bookmarks.mnemonic=B
+
+addBookmark.text=Add Bookmark...
+addBookmark.mnemonic=A
+addBookmark.shortdescription=Adds a new bookmark for the current map.
+
+manageBookmarks.text=Manage Bookmarks...
+manageBookmarks.mnemonic=E
+manageBookmarks.shortdescription=Opens a dialog for editing or removing bookmarks.
+
+
+#######
+# Help
+
+help.text=Help
+help.mnemonic=H
+
+showHelp.text=Help
+showHelp.mnemonic=H
+showHelp.shortdescription=Opens the help viewer.
+showHelp.accel=F1
+
+tipOfTheDay.text=Tip Of The Day...
+tipOfTheDay.mnemonic=T
+tipOfTheDay.shortdescription=Opens the tip of the day viewer.
+
+about.text=About...
+about.mnemonic=A
+about.shortdescription=Displays information about Gridarta.
+
+aboutTab.title=About
+aboutRuntimeProperties.title=Runtime properties
+
+license.text=License...
+license.mnemonic=L
+license.title=License
+license.missing=Cannot find License file.
+license.1.title=Gridarta
+license.1.file=COPYING
+license.2.title=JAPI
+license.2.file=japi.jar-LICENSE
+license.3.title=SUN Icons
+license.3.file=jlfgr-1_0.jar-LICENSE
+license.4.title=BeanShell
+license.4.file=bsh-LICENSE
+license.5.title=Log4J
+license.5.file=log4j-1.2.13.jar-LICENSE
+license.6.title=JDOM
+license.6.file=jdom.jar-LICENSE
+license.7.title=GNU getopt
+license.7.file=java-getopt-1.0.13.jar-LICENSE
+license.8.title=RSyntaxTextArea
+license.8.file=rsyntaxtextarea-1.5.1.jar-LICENSE
+
+
+#################
+# Map Arch Panel
+
+mapArchAttrib.text=Attributes
+mapArchAttrib.shortdescription=Open attributes dialog
+
+mapArchAddInv.text=Add Inv
+mapArchAddInv.shortdescription=Add object to inventory
+
+mapArchAddEnv.text=Add Env
+mapArchAddEnv.shortdescription=Add object as environment
+
+eventAddNew.text=Add Event
+eventEditData.text=Edit Event
+eventEdit.text=Edit Script
+eventRemove.text=Remove Event
+
+direction0.text=0
+direction0.shortdescription=Use no direction for the inserted object
+
+direction1.shortdescription=Make the inserted object facing north
+
+direction2.shortdescription=Make the inserted object facing north east
+
+direction3.shortdescription=Make the inserted object facing east
+
+direction4.shortdescription=Make the inserted object facing south east
+
+direction5.shortdescription=Make the inserted object facing south
+
+direction6.shortdescription=Make the inserted object facing south west
+
+direction7.shortdescription=Make the inserted object facing west
+
+direction8.shortdescription=Make the inserted object facing north west
+
+directionnull.text=default
+directionnull.shortdescription=Use default direction for the inserted object
+
+
+###########
+# Pickmaps
+
+pickmaps.text=Pickmaps
+pickmaps.mnemonic=P
+
+lockAllPickmaps.text=Lock All Pickmaps
+lockAllPickmaps.mnemonic=L
+lockAllPickmaps.shortdescription=Toggles read-only status of pickmaps.
+lockAllPickmaps.longdescription=Toggles read-only status of pickmaps. Prevents accidental changes to pickmaps when in read-only state.
+
+addNewPickmap.text=New Pickmap
+addNewPickmap.mnemonic=N
+addNewPickmap.shortdescription=Create a new pickmap.
+
+deletePickmap.text=Delete Active Pickmap
+deletePickmap.mnemonic=D
+deletePickmap.shortdescription=Deletes the active pickmap.
+
+openPickmapMap.text=Open Active Pickmap as Map
+openPickmapMap.mnemonic=O
+openPickmapMap.shortdescription=Opens the active pickmap as a map.
+
+savePickmap.text=Save Active Pickmap
+savePickmap.mnemonic=S
+savePickmap.shortdescription=Saves the active pickmap if modified.
+
+revertPickmap.text=Revert Active Pickmap
+revertPickmap.mnemonic=R
+revertPickmap.shortdescription=Reverts the active pickmap from its last saved state.
+
+createPickmapFolder.text=Create Pickmap Folder
+createPickmapFolder.shortdescription=Creates a new pickmap folder.
+
+deletePickmapFolder.text=Delete Current Pickmap Folder
+deletePickmapFolder.shortdescription=Deletes the current pickmap folder.
+
+pickmapFolders.text=Folders
+pickmapFolders.mnemonic=F
+pickmapFolders.shortdescription=Pickmap folders.
+
+
+######
+# View
+
+view.text=View
+view.mnemonic=V
+
+show.text=Show {0}
+
+resetView.text=Reset view
+resetView.mnemonic=R
+resetView.shortdescription=Resets the view filters.
+
+doubleFaces.text=Draw double faces
+doubleFaces.mnemonic=F
+doubleFaces.shortdescription=Toggles drawing of double faces for stacked walls.
+doubleFaces.longdescription=Toggles drawing of double faces for stacked walls the same way the client does.
+doubleFaces.accel=ctrl shift pressed G
+
+
+#####################
+# Preference Modules
+
+prefsApp.title=External Applications
+prefsRes.title=Paths & resources
+prefsGUI.title=Appearance
+prefsDev.title=Developers
+prefsUpdate.title=Update
+prefsNet.title=Network
+
+autoUpdate.text=Automatically check for updates on startup?
+prefsUpdateAuto0.text=Every startup
+prefsUpdateAuto1.text=Once a day
+prefsUpdateAuto2.text=Once a week
+prefsUpdateAuto3.text=Once a month
+
+# Options
+
+optionsLanguage=Language
+optionsGlobal=Global
+optionsLayout=Layout Settings
+optionsShowMainToolbar.text=Display toolbar
+optionsShowMainToolbar.shortdescription=Display the main window''s toolbar.
+optionsResPaths=Resource Paths
+optionsResArch=Archetypes
+optionsResArch.shortdescription=Path name for archetype files
+optionsResMaps=Maps
+optionsResMaps.shortdescription=Path name for map files
+optionsImageSet=Image Set
+optionsImageSet.shortdescription=Name of the image set to display
+optionsRestart.title=Warning
+optionsRestart.message=Most options require restarting the editor to take effect.
+optionsConfigSource.text=Load Configuration from:
+optionsConfigSource_ARCH_DIRECTORY=archetype directory
+optionsConfigSource_COLLECTED=collected archetypes
+optionsSystemExit.text=Use System.exit() for exiting
+optionsSystemExit.shortdescription=<html><strong>Developers</strong> should un-check this and report when the application does not exit gracefully without using System.exit().</html>
+optionsApps=External Applications
+optionsAppServer=Server
+optionsAppServer.shortdescription=The filename of the server executable to run in ''control server''.
+optionsAppClient=Client
+optionsAppClient.shortdescription=The filename of the client executable to run in ''control client''.
+optionsAppEditor=Editor
+optionsAppEditor.shortdescription=The filename of the external editor to run.
+optionsNetProxy=Proxy Settings
+
+archCollectErrorFileNotFound.title=Collect error
+archCollectErrorFileNotFound.message=Collect Error: Cannot open input file\n{0}
+archCollectWarningMissed.title=Collect warning
+archCollectWarningMissed.message=Collect Warning: {0} arches have been missed during collect!
+
+arcDoc.htmlText=<html><head><meta name="Gridarta" content="tmp"><title>{0}</title></head><body><h1 style="text-align:center;colour:navy;">{0}</h1><h3 style="colour:navy;">Functionality of {0}:</h3><p>{1}</p><h3 style="colour:navy;">Notes on Usage:</h3><p>{2}</p></body></html>
+
+
+###################
+# Preferences file
+prefs.archDirectory=Archetype directory.
+prefs.archetypeChooserDisplayMode=The display mode of the archetype chooser: 0=game object names, 1=archetype names, 2=icons only.
+prefs.autoGeneratePreviews=If set, automatically generate map preview images.
+prefs.autoValidate=Whether the map validator is run automatically after each change.
+prefs.bookmarkDirectory=The directory of the bookmark.
+prefs.bookmarkFilename=The file name of the bookmark. Unused for bookmarks of type DIR.
+prefs.bookmarkNum=The number of used bookmark entries.
+prefs.bookmarkTitle=The title of the bookmark.
+prefs.bookmarkType=The type of the bookmark: DIR or MAP (default).
+prefs.docuVersion=Last displayed version of the help documentation.
+prefs.exitConnectorPasteExitName=If set, set the exit''s name field to the destination''s map name. Otherwise do not modify the exit''s name field.
+prefs.exitConnectorAutoCreateExit=If set, automatically create an exit game object when needed.
+prefs.exitConnectorExitArchetypeName=The archetype to create exit game objects from.
+prefs.language=Language for the user interface.
+prefs.MainWindow.dividerLocation2=Specifies the layout of the main window.
+prefs.MainWindow.dividerLocation3=Specifies the layout of the main window.
+prefs.MainWindow.dividerLocation=Specifies the layout of the main window.
+prefs.MainWindow.height=Height of main window.
+prefs.MainWindow.lnfClass=Look and Feel class name.
+prefs.MainWindow.width=Width of main window in pixel.
+prefs.MainWindow.x=X coordinate of main window.
+prefs.MainWindow.y=Y coordinate of main window.
+prefs.MainWindowArchPanel.dividerLocation=Specifies the layout of the main window.
+prefs.MainWindowMapArchPanel.dividerLocation=Specifies the layout of the main window.
+prefs.mapDirectory=Maps directory.
+prefs.MapSquareBottom=true=display Game Object Attribute Dialog at bottom, false=display at right side.
+prefs.mapViewSettings.gridVisible=Whether the map grid is visible.
+prefs.mapViewSettings.lightVisible=Whether lighted map squares are highlighted.
+prefs.mapViewSettings.smoothing=Whether smoothing is active.
+prefs.mapViewSettings.doubleFaces=Whether double faces are shown.
+prefs.mapViewSettings.alphaType=The settings for alpha faces.
+prefs.mapViewSettings.autojoin=Whether autojoining is enabled.
+prefs.NewMapDialog.difficulty=Last selected map difficulty in New Map Dialog.
+prefs.NewMapDialog.mapHeight=Last selected map width in New Map Dialog.
+prefs.NewMapDialog.mapWidth=Last selected map height in New Map Dialog.
+prefs.optionsRestart.show=Whether to display the "restart" dialog in Settings Dialog.
+prefs.pickmapsLocked=Whether pickmaps are locked or may be modified.
+prefs.proxy.host=The proxy host name. Only used if proxy.type is not DIRECT.
+prefs.proxy.port=The proxy port. Only used if proxy.type is not DIRECT.
+prefs.proxy.type=The proxy type: DIRECT, HTTP, SOCKS.
+prefs.recentFilename=Recent file filename.
+prefs.recentNum=Number of used recent file filename entries.
+prefs.recentTitle=Recent file map title.
+prefs.scriptDirectory=Script directory.
+prefs.ScriptEditWindow.height=Height of script editor.
+prefs.ScriptEditWindow.width=Width of script editor.
+prefs.ScriptEditWindow.x=X coordinate of script editor.
+prefs.ScriptEditWindow.y=Y coordinate of script editor.
+prefs.shortcut=Customized shortcut for ''{0}''.
+prefs.ShowMainToolbar=Whether the main windows''s toolbar is shown.
+prefs.systemExit=If set to false, never exit the application; should always be set to true except for debugging purposes.
+prefs.useImageSet=The image set to use.
+prefs.username=The user name to use for new maps.
+prefs.Validator.All=Whether the map validator is enabled.
+prefs.Validator.AttributeRange=Whether this map validator check is enabled.
+prefs.Validator.BlockedMobOrSpawnPoint=Whether this map validator check is enabled.
+prefs.Validator.BlockedSpawnPoint=Whether this map validator check is enabled.
+prefs.Validator.BlockedSquare=Whether this map validator check is enabled.
+prefs.Validator.ConnectedInsideContainer=Whether this map validator check is enabled.
+prefs.Validator.ConnectedPickable=Whether this map validator check is enabled.
+prefs.Validator.Connection=Whether this map validator check is enabled.
+prefs.Validator.CustomType=Whether this map validator check is enabled.
+prefs.Validator.DoubleLayer=Whether this map validator check is enabled.
+prefs.Validator.DoubleType=Whether this map validator check is enabled.
+prefs.Validator.EmptySpawnPoint=Whether this map validator check is enabled.
+prefs.Validator.Environment=Whether this map validator check is enabled.
+prefs.Validator.Exit=Whether this map validator check is enabled.
+prefs.Validator.MapDifficulty=Whether this map validator check is enabled.
+prefs.Validator.MobOutsideSpawnPoint=Whether this map validator check is enabled.
+prefs.Validator.NonAbsoluteExitPath=Whether this map validator check is enabled.
+prefs.Validator.PaidItemShopSquare=Whether this map validator check is enabled.
+prefs.Validator.ShopSquare=Whether this map validator check is enabled.
+prefs.Validator.Slaying=Whether this map validator check is enabled.
+prefs.Validator.SquareWithoutFloor=Whether this map validator check is enabled.
+prefs.Validator.SysObjectNotOnLayerZero=Whether this map validator check is enabled.
+prefs.Validator.TilePaths=Whether this map validator check is enabled.
+prefs.Validator.UndefinedArchetype=Whether this map validator check is enabled.
+prefs.Validator.UndefinedFace=Whether this map validator check is enabled.
+prefs.Validator.UnsetSlaying=Whether this map validator check is enabled.
+prefs.WindowState=Main windows''s state (maximized, iconized, etc.)
+prefs.appClient=Filename of client executable.
+prefs.appEditor=Filename of external editor executable.
+prefs.appServer=Filename of server executable.
+
+###############
+# File Dialogs
+autoGeneratePreviews.text=Auto-generate Previews?
+genPreview.text=Generate Preview
+
+
+#####################
+# Script Editor Menu
+scriptEditFile.text=File
+scriptEditFile.mnemonic=F
+scriptEditEdit.text=Edit
+scriptEditEdit.mnemonic=E
+
+scriptEditNewScript.text=New Script
+scriptEditNewScript.mnemonic=N
+scriptEditNewScript.shortdescription=Creates a new event script.
+scriptEditNewScript.accel=ctrl pressed N
+scriptEditOpen.text=Open Script
+scriptEditOpen.mnemonic=O
+scriptEditOpen.shortdescription=Opens an event script.
+scriptEditOpen.accel=ctrl pressed O
+scriptEditSaveAs.text=Save Script As
+scriptEditSaveAs.mnemonic=V
+scriptEditSaveAs.shortdescription=Saves the current event script with a new name.
+scriptEditSaveAs.accel=ctrl shift pressed S
+scriptEditSave.text=Save Script
+scriptEditSave.mnemonic=S
+scriptEditSave.shortdescription=Saves the current event script if modified.
+scriptEditSave.accel=ctrl pressed S
+scriptEditClose.text=Close Script
+scriptEditClose.mnemonic=C
+scriptEditClose.shortdescription=Closes the current event script.
+scriptEditClose.longdescription=Closes the current event script. Asks for confirmation if modified.
+scriptEditClose.accel=ctrl pressed W
+scriptEditCloseAll.text=Close All Scripts
+scriptEditCloseAll.mnemonic=L
+scriptEditCloseAll.shortdescription=Closes all event scripts.
+scriptEditCloseAll.longdescription=Closes all event scripts. Asks for confirmation if any script is modified.
+scriptEditCloseAll.accel=ctrl shift pressed W
+
+scriptEditCut.text=Cut
+scriptEditCut.mnemonic=T
+scriptEditCut.shortdescription=Cuts the selected text to clipboard.
+scriptEditCut.accel=ctrl pressed X
+scriptEditCopy.text=Copy
+scriptEditCopy.mnemonic=C
+scriptEditCopy.shortdescription=Copies the selected text to clipboard.
+scriptEditCopy.accel=ctrl pressed C
+scriptEditPaste.text=Paste
+scriptEditPaste.mnemonic=P
+scriptEditPaste.shortdescription=Pastes from clipboard.
+scriptEditPaste.accel=ctrl pressed V
+
+scriptEditFind.text=Find
+scriptEditFind.mnemonic=F
+scriptEditFind.shortdescription=Opens the find text dialog.
+scriptEditFind.accel=ctrl pressed F
+scriptEditReplace.text=Replace
+scriptEditReplace.mnemonic=R
+scriptEditReplace.shortdescription=Opens the replace text dialog.
+scriptEditReplace.accel=ctrl pressed R
+scriptEditFindAgain.text=Find/Replace again
+scriptEditFindAgain.mnemonic=A
+scriptEditFindAgain.shortdescription=Repeats the previous find or replace action.
+scriptEditFindAgain.accel=F3
+
+scriptEditUndo.text=Undo
+scriptEditUndo.name={0}
+scriptEditUndo.shortdescription=Undoes the last edit action.
+scriptEditUndo.mnemonic=U
+scriptEditUndo.accel=ctrl pressed Z
+scriptEditRedo.text=Redo
+scriptEditRedo.name={0}
+scriptEditRedo.mnemonic=E
+scriptEditRedo.shortdescription=Redoes the last undo action.
+scriptEditRedo.accel=ctrl pressed Y
+
+############################
+# Script Editor Find Dialog
+scriptEdit.find.text=Text to find:
+scriptEdit.find.title=Find
+scriptEdit.find.notFound=The text was not found.
+
+###############################
+# Script Editor Replace Dialog
+scriptEdit.replace.title=Replace
+scriptEdit.replace.find=Text to find:
+scriptEdit.replace.replace=Replacement:
+replaceButton.text=Replace
+cancelButton.text=Cancel
+
+#####################
+# Script Editor Misc
+scriptEdit.confirmClose.title=Close modified script?
+scriptEdit.confirmClose.message=The script {0} has been modified since last save.\nDo you really want to close the script without saving?
+
+
+#################
+# Map Validation
+
+Validator.All.default=true
+Validator.All.title=Enable this group
+
+Validator.AttributeRange.default=true
+Validator.AttributeRange.title=Suspicious attribute value
+Validator.AttributeRange.msg=<html><h3>{0}</h3><p>The attribute "{4}" of {3} is probably incorrect. Its value ({5}) should be between {6} and {7}.</p><p>You could:</p><ul><li>Ignore this</li><li>Change the attribute value</li></ul>
+
+Validator.BlockedMobOrSpawnPoint.default=true
+Validator.BlockedMobOrSpawnPoint.title=Blocked mob
+Validator.BlockedMobOrSpawnPoint.msg=<html><h3>{0}</h3><p>On this square is a mob,<br>but also this square is blocked by an object that cannot be passed.</p><p>You could:</p><ul><li>Remove the mob</li><li>Change the <code>no_pass</code> flag of the blocking object to <code>0</code></li><li>Remove the blocking object</li></ul>
+
+Validator.BlockedSpawnPoint.default=true
+Validator.BlockedSpawnPoint.title=Blocked spawn point
+Validator.BlockedSpawnPoint.msg=<html><h3>{0}</h3><p>This spawn point is blocked by objects that cannot be passed.<br>This means that the spawn point will never span anything.</p><p>You could:</p><ul><li>Remove the spawn point</li><li>Change the <code>no_pass</code> flag of the nearby blocking objects to <code>0</code></li><li>Remove a blocking object</li></ul>
+
+Validator.BlockedSquare.default=false
+Validator.BlockedSquare.title=Completely blocked square
+Validator.BlockedSquare.msg=<html><h3>{0}</h3><p>This square is completely blocked. This and all its surrounding squares are <code>no_pass 1</code> and <code>blocksview 1</code>.</p><p>Usually such squares do not make sense and their contents can be safely deleted.</p>
+
+Validator.ConnectedInsideContainer.default=true
+Validator.ConnectedInsideContainer.title=Connected object inside container
+Validator.ConnectedInsideContainer.msg=<html><h3>{0}</h3><p>On this square is a connected object inside a container.<br>Connected objects are not allowed inside containers.</p><p>You could:</p><ul><li>Remove the whole container</li><li>Remove the connected object inside the container</li><li>Remove the connection from the connected object</li></ul>
+
+Validator.ConnectedPickable.default=true
+Validator.ConnectedPickable.title=Pickable connected object
+Validator.ConnectedPickable.msg=<html><h3>{0}</h3><p>On this square is a connected object that can be picked up.<br>Connected objects must never leave there map and therefor must not be pickable.</p><p>You could:</p><ul><li>Remove the connected object</li><li>Set the <code>no_pick</code> flag of the connected object to 1</li></ul>
+
+Validator.Connection.default=true
+Validator.Connection.title=Suspicious connection
+Validator.ConnectionUnknown.title=Unexpected connection
+Validator.ConnectionUnknown.msg=<html><h3>{0}</h3><p>This game object has a connected value but should not have one.</p><p>You could:</p><ul><li>Remove the "connected" field</li></ul>
+Validator.ConnectionWithoutSinks.title=Connection without sinks
+Validator.ConnectionWithoutSinks.msg=<html><h3>{0}</h3><p>The connection {4} has only sources but no sinks.</p><p>This means that nothing will happen if a source object is activated.</p><p>You could:</p><ul><li>Remove the source objects</li><li>Remove the "connected" field from the source objects</li><li>Add a sink object</li>
+Validator.ConnectionWithoutSources.title=Connection without sources
+Validator.ConnectionWithoutSources.msg=<html><h3>{0}</h3><p>The connection {4} has only sinks but no sources.</p><p>This means that these objects can never be activated.</p><p>You could:</p><ul><li>Remove the sink objects</li><li>Remove the "connected" field from the sink objects</li><li>Add a source object</li>
+
+Validator.CustomType.default=true
+Validator.CustomType.title=Object with custom type
+Validator.CustomType.msg=<html><h3>{0}</h3><p>This object changes the object type from {4} to {5}.<br>Generally, changing the type of an object is a bad idea because it is hard to get it right.</p><p>You could:</p><ul><li>Ignore this</li><li>Replace this object with an archetype of the desired type, then change some attributes</li></ul>
+
+Validator.DoubleLayer.default=true
+Validator.DoubleLayer.title=Two objects within the same layer on the same square
+Validator.DoubleLayer.msg=<html><h3>{0}</h3><p>On this square there are more than 1 arch in the same layer.<br>While not really critical, this can lead to strange effects when displaying this square in the client.</p><p>You could:</p><ul><li>Ignore this</li><li>Remove one of the arches</li></ul>
+
+Validator.DoubleType.default=true
+Validator.DoubleType.title=Two arches of the same type on the same square
+Validator.DoubleType.msg=<html><h3>{0}</h3><p>On this square there are more than 1 arch of the same type.<br>While often not being an error and not being problematic at all, this sometimes happens by accident.</p><p>You could:</p><ul><li>Ignore this</li><li>Remove one of the arches</li></ul>
+
+Validator.EmptySpawnPoint.default=true
+Validator.EmptySpawnPoint.title=Empty spawn point
+Validator.EmptySpawnPoint.msg=<html><h3>{0}</h3><p>On this square there is an empty spawn point.<br>Empty spawn points make no sense.<br>Spawn points should always contain something they spawn, which usually is a mob.</p><p>You could:</p><ul><li>Delete the spawn point</li><li>Add an object, preferably a mob, to the inventory of the spawn point</li></ul>
+
+Validator.Environment.default=true
+Validator.Environment.title=Invalid environment
+Validator.EnvironmentMap.title=Map environment
+Validator.EnvironmentMap.msg=<html><h3>{0}</h3><p>The game object {3} is placed directly on a map.<br>Game objects of type {4} cannot be directly added to maps.
+Validator.EnvironmentInv.title=Inventory environment
+Validator.EnvironmentInv.msg=<html><h3>{0}</h3><p>The game object {3} is in an inventory.<br>Game objects of type {4} are not allowed in inventories of type {5}.
+
+Validator.EnvironmentSensorSlaying.title=Invalid slaying
+Validator.EnvironmentSensorSlaying.msg=<html><h3>{0}</h3><p>The slaying field of this game object is not valid for an environment sensor.<br>The value should be either empty or of the form HH:MM-HH:MM.</p><p>You could:</p><ul><li>Change the slaying attribute</li><li>Delete the environment sensor</li></ul>
+
+Validator.Exit.default=true
+Validator.Exit.title=Exit path invalid
+Validator.Exit.msg=<html><h3>{0}</h3><p>This exit has an invalid path {4}.<br>Change the path or create the missing map.
+
+Validator.MapCheckerScript.default=false
+Validator.MapCheckerScript.title=External validator script
+Validator.MapCheckerScriptFailure.title=Validator script failed to execute
+Validator.MapCheckerScriptFailure.msg=<html><h3>{0}</h3><p>The command {4} failed to execute.<br>Failure reason: {5}
+Validator.MapCheckerScriptMissing.title=Validator script not found
+Validator.MapCheckerScriptMissing.msg=<html><h3>{0}</h3><p>The command {4} was not found.<br>Failure reason: {5}
+Validator.MapCheckerScriptMapSquare.title=Validator script warning
+Validator.MapCheckerScriptMapSquare.msg=<html><h3>{0}</h3><p>{4}
+Validator.MapCheckerScriptMap.title=Validator script warning
+Validator.MapCheckerScriptMap.msg=<html><h3>{0}</h3><p>{4}
+
+Validator.MapDifficulty.default=true
+Validator.MapDifficulty.title=Map difficulty invalid
+Validator.MapDifficulty.msg=<html><h3>{0}</h3>This map has an invalid difficulty.<br>Go to the map properties dialog and change the difficulty setting.
+
+Validator.MobOutsideSpawnPoint.default=true
+Validator.MobOutsideSpawnPoint.title=Mob outside spawn point
+Validator.MobOutsideSpawnPoint.msg=<html><h3>{0}</h3><p>On this square there is a mob outside a spawn point.<br>Mobs outside spawn points are okay, but you should perhaps still put the mob inside a spawn point.</p><p>You could:</p><ul><li>Ignore this</li><li>Create a spawn point for this mob</li></ul>
+
+Validator.NonAbsoluteExitPath.default=true
+Validator.NonAbsoluteExitPath.title=Exit path is not absolute
+Validator.NonAbsoluteExitPath.msg=<html><h3>{0}</h3><p><p>On this square there is an exit which defines an exit path to ''{4}'' that is not absolute.</p><p>Within <em>unique</em> maps exit paths must be absolute (that is, starting with a / character) as relative paths cannot be handled by the server.</p>
+
+Validator.PaidItemShopSquare.default=true
+Validator.PaidItemShopSquare.title=Shop square contains paid item
+Validator.PaidItemShopSquare.msg=<html><h3>{0}</h3><p>On this square there is a shop square which contains a paid item. Usually items on shop squares should be unpaid by default.
+
+Validator.ShopSquare.default=true
+Validator.ShopSquare.title=Shop square allows magic and/or prayers
+Validator.ShopSquare.msg=<html><h3>{0}</h3><p>On this square there is a shop square which allows magic and/or prayers.</p>
+Validator.ShopSquare2.title=Adjacent shop square allows magic and/or prayers
+Validator.ShopSquare2.msg=<html><h3>{0}</h3><p>On this square there is a shop square which has an adjacent square that both is not blocked and that does allows magic and/or prayers.</p>
+
+Validator.Slaying.default=true
+Validator.Slaying.title=Critical slaying characters
+Validator.Slaying.msg=<html><h3>{0}</h3><p>On this square there is an arch with a slaying attribute that contains critical characters.</p><p>Non-critical characters for the slaying attribute are:<br><code>a-z A-Z 0-9 / . _</code></p><p>You could:</p><ul><li>Change the violating slaying attribute</li></ul>
+
+Validator.SquareWithoutFloor.default=true
+Validator.SquareWithoutFloor.title=Square without floor
+Validator.SquareWithoutFloor.msg=<html><h3>{0}</h3><p>On this square there is no floor.<br>On some maps, this is intentional because it is outside an ever reachable or visible region.<br>On some other maps, this is an error and should be fixed.</p><p>You could:</p><ul><li>Ignore this</li><li>Create a floor on this square</li></ul>
+
+Validator.SysObjectNotOnLayerZero.default=true
+Validator.SysObjectNotOnLayerZero.title=System object not on layer zero
+Validator.SysObjectNotOnLayerZero.msg=<html><h3>{0}</h3><p>This arch object is a system object.<br>System objects should always be in layer 0.<br>But this system object is in another layer.</p><p>You could:</p><ul><li>Ignore this</li><li>Change this arch object''s layer to 0</li></ul>
+
+Validator.TilePaths.default=true
+Validator.TilePaths.title=Tile path invalid
+Validator.TilePaths.msg=<html><h3>{0}</h3><p>The tile path ''{5}'' in direction ''{4}'' is invalid.<br>Go to the map properties dialog and change the map tile paths.
+
+Validator.UndefinedAnim.title=Undefined animation
+Validator.UndefinedAnim.msg=<html><h3>{0}</h3><p>The animation "{4}" does not exist.</p><p>You could:</p><ul><li>Change the animation attribute</li></ul>
+
+Validator.UndefinedArchetype.default=true
+Validator.UndefinedArchetype.title=Undefined archetype
+Validator.UndefinedArchetype.msg=<html><h3>{0}</h3><p>This object references an undefined archetype.<br>Every object is created by copying an archetype.<br>If this archetype does not exist the object cannot be created by the server.</p><p>You could:</p><ul><li>Remove the object</li></ul>
+
+Validator.UndefinedFace.default=true
+Validator.UndefinedFace.title=Undefined face
+Validator.UndefinedFace.msg=<html><h3>{0}</h3><p>The face "{4}" does not exist.</p><p>You could:</p><ul><li>Change the face attribute</li></ul>
+
+Validator.UnsetSlaying.default=true
+Validator.UnsetSlaying.title=Invalid key string
+Validator.UnsetSlaying.msg=<html><h3>{0}</h3><p>This object does not define a unique key string.<br>This could be exploited by players by mixing keys and doors appearing in different map sets.</p><p>You could:</p><ul><li>Ignore this</li><li>Set a unique key value</li></ul>
+
+
+#####################
+# Preference Modules
+
+prefsMisc.title=Miscellaneous
+
+prefsMapValidator.title=Map validation
+
+optionsMisc=Miscellaneous Options
+optionsUpdate=Automatic Update
+optionsValidation=Validation settings
+autoValidate.text=Automatically run validation after each change
+optionsValidators=Validators
+optionsCheckMaps.text=Analyse map files in file chooser
+optionsCheckMaps.shortdescription=<html>When opening or attaching maps, there are 2 ways of filtering map files:<ul><li>Analyzing maps takes longer but reliably filters out all non-map files.<li>Not analyzing maps is extremely fast but tries to guess map files<br>as files that do not have a file ending, which can be wrong.</ul></html>
+optionsUser=Artist name for new maps
+
+optionsExitConnector=Exit Connector
+optionsExitConnectorAutoCreateExit.text=Auto-create exit
+optionsExitConnectorAutoCreateExit.shortdescription=If set, automatically create an exit game object when needed.
+optionsExitConnectorPasteExitName.text=Paste exit name
+optionsExitConnectorPasteExitName.shortdescription=If set, set the exit''s name field to the destination''s map name.\nOtherwise do not modify the exit''s name field.
+optionsExitConnectorExitArchetypeName.text=Exit archetype
+optionsExitConnectorExitArchetypeName.shortdescription=The archetype to create exit game objects from.
+
+# Treasure lists
+treasurelistForbidden.title=Invalid Selection
+treasurelistForbidden.message=The {0} treasurelists must not be used in maps.\nThese lists are reserved for internal use in the server.
+
+
+############
+# Archetypes
+
+archetypes.text=Archetypes
+archetypes.mnemonic=A
+
+displayGameObjectNames.text=Display game object names
+displayGameObjectNames.shortdescription=Displays game object names in the archetype chooser.
+displayArchetypeNames.text=Display archetype names
+displayArchetypeNames.shortdescription=Displays archetype names in the archetype chooser.
+displayIconsOnly.text=Display icons only
+displayIconsOnly.shortdescription=Displays icons in the archetype chooser.
+
+findArchetypes.text=Find archetype
+findArchetypes.shortdescription=Opens the find archetypes dialog.
+findArchetypes.accel=ctrl alt pressed A
+
+
+#########
+# Window
+
+window.text=Window
+window.mnemonic=W
+
+nextWindow.text=Next Window
+nextWindow.shortdescription=Changes to next map window.
+nextWindow.accel=shift pressed PAGE_UP
+
+prevWindow.text=Previous Window
+prevWindow.shortdescription=Changes to previous map window.
+prevWindow.accel=shift pressed PAGE_DOWN
+
+
+########################
+# Find archetypes dialog
+
+findArchetypesTitle=Find archetypes
+findArchetypesName=Name:
+findArchetypesSearch.text=search
+findArchetypesClose.text=close
+findArchetypesColumnName=Name
+findArchetypesColumnArch=Archetype
+findArchetypesColumnType=Type
+findArchetypesColumnFolder=Folder
+findArchetypesScrollDown.text=-
+findArchetypesScrollDown.accel=pressed DOWN
+findArchetypesScrollUp.text=-
+findArchetypesScrollUp.accel=pressed UP
+
+
+#########
+# Updater
+update.text=Update...
+update.mnemonic=U
+update.shortdescription=Opens the updater dialog.
+update.accel=ctrl pressed U
+update.title=Updating
+update.message=Check for updates?
+updateCloseMaps.title=Error while updating
+updateCloseMaps.message=You have to close all files before running the update feature.
+updateError.title=Error while updating
+updateError.message=Error while updating:\n{0}\n\nPlease update manually.
+updateUnavailable.title=No update available
+updateUnavailable.message=<html><style type="text/css">.cell'{border-width:1px;border-style:solid;border-color:#000000;background-color:#FFFFFF;color:#000000;}'</style><table><tr><td></td><th class="cell">Installed</th><th class="cell">Available</th></tr><tr><th class="cell">Version</th><td class="cell">{0}</td><td class="cell">{1}</td></tr><tr><th class="cell">Developer</th><td class="cell">{2}</td><td class="cell">{3}</td></tr><tr><th class="cell">Timestamp</th><td class="cell">{4}</td><td class="cell">{5}</td></tr></table><p align="center">No newer version available.</p><p>Source: {6}<br>Download: {7}</p></html>
+updateAvailable.title=Update available!
+updateAvailable.message=<html><style type="text/css">.cell'{border-width:1px;border-style:solid;border-color:#000000;background-color:#FFFFFF;color:#000000;}'</style><table><tr><td></td><th class="cell">Installed</th><th class="cell">Available</th></tr><tr><th class="cell">Version</th><td class="cell">{1}</td><td class="cell">{2}</td></tr><tr><th class="cell">Developer</th><td class="cell">{3}</td><td class="cell">{4}</td></tr><tr><th class="cell">Timestamp</th><td class="cell">{5}</td><td class="cell">{6}</td></tr></table><p align="center">A newer version is available. Install update?</p><p>Note: This will only update {0}. Your arches will not be updated.</p><p>(The editor will not be usable while the update is in progress)</p><p>Source: {7}<br>Download: {8}</p></html>
+updateFailedNoBackup.title=Update failed
+updateFailedNoBackup.message=<html>Could not create backup, update failed.<br>Please do the following steps manually after exiting the editor:<ol><li>rename {0} to {0}.bak<li>rename {0}.tmp to {0}</ol></html>
+updateFailedNoDownload.title=Update failed
+updateFailedNoDownload.message=Could not use download, update failed.
+updateRestart.title=Update successful
+updateRestart.message=Update successful.\nI have stored a backup of the previous version under "{0}.bak".\n\nThe editor automatically exits after updating.\nYou have to restart it yourself in case you want to use it now.
+updateAborted.title=Update aborted
+updateAborted.message=Update aborted on your request.
+updateProgress.title=Update
+updateProgress=Update in progress
+updateActiveVersionUnavailable.title=Update warning
+updateActiveVersionUnavailable.message=I was unable to determine my version.\nI will assume that the update is newer than your current version.
+
+
+################
+# Object Chooser
+objectChooser.archetypesTabTitle=Archetypes
+objectChooser.pickmapsTabTitle=Pickmaps
+objectChooser.captionName=Name:
+objectChooser.captionArchetype=Arch:
+objectChooser.captionType=Type:
+objectChooser.captionTile=Tile:
+objectChooser.tileSingle=single
+objectChooser.randomPick= -random pick-
+objectChooser.tileSize=<html><span style=\"color:green;\"> multi</span> ({0} parts) ({1},{2})</html>
+
+####################
+# Archetype Chooser
+editPopup.text=Edit Archetype
+
+
+##############
+# File Control
+fileDialog.title=Open map or script files
+fileDialog.filter.lua=Lua Scripts
+fileDialog.filter.arc=Archetype definitions
+fileDialog.filter.anim=Animation definitions
+fileDialog.filter.face=Face definitions
+fileDialog.filter.txt=Text Files
+fileDialog.filter.text=Text Files
+fileDialog.filter.py=Python Scripts
+
+
+##################
+# Selected Square
+moveSquarePrev.text=
+moveSquarePrev.shortdescription=Selects the previous game object in map square.
+moveSquarePrev.accel=alt pressed UP
+moveSquareNext.text=
+moveSquareNext.shortdescription=Selects the next game object in map square.
+moveSquareNext.accel=alt pressed DOWN
+moveSquareTop.text=
+moveSquareTop.shortdescription=Moves the selected game object to top of map square.
+moveSquareUp.text=
+moveSquareUp.shortdescription=Moves the selected game object up in map square.
+moveSquareUp.accel=alt shift pressed UP
+moveSquareDown.text=
+moveSquareDown.shortdescription=Moves the selected game object down in map square.
+moveSquareDown.accel=alt shift pressed DOWN
+moveSquareBottom.text=
+moveSquareBottom.shortdescription=Moves the selected game object to bottom of map square.
+moveSquareInv.text=
+moveSquareInv.shortdescription=Moves the selected game object into the inventory.
+moveSquareInv.accel=alt shift pressed RIGHT
+moveSquareEnv.text=
+moveSquareEnv.shortdescription=Moves the selected game object to its environment.
+moveSquareEnv.accel=alt shift pressed LEFT
+
+
+###############
+# SpellsUtils
+importSpellsSuccess.title=Collect spells
+importSpellsSuccess.message=Successfully collected {0} spells.
+importSpellsFailed.title=Collect spells
+importSpellsFailed.message=Collecting spells failed!\nMaybe the specified file is of wrong format.
+
+
+controlServer.text=Control Server
+controlServer.mnemonic=S
+controlServer.shortdescription=Opens the control server dialog.
+controlServer.name=Server
+controlServer.title=Server console
+controlClient.text=Control Client
+controlClient.mnemonic=C
+controlClient.shortdescription=Opens the control client dialog.
+controlClient.name=Client
+controlClient.title=Client console
+controlError.title=Control error
+controlError.message=Error while starting sub-process:\n{0}
+controlStart.text=Start
+controlStop.text=Stop
+controlStop.accel=ESCAPE
+controlClear.text=Clear
+controlCloseOkay=You may safely close this window.
+controlServerWarning.title=Warning
+controlServerWarning.message=<html><h3>Warning!</h3><p>Java cannot cope with processes that use signal handlers doing lots of work.<br>The server is such a process.<br>Terminating the server using the Stop button will extremely likely<br>result in a Zombie process only killable via operating system tools.</p><p><strong>You have been warned!</strong></p></html>
+
+
+##########
+# Plugins
+
+pluginConfirmSaveChanges.title=Save changes?
+pluginConfirmSaveChanges.message=Do you want to save changes to plugin {0}?
+
+
+############
+# Error View
+
+errorViewTitle=Errors
+errorViewOk.text=OK
+
+
+##########
+# Main Window
+tabButton.gameObject.title1=Game Object
+tabButton.gameObject.title2={0}: Game Object
+tabButton.gameObject.shortdescription=Display information about the selected game object.
+tabButton.selectedSquare.title1=Selected Square
+tabButton.selectedSquare.title2={0}: Selected Square
+tabButton.selectedSquare.shortdescription=Display game objects in the selected square.
+tabButton.tools.title1=Tools
+tabButton.tools.title2={0}: Tools
+tabButton.tools.shortdescription=Display the tool selector.
+tabButton.objects.title1=Objects
+tabButton.objects.title2={0}: Objects
+tabButton.objects.shortdescription=Display the Object Chooser.
+tabButton.monsters.title1=Monsters
+tabButton.monsters.title2={0}: Monsters
+tabButton.monsters.shortdescription=Display the monsters of the current map.
+tabButton.connections.title1=Connections
+tabButton.connections.title2={0}: Connections
+tabButton.connections.shortdescription=Display the connections of the current map.
+tabButton.lockedItems.title1=Locked Items
+tabButton.lockedItems.title2={0}: Locked Items
+tabButton.lockedItems.shortdescription=Display the locked items of the current map.
+tabButton.textEditor.title1=Text Editor
+tabButton.textEditor.title2={0}: Text Editor
+tabButton.textEditor.shortdescription=Display the game object text editor for the selected game object.
+tabButton.warnings.title1=Warnings
+tabButton.warnings.title2={0}: Warnings
+tabButton.warnings.shortdescription=Display the warnings of the current map.
+tabButtonMoveTo.text=Move To
+tabButtonMoveToTop.text=Top
+tabButtonMoveToBottom.text=Bottom
+tabButtonMoveToLeft.text=Left
+tabButtonMoveToRight.text=Right
+tabSplitMode.text=Split Mode
+
+
+############
+# Map window
+
+mapwindowFile.text=File
+mapwindowFile.mnemonic=F
+
+mapwindowEdit.text=Edit
+mapwindowEdit.mnemonic=E
+
+mapwindowMap.text=Map
+mapwindowMap.mnemonic=M
+
+mapwindowCursor.text=Cursor
+mapwindowCursor.mnemonic=C
+
+
+########################
+# Create Bookmark Dialog
+createBookmark.title=Create Bookmark
+createBookmark.mapPath=Map path:
+createBookmark.mapName=Map name:
+createBookmark.description=Description:
+createBookmarkOk.text=Create
+createBookmarkCancel.text=Cancel
+
+
+####################
+# Random Fill Dialog
+randomFillTitle=Random Fill
+randomFillDensity.text=Enter a fill density between 1-100:
+randomFillDensity.default=10
+randomFillSkipAdjacentSquares.text=Skip if adjacent square is filled
+randomFillSkipAdjacentSquares.shortdescription=If checked, do not fill squares for which an adjacent square contains a similar game object.
+randomFillOkay.text=Ok
+randomFillCancel.text=Cancel
+
+
+###############
+# Go Map Dialog
+goMapLabel=Enter map name:
+goMapScrollDown.text=-
+goMapScrollDown.accel=pressed DOWN
+goMapScrollUp.text=-
+goMapScrollUp.accel=pressed UP
+goMapScrollPageDown.text=-
+goMapScrollPageDown.accel=pressed PAGE_DOWN
+goMapScrollPageUp.text=-
+goMapScrollPageUp.accel=pressed PAGE_UP
+goMapScrollTop.text=-
+goMapScrollTop.accel=pressed HOME
+goMapScrollBottom.text=-
+goMapScrollBottom.accel=pressed END
+goMapSelectDown.text=-
+goMapSelectDown.accel=shift pressed DOWN
+goMapSelectUp.text=-
+goMapSelectUp.accel=shift pressed UP
+goMapCancel.text=-
+goMapCancel.accel=pressed ESCAPE
+goMapApply.text=-
+goMapApply.accel=pressed ENTER
+goMapIOException.title=Cannot Load Map
+goMapIOException.message=The map {0} cannot be loaded:\n{1}
+
+
+###################
+# Go To Exit Dialog
+goExitTitle=Go To Exit
+goExitApply.text=-
+goExitApply.accel=pressed ENTER
+goExitIOException.title=Cannot Load Map
+goExitIOException.message=The map {0} cannot be loaded:\n{1}
+
+
+# Tooltip text for entries in recent and bookmarks menus.
+mapItem.shortdescriptionformat=Opens map {0} ({1}).

@@ -1,0 +1,59 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2010 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+# Warning: This file MUST be ISO-8859-1
+# See http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html#encoding
+#
+# Tip Of The Day
+
+tod.text.1=<html>You can as well cycle through the tips using the arrow keys<br>(Arrow left / Arrow right)
+tod.text.2=<html>This Tip Of The Day window is non-modal.<p>That means the window may stay open while using the editor.
+tod.text.3=<html>You can online update the editor to get the latest version.<p>Menu: <code>Help -> Update</code>.<br>Keyboard: <kbd>Ctrl-U</kbd>.<p>This will update the editor to the latest build available (nightly build).
+tod.text.4=<html>You can quickly cycle through open windows.<p>Menu: <code>View->Previous / Next Window</code>.<br>Keyboard: <kbd>Shift-Page Up</kbd> / <kbd>Shift-Page Down</kbd>.
+tod.text.5=<html>You can display half-height walls stacked in the same way the client does.<p>Menu: <code>View->Draw Double Faces</code><br>Keyboard: <kbd>Ctrl+Shift-G</kbd>.
+tod.text.6=<html>On most systems, <em>Atrinik Editor runs fastest at 32 Bit colour depth</em>.<p>This is because the editor uses transparency (Alpha Channel).
+tod.text.7=<html>You can quickly move through tiled attached maps.<p>Hold <kbd>Ctrl</kbd> and use the numpad with the same directions as the client.
+tod.text.8=<html>How to use the mouse?<ul><li>To <em>select</em> squares, use the left mouse button.<li>To <em>paint</em> (insert arches), use the right mouse button.<li>To <em>delete</em>, use the middle mouse button or hold Ctrl and use the right mouse button.</ul>
+tod.text.9=<html>You can select all squares of a map at once.<p>Menu: <code>Edit -> Select All</code><br>Keyboard: <kbd>Ctrl-A</kbd>.
+tod.text.10=<html>You can random paint by selecting a pickmap and painting.<p>Try this:<br>Select the "plants1" pickmap,<br>then paint with the right mouse button.
+tod.text.11=<html>All tiled maps of Atrinik are of size 24×24?<p>Your maps should be 24×24 as well.
+tod.text.12=<html>You can create random maps quite fast? Try this:<ol><li>Create a new map.<li>Select the entire map using Edit -> Select All or Ctrl-A<li>Select the "grass" pickmap (do not select a square in the pickmap)<li>Use Edit -> Random Fill Above or Ctrl-D<li>When asked for a fill seed value, simply press OK or Return (enter nothing).<li>Select the "trees1" pickmap (do not select a square in the pickmap)<li>Use Edit -> Random Fill Above or Ctrl-D<li>When asked for a fill seed value, now enter 3.</ol>Nice, isn''t it?
+tod.text.13=<html>Maps can be tiled using absolute and relative paths.<p><em>Relative paths</em> are good for paths to maps from the same map set.<br><em>Absolute paths</em> are good for paths to maps from another map set.<p>The "RA"-Switch in the Map Properties can be used to individually convert absolute to relative paths and vice versa.
+tod.text.14=<html>The editor runs better on Linux than on Windows.\nIt runs faster and smoother on Linux.
+tod.text.15=<html>You can control the client.<p>Menu: <code>Tools -> Control Client</code>.<p>There you can start and stop the client as well as see its console output.
+tod.text.16=<html>You can control the server.<p>Menu: <code>Tools -> Control Server</code>.<p><em><strong>Warning</strong>: This feature is experimental and might result in stale servers (zombies).</em>
+tod.text.17=<html>The editor was developed on Linux, mainly using vim, Ant and <em>IntelliJ IDEA 5</em>.<p>JetBrains (<a href="http://www.jetbrains.com/">http://www.jetbrains.com/</a>) gave us a license for IntelliJ IDEA. Thanks alot, JetBrains!<br><img src="http://www.jetbrains.com/idea/opensource/img/banners/idea88x31_blue.gif" alt="JetBrains">
+tod.text.18=<html>You can easily make a false wall.<p>Change the Special attribute "blocking passage" to false or set <code>no_pass 0</code>.
+tod.text.19=<html>The difference between an exit and a teleporter:<p>An exit always works while a teleporter needs a connection to be activated.
+tod.text.20=<html>You can make anything glow (emit light), even mob.<p>Set the "glow radius" attribute (<code>glow_radius 1</code> for instance).<p>If you want to have a mob glow, be sure to set glow radius on the mob, not the spawn point.
+tod.text.21=<html>To create a spawn point that spawns a mob, do this:<ol><li>Select "spawn_point" from the mobs Arch List.<li>Insert the spawn point.<li>Choose the mob you want to spawn from the mobs Arch List.<li>Use "Add Inv" to put the mob in the spawn point</ol>Done.
+tod.text.22=<html>Pickmaps are an often underestimated feature.
+tod.text.23=<html>The 10 most recently opened maps are quickly accessible.<p>Menu: <code>File -> Recent -> ...</code><br>Keyboard: <kbd>Alt-n</kbd> with n being a digit (1..9, 0)
+tod.text.24=<html>To collect arches for your server, do this:<ol><li>Change the settings to not load arches from collection (<code>File -> Options, Global)<li>Restart the editor<li>Use <code>Resources -> Collect Arches<li>Run the install script of the server</ol>
+tod.text.25=<html>How can you speed up the editor?<ul><li>Load arches from the collection<li>Use Linux<li>Use the latest Java version available<li>Use 32 Bit colour depth</ul>
+tod.text.26=<html>The editor does not load all images at startup.<p>Instead, it loads images as needed.<p>This is called "lazy image loading".
+tod.text.27=<html>The zoom feature knows different zoom resolutions.<p>This is a nice feature especially for map artists that want to publish previews.
+tod.text.28=<html>Many features have tooltips to help you.<p>Just hover the mouse over the thing you want to know about for a while.
+tod.text.29=<html>To attach a map to other maps, you must save it first.
+tod.text.30=<html>The editor runs even better when using Java 6.0 (Java2 1.6).
+tod.text.31=<html>You should stick to the default map size (24×24).<br>That map size is also best for the server.
+tod.text.32=<html>Beware when editing large maps. You might run out of memory.<br>Be sure to increase the heap size (-Xmx parameter) of Gridarta''s Virtual Machine when editing large maps (e.g. 240×240).
+tod.text.33=<html>It''s amazing how much archetypes you could find using "Search archetype".<p>Menu: <code>Archetypes -> Find archetype</code>.
+tod.text.34=<html>You can quickly switch to the game object text editor with <code>CTRl-ALT-E</code>. Press these keys again to close it.
+tod.text.35=<html>To navigate to maps connected through exits, select Map|Go To Exit... or press <kbd>Ctrl-F12</kbd>. Then select the exit and press <kbd>Enter</kbd>.

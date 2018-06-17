@@ -1,0 +1,1611 @@
+arch map
+name mountain_h3
+width 50
+height 50
+msg
+Created:  2015-03-14 
+Modified: 2015-04-22 serpentshard 
+endmsg
+tile_path_3 mountain_h8
+tile_path_6 mountain_h3
+end
+arch evergreen
+y 39
+end
+arch grass
+y 40
+end
+arch grass
+y 41
+end
+arch grass
+y 42
+end
+arch evergreen
+y 43
+end
+arch grass
+y 44
+end
+arch centipede
+y 44
+end
+arch grass
+y 45
+end
+arch grass
+y 46
+end
+arch grass
+x 1
+y 39
+end
+arch grass
+x 1
+y 40
+end
+arch grass
+x 1
+y 41
+end
+arch centipede
+x 1
+y 41
+end
+arch grass
+x 1
+y 42
+end
+arch grass
+x 1
+y 43
+end
+arch grass
+x 1
+y 44
+end
+arch evergreen
+x 1
+y 45
+end
+arch grass
+x 1
+y 46
+end
+arch grass
+x 2
+y 39
+end
+arch grass
+x 2
+y 40
+end
+arch grass
+x 2
+y 41
+end
+arch swall_2_2_2
+x 2
+y 41
+end
+arch grass
+x 2
+y 42
+end
+arch swall_2_1_1
+x 2
+y 42
+end
+arch grass
+x 2
+y 43
+end
+arch swall_2_1_1
+x 2
+y 43
+end
+arch grass
+x 2
+y 44
+end
+arch swall_2_2_1
+x 2
+y 44
+end
+arch grass
+x 2
+y 45
+end
+arch evergreen
+x 2
+y 46
+end
+arch grass
+x 2
+y 47
+end
+arch button_small
+x 3
+y 36
+weight 6
+connected 2
+end
+arch grass
+x 3
+y 39
+end
+arch grass
+x 3
+y 40
+end
+arch centipede
+x 3
+y 40
+end
+arch grass
+x 3
+y 41
+end
+arch swall_2_1_2
+x 3
+y 41
+end
+arch grass
+x 3
+y 42
+end
+arch pyromaniac
+x 3
+y 42
+speed_left -0.900000
+end
+arch grass
+x 3
+y 43
+end
+arch grass
+x 3
+y 44
+end
+arch swall_2_1_2
+x 3
+y 44
+end
+arch grass
+x 3
+y 45
+end
+arch grass
+x 3
+y 46
+end
+arch grass
+x 3
+y 47
+end
+arch grass
+x 3
+y 48
+end
+arch grate_open_2
+x 4
+y 36
+speed 0.500000
+value 1
+connected 1
+end
+arch note
+x 4
+y 36
+weight 1
+end
+arch scroll
+x 4
+y 36
+weight 1
+end
+arch gravestone
+x 4
+y 36
+weight 1
+end
+arch table
+x 4
+y 36
+weight 1
+end
+arch poison
+x 4
+y 36
+weight 1
+end
+arch letter
+x 4
+y 36
+weight 1
+end
+arch grass
+x 4
+y 39
+end
+arch grass
+x 4
+y 40
+end
+arch grass
+x 4
+y 41
+end
+arch swall_2_1_2
+x 4
+y 41
+end
+arch grass
+x 4
+y 42
+end
+arch grass
+x 4
+y 43
+end
+arch pyromaniac
+x 4
+y 43
+speed_left -0.900000
+end
+arch grass
+x 4
+y 44
+end
+arch swall_2_1_2
+x 4
+y 44
+end
+arch grass
+x 4
+y 45
+end
+arch grass
+x 4
+y 46
+end
+arch grass
+x 4
+y 47
+end
+arch centipede
+x 4
+y 47
+end
+arch grass
+x 4
+y 48
+end
+arch mountain2
+x 5
+y 36
+no_pass 1
+end
+arch grass
+x 5
+y 39
+end
+arch evergreen
+x 5
+y 40
+end
+arch grass
+x 5
+y 41
+end
+arch swall_2_2_3
+x 5
+y 41
+end
+arch grass
+x 5
+y 42
+end
+arch swall_2_1_1
+x 5
+y 42
+end
+arch grass
+x 5
+y 43
+end
+arch swall_2_1_1
+x 5
+y 43
+end
+arch grass
+x 5
+y 44
+end
+arch swall_2_2_4
+x 5
+y 44
+end
+arch grass
+x 5
+y 45
+end
+arch grass
+x 5
+y 46
+end
+arch grass
+x 5
+y 47
+end
+arch centipede
+x 5
+y 47
+end
+arch grass
+x 5
+y 48
+end
+arch pit_closed
+hp 4
+sp 42
+x 6
+y 36
+connected 2
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch random_talisman
+x 6
+y 36
+end
+arch random_spells
+x 6
+y 36
+end
+arch grass
+x 6
+y 39
+end
+arch grass
+x 6
+y 40
+end
+arch grass
+x 6
+y 41
+end
+arch grass
+x 6
+y 42
+end
+arch grass
+x 6
+y 43
+end
+arch grass
+x 6
+y 44
+end
+arch grass
+x 6
+y 45
+end
+arch grass
+x 6
+y 46
+end
+arch evergreen
+x 6
+y 47
+end
+arch grass
+x 6
+y 48
+end
+arch grass
+x 7
+y 41
+end
+arch grass
+x 7
+y 42
+end
+arch centipede
+x 7
+y 42
+end
+arch grass
+x 7
+y 43
+end
+arch grass
+x 7
+y 44
+end
+arch centipede
+x 7
+y 44
+end
+arch grass
+x 7
+y 45
+end
+arch grass
+x 7
+y 46
+end
+arch centipede
+x 7
+y 46
+end
+arch grass
+x 7
+y 47
+end
+arch grass
+x 8
+y 44
+end
+arch grass
+x 8
+y 45
+end
+arch dungeon_magic
+x 9
+y 39
+end
+arch mountain
+x 9
+y 39
+blocksview 0
+end
+arch dungeon_magic
+x 10
+y 38
+end
+arch mountain
+x 10
+y 38
+blocksview 0
+end
+arch dungeon_magic
+x 10
+y 39
+end
+arch mountain
+x 10
+y 39
+blocksview 0
+end
+arch button_small
+x 10
+y 39
+invisible 1
+connected 1
+end
+arch dungeon_magic
+x 10
+y 40
+end
+arch mountain
+x 10
+y 40
+blocksview 0
+end
+arch dungeon_magic
+x 11
+y 38
+end
+arch mountain
+x 11
+y 38
+blocksview 0
+end
+arch dungeon_magic
+x 11
+y 39
+end
+arch mountain
+x 11
+y 39
+blocksview 0
+end
+arch dungeon_magic
+x 11
+y 40
+end
+arch mountain
+x 11
+y 40
+blocksview 0
+end
+arch dungeon_magic
+x 12
+y 38
+end
+arch mountain
+x 12
+y 38
+blocksview 0
+end
+arch dungeon_magic
+x 12
+y 39
+end
+arch mountain
+x 12
+y 39
+blocksview 0
+end
+arch dungeon_magic
+x 12
+y 40
+end
+arch mountain
+x 12
+y 40
+blocksview 0
+end

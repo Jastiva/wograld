@@ -1,0 +1,80 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>Pickmaps</title>
+</head>
+<body>
+
+<p>
+    <a href="start.html"><img src="back.gif" width="42" height="22" align="bottom" naturalsizeflag="3" border="0">Back</a>
+
+<h1>Pickmaps</h1>
+
+<p>On the left side in the editor, there is the list of archetypes, as well as
+    the pickmaps. In case you haven't seen them yet, click on the "Pickmaps"
+    panel to take a look at the pickmaps.</p>
+
+<p>In contrast to the list of archetypes, pickmaps offer a compact and more
+    dynamic palette of objects. Left-click on a pickmap to select an object that
+    you see. Then you can insert copies of this object to the map by
+    right-clicking on the map view.</p>
+
+<h2>Selecting an game object to insert</h2>
+
+<p>There are different ways to select game object(s) from pickmaps:</p>
+
+<ul>
+    <li>Exactly one selected game object: inserts this game object
+    <li>Multiple selected game objects: inserts a random game object from the
+        selection
+    <li>No selected game objects: inserts a random game object from all game
+        objects in the pickmap
+</ul>
+
+<h2>Modifying a pickmap</h2>
+
+<p>The cool thing is that it also works in the opposite way: Left-click on the
+    Map View to select an object, then right click on the <i>pickmap</i> to copy
+    it there. All special object settings will be copied along. Pickmaps are
+    only allowed to store one object per square however, so inserting will fail
+    on squares which are already occupied. No problem though, because you can
+    also delete from the pickmaps with middle-click (Just like you do it on
+    normal maps).</p>
+
+<p>So, the pickmaps are more than just a fixed palette of objects. Probably
+    you've seen that there's also a "Pickmaps" menu. There you find commands to
+    save pickmaps, revert them to last saved state, or close them. If you modify
+    pickmaps and don't save them, the changes will be lost after closing the
+    editor.</p>
+
+<p>The menu command "Pickmaps->Open Active Pickmap as Map" opens a new Map View
+    for the active pickmap. When you save this map, the changes are reflected
+    back into the pickmap.</p>
+
+<p>It might be helpful to shape and modify your pickmaps, nevertheless you might
+    come to a point where you are quite satisfied with their look. In that case
+    you might find it useful to "lock" them with menu command "Pickmaps->Lock
+    All Pickmaps". This will disable any further changes to the pickmaps unless
+    they become unlocked again. In that way, you prevent to accidentally mess
+    something up by clicking the wrong mouse button.</p>
+
+</body>
+</html>

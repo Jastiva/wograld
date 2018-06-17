@@ -1,0 +1,172 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.resource;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import net.sf.gridarta.model.archetype.Archetype;
+import net.sf.gridarta.model.archetypeset.ArchetypeSet;
+import net.sf.gridarta.model.errorview.ErrorView;
+import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.io.GameObjectParser;
+import net.sf.gridarta.model.maparchobject.MapArchObject;
+import net.sf.gridarta.model.mapviewsettings.MapViewSettings;
+import net.sf.gridarta.model.settings.GlobalSettings;
+import net.sf.japi.swing.misc.Progress;
+import org.jetbrains.annotations.NotNull;
+
+/**
+ * Maintains resources.
+ * @author Andreas Kirschbaum
+ */
+public abstract class AbstractResources<G extends GameObject<G, A, R>, A extends MapArchObject<A>, R extends Archetype<G, A, R>> {
+
+    /**
+     * The {@link GameObjectParser} to use.
+     */
+    @NotNull
+    private final GameObjectParser<G, A, R> gameObjectParser;
+
+    /**
+     * The {@link ArchetypeSet} to update.
+     */
+    @NotNull
+    private final ArchetypeSet<G, A, R> archetypeSet;
+
+    /**
+     * The {@link MapViewSettings} instance.
+     */
+    @NotNull
+    private final MapViewSettings mapViewSettings;
+
+    /**
+     * Whether the resources have been loaded.
+     */
+    private boolean loaded;
+
+    /**
+     * Whether the resources have been loaded from individual files.
+     */
+    private boolean loadedFromFiles;
+
+    /**
+     * Creates a new instance.
+     * @param gameObjectParser the game object parser to use
+     * @param archetypeSet the archetype set to update
+     * @param mapViewSettings the map view settings instance
+     */
+    protected AbstractResources(@NotNull final GameObjectParser<G, A, R> gameObjectParser, @NotNull final ArchetypeSet<G, A, R> archetypeSet, @NotNull final MapViewSettings mapViewSettings) {
+        this.gameObjectParser = gameObjectParser;
+        this.archetypeSet = archetypeSet;
+        this.mapViewSettings = mapViewSettings;
+    }
+
+    /**
+     * Common code to be executed after reading resources.
+     * @param invObjects all archetypes
+     */
+    private void finishRead(@NotNull final List<G> invObjects) {
+        gameObjectParser.collectTempList(mapViewSettings, invObjects);
+        archetypeSet.connectFaces();    // attach faces to arches
+    }
+
+    /**
+     * Reads the resources from individual files.
+     * @param globalSettings the global settings to read from
+     * @param errorView the error view for reporting problems
+     */
+    public void readFiles(@NotNull final GlobalSettings globalSettings, @NotNull final ErrorView errorView) {
+        if (loaded) {
+            throw new IllegalStateException();
+        }
+        final List<G> invObjects = new ArrayList<G>();
+        readFilesInt(globalSettings, errorView, invObjects);
+        finishRead(invObjects);
+        loadedFromFiles = true;
+        loaded = true;
+    }
+
+    /**
+     * Reads the resources from a collection.
+     * @param globalSettings the global settings to read from
+     * @param errorView the error view for reporting problems
+     */
+    public void readCollected(@NotNull final GlobalSettings globalSettings, @NotNull final ErrorView errorView) {
+        if (loaded) {
+            throw new IllegalStateException();
+        }
+        final List<G> invObjects = readCollectedInt(globalSettings, errorView);
+        finishRead(invObjects);
+        loadedFromFiles = false;
+        loaded = true;
+    }
+
+    /**
+     * Whether the resources can be written in collected form.
+     * @return returns <code>true</code> when loaded with <code>readFiles()</code>;
+     *         <code>false</code> when loaded with <code>readCollected()</code>
+     */
+    public boolean canWriteCollected() {
+        return loaded && loadedFromFiles;
+    }
+
+    /**
+     * Writes the resources in collected form.
+     * @param progress the progress to use
+     * @param collectedDirectory the collected directory to write to
+     * @throws IOException if collection fails
+     * @throws IllegalStateException if <code>canWriteCollected()</code> returns
+     * <code>false</code>
+     */
+    public void writeCollected(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException {
+        if (!canWriteCollected()) {
+            throw new IllegalStateException();
+        }
+        writeCollectedInt(progress, collectedDirectory);
+    }
+
+    /**
+     * Reads the resources from individual files.
+     * @param globalSettings the global settings to read from
+     * @param errorView the error view for reporting problems
+     * @param invObjects all read archetypes
+     */
+    protected abstract void readFilesInt(@NotNull final GlobalSettings globalSettings, @NotNull final ErrorView errorView, @NotNull final List<G> invObjects);
+
+    /**
+     * Reads the resources from a collection.
+     * @param globalSettings the global settings to read from
+     * @param errorView the error view for reporting problems
+     * @return all read archetypes
+     */
+    @NotNull
+    protected abstract List<G> readCollectedInt(@NotNull final GlobalSettings globalSettings, @NotNull final ErrorView errorView);
+
+    /**
+     * Writes the resources in collected form.
+     * @param progress the progress to use
+     * @param collectedDirectory the collected directory to write to
+     * @throws IOException if collection fails
+     */
+    protected abstract void writeCollectedInt(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException;
+
+}

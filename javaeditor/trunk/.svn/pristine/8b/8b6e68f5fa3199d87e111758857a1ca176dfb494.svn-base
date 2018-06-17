@@ -1,0 +1,100 @@
+
+UpdaterAutoCheck=false
+
+# Whether the map validator is enabled.
+Validator.All=true
+
+# Whether this map validator check is enabled.
+Validator.AttributeRange=true
+
+# Whether this map validator check is enabled.
+Validator.BlockedMobOrSpawnPoint=true
+
+# Whether this map validator check is enabled.
+Validator.BlockedSpawnPoint=true
+
+# Whether this map validator check is enabled.
+Validator.ConnectedInsideContainer=true
+
+# Whether this map validator check is enabled.
+Validator.ConnectedPickable=true
+
+# Whether this map validator check is enabled.
+Validator.Connection=true
+
+# Whether this map validator check is enabled.
+Validator.DoubleLayer=true
+
+# Whether this map validator check is enabled.
+Validator.EmptySpawnPoint=true
+
+# Whether this map validator check is enabled.
+Validator.Environment=true
+
+# Whether this map validator check is enabled.
+Validator.Exit=true
+
+Validator.MapCheckerScript=false
+
+# Whether this map validator check is enabled.
+Validator.MapDifficulty=true
+
+# Whether this map validator check is enabled.
+Validator.MobOutsideSpawnPoint=true
+
+# Whether this map validator check is enabled.
+Validator.TilePaths=true
+
+# Whether this map validator check is enabled.
+Validator.UndefinedArchetype=true
+
+# Whether this map validator check is enabled.
+Validator.UndefinedFace=true
+
+# Whether this map validator check is enabled.
+Validator.UnsetSlaying=true
+
+# Main windows''s state (maximized, iconized, etc.)
+WindowState=0
+
+# Archetype directory.
+archDirectory=test-mapvalidator/atrinik/arch
+
+# Whether the map validator is run automatically after each change.
+autoValidate=true
+
+configSource=ARCH_DIRECTORY
+
+# Last displayed version of the help documentation.
+docuVersion=1
+
+filterRealMaps=true
+
+# Language for the user interface.
+language=en
+
+# Maps directory.
+mapDirectory=test-mapvalidator/atrinik/maps
+
+# The settings for alpha faces.
+mapViewSettings.alphaType=0
+
+# Whether autojoining is enabled.
+mapViewSettings.autojoin=false
+
+# Whether double faces are shown.
+mapViewSettings.doubleFaces=false
+
+# Whether the map grid is visible.
+mapViewSettings.gridVisible=false
+
+# Whether lighted map squares are highlighted.
+mapViewSettings.lightVisible=false
+
+# Whether smoothing is active.
+mapViewSettings.smoothing=false
+
+mediaDirectory=test-mapvalidator/atrinik/client/media
+
+# The image set to use.
+useImageSet=

@@ -1,0 +1,32 @@
+arch map
+name test for ConnectedPickable map validator
+difficulty 1
+width 3
+height 2
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch altar1
+connected 1
+move_on walk
+end
+arch altar1
+x 1
+connected 1
+move_on walk
+no_pick 0
+end
+arch mob1
+x 1
+y 1
+arch altar1
+connected 1
+move_on walk
+no_pick 0
+end
+end
+arch gate1
+x 2
+connected 1
+end

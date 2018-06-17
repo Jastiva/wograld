@@ -1,0 +1,32 @@
+arch map
+name validation error
+msg
+Created:  2010-12-20 smacky
+endmsg
+width 2
+height 2
+difficulty 1
+darkness -1
+end
+arch floor_fstone2a
+end
+arch wagon_big
+layer 4
+end
+arch floor_fstone2a
+y 1
+end
+arch wall_black1.111
+y 1
+end
+arch floor_fstone2a
+x 1
+end
+arch floor_fstone2a
+x 1
+y 1
+end
+arch wall_black1.111
+x 1
+y 1
+end

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Gridarta TODO list</title>
+</head>
+<body>
+<h1>Gridarta TODO list</h1>
+
+<p>
+    Rules for developers: If you add something to this TODO list, also put your
+    name aside the TODO entry. A name aside a TODO entry denotes the author of
+    the TODO entry (not the developer the entry is assigned to). </p>
+
+<p>
+    Note: This list does not contain bugs. This list's purpose is serving as a
+    single source of information on planned changes and features to the
+    crossfire and daimonin developer teams. </p>
+
+<h2>High Priority</h2>
+<dl>
+    <dt>Cher: Add Connection View</dt>
+    <dd>
+        The Connection view should display all connections and highlight a
+        particular connection of a map.
+        <br/>
+        See also: <a href="http://www.daimonin.net/mantis/view.php?id=66">Daimonin
+        Mantis #0000066: connection browser tab</a>
+    </dd>
+    <dt>Cher: Merge Validator</dt>
+    <dd>
+        Daimonin has a map validator that's also useful for crossfire.
+    </dd>
+    <dt>Cher: Match dialog editor</dt>
+    <dd>
+        Magic ears and simple NPCs have a simple regex based communication
+        system. There should be an integrated editor for such messages.
+        <br/>
+        See also: <a href="http://www.daimonin.net/mantis/view.php?id=399">Daimonin
+        Mantis #0000399: adding a book interface to the editor</a>
+    </dd>
+    <dt>Cher: Merge tool selector from daimonin to gridarta/crossfire</dt>
+    <dd>
+        Daimonin has a configurable tool selector. This tool selector allows
+        assigning specific tools (currently available: delete, insert, select)
+        to the three mouse buttons. This should be moved to gridarta to make it
+        available for crossfire, too. Additionally this tool should be extended
+        to have a context menu tool that's the default tool for the right mouse
+        button. Also add a feature that resets the tool config to its initial
+        state. TODO: discuss with the daimonin and crossfire communities if they
+        want rmb for context menu per default in new versions of gridarta.
+    </dd>
+    <dt>Cher: Merge keyboard control from daimonin to gridarta/crossfire</dt>
+    <dd>
+        Daimonin has a keyboard control. The code already is mostly moved from
+        daimonin to gridarta, but still only used by gridarta, not by crossfire.
+        Think about keyboard shortcuts that are good for GUI users and that are
+        good for vi users.
+    </dd>
+</dl>
+<h2>Other</h2>
+<dl>
+    <dt>Improve inventory handling (Gridarta)</dt>
+    <dd>
+        <ul>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=405">Daimonin
+                    Mantis #0000405: Better indication of inventories in tile
+                    list</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=412">Daimonin
+                    Mantis #0000412: Cut and paste in inventories</a>
+            </li>
+        </ul>
+    </dd>
+    <dt>Application Update</dt>
+    <dd>
+        <ul>
+            <li>Move to Webstart</li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=420">Daimonin
+                    Mantis #0000420: Handle data files with auto updater</a>
+            </li>
+        </ul>
+    </dd>
+    <dt>Misc (Gridarta)</dt>
+    <dd>
+        <ul>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=401">Daimonin
+                    Mantis #0000401: Add some "Favorite" tool</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=372">Daimonin
+                    Mantis #0000372: Use of the word "arch"</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=377">Daimonin
+                    Mantis #0000377: Pickmap feature should be improved: tree
+                    hierarchy / folders, grouping, categories, favorites</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=379">Daimonin
+                    Mantis #0000379: When following an exit to a non-existent
+                    map, the editor should ask whether to create it</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=364">Daimonin
+                    Mantis #0000364: Set attributes of a selection</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=256">Daimonin
+                    Mantis #0000256: Add preferences module for proxy
+                    configuration</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=313">Daimonin
+                    Mantis #0000313: feature request: improving map editing
+                    ergonomy</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=259">Daimonin
+                    Mantis #0000259: a small preview map for navigation</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=260">Daimonin
+                    Mantis #0000260: a hotkey for reloading all graphics</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=270">Daimonin
+                    Mantis #0000270: Show linked map tiles in edit window</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=74">Daimonin
+                    Mantis #0000074: Unislash: Add paint below feature</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=178">Daimonin
+                    Mantis #0000178: Allow setting the background color for
+                    created images (screenshots)</a>
+            </li>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=70">Daimonin
+                    Mantis #0000070: Allow locking of tiles</a>
+            </li>
+        </ul>
+    </dd>
+    <dt>Misc (Daimonin)</dt>
+    <dd>
+        <ul>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=299">Daimonin
+                    Mantis #0000299: tileset information generation</a>
+            </li>
+        </ul>
+    </dd>
+    <dt>Misc (Crossfire)</dt>
+    <dd>
+        <ul>
+            <li>
+                <a href="http://www.daimonin.net/mantis/view.php?id=254">Daimonin
+                    Mantis #0000254: Move along map tiles with keyboard</a>
+            </li>
+        </ul>
+    </dd>
+</dl>
+</body>
+</html>

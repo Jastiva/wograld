@@ -1,0 +1,142 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<body>
+<p>
+    You are reading the Gridarta API Documentation. Gridarta is a Java program
+    to create and modify maps for the MMORPGs <a href="http://www.atrinik.org/">Atrinik</a>,
+    <a href="http://crossfire.real-time.com/">Crossfire</a>, and
+    <a href="http://www.daimonin.com/">Daimonin</a>.</p>
+
+<h3>UI Classes</h3>
+
+<p>
+    The most important UI class is {@link net.sf.gridarta.gui.misc.MainView
+    MainView}. It is the main window, creates the main layout and holds all
+    actions.</p>
+
+<p>
+    Map visualization is done by {@link net.sf.gridarta.gui.map.mapview.MapView
+    MapView}, which renders the map, and {@link
+    net.sf.gridarta.gui.map.mapview.MapView MapView}, which is a {@link
+    javax.swing.JInternalFrame JInternalFrame} wrapping
+    <code>MapViewBasic</code>. </p>
+
+<h3>Data Model</h3>
+
+<p>
+    Each archetype is an instance of {@link
+    net.sf.gridarta.model.archetype.Archetype Archetype}.</p>
+
+<h3>Gridarta Terminology Glossary</h3>
+<dl>
+    <dt id="Animation">Animation</dt>
+    <dd>
+        An Animation is a list of faces that defines the appearance of an
+        Archetype in cases the appearance can change. The number of Facings in
+        an Animation defines how many different sub-animations the animation
+        contains. Such a sub-animation is for instance used to show the
+        Archetype from different perspectives, depending on the direction
+        (facing) of the Archetype. The number of Frames in an Animation defines
+        the number of different faces used to display the Archetypes' appearance
+        for a Facing. The Animations are not played by the Editor,
+        <p/>
+        It is possible to have an animation which holds different facings but
+        only 1 frame per facing. Such animations are used to create "turnable"
+        objects, that can face in different directions.
+        <p/>
+        It is possible to have an animation without a specified number of
+        facings. Such an object is animated but does not change its appearance
+        depending on the perspective.
+        <p/>
+        There are 2 ways for defining an animation. An animation can be
+        anonymously defined inside a default arch; such animations inherit the
+        name from the defining arch. Or an animation can be defined in a
+        separate file in the <code>arch/</code> folder.
+        <p/>
+        Animations are NamedObjects, override Faces, they are implemented by
+        {@link net.sf.gridarta.model.anim.AnimationObject AnimationObject} and
+        {@link net.sf.gridarta.model.anim.AnimationObjects AnimationObjects}.
+    </dd>
+    <dt id="Archetype">Archetype</dt>
+    <dd>
+        An Archetype represents a single object including its description. There
+        are two kinds of Archetypes, an instantiated Archetype called Game
+        Object and the default Archetypes. Depending on the start mode of the
+        editor, the default Archetypes are all loaded either from a file named
+        <code>arch/archetypes</code> or by scanning the whole <code>arch/</code>
+        directory tree for <code>.arc</code>-files. Game Objects are objects in
+        maps and each of them refers to a default Archetype it is derived from.
+        Each Game Object only stores the information that differs from its
+        default Archetype.
+        <p/>
+        Additionally, an Archetype can be a so called Artifact. Artifacts are
+        always read from a file named <code>arch/artifacts</code>. Currently,
+        Artifacts are under migration. After the migration is finished,
+        Artifacts are special "applyable" Archetypes. You'd select an Game
+        Object and apply an Artifact on it, which would copy all Artifact
+        attributes over the Game Object attributes.
+        <p/>
+        The class that implements Archetypes is {@link
+        net.sf.gridarta.model.archetype.Archetype Archetype}. The class that
+        parses text for modifying ArchObjects is {@link
+        net.sf.gridarta.model.io.ArchetypeParser ArchetypeParser}. The class
+        that holds all default Archetypes, including those for default
+        Artifacts, is {@link net.sf.gridarta.model.archetypeset.ArchetypeSet
+        ArchetypeSet}.
+        <p/>
+    </dd>
+    <dt id="Artifact">Artifact</dt>
+    <dd>
+        See <a href="#Archetype">Archetype</a>
+
+        <p/>
+    </dd>
+    <dt id="Face">Face</dt>
+    <dd>
+        The Face is the appearance of an Archetype. A Face is defined by a
+        String that uniquely defines the appearance and is used to reference a
+        corresponding graphic image, usually a PNG file. The {@link
+        net.sf.gridarta.model.archetypeset.ArchetypeSet ArchetypeSet} contains a
+        collection of all available faces.
+        <p/>
+        Animations override Faces.
+    </dd>
+    <dt id="Map">Map</dt>
+    <dd>
+        A Map is a 2-dimensional Matrix of Map Squares. X and Y define a grid
+        representing a world surface. At those grid positions, Map Squares with
+        Game Objects can be found and make up the world, its surface, obstacles,
+        items etc..
+        <p/>
+        The Map itself is defined by a Map Arch Object. The class storing the
+        Map is {@link net.sf.gridarta.model.mapmodel.MapModel}.
+    </dd>
+    <dt id="MapSquare">(Map )Square</dt>
+    <dd>
+        A Map Square is a Map matrix element. A Map Square holds zero or more
+        Game Objects that describe the world in the map at the Map Square's x
+        and y position.
+    </dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,37 @@
+arch map
+name test for UnsetSlaying map validator
+difficulty 1
+width 2
+height 4
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch door1
+end
+arch door1
+slaying unset_value1
+y 1
+end
+arch door1
+slaying player
+y 2
+end
+arch mob1
+y 3
+arch door1
+end
+end
+arch door2
+x 1
+end
+arch door2
+slaying player1
+x 1
+y 1
+end
+arch door2
+slaying unset_value
+x 1
+y 2
+end

@@ -1,0 +1,82 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.TH GRIDARTA 6 "November 6, 2010"
+.\" Please adjust this date whenever revising the manpage.
+.SH NAME
+Gridarta, gridarta-atrinik, gridarta-crossfire, gridarta-daimonin \- a map editor for Atrinik, Crossfire, and Daimonin
+.SH SYNOPSIS
+.B gridarta-atrinik
+.RI [ options ] " [files" ...]
+.br
+.B gridarta-crossfire
+.RI [ options ] " [files" ...]
+.br
+.B gridarta-daimonin
+.RI [ options ] " [files" ...]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B gridarta-atrinik
+,
+.B gridarta-crossfire
+, and
+.B gridarta-daimonin
+commands.
+.PP
+.B Gridarta
+is a program that allows to create and modify map files for the games Atrinik,
+Crossfire, and Daimonin.
+.SH OPTIONS
+These programs follow the usual GNU command line syntax, with long
+options starting with two dashes (`-').
+.TP
+.B \-h, \-\-help
+Show summary of options.
+.TP
+.B \-b, \-\-batchpng
+Create .png files for all given map files. The .png files are created in the
+same directories as the map files.
+.TP
+.B \-c, \-\-collectarches
+Runs archetype collection. This process combines individual files from the
+"arch" directory into condensed files needed by the game server.
+.TP
+.B \-n, \-\-normal
+Start the editor in GUI mode. This is the default if no other option is given.
+.TP
+.B \-s, \-\-singlepng
+Create a .png file from the specified map file. This mode needs two file
+arguments: the map file to convert and the .png file to write.
+.TP
+.B \-\-config=config-file
+Specify the config file to use. The
+.B config-file
+must exist. To create a new config file, create an empty file; Gridarta will
+fill in missing entries. The default is
+.B ~/.gridarta/atrinik.conf
+for
+.B gridarta-atrinik
+,
+.B ~/.gridarta/crossfire.conf
+for
+.B gridarta-crossfire
+, and
+the Java preferences for
+.B gridarta-daimonin
+.
+.TP
+.B \-\-noexit
+Do not call
+.B System.exit()
+to terminate the application. This option is useful only for debugging
+Gridarta.
+.TP
+.B \-\-script=name [arg=value...]
+Run a plugin script
+.B name
+with the given arguments. This mode does not take files but plugin script
+arguments. To find out which parameter a particular script supports, pass an
+invalid parameter name.
+.SH AUTHOR
+Gridarta was written by Pasi Keränen, Michael Tönnies, Andreas Vogel, Christian
+Hujer, Daniel Viegas, and Andreas Kirschbaum.
+.PP
+This manual page was written by Andreas Kirschbaum.

@@ -1,0 +1,71 @@
+arch map
+name test for Connection map validator
+difficulty 1
+width 5
+height 8
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch altar1
+y 1
+connected 2
+end
+arch altar1
+y 3
+connected 4
+end
+arch rod1
+y 7
+connected 10
+no_pick 1
+end
+arch altar1
+x 1
+connected 1
+end
+arch altar1
+x 1
+y 1
+connected 2
+end
+arch altar1
+x 1
+y 2
+connected 3
+end
+arch altar1
+x 1
+y 3
+connected 4
+end
+arch gate1
+x 3
+y 2
+connected 3
+end
+arch gate1
+x 3
+y 3
+connected 4
+end
+arch gate1
+x 3
+y 5
+connected 6
+end
+arch gate1
+x 3
+y 6
+connected 7
+end
+arch gate1
+x 4
+y 3
+connected 4
+end
+arch gate1
+x 4
+y 5
+connected 6
+end

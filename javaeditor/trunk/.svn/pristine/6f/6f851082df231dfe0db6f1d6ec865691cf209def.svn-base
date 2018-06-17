@@ -1,0 +1,74 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>Manipulating Game Objects</title>
+</head>
+<body>
+
+<p>
+    <a href="start.html"><img src="back.gif" width="42" height="22" align="BOTTOM" naturalsizeflag="3" border="0">Back</a>
+</p>
+
+<h1>Manipulating game objects</h1>
+
+<p>Simple maps can be created just by using the archetypes from the Archetype
+    Chooser. Though, if you want to create real cool maps, you will need to
+    modify these objects very often, to suit your needs.</p>
+
+<p>The object's in-game appearance and functionality is defined by many
+    different attributes (object-type, name, resistances, ... etc). If you want
+    to change the attributes of an object, you have two options:</p>
+
+<p>
+
+<ol>
+    <li><p><b>Use the convenient attribute interface</b></p>
+
+        <p>Select the game object you want to modify, then double click on it in
+            the <a href="tut_frames.html">Selected Square Display</a> (on the
+            right side). You could alternatively select it and press the
+            "Attributes" button on the <a href="tut_frames.html">Game Object
+                Attributes Panel</a>. A popup window will appear, containing all
+            object attributes in a graphical user interface.</p>
+
+        <p><img src="window-objectattributes.png" width="300" height="284" alt="The
+    Game Object Attributes Dialog" title="The Game Object Attributes
+    Dialog"></p>
+
+    <li><p><b>Modify the archetype text directly</b></p>
+
+        <p>Select the game object you want, then modify the attributes directly
+            in the <a href="tut_frames.html">Game Object Text Editor</a> (in the
+            bottom-right corner). Press the apply button when done, all
+            customized lines will be printed in blue.</p>
+
+        <p>But beware! You need to know exactly what you are doing there. If you
+            do typing mistakes or set otherwise wrong values, you won't receive
+            a warning. Modifying the archetype text directly is only recommended
+            for experienced mapmakers.</p>
+
+        <p><img src="game-object-text-editor.png" width="257" height="247" alt="The
+    Game Object Text Editor" title="The Game Object Text Editor"></p>
+
+</ol>
+
+</body>
+</html>

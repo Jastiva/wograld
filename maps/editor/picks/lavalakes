@@ -1,0 +1,130 @@
+arch map
+name lakes
+width 6
+height 10
+msg
+Created:  1994-04-23
+endmsg
+end
+arch lava_biglake_nw
+name lake
+end
+arch lava_biglake_sw
+name lava_lake
+y 1
+end
+arch lava_lake
+y 3
+end
+arch lava_biglake_n
+name sea
+y 5
+end
+arch lava_biglake_s
+name sea
+y 6
+end
+arch lava_biglake_e
+name sea
+y 7
+no_pass 0
+end
+arch lava_biglake_w
+name sea
+y 8
+no_pass 0
+end
+arch lava_biglake_ne
+name lake
+x 1
+end
+arch lava_biglake_se
+name lake
+x 1
+y 1
+end
+arch lava_biglake_sn
+x 1
+y 3
+end
+arch lava_biglake_ew
+name sea
+x 1
+y 5
+end
+arch lava_biglake_se
+name sea
+x 1
+y 6
+end
+arch river_nw-se_u
+name sea
+x 1
+y 7
+no_pass 0
+end
+arch river_sw-ne_l
+name sea
+x 1
+y 8
+no_pass 0
+end
+arch lava_sea
+name lake
+x 2
+end
+arch lava_sea
+name lake
+x 2
+y 1
+end
+arch falls
+x 2
+y 3
+end
+arch lava_sea
+x 2
+y 5
+end
+arch lava_sea
+x 2
+y 6
+end
+arch lava_biglake_new
+name lake
+x 3
+end
+arch lava_biglake_nse
+name lake
+x 3
+y 1
+end
+arch lava_biglake_new
+name sea
+x 3
+y 5
+end
+arch lava_biglake_nse
+name sea
+x 3
+y 6
+end
+arch lava_biglake_nes
+name lake
+x 4
+end
+arch lava_biglake_sew
+name lake
+x 4
+y 1
+end
+arch lava_biglake_center
+name sea
+x 4
+y 5
+end
+arch lava_biglake_sew
+name sea
+x 4
+y 6
+end

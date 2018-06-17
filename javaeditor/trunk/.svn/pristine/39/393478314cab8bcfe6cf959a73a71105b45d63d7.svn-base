@@ -1,0 +1,12 @@
+#!/bin/sh
+
+for rcfile in /etc/gridarta/gridartarc ~/.gridarta/gridartarc; do
+    if [ -e "$rcfile" ]; then
+	. "$rcfile"
+    fi
+done
+
+. /usr/lib/java-wrappers/java-wrappers.sh
+require_java_runtime
+locate_jar DaimoninEditor.jar
+"$JAVA_CMD" -jar "$found_jar" "$@"

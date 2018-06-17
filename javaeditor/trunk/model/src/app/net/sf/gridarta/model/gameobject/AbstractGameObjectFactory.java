@@ -1,0 +1,57 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.gameobject;
+
+import net.sf.gridarta.model.archetype.Archetype;
+import net.sf.gridarta.model.maparchobject.MapArchObject;
+import org.jetbrains.annotations.NotNull;
+
+/**
+ * Abstract base class for {@link GameObjectFactory} implementations.
+ * @author Andreas Kirschbaum
+ */
+public abstract class AbstractGameObjectFactory<G extends GameObject<G, A, R>, A extends MapArchObject<A>, R extends Archetype<G, A, R>> implements GameObjectFactory<G, A, R> {
+
+    /**
+     * {@inheritDoc}
+     */
+    @NotNull
+    @Override
+    public G cloneMultiGameObject(@NotNull final G gameObject) {
+        final G newHead = cloneGameObject(gameObject);
+        for (G tmp = gameObject.getMultiNext(); tmp != null; tmp = tmp.getMultiNext()) {
+            newHead.addTailPart(cloneGameObject(tmp));
+        }
+        return newHead;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void createInventory(@NotNull final GameObject<G, A, R> gameObject, @NotNull final Iterable<G> archetype) {
+        for (final G invGameObject : archetype) {
+            final G clone = cloneGameObject(invGameObject);
+            clone.setObjectFace();
+            gameObject.addLast(clone);
+        }
+    }
+
+}

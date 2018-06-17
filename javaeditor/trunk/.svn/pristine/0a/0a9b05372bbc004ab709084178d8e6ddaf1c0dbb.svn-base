@@ -1,0 +1,2450 @@
+2013-02-03  Andreas Kirschbaum
+
+	* Update possible event types for scripts.
+
+	* Collect resources.
+
+2013-01-03  Andreas Kirschbaum
+
+	* Do not disable map cursor in "enter xyz map".
+
+2012-09-08  Andreas Kirschbaum
+
+	* Fix ClassCastException when iconifying map views.
+
+2012-06-17  Andreas Kirschbaum
+
+	* Do not crash when shrinking a map if the map cursor is within
+	the cut off area.
+
+2012-06-15  Andreas Kirschbaum
+
+	* Temporarily invert the setting for "Map|Show Light" when
+	CTRL+SHIFT is pressed.
+
+	* Implement Map|Show Light to toggle highlighting of lighted map
+	squares.
+
+2012-06-14  Andreas Kirschbaum
+
+	* Change colors of tiles with warnings and of lighted tiles.
+
+2012-05-31  Andreas Kirschbaum
+
+	* Implement #3527374 (Illumination coverage filter). For now this
+	is not an option but always active.
+
+2012-04-29  Andreas Kirschbaum
+
+	* Ensure that at least 3 map squares are visible around a moving
+	map cursor.
+
+2012-01-08  Andreas Kirschbaum
+
+	* Implement #3464771 (Browse option for plugins).
+
+	* Do not drop plugin script parameter with unknown type. Create
+	String parameters instead.
+
+	* Fix file chooser buttons in setup dialog.
+
+2011-11-17  Andreas Kirschbaum
+
+	* Ignore "enable updates" setting for builds without valid update
+	URLs. This prevents possbile errors 'Error while updating:
+	java.net.MalformedURLException: no protocol: Please Update
+	manually.'
+
+2011-11-12  Andreas Kirschbaum
+
+	* Implement Edit|Find... which searches the current map. Relocate
+	CTRL-F (Fill) to ALT-F.
+
+	* Add default keybindings ALT-LEFT/RIGHT to move the selected game
+	object to its environment/into the inventory of the previous game
+	object.
+
+	* Add default keybindings ALT-UP/DOWN to select the previous/next
+	game object within the map square.
+
+	* Add default keybinding ALT-SHIFT-UP/DOWN to move the selected
+	game object UP/DOWN within the map square.
+
+	* Change default keybindings for cursor keys to move the map
+	cursor.
+
+	* Add game object matcher 'Messages' that matches game objects
+	having a non-empty msg..endmsg attribute.
+
+2011-11-05  Andreas Kirschbaum
+
+	* Replace "Revert Map" with "Reload Map". Now the current map can
+	be reloaded even if it is not modified. This allows to reload the
+	map when it has been changed externally.
+
+2011-10-30  Andreas Kirschbaum
+
+	* Set the map cursor and select the affected game object for
+	selected entries in the Warnings tab.
+
+	* By default select the top-most game object in the selected
+	square view.
+
+2011-10-18  Andreas Kirschbaum
+
+	* Fix Next Exit not finding all exits.
+
+2011-09-22  Andreas Kirschbaum
+
+	* Remove "Exits" panel from main window. It is redundant with
+	Map|Go To Exit...
+
+2011-09-21  Andreas Kirschbaum
+
+	* Do not index backup files (*~).
+
+	* Implement Map|Go To Exit... which opens a dialog listing all
+	exits out of the current map.
+
+2011-09-03  Andreas Kirschbaum
+
+	* Remember last saved directory in save/save as dialogs.
+
+2011-08-28  Andreas Kirschbaum
+
+	* Fix incorrect contents of selected square view after deleting
+	objects below multi-square tail parts.
+
+	* Do not randomly mark map as modified when selection changes.
+
+2011-08-27  Andreas Kirschbaum
+
+	* Add "Exits" panel to main window. It shows all exits leading
+	from the current map. Double-click on an entry opens the
+	destination map.
+
+2011-08-06  Andreas Kirschbaum
+
+	* Improve plugin editor.
+
+2011-08-04  Andreas Kirschbaum
+
+	* Add "blessed" attribute for Treasure objects.
+
+2011-07-08  Andreas Kirschbaum
+
+	* Support 'system_system_object' matcher for auto-insertion mode.
+	Matching game objects stay on top of the square.
+
+	* Do not reorder game objects when loading map files. Formerly
+	multi-square game objects were moved to top.
+
+2011-06-30  Andreas Kirschbaum
+
+	* Adapt to changed format of crossfire.0.
+
+2011-06-28  Andreas Kirschbaum
+
+	* Implement map, inv, and allows_all_inv attributes for <type> in
+	types.xml. Allows to restrict the use of archetype types to maps
+	and/or inventories. For details see comments in types.xml.
+
+	Implements #3079988 (putting some things in containers can cause
+	server crash).
+
+2011-06-26  Andreas Kirschbaum
+
+	* Collect resources.
+
+	* Fix #3332031 (animated ammunition is given an incorrect face).
+
+2011-06-10  Andreas Kirschbaum
+
+	* Add XML file parse errors to error dialog box.
+
+	* Fix collection sometimes creating broken crossfire.0 file.
+
+2011-05-22  Andreas Kirschbaum
+
+	* Fix crash in --singlepng command-line option.
+
+2011-03-22  Andreas Kirschbaum
+
+	* Allow map paths starting with /random/.
+
+2011-03-18  Andreas Kirschbaum
+
+	* Correctly display special characters (<, >, and &) in map tooltips.
+
+2011-03-17  Andreas Kirschbaum
+
+	* Center map view around destination of "Enter Exit".
+
+	* Implement Edit|Invert Selection which inverts the currently
+	selected map squares.
+
+2011-03-01  Andreas Kirschbaum
+
+	* Manage bookmarks dialog: Add "undo remove" button for restoring
+	a previously removed bookmark.
+
+2011-02-28  Andreas Kirschbaum
+
+	* Implement bookmark directories.
+
+2011-02-22  Andreas Kirschbaum
+
+	* Fix ambiguous French menu shortcuts.
+
+2011-02-01  Andreas Kirschbaum
+
+	* Release 0.9.
+
+	* Collect resources.
+
+2011-01-10  Andreas Kirschbaum
+
+	* Properly create inventory objects when inserting game objects
+	into maps.
+
+2010-12-20  Andreas Kirschbaum
+
+	* Report truncated archetype definitions.
+
+	* Fix validators not using head part attributes but incorrectly
+	checking tail part attributes.
+
+	* Ignore case of file name extensions on case-insensitive file
+	systems.
+
+	* Enable/disable "enter xyz map" actions when tile paths are
+	modified.
+
+2010-12-12  Andreas Kirschbaum
+
+	* Always edit the head part of multi-square game objects in the
+	game object text editor.
+
+	* Add "Split Mode" action for tabs in main window. This allows up
+	to two open tabs on each side of the main window.
+
+2010-12-10  Andreas Kirschbaum
+
+	* Add "Text Editor" tab.
+
+	* Display red "Game Object" tab if the selected game object
+	includes incorrect attributes.
+
+2010-11-24  Andreas Kirschbaum
+
+	* Fix keyboard shortcuts of the go map and find archetype dialogs
+	to be globally active on every input field.
+
+2010-11-17  Andreas Kirschbaum
+
+	* Implement File|Goto Map... which opens maps by map name.
+
+2010-11-07  Andreas Kirschbaum
+
+	* Force non-GUI mode when using --script.
+
+2010-11-06  Andreas Kirschbaum
+
+	* Update game object matchers to treat game objects having
+	weight=0 as non-pickable.
+
+	* Fix #3079982 (bad warning for potion level). Now warns for
+	potions with level >130 and skills with level >250.
+
+	* Collect resources. Fixes #3079985 (warning (pickable connected
+	object) on cannon).
+
+	* Collect resources. Fixes #3080032 (wild pyromaniac uses wrong
+	object type in ui).
+
+2010-11-05  Andreas Kirschbaum
+
+	* Enhance "Shop square allows magic and/or prayers" validator:
+	flag shop squares that are adjacent to squares that allow spells
+	or prayers.
+
+	* Fix game object matchers to reliably match int valued attributes.
+
+	* Add "type" attribute to <Attrib> game object matchers. Allowed
+	values are "string" or "int"; defaults to "string" if omitted.
+	"string" compares the attribute value literally, "int" compares as
+	integer values.
+
+2010-11-04  Andreas Kirschbaum
+
+	* Do not warn about map difficulty 0 as many existing maps use
+	this.
+
+2010-11-03  Andreas Kirschbaum
+
+	* Do not consider game objects with "weight 0" as items.
+
+	* Update game object matchers to handle redundant "attribute 0"
+	lines.
+
+2010-11-01  Andreas Kirschbaum
+
+	* Suppress stray query dialog whether to delete the current
+	pickmap folder when switching between pickmap folders.
+
+2010-10-18  Andreas Kirschbaum
+
+	* Include monster levels in monster view.
+
+2010-10-10  Andreas Kirschbaum
+
+	* Fix incorrectly updated attribute for empty name field in game
+	object attributes panel.
+
+	* Correctly update game object type in undo/redo.
+
+2010-10-06  Andreas Kirschbaum
+
+	* Define and configure validators from "validator.*" entries in
+	messages.properties. Document available validators in
+	validators.xhtml.
+
+2010-09-25  Andreas Kirschbaum
+
+	* Correctly update archetypes when undoing/redoing operations
+	involving autojoining.
+
+2010-09-08  Andreas Kirschbaum
+
+	* Retain tab locations in main window across editor restarts.
+
+2010-09-06  Andreas Kirschbaum
+
+	* Fix "Move To" actions for tabs in main window.
+
+2010-09-01  Andreas Kirschbaum
+
+	* Hide internal actions for menu bars from Configure Shortcuts.
+
+	* Hide script editor actions from Configure Shortcuts.
+
+	* Hide actions not applicable for Crossfire from Configure
+	Shortcuts.
+
+	* Make "Lock All Pickmaps" affect "Create Pickmap Folder" and
+	"Delete Current Pickmap Folder".
+
+	* Remove unused "Inventory:" element from game object attributes
+	dialogs.
+
+2010-08-31  Andreas Kirschbaum
+
+	* Add option to skip squares in "random fill" that contain similar
+	game objects.
+
+2010-08-30  Andreas Kirschbaum
+
+	* Do not generate game object attributes redundant with archetype.
+
+2010-08-26  Andreas Kirschbaum
+
+	* Fix memory leak when browsing maps.
+
+	* Correctly update window menu when using 'enter xyz map' actions.
+
+2010-07-24  Andreas Kirschbaum
+
+	* Remove the "Apply" button from game object attributes panel as
+	change are automatically applied.
+
+2010-07-23  Andreas Kirschbaum
+
+	* (Re-)add "Save All Maps" function.
+
+2010-07-15  Andreas Kirschbaum
+
+	* Add support for *.trs treasurelist files in arch directory.
+
+	* Skip special files when loading treasure lists.
+
+2010-07-12  Andreas Kirschbaum
+
+	* Remove support for hiding archetypes in /intern path. Now all
+	archetypes are added to the archetype chooser.
+
+2010-07-03  Andreas Kirschbaum
+
+	* Implement #1726046 (Window handling): autojoining now supports
+	alternative archetypes (such as windowed wall or weak walls).
+
+2010-06-27  Andreas Kirschbaum
+
+	* Improve --script command-line option to report plugin script
+	errors to the operating system.
+
+	* Include details in error messages of "Tile path invalid" map
+	validator.
+
+2010-06-25  Andreas Kirschbaum
+
+	* Implement #3018414 (Improved archetype list). Now monster
+	archetypes display "level X" (or "level X*" for generators).
+
+	* Implement #3018432 (Display archetype titles): Include "title"
+	attribute when showing game object or archetype names.
+
+2010-06-24  Andreas Kirschbaum
+
+	* Set cursor to end of text in CTRL-ALT-E (toggle game object text
+	editor).
+
+	* Include all map validators when running plugin scripts from
+	command-line.
+
+2010-06-23  Andreas Kirschbaum
+
+	* Open map files even if no archetypes have been found.
+
+	* Add --config command-line option for a specific config file
+	rather than the default (~/.gridarta/atrinik.conf,
+	~/.gridarta/crossfire.conf, Java preferences).
+
+	May be used to run regression tests or scripts independent of
+	editor settings, or to use different settings when editing maps
+	for different server versions.
+
+	* Make --script command line option work in headless mode.
+
+2010-06-22  Andreas Kirschbaum
+
+	* Improve CTRL-ALT-E (toggle game object text editor): do not
+	anymore try to restore the previous state before anything was
+	saved.
+
+2010-06-14  Andreas Kirschbaum
+
+	* Do not crash if a treasurelist definition file cannot be found.
+
+2010-06-13  Kevin Bulgrien
+
+	* Improve grammar in various tip-of-the-day texts.
+
+2010-06-13  Andreas Kirschbaum
+
+	* Fix cursor position after mouse-clicks into script editor.
+
+	* Release 0.8.
+
+2010-06-12  Andreas Kirschbaum
+
+	* Collect resources.
+
+2010-06-10  Andreas Kirschbaum
+
+	* Fix path names in face and animation chooser.
+
+	* Add support for "*.anim" files in arch directory.
+
+2010-06-09  Andreas Kirschbaum
+
+	* Do not crash when reverting a resized map. Properly revert
+	attributes from map property dialog.
+
+2010-06-07  Andreas Kirschbaum
+
+	* Remove tooltips from archetype chooser.
+
+	* Retain settings (except for view filters) of "View" menu across editor restarts.
+
+2010-06-06  Andreas Kirschbaum
+
+	* Drop recent menu entries for maps with non-existent map files.
+
+	* Do not flag tail parts of monsters in shops as "paid items".
+
+	* Fix "reload faces".
+
+	* Fix NullPointerException in "paste exit" when connecting to an
+	unsaved map.
+
+2010-06-05  Andreas Kirschbaum
+
+	* Do not duplicate bookmarks when saving maps.
+
+2010-06-04  Andreas Kirschbaum
+
+	* Implement #1714800 (Predefined locations / bookmarks) as
+	Bookmarks menu.
+
+	Add Bookmark adds a new bookmark for the current map.
+
+	Manage Bookmarks opens a dialog for managing existing bookmarks:
+	change bookmark title, reorder bookmarks, remove bookmark.
+
+	* Properly retain "elevation" game object attributes when editing
+	maps.
+
+2010-06-03  Andreas Kirschbaum
+
+	* Make "Move Env" to always insert into the selected map square.
+
+	* Make "Move Inv" to always insert into the head part.
+
+	* Prevent the selected square view from moving around tail parts.
+
+	* Prevent Paste/Undo/Redo from breaking the map when applied to
+	game objects having inventories.
+
+	* Fix "Move Env" and "Move Inv" actions in selected square view
+	when applied to multi-part game objects.
+
+2010-05-29  Andreas Kirschbaum
+
+	* Fix incorrect resource path names on Windows machines.
+
+2010-05-26  Andreas Kirschbaum
+
+	* Retain customized attributes when replacing with multi-part game
+	objects from pickmaps.
+
+	* Make sure the updater dialogs are displayed in front of the main
+	window.
+
+	* Implement #2093373 (Ability to import more than one type). Now
+	types.xml is "<!ELEMENT type (import_type*..." rather than
+	"...import_type?...".
+
+2010-05-24  Andreas Kirschbaum
+
+	* Fix edit operations involving multi-square game objects.
+
+2010-05-23  Andreas Kirschbaum
+
+	* Do not remove event objects having incorrect parameters when
+	loading maps.
+
+	* Implement #1717845 (Multi-square paste) as File|Paste Tiled: paste
+	the copy buffer into the selection. If the selection is larger
+	than the copy buffer, tiling happens.
+
+2010-05-22  Andreas Kirschbaum
+
+	* Fix "Generate Preview" to regenerate previews for all selected
+	files.
+
+	* Implement File|Grow Selection and File|Shrink Selection:
+	grows/shrinks the selection by one map square.
+
+2010-05-21  Andreas Kirschbaum
+
+	* Implement File|Expand Empty Selection: includes empty map
+	squares surrounding selected empty map squares to the selection.
+
+2010-05-20  Andreas Kirschbaum
+
+	* Implement #1644734 (Flood Fill short-cut/customizable
+	short-cuts): add menu entry File|Configure Shortcuts...
+
+2010-05-16  Andreas Kirschbaum
+
+	* Improve UI of go location dialog: to go to coordinates (12,4)
+	press CTRL-L, enter 12, press ENTER, enter 4, press ENTER.
+
+	* Implement #2385942 (Alert message on exit from unique maps): add
+	new map validator "Exit path is not absolute" that checks for
+	exits within 'unique' maps that reference non-absolute map paths.
+
+	* Collect resources.
+
+2010-05-14  Andreas Kirschbaum
+
+	* In game object attributes dialog, improve formatting of bitmask
+	values: display "all -abc" only if there are more than three
+	alternatives; with less alternatives always use the positive form.
+
+	* Implement #2385930 (Alert when adding items in to a shop): add
+	new map validator "Shop square contains paid item" that checks for
+	shop squares that contain at least one paid item.
+
+2010-05-13  Andreas Kirschbaum
+
+	* Fix error message about missing cfpython_menu.def file.
+
+	* Fix missing "Analyze" menu entries.
+
+2010-05-12  Andreas Kirschbaum
+
+	* Implement #2951536 (Different color for unknown fields): use red
+	text for incorrect attributes in game object text editor.
+
+2010-05-09  Andreas Kirschbaum
+
+	* Implement "Add Env" when using the pickmap chooser.
+
+	* Insert complete multi-part game objects in "Edd Env" when using
+	the archetype chooser.
+
+2010-05-08  Andreas Kirschbaum
+
+	* CTRL-ALT-E now toggles the game object text editor: activate it
+	if inactive; restore previous state otherwise.
+
+2010-05-07  Andreas Kirschbaum
+
+	* Add keyboard shortcut (CTRL-ALT-E) to activate the game object
+	text editor.
+
+2010-05-06  Andreas Kirschbaum
+
+	* Change GUI of main window.
+
+	* Remove keyboard shortcuts from recent menu entries.
+
+2010-05-05  Andreas Kirschbaum
+
+	* Change location of game object attributes editor: it is now a
+	tab in the game object attributes panel.
+
+2010-04-29  Andreas Kirschbaum
+
+	* Close game object attributes dialogs when the associated game
+	object is removed from the map.
+
+	* Make "close all" work again.
+
+2010-04-27  Andreas Kirschbaum
+
+	* Support autojoin when inserting game objects from pickmaps.
+
+2010-04-23  Andreas Kirschbaum
+
+	* Allow undo/redo of reverted maps.
+
+2010-04-16  Andreas Kirschbaum
+
+	* Fix #2930539 (7409 Arch animation overrides object face always).
+	Now animations are ignored unless either is_turnable or
+	is_animated is set.
+
+2010-04-08  Andreas Kirschbaum
+
+	* Do not create non-functional recent menu entries for newly
+	created maps. Fixes #2951535 (New map in recent file list).
+
+2010-04-07  Andreas Kirschbaum
+
+	* Collect resources.
+
+2010-03-26  Andreas Kirschbaum
+
+	* Add "move to inventory" and "move to environment" functions to
+	selected square view.
+
+2010-03-07  Andreas Kirschbaum
+
+	* In game object attribute dialog: include "All" checkbox for
+	bitmask values. It allows to select or deselect all bitmask
+	values.
+
+	* Include game object names and map square locations in tooltips
+	of validation errors.
+
+2010-02-13  Andreas Kirschbaum
+
+	* Add attack types "Life Stealing" to game object attributes
+	dialog.
+
+2010-02-11  Andreas Kirschbaum
+
+	* Fix loading of built-in treasure lists.
+
+2010-01-31  Andreas Kirschbaum
+
+	* Replace checkbox "load collected archetypes" in settings dialog
+	with combo box.
+
+	* Fix layout of settings dialog.
+
+	* Use new map directory in map validator if the map directory is
+	changed by the user.
+
+2010-01-30  Andreas Kirschbaum
+
+	* Fix console output when collecting archetypes.
+
+2009-12-10  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Include map path name in error messages for invalid attributes
+	within maps.
+
+2009-12-06  Andreas Kirschbaum
+
+	* In game object attributes dialog do not insert stray empty
+	'name' attributes.
+
+	* In Arch tab of game object attributes panel display game object
+	name in blue only if it differs from the default.
+
+	* Do not create stray x/y attributes when using "add env"
+	function.
+
+	* Report duplicate attributes in archetype definitions.
+
+	* Report truncated msg..endmsg attributes in archetypes.
+
+2009-11-08  Andreas Kirschbaum
+
+	* Enable "OK" button in new map/new pickmap/new pickmap folder
+	dialog only if valid parameters are specified. Remove error
+	messages for invalid parameter values.
+
+	* Clean up display of mouse and cursor position in status bar.
+
+2009-11-07  Andreas Kirschbaum
+
+	* Remove "Animation" tab from the game object attributes panel. It
+	is redundant with the "Face" tab.
+
+	* Implement part of #2596945 (Face tab): add the "Face" tab to
+	the game object attributes panel. It displays the attributes
+	"face", "animation", "is_animated", and "anim_speed". Editing
+	these attributes is supported.
+
+2009-11-06  Andreas Kirschbaum
+
+	* Do not normalize game object attributes unless the user changes
+	anything. This prevents spurious map changes for maps containing
+	non-normalized game objects or game objects with redundant attributes.
+
+2009-11-05  Andreas Kirschbaum
+
+	* Fix NullPointerException when using 'autojoin'.
+
+	* Fix assertion error when inserting multi-part archetypes into
+	maps.
+
+2009-11-03  Andreas Kirschbaum
+
+	* Correctly update game object text editor when changing direction.
+
+2009-10-25  Andreas Kirschbaum
+
+	* Remove spurious empty lines from game object text editor.
+
+2009-10-23  Andreas Kirschbaum
+
+	* Implement #2881077 (7125 cKP5 (to use exit) does not use dst
+	map's enter_x/y).
+
+	* Add new predefined variable "gameObjectMatchers" for plugin
+	scripts.
+
+2009-10-17  Andreas Kirschbaum
+
+	* Accelerate game object processing: fix internal attribute cache
+	to remember missing attributes.
+
+2009-10-11  Andreas Kirschbaum
+
+	* Display animation image for animation attributes in game object
+	attributes dialog.
+
+	* Implement #2875693 (Add system GOM for connection validators):
+	Extract hard-coded constraints of map validator 'Suspicious
+	connection' into configuration file GameObjectMatchers.xml.
+
+2009-10-04  Andreas Kirschbaum
+
+	* Display face image for face attributes in game object attributes dialog.
+
+	* Improve the "Name:" value in the object choice display: display
+	archetype name if no object name exists.
+
+2009-10-03  Andreas Kirschbaum
+
+	* Implement #2871354 (Put In Inv/Add Env button).
+
+2009-10-02  Andreas Kirschbaum
+
+	* Report errors for syntax errors in *.arc files.
+
+	* Allow multi-part game objects for "Add Inv" when inserting from
+	pickmaps.
+
+2009-10-01  Andreas Kirschbaum
+
+	* Make "View" menu work reliably. Also accelerates "View" menu
+	actions and fixes "game object changed outside map transaction"
+	errors.
+
+2009-09-30  Andreas Kirschbaum
+
+	* Make user interface language selection work again.
+
+	* Add tooltips to pickmap chooser and map views.
+
+2009-09-28  Andreas Kirschbaum
+
+	* Correctly save archetype chooser state.
+
+2009-09-27  Andreas Kirschbaum
+
+	* Add tooltips to archetype chooser.
+
+2009-09-25  Andreas Kirschbaum
+
+	* Add map validator "Shop tile allows magic and/or prayers":
+	reports shop tiles that allow casting spells or prayers.
+
+	* Implement #2861454 (object filtering to work on inventories):
+	Add <Env> element to GameObjectMatchers.
+
+2009-09-21  Andreas Kirschbaum
+
+	* Add tooltip help to replace dialog.
+
+	* Implement #2862591 (replace tool able to use wildcards): Allow
+	"*" and "?" patterns in replace dialog.
+
+2009-09-17  Andreas Kirschbaum
+
+	* Avoid issues (stack trace to console) with file choosers when
+	deleting (map) directories from outside.
+
+2009-09-14  Andreas Kirschbaum
+
+	* Do not drop negative values for fields 'swap_time',
+	'reset_timeout', 'difficulty', 'darkness', 'enter_x, or 'enter_y'
+	when writing map files.
+
+2009-09-03  Andreas Kirschbaum
+
+	* Fix #2786547 (6632 broken). Now the editor does not anymore
+	crash with "Invalid index" errors.
+
+2009-09-02  Andreas Kirschbaum
+
+	* Change most command-line option names.
+
+2009-08-29  Andreas Kirschbaum
+
+	* Retain the divider state between the tool palette and the object
+	chooser between application restarts.
+
+2009-08-25  Andreas Kirschbaum
+
+	* Fix game object attributes dialog not properly parsing
+	attributes having floating-point values.
+
+2009-08-03  Andreas Kirschbaum
+
+	* Fix window menu: correctly update map modified markers.
+
+2009-07-22  Andreas Kirschbaum
+
+	* Fix #2822373 (6808 Problem with updating images).
+
+2009-07-19  Andreas Kirschbaum
+
+	* Fix map parser: do not ignore invalid "tile_path_" lines;
+	correctly parse "tile_path_" lines with filenames containing
+	spaces.
+
+2009-07-17  Andreas Kirschbaum
+
+	* Fix query dialog when attaching to an unsaved map: include the
+	map name.
+
+2009-07-15  Andreas Kirschbaum
+
+	* Fix race condition causing "java.lang.IllegalStateException: A
+	transaction must only be used by one thread." from time to time.
+
+2009-07-14  Andreas Kirschbaum
+
+	* Define "randomitems" game object attribute for Wands/Staffs.
+
+	* Define min/max value checks for "level" game object attributes.
+
+2009-07-13  Andreas Kirschbaum
+
+	* Fix memory leak when closing maps.
+
+2009-07-12  Andreas Kirschbaum
+
+	* Add new predefined variable "rendererFactory" for plugin
+	scripts.
+
+	* Fix possible NullPointerException in face selector.
+
+	* Include stack trace into script interpreter console rather to
+	stdout.
+
+	* Fix "face" attribute handling in game objects and archetypes.
+	Now this attribute is included in the game object attributes text
+	editor and customized faces will not anymore be reverted by
+	unrelated changes.
+
+2009-07-06  Andreas Kirschbaum
+
+	* Accelerate map loading.
+
+2009-06-29  Andreas Kirschbaum
+
+	* Fix #2811682 (6684 Cannot add new pickmap).
+
+2009-06-28  Andreas Kirschbaum
+
+	* Do not crash for duplicated faces.
+
+2009-06-21  Andreas Kirschbaum
+
+	* Fix memory leak. Now plugin scripts recursively processing map
+	files do not anymore run out of memory.
+
+	* Reliably update validation results after changed map views in
+	"Warnings" tab in game object attributes panels. Fixes some memory
+	leaks.
+
+	* Create About dialog only when needed. Reduces application
+	startup time and memory consumption.
+
+2009-06-20  Andreas Kirschbaum
+
+	* Fix memory leak.
+
+	* Add "changing" and "splitting" attributes.
+
+2009-06-18  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Add missing material type definitions.
+
+2009-06-11  Andreas Kirschbaum
+
+	* Fix "Monster" attribute definitions: replace outdated
+	can_use_rod and can_use_wand with can_use_range; add
+	can_use_shield.
+
+2009-06-05  Andreas Kirschbaum
+
+	* In initialization processing change most "errors" to "warnings".
+
+2009-05-19  Andreas Kirschbaum
+
+	* Fix possible NullPointerException while parsing types.xml.
+
+	* Remove support for double-list types in types.xml.
+
+2009-05-08  Andreas Kirschbaum
+
+	* Make --outfile command line option work in headless mode.
+
+2009-05-07  Andreas Kirschbaum
+
+	* Rewrite command line argument parser. It is now compatible to
+	getopt() in glibc.
+
+2008-05-01  Andreas Kirschbaum
+
+	* Ignore entries starting with "." loading treasure lists. Do not
+	anymore ignore CVS directories.
+
+	* Fix memory leak when closing map views.
+
+2008-04-30  Andreas Kirschbaum
+
+	* Reduce memory consumption of opened maps.
+
+2008-04-29  Andreas Kirschbaum
+
+	* Do not add spurious entries to recent menu.
+
+	* Fix memory leak in map file chooser.
+
+2008-04-26  Andreas Kirschbaum
+
+	* Accelerate edit operations by updating parts of the game object
+	attributes panel asynchronously.
+
+	* Disable 'Update' function for SVN builds as it currently does
+	not work.
+
+	* Do not load collected "smooth" file in non-collected mode.
+
+2008-04-24  Andreas Kirschbaum
+
+	* Make "Apply" in game object attributes panel work again.
+
+2008-04-19  Andreas Kirschbaum
+
+	* Apply patch #1859818 (Support for tiles blending in crossfire).
+
+	* Implement #1739389 (CF Tile Smoothing Support).
+
+	* Fix attribute range validator: do not incorrectly flag tail
+	parts of multi-part game objects.
+
+	* Fix incorrect map view border color.
+
+2009-04-17  Andreas Kirschbaum
+
+	* Collect resources.
+
+	* Fix archetype collection: include "face" attributes for tail
+	parts.
+
+2009-04-15  Andreas Kirschbaum
+
+	* Fix #2765312 (6452 not showing inventory items).
+
+	* Fix selected square view to retain selected game object when map
+	contents change.
+
+2009-04-14  Andreas Kirschbaum
+
+	* Add exit connector as Cursor|Cursor|Exit Connector and to
+	settings dialog. Allows to copy/paste exit game objects or to
+	bidirectionally connect two exits:
+	- copy exit (CTRL-SHIFT-C) remembers the cursor location
+	- paste exit (CTRL-SHIFT-V) pastes the remembered location into an
+	exit game object at the cursor; optionally creates a new exit game
+	object if none is present
+	- connect exits (CTRL-SHIFT-Y) bidirectionally connects the
+	remembered location and the cursor location; optionally creates
+	new exit game objects if none are present
+
+2009-04-04  Andreas Kirschbaum
+
+	* Fix #2731075 (6297 still not showing .lua files).
+
+2009-04-02  Andreas Kirschbaum
+
+	* Properly save non-standard attributes into map files.
+
+	* Make Events tab work again. Fixes part of #2721939 (6270 not
+	showing some menus).
+
+2009-03-28  Andreas Kirschbaum
+
+	* Use script's path name as default directory when "saving as"
+	scripts.
+
+	* Remove dialog to delete game objects referencing undefined
+	archetypes when loading a map.
+
+	* Add "Map|Delete unknown objects" which deletes all game objects
+	referencing undefined archetypes.
+
+	* Add incorrect faces referenced from archetypes to error dialog
+	box.
+
+	* Remove 'Duplicate arch' dialog; add duplicate archetype warnings
+	to error dialog box.
+
+	* Report errors to console when running in non-interactive mode.
+
+	* Do not require an editor restart when changing the "Display
+	Map-Tile Panel at the bottom" setting.
+
+2009-03-15  Andreas Kirschbaum
+
+	* Fix some bugs when loading types.xml:
+	- <attribute type="text"> entries now can be "ignored"
+	- put imported entries into correct tabs
+	- do not randomly drop imported entries
+
+2009-03-13  Andreas Kirschbaum
+
+	* Improve message for "Suspicious attribute value" map validator.
+
+	* Fix undo/redo involving multi-part objects.
+
+	* Fix NullPointerException when inserting multiple auto-joining
+	wall objects into one tile.
+
+2009-02-27  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Allow face changes of game objects by changing its object text.
+
+	* Do not crash due to invalid faces or animations.
+
+2009-02-10  Andreas Kirschbaum
+
+	* Update archetypes.
+
+2009-02-07  Andreas Kirschbaum
+
+	* Add game object matchers for 'Shop tiles' and 'Unique
+	tiles/objects'.
+
+	* Implement "check_min" and "check_max" attributes for "int"
+	attributes in types.xml. Values outside this range cause a map
+	validator warning. Defaults to "min"/"max" if not given. Move
+	hard-coded checks to types.xml.
+
+2009-02-06  Andreas Kirschbaum
+
+	* Validate archetype and animation definitions at startup.
+
+2009-02-05  Andreas Kirschbaum
+
+	* Reorganize categories and messages in error dialog box.
+
+	* Include filenames for warning messages in error dialog box.
+
+2009-01-28  Andreas Kirschbaum
+
+	* Improve performance: lazy load game object faces.
+
+2009-01-26  Andreas Kirschbaum
+
+	* Issue warning for obsolete attributes 'magicmap' and
+	'visibility'.
+
+2009-01-25  Andreas Kirschbaum
+
+	* Fix settings dialog: save correct path name for "map directory".
+
+2009-01-10  Andreas Kirschbaum
+
+	* Remove "scripts" field from settings dialog since it was unused.
+
+2009-01-09  Andreas Kirschbaum
+
+	* Fix #1842537 (About Box Issues): allow copying from "About" tab
+	in about dialog.
+
+	* Check some input fields in game object attribute dialog for
+	valid values. (Affected values are the members of "struct liv" of
+	the Crossfire server.)
+
+	* Update JAPI library.
+
+2009-01-08  Andreas Kirschbaum
+
+	* Fix #1842541 (File Options... Paths and Resources): always save
+	absolute path names; suppress spurious "Preferences changed" dialog.
+
+2009-01-07  Andreas Kirschbaum
+
+	* Fix #1965884 (Display issue).
+
+	* Fix #2430127 (Lost shoprace information when editing, then
+	saving a map).
+
+	* Fix object choice display for pickmap chooser.
+
+2009-01-06  Andreas Kirschbaum
+
+	* Fix #2430130 (NPC changes to guildmaster when modifying NPC
+	attributes).
+
+2008-12-12  Andreas Kirschbaum
+
+	* Remove support for obsolete color_fg/color_bg archetype fields.
+
+	* Update archetypes.
+
+2008-11-26  Andreas Kirschbaum
+
+	* Fix Create Image command: do not cut off right/bottom row of
+	map.
+
+	* Support match by title for inventory checkers. (Crossfire
+	r10717)
+
+2008-11-23  Andreas Kirschbaum
+
+	* Add map validator "Undefined face": checks that the referenced
+	face or animation does exist.
+
+2008-11-21  Andreas Kirschbaum
+
+	* Do not crash when loading maps referencing undefined faces.
+
+2008-11-13  Andreas Kirschbaum
+
+	* Partially implement #1627422 (Check box option to avoid startup
+	warnings): Use it for plugin script, autojoin, and pickmap related
+	errors.
+
+2008-11-12  Andreas Kirschbaum
+
+	* Partially implement #1627422 (Check box option to avoid startup
+	warnings): Use it for "types.xml" file related errors.
+
+2008-11-11  Andreas Kirschbaum
+
+	* Partially implement #1627422 (Check box option to avoid startup
+	warnings): Use it for "treasures" file related errors.
+
+2008-11-10  Andreas Kirschbaum
+
+	* Improve map validator "Suspicious attribute value": check that
+	monster levels are 1..200.
+
+2008-11-09  Andreas Kirschbaum
+
+	* Partially implement #1627422 (Check box option to avoid startup
+	warnings): add an error dialog box for collecting all error
+	messages in a single dialog. Use it for GameObjectMatchers.xml and
+	TreasureLists.xml related errors.
+
+2008-11-06  Andreas Kirschbaum
+
+	* Rename "Scripts" tab to "Events" in game object attributes
+	panel. Use the term "event" for event game objects and "script"
+	for script files.
+
+2008-11-05  Andreas Kirschbaum
+
+	* Fix #2152115 (Event Types hardcoded). Available event types are
+	read from types.xml from <list name="event">.
+
+2008-11-02  Andreas Kirschbaum
+
+	* Fix #1650940 (face for disabled animation is not shown).
+
+	* Fix #1621868 (Connection view poorly placed): split the tabs
+	into "Game Object" (tabs related to the selected game object) and
+	"Map" (tabs related to the current map).
+
+2008-11-01  Andreas Kirschbaum
+
+	* Make connection errors (connection without sink/source)
+	highlight the affected game objects.
+
+	* Collect smoothface information into smooth file.
+
+	* Add face/animation selector controls to game object attributes
+	dialog.
+
+2008-10-31  Andreas Kirschbaum
+
+	* Fix face tree collection.
+
+	* Do not crash when validating unsaved maps containing exits.
+
+	* Fix spells combo box in game object attributes dialog.
+
+2008-10-28  Andreas Kirschbaum
+
+	* Load correct facetree file in "collected" mode.
+
+2008-10-26  Andreas Kirschbaum
+
+	* Collect animtree file.
+
+2008-10-23  Andreas Kirschbaum
+
+	* Make "grid visible" affect all maps.
+
+2008-10-21  Andreas Kirschbaum
+
+	* Add Map|Next Exit and Map|Previous Exit: select next/previous
+	exit tile on map.
+
+2008-10-19  Andreas Kirschbaum
+
+	* Add map validator "Tile path invalid": checks whether tiled map
+	paths are valid.
+
+	* Add map validator "Exit path invalid": checks whether exit paths
+	are valid.
+
+2008-10-13  Andreas Kirschbaum
+
+	* Add "reload faces".
+
+2008-10-10  Andreas Kirschbaum
+
+	* Make replace dialog work again.
+
+	* Close replace dialog when affected map view is closed.
+
+2008-10-05  Andreas Kirschbaum
+
+	* Implement incremental undo stack. Makes edit operations more
+	responsive and reduces memory consumption. Increase undo stack to
+	100 edit operations.
+
+2008-10-04  Andreas Kirschbaum
+
+	* Fix selection painting in pickmaps.
+
+2008-10-03  Andreas Kirschbaum
+
+	* Add network settings.
+
+2008-09-27  Andreas Kirschbaum
+
+	* Add "control client" and "control server" options: start/stop
+	Crossfire client or server from Gridarta.
+
+2008-09-26  Andreas Kirschbaum
+
+	* Fix collection process:
+	- include default inventories
+	- do not remove leading whitespace from msg...endmsg blocks
+
+	* Update archetypes.
+
+2008-09-25  Andreas Kirschbaum
+
+	* Support scrolling with mouse wheel in script editor.
+
+	* Add undo/redo buttons to toolbar.
+
+	* Make the tool selector more compact.
+
+	* Use correct filename in updater.
+
+2008-09-24  Andreas Kirschbaum
+
+	* Retain view positions when reverting maps.
+
+2008-09-18  Andreas Kirschbaum
+
+	* Fix display of "Image:" information in game object attributes
+	panel.
+
+2008-09-07  Andreas Kirschbaum
+
+	* Add options pane "Developers".
+
+2008-09-06  Andreas Kirschbaum
+
+	* Hide system game object matchers from the GUI.
+
+2008-08-29  Andreas Kirschbaum
+
+	* Ignore empty lines in .anim files.
+
+2008-08-18  Andreas Kirschbaum
+
+	* Add option for running plugin scripts from the command line. The
+	syntax is java -jar CrossfireEditor.jar --script MapValidator
+	baseDirectory=/scorn/misc errorLimit=0
+
+2008-08-17  Andreas Kirschbaum
+
+	* Fix interface for plugin scripts to Gridarta modules.
+
+2008-08-16  Andreas Kirschbaum
+
+	* Add "fill" and "fill random". These new fill modes use the
+	"auto" fill mode.
+
+2008-08-15  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Correctly display multi-tiled objects in map previews and zoomed
+	images.
+
+2008-08-14  Andreas Kirschbaum
+
+	* Make "Scripts" tab in game object attributes panel work again.
+
+2008-08-11  Andreas Kirschbaum
+
+	* Fix crash due to reverted pickmaps.
+
+2008-08-07  Andreas Kirschbaum
+
+	* Fix #1816940 ('Game object text editor' should warn of unapplied
+	changes): changes are now automatically applied.
+
+2008-08-05  Andreas Kirschbaum
+
+	* Implement new view for archetype chooser: "Display icons only".
+
+2008-07-24  Andreas Kirschbaum
+
+	* Fix #1961165 (Fields too short).
+
+2008-07-23  Andreas Kirschbaum
+
+	* Fix #1858864 (Missing event handling).
+
+	* Fix spurious map validator warning for detectors.
+
+	* Fix map validator error messages: include actual parameter
+	rather than "null".
+
+	* Fix #1852030 (Connection warning).
+
+	* Implement #1712767 (New insertion tool: Box Insert).
+
+2008-07-22  Andreas Kirschbaum
+
+	* Add more options to insertion tool.
+
+2008-07-18  Andreas Kirschbaum
+
+	* Add more options to deletion tool.
+
+2008-07-15  Andreas Kirschbaum
+
+	* Add tool selector.
+
+2008-07-07  Andreas Kirschbaum
+
+	* Make loading of embedded crossfire.0 file work again.
+
+2008-07-06  Andreas Kirschbaum
+
+	* Replace some characters in auto-generated thumbnail and icon
+	filenames to make the filenames work on Windows.
+
+2008-06-07  Andreas Kirschbaum
+
+	* Do not crash if the destination map in 'enter exit' cannot be
+	opened.
+
+	* Implement #1816943 (Don't close current map when using
+	ctrl-e/arrow).
+
+2008-06-04  Andreas Kirschbaum
+
+	* Add zoom tool.
+
+2008-05-30  Andreas Kirschbaum
+
+	* Implement Map|Shrink Map Size: remove empty tiles from a map's
+	border.
+
+2008-05-28  Andreas Kirschbaum
+
+	* Enable "Enter Exit" for non-head parts of multi-part exits.
+
+2008-05-22  Andreas Kirschbaum
+
+	* Fix crash while collecting archetypes. From now on the collected
+	files are slightly smaller than the files produced by Crossfire's
+	collect script.
+
+2008-05-17  Andreas Kirschbaum
+
+	* Do not show archetypes from "intern" folders in archetype
+	chooser.
+
+2008-05-04  Andreas Kirschbaum
+
+	* Add "New Script" and "Edit Script" to Tools menu.
+
+2008-05-03  Andreas Kirschbaum
+
+	* Create correct path names for new script files.
+
+	* Wait until archetype collection has finished before exiting the
+	application.
+
+2008-04-20  Andreas Kirschbaum
+
+	* Disable menu entry 'Collect archetypes' while collection is in
+	progress.
+
+2008-04-19  Andreas Kirschbaum
+
+	* Sort 'Show xxx' menu entries by name.
+
+	* Add more 'Show xxx' entries to View menu.
+
+	* Remove 'View' menu from map windows.
+
+2008-04-07  Andreas Kirschbaum
+
+	* Implement pickmap folders. Pickmap groups allow grouping
+	pickmaps by themes.
+
+	* Replace "close pickmap" with "delete pickmap".
+
+2008-04-01  Andreas Kirschbaum
+
+	* Retain main window's state (maximized, iconized, etc.) across
+	editor restarts.
+
+2008-03-29  Andreas Kirschbaum
+
+	* Change modifier keys for tile selection:
+	- no modifier => replace selection
+	- SHIFT => add to selection
+	- CTRL => remove from selection
+	- SHIFT+CTRL => toggle selection
+
+	* Improve selection markers: display only the border of the
+	selected area; make the cursor more visible.
+
+	* Add updater module.
+
+2008-03-23  Andreas Kirschbaum
+
+	* Make flood fill work again.
+
+	* Implement "Save All" for saving all opened maps.
+
+2008-03-21  Andreas Kirschbaum
+
+	* Fix #1879228 (More details in warning).
+
+2008-03-20  Andreas Kirschbaum
+
+	* Open the pickmap chooser when the editor starts.
+
+2008-03-19  Andreas Kirschbaum
+
+	* Make saving settings work on Windows.
+
+	* Add setup option to hide the main window's toolbar.
+
+2008-03-09  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Add syntax highlighting for message texts allowing @match.
+
+2008-03-08  Andreas Kirschbaum
+
+	* Embed .dtd files into Gridarta since these files define the file
+	formats Gridarta understands.
+
+2008-03-05  Andreas Kirschbaum
+
+	* Add support for "multiply speed" (maxsp) field in generators.
+
+2008-03-02  Andreas Kirschbaum
+
+	* Correctly update selected square view for multi-part objects.
+
+	* Make fill and replace work when no cursor is active.
+
+	* Remove "cursor" menu from main menu bar. Fixes #1726143 (Weird
+	behavior with *).
+
+2008-02-22  Andreas Kirschbaum
+
+	* Implement "monster" view. It summarizes all monsters by name on
+	the current map.
+
+2008-02-14  Andreas Kirschbaum
+
+	* Fix memory leak in new map dialog.
+
+	* Fix memory leak in run script dialog.
+
+	* Fix memory leak in map properties dialog.
+
+2008-02-13  Andreas Kirschbaum
+
+	* Remove face input field from game object attributes panel.
+
+2008-02-11  Andreas Kirschbaum
+
+	* Add direction control to game object attributes panel; always
+	disabled for now since the Crossfire server seems to ignore the
+	direction attribute.
+
+	* Add DIRECTOR objects as connection sinks to connection
+	validator.
+
+2008-02-05  Andreas Kirschbaum
+
+	* Fix [ 1842539 ] File Options... does not open sometimes.
+
+2008-02-04  Andreas Kirschbaum
+
+	* Add shift operation: shifts selected map tiles into the given
+	direction.
+
+	* Enable "save" for new maps; map it to "save as" instead.
+
+2008-02-03  Andreas Kirschbaum
+
+	* Add archetype loader error dialog: reports duplicate archetypes.
+
+2008-01-29  Kevin Bulgrien
+
+        * [ 1879236 ] random_movement support change applied to types.xml.
+        * [ 1842315 ] Custom container face change applied to types.xml.
+        * [ 1882982 ] generator_limit patch applied to types.xml.
+
+2007-12-23  Andreas Kirschbaum
+
+	* Ignore .xxx and xxx~ files in scripts directory.
+
+2007-12-22  Andreas Kirschbaum
+
+	* Do not fail if home directory does not exist.
+
+2007-12-15  Andreas Kirschbaum
+
+	* Add support for background music.
+
+2007-11-25  Andreas Kirschbaum
+
+	* Change duplicate object check when adding objects to maps: now
+	an object is dropped if either both objects has the same archetype
+	or if the "type" fields do match.
+
+2007-11-24  Andreas Kirschbaum
+
+	* Do not silently fail when saving a map fails.
+
+2007-11-20  Andreas Kirschbaum
+
+	* Implement #1833502 (Searchable archetype chooser).
+
+2007-11-18  Andreas Kirschbaum
+
+	* Fix #1555837 (Doesn't support new move_type system): add
+	'move_slow' and 'move_slow_penalty' game object attributes.
+
+	* Implement #1816948 (Text in 'object chooser').
+
+2007-11-17  Andreas Kirschbaum
+
+	* Fix #1833500 (Attack types in attributes displayed as number).
+
+	* Fix #1833514 (Map selection dialog doesn't work from unsaved
+	map).
+
+	* Fix "cut off" direction controls in map attributes dialog.
+
+2007-11-16  Andreas Kirschbaum
+
+	* Implement "script_file" type in types.xml file.
+
+2007-11-15  Andreas Kirschbaum
+
+	* In game object attributes dialog, add drop-down control for
+	"event type" field of Event objects.
+
+2007-11-14  Andreas Kirschbaum
+
+	* Retain selection in selected square view when deleting objects
+	with inventory.
+
+2007-11-08  Andreas Kirschbaum
+
+	* Fix spurious errors about non-existent archetypes at application
+	start.
+
+2007-11-05  Andreas Kirschbaum
+
+	* Ignore type changes from 0->71 and 0->77 to suppress spurious
+	map validator warnings in buildable maps.
+
+	* Implement #1816935 ('object with custom type' warning not
+	explicit enough).
+
+2007-11-04  Andreas Kirschbaum
+
+	* Implement #1555828 (Uses old spell numbers for the spell list
+	drop down).
+
+2007-11-03  Andreas Kirschbaum
+
+	* Make "enter exit" for exits buried under other objects.
+
+	* Remove support for Look And Feel selection.
+
+	* Update archetypes.
+
+	* Implement #1713798 (Support objects nested in archetypes).
+
+2007-11-01  Andreas Kirschbaum
+
+	* Implement #1684641 (Automated or easier map linking).
+
+	* Remove support for directions TOP and BOTTOM for map tiling;
+	these directions are not used by the Crossfire server.
+
+2007-10-31  Andreas Kirschbaum
+
+	* Merge "Creator:" and "Date:" map headers into
+	"Created: <date> <author>".
+
+	* Implement #1811088 (Last modified date in map header). When a
+	modified map is written, an attribute "Modified: <date> <author>"
+	is added or updated in the map message text.
+
+2007-10-30  Andreas Kirschbaum
+
+	* Remove support for map files using obsolete attributes: "x"
+	instead of "width", or "stand_still" instead of "fixed_resettime".
+
+	* Remove support for map files with multi-part objects having
+	explicit tail parts. (Remove support for "More" in map files.)
+
+2007-10-28  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Allow multi-part objects in inventory. This allows generators
+	spawning multi-part monsters.
+
+	* Suppress spurious error message "Multi-part expansion for a
+	GameObject inside a container requested." when loading maps with
+	multi-parts in inventories.
+
+2007-10-26  Andreas Kirschbaum
+
+	* Make map loader more strict; complain about incorrect map
+	headers.
+
+	* Reject to load truncated map files; do not strip leading
+	whitespace.
+
+2007-10-19  Andreas Kirschbaum
+
+	* Update archetypes.
+
+2007-10-13  Andreas Kirschbaum
+
+	* Add map validator "Suspicious attribute value": check that
+	attribute values are in a sensible interval. For now checks that
+	gear providing sustenance is within [-20..+20].
+
+2007-10-11  Andreas Kirschbaum
+
+	* Rename "Errors" tab into "Warnings" in game object attributes
+	panel.
+
+	* Fix map validator: run map validators if map properties are
+	changed.
+
+2007-10-10  Andreas Kirschbaum
+
+	* Reflect presence of map errors into color of 'Errors' tab.
+
+	* Make analyze menu work again.
+
+	* Do not reset map modified flag when saving fails.
+
+	* Make scripts work if Gridarta is run outside the source
+	directory:
+	- Load scripts from <map_dir>/editor/scripts; remove built-in
+	scripts.
+	- Store scripts in separate .xml files instead in an aggregated
+	scripts.xml file.
+	- At application exit prompt for unsaved scripts.
+	- Remove "export plugins" function.
+
+	* Add map validator "Undefined archetype": checks that no game
+	object references an undefined archetype.
+
+2007-10-09  Andreas Kirschbaum
+
+	* Load pickmaps from <map_dir>/editor/pickmaps; remove built-in
+	pickmaps. This makes pickmaps work if Gridarta is run outside the
+	source directory.
+
+2007-10-08  Andreas Kirschbaum
+
+	* Do not silently discard modified pickmaps when the user exits
+	from the application.
+
+	* In pickmap chooser, add "*" to modified pickmaps.
+
+2007-10-07  Andreas Kirschbaum
+
+	* Add MapValidator script: run the map validator for all maps in a
+	directory, or for all maps.
+
+	* Fix connection map validator: recognize trigger buttons as
+	sources.
+
+2007-10-04  Andreas Kirschbaum
+
+	* Fix connection map validator: markers are no targets.
+
+2007-09-29  Andreas Kirschbaum
+
+	* Fix connection map validator: recognize triggers as sources.
+
+2007-09-28  Andreas Kirschbaum
+
+	* Make WorldMaker script work again.
+
+	* Update list of special treasure lists.
+
+	* Update archetypes and treasures.
+
+2007-09-19  Andreas Kirschbaum
+
+	* Add map validator "Suspicious connection": check for incorrect
+	uses of "connected" attribute.
+
+2007-09-18  Andreas Kirschbaum
+
+	* Remove type 18 (altar) objects from connection view. These
+	objects do not have a key string but an item name.
+
+	* Make connection view correctly check inventory objects.
+
+	* Make map validator correctly check inventory objects.
+
+2007-09-14  Andreas Kirschbaum
+
+	* Fix crash when resizing map size.
+
+2007-09-10  Andreas Kirschbaum
+
+	* Add map validator "Invalid key string": checks that objects
+	using "key strings" include a custom key string.
+
+	* Add map validator "Object with custom type": checks that no
+	object redefines the "type" attribute.
+
+2007-09-09  Andreas Kirschbaum
+
+	* Add auto-validator: automatically runs the map validator after
+	map changes.
+
+	* Add tab to settings dialog to enable/disable individual map
+	validation checks.
+
+	* Properly close "go location" dialogs when the associated map
+	view is closed.
+
+	* Add error list view ("Errors" tab in Game Object Attributes
+	Panel). It lists all validation errors of the active map.
+
+2007-09-07  Andreas Kirschbaum
+
+	* Add map validator module. For now the following is checked:
+	- a connected object must not be pickable
+	- a connected object must not be in an inventory
+	- the map difficulty must be positive
+
+2007-09-05  Andreas Kirschbaum
+
+	* Fix part of #1555837 (Doesn't support new move_type system): add
+	'move_on' and 'move_off' game object attributes.
+
+2007-08-06  Andreas Kirschbaum
+
+	* Accelerate map tile selection.
+
+2007-08-03  Andreas Kirschbaum
+
+	* Insert a random object when inserting from a pickmap if no
+	object is selected.
+
+2007-07-25  Andreas Kirschbaum
+
+	* Display bitmask values in Game Object Attribute Dialog in a
+	format similar to map file encoding.
+
+	* Fix #1752230 (Text in the game object text editor isn't
+	refreshed).
+
+2007-07-20  Andreas Kirschbaum
+
+	* Prevent inserting of overlapping objects in pickmaps by
+	dragging.
+
+2007-07-10  Andreas Kirschbaum
+
+	* Do not crash when loading a map containing game objects out of
+	map bounds.
+
+2007-07-09  Andreas Kirschbaum
+
+	* Fix the Object Chooser: sometimes the wrong object was used.
+
+2007-07-03  Andreas Kirschbaum
+
+	* Remove duplicate attributes from Game Object Attribute Dialog.
+
+	* Fix #1710138 ("connection" list won't work when only one item).
+
+	* Add support for "Transport" object type.
+
+	* Fix #1726058 (Wrong object selected at insertion).
+
+2007-07-01  Andreas Kirschbaum
+
+	* Do not crash when loading a map containing game objects out of
+	map bounds.
+
+2007-06-30  Andreas Kirschbaum
+
+	* Update archetypes.
+
+2007-06-29  Andreas Kirschbaum
+
+	* Add replace density to replace dialog.
+
+	* Add "apply" button to replace dialog.
+
+	* In replace dialog pre-select "entire map" instead of "selected
+	squares" if exactly one square is selected.
+
+2007-05-24  Andreas Kirschbaum
+
+	* Remove support for obsolete "Ability" object type.
+
+2007-05-23  Andreas Kirschbaum
+
+	* Remove obsolete function "collect spells".
+
+2007-05-22  Andreas Kirschbaum
+
+	* Implement #1723093 (no_damage flag support).
+
+2007-05-20  Andreas Kirschbaum
+
+	* Fix #1714482 (Locked items view misses objects).
+
+	* Update archetypes.
+
+	* Fix #1684128 (Collect Archetypes crashes).
+
+	* Make "enter exit" for exits pointing to same map work; in "enter
+	exit", do not close old map if other map views exist.
+
+	* Do not crash for out of memory when generating preview images.
+
+	* Correctly open map files from the command line.
+
+	* Do not crash when closing the rightmost script view if selected.
+
+	* Implement "replace" in script editor.
+
+2007-05-19  Andreas Kirschbaum
+
+	* Make all key bindings in script editor work.
+
+	* When resizing the main window, resize the editor desktop but
+	retain width/height of game object attributes panel, game object
+	text editor and selected square display.
+
+	* Increase default size of the script editor window and save the
+	user-defined location and size in the preferences.
+
+	* Prompt the user if he quits the application having a modified
+	script.
+
+2007-05-18  Andreas Kirschbaum
+
+	* Implement undo/redo for the script editor.
+
+	* Make some more keyboard shortcuts in the script editor work.
+
+	* Retain last known path name in open script dialog.
+
+	* Prompt the user if he tries to close an unsaved script in the
+	script editor.
+
+	* Rename ~/.cfeditor to ~/.gridarta.
+
+	* Rename config file to ~/.cfeditor/crossfire.conf. Describe
+	entries in comment lines.
+
+	* Implement "find" and "find again" in script editor.
+
+2007-05-16  Andreas Kirschbaum
+
+	* Add more filter menu entries.
+
+	* Fix "show walls": was still using obsolete "no_pass" attribute.
+
+2007-05-14  Andreas Kirschbaum
+
+	* Remove "Autojoin" menu entry from map window menu.
+
+2007-05-13  Andreas Kirschbaum
+
+	* Display empty tiles as completely black squares. This change
+	both makes the display similar to what the client displays and
+	allows to distinguish between "this game object uses an undefined
+	face" and "this tile is empty".
+
+	* Do not drop leading whitespace from msg..endmsg or lore..endlore
+	game object attribute fields.
+
+2007-05-09  Andreas Kirschbaum
+
+	* Implement #1714810 (Keep the 'autojoin' option status).
+
+	* Add tip of the day dialog.
+
+	* Add "next window" and "previous window" actions to view menu.
+
+	* Add splash screen.
+
+2007-05-06  Andreas Kirschbaum
+
+	* Fix #1621831 ("next/previous window" buttons not disabled with
+	one window).
+
+	* Allow to open more than one file in file open dialog.
+
+2007-05-05  Andreas Kirschbaum
+
+	* If a new script is created with an existing name, give an error
+	message but do not overwrite the old script.
+
+2007-05-03  Andreas Kirschbaum
+
+	* Remove --nogui command line option; do not show GUI until
+	initialization is complete.
+
+2007-05-01  Andreas Kirschbaum
+
+	* Add "Miscellaneous" tab to options dialog.
+
+	* Set "Creator" field for new maps to current user name instead of
+	"CF Java Editor"; use ISO date format for "Date" field.
+
+	* Add icons to map windows.
+
+2007-04-30  Andreas Kirschbaum
+
+	* Do not crash if no pickmaps exist.
+
+	* Make "close all" work again.
+
+2007-04-28  Andreas Kirschbaum
+
+	* Make WorldMaker script work again.
+
+	* Add map preview images to file chooser dialog.
+
+2007-04-16  Andreas Kirschbaum
+
+	* Select the currently active look and feel entry in the view
+	menu.
+
+2007-04-09  Andreas Kirschbaum
+
+	* Allow to replace from copy buffer in replace dialog.
+
+2007-04-06  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Fix part of #1555837 (Doesn't support new move_type system): add
+	'move_blocked' game object attribute.
+
+2007-04-04  Andreas Kirschbaum
+
+	* Make sure the active map window gets the focus.
+
+2007-04-03  Andreas Kirschbaum
+
+	* Add "recent" entry to file menu.
+
+	* Re-use existing in-memory map if a map file is opened more than
+	once.
+
+2007-04-02  Andreas Kirschbaum
+
+	* Implement multiple views per map.
+
+2007-03-30  Andreas Kirschbaum
+
+	* Do not crash in "random fill above" when not filling from
+	pickmap.
+
+	* Use different algorithm for flood-fill. The new algorithm does
+	not anymore create out of memory errors for complicated fill
+	areas.
+
+	* Correctly update view position in "enter xxx map".
+
+	* In "enter exit" set cursor to destination coordinates. (Bugfix)
+
+2007-03-26  Andreas Kirschbaum
+
+	* Update archetypes.
+
+2007-03-25  Andreas Kirschbaum
+
+	* Implement "locked items" view.
+
+2007-03-24  Andreas Kirschbaum
+
+	* Many spelling corrections in game object attributes dialog.
+
+	* Fix part of #1555837 (Doesn't support new move_type system): add
+	'move_type' game object attribute.
+
+2007-03-23  Andreas Kirschbaum
+
+	* Remove special handling of multi-part objects when writing map
+	files.
+
+2007-03-22  Andreas Kirschbaum
+
+	* (Re-)Add support to delete objects with control+right mouse
+	button to make the editor usable with a two-button-mouse.
+
+	* Make view menu entries ("Show xxx") display the current view
+	state.
+
+2007-03-20  Andreas Kirschbaum
+
+	* Implement #1680008 (Goto coordinates function).
+
+	* Retain elevation value of bottom-most game object when
+	adding/deleting/moving game objects in a tile.
+
+	* Add "elevation" attribute for game objects.
+
+	* Drop map window back buffer images when available memory becomes
+	tight. This prevents out of memory errors when loading multiple
+	and/or large maps.
+
+	* Add "smoothlevel" attribute for game objects.
+
+	* Do not change map difficulty to 1 for maps having no difficulty.
+
+	* Fix #1680014 (Revert option language/word in CrossfireEditor).
+
+	* Fix #1670054 (Autojoin is broken).
+
+2007-02-23  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Fix #1666831 (Large faces with non-top-left heads broken).
+
+2007-02-22  Andreas Kirschbaum
+
+	* Allow to change the face for game objects having an archetype
+	without a default face.
+
+	* Fix #1656338 ("no face" error on customized archetype).
+
+2007-02-04  Andreas Kirschbaum
+
+	* Make "Enter Exit" work for PLAYER_CHANGER tiles.
+
+	* Mark map as changed if a game object's message, lore or
+	animation was changed.
+
+2007-02-02  Andreas Kirschbaum
+
+	* Create correct "editor_folder" entries when collecting
+	archetypes.
+
+2007-01-27  Andreas Kirschbaum
+
+	* Prevent NullPointerException when creating a new script.
+
+	* Fix memory leak when closing map windows.
+
+2007-01-25  Andreas Kirschbaum
+
+	* Do not crash when loading maps which reference undefined
+	archetypes. Offer to delete the affected game objects.
+
+2007-01-23  Andreas Kirschbaum
+
+	* Make text fields in Game Object Attributes Dialog and Panel wrap
+	long lines. Use all available space for the text field in the
+	Panel.
+
+2007-01-22  Andreas Kirschbaum
+
+	* Fix #1641829 ("script pad" highlights wrong).
+
+	* Fix memory leak when closing map windows.
+
+2007-01-21  Andreas Kirschbaum
+
+	* Properly enable/disable file menu entries.
+
+2007-01-13  Andreas Kirschbaum
+
+	* In map window title, use map-directory-relative map path if
+	possible.
+
+	* Allow selection of tail parts in pickmaps.
+
+	* Rename application to "CrossfireEditor.jar".
+
+	* Add build information (including the SVN revision number) and
+	licenses to about dialog.
+
+2007-01-11  Andreas Kirschbaum
+
+	* Enable "save" after "save as".
+
+	* Fix #1613731 (Arch list tabs sometimes blank).
+
+	* Use pickmap selection for insert, replace, fill, flood-fill.
+
+	* Add context menu to pickmap chooser.
+
+2007-01-10  Andreas Kirschbaum
+
+	* When saving a map which in fact is a pickmap, reflect the
+	changes to the pickmap.
+
+	* Add support for "Event" game objects (type 116).
+
+	* Fix #1556003 (Crossfire script editor doesn't support new plugin
+	system). Drop support for old plugin system via event_xxx
+	attributes.
+
+2007-01-09  Andreas Kirschbaum
+
+	* Make pickmap panel work for pickmaps with spaces in the name
+	work.
+
+2007-01-07  Andreas Kirschbaum
+
+	* Implement undo/redo.
+
+	* Update archetypes.
+
+	* Do not reflect filter settings into pickmaps.
+
+	* Fix #1621873 (Analyze menus mis-render on multi-tile objects).
+
+	* Fix #1613729 (Monsters appear as "weak wall (0)"). (Previous fix
+	did miss the game object attributes panel.)
+
+	* Fix #1497857 (Creating a new Script for unsaved map throws NPE).
+
+2007-01-06  Andreas Kirschbaum
+
+	* Add "move to top" and "move to bottom" buttons to map tile
+	panel.
+
+2007-01-05  Andreas Kirschbaum
+
+	* Retain inventory when copying game objects.
+
+2006-12-24  Andreas Kirschbaum
+
+	* Update archetypes.
+
+	* Add affected game object names to connection view.
+
+	* Make connection view highlight affected game objects in the map
+	view.
+
+	* Add some French and Swedish translations.
+
+	* Update main window title.
+
+	* Ask user before overwriting a file in "create image".
+
+	* Fix #1613729 (Monsters appear as "weak wall (0)").
+
+2006-12-23  Andreas Kirschbaum
+
+	* Reorder inventory items in map tile panel to make "move up/down"
+	work correctly.
+
+	* Make selection in pickmaps work. (Not yet used anywhere.)
+
+	* Make map tile panel a "single selection" list.
+
+	* Remove support for deleting/inserting with button 1 and
+	shift/control.
+
+	* Do not delete more than one object per tile when dragging the
+	mouse.
+
+	* Make sure inventory items in map tile panel ore indented.
+
+	* Repaint pickmaps with correct background color.
+
+	* Properly update map tile panel after changes.
+
+2006-12-22  Andreas Kirschbaum
+
+	* Use bold font for top-level entries in treasure list viewer.
+
+	* Try harder to prevent losing unsaved maps when exiting the
+	application or closing a map window.
+
+	* Properly update connection view when the current map changes.
+
+	* Remove support for loading maps with invalid width/height
+	specifications.
+
+2006-12-21  Andreas Kirschbaum
+
+	* Properly update connection view when the map changes.
+
+	* Sort connection numbers in connection view.
+
+	* Add connection view.
+
+2006-12-20  Andreas Kirschbaum
+
+	* Sort archetypes in archetype panel by name.
+
+2006-12-19  Andreas Kirschbaum
+
+	* Add "select all" to edit menu.
+
+	* Properly enable/disable edit menu entries.
+
+2006-12-18  Andreas Kirschbaum
+
+	* Fix crash when pasting multi-part objects.
+
+	* Accelerate map drawing speed.
+
+2006-12-17  Andreas Kirschbaum
+
+	* Split fill and flood-fill into separate functions in user
+	interface.
+
+	* Add replace of non-rectangular selections; make replacement of
+	large areas much faster.
+
+	* Add filling of non-rectangular selections.
+
+	* Add copy/cut/paste for non-rectangular selections.
+
+	* Properly enable/disable cursor menu entries.
+
+2006-12-16  Andreas Kirschbaum
+
+	* Implement non-rectangular selections. For now, it does not take
+	effect on any operation.
+
+	* Implement map cursor. It affects flood filling, enter exit and
+	pasting.
+
+	* Allow archetype selection by cursor in archetype panel.
+
+2006-12-15  Andreas Kirschbaum
+
+	* Invert sorting order of archetype panels.
+
+	* Fix #1613731 (Arch list tabs sometimes blank).
+
+2006-12-13  Andreas Kirschbaum
+
+	* Make Analyze menu work.
+
+2006-12-12  Andreas Kirschbaum
+
+	* Make View|Reset View work.
+
+2006-12-10  Andreas Kirschbaum
+
+	* Make WorldMaker script more robust:
+	- create PictureDirectory if it does not exist
+	- do not require a trailing / for PictureDirectory
+	- do not create broken images in cache if the script is aborted
+
+2006-12-07  Andreas Kirschbaum
+
+	* Make mouse position display work again.
+
+	* Do not insert multiple identical objects while dragging the
+	mouse.
+
+2006-12-06  Andreas Kirschbaum
+
+	* Do not close treasure list selection dialog if the user selects
+	an invalid treasure list.
+
+2006-12-03  Andreas Kirschbaum
+
+	* Change layout of map properties dialog.
+
+2006-12-02  Andreas Kirschbaum
+
+	* Add "permanent experience" attribute for SKILL objects.
+
+2006-11-30  Andreas Kirschbaum
+
+	* Update archetypes, images and treasurelists.
+
+2006-11-29  Andreas Kirschbaum
+
+	* Properly center error message in create new pickmap dialog.
+
+2006-11-24  Andreas Kirschbaum
+
+	* Do not crash in cut or delete when the region contains
+	multi-part objects.
+
+	* Make pickmaps work again.
+
+2006-11-02  Andreas Kirschbaum
+
+	* Fix check for cut off objects when resizing a map: only ask the
+	user if objects are cut off.
+
+2006-10-29  Andreas Kirschbaum
+
+	* Make "move object up/down" in map tile panel work again.
+
+2006-10-12  Andreas Kirschbaum
+
+	* Make "Enter Exit" work for BATTLEGROUND tiles.
+
+2006-10-08  Andreas Kirschbaum
+
+	* Fix #1573023 (Arch browser's filter broken).
+
+2006-10-03  Andreas Kirschbaum
+
+	* Do not crash when a map resize cuts off only a parts of a
+	multi-part object.
+
+2006-10-01  Andreas Kirschbaum
+
+	* Implement "Random Fill" function.
+
+2006-09-29  Andreas Kirschbaum
+
+	* Make deletion of inventory objects from map tile panel work.
+
+2006-09-27  Andreas Kirschbaum
+
+	* Fix #1539117 (Enter Exit not working for random maps).
+
+	* When saving, insert "map_layer" object attribute in same order
+	as crossfire server.
+
+	* Make map grid display work correctly.
+
+	* Fix object attributes dialog: do not ignore changed string
+	attributes if old and new value only differs in case.
+
+	* Remove spurious error message ("Wrong formatted HTML!") when
+	displaying help.
+
+2006-09-26  Andreas Kirschbaum
+
+	* Make inventory display of multi-part objects in map tile panel
+	work.
+
+2006-09-24  Andreas Kirschbaum
+
+	* Do not crash when pasting multi-part objects to the edge of a
+	map.
+
+2006-09-23  Andreas Kirschbaum
+
+	* Make insertion and deletion in the map tile panel work
+	correctly. (Note that multi-part objects from pickmaps still cannot
+	be inserted in the map tile panel.)
+
+2006-09-18  Andreas Kirschbaum
+
+	* Fix MultiArchData implementation. The main reason was code
+	cleanup but it also fixes:
+	- Prevent multi-part objects from overlapping other objects in
+	pickmaps.
+	- (Partially) fix fill and replace with multi-part objects.

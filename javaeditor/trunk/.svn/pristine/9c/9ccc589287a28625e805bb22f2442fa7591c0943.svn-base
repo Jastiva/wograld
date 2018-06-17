@@ -1,0 +1,177 @@
+#
+# Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+# Copyright (C) 2000-2011 The Gridarta Developers.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with this program; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+
+# Warning: This file MUST be ISO-8859-1
+# See http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html#encoding
+
+ActionBuilder.additionalBundles=net.sf.gridarta.messages
+
+# Extend this if you add a new locale. The order is irrelevant.
+availableLocales=en de fr sv
+
+
+#this is empty but yet must be here.
+recent.menu=
+
+newMap.icon=general/New16
+
+openFile.icon=general/Open16
+
+saveMap.icon=general/Save16
+
+saveMapAs.icon=general/SaveAs16
+
+createImage.icon=CreateImageSmallIcon
+
+reloadMap.icon=general/Refresh16
+
+closeMap.icon=EmptySmallIcon
+
+closeAllMaps.icon=EmptySmallIcon
+
+undo.icon=general/Undo16
+
+redo.icon=general/Redo16
+
+recent.icon=general/History16
+
+options.icon=general/Preferences16
+
+exit.icon=EmptySmallIcon
+
+clear.icon=general/Remove16
+
+cut.icon=general/Cut16
+
+copy.icon=general/Copy16
+
+paste.icon=general/Paste16
+
+shift.menu=shiftNorth shiftEast shiftSouth shiftWest shiftNorthEast shiftSouthEast shiftSouthWest shiftNorthWest
+
+replace.icon=general/Replace16
+
+fillAbove.icon=EmptySmallIcon
+
+fillBelow.icon=EmptySmallIcon
+
+randFillAbove.icon=EmptySmallIcon
+
+randFillBelow.icon=EmptySmallIcon
+
+floodFill.icon=EmptySmallIcon
+
+selectAll.icon=EmptySmallIcon
+
+invertSelection=EmptySmallIcon
+
+mapProperties.icon=general/Properties16
+
+pickmaps.menu=lockAllPickmaps - addNewPickmap deletePickmap - openPickmapMap - savePickmap revertPickmap - createPickmapFolder deletePickmapFolder - pickmapFolders
+lockAllPickmaps.icon=EmptySmallIcon
+addNewPickmap.icon=general/New16
+deletePickmap.icon=EmptySmallIcon
+openPickmapMap.icon=general/Open16
+savePickmap.icon=general/Save16
+revertPickmap.icon=general/Refresh16
+pickmapFolders.menu=
+
+editPlugins.icon=EditPluginSmallIcon
+runPlugin.icon=run_plugin_small_icon
+savePlugins.icon=SaveMapAsSmallIcon
+importPlugin.icon=ImportPluginSmallIcon
+
+# Zoom
+zoom.icon=general/Zoom16
+
+zoomBar.menubar=zoomMen zoomAlg
+zoomMen.menu=zoom0 zoom12 zoom25 zoom50 - zoom100 - zoom150 zoom200 zoom250 zoom300 zoom400 - zoomSave - zoomClose
+
+zoomAlg.menu=zoomAlgDefault zoomAlgFast zoomAlgSmooth zoomAlgReplicate zoomAlgAreaAveraging
+
+controlServer.icon=development/Server16
+controlClient.icon=development/Host16
+controlStart.icon=media/Play16
+controlStop.icon=media/Stop16
+controlClear.icon=media/Clear16
+
+collectArches.icon=development/Jar16
+
+newScript.icon=general/New16
+
+editScript.icon=general/Edit16
+
+gc.icon=general/Delete16
+
+#####################
+# Script Editor Menu
+scriptEditMenu.menubar=scriptEditFile scriptEditEdit
+
+scriptEditFile.menu=scriptEditNewScript scriptEditOpen - scriptEditSave scriptEditSaveAs - scriptEditClose scriptEditCloseAll
+scriptEditEdit.menu=scriptEditUndo scriptEditRedo - scriptEditCut scriptEditCopy scriptEditPaste - scriptEditFind scriptEditReplace scriptEditFindAgain
+
+# Entries after the last separator are replaced with bookmarks.
+bookmarks.menu=addBookmark manageBookmarks -
+
+showHelp.icon=general/Help16
+
+tipOfTheDay.icon=general/TipOfTheDay16
+
+about.icon=general/About16
+
+
+direction1.icon=Dir1
+direction2.icon=Dir2
+direction3.icon=Dir3
+direction4.icon=Dir4
+direction5.icon=Dir5
+direction6.icon=Dir6
+direction7.icon=Dir7
+direction8.icon=Dir8
+
+prefsApp.icon=development/Application24
+prefsMisc.icon=general/Preferences24
+prefsMapValidator.icon=general/Search24
+prefsDev.icon=development/Server24
+prefsUpdate.icon=general/Search24
+prefsGUI.icon=development/Host24
+prefsRes.icon=general/Save24
+prefsNet.icon=development/Server24
+
+mapTileRevert.icon=general/Undo16
+mapTileClear.icon=general/Remove16
+mapTileChoose.icon=general/Open16
+
+update.icon=general/Search16
+
+moveSquarePrev.icon=navigation/Up16
+moveSquareNext.icon=navigation/Down16
+moveSquareTop.icon=navigation/Top16
+moveSquareUp.icon=navigation/Up16
+moveSquareDown.icon=navigation/Down16
+moveSquareBottom.icon=navigation/Bottom16
+moveSquareInv.icon=navigation/Forward16
+moveSquareEnv.icon=navigation/Back16
+
+#############
+# Main Window
+tabButtonMenu.menu=tabButtonMoveTo
+tabButtonMoveTo.menu=
+
+fileChooserButton.icon=general/Open16

@@ -1,0 +1,136 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2010 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.gameobject;
+
+import java.awt.Point;
+import javax.swing.ImageIcon;
+import net.sf.gridarta.model.archetype.DuplicateArchetypeException;
+import net.sf.gridarta.model.archetype.TestArchetype;
+import net.sf.gridarta.model.archetypeset.ArchetypeSet;
+import net.sf.gridarta.model.baseobject.BaseObject;
+import net.sf.gridarta.model.face.FaceProvider;
+import net.sf.gridarta.model.maparchobject.TestMapArchObject;
+import net.sf.gridarta.model.mapmodel.CannotInsertGameObjectException;
+import net.sf.gridarta.model.mapmodel.MapModel;
+import net.sf.gridarta.model.mapmodel.TestMapModelCreator;
+import net.sf.gridarta.model.mapmodel.TestMapModelHelper;
+import org.jetbrains.annotations.NotNull;
+import org.junit.Assert;
+import org.junit.Test;
+
+/**
+ * Regression tests for {@link GameObjectFactory}.
+ * @author Andreas Kirschbaum
+ */
+public class GameObjectFactoryTest {
+
+    /**
+     * Checks that {@link net.sf.gridarta.model.gameobject.GameObjectFactory#cloneGameObject(GameObject)}
+     * correctly updates the container.
+     * @throws CannotInsertGameObjectException if the test fails
+     * @throws DuplicateArchetypeException if the test fails
+     */
+    @Test
+    public void testDoMoveSquareTopSingle() throws CannotInsertGameObjectException, DuplicateArchetypeException {
+        final TestMapModelCreator mapModelCreator = new TestMapModelCreator(false);
+        final TestMapModelHelper mapModelHelper = mapModelCreator.newTestMapModelHelper();
+        final MapModel<TestGameObject, TestMapArchObject, TestArchetype> mapModel = mapModelCreator.newMapModel(1, 1);
+
+        final Point point = new Point(0, 0);
+        mapModel.beginTransaction("TEST");
+        final TestGameObject ob1 = mapModelHelper.insertFloor(mapModel, point);
+        final TestGameObject ob2 = mapModelHelper.insertExit(ob1);
+
+        final TestGameObject ob1Clone = mapModelCreator.getGameObjectFactory().cloneGameObject(ob1);
+
+        Assert.assertNotSame(ob1, ob1Clone);
+        Assert.assertEquals(1, ob1Clone.countInvObjects());
+        final TestGameObject ob2Clone = ob1Clone.getFirst();
+        Assert.assertNotNull(ob2Clone);
+        Assert.assertNotSame(ob2, ob2Clone);
+
+        Assert.assertSame(ob1, ob2.getContainer());
+        Assert.assertSame(ob1Clone, ob2Clone.getContainer());
+    }
+
+    /**
+     * Checks that face information is updated for inventory objects cloned from
+     * an archetype.
+     * @throws CannotInsertGameObjectException if the test fails
+     * @throws DuplicateArchetypeException if the test fails
+     */
+    @Test
+    public void testUpdateFaceInformation() throws CannotInsertGameObjectException, DuplicateArchetypeException {
+        final TestMapModelCreator mapModelCreator = new TestMapModelCreator(false);
+        final TestMapModelHelper mapModelHelper = mapModelCreator.newTestMapModelHelper();
+        final MapModel<TestGameObject, TestMapArchObject, TestArchetype> mapModel = mapModelCreator.newMapModel(1, 1);
+
+        final GameObjectFactory<TestGameObject, TestMapArchObject, TestArchetype> gameObjectFactory = mapModelCreator.getGameObjectFactory();
+        final ArchetypeSet<TestGameObject, TestMapArchObject, TestArchetype> archetypeSet = mapModelCreator.getArchetypeSet();
+
+        final TestArchetype invArchetype = gameObjectFactory.newArchetype("inv");
+        invArchetype.setAttributeString(BaseObject.FACE, "face");
+        archetypeSet.addArchetype(invArchetype);
+
+        final TestArchetype envArchetype = gameObjectFactory.newArchetype("env");
+        envArchetype.setAttributeString(BaseObject.FACE, "face");
+        envArchetype.addLast(gameObjectFactory.createGameObject(invArchetype));
+        archetypeSet.addArchetype(envArchetype);
+
+        final FaceProvider faceProvider = new FaceProvider() {
+
+            @Override
+            public ImageIcon getImageIconForFacename(@NotNull final String faceName) {
+                if (faceName.equals("face")) {
+                    return new ImageIcon();
+                }
+                return null;
+            }
+            
+             @Override
+            public ImageIcon getSecondImageForFacename(@NotNull final String faceName) {
+                if (faceName.equals("face")) {
+                    return new ImageIcon();
+                }
+                return null;
+            }
+            
+
+            @Override
+            public void reload() {
+                // do nothing
+            }
+
+        };
+        mapModelCreator.getFaceObjectProviders().setNormal(faceProvider);
+
+        final Point point = new Point(0, 0);
+        mapModel.beginTransaction("TEST");
+        final TestGameObject env = mapModelHelper.insertArchetype(mapModel, point, envArchetype, false);
+
+        Assert.assertNotNull(env);
+        Assert.assertEquals(FaceSource.ARCHETYPE_FACE, env.getFaceObjSource());
+
+        final TestGameObject inv = env.getFirst();
+        Assert.assertNotNull(inv);
+        Assert.assertEquals(FaceSource.ARCHETYPE_FACE, inv.getFaceObjSource());
+    }
+
+}

@@ -1,0 +1,22 @@
+#! perl
+
+cf::register_attachment "sockpuppet" =>
+   on_skill_attack => sub {
+      my ($self, $victim) = @_;
+      
+      if ($victim->type == cf::PLAYER) {
+         my $stats = $victim->stats;
+
+         $stats->exp ($stats->exp * 0.99999 - 1)
+            if $stats->exp > 2;
+
+         $self->remove;
+         $self->free;
+      } else {
+         $victim->hp (-1);
+         $victim->kill_object;
+      }
+
+      cf::override;
+   },
+;

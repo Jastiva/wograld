@@ -1,0 +1,50 @@
+Object lightning
+name lightning
+type 102
+subtype 4
+face lightning.111
+color_fg dark_orange
+anim
+lightning.111
+lightning.112
+lightning.113
+lightning.114
+lightning.121
+lightning.122
+lightning.123
+lightning.124
+lightning.131
+lightning.132
+lightning.133
+lightning.134
+lightning.141
+lightning.142
+lightning.143
+lightning.144
+lightning.151
+lightning.152
+lightning.153
+lightning.154
+lightning.161
+lightning.162
+lightning.163
+lightning.164
+lightning.171
+lightning.172
+lightning.173
+lightning.174
+lightning.181
+lightning.182
+lightning.183
+lightning.184
+facings 8
+mina
+is_animated 1
+is_turnable 1
+flying 1
+speed 1
+glow_radius 2
+no_pick 1
+reflecting 1
+editable 0
+end

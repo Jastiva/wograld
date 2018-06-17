@@ -1,0 +1,47 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<body>
+This package contains the framework for validating maps.
+<h2>Design Notes</h2>
+
+<h3>Notes on not using a Mirror API</h3>
+Although it would have been possible to create a Mirror API I have decided to
+directly hand out the original API to the map validation.
+<h4>Pro Mirror API / Contra Original API</h4>
+
+<ul>
+    <li>Keep the validation from (accidental) manipulation.</li>
+</ul>
+<h4>Pro Original API / Contra Mirror API</h4>
+
+<ul>
+    <li>The amount of work that a mirror API would have involved.</li>
+    <li>Allow the validation to provide an error correction facility.</li>
+</ul>
+<h3>Notes on the class model</h3>
+It would also have been possible to create less classes. But then the handling
+of enabling / disabling individual checks would have required more coding. I
+believe that this model is the best balance between an API that is powerful,
+small and easy to use. The number of classes is a bit high but all classes are
+extremely small.
+</body>
+</html>

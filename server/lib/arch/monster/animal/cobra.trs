@@ -1,0 +1,17 @@
+treasure cobra
+  list blood_green_medium
+  end
+
+treasure black_metallic_serpent
+  list cobra
+  more
+  arch abil_poison_cloud
+end
+
+treasure black_metallic_serpent_lightning
+  list black_metallic_serpent
+  more
+  arch spell_mass_confusion
+  more
+  arch spell_paralyze
+end

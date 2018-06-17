@@ -1,0 +1,1024 @@
+--- 20/06/2001 ---
+
+adding files for version 0.971
+
+Status:
+
+Vendor Tag:	yoyo
+Release Tags:	start
+
+--- 25/06/2001 ---
+
+I've added a nice feature to the JavaEditor:
+The bottom-right window now displays all arch attributes
+of a selected arch. It's much easier to modify them that
+way.
+
+-AV
+
+--- 26/06/2001 ---
+
+Fixed two bugs that caused some nasty exceptions
+when loading new maps. (These resulted in the maps
+being impossible to save.)
+
+--AV
+
+--- 27/06/2001 ---
+
+add script parsing to
+archText & some minor insanity checks for read/write maps
+
+--- 29/06/2001 ---
+
+I've added cut/copy/paste functionality to
+the Java Editor. (What good is an editor without it?)
+That was a serious chunk of work, I hope
+it still runs bug-free. :)
+
+The cut/copy/paste works similar to Crossedit.
+Left-click-and-drag to highlight & select from Edit menu.
+
+--AV
+
+--- 06/07/2001 ---
+
+I've overhauled the view settings code in the Java Editor.
+
+The classification of objects used to be based on the
+"editable" value from the archetype (default arch). But that
+was not useful, because it was so unreliable. E.g. floor arches
+can be changed into secret exits, the archetype won't indicate
+that.
+That's why I changed the editable values to be calculated at
+runtime, in the Java Editor. The values are now based on the
+objects attributes and type. E.g. an object is considered
+an "Exit" when it is of type 66 (exit) or 41 (teleporter).
+
+I've also made the view settings take effect on copy/paste
+actions: All objects that are not shown on the map are
+now ignored by copy/paste.
+E.g. when selecting view->Monsters, I can copy/paste monsters
+freely in my map without having to worry about getting
+doubled background tiles.
+
+I corrected a bug in the parser that prevented the
+"type" - attribute from being modified (Parser ignored it).
+
+Finally, I inserted a new menu under "view"-> "Reset View".
+This works basically as a "Show All" for the view setting.
+
+-AV
+
+--- 30/07/2001 ---
+
+Remove bug when map windows are cycled. Add x 16/y 16 hack
+to map object in archetype files
+
+--- 02/08/2001 ---
+
+Lot's of new features to the JavaEditor:
+
+1) Clear command (edit menu):
+   Works exactly like cut, except that it doesn't write into
+   the copy-buffer.
+
+2) Fill command (edit menu):
+   There are two different fill-modes:
+   - For rectangular fill, left click and drag to highlight
+     a rectangular area. Then invoke fill.
+   - For flood-fill, left click on an empty spot and do not
+     drag. By invoking fill all connected empty squares are
+     flood-filled.
+
+3) Delete (middle mouse button):
+   When you click on the map with the middle mouse button,
+   the topmost object on that spot is deleted.
+   Objects that don't match the view settings are not deleted.
+   This also works with dragging (multiple objects get deleted).
+
+   Now the mouse works as follows:
+   left button - select
+   right button - insert
+   middle button - delete
+
+4) Rework of the map-tile panel (the window to the right):
+   - The objects are now displayed in the same order as
+     on the map. Topmost on the map => topmost on the panel.
+   - I have implemented the same mouse-button scheme
+     as in the map window:
+     left button - select
+     right button - insert
+     middle button - delete
+
+     Inserting works similar to crossedit. You (right-)click on the
+     panel and the new arch gets inserted in that spot where
+     you clicked.
+     This even works for arches inside a container, but
+     the positioning in that case isn't perfect, that needs some more work.
+
+AndreasV
+
+--- 10/08/2001 ---
+
+new code for the JavaEditor...
+
+o First, I fixed up the way inventory items were
+  handed, as this was quite bugged. Items in containers
+  now save/load correct and they get deleted correct.
+  Besides, Cut/Copy/Paste now works with containers and
+  their inventory.
+
+o I separated the map arch from the ordinary arch objects.
+  This was a big biiiig load of work.
+  ('map arch' = first arch object in the file, containing map attributes
+  like width, height etc). The map arch now has it's own class
+  (MapArchObject.java) with own file parser and -writer methods.
+  This has a lot of advantages: The code is better organized,
+  the map attributes are easy accessible, and the map arch can be
+  expanded with new attributes at will without causing trouble.
+
+  The new parser supports both map formats, old (sp, hp, value etc) and
+  new (width, height, swap_time etc). Even the map_tiling paths.
+  Still missing however is the proper user-interface for the map attributes.
+  That's gonna be the next step...
+
+o On my way diving through the code, I did a lot of cosmetics and
+  minor stuff. The file-modified '*' is now displayed a lot more
+  accurate, panel background is now green... stuff like that.
+
+-AndreasV
+
+--- 11/08/2001 ---
+
+Now here comes the user-interface for the
+map attributes. Selecting menu "map->map properties",
+the user gets an input-mask for all the stuff
+from the map arch. Even the new map-tiling is supported.
+
+--AndreasV
+
+--- 11/08/2001 ---
+
+A bunch of cosmetics and minor stuff, mostly
+in relation to the recent changes.
+Worth mentioning is maybe the improved file save/load
+path-logic, and maximized size for newly
+opened map-windows.
+
+--AndreasV
+
+--- 13/08/2001 ---
+
+Fixed a bug that prevented arch attributes
+to get loaded properly from the map.
+--AV
+
+--- 16/08/2001 ---
+
+Finally, I've included the sixlegs java png library
+into the CFJavaEditor. Now the pngs are loaded with
+the sixlegs lib, and all transparencies are now
+set correctly!
+A big thanks to Chris Nokleberg (the creator of sixlegs)
+at this point. Today he sent me the last piece
+I needed to make it all work.
+
+I'm sorry for the mess with the cvs directories. CVS
+is hell of an inconvenient program when it comes
+to directory-management.
+
+Andreas V.
+
+--- 17/08/2001 ---
+
+New make files & makejar.bat for using
+java sdk 1.3 & sixlegs png lib.
+
+--- 18/08/2001 ---
+
+In the MapArchPanel, parts of multi-objects now
+display always the head's stats. Changes also get
+saved to the head (similar to crossedit).
+
+I started implementing the "enter exit"-feature,
+well known from crossedit. It's not completed yet
+though, I'm gonna do that when I return from holiday
+in a week.
+
+--Andreas V.
+
+--- 20/09/2001 ---
+
+Completed the "enter exit" feature. It works
+very similar to Crossedit: Select and exit on
+the map, activate menu "enter exit" (Ctrl-E) and the
+destination map gets loaded.
+
+--AndreasV
+
+--- 21/09/2001 ---
+
+I've reworked some parts of the layout. Icon-Toolbar
+is now left and the arch-message window is on a separate
+panel, for better size.
+Besides I optimized some code a bit to speed up dragging for
+insert/delete objects.
+
+--AndreasV
+
+--- 24/09/2001 ---
+
+I've implemented the auto-joining feature into
+the CFJavaEditor. Activate it via menu "Map->Autojoin",
+then any walls will join in the right way (similar
+to crossedit).
+The "joining-definitions" are written in an easily
+customizable text file called "autojoin.txt".
+
+This feature is very fast and memory-efficient. It
+does not increase the loading time.
+
+--Andreas V.
+
+--- 29/09/2001 ---
+
+Another big update for the CFJavaEditor:
+Multi-part objects are now saved and loaded according to the
+"new" map format as head-arches only. That was necessary
+for the JavaEditor in order to cope with maps generated
+by recent versions of Crossedit.
+It also makes map-files a good deal shorter.
+
+--Andreas V.
+
+--- 30/09/2001 ---
+
+New patch for CFJavaEditor:
+
+I made the map-loading process faster... a LOT faster.
+Try enter-exit between some huge maps and you'll see what
+I mean.
+To achieve this, I reworked the view-settings concept
+to do the nasty view-setting calculations not during
+map loading but when the settings are actually needed instead.
+Other optimizations followed.
+
+In the process I tweaked the map-loading methods to be resistant
+against numerous kinds of corrupt map files.
+
+Besides, I included a small new feature: The inventory of
+multi-part objects is now always stored in the multi-part-head.
+Every tile of a multi-part now shows the one and same inventory.
+
+--Andreas V.
+
+--- 01/10/2001 ---
+
+This patch brings a major improvement in the graphic
+routines, greatly increasing the speed for map-modifying
+actions like select/insert/delete objects.
+
+Basically what I did was reducing the redraw actions of the
+map view to a minimum. Instead of drawing the entire map,
+only the tiles that changed get redrawn.
+
+This works well for the standard (rectangular) view.
+Unfortunately for iso this is much harder due to overlapping
+tiles, so iso still uses the old (and slow) methods.
+
+I believe there is still an open end for speed improvements,
+though the editor is already quite fast now. Only the arch
+loading is still awful...
+
+--Andreas V.
+
+--- 02/10/2001 ---
+
+Further improvements and fine-tuning to the new
+drawing methods:
+
+Due to the direct drawing on the map view, the tiles
+used to "flicker" slightly when objects got drawn over
+each other. To prevent this, tiles are now drawn into
+a temporary buffer, then displayed as a whole.
+This does not considerably slow anything down.
+
+Also corrected problems for tiles without background.
+
+--Andreas V.
+
+--- 03/10/2001 ---
+
+I extended the cut/copy/paste methods to enable
+copying of multi-square objects. So they are finally
+completed now, allowing to copy everything.
+
+I also did a few speed optimizations to the arch/image
+loader. These reduce the loading time by 50% on my
+machine. That's not much, but it's a start.
+
+--Andreas V.
+
+--- 16/10/01 ---
+
+I've added a proper online help document to the CFJavaEditor.
+It's html, but I kept the style rather simple so far.
+The online documentation can be viewed by selecting the menu
+"Help->Online Help". (Of course the .html files can as well
+be viewed directly, with a browser).
+
+The online help so far describes how to use the editor, provides
+some troubleshooting (->faq) and a few general guidelines
+for map-making.
+
+I also added a file "INSTALL.txt" to the main folder, providing
+information on how to install (= compile and run) the editor.
+
+--Andreas V.
+
+--- 5/11/01 ---
+
+editor had collect bad archetype files.
+Now he can write negatives offsets.
+
+--Michael T.
+
+--- 22/11/01 ---
+
+New (increased) iso tile size for the Editor
+
+--Michael T.
+
+--- 23/11/01 ---
+
+Fixed up the JavaEditor to support the new iso-tile-
+size better.
+
+--Andreas V.
+
+--- 27/11/01 ---
+
+Fixed some minor flaws in the archetype text parser.
+
+--Andreas V.
+
+--- 10/02/2002 ---
+
+Added the attribute dialog feature, an interface
+that provides an "easy" layer over the terrible true
+crossfire archetype text syntax.
+The syntax definitions are read from a well-readable plain
+text data file. Not all forms of input-values are supported
+yet, but the foundation is laid and the rest will follow.
+
+--AndreasV
+
+--- 11/02/2002 ---
+
+Added support for floating point values in the
+attribute dialogs.
+Also extending the types.txt definitions file.
+
+--AndreasV
+
+--- 13/02/2002 ---
+
+The CFJavaEditor now works with JDK 1.4
+(and still with JDK 1.3 of course).
+
+There was a (per default) unset disabled icon,
+which caused JDK 1.4 to try producing a greyed-out
+icon from a png-imageProducer that didn't exist.
+This resulted in runtime errors whenever clicking
+on the map view. Fixed now.
+
+--AndreasV
+
+--- 14/02/2002 ---
+
+Enhanced "types.txt" file and some cosmetics
+in the code.
+
+--AndreasV
+
+--- 28/02/2002 ---
+
+The Attribute-Dialog now features a <Help> button.
+By clicking on it, a (html) description pops up, telling how
+the object works and how it can best be used.
+
+Also a lot of minor mods/fixes...
+The map-tile window (right side window) now displays
+object names instead of arch names.
+
+--AndreasV
+
+--- 19/02/2002 ---
+
+Great new feature in the JavaEditor:
+Spell numbers now get handled by the editor internally.
+In the attribute-window the mapmaker can choose
+spells by name conveniently, from a list.
+
+The spells are stored in a definitions file,
+and they can be new imported from 'spellist.h'
+automatically (In case they change).
+
+I have also upgraded the "types.txt"-file to make
+use of the new features.
+Added some new types on the way (disease and ability).
+
+--AndreasV
+
+--- 20/02/2002 ---
+
+Added four new kinds of attributes for "types.txt":
+
+- customized bool: for customizable true/false values
+  instead of 1/0
+- direction: for a list of CF direction values
+  (north, northeast, east, ..., northwest)
+- weapontype: for a list of CF weapon types
+  (see weapon type code by Garbled)
+- mood: for a list of CF moods (see moodfloor code)
+
+The last three appear as choose box-lists, like spells.
+With the help of these features, affected attributes
+are a lot more intuitive and easier to understand.
+
+--AndreasV
+
+--- 21/02/2002 ---
+
+Fixed all Problems with JDK 1.4 afaik.
+This new JDK differs quite a bit from version 1.3, which
+resulted in a few "malfunctions" for the JavaEditor.
+Now this should be resolved, working for both versions.
+
+Note that for most linux-users JDK 1.4 now works even better,
+because it does not have the linux-font problems like 1.3.
+So it looks a lot nicer!
+
+--AndreasV
+
+--- 24/02/2002 ---
+
+new features for the JavaEditor:
+
+- A new command in the file "types.txt" allows
+  to import attributes from one type to another.
+  This allowed to include all the common types
+  of equipment (girdles, helmets, bracers, rings etc.)
+  with relative ease.
+
+  Now the type definitions for the editor include
+  almost everything that a mapmaker will need.
+
+- A double-click on an archetype object in the right-side
+  window of the editor now opens an attribute-dialog
+  for this object. This works faster and is more
+  convenient than pressing the "attribute"-button
+  every time.
+
+--AndreasV
+
+--- 23/03/2002 ---
+
+Added support for single-button mice (for mac users).
+Left- and middle-button can now be simulated by holding
+<shift> or <ctrl>.
+This patch was contributed by Josh Bonczkowski.
+
+Added ant build files for the JavaEditor,
+also from Josh.
+
+Extended the online help documentation a little bit to
+cover latest features.
+
+--AndreasV
+
+--- 09/04/2002 ---
+
+New version of the JavaEditor: featuring support for
+custom fonts. You can now choose a font from the "View->Choose Font"-menu.
+This is very helpful for using larger screen resolutions
+(like with flat screens), where the default fonts are too small.
+
+Also done a lot of code cleanups, minor improvements and
+correcting of javadoc comments.
+
+--AndreasV
+
+--- 16/04/2002, Version 0.973 ---
+
+I've added support for bitmask values in the
+attribute-dialog.
+No longer do mapmakers need to calculate those
+ugly attacktype-, material- and spell path values.
+The attribute-dialog GUI presents the bitmasks in
+text form now (like "physical, fire, cold" or "paper, iron")
+and they can be modified conveniently by an array of
+checkboxes.
+
+Several people have wished for this feature - I hope
+they will enjoy what I have done.
+
+Andreas
+
+--- 19/04/2002, Version 0.973 ---
+
+fixed some bad behaviour in the JavaEditor GUIs
+
+--AndreasV
+
+--- 23/04/2002, Version 0.974 ---
+
+Added patches and new code concerning the attribute-dialog:
+There used to be a problem with arch-attributes that are
+not recognized from the type-definitions (in "types.txt").
+Such entries in the archetype text were deleted by the JavaEditor
+when using the attribute-dialog interface.
+
+Now this handled in a better way: Entries which are not
+recognized are framed "syntax errors" and the user is
+able to choose whether to keep or dump them.
+
+This is interesting as it often shows real errors
+in maps that would otherwise be overlooked.
+For example, many monsters have 'Str' and 'Dex' set
+because nobody realized that those values have no effect.
+
+Also new is an automatic resizing of the attribute-dialog
+when using larger fonts, and some fixes to the general
+GUI behaviour.
+
+--Andreas
+
+--- 28/04/2002, Version 0.975 ---
+
+Lots of enhancements to the JavaEditor. I'm gonna
+list only the most important ones here:
+
+o It is now possible to change (object-)types in the
+  attribute-dialog. Just select one from the choose box!
+  The attribute dialog GUI will automatically change
+  to show all sections and values for the new type.
+
+o Created a new CFileReader class which allows to
+  load the resource-text files from the jar archive if they
+  don't exist in the directory.
+  (Removed the ugly broken code that was trying to do this before)
+
+o Fixed the default-layout that applies when someone starts
+  the CFJavaEditor for the first time on his machine.
+  This used to be real twisted, now it looks as it should.
+
+Also renamed the file "typedef.def" to "typenumbers.def".
+The old name no longer fits, as the file will never get
+extended to contain more than type numbers.
+
+--AndreasV
+
+--- 29/04/2002, Version 0.975 ---
+
+some more updates to the type-definitions
+
+--- 04/05/2002, Version 0.975 ---
+
+o Separated map name from file name. When I first
+  coded this, I misunderstood the concept of map names.
+  It is now possible to have a different map name
+  and map file-name, as it should be.
+
+o Two fixes for ISO-view:
+  map.arc is now loaded but not displayed, rather
+  than not loaded at all.
+  Fixed a bug that caused the highlighting-tile
+  to get misplaced on large maps.
+
+--Andreas
+
+--- 23/07/2002, Version 0.975 ---
+
+Add support for the 'outdoor' flag in the map objects.
+
+--Mark Wedel
+
+--- 08/08/2002, Version 0.980 ---
+
+I changed the directory structure and setup of the JavaEditor
+according to requests from Michael K. and others. The new setup
+should be more conform with Java standards and more "organized".
+One of the downsides is it will be more difficult to compile & run
+the editor from sources for people with lesser Java experience.
+I have removed former build scripts as they have to be completely
+re-written now.
+
+A noticeable feature that was implemented in the process is
+the ability to load all resource files (text, icons, data)
+directly from the jar. This allows to make a jar-only release
+of the editor in future.
+
+In the attribute-dialog, you'll notice a "summary" button at
+the bottom of the window. If you click on that button, a list of
+all attributes of the selected object are displayed. As the
+attribute-interface sometimes has a lot of tabs and fields,
+this new feature provides a quick overview of all attributes.
+
+The JavaEditor can now load arches from collected files. This
+reduces loading time to about one third! It is still an option
+to load from individual archetype files (See menu "File->Options").
+And, to combine both, you can even collect arches
+(menu "Collect->Collect CF Arches"). So you don't need to worry
+when your collected files get outdated for example.
+From now on the JavaEditor has a collected version of the
+archetype files included. That means you no longer need to worry about
+arches at all unless you want to create custom arches or images.
+
+Added "Fill Below" menu option. This is also a feature that
+had been requested a while ago. Works similar to the same thing
+known from Crossedit.
+
+Updated the online help documentation to cover latest features
+an changed functionality.
+
+This reminds me, I've also created a documentation version-number.
+Every time this number is increased, when a user updates his
+editor and runs for the first time, the documentation will popup automatically.
+In this way, I hope to get users more aware of the documentation
+and eventual changes/additions to it. In the past many users
+did not know that a documentation existed, even after long use of the editor.
+
+--AndreasV
+
+--- 29/08/2002, Version 0.981 ---
+
+Finally, I've implemented the concept of pickmaps
+into the JavaEditor.
+
+Users are now able to pick arches either from the
+conventional arch-list, or from various pickmaps.
+Both can be found in the archetype panel to the left side.
+
+Use of pickmaps saves a lot of time, as pickmaps can
+show a lot more objects at once, in logical groups.
+No more need to browse up and down in the arch-list
+all the time. Moreover, pickmaps can contain customized
+objects, in addition to default arches.
+Unlike in Crossedit, the pickmaps here are seamlessly
+integrated into the GUI.
+
+Of course it is also possible to modify pickmaps or
+create new ones: Pickmaps are stored in standard CF
+map format in the directory "resources/pickmaps".
+They can be modified (or created) like any other map.
+
+--AndreasV
+
+--- 09/09/2002, Version 0.981 ---
+
+In the previous version is was not possible to insert objects
+from a pickmap directly to the map-tile-window.
+Now this can be done.
+
+I updated the type-definitions "types.txt" to support some
+of the most important new attributes that have been added lately.
+
+Also updated the collected arch files to stay in sync
+with CVS arches.
+
+--AndreasV
+
+--- 05/10/2002, Version 0.982 ---
+
+In the "Map"-menu there are now commands to move quickly between
+tiled maps. This nice patch was contributed by Mark Wedel.
+
+New Feature: It is now possible to create a full size png-image
+from any map in the editor. Not necessary for map-making, but maybe
+handsome for Crossfire fans who want to tile their bathroom with
+map-images... who knows ;-)
+
+While selecting tiles on a map (left-click and drag mouse), the
+dimensions of the highlighted rectangle are now displayed in the
+status-bar (bottom of window).
+
+Lots of bug fixes since last version of the editor.
+
+--AndreasV
+
+--- 24/10/2002, Version 0.983 ---
+
+Again, there is a brand new feature in the JavaEditor: Treasurelists!
+The editor now offers a graphical tree of the treasurelists, where
+you can click through the sub-lists and sub-sub-lists...
+Of course this is also integrated into the attribute dialog: Just
+click on the "treasurelist" attribute and the treasurelist-view is
+directly opened. I have also included a fairly extensive piece of
+online documentation (for mapmakers) regarding this treasurelist-feature.
+Lots of bug fixes since last version of the editor.
+
+I have applied a lot of GUI-improvements, but most of them
+are not eye-catching changes.
+
+Updated "types.txt" file with corrections about ac and run_away,
+as well as some other minor corrections.
+
+--AndreasV
+
+--- 23/01/2003, Version 0.984 ---
+
+The CFJavaEditor now features support for the python scripting plugin!
+Look at the "script" tab on the bottom-mid frame: All scripted events
+are fully managed in the editor. You can create/remove and edit
+scripted events. But that's not all...
+
+CFJavaEditor now has it's very own ascii editor for viewing and
+writing python scripts. It has real python syntax highlighting,
+even an auto-complete popup menu for the CFPython package functions.
+
+--AndreasV
+
+--- 26/04/2003, Version 0.984 ---
+
+The primary data file format is XML from now on.
+I have chosen to included the Crimson XML parser for this purpose,
+due to it's small size. The code is not dependant on this particular
+parser however - it could be exchanged by any other java XML parser.
+
+The config files "types.xml", "spells.xml" and "typenumbers.xml"
+have been converted already.
+
+Most important is the new format for "types.xml". The XML
+is better readable and so much easier to extend and maintain.
+Besides, the parser is validating, which means it can tell exact
+line numbers in case of an error.
+
+--AndreasV
+
+--- 03/05/2003, Version 0.985 ---
+
+Added basic support for lore to the CFJavaEditor.
+In the map properties window (select menu "Map->Map Properties"),
+there now is a lore tab with a text area for map lore.
+
+For now, arch-lore gets parsed but not displayed, which
+practically disables lore in map-objects.
+
+The "replace" command is also new, which can be found in the
+edit menu. This allows to replace (or delete) all objects matching
+a certain name or archetype. This makes it very easy to accomplish
+tasks like "replace all woodfloor with flagstones" or
+"delete all no_spell arches".
+
+--AndreasV
+
+--- 07/07/2003, Version 0.95 ---
+
+Extended pickmaps to be fully dynamic.
+It is now possible to insert objects from the map view to the
+pickmap with right-click, and delete from pickmaps with middle-
+click. That means pickmaps can be modified much like normal
+maps - Shifting objects between map and pickmap, in both ways,
+becomes very easy and fast. It even works for multi-parts too.
+
+There is an entire new menu "Pickmaps" in the menu bar.
+It offers commands to create new pickmaps, save pickmaps,
+revert them to last saved state, and close them.
+
+For those who are fully satisfied with their pickmaps,
+there is also a menu command to "Lock All Pickmaps".
+This will disable any further changes to the pickmaps unless
+they become unlocked again. In that way one can prevent
+accidentally changing a pickmap by clicking the wrong
+mouse button.
+
+--AndreasV
+
+--- 29/10/2003 ---
+
+Added some elevation intelligence.
+When editing maps that have some elevation data, the elevation
+data is propagated to the bottom of the stack of tiles during
+insert, delete, and layer changing operations (move tile up, move
+tile down).  Server code that looks at elevation data expects to
+find it at the bottom of the stack, which is where it naturally
+belongs anyway, elevation is the height above sea level of the
+ground, not of the tree or building on top of the ground.
+
+Note that elevation is only propagated up or down within a stack
+of tiles.  This means that if you delete all tiles in a particular
+spot, then add a tile, there is no tile to propagate the elevation
+from, so elevation needs to be set manually.  Best to add a tile
+first, then delete the old one if you want to keep the old
+elevation.  Naturally, if you are replacing hills with mountains,
+you need to change the elevation manually anyway...
+
+David Seikel
+
+--- 14/09/2004 ---
+
+Added support for the 'other_arch' field in runes.
+
+Andreas Kirschbaum
+
+--- 19/07/2005 ---
+
+Added support for item transformers.
+
+Andreas Kirschbaum
+
+--- 08/09/2005 ---
+
+Do not strip leading (and trailing) whitespace from msg...endmsg and
+maplore...endmaplore fields.
+
+Andreas Kirschbaum
+
+--- 11/09/2005 ---
+
+Remove unused import statements.
+
+Andreas Kirschbaum
+
+--- 13/09/2005 ---
+
+Added support for timed gates.
+
+Andreas Kirschbaum
+
+--- 14/09/2005 ---
+
+Do not add "name <untitled>" to maps that do not yet have a "name" field.
+
+Andreas Kirschbaum
+
+--- 24/09/2005 ---
+
+Fix help information for spellpoint regeneration rate and healing rate for
+Monsters/NPCs.
+
+Andreas Kirschbaum
+
+--- 01/10/2005 ---
+
+Add support for shop related headers
+
+Brendan Lally
+
+--- 04/12/2005 ---
+
+Fix properties dialog (and make it compile again): display dialog box for
+invalid shop greed values (instead printing a stack dump).
+
+Andreas Kirschbaum
+
+--- 08/02/2006 ---
+
+Fix display issues with map window. The problem was that the map window was
+set to opaque in some look and feel settings but the paintComponent method did
+not paint the whole window area.
+
+Andreas Kirschbaum
+
+--- 18/02/2006 ---
+
+Resize map window if map size is changed in map attributes window.
+
+Andreas Kirschbaum
+
+--- 19/02/2006 ---
+
+Fix spelling of "shopitems" header when loading and saving maps. It used to
+save the incorrect header "shopitem".
+
+Andreas Kirschbaum
+
+--- 19/02/2006 ---
+
+Save map header fields in same order as crossedit to prevent unnecessary map
+differences when switching editors.
+
+Andreas Kirschbaum
+
+--- 19/02/2006 ---
+
+Mark map as being "modified" when pasting selections.
+
+Andreas Kirschbaum
+
+--- 19/02/2006 ---
+
+Implement map attributes 'template' and 'nosmooth'.
+
+Andreas Kirschbaum
+
+--- 19/02/2006 ---
+
+Make menu shortcuts work. Use different shortcuts for all entries.
+
+Andreas Kirschbaum
+
+--- 21/02/2006 ---
+
+Update archetypes information.
+
+Andreas Kirschbaum
+
+--- 21/02/2006 ---
+
+Make "View xxx" options in main menu work again.
+
+Andreas Kirschbaum
+
+--- 22/02/2006 ---
+
+Implement dialog for DOOR objects.
+
+Fix NullPointerException in View|Choose Font. Selecting a font now partially
+works (not all controls are affected).
+
+Fix typo in File|Options...; also add hint about deferred effect of option
+"Separate Map-Tile panel".
+
+Retain map view position when reverting a map.
+
+Update treasure lists, item types, and autojoin information.
+
+Andreas Kirschbaum
+
+--- 23/02/2006 ---
+
+Reverse sort order of tabs in Pickmaps and Arch List panels to make them
+appear in alphabetical order.
+
+Fix sort order of objects in types.xml.
+
+Andreas Kirschbaum
+
+--- 25/02/2006 ---
+
+Implement attribute dialogs for Button Trigger, Class Changer, Key, and
+Grimreaper object types.
+
+Indent sub-inventories in map tiles view to visualize nested inventories.
+
+Improve command line argument handling:
+- allow to pass any number of map file names
+- recognize "--" option to ignore further options
+- print usage message for -h, -help, --help
+
+Properly report errors if a map file cannot be loaded.
+
+Andreas Kirschbaum
+
+--- 26/02/2006 ---
+
+Make sub-folder selection in archetypes work again.
+
+Andreas Kirschbaum
+
+--- 01/03/2006 ---
+
+Save object fields in same order as crossedit to prevent unnecessary map
+differences when switching editors.
+
+Andreas Kirschbaum
+
+--- 02/03/2006 ---
+
+Fix crash due to missing synchronization in menu updates.
+
+Andreas Kirschbaum
+
+--- 21/03/2006 ---
+
+Reduce total memory consumption.
+
+Andreas Kirschbaum
+
+--- 22/06/2006 ---
+
+Prevent crash when collecting archetypes from unreadable or non-existent
+directories. Now such directories are silently ignored.
+
+Andreas Kirschbaum
+
+--- 12/08/2006 ---
+
+Removed all ISO code.
+
+Christian Hujer
+
+--- 12/08/2006 ---
+
+Prevent crash when saving inventory objects having a msg...endmsg field.
+
+Andreas Kirschbaum
+
+--- 31/08/2006 ---
+
+Update archetypes information.
+
+Andreas Kirschbaum

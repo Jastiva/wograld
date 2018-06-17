@@ -1,0 +1,35 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<body>
+<p>Defines types of {@link net.sf.gridarta.model.gameobject.GameObject
+    GameObjects} with corresponding attributes. The game servers use different
+    types of game objects, such as floors, monsters, traps, etc. Each of these
+    types uses a specific set of attributes. Gridarta has no built-in knowledge
+    about these. Instead it reads a configuration file, "types.xml", which
+    defines game object types with corresponding attributes.</p>
+
+<p>{@link net.sf.gridarta.model.archetypetype.ArchetypeTypeSetParser} implements
+    a parser for the "types.xml" file. {@link
+    net.sf.gridarta.model.archetypetype.ArchetypeTypeSet} is a model class that
+    stores all type definitions.</p>
+</body>
+</html>

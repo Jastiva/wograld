@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE project [<!ENTITY catalogForAnt SYSTEM "src/doc/dtd/catalogForAnt.xml">]>
+<project default="jar">
+
+    <description>
+        Build file for Gridarta - 2D MMORPG Map Editor.
+    </description>
+
+    <property file="developer.properties"/>
+    <property file="project.properties"/>
+    <property name="build.source.encoding" value="utf-8"/>
+    <property name="build.source.version" value="1.6"/>
+    <property name="build.target.version" value="${build.source.version}"/>
+    <property name="debug" value="true"/>
+    <property name="build.developer" value="unknown"/>
+    <property name="javac.fork" value="no"/>
+    <property name="javac.args" value="-Xlint:all,-path,-unchecked,-fallthrough,-serial,-deprecation"/>
+    <property name="user.javadoc.link" value="http://java.sun.com/javase/6/docs/api/"/>
+    <property name="user.javadoc.javasrc" value="${user.javadoc.javahome}/src"/>
+    <property name="user.svn.javahl" value="false"/>
+    <property name="svn.baseUrl" value="https://gridarta.svn.sourceforge.net/svnroot/gridarta"/>
+
+    <condition property="svnCreateBranch" value="true">
+        <equals arg1="${project.version.patch}" arg2="0"/>
+    </condition>
+    <condition property="svn.branch.sourceUrl" value="${svn.baseUrl}/trunk">
+        <equals arg1="${project.version.patch}" arg2="0"/>
+    </condition>
+    <condition property="svn.branch.targetUrl" value="${svn.baseUrl}/branches/${project.version.major}.${project.version.minor}">
+        <equals arg1="${project.version.patch}" arg2="0"/>
+    </condition>
+    <condition property="svn.branch.message" value="Creating branch for version ${project.version.major}.${project.version.minor}">
+        <equals arg1="${project.version.patch}" arg2="0"/>
+    </condition>
+    <property name="svn.tag.sourceUrl" value="${svn.baseUrl}/branches/${project.version.major}.${project.version.minor}"/>
+    <property name="svn.tag.targetUrl" value="${svn.baseUrl}/tags/${project.version.major}.${project.version.minor}.${project.version.patch}"/>
+    <property name="svn.tag.message" value="Creating release tag for version ${project.version.major}.${project.version.minor}.${project.version.patch}"/>
+
+    <property name="build.dir" value="dest"/>
+    <property name="dist.dir" value="dist"/>
+    <property name="docs.dir" value="docs"/>
+
+    <path id="path.class.atrinik.app">
+        <pathelement location="${build.dir}/atrinik/app"/>
+        <pathelement location="atrinik/resource"/>
+    </path>
+    <path id="path.class.atrinik.test">
+        <path refid="path.class.atrinik.app"/>
+        <pathelement location="${build.dir}/atrinik/test"/>
+    </path>
+
+    <path id="path.class.crossfire.app">
+        <pathelement location="${build.dir}/crossfire/app"/>
+        <pathelement location="crossfire/resource"/>
+    </path>
+    <path id="path.class.crossfire.test">
+        <path refid="path.class.crossfire.app"/>
+        <pathelement location="${build.dir}/crossfire/test"/>
+    </path>
+
+    <path id="path.class.daimonin.app">
+        <pathelement location="${build.dir}/daimonin/app"/>
+        <pathelement location="daimonin/resource"/>
+    </path>
+    <path id="path.class.daimonin.test">
+        <path refid="path.class.daimonin.app"/>
+        <pathelement location="${build.dir}/daimonin/test"/>
+    </path>
+
+    <path id="path.class.gridarta.app">
+        <pathelement location="${build.dir}/gridarta/app"/>
+    </path>
+    <path id="path.class.gridarta.test">
+        <path refid="path.class.gridarta.app"/>
+        <pathelement location="${build.dir}/gridarta/test"/>
+    </path>
+
+    <path id="path.class.model.app">
+        <pathelement location="${build.dir}/model/app"/>
+    </path>
+    <path id="path.class.model.test">
+        <path refid="path.class.model.app"/>
+        <pathelement location="${build.dir}/model/test"/>
+    </path>
+
+    <path id="path.class.preferences.app">
+        <pathelement location="${build.dir}/preferences/app"/>
+    </path>
+    <path id="path.class.preferences.test">
+        <path refid="path.class.preferences.app"/>
+        <pathelement location="${build.dir}/preferences/test"/>
+    </path>
+
+    <path id="path.class.plugin.app">
+        <pathelement location="${build.dir}/plugin/app"/>
+    </path>
+    <path id="path.class.plugin.test">
+        <path refid="path.class.plugin.app"/>
+        <pathelement location="${build.dir}/plugin/test"/>
+    </path>
+
+    <path id="path.class.textedit.app">
+        <pathelement location="${build.dir}/textedit/app"/>
+    </path>
+    <path id="path.class.textedit.test">
+        <path refid="path.class.textedit.app"/>
+        <pathelement location="${build.dir}/textedit/test"/>
+    </path>
+
+    <path id="path.class.utils.app">
+        <pathelement location="${build.dir}/utils/app"/>
+    </path>
+    <path id="path.class.utils.test">
+        <path refid="path.class.utils.app"/>
+        <pathelement location="${build.dir}/utils/test"/>
+    </path>
+
+    <path id="path.lib.annotations" location="lib/annotations.jar"/>
+    <path id="path.lib.bsh-core" location="lib/bsh-core-2.0b4.jar"/>
+    <path id="path.lib.bsh-util" location="lib/bsh-util-2.0b4.jar"/>
+    <path id="path.lib.getopt" location="lib/java-getopt-1.0.13.jar"/>
+    <path id="path.lib.japi-swing-about" location="lib/japi-lib-swing-about-0.1.0.jar"/>
+    <path id="path.lib.japi-swing-action" location="lib/japi-lib-swing-action-0.1.0.jar"/>
+    <path id="path.lib.japi-swing-misc" location="lib/japi-lib-swing-misc-trunk-1398.jar"/>
+    <path id="path.lib.japi-swing-prefs" location="lib/japi-lib-swing-prefs-0.1.0.jar"/>
+    <path id="path.lib.japi-swing-tod" location="lib/japi-lib-swing-tod-0.1.0.jar"/>
+    <path id="path.lib.japi-util" location="lib/japi-lib-util-trunk-1410.jar"/>
+    <path id="path.lib.japi-xml" location="lib/japi-lib-xml-0.1.0.jar"/>
+    <path id="path.lib.jdom" location="lib/jdom.jar"/>
+    <path id="path.lib.log4j" location="lib/log4j-1.2.13.jar"/>
+    <path id="path.lib.junit" location="lib/junit-4.2.jar"/>
+    <path id="path.lib.rsyntaxtextarea" location="lib/rsyntaxtextarea-1.5.1.jar"/>
+
+    <path id="xsltpath">
+        <fileset dir="lib" includes="**/*.jar"/>
+    </path>
+    <taskdef name="megaxslt" classpathref="xsltpath" classname="com.hujer.ant.tasks.megaxslt.MegaXsltTask"/>
+    <taskdef name="rgzip" classpath="lib/megaxslt.jar" classname="com.hujer.ant.tasks.rgzip.RGZipTask"/>
+    <taskdef name="pack200" classpath="lib/Pack200Task.jar" classname="com.sun.tools.apache.ant.pack200.Pack200Task"/>
+    <taskdef name="freshmeat" classpath="lib/antmeat.jar" classname="de.frewert.ant.freshmeat.Announcement">
+        <classpath>
+            <pathelement path="lib/xmlrpc-2.0.1.jar"/>
+            <pathelement path="lib/commons-codec-1.3.jar"/>
+        </classpath>
+    </taskdef>
+    <taskdef name="svn" classpath="lib/svnant.jar" classname="org.tigris.subversion.svnant.SvnTask">
+        <classpath>
+            <pathelement path="lib/svnClientAdapter.jar"/>
+            <pathelement path="lib/jakarta-regexp-1.3.jar"/>
+        </classpath>
+    </taskdef>
+
+    &catalogForAnt;
+
+    <target name="update" if="dev.autoupdate">
+        <svn javahl="${user.svn.javahl}">
+            <update dir="."/>
+        </svn>
+    </target>
+
+    <target name="clean" description="Removes all generated files.">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+        <delete file="src/doc/dev/SafeCopy.java.xhtml"/>
+        <delete file="src/doc/dev/changelog.xml"/>
+        <delete dir="${docs.dir}"/>
+        <delete file="AtrinikEditor.jar"/>
+        <delete file="CrossfireEditor.jar"/>
+        <delete file="DaimoninEditor.jar"/>
+    </target>
+
+    <target name="jar" description="Creates AtrinikEditor.jar, CrossfireEditor.jar, and DaimoninEditor.jar" depends="jar-atrinik,jar-crossfire,jar-daimonin"/>
+
+    <target name="jar-atrinik" description="Creates AtrinikEditor.jar" depends="compile-atrinik,init-properties">
+        <jar destfile="AtrinikEditor.jar" index="true">
+            <fileset dir="${build.dir}/atrinik/app"/>
+            <fileset dir="${build.dir}/gridarta/app"/>
+            <fileset dir="${build.dir}/model/app"/>
+            <fileset dir="${build.dir}/preferences/app"/>
+            <fileset dir="${build.dir}/plugin/app"/>
+            <fileset dir="${build.dir}/textedit/app"/>
+            <fileset dir="${build.dir}/utils/app"/>
+            <fileset dir="${build.dir}" includes="build.properties"/>
+            <fileset file="COPYING"/>
+            <fileset dir="atrinik/lib">
+                <include name="*-LICENSE"/>
+            </fileset>
+            <fileset dir="lib">
+                <include name="bsh-LICENSE"/>
+                <include name="japi.jar-LICENSE"/>
+                <include name="java-getopt-1.0.13.jar-LICENSE"/>
+                <include name="jdom.jar-LICENSE"/>
+                <include name="log4j-1.2.13.jar-LICENSE"/>
+                <include name="rsyntaxtextarea-1.5.1.jar-LICENSE"/>
+            </fileset>
+            <fileset dir="resource"/>
+            <fileset dir="atrinik/resource"/>
+            <zipfileset src="lib/bsh-classgen-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-commands-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-core-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-util-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/java-getopt-1.0.13.jar"/>
+            <zipfileset src="lib/jdom.jar"/>
+            <zipfileset src="lib/log4j-1.2.13.jar"/>
+            <zipfileset src="lib/rsyntaxtextarea-1.5.1.jar"/>
+            <zipgroupfileset dir="lib/" includes="japi-*.jar"/>
+            <manifest>
+                <attribute name="Main-Class" value="net.sf.gridarta.var.atrinik.maincontrol.AtrinikEditor"/>
+                <attribute name="SplashScreen-Image" value="icons/CFIntro.gif"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="jar-crossfire" description="Creates CrossfireEditor.jar" depends="compile-crossfire,init-properties">
+        <jar destfile="CrossfireEditor.jar" index="true">
+            <fileset dir="${build.dir}/crossfire/app"/>
+            <fileset dir="${build.dir}/gridarta/app"/>
+            <fileset dir="${build.dir}/model/app"/>
+            <fileset dir="${build.dir}/preferences/app"/>
+            <fileset dir="${build.dir}/plugin/app"/>
+            <fileset dir="${build.dir}/textedit/app"/>
+            <fileset dir="${build.dir}/utils/app"/>
+            <fileset dir="${build.dir}" includes="build.properties"/>
+            <fileset file="COPYING"/>
+            <fileset dir="crossfire/lib">
+                <include name="*-LICENSE"/>
+            </fileset>
+            <fileset dir="lib">
+                <include name="bsh-LICENSE"/>
+                <include name="japi.jar-LICENSE"/>
+                <include name="java-getopt-1.0.13.jar-LICENSE"/>
+                <include name="jdom.jar-LICENSE"/>
+                <include name="log4j-1.2.13.jar-LICENSE"/>
+                <include name="rsyntaxtextarea-1.5.1.jar-LICENSE"/>
+            </fileset>
+            <fileset dir="resource"/>
+            <fileset dir="crossfire/resource"/>
+            <zipfileset src="lib/bsh-classgen-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-commands-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-core-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-util-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/java-getopt-1.0.13.jar"/>
+            <zipfileset src="lib/jdom.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/log4j-1.2.13.jar"/>
+            <zipfileset src="lib/rsyntaxtextarea-1.5.1.jar"/>
+            <zipgroupfileset dir="lib/" includes="japi-*.jar"/>
+            <manifest>
+                <attribute name="Main-Class" value="net.sf.gridarta.var.crossfire.maincontrol.CrossfireEditor"/>
+                <attribute name="SplashScreen-Image" value="icons/CFIntro.gif"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="jar-daimonin" description="Creates DaimoninEditor.jar" depends="compile-daimonin,init-properties">
+        <jar destfile="DaimoninEditor.jar" index="true">
+            <fileset dir="${build.dir}/daimonin/app"/>
+            <fileset dir="${build.dir}/gridarta/app"/>
+            <fileset dir="${build.dir}/model/app"/>
+            <fileset dir="${build.dir}/preferences/app"/>
+            <fileset dir="${build.dir}/plugin/app"/>
+            <fileset dir="${build.dir}/textedit/app"/>
+            <fileset dir="${build.dir}/utils/app"/>
+            <fileset dir="${build.dir}" includes="build.properties"/>
+            <fileset file="COPYING"/>
+            <fileset dir="daimonin/lib">
+                <include name="*-LICENSE"/>
+            </fileset>
+            <fileset dir="lib">
+                <include name="bsh-LICENSE"/>
+                <include name="japi.jar-LICENSE"/>
+                <include name="java-getopt-1.0.13.jar-LICENSE"/>
+                <include name="jdom.jar-LICENSE"/>
+                <include name="log4j-1.2.13.jar-LICENSE"/>
+                <include name="rsyntaxtextarea-1.5.1.jar-LICENSE"/>
+            </fileset>
+            <fileset dir="resource"/>
+            <fileset dir="daimonin/resource"/>
+            <zipfileset src="lib/bsh-classgen-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-commands-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-core-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/bsh-util-2.0b4.jar" excludes="META-INF/**"/>
+            <zipfileset src="lib/java-getopt-1.0.13.jar"/>
+            <zipfileset src="lib/jdom.jar"/>
+            <zipfileset src="lib/log4j-1.2.13.jar"/>
+            <zipfileset src="lib/rsyntaxtextarea-1.5.1.jar"/>
+            <zipgroupfileset dir="lib/" includes="japi-*.jar"/>
+            <manifest>
+                <attribute name="Main-Class" value="net.sf.gridarta.var.daimonin.maincontrol.DaimoninEditor"/>
+                <attribute name="SplashScreen-Image" value="icons/CFIntro.gif"/>
+            </manifest>
+        </jar>
+    </target>
+
+    <target name="init-properties">
+        <tstamp>
+            <format property="build.tstamp" pattern="yyyy-MM-dd HH:mm:ss z" timezone="UTC"/>
+        </tstamp>
+        <exec executable="svnversion" outputproperty="build.number" failifexecutionfails="false"/>
+        <property name="build.number" value="unknown"/>
+        <echoproperties destfile="${build.dir}/build.properties">
+            <propertyset>
+                <propertyref prefix="build.developer"/>
+                <propertyref prefix="build.number"/>
+                <propertyref prefix="build.tstamp"/>
+                <propertyref prefix="svnversion"/>
+            </propertyset>
+        </echoproperties>
+    </target>
+
+    <target name="compile-atrinik" description="Compiles the atrinik module." depends="compile-gridarta,compile-model,compile-preferences,compile-plugin,compile-utils">
+        <mkdir dir="${build.dir}/atrinik/app"/>
+        <javac srcdir="atrinik/src/app" destdir="${build.dir}/atrinik/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.gridarta.app"/>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.plugin.app"/>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-swing-prefs"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/atrinik/app">
+            <fileset dir="atrinik/src/app" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/atrinik/test"/>
+        <javac srcdir="atrinik/src/test" destdir="${build.dir}/atrinik/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.atrinik.app"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/atrinik/test">
+            <fileset dir="atrinik/src/test" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-crossfire" description="Compiles the crossfire module." depends="compile-gridarta,compile-model,compile-preferences,compile-plugin,compile-utils">
+        <mkdir dir="${build.dir}/crossfire/app"/>
+        <javac srcdir="crossfire/src/app" destdir="${build.dir}/crossfire/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.gridarta.app"/>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.plugin.app"/>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-swing-prefs"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/crossfire/app">
+            <fileset dir="crossfire/src/app" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/crossfire/test"/>
+        <javac srcdir="crossfire/src/test" destdir="${build.dir}/crossfire/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.crossfire.app"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/crossfire/test">
+            <fileset dir="crossfire/src/test" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-daimonin" description="Compiles the daimonin module." depends="compile-gridarta,compile-model,compile-plugin,compile-utils">
+        <mkdir dir="${build.dir}/daimonin/app"/>
+        <javac srcdir="daimonin/src/app" destdir="${build.dir}/daimonin/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.gridarta.app"/>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.plugin.app"/>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-swing-prefs"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/daimonin/test">
+            <fileset dir="daimonin/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/daimonin/test"/>
+        <javac srcdir="daimonin/src/test" destdir="${build.dir}/daimonin/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.daimonin.app"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/daimonin/app">
+            <fileset dir="daimonin/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-gridarta" description="Compiles the gridarta module." depends="compile-model,compile-preferences,compile-plugin,compile-textedit,compile-utils">
+        <mkdir dir="${build.dir}/gridarta/app"/>
+        <javac srcdir="src/app" destdir="${build.dir}/gridarta/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.preferences.app"/>
+                <path refid="path.class.plugin.app"/>
+                <path refid="path.class.textedit.app"/>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.bsh-core"/>
+                <path refid="path.lib.bsh-util"/>
+                <path refid="path.lib.getopt"/>
+                <path refid="path.lib.japi-swing-about"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-swing-prefs"/>
+                <path refid="path.lib.japi-swing-tod"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.jdom"/>
+                <path refid="path.lib.log4j"/>
+                <path refid="path.lib.rsyntaxtextarea"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/gridarta/test">
+            <fileset dir="src/test" includes="**/*.properties,cfpython_menu.def"/>
+        </copy>
+        <mkdir dir="${build.dir}/gridarta/test"/>
+        <javac srcdir="src/test" destdir="${build.dir}/gridarta/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.gridarta.app"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.preferences.test"/>
+                <path refid="path.class.textedit.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/gridarta/app">
+            <fileset dir="src/app" includes="**/*.properties,cfpython_menu.def"/>
+        </copy>
+    </target>
+
+    <target name="compile-model" description="Compiles the model module." depends="compile-utils">
+        <mkdir dir="${build.dir}/model/app"/>
+        <javac srcdir="model/src/app" destdir="${build.dir}/model/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.japi-xml"/>
+                <path refid="path.lib.jdom"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/model/test">
+            <fileset dir="model/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/model/test"/>
+        <javac srcdir="model/src/test" destdir="${build.dir}/model/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-swing-misc"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/model/app">
+            <fileset dir="model/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-preferences" description="Compiles the preferences module.">
+        <mkdir dir="${build.dir}/preferences/app"/>
+        <javac srcdir="preferences/src/app" destdir="${build.dir}/preferences/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/preferences/test">
+            <fileset dir="preferences/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/preferences/test"/>
+        <javac srcdir="preferences/src/test" destdir="${build.dir}/preferences/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.preferences.app"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/preferences/app">
+            <fileset dir="preferences/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-plugin" description="Compiles the plugin module." depends="compile-model,compile-utils">
+        <mkdir dir="${build.dir}/plugin/app"/>
+        <javac srcdir="plugin/src/app" destdir="${build.dir}/plugin/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.model.app"/>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.bsh-core"/>
+                <path refid="path.lib.bsh-util"/>
+                <path refid="path.lib.jdom"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/plugin/test">
+            <fileset dir="plugin/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/plugin/test"/>
+        <javac srcdir="plugin/src/test" destdir="${build.dir}/plugin/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.plugin.app"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/plugin/app">
+            <fileset dir="plugin/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-textedit" description="Compiles the textedit module." depends="compile-utils">
+        <mkdir dir="${build.dir}/textedit/app"/>
+        <javac srcdir="textedit/src/app" destdir="${build.dir}/textedit/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/textedit/test">
+            <fileset dir="textedit/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/textedit/test"/>
+        <javac srcdir="textedit/src/test" destdir="${build.dir}/textedit/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.textedit.app"/>
+                <path refid="path.class.utils.test"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/textedit/app">
+            <fileset dir="textedit/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="compile-utils" description="Compiles the utils module.">
+        <mkdir dir="${build.dir}/utils/app"/>
+        <javac srcdir="utils/src/app" destdir="${build.dir}/utils/app" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="${debug}">
+            <classpath>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/utils/test">
+            <fileset dir="utils/src/test" includes="**/*.properties"/>
+        </copy>
+        <mkdir dir="${build.dir}/utils/test"/>
+        <javac srcdir="utils/src/test" destdir="${build.dir}/utils/test" encoding="${build.source.encoding}" source="${build.source.version}" target="${build.target.version}" includeantruntime="false" debug="yes">
+            <classpath>
+                <path refid="path.class.utils.app"/>
+                <path refid="path.lib.annotations"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <compilerarg line="${javac.args}"/>
+        </javac>
+        <copy todir="${build.dir}/utils/app">
+            <fileset dir="utils/src/app" includes="**/*.properties"/>
+        </copy>
+    </target>
+
+    <target name="doc" depends="editorialDoc,apiDoc" description="Creates project documentation."/>
+
+    <target name="java2html" description="Converts documentation java sources to XHTML.">
+        <taskdef name="java2html" classpath="lib/java2html.jar" classname="de.java2html.anttasks.Java2HtmlTask"/>
+        <java2html srcdir="src/doc" destdir="src/doc" includes="**/*.java" outputformat="xhtml11" tabs="4" style="eclipse" addlineanchors="true" includedocumentfooter="true" includedocumentheader="true" lineanchorprefix="line" showdefaulttitle="true" showfilename="true" showlinenumbers="true" showtableborder="true"/>
+    </target>
+
+    <target name="editorialDoc" description="Creates the editorial part of the project documentation." depends="java2html">
+        <mkdir dir="${build.dir}/doc"/>
+        <megaxslt srcdir="src/doc" destdir="${build.dir}/doc" includes="**/*.xhtml" validatesource="true" validatedest="true" ending="xhtml" transformerFactoryImplementationClassName="net.sf.saxon.TransformerFactoryImpl">
+            <xmlcatalog refid="commonDTDs"/>
+            <transformation stylesheet="src/doc/transform.xslt"/>
+            <transformation stylesheet="src/doc/cleanupXhtml11.xslt"/>
+        </megaxslt>
+        <megaxslt srcdir="${build.dir}/doc" destdir="${build.dir}/doc" includes="**/*.xhtml" validatesource="true" validatedest="false" ending="html" converttocanonical="true" transformerFactoryImplementationClassName="net.sf.saxon.TransformerFactoryImpl">
+            <xmlcatalog refid="commonDTDs"/>
+            <transformation stylesheet="src/doc/xhtml2html.xslt"/>
+        </megaxslt>
+        <megaxslt srcdir="src/doc" destdir="." includes="faq.xhtml" validatesource="true" validatedest="false" ending="" transformerFactoryImplementationClassName="net.sf.saxon.TransformerFactoryImpl">
+            <xmlcatalog refid="commonDTDs"/>
+            <transformation stylesheet="src/doc/faq2txt.xslt"/>
+        </megaxslt>
+        <copy file="faq" tofile="FAQ"/>
+        <copy todir="${build.dir}/doc">
+            <fileset dir="src/doc">
+                <include name="**/.htaccess"/>
+                <include name="**/*.html"/>
+                <include name="dtd/**/*.mod"/>
+                <include name="dtd/**/*.dtd"/>
+                <include name="dtd/**/*.xml"/>
+                <include name="**/*.css"/>
+                <include name="**/*.png"/>
+                <include name="**/*.gif"/>
+                <include name="robots.txt"/>
+                <exclude name="**/.xvpics/*.png"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="apiDoc" description="Creates public javadoc documentation.">
+        <mkdir dir="${build.dir}/doc/api/${project.version}"/>
+        <copy todir="${build.dir}/doc/api/${project.version}" file="src/doc/copyright.xhtml"/>
+        <copy todir="${build.dir}/doc/api/${project.version}" file="src/doc/dev/api/.htaccess"/>
+        <javadoc destdir="${build.dir}/doc/api/${project.version}" access="protected" author="yes" version="yes" locale="en_US" use="yes" splitindex="yes" windowtitle="Gridarta API documentation" doctitle="Gridarta&lt;br /&gt;Yet another Java API&lt;br /&gt;API Documentation" header="Gridarta ${project.version}&lt;br /&gt;Yet another Java API&lt;br /&gt;API Documentation" footer="Gridarta&lt;br /&gt;Yet another Java API&lt;br /&gt;API Documentation" bottom="&lt;div style=&quot;text-align:center;&quot;&gt;&#169; 2005-2006 The Gridarta Developers. All rights reserved. See &lt;a href=&quot;{@docRoot}/copyright.xhtml&quot;&gt;copyright&lt;/a&gt;&lt;/div&gt;" serialwarn="yes" charset="${build.source.encoding}" docencoding="${build.source.encoding}" source="${build.source.version}" encoding="${build.source.encoding}" linksource="yes" overview="src/app/overview.html" link="${user.javadoc.link}">
+            <classpath>
+                <fileset dir="atrinik/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="daimonin/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="crossfire/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+            </classpath>
+            <sourcepath>
+                <pathelement path="${user.javadoc.javasrc}"/>
+                <path refid="path.class.atrinik.test"/>
+                <path refid="path.class.crossfire.test"/>
+                <path refid="path.class.daimonin.test"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.preferences.test"/>
+                <path refid="path.class.plugin.test"/>
+                <path refid="path.class.textedit.test"/>
+                <path refid="path.class.utils.test"/>
+            </sourcepath>
+            <packageset dir="src/app" defaultexcludes="yes"/>
+            <packageset dir="src/test" defaultexcludes="yes"/>
+            <packageset dir="atrinik/src/app" defaultexcludes="yes"/>
+            <packageset dir="atrinik/src/test" defaultexcludes="yes"/>
+            <packageset dir="crossfire/src/app" defaultexcludes="yes"/>
+            <packageset dir="crossfire/src/test" defaultexcludes="yes"/>
+            <packageset dir="daimonin/src/app" defaultexcludes="yes"/>
+            <packageset dir="daimonin/src/test" defaultexcludes="yes"/>
+            <packageset dir="model/src/app" defaultexcludes="yes"/>
+            <packageset dir="model/src/test" defaultexcludes="yes"/>
+            <packageset dir="preferences/src/app" defaultexcludes="yes"/>
+            <packageset dir="preferences/src/test" defaultexcludes="yes"/>
+            <packageset dir="plugin/src/app" defaultexcludes="yes"/>
+            <packageset dir="plugin/src/test" defaultexcludes="yes"/>
+            <packageset dir="textedit/src/app" defaultexcludes="yes"/>
+            <packageset dir="textedit/src/test" defaultexcludes="yes"/>
+            <packageset dir="utils/src/app" defaultexcludes="yes"/>
+            <packageset dir="utils/src/test" defaultexcludes="yes"/>
+            <tag name="todo" description="Todo:"/>
+            <tag name="used" description="Manually marked as used." enabled="false"/>
+            <tag name="fixme" description="Fixme:"/>
+            <tag name="xxx" description="XXX:"/>
+            <tag name="note" description="Note:"/>
+            <tag name="warning" description="Warning:"/>
+            <tag name="retval" description="Return Value:"/>
+            <tag name="val" description="Value:"/>
+            <tag name="default" description="Default Value:"/>
+            <tag name="invariant" description="Invariant:"/>
+            <tag name="pre" description="Precondition:"/>
+            <tag name="noinspection" description="No Inspection:"/>
+        </javadoc>
+    </target>
+
+    <target name="dist" description="Packs distribution archives." depends="distSrc,distLib,distDoc"/>
+
+    <target name="distSrc" description="Packs source distribution archives.">
+        <mkdir dir="${dist.dir}"/>
+        <property name="distSrc" value="${dist.dir}/gridarta-${project.version}.src"/>
+        <parallel>
+            <tar tarfile="${distSrc}.tar">
+                <tarfileset dir="." prefix="gridarta-${project.version}">
+                    <include name="src/**"/>
+                    <include name="build.xml"/>
+                </tarfileset>
+            </tar>
+            <zip destfile="${distSrc}.zip">
+                <zipfileset dir="." prefix="gridarta-${project.version}">
+                    <include name="src/**"/>
+                    <include name="build.xml"/>
+                </zipfileset>
+            </zip>
+            <jar destfile="${distSrc}.jar">
+                <zipfileset dir="." prefix="gridarta-${project.version}">
+                    <include name="src/**"/>
+                    <include name="build.xml"/>
+                </zipfileset>
+            </jar>
+        </parallel>
+        <parallel>
+            <gzip src="${distSrc}.tar" destfile="${distSrc}.tar.gz"/>
+            <bzip2 src="${distSrc}.tar" destfile="${distSrc}.tar.bz2"/>
+        </parallel>
+        <delete file="${distSrc}.tar"/>
+    </target>
+
+    <target name="distLib" description="Packs library distribution archives."> <!--XXX:depends="compile"-->
+        <mkdir dir="${dist.dir}"/>
+        <property name="distLib" value="${dist.dir}/gridarta-${project.version}.lib"/>
+        <jar destfile="${distLib}.jar">
+            <zipfileset dir="${build.dir}/app"/>
+            <manifest>
+                <attribute name="Implementation-Title" value="Gridarta"/>
+                <attribute name="Implementation-Vendor" value="The Gridarta Developers"/>
+                <attribute name="Implementation-Version" value="${project.version}"/>
+                <attribute name="Implementation-URL" value="http://sourceforge.net/projects/gridarta/"/>
+            </manifest>
+        </jar>
+        <pack200 src="${distLib}.jar" destfile="${distLib}.pack.gz" gzipoutput="true" stripdebug="true" effort="9" keepfileorder="false" modificationtime="latest" deflatehint="false"/>
+    </target>
+
+    <target name="distDoc" description="Packs documentation archives." depends="apiDoc">
+        <mkdir dir="${dist.dir}"/>
+        <property name="distDoc" value="${dist.dir}/gridarta-${project.version}.doc"/>
+        <parallel>
+            <tar tarfile="${distDoc}.tar">
+                <tarfileset dir="${build.dir}/doc" prefix="gridarta-${project.version}">
+                    <include name="api/${project.version}/**"/>
+                </tarfileset>
+            </tar>
+            <zip destfile="${distDoc}.zip">
+                <zipfileset dir="${build.dir}/doc" prefix="gridarta-${project.version}">
+                    <include name="api/${project.version}/**"/>
+                </zipfileset>
+            </zip>
+            <jar destfile="${distDoc}.jar">
+                <zipfileset dir="${build.dir}/doc" prefix="gridarta-${project.version}">
+                    <include name="api/${project.version}/**"/>
+                </zipfileset>
+            </jar>
+        </parallel>
+        <parallel>
+            <gzip src="${distDoc}.tar" destfile="${distDoc}.tar.gz"/>
+            <bzip2 src="${distDoc}.tar" destfile="${distDoc}.tar.bz2"/>
+        </parallel>
+        <delete file="${distDoc}.tar"/>
+    </target>
+
+    <target name="checkDevMail" description="Checks whether the developer defined his / her email address." unless="developer.email">
+        <fail message="You must define the property developer.email with your email address in the file developer.properties."/>
+    </target>
+
+    <target name="checkDevSmtp" description="Checks whether the developer defined his / her smtp host." unless="user.mail.smtp.host">
+        <fail message="You must define the property user.mail.smtp.host with your smtp host address in the file developer.properties."/>
+    </target>
+
+    <target name="releaseDist" description="Uploads distribution archives to sourceforge." if="developer.email" depends="checkDevMail, dist">
+        <touch file="src/doc/api/start.xhtml" millis="0"/>
+        <megaxslt srcdir="src/doc/api" destdir="src/doc/api" includes="start.xhtml" validatesource="true" validatedest="true" ending="xhtml" converttocanonical="true" checktimestamps="true">
+            <xmlcatalog refid="commonDTDs"/>
+            <parameter name="project.version" value="${project.version}"/>
+            <transformation stylesheet="src/doc/api/release.xslt"/>
+        </megaxslt>
+        <svn javahl="${user.svn.javahl}">
+            <commit file="src/doc/api/start.xhtml" message="Updating API link to include ${project.version}."/>
+        </svn>
+        <exec executable="rsync" failonerror="true">
+            <arg line="-auzv -e ssh ${build.dir}/doc/api/ ${user.rsync.username}@${user.rsync.host}:${user.rsync.dir}/htdocs/api/"/>
+        </exec>
+        <sshexec host="${user.rsync.host}" username="${user.rsync.username}" keyfile="${user.ssh.keyfile}" command="rm ${user.rsync.dir}/htdocs/api/latest ; ln -s ${project.version} ${user.rsync.dir}/htdocs/api/latest"/>
+        <ftp server="upload.sourceforge.net" userid="anonymous" password="${developer.email}" remotedir="incoming" action="put">
+            <fileset dir="${dist.dir}"/>
+        </ftp>
+        <antcall target="svnCreateBranch"/>
+        <antcall target="svnCreateTag"/>
+        <antcall target="uploadDoc"/>
+    </target>
+
+    <target name="uploadDoc" description="Uploads the latest editorial documentation." depends="editorialDoc">
+        <exec executable="rsync" failonerror="true">
+            <arg line="-auzv-e ssh ${build.dir}/doc/ ${user.rsync.username}@${user.rsync.host}:${user.rsync.dir}/htdocs/"/>
+        </exec>
+    </target>
+
+    <target name="announce" description="announce new version on freshmeat.net">
+        <echo>Announcing. Press return to start announcing this release at
+            FreshMeat.
+        </echo>
+        <input/>
+        <freshmeat username="${user.freshmeat.username}" password="${user.freshmeat.password}">
+            <printlicenses/>
+            <printreleasefoci/>
+            <publish projectname="gridarta" branchname="Default" version="${project.version}" focus="${project.focus}">
+                <changes file="LatestNews"/>
+                <urlblock homepage="http://gridarta.sourceforge.net/" cvs="http://svn.sourceforge.net/viewcvs.cgi/gridarta/" mailinglist="http://sourceforge.net/mailarchive/forum.php?forum=gridarta-users" tgz="http://prdownloads.sourceforge.net/gridarta/gridarta-${project.version}.src.tar.gz?download" bz2="http://prdownloads.sourceforge.net/gridarta/gridarta-${project.version}.src.tar.bz2?download" zip="http://prdownloads.sourceforge.net/gridarta/gridarta-${project.version}.src.zip?download"/>
+            </publish>
+        </freshmeat>
+    </target>
+
+    <target name="release" description="Releases a new version of Gridarta.">
+        <antcall target="clean"/>
+        <antcall target="releaseDist"/>
+        <echo>I've uploaded the distribution archives to sourceforge. Press
+            return when you're done configuring the new file releases on
+            sourceforge. I will then announce the release at FreshMeat.
+        </echo>
+        <input/>
+        <antcall target="announce"/>
+    </target>
+
+    <target name="svnCreateBranch" description="Creates a release branch for a new major or minor revision. This target shouldn't be invoked directly." if="svnCreateBranch">
+        <svn javahl="${user.svn.javahl}">
+            <copy srcUrl="${svn.branch.sourceUrl}" desturl="${svn.branch.targetUrl}" message="${svn.branch.message}"/>
+        </svn>
+    </target>
+
+    <target name="svnCreateTag" description="Creates a release tag for a new patch revision. This target shouldn't be invoked directly.">
+        <svn javahl="${user.svn.javahl}">
+            <copy srcUrl="${svn.tag.sourceUrl}" desturl="${svn.tag.targetUrl}" message="${svn.tag.message}"/>
+        </svn>
+    </target>
+
+    <target name="checkstyle" description="Runs checkstyle to style-check the source code">
+        <taskdef resource="checkstyletask.properties" classpath="lib/checkstyle-all-5.0.jar"/>
+        <mkdir dir="${build.dir}/doc"/>
+        <checkstyle config="src/checkstyle.xml" failOnViolation="true">
+            <formatter type="plain" tofile="${build.dir}/doc/checkstyle_report.txt"/>
+            <formatter type="plain"/>
+            <fileset dir="src/app" includes="**/*.java"/>
+            <fileset dir="src/test" includes="**/*.java"/>
+            <fileset dir="atrinik/src/app" includes="**/*.java"/>
+            <fileset dir="atrinik/src/test" includes="**/*.java"/>
+            <fileset dir="crossfire/src/app" includes="**/*.java"/>
+            <fileset dir="crossfire/src/test" includes="**/*.java"/>
+            <fileset dir="daimonin/src/app" includes="**/*.java"/>
+            <fileset dir="daimonin/src/test" includes="**/*.java"/>
+            <fileset dir="model/src/app" includes="**/*.java"/>
+            <fileset dir="model/src/test" includes="**/*.java"/>
+            <fileset dir="preferences/src/app" includes="**/*.java"/>
+            <fileset dir="preferences/src/test" includes="**/*.java"/>
+            <fileset dir="plugin/src/app" includes="**/*.java"/>
+            <fileset dir="plugin/src/test" includes="**/*.java"/>
+            <fileset dir="textedit/src/app" includes="**/*.java"/>
+            <fileset dir="textedit/src/test" includes="**/*.java"/>
+            <fileset dir="utils/src/app" includes="**/*.java"/>
+            <fileset dir="utils/src/test" includes="**/*.java"/>
+        </checkstyle>
+    </target>
+
+    <target name="mailCheckstyle" description="Mails checkstyle results to the mailing list" depends="checkstyle,checkDevMail,checkDevSmtp">
+        <mail from="${developer.email}" tolist="gridarta-devel@lists.sourceforge.net" mailhost="${user.mail.smtp.host}" subject="Checkstyle violation(s) in Gridarta" files="checkstyle_report.html"/>
+    </target>
+
+    <target name="changelog" description="Updates the changelog">
+        <exec executable="svn" output="src/doc/dev/changelog.xml">
+            <arg line="log -v --xml"/>
+        </exec>
+        <megaxslt srcdir="src/doc/dev" destdir="src/doc/dev" includes="changelog.xml" validatesource="false" validatedest="false" ending="xhtml" converttocanonical="true" transformerFactoryImplementationClassName="net.sf.saxon.TransformerFactoryImpl">
+            <xmlcatalog refid="commonDTDs"/>
+            <transformation stylesheet="src/doc/dev/changelog.xslt"/>
+        </megaxslt>
+    </target>
+
+    <target name="javadoc" depends="init-properties" description="Creates the JavaDoc documentation for the complete editor source.">
+        <mkdir dir="${build.dir}/doc/dev/api"/>
+        <javadoc destdir="${build.dir}/doc/dev/api" locale="en_US" version="yes" author="yes" use="yes" splitindex="yes" windowtitle="Gridarta — API Documentation" doctitle="Gridarta ${build.number}&lt;br /&gt;API Documentation" header="Gridarta ${build.number}&lt;br /&gt;API Documentation" footer="Gridarta ${build.number}&lt;br /&gt;API Documentation" serialwarn="no" charset="utf-8" docencoding="utf-8" source="${build.source.version}" encoding="${build.source.encoding}" linksource="yes" private="yes" overview="src/app/overview.html" link="${user.javadoc.link}">
+            <classpath>
+                <fileset dir="atrinik/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="daimonin/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="crossfire/lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+                <fileset dir="lib" includes="*.jar" excludes="*.jar-LICENSE"/>
+            </classpath>
+            <sourcepath>
+                <pathelement path="${user.javadoc.javasrc}"/>
+                <path refid="path.class.atrinik.test"/>
+                <path refid="path.class.crossfire.test"/>
+                <path refid="path.class.daimonin.test"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.preferences.test"/>
+                <path refid="path.class.plugin.test"/>
+                <path refid="path.class.textedit.test"/>
+                <path refid="path.class.utils.test"/>
+            </sourcepath>
+            <packageset dir="src/app" defaultexcludes="yes"/>
+            <packageset dir="src/test" defaultexcludes="yes"/>
+            <packageset dir="atrinik/src/app" defaultexcludes="yes"/>
+            <packageset dir="atrinik/src/test" defaultexcludes="yes"/>
+            <packageset dir="crossfire/src/app" defaultexcludes="yes"/>
+            <packageset dir="crossfire/src/test" defaultexcludes="yes"/>
+            <packageset dir="daimonin/src/app" defaultexcludes="yes"/>
+            <packageset dir="daimonin/src/test" defaultexcludes="yes"/>
+            <packageset dir="model/src/app" defaultexcludes="yes"/>
+            <packageset dir="model/src/test" defaultexcludes="yes"/>
+            <packageset dir="preferences/src/app" defaultexcludes="yes"/>
+            <packageset dir="preferences/src/test" defaultexcludes="yes"/>
+            <packageset dir="plugin/src/app" defaultexcludes="yes"/>
+            <packageset dir="plugin/src/test" defaultexcludes="yes"/>
+            <packageset dir="textedit/src/app" defaultexcludes="yes"/>
+            <packageset dir="textedit/src/test" defaultexcludes="yes"/>
+            <packageset dir="utils/src/app" defaultexcludes="yes"/>
+            <packageset dir="utils/src/test" defaultexcludes="yes"/>
+            <bottom>
+                <![CDATA[<address>
+                    <a href="http://sourceforge.net/"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=166996&amp;type=1" alt="SourceForge.net Logo" width="88" height="31" class="now" /></a>
+                    <a href="http://sourceforge.net/donate/index.php?group_id=166996"><img src="http://sourceforge.net/images/project-support.jpg" width="88" height="32" alt="Support This Project" class="now" /></a>
+                    <a href="http://freshmeat.net/projects/gridarta/"><img src="http://images.freshmeat.net/img/link_button_4.gif" width="88" height="31" alt="freshmeat.net" class="now" /></a>
+                    <!--<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" class="now" /></a>-->
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="http://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Valid CSS!" class="now" /></a>
+                Feedback: <a href="mailto:cher@riedquat.de">webmaster</a>
+                </address>
+                <p class="copyright">
+                    &#169; 2003-2010 The Gridarta Developers. All rights reserved.
+                </p>]]>
+            </bottom>
+            <tag name="todo" description="Todo:"/>
+            <tag name="used" description="Manually marked as used." enabled="false"/>
+            <tag name="fixme" description="Fixme:"/>
+            <tag name="xxx" description="XXX:"/>
+            <tag name="note" description="Note:"/>
+            <tag name="warning" description="Warning:"/>
+            <tag name="retval" description="Return Value:"/>
+            <tag name="val" description="Value:"/>
+            <tag name="default" description="Default Value:"/>
+            <tag name="invariant" description="Invariant:"/>
+            <tag name="pre" description="Precondition:"/>
+            <tag name="noinspection" description="No Inspection:"/>
+        </javadoc>
+    </target>
+
+    <target name="test" description="Executes all tests." depends="test-junit,test-mapvalidator-atrinik,test-mapvalidator-crossfire,test-mapvalidator-daimonin"/>
+
+    <target name="test-junit" description="Executes the junit tests." depends="test-atrinik,test-crossfire,test-daimonin,test-gridarta,test-model,test-preferences,test-plugin,test-textedit,test-utils">
+        <junitreport todir="${docs.dir}/test">
+            <fileset dir="${docs.dir}/test">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${docs.dir}/test"/>
+        </junitreport>
+    </target>
+
+    <target name="test-atrinik" depends="compile-atrinik">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.atrinik.test"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/atrinik/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-crossfire" depends="compile-crossfire">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.crossfire.test"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/crossfire/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-daimonin" depends="compile-daimonin">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.daimonin.test"/>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/daimonin/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-gridarta" depends="compile-gridarta">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.gridarta.test"/>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.preferences.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+                <pathelement location="resource"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/gridarta/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-model" depends="compile-model">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.model.test"/>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-swing-action"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.japi-xml"/>
+                <path refid="path.lib.junit"/>
+                <path refid="path.lib.log4j"/>
+                <pathelement location="resource"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/model/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                    <exclude name="**/Abstract*Test.class"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-preferences" depends="compile-preferences">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.preferences.test"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/preferences/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-plugin" depends="compile-plugin">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.plugin.test"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/plugin/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-textedit" depends="compile-textedit">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.textedit.test"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/textedit/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-utils" depends="compile-utils">
+        <mkdir dir="${docs.dir}/test"/>
+        <junit printsummary="no" haltonfailure="yes">
+            <classpath>
+                <path refid="path.class.utils.test"/>
+                <path refid="path.lib.japi-util"/>
+                <path refid="path.lib.junit"/>
+            </classpath>
+            <formatter type="plain"/>
+            <formatter type="xml"/>
+            <batchtest todir="${docs.dir}/test">
+                <fileset dir="${build.dir}/utils/test">
+                    <include name="**/*Test.class"/>
+                    <exclude name="**/*$*"/>
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="test-mapvalidator-atrinik" description="Executes the map validator tests using AtrinikEditor.jar." depends="jar-atrinik">
+        <java jar="AtrinikEditor.jar" failonerror="true" fork="true">
+            <arg value="--config=test-mapvalidator/atrinik/regtest.conf"/>
+            <arg value="--plugin=MapValidator"/>
+        </java>
+    </target>
+
+    <target name="test-mapvalidator-crossfire" description="Executes the map validator tests using CrossfireEditor.jar." depends="jar-crossfire">
+        <java jar="CrossfireEditor.jar" failonerror="true" fork="true">
+            <arg value="--config=test-mapvalidator/crossfire/regtest.conf"/>
+            <arg value="--plugin=MapValidator"/>
+        </java>
+    </target>
+
+    <target name="test-mapvalidator-daimonin" description="Executes the map validator tests using DaimoninEditor.jar." depends="jar-daimonin">
+        <java jar="DaimoninEditor.jar" failonerror="true" fork="true">
+            <arg value="--config=test-mapvalidator/daimonin/regtest.conf"/>
+            <arg value="--plugin=MapValidator"/>
+        </java>
+    </target>
+
+    <target name="preparePublish" description="Prepare files to publish." depends="preparePublish-atrinik,preparePublish-crossfire,preparePublish-daimonin"/>
+
+    <target name="preparePublish-atrinik" description="Prepare files to publish AtrinikEditor.jar." depends="jar" if="user.update.url.atrinik">
+        <mkdir dir="${dist.dir}/atrinik"/>
+        <echo file="${dist.dir}/atrinik/update.properties">
+            update.number=${build.number} update.tstamp=${build.tstamp}
+            update.developer=${build.developer}
+            update.url=${user.update.url.atrinik}
+        </echo>
+        <copy file="AtrinikEditor.jar" tofile="${dist.dir}/atrinik/AtrinikEditor.jar"/>
+    </target>
+
+    <target name="preparePublish-crossfire" description="Prepare files to publish CrossfireEditor.jar." depends="jar" if="user.update.url.crossfire">
+        <mkdir dir="${dist.dir}/crossfire"/>
+        <echo file="${dist.dir}/crossfire/update.properties">
+            update.number=${build.number} update.tstamp=${build.tstamp}
+            update.developer=${build.developer}
+            update.url=${user.update.url.crossfire}
+        </echo>
+        <copy file="CrossfireEditor.jar" tofile="${dist.dir}/crossfire/CrossfireEditor.jar"/>
+    </target>
+
+    <target name="preparePublish-daimonin" description="Prepare files to publish DaimoninEditor.jar." depends="jar" if="user.update.url.daimonin">
+        <mkdir dir="${dist.dir}/daimonin"/>
+        <echo file="${dist.dir}/daimonin/update.properties">
+            update.number=${build.number} update.tstamp=${build.tstamp}
+            update.developer=${build.developer}
+            update.url=${user.update.url.daimonin}
+        </echo>
+        <copy file="DaimoninEditor.jar" tofile="${dist.dir}/daimonin/DaimoninEditor.jar"/>
+    </target>
+
+</project>

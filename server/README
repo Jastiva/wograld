@@ -1,0 +1,265 @@
+WHAT IS WOGRALD?
+
+  This is a multiplayer graphical arcade and adventure game made for
+  the X-Windows environment. But soon we hope to have a
+  Java client ready to run on all the major platforms that
+  support Java.  It runs on a client/server model.
+  The client runs with X11, has a broke GTK version that was never updated,
+ or another never been modified for wograld SDL within a gtk window.  
+ A java client is under development.
+
+  Right now it has certain flavours from other games, especially Gauntlet (TM)
+  and Nethack/Moria.  Really, we want it to resemble games such as Ultima
+Online and Runescape more closely since thesse are more popular games that
+ordinary users will love. 
+
+  Any number of players can move around in their own window, finding
+  and using items and battle monsters.  They can choose to cooperate
+  or compete in the same "world".
+
+REQUIREMENTS
+
+  For UNIX, X-windows and an ANSI C compiler to compile this game.
+  A window system is not needed if you don't want to compile the
+  map editor.
+
+  For Windows 9x, you need Visual C++ (or some other ANSI C
+  compiler that can read ".dsw"-files). (no idea if this works with wograld)
+  
+COMPILING
+
+  Wograld has been known to compile on a wide variety of
+  systems.  It should compile and most all ANSI C and Posix
+  compliant systems.
+
+  To get directions on compilation for UNIX/LINUX,read the install below
+ or read the admin-install file in the 
+server folder.  No idea how, or if it can be gotten to work on windows.
+  For Win9x, read INSTALL_WIN32.txt.
+
+INSTALL
+
+Installation Instructions
+
+Fresh Install
+
+for the server:
+1)  Create a source directory under "home".  
+    Drop all files from the server CVS folder, or the
+    zip file, into here. "/home/wograld" or whatever you want
+ 
+2)  You should use the new arches from CVS.  "arch"  arch has a subfolder "arch" in it.
+Put this subfolder and its contents into the server/lib directory. See that there is a long list of ".png" and ".arc"
+    in several subfolders under /lib/arch.  (the pre-alph 0.0.1 release already has this step done)
+
+3) Make sure you are in the directory "/home/wograld"/server 
+   At the command prompt on your terminal type
+    ./configure
+    then type
+    make
+    then log into root mode or sudo
+    make install
+    To run your server set your directory to "/home/wograld"/server/server and type:
+    ./wograld
+    
+    This is commonly known as Configure, make, make install and is used for compiling many software programs.
+
+4)  If it compiled, it should be installed in
+    /usr/games/wograld/bin or /usr/games/wograld/bin
+
+5)  Go to /usr/games/wograld/share/wograld
+    if there isn't a "maps" subfolder, it needs to be
+    created.
+
+6)  The maps can be downloaded from 
+    http://sourceforge.net/project/showfiles.php?group_id=13833
+    "maps" if you do not have them. (crossfire version 1.9.1)
+
+7)  Put these files into /usr/games/wograld/share/wograld/maps
+
+
+8) if wograld.2 is missing copy it from the server/lib folder into the /usr/games/wograld/share/wograld
+folder.
+
+9) go to the "/home/wograld"/server/lib/arch folder, and copy the treasures file into /usr/games/wograld/share/wograld folder 
+
+10) Go to "/usr/games/wograld/bin".  Type "./wograld"
+    or "./wograld" to start the server.
+
+11) For now, run server as root, there are certain folders that need premissions for the saving of maps and players.
+I will figure out what premissions need to be changed later. (TODO)
+
+Getting the client
+
+1)You will want to have a working client, preferably the new one.
+    Get the client source from CVS "client"
+
+2) Put it into a "home/wograld-client" folder.
+    Make sure you are in the "home/wograld"/client directory
+     ./configure
+    Now set your directory to "home/wograld"/client/x11 
+      make
+      Make yourself a super user then type:	 
+      make install
+
+3) Sound effects also need to be downloaded separately.
+    The game is playable without it, but it may print an error
+    message. Get them at 
+    http://sourceforge.net/project/showfiles.php?group_id=13833
+   under crossfire client sounds 1.9.1 
+
+4) Go to the "home/wograld-client" folder.  There should be
+    a folder called "sound-src".  Put the "sounds" from this
+    download into it.
+
+5) Go to "home/wograld-client/x11" and run "./wogclnt"
+    This client should be working. I do not have the other
+    client up to date yet:  "home/wograld-client/gtk/gwogclnt" 
+
+    
+Administration Instructions
+
+Changing the artwork
+
+to add new graphics, 
+1)  You should use the new arches from CVS.  "arch"
+2)  Put the files into "/home/wograld"/lib/arch/.
+3) Go to "/home/wograld"/lib/ and type "make collect".
+    This does some parsing of ".png" and ".arc" to create
+    files for monsters and other objects.
+
+
+4) Go to "/usr/games/wograld/share/wograld" and back up the
+    files for animations,archetypes,bmaps,bmaps.paths,wograld.0,
+    wograld.1,wograld.2,faces,smooth.
+5) Return to "home/wograld"/lib.  Copy
+	animations,archetypes,bmaps,bmaps.paths,wograld.0,
+    wograld.1,wograld.2,faces,smooth into 
+    "/usr/games/wograld/share/wograld"
+6) go to the "/home/wograld"/server/lib/arch folder, and copy the treasures file into /usr/games/wograld/share/wograld folder;
+	for now do not use the one produced from "make collect"
+
+Changing the code  
+
+1) drop all the files into /home/wograld or whereever you put it.
+2)  ./configure  make    make install
+
+USAGE
+
+  Wograld runs on a client/server model.  You will also need the
+  client to play.  You can either connect to a server someone else
+  has set up, or run your own server and connect to that.  The
+  client package has information for connecting to servers.
+
+  To run your own server, you need to make the wograld binaries and install
+  them, and then run the wograld program.  This now creates a server which
+  you/other people can connect to.  The map files will need to get downloaded
+  and installed for the server to run properly.  The maps should be
+  unpacked in the $(TARGET)/share/wograld directory - after unpacking,
+  you should have a $(TARGET)/share/wograld/maps directory.
+
+  If you plan to run a long term server, you should use one of the scripts
+  provided that will re-run wograld if it dies for some reason.
+
+MAILING LIST
+
+  For the latest subscription for wograld mailing lists, go to:
+  http://sourceforge.net/mail/?group_id=184075
+
+  From there you should be able to subscribe/unsubscribe any of the mailing
+  lists.  Links to archives of the mailing lists can be found there, as well
+  as at this link for the discussion list:
+  https://lists.sourceforge.net/lists/listinfo/wograld-discuss
+
+  Message forum can be found here:
+  http://wograld.8.forumer.com/
+
+FTP SITES
+
+  FTP-sites where you can look for the latest versions are currently non-existant.
+
+  Changes made since the latest release can be found at the CVS
+  repository.  Information on anonymous CVS access as 
+  the download CVS snapshots and browsing the repository can be 
+  found at:
+	http://sourceforge.net/scm/?type=cvs&group_id=184075
+
+
+WEB SITES:
+
+  The following web addresses have wograld information that you may find
+  useful:
+
+  http://www.wograld.org/
+  is the main wograld site.
+
+
+REPORTING BUGS
+
+  First, check the INSTALL file  and the admin-install for common problems, and see if yours is
+  mentioned.
+
+  Bugs should be filed at the sourceforge web site:
+        http://sourceforge.net/tracker/?group_id=184075&atid=907801
+
+  When reporting bugs, make sure you include the following:
+  o If you have a sourceforge login, make sure you are logged in.  In this
+    way, if there are questions about the bug, you will be notified about
+    the request for more information.
+  o What version of wograld did you use?
+  o What type of computer did you use (CPU type)
+  o What is the version of the OS (ie Debian testing, fedora core 16 etc) ?
+  o What windowing system are you using (Ie, openwindows, X11R6, etc)
+  o What compiler (and its version) did you use (ie, gcc, acc, etc)?
+  o Which flags did you give it?
+  o If the bug happens when compiling wograld, send an EXACT copy of
+    the compiler line, as well as the errors it puts out.  Sending bugs
+    of the sort 'it failed with a line like ...' doesn't help any.
+  o If the bug happened while running wograld:
+    - Include any output before to the bug.
+    - Give a description of what you did before the bug occured.  The better
+	detailed the description, the better chance I have of figuring
+	out where the bug happened, or how I can recreate the bug.
+    - If possible, a stack trace from gdb (or other debugger) is very
+      helpful.
+
+The more information provided, the better chance of the bug being fixed in
+a timely fashion.
+
+Further debugging informatiion can be found at
+http://crossfire.real-time.com/debugging_tips.html
+
+------------------------------------------------------------------------------
+SUBMITTING PATCHES:  See the doc/programming_guide file.
+   The patches should be submitted to the patch tracker on sourceforge:
+        http://sourceforge.net/tracker/?group_id=184075&atid=907803
+
+PUBLIC SERVERS:
+
+The best way to find a server to play is to run the client.  It will contact
+the metaserver and present a list to choose from.  Unfortunatly, we do not have
+a metaserver for wograld up yet.
+
+COPYRIGHT
+
+    Don't get scared by the below, it's included just for "safety" reasons 8)
+    (Don't want anyone to start selling the game)
+    Copyright (C) 2006,2012 Lori Nagel
+    Copyright (C) 2000,2006 Mark Wedel
+    Copyright (C) 1992 Frank Tore Johansen
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+    The author can be reached via e-mail to wograld-devel@real-time.com

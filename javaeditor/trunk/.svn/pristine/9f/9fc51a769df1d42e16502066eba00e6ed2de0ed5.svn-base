@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <title>Merging Map Editors</title>
+</head>
+<body>
+<h2>About this document</h2>
+
+<p>
+    This document describes changes, dangers and ways about merging the map
+    editors of the MMORPG projects Crossfire and Daimonin. </p>
+
+<h3>Authors</h3>
+
+<ul>
+    <li><a href="mailto:cher@riedquat.de">Christian Hujer</a></li>
+</ul>
+<h2>Introduction</h2>
+
+<p>
+    The MMORPG Daimonin split from Crossfire several years ago. At that time,
+    Crossfire had a map editor, which was also split for Daimonin. Now,
+    approximately 5 years after the split, the formats for maps and other game
+    data still are quite similar. </p>
+
+<p>
+    What will probably stay in common for both projects for quite a long time is
+    the game data architecture. The game data architecture mainly knows the
+    following entities: </p>
+<dl>
+    <dt>Map</dt>
+    <dd>A game map consists of map width × map height map squares.</dd>
+    <dt>Map Square</dt>
+    <dd>A map square consists of zero or more arch object instances.</dd>
+    <dt>Arch</dt>
+    <dd>An arch is a prototype for arch object instances.</dd>
+    <dt>Arch Object Instance</dt>
+    <dd>An arch object instance is a game object.</dd>
+</dl>
+<h3>Current Situation</h3>
+
+<p>
+    Currently, there exist two editors of interest: The Crossfire Java Editor
+    and the Daimonin Editor, written in Java as well. The Crossfire Editor has
+    some interesting features the Daimonin Editor does not yet have, most
+    notably a scripting plugin for Python. The Daimonin Editor also has some
+    interesting features the Crossfire Editor does not yet have, most notably
+    performance, smaller footprint, cleaner code and design, a map validator and
+    more editing possibilities. </p>
+
+<h3>Technical ways of merging</h3>
+
+<p>
+    The following possibilities for merging exist: </p>
+
+<ol>
+    <li>Throwing away Daimonin Editor and using Crossfire Editor as a base.</li>
+    <li>Throwing away Crossfire Editor and using Daimonin Editor as a base.</li>
+    <li>Continuing both editors with the effort of assimilating each other until
+        a state where not a single line of code differs, then spin off a new
+        project for the editor.
+    </li>
+</ol>
+<p>
+    The last possibility means the biggest effort of all, but has the advantage
+    of not discriminating either editor and the chance of retaining all useful
+    features of both editors. This document only discusses the last one of these
+    possibilities. </p>
+
+<h2>Realization</h2>
+
+<h3>Future Code Base</h3>
+
+<p>
+    The following possibilities for future code bases exist: </p>
+
+<ul>
+    <li>A. Maintaining the editor within Crossfire.</li>
+    <li>B. Maintaining the editor within Daimonin.</li>
+    <li>
+        C. Maintaining the editor within a project of its own, whilst
+        <ul>
+            <li>C.1 keeping the differences within each project,</li>
+            <li>
+                C.2 Keeping the differences with the editor project
+                <ul>
+                    <li>C.2.a not apart (means a X editor user will have to load
+                        the Y specific parts as well),
+                    </li>
+                    <li>C.2.b in separate branches,</li>
+                    <li>C.2.c in separate modules.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p>
+    The following persons have made statements about the possibilities: </p>
+
+<ul>
+    <li>Cher, voting for C.2.c</li>
+    <li>Zergus, voting for C.2.c</li>
+    <li>Ragnor and other editor developers: votes missing</li>
+    <li>Project leaders / admins: votes missing</li>
+</ul>
+<h3>How to merge</h3>
+
+<p>
+    There are four possibilities for merging: </p>
+
+<ul>
+    <li>D. Using the Crossfire editor as base, merging the Daimonin specific
+        parts into it.
+    </li>
+    <li>E. Using the Daimonin editor as base, merging the Crossfire specific
+        parts into it.
+    </li>
+    <li>F. Developing both editors in separate modules or projects whilst
+        assimilating each other, until a merge is easy.
+    </li>
+    <li>G. Creating a new editor from the scratch, assimilating parts of the old
+        editors.
+    </li>
+</ul>
+<p>
+    The following persons have made statements about the possibilities: </p>
+
+<ul>
+    <li>Cher, definitely declining D. and E., but unsure whether to do F. or G..
+    </li>
+    <li>Ragnor, zergus and other editor developers: votes missing</li>
+    <li>Project leaders / admins: votes missing</li>
+</ul>
+<h2>Appendix</h2>
+
+<h3>References</h3>
+
+<ul>
+    <li><a href="http://crossfire.real-time.com/">Crossfire Homepage</a>
+    </li>
+    <li><a href="http://www.daimonin.net/">Daimonin Homepage</a></li>
+</ul>
+<ul>
+    <li>
+        <a href="http://sourceforge.net/projects/crossfire">SourceForge
+            Crossfire project page</a>
+    </li>
+    <li>
+        <a href="http://sourceforge.net/projects/daimonin">SourceForge Daimonin
+            project page</a>
+    </li>
+</ul>
+<ul>
+    <li><a href="http://japi.sourceforge.net/">JAPI Homepage</a></li>
+    <li>
+        <a href="http://sourceforge.net/projects/japi">SourceForge JAPI project
+            page</a>
+    </li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,21 @@
+arch map
+name test for CustomType map validator
+difficulty 1
+width 3
+height 1
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch rod1
+end
+arch rod1
+x 1
+type 1
+end
+arch mob1
+x 2
+arch rod1
+type 1
+end
+end

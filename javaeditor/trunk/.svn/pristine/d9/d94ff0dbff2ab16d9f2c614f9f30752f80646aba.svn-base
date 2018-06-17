@@ -1,0 +1,92 @@
+
+UpdaterAutoCheck=false
+
+# Whether the map validator is enabled.
+Validator.All=true
+
+# Whether this map validator check is enabled.
+Validator.AttributeRange=true
+
+# Whether this map validator check is enabled.
+Validator.ConnectedInsideContainer=true
+
+# Whether this map validator check is enabled.
+Validator.ConnectedPickable=true
+
+# Whether this map validator check is enabled.
+Validator.Connection=true
+
+# Whether this map validator check is enabled.
+Validator.CustomType=true
+
+# Whether this map validator check is enabled.
+Validator.Environment=true
+
+# Whether this map validator check is enabled.
+Validator.Exit=true
+
+# Whether this map validator check is enabled.
+Validator.MapDifficulty=true
+
+# Whether this map validator check is enabled.
+Validator.NonAbsoluteExitPath=true
+
+# Whether this map validator check is enabled.
+Validator.PaidItemShopSquare=true
+
+# Whether this map validator check is enabled.
+Validator.ShopSquare=true
+
+# Whether this map validator check is enabled.
+Validator.TilePaths=true
+
+# Whether this map validator check is enabled.
+Validator.UndefinedArchetype=true
+
+# Whether this map validator check is enabled.
+Validator.UndefinedFace=true
+
+# Whether this map validator check is enabled.
+Validator.UnsetSlaying=true
+
+# Archetype directory.
+archDirectory=test-mapvalidator/crossfire/arch
+
+configSource=ARCH_DIRECTORY
+
+# Last displayed version of the help documentation.
+docuVersion=2
+
+filterRealMaps=true
+
+# Language for the user interface.
+language=en
+
+# Maps directory.
+mapDirectory=test-mapvalidator/crossfire/maps
+
+# The settings for alpha faces.
+mapViewSettings.alphaType=0
+
+# Whether autojoining is enabled.
+mapViewSettings.autojoin=false
+
+# Whether double faces are shown.
+mapViewSettings.doubleFaces=false
+
+# Whether the map grid is visible.
+mapViewSettings.gridVisible=false
+
+# Whether lighted map squares are highlighted.
+mapViewSettings.lightVisible=false
+
+# Whether smoothing is active.
+mapViewSettings.smoothing=false
+
+mediaDirectory=
+
+# Script directory.
+scriptDirectory=test-mapvalidator/crossfire/scripts
+
+# The image set to use.
+useImageSet=base

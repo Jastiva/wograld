@@ -1,0 +1,70 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" CONTENT="Adobe PageMill 2.0 Mac">
+    <TITLE>Manipulating Objects</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<H1 align=center>Manipulating Objects</H1>
+
+<P> Simple maps can be created just by using the default objects from the
+    left-side window. Though, if you want to create real cool maps, you will
+    need to modify these objects very often, to suit your needs.</P>
+
+<P>The object's in-game appearance and functionality is defined by many
+    different attributes (object-type, name, resistances, ... etc). If you want
+    to change the attributes of an object, you have two options:</P>
+
+<ol>
+    <LI><b>Use the convenient attribute interface</b>
+
+        <br>
+        Select the object you want to modify, then double click on it in the
+        <A HREF="tut_frames.html">Map-Archetype Panel Window</A> (on the right
+        side). You could alternatively select it and press the "Attributes"
+        button on the <A HREF="tut_frames.html">Object Attribute Window</A>. A
+        popup window will appear, containing all object attributes in a
+        graphical user interface.
+        <br>
+        Keep in mind that the syntax definitions for this entire thing are
+        written in well-readable XML. So if you notice that some attribute is
+        wrong, or missing, I strongly recommend you trying to edit the
+        definitions file: "types.xml".
+
+    <LI><b>Modify the archetype text directly</b>
+
+        <br>
+        Select the object you want, then modify the attributes directly in the
+        <A HREF="tut_frames.html">Archetype text Window</A> (in the bottom-right
+        corner).
+        <br>
+        But beware! You need to know exactly what you are doing there. If you do
+        typos or set wrong values, you won't receive a warning. Modifying the
+        archetype text directly is advisable for more experienced map makers
+        only.
+</ol>
+
+</BODY>
+</HTML>

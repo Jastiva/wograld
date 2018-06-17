@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!-- The types document root element. -->
+<!ELEMENT types ((bitmasks|xi:include), (lists|xi:include), (ignorelists|xi:include), (default_type|xi:include), (type|xi:include)+)>
+<!ATTLIST types>
+
+<!ELEMENT bitmasks (bitmask*)>
+<!ATTLIST bitmasks
+    xml:base    CDATA #IMPLIED
+>
+
+<!ELEMENT lists (list*)>
+<!ATTLIST lists
+    xml:base    CDATA #IMPLIED
+>
+
+<!ELEMENT ignorelists (ignore_list*)>
+<!ATTLIST ignorelists
+    xml:base    CDATA #IMPLIED
+>
+
+<!-- name: the name of the bitmask; must be unique -->
+<!-- is_named: whether values are to be encoded as strings in external
+     representation -->
+<!ELEMENT bitmask (bmentry+)>
+<!ATTLIST bitmask
+    name        CDATA #REQUIRED
+    is_named    (yes|no) "no"
+>
+
+<!ELEMENT list (listentry+)>
+<!ATTLIST list
+    name        CDATA #REQUIRED
+>
+
+<!-- value: must be unique within the surrounding <list> -->
+<!-- name: must be non-empty -->
+<!ELEMENT listentry EMPTY>
+<!ATTLIST listentry
+    value       CDATA #REQUIRED
+    name        CDATA #REQUIRED
+>
+
+<!-- bit/value: exactly one must be specified -->
+<!-- value: only valid within "is_named" <bitmask> elements -->
+<!-- value: integer value of bitmask -->
+<!-- bit: bit value 0..31 -->
+<!-- name: the name for the value -->
+<!-- encoding: the external representation of the bit value -->
+<!-- encoding: only valid within "is_named" <bitmask> elements -->
+<!ELEMENT bmentry EMPTY>
+<!ATTLIST bmentry
+    bit         CDATA #IMPLIED
+    value       CDATA #IMPLIED
+    name        CDATA #REQUIRED
+    encoding    CDATA #IMPLIED
+>
+
+<!-- name: name of the ignore list; must be unique -->
+<!-- attribute: 'arch' attribute specifies the section name to be ignored;
+     other attributes are not allowed -->
+<!ELEMENT ignore_list (attribute*)>
+<!ATTLIST ignore_list
+    name        CDATA #REQUIRED
+>
+
+<!ELEMENT default_type (attribute*)>
+<!ATTLIST default_type
+    xml:base    CDATA #IMPLIED
+>
+
+<!-- import_type: imports are applied in the given order; attributes defined in
+     the type or in a preceding import_type are not imported; the default_type
+     is implicitly imported at the end. -->
+<!-- available: the type is ignored when set to "no"; can be used to
+     temporarily disable type definitions. -->
+<!-- display: a string to include in the description of this type; ${attr}
+     references are replaced with attribute values; ${attr?true:false}
+     references are replaced by "true" if the attribute exists and is not zero,
+     or else by "false". -->
+<!-- map: when set to 'no', generate a map warning if this game object is placed
+     directly on a map. -->
+<!-- inv: comma-separated list of game object types that allow this object as
+     their inventory. If this game object is part of any other inventory, a map
+     warning is generated. Defaults to '*' which disables the check. -->
+<!-- allows_all_inv: when set to 'yes', implicitly adds this game object type to
+     'inv' of all &lt;type&gt; definitions. -->
+<!ELEMENT type (import_type*,required?,ignore?,description?,use?,(section | attribute)*)>
+<!ATTLIST type
+    xml:base    CDATA #IMPLIED
+    name        CDATA #REQUIRED
+    number      CDATA #REQUIRED
+    available   (yes|no) 'yes'
+    display     CDATA #IMPLIED
+    map         (yes|no) 'yes'
+    inv         CDATA #IMPLIED
+    allows_all_inv (yes|no) 'no'
+>
+
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT use (#PCDATA)>
+
+<!ELEMENT import_type EMPTY>
+<!ATTLIST import_type
+    name        CDATA #REQUIRED
+>
+
+<!ELEMENT required (attribute+)>
+<!ELEMENT ignore (section*,attribute*,ignore_list*)>
+
+<!ELEMENT section (attribute*)>
+<!ATTLIST section
+    name        CDATA #REQUIRED
+>
+
+<!-- type: type number; integer value -->
+<!-- name: name for the type -->
+<!-- arch: section name to be ignored (within <ignore_list>) -->
+<!-- min/max: absolute allowed range; editor rejects -->
+<!-- check_min/check_max: recommended range; editor warns -->
+<!ELEMENT attribute (#PCDATA)>
+<!ATTLIST attribute
+    type        CDATA #IMPLIED
+    arch        CDATA #IMPLIED
+    arch_begin  CDATA #IMPLIED
+    arch_end    CDATA #IMPLIED
+    editor      CDATA #IMPLIED
+    value       CDATA #IMPLIED
+    min         CDATA #IMPLIED
+    max         CDATA #IMPLIED
+    check_min   CDATA #IMPLIED
+    check_max   CDATA #IMPLIED
+    length      CDATA #IMPLIED
+    true        CDATA #IMPLIED
+    false       CDATA #IMPLIED
+    marker      CDATA #IMPLIED
+>
+
+<!ELEMENT xi:include (xi:fallback?)>
+<!ATTLIST xi:include
+    xmlns:xi    CDATA #FIXED 'http://www.w3.org/2001/XInclude'
+    href        CDATA #REQUIRED
+    parse       (xml|text) "xml"
+    encoding    CDATA #IMPLIED
+>

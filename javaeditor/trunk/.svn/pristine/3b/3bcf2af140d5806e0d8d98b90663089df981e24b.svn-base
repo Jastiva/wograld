@@ -1,0 +1,96 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <TITLE>Loading Archetypes And Maps</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<H1 align=center>Loading archetypes and maps</H1>
+
+<H2>Archetypes</H2>
+
+<P>First off: What are Crossfire Arches? - They are the definitions of default
+    objects, for example an ordinary orc, a door or standard food. These
+    archetypes are vital for the editor and you can't work without them.</P>
+
+<P>It is very important to know that there are two ways to load the archetypes:
+
+<ol>
+
+    <LI><P>Load it from collected archive files. These are included in your
+        editor and per default, these get loaded. Hence, if you don't want to
+        care about archetypes, there's no need to worry about that.</P>
+
+    <LI><P>Download the Crossfire arch package. You can download it either
+        directly from SVN or from the download area on the Crossfire project.
+        Both of these can be found at
+        <A href="http://sourceforge.net/projects/crossfire/">http://sourceforge.net/projects/crossfire/</A>).
+    </P>
+
+        <P>Once you've got the arch folder, you must <B>set the path</B> to this
+            folder. Select the menu "File-&gt;Options...", un-check the box
+            "Load Arches from Collection", then enter the path in "Arch". When
+            you're at it, you can also customize the default map-path.</P>
+
+        <P>Now you're ready to go. Click OK, quit the editor and restart it.
+            This time the archetypes will load from all the individual arch and
+            image files. You will notice that the editor takes about three times
+            longer to load that way.</P>
+
+</ol>
+<P>You might ask yourself now: "Why should I spend my time downloading the arch
+    package only to find out it takes three times longer to load?". Well, at
+    some point during map making you will probably want to modify an archetype,
+    create new archetypes or new images. And for that task, you need to have the
+    individual archetype files in extracted form. However, don't worry too much
+    about the loading time. You can collect the arches after modifying/adding
+    what you want (see menu: "Resources-&gt;Collect Arches"). This will create
+    new collected archives so you can both have your changes and load in short
+    time.</P>
+
+<H2>Maps</H2>
+
+<P>Concerning maps: You don't necessarily need to have the Crossfire maps. You
+    can just head off creating your own maps. Though, most likely you will
+    notice that Crossfire map making isn't all that easy, and you'll want to
+    have working examples to look at. Besides, you will want to link your maps
+    into the existing Crossfire world and probably you'll want to test them too.
+    For all of that you need the Crossfire map package.</P>
+
+<P>Like the archetypes, you can get the maps either directly from SVN or
+    download the package. See
+    <A href="http://sourceforge.net/projects/crossfire/">http://sourceforge.net/projects/crossfire/</A>.
+    Don't forget to set the default map path to your local map directory (menu
+    "File-&gt;Options...").</P>
+
+<P>Note that there is a special convenience option for browsing through maps:
+    The "<B>enter exit</B>"-feature. You will probably know that in the
+    Crossfire game, maps are linked to each other via so-called exits (doors,
+    teleporters, buildings etc). You can select any such exit on a map (left
+    click on it), then activate the menu "Map-&gt;Enter Exit" (or just hit
+    &ltStrg&gt + &ltE&gt) and the map that this exit is pointing to gets loaded.
+</P>
+
+</BODY>
+</HTML>

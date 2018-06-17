@@ -1,0 +1,33 @@
+arch map
+name test for Exit map validator
+difficulty 1
+width 2
+height 6
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+end
+arch exit1
+end
+arch exit1
+slaying /!
+y 1
+end
+arch exit1
+slaying /Exit
+y 3
+end
+arch exit1
+slaying Exit
+y 5
+end
+arch exit1
+slaying /nonexisting
+x 1
+y 2
+end
+arch exit1
+slaying nonexisting
+x 1
+y 4
+end

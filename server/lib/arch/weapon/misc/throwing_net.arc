@@ -1,0 +1,33 @@
+Object throwing_net
+nrof 1
+name throwing net
+last_sp 4
+type 15
+face throwing_net.131
+anim
+throwing_net.101
+throwing_net.111
+throwing_net.121
+throwing_net.131
+throwing_net.141
+throwing_net.151
+throwing_net.161
+throwing_net.171
+throwing_net.181
+mina
+is_animated 0
+is_turnable 1
+is_thrown 1
+material 128
+dam 1
+weight 1500
+value 35
+editable 1024
+attacktype 4096
+weapontype 2
+magicmap grey
+name_pl throwing nets
+client_type 101
+body_arm -1
+skill one handed weapons
+end

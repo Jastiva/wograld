@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//JAPI//DTD XHTML 1.1 + XInclude 1.0//EN"
+        "../dtd/xhtml11_xinclude10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="Date" content="$Date: 2013/05/29 19:04:31 $"/>
+    <title>Gridarta Development Documentation: Code Conventions</title>
+</head>
+<body>
+<p>
+    This document describes the Code Conventions used for Gridarta. </p>
+
+<p>
+    <a href="http://java.sun.com/docs/codeconv/html/CodeConvTOC.doc.html">Code
+        Conventions for the JavaTM Programming Language</a>
+</p>
+
+<p>
+    Additionally, the following set of rules applies: </p>
+
+<h2>Small Rules</h2>
+
+<p>
+    ("small" in the sense how long it takes to describe them, not in their
+    importance!) </p>
+
+<ul>
+    <li>Imports are sorted alphabetically by package, within a package
+        alphabetically by class.
+    </li>
+    <li>The *-form of import is not allowed.</li>
+    <li>Use inline comments rarely. If you have to use inline comments to
+        explain what code does, something is wrong with the code.
+    </li>
+    <li>Annotate variables and method types with <code>@Nullable</code> resp.
+        <code>@NotNull</code>.
+    </li>
+    <li>Annotate action methods with <code>@ActionMethod</code>.</li>
+</ul>
+<h2>Field Initialization</h2>
+
+<p>
+    Field initialization with the automatic default value is only allowed if the
+    automatic default value carries semantics that are used later. In all other
+    circumstances, which means in most cases, fields must not be initialized
+    with the automatic default value. (The automatic default value is
+    <code>null</code>, zero (any mutations of <code>0</code> resp.
+    <code>0.0</code>) or <code>false</code>.) </p>
+
+<h2>Stream I/O Handling</h2>
+
+<p>
+    The following example code shows how streams should be opened / closed: </p>
+<pre class="listing"><xi:include href="SafeCopy.java.xhtml" xpointer="element(/1/2/1/1)"/></pre>
+<p>
+    Rationale: </p>
+
+<ul>
+    <li>The stream references needn't be nulled because they loose scope
+        instantly after being closed.
+    </li>
+    <li>The stream references can't be null.</li>
+    <li>The stream references can be declared final.</li>
+    <li>Compared with these features, the code is relatively short.</li>
+    <li>The disadvantage of nesting tries is only really an issue for more than
+        two streams, which is a really rare case.
+    </li>
+</ul>
+<p>
+    The single catch for multiple streams is okay because the following cases
+    can happen: </p>
+
+<ul>
+    <li>work okay, stream open, close okay - good.</li>
+    <li>work okay, stream open, close exception - interested in close exception.
+    </li>
+    <li>work exception, stream open, close okay - interested in work exception.
+    </li>
+    <li>work exception, stream closed, close won't throw an exception (API spec)
+        - interested in work exception.
+    </li>
+    <li>work exception, stream undefined, close exception - close exception is
+        probably as good as work exception.
+    </li>
+</ul>
+<h2>The Rules in Detail</h2>
+
+<p>
+    This description describes the inspection profile "No errors allowed here".
+    As the name already suggests, this inspection profile must always run
+    without errors. The purpose of this inspection profile is to prevent a
+    regression of code quality. Currently it is quite small. New rules will be
+    added whenever a certain level of cleanness and style is reached. </p>
+
+<p>
+    The following list explains the current rules, listed in a way that you can
+    easily identify them in IntelliJ IDEA. It serves two purposes. One is to
+    explain the rationale of the configured rules. The other is to enable
+    developers that do not use IntelliJ IDEA / InspectionGadgets to know what
+    the rules are to be able to perform the same verifications. </p>
+
+<ul>
+<li>
+Inspections
+<ul>
+<li>
+    Abstraction issues
+    <dl>
+        <dt>'instanceof' check for 'this'</dt>
+        <dd>
+            This most likely is a failure to understand object oriented
+            programming. Such constructs must be replaced by proper
+            polymorphism.
+        </dd>
+    </dl>
+</li>
+<li>
+    Assignment issues
+    <dl>
+        <dt>Assignment replaceable with operator assignment</dt>
+        <dd>
+            Operator assignments should be used wherever applicable because they
+            are easier to read: It's faster to see and understand that the new
+            variable value is based on a modification of the original value, not
+            a completely new value.
+            <br/>
+            Conditional operators are currently ignored because <code>foo |=
+            bar();</code> is not the same as <code>foo = foo || bar();</code>
+            because the behavior regarding side-effects in <code>bar()</code> is
+            changed.
+        </dd>
+        <dt>Assignment to catch block parameter</dt>
+        <dd>
+            This reports things like <code>catch (FooException e) { e = ...;
+            }</code> as they are either errors or, if not, at least very
+            confusing.
+        </dd>
+    </dl>
+</li>
+<li>
+    Bitwise operation issues
+    <dl>
+        <dt>Incompatible bitwise mask operation</dt>
+        <dd>
+            Bitwise mask expressions which are guaranteed to always evaluate to
+            true or false most likely are logical errors. Example: <code>(var
+            &amp; constant1) == constant2</code>.
+        </dd>
+        <dt>Pointless bitwise expression</dt>
+        <dd>
+            Pointless expressions that and with zero, or with zero or shift with
+            zero most likely are logical errors.
+        </dd>
+        <dt>Shift operation by inappropriate constant</dt>
+        <dd>
+            Shifts with shift values out of range (0..31 for int, 0..63 for
+            long) most likely are logical errors.
+        </dd>
+    </dl>
+</li>
+<li>
+    Class structure
+    <dl>
+        <dt>'final' method in 'final' class</dt>
+        <dd>
+            This is unnecessary and may be confusing. Methods in final classes
+            are always implicitly final. A method should only be explicitly
+            declared final if the context is "the class might be subclasses, but
+            this method is not designed to be overridden". Thus if a method in a
+            final class is explicitly declared final, it may lead to the
+            conclusion that the class was declared final by mistake.
+        </dd>
+        <dt>Missing @Deprecated annotation</dt>
+        <dd>
+            Makes sure that deprecated members that are documented as deprecated
+            in Javadoc (<code>@deprecated</code> Javadoc tag) are also annotated
+            as <code>@Deprecated</code> in the source code.
+            <br/>
+            Background: Future compiler versions (JDK 1.6 or JDK 1.7) might stop
+            to parse Javadoc comments. To get the deprecation information into
+            the class file, the annotation must be used then. Also, deprecation
+            information might only be fully reflective on 1.5 or later if it was
+            declared with the annotation.
+        </dd>
+        <dt>Missing @Override annotation</dt>
+        <dd>
+            Makes sure that members that override members from a class (not
+            implement from an interface) are annotated as <code>@Override</code>
+            in the source code.
+            <br/>
+            Background: A missing <code>@Override</code> isn't an error by
+            itself. But the opposite situation, an <code>@Override</code> when
+            nothing is overridden is an error. That is useful for finding typos
+            when wanting to override a method. E.g. if you override <code>toString()</code>
+            using <code>@Override public String tostring()</code> (not the
+            typo), the compiler will be able to report this as an error.
+        </dd>
+        <dt>'private' method declared 'final'</dt>
+        <dd>
+            Private methods are implicitly final. Explicitly declaring them
+            final looks like the method should be public or protected instead.
+        </dd>
+        <dt>'protected' member in 'final' class</dt>
+        <dd>
+            Final classes cannot be sub-classed. Protected members are
+            explicitly visible for subclasses. Because of that, protected
+            members in final classes are an oxymoron that indicates an error.
+        </dd>
+        <dt>'public' constructor in non-public class</dt>
+        <dd>
+            If the class is not visible, the constructor isn't either. Declaring
+            the constructor of higher accessibility than its class is pointless
+            and most likely an error.
+        </dd>
+    </dl>
+</li>
+<li>
+    Code style issues
+    <dl>
+        <dt>Missorted modifiers</dt>
+        <dt>Modifier order does not match JLS suggestion</dt>
+        <dd>Annotations should be sorted alphabetically, annotations MUST be
+            sorted before keywords, keywords must be sorted according to JLS.
+        </dd>
+    </dl>
+</li>
+<li>
+    Finalization issues
+    <dl>
+        <dt>'finalize()' called explicitly</dt>
+        <dd>finalize() must only be called by the garbage collector, but not
+            application software.
+        </dd>
+        <dt>'finalize()' does not call 'super.finalize()'</dt>
+        <dd>This always is an error as this prevents the superclass from
+            performing its own finalization code.
+        </dd>
+        <dt>'finalize()' not declared 'protected'</dt>
+        <dd>This is an error because 'finalize()' must not be public because it
+            never needs to be called directly.
+        </dd>
+    </dl>
+</li>
+<li>
+    General
+    <dl>
+        <dt>Declaration has Javadoc problems</dt>
+        <dd>
+            Makes sure that a Javadoc comment that is present also has a certain
+            level of technical quality. Currently the following omissions are
+            treated as errors: <code>@author</code> for top level classes,
+            periods in briefs, <code>@return</code> for methods,
+            <code>@param</code> and <code>ŧhrows</code> or
+            <code>@exception</code> for methods and constructors. Unknown
+            Javadoc tags are also reported (<code>@note</code> and similar
+            extension tags are known to this inspection and won't cause false
+            positives).
+            <br/>
+            Though it would be possible to ignore deprecated elements, they're
+            not. Even if an element is deprecated, it must still be documented
+            properly and without errors.
+        </dd>
+        <dt>Declaration has problems in Javadoc references</dt>
+        <dd>
+            Makes sure that references in Javadoc comments (<code>{@link
+            ...}</code> and eventually <code>@see ...</code>) can be resolved.
+        </dd>
+        <dt>equals() and hashCode() not paired</dt>
+        <dd>
+            Due to their contract, equals() and hashCode() must always be
+            paired. If one of them is overridden, so must be the other.
+        </dd>
+        <dt>Redundant suppression</dt>
+        <dd>Reports usages of warning suppression when they suppress something
+            that isn't there.
+        </dd>
+        <dt>Variable is assigned to itself</dt>
+        <dd>Stuff like <code>a = a;</code> most likely is an error.
+        </dd>
+        <dt>Wrong package statement</dt>
+        <dd>Reports when the package statement doesn't correspond to the project
+            directory structure.
+        </dd>
+    </dl>
+</li>
+<li>
+    Imports
+    <dl>
+        <dt>* import</dt>
+        <dd>
+            * imports are forbidden in Gridarta.
+        </dd>
+        <dt>Import from same package</dt>
+        <dt>java.lang import</dt>
+        <dt>Redundant import</dt>
+        <dd>
+            Redundant or pointless imports are forbidden in Gridarta.
+        </dd>
+        <dt>Static import</dt>
+        <dd>Our code style doesn't allow static import.</dd>
+        <dt>Unused import</dt>
+        <dd>Import statements must not list types they don't use.
+        </dd>
+    </dl>
+</li>
+<li>
+    Inheritance issues
+    <dl>
+        <dt>Abstract method with missing implementations</dt>
+        <dd>
+            The compiler would of course report this in the subclasses that miss
+            the implementation. This inspection supports you while editing or if
+            you're too lazy to perform a build prior to a commit.
+        </dd>
+    </dl>
+</li>
+</ul>
+</li>
+</ul>
+</body>
+</html>

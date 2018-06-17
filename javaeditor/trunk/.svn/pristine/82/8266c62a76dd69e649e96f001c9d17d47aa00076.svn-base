@@ -1,0 +1,111 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<body>
+The face is the appearance of an object.
+<p/>
+This package contains classes for managing icons in memory sensitive caches.
+Currently, the keys to lookup the icons are Strings (usually the facename of an
+archetype), and lookup is done in HashMaps.
+<p/>
+HashMaps are fast, but, of course, never as fast as an indexed array. Though,
+HashMaps are easier to maintain. In case someone complains about the usage of
+HashMaps instead of arrays in this package, I have documented my performance
+considerations.
+<dl>
+    <dt>How fast is String hashCode generation?</dt>
+    <dd>Extremely fast. Strings are often used as Hash keys, therefore a
+        String's hash code is ached and only calculated the first time a it is
+        queried. All subsequent invocations return the previously calculated,
+        cached hash code.
+    </dd>
+    <dt>How fast is HashMap lookup compared with Array indexing?</dt>
+    <dd>
+        To index an Array gives a constant speed of <var>O[array] = O(c)</var>
+        where <var>c</var> is the time it takes to address and offset. To lookup
+        in a HashMap gives a performance of approximately <var>O[hashMap] =
+        O(2*c + log2(n)*c*2)</var> where <var>n</var> is the number of HashMap
+        entries. In general, a HashMap gives a very good performance, but not
+        compared with an array when an index can be used.
+    </dd>
+    <dt>How does lookup scale?</dt>
+    <dd>
+        Lookup is used every time the code needs an image, which is nearly every
+        time some painting is done by Java. Since maps are 2.5-dimensional
+        structures, the lookup part of painting maps gives a general performance
+        of <var>O[paintLookup] = O(O[lookup] * x * y * z)</var>. For a map with
+        the size 24*24 and an average tile coverage of 2 faces requires 24*24*2
+        lookups which is 1152 lookups. And let <var>n</var>, the number of
+        HashMap entries, be 3688. If <var>O[lookup] == O[array]</var>, the
+        performance is <var>O[paintLookup] = O(c * x * y * z) = O(c *
+        1152)</var>. If <var>O[lookup] == O[hashMap]</var>, the performance is
+        <var>O[paintLookup] = O((2*c + log2(n)*c*2) * x * y * z) = O((2*c +
+            log2(3688)*c*2) * 1152) = O((2*c + 24*c) * 1152) = O(c *
+            29952)</var> It is a realistic assumption that the number of
+        effective cycles required for performing a lookup in Java is always
+        smaller than 10 times the performance. That means, a complete map paint
+        lookup for the given example map takes less than 300,000 cycles when
+        using a HashMap. Current CPUs execute about 5,000,000,000 cycles per
+        second.
+    </dd>
+    <dt>How often is lookup needed?</dt>
+    <dd>
+        Repainting is done when a new tile was painted, the map scrolls, a map
+        was loaded, hidden or otherwise gets completely refreshed, an archetype
+        panel scrolls or a pickmap is used. Lookup does not happen more than 2-3
+        times per second, except for scrolling.
+    </dd>
+    <dt>Other considerations</dt>
+    <dd>
+        The design to generate artificial indices for faces has some flaws.
+        Keeping several arrays in parallel to hold the same information can
+        cause serious, eventually difficult to find bugs. Such a design also
+        prevents the implementation of dynamic archetype handling, where arches
+        and faces should be loadable, editable and un-loadable during editor
+        runtime. The allocation of several large arrays also is a serious
+        indicator for design flaws when using artificial indices, also these
+        arrays need to be anxiously oversized to not get into
+        ArrayIndexOutOfBounds trouble. The natural index of a face is its name,
+        the object oriented index of a face is its own reference. Mapping face
+        names to face references therefore is a good and clear design and very
+        resistant against bugs or overflows.
+        <p/>
+        Also, an archetype first naturally comes with a face name. To get an
+        index for a face name, it is required to first do a linear search.
+        Linear search is always wrong and averages to <var>O(n * c)</var> which
+        is worse than HashMap performance. If the indices are sorted, a binary
+        search with a performance of <var>O(2*c + log2(n)*c*2)</var>, which is
+        exactly what a HashMap does. That means, the term that best describes
+        the usage of artificial face indices for increasing face lookup
+        performance is "Augenauswischerei".
+    </dd>
+</dl>
+<h4>Conclusions</h4>
+
+<ul>
+    <li>Do not use the face number for face lookup, use the face name instead.
+    </li>
+    <li>Future: Refactor all code to eliminate artificial indices for faces and
+        arches
+    </li>
+</ul>
+</body>
+</html>

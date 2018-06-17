@@ -1,0 +1,83 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <TITLE>Onto the Cool Stuff</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<H1 align="center">Onto the cool stuff</H1>
+
+<P>So you know how to create a basic map - but that's not enough, is it? You
+    want to do the "cool" things, using gates, levers, buttons, markers and
+    whatnot. Create your own special monsters and artifacts...</P>
+
+<P>Okay, so what you need to learn next is how the Crossfire objects really
+    work.</P>
+
+<P>You should know that every object has a <i>type</i>, defining it's base
+    functionality. Is it a monster, an exit, food, or a weapon? That is defined
+    by the object type. Apart from the type, there are countless
+    <i>attributes</i>. A monster for example can have health points, attack
+    type, a damage value, and many more.</P>
+
+<P>There are two "layers" for the Crossfire objects (see
+    <A HREF="tut_objects.html">manipulating objects</A>):</P>
+
+<ol>
+    <LI><b>The archetype syntax</b> - plain and ugly
+        <br>
+        <br>
+        This is how the objects are defined in the arch files and also how they
+        are stored in maps. Except for the special cases like type, name, image,
+        and scripting, you can see the real arch syntax for any selected object
+        in the <A HREF="tut_frames.html">Archetype Text Window</A>:
+        <P>
+            <IMG SRC="archtext.png" WIDTH="361" HEIGHT="234" ALIGN="CENTER">
+        </P>
+        However, this arch syntax is so cryptic and complicated sometimes, that
+        it just isn't readable unless you've got lots of practice.
+    </LI>
+    <P>
+        <LI><b>The attribute dialog</b> is there to help you
+            <br>
+            <br>
+            Select an object on the map and double click on it in the
+            <A HREF="tut_frames.html">Map-ArchPanel</A> (bottom-right window),
+            or press the "attributes" button. You'll see a popup window: The
+            so-called Attribute Dialog. This is an interface which tries to
+            interpret the Crossfire arch syntax and present it in a user
+            friendly form. This can help you to learn how things work! The &lt;Help&gt;
+            button opens a type description, while the various &lt;?&gt; buttons
+            offer explanations for each attribute.
+            <br>
+    <P>
+        <IMG SRC="attrib_window.jpg" WIDTH="298" HEIGHT="352" ALIGN="CENTER">
+    </P>
+</ol>
+<P>Apart from that, I recommend you to look at existing maps. Look how it's
+    done, copy and experiment...</P>
+
+<br>
+</BODY>
+</HTML>

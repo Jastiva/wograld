@@ -1,0 +1,10 @@
+Object safe_ground
+name safe_ground
+face safe_ground.111
+color_fg red
+color_bg white
+no_pick 1
+invisible 1
+editable 136
+type 165
+end

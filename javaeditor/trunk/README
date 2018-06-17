@@ -1,0 +1,154 @@
+GRIDARTA README
+===============
+
+This file contains some important information about Gridarta.  You should read
+it first.
+
+
+TABLE OF CONTENTS
+-----------------
+* project description
+* project website
+* system requirements
+* file structure
+* build / installation (see file INSTALL)
+* authors / credits / maintainers (see files AUTHORS, CREDITS, MAINTAINERS)
+* project news (see file NEWS)
+* mailing lists
+* license information (see file LICENSE)
+
+
+PROJECT DESCRIPTION
+-------------------
+Gridarta is a map editor for 2D MMORPGs.
+The current target applications are:
+* Atrinik     http://www.atrinik.org/
+* Crossfire   http://crossfire.real-time.com/
+* Daimonin    http://www.daimonin.net/
+
+
+PROJECT WEBSITE
+---------------
+Project homepage:   http://gridarta.sourceforge.net/
+Project website:    http://sourceforge.net/projects/gridarta/
+Project statistics: http://cia.navi.cx/stats/project/gridarta
+
+
+SYSTEM REQUIREMENTS
+-------------------
+Java 6.0 or later
+    Previous versions of Java will not work.  Gridarta uses Generics,
+    auto-boxing, static imports, foreach loops, assertions, covariant return
+    types and varargs quite a lot.
+
+Ant 1.7.0 or later
+    Previous versions of Ant might work but are not tested.
+
+
+FILE STRUCTURE
+--------------
+AUTHORS
+    People that contributed code to Gridarta. See also CREDITS, MAINTAINERS.
+
+build.xml
+    The build file to build the project with Ant.
+    See also INSTALL.
+
+COPYING
+    Gridarta license conditions.  Note: applies to Gridarta only, not third
+    party libraries.
+
+CREDITS
+    List of project contributions.  See also AUTHORS, MAINTAINERS.
+
+atrinik/
+    Directory containing the Atrinik Map Editor / Atrinik specific code.
+
+crossfire/
+    Directory containing the Crossfire Map Editor / Crossfire specific code.
+
+daimonin/
+    Directory containing the Daimonin Map Editor / Daimonin specific code.
+
+dest/ (generated)
+    The directory containing generated files.
+
+developer.properties (optional)
+    Optional file for changing default settings of the Ant build.  You won't
+    need to tweak this file for normal building.  But if you want to set or
+    override properties for build.xml, this is the place to put them.
+
+dist/ (generated)
+    Generated directory containing distribution archives.
+
+INSTALL
+    Description of how to build and install Gridarta.
+
+lib/
+    Directory containing third part libraries used to build Gridarta.  Please
+    note that these third party libraries have their own license conditions.
+    The licenses of the third party libraries are included in the lib/
+    directory.
+
+LICENSE
+    File with license information.
+
+MAINTAINERS
+    List of current project maintainers.  See also AUTHORS, CREDITS.
+
+NEWS
+    Project News.
+
+project.properties
+    File with automatically changed settings for Ant.
+
+README
+    This file
+
+src/
+    Source files.
+
+src/app/
+    Core Gridarta library sources.
+
+src/doc/
+    Documentation source files (website).
+
+src/test/
+    Unit test suite for automated unit testing of Gridarta.
+
+
+BUILD / INSTALLATION
+--------------------
+See the file INSTALL.
+
+
+MAINTAINERS / CREDITS
+---------------------
+See the file CREDITS
+
+
+PROJECT NEWS
+------------
+See the file NEWS
+
+
+MAILING LISTS
+-------------
+Gridarta mailing lists are the usual sourceforge hosted sourceforge project
+mailing lists.  The current mailing lists are:
+* gridarta-news@lists.sourceforge.net
+    News for gridarta users (low traffic)
+* gridarta-user@lists.sourceforge.net
+    discussion amongst gridarta users (medium traffic)
+* gridarta-devel@lists.sourceforge.net
+    gridarta developer talk list (medium traffic)
+* gridarta-commit@lists.sourceforge.net
+    svn commit digest list (high traffic)
+To find out how to subscribe or to read archives, go to:
+    http://sourceforge.net/mail/?group_id=166996
+
+
+LICENSE INFORMATION
+-------------------
+See the file LICENSE

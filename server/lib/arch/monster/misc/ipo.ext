@@ -1,0 +1,280 @@
+! perl
+
+my $price_fact = 50;
+
+sub set_package {
+   my ($pkg, $from, $to, $bagname, $weight) = @_;
+   $pkg->set_name ("$bagname T: $to F: $from");
+   $pkg->set_weight_limit ($weight);
+   $pkg->set_str (0);
+}
+
+# prices in plat.
+my %prices = (
+   pen => [
+      40,  'stylus',
+      sub { $_[0]->set_name ('IPO Writing Pen'); $_[0]->set_value (40 * $price_fact); }
+   ],
+   literacy => [
+      1000, 'scroll_literacy',
+      sub { $_[0]->set_value (1000 * $price_fact) }
+   ],
+   mailscroll => [
+      1, 'scroll',
+      sub {
+         $_[0]->set_name        ("mailscroll T: $_[2] F: $_[1]");
+         $_[0]->set_name_plural ("mailscrolls T: $_[2] F: $_[1]");
+         $_[0]->set_value       (1 * $price_fact);
+      },
+      'plarg'
+   ],
+   bag      => [ 1, 'r_sack', sub { set_package (@_, bag     =>   5000) }, 'plarg' ],
+   package  => [ 5, 'r_sack', sub { set_package (@_, package =>  50000) }, 'plarg' ],
+   carton   => [10, 'r_sack', sub { set_package (@_, carton  => 100000) }, 'plarg' ],
+   mailwarning => [
+      0, 'diploma',
+      sub {
+         $_[0]->set_name        ("mailwarning T: $_[2] F: $_[1]");
+         $_[0]->set_name_plural ("mailwarnings T: $_[2] F: $_[1]");
+         $_[0]->set_value       (0);
+      },
+      'plarg'
+   ],
+);
+
+my %mailtypes = (
+   1 => ['scroll', 'mailscroll'],
+   2 => ['note', 'newspaper'],
+   3 => ['diploma', 'mailwarning'],
+);
+
+sub create_object {
+   my ($name, $map, $x, $y, $cb, @a) = @_;
+   my $o = cf::object::new $name;
+   my $r = $cb->($o, @a);
+   $map->insert_object ($o, $x, $y);
+   $r
+}
+
+# this handler handles to notice the player that he has got mail
+sub on_login {
+   my ($pl, $host) = @_;
+
+   my $mails = CFMail::get_mail ($pl->ob->name);
+
+   my $cnt = @{$mails || []};
+
+   if ($cnt == 1) {
+      $pl->ob->message ("You got one mail.");
+   } elsif ($cnt > 1) {
+      $pl->ob->message ("You got $cnt mails.");
+   } else {
+      $pl->ob->message ("You haven't got any mail.");
+   }
+
+   0
+}
+
+# this event handler handles receiving of mails
+sub on_apply {
+   my ($ev, $box, $pl) = @_;
+
+   my $cnt;
+   my $mails = CFMail::get_mail ($pl->name) || [];
+
+   # count the mails that are in the container
+   # FIXME: the problem with on_apply is that it is called even when
+   # the player closes the container. so we get a 'You have X mails.' message
+   # twice. - This bug existed also with the old python plugin
+
+   my $plname = $pl->name;
+   for ($box->inv) {
+      $_->name =~ /\S+ F: \S+ T: \Q$plname\E/
+         and $cnt++;
+   }
+
+   for (@$mails) {
+      my ($type, $from, $msg) = @$_;
+      $type = $mailtypes{$type || 1} || ['scroll', 'mailscroll'];
+      my $mail = cf::object::new $type->[0];
+      $mail->set_name ("$type->[1] F: $from T: " .$pl->name);
+      $mail->set_name_plural ("$type->[1]s F: $from T: " .$pl->name);
+      $mail->set_message ($msg);
+      $mail->set_value (0);
+      $mail->insert_in_ob ($box);
+   }
+
+   $cnt += @$mails;
+
+   if ($cnt == 1) {
+      $pl->message ("You got one mail.");
+   } elsif ($cnt > 1) {
+      $pl->message ("You got $cnt mails.");
+   } else {
+      $pl->message ("You haven't got any mail.");
+   }
+
+   CFMail::clear_mail ($pl->name);
+
+   0;
+}
+
+# this event handler handles the sending of mails
+sub on_close {
+   my ($ev, $box, $pl) = @_;
+
+   my @mails;
+
+   my %sent_targets;
+
+   for ($box->inv) {
+      if ($_->name =~ m/^mail(scroll|warning) T: (\S+) F: (\S+)/) {
+         CFMail::send_mail ($1 eq 'scroll' ? 1 : 3, $2, $3, $_->message);
+         $pl->message ("Sent mail$1 to $2 (from $3).");
+         $sent_targets{$2}++;
+         push @mails, $_;
+
+      } elsif ($_->name =~ m/^mail(scroll|warning) F: (\S+) T: (\S+)/) {
+         # this is for mails that remain in the queue for the player
+         CFMail::store_mail ($1 eq 'scroll' ? 1 : 3, $3, $2, $_->message);
+         push @mails, $_;
+      }
+   }
+
+   $_->remove for @mails;
+
+   # lets message player ingame: this is a NEW feature from the perl IPO :-)
+   for (keys %sent_targets) {
+      if (my $player = cf::player::find $_) {
+         my $cnt = $sent_targets{$_};
+
+         if ($cnt == 1) {
+            $player->ob->message ("You've got new mail.");
+         } else {
+            $player->ob->message ("You've got $cnt new mails.");
+         }
+      }
+   }
+
+   0;
+}
+
+# this is the main command interface for the IPO NPC
+cf::register_script_function "ipo::command" => sub {
+   my ($who, $msg, $npc) = @_;
+   my ($cmd, $arguments) = split /\s+/, $msg, 2;
+   $cmd = lc $cmd;
+
+   my $pl = cf::player::find $who->name;
+   my ($x, $y) = ($pl->ob->x, $pl->ob->y);
+
+   if (my $pr = $prices{$cmd}) {
+      if ($cmd eq 'mailwarning' and !$who->flag (cf::FLAG_WIZ)) {
+         return 1;
+      }
+
+      $who->pay_amount ($pr->[0] * $price_fact);
+      if ($pr->[3] && not cf::player::exists $arguments) {
+         $who->reply ($npc, "Sorry, there is no '$arguments'");
+      } else {
+         create_object ($pr->[1], $who->map, $x, $y, $pr->[2], $who->name, $arguments);
+         $who->reply ($npc, "Here is your $cmd");
+      }
+
+   } elsif ($cmd eq 'receive') {
+      my $storage = cf::map::get_map ("/planes/IPO_storage");
+      unless ($storage) {
+         $who->reply ($npc, "Sorry, our package delivery service is currently in strike. Please come back later.");
+         return 1;
+      }
+
+      my $plname = $who->name;
+      my $cnt;
+      for ($storage->at (2, 2)) {
+         if ($_->name () =~ /^\S+ F: \S+ T: \Q$plname\E$/) {
+            $_->insert_in_ob ($who);
+            $cnt++;
+         }
+      }
+
+      if ($cnt) {
+         $who->reply ($npc, $cnt == 1 ? "Here is your pakage." : "Here are your packages.");
+      } else {
+         $who->reply ($npc, "Sorry, no deliverys for you sir.");
+      }
+
+   } elsif ($cmd eq 'send') {
+      unless ($arguments =~ /^\S+$/) {
+         $who->reply ($npc, "Send to who?");
+         return 1;
+      }
+
+      my $storage = cf::map::get_map ("/planes/IPO_storage");
+      unless ($storage) {
+         $who->reply ($npc, "Sorry, our package delivery service is currently in strike. Please come back later.");
+         return 1;
+      }
+
+      my $cnt;
+      for ($who->inv) {
+         if ($_->name () =~ /^(bag|package|carton) T: \Q$arguments\E F: (\S+)$/) {
+            $_->set_name ("$1 F: $2 T: $arguments");
+            $_->teleport ($storage, 2, 2);
+            $cnt++;
+         }
+      }
+
+      if ($cnt) {
+         $who->reply ($npc, $cnt == 1 ? "Package sent to $arguments." : "Sent $cnt packages to $arguments\n");
+      } else {
+         $who->reply ($npc, "Sorry, found no package to send to $arguments.");
+      }
+
+   } else {
+      $who->reply ($npc,
+         sprintf "How can I help you?\n"
+         ."Here is a quick list of commands I understand:\n\n"
+         ."- pen                 (%s platinum)\n"
+         ."- literacy            (%s platinum)\n"
+         ."- mailscroll <friend> (%s platinum)\n"
+         ."- bag <friend>        (%s platinum)\n"
+         ."- package <friend>    (%s platinum)\n"
+         ."- carton <friend>     (%s platinum)\n"
+         .($who->flag (cf::FLAG_WIZ) ? "- mailwarning <player>" : ""),
+         40, 1000, 1, 1, 5, 10
+      );
+   }
+   1
+};
+
+package CFMail;
+use POSIX qw/strftime/;
+
+require YAMLDB;
+my $MAILDB = YAMLDB->new (db_file => cf::localdir . "/crossfiremail.perl");
+
+sub get_mail {
+   my ($toname) = @_;
+   $MAILDB->get ($toname);
+}
+
+sub clear_mail {
+   my ($toname) = @_;
+   $MAILDB->clear ($toname);
+}
+
+sub store_mail {
+   my ($type, $toname, $fromname, $message) = @_;
+   my $mails = $MAILDB->get ($toname);
+   push @$mails, [$type, $fromname, $message];
+   $MAILDB->set ($toname, $mails);
+}
+
+sub send_mail {
+   my ($type, $toname, $fromname, $message) = @_;
+   my $time = strftime ("%a, %d %b %Y %H:%M:%S CEST", localtime (time));
+   my $msg = "From: $fromname\nTo: $toname\nDate: $time\n\n$message\n";
+   store_mail ($type, $toname, $fromname, $msg);
+}
+
+1;

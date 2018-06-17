@@ -1,0 +1,79 @@
+BUILDING / INSTALLING GRIDARTA
+==============================
+
+
+Gridarta is a map editor for 2D MMORPGs, mainly Atrinik, Crossfire, and
+Daimonin.
+
+
+Build Requirements
+------------------
+* Java Software Development Kit 5.0 or newer
+* Ant 1.7.0 or newer, including the "optional" tasks
+  On Debian: install packages "ant" and "ant-optional".
+  On Mandriva: install "ant-nodeps".
+
+
+Runtime Requirements
+--------------------
+* Java Runtime Environment 5.0 or newer
+
+
+How to Build
+------------
+Run "ant" to build the editor. This builds AtrinikEditor.jar,
+CrossfireEditor.jar, and DaimoninEditor.jar. To find out options about building
+Gridarta, run "ant -projecthelp".
+
+To build Debian packages, run "debuild -uc -us".
+
+
+How to Run
+----------
+java -jar AtrinikEditor.jar
+java -jar CrossfireEditor.jar
+java -jar DaimoninEditor.jar
+
+
+How to Generate Documentation (Javadoc)
+---------------------------------------
+Change to the main directory and run "ant javadoc".  The documentation will be
+placed in dest/doc/dev/api/.
+
+
+How to Publish a Build
+----------------------
+Gridarta supports updating itself through the GUI (Help|Update...). Gridarta
+first checks whether an update is available, then downloads the update.
+
+To check whether an update is available, Gridarta downloads a file specified in
+"update.url=" in atrinik/src/app/net/sf/gridarta/var/atrinik/action.properties,
+crossfire/src/app/net/sf/gridarta/var/crossfire/action.properties, or
+daimonin/src/app/net/sf/gridarta/var/daimonin/action.properties. This file
+contains the following entries:
+ - update.url=Download URL to AtrinikEditor.jar, CrossfireEditor.jar, or
+   DaimoninEditor.jar.
+ - update.number=the Gridarta version number corresponding to update.url
+ - update.tstamp=the timestamp corresponding to update.url
+ - update.developer=the name of the developer providing the build
+
+If update.tstamp is newer than the timestamp of the currently running editor, an
+update is available from update.url. The other entries are displayed to the
+user.
+
+To provide a build, edit the value of "update.url" in
+*/src/app/net/sf/gridarta/var/*/action.properties for the editor variant. Then
+create or edit the file "developer.properties" in the project's root directory.
+Add the following entries:
+ - build.developer=Name of the developer providing the build.
+ - user.update.url.atrinik=Download URL to AtrinikEditor.jar.
+ - user.update.url.crossfire=Download URL to CrossfireEditor.jar.
+ - user.update.url.daimonin=Download URL to DaimoninEditor.jar.
+The definitions of user.update.url.* are optional for editor variants not
+provided.
+
+Run "ant preparePublish". This compiles the editors and creates the file
+"update.properties" for the editor variants to publish. The result is in
+dist/atrinik, dist/crossfire, and dist/daimonin.
+
+Upload the contents of dist/atrinik, dist/crossfire, and dist/daimonin.

@@ -1,0 +1,149 @@
+Installation Instructions
+
+Fresh Install
+
+for the server:
+1)  Create a source directory under "home".  
+    Drop all files from the server CVS folder, or the
+    zip file, into here. "/home/wograld" or whatever you want
+ 
+2)  You should use the new arches from CVS.  "arch"  arch has a subfolder "arch" in it.
+Put this subfolder and its contents into the server/lib directory. See that there is a long list of ".png" and ".arc"
+    in several subfolders under /lib/arch.  
+
+3) Make sure you are in the directory "/home/wograld"/server 
+   At the command prompt on your terminal type
+    ./configure
+    then type
+    make
+    then log into root mode or sudo
+    make install
+    To run your server set your directory to "/home/wograld"/server/server and type:
+    ./wograld
+    
+    This is commonly known as Configure, make, make install and is used for compiling many software programs.
+
+4)  If it compiled, it should be installed in
+    /usr/games/wograld/bin or /usr/games/wograld/bin
+
+5)  Go to /usr/games/wograld/share/wograld
+    if there isn't a "maps" subfolder, it needs to be
+    created.
+
+6)  The maps can be downloaded from
+    CVS "maps" or from	 
+    http://sourceforge.net/projects/wograld/files
+
+7)  Put these files into /usr/games/wograld/share/wograld/maps
+
+8) Go to "/usr/games/wograld/bin".  Type "./wograld"
+    or "./wograld" to start the server.
+
+Getting the client
+
+1) get the client from the CVS "javaclient"
+
+2) put it into a "home/wograld/javaclient" folder
+
+3) this is a Java program and uses Ant to build
+	you may need to download javac and jre
+
+4) you may need to download Ant
+
+5) from home/wograld/javaclient/javaclient/trunk,
+	there should be a build.xml, if you are in the correct folder.
+	if there is an existing jxclient.jar, delete jxclient.jar.	
+	type ant to build
+	there should be a file jxclient.jar produced
+6) type "java -jar jxclient.jar" to launch the client
+
+7) run the local server with cd "/home/wograld/server/","./wograld" if it is not running,
+	and if you want to play locally 
+8) in "/home/wograld/javaclient/javaclient/" type "java -jar jxclient.jar" to launch the client
+9) connect to localhost to play locally, or select another server.
+   standard crossfire servers are not listed.
+
+If you want to try the deprecated X11 client 
+
+1)You will want to have a working client, preferably the new one.
+    Get the client source from CVS "client"
+
+2) Put it into a "home/wograld-client" folder.
+    Make sure you are in the "home/wograld"/client directory
+     ./configure
+    Now set your directory to "home/wograld"/client/x11 
+      make
+      Make yourself a super user then type:	 
+      make install
+
+3) Sound effects also need to be downloaded separately.
+    The game is playable without it, but it may print an error
+    message. Get them at 
+    http://sourceforge.net/project/showfiles.php?group_id=13833
+   under crossfire client sounds 1.9.1 
+
+4) Go to the "home/wograld-client" folder.  There should be
+    a folder called "sound-src".  Put the "sounds" from this
+    download into it.
+
+5) Go to "home/wograld-client/x11" and run "./wogclnt"
+    This client should be working. I do not have the other
+    client up to date yet:  "home/wograld-client/gtk/gwogclnt" 
+
+If you want to install a metserver:
+
+TODO
+
+You do not need to run one to connect a client to localhost, the menu looks similar on client
+If you want to run one, LAMP stack is desired, although other servers may be possible
+Do not try to use crossfire.real-time.com to index your server or search for servers,
+the protocols are different
+
+If you want to install the Java Map Editor:
+
+at a later time, hopefully, this can be merged to Gridarta
+
+1) get the editor from the CVS "javaeditor"
+
+2) put it into a "/home/wograld/javaeditor" folder
+
+3) you need javac, jre, ant
+
+4) go to "/home/wograld/javaeditor/trunk/"
+	remove CrossfireEditor.jar if it is present
+	type ant to build
+	run with "java -jar CrossfireEditor.jar"
+	to operate the editor, manuals from gridarta are useful
+
+If you want to install or use the legacy crossedit:
+
+this is present in the server files
+it is deprecated, has dependencies of xaw and libpng,
+it is not recommended
+   
+Administration Instructions
+
+Changing the artwork
+
+to add new graphics, 
+1)  You should use the new arches from CVS.  "arch"
+2)  Put the files into "/home/wograld"/lib/arch/.
+3) Go to "/home/wograld"/lib/ and type "make collect".
+    This does some parsing of ".png" and ".arc" to create
+    files for monsters and other objects.
+
+
+4) Go to "/usr/games/wograld/share/wograld" and back up the
+    files for animations,archetypes,bmaps,bmaps.paths,wograld.0,
+    wograld.1,wograld.2,faces,smooth.
+5) Return to "home/wograld"/lib.  Copy
+	animations,archetypes,bmaps,bmaps.paths,wograld.0,
+    wograld.1,wograld.2,faces,smooth into 
+    "/usr/games/wograld/share/wograld"
+6) go to the "/home/wograld"/server/lib/arch folder, and copy the treasures file into /usr/games/wograld/share/wograld folder;
+	for now do not use the one produced from "make collect"
+
+Changing the code  
+
+1) drop all the files into /home/wograld or whereever you put it.
+2)  ./configure  make    make install

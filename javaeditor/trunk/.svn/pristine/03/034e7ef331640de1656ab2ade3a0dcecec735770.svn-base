@@ -1,0 +1,91 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" CONTENT="Adobe PageMill 2.0 Mac">
+    <TITLE>Clear Cut Copy Fill</TITLE>
+</HEAD>
+<BODY>
+
+<P>
+    <A HREF="start.html"><IMG SRC="back.gif" WIDTH="42" HEIGHT="22" ALIGN="BOTTOM" NATURALSIZEFLAG="3" BORDER="0">Back</A>
+
+<H1 align=center>Cut/Copy/Paste and Fill</H1>
+
+<P>Often you will want to copy, move, delete or fill large areas of your map. To
+    accomplish this, you can use the appropriate commands from the
+    Edit-menu.</P>
+
+<P><B>Clear:</B>
+
+    <br>
+    By activating the Clear-command, everything in the currently selected area
+    of the map will be deleted. Unlike for the Cut-command, the copy buffer
+    remains unchanged.
+</P>
+
+<P><B>Cut:</B>
+
+    <br>
+    By activating the Cut-command, everything in the currently selected area of
+    the map will be deleted and stored into the copy buffer.
+</P>
+
+<P><B>Copy:</B>
+
+    <br>
+    By activating the Copy-command, everything in the currently selected area is
+    stored into the copy buffer. The map itself remains unchanged.
+    <br>
+    (Note that multi-part objects will usually be copied only when their
+    "head"-tile is located within the selected area. Since the position of this
+    "head"-tile differs, expect some strange behavior there.)
+</P>
+
+<P><B>Paste:</B>
+
+    <br>
+    The paste command allows to dump the contents of the copy buffer onto the
+    map. First, select a square on the map to be the top-left corner of the
+    pasted area. Anything which doesn't fit within the borders of the map will
+    not get pasted. Multi-part objects which would reach outside of the map
+    borders, and be it only with their small toe, don't get pasted either.
+</P>
+
+<P><B>Fill:</B>
+
+    <br>
+    There are two fill commands: "Fill Below" and "Fill Above". The difference
+    between those two should be pretty obvious: If any selected map squares are
+    not empty, the new arches will get inserted either above top (-&gt; Fill
+    Above), or below bottom (-&gt; Fill below).
+</P>
+<P>Both fill commands can be used in two different ways:</P>
+
+<ol>
+    <LI> Select *one* empty square and hit fill: All empty squares adjacent to
+        the selected one will get flood filled.
+    <LI> Select an area or a non-empty square: The currently selected default
+        arch will be inserted on top of (or below) every square within the
+        selected area.
+</ol>
+
+</BODY>
+</HTML>

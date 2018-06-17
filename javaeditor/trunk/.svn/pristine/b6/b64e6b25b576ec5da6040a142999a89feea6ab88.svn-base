@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no" ?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE types SYSTEM "types.dtd">
+<types>
+    <bitmasks/>
+    <lists>
+        <list name="event">
+            <listentry value="1" name="apply"/>
+        </list>
+    </lists>
+    <ignorelists/>
+
+    <default_type>
+        <attribute arch="name" editor="name" type="string">
+            This is the name of the object, displayed to the player.
+        </attribute>
+    </default_type>
+
+    <type number="0" name="Misc"/>
+
+    <type number="66" name="Exit">
+        <attribute arch="slaying" editor="exit path" type="map_path"/>
+        <attribute arch="hp" editor="destination X" type="int"/>
+        <attribute arch="sp" editor="destination Y" type="int"/>
+    </type>
+
+    <type number="71" name="Floor">
+        <attribute arch="z" editor="height" type="int"/>
+    </type>
+
+    <type number="80" name="Monster &amp; NPC">
+        <attribute arch="dam" editor="damage" type="int"/>
+    </type>
+
+    <type number="81" name="Spawn Point"/>
+
+    <type number="83" name="Spawn Point Monster">
+        <attribute arch="dam" editor="damage" type="int"/>
+    </type>
+</types>

@@ -1,0 +1,17 @@
+arch map
+name test for NonAbsoluteExitPath map validator
+difficulty 1
+width 2
+height 1
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+endmsg
+unique 1
+end
+arch exit1
+slaying NonAbsoluteExitPath
+end
+arch exit1
+slaying /NonAbsoluteExitPath
+x 1
+end

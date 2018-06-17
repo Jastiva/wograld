@@ -1,0 +1,48 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>Special Treasurelists</title>
+</head>
+<body>
+
+<p>
+    <a href="treasurelists.html"><img src="back.gif" width="42" height="22" align="bottom" naturalsizeflag="3" border="0">Back</a>
+
+<h1>Special treasurelists</h1>
+
+<p>Some treasurelists are used for special purposes. These can be found in the
+    sub-folders "God Intervention", "Dragon Player Evolution" and "Player
+    Creation". They cannot be used in maps.</p>
+
+<p>The "God Intervention" lists are of special importance. They define which
+    bonuses the Crossfire gods donate to their worshippers. These lists are
+    traversed from top to bottom and the grace_limit objects are only passed
+    when the worshipping player has a certain amount of grace.</p>
+
+<p>Below you see the treasurelist of the god Gnarg (as of 24.10.2002, the list
+    might have changed in the meantime).</p>
+
+<p>
+    <img src="treasure5.jpg" width="310" height="602" align="center" alt="Treasurelist 'Gnarg'">
+</p>
+
+</body>
+</html>

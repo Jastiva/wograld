@@ -1,0 +1,17 @@
+Object skill_poison_nail
+name poison nail
+skill poison nail
+type 43
+exp 0
+dam 2
+level 100
+subtype 46
+editable 0
+body_skill -1
+attacktype 1025
+invisible 1
+last_sp 4
+no_drop 1
+end
+
+

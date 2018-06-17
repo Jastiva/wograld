@@ -1,0 +1,131 @@
+#! perl
+
+use Scalar::Util;
+
+# minesweeper extension. dumb.
+
+sub result {
+   my ($ob, $status) = @_;
+
+   if (my $teleport = $ob->{options}{"teleport_$status"}) {
+      my ($x, $y) = split /,/, $teleport;
+
+      (cf::player::find $ob->{player})->ob->transfer ($x, $y);
+   }
+}
+
+sub apply {
+   my ($who) = @_;
+
+   my $meta = $who->{meta}
+      or return;
+
+   my $map = $meta->{map};
+
+   my ($x, $y) = ($who->x - $meta->x, $who->y - $meta->y);
+
+   $who->{visible} = 1;
+
+   if ($who->{bomb}) {
+      result $meta, "failure";
+   } else {
+      $meta->{todo}--;
+      # if zero, finished
+
+      my @neigh;
+
+      for my $y ($y - 1 .. $y + 1) {
+         next if $y < 0 || $y > $#{$map->[0]};
+         for my $x ($x - 1 .. $x + 1) {
+            next if $x < 0 || $x > $#$map;
+            push @neigh, $map->[$x][$y];
+         }
+      }
+
+      my $bombs = grep $_->{bomb}, @neigh;
+
+      my $ob = $map->[$x][$y] = cf::object::new "minesweeper-$bombs";
+
+      $ob->insert_ob_in_map_at ($who->map, undef, cf::INS_ABOVE_FLOOR_ONLY,
+                                $who->x, $who->y);
+
+      push @{ $meta->{queue} }, grep !$_->{visible}, @neigh
+         unless $bombs;
+
+      $who->remove;
+      $who->free;
+   }
+
+   1
+}
+
+sub on_time {
+   my ($event, $who) = @_;
+
+   if (my $queue = $who->{queue}) {
+      my $count = 4;
+
+      while (@$queue) {
+         my $i = int rand @$queue;
+         my $ob = splice @$queue, $i, 1, ();
+
+         next if $ob->{visible};
+
+         apply $ob
+            or next;
+
+         result $who, "success"
+            unless $who->{todo};
+
+         $count--
+            or last;
+      }
+   } else {
+      # generate minesweeper field
+      my %arg = split /(?:\s+|=)/, $event->options;
+
+      $who->{options} = \%arg;
+      $who->{queue} = [];
+
+      my $map = $who->{map} = [];
+
+      for my $x (0 .. $arg{width} - 1) {
+         for my $y (0 .. $arg{height} - 1) {
+            my $ob = $map->[$x][$y] = cf::object::new "minesweeper-unknown";
+            $ob->set_name ("apply to try your luck or intelligence");
+            Scalar::Util::weaken ($ob->{meta} = $who);
+
+            my $ev = cf::object::new "event_apply";
+            $ev->set_title ("perl");
+            $ev->set_slaying ("minesweeper");
+            $ev->insert_in_ob ($ob);
+            
+            $ob->insert_ob_in_map_at ($who->map, undef, cf::INS_ABOVE_FLOOR_ONLY,
+                                      $who->x + $x, $who->y + $y);
+         }
+      }
+
+      # #tiles that need to be uncovered
+      $who->{todo} = $arg{width} * $arg{height} - $arg{bombs};
+
+      for (1 .. $arg{bombs}) {
+         my $x = int rand $arg{width};
+         my $y = int rand $arg{height};
+
+         redo if $map->[$x][$y]{bomb};
+
+         $map->[$x][$y]{bomb} = 1;
+      }
+   }
+}
+
+sub on_apply {
+   my ($event, $ob, $who) = @_;
+
+   $ob->{meta}{player} = $who->name;
+   push @{$ob->{meta}{queue}}, $ob;
+
+   1
+}
+
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!-- $Id: subversion.xhtml,v 1.1.1.1 2013/05/29 19:04:31 serpentshard Exp $ --><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="Date" content="$Date: 2013/05/29 19:04:31 $"/>
+    <title>Gridarta Subversion Developer Access</title>
+</head>
+<body>
+<h2>Checking out a normal working copy</h2>
+
+<p>
+    To checkout a normal working copy of the latest development, checkout the
+    trunk. This is what's called HEAD or MAIN/LATEST in other version control
+    systems. </p>
+
+<p>
+    <code>svn co https://gridarta.svn.sourceforge.net/svnroot/gridarta/trunk
+        gridarta</code>
+</p>
+
+<h2>Rules</h2>
+
+<p>
+    Current rules are this: </p>
+
+<ul>
+    <li>
+        All files need a mime type. For normal source code, use
+        <code>text/plain</code>. Use this command to set the mime type:
+        <br/>
+        <code>svn propset svn:mime-type text/plain <var>filename</var></code>
+
+        <br/>
+        <em>Note:</em> A hook verifies that the mime type is set.
+    </li>
+    <li>
+        All files with a text based mime type need a line ending setting.
+        Gridarta convention is to always use <code>LF</code>. Use this command
+        to set the line ending style:
+        <br/>
+        <code>svn propset svn:eol-style LF <var>filename</var></code>
+
+        <br/>
+        <em>Note:</em> A hook verifies that the eol style for files with mime
+        type text/* is set.
+    </li>
+    <li>
+        All XHTML files of the documentation (<code>src/doc/**/*.xhtml</code>)
+        need a meta element for the edit date:
+        <br/>
+        <code><![CDATA[<meta name="Date" content="$]]>
+            <![CDATA[Date$" />]]></code>
+
+        <br/>
+        Also, they need their keyword substitution set to <code>Date</code>. Use
+        <code>svn propset svn:keywords Date <var>filename</var></code> to set
+        the keyword substitution.
+        <br/>
+        <em>Note:</em> Because we cannot install custom hooks on SF, this is
+        <em>not</em> checked with a hook.
+    </li>
+</ul>
+<h2>Releases</h2>
+
+<p>
+    Releases are created in the following way: </p>
+
+<ol>
+    <li>
+        A branch with the new release name is created. Usually the branch will
+        increase the minor revision and use it as its name. Example: <code>svn
+        copy trunk branches/0.8</code>. The policy for branches is that they
+        aren't completely frozen, but only changes required for release and bug
+        fixing are allowed.
+    </li>
+    <li>
+        The branch is brought into releasable state. This usually should be zero
+        effort, yet consider this a separate step.
+    </li>
+    <li>
+        The release is published. As a part of the release publishing, a tag
+        with the new release name and patch level is created. Example: <code>svn
+        copy branches/0.8 tags/0.8.0</code>. The policy for tags is that they
+        are completely frozen, tags must never ever be changed.
+    </li>
+</ol>
+<h2>Checking out a released version</h2>
+
+<p>
+    To checkout a released version, use <code>svn co
+    https://gridarta.svn.sourceforge.net/svnroot/gridarta/tags/<var>version</var>
+    gridarta</code> with <var>version</var> being the release name. To checkout,
+    for example, version <samp>0.8.0</samp>, use <samp>svn co
+    https://svn.sourceforge.net/svnroot/gridarta/tags/0.8.0 gridarta</samp>.
+</p>
+
+<h2>See Also</h2>
+
+<ul>
+    <li>
+        <a href="http://sourceforge.net/svn/?group_id=166996">SourceForge.net:
+            Subversion for Gridarta</a>
+    </li>
+</ul>
+</body>
+</html>

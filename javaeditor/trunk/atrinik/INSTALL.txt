@@ -1,0 +1,63 @@
+How to run the DaimoninEditor:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Simply run the jar file "AtrinikEditor.jar" in the main directory.
+In Windows this is done by a double click on "AtrinikEditor.jar".
+In Linux/Unix you type in the console: "java -jar AtrinikEditor.jar".
+
+The java runtime will be enough to run the client. Download it automatically
+from sun. This will install the latest runtime using your browser.
+
+NOTE: you need Java 6.0 (=1.6.0) or newer to run the editor.
+
+** There is no need to install anything else (SDK, ...) except you want **
+** compile the editor                                                   **
+
+You can download the java RUNTIME here:
+http://java.sun.com/webapps/getjava/BrowserRedirect?locale=en&host=www.java.com:80
+or this
+http://java.com
+
+If you edit many and big maps, it is recommended to run the editor
+with a higher maximum memory size, like 128 Mb:
+"java -jar -Xmx128m AtrinikEditor.jar"
+(Note that in this way, the editor won't *always* use 128 Mb.
+It will only use that much when it is required.)
+For client users that edit normal maps (24x24 size) the default settings (which
+is equal to -Xmx64m) is enough.
+
+
+In case there is no jar file available, that means you will need
+to compile the editor from the sources first. Read next paragraph.
+
+
+How to build the AtrinikEditor from sources:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+If you have checked out the AtrinikEditor sources from SVN, or
+downloaded a "developer version", then you've got the Java sources.
+Now you can modify the Java code, you can add classes, but please
+don't move or rename any directories.
+
+When you find yourself in the position that you want to compile
+the Java sources for the editor, you have mainly these options:
+
+1. Compile using Apache Ant.
+2. Compile & Debug using Intellij IDEA.
+3. Compile using one of the OS-specific build scripts.
+   (There is no guarantee any of these works correctly.)
+   (Keep in mind that the sources are UTF-8)
+4. Compile "by hand" via command line.
+   (Do not forget to add -encoding utf-8 for the Java compiler)
+
+I strongly recommend using Ant for compile and IDEA for coding & compile.
+
+I strongly recommend the supplied buildfile and running Ant directly, either
+through your IDE's capabilities or the command line.
+
+Visit <http://ant.apache.org/> for more information about Ant.
+
+
+System requirements & Supported Java Versions:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You need at least 96 MB of system RAM and 400 MHz CPU speed
+in order to run the AtrinikEditor. It has been reported to work
+on systems with lesser specs, but the speed was very slow.

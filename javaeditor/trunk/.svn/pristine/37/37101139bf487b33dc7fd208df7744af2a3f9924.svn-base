@@ -1,0 +1,60 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<html>
+<head>
+    <title>The View Settings</title>
+</head>
+<body>
+
+<p>
+    <a href="start.html"><img src="back.gif" width="42" height="22" align="bottom" naturalsizeflag="3" border="0">Back</a>
+
+<h1>The view settings</h1>
+
+<p>Under the View-menu, you'll find three types of view settings:</p>
+
+<ol>
+    <li><a href="layout">the layout settings</a>
+    <li><a href="view">the map view settings</a>
+</ol>
+
+<h2><a name="layout">The layout settings</a></h2>
+
+<p>With the layout setting (Metal/CDE/GTK+) you can change the overall look and
+    feel of the editor.</p>
+
+<h2><a name="view">The view settings</a></h2>
+
+<p>The map view settings are a nifty feature that allows you to select which
+    types of objects you want to see &amp; modify. For instance, if you select
+    "Show monsters" and "Show walls", the map view will display only that:
+    monsters and walls. Even copy/paste actions will ignore all objects which do
+    not match the active view settings.</p>
+
+<p>This feature can be used to detect disguised exits, connected objects and
+    more. You can also use it, for example, to copy objects without their
+    background tiles.</p>
+
+<p>Unfortunately, the map view settings require pretty extensive calculations
+    when applied for the first time. So, if you have several large maps opened,
+    expect to wait a short moment after applying a new view setting.</p>
+
+</body>
+</html>

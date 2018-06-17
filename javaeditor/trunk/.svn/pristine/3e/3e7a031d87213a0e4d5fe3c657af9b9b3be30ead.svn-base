@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2011 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+        "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="Date" content="$Date: 2013/05/29 19:04:14 $"/>
+    <title>Gridarta: How to help</title>
+</head>
+<body>
+<h1>Gridarta: How to help</h1>
+
+<p>
+    Helping is always welcome. There basically are two ways how you can
+    help: </p>
+<dl>
+    <dt>Helping as a User</dt>
+    <dd>
+        Use Gridarta, test beta versions and provide feedback, e.g. bug reports
+        and feature requests.
+    </dd>
+    <dt>Helping as a Developer</dt>
+    <dd>
+        Develop Gridarta using your Java skills.
+    </dd>
+</dl>
+<h2>Helping as a User</h2>
+
+<ul>
+    <li>Requirement: You need to be a map maker for Atrinik, Crossfire or
+        Daimonin.
+    </li>
+    <li>Subscribe to the
+        <a href="http://lists.sourceforge.net/mailman/listinfo/gridarta-news">gridarta-news</a>
+        and
+        <a href="https://lists.sourceforge.net/lists/listinfo/gridarta-user">gridarta-user</a>
+        mailing lists.
+    </li>
+    <li>Report bugs to the
+        <a href="http://sourceforge.net/tracker/?group_id=166996&amp;atid=841182">Gridarta
+            SF Bug Tracker</a> or the <a href="http://www.daimonin.net/mantis">Daimonin
+            Mantis Bug Tracker</a>.
+    </li>
+    <li>Report feature requests to the
+        <a href="http://sourceforge.net/tracker/?group_id=166996&amp;atid=841185">Gridarta
+            SF Feature Request Tracker</a> or the
+        <a href="http://www.daimonin.net/mantis">Daimonin Mantis Bug Tracker</a>.
+    </li>
+    <li>Participate in the
+        <a href="http://www.daimonin.net/index.php?name=PNphpBB2&amp;file=viewforum&amp;f=8">Daimonin
+            <q>Map Editor &amp; Mapping</q> Forum</a>.
+    </li>
+    <li>Participate in the <a href="irc://irc.freenode.net:6667/%23gridarta">IRC
+        Channel #gridarta at irc.freenode.net</a>.
+    </li>
+    <!-- TODO: Crossfire Forums etc. -->
+</ul>
+<h2>Helping as a Developer</h2>
+
+<ul>
+    <li>Requirement: You need a firm knowledge of Java.</li>
+    <li>Subscribe to the
+        <a href="http://lists.sourceforge.net/mailman/listinfo/gridarta-commit">gridarta-commit</a>,
+        <a href="http://lists.sourceforge.net/mailman/listinfo/gridarta-devel">gridarta-devel</a>,
+        <a href="http://lists.sourceforge.net/mailman/listinfo/gridarta-news">gridarta-news</a>
+        and
+        <a href="https://lists.sourceforge.net/lists/listinfo/gridarta-user">gridarta-user</a>
+        mailing lists.
+    </li>
+    <li>Report bugs to and solve bugs from the
+        <a href="http://sourceforge.net/tracker/?group_id=166996&amp;atid=841182">Gridarta
+            SF Bug Tracker</a> and the <a href="http://www.daimonin.net/mantis">Daimonin
+            Mantis Bug Tracker</a>.
+    </li>
+    <li>Report feature requests to and solve bugs from the
+        <a href="http://sourceforge.net/tracker/?group_id=166996&amp;atid=841185">Gridarta
+            SF Feature Request Tracker</a> from the
+        <a href="http://www.daimonin.net/mantis">Daimonin Mantis Bug Tracker</a>.
+    </li>
+    <li>Participate in the
+        <a href="http://www.daimonin.net/index.php?name=PNphpBB2&amp;file=viewforum&amp;f=8">Daimonin
+            <q>Map Editor &amp; Mapping</q> Forum</a>.
+    </li>
+    <li>Participate in the <a href="irc://irc.freenode.net:6667/%23gridarta">IRC
+        Channel #gridarta at irc.freenode.net</a>.
+    </li>
+</ul>
+<h3>Useful information for developers</h3>
+
+<ul>
+    <li>
+        <a href="http://www.daimonin.net/modules.php?op=modload&amp;name=phpWiki&amp;file=index&amp;pagename=Guide%20to%20the%20Editor%20Code">Daimonin
+            Wiki: Guide to the Editor Code</a> (not necessarily up to date)
+    </li>
+    <li><a href="http://gridarta.sourceforge.net/">Gridarta Homepage</a>
+    </li>
+    <li>
+        <a href="http://sourceforge.net/projects/gridarta/">Gridarta SF Project
+            Homepage</a>
+    </li>
+    <li>
+        <a href="http://gridarta.sourceforge.net/dev/">Gridarta Development
+            Documentation</a> (part of Gridarta Homepage)
+    </li>
+</ul>
+<h3>How to start</h3>
+
+<ul>
+    <li>Read the development documentation.</li>
+    <li>Checkout your copy of the Gridarta source code from Subversion. (The
+        development documentation contains instructions for that.)
+    </li>
+    <li>See what you can do, or alternatively ask for a concrete task to be
+        assigned to you.
+    </li>
+    <li>Submit your first development steps as patches to the gridarta-devel
+        list.
+    </li>
+</ul>
+<p>
+    Once the existing Gridarta team sees that you're doing a good job and would
+    be a valuable member of the Gridarta development team, you should give them
+    your SF account information and they will add you as a member to the
+    Gridarta SF team and get a Mantis developer account. You will then also
+    receive an Open Source License key for IntelliJ IDEA, the IDE used by the
+    Gridarta developers. </p>
+
+<h3>What you should know</h3>
+
+<p>
+    The <a href="irc://irc.freenode.net:6667/%23gridarta">IRC Channel #gridarta
+    at irc.freenode.net</a> is the most important information exchange amongst
+    gridarta developers, besides the issue trackers. Joining it regularly is
+    very helpful. </p>
+
+<p>
+    Ragnor, Zergus and Cher have extremely high standards, regarding programming
+    in general as well as Java programming in particular. So if your patch isn't
+    accepted or gets highly modified, that's normal. </p>
+
+<p>
+    It's known that the project doesn't work well with NetBeans. We're working
+    on this issue, but with low priority. It should work with Eclipse, though
+    not tested. The IDEs used by the current development team are Emacs,
+    IntelliJ IDEA and Vim. </p>
+</body>
+</html>

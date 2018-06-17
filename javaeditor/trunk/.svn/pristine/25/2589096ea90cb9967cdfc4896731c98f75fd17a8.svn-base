@@ -1,0 +1,223 @@
+arch map
+name test for ShopSquare map validator
+difficulty 1
+width 14
+height 4
+msg
+Created:  2010-06-27 Andreas Kirschbaum
+Modified: 2010-11-05 ank
+endmsg
+end
+arch shop1
+end
+arch wall1
+y 1
+end
+arch shop2
+y 2
+no_magic 0
+damned 0
+end
+arch wall1
+y 3
+end
+arch wall1
+x 1
+end
+arch wall1
+x 1
+y 1
+end
+arch wall1
+x 1
+y 2
+end
+arch wall1
+x 1
+y 3
+end
+arch shop1
+x 2
+no_magic 1
+end
+arch wall1
+x 2
+y 1
+end
+arch shop2
+x 2
+y 2
+damned 0
+end
+arch wall1
+x 2
+y 3
+end
+arch wall1
+x 3
+end
+arch wall1
+x 3
+y 1
+end
+arch wall1
+x 3
+y 2
+end
+arch wall1
+x 3
+y 3
+end
+arch shop1
+x 4
+damned 1
+end
+arch wall1
+x 4
+y 1
+end
+arch shop2
+x 4
+y 2
+no_magic 0
+end
+arch wall1
+x 4
+y 3
+end
+arch wall1
+x 5
+end
+arch wall1
+x 5
+y 1
+end
+arch wall1
+x 5
+y 2
+end
+arch wall1
+x 5
+y 3
+end
+arch shop1
+x 6
+no_magic 1
+damned 1
+end
+arch wall1
+x 6
+y 1
+end
+arch shop2
+x 6
+y 2
+end
+arch wall1
+x 6
+y 3
+end
+arch wall1
+x 7
+end
+arch wall1
+x 7
+y 1
+end
+arch wall1
+x 7
+y 2
+end
+arch wall1
+x 7
+y 3
+end
+arch shop1
+x 8
+no_magic 1
+damned 1
+end
+arch wall1
+x 8
+y 1
+end
+arch shop2
+x 8
+y 2
+end
+arch wall1
+x 8
+y 3
+end
+arch wall1
+x 9
+y 1
+end
+arch wall1
+x 9
+y 3
+end
+arch wall1
+x 10
+end
+arch wall1
+x 10
+y 1
+end
+arch wall1
+x 10
+y 2
+end
+arch wall1
+x 10
+y 3
+end
+arch shop1
+x 11
+no_magic 1
+damned 1
+end
+arch wall1
+x 11
+y 1
+end
+arch shop2
+x 11
+y 2
+end
+arch wall1
+x 11
+y 3
+end
+arch shop1
+x 12
+no_magic 1
+damned 1
+end
+arch wall1
+x 12
+y 1
+end
+arch shop2
+x 12
+y 2
+end
+arch wall1
+x 12
+y 3
+end
+arch wall1
+x 13
+end
+arch wall1
+x 13
+y 1
+end
+arch wall1
+x 13
+y 2
+end
+arch wall1
+x 13
+y 3
+end

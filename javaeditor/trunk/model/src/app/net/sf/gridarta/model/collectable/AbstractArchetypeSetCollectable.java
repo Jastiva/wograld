@@ -1,0 +1,175 @@
+/*
+ * Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+ * Copyright (C) 2000-2011 The Gridarta Developers.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+package net.sf.gridarta.model.collectable;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.util.Collection;
+import net.sf.gridarta.model.archetype.Archetype;
+import net.sf.gridarta.model.archetypeset.ArchetypeSet;
+import net.sf.gridarta.model.gameobject.GameObject;
+import net.sf.gridarta.model.io.ArchetypeParser;
+import net.sf.gridarta.model.maparchobject.MapArchObject;
+import net.sf.gridarta.utils.ActionBuilderUtils;
+import net.sf.gridarta.utils.IOUtils;
+import net.sf.japi.swing.action.ActionBuilder;
+import net.sf.japi.swing.action.ActionBuilderFactory;
+import net.sf.japi.swing.misc.Progress;
+import org.jetbrains.annotations.NotNull;
+
+/**
+ * Abstract base class for {@link Collectable Collectables} that create the
+ * "archetypes" file.
+ * @author <a href="mailto:cher@riedquat.de">Christian Hujer</a>
+ * @author Andreas Kirschbaum
+ */
+public abstract class AbstractArchetypeSetCollectable<G extends GameObject<G, A, R>, A extends MapArchObject<A>, R extends Archetype<G, A, R>> implements Collectable {
+
+    
+    /**
+     * The {@link ActionBuilder} instance.
+     */
+    private static final ActionBuilder ACTION_BUILDER = ActionBuilderFactory.getInstance().getActionBuilder("net.sf.gridarta");
+
+    /**
+     * The {@link ArchetypeSet} being collected.
+     */
+    @NotNull
+    private final ArchetypeSet<G, A, R> archetypeSet;
+
+    /**
+     * The collected archetype file name.
+     */
+    @NotNull
+    private final String archFile;
+
+    /**
+     * Creates a new instance.
+     * @param archetypeSet the archetype set to collect
+     * @param archFile the collected archetypes file name
+     */
+    protected AbstractArchetypeSetCollectable(@NotNull final ArchetypeSet<G, A, R> archetypeSet, @NotNull final String archFile) {
+        this.archetypeSet = archetypeSet;
+        this.archFile = archFile;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public void collect(@NotNull final Progress progress, @NotNull final File collectedDirectory) throws IOException {
+        // final File file = new File(collectedDirectory, archFile);
+       // final File file = new File("resource/conf/archetypes");
+        //  final FileOutputStream fos = new FileOutputStream(file);
+     //   final FileOutputStream fos = new FileOutputStream("archetypes");
+      final FileOutputStream fos = new FileOutputStream(archFile);
+        
+        try {
+            final OutputStreamWriter osw = new OutputStreamWriter(fos, IOUtils.MAP_ENCODING);
+            try {
+                final BufferedWriter out = new BufferedWriter(osw);
+                try {
+                    collect(progress, out);
+                } finally {
+                    out.close();
+                }
+            } finally {
+                osw.close();
+            }
+        } finally {
+            fos.close();
+        }
+    }
+
+    /**
+     * Collects the archetypes.
+     * @param progress the progress to report progress to
+     * @param writer the writer to write the archetypes to
+     * @throws IOException in case of I/O problems during collection
+     */
+    private void collect(@NotNull final Progress progress, @NotNull final Writer writer) throws IOException {
+        final Collection<R> archetypes = archetypeSet.getArchetypes();
+        progress.setLabel(ActionBuilderUtils.getString(ACTION_BUILDER, "archCollectArches"), archetypes.size());
+        int artifactCount = 0;
+        int count = 0;
+        for (final R archetype : archetypes) {
+            if (archetype.isArtifact()) {
+                artifactCount++;
+                continue;
+            }
+            if (archetype.isUndefinedArchetype()) {
+                continue;
+            }
+
+            if (archetype.isTail()) {
+                continue;
+            }
+
+            if (archetype.getArchetypeName().equals(ArchetypeParser.START_ARCH_NAME)) {
+                collectStartArch(archetype, writer);
+                count++;
+            } else {
+                count += collectArchetype(archetype, writer);
+            }
+
+            if (count % 100 == 0) {
+                progress.setValue(count);
+            }
+        }
+
+        if ((count + artifactCount) - archetypeSet.getArchetypeCount() != 0) {
+            ACTION_BUILDER.showMessageDialog(progress.getParentComponent(), "archCollectWarningMissed", archetypeSet.getArchetypeCount() - count - artifactCount);
+        }
+        progress.setValue(archetypes.size());
+    }
+
+    /**
+     * Processes the special archetype {@link ArchetypeParser#START_ARCH_NAME}.
+     * @param archetype the archetype
+     * @param out the writer collecting into
+     * @throws IOException if an I/O error occurs
+     */
+    private static void collectStartArch(@NotNull final Archetype<?, ?, ?> archetype, @NotNull final Writer out) throws IOException {
+        out.append("Object ").append(archetype.getArchetypeName()).append('\n');
+
+        if (archetype.getArchetypeName().equals(ArchetypeParser.START_ARCH_NAME)) {
+            out.append("x ").append(Integer.toString(archetype.getMultiX())).append('\n');
+            out.append("y ").append(Integer.toString(archetype.getMultiY())).append('\n');
+        }
+
+        out.append(archetype.getObjectText());
+
+        out.append("end\n");
+    }
+
+    /**
+     * Collects an {@link Archetype}: writes its definition into a writer.
+     * @param archetype the archetype
+     * @param out the writer
+     * @return the number of archetype parts written
+     * @throws IOException if an I/O error occurs
+     */
+    protected abstract int collectArchetype(@NotNull final R archetype, @NotNull final Writer out) throws IOException;
+
+}

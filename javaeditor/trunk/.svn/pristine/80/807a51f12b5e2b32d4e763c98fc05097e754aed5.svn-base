@@ -1,0 +1,55 @@
+<!--
+  ~ Gridarta MMORPG map editor for Crossfire, Daimonin and similar games.
+  ~ Copyright (C) 2000-2010 The Gridarta Developers.
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License along
+  ~ with this program; if not, write to the Free Software Foundation, Inc.,
+  ~ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<body>
+GameObjects are the objects based on Archetypes found on maps. Everything
+related to both of them is handled by this package or one of its sub-packages.
+<h4>Small GameObject Glossary</h4>
+<dl>
+    <dt>GameObjectType</dt>
+    <dd>
+        The GameObjectType represents the numerical type of objects along with
+        the associated information read from the types description. Archetypes
+        and GameObjects with the same GameObjectType will display the same
+        variant of the attribute editor dialog.
+    </dd>
+    <dt>Archetype</dt>
+    <dd>
+        An Archetype is a prototype for the creation of GameObjects. An
+        Archetype is based on a GameObjectType. The information of an Archetype
+        is read from the single archetypes file or collected from the .arc
+        files. Different Archetypes of the same GameObjectType will differ in
+        attributes, e.g. face, weight and value.
+    </dd>
+    <dt>GameObject</dt>
+    <dd>
+        A GameObject is an instance of an Archetype as found in game data on a
+        map. A GameObject is thus based on this Archetype. A GameObject can
+        override attributes it inherits from an Archetype by re-declaring them.
+        The editor and the server work slightly different regarding GameObjects.
+        The server uses the same structure for Archetypes and GameObjects, and a
+        GameObject is created by copying an Archetype. The editor creates a
+        GameObject by just linking it to its Archetype and only stores the
+        differences.
+    </dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,55 @@
+arch map
+name test for AttributeRange map validator
+difficulty 1
+width 6
+height 2
+msg
+Created:  2010-06-24 Andreas Kirschbaum
+endmsg
+end
+arch rod1
+level 0
+end
+arch mob1
+y 1
+level 0
+end
+arch rod1
+x 1
+end
+arch mob1
+x 1
+y 1
+level 1
+end
+arch rod1
+x 2
+level 115
+end
+arch mob1
+x 2
+y 1
+level 200
+end
+arch rod1
+x 3
+level 116
+end
+arch mob1
+x 3
+y 1
+level 201
+end
+arch mob1
+x 5
+arch rod1
+level 0
+end
+end
+arch mob1
+x 5
+y 1
+arch mob1
+level 0
+end
+end
