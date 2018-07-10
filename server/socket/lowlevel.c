@@ -283,25 +283,27 @@ static void add_to_buffer(socket_struct *ns, const unsigned char *buf, int len)
  * When the socket is clear to write, and we have backlogged data, this
  * is called to write it out.
  */
-void write_socket_buffer(socket_struct *ns)
+//void write_socket_buffer(socket_struct *ns)
+void write_socket_buffer(object *op)
 {
     int amt, max;
+	//socket_struct ns=op->contr->socket;
 
-    if (ns->outputbuffer.len==0) {
+    if (op->contr->socket.outputbuffer.len==0) {
 	LOG(llevDebug,"write_socket_buffer called when there is no data, fd=%d\n",
-	    ns->fd);
+	    op->contr->socket.fd);
 	return;
     }
 
     do {
-	max = SOCKETBUFSIZE - ns->outputbuffer.start;
-	if (ns->outputbuffer.len<max) max = ns->outputbuffer.len;
+	max = SOCKETBUFSIZE - op->contr->socket.outputbuffer.start;
+	if (op->contr->socket.outputbuffer.len<max) max = op->contr->socket.outputbuffer.len;
 
 #ifdef WIN32 /* ***win32 write_socket_buffer: change write() to send() */
 	amt=send(ns->fd, ns->outputbuffer.data + ns->outputbuffer.start, max,0);
 #else
 	do {
-	    amt=write(ns->fd, ns->outputbuffer.data + ns->outputbuffer.start, max);
+	    amt=write(op->contr->socket.fd, op->contr->socket.outputbuffer.data + op->contr->socket.outputbuffer.start, max);
 	} while ((amt<0) && (errno==EINTR));
 #endif
 
@@ -315,24 +317,70 @@ void write_socket_buffer(socket_struct *ns)
 		LOG(llevError,"New socket write failed (wsb) (%d: %s).\n",
 		    errno, strerror_local(errno));
 #endif
-		ns->status=Ns_Dead;
+		player *pl=op->contr;
+	//	for(pl=first_player;pl!=NULL;pl=pl->next) {
+    archetype *at = find_archetype("bank_hold");
+   object *b_hold = arch_to_object(at);
+        CLEAR_FLAG(b_hold, FLAG_REMOVED);
+        object *tmp2;
+        object *prev;
+        for(tmp2 = pl->ob->inv; tmp2; tmp2=tmp2->below){
+        prev = tmp2;
+        }
+        prev->below = b_hold;
+        b_hold->above = prev;
+        b_hold->env =pl->ob;
+
+
+  // insert_ob_in_ob(b_hold,op);
+object *next;
+
+for(tmp2 = pl->ob->bank; tmp2 != NULL; tmp2=next){
+                    next = tmp2->below;
+                                        if(next!= NULL){
+                                             next->env = b_hold;
+                                             next->map = NULL;
+                                        }
+
+                                 }
+if(pl->ob->bank){
+        next = pl->ob->bank->below;
+        if(next){
+        next->above = NULL;
+        b_hold->inv = next;
+        // should move the whole list, sans the CLOSE_BANK, combined with the env work above
+        }
+        object *tmp2 = pl->ob->bank->owner;
+        if(tmp2 != NULL){
+                if(tmp2->type == BANKBOX){
+                        tmp2->move_off = 0;
+                }
+
+        }
+        pl->ob->bank->owner = NULL;
+        pl->ob->bank->env = NULL;
+        SET_FLAG(pl->ob->bank, FLAG_REMOVED);
+}
+pl->ob->bank = NULL; 
+// }
+		op->contr->socket.status=Ns_Dead;
 		return;
 	    }
 	    else { /* EWOULDBLOCK */
 		/* can't write it, so store it away. */
-		ns->can_write=0;
+		op->contr->socket.can_write=0;
 		return;
 	    }
 	}
-	ns->outputbuffer.start += amt;
+	op->contr->socket.outputbuffer.start += amt;
 	/* wrap back to start of buffer */
-	if (ns->outputbuffer.start==SOCKETBUFSIZE) ns->outputbuffer.start=0;
-	ns->outputbuffer.len -= amt;
+	if (op->contr->socket.outputbuffer.start==SOCKETBUFSIZE) op->contr->socket.outputbuffer.start=0;
+	op->contr->socket.outputbuffer.len -= amt;
 #ifdef CS_LOGSTATS
 	cst_tot.obytes += amt;
 	cst_lst.obytes += amt;
  #endif
-    } while (ns->outputbuffer.len>0);
+    } while (op->contr->socket.outputbuffer.len>0);
 }
 
 /**
@@ -378,6 +426,54 @@ static void Write_To_Socket(socket_struct *ns, const unsigned char *buf, int len
 		LOG(llevError,"New socket write failed WTS (%d: %s).\n", /* ---WIN32 */
 		    errno, strerror_local(errno));
 #endif
+		player *pl;
+		for(pl=first_player;pl!=NULL;pl=pl->next) {
+archetype *at = find_archetype("bank_hold");
+   object *b_hold = arch_to_object(at);
+        CLEAR_FLAG(b_hold, FLAG_REMOVED);
+        object *tmp2;
+        object *prev;
+        for(tmp2 = pl->ob->inv; tmp2; tmp2=tmp2->below){
+        prev = tmp2;
+        }
+        prev->below = b_hold;
+        b_hold->above = prev;
+        b_hold->env =pl->ob;
+
+
+  // insert_ob_in_ob(b_hold,op);
+object *next;
+
+for(tmp2 = pl->ob->bank; tmp2 != NULL; tmp2=next){
+                    next = tmp2->below;
+                                        if(next!= NULL){
+                                             next->env = b_hold;
+                                             next->map = NULL;
+                                        }
+
+                                 }
+if(pl->ob->bank){
+        next = pl->ob->bank->below;
+        if(next){
+        next->above = NULL;
+        b_hold->inv = next;
+        // should move the whole list, sans the CLOSE_BANK, combined with the env work above
+        }
+        object *tmp2 = pl->ob->bank->owner;
+        if(tmp2 != NULL){
+                if(tmp2->type == BANKBOX){
+                        tmp2->move_off = 0;
+                }
+
+        }
+        pl->ob->bank->owner = NULL;
+        pl->ob->bank->env = NULL;
+        SET_FLAG(pl->ob->bank, FLAG_REMOVED);
+}
+pl->ob->bank = NULL;
+	}
+     
+
 		ns->status=Ns_Dead;
 		return;
 	    }

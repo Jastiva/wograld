@@ -669,7 +669,8 @@ void doeric_server(void)
 		LOG(llevDebug,"Player %s socket now write enabled\n", pl->ob->name);
 #endif
 		pl->socket.can_write=1;
-		write_socket_buffer(&pl->socket);
+	//	write_socket_buffer(&pl->socket);
+		write_socket_buffer(pl->ob);
 	    }
 	    /* if we get an error on the write_socket buffer, no reason to
 	     * continue on this socket.
