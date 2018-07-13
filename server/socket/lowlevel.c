@@ -319,6 +319,7 @@ void write_socket_buffer(object *op)
 #endif
 		player *pl=op->contr;
 	//	for(pl=first_player;pl!=NULL;pl=pl->next) {
+/*
     archetype *at = find_archetype("bank_hold");
    object *b_hold = arch_to_object(at);
         CLEAR_FLAG(b_hold, FLAG_REMOVED);
@@ -363,6 +364,7 @@ if(pl->ob->bank){
 }
 pl->ob->bank = NULL; 
 // }
+*/
 		op->contr->socket.status=Ns_Dead;
 		return;
 	    }
@@ -426,6 +428,8 @@ static void Write_To_Socket(socket_struct *ns, const unsigned char *buf, int len
 		LOG(llevError,"New socket write failed WTS (%d: %s).\n", /* ---WIN32 */
 		    errno, strerror_local(errno));
 #endif
+
+/*
 		player *pl;
 		for(pl=first_player;pl!=NULL;pl=pl->next) {
 archetype *at = find_archetype("bank_hold");
@@ -473,7 +477,7 @@ if(pl->ob->bank){
 pl->ob->bank = NULL;
 	}
      
-
+*/
 		ns->status=Ns_Dead;
 		return;
 	    }

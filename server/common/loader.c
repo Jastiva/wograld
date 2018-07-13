@@ -6153,9 +6153,70 @@ void save_object(FILE *fp,object *op, int flag) {
 
     old=NULL;
 
-    if (flag & 2 )
-	for(tmp=op->inv;tmp!=NULL;tmp=tmp->below)
-	    save_object(fp,tmp,flag);
+
+//	
+if(op->contr != NULL)
+{
+archetype *at2 = find_archetype("bank_hold");
+   object *b_hold = arch_to_object(at2);
+        CLEAR_FLAG(b_hold, FLAG_REMOVED);
+        object *tmp2;
+        object *prev;
+  //      for(tmp2 = pl->inv; tmp2; tmp2=tmp2->below){
+	for(tmp2=op->inv; tmp2; tmp2=tmp2->below){
+        prev = tmp2;
+        }
+        prev->below = b_hold;
+        b_hold->above = prev;
+       // b_hold->env =pl;
+	b_hold->env=op;
+
+
+  // insert_ob_in_ob(b_hold,op);
+object *next;
+
+//for(tmp2 = pl->bank; tmp2 != NULL; tmp2=next){
+for(tmp2=op->bank; tmp2 != NULL; tmp2=next){
+                    next = tmp2->below;
+                                        if(next!= NULL){
+                                             next->env = b_hold;
+                                             next->map = NULL;
+                                        }
+
+                                 }
+//if(pl->bank){
+if(op->bank){
+       // next = pl->bank->below;
+	next = op->bank->below;
+        if(next){
+	printf("found_something\n");
+        next->above = NULL;
+        b_hold->inv = next;
+        // should move the whole list, sans the CLOSE_BANK, combined with the env work above
+        }
+        //object *tmp2 = pl->bank->owner;
+	object *tmp2 = op->bank->owner;
+        if(tmp2 != NULL){
+                if(tmp2->type == BANKBOX){
+                        tmp2->move_off = 0;
+                }
+
+        }
+  //      pl->bank->owner = NULL;
+   //     pl->bank->env = NULL;
+   //     SET_FLAG(pl->bank, FLAG_REMOVED);
+	op->bank->owner = NULL;
+	op->bank->env = NULL;
+	SET_FLAG(op->bank, FLAG_REMOVED);
+}
+//op->bank=NULL;
+//pl->bank = NULL;
+} // op->contr
+//
+
+     if (flag & 2 )
+        for(tmp=op->inv;tmp!=NULL;tmp=tmp->below)
+            save_object(fp,tmp,flag);
 
     /* Slightly different logic because tmp/op will be removed by
      * the save_object we call.  So we just keep looking at op->inv
@@ -6163,17 +6224,83 @@ void save_object(FILE *fp,object *op, int flag) {
      * should not be needed, as recursive loops shouldn't happen.
      */
     else while ((tmp=op->inv)!=NULL) {
-	if(old==tmp) {
-	    LOG(llevError," Recursive loop in inventory\n");
-	    break;
-	}
-	save_object(fp,tmp,flag); 
-	old=tmp;
+        if(old==tmp) {
+            LOG(llevError," Recursive loop in inventory\n");
+            break;
+        }
+        save_object(fp,tmp,flag);
+        old=tmp;
     }
+
    
     if (!(flag&2)) {
+	//
+	/*
+	if(op->inv)
+	{
+	
+	remove_ob(op->inv);
+	free_object(op->inv); 
+	}
+	*/
+	/*
+	if(op->contr != NULL)
+	{
+		printf("clear_bank\n");
+		remove_ob(op->bank);
+		free_object(op->bank);
+		op->bank=NULL;	
+	}
+	*/
+	if(op->contr == NULL)
+	{	
+	//
 	remove_ob(op);
 	free_object (op);
+	}
+    }
+    else
+    {
+	printf("restore box to user\n");
+	 archetype *at3 = find_archetype("close_bank");
+   object *close_b = arch_to_object(at3);
+        CLEAR_FLAG(close_b, FLAG_REMOVED);
+   op->bank = close_b;
+   close_b->env = op;
+
+
+object *tmp;
+object *tmp2;
+object *prev;
+object *next;
+for(tmp=op->inv; tmp; tmp=next) {
+if (tmp->type == BANK_HOLD){
+                tmp2 = tmp->inv;
+                for(tmp2= tmp->inv; tmp2; tmp2=tmp2->below){
+                LOG(llevDebug, "found something in bankbox persistance obj\n");
+                        tmp2->env = op;
+                }
+
+                tmp2 = tmp->inv;
+                if(tmp2 != NULL){
+                        close_b->below = tmp2;
+                        tmp2->above = close_b;
+                }
+                // should move the whole list, combined with the env work above
+                tmp->inv = NULL;
+                remove_ob(tmp);
+                free_object(tmp);
+
+                }
+ else {
+
+}
+
+next = tmp->below;
+}      
+
+
+
     }
 
     fprintf(fp,"end\n");
