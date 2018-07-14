@@ -2533,7 +2533,7 @@ static void apply_savebed (object *pl)
     check_score(pl); /* Always check score */
 
 /* begin new code */
-
+/*
 archetype *at = find_archetype("bank_hold");
    object *b_hold = arch_to_object(at);
         CLEAR_FLAG(b_hold, FLAG_REMOVED);
@@ -2578,7 +2578,7 @@ if(pl->bank){
 }
 pl->bank = NULL;
 // bank_hold is designed to be a serialization device, not for use in gameplay
-
+*/
 /* end new code */
 
 
