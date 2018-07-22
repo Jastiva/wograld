@@ -404,11 +404,23 @@ for(mp=first_map;mp!=NULL;mp=mp->next)
 }
 
 
-    if( op->type == PLAYER)
+ if( op->type == PLAYER)
+        {
         map_newmap_cmd(op->contr);
+        int mnum=0;
+        if(op->map)
+        {
+         mnum=op->map->tracknum;
+        }
+        send_change_music( op->contr, mnum );
+
+        }
 
 
    apply_gravity(op);
+// can lead to another enter_map
+// which can change music again
+
 }
 
 void set_map_timeout(mapstruct *oldmap)

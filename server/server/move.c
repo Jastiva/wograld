@@ -198,7 +198,17 @@ int transfer_ob (object *op, int x, int y, int randomly, object *originator)
 	tmp->y=y+freearr_y[i]+(tmp->arch==NULL?0:tmp->arch->clone.y);
 
     tmp = insert_ob_in_map(op,op->map,originator,0);
-    if (op && op->type == PLAYER) map_newmap_cmd(op->contr);
+	 if (op && op->type == PLAYER)
+        {
+         map_newmap_cmd(op->contr);
+          int mnum=0;
+        if(op->map)
+        {
+         mnum=op->map->tracknum;
+        }
+        send_change_music( op->contr, mnum );
+
+        }
     if (tmp) return 0;
     else return 1;
 }
@@ -295,7 +305,17 @@ int teleport (object *teleporter, uint8 tele_type, object *user)
            (tmp->arch==NULL?0:tmp->arch->clone.y);
     }
     tmp = insert_ob_in_map(user,other_teleporter->map,NULL,0);
-    if (tmp && tmp->type == PLAYER) map_newmap_cmd(tmp->contr);
+	  if (tmp && tmp->type == PLAYER)
+        {
+         map_newmap_cmd(tmp->contr);
+          int mnum=0;
+        if(tmp->map)
+        {
+         mnum=tmp->map->tracknum;
+        }
+        send_change_music( tmp->contr, mnum );
+
+        }
     return (tmp == NULL);
 }
 

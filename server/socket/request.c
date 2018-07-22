@@ -773,7 +773,33 @@ void map_newmap_cmd( player *pl)
     }
 }
 
+// when the user enters a map
+// get the track name from the map file
+// and send it to the user who entered the map
+void send_change_music( player *pl, int tracknum )
+{
 
+        SockList sl;
+ sl.len=2;
+ strcpy((char*)sl.buf, "music ");
+                sl.len=6;
+                SockList_AddShort(&sl, tracknum);
+
+Send_With_Handling(&pl->socket, &sl);
+LOG(llevDebug,"%s%i\n","music ",tracknum);
+/*
+        char cmdback[HUGE_BUF];
+        int slen=0;
+strcpy(cmdback,"music");
+slen=strlen(cmdback);
+safe_strcat(cmdback, " ",&slen,HUGE_BUF);
+char tmpbuf[MAX_BUF];
+sprintf(tmpbuf, "%i", tracknum);
+safe_strcat(cmdback,tmpbuf,&slen,HUGE_BUF);
+LOG(llevDebug,"%s\n", cmdback);
+Write_String_To_Socket(&pl->socket, cmdback, strlen(cmdback));
+*/
+}
 
 /**
  * Moves an object (typically, container to inventory).
