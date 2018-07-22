@@ -973,6 +973,170 @@ static int load_map_header(FILE *fp, mapstruct *m)
 	} else if (!strcmp(key, "nosmooth")) {
 	    m->nosmooth = atoi(value);
 	}
+	else if (!strcmp(key, "background_music")) {
+        m->trackname=strdup_local(value);
+        LOG(llevDebug, "track_ref %s\n", m->trackname);
+    if(strcmp(value,"gmajor"))
+    {
+        m->tracknum=1;
+    }
+    else if(strcmp(value,"00"))
+    {
+        m->tracknum=0;
+    }
+    else if(strcmp(value,"eminorh"))
+    {
+        m->tracknum=2;
+    }
+    else if(strcmp(value,"sumon"))
+    {
+        m->tracknum=3;
+    }
+    else if(strcmp(value,"mica"))
+    {
+        m->tracknum=4;
+    }
+    else if(strcmp(value,"dredy1"))
+    {
+        m->tracknum=5;
+    }
+    else if(strcmp(value,"sunset"))
+    {
+        m->tracknum=6;
+    }
+    else if(strcmp(value,"highcity"))
+    {
+        m->tracknum=7;
+    }
+    else if(strcmp(value,"lowcity"))
+    {
+        m->tracknum=8;
+    }
+    else if(strcmp(value,"eminor"))
+    {
+        m->tracknum=9;
+    }
+    else if(strcmp(value,"maso01"))
+    {
+        m->tracknum=10;
+    }
+    else if(strcmp(value,"paranoia01"))
+    {
+        m->tracknum=11;
+    }
+    else if(strcmp(value,"dkpond3"))
+    {
+        m->tracknum=12;
+    }
+    else if(strcmp(value,"dkpond"))
+    {
+  m->tracknum=13;
+    }
+    else if(strcmp(value,"thisisthat2"))
+    {
+        m->tracknum=14;
+    }
+    else if(strcmp(value,"ghost"))
+    {
+        m->tracknum=15;
+    }
+    else if(strcmp(value,"bymyside02"))
+    {
+        m->tracknum=16;
+    }
+    else if(strcmp(value,"thief02"))
+    {
+        m->tracknum=17;
+    }
+    else if(strcmp(value,"dsharp"))
+    {
+        m->tracknum=18;
+    }
+    else if(strcmp(value,"laymet"))
+    {
+        m->tracknum=19;
+    }
+    else if(strcmp(value,"elfcombat1"))
+    {
+        m->tracknum=20;
+    }
+    else if(strcmp(value,"estnigh1"))
+    {
+        m->tracknum=21;
+    }
+    else if(strcmp(value,"skept02"))
+    {
+        m->tracknum=22;
+    }
+    else if(strcmp(value,"labscare01"))
+    {
+        m->tracknum=23;
+    }
+    else if(strcmp(value,"viod1"))
+    {
+        m->tracknum=24;
+    }
+    else if(strcmp(value,"darkpuddle"))
+    {
+        m->tracknum=25;
+    }
+    else if(strcmp(value,"humil1"))
+    {
+        m->tracknum=26;
+ }
+    else if(strcmp(value,"dida03"))
+    {
+        m->tracknum=27;
+    }
+    else if(strcmp(value,"lust02"))
+    {
+        m->tracknum=28;
+    }
+    else if(strcmp(value,"dida02"))
+    {
+        m->tracknum=29;
+    }
+    else if(strcmp(value,"dida"))
+    {
+        m->tracknum=30;
+    }
+    else if(strcmp(value,"fool01b"))
+    {
+        m->tracknum=31;
+    }
+    else if(strcmp(value,"veng01"))
+    {
+        m->tracknum=32;
+    }
+    else if(strcmp(value,"indiscret01"))
+    {
+        m->tracknum=33;
+    }
+    else if(strcmp(value,"fool1"))
+    {
+        m->tracknum=34;
+    }
+    else if(strcmp(value,"harp1"))
+    {
+        m->tracknum=35;
+    }
+    else if(strcmp(value,"crystalcave01"))
+    {
+        m->tracknum=36;
+    }
+    else if(strcmp(value,"conver"))
+    {
+        m->tracknum=37;
+    }
+    else if(strcmp(value,"laymet2a"))
+    {
+        m->tracknum=38;
+    }
+    else if(strcmp(value,"dkch"))
+    {
+        m->tracknum=39;
+    }
+        }
 	else if (!strncmp(key,"tile_path_", 10)) {
 	    int tile=atoi(key+10);
  		char *path;
@@ -1460,6 +1624,7 @@ int new_save_map(mapstruct *m, int flag) {
     if (m->winddir) fprintf(fp, "winddir %d\n", m->winddir);
     if (m->sky) fprintf(fp, "sky %d\n", m->sky);
     if (m->nosmooth) fprintf(fp, "nosmooth %d\n", m->nosmooth);
+    if (m->trackname) fprintf(fp, "background_music %s\n",m->trackname);
     if (m->upper) fprintf(fp, "tile_path_5 %s\n", m->upper);
     if (m->lower) fprintf(fp, "tile_path_6 %s\n", m->lower);
     /* Save any tiling information, except on overlays */

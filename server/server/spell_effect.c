@@ -1367,8 +1367,18 @@ int dimension_door(object *op,object *caster, object *spob, int dir) {
     if ((op = insert_ob_in_map(op,op->map,op,0)) == NULL)
         return 1;
 
-    if (op->type == PLAYER)
+     if (op->type == PLAYER)
+        {
         map_newmap_cmd(op->contr);
+          int mnum=0;
+        if(op->map)
+        {
+         mnum=op->map->tracknum;
+        }
+        send_change_music( op->contr, mnum );
+
+        }
+
     op->speed_left= -FABS(op->speed)*5; /* Freeze them for a short while */
     return 1;
 }

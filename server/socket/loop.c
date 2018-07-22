@@ -717,11 +717,17 @@ void doeric_server(void)
 		/* draw_client_map does sanity checking that map is
 		 * valid, so don't do it here.
 		 */
-  if((pl->state == ST_GET_NAME)&&(pl->waitfordraw > 0)){
+
+		if((pl->state == ST_GET_NAME)&&(pl->waitfordraw > 0)){
                 /* enter_exit(pl->ob, NULL); */
                  map_newmap_cmd(pl);  /* needs to clear serverside cache of view area else client disposes data before client is ready and */
                  /* server does not bother trying to resend it; data seem to disappear despite acknowledgement of receipt on netstack   */
                 pl->waitfordraw = (pl->waitfordraw)-1;
+                        if(pl->waitfordraw == 1)
+                        {
+                                send_change_music( pl, 0 );
+                                // initialize musicplayer
+                        }
                 }
 
 

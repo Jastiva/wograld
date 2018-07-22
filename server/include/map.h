@@ -345,6 +345,8 @@ typedef struct mapdef {
     char    *lower;
     struct mapdef *down_map;
     char path[HUGE_BUF];	/* Filename of the map */
+    uint8 tracknum;	// music track number, see ogg list, try to match server music id to client names
+    char    *trackname;  // music track name used for map swap
 } mapstruct;
 
 /* This is used by get_rangevector to determine where the other
