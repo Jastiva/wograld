@@ -1,17 +1,17 @@
 object pyromancer_class
+name pyromancer
+face pyromancer.151
 anim
-pyromancer.x11
-pyromancer.x12
-pyromancer.x31
-pyromancer.x32
-pyromancer.x51
-pyromancer.x52
-pyromancer.x71
-pyromancer.x72
+pyromancer.111
+pyromancer.112
+pyromancer.131
+pyromancer.132
+pyromancer.151
+pyromancer.152
+pyromancer.171
+pyromancer.172
 facings 4
 mina
-name pyromancer
-face pyromancer.x51
 is_animated 1
 str -1
 dex 0
@@ -25,14 +25,15 @@ anim_speed -1
 end
 
 object talisman_pyromancer
-inherit type_skill_tool
 name Pyromancers's talisman
 skill pyromancy
-face talisman.x11
+face talisman_pyromancy.111
+type 74
 nrof 1
+material 12
+editable 2048
 path_attuned 2
 path_repelled 33028
-materialname runestone
 value 3000
 weight 1000
 client_type 451
