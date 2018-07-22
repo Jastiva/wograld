@@ -102,6 +102,12 @@ import java.util.ResourceBundle;
 import javax.swing.SwingUtilities;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
+import com.player.JOrbisPlayer;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.JFrame;
 
 /**
  * This is the entry point for JXClient. Note that this class doesn't do much by
@@ -167,7 +173,11 @@ public class JXClient {
                             final OptionManager optionManager = new OptionManager(settings);
                             final MetaserverModel metaserverModel = new MetaserverModel();
                             final CharacterModel characterModel = new CharacterModel();
-                            final CrossfireServerConnection server = new DefaultCrossfireServerConnection(debugProtocolOutputStreamWriter == null ? null : new DebugWriter(debugProtocolOutputStreamWriter), "JXClient "+buildNumber);
+                            
+                         //   final CrossfireServerConnection server = new DefaultCrossfireServerConnection(debugProtocolOutputStreamWriter == null ? null : new DebugWriter(debugProtocolOutputStreamWriter), "JXClient "+buildNumber);
+                           JOrbisPlayer player=new JOrbisPlayer();  
+                            final CrossfireServerConnection server = new DefaultCrossfireServerConnection(debugProtocolOutputStreamWriter == null ? null : new DebugWriter(debugProtocolOutputStreamWriter), "JXClient "+buildNumber, player );
+                            
                             server.start();
                             try {
                                 final GuiStateManager guiStateManager = new GuiStateManager(server);
@@ -263,6 +273,11 @@ public class JXClient {
                                         window[0].init(options.getResolution(), options.getSkin(), options.isFullScreen(), skinLoader);
                                         keybindingsManager.loadKeybindings();
                                         final String serverInfo = options.getServer();
+                                        
+                                        
+  
+                                        
+                                        
                                         if (serverInfo != null) {
                                             guiStateManager.connect(serverInfo);
                                         } else {

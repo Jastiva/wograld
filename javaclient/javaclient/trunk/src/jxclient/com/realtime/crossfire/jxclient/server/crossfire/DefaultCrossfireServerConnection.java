@@ -47,6 +47,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 import java.util.Set;
+import com.player.JOrbisPlayer;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import javax.swing.JFrame;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -765,7 +772,13 @@ public class DefaultCrossfireServerConnection extends DefaultServerConnection im
     private int loginMethod = 0;
     
     private int mapsizereceived = 0;
+    
+    private JOrbisPlayer oggpl;
 
+    private int musicpl_num = 0;
+    
+    JFrame frame1;
+    
     /**
      * Creates a new instance.
      * @param debugProtocol tf non-<code>null</code>, write all protocol
@@ -774,12 +787,32 @@ public class DefaultCrossfireServerConnection extends DefaultServerConnection im
      * connecting
      * @throws IOException if an internal error occurs
      */
-    public DefaultCrossfireServerConnection(@Nullable final DebugWriter debugProtocol, @NotNull final String version) throws IOException {
+   // public DefaultCrossfireServerConnection(@Nullable final DebugWriter debugProtocol, @NotNull final String version) throws IOException {
+       public DefaultCrossfireServerConnection(@Nullable final DebugWriter debugProtocol, @NotNull final String version, @Nullable final JOrbisPlayer player) throws IOException {
+     
         super(debugProtocol);
         this.version = version;
         byteBuffer.order(ByteOrder.BIG_ENDIAN);
         this.debugProtocol = debugProtocol;
         addClientSocketListener(clientSocketListener);
+        
+        
+          if(player != null)
+          {
+              oggpl=player;
+          }
+          musicpl_num=0;
+          frame1=new JFrame("JOrbisPlayer");
+    frame1.setBackground(Color.lightGray);
+    frame1.setBackground(Color.white);
+    frame1.getContentPane().setLayout(new BorderLayout());
+
+    frame1.addWindowListener(new WindowAdapter(){
+      public void windowClosing(WindowEvent e){
+      //  System.exit(0);
+                }
+            }
+        );
     }
 
     /**
@@ -3655,16 +3688,293 @@ public class DefaultCrossfireServerConnection extends DefaultServerConnection im
      * @param packet the packet's payload
      */
     private void processMusic(@NotNull final ByteBuffer packet) {
-        final int args = packet.position();
-        final String music = getString(packet, packet.remaining());
-        if (debugProtocol != null) {
-            debugProtocol.debugProtocolWrite("recv music "+music);
-        }
-
+       final int args = packet.position();
+       // final String music = getString(packet, packet.remaining());
+        final int track = getInt2(packet);
+     //   if (debugProtocol != null) {
+     //       debugProtocol.debugProtocolWrite("recv music "+music);
+     //   }
+/*
         for (final CrossfireMusicListener listener : crossfireMusicListeners.getListeners()) {
             listener.commandMusicReceived(music);
-        }
-        notifyPacketWatcherListenersAscii(packet, args);
+        } 
+        
+        changed meaning of pkt
+        
+        */
+    //    notifyPacketWatcherListenersMixed(packet, args);
+           // added for music test
+     if(track == 0)
+     {
+   oggpl.running_as_applet=false;
+   
+   oggpl.playlist.addElement("resource/music/00.ogg");
+
+  
+ /* 
+ JFrame frame=new JFrame("JOrbisPlayer");
+    frame.setBackground(Color.lightGray);
+    frame.setBackground(Color.white);
+    frame.getContentPane().setLayout(new BorderLayout());
+
+    frame.addWindowListener(new WindowAdapter(){
+      public void windowClosing(WindowEvent e){
+        System.exit(0);
+      }
+    }
+    );
+*/
+
+    oggpl.loadPlaylist();
+    oggpl.initUI();
+
+    frame1.getContentPane().add(oggpl.panel);
+    frame1.pack();
+    frame1.setVisible(true);
+   oggpl.play_sound();
+    frame1.setVisible(false);
+    
+    
+    // server streams newmap cmds to client to ensure that
+    // client is ready to accept map data
+     }
+     else
+     {
+         //this.oggpl.
+         oggpl.stop_sound();
+         
+         frame1.remove(oggpl.panel);
+         oggpl=new JOrbisPlayer(); 
+         
+        // oggpl.clearPlaylist(oggpl);
+         
+       // oggpl.changeTrack(oggpl, track );
+        oggpl.running_as_applet=false;
+        
+        String trackname="00.ogg";
+        
+         if(track==1)
+    {
+        trackname="gmajor.ogg";
+        
+    }    
+    else if(track==2)
+    {
+       trackname="eminorh.ogg";
+    }
+    else if(track==3 )
+    {
+        trackname="sumon.ogg";
+    }
+    else if(track==4)
+    {
+        trackname="mica.ogg";
+    }
+    else if(track==5 )
+    {
+       
+        trackname="dredy1.ogg";
+    }
+    else if(track==6 )
+    {
+       
+        trackname="sunset.ogg";
+    }
+    else if(track==7 )
+    {
+        
+        trackname="highcity.ogg";
+    }
+    else if(track==8 )
+    {
+       
+        trackname="lowcity.ogg";
+    }
+    else if(track==9 )
+    {
+       
+        trackname="eminor.ogg";
+    }
+    else if(track==10 )
+    {
+        
+        trackname="maso01.ogg";
+    }
+    else if(track==11 )
+    {
+       
+        trackname="paranoia01.ogg";
+    }
+    else if(track==12 )
+    {
+        
+        trackname="dkpond3.ogg";
+    }
+    else if(track==13 )
+    {
+        
+        trackname="dkpond.ogg";
+    }
+    else if(track==14 )
+    {
+       
+        trackname="thisisthat2.ogg";
+    }
+    else if(track==15 )
+    {
+        
+        trackname="ghost.ogg";
+    }
+    else if(track==16 )
+    {
+        
+        trackname="bymyside02.ogg";
+    }
+    else if(track==17 )
+    {
+        
+        trackname="thief02.ogg";
+    }
+    else if(track==18 )
+    {
+        
+        trackname="dsharp.ogg";
+    }
+    else if(track==19 )
+    {
+        
+        trackname="laymet.ogg";
+    }
+    else if(track==20 )
+    {
+        
+        trackname="elfcombat1.ogg";
+    }
+    else if(track==21 )
+    {
+      
+       trackname="estnigh1.ogg"; 
+    }
+    else if(track==22 )
+    {
+       
+        trackname="skept02.ogg";
+    }
+    else if( track==23)
+    {
+        
+        trackname="labscare01.ogg";
+    }
+    else if(track==24 )
+    {
+        
+        trackname="viod1.ogg";
+    }
+    else if( track==25 )
+    {
+       
+        trackname="darkpuddle.ogg";
+    }
+    else if(track==26 )
+    {
+        
+        trackname="humil1.ogg";
+    }
+    else if(track==27 )
+    {
+        
+        trackname="dida03.ogg";
+    }
+    else if(track==28 )
+    {
+        
+        trackname="lust02.ogg";
+    }
+    else if(track==29 )
+    {
+       
+        trackname="dida02.ogg";
+    }
+    else if(track==30 )
+    {
+       
+        trackname="dida.ogg";
+    }
+    else if(track==31 )
+    {
+       
+        trackname="fool01b.ogg";
+    }
+    else if(track==32 )
+    {
+       
+        trackname="veng01.ogg";
+    }
+    else if(track==33 )
+    {
+       
+        trackname="indiscret01.ogg";
+    }
+    else if(track==34 )
+    {
+       
+        trackname="fool1.ogg";
+    }
+    else if(track==35 )
+    {
+        
+        trackname="harp1.ogg";
+    }
+    else if(track==36 )
+    {
+        
+        trackname="crystalcave01.ogg";
+    }
+    else if(track==37 )
+    {
+       
+        trackname="conver.ogg";
+    }
+    else if(track==38 )
+    {
+       
+        trackname="laymet2a.ogg";
+    }
+    else if(track==39 )
+    {
+        
+        trackname="dkch.ogg";
+    }
+    else
+    {
+         trackname="00.ogg";
+    
+       
+    }
+        
+        String musicpath = "resource/music/" + trackname;
+        System.out.println(musicpath);
+   oggpl.playlist.addElement(musicpath);
+
+ 
+
+
+    oggpl.loadPlaylist();
+    oggpl.initUI();
+
+   
+    frame1.getContentPane().add(oggpl.panel);
+    frame1.pack();
+    frame1.setVisible(true);
+   oggpl.play_sound();
+    frame1.setVisible(false);
+        
+         System.out.println("got here\n");
+         
+         
+     }
+        
+        
     }
 
     /**
@@ -3685,6 +3995,10 @@ public class DefaultCrossfireServerConnection extends DefaultServerConnection im
         if( crossfireUpdateMapListener != null) {
         //        crossfireUpdateMapListener.mapEnd();
         }
+        
+    
+      
+        
     }
 
     /**
@@ -4721,6 +5035,9 @@ public class DefaultCrossfireServerConnection extends DefaultServerConnection im
         if (crossfireUpdateMapListener != null) {
             crossfireUpdateMapListener.newMap(currentMapWidth, currentMapHeight);
         }
+        
+        
+        
     }
 
     /**
