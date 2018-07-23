@@ -7,7 +7,7 @@ enter_x 7
 enter_y 5
 msg
 Created:  2000-10-12
-Modified: 2014-07-01 serpentshard
+Modified: 2018-07-23 root
 endmsg
 end
 arch blocked
@@ -473,6 +473,10 @@ end
 arch flagstone
 name floor
 face shop_empty.111
+x 1
+y 30
+end
+arch pyromancer_class
 x 1
 y 30
 end
@@ -1032,9 +1036,14 @@ face shop_empty.111
 x 3
 y 30
 end
-arch dungeon_magic
+arch player_changer
+slaying /start/Nexus_elf
+hp 12
+sp 12
 x 3
 y 30
+arch pyromancer_class
+end
 end
 arch flagstone
 name floor

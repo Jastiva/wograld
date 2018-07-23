@@ -8,7 +8,7 @@ enter_x 7
 enter_y 5
 msg
 Created:  2005-12-25 Pippijn van Steenhoven (pip88nl@gmail.com)
-Modified: 2014-04-18 serpentshard
+Modified: 2018-07-23 root
 endmsg
 end
 arch blocked
@@ -380,7 +380,6 @@ x 1
 y 27
 end
 arch devotee_class
-face wizard_white.151
 x 1
 y 27
 end
@@ -395,6 +394,10 @@ arch blackmarble
 name nothingness
 name_pl nothingness
 face blocked.111
+x 1
+y 29
+end
+arch pyromancer_class
 x 1
 y 29
 end
@@ -883,7 +886,15 @@ name_pl nothingness
 face blocked.111
 x 3
 y 29
-move_block walk fly_low fly_high swim
+end
+arch player_changer
+slaying /start/Nexus
+hp 12
+sp 12
+x 3
+y 29
+arch pyromancer_class
+end
 end
 arch rough_wall_1_4
 x 3
@@ -1167,6 +1178,17 @@ arch blackmarble
 name nothingness
 name_pl nothingness
 face blocked.111
+x 4
+y 29
+end
+arch magic_mouth
+msg
+Step forward to become a Pyromancer
+endmsg
+x 4
+y 29
+end
+arch dungeon_magic
 x 4
 y 29
 end
