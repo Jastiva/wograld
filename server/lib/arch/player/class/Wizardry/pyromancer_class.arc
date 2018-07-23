@@ -1,5 +1,6 @@
-object pyromancer_class
+Object pyromancer_class
 name pyromancer
+randomitems pyromancer_class_items
 face pyromancer.151
 anim
 pyromancer.111
@@ -13,15 +14,15 @@ pyromancer.172
 facings 4
 mina
 is_animated 1
-str -1
-dex 0
-con -1
-wis 0
-pow 2
-int 0
-type 37
-randomitems pyromancer_class_items
 anim_speed -1
+type 37
+Str -1
+Dex 0
+Con -1
+Wis 0
+Pow 2
+Int 0
+editable 0
 end
 
 object talisman_pyromancer
