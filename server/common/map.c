@@ -976,163 +976,163 @@ static int load_map_header(FILE *fp, mapstruct *m)
 	else if (!strcmp(key, "background_music")) {
         m->trackname=strdup_local(value);
         LOG(llevDebug, "track_ref %s\n", m->trackname);
-    if(strcmp(value,"gmajor"))
+    if(!strncmp(value,"gmajor",6))
     {
         m->tracknum=1;
     }
-    else if(strcmp(value,"00"))
+    else if(!strncmp(value,"00",2))
     {
         m->tracknum=0;
     }
-    else if(strcmp(value,"eminorh"))
+    else if(!strncmp(value,"eminorh",7))
     {
         m->tracknum=2;
     }
-    else if(strcmp(value,"sumon"))
+    else if(!strncmp(value,"sumon",5))
     {
         m->tracknum=3;
     }
-    else if(strcmp(value,"mica"))
+    else if(!strncmp(value,"mica",4))
     {
         m->tracknum=4;
     }
-    else if(strcmp(value,"dredy1"))
+    else if(!strncmp(value,"dredy1",6))
     {
         m->tracknum=5;
     }
-    else if(strcmp(value,"sunset"))
+    else if(!strncmp(value,"sunset",6))
     {
         m->tracknum=6;
     }
-    else if(strcmp(value,"highcity"))
+    else if(!strncmp(value,"highcity",8))
     {
         m->tracknum=7;
     }
-    else if(strcmp(value,"lowcity"))
+    else if(!strncmp(value,"lowcity",7))
     {
         m->tracknum=8;
     }
-    else if(strcmp(value,"eminor"))
+    else if(!strncmp(value,"eminor",6))
     {
         m->tracknum=9;
     }
-    else if(strcmp(value,"maso01"))
+    else if(!strncmp(value,"maso01",6))
     {
         m->tracknum=10;
     }
-    else if(strcmp(value,"paranoia01"))
+    else if(!strncmp(value,"paranoia01",10))
     {
         m->tracknum=11;
     }
-    else if(strcmp(value,"dkpond3"))
+    else if(!strncmp(value,"dkpond3",7))
     {
         m->tracknum=12;
     }
-    else if(strcmp(value,"dkpond"))
+    else if(!strncmp(value,"dkpond",6))
     {
   m->tracknum=13;
     }
-    else if(strcmp(value,"thisisthat2"))
+    else if(!strncmp(value,"thisisthat2",11))
     {
         m->tracknum=14;
     }
-    else if(strcmp(value,"ghost"))
+    else if(!strncmp(value,"ghost",5))
     {
         m->tracknum=15;
     }
-    else if(strcmp(value,"bymyside02"))
+    else if(!strncmp(value,"bymyside02",10))
     {
         m->tracknum=16;
     }
-    else if(strcmp(value,"thief02"))
+    else if(!strncmp(value,"thief02",7))
     {
         m->tracknum=17;
     }
-    else if(strcmp(value,"dsharp"))
+    else if(!strncmp(value,"dsharp",6))
     {
         m->tracknum=18;
     }
-    else if(strcmp(value,"laymet"))
+    else if(!strncmp(value,"laymet",6))
     {
         m->tracknum=19;
     }
-    else if(strcmp(value,"elfcombat1"))
+    else if(!strncmp(value,"elfcombat1",10))
     {
         m->tracknum=20;
     }
-    else if(strcmp(value,"estnigh1"))
+    else if(!strncmp(value,"estnigh1",8))
     {
         m->tracknum=21;
     }
-    else if(strcmp(value,"skept02"))
+    else if(!strncmp(value,"skept02",7))
     {
         m->tracknum=22;
     }
-    else if(strcmp(value,"labscare01"))
+    else if(!strncmp(value,"labscare01",10))
     {
         m->tracknum=23;
     }
-    else if(strcmp(value,"viod1"))
+    else if(!strncmp(value,"viod1",5))
     {
         m->tracknum=24;
     }
-    else if(strcmp(value,"darkpuddle"))
+    else if(!strncmp(value,"darkpuddle",10))
     {
         m->tracknum=25;
     }
-    else if(strcmp(value,"humil1"))
+    else if(!strncmp(value,"humil1",6))
     {
         m->tracknum=26;
  }
-    else if(strcmp(value,"dida03"))
+    else if(!strncmp(value,"dida03",6))
     {
         m->tracknum=27;
     }
-    else if(strcmp(value,"lust02"))
+    else if(!strncmp(value,"lust02",6))
     {
         m->tracknum=28;
     }
-    else if(strcmp(value,"dida02"))
+    else if(!strncmp(value,"dida02",6))
     {
         m->tracknum=29;
     }
-    else if(strcmp(value,"dida"))
+    else if(!strncmp(value,"dida",4))
     {
         m->tracknum=30;
     }
-    else if(strcmp(value,"fool01b"))
+    else if(!strncmp(value,"fool01b",7))
     {
         m->tracknum=31;
     }
-    else if(strcmp(value,"veng01"))
+    else if(!strncmp(value,"veng01",6))
     {
         m->tracknum=32;
     }
-    else if(strcmp(value,"indiscret01"))
+    else if(!strncmp(value,"indiscret01",11))
     {
         m->tracknum=33;
     }
-    else if(strcmp(value,"fool1"))
+    else if(!strncmp(value,"fool1",5))
     {
         m->tracknum=34;
     }
-    else if(strcmp(value,"harp1"))
+    else if(!strncmp(value,"harp1",5))
     {
         m->tracknum=35;
     }
-    else if(strcmp(value,"crystalcave01"))
+    else if(!strncmp(value,"crystalcave01",13))
     {
         m->tracknum=36;
     }
-    else if(strcmp(value,"conver"))
+    else if(!strncmp(value,"conver",6))
     {
         m->tracknum=37;
     }
-    else if(strcmp(value,"laymet2a"))
+    else if(!strncmp(value,"laymet2a",8))
     {
         m->tracknum=38;
     }
-    else if(strcmp(value,"dkch"))
+    else if(!strncmp(value,"dkch",4))
     {
         m->tracknum=39;
     }
