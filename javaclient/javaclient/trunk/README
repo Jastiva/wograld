@@ -36,6 +36,42 @@ sure both the JAVA_HOME and ANT_HOME environment variables are set correctly.
 Change into the jxclient directory. On the console type "ant" - that's all. Run
 the client with "java -jar jxclient.jar".
 
+Adding new music:
+-----------------
+
+1) In the javaclient, subfolder trunk/resource/music/
+   Has a list of existing *.ogg files.  A new map for local hosting or
+   to submit to the main project, can refer to any of these or to a new track
+   You can add a new ogg file here if you want to.
+   It is not likely that a remote server will choose it unless you submit
+   the required files and they are accepted
+
+2) In a map file, look for the keyword "background_music" in the map header
+   that is, as part of the "arch map".  This can be changed from the map editor
+   or from the text editor.  If no "background_music" keyword is found by the
+   server, it will choose a default music track. If you add a new music track
+   to the javaclient resouces then you can use its name as the key value
+
+3) In the javaclient, if you add a music track that was not there before,
+   go to the folder 
+   trunk/src/jxclient/com/realtime/crossfire/jxclient/server/crossfire/
+   and backup the file DefaultCrossfireServerConnection.java
+   Then open the original file, and go to the method "processMusic()".
+   Find the statements "if track==1".
+   Then add a new case with the new track name.
+   Write down the case number, as the server code needs to know this.
+
+4) Go to the javaclient "trunk" folder and try to build using "ant".
+   If build is successful, proceed to the next step, else check syntax.
+   It will probably build even if the track name is incorrect, so verify.
+
+5) Go to the server "common/" folder and back up the file "map.c".
+   as a non .c file.  Find the function "load_map_header()"
+   and find the keyword "background_music".
+   Add a case, using the new number from step 3, for the track name.
+   The track name should match that in the map file.
+
+
 Connecting through a proxy:
 ---------------------------
 Set an HTTP proxy to allow metaserver access to retrieve the list of available
