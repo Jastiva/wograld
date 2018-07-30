@@ -2,13 +2,13 @@ Object merchant
 race human
 name Merchant
 randomitems merchant
-face merchant.111
+face merchant.151
 anim
 facings 4
 merchant.111
-merchant.171
-merchant.111
 merchant.131
+merchant.151
+merchant.171
 mina
 is_animated 0
 sp 10

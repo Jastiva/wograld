@@ -6,6 +6,8 @@ face holy_priest.111
 anim
 holy_priest.111
 holy_priest.211
+holy_priest.311
+holy_priest.211
 mina
 speed 0.16
 alive 1
