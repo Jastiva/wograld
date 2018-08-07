@@ -1,4 +1,5 @@
-Object shrub
+Object shrub2a
+name bush
 face shrub2.111
 slow_move 1
 is_wooded 1

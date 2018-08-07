@@ -2,80 +2,83 @@ arch map
 name world_127_126
 width 50
 height 50
+msg
+Modified: 2018-08-04 lori
+endmsg
 outdoor 1
 tile_path_1 world_127_125
 tile_path_2 world_128_126
 tile_path_3 world_127_127
 tile_path_4 world_126_126
 end
-arch deep_sea
+arch swampyel
 elevation -8518
 end
-arch deep_sea
+arch swampyel
 y 1
 elevation -8522
 end
-arch deep_sea
+arch swampyel
 y 2
 elevation -8539
 end
-arch deep_sea
+arch swampyel
 y 3
 elevation -8570
 end
-arch deep_sea
+arch swampyel
 y 4
 elevation -8619
 end
-arch deep_sea
+arch swampyel
 y 5
 elevation -8685
 end
-arch deep_sea
+arch swampyel
 y 6
 elevation -8771
 end
-arch deep_sea
+arch swampyel
 y 7
 elevation -8876
 end
-arch deep_sea
+arch swampyel
 y 8
 elevation -9002
 end
-arch deep_sea
+arch swampyel
 y 9
 elevation -9148
 end
-arch deep_sea
+arch swampyel
 y 10
 elevation -9313
 end
-arch deep_sea
+arch swamp
 y 11
 elevation -9498
 end
-arch deep_sea
+arch swampyel
 y 12
 elevation -9701
 end
-arch deep_sea
+arch swampyel
 y 13
 elevation -9921
 end
-arch deep_sea
+arch swamp
 y 14
 elevation -10157
 end
-arch deep_sea
+arch swamp
 y 15
 elevation -10405
 end
-arch deep_sea
+arch swampyel
 y 16
 elevation -10664
 end
-arch deep_sea
+arch swampyel
 y 17
 elevation -10932
 end
@@ -83,210 +86,216 @@ arch deep_sea
 y 18
 elevation -11205
 end
+arch swimming_fish
+y 18
+end
 arch deep_sea
 y 19
 elevation -11480
 end
-arch deep_sea
+arch swimming_fish
+y 19
+end
+arch swamp
 y 20
 elevation -11755
 end
-arch deep_sea
+arch swamp
 y 21
 elevation -12026
 end
-arch deep_sea
+arch swamp
 y 22
 elevation -12288
 end
-arch deep_sea
+arch swamp
 y 23
 elevation -12538
 end
-arch deep_sea
+arch swampyel
 y 24
 elevation -12772
 end
-arch deep_sea
+arch swampyel
 y 25
 elevation -12988
 end
-arch deep_sea
+arch swamp
 y 26
 elevation -13182
 end
-arch deep_sea
+arch swamp
 y 27
 elevation -13351
 end
-arch deep_sea
+arch swamp
 y 28
 elevation -13492
 end
-arch deep_sea
+arch swamp
 y 29
 elevation -13604
 end
-arch deep_sea
+arch swamp
 y 30
 elevation -13687
 end
-arch deep_sea
+arch swamp
 y 31
 elevation -13739
 end
-arch deep_sea
+arch swamp
 y 32
 elevation -13763
 end
-arch deep_sea
+arch swamp
 y 33
 elevation -13760
 end
-arch deep_sea
+arch swamp
 y 34
 elevation -13732
 end
-arch deep_sea
+arch swamp
 y 35
 elevation -13682
 end
-arch deep_sea
+arch swamp
 y 36
 elevation -13615
 end
-arch deep_sea
+arch swamp
 y 37
 elevation -13535
 end
-arch deep_sea
+arch swamp
 y 38
 elevation -13447
 end
-arch deep_sea
+arch swamp
 y 39
 elevation -13356
 end
-arch deep_sea
+arch swamp
 y 40
 elevation -13267
 end
-arch deep_sea
+arch swamp
 y 41
 elevation -13185
 end
-arch deep_sea
+arch swamp
 y 42
 elevation -13114
 end
-arch deep_sea
+arch swamp
 y 43
 elevation -13059
 end
-arch deep_sea
+arch swamp
 y 44
 elevation -13024
 end
-arch deep_sea
+arch swamp
 y 45
 elevation -13009
 end
-arch deep_sea
+arch swamp
 y 46
 elevation -13018
 end
-arch deep_sea
+arch swamp
 y 47
 elevation -13051
 end
-arch deep_sea
+arch swamp
 y 48
 elevation -13107
 end
-arch deep_sea
+arch swamp
 y 49
 elevation -13185
 end
-arch deep_sea
+arch swampyel
 x 1
 elevation -8436
 end
-arch deep_sea
+arch swampyel
 x 1
 y 1
 elevation -8464
 end
-arch deep_sea
+arch swampyel
 x 1
 y 2
 elevation -8505
 end
-arch deep_sea
+arch swampyel
 x 1
 y 3
 elevation -8560
 end
-arch deep_sea
+arch swampyel
 x 1
 y 4
 elevation -8633
 end
-arch deep_sea
+arch swampyel
 x 1
 y 5
 elevation -8723
 end
-arch deep_sea
+arch swampyel
 x 1
 y 6
 elevation -8832
 end
-arch deep_sea
+arch swampyel
 x 1
 y 7
 elevation -8961
 end
-arch deep_sea
+arch swampyel
 x 1
 y 8
 elevation -9110
 end
-arch deep_sea
+arch swampyel
 x 1
 y 9
 elevation -9278
 end
-arch deep_sea
+arch swamp
 x 1
 y 10
 elevation -9467
 end
-arch deep_sea
+arch swamp
 x 1
 y 11
 elevation -9673
 end
-arch deep_sea
+arch swampyel
 x 1
 y 12
 elevation -9897
 end
-arch deep_sea
+arch swamp
 x 1
 y 13
 elevation -10137
 end
-arch deep_sea
+arch deep_swamp
 x 1
 y 14
 elevation -10391
 end
-arch deep_sea
+arch swamp
 x 1
 y 15
 elevation -10657
 end
-arch deep_sea
+arch swamp
 x 1
 y 16
 elevation -10932
@@ -296,17 +305,29 @@ x 1
 y 17
 elevation -11213
 end
+arch swimming_fish
+x 1
+y 17
+end
 arch deep_sea
 x 1
 y 18
 elevation -11498
 end
-arch deep_sea
+arch swimming_fish
+x 1
+y 18
+end
+arch swampyel
 x 1
 y 19
 elevation -11784
 end
-arch deep_sea
+arch swimming_fish
+x 1
+y 19
+end
+arch swampyel
 x 1
 y 20
 elevation -12066
@@ -316,231 +337,235 @@ x 1
 y 21
 elevation -12342
 end
-arch deep_sea
+arch swimming_fish
+x 1
+y 21
+end
+arch swampyel
 x 1
 y 22
 elevation -12608
 end
-arch deep_sea
+arch swampyel
 x 1
 y 23
 elevation -12859
 end
-arch deep_sea
+arch swampyel
 x 1
 y 24
 elevation -13092
 end
-arch deep_sea
+arch swamp
 x 1
 y 25
 elevation -13304
 end
-arch deep_sea
+arch swamp
 x 1
 y 26
 elevation -13491
 end
-arch deep_sea
+arch swamp
 x 1
 y 27
 elevation -13652
 end
-arch deep_sea
+arch swamp
 x 1
 y 28
 elevation -13783
 end
-arch deep_sea
+arch swamp
 x 1
 y 29
 elevation -13882
 end
-arch deep_sea
+arch swamp
 x 1
 y 30
 elevation -13950
 end
-arch deep_sea
+arch swamp
 x 1
 y 31
 elevation -13986
 end
-arch deep_sea
+arch swamp
 x 1
 y 32
 elevation -13992
 end
-arch deep_sea
+arch swamp
 x 1
 y 33
 elevation -13968
 end
-arch deep_sea
+arch swamp
 x 1
 y 34
 elevation -13918
 end
-arch deep_sea
+arch swamp
 x 1
 y 35
 elevation -13845
 end
-arch deep_sea
+arch swamp
 x 1
 y 36
 elevation -13754
 end
-arch deep_sea
+arch swamp
 x 1
 y 37
 elevation -13648
 end
-arch deep_sea
+arch swamp
 x 1
 y 38
 elevation -13533
 end
-arch deep_sea
+arch swamp
 x 1
 y 39
 elevation -13414
 end
-arch deep_sea
+arch swamp
 x 1
 y 40
 elevation -13296
 end
-arch deep_sea
+arch swamp
 x 1
 y 41
 elevation -13185
 end
-arch deep_sea
+arch swamp
 x 1
 y 42
 elevation -13086
 end
-arch deep_sea
+arch swamp
 x 1
 y 43
 elevation -13003
 end
-arch deep_sea
+arch swamp
 x 1
 y 44
 elevation -12939
 end
-arch deep_sea
+arch swamp
 x 1
 y 45
 elevation -12897
 end
-arch deep_sea
+arch swamp
 x 1
 y 46
 elevation -12879
 end
-arch deep_sea
+arch swamp
 x 1
 y 47
 elevation -12887
 end
-arch deep_sea
+arch swamp
 x 1
 y 48
 elevation -12919
 end
-arch deep_sea
+arch swamp
 x 1
 y 49
 elevation -12976
 end
-arch deep_sea
+arch swampyel
 x 2
 elevation -8365
 end
-arch deep_sea
+arch swampyel
 x 2
 y 1
 elevation -8419
 end
-arch deep_sea
+arch swampyel
 x 2
 y 2
 elevation -8486
 end
-arch deep_sea
+arch swampyel
 x 2
 y 3
 elevation -8568
 end
-arch deep_sea
+arch marsh
 x 2
 y 4
 elevation -8666
 end
-arch deep_sea
+arch swampyel
 x 2
 y 5
 elevation -8781
 end
-arch deep_sea
+arch swampyel
 x 2
 y 6
 elevation -8916
 end
-arch deep_sea
+arch swampyel
 x 2
 y 7
 elevation -9070
 end
-arch deep_sea
+arch swampyel
 x 2
 y 8
 elevation -9244
 end
-arch deep_sea
+arch swamp
 x 2
 y 9
 elevation -9437
 end
-arch deep_sea
+arch swamp
 x 2
 y 10
 elevation -9649
 end
-arch deep_sea
+arch swamp
 x 2
 y 11
 elevation -9879
 end
-arch deep_sea
+arch swampyel
 x 2
 y 12
 elevation -10125
 end
-arch deep_sea
+arch swamp
 x 2
 y 13
 elevation -10385
 end
-arch deep_sea
+arch swamp
 x 2
 y 14
 elevation -10658
 end
-arch deep_sea
+arch swamp
 x 2
 y 15
 elevation -10941
 end
-arch deep_sea
+arch swamp
 x 2
 y 16
 elevation -11232
 end
-arch deep_sea
+arch swamp
 x 2
 y 17
 elevation -11528
@@ -550,261 +575,277 @@ x 2
 y 18
 elevation -11825
 end
+arch swimming_fish
+x 2
+y 18
+end
 arch deep_sea
 x 2
 y 19
 elevation -12120
+end
+arch swimming_fish
+x 2
+y 19
+end
+arch swimming_fish
+x 2
+y 19
 end
 arch deep_sea
 x 2
 y 20
 elevation -12409
 end
-arch deep_sea
+arch swimming_fish
+x 2
+y 20
+end
+arch swampyel
 x 2
 y 21
 elevation -12690
 end
-arch deep_sea
+arch swampyel
 x 2
 y 22
 elevation -12958
 end
-arch deep_sea
+arch swampyel
 x 2
 y 23
 elevation -13209
 end
-arch deep_sea
+arch swampyel
 x 2
 y 24
 elevation -13440
 end
-arch deep_sea
+arch swampyel
 x 2
 y 25
 elevation -13647
 end
-arch deep_sea
+arch swamp
 x 2
 y 26
 elevation -13828
 end
-arch deep_sea
+arch swamp
 x 2
 y 27
 elevation -13979
 end
-arch deep_sea
+arch swamp
 x 2
 y 28
 elevation -14099
 end
-arch deep_sea
+arch swamp
 x 2
 y 29
 elevation -14185
 end
-arch deep_sea
+arch swamp
 x 2
 y 30
 elevation -14238
 end
-arch deep_sea
+arch swamp
 x 2
 y 31
 elevation -14257
 end
-arch deep_sea
+arch swamp
 x 2
 y 32
 elevation -14244
 end
-arch deep_sea
+arch swamp
 x 2
 y 33
 elevation -14200
 end
-arch deep_sea
+arch swamp
 x 2
 y 34
 elevation -14128
 end
-arch deep_sea
+arch swamp
 x 2
 y 35
 elevation -14031
 end
-arch deep_sea
+arch swamp
 x 2
 y 36
 elevation -13915
 end
-arch deep_sea
+arch swamp
 x 2
 y 37
 elevation -13783
 end
-arch deep_sea
+arch swamp
 x 2
 y 38
 elevation -13640
 end
-arch deep_sea
+arch swamp
 x 2
 y 39
 elevation -13493
 end
-arch deep_sea
+arch swamp
 x 2
 y 40
 elevation -13346
 end
-arch deep_sea
+arch swamp
 x 2
 y 41
 elevation -13205
 end
-arch deep_sea
+arch swamp
 x 2
 y 42
 elevation -13076
 end
-arch deep_sea
+arch swamp
 x 2
 y 43
 elevation -12963
 end
-arch deep_sea
+arch swamp
 x 2
 y 44
 elevation -12869
 end
-arch deep_sea
+arch swamp
 x 2
 y 45
 elevation -12798
 end
-arch deep_sea
+arch swamp
 x 2
 y 46
 elevation -12752
 end
-arch deep_sea
+arch swamp
 x 2
 y 47
 elevation -12732
 end
-arch deep_sea
+arch swamp
 x 2
 y 48
 elevation -12738
 end
-arch deep_sea
+arch swamp
 x 2
 y 49
 elevation -12770
 end
-arch deep_sea
+arch swampyel
 x 3
 elevation -8305
 end
-arch deep_sea
+arch swampyel
 x 3
 y 1
 elevation -8388
 end
-arch deep_sea
+arch swampyel
 x 3
 y 2
 elevation -8483
 end
-arch deep_sea
+arch swampyel
 x 3
 y 3
 elevation -8593
 end
-arch deep_sea
+arch marsh
 x 3
 y 4
 elevation -8718
 end
-arch deep_sea
+arch marsh
 x 3
 y 5
 elevation -8861
 end
-arch deep_sea
+arch swampyel
 x 3
 y 6
 elevation -9023
 end
-arch deep_sea
+arch swampyel
 x 3
 y 7
 elevation -9203
 end
-arch deep_sea
+arch swamp
 x 3
 y 8
 elevation -9403
 end
-arch deep_sea
+arch swamp
 x 3
 y 9
 elevation -9622
 end
-arch deep_sea
+arch swamp
 x 3
 y 10
 elevation -9859
 end
-arch deep_sea
+arch swamp
 x 3
 y 11
 elevation -10113
 end
-arch deep_sea
+arch swampyel
 x 3
 y 12
 elevation -10382
 end
-arch deep_sea
+arch swamp
 x 3
 y 13
 elevation -10664
 end
-arch deep_sea
+arch swamp
 x 3
 y 14
 elevation -10956
 end
-arch deep_sea
+arch swamp
 x 3
 y 15
 elevation -11257
 end
-arch deep_sea
+arch swamp
 x 3
 y 16
 elevation -11564
 end
-arch deep_sea
+arch swamp
 x 3
 y 17
 elevation -11873
 end
-arch deep_sea
+arch swamp
 x 3
 y 18
 elevation -12182
 end
-arch deep_sea
+arch swamp
 x 3
 y 19
 elevation -12486
 end
-arch deep_sea
+arch swamp
 x 3
 y 20
 elevation -12782
@@ -814,490 +855,494 @@ x 3
 y 21
 elevation -13067
 end
-arch deep_sea
+arch swimming_fish
+x 3
+y 21
+end
+arch swampyel
 x 3
 y 22
 elevation -13336
 end
-arch deep_sea
+arch swampyel
 x 3
 y 23
 elevation -13586
 end
-arch deep_sea
+arch swampyel
 x 3
 y 24
 elevation -13814
 end
-arch deep_sea
+arch swampyel
 x 3
 y 25
 elevation -14016
 end
-arch deep_sea
+arch swampyel
 x 3
 y 26
 elevation -14189
 end
-arch deep_sea
+arch swampyel
 x 3
 y 27
 elevation -14331
 end
-arch deep_sea
+arch swamp
 x 3
 y 28
 elevation -14438
 end
-arch deep_sea
+arch swamp
 x 3
 y 29
 elevation -14511
 end
-arch deep_sea
+arch swamp
 x 3
 y 30
 elevation -14549
 end
-arch deep_sea
+arch swamp
 x 3
 y 31
 elevation -14551
 end
-arch deep_sea
+arch swamp
 x 3
 y 32
 elevation -14518
 end
-arch deep_sea
+arch swamp
 x 3
 y 33
 elevation -14454
 end
-arch deep_sea
+arch swamp
 x 3
 y 34
 elevation -14360
 end
-arch deep_sea
+arch swamp
 x 3
 y 35
 elevation -14239
 end
-arch deep_sea
+arch swamp
 x 3
 y 36
 elevation -14097
 end
-arch deep_sea
+arch swamp
 x 3
 y 37
 elevation -13939
 end
-arch deep_sea
+arch swamp
 x 3
 y 38
 elevation -13769
 end
-arch deep_sea
+arch swamp
 x 3
 y 39
 elevation -13593
 end
-arch deep_sea
+arch swamp
 x 3
 y 40
 elevation -13416
 end
-arch deep_sea
+arch swamp
 x 3
 y 41
 elevation -13245
 end
-arch deep_sea
+arch swamp
 x 3
 y 42
 elevation -13085
 end
-arch deep_sea
+arch swamp
 x 3
 y 43
 elevation -12941
 end
-arch deep_sea
+arch swamp
 x 3
 y 44
 elevation -12816
 end
-arch deep_sea
+arch swamp
 x 3
 y 45
 elevation -12714
 end
-arch deep_sea
+arch swamp
 x 3
 y 46
 elevation -12637
 end
-arch deep_sea
+arch swamp
 x 3
 y 47
 elevation -12588
 end
-arch deep_sea
+arch swamp
 x 3
 y 48
 elevation -12566
 end
-arch deep_sea
+arch swamp
 x 3
 y 49
 elevation -12571
 end
-arch deep_sea
+arch swampyel
 x 4
 elevation -8258
 end
-arch deep_sea
+arch swampyel
 x 4
 y 1
 elevation -8371
 end
-arch deep_sea
+arch swampyel
 x 4
 y 2
 elevation -8496
 end
-arch deep_sea
+arch swampyel
 x 4
 y 3
 elevation -8635
 end
-arch deep_sea
+arch marsh
 x 4
 y 4
 elevation -8790
 end
-arch deep_sea
+arch marsh
 x 4
 y 5
 elevation -8962
 end
-arch deep_sea
+arch swampyel
 x 4
 y 6
 elevation -9152
 end
-arch deep_sea
+arch swampyel
 x 4
 y 7
 elevation -9360
 end
-arch deep_sea
+arch swamp
 x 4
 y 8
 elevation -9587
 end
-arch deep_sea
+arch swamp
 x 4
 y 9
 elevation -9833
 end
-arch deep_sea
+arch swamp
 x 4
 y 10
 elevation -10096
 end
-arch deep_sea
+arch swamp
 x 4
 y 11
 elevation -10375
 end
-arch deep_sea
+arch swamp
 x 4
 y 12
 elevation -10667
 end
-arch deep_sea
+arch swamp
 x 4
 y 13
 elevation -10970
 end
-arch deep_sea
+arch swamp
 x 4
 y 14
 elevation -11283
 end
-arch deep_sea
+arch swampyel
 x 4
 y 15
 elevation -11602
 end
-arch deep_sea
+arch swamp
 x 4
 y 16
 elevation -11924
 end
-arch deep_sea
+arch swamp
 x 4
 y 17
 elevation -12247
 end
-arch deep_sea
+arch swamp
 x 4
 y 18
 elevation -12567
 end
-arch deep_sea
+arch deep_swamp
 x 4
 y 19
 elevation -12879
 end
-arch deep_sea
+arch swamp
 x 4
 y 20
 elevation -13182
 end
-arch deep_sea
+arch swamp
 x 4
 y 21
 elevation -13470
 end
-arch deep_sea
+arch swampyel
 x 4
 y 22
 elevation -13740
 end
-arch deep_sea
+arch swampyel
 x 4
 y 23
 elevation -13988
 end
-arch deep_sea
+arch swampyel
 x 4
 y 24
 elevation -14212
 end
-arch deep_sea
+arch swampyel
 x 4
 y 25
 elevation -14408
 end
-arch deep_sea
+arch swampyel
 x 4
 y 26
 elevation -14573
 end
-arch deep_sea
+arch swamp
 x 4
 y 27
 elevation -14704
 end
-arch deep_sea
+arch swamp
 x 4
 y 28
 elevation -14799
 end
-arch deep_sea
+arch swamp
 x 4
 y 29
 elevation -14858
 end
-arch deep_sea
+arch swamp
 x 4
 y 30
 elevation -14880
 end
-arch deep_sea
+arch swamp
 x 4
 y 31
 elevation -14864
 end
-arch deep_sea
+arch swamp
 x 4
 y 32
 elevation -14813
 end
-arch deep_sea
+arch swamp
 x 4
 y 33
 elevation -14728
 end
-arch deep_sea
+arch swamp
 x 4
 y 34
 elevation -14612
 end
-arch deep_sea
+arch swamp
 x 4
 y 35
 elevation -14468
 end
-arch deep_sea
+arch swamp
 x 4
 y 36
 elevation -14301
 end
-arch deep_sea
+arch swamp
 x 4
 y 37
 elevation -14116
 end
-arch deep_sea
+arch swamp
 x 4
 y 38
 elevation -13918
 end
-arch deep_sea
+arch swamp
 x 4
 y 39
 elevation -13713
 end
-arch deep_sea
+arch swamp
 x 4
 y 40
 elevation -13507
 end
-arch deep_sea
+arch swamp
 x 4
 y 41
 elevation -13306
 end
-arch deep_sea
+arch swamp
 x 4
 y 42
 elevation -13114
 end
-arch deep_sea
+arch swamp
 x 4
 y 43
 elevation -12937
 end
-arch deep_sea
+arch swamp
 x 4
 y 44
 elevation -12780
 end
-arch deep_sea
+arch swamp
 x 4
 y 45
 elevation -12645
 end
-arch deep_sea
+arch swamp
 x 4
 y 46
 elevation -12537
 end
-arch deep_sea
+arch swamp
 x 4
 y 47
 elevation -12456
 end
-arch deep_sea
+arch swamp
 x 4
 y 48
 elevation -12404
 end
-arch deep_sea
+arch swamp
 x 4
 y 49
 elevation -12381
 end
-arch deep_sea
+arch swampyel
 x 5
 elevation -8224
 end
-arch deep_sea
+arch swampyel
 x 5
 y 1
 elevation -8369
 end
-arch deep_sea
+arch swampyel
 x 5
 y 2
 elevation -8526
 end
-arch deep_sea
+arch swampyel
 x 5
 y 3
 elevation -8695
 end
-arch deep_sea
+arch swampyel
 x 5
 y 4
 elevation -8880
 end
-arch deep_sea
+arch marsh
 x 5
 y 5
 elevation -9082
 end
-arch deep_sea
+arch marsh
 x 5
 y 6
 elevation -9301
 end
-arch deep_sea
+arch swampyel
 x 5
 y 7
 elevation -9539
 end
-arch deep_sea
+arch swamp
 x 5
 y 8
 elevation -9794
 end
-arch deep_sea
+arch swamp
 x 5
 y 9
 elevation -10067
 end
-arch deep_sea
+arch swamp
 x 5
 y 10
 elevation -10357
 end
-arch deep_sea
+arch swampyel
 x 5
 y 11
 elevation -10661
 end
-arch deep_sea
+arch swamp
 x 5
 y 12
 elevation -10977
 end
-arch deep_sea
+arch swamp
 x 5
 y 13
 elevation -11302
 end
-arch deep_sea
+arch swamp
 x 5
 y 14
 elevation -11635
 end
-arch deep_sea
+arch swampyel
 x 5
 y 15
 elevation -11972
 end
-arch deep_sea
+arch swamp
 x 5
 y 16
 elevation -12310
 end
-arch deep_sea
+arch swamp
 x 5
 y 17
 elevation -12646
 end
-arch deep_sea
+arch swamp
 x 5
 y 18
 elevation -12976
 end
-arch deep_sea
+arch swamp
 x 5
 y 19
 elevation -13297
@@ -1307,1934 +1352,1946 @@ x 5
 y 20
 elevation -13604
 end
-arch deep_sea
+arch swimming_fish
+x 5
+y 20
+end
+arch swampyel
 x 5
 y 21
 elevation -13895
 end
-arch deep_sea
+arch swampyel
 x 5
 y 22
 elevation -14165
 end
-arch deep_sea
+arch swamp
 x 5
 y 23
 elevation -14412
 end
-arch deep_sea
+arch swamp
 x 5
 y 24
 elevation -14631
 end
-arch deep_sea
+arch swamp
 x 5
 y 25
 elevation -14819
 end
-arch deep_sea
+arch swampyel
 x 5
 y 26
 elevation -14975
 end
-arch deep_sea
+arch swamp
 x 5
 y 27
 elevation -15095
 end
-arch deep_sea
+arch swamp
 x 5
 y 28
 elevation -15178
 end
-arch deep_sea
+arch swamp
 x 5
 y 29
 elevation -15223
 end
-arch deep_sea
+arch swamp
 x 5
 y 30
 elevation -15228
 end
-arch deep_sea
+arch swamp
 x 5
 y 31
 elevation -15195
 end
-arch deep_sea
+arch swamp
 x 5
 y 32
 elevation -15125
 end
-arch deep_sea
+arch swamp
 x 5
 y 33
 elevation -15020
 end
-arch deep_sea
+arch swamp
 x 5
 y 34
 elevation -14882
 end
-arch deep_sea
+arch swamp
 x 5
 y 35
 elevation -14715
 end
-arch deep_sea
+arch swamp
 x 5
 y 36
 elevation -14524
 end
-arch deep_sea
+arch swamp
 x 5
 y 37
 elevation -14313
 end
-arch deep_sea
+arch swamp
 x 5
 y 38
 elevation -14088
 end
-arch deep_sea
+arch swamp
 x 5
 y 39
 elevation -13855
 end
-arch deep_sea
+arch swamp
 x 5
 y 40
 elevation -13619
 end
-arch deep_sea
+arch swamp
 x 5
 y 41
 elevation -13386
 end
-arch deep_sea
+arch swamp
 x 5
 y 42
 elevation -13163
 end
-arch deep_sea
+arch swamp
 x 5
 y 43
 elevation -12953
 end
-arch deep_sea
+arch swamp
 x 5
 y 44
 elevation -12762
 end
-arch deep_sea
+arch swamp
 x 5
 y 45
 elevation -12595
 end
-arch deep_sea
+arch swamp
 x 5
 y 46
 elevation -12453
 end
-arch deep_sea
+arch swamp
 x 5
 y 47
 elevation -12340
 end
-arch deep_sea
+arch swamp
 x 5
 y 48
 elevation -12256
 end
-arch deep_sea
+arch swamp
 x 5
 y 49
 elevation -12202
 end
-arch deep_sea
+arch swamp
 x 6
 elevation -8205
 end
-arch deep_sea
+arch swampyel
 x 6
 y 1
 elevation -8383
 end
-arch deep_sea
+arch swampyel
 x 6
 y 2
 elevation -8571
 end
-arch deep_sea
+arch swampyel
 x 6
 y 3
 elevation -8772
 end
-arch deep_sea
+arch marsh
 x 6
 y 4
 elevation -8988
 end
-arch deep_sea
+arch marsh
 x 6
 y 5
 elevation -9220
 end
-arch deep_sea
+arch marsh
 x 6
 y 6
 elevation -9469
 end
-arch deep_sea
+arch marsh
 x 6
 y 7
 elevation -9736
 end
-arch deep_sea
+arch swampyel
 x 6
 y 8
 elevation -10021
 end
-arch deep_sea
+arch swampyel
 x 6
 y 9
 elevation -10322
 end
-arch deep_sea
+arch swamp
 x 6
 y 10
 elevation -10639
 end
-arch deep_sea
+arch swamp
 x 6
 y 11
 elevation -10968
 end
-arch deep_sea
+arch swamp
 x 6
 y 12
 elevation -11308
 end
-arch deep_sea
+arch swamp
 x 6
 y 13
 elevation -11656
 end
-arch deep_sea
+arch swampyel
 x 6
 y 14
 elevation -12009
 end
-arch deep_sea
+arch swamp
 x 6
 y 15
 elevation -12364
 end
-arch deep_sea
+arch swamp
 x 6
 y 16
 elevation -12718
 end
-arch deep_sea
+arch deep_swamp
 x 6
 y 17
 elevation -13066
 end
-arch deep_sea
+arch swamp
 x 6
 y 18
 elevation -13406
 end
-arch deep_sea
+arch swamp
 x 6
 y 19
 elevation -13734
 end
-arch deep_sea
+arch swampyel
 x 6
 y 20
 elevation -14046
 end
-arch deep_sea
+arch swampyel
 x 6
 y 21
 elevation -14339
 end
-arch deep_sea
+arch swamp
 x 6
 y 22
 elevation -14609
 end
-arch deep_sea
+arch swamp
 x 6
 y 23
 elevation -14852
 end
-arch deep_sea
+arch swamp
 x 6
 y 24
 elevation -15066
 end
-arch deep_sea
+arch swamp
 x 6
 y 25
 elevation -15247
 end
-arch deep_sea
+arch swamp
 x 6
 y 26
 elevation -15393
 end
-arch deep_sea
+arch swamp
 x 6
 y 27
 elevation -15502
 end
-arch deep_sea
+arch swamp
 x 6
 y 28
 elevation -15572
 end
-arch deep_sea
+arch swamp
 x 6
 y 29
 elevation -15602
 end
-arch deep_sea
+arch swamp
 x 6
 y 30
 elevation -15592
 end
-arch deep_sea
+arch swampyel
 x 6
 y 31
 elevation -15542
 end
-arch deep_sea
+arch swampyel
 x 6
 y 32
 elevation -15454
 end
-arch deep_sea
+arch swampyel
 x 6
 y 33
 elevation -15329
 end
-arch deep_sea
+arch swamp
 x 6
 y 34
 elevation -15170
 end
-arch deep_sea
+arch swamp
 x 6
 y 35
 elevation -14981
 end
-arch deep_sea
+arch swamp
 x 6
 y 36
 elevation -14766
 end
-arch deep_sea
+arch swamp
 x 6
 y 37
 elevation -14530
 end
-arch deep_sea
+arch swamp
 x 6
 y 38
 elevation -14278
 end
-arch deep_sea
+arch swamp
 x 6
 y 39
 elevation -14016
 end
-arch deep_sea
+arch swamp
 x 6
 y 40
 elevation -13751
 end
-arch deep_sea
+arch swamp
 x 6
 y 41
 elevation -13487
 end
-arch deep_sea
+arch swamp
 x 6
 y 42
 elevation -13232
 end
-arch deep_sea
+arch swamp
 x 6
 y 43
 elevation -12989
 end
-arch deep_sea
+arch swamp
 x 6
 y 44
 elevation -12765
 end
-arch deep_sea
+arch swamp
 x 6
 y 45
 elevation -12564
 end
-arch deep_sea
+arch swamp
 x 6
 y 46
 elevation -12388
 end
-arch deep_sea
+arch swamp
 x 6
 y 47
 elevation -12241
 end
-arch deep_sea
+arch swamp
 x 6
 y 48
 elevation -12124
 end
-arch deep_sea
+arch swamp
 x 6
 y 49
 elevation -12037
 end
-arch deep_sea
+arch swamp
 x 7
 elevation -8201
 end
-arch deep_sea
+arch swamp
 x 7
 y 1
 elevation -8412
 end
-arch deep_sea
+arch swamp
 x 7
 y 2
 elevation -8632
 end
-arch deep_sea
+arch marsh
 x 7
 y 3
 elevation -8864
 end
-arch deep_sea
+arch marsh
 x 7
 y 4
 elevation -9111
 end
-arch deep_sea
+arch marsh
 x 7
 y 5
 elevation -9374
 end
-arch deep_sea
+arch swampyel
 x 7
 y 6
 elevation -9654
 end
-arch deep_sea
+arch swampyel
 x 7
 y 7
 elevation -9951
 end
-arch deep_sea
+arch swampyel
 x 7
 y 8
 elevation -10265
 end
-arch deep_sea
+arch swamp
 x 7
 y 9
 elevation -10594
 end
-arch deep_sea
+arch swampyel
 x 7
 y 10
 elevation -10938
 end
-arch deep_sea
+arch swampyel
 x 7
 y 11
 elevation -11293
 end
-arch deep_sea
+arch swampyel
 x 7
 y 12
 elevation -11657
 end
-arch deep_sea
+arch swamp
 x 7
 y 13
 elevation -12027
 end
-arch deep_sea
+arch swampyel
 x 7
 y 14
 elevation -12400
 end
-arch deep_sea
+arch swamp
 x 7
 y 15
 elevation -12773
 end
-arch deep_sea
+arch swamp
 x 7
 y 16
 elevation -13142
 end
-arch deep_sea
+arch swamp
 x 7
 y 17
 elevation -13503
 end
-arch deep_sea
+arch swamp
 x 7
 y 18
 elevation -13853
 end
-arch deep_sea
+arch swamp
 x 7
 y 19
 elevation -14187
 end
-arch deep_sea
+arch swampyel
 x 7
 y 20
 elevation -14503
 end
-arch deep_sea
+arch swampyel
 x 7
 y 21
 elevation -14797
 end
-arch deep_sea
+arch swamp
 x 7
 y 22
 elevation -15066
 end
-arch deep_sea
+arch swamp
 x 7
 y 23
 elevation -15306
 end
-arch deep_sea
+arch swamp
 x 7
 y 24
 elevation -15514
 end
-arch deep_sea
+arch swamp
 x 7
 y 25
 elevation -15687
 end
-arch deep_sea
+arch swamp
 x 7
 y 26
 elevation -15823
 end
-arch deep_sea
+arch swamp
 x 7
 y 27
 elevation -15921
 end
-arch deep_sea
+arch swamp
 x 7
 y 28
 elevation -15978
 end
-arch deep_sea
+arch swamp
 x 7
 y 29
 elevation -15994
 end
-arch deep_sea
+arch swampyel
 x 7
 y 30
 elevation -15969
 end
-arch deep_sea
+arch swampyel
 x 7
 y 31
 elevation -15902
 end
-arch deep_sea
+arch swampyel
 x 7
 y 32
 elevation -15796
 end
-arch deep_sea
+arch swampyel
 x 7
 y 33
 elevation -15652
 end
-arch deep_sea
+arch swampyel
 x 7
 y 34
 elevation -15473
 end
-arch deep_sea
+arch swamp
 x 7
 y 35
 elevation -15262
 end
-arch deep_sea
+arch swamp
 x 7
 y 36
 elevation -15024
 end
-arch deep_sea
+arch swamp
 x 7
 y 37
 elevation -14764
 end
-arch deep_sea
+arch swamp
 x 7
 y 38
 elevation -14486
 end
-arch deep_sea
+arch swamp
 x 7
 y 39
 elevation -14197
 end
-arch deep_sea
+arch swamp
 x 7
 y 40
 elevation -13903
 end
-arch deep_sea
+arch swamp
 x 7
 y 41
 elevation -13609
 end
-arch deep_sea
+arch swamp
 x 7
 y 42
 elevation -13321
 end
-arch deep_sea
+arch swamp
 x 7
 y 43
 elevation -13046
 end
-arch deep_sea
+arch swamp
 x 7
 y 44
 elevation -12789
 end
-arch deep_sea
+arch swamp
 x 7
 y 45
 elevation -12553
 end
-arch deep_sea
+arch swamp
 x 7
 y 46
 elevation -12343
 end
-arch deep_sea
+arch swamp
 x 7
 y 47
 elevation -12161
 end
-arch deep_sea
+arch swamp
 x 7
 y 48
 elevation -12010
 end
-arch deep_sea
+arch swamp
 x 7
 y 49
 elevation -11890
 end
-arch deep_sea
+arch swamp
 x 8
 elevation -8213
 end
-arch deep_sea
+arch swamp
 x 8
 y 1
 elevation -8456
 end
-arch deep_sea
+arch swamp
 x 8
 y 2
 elevation -8707
 end
-arch deep_sea
+arch marsh
 x 8
 y 3
 elevation -8971
 end
-arch deep_sea
+arch marsh
 x 8
 y 4
 elevation -9249
 end
-arch deep_sea
+arch marsh
 x 8
 y 5
 elevation -9542
 end
-arch deep_sea
+arch swampyel
 x 8
 y 6
 elevation -9852
 end
-arch deep_sea
+arch swamp
 x 8
 y 7
 elevation -10179
 end
-arch deep_sea
+arch swampyel
 x 8
 y 8
 elevation -10522
 end
-arch deep_sea
+arch swampyel
 x 8
 y 9
 elevation -10879
 end
-arch deep_sea
+arch swampyel
 x 8
 y 10
 elevation -11250
 end
-arch deep_sea
+arch swampyel
 x 8
 y 11
 elevation -11631
 end
-arch deep_sea
+arch swampyel
 x 8
 y 12
 elevation -12019
 end
-arch deep_sea
+arch swampyel
 x 8
 y 13
 elevation -12411
 end
-arch deep_sea
+arch swampyel
 x 8
 y 14
 elevation -12804
 end
-arch deep_sea
+arch swamp
 x 8
 y 15
 elevation -13194
 end
-arch deep_sea
+arch swampyel
 x 8
 y 16
 elevation -13577
 end
-arch deep_sea
+arch swamp
 x 8
 y 17
 elevation -13951
 end
-arch deep_sea
+arch swamp
 x 8
 y 18
 elevation -14310
 end
-arch deep_sea
+arch swamp
 x 8
 y 19
 elevation -14651
 end
-arch deep_sea
+arch swamp
 x 8
 y 20
 elevation -14970
 end
-arch deep_sea
+arch swamp
 x 8
 y 21
 elevation -15265
 end
-arch deep_sea
+arch swamp
 x 8
 y 22
 elevation -15532
 end
-arch deep_sea
+arch swamp
 x 8
 y 23
 elevation -15768
 end
-arch deep_sea
+arch swamp
 x 8
 y 24
 elevation -15969
 end
-arch deep_sea
+arch swamp
 x 8
 y 25
 elevation -16135
 end
-arch deep_sea
+arch swamp
 x 8
 y 26
 elevation -16262
 end
-arch deep_sea
+arch swamp
 x 8
 y 27
 elevation -16348
 end
-arch deep_sea
+arch swamp
 x 8
 y 28
 elevation -16393
 end
-arch deep_sea
+arch swampyel
 x 8
 y 29
 elevation -16395
 end
-arch deep_sea
+arch swampyel
 x 8
 y 30
 elevation -16355
 end
-arch deep_sea
+arch swampyel
 x 8
 y 31
 elevation -16272
 end
-arch deep_sea
+arch swampyel
 x 8
 y 32
 elevation -16149
 end
-arch deep_sea
+arch swampyel
 x 8
 y 33
 elevation -15987
 end
-arch deep_sea
+arch swampyel
 x 8
 y 34
 elevation -15789
 end
-arch deep_sea
+arch swampyel
 x 8
 y 35
 elevation -15558
 end
-arch deep_sea
+arch swamp
 x 8
 y 36
 elevation -15298
 end
-arch deep_sea
+arch swamp
 x 8
 y 37
 elevation -15015
 end
-arch deep_sea
+arch swamp
 x 8
 y 38
 elevation -14712
 end
-arch deep_sea
+arch swamp
 x 8
 y 39
 elevation -14397
 end
-arch deep_sea
+arch swamp
 x 8
 y 40
 elevation -14074
 end
-arch deep_sea
+arch swamp
 x 8
 y 41
 elevation -13751
 end
-arch deep_sea
+arch swamp
 x 8
 y 42
 elevation -13432
 end
-arch deep_sea
+arch swamp
 x 8
 y 43
 elevation -13125
 end
-arch deep_sea
+arch swamp
 x 8
 y 44
 elevation -12834
 end
-arch deep_sea
+arch stump2
+x 8
+y 44
+end
+arch swamp
 x 8
 y 45
 elevation -12564
 end
-arch deep_sea
+arch swamp
 x 8
 y 46
 elevation -12318
 end
-arch deep_sea
+arch swamp
 x 8
 y 47
 elevation -12102
 end
-arch deep_sea
+arch swamp
 x 8
 y 48
 elevation -11916
 end
-arch deep_sea
+arch swamp
 x 8
 y 49
 elevation -11762
 end
-arch deep_sea
+arch swamp
 x 9
 elevation -8241
 end
-arch deep_sea
+arch swamp
 x 9
 y 1
 elevation -8515
 end
-arch deep_sea
+arch swamp
 x 9
 y 2
 elevation -8797
 end
-arch deep_sea
+arch swamp
 x 9
 y 3
 elevation -9091
 end
-arch deep_sea
+arch marsh
 x 9
 y 4
 elevation -9399
 end
-arch deep_sea
+arch marsh
 x 9
 y 5
 elevation -9722
 end
-arch deep_sea
+arch swampyel
 x 9
 y 6
 elevation -10061
 end
-arch deep_sea
+arch swampyel
 x 9
 y 7
 elevation -10417
 end
-arch deep_sea
+arch swampyel
 x 9
 y 8
 elevation -10789
 end
-arch deep_sea
+arch swampyel
 x 9
 y 9
 elevation -11174
 end
-arch deep_sea
+arch swampyel
 x 9
 y 10
 elevation -11571
 end
-arch deep_sea
+arch swampyel
 x 9
 y 11
 elevation -11977
 end
-arch deep_sea
+arch swampyel
 x 9
 y 12
 elevation -12389
 end
-arch deep_sea
+arch swampyel
 x 9
 y 13
 elevation -12803
 end
-arch deep_sea
+arch swampyel
 x 9
 y 14
 elevation -13215
 end
-arch deep_sea
+arch swampyel
 x 9
 y 15
 elevation -13622
 end
-arch deep_sea
+arch swampyel
 x 9
 y 16
 elevation -14020
 end
-arch deep_sea
+arch swamp
 x 9
 y 17
 elevation -14404
 end
-arch deep_sea
+arch swamp
 x 9
 y 18
 elevation -14772
 end
-arch deep_sea
+arch swamp
 x 9
 y 19
 elevation -15119
 end
-arch deep_sea
+arch swamp
 x 9
 y 20
 elevation -15442
 end
-arch deep_sea
+arch swamp
 x 9
 y 21
 elevation -15737
 end
-arch deep_sea
+arch swamp
 x 9
 y 22
 elevation -16002
 end
-arch deep_sea
+arch swamp
 x 9
 y 23
 elevation -16234
 end
-arch deep_sea
+arch swamp
 x 9
 y 24
 elevation -16429
 end
-arch deep_sea
+arch swamp
 x 9
 y 25
 elevation -16586
 end
-arch deep_sea
+arch swamp
 x 9
 y 26
 elevation -16704
 end
-arch deep_sea
+arch swamp
 x 9
 y 27
 elevation -16779
 end
-arch deep_sea
+arch swamp
 x 9
 y 28
 elevation -16812
 end
-arch deep_sea
+arch swampyel
 x 9
 y 29
 elevation -16801
 end
-arch deep_sea
+arch swampyel
 x 9
 y 30
 elevation -16747
 end
-arch deep_sea
+arch swampyel
 x 9
 y 31
 elevation -16650
 end
-arch deep_sea
+arch swampyel
 x 9
 y 32
 elevation -16511
 end
-arch deep_sea
+arch swampyel
 x 9
 y 33
 elevation -16332
 end
-arch deep_sea
+arch swampyel
 x 9
 y 34
 elevation -16116
 end
-arch deep_sea
+arch swampyel
 x 9
 y 35
 elevation -15866
 end
-arch deep_sea
+arch swamp
 x 9
 y 36
 elevation -15586
 end
-arch deep_sea
+arch swamp
 x 9
 y 37
 elevation -15281
 end
-arch deep_sea
+arch swamp
 x 9
 y 38
 elevation -14955
 end
-arch deep_sea
+arch swamp
 x 9
 y 39
 elevation -14614
 end
-arch deep_sea
+arch swamp
 x 9
 y 40
 elevation -14265
 end
-arch deep_sea
+arch swamp
 x 9
 y 41
 elevation -13913
 end
-arch deep_sea
+arch swamp
 x 9
 y 42
 elevation -13564
 end
-arch deep_sea
+arch swamp
 x 9
 y 43
 elevation -13225
 end
-arch deep_sea
+arch swamp
 x 9
 y 44
 elevation -12901
 end
-arch deep_sea
+arch swamp
 x 9
 y 45
 elevation -12597
 end
-arch deep_sea
+arch swamp
 x 9
 y 46
 elevation -12317
 end
-arch deep_sea
+arch swamp
 x 9
 y 47
 elevation -12066
 end
-arch deep_sea
+arch swamp
 x 9
 y 48
 elevation -11845
 end
-arch deep_sea
+arch swamp
 x 9
 y 49
 elevation -11657
 end
-arch deep_sea
+arch swamp
 x 10
 elevation -8286
 end
-arch deep_sea
+arch swamp
 x 10
 y 1
 elevation -8589
 end
-arch deep_sea
+arch swamp
 x 10
 y 2
 elevation -8900
 end
-arch deep_sea
+arch swamp
 x 10
 y 3
 elevation -9222
 end
-arch deep_sea
+arch swamp
 x 10
 y 4
 elevation -9559
 end
-arch deep_sea
+arch swampyel
 x 10
 y 5
 elevation -9911
 end
-arch deep_sea
+arch swampyel
 x 10
 y 6
 elevation -10279
 end
-arch deep_sea
+arch swampyel
 x 10
 y 7
 elevation -10663
 end
-arch deep_sea
+arch swampyel
 x 10
 y 8
 elevation -11062
 end
-arch deep_sea
+arch swampyel
 x 10
 y 9
 elevation -11474
 end
-arch deep_sea
+arch swampyel
 x 10
 y 10
 elevation -11897
 end
-arch deep_sea
+arch swampyel
 x 10
 y 11
 elevation -12327
 end
-arch deep_sea
+arch swampyel
 x 10
 y 12
 elevation -12762
 end
-arch deep_sea
+arch swamp
 x 10
 y 13
 elevation -13197
 end
-arch deep_sea
+arch swampyel
 x 10
 y 14
 elevation -13628
 end
-arch deep_sea
+arch swamp
 x 10
 y 15
 elevation -14051
 end
-arch deep_sea
+arch swamp
 x 10
 y 16
 elevation -14463
 end
-arch deep_sea
+arch swamp
 x 10
 y 17
 elevation -14859
 end
-arch deep_sea
+arch swamp
 x 10
 y 18
 elevation -15235
 end
-arch deep_sea
+arch swamp
 x 10
 y 19
 elevation -15587
 end
-arch deep_sea
+arch swamp
 x 10
 y 20
 elevation -15913
 end
-arch deep_sea
+arch swamp
 x 10
 y 21
 elevation -16209
 end
-arch deep_sea
+arch swamp
 x 10
 y 22
 elevation -16472
 end
-arch deep_sea
+arch swamp
 x 10
 y 23
 elevation -16699
 end
-arch deep_sea
+arch swamp
 x 10
 y 24
 elevation -16888
 end
-arch deep_sea
+arch swamp
 x 10
 y 25
 elevation -17037
 end
-arch deep_sea
+arch swamp
 x 10
 y 26
 elevation -17145
 end
-arch deep_sea
+arch swamp
 x 10
 y 27
 elevation -17211
 end
-arch deep_sea
+arch swamp
 x 10
 y 28
 elevation -17232
 end
-arch deep_sea
+arch swampyel
 x 10
 y 29
 elevation -17210
 end
-arch deep_sea
+arch swampyel
 x 10
 y 30
 elevation -17143
 end
-arch deep_sea
+arch swampyel
 x 10
 y 31
 elevation -17032
 end
-arch deep_sea
+arch swampyel
 x 10
 y 32
 elevation -16879
 end
-arch deep_sea
+arch swampyel
 x 10
 y 33
 elevation -16685
 end
-arch deep_sea
+arch swampyel
 x 10
 y 34
 elevation -16453
 end
-arch deep_sea
+arch swampyel
 x 10
 y 35
 elevation -16185
 end
-arch deep_sea
+arch swamp
 x 10
 y 36
 elevation -15887
 end
-arch deep_sea
+arch swamp
 x 10
 y 37
 elevation -15561
 end
-arch deep_sea
+arch swamp
 x 10
 y 38
 elevation -15213
 end
-arch deep_sea
+arch swamp
 x 10
 y 39
 elevation -14849
 end
-arch deep_sea
+arch swamp
 x 10
 y 40
 elevation -14474
 end
-arch deep_sea
+arch swamp
 x 10
 y 41
 elevation -14094
 end
-arch deep_sea
+arch swamp
 x 10
 y 42
 elevation -13716
 end
-arch deep_sea
+arch swamp
 x 10
 y 43
 elevation -13346
 end
-arch deep_sea
+arch swamp
 x 10
 y 44
 elevation -12990
 end
-arch deep_sea
+arch swamp
 x 10
 y 45
 elevation -12653
 end
-arch deep_sea
+arch swamp
 x 10
 y 46
 elevation -12339
 end
-arch deep_sea
+arch swamp
 x 10
 y 47
 elevation -12053
 end
-arch deep_sea
+arch swamp
 x 10
 y 48
 elevation -11798
 end
-arch deep_sea
+arch swamp
 x 10
 y 49
 elevation -11575
 end
-arch deep_sea
+arch swamp
 x 11
 elevation -8346
 end
-arch deep_sea
+arch swamp
 x 11
 y 1
 elevation -8676
 end
-arch deep_sea
+arch swamp
 x 11
 y 2
 elevation -9014
 end
-arch deep_sea
+arch swamp
 x 11
 y 3
 elevation -9363
 end
-arch deep_sea
+arch swamp
 x 11
 y 4
 elevation -9727
 end
-arch deep_sea
+arch swampyel
 x 11
 y 5
 elevation -10106
 end
-arch deep_sea
+arch swampyel
 x 11
 y 6
 elevation -10501
 end
-arch deep_sea
+arch swamp
 x 11
 y 7
 elevation -10912
 end
-arch deep_sea
+arch swampyel
 x 11
 y 8
 elevation -11338
 end
-arch deep_sea
+arch swamp
 x 11
 y 9
 elevation -11776
 end
-arch deep_sea
+arch swampyel
 x 11
 y 10
 elevation -12223
 end
-arch deep_sea
+arch swampyel
 x 11
 y 11
 elevation -12677
 end
-arch deep_sea
+arch swampyel
 x 11
 y 12
 elevation -13134
 end
-arch deep_sea
+arch swamp
 x 11
 y 13
 elevation -13589
 end
-arch deep_sea
+arch swamp
 x 11
 y 14
 elevation -14038
 end
-arch deep_sea
+arch swamp
 x 11
 y 15
 elevation -14477
 end
-arch deep_sea
+arch swamp
 x 11
 y 16
 elevation -14901
 end
-arch deep_sea
+arch swamp
 x 11
 y 17
 elevation -15308
 end
-arch deep_sea
+arch swamp
 x 11
 y 18
 elevation -15692
 end
-arch deep_sea
+arch swamp
 x 11
 y 19
 elevation -16049
 end
-arch deep_sea
+arch swamp
 x 11
 y 20
 elevation -16378
 end
-arch deep_sea
+arch swamp
 x 11
 y 21
 elevation -16674
 end
-arch deep_sea
+arch swamp
 x 11
 y 22
 elevation -16935
 end
-arch deep_sea
+arch swamp
 x 11
 y 23
 elevation -17158
 end
-arch deep_sea
+arch swamp
 x 11
 y 24
 elevation -17341
 end
-arch deep_sea
+arch swamp
 x 11
 y 25
 elevation -17483
 end
-arch deep_sea
+arch swamp
 x 11
 y 26
 elevation -17583
 end
-arch deep_sea
+arch swamp
 x 11
 y 27
 elevation -17639
 end
-arch deep_sea
+arch swampyel
 x 11
 y 28
 elevation -17650
 end
-arch deep_sea
+arch swampyel
 x 11
 y 29
 elevation -17617
 end
-arch deep_sea
+arch swampyel
 x 11
 y 30
 elevation -17538
 end
-arch deep_sea
+arch swampyel
 x 11
 y 31
 elevation -17415
 end
-arch deep_sea
+arch swampyel
 x 11
 y 32
 elevation -17249
 end
-arch deep_sea
+arch swampyel
 x 11
 y 33
 elevation -17042
 end
-arch deep_sea
+arch swampyel
 x 11
 y 34
 elevation -16795
 end
-arch deep_sea
+arch swamp
 x 11
 y 35
 elevation -16512
 end
-arch deep_sea
+arch swamp
 x 11
 y 36
 elevation -16197
 end
-arch deep_sea
+arch swamp
 x 11
 y 37
 elevation -15852
 end
-arch deep_sea
+arch swamp
 x 11
 y 38
 elevation -15484
 end
-arch deep_sea
+arch swamp
 x 11
 y 39
 elevation -15098
 end
-arch deep_sea
+arch swamp
 x 11
 y 40
 elevation -14699
 end
-arch deep_sea
+arch swamp
 x 11
 y 41
 elevation -14294
 end
-arch deep_sea
+arch swamp
 x 11
 y 42
 elevation -13888
 end
-arch deep_sea
+arch swamp
 x 11
 y 43
 elevation -13489
 end
-arch deep_sea
+arch swamp
 x 11
 y 44
 elevation -13102
 end
-arch deep_sea
+arch swamp
 x 11
 y 45
 elevation -12732
 end
-arch deep_sea
+arch swamp
 x 11
 y 46
 elevation -12385
 end
-arch deep_sea
+arch swamp
 x 11
 y 47
 elevation -12065
 end
-arch deep_sea
+arch swamp
 x 11
 y 48
 elevation -11775
 end
-arch deep_sea
+arch swamp
 x 11
 y 49
 elevation -11518
 end
-arch deep_sea
+arch swamp
 x 12
 elevation -8422
 end
-arch deep_sea
+arch swamp
 x 12
 y 1
 elevation -8776
 end
-arch deep_sea
+arch swamp
 x 12
 y 2
 elevation -9139
 end
-arch deep_sea
+arch swamp
 x 12
 y 3
 elevation -9513
 end
-arch deep_sea
+arch swamp
 x 12
 y 4
 elevation -9901
 end
-arch deep_sea
+arch swamp
 x 12
 y 5
 elevation -10305
 end
-arch deep_sea
+arch swamp
 x 12
 y 6
 elevation -10726
 end
-arch deep_sea
+arch swamp
 x 12
 y 7
 elevation -11162
 end
-arch deep_sea
+arch swampyel
 x 12
 y 8
 elevation -11612
 end
-arch deep_sea
+arch swampyel
 x 12
 y 9
 elevation -12075
 end
-arch deep_sea
+arch swampyel
 x 12
 y 10
 elevation -12546
 end
-arch deep_sea
+arch swampyel
 x 12
 y 11
 elevation -13022
 end
-arch deep_sea
+arch swampyel
 x 12
 y 12
 elevation -13499
 end
-arch deep_sea
+arch swampyel
 x 12
 y 13
 elevation -13973
 end
-arch deep_sea
+arch swamp
 x 12
 y 14
 elevation -14439
 end
-arch deep_sea
+arch swamp
 x 12
 y 15
 elevation -14893
 end
-arch deep_sea
+arch swamp
 x 12
 y 16
 elevation -15330
 end
-arch deep_sea
+arch swamp
 x 12
 y 17
 elevation -15747
 end
-arch deep_sea
+arch swamp
 x 12
 y 18
 elevation -16138
 end
-arch deep_sea
+arch swamp
 x 12
 y 19
 elevation -16500
 end
-arch deep_sea
+arch swamp
 x 12
 y 20
 elevation -16831
 end
-arch deep_sea
+arch swamp
 x 12
 y 21
 elevation -17127
 end
-arch deep_sea
+arch swamp
 x 12
 y 22
 elevation -17386
 end
-arch deep_sea
+arch swamp
 x 12
 y 23
 elevation -17606
 end
-arch deep_sea
+arch swamp
 x 12
 y 24
 elevation -17784
 end
-arch deep_sea
+arch swampyel
 x 12
 y 25
 elevation -17920
 end
-arch deep_sea
+arch swampyel
 x 12
 y 26
 elevation -18012
 end
-arch deep_sea
+arch swampyel
 x 12
 y 27
 elevation -18060
 end
-arch deep_sea
+arch swampyel
 x 12
 y 28
 elevation -18062
 end
-arch deep_sea
+arch swampyel
 x 12
 y 29
 elevation -18019
 end
-arch deep_sea
+arch swamp
 x 12
 y 30
 elevation -17930
 end
-arch deep_sea
+arch swamp
 x 12
 y 31
 elevation -17797
 end
-arch deep_sea
+arch swampyel
 x 12
 y 32
 elevation -17620
 end
-arch deep_sea
+arch swampyel
 x 12
 y 33
 elevation -17401
 end
-arch deep_sea
+arch swampyel
 x 12
 y 34
 elevation -17141
 end
-arch deep_sea
+arch swamp
 x 12
 y 35
 elevation -16845
 end
-arch deep_sea
+arch swamp
 x 12
 y 36
 elevation -16514
 end
-arch deep_sea
+arch swamp
 x 12
 y 37
 elevation -16153
 end
-arch deep_sea
+arch deep_swamp
 x 12
 y 38
 elevation -15767
 end
-arch deep_sea
+arch swamp
 x 12
 y 39
 elevation -15360
 end
-arch deep_sea
+arch swamp
 x 12
 y 40
 elevation -14939
 end
-arch deep_sea
+arch stump2
+x 12
+y 40
+end
+arch swamp
 x 12
 y 41
 elevation -14510
 end
-arch deep_sea
+arch swamp
 x 12
 y 42
 elevation -14079
 end
-arch deep_sea
+arch swamp
 x 12
 y 43
 elevation -13652
 end
-arch deep_sea
+arch swamp
 x 12
 y 44
 elevation -13235
 end
-arch deep_sea
+arch swamp
 x 12
 y 45
 elevation -12834
 end
-arch deep_sea
+arch swamp
 x 12
 y 46
 elevation -12455
 end
-arch deep_sea
+arch swamp
 x 12
 y 47
 elevation -12101
 end
-arch deep_sea
+arch swamp
 x 12
 y 48
 elevation -11778
 end
-arch deep_sea
+arch swamp
 x 12
 y 49
 elevation -11487
 end
-arch deep_sea
+arch swamp
 x 13
 elevation -8514
 end
-arch deep_sea
+arch swamp
 x 13
 y 1
 elevation -8889
 end
-arch deep_sea
+arch swamp
 x 13
 y 2
 elevation -9272
 end
-arch deep_sea
+arch swamp
 x 13
 y 3
 elevation -9668
 end
-arch deep_sea
+arch swamp
 x 13
 y 4
 elevation -10079
 end
-arch deep_sea
+arch swamp
 x 13
 y 5
 elevation -10506
 end
-arch deep_sea
+arch swamp
 x 13
 y 6
 elevation -10950
 end
-arch deep_sea
+arch swamp
 x 13
 y 7
 elevation -11409
 end
-arch deep_sea
+arch swampyel
 x 13
 y 8
 elevation -11882
@@ -3244,246 +3301,246 @@ x 13
 y 9
 elevation -12367
 end
-arch deep_sea
+arch swamp
 x 13
 y 10
 elevation -12860
 end
-arch deep_sea
+arch swamp
 x 13
 y 11
 elevation -13357
 end
-arch deep_sea
+arch swamp
 x 13
 y 12
 elevation -13853
 end
-arch deep_sea
+arch swamp
 x 13
 y 13
 elevation -14345
 end
-arch deep_sea
+arch swamp
 x 13
 y 14
 elevation -14828
 end
-arch deep_sea
+arch swamp
 x 13
 y 15
 elevation -15295
 end
-arch deep_sea
+arch swamp
 x 13
 y 16
 elevation -15744
 end
-arch deep_sea
+arch swamp
 x 13
 y 17
 elevation -16170
 end
-arch deep_sea
+arch swamp
 x 13
 y 18
 elevation -16568
 end
-arch deep_sea
+arch swamp
 x 13
 y 19
 elevation -16935
 end
-arch deep_sea
+arch swamp
 x 13
 y 20
 elevation -17269
 end
-arch deep_sea
+arch swamp
 x 13
 y 21
 elevation -17565
 end
-arch deep_sea
+arch swamp
 x 13
 y 22
 elevation -17822
 end
-arch deep_sea
+arch swamp
 x 13
 y 23
 elevation -18039
 end
-arch deep_sea
+arch swamp
 x 13
 y 24
 elevation -18213
 end
-arch deep_sea
+arch swampyel
 x 13
 y 25
 elevation -18343
 end
-arch deep_sea
+arch swampyel
 x 13
 y 26
 elevation -18429
 end
-arch deep_sea
+arch swampyel
 x 13
 y 27
 elevation -18469
 end
-arch deep_sea
+arch swampyel
 x 13
 y 28
 elevation -18464
 end
-arch deep_sea
+arch swampyel
 x 13
 y 29
 elevation -18413
 end
-arch deep_sea
+arch swampyel
 x 13
 y 30
 elevation -18316
 end
-arch deep_sea
+arch swampyel
 x 13
 y 31
 elevation -18174
 end
-arch deep_sea
+arch swamp
 x 13
 y 32
 elevation -17987
 end
-arch deep_sea
+arch swamp
 x 13
 y 33
 elevation -17758
 end
-arch deep_sea
+arch swamp
 x 13
 y 34
 elevation -17488
 end
-arch deep_sea
+arch swamp
 x 13
 y 35
 elevation -17180
 end
-arch deep_sea
+arch swamp
 x 13
 y 36
 elevation -16836
 end
-arch deep_sea
+arch swamp
 x 13
 y 37
 elevation -16461
 end
-arch deep_sea
+arch swamp
 x 13
 y 38
 elevation -16058
 end
-arch deep_sea
+arch swamp
 x 13
 y 39
 elevation -15634
 end
-arch deep_sea
+arch swamp
 x 13
 y 40
 elevation -15193
 end
-arch deep_sea
+arch swamp
 x 13
 y 41
 elevation -14741
 end
-arch deep_sea
+arch swamp
 x 13
 y 42
 elevation -14286
 end
-arch deep_sea
+arch swamp
 x 13
 y 43
 elevation -13833
 end
-arch deep_sea
+arch swamp
 x 13
 y 44
 elevation -13388
 end
-arch deep_sea
+arch swamp
 x 13
 y 45
 elevation -12957
 end
-arch deep_sea
+arch swamp
 x 13
 y 46
 elevation -12547
 end
-arch deep_sea
+arch swamp
 x 13
 y 47
 elevation -12161
 end
-arch deep_sea
+arch swamp
 x 13
 y 48
 elevation -11805
 end
-arch deep_sea
+arch swamp
 x 13
 y 49
 elevation -11482
 end
-arch deep_sea
+arch swamp
 x 14
 elevation -8620
 end
-arch deep_sea
+arch swamp
 x 14
 y 1
 elevation -9012
 end
-arch deep_sea
+arch swamp
 x 14
 y 2
 elevation -9413
 end
-arch deep_sea
+arch swamp
 x 14
 y 3
 elevation -9828
 end
-arch deep_sea
+arch swamp
 x 14
 y 4
 elevation -10259
 end
-arch deep_sea
+arch swamp
 x 14
 y 5
 elevation -10706
 end
-arch deep_sea
+arch swamp
 x 14
 y 6
 elevation -11170
 end
-arch deep_sea
+arch swamp
 x 14
 y 7
 elevation -11650
 end
-arch deep_sea
+arch swampyel
 x 14
 y 8
 elevation -12144
@@ -3503,221 +3560,221 @@ x 14
 y 11
 elevation -13678
 end
-arch deep_sea
+arch swamp
 x 14
 y 12
 elevation -14193
 end
-arch deep_sea
+arch swamp
 x 14
 y 13
 elevation -14701
 end
-arch deep_sea
+arch swamp
 x 14
 y 14
 elevation -15198
 end
-arch deep_sea
+arch swamp
 x 14
 y 15
 elevation -15679
 end
-arch deep_sea
+arch swamp
 x 14
 y 16
 elevation -16139
 end
-arch deep_sea
+arch swamp
 x 14
 y 17
 elevation -16573
 end
-arch deep_sea
+arch swamp
 x 14
 y 18
 elevation -16977
 end
-arch deep_sea
+arch swamp
 x 14
 y 19
 elevation -17349
 end
-arch deep_sea
+arch swamp
 x 14
 y 20
 elevation -17685
 end
-arch deep_sea
+arch swamp
 x 14
 y 21
 elevation -17982
 end
-arch deep_sea
+arch swamp
 x 14
 y 22
 elevation -18238
 end
-arch deep_sea
+arch swamp
 x 14
 y 23
 elevation -18452
 end
-arch deep_sea
+arch swamp
 x 14
 y 24
 elevation -18623
 end
-arch deep_sea
+arch swampyel
 x 14
 y 25
 elevation -18749
 end
-arch deep_sea
+arch swampyel
 x 14
 y 26
 elevation -18829
 end
-arch deep_sea
+arch swampyel
 x 14
 y 27
 elevation -18863
 end
-arch deep_sea
+arch swampyel
 x 14
 y 28
 elevation -18852
 end
-arch deep_sea
+arch swampyel
 x 14
 y 29
 elevation -18794
 end
-arch deep_sea
+arch swampyel
 x 14
 y 30
 elevation -18691
 end
-arch deep_sea
+arch swampyel
 x 14
 y 31
 elevation -18542
 end
-arch deep_sea
+arch swampyel
 x 14
 y 32
 elevation -18348
 end
-arch deep_sea
+arch swampyel
 x 14
 y 33
 elevation -18111
 end
-arch deep_sea
+arch swamp
 x 14
 y 34
 elevation -17832
 end
-arch deep_sea
+arch swamp
 x 14
 y 35
 elevation -17514
 end
-arch deep_sea
+arch swamp
 x 14
 y 36
 elevation -17159
 end
-arch deep_sea
+arch swamp
 x 14
 y 37
 elevation -16772
 end
-arch deep_sea
+arch swamp
 x 14
 y 38
 elevation -16356
 end
-arch deep_sea
+arch swamp
 x 14
 y 39
 elevation -15915
 end
-arch deep_sea
+arch swamp
 x 14
 y 40
 elevation -15456
 end
-arch deep_sea
+arch swamp
 x 14
 y 41
 elevation -14985
 end
-arch deep_sea
+arch swamp
 x 14
 y 42
 elevation -14507
 end
-arch deep_sea
+arch swamp
 x 14
 y 43
 elevation -14029
 end
-arch deep_sea
+arch swamp
 x 14
 y 44
 elevation -13558
 end
-arch deep_sea
+arch swamp
 x 14
 y 45
 elevation -13100
 end
-arch deep_sea
+arch swamp
 x 14
 y 46
 elevation -12660
 end
-arch deep_sea
+arch swamp
 x 14
 y 47
 elevation -12243
 end
-arch deep_sea
+arch swamp
 x 14
 y 48
 elevation -11856
 end
-arch deep_sea
+arch swamp
 x 14
 y 49
 elevation -11500
 end
-arch deep_sea
+arch swamp
 x 15
 elevation -8739
 end
-arch deep_sea
+arch swamp
 x 15
 y 1
 elevation -9144
 end
-arch deep_sea
+arch swamp
 x 15
 y 2
 elevation -9560
 end
-arch deep_sea
+arch swamp
 x 15
 y 3
 elevation -9991
 end
-arch deep_sea
+arch swamp
 x 15
 y 4
 elevation -10438
 end
-arch deep_sea
+arch swamp
 x 15
 y 5
 elevation -10902
@@ -3727,12 +3784,12 @@ x 15
 y 6
 elevation -11384
 end
-arch deep_sea
+arch swamp
 x 15
 y 7
 elevation -11883
 end
-arch deep_sea
+arch swampyel
 x 15
 y 8
 elevation -12395
@@ -3752,216 +3809,216 @@ x 15
 y 11
 elevation -13983
 end
-arch deep_sea
+arch swamp
 x 15
 y 12
 elevation -14514
 end
-arch deep_sea
+arch swamp
 x 15
 y 13
 elevation -15037
 end
-arch deep_sea
+arch swamp
 x 15
 y 14
 elevation -15548
 end
-arch deep_sea
+arch swamp
 x 15
 y 15
 elevation -16040
 end
-arch deep_sea
+arch swamp
 x 15
 y 16
 elevation -16510
 end
-arch deep_sea
+arch swamp
 x 15
 y 17
 elevation -16952
 end
-arch deep_sea
+arch swamp
 x 15
 y 18
 elevation -17362
 end
-arch deep_sea
+arch swamp
 x 15
 y 19
 elevation -17738
 end
-arch deep_sea
+arch swamp
 x 15
 y 20
 elevation -18077
 end
-arch deep_sea
+arch swamp
 x 15
 y 21
 elevation -18374
 end
-arch deep_sea
+arch swamp
 x 15
 y 22
 elevation -18630
 end
-arch deep_sea
+arch swamp
 x 15
 y 23
 elevation -18842
 end
-arch deep_sea
+arch swamp
 x 15
 y 24
 elevation -19010
 end
-arch deep_sea
+arch swampyel
 x 15
 y 25
 elevation -19132
 end
-arch deep_sea
+arch swampyel
 x 15
 y 26
 elevation -19208
 end
-arch deep_sea
+arch swampyel
 x 15
 y 27
 elevation -19238
 end
-arch deep_sea
+arch swampyel
 x 15
 y 28
 elevation -19222
 end
-arch deep_sea
+arch swampyel
 x 15
 y 29
 elevation -19160
 end
-arch deep_sea
+arch swampyel
 x 15
 y 30
 elevation -19052
 end
-arch deep_sea
+arch swampyel
 x 15
 y 31
 elevation -18898
 end
-arch deep_sea
+arch swampyel
 x 15
 y 32
 elevation -18698
 end
-arch deep_sea
+arch swampyel
 x 15
 y 33
 elevation -18455
 end
-arch deep_sea
+arch swampyel
 x 15
 y 34
 elevation -18170
 end
-arch deep_sea
+arch swamp
 x 15
 y 35
 elevation -17844
 end
-arch deep_sea
+arch swamp
 x 15
 y 36
 elevation -17481
 end
-arch deep_sea
+arch swamp
 x 15
 y 37
 elevation -17083
 end
-arch deep_sea
+arch swamp
 x 15
 y 38
 elevation -16655
 end
-arch deep_sea
+arch swamp
 x 15
 y 39
 elevation -16201
 end
-arch deep_sea
+arch swamp
 x 15
 y 40
 elevation -15726
 end
-arch deep_sea
+arch swamp
 x 15
 y 41
 elevation -15237
 end
-arch deep_sea
+arch swamp
 x 15
 y 42
 elevation -14739
 end
-arch deep_sea
+arch deep_swamp
 x 15
 y 43
 elevation -14239
 end
-arch deep_sea
+arch swamp
 x 15
 y 44
 elevation -13743
 end
-arch deep_sea
+arch swamp
 x 15
 y 45
 elevation -13259
 end
-arch deep_sea
+arch swamp
 x 15
 y 46
 elevation -12791
 end
-arch deep_sea
+arch swamp
 x 15
 y 47
 elevation -12346
 end
-arch deep_sea
+arch swamp
 x 15
 y 48
 elevation -11928
 end
-arch deep_sea
+arch swamp
 x 15
 y 49
 elevation -11542
 end
-arch deep_sea
+arch swamp
 x 16
 elevation -8869
 end
-arch deep_sea
+arch swamp
 x 16
 y 1
 elevation -9284
 end
-arch deep_sea
+arch swamp
 x 16
 y 2
 elevation -9711
 end
-arch deep_sea
+arch swamp
 x 16
 y 3
 elevation -10153
 end
-arch deep_sea
+arch swamp
 x 16
 y 4
 elevation -10614
@@ -3981,7 +4038,7 @@ x 16
 y 7
 elevation -12104
 end
-arch deep_sea
+arch swampyel
 x 16
 y 8
 elevation -12633
@@ -4001,22 +4058,22 @@ x 16
 y 11
 elevation -14268
 end
-arch deep_sea
+arch swamp
 x 16
 y 12
 elevation -14813
 end
-arch deep_sea
+arch swamp
 x 16
 y 13
 elevation -15350
 end
-arch deep_sea
+arch swamp
 x 16
 y 14
 elevation -15872
 end
-arch deep_sea
+arch swamp
 x 16
 y 15
 elevation -16375
@@ -4026,176 +4083,176 @@ x 16
 y 16
 elevation -16854
 end
-arch deep_sea
+arch swamp
 x 16
 y 17
 elevation -17303
 end
-arch deep_sea
+arch swamp
 x 16
 y 18
 elevation -17719
 end
-arch deep_sea
+arch swamp
 x 16
 y 19
 elevation -18099
 end
-arch deep_sea
+arch swamp
 x 16
 y 20
 elevation -18439
 end
-arch deep_sea
+arch swamp
 x 16
 y 21
 elevation -18738
 end
-arch deep_sea
+arch swamp
 x 16
 y 22
 elevation -18994
 end
-arch deep_sea
+arch swamp
 x 16
 y 23
 elevation -19205
 end
-arch deep_sea
+arch swamp
 x 16
 y 24
 elevation -19371
 end
-arch deep_sea
+arch swamp
 x 16
 y 25
 elevation -19491
 end
-arch deep_sea
+arch swamp
 x 16
 y 26
 elevation -19564
 end
-arch deep_sea
+arch swamp
 x 16
 y 27
 elevation -19591
 end
-arch deep_sea
+arch swampyel
 x 16
 y 28
 elevation -19572
 end
-arch deep_sea
+arch swampyel
 x 16
 y 29
 elevation -19507
 end
-arch deep_sea
+arch swampyel
 x 16
 y 30
 elevation -19395
 end
-arch deep_sea
+arch swampyel
 x 16
 y 31
 elevation -19238
 end
-arch deep_sea
+arch swampyel
 x 16
 y 32
 elevation -19035
 end
-arch deep_sea
+arch swampyel
 x 16
 y 33
 elevation -18788
 end
-arch deep_sea
+arch swampyel
 x 16
 y 34
 elevation -18498
 end
-arch deep_sea
+arch swampyel
 x 16
 y 35
 elevation -18167
 end
-arch deep_sea
+arch swamp
 x 16
 y 36
 elevation -17797
 end
-arch deep_sea
+arch swamp
 x 16
 y 37
 elevation -17391
 end
-arch deep_sea
+arch swamp
 x 16
 y 38
 elevation -16953
 end
-arch deep_sea
+arch swamp
 x 16
 y 39
 elevation -16487
 end
-arch deep_sea
+arch swamp
 x 16
 y 40
 elevation -15999
 end
-arch deep_sea
+arch swamp
 x 16
 y 41
 elevation -15494
 end
-arch deep_sea
+arch swamp
 x 16
 y 42
 elevation -14978
 end
-arch deep_sea
+arch swamp
 x 16
 y 43
 elevation -14457
 end
-arch deep_sea
+arch swamp
 x 16
 y 44
 elevation -13940
 end
-arch deep_sea
+arch swamp
 x 16
 y 45
 elevation -13431
 end
-arch deep_sea
+arch swamp
 x 16
 y 46
 elevation -12937
 end
-arch deep_sea
+arch swamp
 x 16
 y 47
 elevation -12465
 end
-arch deep_sea
+arch swamp
 x 16
 y 48
 elevation -12019
 end
-arch deep_sea
+arch swamp
 x 16
 y 49
 elevation -11604
 end
-arch deep_sea
+arch swamp
 x 17
 elevation -9008
 end
-arch deep_sea
+arch swamp
 x 17
 y 1
 elevation -9428
@@ -4250,17 +4307,17 @@ x 17
 y 11
 elevation -14530
 end
-arch deep_sea
+arch swamp
 x 17
 y 12
 elevation -15088
 end
-arch deep_sea
+arch swamp
 x 17
 y 13
 elevation -15636
 end
-arch deep_sea
+arch swamp
 x 17
 y 14
 elevation -16169
@@ -4280,171 +4337,171 @@ x 17
 y 17
 elevation -17623
 end
-arch deep_sea
+arch swamp
 x 17
 y 18
 elevation -18044
 end
-arch deep_sea
+arch swamp
 x 17
 y 19
 elevation -18428
 end
-arch deep_sea
+arch swamp
 x 17
 y 20
 elevation -18771
 end
-arch deep_sea
+arch swamp
 x 17
 y 21
 elevation -19071
 end
-arch deep_sea
+arch swamp
 x 17
 y 22
 elevation -19327
 end
-arch deep_sea
+arch swamp
 x 17
 y 23
 elevation -19538
 end
-arch deep_sea
+arch swamp
 x 17
 y 24
 elevation -19702
 end
-arch deep_sea
+arch swamp
 x 17
 y 25
 elevation -19821
 end
-arch deep_sea
+arch swamp
 x 17
 y 26
 elevation -19893
 end
-arch deep_sea
+arch swamp
 x 17
 y 27
 elevation -19919
 end
-arch deep_sea
+arch swampyel
 x 17
 y 28
 elevation -19898
 end
-arch deep_sea
+arch swampyel
 x 17
 y 29
 elevation -19831
 end
-arch deep_sea
+arch swampyel
 x 17
 y 30
 elevation -19718
 end
-arch deep_sea
+arch swampyel
 x 17
 y 31
 elevation -19559
 end
-arch deep_sea
+arch swampyel
 x 17
 y 32
 elevation -19355
 end
-arch deep_sea
+arch swampyel
 x 17
 y 33
 elevation -19106
 end
-arch deep_sea
+arch swampyel
 x 17
 y 34
 elevation -18813
 end
-arch deep_sea
+arch swampyel
 x 17
 y 35
 elevation -18478
 end
-arch deep_sea
+arch swampyel
 x 17
 y 36
 elevation -18103
 end
-arch deep_sea
+arch swamp
 x 17
 y 37
 elevation -17691
 end
-arch deep_sea
+arch swamp
 x 17
 y 38
 elevation -17245
 end
-arch deep_sea
+arch swamp
 x 17
 y 39
 elevation -16770
 end
-arch deep_sea
+arch swamp
 x 17
 y 40
 elevation -16270
 end
-arch deep_sea
+arch swamp
 x 17
 y 41
 elevation -15751
 end
-arch deep_sea
+arch swamp
 x 17
 y 42
 elevation -15219
 end
-arch deep_sea
+arch swamp
 x 17
 y 43
 elevation -14681
 end
-arch deep_sea
+arch swamp
 x 17
 y 44
 elevation -14143
 end
-arch deep_sea
+arch swamp
 x 17
 y 45
 elevation -13612
 end
-arch deep_sea
+arch swamp
 x 17
 y 46
 elevation -13095
 end
-arch deep_sea
+arch swamp
 x 17
 y 47
 elevation -12598
 end
-arch deep_sea
+arch swamp
 x 17
 y 48
 elevation -12126
 end
-arch deep_sea
+arch swamp
 x 17
 y 49
 elevation -11684
 end
-arch deep_sea
+arch swamp
 x 18
 elevation -9153
 end
-arch deep_sea
+arch swamp
 x 18
 y 1
 elevation -9576
@@ -4504,12 +4561,12 @@ x 18
 y 12
 elevation -15337
 end
-arch deep_sea
+arch swamp
 x 18
 y 13
 elevation -15895
 end
-arch deep_sea
+arch swamp
 x 18
 y 14
 elevation -16437
@@ -4534,166 +4591,166 @@ x 18
 y 18
 elevation -18336
 end
-arch deep_sea
+arch swamp
 x 18
 y 19
 elevation -18723
 end
-arch deep_sea
+arch swamp
 x 18
 y 20
 elevation -19068
 end
-arch deep_sea
+arch swamp
 x 18
 y 21
 elevation -19370
 end
-arch deep_sea
+arch swamp
 x 18
 y 22
 elevation -19627
 end
-arch deep_sea
+arch swamp
 x 18
 y 23
 elevation -19837
 end
-arch deep_sea
+arch swamp
 x 18
 y 24
 elevation -20002
 end
-arch deep_sea
+arch swampyel
 x 18
 y 25
 elevation -20120
 end
-arch deep_sea
+arch swampyel
 x 18
 y 26
 elevation -20192
 end
-arch deep_sea
+arch swampyel
 x 18
 y 27
 elevation -20217
 end
-arch deep_sea
+arch swampyel
 x 18
 y 28
 elevation -20197
 end
-arch deep_sea
+arch swampyel
 x 18
 y 29
 elevation -20130
 end
-arch deep_sea
+arch swampyel
 x 18
 y 30
 elevation -20017
 end
-arch deep_sea
+arch swampyel
 x 18
 y 31
 elevation -19858
 end
-arch deep_sea
+arch swampyel
 x 18
 y 32
 elevation -19653
 end
-arch deep_sea
+arch swampyel
 x 18
 y 33
 elevation -19404
 end
-arch deep_sea
+arch swampyel
 x 18
 y 34
 elevation -19110
 end
-arch deep_sea
+arch swampyel
 x 18
 y 35
 elevation -18773
 end
-arch deep_sea
+arch swampyel
 x 18
 y 36
 elevation -18396
 end
-arch deep_sea
+arch swamp
 x 18
 y 37
 elevation -17979
 end
-arch deep_sea
+arch swamp
 x 18
 y 38
 elevation -17527
 end
-arch deep_sea
+arch swamp
 x 18
 y 39
 elevation -17044
 end
-arch deep_sea
+arch swamp
 x 18
 y 40
 elevation -16535
 end
-arch deep_sea
+arch swamp
 x 18
 y 41
 elevation -16004
 end
-arch deep_sea
+arch swamp
 x 18
 y 42
 elevation -15458
 end
-arch deep_sea
+arch swamp
 x 18
 y 43
 elevation -14904
 end
-arch deep_sea
+arch swamp
 x 18
 y 44
 elevation -14349
 end
-arch deep_sea
+arch swamp
 x 18
 y 45
 elevation -13798
 end
-arch deep_sea
+arch swamp
 x 18
 y 46
 elevation -13260
 end
-arch deep_sea
+arch swamp
 x 18
 y 47
 elevation -12740
 end
-arch deep_sea
+arch swamp
 x 18
 y 48
 elevation -12244
 end
-arch deep_sea
+arch swamp
 x 18
 y 49
 elevation -11777
 end
-arch deep_sea
+arch swamp
 x 19
 elevation -9303
 end
-arch deep_sea
+arch swamp
 x 19
 y 1
 elevation -9725
@@ -4758,7 +4815,7 @@ x 19
 y 13
 elevation -16125
 end
-arch deep_sea
+arch swamp
 x 19
 y 14
 elevation -16674
@@ -4783,162 +4840,162 @@ x 19
 y 18
 elevation -18593
 end
-arch deep_sea
+arch swamp
 x 19
 y 19
 elevation -18982
 end
-arch deep_sea
+arch swamp
 x 19
 y 20
 elevation -19330
 end
-arch deep_sea
+arch swamp
 x 19
 y 21
 elevation -19633
 end
-arch deep_sea
+arch swamp
 x 19
 y 22
 elevation -19891
 end
-arch deep_sea
+arch swamp
 x 19
 y 23
 elevation -20102
 end
-arch deep_sea
+arch swamp
 x 19
 y 24
 elevation -20267
 end
-arch deep_sea
+arch swamp
 x 19
 y 25
 elevation -20386
 end
-arch deep_sea
+arch swampyel
 x 19
 y 26
 elevation -20459
 end
-arch deep_sea
+arch swampyel
 x 19
 y 27
 elevation -20485
 end
-arch deep_sea
+arch swampyel
 x 19
 y 28
 elevation -20465
 end
-arch deep_sea
+arch swampyel
 x 19
 y 29
 elevation -20400
 end
-arch deep_sea
+arch swampyel
 x 19
 y 30
 elevation -20288
 end
-arch deep_sea
+arch swampyel
 x 19
 y 31
 elevation -20130
 end
-arch deep_sea
+arch swampyel
 x 19
 y 32
 elevation -19927
 end
-arch deep_sea
+arch swampyel
 x 19
 y 33
 elevation -19679
 end
-arch deep_sea
+arch swampyel
 x 19
 y 34
 elevation -19385
 end
-arch deep_sea
+arch swampyel
 x 19
 y 35
 elevation -19048
 end
-arch deep_sea
+arch swampyel
 x 19
 y 36
 elevation -18669
 end
-arch deep_sea
+arch swampyel
 x 19
 y 37
 elevation -18250
 end
-arch deep_sea
+arch swampyel
 x 19
 y 38
 elevation -17794
 end
-arch deep_sea
+arch swamp
 x 19
 y 39
 elevation -17306
 end
-arch deep_sea
+arch swamp
 x 19
 y 40
 elevation -16788
 end
-arch deep_sea
+arch swamp
 x 19
 y 41
 elevation -16248
 end
-arch deep_sea
+arch deep_swamp
 x 19
 y 42
 elevation -15691
 end
-arch deep_sea
+arch swamp
 x 19
 y 43
 elevation -15123
 end
-arch deep_sea
+arch swamp
 x 19
 y 44
 elevation -14552
 end
-arch deep_sea
+arch swamp
 x 19
 y 45
 elevation -13984
 end
-arch deep_sea
+arch swamp
 x 19
 y 46
 elevation -13426
 end
-arch deep_sea
+arch deep_swamp
 x 19
 y 47
 elevation -12886
 end
-arch deep_sea
+arch swamp
 x 19
 y 48
 elevation -12369
 end
-arch deep_sea
+arch swamp
 x 19
 y 49
 elevation -11880
 end
-arch deep_sea
+arch swamp
 x 20
 elevation -9454
 end
@@ -5007,7 +5064,7 @@ x 20
 y 13
 elevation -16324
 end
-arch deep_sea
+arch swamp
 x 20
 y 14
 elevation -16878
@@ -5037,152 +5094,152 @@ x 20
 y 19
 elevation -19205
 end
-arch deep_sea
+arch swamp
 x 20
 y 20
 elevation -19554
 end
-arch deep_sea
+arch swamp
 x 20
 y 21
 elevation -19859
 end
-arch deep_sea
+arch swamp
 x 20
 y 22
 elevation -20117
 end
-arch deep_sea
+arch swamp
 x 20
 y 23
 elevation -20330
 end
-arch deep_sea
+arch swamp
 x 20
 y 24
 elevation -20497
 end
-arch deep_sea
+arch swampyel
 x 20
 y 25
 elevation -20617
 end
-arch deep_sea
+arch swamp
 x 20
 y 26
 elevation -20691
 end
-arch deep_sea
+arch swampyel
 x 20
 y 27
 elevation -20719
 end
-arch deep_sea
+arch swampyel
 x 20
 y 28
 elevation -20701
 end
-arch deep_sea
+arch swampyel
 x 20
 y 29
 elevation -20638
 end
-arch deep_sea
+arch swampyel
 x 20
 y 30
 elevation -20529
 end
-arch deep_sea
+arch swampyel
 x 20
 y 31
 elevation -20374
 end
-arch deep_sea
+arch swampyel
 x 20
 y 32
 elevation -20173
 end
-arch deep_sea
+arch swampyel
 x 20
 y 33
 elevation -19926
 end
-arch deep_sea
+arch swampyel
 x 20
 y 34
 elevation -19635
 end
-arch deep_sea
+arch swampyel
 x 20
 y 35
 elevation -19299
 end
-arch deep_sea
+arch swampyel
 x 20
 y 36
 elevation -18920
 end
-arch deep_sea
+arch swampyel
 x 20
 y 37
 elevation -18500
 end
-arch deep_sea
+arch swampyel
 x 20
 y 38
 elevation -18042
 end
-arch deep_sea
+arch swampyel
 x 20
 y 39
 elevation -17549
 end
-arch deep_sea
+arch swampyel
 x 20
 y 40
 elevation -17026
 end
-arch deep_sea
+arch swamp
 x 20
 y 41
 elevation -16478
 end
-arch deep_sea
+arch swamp
 x 20
 y 42
 elevation -15911
 end
-arch deep_sea
+arch swamp
 x 20
 y 43
 elevation -15332
 end
-arch deep_sea
+arch swamp
 x 20
 y 44
 elevation -14748
 end
-arch deep_sea
+arch swamp
 x 20
 y 45
 elevation -14164
 end
-arch deep_sea
+arch swamp
 x 20
 y 46
 elevation -13590
 end
-arch deep_sea
+arch swamp
 x 20
 y 47
 elevation -13032
 end
-arch deep_sea
+arch swamp
 x 20
 y 48
 elevation -12496
 end
-arch deep_sea
+arch swamp
 x 20
 y 49
 elevation -11988
@@ -5256,7 +5313,7 @@ x 21
 y 13
 elevation -16493
 end
-arch deep_sea
+arch swamp
 x 21
 y 14
 elevation -17051
@@ -5291,107 +5348,107 @@ x 21
 y 20
 elevation -19740
 end
-arch deep_sea
+arch swamp
 x 21
 y 21
 elevation -20046
 end
-arch deep_sea
+arch swamp
 x 21
 y 22
 elevation -20306
 end
-arch deep_sea
+arch swamp
 x 21
 y 23
 elevation -20520
 end
-arch deep_sea
+arch swamp
 x 21
 y 24
 elevation -20688
 end
-arch deep_sea
+arch swamp
 x 21
 y 25
 elevation -20810
 end
-arch deep_sea
+arch swampyel
 x 21
 y 26
 elevation -20886
 end
-arch deep_sea
+arch swamp
 x 21
 y 27
 elevation -20917
 end
-arch deep_sea
+arch swampyel
 x 21
 y 28
 elevation -20902
 end
-arch deep_sea
+arch swampyel
 x 21
 y 29
 elevation -20842
 end
-arch deep_sea
+arch swampyel
 x 21
 y 30
 elevation -20736
 end
-arch deep_sea
+arch swampyel
 x 21
 y 31
 elevation -20584
 end
-arch deep_sea
+arch swampyel
 x 21
 y 32
 elevation -20387
 end
-arch deep_sea
+arch swampyel
 x 21
 y 33
 elevation -20143
 end
-arch deep_sea
+arch swampyel
 x 21
 y 34
 elevation -19854
 end
-arch deep_sea
+arch swampyel
 x 21
 y 35
 elevation -19520
 end
-arch deep_sea
+arch swampyel
 x 21
 y 36
 elevation -19143
 end
-arch deep_sea
+arch swampyel
 x 21
 y 37
 elevation -18723
 end
-arch deep_sea
+arch swampyel
 x 21
 y 38
 elevation -18264
 end
-arch deep_sea
+arch swampyel
 x 21
 y 39
 elevation -17769
 end
-arch deep_sea
+arch swampyel
 x 21
 y 40
 elevation -17242
 end
-arch deep_sea
+arch swampyel
 x 21
 y 41
 elevation -16688
@@ -5406,32 +5463,32 @@ x 21
 y 43
 elevation -15526
 end
-arch deep_sea
+arch swamp
 x 21
 y 44
 elevation -14930
 end
-arch deep_sea
+arch swamp
 x 21
 y 45
 elevation -14334
 end
-arch deep_sea
+arch swamp
 x 21
 y 46
 elevation -13746
 end
-arch deep_sea
+arch swamp
 x 21
 y 47
 elevation -13173
 end
-arch deep_sea
+arch swamp
 x 21
 y 48
 elevation -12620
 end
-arch deep_sea
+arch swamp
 x 21
 y 49
 elevation -12094
@@ -5545,102 +5602,102 @@ x 22
 y 21
 elevation -20195
 end
-arch deep_sea
+arch swamp
 x 22
 y 22
 elevation -20456
 end
-arch deep_sea
+arch swamp
 x 22
 y 23
 elevation -20672
 end
-arch deep_sea
+arch swamp
 x 22
 y 24
 elevation -20841
 end
-arch deep_sea
+arch swamp
 x 22
 y 25
 elevation -20965
 end
-arch deep_sea
+arch swamp
 x 22
 y 26
 elevation -21044
 end
-arch deep_sea
+arch swamp
 x 22
 y 27
 elevation -21077
 end
-arch deep_sea
+arch swamp
 x 22
 y 28
 elevation -21066
 end
-arch deep_sea
+arch swampyel
 x 22
 y 29
 elevation -21009
 end
-arch deep_sea
+arch swampyel
 x 22
 y 30
 elevation -20907
 end
-arch deep_sea
+arch swampyel
 x 22
 y 31
 elevation -20759
 end
-arch deep_sea
+arch swampyel
 x 22
 y 32
 elevation -20565
 end
-arch deep_sea
+arch swampyel
 x 22
 y 33
 elevation -20326
 end
-arch deep_sea
+arch swampyel
 x 22
 y 34
 elevation -20040
 end
-arch deep_sea
+arch swampyel
 x 22
 y 35
 elevation -19709
 end
-arch deep_sea
+arch swampyel
 x 22
 y 36
 elevation -19334
 end
-arch deep_sea
+arch swampyel
 x 22
 y 37
 elevation -18915
 end
-arch deep_sea
+arch swampyel
 x 22
 y 38
 elevation -18456
 end
-arch deep_sea
+arch swampyel
 x 22
 y 39
 elevation -17960
 end
-arch deep_sea
+arch swampyel
 x 22
 y 40
 elevation -17431
 end
-arch deep_sea
+arch swampyel
 x 22
 y 41
 elevation -16873
@@ -5650,17 +5707,17 @@ x 22
 y 42
 elevation -16294
 end
-arch deep_sea
+arch swamp
 x 22
 y 43
 elevation -15698
 end
-arch deep_sea
+arch swamp
 x 22
 y 44
 elevation -15094
 end
-arch deep_sea
+arch swamp
 x 22
 y 45
 elevation -14488
@@ -5824,7 +5881,7 @@ x 23
 y 27
 elevation -21198
 end
-arch deep_sea
+arch swamp
 x 23
 y 28
 elevation -21190
@@ -5869,22 +5926,22 @@ x 23
 y 36
 elevation -19489
 end
-arch deep_sea
+arch swampyel
 x 23
 y 37
 elevation -19073
 end
-arch deep_sea
+arch swampyel
 x 23
 y 38
 elevation -18615
 end
-arch deep_sea
+arch swampyel
 x 23
 y 39
 elevation -18119
 end
-arch deep_sea
+arch swampyel
 x 23
 y 40
 elevation -17589
@@ -5904,12 +5961,12 @@ x 23
 y 43
 elevation -15845
 end
-arch deep_sea
+arch swamp
 x 23
 y 44
 elevation -15234
 end
-arch deep_sea
+arch swamp
 x 23
 y 45
 elevation -14621
@@ -6123,17 +6180,17 @@ x 24
 y 37
 elevation -19192
 end
-arch deep_sea
+arch swampyel
 x 24
 y 38
 elevation -18736
 end
-arch deep_sea
+arch swampyel
 x 24
 y 39
 elevation -18241
 end
-arch deep_sea
+arch swampyel
 x 24
 y 40
 elevation -17711
