@@ -1,4 +1,5 @@
-Object dunes
+Object dunes2
+name dunes
 face dunes2.111
 type 67
 race /terrain/desert
