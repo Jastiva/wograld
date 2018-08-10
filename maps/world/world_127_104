@@ -2,44 +2,47 @@ arch map
 name world_127_104
 width 50
 height 50
+msg
+Modified: 2018-08-07 lori
+endmsg
 outdoor 1
 tile_path_1 world_127_103
 tile_path_2 world_128_104
 tile_path_3 world_127_105
 tile_path_4 world_126_104
 end
-arch sea
+arch grassmedium
 elevation -1374
 end
-arch sea
+arch bosgrass2
 y 1
 elevation -1287
 end
-arch sea
+arch bosgrass2
 y 2
 elevation -1190
 end
-arch sea
+arch bosgrass2
 y 3
 elevation -1079
 end
-arch sea
+arch bosgrass2
 y 4
 elevation -950
 end
-arch sea
+arch bosgrass2
 y 5
 elevation -802
 end
-arch sea
+arch bosgrass2
 y 6
 elevation -633
 end
-arch sea
+arch bosgrass2
 y 7
 elevation -440
 end
-arch sea
+arch bosgrass2
 y 8
 elevation -226
 end
@@ -47,15 +50,15 @@ arch grass
 y 9
 elevation 11
 end
-arch desert
+arch grassmedium
 y 10
 elevation 854
 end
-arch woods_3
+arch grassmedium
 y 11
 elevation 1567
 end
-arch jungle_1
+arch grassmedium
 y 12
 elevation 1430
 end
@@ -83,51 +86,51 @@ arch grass
 y 18
 elevation 27
 end
-arch shallow_sea
+arch moss
 y 19
 elevation -52
 end
-arch sea
+arch moss
 y 20
 elevation -208
 end
-arch sea
+arch moss
 y 21
 elevation -353
 end
-arch sea
+arch moss
 y 22
 elevation -403
 end
-arch sea
+arch moss
 y 23
 elevation -423
 end
-arch sea
+arch moss
 y 24
 elevation -651
 end
-arch sea
+arch bosgrass17
 y 25
 elevation -1087
 end
-arch sea
+arch bosgrass17
 y 26
 elevation -1638
 end
-arch sea
+arch moss
 y 27
 elevation -2064
 end
-arch sea
+arch moss
 y 28
 elevation -2386
 end
-arch sea
+arch moss
 y 29
 elevation -2616
 end
-arch sea
+arch moss
 y 30
 elevation -2761
 end
@@ -155,39 +158,39 @@ arch sea
 y 36
 elevation -2127
 end
-arch sea
+arch bosgrass9
 y 37
 elevation -1818
 end
-arch sea
+arch bosgrass9
 y 38
 elevation -1471
 end
-arch sea
+arch bosgrass2
 y 39
 elevation -1104
 end
-arch sea
+arch bosgrass
 y 40
 elevation -736
 end
-arch sea
+arch bosgrass
 y 41
 elevation -421
 end
-arch sea
+arch bosgrass
 y 42
 elevation -180
 end
-arch shallow_sea
+arch bosgrass
 y 43
 elevation -31
 end
-arch shallow_sea
+arch bosgrass
 y 44
 elevation -2
 end
-arch grass
+arch bosgrass
 y 45
 elevation 16
 end
@@ -207,66 +210,65 @@ arch shallow_sea
 y 49
 elevation -9
 end
-arch sea
+arch grassmedium
 x 1
 elevation -1663
 end
-arch sea
+arch grassmedium
 x 1
 y 1
 elevation -1554
 end
-arch sea
+arch bosgrass2
 x 1
 y 2
 elevation -1436
 end
-arch sea
+arch bosgrass2
 x 1
 y 3
 elevation -1303
 end
-arch sea
+arch bosgrass2
 x 1
 y 4
 elevation -1152
 end
-arch sea
+arch bosgrass2
 x 1
 y 5
 elevation -980
 end
-arch sea
+arch bosgrass2
 x 1
 y 6
 elevation -782
 end
-arch sea
+arch bosgrass2
 x 1
 y 7
 elevation -556
 end
-arch sea
+arch bosgrass2
 x 1
 y 8
 elevation -292
 end
-arch shallow_sea
+arch bosgrass2
 x 1
 y 9
-elevation 0
 end
-arch desert
+arch grassmedium
 x 1
 y 10
 elevation 775
 end
-arch jungle_1
+arch grassmedium
 x 1
 y 11
 elevation 1445
 end
-arch jungle_1
+arch grassmedium
 x 1
 y 12
 elevation 1347
@@ -306,57 +308,57 @@ x 1
 y 19
 elevation 101
 end
-arch sea
+arch moss
 x 1
 y 20
 elevation -276
 end
-arch sea
+arch moss
 x 1
 y 21
 elevation -564
 end
-arch sea
+arch moss
 x 1
 y 22
 elevation -779
 end
-arch sea
+arch moss
 x 1
 y 23
 elevation -992
 end
-arch sea
+arch moss
 x 1
 y 24
 elevation -1264
 end
-arch sea
+arch bosgrass17
 x 1
 y 25
 elevation -1618
 end
-arch sea
+arch bosgrass17
 x 1
 y 26
 elevation -2001
 end
-arch sea
+arch bosgrass17
 x 1
 y 27
 elevation -2355
 end
-arch sea
+arch moss
 x 1
 y 28
 elevation -2636
 end
-arch sea
+arch moss
 x 1
 y 29
 elevation -2839
 end
-arch sea
+arch moss
 x 1
 y 30
 elevation -2965
@@ -391,42 +393,42 @@ x 1
 y 36
 elevation -2217
 end
-arch sea
+arch bosgrass9
 x 1
 y 37
 elevation -1874
 end
-arch sea
+arch bosgrass9
 x 1
 y 38
 elevation -1482
 end
-arch sea
+arch bosgrass9
 x 1
 y 39
 elevation -1053
 end
-arch sea
+arch bosgrass2
 x 1
 y 40
 elevation -621
 end
-arch sea
+arch bosgrass
 x 1
 y 41
 elevation -164
 end
-arch deep_swamp
+arch bosgrass
 x 1
 y 42
 elevation 1
 end
-arch brush
+arch bosgrass
 x 1
 y 43
 elevation 140
 end
-arch grass
+arch bosgrass
 x 1
 y 44
 elevation 224
@@ -456,66 +458,66 @@ x 1
 y 49
 elevation 2
 end
-arch sea
+arch grassmedium
 x 2
 elevation -1952
 end
-arch sea
+arch grassmedium
 x 2
 y 1
 elevation -1827
 end
-arch sea
+arch bosgrass2
 x 2
 y 2
 elevation -1692
 end
-arch sea
+arch bosgrass2
 x 2
 y 3
 elevation -1542
 end
-arch sea
+arch bosgrass2
 x 2
 y 4
 elevation -1373
 end
-arch sea
+arch bosgrass2
 x 2
 y 5
 elevation -1180
 end
-arch sea
+arch bosgrass2
 x 2
 y 6
 elevation -959
 end
-arch sea
+arch bosgrass2
 x 2
 y 7
 elevation -704
 end
-arch sea
+arch bosgrass2
 x 2
 y 8
 elevation -405
 end
-arch shallow_sea
+arch bosgrass2
 x 2
 y 9
 elevation -17
 end
-arch desert
+arch grassmedium
 x 2
 y 10
 elevation 522
 end
-arch jungle_1
+arch grassmedium
 x 2
 y 11
 elevation 1132
 end
-arch grass
+arch bosgrass17
 x 2
 y 12
 elevation 641
@@ -555,57 +557,57 @@ x 2
 y 19
 elevation 179
 end
-arch sea
+arch moss
 x 2
 y 20
 elevation -456
 end
-arch sea
+arch moss
 x 2
 y 21
 elevation -843
 end
-arch sea
+arch moss
 x 2
 y 22
 elevation -1159
 end
-arch sea
+arch moss
 x 2
 y 23
 elevation -1450
 end
-arch sea
+arch moss
 x 2
 y 24
 elevation -1750
 end
-arch sea
+arch moss
 x 2
 y 25
 elevation -2067
 end
-arch sea
+arch bosgrass17
 x 2
 y 26
 elevation -2384
 end
-arch sea
+arch bosgrass17
 x 2
 y 27
 elevation -2674
 end
-arch sea
+arch moss
 x 2
 y 28
 elevation -2911
 end
-arch sea
+arch moss
 x 2
 y 29
 elevation -3082
 end
-arch sea
+arch moss
 x 2
 y 30
 elevation -3184
@@ -640,37 +642,37 @@ x 2
 y 36
 elevation -2318
 end
-arch sea
+arch bosgrass9
 x 2
 y 37
 elevation -1940
 end
-arch sea
+arch bosgrass2
 x 2
 y 38
 elevation -1500
 end
-arch sea
+arch bosgrass2
 x 2
 y 39
 elevation -998
 end
-arch sea
+arch bosgrass
 x 2
 y 40
 elevation -445
 end
-arch shallow_sea
+arch bosgrass
 x 2
 y 41
 elevation -1
 end
-arch hills_rocky
+arch bosgrass
 x 2
 y 42
 elevation 1111
 end
-arch woods_3
+arch bosgrass
 x 2
 y 43
 elevation 1569
@@ -705,66 +707,66 @@ x 2
 y 49
 elevation 183
 end
-arch sea
+arch grassmedium
 x 3
 elevation -2242
 end
-arch sea
+arch bosgrass2
 x 3
 y 1
 elevation -2106
 end
-arch sea
+arch bosgrass2
 x 3
 y 2
 elevation -1959
 end
-arch sea
+arch bosgrass2
 x 3
 y 3
 elevation -1797
 end
-arch sea
+arch bosgrass2
 x 3
 y 4
 elevation -1614
 end
-arch sea
+arch bosgrass2
 x 3
 y 5
 elevation -1406
 end
-arch sea
+arch bosgrass2
 x 3
 y 6
 elevation -1168
 end
-arch sea
+arch bosgrass2
 x 3
 y 7
 elevation -893
 end
-arch sea
+arch bosgrass2
 x 3
 y 8
 elevation -573
 end
-arch sea
+arch bosgrass2
 x 3
 y 9
 elevation -208
 end
-arch desert
+arch grassmedium
 x 3
 y 10
 elevation 43
 end
-arch grass
+arch grassmedium
 x 3
 y 11
 elevation 836
 end
-arch grass
+arch bosgrass17
 x 3
 y 12
 elevation 238
@@ -799,62 +801,62 @@ x 3
 y 18
 elevation 284
 end
-arch sea
+arch moss
 x 3
 y 19
 elevation -298
 end
-arch sea
+arch moss
 x 3
 y 20
 elevation -749
 end
-arch sea
+arch moss
 x 3
 y 21
 elevation -1177
 end
-arch sea
+arch moss
 x 3
 y 22
 elevation -1539
 end
-arch sea
+arch moss
 x 3
 y 23
 elevation -1866
 end
-arch sea
+arch moss
 x 3
 y 24
 elevation -2176
 end
-arch sea
+arch moss
 x 3
 y 25
 elevation -2474
 end
-arch sea
+arch bosgrass17
 x 3
 y 26
 elevation -2753
 end
-arch sea
+arch bosgrass17
 x 3
 y 27
 elevation -2999
 end
-arch sea
+arch moss
 x 3
 y 28
 elevation -3197
 end
-arch sea
+arch moss
 x 3
 y 29
 elevation -3338
 end
-arch sea
+arch moss
 x 3
 y 30
 elevation -3414
@@ -889,42 +891,42 @@ x 3
 y 36
 elevation -2438
 end
-arch sea
+arch bosgrass9
 x 3
 y 37
 elevation -2033
 end
-arch sea
+arch bosgrass2
 x 3
 y 38
 elevation -1550
 end
-arch sea
+arch bosgrass
 x 3
 y 39
 elevation -977
 end
-arch sea
+arch bosgrass
 x 3
 y 40
 elevation -294
 end
-arch desert
+arch bosgrass
 x 3
 y 41
 elevation 582
 end
-arch hills_rocky
+arch bosgrass
 x 3
 y 42
 elevation 2073
 end
-arch hills_rocky
+arch bosgrass
 x 3
 y 43
 elevation 2810
 end
-arch evergreen
+arch bosgrass
 x 3
 y 44
 elevation 2841
@@ -954,66 +956,66 @@ x 3
 y 49
 elevation 989
 end
-arch sea
+arch grassmedium
 x 4
 elevation -2536
 end
-arch sea
+arch grassmedium
 x 4
 y 1
 elevation -2393
 end
-arch sea
+arch bosgrass2
 x 4
 y 2
 elevation -2239
 end
-arch sea
+arch bosgrass2
 x 4
 y 3
 elevation -2069
 end
-arch sea
+arch grassmedium
 x 4
 y 4
 elevation -1878
 end
-arch sea
+arch bosgrass2
 x 4
 y 5
 elevation -1661
 end
-arch sea
+arch bosgrass2
 x 4
 y 6
 elevation -1413
 end
-arch sea
+arch bosgrass2
 x 4
 y 7
 elevation -1126
 end
-arch sea
+arch bosgrass2
 x 4
 y 8
 elevation -796
 end
-arch sea
+arch bosgrass2
 x 4
 y 9
 elevation -431
 end
-arch shallow_sea
+arch grassmedium
 x 4
 y 10
 elevation -7
 end
-arch desert
+arch bosgrass17
 x 4
 y 11
 elevation 622
 end
-arch jungle_1
+arch bosgrass17
 x 4
 y 12
 elevation 1344
@@ -1043,67 +1045,67 @@ x 4
 y 17
 elevation 107
 end
-arch sea
+arch moss
 x 4
 y 18
 elevation -239
 end
-arch sea
+arch moss
 x 4
 y 19
 elevation -677
 end
-arch sea
+arch moss
 x 4
 y 20
 elevation -1137
 end
-arch sea
+arch moss
 x 4
 y 21
 elevation -1552
 end
-arch sea
+arch moss
 x 4
 y 22
 elevation -1927
 end
-arch sea
+arch moss
 x 4
 y 23
 elevation -2265
 end
-arch sea
+arch moss
 x 4
 y 24
 elevation -2573
 end
-arch sea
+arch moss
 x 4
 y 25
 elevation -2854
 end
-arch sea
+arch moss
 x 4
 y 26
 elevation -3106
 end
-arch sea
+arch moss
 x 4
 y 27
 elevation -3320
 end
-arch sea
+arch moss
 x 4
 y 28
 elevation -3487
 end
-arch sea
+arch moss
 x 4
 y 29
 elevation -3599
 end
-arch sea
+arch moss
 x 4
 y 30
 elevation -3652
@@ -1128,32 +1130,32 @@ x 4
 y 34
 elevation -3211
 end
-arch sea
+arch bosgrass9
 x 4
 y 35
 elevation -2933
 end
-arch sea
+arch bosgrass9
 x 4
 y 36
 elevation -2586
 end
-arch sea
+arch bosgrass9
 x 4
 y 37
 elevation -2164
 end
-arch sea
+arch bosgrass2
 x 4
 y 38
 elevation -1659
 end
-arch sea
+arch bosgrass
 x 4
 y 39
 elevation -1046
 end
-arch sea
+arch bosgrass
 x 4
 y 40
 elevation -267
@@ -1163,7 +1165,7 @@ x 4
 y 41
 elevation 832
 end
-arch woods_3
+arch bosgrass
 x 4
 y 42
 elevation 2190
@@ -1203,66 +1205,66 @@ x 4
 y 49
 elevation 1029
 end
-arch sea
+arch grassmedium
 x 5
 elevation -2834
 end
-arch sea
+arch grassmedium
 x 5
 y 1
 elevation -2689
 end
-arch sea
+arch grassmedium
 x 5
 y 2
 elevation -2532
 end
-arch sea
+arch bosgrass2
 x 5
 y 3
 elevation -2359
 end
-arch sea
+arch bosgrass2
 x 5
 y 4
 elevation -2166
 end
-arch sea
+arch grassmedium
 x 5
 y 5
 elevation -1946
 end
-arch sea
+arch bosgrass2
 x 5
 y 6
 elevation -1694
 end
-arch sea
+arch bosgrass2
 x 5
 y 7
 elevation -1403
 end
-arch sea
+arch grassmedium
 x 5
 y 8
 elevation -1065
 end
-arch sea
+arch grassmedium
 x 5
 y 9
 elevation -667
 end
-arch sea
+arch grassmedium
 x 5
 y 10
 elevation -174
 end
-arch desert
+arch bosgrass17
 x 5
 y 11
 elevation 425
 end
-arch jungle_1
+arch bosgrass17
 x 5
 y 12
 elevation 1550
@@ -1287,72 +1289,72 @@ x 5
 y 16
 elevation 887
 end
-arch shallow_sea
+arch moss
 x 5
 y 17
 elevation -19
 end
-arch sea
+arch moss
 x 5
 y 18
 elevation -610
 end
-arch sea
+arch moss
 x 5
 y 19
 elevation -1097
 end
-arch sea
+arch moss
 x 5
 y 20
 elevation -1544
 end
-arch sea
+arch moss
 x 5
 y 21
 elevation -1954
 end
-arch sea
+arch moss
 x 5
 y 22
 elevation -2324
 end
-arch sea
+arch moss
 x 5
 y 23
 elevation -2656
 end
-arch sea
+arch moss
 x 5
 y 24
 elevation -2954
 end
-arch sea
+arch moss
 x 5
 y 25
 elevation -3219
 end
-arch sea
+arch moss
 x 5
 y 26
 elevation -3447
 end
-arch sea
+arch purple_moss
 x 5
 y 27
 elevation -3634
 end
-arch sea
+arch moss
 x 5
 y 28
 elevation -3774
 end
-arch sea
+arch moss
 x 5
 y 29
 elevation -3862
 end
-arch sea
+arch moss
 x 5
 y 30
 elevation -3893
@@ -1377,32 +1379,32 @@ x 5
 y 34
 elevation -3399
 end
-arch sea
+arch bosgrass9
 x 5
 y 35
 elevation -3115
 end
-arch sea
+arch bosgrass2
 x 5
 y 36
 elevation -2764
 end
-arch sea
+arch bosgrass2
 x 5
 y 37
 elevation -2342
 end
-arch sea
+arch bosgrass
 x 5
 y 38
 elevation -1839
 end
-arch sea
+arch bosgrass
 x 5
 y 39
 elevation -1235
 end
-arch sea
+arch bosgrass
 x 5
 y 40
 elevation -490
@@ -1452,66 +1454,66 @@ x 5
 y 49
 elevation 337
 end
-arch sea
+arch grassmedium
 x 6
 elevation -3139
 end
-arch sea
+arch moss
 x 6
 y 1
 elevation -2995
 end
-arch sea
+arch bosgrass2
 x 6
 y 2
 elevation -2840
 end
-arch sea
+arch bosgrass2
 x 6
 y 3
 elevation -2669
 end
-arch sea
+arch bosgrass2
 x 6
 y 4
 elevation -2478
 end
-arch sea
+arch grassmedium
 x 6
 y 5
 elevation -2261
 end
-arch sea
+arch grassmedium
 x 6
 y 6
 elevation -2013
 end
-arch sea
+arch grassmedium
 x 6
 y 7
 elevation -1725
 end
-arch sea
+arch grassmedium
 x 6
 y 8
 elevation -1389
 end
-arch sea
+arch grassmedium
 x 6
 y 9
 elevation -985
 end
-arch sea
+arch grassmedium
 x 6
 y 10
 elevation -488
 end
-arch grass
+arch bosgrass17
 x 6
 y 11
 elevation 139
 end
-arch woods
+arch bosgrass17
 x 6
 y 12
 elevation 1237
@@ -1536,72 +1538,72 @@ x 6
 y 16
 elevation 573
 end
-arch sea
+arch moss
 x 6
 y 17
 elevation -379
 end
-arch sea
+arch moss
 x 6
 y 18
 elevation -1020
 end
-arch sea
+arch moss
 x 6
 y 19
 elevation -1531
 end
-arch sea
+arch moss
 x 6
 y 20
 elevation -1974
 end
-arch sea
+arch moss
 x 6
 y 21
 elevation -2370
 end
-arch sea
+arch moss
 x 6
 y 22
 elevation -2726
 end
-arch sea
+arch moss
 x 6
 y 23
 elevation -3044
 end
-arch sea
+arch purple_moss
 x 6
 y 24
 elevation -3326
 end
-arch sea
+arch purple_moss
 x 6
 y 25
 elevation -3571
 end
-arch sea
+arch purple_moss
 x 6
 y 26
 elevation -3777
 end
-arch sea
+arch purple_moss
 x 6
 y 27
 elevation -3940
 end
-arch sea
+arch moss
 x 6
 y 28
 elevation -4057
 end
-arch sea
+arch moss
 x 6
 y 29
 elevation -4124
 end
-arch sea
+arch moss
 x 6
 y 30
 elevation -4136
@@ -1621,42 +1623,42 @@ x 6
 y 33
 elevation -3826
 end
-arch sea
+arch bosgrass9
 x 6
 y 34
 elevation -3603
 end
-arch sea
+arch bosgrass9
 x 6
 y 35
 elevation -3319
 end
-arch sea
+arch bosgrass2
 x 6
 y 36
 elevation -2973
 end
-arch sea
+arch bosgrass
 x 6
 y 37
 elevation -2564
 end
-arch sea
+arch bosgrass
 x 6
 y 38
 elevation -2087
 end
-arch sea
+arch grassbrown
 x 6
 y 39
 elevation -1536
 end
-arch sea
+arch grassbrown
 x 6
 y 40
 elevation -905
 end
-arch sea
+arch grassbrown
 x 6
 y 41
 elevation -258
@@ -1676,17 +1678,17 @@ x 6
 y 44
 elevation 50
 end
-arch shallow_sea
+arch grassbrown
 x 6
 y 45
 elevation -4
 end
-arch shallow_sea
+arch grassbrown
 x 6
 y 46
 elevation -3
 end
-arch shallow_sea
+arch grassbrown
 x 6
 y 47
 elevation -7
@@ -1701,66 +1703,66 @@ x 6
 y 49
 elevation 456
 end
-arch sea
+arch moss
 x 7
 elevation -3452
 end
-arch sea
+arch bosgrass17
 x 7
 y 1
 elevation -3314
 end
-arch sea
+arch bosgrass2
 x 7
 y 2
 elevation -3164
 end
-arch sea
+arch bosgrass2
 x 7
 y 3
 elevation -2999
 end
-arch sea
+arch bosgrass2
 x 7
 y 4
 elevation -2815
 end
-arch sea
+arch bosgrass2
 x 7
 y 5
 elevation -2607
 end
-arch sea
+arch bosgrass2
 x 7
 y 6
 elevation -2369
 end
-arch sea
+arch moss
 x 7
 y 7
 elevation -2095
 end
-arch sea
+arch grassmedium
 x 7
 y 8
 elevation -1775
 end
-arch sea
+arch grassmedium
 x 7
 y 9
 elevation -1395
 end
-arch sea
+arch grassmedium
 x 7
 y 10
 elevation -929
 end
-arch sea
+arch bosgrass17
 x 7
 y 11
 elevation -318
 end
-arch grass
+arch bosgrass17
 x 7
 y 12
 elevation 563
@@ -1780,82 +1782,82 @@ x 7
 y 15
 elevation 81
 end
-arch sea
+arch moss
 x 7
 y 16
 elevation -343
 end
-arch sea
+arch moss
 x 7
 y 17
 elevation -959
 end
-arch sea
+arch moss
 x 7
 y 18
 elevation -1525
 end
-arch sea
+arch moss
 x 7
 y 19
 elevation -2005
 end
-arch sea
+arch moss
 x 7
 y 20
 elevation -2424
 end
-arch sea
+arch moss
 x 7
 y 21
 elevation -2798
 end
-arch sea
+arch moss
 x 7
 y 22
 elevation -3133
 end
-arch sea
+arch moss
 x 7
 y 23
 elevation -3430
 end
-arch sea
+arch moss
 x 7
 y 24
 elevation -3691
 end
-arch sea
+arch purple_moss
 x 7
 y 25
 elevation -3914
 end
-arch sea
+arch purple_moss
 x 7
 y 26
 elevation -4098
 end
-arch sea
+arch purple_moss
 x 7
 y 27
 elevation -4239
 end
-arch sea
+arch moss
 x 7
 y 28
 elevation -4335
 end
-arch sea
+arch moss
 x 7
 y 29
 elevation -4383
 end
-arch sea
+arch moss
 x 7
 y 30
 elevation -4379
 end
-arch sea
+arch moss
 x 7
 y 31
 elevation -4322
@@ -1870,72 +1872,72 @@ x 7
 y 33
 elevation -4043
 end
-arch sea
+arch bosgrass9
 x 7
 y 34
 elevation -3820
 end
-arch sea
+arch bosgrass2
 x 7
 y 35
 elevation -3541
 end
-arch sea
+arch bosgrass
 x 7
 y 36
 elevation -3208
 end
-arch sea
+arch bosgrass
 x 7
 y 37
 elevation -2822
 end
-arch sea
+arch grassbrown
 x 7
 y 38
 elevation -2383
 end
-arch sea
+arch grassbrown
 x 7
 y 39
 elevation -1900
 end
-arch sea
+arch grassbrown
 x 7
 y 40
 elevation -1394
 end
-arch sea
+arch grassbrown
 x 7
 y 41
 elevation -918
 end
-arch sea
+arch grassbrown
 x 7
 y 42
 elevation -584
 end
-arch sea
+arch grassbrown
 x 7
 y 43
 elevation -394
 end
-arch sea
+arch grassbrown
 x 7
 y 44
 elevation -311
 end
-arch sea
+arch grassbrown
 x 7
 y 45
 elevation -224
 end
-arch sea
+arch grassbrown
 x 7
 y 46
 elevation -123
 end
-arch shallow_sea
+arch grassbrown
 x 7
 y 47
 elevation -9
@@ -1950,66 +1952,66 @@ x 7
 y 49
 elevation 505
 end
-arch sea
+arch moss
 x 8
 elevation -3776
 end
-arch sea
+arch bosgrass17
 x 8
 y 1
 elevation -3646
 end
-arch sea
+arch bosgrass17
 x 8
 y 2
 elevation -3505
 end
-arch sea
+arch bosgrass17
 x 8
 y 3
 elevation -3349
 end
-arch sea
+arch bosgrass2
 x 8
 y 4
 elevation -3176
 end
-arch sea
+arch bosgrass17
 x 8
 y 5
 elevation -2982
 end
-arch sea
+arch bosgrass17
 x 8
 y 6
 elevation -2762
 end
-arch sea
+arch bosgrass17
 x 8
 y 7
 elevation -2510
 end
-arch sea
+arch grassmedium
 x 8
 y 8
 elevation -2220
 end
-arch sea
+arch moss
 x 8
 y 9
 elevation -1884
 end
-arch sea
+arch moss
 x 8
 y 10
 elevation -1487
 end
-arch sea
+arch bosgrass17
 x 8
 y 11
 elevation -1018
 end
-arch sea
+arch bosgrass17
 x 8
 y 12
 elevation -561
@@ -2019,92 +2021,92 @@ x 8
 y 13
 elevation 77
 end
-arch sea
+arch moss
 x 8
 y 14
 elevation -407
 end
-arch sea
+arch moss
 x 8
 y 15
 elevation -753
 end
-arch sea
+arch moss
 x 8
 y 16
 elevation -1205
 end
-arch sea
+arch moss
 x 8
 y 17
 elevation -1648
 end
-arch sea
+arch moss
 x 8
 y 18
 elevation -2098
 end
-arch sea
+arch moss
 x 8
 y 19
 elevation -2516
 end
-arch sea
+arch moss
 x 8
 y 20
 elevation -2894
 end
-arch sea
+arch moss
 x 8
 y 21
 elevation -3235
 end
-arch sea
+arch moss
 x 8
 y 22
 elevation -3541
 end
-arch sea
+arch moss
 x 8
 y 23
 elevation -3812
 end
-arch sea
+arch moss
 x 8
 y 24
 elevation -4049
 end
-arch sea
+arch moss
 x 8
 y 25
 elevation -4249
 end
-arch sea
+arch purple_moss
 x 8
 y 26
 elevation -4410
 end
-arch sea
+arch purple_moss
 x 8
 y 27
 elevation -4531
 end
-arch sea
+arch moss
 x 8
 y 28
 elevation -4608
 end
-arch sea
+arch moss
 x 8
 y 29
 elevation -4639
 end
-arch sea
+arch moss
 x 8
 y 30
 elevation -4621
 end
-arch sea
+arch moss
 x 8
 y 31
 elevation -4554
@@ -2114,77 +2116,77 @@ x 8
 y 32
 elevation -4436
 end
-arch sea
+arch bosgrass9
 x 8
 y 33
 elevation -4267
 end
-arch sea
+arch bosgrass9
 x 8
 y 34
 elevation -4047
 end
-arch sea
+arch bosgrass2
 x 8
 y 35
 elevation -3778
 end
-arch sea
+arch bosgrass
 x 8
 y 36
 elevation -3462
 end
-arch sea
+arch bosgrass
 x 8
 y 37
 elevation -3102
 end
-arch sea
+arch grassbrown
 x 8
 y 38
 elevation -2705
 end
-arch sea
+arch grassbrown
 x 8
 y 39
 elevation -2282
 end
-arch sea
+arch grassbrown
 x 8
 y 40
 elevation -1856
 end
-arch sea
+arch grassbrown
 x 8
 y 41
 elevation -1463
 end
-arch sea
+arch grassbrown
 x 8
 y 42
 elevation -1135
 end
-arch sea
+arch grassbrown
 x 8
 y 43
 elevation -881
 end
-arch sea
+arch grassbrown
 x 8
 y 44
 elevation -675
 end
-arch sea
+arch grassbrown
 x 8
 y 45
 elevation -480
 end
-arch sea
+arch grassbrown
 x 8
 y 46
 elevation -250
 end
-arch shallow_sea
+arch grassbrown
 x 8
 y 47
 elevation -9
@@ -2199,161 +2201,161 @@ x 8
 y 49
 elevation 486
 end
-arch sea
+arch moss
 x 9
 elevation -4111
 end
-arch sea
+arch bosgrass17
 x 9
 y 1
 elevation -3991
 end
-arch sea
+arch bosgrass17
 x 9
 y 2
 elevation -3861
 end
-arch sea
+arch bosgrass17
 x 9
 y 3
 elevation -3718
 end
-arch sea
+arch bosgrass17
 x 9
 y 4
 elevation -3560
 end
-arch sea
+arch bosgrass17
 x 9
 y 5
 elevation -3383
 end
-arch sea
+arch bosgrass17
 x 9
 y 6
 elevation -3185
 end
-arch sea
+arch bosgrass17
 x 9
 y 7
 elevation -2962
 end
-arch sea
+arch grassmedium
 x 9
 y 8
 elevation -2711
 end
-arch sea
+arch bosgrass17
 x 9
 y 9
 elevation -2430
 end
-arch sea
+arch bosgrass17
 x 9
 y 10
 elevation -2120
 end
-arch sea
+arch moss
 x 9
 y 11
 elevation -1799
 end
-arch sea
+arch moss
 x 9
 y 12
 elevation -1488
 end
-arch sea
+arch moss
 x 9
 y 13
 elevation -1355
 end
-arch sea
+arch moss
 x 9
 y 14
 elevation -1411
 end
-arch sea
+arch moss
 x 9
 y 15
 elevation -1672
 end
-arch sea
+arch moss
 x 9
 y 16
 elevation -1986
 end
-arch sea
+arch moss
 x 9
 y 17
 elevation -2338
 end
-arch sea
+arch moss
 x 9
 y 18
 elevation -2696
 end
-arch sea
+arch moss
 x 9
 y 19
 elevation -3046
 end
-arch sea
+arch moss
 x 9
 y 20
 elevation -3374
 end
-arch sea
+arch moss
 x 9
 y 21
 elevation -3676
 end
-arch sea
+arch moss
 x 9
 y 22
 elevation -3948
 end
-arch sea
+arch moss
 x 9
 y 23
 elevation -4190
 end
-arch sea
+arch moss
 x 9
 y 24
 elevation -4400
 end
-arch sea
+arch moss
 x 9
 y 25
 elevation -4576
 end
-arch sea
+arch moss
 x 9
 y 26
 elevation -4715
 end
-arch sea
+arch moss
 x 9
 y 27
 elevation -4816
 end
-arch sea
+arch moss
 x 9
 y 28
 elevation -4875
 end
-arch sea
+arch moss
 x 9
 y 29
 elevation -4891
 end
-arch sea
+arch moss
 x 9
 y 30
 elevation -4862
 end
-arch sea
+arch moss
 x 9
 y 31
 elevation -4787
@@ -2363,77 +2365,77 @@ x 9
 y 32
 elevation -4665
 end
-arch sea
+arch bosgrass9
 x 9
 y 33
 elevation -4497
 end
-arch sea
+arch bosgrass
 x 9
 y 34
 elevation -4283
 end
-arch sea
+arch bosgrass
 x 9
 y 35
 elevation -4026
 end
-arch sea
+arch bosgrass
 x 9
 y 36
 elevation -3728
 end
-arch sea
+arch grassbrown
 x 9
 y 37
 elevation -3395
 end
-arch sea
+arch grassbrown
 x 9
 y 38
 elevation -3034
 end
-arch sea
+arch grassbrown
 x 9
 y 39
 elevation -2657
 end
-arch sea
+arch grassbrown
 x 9
 y 40
 elevation -2280
 end
-arch sea
+arch grassbrown
 x 9
 y 41
 elevation -1922
 end
-arch sea
+arch grassbrown
 x 9
 y 42
 elevation -1597
 end
-arch sea
+arch shrub2a
 x 9
 y 43
 elevation -1308
 end
-arch sea
+arch grassbrown
 x 9
 y 44
 elevation -1040
 end
-arch sea
+arch grassbrown
 x 9
 y 45
 elevation -766
 end
-arch sea
+arch grassbrown
 x 9
 y 46
 elevation -450
 end
-arch brush
+arch grassbrown
 x 9
 y 47
 elevation 54
@@ -2448,495 +2450,499 @@ x 9
 y 49
 elevation 652
 end
-arch sea
+arch moss
 x 10
 elevation -4458
 end
-arch sea
+arch moss
 x 10
 y 1
 elevation -4350
 end
-arch sea
+arch bosgrass17
 x 10
 y 2
 elevation -4232
 end
-arch sea
+arch bosgrass17
 x 10
 y 3
 elevation -4104
 end
-arch sea
+arch bosgrass17
 x 10
 y 4
 elevation -3963
 end
-arch sea
+arch grassmedium
 x 10
 y 5
 elevation -3806
 end
-arch sea
+arch grassmedium
 x 10
 y 6
 elevation -3633
 end
-arch sea
+arch grassmedium
 x 10
 y 7
 elevation -3441
 end
-arch sea
+arch grassmedium
 x 10
 y 8
 elevation -3232
 end
-arch sea
+arch grassmedium
 x 10
 y 9
 elevation -3008
 end
-arch sea
+arch moss
 x 10
 y 10
 elevation -2776
 end
-arch sea
+arch moss
 x 10
 y 11
 elevation -2555
 end
-arch sea
+arch moss
 x 10
 y 12
 elevation -2384
 end
-arch sea
+arch moss
 x 10
 y 13
 elevation -2306
 end
-arch sea
+arch moss
 x 10
 y 14
 elevation -2352
 end
-arch sea
+arch moss
 x 10
 y 15
 elevation -2505
 end
-arch sea
+arch moss
 x 10
 y 16
 elevation -2735
 end
-arch sea
+arch moss
 x 10
 y 17
 elevation -3004
 end
-arch sea
+arch moss
 x 10
 y 18
 elevation -3290
 end
-arch sea
+arch moss
 x 10
 y 19
 elevation -3578
 end
-arch sea
+arch moss
 x 10
 y 20
 elevation -3855
 end
-arch sea
+arch moss
 x 10
 y 21
 elevation -4115
 end
-arch sea
+arch moss
 x 10
 y 22
 elevation -4352
 end
-arch sea
+arch moss
 x 10
 y 23
 elevation -4563
 end
-arch sea
+arch moss
 x 10
 y 24
 elevation -4745
 end
-arch sea
+arch moss
 x 10
 y 25
 elevation -4896
 end
-arch deep_sea
+arch bosgrass17
 x 10
 y 26
 elevation -5013
 end
-arch deep_sea
+arch moss
 x 10
 y 27
 elevation -5094
 end
-arch deep_sea
+arch moss
 x 10
 y 28
 elevation -5137
 end
-arch deep_sea
+arch moss
 x 10
 y 29
 elevation -5140
 end
-arch deep_sea
+arch moss
 x 10
 y 30
 elevation -5101
 end
-arch deep_sea
+arch moss
 x 10
 y 31
 elevation -5020
 end
-arch sea
+arch moss
 x 10
 y 32
 elevation -4897
 end
-arch sea
+arch bosgrass17
 x 10
 y 33
 elevation -4731
 end
-arch sea
+arch bosgrass17
 x 10
 y 34
 elevation -4525
 end
-arch sea
+arch bosgrass17
 x 10
 y 35
 elevation -4281
 end
-arch sea
+arch bosgrass17
 x 10
 y 36
 elevation -4002
 end
-arch sea
+arch bosgrass17
 x 10
 y 37
 elevation -3693
 end
-arch sea
+arch grassbrown
 x 10
 y 38
 elevation -3362
 end
-arch sea
+arch grassbrown
 x 10
 y 39
 elevation -3018
 end
-arch sea
+arch grassbrown
 x 10
 y 40
 elevation -2672
 end
-arch sea
+arch grassbrown
 x 10
 y 41
 elevation -2335
 end
-arch sea
+arch grassbrown
 x 10
 y 42
 elevation -2014
 end
-arch sea
+arch grassbrown
 x 10
 y 43
 elevation -1708
 end
-arch sea
+arch grassbrown
 x 10
 y 44
 elevation -1407
 end
-arch sea
+arch grassbrown
 x 10
 y 45
 elevation -1093
 end
-arch sea
+arch grassbrown
 x 10
 y 46
 elevation -732
 end
-arch sea
+arch grassbrown
 x 10
 y 47
 elevation -326
 end
-arch brush
+arch grassbrown
 x 10
 y 48
 elevation 252
 end
-arch brush
+arch grassbrown
 x 10
 y 49
 elevation 543
 end
-arch sea
+arch moss
 x 11
 elevation -4816
 end
-arch sea
+arch moss
 x 11
 y 1
 elevation -4721
 end
-arch sea
+arch bosgrass17
 x 11
 y 2
 elevation -4618
 end
-arch sea
+arch bosgrass17
 x 11
 y 3
 elevation -4506
 end
-arch sea
+arch bosgrass17
 x 11
 y 4
 elevation -4382
 end
-arch sea
+arch grassmedium
 x 11
 y 5
 elevation -4247
 end
-arch sea
+arch grassmedium
 x 11
 y 6
 elevation -4099
 end
-arch sea
+arch grassmedium
 x 11
 y 7
 elevation -3939
 end
-arch sea
+arch grassmedium
 x 11
 y 8
 elevation -3769
 end
-arch sea
+arch grassmedium
 x 11
 y 9
 elevation -3594
 end
-arch sea
+arch grassmedium
 x 11
 y 10
 elevation -3423
 end
-arch sea
+arch moss
 x 11
 y 11
 elevation -3272
 end
-arch sea
+arch moss
 x 11
 y 12
 elevation -3164
 end
-arch sea
+arch moss
 x 11
 y 13
 elevation -3122
 end
-arch sea
+arch moss
 x 11
 y 14
 elevation -3157
 end
-arch sea
+arch moss
 x 11
 y 15
 elevation -3266
 end
-arch sea
+arch moss
 x 11
 y 16
 elevation -3433
 end
-arch sea
+arch moss
 x 11
 y 17
 elevation -3639
 end
-arch sea
+arch moss
 x 11
 y 18
 elevation -3866
 end
-arch sea
+arch moss
 x 11
 y 19
 elevation -4099
 end
-arch sea
+arch moss
 x 11
 y 20
 elevation -4329
 end
-arch sea
+arch moss
 x 11
 y 21
 elevation -4547
 end
-arch sea
+arch moss
 x 11
 y 22
 elevation -4748
 end
-arch sea
+arch moss
 x 11
 y 23
 elevation -4928
 end
-arch deep_sea
+arch moss
 x 11
 y 24
 elevation -5082
 end
-arch deep_sea
+arch moss
 x 11
 y 25
 elevation -5209
 end
-arch deep_sea
+arch moss
 x 11
 y 26
 elevation -5305
 end
-arch deep_sea
+arch moss
 x 11
 y 27
 elevation -5367
 end
-arch deep_sea
+arch moss
 x 11
 y 28
 elevation -5395
 end
-arch deep_sea
+arch moss
 x 11
 y 29
 elevation -5386
 end
-arch deep_sea
+arch moss
 x 11
 y 30
 elevation -5340
 end
-arch deep_sea
+arch moss
 x 11
 y 31
 elevation -5255
 end
-arch deep_sea
+arch moss
 x 11
 y 32
 elevation -5131
 end
-arch sea
+arch moss
 x 11
 y 33
 elevation -4970
 end
-arch sea
+arch bosgrass17
 x 11
 y 34
 elevation -4772
 end
-arch sea
+arch bosgrass17
 x 11
 y 35
 elevation -4541
 end
-arch sea
+arch bosgrass17
 x 11
 y 36
 elevation -4279
 end
-arch sea
+arch bosgrass17
 x 11
 y 37
 elevation -3992
 end
-arch sea
+arch grassbrown
 x 11
 y 38
 elevation -3686
 end
-arch sea
+arch grassbrown
 x 11
 y 39
 elevation -3367
 end
-arch sea
+arch grassbrown
 x 11
 y 40
 elevation -3044
 end
-arch sea
+arch grassbrown
 x 11
 y 41
 elevation -2723
 end
-arch sea
+arch grassbrown
 x 11
 y 42
 elevation -2408
 end
-arch sea
+arch grassbrown
 x 11
 y 43
 elevation -2097
 end
-arch sea
+arch grassbrown
 x 11
 y 44
 elevation -1785
 end
-arch sea
+arch grassbrown
 x 11
 y 45
 elevation -1460
 end
-arch sea
+arch shrub
+x 11
+y 45
+end
+arch grassbrown
 x 11
 y 46
 elevation -1109
 end
-arch sea
+arch grassbrown
 x 11
 y 47
 elevation -714
 end
-arch sea
+arch grassbrown
 x 11
 y 48
 elevation -306
@@ -2946,475 +2952,475 @@ x 11
 y 49
 elevation 230
 end
-arch deep_sea
+arch moss
 x 12
 elevation -5185
 end
-arch deep_sea
+arch moss
 x 12
 y 1
 elevation -5104
 end
-arch deep_sea
+arch moss
 x 12
 y 2
 elevation -5016
 end
-arch sea
+arch bosgrass17
 x 12
 y 3
 elevation -4920
 end
-arch sea
+arch bosgrass17
 x 12
 y 4
 elevation -4815
 end
-arch sea
+arch grassmedium
 x 12
 y 5
 elevation -4700
 end
-arch sea
+arch grassmedium
 x 12
 y 6
 elevation -4577
 end
-arch sea
+arch grassmedium
 x 12
 y 7
 elevation -4445
 end
-arch sea
+arch grassmedium
 x 12
 y 8
 elevation -4309
 end
-arch sea
+arch grassmedium
 x 12
 y 9
 elevation -4174
 end
-arch sea
+arch grassmedium
 x 12
 y 10
 elevation -4048
 end
-arch sea
+arch moss
 x 12
 y 11
 elevation -3942
 end
-arch sea
+arch moss
 x 12
 y 12
 elevation -3871
 end
-arch sea
+arch grassmedium
 x 12
 y 13
 elevation -3846
 end
-arch sea
+arch moss
 x 12
 y 14
 elevation -3875
 end
-arch sea
+arch moss
 x 12
 y 15
 elevation -3956
 end
-arch sea
+arch moss
 x 12
 y 16
 elevation -4081
 end
-arch sea
+arch moss
 x 12
 y 17
 elevation -4238
 end
-arch sea
+arch moss
 x 12
 y 18
 elevation -4416
 end
-arch sea
+arch moss
 x 12
 y 19
 elevation -4602
 end
-arch sea
+arch moss
 x 12
 y 20
 elevation -4789
 end
-arch sea
+arch purple_moss
 x 12
 y 21
 elevation -4969
 end
-arch deep_sea
+arch moss
 x 12
 y 22
 elevation -5135
 end
-arch deep_sea
+arch moss
 x 12
 y 23
 elevation -5284
 end
-arch deep_sea
+arch moss
 x 12
 y 24
 elevation -5411
 end
-arch deep_sea
+arch moss
 x 12
 y 25
 elevation -5514
 end
-arch deep_sea
+arch moss
 x 12
 y 26
 elevation -5590
 end
-arch deep_sea
+arch moss
 x 12
 y 27
 elevation -5636
 end
-arch deep_sea
+arch moss
 x 12
 y 28
 elevation -5650
 end
-arch deep_sea
+arch moss
 x 12
 y 29
 elevation -5631
 end
-arch deep_sea
+arch moss
 x 12
 y 30
 elevation -5578
 end
-arch deep_sea
+arch moss
 x 12
 y 31
 elevation -5490
 end
-arch deep_sea
+arch moss
 x 12
 y 32
 elevation -5368
 end
-arch deep_sea
+arch moss
 x 12
 y 33
 elevation -5212
 end
-arch deep_sea
+arch bosgrass17
 x 12
 y 34
 elevation -5023
 end
-arch sea
+arch bosgrass17
 x 12
 y 35
 elevation -4805
 end
-arch sea
+arch bosgrass17
 x 12
 y 36
 elevation -4560
 end
-arch sea
+arch bosgrass17
 x 12
 y 37
 elevation -4292
 end
-arch sea
+arch grassbrown
 x 12
 y 38
 elevation -4006
 end
-arch sea
+arch grassbrown
 x 12
 y 39
 elevation -3708
 end
-arch sea
+arch grassbrown
 x 12
 y 40
 elevation -3404
 end
-arch sea
+arch grassbrown
 x 12
 y 41
 elevation -3098
 end
-arch sea
+arch grassbrown
 x 12
 y 42
 elevation -2792
 end
-arch sea
+arch grassbrown
 x 12
 y 43
 elevation -2486
 end
-arch sea
+arch grassbrown
 x 12
 y 44
 elevation -2176
 end
-arch sea
+arch grassbrown
 x 12
 y 45
 elevation -1857
 end
-arch sea
+arch grassbrown
 x 12
 y 46
 elevation -1523
 end
-arch sea
+arch grassbrown
 x 12
 y 47
 elevation -1173
 end
-arch sea
+arch grassbrown
 x 12
 y 48
 elevation -802
 end
-arch sea
+arch grassbrown
 x 12
 y 49
 elevation -464
 end
-arch deep_sea
+arch moss
 x 13
 elevation -5565
 end
-arch deep_sea
+arch moss
 x 13
 y 1
 elevation -5498
 end
-arch deep_sea
+arch moss
 x 13
 y 2
 elevation -5425
 end
-arch deep_sea
+arch moss
 x 13
 y 3
 elevation -5345
 end
-arch deep_sea
+arch bosgrass17
 x 13
 y 4
 elevation -5257
 end
-arch deep_sea
+arch grassmedium
 x 13
 y 5
 elevation -5162
 end
-arch deep_sea
+arch grassmedium
 x 13
 y 6
 elevation -5061
 end
-arch sea
+arch grassmedium
 x 13
 y 7
 elevation -4954
 end
-arch sea
+arch grassmedium
 x 13
 y 8
 elevation -4847
 end
-arch sea
+arch grassmedium
 x 13
 y 9
 elevation -4742
 end
-arch sea
+arch grassmedium
 x 13
 y 10
 elevation -4647
 end
-arch sea
+arch grassmedium
 x 13
 y 11
 elevation -4571
 end
-arch sea
+arch grassmedium
 x 13
 y 12
 elevation -4521
 end
-arch sea
+arch grassmedium
 x 13
 y 13
 elevation -4506
 end
-arch sea
+arch grassmedium
 x 13
 y 14
 elevation -4528
 end
-arch sea
+arch moss
 x 13
 y 15
 elevation -4589
 end
-arch sea
+arch moss
 x 13
 y 16
 elevation -4682
 end
-arch sea
+arch moss
 x 13
 y 17
 elevation -4802
 end
-arch sea
+arch moss
 x 13
 y 18
 elevation -4939
 end
-arch deep_sea
+arch moss
 x 13
 y 19
 elevation -5085
 end
-arch deep_sea
+arch moss
 x 13
 y 20
 elevation -5233
 end
-arch deep_sea
+arch moss
 x 13
 y 21
 elevation -5377
 end
-arch deep_sea
+arch purple_moss
 x 13
 y 22
 elevation -5511
 end
-arch deep_sea
+arch moss
 x 13
 y 23
 elevation -5631
 end
-arch deep_sea
+arch moss
 x 13
 y 24
 elevation -5732
 end
-arch deep_sea
+arch moss
 x 13
 y 25
 elevation -5813
 end
-arch deep_sea
+arch moss
 x 13
 y 26
 elevation -5869
 end
-arch deep_sea
+arch bosgrass17
 x 13
 y 27
 elevation -5900
 end
-arch deep_sea
+arch moss
 x 13
 y 28
 elevation -5902
 end
-arch deep_sea
+arch moss
 x 13
 y 29
 elevation -5875
 end
-arch deep_sea
+arch moss
 x 13
 y 30
 elevation -5817
 end
-arch deep_sea
+arch moss
 x 13
 y 31
 elevation -5728
 end
-arch deep_sea
+arch moss
 x 13
 y 32
 elevation -5608
 end
-arch deep_sea
+arch moss
 x 13
 y 33
 elevation -5458
 end
-arch deep_sea
+arch bosgrass17
 x 13
 y 34
 elevation -5279
 end
-arch deep_sea
+arch bosgrass17
 x 13
 y 35
 elevation -5073
 end
-arch sea
+arch bosgrass17
 x 13
 y 36
 elevation -4843
 end
-arch sea
+arch bosgrass17
 x 13
 y 37
 elevation -4592
 end
-arch sea
+arch bosgrass17
 x 13
 y 38
 elevation -4325
 end
-arch sea
+arch grassbrown
 x 13
 y 39
 elevation -4046
 end
-arch sea
+arch grassbrown
 x 13
 y 40
 elevation -3759
 end
-arch sea
+arch grassbrown
 x 13
 y 41
 elevation -3467
 end
-arch sea
+arch grassbrown
 x 13
 y 42
 elevation -3173
 end
-arch sea
+arch grassbrown
 x 13
 y 43
 elevation -2876
 end
-arch sea
+arch grassbrown
 x 13
 y 44
 elevation -2577
@@ -3444,206 +3450,206 @@ x 13
 y 49
 elevation -1020
 end
-arch deep_sea
+arch moss
 x 14
 elevation -5954
 end
-arch deep_sea
+arch moss
 x 14
 y 1
 elevation -5901
 end
-arch deep_sea
+arch moss
 x 14
 y 2
 elevation -5843
 end
-arch deep_sea
+arch moss
 x 14
 y 3
 elevation -5778
 end
-arch deep_sea
+arch bosgrass17
 x 14
 y 4
 elevation -5706
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 5
 elevation -5629
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 6
 elevation -5547
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 7
 elevation -5462
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 8
 elevation -5376
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 9
 elevation -5295
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 10
 elevation -5222
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 11
 elevation -5164
 end
-arch deep_sea
+arch grassmedium
 x 14
 y 12
 elevation -5127
 end
-arch deep_sea
+arch moss
 x 14
 y 13
 elevation -5115
 end
-arch deep_sea
+arch moss
 x 14
 y 14
 elevation -5131
 end
-arch deep_sea
+arch moss
 x 14
 y 15
 elevation -5174
 end
-arch deep_sea
+arch moss
 x 14
 y 16
 elevation -5242
 end
-arch deep_sea
+arch moss
 x 14
 y 17
 elevation -5331
 end
-arch deep_sea
+arch moss
 x 14
 y 18
 elevation -5434
 end
-arch deep_sea
+arch moss
 x 14
 y 19
 elevation -5545
 end
-arch deep_sea
+arch moss
 x 14
 y 20
 elevation -5660
 end
-arch deep_sea
+arch moss
 x 14
 y 21
 elevation -5771
 end
-arch deep_sea
+arch moss
 x 14
 y 22
 elevation -5875
 end
-arch deep_sea
+arch purple_moss
 x 14
 y 23
 elevation -5968
 end
-arch deep_sea
+arch purple_moss
 x 14
 y 24
 elevation -6045
 end
-arch deep_sea
+arch moss
 x 14
 y 25
 elevation -6105
 end
-arch deep_sea
+arch moss
 x 14
 y 26
 elevation -6145
 end
-arch deep_sea
+arch moss
 x 14
 y 27
 elevation -6161
 end
-arch deep_sea
+arch moss
 x 14
 y 28
 elevation -6153
 end
-arch deep_sea
+arch moss
 x 14
 y 29
 elevation -6119
 end
-arch deep_sea
+arch moss
 x 14
 y 30
 elevation -6057
 end
-arch deep_sea
+arch moss
 x 14
 y 31
 elevation -5968
 end
-arch deep_sea
+arch moss
 x 14
 y 32
 elevation -5852
 end
-arch deep_sea
+arch moss
 x 14
 y 33
 elevation -5709
 end
-arch deep_sea
+arch moss
 x 14
 y 34
 elevation -5539
 end
-arch deep_sea
+arch bosgrass17
 x 14
 y 35
 elevation -5346
 end
-arch deep_sea
+arch bosgrass17
 x 14
 y 36
 elevation -5130
 end
-arch sea
+arch bosgrass17
 x 14
 y 37
 elevation -4895
 end
-arch sea
+arch bosgrass17
 x 14
 y 38
 elevation -4645
 end
-arch sea
+arch grassbrown
 x 14
 y 39
 elevation -4383
 end
-arch sea
+arch grassbrown
 x 14
 y 40
 elevation -4112
@@ -3693,196 +3699,196 @@ x 14
 y 49
 elevation -1595
 end
-arch deep_sea
+arch moss
 x 15
 elevation -6351
 end
-arch deep_sea
+arch moss
 x 15
 y 1
 elevation -6311
 end
-arch deep_sea
+arch moss
 x 15
 y 2
 elevation -6266
 end
-arch deep_sea
+arch moss
 x 15
 y 3
 elevation -6216
 end
-arch deep_sea
+arch moss
 x 15
 y 4
 elevation -6159
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 5
 elevation -6098
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 6
 elevation -6032
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 7
 elevation -5964
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 8
 elevation -5896
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 9
 elevation -5831
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 10
 elevation -5773
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 11
 elevation -5727
 end
-arch deep_sea
+arch moss
 x 15
 y 12
 elevation -5696
 end
-arch deep_sea
+arch moss
 x 15
 y 13
 elevation -5684
 end
-arch deep_sea
+arch moss
 x 15
 y 14
 elevation -5692
 end
-arch deep_sea
+arch moss
 x 15
 y 15
 elevation -5720
 end
-arch deep_sea
+arch moss
 x 15
 y 16
 elevation -5766
 end
-arch deep_sea
+arch moss
 x 15
 y 17
 elevation -5829
 end
-arch deep_sea
+arch moss
 x 15
 y 18
 elevation -5903
 end
-arch deep_sea
+arch moss
 x 15
 y 19
 elevation -5984
 end
-arch deep_sea
+arch moss
 x 15
 y 20
 elevation -6068
 end
-arch deep_sea
+arch moss
 x 15
 y 21
 elevation -6151
 end
-arch deep_sea
+arch moss
 x 15
 y 22
 elevation -6228
 end
-arch deep_sea
+arch moss
 x 15
 y 23
 elevation -6296
 end
-arch deep_sea
+arch moss
 x 15
 y 24
 elevation -6352
 end
-arch deep_sea
+arch moss
 x 15
 y 25
 elevation -6393
 end
-arch deep_sea
+arch moss
 x 15
 y 26
 elevation -6417
 end
-arch deep_sea
+arch moss
 x 15
 y 27
 elevation -6421
 end
-arch deep_sea
+arch moss
 x 15
 y 28
 elevation -6404
 end
-arch deep_sea
+arch moss
 x 15
 y 29
 elevation -6364
 end
-arch deep_sea
+arch moss
 x 15
 y 30
 elevation -6301
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 31
 elevation -6213
 end
-arch deep_sea
+arch grassmedium
 x 15
 y 32
 elevation -6101
 end
-arch deep_sea
+arch moss
 x 15
 y 33
 elevation -5965
 end
-arch deep_sea
+arch moss
 x 15
 y 34
 elevation -5806
 end
-arch deep_sea
+arch moss
 x 15
 y 35
 elevation -5624
 end
-arch deep_sea
+arch bosgrass17
 x 15
 y 36
 elevation -5422
 end
-arch deep_sea
+arch bosgrass17
 x 15
 y 37
 elevation -5203
 end
-arch sea
+arch grassbrown
 x 15
 y 38
 elevation -4968
@@ -3942,196 +3948,196 @@ x 15
 y 49
 elevation -2128
 end
-arch deep_sea
+arch moss
 x 16
 elevation -6753
 end
-arch deep_sea
+arch moss
 x 16
 y 1
 elevation -6726
 end
-arch deep_sea
+arch moss
 x 16
 y 2
 elevation -6694
 end
-arch deep_sea
+arch moss
 x 16
 y 3
 elevation -6656
 end
-arch deep_sea
+arch moss
 x 16
 y 4
 elevation -6613
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 5
 elevation -6565
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 6
 elevation -6513
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 7
 elevation -6458
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 8
 elevation -6403
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 9
 elevation -6350
 end
-arch deep_sea
+arch moss
 x 16
 y 10
 elevation -6303
 end
-arch deep_sea
+arch moss
 x 16
 y 11
 elevation -6263
 end
-arch deep_sea
+arch moss
 x 16
 y 12
 elevation -6235
 end
-arch deep_sea
+arch moss
 x 16
 y 13
 elevation -6219
 end
-arch deep_sea
+arch moss
 x 16
 y 14
 elevation -6218
 end
-arch deep_sea
+arch moss
 x 16
 y 15
 elevation -6232
 end
-arch deep_sea
+arch moss
 x 16
 y 16
 elevation -6260
 end
-arch deep_sea
+arch moss
 x 16
 y 17
 elevation -6300
 end
-arch deep_sea
+arch moss
 x 16
 y 18
 elevation -6348
 end
-arch deep_sea
+arch moss
 x 16
 y 19
 elevation -6403
 end
-arch deep_sea
+arch moss
 x 16
 y 20
 elevation -6460
 end
-arch deep_sea
+arch moss
 x 16
 y 21
 elevation -6517
 end
-arch deep_sea
+arch moss
 x 16
 y 22
 elevation -6570
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 23
 elevation -6615
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 24
 elevation -6652
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 25
 elevation -6676
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 26
 elevation -6687
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 27
 elevation -6681
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 28
 elevation -6657
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 29
 elevation -6613
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 30
 elevation -6549
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 31
 elevation -6464
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 32
 elevation -6357
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 33
 elevation -6228
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 34
 elevation -6079
 end
-arch deep_sea
+arch grassmedium
 x 16
 y 35
 elevation -5909
 end
-arch deep_sea
+arch grassbrown
 x 16
 y 36
 elevation -5720
 end
-arch deep_sea
+arch grassbrown
 x 16
 y 37
 elevation -5515
 end
-arch deep_sea
+arch grassbrown
 x 16
 y 38
 elevation -5296
@@ -4205,82 +4211,82 @@ x 17
 y 2
 elevation -7122
 end
-arch deep_sea
+arch moss
 x 17
 y 3
 elevation -7096
 end
-arch deep_sea
+arch moss
 x 17
 y 4
 elevation -7065
 end
-arch deep_sea
+arch moss
 x 17
 y 5
 elevation -7028
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 6
 elevation -6987
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 7
 elevation -6943
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 8
 elevation -6898
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 9
 elevation -6853
 end
-arch deep_sea
+arch moss
 x 17
 y 10
 elevation -6811
 end
-arch deep_sea
+arch moss
 x 17
 y 11
 elevation -6775
 end
-arch deep_sea
+arch moss
 x 17
 y 12
 elevation -6746
 end
-arch deep_sea
+arch moss
 x 17
 y 13
 elevation -6725
 end
-arch deep_sea
+arch moss
 x 17
 y 14
 elevation -6715
 end
-arch deep_sea
+arch moss
 x 17
 y 15
 elevation -6716
 end
-arch deep_sea
+arch moss
 x 17
 y 16
 elevation -6727
 end
-arch deep_sea
+arch moss
 x 17
 y 17
 elevation -6746
 end
-arch deep_sea
+arch moss
 x 17
 y 18
 elevation -6772
@@ -4300,82 +4306,82 @@ x 17
 y 21
 elevation -6871
 end
-arch deep_sea
+arch moss
 x 17
 y 22
 elevation -6902
 end
-arch deep_sea
+arch moss
 x 17
 y 23
 elevation -6928
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 24
 elevation -6947
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 25
 elevation -6957
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 26
 elevation -6956
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 27
 elevation -6941
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 28
 elevation -6912
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 29
 elevation -6866
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 30
 elevation -6802
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 31
 elevation -6720
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 32
 elevation -6619
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 33
 elevation -6499
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 34
 elevation -6359
 end
-arch deep_sea
+arch grassmedium
 x 17
 y 35
 elevation -6201
 end
-arch deep_sea
+arch grassbrown
 x 17
 y 36
 elevation -6025
 end
-arch deep_sea
+arch grassbrown
 x 17
 y 37
 elevation -5834
@@ -4459,42 +4465,42 @@ x 18
 y 3
 elevation -7534
 end
-arch deep_sea
+arch moss
 x 18
 y 4
 elevation -7512
 end
-arch deep_sea
+arch moss
 x 18
 y 5
 elevation -7485
 end
-arch deep_sea
+arch moss
 x 18
 y 6
 elevation -7453
 end
-arch deep_sea
+arch moss
 x 18
 y 7
 elevation -7417
 end
-arch deep_sea
+arch moss
 x 18
 y 8
 elevation -7378
 end
-arch deep_sea
+arch moss
 x 18
 y 9
 elevation -7339
 end
-arch deep_sea
+arch moss
 x 18
 y 10
 elevation -7300
 end
-arch deep_sea
+arch moss
 x 18
 y 11
 elevation -7264
@@ -4564,67 +4570,67 @@ x 18
 y 24
 elevation -7239
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 25
 elevation -7236
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 26
 elevation -7225
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 27
 elevation -7203
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 28
 elevation -7170
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 29
 elevation -7123
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 30
 elevation -7061
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 31
 elevation -6983
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 32
 elevation -6888
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 33
 elevation -6776
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 34
 elevation -6647
 end
-arch deep_sea
+arch grassmedium
 x 18
 y 35
 elevation -6500
 end
-arch deep_sea
+arch grassbrown
 x 18
 y 36
 elevation -6337
 end
-arch deep_sea
+arch grassbrown
 x 18
 y 37
 elevation -6159
@@ -4713,32 +4719,32 @@ x 19
 y 4
 elevation -7952
 end
-arch deep_sea
+arch moss
 x 19
 y 5
 elevation -7932
 end
-arch deep_sea
+arch moss
 x 19
 y 6
 elevation -7907
 end
-arch deep_sea
+arch moss
 x 19
 y 7
 elevation -7877
 end
-arch deep_sea
+arch moss
 x 19
 y 8
 elevation -7843
 end
-arch deep_sea
+arch moss
 x 19
 y 9
 elevation -7807
 end
-arch deep_sea
+arch moss
 x 19
 y 10
 elevation -7769
@@ -4813,67 +4819,67 @@ x 19
 y 24
 elevation -7527
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 25
 elevation -7514
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 26
 elevation -7495
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 27
 elevation -7468
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 28
 elevation -7432
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 29
 elevation -7385
 end
-arch deep_sea
+arch grassmedium
 x 19
 y 30
 elevation -7325
 end
-arch deep_sea
+arch grassmedium
 x 19
 y 31
 elevation -7252
 end
-arch deep_sea
+arch grassmedium
 x 19
 y 32
 elevation -7164
 end
-arch deep_sea
+arch grassmedium
 x 19
 y 33
 elevation -7061
 end
-arch deep_sea
+arch grassmedium
 x 19
 y 34
 elevation -6942
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 35
 elevation -6806
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 36
 elevation -6656
 end
-arch deep_sea
+arch grassbrown
 x 19
 y 37
 elevation -6491
@@ -4967,17 +4973,17 @@ x 20
 y 5
 elevation -8369
 end
-arch deep_sea
+arch moss
 x 20
 y 6
 elevation -8349
 end
-arch deep_sea
+arch moss
 x 20
 y 7
 elevation -8323
 end
-arch deep_sea
+arch moss
 x 20
 y 8
 elevation -8292
@@ -5062,67 +5068,67 @@ x 20
 y 24
 elevation -7813
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 25
 elevation -7791
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 26
 elevation -7766
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 27
 elevation -7735
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 28
 elevation -7698
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 29
 elevation -7651
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 30
 elevation -7595
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 31
 elevation -7527
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 32
 elevation -7447
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 33
 elevation -7352
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 34
 elevation -7243
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 35
 elevation -7119
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 36
 elevation -6980
 end
-arch deep_sea
+arch grassbrown
 x 20
 y 37
 elevation -6827
@@ -5311,67 +5317,67 @@ x 21
 y 24
 elevation -8096
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 25
 elevation -8067
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 26
 elevation -8037
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 27
 elevation -8004
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 28
 elevation -7966
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 29
 elevation -7922
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 30
 elevation -7870
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 31
 elevation -7808
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 32
 elevation -7735
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 33
 elevation -7649
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 34
 elevation -7550
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 35
 elevation -7437
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 36
 elevation -7309
 end
-arch deep_sea
+arch grassbrown
 x 21
 y 37
 elevation -7168
@@ -5560,67 +5566,67 @@ x 22
 y 24
 elevation -8376
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 25
 elevation -8342
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 26
 elevation -8309
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 27
 elevation -8274
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 28
 elevation -8237
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 29
 elevation -8196
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 30
 elevation -8148
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 31
 elevation -8092
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 32
 elevation -8026
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 33
 elevation -7949
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 34
 elevation -7860
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 35
 elevation -7756
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 36
 elevation -7640
 end
-arch deep_sea
+arch grassbrown
 x 22
 y 37
 elevation -7509
@@ -5809,67 +5815,67 @@ x 23
 y 24
 elevation -8653
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 25
 elevation -8615
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 26
 elevation -8579
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 27
 elevation -8544
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 28
 elevation -8508
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 29
 elevation -8470
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 30
 elevation -8427
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 31
 elevation -8377
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 32
 elevation -8318
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 33
 elevation -8250
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 34
 elevation -8169
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 35
 elevation -8076
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 36
 elevation -7969
 end
-arch deep_sea
+arch grassbrown
 x 23
 y 37
 elevation -7849
@@ -6058,67 +6064,67 @@ x 24
 y 24
 elevation -8924
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 25
 elevation -8883
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 26
 elevation -8846
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 27
 elevation -8811
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 28
 elevation -8777
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 29
 elevation -8742
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 30
 elevation -8703
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 31
 elevation -8659
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 32
 elevation -8608
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 33
 elevation -8547
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 34
 elevation -8475
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 35
 elevation -8391
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 36
 elevation -8294
 end
-arch deep_sea
+arch grassbrown
 x 24
 y 37
 elevation -8183
@@ -6302,72 +6308,72 @@ x 25
 y 23
 elevation -9237
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 24
 elevation -9188
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 25
 elevation -9145
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 26
 elevation -9108
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 27
 elevation -9073
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 28
 elevation -9041
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 29
 elevation -9009
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 30
 elevation -8975
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 31
 elevation -8937
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 32
 elevation -8892
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 33
 elevation -8838
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 34
 elevation -8774
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 35
 elevation -8699
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 36
 elevation -8610
 end
-arch deep_sea
+arch grassbrown
 x 25
 y 37
 elevation -8508
@@ -6546,77 +6552,77 @@ x 26
 y 22
 elevation -9553
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 23
 elevation -9494
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 24
 elevation -9443
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 25
 elevation -9399
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 26
 elevation -9361
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 27
 elevation -9328
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 28
 elevation -9297
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 29
 elevation -9268
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 30
 elevation -9238
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 31
 elevation -9205
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 32
 elevation -9165
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 33
 elevation -9118
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 34
 elevation -9061
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 35
 elevation -8993
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 36
 elevation -8912
 end
-arch deep_sea
+arch grassbrown
 x 26
 y 37
 elevation -8818
@@ -6780,92 +6786,92 @@ x 27
 y 19
 elevation -10027
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 20
 elevation -9945
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 21
 elevation -9869
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 22
 elevation -9800
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 23
 elevation -9739
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 24
 elevation -9686
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 25
 elevation -9641
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 26
 elevation -9603
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 27
 elevation -9570
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 28
 elevation -9541
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 29
 elevation -9515
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 30
 elevation -9488
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 31
 elevation -9458
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 32
 elevation -9424
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 33
 elevation -9382
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 34
 elevation -9331
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 35
 elevation -9269
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 36
 elevation -9195
 end
-arch deep_sea
+arch grassbrown
 x 27
 y 37
 elevation -9108
@@ -7029,92 +7035,92 @@ x 28
 y 19
 elevation -10267
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 20
 elevation -10182
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 21
 elevation -10103
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 22
 elevation -10032
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 23
 elevation -9969
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 24
 elevation -9914
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 25
 elevation -9868
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 26
 elevation -9829
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 27
 elevation -9797
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 28
 elevation -9769
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 29
 elevation -9744
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 30
 elevation -9720
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 31
 elevation -9694
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 32
 elevation -9663
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 33
 elevation -9625
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 34
 elevation -9579
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 35
 elevation -9523
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 36
 elevation -9454
 end
-arch deep_sea
+arch grassbrown
 x 28
 y 37
 elevation -9373
@@ -7273,102 +7279,102 @@ x 29
 y 18
 elevation -10580
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 19
 elevation -10488
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 20
 elevation -10400
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 21
 elevation -10319
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 22
 elevation -10245
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 23
 elevation -10180
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 24
 elevation -10124
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 25
 elevation -10076
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 26
 elevation -10037
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 27
 elevation -10004
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 28
 elevation -9977
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 29
 elevation -9953
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 30
 elevation -9930
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 31
 elevation -9905
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 32
 elevation -9877
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 33
 elevation -9843
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 34
 elevation -9800
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 35
 elevation -9748
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 36
 elevation -9684
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 37
 elevation -9608
 end
-arch deep_sea
+arch grassbrown
 x 29
 y 38
 elevation -9519
@@ -7522,57 +7528,57 @@ x 30
 y 18
 elevation -10781
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 19
 elevation -10686
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 20
 elevation -10596
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 21
 elevation -10513
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 22
 elevation -10437
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 23
 elevation -10370
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 24
 elevation -10312
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 25
 elevation -10263
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 26
 elevation -10222
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 27
 elevation -10189
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 28
 elevation -10160
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 29
 elevation -10136
@@ -7597,7 +7603,7 @@ x 30
 y 33
 elevation -10029
 end
-arch deep_sea
+arch grassbrown
 x 30
 y 34
 elevation -9989

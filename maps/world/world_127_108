@@ -2,6 +2,9 @@ arch map
 name world_127_108
 width 50
 height 50
+msg
+Modified: 2018-08-07 lori
+endmsg
 outdoor 1
 tile_path_1 world_127_107
 tile_path_2 world_128_108
@@ -163,47 +166,47 @@ arch brush
 y 38
 elevation 324
 end
-arch shallow_sea
+arch beach
 y 39
 elevation -8
 end
-arch deep_swamp
+arch beach
 y 40
 elevation 5
 end
-arch shallow_sea
+arch beach
 y 41
 elevation -3
 end
-arch shallow_sea
+arch beach
 y 42
 elevation -5
 end
-arch shallow_sea
+arch beach
 y 43
 elevation -8
 end
-arch shallow_sea
+arch beach
 y 44
 elevation -43
 end
-arch shallow_sea
+arch beach
 y 45
 elevation -7
 end
-arch deep_swamp
+arch beach
 y 46
 elevation 6
 end
-arch desert
+arch beach
 y 47
 elevation 27
 end
-arch deep_swamp
+arch beach
 y 48
 elevation 7
 end
-arch deep_swamp
+arch beach
 y 49
 elevation 6
 end
@@ -396,62 +399,62 @@ x 1
 y 37
 elevation 657
 end
-arch deep_swamp
+arch beach
 x 1
 y 38
 elevation 1
 end
-arch shallow_sea
+arch beach
 x 1
 y 39
 elevation -10
 end
-arch shallow_sea
+arch beach
 x 1
 y 40
 elevation -72
 end
-arch sea
+arch beach
 x 1
 y 41
 elevation -106
 end
-arch sea
+arch beach
 x 1
 y 42
 elevation -136
 end
-arch sea
+arch beach
 x 1
 y 43
 elevation -166
 end
-arch sea
+arch beach
 x 1
 y 44
 elevation -186
 end
-arch sea
+arch beach
 x 1
 y 45
 elevation -198
 end
-arch sea
+arch beach
 x 1
 y 46
 elevation -198
 end
-arch sea
+arch beach
 x 1
 y 47
 elevation -199
 end
-arch sea
+arch beach
 x 1
 y 48
 elevation -196
 end
-arch sea
+arch beach
 x 1
 y 49
 elevation -189
@@ -640,67 +643,67 @@ x 2
 y 36
 elevation 930
 end
-arch brush
+arch beach
 x 2
 y 37
 elevation 77
 end
-arch shallow_sea
+arch beach
 x 2
 y 38
 elevation -6
 end
-arch shallow_sea
+arch beach
 x 2
 y 39
 elevation -88
 end
-arch sea
+arch beach
 x 2
 y 40
 elevation -151
 end
-arch sea
+arch beach
 x 2
 y 41
 elevation -212
 end
-arch sea
+arch beach
 x 2
 y 42
 elevation -266
 end
-arch sea
+arch beach
 x 2
 y 43
 elevation -314
 end
-arch sea
+arch beach
 x 2
 y 44
 elevation -354
 end
-arch sea
+arch beach
 x 2
 y 45
 elevation -383
 end
-arch sea
+arch beach
 x 2
 y 46
 elevation -402
 end
-arch sea
+arch beach
 x 2
 y 47
 elevation -410
 end
-arch sea
+arch beach
 x 2
 y 48
 elevation -407
 end
-arch sea
+arch beach
 x 2
 y 49
 elevation -387
@@ -884,72 +887,72 @@ x 3
 y 35
 elevation 460
 end
-arch deep_swamp
+arch beach
 x 3
 y 36
 elevation 5
 end
-arch shallow_sea
+arch beach
 x 3
 y 37
 elevation -4
 end
-arch shallow_sea
+arch beach
 x 3
 y 38
 elevation -74
 end
-arch sea
+arch beach
 x 3
 y 39
 elevation -154
 end
-arch sea
+arch beach
 x 3
 y 40
 elevation -237
 end
-arch sea
+arch beach
 x 3
 y 41
 elevation -316
 end
-arch sea
+arch beach
 x 3
 y 42
 elevation -392
 end
-arch sea
+arch beach
 x 3
 y 43
 elevation -460
 end
-arch sea
+arch beach
 x 3
 y 44
 elevation -519
 end
-arch sea
+arch beach
 x 3
 y 45
 elevation -566
 end
-arch sea
+arch beach
 x 3
 y 46
 elevation -599
 end
-arch sea
+arch beach
 x 3
 y 47
 elevation -616
 end
-arch sea
+arch beach
 x 3
 y 48
 elevation -615
 end
-arch sea
+arch beach
 x 3
 y 49
 elevation -593
@@ -1123,32 +1126,31 @@ x 4
 y 33
 elevation 97
 end
-arch shallow_sea
+arch beach
 x 4
 y 34
-elevation 0
 end
-arch shallow_sea
+arch beach
 x 4
 y 35
 elevation -2
 end
-arch shallow_sea
+arch beach
 x 4
 y 36
 elevation -7
 end
-arch shallow_sea
+arch beach
 x 4
 y 37
 elevation -62
 end
-arch sea
+arch beach
 x 4
 y 38
 elevation -131
 end
-arch sea
+arch beach
 x 4
 y 39
 elevation -219
@@ -1193,12 +1195,12 @@ x 4
 y 47
 elevation -815
 end
-arch sea
+arch beach
 x 4
 y 48
 elevation -820
 end
-arch sea
+arch beach
 x 4
 y 49
 elevation -800
@@ -1372,17 +1374,17 @@ x 5
 y 33
 elevation 39
 end
-arch shallow_sea
+arch beach
 x 5
 y 34
 elevation -2
 end
-arch shallow_sea
+arch beach
 x 5
 y 35
 elevation -10
 end
-arch shallow_sea
+arch beach
 x 5
 y 36
 elevation -33
@@ -1621,22 +1623,22 @@ x 6
 y 33
 elevation 75
 end
-arch shallow_sea
+arch beach
 x 6
 y 34
 elevation -4
 end
-arch shallow_sea
+arch beach
 x 6
 y 35
 elevation -5
 end
-arch shallow_sea
+arch beach
 x 6
 y 36
 elevation -10
 end
-arch shallow_sea
+arch beach
 x 6
 y 37
 elevation -85
@@ -1870,17 +1872,17 @@ x 7
 y 33
 elevation 876
 end
-arch brush
+arch beach
 x 7
 y 34
 elevation 369
 end
-arch brush
+arch beach
 x 7
 y 35
 elevation 168
 end
-arch deep_swamp
+arch beach
 x 7
 y 36
 elevation 3
@@ -2104,32 +2106,32 @@ x 8
 y 30
 elevation 616
 end
-arch hills_rocky
+arch beach
 x 8
 y 31
 elevation 1541
 end
-arch hills_rocky
+arch beach
 x 8
 y 32
 elevation 2091
 end
-arch hills_rocky
+arch beach
 x 8
 y 33
 elevation 2087
 end
-arch hills_rocky
+arch beach
 x 8
 y 34
 elevation 1904
 end
-arch hills_rocky
+arch beach
 x 8
 y 35
 elevation 1457
 end
-arch brush
+arch beach
 x 8
 y 36
 elevation 295
@@ -2353,32 +2355,32 @@ x 9
 y 30
 elevation 750
 end
-arch hills_rocky
+arch beach
 x 9
 y 31
 elevation 1978
 end
-arch hills_rocky
+arch beach
 x 9
 y 32
 elevation 2701
 end
-arch hills_rocky
+arch beach
 x 9
 y 33
 elevation 2894
 end
-arch hills_rocky
+arch beach
 x 9
 y 34
 elevation 2620
 end
-arch hills_rocky
+arch beach
 x 9
 y 35
 elevation 1849
 end
-arch brush
+arch beach
 x 9
 y 36
 elevation 773
@@ -2602,32 +2604,32 @@ x 10
 y 30
 elevation 654
 end
-arch hills_rocky
+arch beach
 x 10
 y 31
 elevation 2072
 end
-arch hills_rocky
+arch beach
 x 10
 y 32
 elevation 2648
 end
-arch hills_rocky
+arch beach
 x 10
 y 33
 elevation 2797
 end
-arch hills_rocky
+arch beach
 x 10
 y 34
 elevation 2246
 end
-arch hills_rocky
+arch beach
 x 10
 y 35
 elevation 1231
 end
-arch brush
+arch beach
 x 10
 y 36
 elevation 121
@@ -2866,22 +2868,22 @@ x 11
 y 33
 elevation 2308
 end
-arch brush
+arch beach
 x 11
 y 34
 elevation 901
 end
-arch brush
+arch beach
 x 11
 y 35
 elevation 167
 end
-arch desert
+arch beach
 x 11
 y 36
 elevation 131
 end
-arch shallow_sea
+arch beach
 x 11
 y 37
 elevation -9
@@ -3115,27 +3117,27 @@ x 12
 y 33
 elevation 1733
 end
-arch brush
+arch beach
 x 12
 y 34
 elevation 403
 end
-arch desert
+arch beach
 x 12
 y 35
 elevation 455
 end
-arch brush
+arch beach
 x 12
 y 36
 elevation 63
 end
-arch deep_swamp
+arch beach
 x 12
 y 37
 elevation 2
 end
-arch shallow_sea
+arch beach
 x 12
 y 38
 elevation -82
@@ -3359,32 +3361,32 @@ x 13
 y 32
 elevation 2481
 end
-arch hills
+arch beach
 x 13
 y 33
 elevation 1196
 end
-arch brush
+arch beach
 x 13
 y 34
 elevation 82
 end
-arch brush
+arch beach
 x 13
 y 35
 elevation 721
 end
-arch brush
+arch beach
 x 13
 y 36
 elevation 783
 end
-arch brush
+arch beach
 x 13
 y 37
 elevation 175
 end
-arch shallow_sea
+arch beach
 x 13
 y 38
 elevation -23
@@ -3603,37 +3605,37 @@ x 14
 y 31
 elevation 2505
 end
-arch hills_rocky
+arch beach
 x 14
 y 32
 elevation 2289
 end
-arch hills_rocky
+arch beach
 x 14
 y 33
 elevation 1459
 end
-arch brush
+arch beach
 x 14
 y 34
 elevation 134
 end
-arch hills_rocky
+arch beach
 x 14
 y 35
 elevation 1083
 end
-arch hills_rocky
+arch beach
 x 14
 y 36
 elevation 1257
 end
-arch brush
+arch beach
 x 14
 y 37
 elevation 498
 end
-arch brush
+arch beach
 x 14
 y 38
 elevation 13
@@ -3847,47 +3849,47 @@ x 15
 y 30
 elevation 1928
 end
-arch hills_rocky
+arch beach
 x 15
 y 31
 elevation 1401
 end
-arch hills
+arch beach
 x 15
 y 32
 elevation 1915
 end
-arch woods_3
+arch beach
 x 15
 y 33
 elevation 1281
 end
-arch desert
+arch beach
 x 15
 y 34
 elevation 591
 end
-arch hills_rocky
+arch beach
 x 15
 y 35
 elevation 1063
 end
-arch hills_rocky
+arch beach
 x 15
 y 36
 elevation 1464
 end
-arch brush
+arch beach
 x 15
 y 37
 elevation 980
 end
-arch brush
+arch beach
 x 15
 y 38
 elevation 27
 end
-arch sea
+arch beach
 x 15
 y 39
 elevation -190
@@ -4091,52 +4093,52 @@ x 16
 y 29
 elevation 2348
 end
-arch hills_rocky
+arch beach
 x 16
 y 30
 elevation 2138
 end
-arch hills_rocky
+arch beach
 x 16
 y 31
 elevation 1929
 end
-arch hills_rocky
+arch beach
 x 16
 y 32
 elevation 1542
 end
-arch brush
+arch beach
 x 16
 y 33
 elevation 297
 end
-arch brush
+arch beach
 x 16
 y 34
 elevation 73
 end
-arch brush
+arch beach
 x 16
 y 35
 elevation 815
 end
-arch hills_rocky
+arch beach
 x 16
 y 36
 elevation 1640
 end
-arch hills_rocky
+arch beach
 x 16
 y 37
 elevation 1299
 end
-arch brush
+arch beach
 x 16
 y 38
 elevation 346
 end
-arch sea
+arch beach
 x 16
 y 39
 elevation -131
@@ -4340,57 +4342,57 @@ x 17
 y 29
 elevation 1868
 end
-arch hills
+arch beach
 x 17
 y 30
 elevation 1868
 end
-arch hills_rocky
+arch beach
 x 17
 y 31
 elevation 1477
 end
-arch hills_rocky
+arch beach
 x 17
 y 32
 elevation 1504
 end
-arch hills_rocky
+arch beach
 x 17
 y 33
 elevation 1417
 end
-arch hills_rocky
+arch beach
 x 17
 y 34
 elevation 1523
 end
-arch hills
+arch beach
 x 17
 y 35
 elevation 1786
 end
-arch woods_2
+arch beach
 x 17
 y 36
 elevation 1782
 end
-arch woods_2
+arch beach
 x 17
 y 37
 elevation 1333
 end
-arch brush
+arch beach
 x 17
 y 38
 elevation 404
 end
-arch sea
+arch beach
 x 17
 y 39
 elevation -133
 end
-arch sea
+arch beach
 x 17
 y 40
 elevation -501
@@ -4589,52 +4591,52 @@ x 18
 y 29
 elevation 587
 end
-arch hills
+arch beach
 x 18
 y 30
 elevation 1270
 end
-arch hills_rocky
+arch beach
 x 18
 y 31
 elevation 1248
 end
-arch hills_rocky
+arch beach
 x 18
 y 32
 elevation 1391
 end
-arch woods_3
+arch beach
 x 18
 y 33
 elevation 1659
 end
-arch hills_rocky
+arch beach
 x 18
 y 34
 elevation 1952
 end
-arch hills
+arch beach
 x 18
 y 35
 elevation 1910
 end
-arch jungle_1
+arch beach
 x 18
 y 36
 elevation 1550
 end
-arch brush
+arch beach
 x 18
 y 37
 elevation 918
 end
-arch brush
+arch beach
 x 18
 y 38
 elevation 69
 end
-arch sea
+arch beach
 x 18
 y 39
 elevation -206
@@ -4838,42 +4840,42 @@ x 19
 y 29
 elevation 360
 end
-arch brush
+arch beach
 x 19
 y 30
 elevation 878
 end
-arch desert
+arch beach
 x 19
 y 31
 elevation 868
 end
-arch hills_rocky
+arch beach
 x 19
 y 32
 elevation 1085
 end
-arch jungle_1
+arch beach
 x 19
 y 33
 elevation 1015
 end
-arch jungle_1
+arch beach
 x 19
 y 34
 elevation 1536
 end
-arch hills
+arch beach
 x 19
 y 35
 elevation 1434
 end
-arch brush
+arch beach
 x 19
 y 36
 elevation 116
 end
-arch brush
+arch beach
 x 19
 y 37
 elevation 301
@@ -5097,32 +5099,32 @@ x 20
 y 31
 elevation 811
 end
-arch desert
+arch beach
 x 20
 y 32
 elevation 735
 end
-arch grass
+arch beach
 x 20
 y 33
 elevation 358
 end
-arch grass
+arch beach
 x 20
 y 34
 elevation 852
 end
-arch desert
+arch beach
 x 20
 y 35
 elevation 663
 end
-arch grass
+arch beach
 x 20
 y 36
 elevation 278
 end
-arch shallow_sea
+arch beach
 x 20
 y 37
 elevation -8
@@ -5341,22 +5343,22 @@ x 21
 y 30
 elevation 786
 end
-arch desert
+arch beach
 x 21
 y 31
 elevation 732
 end
-arch desert
+arch beach
 x 21
 y 32
 elevation 179
 end
-arch brush
+arch beach
 x 21
 y 33
 elevation 444
 end
-arch brush
+arch beach
 x 21
 y 34
 elevation 340
@@ -5590,22 +5592,22 @@ x 22
 y 30
 elevation 661
 end
-arch desert
+arch beach
 x 22
 y 31
 elevation 546
 end
-arch desert
+arch beach
 x 22
 y 32
 elevation 448
 end
-arch grass
+arch beach
 x 22
 y 33
 elevation 360
 end
-arch brush
+arch beach
 x 22
 y 34
 elevation 69
@@ -5839,22 +5841,22 @@ x 23
 y 30
 elevation 559
 end
-arch desert
+arch beach
 x 23
 y 31
 elevation 179
 end
-arch desert
+arch beach
 x 23
 y 32
 elevation 179
 end
-arch desert
+arch beach
 x 23
 y 33
 elevation 311
 end
-arch swamp
+arch beach
 x 23
 y 34
 elevation 4
@@ -6088,22 +6090,22 @@ x 24
 y 30
 elevation 446
 end
-arch desert
+arch beach
 x 24
 y 31
 elevation 440
 end
-arch desert
+arch beach
 x 24
 y 32
 elevation 357
 end
-arch grass
+arch beach
 x 24
 y 33
 elevation 126
 end
-arch shallow_sea
+arch beach
 x 24
 y 34
 elevation -5
@@ -6327,7 +6329,7 @@ x 25
 y 28
 elevation 794
 end
-arch desert
+arch beach
 x 25
 y 29
 elevation 54
@@ -6337,17 +6339,17 @@ x 25
 y 30
 elevation 486
 end
-arch desert
+arch beach
 x 25
 y 31
 elevation 496
 end
-arch desert
+arch beach
 x 25
 y 32
 elevation 265
 end
-arch deep_swamp
+arch beach
 x 25
 y 33
 elevation 7
@@ -6576,22 +6578,22 @@ x 26
 y 28
 elevation 664
 end
-arch desert
+arch beach
 x 26
 y 29
 elevation 584
 end
-arch desert
+arch beach
 x 26
 y 30
 elevation 563
 end
-arch desert
+arch beach
 x 26
 y 31
 elevation 428
 end
-arch desert
+arch beach
 x 26
 y 32
 elevation 17
@@ -6825,22 +6827,22 @@ x 27
 y 28
 elevation 360
 end
-arch desert
+arch beach
 x 27
 y 29
 elevation 759
 end
-arch desert
+arch beach
 x 27
 y 30
 elevation 678
 end
-arch desert
+arch beach
 x 27
 y 31
 elevation 208
 end
-arch desert
+arch beach
 x 27
 y 32
 elevation 11
@@ -7079,17 +7081,17 @@ x 28
 y 29
 elevation 825
 end
-arch desert
+arch beach
 x 28
 y 30
 elevation 668
 end
-arch desert
+arch beach
 x 28
 y 31
 elevation 425
 end
-arch desert
+arch beach
 x 28
 y 32
 elevation 134
@@ -7328,22 +7330,22 @@ x 29
 y 29
 elevation 793
 end
-arch desert
+arch beach
 x 29
 y 30
 elevation 358
 end
-arch desert
+arch beach
 x 29
 y 31
 elevation 391
 end
-arch desert
+arch beach
 x 29
 y 32
 elevation 293
 end
-arch grass
+arch beach
 x 29
 y 33
 elevation 99
@@ -7577,22 +7579,22 @@ x 30
 y 29
 elevation 589
 end
-arch grass
+arch beach
 x 30
 y 30
 elevation 129
 end
-arch grass
+arch beach
 x 30
 y 31
 elevation 174
 end
-arch grass
+arch beach
 x 30
 y 32
 elevation 238
 end
-arch desert
+arch beach
 x 30
 y 33
 elevation 164
@@ -7821,27 +7823,27 @@ x 31
 y 28
 elevation 977
 end
-arch desert
+arch beach
 x 31
 y 29
 elevation 587
 end
-arch desert
+arch beach
 x 31
 y 30
 elevation 334
 end
-arch desert
+arch beach
 x 31
 y 31
 elevation 68
 end
-arch grass
+arch beach
 x 31
 y 32
 elevation 129
 end
-arch grass
+arch beach
 x 31
 y 33
 elevation 12
@@ -8075,17 +8077,17 @@ x 32
 y 29
 elevation 582
 end
-arch grass
+arch beach
 x 32
 y 30
 elevation 369
 end
-arch desert
+arch beach
 x 32
 y 31
 elevation 71
 end
-arch grass
+arch beach
 x 32
 y 32
 elevation 139

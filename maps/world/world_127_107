@@ -2,6 +2,9 @@ arch map
 name world_127_107
 width 50
 height 50
+msg
+Modified: 2018-08-07 lori
+endmsg
 outdoor 1
 tile_path_1 world_127_106
 tile_path_2 world_128_107
@@ -1506,12 +1509,12 @@ x 6
 y 10
 elevation 16
 end
-arch shallow_sea
+arch swimming_fish
 x 6
 y 11
 elevation -9
 end
-arch shallow_sea
+arch swimming_fish
 x 6
 y 12
 elevation -7
@@ -1750,7 +1753,7 @@ x 7
 y 9
 elevation 25
 end
-arch shallow_sea
+arch swimming_fish
 x 7
 y 10
 elevation -3
@@ -1994,10 +1997,9 @@ x 8
 y 8
 elevation 13
 end
-arch shallow_sea
+arch swimming_fish
 x 8
 y 9
-elevation 0
 end
 arch shallow_sea
 x 8
@@ -2243,7 +2245,7 @@ x 9
 y 8
 elevation 40
 end
-arch shallow_sea
+arch swimming_fish
 x 9
 y 9
 elevation -9
@@ -2492,7 +2494,7 @@ x 10
 y 8
 elevation 171
 end
-arch shallow_sea
+arch swimming_fish
 x 10
 y 9
 elevation -2
@@ -2507,7 +2509,7 @@ x 10
 y 11
 elevation -10
 end
-arch shallow_sea
+arch swimming_fish
 x 10
 y 12
 elevation -7
@@ -2756,7 +2758,7 @@ x 11
 y 11
 elevation -10
 end
-arch shallow_sea
+arch swimming_fish
 x 11
 y 12
 elevation -7
@@ -2990,7 +2992,7 @@ x 12
 y 8
 elevation 79
 end
-arch shallow_sea
+arch swimming_fish
 x 12
 y 9
 elevation -10
@@ -3254,7 +3256,7 @@ x 13
 y 11
 elevation -8
 end
-arch shallow_sea
+arch swimming_fish
 x 13
 y 12
 elevation -4
@@ -3507,6 +3509,10 @@ arch shallow_sea
 x 14
 y 12
 elevation -7
+end
+arch swimming_fish
+x 14
+y 12
 end
 arch desert
 x 14
@@ -5645,27 +5651,27 @@ x 22
 y 41
 elevation 291
 end
-arch desert
+arch swimming_fish
 x 22
 y 42
 elevation 159
 end
-arch shallow_sea
+arch swimming_fish
 x 22
 y 43
 elevation -9
 end
-arch brush
+arch swimming_fish
 x 22
 y 44
 elevation 11
 end
-arch brush
+arch swimming_fish
 x 22
 y 45
 elevation 23
 end
-arch shallow_sea
+arch swimming_fish
 x 22
 y 46
 elevation -10
@@ -5889,7 +5895,7 @@ x 23
 y 40
 elevation 146
 end
-arch brush
+arch swimming_fish
 x 23
 y 41
 elevation 61
@@ -5919,12 +5925,12 @@ x 23
 y 46
 elevation -2
 end
-arch brush
+arch swimming_fish
 x 23
 y 47
 elevation 12
 end
-arch brush
+arch swimming_fish
 x 23
 y 48
 elevation 20
@@ -6138,7 +6144,7 @@ x 24
 y 40
 elevation 75
 end
-arch deep_swamp
+arch swimming_fish
 x 24
 y 41
 elevation 7
@@ -6173,7 +6179,7 @@ x 24
 y 47
 elevation -9
 end
-arch shallow_sea
+arch swimming_fish
 x 24
 y 48
 elevation -1
@@ -6387,7 +6393,7 @@ x 25
 y 40
 elevation 11
 end
-arch shallow_sea
+arch swimming_fish
 x 25
 y 41
 elevation -3
@@ -6422,10 +6428,9 @@ x 25
 y 47
 elevation -7
 end
-arch shallow_sea
+arch swimming_fish
 x 25
 y 48
-elevation 0
 end
 arch brush
 x 25
@@ -6636,12 +6641,11 @@ x 26
 y 40
 elevation 42
 end
-arch shallow_sea
+arch swimming_fish
 x 26
 y 41
-elevation 0
 end
-arch shallow_sea
+arch swimming_fish
 x 26
 y 42
 elevation -10
@@ -6671,7 +6675,7 @@ x 26
 y 47
 elevation -9
 end
-arch shallow_sea
+arch swimming_fish
 x 26
 y 48
 elevation -6
@@ -6890,7 +6894,7 @@ x 27
 y 41
 elevation 20
 end
-arch shallow_sea
+arch swimming_fish
 x 27
 y 42
 elevation -3
@@ -6915,12 +6919,12 @@ x 27
 y 46
 elevation -7
 end
-arch deep_swamp
+arch swimming_fish
 x 27
 y 47
 elevation 3
 end
-arch shallow_sea
+arch swimming_fish
 x 27
 y 48
 elevation -1
@@ -7139,12 +7143,11 @@ x 28
 y 41
 elevation 242
 end
-arch shallow_sea
+arch swimming_fish
 x 28
 y 42
-elevation 0
 end
-arch shallow_sea
+arch swimming_fish
 x 28
 y 43
 elevation -6
@@ -7159,12 +7162,11 @@ x 28
 y 45
 elevation -9
 end
-arch shallow_sea
+arch swimming_fish
 x 28
 y 46
-elevation 0
 end
-arch grass
+arch swimming_fish
 x 28
 y 47
 elevation 50
@@ -7393,22 +7395,22 @@ x 29
 y 42
 elevation 574
 end
-arch desert
+arch swimming_fish
 x 29
 y 43
 elevation 152
 end
-arch shallow_sea
+arch swimming_fish
 x 29
 y 44
 elevation -10
 end
-arch shallow_sea
+arch swimming_fish
 x 29
 y 45
 elevation -7
 end
-arch desert
+arch swimming_fish
 x 29
 y 46
 elevation 16
@@ -8140,12 +8142,12 @@ x 32
 y 42
 elevation 10
 end
-arch shallow_sea
+arch swimming_fish
 x 32
 y 43
 elevation -4
 end
-arch shallow_sea
+arch swimming_fish
 x 32
 y 44
 elevation -2
