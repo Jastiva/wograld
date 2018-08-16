@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-  ~ This file is part of JXClient, the Fullscreen Java Crossfire Client.
+  ~ This file is part of JXClient, the Fullscreen Java Wograld Client.
   ~
   ~ JXClient is free software; you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 
 <project name="jxclient" default="all" basedir=".">
     <description>
-        JXClient - full-screen client for Crossfire.
+        JXClient - full-screen client for Wograld.
     </description>
     <property file="developer.properties"/>
     <property name="src.jxclient" value="src/jxclient"/>
@@ -76,14 +76,14 @@
             <fileset dir="${build}/skins"/>
             <fileset dir="${build.properties.dir}" includes="build.properties"/>
             <manifest>
-                <attribute name="Main-Class" value="com.realtime.crossfire.jxclient.main.JXClient"/>
+                <attribute name="Main-Class" value="com.realtime.wograld.jxclient.main.JXClient"/>
                 <attribute name="SplashScreen-Image" value="resource/splashscreen.png"/>
             </manifest>
         </jar>
     </target>
     <target name="copy-skins">
         <delete dir="${build}/skins"/>
-        <copy todir="${build}/skins/com/realtime/crossfire/jxclient/skins">
+        <copy todir="${build}/skins/com/realtime/wograld/jxclient/skins">
             <fileset dir="skins" excludes="prelude/**"/>
         </copy>
     </target>
@@ -112,7 +112,7 @@
         </junit>
     </target>
     <target name="doc" description="Generates javadoc documentation; creates doc-html.">
-        <javadoc destdir="doc-html" packagenames="com.realtime.crossfire.*" failonerror="yes" access="private" version="no" use="yes" author="no" splitindex="no" windowtitle="Jikes" nodeprecated="yes" notree="no" noindex="no" nohelp="yes" nonavbar="yes">
+        <javadoc destdir="doc-html" packagenames="com.realtime.wograld.*" failonerror="yes" access="private" version="no" use="yes" author="no" splitindex="no" windowtitle="Jikes" nodeprecated="yes" notree="no" noindex="no" nohelp="yes" nonavbar="yes">
             <sourcepath>
                 <pathelement path="${src.jxclient}"/>
             </sourcepath>

@@ -176,7 +176,7 @@
 2010-09-09  Andreas Kirschbaum
 
 	* Load sound files from current directory or from
-	~/.crossfire/jxclient/sounds.
+	~/.wograld/jxclient/sounds.
 
 	* Include names of sound files in --debug-sound output.
 
@@ -403,7 +403,7 @@
 2010-02-24  Andreas Kirschbaum
 
 	* Do not anymore report "addItem: duplicate item xyz" errors as
-	the Crossfire server sometimes sends inconsistent item locations
+	the Wograld server sometimes sends inconsistent item locations
 	after pickup operations.
 
 	* Change colors of dialog titles. Fix layout of dialogs.
@@ -463,7 +463,7 @@
 
 2009-07-20  Andreas Kirschbaum
 
-	* Fix error "Cannot connect to crossfire server: invalid argument:
+	* Fix error "Cannot connect to wograld server: invalid argument:
 	sun.nio.ch.Net.setIntOption" on some platforms.
 
 2009-06-19  Andreas Kirschbaum
@@ -681,7 +681,7 @@
 	* Replace empty faces with arrows in "Click here to see
 	next/previous group of items" buttons.
 
-	* Remove arrow buttons from ground view. Requires a Crossfire
+	* Remove arrow buttons from ground view. Requires a Wograld
 	server supporting the "num_look_objects" setup option (r9810).
 	Older servers do work but ground view scrolling does not work.
 	Makes prelude skin's ground view functional.
@@ -769,7 +769,7 @@
 2008-06-15  Andreas Kirschbaum
 
 	* Implement resolution 1600x1600; this allows the maximum view
-	size current Crossfire servers support.
+	size current Wograld servers support.
 
 2008-06-13  Andreas Kirschbaum
 
@@ -982,7 +982,7 @@
 
 2008-01-16  Andreas Kirschbaum
 
-	* Show correct weapon speed when connecting to recent Crossfire
+	* Show correct weapon speed when connecting to recent Wograld
 	servers.
 
 2008-01-15  Andreas Kirschbaum
@@ -1083,7 +1083,7 @@
 
 	* Fix deadlock when using --server option.
 
-	* Do not fail if ~/.crossfire does not exist.
+	* Do not fail if ~/.wograld does not exist.
 
 	* Add --debug-protocol option to log protocol messages.
 
@@ -1223,7 +1223,7 @@
 
 	* Raise dialogs when clicked.
 
-	* Store settings and caches in ~/.crossfire/jxclient.
+	* Store settings and caches in ~/.wograld/jxclient.
 
 2007-12-04  Andreas Kirschbaum
 
@@ -1341,7 +1341,7 @@
 	"default". This means "java -jar jxclient.jar" works.
 	- Skins now are specified through config files. The skin name is
 	either a directory or a directory name under
-	com/realtime/crossfire/jxclient/skins/ which can be accessed
+	com/realtime/wograld/jxclient/skins/ which can be accessed
 	through the class loader.
 
 2007-06-22  Andreas Kirschbaum

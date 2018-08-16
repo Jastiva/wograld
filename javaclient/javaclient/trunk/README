@@ -54,8 +54,8 @@ Adding new music:
 
 3) In the javaclient, if you add a music track that was not there before,
    go to the folder 
-   trunk/src/jxclient/com/realtime/crossfire/jxclient/server/crossfire/
-   and backup the file DefaultCrossfireServerConnection.java
+   trunk/src/jxclient/com/realtime/wograld/jxclient/server/wograld/
+   and backup the file DefaultWograldServerConnection.java
    Then open the original file, and go to the method "processMusic()".
    Find the statements "if track==1".
    Then add a new case with the new track name.

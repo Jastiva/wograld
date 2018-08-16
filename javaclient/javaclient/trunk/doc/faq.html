@@ -1,5 +1,5 @@
 <!--
-  ~ This file is part of JXClient, the Fullscreen Java Crossfire Client.
+  ~ This file is part of JXClient, the Fullscreen Java Wograld Client.
   ~
   ~ JXClient is free software; you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -33,7 +33,7 @@
 
 <h3>What is JXClient?</h3>
 
-<p>JXClient is a Crossfire client supporting full-screen mode.</p>
+<p>JXClient is a Wograld client supporting full-screen mode.</p>
 
 <h3>Does JXClient run on my system?</h3>
 
@@ -52,21 +52,21 @@
 
 <p>Yes: JXClient and jcrossclient are different applications.
     <a href="http://sourceforge.net/projects/jcrossclient/">jcrossclient's</a>
-    intention was to run as an applet to play Crossfire through a web browser.
-    JXClient is a stand-alone full-screen application to play Crossfire.</p>
+    intention was to run as an applet to play Wograld through a web browser.
+    JXClient is a stand-alone full-screen application to play Wograld.</p>
 
 <h3>Where do I get JXClient from?</h3>
 
 <p>Daily updated pre-built versions are available from
     <a href="http://invidious.meflin.net/jxclient.jar">http://invidious.meflin.net/jxclient.jar</a>
-    and <a href="http://crossfire.ailesse.com/#header_jxclient">http://crossfire.ailesse.com/</a>.
+    and <a href="http://wograld.ailesse.com/#header_jxclient">http://wograld.ailesse.com/</a>.
     These versions include the
-    <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/ChangeLog">latest
+    <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/ChangeLog">latest
         features</a> and therefore can be unstable.</p>
 
 <p>The source code is available from</p>
 <pre>
-    svn co https://crossfire.svn.sourceforge.net/svnroot/crossfire/jxclient/trunk jxclient
+    svn co https://wograld.svn.sourceforge.net/svnroot/wograld/jxclient/trunk jxclient
 </pre>
 
 <h2>JXClient fails to start</h2>
@@ -79,7 +79,7 @@
     java -jar jxclient.jar
 </pre>
 
-<h3>JXClient always reports "Cannot connect to Crossfire server. Network is
+<h3>JXClient always reports "Cannot connect to Wograld server. Network is
     unreachable"</h3>
 
 <p>This might be a problem with Debian based systems. See the bug report
@@ -104,14 +104,14 @@
 <h3>What does "java.lang.OutOfMemoryError: Java heap space" mean?</h3>
 
 <pre>
-    JXClient - Crossfire Java Client
+    JXClient - Wograld Java Client
     (C)2005 by Lauwenmark.
     This software is placed under the GPL License
     java.lang.reflect.InvocationTargetException
            at java.awt.EventQueue.invokeAndWait(EventQueue.java:997)
            at javax.swing.SwingUtilities.invokeAndWait(SwingUtilities.java:1323)
-           at com.realtime.crossfire.jxclient.main.JXClient.&lt;init&gt;(JXClient.java:102)
-           at com.realtime.crossfire.jxclient.main.JXClient.main(JXClient.java:65)
+           at com.realtime.wograld.jxclient.main.JXClient.&lt;init&gt;(JXClient.java:102)
+           at com.realtime.wograld.jxclient.main.JXClient.main(JXClient.java:65)
     Caused by: java.lang.OutOfMemoryError: Java heap space
            at java.awt.image.DataBufferInt.&lt;init&gt;(DataBufferInt.java:41)
            at java.awt.image.Raster.createPackedRaster(Raster.java:458)
@@ -129,15 +129,15 @@
            at sun.java2d.SunGraphics2D.copyImage(SunGraphics2D.java:2909)
            at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:2940)
            at sun.java2d.SunGraphics2D.drawImage(SunGraphics2D.java:2895)
-           at com.realtime.crossfire.jxclient.gui.GUIPicture.&lt;init&gt;(GUIPicture.java:67)
-           at com.realtime.crossfire.jxclient.skin.DialogFactory.newDialog(DialogFactory.java:205)
-           at com.realtime.crossfire.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:908)
-           at com.realtime.crossfire.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:577)
-           at com.realtime.crossfire.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:391)
-           at com.realtime.crossfire.jxclient.window.JXCWindow.loadSkin(JXCWindow.java:1308)
-           at com.realtime.crossfire.jxclient.window.JXCWindow.setSkin(JXCWindow.java:1270)
-           at com.realtime.crossfire.jxclient.window.JXCWindow.init(JXCWindow.java:797)
-           at com.realtime.crossfire.jxclient.main.JXClient$1.run(JXClient.java:107)
+           at com.realtime.wograld.jxclient.gui.GUIPicture.&lt;init&gt;(GUIPicture.java:67)
+           at com.realtime.wograld.jxclient.skin.DialogFactory.newDialog(DialogFactory.java:205)
+           at com.realtime.wograld.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:908)
+           at com.realtime.wograld.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:577)
+           at com.realtime.wograld.jxclient.skin.JXCSkinLoader.load(JXCSkinLoader.java:391)
+           at com.realtime.wograld.jxclient.window.JXCWindow.loadSkin(JXCWindow.java:1308)
+           at com.realtime.wograld.jxclient.window.JXCWindow.setSkin(JXCWindow.java:1270)
+           at com.realtime.wograld.jxclient.window.JXCWindow.init(JXCWindow.java:797)
+           at com.realtime.wograld.jxclient.main.JXClient$1.run(JXClient.java:107)
            at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:199)
            at java.awt.EventQueue.dispatchEvent(EventQueue.java:597)
            at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:273)
@@ -178,7 +178,7 @@
 <h3>Why doesn't JXClient enter full-screen mode?</h3>
 
 <p>X.org users might need to patch the Java runtime. See
-    <a href="http://crossfire.ailesse.com/#header_jxclient">The Java Client
+    <a href="http://wograld.ailesse.com/#header_jxclient">The Java Client
         (JXClient) on Ailesse</a> for details.</p>
 
 <h2>Key Bindings</h2>
@@ -197,11 +197,11 @@
 
 <h3>Where are the key bindings stored?</h3>
 
-<p>Normal key bindings are stored in <code>$HOME/.crossfire/jxclient/keybindings.txt</code>.
+<p>Normal key bindings are stored in <code>$HOME/.wograld/jxclient/keybindings.txt</code>.
 </p>
 
-<p>Per-character key bindings are stored in <code>$HOME/.crossfire/jxclient-HOST-CHAR.txt</code>.
-    <code>HOST</code> is the Crossfire server's name, <code>CHAR</code> is the
+<p>Per-character key bindings are stored in <code>$HOME/.wograld/jxclient-HOST-CHAR.txt</code>.
+    <code>HOST</code> is the Wograld server's name, <code>CHAR</code> is the
     character's name.</p>
 
 </body>

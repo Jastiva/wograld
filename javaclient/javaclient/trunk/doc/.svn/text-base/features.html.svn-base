@@ -1,5 +1,5 @@
 <!--
-  ~ This file is part of JXClient, the Fullscreen Java Crossfire Client.
+  ~ This file is part of JXClient, the Fullscreen Java Wograld Client.
   ~
   ~ JXClient is free software; you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -94,7 +94,7 @@
                 may be be fatal for characters
             </li>
             <li>asynchronously requests missing images from server: at most 8
-                images are requested concurrently from the Crossfire server.
+                images are requested concurrently from the Wograld server.
                 This prevents the socket from being flooded with &quot;askface&quot;
                 messages ensuring that &quot;real&quot; command messages (such
                 as character movement or map view updates) are transmitted
@@ -125,7 +125,7 @@
 
 <ul>
     <li>supports
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/server/trunk/doc/mediaTags">media
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/server/trunk/doc/mediaTags">media
             tags</a> [colors, fonts, formatting]
     </li>
     <li>separate tabs for All/Important/Chat</li>
@@ -198,7 +198,7 @@
 
 <ul>
     <li>skin definition files: the GUI is defined by
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html">skin
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html">skin
             definition files</a></li>
     <li>fallback to default skin if preferred skin cannot be loaded</li>
     <li>skin definitions are built-in files or loaded from directories</li>
@@ -255,7 +255,7 @@
         <ul>
             <li>built-in (embedded into .jar file)</li>
             <li>file in current directory</li>
-            <li>file in <code>$HOME/.crossfire/jxclient/sounds</code></li>
+            <li>file in <code>$HOME/.wograld/jxclient/sounds</code></li>
         </ul>
     </li>
     <li>supports multiple concurrent sounds</li>
@@ -282,10 +282,10 @@
     <li>scripting interface mostly compatible with classic clients:
         <ul>
             <li>implements GTK-v2's
-                <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/client/trunk/Documentation/Scripting.html">Client
+                <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/client/trunk/Documentation/Scripting.html">Client
                     Scripting Interface - Basic howto</a></li>
             <li>provides additional information:
-                <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/scripting.txt">Differences
+                <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/scripting.txt">Differences
                     between JXClient's implementation and GTK-v2's</a></li>
         </ul>
     </li>
@@ -301,18 +301,18 @@
     <li>crashes usually print stack traces to console; these may help locating
         the problem
     </li>
-    <li>unexpected messages received from the Crossfire server are reported;
+    <li>unexpected messages received from the Wograld server are reported;
         this includes unexpected message types and known message types received
         in unexpected connection states
     </li>
-    <li>received messages from the Crossfire server are diligently parsed;
+    <li>received messages from the Wograld server are diligently parsed;
         unexpected contents are reported
     </li>
     <li><code>--debug-protocol</code> command-line option logs protocol messages
         and connection related information in human readable format
     </li>
     <li><code>--debug-gui</code> command-line option helps
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html#debug">debugging
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html#debug">debugging
             skins</a></li>
     <li><code>--debug-keyboard</code> command-line option logs information about
         key binding processing
@@ -321,7 +321,7 @@
         sound processing
     </li>
     <li><code>/debug_messages</code> command helps
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html#debug">debugging
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html#debug">debugging
             skins</a></li>
 </ul>
 
@@ -341,12 +341,12 @@
     <li><code>/scriptkillall</code> command: kills all scripts</li>
     <li><code>/scripttell</code> command: talks to running script</li>
     <li><code>/exec &lt;name&gt;</code> command: executes the
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html#commandlist">command
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html#commandlist">command
             list &lt;name&gt; defined by the skin</a>.
     </li>
     <li><code>/set &lt;option&gt; &lt;value&gt;</code>: sets an option's &lt;value&gt;
         to &quot;on&quot; or &quot;off&quot;.
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html#options">Options
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html#options">Options
             are defined by the skin</a>.
     </li>
     <li><code>/clear</code>: clears the message log</li>
@@ -359,7 +359,7 @@
 
 <ul>
     <li>commands bound to keys using <code>/bind</code> support
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/jxclient/trunk/doc/skin.html#macros">macros</a>
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/jxclient/trunk/doc/skin.html#macros">macros</a>
     </li>
 </ul>
 

@@ -10,7 +10,7 @@
             <classpath refid="cp"/>
         </nbjpdastart>
         <!-- TODO configure the main class for your project here: -->
-        <java classname="com.realtime.crossfire.jxclient.main.jxclient" fork="true">
+        <java classname="com.realtime.wograld.jxclient.main.jxclient" fork="true">
             <classpath refid="cp"/>
             <jvmarg value="-Xdebug"/>
             <jvmarg value="-Xrunjdwp:transport=dt_socket,address=${jpda.address}"/>

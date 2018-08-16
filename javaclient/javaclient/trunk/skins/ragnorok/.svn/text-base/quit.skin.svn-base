@@ -1,9 +1,9 @@
-dialog WIDTH/2 HEIGHT/2 false Exit Crossfire?
+dialog WIDTH/2 HEIGHT/2 false Exit Wograld?
 set_modal
 
 label_multi message font_label BLACK <<EOF
 Do you really want to exit
-from Crossfire?
+from Wograld?
 EOF
 textbutton disconnect false command_quit        Exit
 textbutton resume     false command_resume_quit Resume

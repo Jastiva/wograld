@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ This file is part of JXClient, the Fullscreen Java Crossfire Client.
+  ~ This file is part of JXClient, the Fullscreen Java Wograld Client.
   ~
   ~ JXClient is free software; you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -20,11 +20,11 @@
   ~ Copyright (C) 2006-2011 Andreas Kirschbaum.
   -->
 
-<jnlp spec="1.0" codebase="http://invidious.meflin.net/crossfire/" href="jxclient.jnlp">
+<jnlp spec="1.0" codebase="http://invidious.meflin.net/wograld/" href="jxclient.jnlp">
     <information>
-        <title>JXClient - The Crossfire Java Client</title>
+        <title>JXClient - The Wograld Java Client</title>
         <vendor>Lauwenmark K. Akkendrittae</vendor>
-        <description>A Java Fullscreen Client for Crossfire RPG</description>
+        <description>A Java Fullscreen Client for Wograld RPG</description>
         <offline-allowed/>
     </information>
     <security>
@@ -34,6 +34,6 @@
         <j2se version="1.6+"/>
         <jar href="jxclient.jar"/>
     </resources>
-    <application-desc main-class="com.realtime.crossfire.jxclient.main.JXClient">
+    <application-desc main-class="com.realtime.wograld.jxclient.main.JXClient">
     </application-desc>
 </jnlp>

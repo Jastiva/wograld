@@ -1,5 +1,5 @@
 <!--
-  ~ This file is part of JXClient, the Fullscreen Java Crossfire Client.
+  ~ This file is part of JXClient, the Fullscreen Java Wograld Client.
   ~
   ~ JXClient is free software; you can redistribute it and/or modify
   ~ it under the terms of the GNU General Public License as published by
@@ -71,7 +71,7 @@
                 sub-directory.
             </li>
             <li>pictures: all displayed images (that is not retrieved from a
-                Crossfire server) use these pictures. Pictures are encoded using
+                Wograld server) use these pictures. Pictures are encoded using
                 the <code>.png</code> file format and are stored in the <code>pictures</code>
                 sub-directory. GUI elements using <code>&lt;picture&gt;</code>
                 access the file <code>pictures/&lt;picture&gt;.png</code>.
@@ -90,17 +90,17 @@
         &quot;create a new character&quot; and &quot;continue playing&quot;.
     </li>
     <li><code>meta.skin</code>: the server selection screen. It is shown while
-        not connected to a Crossfire server. This screen allows to select a
-        Crossfire server to play on, or to quit the client.
+        not connected to a Wograld server. This screen allows to select a
+        Wograld server to play on, or to quit the client.
     </li>
     <li><code>main.skin</code>: this screen is shown while connected to a
-        Crossfire server. It displays the map view and optionally other
+        Wograld server. It displays the map view and optionally other
         information.
     </li>
     <li><code>connect.skin</code>: a status dialog shown while connecting to a
-        Crossfire server or after an unexpected disconnect from the Server.
+        Wograld server or after an unexpected disconnect from the Server.
     </li>
-    <li><code>query.skin</code>: a dialog for processing Crossfire &quot;query&quot;
+    <li><code>query.skin</code>: a dialog for processing Wograld &quot;query&quot;
         messages. Examples include: login, change party password, the "play
         again?" prompt after entering a bed of reality.
     </li>
@@ -109,12 +109,12 @@
     </li>
     <li><code>keybind.skin</code>: the key binding and unbinding dialogs.</li>
     <li><code>quit.skin</code>: a dialog shown when the client is about to exit.
-        It is opened if the user presses ESC while not connected to a Crossfire
+        It is opened if the user presses ESC while not connected to a Wograld
         server or tries to close the main window.
     </li>
     <li><code>disconnect.skin</code>: a dialog shown when the client is about to
-        disconnect from a Crossfire server. It is opened if the user presses ESC
-        while connected to a Crossfire server.
+        disconnect from a Wograld server. It is opened if the user presses ESC
+        while connected to a Wograld server.
     </li>
     <li><code>account_main.skin</code>: a dialog shown when the client connected
         to a server handling the new login method. It should let the user login
@@ -156,7 +156,7 @@
     fixed names:</p>
 <ul>
     <li><code>messages.skin</code> is opened when creating a new character in
-        order to display the messages sent by the Crossfire server.
+        order to display the messages sent by the Wograld server.
     </li>
     <li><code>quit.skin</code> is opened if the user presses ESC in unconnected
         state.
@@ -171,7 +171,7 @@
         <code>BOOK</code> object.
     </li>
     <li><code>query.skin</code> is opened whenever a &quot;query&quot; message
-        is received from the Crossfire server.
+        is received from the Wograld server.
     </li>
     <li><code>new_char.skin</code> is opened (and <code>messages.skin</code> and
         <code>status.skin</code> are closed) when a new character is created. If
@@ -201,7 +201,7 @@
 <p>Some GUI elements are accessed by client code. These elements must have fixed
     names or fixed positions:</p>
 <ul>
-    <li>Input field for Crossfire commands: this GUI element must be named
+    <li>Input field for Wograld commands: this GUI element must be named
         &quot;command&quot;. Search order is: screen, visible dialogs, invisible
         dialogs. If no element is found, <code>/bind -e</code> will do nothing.
     </li>
@@ -248,7 +248,7 @@
 <h4><a name="command_lists">Command Lists</a></h4>
 
 <p>A command list is a list of one or more commands. Commands are skin-internal
-    commands, not commands sent to a Crossfire server. Section
+    commands, not commands sent to a Wograld server. Section
     <a href="#command_types">command types</a> defines possible commands.</p>
 
 <h2>Commands</h2>
@@ -392,8 +392,8 @@
 
 <p>Defines a text input field. <code>text</code> executes a fixed command-list,
     <code>command_text</code> sends the entered text as an &quot;ncom&quot;
-    command to the Crossfire server, <code>query_text</code> sends the entered
-    text as a &quot;reply&quot; response to the Crossfire server.</p>
+    command to the Wograld server, <code>query_text</code> sends the entered
+    text as a &quot;reply&quot; response to the Wograld server.</p>
 
 <ul>
     <li>&lt;name&gt; is the name of the text field.</li>
@@ -599,7 +599,7 @@
             </li>
             <li><code>META</code>: the server selection screen.</li>
             <li><code>LOGIN</code>: active while a login is in progress. Starts
-                when a Crossfire server is to be connected and ends after a
+                when a Wograld server is to be connected and ends after a
                 character has been logged in or <code>NEW_CHAR</code> becomes
                 active.
             </li>
@@ -610,7 +610,7 @@
                 adding or creating characters. Ends when the user asks to play a
                 character.
             </li>
-            <li><code>PLAYING</code>: active while connected to a Crossfire
+            <li><code>PLAYING</code>: active while connected to a Wograld
                 server and a character is logged in. Stays active during the
                 &quot;Do you want to play again?&quot; dialog after applying a
                 bed to reality.
@@ -724,7 +724,7 @@
     <li><code>init</code> is delivered after the client starts. It is not
         delivered more than once.
     </li>
-    <li>Afterwards the client may connect to a Crossfire server. At that time
+    <li>Afterwards the client may connect to a Wograld server. At that time
         <code>connect</code> is delivered once.
     </li>
     <li>After the connection did break, <code>disconnect</code> is delivered
@@ -732,7 +732,7 @@
         And it is delivered before any other <code>connect</code> event is
         delivered.
     </li>
-    <li>While the Crossfire connection is active, any number (including none) of
+    <li>While the Wograld connection is active, any number (including none) of
         <code>login</code> and <code>logout</code> events may be generated. The
         <code>logout</code> event is generated if (and only if) a
         <code>login</code> event has been generated before. Also, if the
@@ -742,14 +742,14 @@
     </li>
 </ul>
 
-<h4>event connect: connection to Crossfire server</h4>
+<h4>event connect: connection to Wograld server</h4>
 
 <p>syntax:</p>
 <pre>
     event connect &lt;command-list&gt;
 </pre>
 
-<p>Executes &lt;command-list&gt; after a connection to a Crossfire server has
+<p>Executes &lt;command-list&gt; after a connection to a Wograld server has
     been established.</p>
 
 <h4>event init: one-time initialization</h4>
@@ -769,7 +769,7 @@
 </pre>
 
 <p>Executes &lt;command-list&gt; after a <code>magicmap</code> message has been
-    received from the Crossfire server.</p>
+    received from the Wograld server.</p>
 
 <h4>event mapscroll: map view has scrolled</h4>
 
@@ -1038,7 +1038,7 @@ Otherwise a GUI element is expected, optionally followed by it's size.
     <li>User-defined global key bindings defined with <code>/bind</code>.</li>
     <li>Global (per-skin) default key bindings.</li>
     <li>For number keys (<code>0</code>...<code>9</code>) the prefix count for
-        Crossfire commands is updated.
+        Wograld commands is updated.
     </li>
     <li>Keys not yet matched are silently discarded.</li>
 </ul>
@@ -1223,8 +1223,8 @@ Otherwise a GUI element is expected, optionally followed by it's size.
     </li>
     <li>&lt;index&gt; the color index to update. Must be between 0 and 12. The
         number correspond to the constants <code>NDI_xyz</code> defined in
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/server/trunk/include/shared/newclient.h">the
-            Crossfire server</a>.
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/server/trunk/include/shared/newclient.h">the
+            Wograld server</a>.
     </li>
     <li>&lt;color&gt; the color specification.</li>
 </ul>
@@ -1256,8 +1256,8 @@ Otherwise a GUI element is expected, optionally followed by it's size.
         <code>SPELL</code>, <code>ITEM</code>, <code>MISC</code>,
         <code>VICTIM</code>, <code>QUERY</code>. These constants correspond to
         the constants <code>MSG_TYPE_xyz</code> defined in
-        <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/server/trunk/include/shared/newclient.h">the
-            Crossfire server</a>.
+        <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/server/trunk/include/shared/newclient.h">the
+            Wograld server</a>.
     </li>
 </ul>
 
@@ -1301,7 +1301,7 @@ Otherwise a GUI element is expected, optionally followed by it's size.
     </li>
 </ul>
 
-<h3><a name="meta_list">meta_list: display Crossfire server list</a></h3>
+<h3><a name="meta_list">meta_list: display Wograld server list</a></h3>
 
 <p>syntax:</p>
 <pre>
@@ -1310,7 +1310,7 @@ Otherwise a GUI element is expected, optionally followed by it's size.
 
 <p>precondition: dialog</p>
 
-<p>Defines a GUI element that displays available Crossfire servers.</p>
+<p>Defines a GUI element that displays available Wograld servers.</p>
 
 <ul>
     <li>&lt;name&gt; is the name of the list.</li>
@@ -1318,7 +1318,7 @@ Otherwise a GUI element is expected, optionally followed by it's size.
         location is relative to the dialog.
     </li>
     <li>&lt;cell-width&gt; &lt;cell-height&gt; is the size of each cell
-        displaying a Crossfire server.
+        displaying a Wograld server.
     </li>
     <li>&lt;picture&gt; is a picture to display in front of the server
         description. May be <code>null</code> if no picture should be shown.
@@ -1329,7 +1329,7 @@ Otherwise a GUI element is expected, optionally followed by it's size.
         update a text element.
     </li>
     <li>&lt;connect&gt; is a command list to execute on double-click. It should
-        connect to the Crossfire server.
+        connect to the Wograld server.
     </li>
     <li>&lt;label&gt; is a label element that displays the description of the
         current list selection. May be <code>null</code> to not update a label
@@ -1589,7 +1589,7 @@ See &lt;horizontal&gt;.
 
 <h3><a name="macros">Macros</a></h3>
 
-<p>Macros are placeholders within commands sent to the Crossfire server. The
+<p>Macros are placeholders within commands sent to the Wograld server. The
     macros are replaced when the command is sent to the server.</p>
 
 <p>Macros are supported in key bindings (<code>/bind</code> command) and within
@@ -1623,11 +1623,11 @@ See &lt;horizontal&gt;.
     </li>
     <li><code>PRINT</code>: does nothing (as it is not implemented).</li>
     <li><code>QUIT</code>: Shows the quit dialog to terminate the client.</li>
-    <li><code>CONNECT</code>: connects to a Crossfire server. &lt;element&gt;
+    <li><code>CONNECT</code>: connects to a Wograld server. &lt;element&gt;
         must reference an input field which specifies the hostname of the server
         to connect to. If used in connected state, disconnects first.
     </li>
-    <li><code>DISCONNECT</code>: disconnects from the Crossfire server. Does
+    <li><code>DISCONNECT</code>: disconnects from the Wograld server. Does
         nothing if not connected.
     </li>
     <li><code>GUI_META</code>: shows the server selection screen. Disconnects if
@@ -1656,7 +1656,7 @@ See &lt;horizontal&gt;.
         dialog.
     </li>
     <li><a name="command_gui_execute_command"><code>GUI_EXECUTE_COMMAND &lt;command...&gt;</code></a>:
-        sends a command to the Crossfire server. <a href="#macros">Macros</a>
+        sends a command to the Wograld server. <a href="#macros">Macros</a>
         are supported.
     </li>
     <li><code>EXEC_SELECTION &lt;command&gt;</code>: &lt;element&gt; must refer
@@ -1811,8 +1811,8 @@ See &lt;horizontal&gt;.
 </ul>
 <p>Most constants correspond to the constants <code>CS_STAT_xyz</code> defined
     in
-    <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/server/trunk/include/shared/newclient.h">the
-        Crossfire server</a>.</p>
+    <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/server/trunk/include/shared/newclient.h">the
+        Wograld server</a>.</p>
 
 <h3><a name="options">Options</a></h3>
 
@@ -1825,7 +1825,7 @@ See &lt;horizontal&gt;.
     <li><code>sound_enabled</code>: enables sound effects and background music.
     </li>
     <li><code>pickup_*</code>: enables options of the <code>/pickup</code>
-        Crossfire command; the setting is persistent per character.
+        Wograld command; the setting is persistent per character.
         <ul>
             <li><code>pickup_food</code></li>
             <li><code>pickup_drink</code></li>
@@ -1857,8 +1857,8 @@ See &lt;horizontal&gt;.
     </li>
 </ul>
 <p>These constants correspond to the constants <code>PU_xyz</code> defined in
-    <a href="http://crossfire.svn.sourceforge.net/viewvc/crossfire/server/trunk/include/define.h">the
-        Crossfire server</a>.</p>
+    <a href="http://wograld.svn.sourceforge.net/viewvc/wograld/server/trunk/include/define.h">the
+        Wograld server</a>.</p>
 
 <h3>Colors</h3>
 
@@ -1884,7 +1884,7 @@ See &lt;horizontal&gt;.
 <p>To create a new skin called &quot;rawhide&quot;, copy the default skin into
     the directory <code>rawhide</code>:</p>
 <pre>
-    svn export https://crossfire.svn.sourceforge.net/svnroot/crossfire/jxclient/trunk/skins/ragnorok rawhide
+    svn export https://wograld.svn.sourceforge.net/svnroot/wograld/jxclient/trunk/skins/ragnorok rawhide
 </pre>
 
 <p>Modify the files <code>rawhide/*</code>. At least change</p>
