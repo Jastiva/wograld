@@ -8,6 +8,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2005-02-26
+Modified: 2018-08-16 lori
 endmsg
 outdoor 1
 tile_path_1 world_126_123
@@ -15,46 +16,46 @@ tile_path_2 world_127_124
 tile_path_3 world_126_125
 tile_path_4 world_125_124
 end
-arch sea
+arch cyanbrush
 elevation -390
 end
-arch sea
+arch cyanbrush
 y 1
 elevation -425
 end
-arch sea
+arch cyanbrush
 y 2
 elevation -439
 end
-arch sea
+arch cyanbrush
 y 3
 elevation -435
 end
-arch sea
+arch cyanbrush
 y 4
 elevation -416
 end
-arch sea
+arch cyanbrush
 y 5
 elevation -383
 end
-arch sea
+arch cyanbrush
 y 6
 elevation -339
 end
-arch sea
+arch cyanbrush
 y 7
 elevation -283
 end
-arch sea
+arch cyanbrush
 y 8
 elevation -215
 end
-arch sea
+arch cyanbrush
 y 9
 elevation -132
 end
-arch shallow_sea
+arch cyanbrush
 y 10
 elevation -6
 end
@@ -86,7 +87,7 @@ arch woods
 y 17
 elevation 1701
 end
-arch woods
+arch swamp
 y 18
 elevation 1779
 end
@@ -94,7 +95,7 @@ arch woods
 y 19
 elevation 1363
 end
-arch jungle_1
+arch swamp
 y 20
 elevation 1135
 end
@@ -102,7 +103,7 @@ arch woods
 y 21
 elevation 1151
 end
-arch jungle_1
+arch swamp
 y 22
 elevation 1623
 end
@@ -110,160 +111,160 @@ arch jungle_1
 y 23
 elevation 1228
 end
-arch desert
+arch swamp
 y 24
 elevation 81
 end
-arch sea
+arch grassdark
 y 25
 elevation -349
 end
-arch sea
+arch bosgrass2
 y 26
 elevation -891
 end
-arch sea
+arch bosgrass2
 y 27
 elevation -1398
 end
-arch sea
+arch grassdark
 y 28
 elevation -1873
 end
-arch sea
+arch grassdark
 y 29
 elevation -2308
 end
-arch sea
+arch bosgrass
 y 30
 elevation -2698
 end
-arch sea
+arch grassdark
 y 31
 elevation -3041
 end
-arch sea
+arch grassdark
 y 32
 elevation -3334
 end
-arch sea
+arch grassdark
 y 33
 elevation -3578
 end
-arch sea
+arch grassdark
 y 34
 elevation -3770
 end
-arch sea
+arch grassdark
 y 35
 elevation -3910
 end
-arch sea
+arch grassdark
 y 36
 elevation -3997
 end
-arch sea
+arch grassdark
 y 37
 elevation -4033
 end
-arch sea
+arch grassdark
 y 38
 elevation -4018
 end
-arch sea
+arch grassdark
 y 39
 elevation -3953
 end
-arch sea
+arch grassdark
 y 40
 elevation -3841
 end
-arch sea
+arch grassdark
 y 41
 elevation -3684
 end
-arch sea
+arch grassdark
 y 42
 elevation -3486
 end
-arch sea
+arch grassdark
 y 43
 elevation -3253
 end
-arch sea
+arch grassdark
 y 44
 elevation -2990
 end
-arch sea
+arch grassdark
 y 45
 elevation -2703
 end
-arch sea
+arch grassdark
 y 46
 elevation -2400
 end
-arch sea
+arch grassdark
 y 47
 elevation -2089
 end
-arch sea
+arch grassdark
 y 48
 elevation -1776
 end
-arch sea
+arch grassdark
 y 49
 elevation -1467
 end
-arch sea
+arch cyanbrush
 x 1
 elevation -287
 end
-arch sea
+arch cyanbrush
 x 1
 y 1
 elevation -329
 end
-arch sea
+arch cyanbrush
 x 1
 y 2
 elevation -350
 end
-arch sea
+arch cyanbrush
 x 1
 y 3
 elevation -352
 end
-arch sea
+arch cyanbrush
 x 1
 y 4
 elevation -339
 end
-arch sea
+arch cyanbrush
 x 1
 y 5
 elevation -312
 end
-arch sea
+arch cyanbrush
 x 1
 y 6
 elevation -273
 end
-arch sea
+arch cyanbrush
 x 1
 y 7
 elevation -223
 end
-arch sea
+arch cyanbrush
 x 1
 y 8
 elevation -161
 end
-arch shallow_sea
+arch cyanbrush
 x 1
 y 9
 elevation -87
 end
-arch shallow_sea
+arch cyanbrush
 x 1
 y 10
 elevation -5
@@ -303,22 +304,22 @@ x 1
 y 17
 elevation 1423
 end
-arch jungle_1
+arch swamp
 x 1
 y 18
 elevation 1406
 end
-arch desert
+arch swamp
 x 1
 y 19
 elevation 992
 end
-arch desert
+arch swamp
 x 1
 y 20
 elevation 772
 end
-arch jungle_1
+arch swamp
 x 1
 y 21
 elevation 1396
@@ -333,186 +334,186 @@ x 1
 y 23
 elevation 1451
 end
-arch desert
+arch swamp
 x 1
 y 24
 elevation 568
 end
-arch sea
+arch grassdark
 x 1
 y 25
 elevation -118
 end
-arch sea
+arch bosgrass2
 x 1
 y 26
 elevation -656
 end
-arch sea
+arch bosgrass2
 x 1
 y 27
 elevation -1190
 end
-arch sea
+arch bosgrass
 x 1
 y 28
 elevation -1692
 end
-arch sea
+arch bosgrass
 x 1
 y 29
 elevation -2149
 end
-arch sea
+arch bosgrass
 x 1
 y 30
 elevation -2558
 end
-arch sea
+arch bosgrass
 x 1
 y 31
 elevation -2919
 end
-arch sea
+arch bosgrass2
 x 1
 y 32
 elevation -3231
 end
-arch sea
+arch grassdark
 x 1
 y 33
 elevation -3493
 end
-arch sea
+arch grassdark
 x 1
 y 34
 elevation -3704
 end
-arch sea
+arch grassdark
 x 1
 y 35
 elevation -3862
 end
-arch sea
+arch grassdark
 x 1
 y 36
 elevation -3967
 end
-arch sea
+arch grassdark
 x 1
 y 37
 elevation -4020
 end
-arch sea
+arch grassdark
 x 1
 y 38
 elevation -4022
 end
-arch sea
+arch grassdark
 x 1
 y 39
 elevation -3973
 end
-arch sea
+arch grassdark
 x 1
 y 40
 elevation -3876
 end
-arch sea
+arch grassdark
 x 1
 y 41
 elevation -3733
 end
-arch sea
+arch grassdark
 x 1
 y 42
 elevation -3548
 end
-arch sea
+arch grassdark
 x 1
 y 43
 elevation -3327
 end
-arch sea
+arch grassdark
 x 1
 y 44
 elevation -3073
 end
-arch sea
+arch grassdark
 x 1
 y 45
 elevation -2792
 end
-arch sea
+arch grassdark
 x 1
 y 46
 elevation -2491
 end
-arch sea
+arch grassdark
 x 1
 y 47
 elevation -2177
 end
-arch sea
+arch grassdark
 x 1
 y 48
 elevation -1856
 end
-arch sea
+arch grassdark
 x 1
 y 49
 elevation -1534
 end
-arch sea
+arch cyanbrush
 x 2
 elevation -190
 end
-arch sea
+arch cyanbrush
 x 2
 y 1
 elevation -237
 end
-arch sea
+arch cyanbrush
 x 2
 y 2
 elevation -261
 end
-arch sea
+arch cyanbrush
 x 2
 y 3
 elevation -266
 end
-arch sea
+arch cyanbrush
 x 2
 y 4
 elevation -257
 end
-arch sea
+arch cyanbrush
 x 2
 y 5
 elevation -236
 end
-arch sea
+arch cyanbrush
 x 2
 y 6
 elevation -205
 end
-arch sea
+arch cyanbrush
 x 2
 y 7
 elevation -163
 end
-arch sea
+arch cyanbrush
 x 2
 y 8
 elevation -111
 end
-arch shallow_sea
+arch cyanbrush
 x 2
 y 9
 elevation -51
 end
-arch shallow_sea
+arch cyanbrush
 x 2
 y 10
 end
@@ -551,22 +552,22 @@ x 2
 y 17
 elevation 1561
 end
-arch desert
+arch swamp
 x 2
 y 18
 elevation 867
 end
-arch desert
+arch swamp
 x 2
 y 19
 elevation 289
 end
-arch desert
+arch swamp
 x 2
 y 20
 elevation 218
 end
-arch hills
+arch swamp
 x 2
 y 21
 elevation 1105
@@ -576,186 +577,186 @@ x 2
 y 22
 elevation 1404
 end
-arch desert
+arch swamp
 x 2
 y 23
 elevation 673
 end
-arch desert
+arch swamp
 x 2
 y 24
 elevation 580
 end
-arch desert
+arch swamp
 x 2
 y 25
 elevation 149
 end
-arch sea
+arch grassdark
 x 2
 y 26
 elevation -411
 end
-arch sea
+arch bosgrass
 x 2
 y 27
 elevation -997
 end
-arch sea
+arch bosgrass
 x 2
 y 28
 elevation -1523
 end
-arch sea
+arch bosgrass
 x 2
 y 29
 elevation -1995
 end
-arch sea
+arch bosgrass
 x 2
 y 30
 elevation -2417
 end
-arch sea
+arch bosgrass
 x 2
 y 31
 elevation -2792
 end
-arch sea
+arch grassdark
 x 2
 y 32
 elevation -3118
 end
-arch sea
+arch bosgrass2
 x 2
 y 33
 elevation -3395
 end
-arch sea
+arch bosgrass2
 x 2
 y 34
 elevation -3622
 end
-arch sea
+arch bosgrass2
 x 2
 y 35
 elevation -3796
 end
-arch sea
+arch bosgrass15
 x 2
 y 36
 elevation -3917
 end
-arch sea
+arch grassdark
 x 2
 y 37
 elevation -3986
 end
-arch sea
+arch grassdark
 x 2
 y 38
 elevation -4003
 end
-arch sea
+arch grassdark
 x 2
 y 39
 elevation -3969
 end
-arch sea
+arch grassdark
 x 2
 y 40
 elevation -3886
 end
-arch sea
+arch grassdark
 x 2
 y 41
 elevation -3756
 end
-arch sea
+arch grassdark
 x 2
 y 42
 elevation -3583
 end
-arch sea
+arch grassdark
 x 2
 y 43
 elevation -3371
 end
-arch sea
+arch grassdark
 x 2
 y 44
 elevation -3124
 end
-arch sea
+arch grassdark
 x 2
 y 45
 elevation -2848
 end
-arch sea
+arch grassdark
 x 2
 y 46
 elevation -2548
 end
-arch sea
+arch grassdark
 x 2
 y 47
 elevation -2230
 end
-arch sea
+arch grassdark
 x 2
 y 48
 elevation -1900
 end
-arch sea
+arch grassdark
 x 2
 y 49
 elevation -1565
 end
-arch sea
+arch cyanbrush
 x 3
 elevation -111
 end
-arch sea
+arch cyanbrush
 x 3
 y 1
 elevation -154
 end
-arch sea
+arch cyanbrush
 x 3
 y 2
 elevation -176
 end
-arch sea
+arch cyanbrush
 x 3
 y 3
 elevation -180
 end
-arch sea
+arch cyanbrush
 x 3
 y 4
 elevation -173
 end
-arch sea
+arch cyanbrush
 x 3
 y 5
 elevation -157
 end
-arch sea
+arch cyanbrush
 x 3
 y 6
 elevation -135
 end
-arch sea
+arch cyanbrush
 x 3
 y 7
 elevation -105
 end
-arch shallow_sea
+arch cyanbrush
 x 3
 y 8
 elevation -66
 end
-arch shallow_sea
+arch cyanbrush
 x 3
 y 9
 elevation -14
@@ -800,17 +801,17 @@ x 3
 y 17
 elevation 1875
 end
-arch desert
+arch swamp
 x 3
 y 18
 elevation 895
 end
-arch desert
+arch swamp
 x 3
 y 19
 elevation 186
 end
-arch desert
+arch swamp
 x 3
 y 20
 elevation 642
@@ -820,186 +821,186 @@ x 3
 y 21
 elevation 1068
 end
-arch desert
+arch swamp
 x 3
 y 22
 elevation 653
 end
-arch desert
+arch swamp
 x 3
 y 23
 elevation 614
 end
-arch jungle_1
+arch swamp
 x 3
 y 24
 elevation 1072
 end
-arch desert
+arch grassdark
 x 3
 y 25
 elevation 608
 end
-arch sea
+arch grassdark
 x 3
 y 26
 elevation -219
 end
-arch sea
+arch bosgrass
 x 3
 y 27
 elevation -841
 end
-arch sea
+arch grassdark
 x 3
 y 28
 elevation -1374
 end
-arch sea
+arch grassdark
 x 3
 y 29
 elevation -1849
 end
-arch sea
+arch bosgrass2
 x 3
 y 30
 elevation -2277
 end
-arch sea
+arch grassdark
 x 3
 y 31
 elevation -2659
 end
-arch sea
+arch bosgrass2
 x 3
 y 32
 elevation -2996
 end
-arch sea
+arch bosgrass2
 x 3
 y 33
 elevation -3285
 end
-arch sea
+arch grassdark
 x 3
 y 34
 elevation -3525
 end
-arch sea
+arch bosgrass15
 x 3
 y 35
 elevation -3713
 end
-arch sea
+arch bosgrass15
 x 3
 y 36
 elevation -3849
 end
-arch sea
+arch bosgrass4
 x 3
 y 37
 elevation -3932
 end
-arch sea
+arch grassdark
 x 3
 y 38
 elevation -3963
 end
-arch sea
+arch grassdark
 x 3
 y 39
 elevation -3942
 end
-arch sea
+arch grassdark
 x 3
 y 40
 elevation -3871
 end
-arch sea
+arch grassdark
 x 3
 y 41
 elevation -3752
 end
-arch sea
+arch grassdark
 x 3
 y 42
 elevation -3590
 end
-arch sea
+arch grassdark
 x 3
 y 43
 elevation -3386
 end
-arch sea
+arch grassdark
 x 3
 y 44
 elevation -3146
 end
-arch sea
+arch grassdark
 x 3
 y 45
 elevation -2873
 end
-arch sea
+arch grassdark
 x 3
 y 46
 elevation -2573
 end
-arch sea
+arch grassdark
 x 3
 y 47
 elevation -2250
 end
-arch sea
+arch grassdark
 x 3
 y 48
 elevation -1912
 end
-arch sea
+arch grassdark
 x 3
 y 49
 elevation -1564
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 elevation -49
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 1
 elevation -85
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 2
 elevation -99
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 3
 elevation -98
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 4
 elevation -86
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 5
 elevation -77
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 6
 elevation -66
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 7
 elevation -53
 end
-arch shallow_sea
+arch cyanbrush
 x 4
 y 8
 elevation -29
@@ -1054,17 +1055,21 @@ x 4
 y 18
 elevation 1645
 end
-arch desert
+arch swamp
 x 4
 y 19
 elevation 293
 end
-arch desert
+arch swamp
 x 4
 y 20
 elevation 612
 end
-arch desert
+arch tree6_darkerstill
+x 4
+y 20
+end
+arch swamp
 x 4
 y 21
 elevation 936
@@ -1079,156 +1084,156 @@ x 4
 y 23
 elevation 1309
 end
-arch hills
+arch swamp
 x 4
 y 24
 elevation 1198
 end
-arch desert
+arch swamp
 x 4
 y 25
 elevation 655
 end
-arch sea
+arch grassdark
 x 4
 y 26
 elevation -158
 end
-arch sea
+arch grassdark
 x 4
 y 27
 elevation -740
 end
-arch sea
+arch grassdark
 x 4
 y 28
 elevation -1249
 end
-arch sea
+arch bosgrass2
 x 4
 y 29
 elevation -1712
 end
-arch sea
+arch bosgrass2
 x 4
 y 30
 elevation -2136
 end
-arch sea
+arch bosgrass2
 x 4
 y 31
 elevation -2521
 end
-arch sea
+arch bosgrass2
 x 4
 y 32
 elevation -2864
 end
-arch sea
+arch bosgrass2
 x 4
 y 33
 elevation -3163
 end
-arch sea
+arch grassdark
 x 4
 y 34
 elevation -3413
 end
-arch sea
+arch bosgrass15
 x 4
 y 35
 elevation -3614
 end
-arch sea
+arch grassdark
 x 4
 y 36
 elevation -3762
 end
-arch sea
+arch bosgrass15
 x 4
 y 37
 elevation -3858
 end
-arch sea
+arch grassdark
 x 4
 y 38
 elevation -3900
 end
-arch sea
+arch grassdark
 x 4
 y 39
 elevation -3891
 end
-arch sea
+arch grassdark
 x 4
 y 40
 elevation -3832
 end
-arch sea
+arch grassdark
 x 4
 y 41
 elevation -3724
 end
-arch sea
+arch grassdark
 x 4
 y 42
 elevation -3570
 end
-arch sea
+arch grassdark
 x 4
 y 43
 elevation -3374
 end
-arch sea
+arch grassdark
 x 4
 y 44
 elevation -3140
 end
-arch sea
+arch grassdark
 x 4
 y 45
 elevation -2870
 end
-arch sea
+arch grassdark
 x 4
 y 46
 elevation -2569
 end
-arch sea
+arch grassdark
 x 4
 y 47
 elevation -2243
 end
-arch sea
+arch grassdark
 x 4
 y 48
 elevation -1896
 end
-arch sea
+arch grassdark
 x 4
 y 49
 elevation -1535
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 elevation -5
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 1
 elevation -34
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 2
 elevation -41
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 3
 elevation -9
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 4
 elevation -5
@@ -1238,17 +1243,17 @@ x 5
 y 5
 elevation 21
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 6
 elevation -3
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 7
 elevation -8
 end
-arch shallow_sea
+arch cyanbrush
 x 5
 y 8
 elevation -5
@@ -1298,162 +1303,166 @@ x 5
 y 17
 elevation 2586
 end
-arch woods
+arch swamp
 x 5
 y 18
 elevation 2292
 end
-arch woods
+arch swamp
 x 5
 y 19
 elevation 1096
 end
-arch desert
+arch swamp
 x 5
 y 20
 elevation 336
 end
-arch desert
+arch tree6_darkerstill
+x 5
+y 20
+end
+arch swamp
 x 5
 y 21
 elevation 138
 end
-arch hills
+arch swamp
 x 5
 y 22
 elevation 1050
 end
-arch hills
+arch swamp
 x 5
 y 23
 elevation 1240
 end
-arch desert
+arch swamp
 x 5
 y 24
 elevation 949
 end
-arch desert
+arch swamp
 x 5
 y 25
 elevation 177
 end
-arch sea
+arch grassdark
 x 5
 y 26
 elevation -207
 end
-arch sea
+arch grassdark
 x 5
 y 27
 elevation -681
 end
-arch sea
+arch grassdark
 x 5
 y 28
 elevation -1138
 end
-arch sea
+arch grassdark
 x 5
 y 29
 elevation -1576
 end
-arch sea
+arch grassdark
 x 5
 y 30
 elevation -1990
 end
-arch sea
+arch grassdark
 x 5
 y 31
 elevation -2375
 end
-arch sea
+arch grassdark
 x 5
 y 32
 elevation -2723
 end
-arch sea
+arch grassdark
 x 5
 y 33
 elevation -3029
 end
-arch sea
+arch grassdark
 x 5
 y 34
 elevation -3288
 end
-arch sea
+arch grassdark
 x 5
 y 35
 elevation -3499
 end
-arch sea
+arch grassdark
 x 5
 y 36
 elevation -3658
 end
-arch sea
+arch bosgrass15
 x 5
 y 37
 elevation -3764
 end
-arch sea
+arch grassdark
 x 5
 y 38
 elevation -3817
 end
-arch sea
+arch grassdark
 x 5
 y 39
 elevation -3819
 end
-arch sea
+arch grassdark
 x 5
 y 40
 elevation -3770
 end
-arch sea
+arch grassdark
 x 5
 y 41
 elevation -3671
 end
-arch sea
+arch grassdark
 x 5
 y 42
 elevation -3526
 end
-arch sea
+arch grassdark
 x 5
 y 43
 elevation -3337
 end
-arch sea
+arch grassdark
 x 5
 y 44
 elevation -3108
 end
-arch sea
+arch grassdark
 x 5
 y 45
 elevation -2842
 end
-arch sea
+arch grassdark
 x 5
 y 46
 elevation -2542
 end
-arch sea
+arch grassdark
 x 5
 y 47
 elevation -2212
 end
-arch sea
+arch grassdark
 x 5
 y 48
 elevation -1857
 end
-arch sea
+arch grassdark
 x 5
 y 49
 elevation -1482
@@ -1462,12 +1471,12 @@ arch grass
 x 6
 elevation 15
 end
-arch shallow_sea
+arch cyanbrush
 x 6
 y 1
 elevation -1
 end
-arch shallow_sea
+arch cyanbrush
 x 6
 y 2
 elevation -1
@@ -1537,172 +1546,176 @@ x 6
 y 15
 elevation 2122
 end
-arch woods
+arch swamp
 x 6
 y 16
 elevation 1975
 end
-arch hills
+arch swamp
 x 6
 y 17
 elevation 2907
 end
-arch woods
+arch swamp
 x 6
 y 18
 elevation 2847
 end
-arch hills
+arch swamp
 x 6
 y 19
 elevation 1904
 end
-arch desert
+arch swamp
 x 6
 y 20
 elevation 426
 end
-arch desert
+arch tree6_darkerstill
+x 6
+y 20
+end
+arch swamp
 x 6
 y 21
 elevation 203
 end
-arch desert
+arch swamp
 x 6
 y 22
 elevation 545
 end
-arch desert
+arch swamp
 x 6
 y 23
 elevation 755
 end
-arch desert
+arch swamp
 x 6
 y 24
 elevation 286
 end
-arch shallow_sea
+arch swamp
 x 6
 y 25
 elevation -8
 end
-arch sea
+arch grassdark
 x 6
 y 26
 elevation -266
 end
-arch sea
+arch grassdark
 x 6
 y 27
 elevation -623
 end
-arch sea
+arch grassdark
 x 6
 y 28
 elevation -1021
 end
-arch sea
+arch afloor_black_right
 x 6
 y 29
 elevation -1431
 end
-arch sea
+arch afloor_black_right
 x 6
 y 30
 elevation -1835
 end
-arch sea
+arch afloor_black_right
 x 6
 y 31
 elevation -2219
 end
-arch sea
+arch afloor_black_right
 x 6
 y 32
 elevation -2571
 end
-arch sea
+arch afloor_black_right
 x 6
 y 33
 elevation -2883
 end
-arch sea
+arch afloor_black_right
 x 6
 y 34
 elevation -3150
 end
-arch sea
+arch afloor_black_right
 x 6
 y 35
 elevation -3369
 end
-arch sea
+arch afloor_black_right
 x 6
 y 36
 elevation -3537
 end
-arch sea
+arch afloor_black_right
 x 6
 y 37
 elevation -3652
 end
-arch sea
+arch afloor_black_right
 x 6
 y 38
 elevation -3714
 end
-arch sea
+arch afloor_black_right
 x 6
 y 39
 elevation -3725
 end
-arch sea
+arch afloor_black_right
 x 6
 y 40
 elevation -3685
 end
-arch sea
+arch afloor_black_right
 x 6
 y 41
 elevation -3596
 end
-arch sea
+arch afloor_black_right
 x 6
 y 42
 elevation -3459
 end
-arch sea
+arch afloor_black_right
 x 6
 y 43
 elevation -3277
 end
-arch sea
+arch afloor_black_right
 x 6
 y 44
 elevation -3054
 end
-arch sea
+arch afloor_black_right
 x 6
 y 45
 elevation -2792
 end
-arch sea
+arch grassdark
 x 6
 y 46
 elevation -2495
 end
-arch sea
+arch grassdark
 x 6
 y 47
 elevation -2164
 end
-arch sea
+arch grassdark
 x 6
 y 48
 elevation -1802
 end
-arch sea
+arch grassdark
 x 6
 y 49
 elevation -1412
@@ -1796,162 +1809,186 @@ x 7
 y 17
 elevation 3097
 end
-arch hills_rocky
+arch swamp
 x 7
 y 18
 elevation 3152
 end
-arch hills
+arch swamp
 x 7
 y 19
 elevation 2397
 end
-arch desert
+arch swamp
 x 7
 y 20
 elevation 975
 end
-arch desert
+arch tree6_darkerstill
+x 7
+y 20
+end
+arch swamp
 x 7
 y 21
 elevation 678
 end
-arch desert
+arch swamp
 x 7
 y 22
 elevation 276
 end
-arch desert
+arch tree5bblack
+x 7
+y 22
+end
+arch swamp
 x 7
 y 23
 elevation 281
 end
-arch desert
+arch swamp
 x 7
 y 24
 elevation 116
 end
-arch shallow_sea
+arch grassdark
 x 7
 y 25
 elevation -16
 end
-arch sea
+arch grassdark
 x 7
 y 26
 elevation -238
 end
-arch sea
+arch grassdark
 x 7
 y 27
 elevation -520
 end
-arch sea
+arch grassdark
 x 7
 y 28
 elevation -871
 end
-arch sea
+arch afloor_black_right
 x 7
 y 29
 elevation -1263
 end
-arch sea
+arch afloor_black_right
 x 7
 y 30
 elevation -1665
 end
-arch sea
+arch jar_b
+x 7
+y 30
+end
+arch afloor_black_right
 x 7
 y 31
 elevation -2051
 end
-arch sea
+arch afloor_black_right
 x 7
 y 32
 elevation -2408
 end
-arch sea
+arch candelabra
+x 7
+y 32
+end
+arch afloor_black_right
 x 7
 y 33
 elevation -2726
 end
-arch sea
+arch afloor_black_right
 x 7
 y 34
 elevation -3000
 end
-arch sea
+arch afloor_black_right
 x 7
 y 35
 elevation -3225
 end
-arch sea
+arch afloor_black_right
 x 7
 y 36
 elevation -3400
 end
-arch sea
+arch afloor_black_right
 x 7
 y 37
 elevation -3522
 end
-arch sea
+arch afloor_black_right
 x 7
 y 38
 elevation -3592
 end
-arch sea
+arch afloor_black_right
 x 7
 y 39
 elevation -3611
 end
-arch sea
+arch afloor_black_right
 x 7
 y 40
 elevation -3579
 end
-arch sea
+arch candelabra
+x 7
+y 40
+end
+arch afloor_black_right
 x 7
 y 41
 elevation -3498
 end
-arch sea
+arch afloor_black_right
 x 7
 y 42
 elevation -3369
 end
-arch sea
+arch afloor_black_right
 x 7
 y 43
 elevation -3196
 end
-arch sea
+arch afloor_black_right
 x 7
 y 44
 elevation -2980
 end
-arch sea
+arch jar_b
+x 7
+y 44
+end
+arch afloor_black_right
 x 7
 y 45
 elevation -2724
 end
-arch sea
+arch grassdark
 x 7
 y 46
 elevation -2431
 end
-arch sea
+arch grassdark
 x 7
 y 47
 elevation -2102
 end
-arch sea
+arch grassdark
 x 7
 y 48
 elevation -1738
 end
-arch sea
+arch grassdark
 x 7
 y 49
 elevation -1337
@@ -2050,157 +2087,157 @@ x 8
 y 18
 elevation 2927
 end
-arch woods
+arch swamp
 x 8
 y 19
 elevation 2405
 end
-arch jungle_1
+arch swamp
 x 8
 y 20
 elevation 1735
 end
-arch woods
+arch swamp
 x 8
 y 21
 elevation 1060
 end
-arch desert
+arch swamp
 x 8
 y 22
 elevation 228
 end
-arch desert
+arch swamp
 x 8
 y 23
 elevation 275
 end
-arch desert
+arch swamp
 x 8
 y 24
 elevation 104
 end
-arch shallow_sea
+arch grassdark
 x 8
 y 25
 elevation -10
 end
-arch sea
+arch grassdark
 x 8
 y 26
 elevation -115
 end
-arch sea
+arch grassdark
 x 8
 y 27
 elevation -336
 end
-arch sea
+arch grassdark
 x 8
 y 28
 elevation -657
 end
-arch sea
+arch afloor_black_right
 x 8
 y 29
 elevation -1065
 end
-arch sea
+arch afloor_black_right
 x 8
 y 30
 elevation -1479
 end
-arch sea
+arch afloor_black_right
 x 8
 y 31
 elevation -1874
 end
-arch sea
+arch afloor_black_right
 x 8
 y 32
 elevation -2237
 end
-arch sea
+arch afloor_black_right
 x 8
 y 33
 elevation -2560
 end
-arch sea
+arch afloor_black_right
 x 8
 y 34
 elevation -2839
 end
-arch sea
+arch afloor_black_right
 x 8
 y 35
 elevation -3069
 end
-arch sea
+arch afloor_black_right
 x 8
 y 36
 elevation -3248
 end
-arch sea
+arch afloor_black_right
 x 8
 y 37
 elevation -3376
 end
-arch sea
+arch afloor_black_right
 x 8
 y 38
 elevation -3453
 end
-arch sea
+arch afloor_black_right
 x 8
 y 39
 elevation -3478
 end
-arch sea
+arch afloor_black_right
 x 8
 y 40
 elevation -3453
 end
-arch sea
+arch afloor_black_right
 x 8
 y 41
 elevation -3380
 end
-arch sea
+arch afloor_black_right
 x 8
 y 42
 elevation -3259
 end
-arch sea
+arch afloor_black_right
 x 8
 y 43
 elevation -3094
 end
-arch sea
+arch afloor_black_right
 x 8
 y 44
 elevation -2887
 end
-arch sea
+arch afloor_black_right
 x 8
 y 45
 elevation -2640
 end
-arch sea
+arch grassdark
 x 8
 y 46
 elevation -2355
 end
-arch sea
+arch grassdark
 x 8
 y 47
 elevation -2033
 end
-arch sea
+arch grassdark
 x 8
 y 48
 elevation -1673
 end
-arch sea
+arch grassdark
 x 8
 y 49
 elevation -1273
@@ -2294,17 +2331,17 @@ x 9
 y 17
 elevation 2365
 end
-arch woods
+arch swamp
 x 9
 y 18
 elevation 2212
 end
-arch hills
+arch swamp
 x 9
 y 19
 elevation 1971
 end
-arch jungle_1
+arch swamp
 x 9
 y 20
 elevation 1731
@@ -2314,142 +2351,150 @@ x 9
 y 21
 elevation 1223
 end
-arch desert
+arch swamp
 x 9
 y 22
 elevation 863
 end
-arch desert
+arch swamp
 x 9
 y 23
 elevation 556
 end
-arch desert
+arch tree5bblack
+x 9
+y 23
+end
+arch swamp
 x 9
 y 24
 elevation 271
 end
-arch desert
+arch swamp
 x 9
 y 25
 elevation 86
 end
-arch desert
+arch swamp
 x 9
 y 26
 elevation 48
 end
-arch desert
+arch swamp
 x 9
 y 27
 elevation 72
 end
-arch sea
+arch grassdark
 x 9
 y 28
 elevation -388
 end
-arch sea
+arch afloor_black_right
 x 9
 y 29
 elevation -846
 end
-arch sea
+arch afloor_black_right
 x 9
 y 30
 elevation -1284
 end
-arch sea
+arch chair
+x 9
+y 30
+end
+arch afloor_black_right
 x 9
 y 31
 elevation -1691
 end
-arch sea
+arch afloor_black_right
 x 9
 y 32
 elevation -2061
 end
-arch sea
+arch afloor_black_right
 x 9
 y 33
 elevation -2388
 end
-arch sea
+arch afloor_black_right
 x 9
 y 34
 elevation -2669
 end
-arch sea
+arch afloor_black_right
 x 9
 y 35
 elevation -2902
 end
-arch sea
+arch afloor_black_right
 x 9
 y 36
 elevation -3084
 end
-arch sea
+arch afloor_black_right
 x 9
 y 37
 elevation -3215
 end
-arch sea
+arch afloor_black_right
 x 9
 y 38
 elevation -3296
 end
-arch sea
+arch afloor_black_right
 x 9
 y 39
 elevation -3327
 end
-arch sea
+arch afloor_black_right
 x 9
 y 40
 elevation -3308
 end
-arch sea
+arch afloor_black_right
 x 9
 y 41
 elevation -3242
 end
-arch sea
+arch afloor_black_right
 x 9
 y 42
 elevation -3130
 end
-arch sea
+arch afloor_black_right
 x 9
 y 43
 elevation -2974
 end
-arch sea
+arch afloor_black_right
 x 9
 y 44
 elevation -2777
 end
-arch sea
+arch afloor_black_right
 x 9
 y 45
 elevation -2540
 end
-arch sea
+arch grassdark
 x 9
 y 46
 elevation -2267
 end
-arch sea
+arch grassdark
 x 9
 y 47
 elevation -1958
 end
-arch sea
+arch grassdark
 x 9
 y 48
 elevation -1613
 end
-arch sea
+arch grassdark
 x 9
 y 49
 elevation -1228
@@ -2568,22 +2613,22 @@ x 10
 y 22
 elevation 884
 end
-arch brush
+arch swamp
 x 10
 y 23
 elevation 800
 end
-arch desert
+arch swamp
 x 10
 y 24
 elevation 715
 end
-arch desert
+arch swamp
 x 10
 y 25
 elevation 195
 end
-arch desert
+arch swamp
 x 10
 y 26
 elevation 655
@@ -2593,112 +2638,120 @@ x 10
 y 27
 elevation 504
 end
-arch sea
+arch grassdark
 x 10
 y 28
 elevation -116
 end
-arch sea
+arch afloor_black_right
 x 10
 y 29
 elevation -633
 end
-arch sea
+arch afloor_black_right
 x 10
 y 30
 elevation -1091
 end
-arch sea
+arch chair
+x 10
+y 30
+end
+arch afloor_black_right
 x 10
 y 31
 elevation -1509
 end
-arch sea
+arch afloor_black_right
 x 10
 y 32
 elevation -1884
 end
-arch sea
+arch afloor_black_right
 x 10
 y 33
 elevation -2213
 end
-arch sea
+arch afloor_black_right
 x 10
 y 34
 elevation -2494
 end
-arch sea
+arch afloor_black_right
 x 10
 y 35
 elevation -2726
 end
-arch sea
+arch afloor_black_right
 x 10
 y 36
 elevation -2908
 end
-arch sea
+arch afloor_black_right
 x 10
 y 37
 elevation -3041
 end
-arch sea
+arch afloor_black_right
 x 10
 y 38
 elevation -3124
 end
-arch sea
+arch afloor_black_right
 x 10
 y 39
 elevation -3158
 end
-arch sea
+arch afloor_black_right
 x 10
 y 40
 elevation -3145
 end
-arch sea
+arch tanbench
+x 10
+y 40
+end
+arch afloor_black_right
 x 10
 y 41
 elevation -3086
 end
-arch sea
+arch afloor_black_right
 x 10
 y 42
 elevation -2982
 end
-arch sea
+arch afloor_black_right
 x 10
 y 43
 elevation -2836
 end
-arch sea
+arch afloor_black_right
 x 10
 y 44
 elevation -2650
 end
-arch sea
+arch afloor_black_right
 x 10
 y 45
 elevation -2427
 end
-arch sea
+arch grassdark
 x 10
 y 46
 elevation -2169
 end
-arch sea
+arch grassdark
 x 10
 y 47
 elevation -1879
 end
-arch sea
+arch grassdark
 x 10
 y 48
 elevation -1556
 end
-arch sea
+arch grassdark
 x 10
 y 49
 elevation -1203
@@ -2842,112 +2895,120 @@ x 11
 y 27
 elevation 760
 end
-arch desert
+arch swamp
 x 11
 y 28
 elevation 52
 end
-arch sea
+arch afloor_black_right
 x 11
 y 29
 elevation -438
 end
-arch sea
+arch afloor_black_right
 x 11
 y 30
 elevation -912
 end
-arch sea
+arch chair
+x 11
+y 30
+end
+arch afloor_black_right
 x 11
 y 31
 elevation -1339
 end
-arch sea
+arch afloor_black_right
 x 11
 y 32
 elevation -1714
 end
-arch sea
+arch afloor_black_right
 x 11
 y 33
 elevation -2039
 end
-arch sea
+arch workbench
+x 11
+y 33
+end
+arch afloor_black_right
 x 11
 y 34
 elevation -2315
 end
-arch sea
+arch afloor_black_right
 x 11
 y 35
 elevation -2543
 end
-arch sea
+arch afloor_black_right
 x 11
 y 36
 elevation -2722
 end
-arch sea
+arch afloor_black_right
 x 11
 y 37
 elevation -2853
 end
-arch sea
+arch afloor_black_right
 x 11
 y 38
 elevation -2937
 end
-arch sea
+arch afloor_black_right
 x 11
 y 39
 elevation -2973
 end
-arch sea
+arch afloor_black_right
 x 11
 y 40
 elevation -2964
 end
-arch sea
+arch afloor_black_right
 x 11
 y 41
 elevation -2911
 end
-arch sea
+arch afloor_black_right
 x 11
 y 42
 elevation -2816
 end
-arch sea
+arch afloor_black_right
 x 11
 y 43
 elevation -2680
 end
-arch sea
+arch afloor_black_right
 x 11
 y 44
 elevation -2507
 end
-arch sea
+arch afloor_black_right
 x 11
 y 45
 elevation -2299
 end
-arch sea
+arch grassdark
 x 11
 y 46
 elevation -2060
 end
-arch sea
+arch grassdark
 x 11
 y 47
 elevation -1792
 end
-arch sea
+arch grassdark
 x 11
 y 48
 elevation -1499
 end
-arch sea
+arch grassdark
 x 11
 y 49
 elevation -1185
@@ -3096,107 +3157,111 @@ x 12
 y 28
 elevation 256
 end
-arch sea
+arch afloor_black_right
 x 12
 y 29
 elevation -265
 end
-arch sea
+arch afloor_black_right
 x 12
 y 30
 elevation -766
 end
-arch sea
+arch chair
+x 12
+y 30
+end
+arch afloor_black_right
 x 12
 y 31
 elevation -1189
 end
-arch sea
+arch afloor_black_right
 x 12
 y 32
 elevation -1554
 end
-arch sea
+arch afloor_black_right
 x 12
 y 33
 elevation -1869
 end
-arch sea
+arch afloor_black_right
 x 12
 y 34
 elevation -2135
 end
-arch sea
+arch afloor_black_right
 x 12
 y 35
 elevation -2354
 end
-arch sea
+arch afloor_black_right
 x 12
 y 36
 elevation -2527
 end
-arch sea
+arch afloor_black_right
 x 12
 y 37
 elevation -2654
 end
-arch sea
+arch afloor_black_right
 x 12
 y 38
 elevation -2735
 end
-arch sea
+arch afloor_black_right
 x 12
 y 39
 elevation -2773
 end
-arch sea
+arch afloor_black_right
 x 12
 y 40
 elevation -2767
 end
-arch sea
+arch afloor_black_right
 x 12
 y 41
 elevation -2720
 end
-arch sea
+arch afloor_black_right
 x 12
 y 42
 elevation -2633
 end
-arch sea
+arch afloor_black_right
 x 12
 y 43
 elevation -2508
 end
-arch sea
+arch afloor_black_right
 x 12
 y 44
 elevation -2348
 end
-arch sea
+arch afloor_black_right
 x 12
 y 45
 elevation -2156
 end
-arch sea
+arch grassdark
 x 12
 y 46
 elevation -1936
 end
-arch sea
+arch grassdark
 x 12
 y 47
 elevation -1693
 end
-arch sea
+arch bosgrass
 x 12
 y 48
 elevation -1431
 end
-arch sea
+arch grassdark
 x 12
 y 49
 elevation -1159
@@ -3340,112 +3405,112 @@ x 13
 y 27
 elevation 1328
 end
-arch desert
+arch swamp
 x 13
 y 28
 elevation 566
 end
-arch sea
+arch afloor_black_right
 x 13
 y 29
 elevation -191
 end
-arch sea
+arch afloor_black_right
 x 13
 y 30
 elevation -666
 end
-arch sea
+arch afloor_black_right
 x 13
 y 31
 elevation -1066
 end
-arch sea
+arch afloor_black_right
 x 13
 y 32
 elevation -1410
 end
-arch sea
+arch afloor_black_right
 x 13
 y 33
 elevation -1704
 end
-arch sea
+arch afloor_black_right
 x 13
 y 34
 elevation -1954
 end
-arch sea
+arch afloor_black_right
 x 13
 y 35
 elevation -2160
 end
-arch sea
+arch afloor_black_right
 x 13
 y 36
 elevation -2322
 end
-arch sea
+arch afloor_black_right
 x 13
 y 37
 elevation -2442
 end
-arch sea
+arch afloor_black_right
 x 13
 y 38
 elevation -2521
 end
-arch sea
+arch afloor_black_right
 x 13
 y 39
 elevation -2557
 end
-arch sea
+arch afloor_black_right
 x 13
 y 40
 elevation -2554
 end
-arch sea
+arch afloor_black_right
 x 13
 y 41
 elevation -2512
 end
-arch sea
+arch afloor_black_right
 x 13
 y 42
 elevation -2433
 end
-arch sea
+arch afloor_black_right
 x 13
 y 43
 elevation -2319
 end
-arch sea
+arch afloor_black_right
 x 13
 y 44
 elevation -2172
 end
-arch sea
+arch afloor_black_right
 x 13
 y 45
 elevation -1997
 end
-arch sea
+arch bosgrass
 x 13
 y 46
 elevation -1797
 end
-arch sea
+arch bosgrass
 x 13
 y 47
 elevation -1577
 end
-arch sea
+arch grassdark
 x 13
 y 48
 elevation -1345
 end
-arch sea
+arch grassdark
 x 13
 y 49
 elevation -1109
@@ -3574,17 +3639,17 @@ x 14
 y 24
 elevation 904
 end
-arch woods_2
+arch grassdark
 x 14
 y 25
 elevation 1217
 end
-arch woods_2
+arch grassdark
 x 14
 y 26
 elevation 1317
 end
-arch desert
+arch grassdark
 x 14
 y 27
 elevation 994
@@ -3594,107 +3659,119 @@ x 14
 y 28
 elevation 188
 end
-arch sea
+arch afloor_black_right
 x 14
 y 29
 elevation -206
 end
-arch sea
+arch afloor_black_right
 x 14
 y 30
 elevation -618
 end
-arch sea
+arch fireplace
+x 14
+y 30
+end
+arch afloor_black_right
 x 14
 y 31
 elevation -971
 end
-arch sea
+arch afloor_black_right
 x 14
 y 32
 elevation -1278
 end
-arch sea
+arch afloor_black_right
 x 14
 y 33
 elevation -1545
 end
-arch sea
+arch afloor_black_right
 x 14
 y 34
 elevation -1772
 end
-arch sea
+arch afloor_black_right
 x 14
 y 35
 elevation -1960
 end
-arch sea
+arch stove
+x 14
+y 35
+end
+arch afloor_black_right
 x 14
 y 36
 elevation -2109
 end
-arch sea
+arch afloor_black_right
 x 14
 y 37
 elevation -2220
 end
-arch sea
+arch afloor_black_right
 x 14
 y 38
 elevation -2292
 end
-arch sea
+arch afloor_black_right
 x 14
 y 39
 elevation -2327
 end
-arch sea
+arch fireplace
+x 14
+y 39
+end
+arch afloor_black_right
 x 14
 y 40
 elevation -2326
 end
-arch sea
+arch afloor_black_right
 x 14
 y 41
 elevation -2288
 end
-arch sea
+arch afloor_black_right
 x 14
 y 42
 elevation -2217
 end
-arch sea
+arch afloor_black_right
 x 14
 y 43
 elevation -2114
 end
-arch sea
+arch afloor_black_right
 x 14
 y 44
 elevation -1981
 end
-arch sea
+arch afloor_black_right
 x 14
 y 45
 elevation -1822
 end
-arch sea
+arch bosgrass
 x 14
 y 46
 elevation -1641
 end
-arch sea
+arch bosgrass
 x 14
 y 47
 elevation -1443
 end
-arch sea
+arch grassdark
 x 14
 y 48
 elevation -1235
 end
-arch sea
+arch grassdark
 x 14
 y 49
 elevation -1028
@@ -3823,127 +3900,127 @@ x 15
 y 24
 elevation 136
 end
-arch brush
+arch grassdark
 x 15
 y 25
 elevation 406
 end
-arch desert
+arch grassdark
 x 15
 y 26
 elevation 407
 end
-arch swamp
+arch grassdark
 x 15
 y 27
 elevation 1
 end
-arch shallow_sea
+arch grassdark
 x 15
 y 28
 elevation -10
 end
-arch sea
+arch afloor_black_right
 x 15
 y 29
 elevation -302
 end
-arch sea
+arch afloor_black_right
 x 15
 y 30
 elevation -602
 end
-arch sea
+arch afloor_black_right
 x 15
 y 31
 elevation -893
 end
-arch sea
+arch afloor_black_right
 x 15
 y 32
 elevation -1156
 end
-arch sea
+arch afloor_black_right
 x 15
 y 33
 elevation -1388
 end
-arch sea
+arch afloor_black_right
 x 15
 y 34
 elevation -1588
 end
-arch sea
+arch afloor_black_right
 x 15
 y 35
 elevation -1755
 end
-arch sea
+arch afloor_black_right
 x 15
 y 36
 elevation -1888
 end
-arch sea
+arch afloor_black_right
 x 15
 y 37
 elevation -1986
 end
-arch sea
+arch afloor_black_right
 x 15
 y 38
 elevation -2051
 end
-arch sea
+arch afloor_black_right
 x 15
 y 39
 elevation -2083
 end
-arch sea
+arch afloor_black_right
 x 15
 y 40
 elevation -2082
 end
-arch sea
+arch afloor_black_right
 x 15
 y 41
 elevation -2049
 end
-arch sea
+arch afloor_black_right
 x 15
 y 42
 elevation -1985
 end
-arch sea
+arch afloor_black_right
 x 15
 y 43
 elevation -1893
 end
-arch sea
+arch afloor_black_right
 x 15
 y 44
 elevation -1774
 end
-arch sea
+arch afloor_black_right
 x 15
 y 45
 elevation -1631
 end
-arch sea
+arch grassdark
 x 15
 y 46
 elevation -1467
 end
-arch sea
+arch grassdark
 x 15
 y 47
 elevation -1288
 end
-arch sea
+arch grassdark
 x 15
 y 48
 elevation -1100
 end
-arch sea
+arch grassdark
 x 15
 y 49
 elevation -913
@@ -4032,7 +4109,7 @@ x 16
 y 16
 elevation 178
 end
-arch shallow_sea
+arch grassmedium
 x 16
 y 17
 elevation -9
@@ -4067,7 +4144,7 @@ x 16
 y 23
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 16
 y 24
 elevation -10
@@ -4077,122 +4154,122 @@ x 16
 y 25
 elevation -8
 end
-arch shallow_sea
+arch grassdark
 x 16
 y 26
 elevation -5
 end
-arch shallow_sea
+arch grassdark
 x 16
 y 27
 elevation -35
 end
-arch sea
+arch grassdark
 x 16
 y 28
 elevation -189
 end
-arch sea
+arch afloor_black_right
 x 16
 y 29
 elevation -366
 end
-arch sea
+arch afloor_black_right
 x 16
 y 30
 elevation -592
 end
-arch sea
+arch afloor_black_right
 x 16
 y 31
 elevation -820
 end
-arch sea
+arch afloor_black_right
 x 16
 y 32
 elevation -1035
 end
-arch sea
+arch afloor_black_right
 x 16
 y 33
 elevation -1230
 end
-arch sea
+arch afloor_black_right
 x 16
 y 34
 elevation -1399
 end
-arch sea
+arch afloor_black_right
 x 16
 y 35
 elevation -1542
 end
-arch sea
+arch afloor_black_right
 x 16
 y 36
 elevation -1656
 end
-arch sea
+arch afloor_black_right
 x 16
 y 37
 elevation -1741
 end
-arch sea
+arch afloor_black_right
 x 16
 y 38
 elevation -1797
 end
-arch sea
+arch afloor_black_right
 x 16
 y 39
 elevation -1824
 end
-arch sea
+arch afloor_black_right
 x 16
 y 40
 elevation -1824
 end
-arch sea
+arch afloor_black_right
 x 16
 y 41
 elevation -1795
 end
-arch sea
+arch afloor_black_right
 x 16
 y 42
 elevation -1740
 end
-arch sea
+arch afloor_black_right
 x 16
 y 43
 elevation -1659
 end
-arch sea
+arch afloor_black_right
 x 16
 y 44
 elevation -1553
 end
-arch sea
+arch afloor_black_right
 x 16
 y 45
 elevation -1425
 end
-arch sea
+arch grassdark
 x 16
 y 46
 elevation -1278
 end
-arch sea
+arch grassdark
 x 16
 y 47
 elevation -1115
 end
-arch sea
+arch grassdark
 x 16
 y 48
 elevation -942
 end
-arch sea
+arch grassdark
 x 16
 y 49
 elevation -767
@@ -4281,7 +4358,7 @@ x 17
 y 16
 elevation -4
 end
-arch shallow_sea
+arch grassmedium
 x 17
 y 17
 elevation -53
@@ -4316,12 +4393,12 @@ x 17
 y 23
 elevation -65
 end
-arch shallow_sea
+arch grassmedium
 x 17
 y 24
 elevation -60
 end
-arch shallow_sea
+arch grassmedium
 x 17
 y 25
 elevation -63
@@ -4336,112 +4413,112 @@ x 17
 y 27
 elevation -146
 end
-arch sea
+arch grassdark
 x 17
 y 28
 elevation -250
 end
-arch sea
+arch afloor_black_right
 x 17
 y 29
 elevation -396
 end
-arch sea
+arch afloor_black_right
 x 17
 y 30
 elevation -563
 end
-arch sea
+arch afloor_black_right
 x 17
 y 31
 elevation -740
 end
-arch sea
+arch afloor_black_right
 x 17
 y 32
 elevation -910
 end
-arch sea
+arch afloor_black_right
 x 17
 y 33
 elevation -1066
 end
-arch sea
+arch afloor_black_right
 x 17
 y 34
 elevation -1203
 end
-arch sea
+arch afloor_black_right
 x 17
 y 35
 elevation -1319
 end
-arch sea
+arch afloor_black_right
 x 17
 y 36
 elevation -1413
 end
-arch sea
+arch afloor_black_right
 x 17
 y 37
 elevation -1483
 end
-arch sea
+arch afloor_black_right
 x 17
 y 38
 elevation -1529
 end
-arch sea
+arch afloor_black_right
 x 17
 y 39
 elevation -1552
 end
-arch sea
+arch afloor_black_right
 x 17
 y 40
 elevation -1552
 end
-arch sea
+arch afloor_black_right
 x 17
 y 41
 elevation -1529
 end
-arch sea
+arch afloor_black_right
 x 17
 y 42
 elevation -1483
 end
-arch sea
+arch afloor_black_right
 x 17
 y 43
 elevation -1413
 end
-arch sea
+arch afloor_black_right
 x 17
 y 44
 elevation -1321
 end
-arch sea
+arch afloor_black_right
 x 17
 y 45
 elevation -1209
 end
-arch sea
+arch grassdark
 x 17
 y 46
 elevation -1078
 end
-arch sea
+arch grassdark
 x 17
 y 47
 elevation -931
 end
-arch sea
+arch grassdark
 x 17
 y 48
 elevation -768
 end
-arch sea
+arch grassdark
 x 17
 y 49
 elevation -595
@@ -4530,7 +4607,7 @@ x 18
 y 16
 elevation -86
 end
-arch sea
+arch grassmedium
 x 18
 y 17
 elevation -167
@@ -4565,7 +4642,7 @@ x 18
 y 23
 elevation -115
 end
-arch sea
+arch grassmedium
 x 18
 y 24
 elevation -101
@@ -4585,112 +4662,112 @@ x 18
 y 27
 elevation -187
 end
-arch sea
+arch grassdark
 x 18
 y 28
 elevation -274
 end
-arch sea
+arch afloor_black_right
 x 18
 y 29
 elevation -386
 end
-arch sea
+arch afloor_black_right
 x 18
 y 30
 elevation -514
 end
-arch sea
+arch afloor_black_right
 x 18
 y 31
 elevation -647
 end
-arch sea
+arch afloor_black_right
 x 18
 y 32
 elevation -776
 end
-arch sea
+arch afloor_black_right
 x 18
 y 33
 elevation -895
 end
-arch sea
+arch afloor_black_right
 x 18
 y 34
 elevation -999
 end
-arch sea
+arch afloor_black_right
 x 18
 y 35
 elevation -1087
 end
-arch sea
+arch afloor_black_right
 x 18
 y 36
 elevation -1158
 end
-arch sea
+arch afloor_black_right
 x 18
 y 37
 elevation -1212
 end
-arch sea
+arch afloor_black_right
 x 18
 y 38
 elevation -1249
 end
-arch sea
+arch afloor_black_right
 x 18
 y 39
 elevation -1268
 end
-arch sea
+arch afloor_black_right
 x 18
 y 40
 elevation -1269
 end
-arch sea
+arch afloor_black_right
 x 18
 y 41
 elevation -1252
 end
-arch sea
+arch afloor_black_right
 x 18
 y 42
 elevation -1215
 end
-arch sea
+arch afloor_black_right
 x 18
 y 43
 elevation -1158
 end
-arch sea
+arch afloor_black_right
 x 18
 y 44
 elevation -1081
 end
-arch sea
+arch afloor_black_right
 x 18
 y 45
 elevation -985
 end
-arch sea
+arch bosgrass
 x 18
 y 46
 elevation -871
 end
-arch sea
+arch grassdark
 x 18
 y 47
 elevation -740
 end
-arch sea
+arch grassdark
 x 18
 y 48
 elevation -591
 end
-arch sea
+arch grassdark
 x 18
 y 49
 elevation -416
@@ -4814,17 +4891,17 @@ x 19
 y 23
 elevation -151
 end
-arch sea
+arch grassmedium
 x 19
 y 24
 elevation -124
 end
-arch sea
+arch grassmedium
 x 19
 y 25
 elevation -119
 end
-arch sea
+arch grassmedium
 x 19
 y 26
 elevation -141
@@ -4834,112 +4911,120 @@ x 19
 y 27
 elevation -190
 end
-arch sea
+arch grassdark
 x 19
 y 28
 elevation -261
 end
-arch sea
+arch afloor_black_right
 x 19
 y 29
 elevation -349
 end
-arch sea
+arch afloor_black_right
 x 19
 y 30
 elevation -444
 end
-arch sea
+arch afloor_black_right
 x 19
 y 31
 elevation -541
 end
-arch sea
+arch afloor_black_right
 x 19
 y 32
 elevation -632
 end
-arch sea
+arch afloor_black_right
 x 19
 y 33
 elevation -714
 end
-arch sea
+arch forge
+x 19
+y 33
+end
+arch afloor_black_right
 x 19
 y 34
 elevation -785
 end
-arch sea
+arch afloor_black_right
 x 19
 y 35
 elevation -844
 end
-arch sea
+arch afloor_black_right
 x 19
 y 36
 elevation -892
 end
-arch sea
+arch afloor_black_right
 x 19
 y 37
 elevation -929
 end
-arch sea
+arch afloor_black_right
 x 19
 y 38
 elevation -955
 end
-arch sea
+arch afloor_black_right
 x 19
 y 39
 elevation -971
 end
-arch sea
+arch afloor_black_right
 x 19
 y 40
 elevation -974
 end
-arch sea
+arch jeweler_bench
+x 19
+y 40
+end
+arch afloor_black_right
 x 19
 y 41
 elevation -964
 end
-arch sea
+arch afloor_black_right
 x 19
 y 42
 elevation -939
 end
-arch sea
+arch afloor_black_right
 x 19
 y 43
 elevation -896
 end
-arch sea
+arch afloor_black_right
 x 19
 y 44
 elevation -835
 end
-arch sea
+arch afloor_black_right
 x 19
 y 45
 elevation -756
 end
-arch sea
+arch grassdark
 x 19
 y 46
 elevation -662
 end
-arch sea
+arch grassdark
 x 19
 y 47
 elevation -552
 end
-arch sea
+arch grassdark
 x 19
 y 48
 elevation -422
 end
-arch sea
+arch grassdark
 x 19
 y 49
 elevation -264
@@ -4983,7 +5068,7 @@ x 20
 y 7
 elevation 1542
 end
-arch brush
+arch grassdark
 x 20
 y 8
 elevation 608
@@ -5017,22 +5102,22 @@ x 20
 y 14
 elevation -364
 end
-arch sea
+arch grassmedium
 x 20
 y 15
 elevation -403
 end
-arch sea
+arch grassmedium
 x 20
 y 16
 elevation -434
 end
-arch sea
+arch grassmedium
 x 20
 y 17
 elevation -451
 end
-arch sea
+arch grassmedium
 x 20
 y 18
 elevation -448
@@ -5062,17 +5147,17 @@ x 20
 y 23
 elevation -168
 end
-arch sea
+arch grassmedium
 x 20
 y 24
 elevation -119
 end
-arch sea
+arch grassmedium
 x 20
 y 25
 elevation -102
 end
-arch sea
+arch grassmedium
 x 20
 y 26
 elevation -119
@@ -5082,112 +5167,112 @@ x 20
 y 27
 elevation -164
 end
-arch sea
+arch grassdark
 x 20
 y 28
 elevation -225
 end
-arch sea
+arch afloor_black_right
 x 20
 y 29
 elevation -293
 end
-arch sea
+arch afloor_black_right
 x 20
 y 30
 elevation -361
 end
-arch sea
+arch afloor_black_right
 x 20
 y 31
 elevation -425
 end
-arch sea
+arch afloor_black_right
 x 20
 y 32
 elevation -481
 end
-arch sea
+arch afloor_black_right
 x 20
 y 33
 elevation -527
 end
-arch sea
+arch afloor_black_right
 x 20
 y 34
 elevation -562
 end
-arch sea
+arch afloor_black_right
 x 20
 y 35
 elevation -589
 end
-arch sea
+arch afloor_black_right
 x 20
 y 36
 elevation -612
 end
-arch sea
+arch afloor_black_right
 x 20
 y 37
 elevation -633
 end
-arch sea
+arch afloor_black_right
 x 20
 y 38
 elevation -650
 end
-arch sea
+arch afloor_black_right
 x 20
 y 39
 elevation -661
 end
-arch sea
+arch afloor_black_right
 x 20
 y 40
 elevation -667
 end
-arch sea
+arch afloor_black_right
 x 20
 y 41
 elevation -668
 end
-arch sea
+arch afloor_black_right
 x 20
 y 42
 elevation -659
 end
-arch sea
+arch afloor_black_right
 x 20
 y 43
 elevation -634
 end
-arch sea
+arch afloor_black_right
 x 20
 y 44
 elevation -589
 end
-arch sea
+arch afloor_black_right
 x 20
 y 45
 elevation -526
 end
-arch sea
+arch grassdark
 x 20
 y 46
 elevation -452
 end
-arch sea
+arch grassdark
 x 20
 y 47
 elevation -368
 end
-arch sea
+arch grassdark
 x 20
 y 48
 elevation -271
 end
-arch sea
+arch grassdark
 x 20
 y 49
 elevation -151
@@ -5231,12 +5316,12 @@ x 21
 y 7
 elevation 335
 end
-arch shallow_sea
+arch grassdark
 x 21
 y 8
 elevation -4
 end
-arch shallow_sea
+arch grassdark
 x 21
 y 9
 elevation -40
@@ -5271,7 +5356,7 @@ x 21
 y 15
 elevation -579
 end
-arch sea
+arch grassmedium
 x 21
 y 16
 elevation -604
@@ -5286,12 +5371,12 @@ x 21
 y 18
 elevation -590
 end
-arch sea
+arch grassmedium
 x 21
 y 19
 elevation -544
 end
-arch sea
+arch grassmedium
 x 21
 y 20
 elevation -473
@@ -5306,12 +5391,12 @@ x 21
 y 22
 elevation -269
 end
-arch sea
+arch grassmedium
 x 21
 y 23
 elevation -159
 end
-arch shallow_sea
+arch grassmedium
 x 21
 y 24
 elevation -73
@@ -5321,122 +5406,134 @@ x 21
 y 25
 elevation -43
 end
-arch shallow_sea
+arch grassmedium
 x 21
 y 26
 elevation -66
 end
-arch sea
+arch grassdark
 x 21
 y 27
 elevation -121
 end
-arch sea
+arch grassdark
 x 21
 y 28
 elevation -176
 end
-arch sea
+arch afloor_black_right
 x 21
 y 29
 elevation -227
 end
-arch sea
+arch afloor_black_right
 x 21
 y 30
 elevation -271
 end
-arch sea
+arch jar
+x 21
+y 30
+end
+arch afloor_black_right
 x 21
 y 31
 elevation -305
 end
-arch sea
+arch afloor_black_right
 x 21
 y 32
 elevation -328
 end
-arch sea
+arch afloor_black_right
 x 21
 y 33
 elevation -336
 end
-arch sea
+arch afloor_black_right
 x 21
 y 34
 elevation -330
 end
-arch sea
+arch afloor_black_right
 x 21
 y 35
 elevation -321
 end
-arch sea
+arch afloor_black_right
 x 21
 y 36
 elevation -318
 end
-arch sea
+arch afloor_black_right
 x 21
 y 37
 elevation -326
 end
-arch sea
+arch afloor_black_right
 x 21
 y 38
 elevation -334
 end
-arch sea
+arch afloor_black_right
 x 21
 y 39
 elevation -340
 end
-arch sea
+arch afloor_black_right
 x 21
 y 40
 elevation -348
 end
-arch sea
+arch afloor_black_right
 x 21
 y 41
 elevation -364
 end
-arch sea
+arch afloor_black_right
 x 21
 y 42
 elevation -382
 end
-arch sea
+arch stol_king_2
+x 21
+y 42
+end
+arch afloor_black_right
 x 21
 y 43
 elevation -381
 end
-arch sea
+arch afloor_black_right
 x 21
 y 44
 elevation -348
 end
-arch sea
+arch jar
+x 21
+y 44
+end
+arch afloor_black_right
 x 21
 y 45
 elevation -294
 end
-arch sea
+arch grassdark
 x 21
 y 46
 elevation -238
 end
-arch sea
+arch grassdark
 x 21
 y 47
 elevation -188
 end
-arch sea
+arch grassdark
 x 21
 y 48
 elevation -136
 end
-arch shallow_sea
+arch grassdark
 x 21
 y 49
 elevation -75
@@ -5465,27 +5562,27 @@ x 22
 y 4
 elevation 772
 end
-arch desert
+arch grassdark
 x 22
 y 5
 elevation 80
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 6
 elevation -2
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 7
 elevation -2
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 8
 elevation -80
 end
-arch sea
+arch grassdark
 x 22
 y 9
 elevation -217
@@ -5520,7 +5617,7 @@ x 22
 y 15
 elevation -752
 end
-arch sea
+arch grassmedium
 x 22
 y 16
 elevation -774
@@ -5535,12 +5632,12 @@ x 22
 y 18
 elevation -738
 end
-arch sea
+arch grassmedium
 x 22
 y 19
 elevation -675
 end
-arch sea
+arch grassmedium
 x 22
 y 20
 elevation -578
@@ -5555,7 +5652,7 @@ x 22
 y 22
 elevation -292
 end
-arch sea
+arch grassmedium
 x 22
 y 23
 elevation -130
@@ -5570,122 +5667,122 @@ x 22
 y 25
 elevation 110
 end
-arch shallow_sea
+arch grassmedium
 x 22
 y 26
 elevation -8
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 27
 elevation -74
 end
-arch sea
+arch grassdark
 x 22
 y 28
 elevation -122
 end
-arch sea
+arch afloor_black_right
 x 22
 y 29
 elevation -163
 end
-arch sea
+arch afloor_black_right
 x 22
 y 30
 elevation -184
 end
-arch sea
+arch afloor_black_right
 x 22
 y 31
 elevation -185
 end
-arch sea
+arch afloor_black_right
 x 22
 y 32
 elevation -177
 end
-arch sea
+arch afloor_black_right
 x 22
 y 33
 elevation -159
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 34
 elevation -96
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 35
 elevation -18
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 36
 elevation -10
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 37
 elevation -9
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 38
 elevation -15
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 39
 elevation -10
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 40
 elevation -8
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 41
 elevation -38
 end
-arch sea
+arch afloor_black_right
 x 22
 y 42
 elevation -115
 end
-arch sea
+arch afloor_black_right
 x 22
 y 43
 elevation -165
 end
-arch sea
+arch afloor_black_right
 x 22
 y 44
 elevation -130
 end
-arch shallow_sea
+arch afloor_black_right
 x 22
 y 45
 elevation -43
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 46
 elevation -8
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 47
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 48
 elevation -10
 end
-arch shallow_sea
+arch grassdark
 x 22
 y 49
 elevation -10
@@ -5714,22 +5811,22 @@ x 23
 y 4
 elevation 18
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 5
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 6
 elevation -62
 end
-arch sea
+arch grassdark
 x 23
 y 7
 elevation -135
 end
-arch sea
+arch grassdark
 x 23
 y 8
 elevation -228
@@ -5769,7 +5866,7 @@ x 23
 y 15
 elevation -922
 end
-arch sea
+arch grassmedium
 x 23
 y 16
 elevation -944
@@ -5804,7 +5901,7 @@ x 23
 y 22
 elevation -323
 end
-arch shallow_sea
+arch grassmedium
 x 23
 y 23
 elevation -57
@@ -5819,122 +5916,122 @@ x 23
 y 25
 elevation 597
 end
-arch shallow_sea
+arch grassmedium
 x 23
 y 26
 elevation -2
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 27
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 23
 y 28
 elevation -83
 end
-arch sea
+arch grassdark
 x 23
 y 29
 elevation -115
 end
-arch sea
+arch grassdark
 x 23
 y 30
 elevation -113
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 31
 elevation -74
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 32
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 33
 elevation -8
 end
-arch desert
+arch grassdark
 x 23
 y 34
 elevation 29
 end
-arch brush
+arch grassdark
 x 23
 y 35
 elevation 386
 end
-arch desert
+arch grassdark
 x 23
 y 36
 elevation 528
 end
-arch brush
+arch grassdark
 x 23
 y 37
 elevation 271
 end
-arch brush
+arch grassdark
 x 23
 y 38
 elevation 161
 end
-arch grass
+arch grassdark
 x 23
 y 39
 elevation 474
 end
-arch grass
+arch grassdark
 x 23
 y 40
 elevation 484
 end
-arch grass
+arch grassdark
 x 23
 y 41
 elevation 365
 end
-arch grass
+arch grassdark
 x 23
 y 42
 elevation 70
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 43
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 23
 y 44
 elevation -10
 end
-arch desert
+arch grassdark
 x 23
 y 45
 elevation 224
 end
-arch grass
+arch grassdark
 x 23
 y 46
 elevation 471
 end
-arch grass
+arch grassdark
 x 23
 y 47
 elevation 499
 end
-arch grass
+arch grassdark
 x 23
 y 48
 elevation 320
 end
-arch grass
+arch grassdark
 x 23
 y 49
 elevation 26
@@ -5953,42 +6050,42 @@ x 24
 y 2
 elevation 45
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 3
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 4
 elevation -23
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 5
 elevation -67
 end
-arch sea
+arch grassdark
 x 24
 y 6
 elevation -134
 end
-arch sea
+arch grassdark
 x 24
 y 7
 elevation -225
 end
-arch sea
+arch grassdark
 x 24
 y 8
 elevation -337
 end
-arch sea
+arch grassdark
 x 24
 y 9
 elevation -463
 end
-arch sea
+arch grassdark
 x 24
 y 10
 elevation -597
@@ -6013,47 +6110,47 @@ x 24
 y 14
 elevation -1033
 end
-arch sea
+arch grassmedium
 x 24
 y 15
 elevation -1088
 end
-arch sea
+arch grassmedium
 x 24
 y 16
 elevation -1112
 end
-arch sea
+arch swamp
 x 24
 y 17
 elevation -1103
 end
-arch sea
+arch swamp
 x 24
 y 18
 elevation -1056
 end
-arch sea
+arch grassmedium
 x 24
 y 19
 elevation -968
 end
-arch sea
+arch swamp
 x 24
 y 20
 elevation -834
 end
-arch sea
+arch grassmedium
 x 24
 y 21
 elevation -648
 end
-arch sea
+arch grassmedium
 x 24
 y 22
 elevation -393
 end
-arch shallow_sea
+arch grassmedium
 x 24
 y 23
 elevation -34
@@ -6073,117 +6170,117 @@ x 24
 y 26
 elevation 310
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 27
 elevation -10
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 28
 elevation -74
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 29
 elevation -94
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 30
 elevation -72
 end
-arch shallow_sea
+arch grassdark
 x 24
 y 31
 elevation -4
 end
-arch brush
+arch grassdark
 x 24
 y 32
 elevation 159
 end
-arch grass
+arch grassdark
 x 24
 y 33
 elevation 757
 end
-arch hills_rocky
+arch grassdark
 x 24
 y 34
 elevation 1063
 end
-arch woods
+arch grassdark
 x 24
 y 35
 elevation 1191
 end
-arch woods
+arch grassdark
 x 24
 y 36
 elevation 1207
 end
-arch woods
+arch grassdark
 x 24
 y 37
 elevation 1148
 end
-arch evergreen
+arch grassdark
 x 24
 y 38
 elevation 1172
 end
-arch hills_rocky
+arch grassdark
 x 24
 y 39
 elevation 1263
 end
-arch evergreen
+arch grassdark
 x 24
 y 40
 elevation 1249
 end
-arch evergreen
+arch grassdark
 x 24
 y 41
 elevation 1260
 end
-arch grass
+arch grassdark
 x 24
 y 42
 elevation 876
 end
-arch grass
+arch grassdark
 x 24
 y 43
 elevation 85
 end
-arch grass
+arch grassdark
 x 24
 y 44
 elevation 137
 end
-arch grass
+arch grassdark
 x 24
 y 45
 elevation 597
 end
-arch grass
+arch grassdark
 x 24
 y 46
 elevation 757
 end
-arch grass
+arch grassdark
 x 24
 y 47
 elevation 268
 end
-arch grass
+arch grassdark
 x 24
 y 48
 elevation 720
 end
-arch grass
+arch grassdark
 x 24
 y 49
 elevation 267
@@ -6202,12 +6299,12 @@ x 25
 y 2
 elevation 26
 end
-arch shallow_sea
+arch grassdark
 x 25
 y 3
 elevation -10
 end
-arch shallow_sea
+arch grassdark
 x 25
 y 4
 elevation -43
@@ -6247,62 +6344,62 @@ x 25
 y 11
 elevation -848
 end
-arch sea
+arch grassdark
 x 25
 y 12
 elevation -981
 end
-arch sea
+arch grassdark
 x 25
 y 13
 elevation -1096
 end
-arch sea
+arch grassdark
 x 25
 y 14
 elevation -1187
 end
-arch sea
+arch grassmedium
 x 25
 y 15
 elevation -1249
 end
-arch sea
+arch grassmedium
 x 25
 y 16
 elevation -1279
 end
-arch sea
+arch swamp
 x 25
 y 17
 elevation -1271
 end
-arch sea
+arch swamp
 x 25
 y 18
 elevation -1224
 end
-arch sea
+arch grassmedium
 x 25
 y 19
 elevation -1133
 end
-arch sea
+arch grassmedium
 x 25
 y 20
 elevation -995
 end
-arch sea
+arch grassmedium
 x 25
 y 21
 elevation -801
 end
-arch sea
+arch swamp
 x 25
 y 22
 elevation -535
 end
-arch sea
+arch grassmedium
 x 25
 y 23
 elevation -158
@@ -6322,117 +6419,117 @@ x 25
 y 26
 elevation 105
 end
-arch shallow_sea
+arch grassdark
 x 25
 y 27
 elevation -38
 end
-arch sea
+arch grassdark
 x 25
 y 28
 elevation -117
 end
-arch sea
+arch grassdark
 x 25
 y 29
 elevation -115
 end
-arch shallow_sea
+arch grassdark
 x 25
 y 30
 elevation -54
 end
-arch shallow_sea
+arch grassdark
 x 25
 y 31
 elevation -1
 end
-arch brush
+arch grassdark
 x 25
 y 32
 elevation 655
 end
-arch hills
+arch grassdark
 x 25
 y 33
 elevation 1122
 end
-arch woods_2
+arch grassdark
 x 25
 y 34
 elevation 1170
 end
-arch woods
+arch grassdark
 x 25
 y 35
 elevation 1060
 end
-arch woods
+arch grassdark
 x 25
 y 36
 elevation 1069
 end
-arch evergreen
+arch grassdark
 x 25
 y 37
 elevation 1331
 end
-arch evergreen
+arch grassdark
 x 25
 y 38
 elevation 1449
 end
-arch evergreen
+arch grassdark
 x 25
 y 39
 elevation 1654
 end
-arch evergreen
+arch grassdark
 x 25
 y 40
 elevation 1740
 end
-arch woods
+arch grassdark
 x 25
 y 41
 elevation 1705
 end
-arch evergreen
+arch grassdark
 x 25
 y 42
 elevation 1153
 end
-arch desert
+arch grassdark
 x 25
 y 43
 elevation 172
 end
-arch desert
+arch grassdark
 x 25
 y 44
 elevation 378
 end
-arch grass
+arch grassdark
 x 25
 y 45
 elevation 837
 end
-arch desert
+arch grassdark
 x 25
 y 46
 elevation 660
 end
-arch evergreen
+arch grassdark
 x 25
 y 47
 elevation 1014
 end
-arch grass
+arch grassdark
 x 25
 y 48
 elevation 882
 end
-arch grass
+arch grassdark
 x 25
 y 49
 elevation 68
@@ -6451,12 +6548,12 @@ x 26
 y 2
 elevation 323
 end
-arch shallow_sea
+arch grassdark
 x 26
 y 3
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 26
 y 4
 elevation -31
@@ -6511,177 +6608,177 @@ x 26
 y 14
 elevation -1332
 end
-arch sea
+arch grassdark
 x 26
 y 15
 elevation -1404
 end
-arch sea
+arch swamp
 x 26
 y 16
 elevation -1441
 end
-arch sea
+arch swamp
 x 26
 y 17
 elevation -1439
 end
-arch sea
+arch swamp
 x 26
 y 18
 elevation -1396
 end
-arch sea
+arch grassmedium
 x 26
 y 19
 elevation -1309
 end
-arch sea
+arch grassmedium
 x 26
 y 20
 elevation -1176
 end
-arch sea
+arch grassmedium
 x 26
 y 21
 elevation -992
 end
-arch sea
+arch swamp
 x 26
 y 22
 elevation -751
 end
-arch sea
+arch swamp
 x 26
 y 23
 elevation -443
 end
-arch sea
+arch grassdark
 x 26
 y 24
 elevation -170
 end
-arch shallow_sea
+arch grassdark
 x 26
 y 25
 elevation -60
 end
-arch sea
+arch grassdark
 x 26
 y 26
 elevation -102
 end
-arch sea
+arch grassdark
 x 26
 y 27
 elevation -196
 end
-arch sea
+arch grassdark
 x 26
 y 28
 elevation -216
 end
-arch sea
+arch grassdark
 x 26
 y 29
 elevation -183
 end
-arch shallow_sea
+arch grassdark
 x 26
 y 30
 elevation -95
 end
-arch desert
+arch grassdark
 x 26
 y 31
 elevation 138
 end
-arch desert
+arch grassdark
 x 26
 y 32
 elevation 495
 end
-arch desert
+arch grassdark
 x 26
 y 33
 elevation 618
 end
-arch brush
+arch grassdark
 x 26
 y 34
 elevation 423
 end
-arch grass
+arch grassdark
 x 26
 y 35
 elevation 54
 end
-arch brush
+arch grassdark
 x 26
 y 36
 elevation 181
 end
-arch desert
+arch grassdark
 x 26
 y 37
 elevation 620
 end
-arch evergreens
+arch grassdark
 x 26
 y 38
 elevation 1664
 end
-arch evergreen
+arch grassdark
 x 26
 y 39
 elevation 1003
 end
-arch evergreen
+arch grassdark
 x 26
 y 40
 elevation 2192
 end
-arch evergreen
+arch grassdark
 x 26
 y 41
 elevation 1968
 end
-arch hills
+arch grassdark
 x 26
 y 42
 elevation 1247
 end
-arch grass
+arch grassdark
 x 26
 y 43
 elevation 270
 end
-arch desert
+arch grassdark
 x 26
 y 44
 elevation 810
 end
-arch evergreen
+arch grassdark
 x 26
 y 45
 elevation 2210
 end
-arch grass
+arch grassdark
 x 26
 y 46
 elevation 353
 end
-arch evergreen
+arch grassdark
 x 26
 y 47
 elevation 1833
 end
-arch evergreen
+arch grassdark
 x 26
 y 48
 elevation 1178
 end
-arch grass
+arch grassdark
 x 26
 y 49
 elevation 162
@@ -6715,7 +6812,7 @@ x 27
 y 5
 elevation -62
 end
-arch sea
+arch grassdark
 x 27
 y 6
 elevation -183
@@ -6760,127 +6857,127 @@ x 27
 y 14
 elevation -1467
 end
-arch sea
+arch grassdark
 x 27
 y 15
 elevation -1551
 end
-arch sea
+arch swamp
 x 27
 y 16
 elevation -1598
 end
-arch sea
+arch swamp
 x 27
 y 17
 elevation -1605
 end
-arch sea
+arch swamp
 x 27
 y 18
 elevation -1570
 end
-arch sea
+arch grassmedium
 x 27
 y 19
 elevation -1491
 end
-arch sea
+arch swamp
 x 27
 y 20
 elevation -1370
 end
-arch sea
+arch swamp
 x 27
 y 21
 elevation -1207
 end
-arch sea
+arch swamp
 x 27
 y 22
 elevation -1005
 end
-arch sea
+arch swamp
 x 27
 y 23
 elevation -788
 end
-arch sea
+arch grassdark
 x 27
 y 24
 elevation -598
 end
-arch sea
+arch grassmedium
 x 27
 y 25
 elevation -474
 end
-arch sea
+arch grassmedium
 x 27
 y 26
 elevation -419
 end
-arch sea
+arch grassmedium
 x 27
 y 27
 elevation -394
 end
-arch sea
+arch grassdark
 x 27
 y 28
 elevation -361
 end
-arch sea
+arch grassdark
 x 27
 y 29
 elevation -296
 end
-arch sea
+arch grassdark
 x 27
 y 30
 elevation -188
 end
-arch shallow_sea
+arch grassdark
 x 27
 y 31
 elevation -49
 end
-arch shallow_sea
+arch grassdark
 x 27
 y 32
 elevation -9
 end
-arch shallow_sea
+arch grassdark
 x 27
 y 33
 elevation -5
 end
-arch shallow_sea
+arch grassdark
 x 27
 y 34
 elevation -4
 end
-arch shallow_sea
+arch grassdark
 x 27
 y 35
 elevation -5
 end
-arch swamp
+arch grassdark
 x 27
 y 36
 elevation 1
 end
-arch grass
+arch grassdark
 x 27
 y 37
 elevation 375
 end
-arch hills_rocky
+arch grassdark
 x 27
 y 38
 elevation 1909
 end
-arch woods
+arch grassdark
 x 27
 y 39
 elevation 2892
@@ -6890,47 +6987,47 @@ x 27
 y 40
 elevation 2967
 end
-arch evergreen
+arch grassdark
 x 27
 y 41
 elevation 1682
 end
-arch hills_rocky
+arch grassdark
 x 27
 y 42
 elevation 2117
 end
-arch hills
+arch grassdark
 x 27
 y 43
 elevation 3170
 end
-arch steppe
+arch grassdark
 x 27
 y 44
 elevation 4183
 end
-arch hills_rocky
+arch grassdark
 x 27
 y 45
 elevation 4493
 end
-arch hills
+arch grassdark
 x 27
 y 46
 elevation 4016
 end
-arch evergreen
+arch grassdark
 x 27
 y 47
 elevation 2923
 end
-arch evergreen
+arch grassdark
 x 27
 y 48
 elevation 1557
 end
-arch grass
+arch grassdark
 x 27
 y 49
 elevation 51
@@ -7024,102 +7121,102 @@ x 28
 y 17
 elevation -1765
 end
-arch sea
+arch swamp
 x 28
 y 18
 elevation -1740
 end
-arch sea
+arch swamp
 x 28
 y 19
 elevation -1673
 end
-arch sea
+arch swamp
 x 28
 y 20
 elevation -1567
 end
-arch sea
+arch swamp
 x 28
 y 21
 elevation -1425
 end
-arch sea
+arch swampyel
 x 28
 y 22
 elevation -1258
 end
-arch sea
+arch swampyel
 x 28
 y 23
 elevation -1082
 end
-arch sea
+arch swampyel
 x 28
 y 24
 elevation -919
 end
-arch sea
+arch grass
 x 28
 y 25
 elevation -787
 end
-arch sea
+arch grass
 x 28
 y 26
 elevation -686
 end
-arch sea
+arch grassmedium
 x 28
 y 27
 elevation -605
 end
-arch sea
+arch grassdark
 x 28
 y 28
 elevation -526
 end
-arch sea
+arch grassdark
 x 28
 y 29
 elevation -435
 end
-arch sea
+arch grassdark
 x 28
 y 30
 elevation -331
 end
-arch sea
+arch grassdark
 x 28
 y 31
 elevation -233
 end
-arch sea
+arch grassdark
 x 28
 y 32
 elevation -155
 end
-arch sea
+arch grassdark
 x 28
 y 33
 elevation -104
 end
-arch shallow_sea
+arch grassdark
 x 28
 y 34
 elevation -66
 end
-arch shallow_sea
+arch grassdark
 x 28
 y 35
 elevation -33
 end
-arch shallow_sea
+arch grassdark
 x 28
 y 36
 elevation -6
 end
-arch grass
+arch grassdark
 x 28
 y 37
 elevation 492
@@ -7134,12 +7231,12 @@ x 28
 y 39
 elevation 3481
 end
-arch hills_rocky
+arch grassdark
 x 28
 y 40
 elevation 3899
 end
-arch steppe
+arch grassdark
 x 28
 y 41
 elevation 3739
@@ -7154,32 +7251,32 @@ x 28
 y 43
 elevation 5188
 end
-arch mountain
+arch grassdark
 x 28
 y 44
 elevation 6583
 end
-arch mountain
+arch grassdark
 x 28
 y 45
 elevation 6821
 end
-arch mountain
+arch grassdark
 x 28
 y 46
 elevation 5843
 end
-arch steppe
+arch grassdark
 x 28
 y 47
 elevation 4074
 end
-arch evergreen
+arch grassdark
 x 28
 y 48
 elevation 1734
 end
-arch grass
+arch grassdark
 x 28
 y 49
 elevation 205
@@ -7258,7 +7355,7 @@ x 29
 y 14
 elevation -1706
 end
-arch sea
+arch grassdark
 x 29
 y 15
 elevation -1819
@@ -7273,97 +7370,97 @@ x 29
 y 17
 elevation -1918
 end
-arch sea
+arch lostlabwater
 x 29
 y 18
 elevation -1903
 end
-arch sea
+arch lostlabwater
 x 29
 y 19
 elevation -1848
 end
-arch sea
+arch lostlabwater
 x 29
 y 20
 elevation -1755
 end
-arch sea
+arch lostlabwater
 x 29
 y 21
 elevation -1631
 end
-arch sea
+arch swampyel
 x 29
 y 22
 elevation -1485
 end
-arch sea
+arch swampyel
 x 29
 y 23
 elevation -1329
 end
-arch sea
+arch grass
 x 29
 y 24
 elevation -1176
 end
-arch sea
+arch grass
 x 29
 y 25
 elevation -1036
 end
-arch sea
+arch grass
 x 29
 y 26
 elevation -911
 end
-arch sea
+arch grassmedium
 x 29
 y 27
 elevation -798
 end
-arch sea
+arch grassdark
 x 29
 y 28
 elevation -689
 end
-arch sea
+arch grassdark
 x 29
 y 29
 elevation -580
 end
-arch sea
+arch grassdark
 x 29
 y 30
 elevation -470
 end
-arch sea
+arch grassdark
 x 29
 y 31
 elevation -365
 end
-arch sea
+arch grassdark
 x 29
 y 32
 elevation -272
 end
-arch sea
+arch grassdark
 x 29
 y 33
 elevation -192
 end
-arch sea
+arch grassdark
 x 29
 y 34
 elevation -122
 end
-arch shallow_sea
+arch grassdark
 x 29
 y 35
 elevation -59
 end
-arch shallow_sea
+arch grassdark
 x 29
 y 36
 elevation -3
@@ -7378,12 +7475,12 @@ x 29
 y 38
 elevation 2295
 end
-arch steppe
+arch grassdark
 x 29
 y 39
 elevation 3396
 end
-arch steppe
+arch grassdark
 x 29
 y 40
 elevation 4729
@@ -7403,32 +7500,32 @@ x 29
 y 43
 elevation 6529
 end
-arch mountain
+arch grassdark
 x 29
 y 44
 elevation 7861
 end
-arch mountain
+arch grassdark
 x 29
 y 45
 elevation 7935
 end
-arch mountain
+arch grassdark
 x 29
 y 46
 elevation 6616
 end
-arch steppe
+arch grassdark
 x 29
 y 47
 elevation 4368
 end
-arch evergreen
+arch grassdark
 x 29
 y 48
 elevation 2182
 end
-arch grass
+arch grassdark
 x 29
 y 49
 elevation 579
@@ -7507,7 +7604,7 @@ x 30
 y 14
 elevation -1812
 end
-arch sea
+arch grassdark
 x 30
 y 15
 elevation -1940
@@ -7517,117 +7614,117 @@ x 30
 y 16
 elevation -2023
 end
-arch sea
+arch lostlabwater
 x 30
 y 17
 elevation -2061
 end
-arch sea
+arch lostlabwater
 x 30
 y 18
 elevation -2056
 end
-arch sea
+arch lostlabwater
 x 30
 y 19
 elevation -2010
 end
-arch sea
+arch lostlabwater
 x 30
 y 20
 elevation -1928
 end
-arch sea
+arch lostlabwater
 x 30
 y 21
 elevation -1815
 end
-arch sea
+arch lostlabwater
 x 30
 y 22
 elevation -1681
 end
-arch sea
+arch swampyel
 x 30
 y 23
 elevation -1534
 end
-arch sea
+arch grass
 x 30
 y 24
 elevation -1384
 end
-arch sea
+arch grass
 x 30
 y 25
 elevation -1237
 end
-arch sea
+arch grass
 x 30
 y 26
 elevation -1097
 end
-arch sea
+arch grass
 x 30
 y 27
 elevation -964
 end
-arch sea
+arch grassmedium
 x 30
 y 28
 elevation -836
 end
-arch sea
+arch grassdark
 x 30
 y 29
 elevation -711
 end
-arch sea
+arch grassdark
 x 30
 y 30
 elevation -590
 end
-arch sea
+arch grassdark
 x 30
 y 31
 elevation -474
 end
-arch sea
+arch grassdark
 x 30
 y 32
 elevation -366
 end
-arch sea
+arch grassdark
 x 30
 y 33
 elevation -265
 end
-arch sea
+arch grassdark
 x 30
 y 34
 elevation -170
 end
-arch shallow_sea
+arch grassdark
 x 30
 y 35
 elevation -75
 end
-arch swamp
+arch grassdark
 x 30
 y 36
 elevation 1
 end
-arch grass
+arch grassdark
 x 30
 y 37
 elevation 496
 end
-arch evergreens
+arch grassdark
 x 30
 y 38
 elevation 2447
 end
-arch hills_rocky
+arch grassdark
 x 30
 y 39
 elevation 4087
@@ -7662,22 +7759,22 @@ x 30
 y 45
 elevation 8019
 end
-arch mountain
+arch grassdark
 x 30
 y 46
 elevation 6395
 end
-arch steppe
+arch grassdark
 x 30
 y 47
 elevation 3974
 end
-arch grass
+arch grassdark
 x 30
 y 48
 elevation 761
 end
-arch grass
+arch grassdark
 x 30
 y 49
 elevation 115
@@ -7741,7 +7838,7 @@ x 31
 y 11
 elevation -1218
 end
-arch sea
+arch grassdark
 x 31
 y 12
 elevation -1492
@@ -7751,7 +7848,7 @@ x 31
 y 13
 elevation -1725
 end
-arch sea
+arch grassdark
 x 31
 y 14
 elevation -1913
@@ -7761,112 +7858,112 @@ x 31
 y 15
 elevation -2054
 end
-arch sea
+arch lostlabwater
 x 31
 y 16
 elevation -2147
 end
-arch sea
+arch lostlabwater
 x 31
 y 17
 elevation -2193
 end
-arch sea
+arch lostlabwater
 x 31
 y 18
 elevation -2195
 end
-arch sea
+arch lostlabwater
 x 31
 y 19
 elevation -2156
 end
-arch sea
+arch lostlabwater
 x 31
 y 20
 elevation -2080
 end
-arch sea
+arch lostlabwater
 x 31
 y 21
 elevation -1974
 end
-arch sea
+arch lostlabwater
 x 31
 y 22
 elevation -1845
 end
-arch sea
+arch lostlabwater
 x 31
 y 23
 elevation -1701
 end
-arch sea
+arch grass
 x 31
 y 24
 elevation -1549
 end
-arch sea
+arch grass
 x 31
 y 25
 elevation -1395
 end
-arch sea
+arch grass
 x 31
 y 26
 elevation -1244
 end
-arch sea
+arch grass
 x 31
 y 27
 elevation -1098
 end
-arch sea
+arch grass
 x 31
 y 28
 elevation -956
 end
-arch sea
+arch grassmedium
 x 31
 y 29
 elevation -819
 end
-arch sea
+arch grassdark
 x 31
 y 30
 elevation -687
 end
-arch sea
+arch grassdark
 x 31
 y 31
 elevation -561
 end
-arch sea
+arch grassdark
 x 31
 y 32
 elevation -441
 end
-arch sea
+arch grassdark
 x 31
 y 33
 elevation -326
 end
-arch sea
+arch grassdark
 x 31
 y 34
 elevation -212
 end
-arch shallow_sea
+arch grassdark
 x 31
 y 35
 elevation -96
 end
-arch grass
+arch grassdark
 x 31
 y 36
 elevation 66
 end
-arch evergreens
+arch grassdark
 x 31
 y 37
 elevation 1143
@@ -7906,27 +8003,27 @@ x 31
 y 44
 elevation 8551
 end
-arch mountain
+arch grassdark
 x 31
 y 45
 elevation 7379
 end
-arch mountain
+arch grassdark
 x 31
 y 46
 elevation 5411
 end
-arch evergreen
+arch grassdark
 x 31
 y 47
 elevation 2913
 end
-arch grass
+arch grassdark
 x 31
 y 48
 elevation 270
 end
-arch shallow_sea
+arch grassdark
 x 31
 y 49
 elevation -36
@@ -8004,112 +8101,112 @@ x 32
 y 14
 elevation -2012
 end
-arch sea
+arch lostlabwater
 x 32
 y 15
 elevation -2163
 end
-arch sea
+arch lostlabwater
 x 32
 y 16
 elevation -2264
 end
-arch sea
+arch lostlabwater
 x 32
 y 17
 elevation -2315
 end
-arch sea
+arch lostlabwater
 x 32
 y 18
 elevation -2321
 end
-arch sea
+arch lostlabwater
 x 32
 y 19
 elevation -2284
 end
-arch sea
+arch lostlabwater
 x 32
 y 20
 elevation -2211
 end
-arch sea
+arch lostlabwater
 x 32
 y 21
 elevation -2106
 end
-arch sea
+arch lostlabwater
 x 32
 y 22
 elevation -1977
 end
-arch sea
+arch lostlabwater
 x 32
 y 23
 elevation -1831
 end
-arch sea
+arch lostlabwater
 x 32
 y 24
 elevation -1675
 end
-arch sea
+arch grass
 x 32
 y 25
 elevation -1514
 end
-arch sea
+arch grass
 x 32
 y 26
 elevation -1354
 end
-arch sea
+arch grass
 x 32
 y 27
 elevation -1197
 end
-arch sea
+arch grass
 x 32
 y 28
 elevation -1045
 end
-arch sea
+arch grass
 x 32
 y 29
 elevation -899
 end
-arch sea
+arch grassmedium
 x 32
 y 30
 elevation -760
 end
-arch sea
+arch grassmedium
 x 32
 y 31
 elevation -626
 end
-arch sea
+arch grassdark
 x 32
 y 32
 elevation -499
 end
-arch sea
+arch grassdark
 x 32
 y 33
 elevation -374
 end
-arch sea
+arch grassdark
 x 32
 y 34
 elevation -250
 end
-arch sea
+arch grassdark
 x 32
 y 35
 elevation -119
 end
-arch shallow_sea
+arch grassdark
 x 32
 y 36
 end
@@ -8148,32 +8245,32 @@ x 32
 y 43
 elevation 8420
 end
-arch mountain
+arch grassdark
 x 32
 y 44
 elevation 8070
 end
-arch mountain
+arch grassdark
 x 32
 y 45
 elevation 6576
 end
-arch hills_rocky
+arch grassdark
 x 32
 y 46
 elevation 4109
 end
-arch grass
+arch grassdark
 x 32
 y 47
 elevation 290
 end
-arch grass
+arch grassdark
 x 32
 y 48
 elevation 189
 end
-arch sea
+arch grassdark
 x 32
 y 49
 elevation -247
@@ -8227,7 +8324,7 @@ x 33
 y 9
 elevation -476
 end
-arch sea
+arch grassmedium
 x 33
 y 10
 elevation -915
@@ -8247,122 +8344,122 @@ x 33
 y 13
 elevation -1900
 end
-arch sea
+arch lostlabwater
 x 33
 y 14
 elevation -2113
 end
-arch sea
+arch lostlabwater
 x 33
 y 15
 elevation -2271
 end
-arch sea
+arch lostlabwater
 x 33
 y 16
 elevation -2375
 end
-arch sea
+arch lostlabwater
 x 33
 y 17
 elevation -2428
 end
-arch sea
+arch lostlabwater
 x 33
 y 18
 elevation -2433
 end
-arch sea
+arch lostlabwater
 x 33
 y 19
 elevation -2395
 end
-arch sea
+arch lostlabwater
 x 33
 y 20
 elevation -2319
 end
-arch sea
+arch lostlabwater
 x 33
 y 21
 elevation -2211
 end
-arch sea
+arch lostlabwater
 x 33
 y 22
 elevation -2077
 end
-arch sea
+arch lostlabwater
 x 33
 y 23
 elevation -1925
 end
-arch sea
+arch lostlabwater
 x 33
 y 24
 elevation -1762
 end
-arch sea
+arch grass
 x 33
 y 25
 elevation -1593
 end
-arch sea
+arch grass
 x 33
 y 26
 elevation -1424
 end
-arch sea
+arch grass
 x 33
 y 27
 elevation -1258
 end
-arch sea
+arch grass
 x 33
 y 28
 elevation -1099
 end
-arch sea
+arch grass
 x 33
 y 29
 elevation -948
 end
-arch sea
+arch grass
 x 33
 y 30
 elevation -804
 end
-arch sea
+arch grassmedium
 x 33
 y 31
 elevation -668
 end
-arch sea
+arch grassdark
 x 33
 y 32
 elevation -538
 end
-arch sea
+arch grassdark
 x 33
 y 33
 elevation -411
 end
-arch sea
+arch grassdark
 x 33
 y 34
 elevation -285
 end
-arch sea
+arch grassdark
 x 33
 y 35
 elevation -154
 end
-arch shallow_sea
+arch grassdark
 x 33
 y 36
 elevation -10
 end
-arch grass
+arch grassdark
 x 33
 y 37
 elevation 430
@@ -8402,27 +8499,27 @@ x 33
 y 44
 elevation 6717
 end
-arch mountain
+arch grassdark
 x 33
 y 45
 elevation 5147
 end
-arch woods
+arch grassdark
 x 33
 y 46
 elevation 2441
 end
-arch grass
+arch grassdark
 x 33
 y 47
 elevation 102
 end
-arch shallow_sea
+arch grassdark
 x 33
 y 48
 elevation -68
 end
-arch sea
+arch grassdark
 x 33
 y 49
 elevation -407
@@ -8471,7 +8568,7 @@ x 34
 y 8
 elevation 29
 end
-arch sea
+arch grassmedium
 x 34
 y 9
 elevation -476
@@ -8496,122 +8593,122 @@ x 34
 y 13
 elevation -2004
 end
-arch sea
+arch lostlabwater
 x 34
 y 14
 elevation -2221
 end
-arch sea
+arch lostlabwater
 x 34
 y 15
 elevation -2380
 end
-arch sea
+arch lostlabwater
 x 34
 y 16
 elevation -2483
 end
-arch sea
+arch lostlabwater
 x 34
 y 17
 elevation -2532
 end
-arch sea
+arch lostlabwater
 x 34
 y 18
 elevation -2533
 end
-arch sea
+arch lostlabwater
 x 34
 y 19
 elevation -2489
 end
-arch sea
+arch lostlabwater
 x 34
 y 20
 elevation -2405
 end
-arch sea
+arch lostlabwater
 x 34
 y 21
 elevation -2289
 end
-arch sea
+arch lostlabwater
 x 34
 y 22
 elevation -2146
 end
-arch sea
+arch lostlabwater
 x 34
 y 23
 elevation -1984
 end
-arch sea
+arch lostlabwater
 x 34
 y 24
 elevation -1810
 end
-arch sea
+arch grass
 x 34
 y 25
 elevation -1631
 end
-arch sea
+arch grass
 x 34
 y 26
 elevation -1453
 end
-arch sea
+arch grass
 x 34
 y 27
 elevation -1280
 end
-arch sea
+arch grass
 x 34
 y 28
 elevation -1116
 end
-arch sea
+arch grassmedium
 x 34
 y 29
 elevation -962
 end
-arch sea
+arch grassmedium
 x 34
 y 30
 elevation -818
 end
-arch sea
+arch grassmedium
 x 34
 y 31
 elevation -684
 end
-arch sea
+arch grassdark
 x 34
 y 32
 elevation -557
 end
-arch sea
+arch grassdark
 x 34
 y 33
 elevation -436
 end
-arch sea
+arch grassdark
 x 34
 y 34
 elevation -316
 end
-arch sea
+arch grassdark
 x 34
 y 35
 elevation -193
 end
-arch shallow_sea
+arch grassdark
 x 34
 y 36
 elevation -48
 end
-arch shallow_sea
+arch grassmedium
 x 34
 y 37
 elevation -2
@@ -8651,27 +8748,27 @@ x 34
 y 44
 elevation 4621
 end
-arch steppe
+arch grassdark
 x 34
 y 45
 elevation 3249
 end
-arch grass
+arch grassdark
 x 34
 y 46
 elevation 657
 end
-arch grass
+arch grassdark
 x 34
 y 47
 elevation 228
 end
-arch sea
+arch grassdark
 x 34
 y 48
 elevation -167
 end
-arch sea
+arch grassdark
 x 34
 y 49
 elevation -538
@@ -8720,7 +8817,7 @@ x 35
 y 8
 elevation 108
 end
-arch sea
+arch grassmedium
 x 35
 y 9
 elevation -515
@@ -8745,132 +8842,132 @@ x 35
 y 13
 elevation -2126
 end
-arch sea
+arch lostlabwater
 x 35
 y 14
 elevation -2341
 end
-arch sea
+arch lostlabwater
 x 35
 y 15
 elevation -2494
 end
-arch sea
+arch lostlabwater
 x 35
 y 16
 elevation -2590
 end
-arch sea
+arch lostlabwater
 x 35
 y 17
 elevation -2631
 end
-arch sea
+arch lostlabwater
 x 35
 y 18
 elevation -2622
 end
-arch sea
+arch lostlabwater
 x 35
 y 19
 elevation -2566
 end
-arch sea
+arch lostlabwater
 x 35
 y 20
 elevation -2471
 end
-arch sea
+arch lostlabwater
 x 35
 y 21
 elevation -2341
 end
-arch sea
+arch lostlabwater
 x 35
 y 22
 elevation -2185
 end
-arch sea
+arch lostlabwater
 x 35
 y 23
 elevation -2008
 end
-arch sea
+arch lostlabwater
 x 35
 y 24
 elevation -1821
 end
-arch sea
+arch lostlabwater
 x 35
 y 25
 elevation -1629
 end
-arch sea
+arch grassmedium
 x 35
 y 26
 elevation -1441
 end
-arch sea
+arch grassmedium
 x 35
 y 27
 elevation -1261
 end
-arch sea
+arch grassmedium
 x 35
 y 28
 elevation -1093
 end
-arch sea
+arch grassmedium
 x 35
 y 29
 elevation -940
 end
-arch sea
+arch grassmedium
 x 35
 y 30
 elevation -800
 end
-arch sea
+arch grassmedium
 x 35
 y 31
 elevation -672
 end
-arch sea
+arch grassmedium
 x 35
 y 32
 elevation -555
 end
-arch sea
+arch grassdark
 x 35
 y 33
 elevation -445
 end
-arch sea
+arch grassdark
 x 35
 y 34
 elevation -339
 end
-arch sea
+arch grassmedium
 x 35
 y 35
 elevation -234
 end
-arch sea
+arch grassmedium
 x 35
 y 36
 elevation -144
 end
-arch shallow_sea
+arch grassmedium
 x 35
 y 37
 elevation -71
 end
-arch shallow_sea
+arch grassmedium
 x 35
 y 38
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 35
 y 39
 elevation -6
@@ -8905,22 +9002,22 @@ x 35
 y 45
 elevation 2191
 end
-arch desert
+arch grassdark
 x 35
 y 46
 elevation 657
 end
-arch desert
+arch grassdark
 x 35
 y 47
 elevation 134
 end
-arch sea
+arch grassdark
 x 35
 y 48
 elevation -168
 end
-arch sea
+arch grassdark
 x 35
 y 49
 elevation -620
@@ -8994,137 +9091,137 @@ x 36
 y 13
 elevation -2272
 end
-arch sea
+arch lostlabwater
 x 36
 y 14
 elevation -2475
 end
-arch sea
+arch lostlabwater
 x 36
 y 15
 elevation -2616
 end
-arch sea
+arch lostlabwater
 x 36
 y 16
 elevation -2698
 end
-arch sea
+arch lostlabwater
 x 36
 y 17
 elevation -2726
 end
-arch sea
+arch lostlabwater
 x 36
 y 18
 elevation -2702
 end
-arch sea
+arch lostlabwater
 x 36
 y 19
 elevation -2631
 end
-arch sea
+arch lostlabwater
 x 36
 y 20
 elevation -2518
 end
-arch sea
+arch lostlabwater
 x 36
 y 21
 elevation -2370
 end
-arch sea
+arch lostlabwater
 x 36
 y 22
 elevation -2194
 end
-arch sea
+arch lostlabwater
 x 36
 y 23
 elevation -1999
 end
-arch sea
+arch lostlabwater
 x 36
 y 24
 elevation -1792
 end
-arch sea
+arch lostlabwater
 x 36
 y 25
 elevation -1585
 end
-arch sea
+arch grassmedium
 x 36
 y 26
 elevation -1384
 end
-arch sea
+arch grassmedium
 x 36
 y 27
 elevation -1197
 end
-arch sea
+arch grassmedium
 x 36
 y 28
 elevation -1028
 end
-arch sea
+arch grassmedium
 x 36
 y 29
 elevation -878
 end
-arch sea
+arch grassmedium
 x 36
 y 30
 elevation -747
 end
-arch sea
+arch grassmedium
 x 36
 y 31
 elevation -632
 end
-arch sea
+arch grassmedium
 x 36
 y 32
 elevation -530
 end
-arch sea
+arch grassmedium
 x 36
 y 33
 elevation -437
 end
-arch sea
+arch grassdark
 x 36
 y 34
 elevation -350
 end
-arch sea
+arch grassmedium
 x 36
 y 35
 elevation -269
 end
-arch sea
+arch grassmedium
 x 36
 y 36
 elevation -194
 end
-arch sea
+arch grassmedium
 x 36
 y 37
 elevation -129
 end
-arch shallow_sea
+arch grassmedium
 x 36
 y 38
 elevation -78
 end
-arch shallow_sea
+arch grassmedium
 x 36
 y 39
 elevation -31
 end
-arch shallow_sea
+arch grassmedium
 x 36
 y 40
 elevation -3
@@ -9154,22 +9251,22 @@ x 36
 y 45
 elevation 1951
 end
-arch woods_2
+arch grassdark
 x 36
 y 46
 elevation 1734
 end
-arch desert
+arch grassdark
 x 36
 y 47
 elevation 426
 end
-arch sea
+arch grassdark
 x 36
 y 48
 elevation -113
 end
-arch sea
+arch grassdark
 x 36
 y 49
 elevation -691
@@ -9248,132 +9345,132 @@ x 37
 y 14
 elevation -2624
 end
-arch sea
+arch lostlabwater
 x 37
 y 15
 elevation -2746
 end
-arch sea
+arch lostlabwater
 x 37
 y 16
 elevation -2811
 end
-arch sea
+arch lostlabwater
 x 37
 y 17
 elevation -2820
 end
-arch sea
+arch lostlabwater
 x 37
 y 18
 elevation -2777
 end
-arch sea
+arch lostlabwater
 x 37
 y 19
 elevation -2685
 end
-arch sea
+arch lostlabwater
 x 37
 y 20
 elevation -2550
 end
-arch sea
+arch lostlabwater
 x 37
 y 21
 elevation -2378
 end
-arch sea
+arch lostlabwater
 x 37
 y 22
 elevation -2177
 end
-arch sea
+arch lostlabwater
 x 37
 y 23
 elevation -1956
 end
-arch sea
+arch lostlabwater
 x 37
 y 24
 elevation -1725
 end
-arch sea
+arch lostlabwater
 x 37
 y 25
 elevation -1497
 end
-arch sea
+arch grassmedium
 x 37
 y 26
 elevation -1280
 end
-arch sea
+arch grassmedium
 x 37
 y 27
 elevation -1085
 end
-arch sea
+arch grassmedium
 x 37
 y 28
 elevation -916
 end
-arch sea
+arch grassmedium
 x 37
 y 29
 elevation -774
 end
-arch sea
+arch grassmedium
 x 37
 y 30
 elevation -657
 end
-arch sea
+arch grassmedium
 x 37
 y 31
 elevation -562
 end
-arch sea
+arch grassmedium
 x 37
 y 32
 elevation -481
 end
-arch sea
+arch grassmedium
 x 37
 y 33
 elevation -411
 end
-arch sea
+arch grassmedium
 x 37
 y 34
 elevation -347
 end
-arch sea
+arch grassmedium
 x 37
 y 35
 elevation -287
 end
-arch sea
+arch grassmedium
 x 37
 y 36
 elevation -229
 end
-arch sea
+arch grassmedium
 x 37
 y 37
 elevation -174
 end
-arch sea
+arch grassmedium
 x 37
 y 38
 elevation -122
 end
-arch shallow_sea
+arch grassmedium
 x 37
 y 39
 elevation -74
 end
-arch shallow_sea
+arch grassmedium
 x 37
 y 40
 elevation -19
@@ -9408,17 +9505,17 @@ x 37
 y 46
 elevation 2032
 end
-arch desert
+arch grassdark
 x 37
 y 47
 elevation 944
 end
-arch sea
+arch grassdark
 x 37
 y 48
 elevation -136
 end
-arch sea
+arch grassdark
 x 37
 y 49
 elevation -794
@@ -9497,137 +9594,137 @@ x 38
 y 14
 elevation -2789
 end
-arch sea
+arch lostlabwater
 x 38
 y 15
 elevation -2888
 end
-arch sea
+arch lostlabwater
 x 38
 y 16
 elevation -2930
 end
-arch sea
+arch lostlabwater
 x 38
 y 17
 elevation -2917
 end
-arch sea
+arch lostlabwater
 x 38
 y 18
 elevation -2850
 end
-arch sea
+arch lostlabwater
 x 38
 y 19
 elevation -2733
 end
-arch sea
+arch lostlabwater
 x 38
 y 20
 elevation -2571
 end
-arch sea
+arch lostlabwater
 x 38
 y 21
 elevation -2369
 end
-arch sea
+arch lostlabwater
 x 38
 y 22
 elevation -2136
 end
-arch sea
+arch lostlabwater
 x 38
 y 23
 elevation -1882
 end
-arch sea
+arch lostlabwater
 x 38
 y 24
 elevation -1619
 end
-arch sea
+arch lostlabwater
 x 38
 y 25
 elevation -1362
 end
-arch sea
+arch grassmedium
 x 38
 y 26
 elevation -1125
 end
-arch sea
+arch grassmedium
 x 38
 y 27
 elevation -919
 end
-arch sea
+arch grassmedium
 x 38
 y 28
 elevation -752
 end
-arch sea
+arch grassmedium
 x 38
 y 29
 elevation -624
 end
-arch sea
+arch grassmedium
 x 38
 y 30
 elevation -529
 end
-arch sea
+arch grassmedium
 x 38
 y 31
 elevation -460
 end
-arch sea
+arch grassmedium
 x 38
 y 32
 elevation -409
 end
-arch sea
+arch grassmedium
 x 38
 y 33
 elevation -368
 end
-arch sea
+arch grassmedium
 x 38
 y 34
 elevation -331
 end
-arch sea
+arch grassmedium
 x 38
 y 35
 elevation -293
 end
-arch sea
+arch grassmedium
 x 38
 y 36
 elevation -253
 end
-arch sea
+arch grassmedium
 x 38
 y 37
 elevation -209
 end
-arch sea
+arch grassmedium
 x 38
 y 38
 elevation -162
 end
-arch sea
+arch grassmedium
 x 38
 y 39
 elevation -112
 end
-arch shallow_sea
+arch grassmedium
 x 38
 y 40
 elevation -60
 end
-arch shallow_sea
+arch grassmedium
 x 38
 y 41
 elevation -6
@@ -9662,12 +9759,12 @@ x 38
 y 47
 elevation 396
 end
-arch sea
+arch grassdark
 x 38
 y 48
 elevation -292
 end
-arch sea
+arch grassmedium
 x 38
 y 49
 elevation -961
@@ -9806,82 +9903,82 @@ x 39
 y 26
 elevation -909
 end
-arch sea
+arch grassmedium
 x 39
 y 27
 elevation -690
 end
-arch sea
+arch grassmedium
 x 39
 y 28
 elevation -530
 end
-arch sea
+arch grassmedium
 x 39
 y 29
 elevation -424
 end
-arch sea
+arch grassmedium
 x 39
 y 30
 elevation -359
 end
-arch sea
+arch grassmedium
 x 39
 y 31
 elevation -327
 end
-arch sea
+arch grassmedium
 x 39
 y 32
 elevation -314
 end
-arch sea
+arch grassmedium
 x 39
 y 33
 elevation -311
 end
-arch sea
+arch grassmedium
 x 39
 y 34
 elevation -306
 end
-arch sea
+arch grassmedium
 x 39
 y 35
 elevation -294
 end
-arch sea
+arch grassmedium
 x 39
 y 36
 elevation -273
 end
-arch sea
+arch grassmedium
 x 39
 y 37
 elevation -242
 end
-arch sea
+arch grassmedium
 x 39
 y 38
 elevation -201
 end
-arch sea
+arch grassmedium
 x 39
 y 39
 elevation -153
 end
-arch shallow_sea
+arch grassmedium
 x 39
 y 40
 elevation -98
 end
-arch shallow_sea
+arch grassmedium
 x 39
 y 41
 elevation -29
 end
-arch shallow_sea
+arch grassmedium
 x 39
 y 42
 elevation -2
@@ -9906,17 +10003,17 @@ x 39
 y 46
 elevation 611
 end
-arch shallow_sea
+arch grassmedium
 x 39
 y 47
 elevation -5
 end
-arch sea
+arch grassmedium
 x 39
 y 48
 elevation -593
 end
-arch sea
+arch grassmedium
 x 39
 y 49
 elevation -1183
@@ -10065,72 +10162,72 @@ x 40
 y 28
 elevation -241
 end
-arch sea
+arch grassmedium
 x 40
 y 29
 elevation -170
 end
-arch sea
+arch grassmedium
 x 40
 y 30
 elevation -152
 end
-arch sea
+arch grassmedium
 x 40
 y 31
 elevation -157
 end
-arch sea
+arch grassmedium
 x 40
 y 32
 elevation -205
 end
-arch sea
+arch grassmedium
 x 40
 y 33
 elevation -249
 end
-arch sea
+arch grassmedium
 x 40
 y 34
 elevation -281
 end
-arch sea
+arch grassmedium
 x 40
 y 35
 elevation -296
 end
-arch sea
+arch grassmedium
 x 40
 y 36
 elevation -295
 end
-arch sea
+arch grassmedium
 x 40
 y 37
 elevation -277
 end
-arch sea
+arch grassmedium
 x 40
 y 38
 elevation -244
 end
-arch sea
+arch grassmedium
 x 40
 y 39
 elevation -197
 end
-arch sea
+arch grassmedium
 x 40
 y 40
 elevation -139
 end
-arch shallow_sea
+arch grassmedium
 x 40
 y 41
 elevation -79
 end
-arch shallow_sea
+arch grassmedium
 x 40
 y 42
 elevation -7
@@ -10145,27 +10242,27 @@ x 40
 y 44
 elevation 124
 end
-arch grass
+arch grassmedium
 x 40
 y 45
 elevation 171
 end
-arch shallow_sea
+arch grassmedium
 x 40
 y 46
 elevation -4
 end
-arch sea
+arch grassmedium
 x 40
 y 47
 elevation -369
 end
-arch sea
+arch grassmedium
 x 40
 y 48
 elevation -884
 end
-arch sea
+arch grassmedium
 x 40
 y 49
 elevation -1431
@@ -10349,82 +10446,82 @@ x 41
 y 33
 elevation -196
 end
-arch sea
+arch grassmedium
 x 41
 y 34
 elevation -264
 end
-arch sea
+arch grassmedium
 x 41
 y 35
 elevation -307
 end
-arch sea
+arch grassmedium
 x 41
 y 36
 elevation -326
 end
-arch sea
+arch grassmedium
 x 41
 y 37
 elevation -321
 end
-arch sea
+arch grassmedium
 x 41
 y 38
 elevation -294
 end
-arch sea
+arch grassmedium
 x 41
 y 39
 elevation -247
 end
-arch sea
+arch grassmedium
 x 41
 y 40
 elevation -186
 end
-arch sea
+arch grassmedium
 x 41
 y 41
 elevation -117
 end
-arch shallow_sea
+arch grassmedium
 x 41
 y 42
 elevation -53
 end
-arch shallow_sea
+arch grassmedium
 x 41
 y 43
 elevation -9
 end
-arch shallow_sea
+arch grassmedium
 x 41
 y 44
 elevation -9
 end
-arch shallow_sea
+arch grassmedium
 x 41
 y 45
 elevation -60
 end
-arch sea
+arch grassmedium
 x 41
 y 46
 elevation -278
 end
-arch sea
+arch grassmedium
 x 41
 y 47
 elevation -658
 end
-arch sea
+arch grassmedium
 x 41
 y 48
 elevation -1140
 end
-arch sea
+arch grassmedium
 x 41
 y 49
 elevation -1671
@@ -10603,77 +10700,77 @@ x 42
 y 34
 elevation -265
 end
-arch sea
+arch grassmedium
 x 42
 y 35
 elevation -334
 end
-arch sea
+arch grassmedium
 x 42
 y 36
 elevation -372
 end
-arch sea
+arch grassmedium
 x 42
 y 37
 elevation -380
 end
-arch sea
+arch grassmedium
 x 42
 y 38
 elevation -358
 end
-arch sea
+arch grassmedium
 x 42
 y 39
 elevation -308
 end
-arch sea
+arch grassmedium
 x 42
 y 40
 elevation -236
 end
-arch sea
+arch grassmedium
 x 42
 y 41
 elevation -154
 end
-arch shallow_sea
+arch grassmedium
 x 42
 y 42
 elevation -77
 end
-arch shallow_sea
+arch grassmedium
 x 42
 y 43
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 42
 y 44
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 42
 y 45
 elevation -87
 end
-arch sea
+arch grassmedium
 x 42
 y 46
 elevation -386
 end
-arch sea
+arch grassmedium
 x 42
 y 47
 elevation -832
 end
-arch sea
+arch grassmedium
 x 42
 y 48
 elevation -1353
 end
-arch sea
+arch grassmedium
 x 42
 y 49
 elevation -1896
@@ -10857,62 +10954,62 @@ x 43
 y 35
 elevation -384
 end
-arch sea
+arch grassmedium
 x 43
 y 36
 elevation -442
 end
-arch sea
+arch grassmedium
 x 43
 y 37
 elevation -462
 end
-arch sea
+arch grassmedium
 x 43
 y 38
 elevation -443
 end
-arch sea
+arch grassmedium
 x 43
 y 39
 elevation -386
 end
-arch sea
+arch grassmedium
 x 43
 y 40
 elevation -295
 end
-arch sea
+arch grassmedium
 x 43
 y 41
 elevation -182
 end
-arch shallow_sea
+arch grassmedium
 x 43
 y 42
 elevation -82
 end
-arch shallow_sea
+arch grassmedium
 x 43
 y 43
 elevation -6
 end
-arch grass
+arch grassmedium
 x 43
 y 44
 elevation 268
 end
-arch desert
+arch grassmedium
 x 43
 y 45
 elevation 119
 end
-arch sea
+arch grassmedium
 x 43
 y 46
 elevation -340
 end
-arch sea
+arch grassmedium
 x 43
 y 47
 elevation -942
@@ -11116,57 +11213,57 @@ x 44
 y 35
 elevation -463
 end
-arch sea
+arch grassmedium
 x 44
 y 36
 elevation -543
 end
-arch sea
+arch grassmedium
 x 44
 y 37
 elevation -576
 end
-arch sea
+arch grassmedium
 x 44
 y 38
 elevation -560
 end
-arch sea
+arch grassmedium
 x 44
 y 39
 elevation -494
 end
-arch sea
+arch grassmedium
 x 44
 y 40
 elevation -376
 end
-arch sea
+arch grassmedium
 x 44
 y 41
 elevation -216
 end
-arch shallow_sea
+arch grassmedium
 x 44
 y 42
 elevation -10
 end
-arch shallow_sea
+arch grassmedium
 x 44
 y 43
 elevation -5
 end
-arch desert
+arch grassmedium
 x 44
 y 44
 elevation 960
 end
-arch desert
+arch grassmedium
 x 44
 y 45
 elevation 750
 end
-arch sea
+arch grassmedium
 x 44
 y 46
 elevation -278
@@ -11394,37 +11491,37 @@ x 45
 y 36
 elevation -682
 end
-arch sea
+arch grassmedium
 x 45
 y 37
 elevation -730
 end
-arch sea
+arch grassmedium
 x 45
 y 38
 elevation -720
 end
-arch sea
+arch grassmedium
 x 45
 y 39
 elevation -647
 end
-arch sea
+arch grassmedium
 x 45
 y 40
 elevation -504
 end
-arch sea
+arch grassmedium
 x 45
 y 41
 elevation -271
 end
-arch shallow_sea
+arch grassmedium
 x 45
 y 42
 elevation -2
 end
-arch desert
+arch grassmedium
 x 45
 y 43
 elevation 813
@@ -11652,32 +11749,32 @@ x 46
 y 36
 elevation -868
 end
-arch sea
+arch grassmedium
 x 46
 y 37
 elevation -933
 end
-arch sea
+arch grassmedium
 x 46
 y 38
 elevation -933
 end
-arch sea
+arch grassmedium
 x 46
 y 39
 elevation -862
 end
-arch sea
+arch grassmedium
 x 46
 y 40
 elevation -708
 end
-arch sea
+arch grassmedium
 x 46
 y 41
 elevation -441
 end
-arch desert
+arch grassmedium
 x 46
 y 42
 elevation 101
@@ -11906,27 +12003,27 @@ x 47
 y 37
 elevation -1189
 end
-arch sea
+arch grassmedium
 x 47
 y 38
 elevation -1203
 end
-arch sea
+arch grassmedium
 x 47
 y 39
 elevation -1147
 end
-arch sea
+arch grassmedium
 x 47
 y 40
 elevation -1011
 end
-arch sea
+arch grassmedium
 x 47
 y 41
 elevation -763
 end
-arch sea
+arch grassmedium
 x 47
 y 42
 elevation -355
@@ -12160,22 +12257,22 @@ x 48
 y 38
 elevation -1530
 end
-arch sea
+arch grassmedium
 x 48
 y 39
 elevation -1499
 end
-arch sea
+arch grassmedium
 x 48
 y 40
 elevation -1404
 end
-arch sea
+arch grassmedium
 x 48
 y 41
 elevation -1242
 end
-arch sea
+arch grassmedium
 x 48
 y 42
 elevation -1022
@@ -12409,17 +12506,17 @@ x 49
 y 38
 elevation -1904
 end
-arch sea
+arch grassmedium
 x 49
 y 39
 elevation -1901
 end
-arch sea
+arch grassmedium
 x 49
 y 40
 elevation -1856
 end
-arch sea
+arch grassmedium
 x 49
 y 41
 elevation -1783
