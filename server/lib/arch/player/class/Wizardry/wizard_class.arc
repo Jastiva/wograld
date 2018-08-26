@@ -15,7 +15,7 @@ wizard.171
 wizard.172
 facings 4
 mina
-is_animated 0
+is_animated 1
 type 37
 Str -3
 Dex 0
