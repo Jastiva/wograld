@@ -199,3 +199,44 @@ editable 512
 visibility 100
 end
 
+Object wall_1_2_split
+name crumbled wall
+face wall_1_split.111
+color_fg brown
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+visibility 100
+end
+Object wall_1_4_split
+name crumbled wall
+face wall_2_split.111
+color_fg brown
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+visibility 100
+end
+Object wall_1_1_split
+name crumbled wall
+face wall_4_split.111
+color_fg brown
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+visibility 100
+end
+Object wall_1_3_split
+name crumbled wall
+face wall_8_split.111
+color_fg brown
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+visibility 100
+end
+
