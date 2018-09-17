@@ -7,8 +7,6 @@ color_fg white
 anim
 para_air.111
 para_air.112
-para_air.113
-para_air.114
 mina
 monster 1
 alive 1

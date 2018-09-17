@@ -7,8 +7,6 @@ color_fg red
 anim
 para_lava.111
 para_lava.112
-para_lava.113
-para_lava.112
 mina
 monster 1
 alive 1

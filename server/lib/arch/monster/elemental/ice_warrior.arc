@@ -1,7 +1,11 @@
 Object ice_warrior
 name ice warrior
 race elemental
-face ice_warrior.x11
+face ice_warrior.111
+anim
+ice_warrior.111
+ice_warrior.112
+mina
 randomitems ice_warrior
 monster 1
 move_type walk 
@@ -51,86 +55,4 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-end
-More
-Object ice_warrior_2
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-x 1
-weight 75000
-end
-More
-Object ice_warrior_3
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 1
-weight 75000
-end
-More
-Object ice_warrior_4
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 1
-x 1
-weight 75000
-end
-More
-Object ice_warrior_5
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 2
-x 0
-weight 75000
-end
-More
-Object ice_warrior_6
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 2
-x 1
-weight 75000
-end
-More
-Object ice_warrior_7
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 3
-x 0
-weight 75000
-end
-More
-Object ice_warrior_8
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 3
-x 1
-weight 75000
 end

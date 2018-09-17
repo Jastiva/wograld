@@ -7,7 +7,6 @@ color_fg blue
 anim
 para_water.111
 para_water.112
-para_water.113
 mina
 monster 1
 alive 1

@@ -6,6 +6,7 @@ color_fg blue
 anim
 elem_water.111
 elem_water.112
+elem_water.113
 mina
 monster 1
 alive 1
