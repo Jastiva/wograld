@@ -1,10 +1,10 @@
 Object golem_necro
 race unnatural
 name golem of Necromancer
-face gol.x11
+face gol.111
 anim
-gol.x11
-gol.x12
+gol.111
+gol.112
 mina
 speed -0.4
 Str 60
@@ -56,71 +56,4 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-end
-More
-Object golem_necro_2
-name golem of Necromancer
-face gol.x11
-anim
-gol.x11
-gol.x12
-mina
-monster 1
-alive 1
-x 1
-magicmap grey
-end
-More
-Object golem_necro_3
-name golem of Necromancer
-face gol.x11
-anim
-gol.x11
-gol.x12
-mina
-monster 1
-alive 1
-y 1
-magicmap grey
-end
-More
-Object golem_necro_4
-name golem of Necromancer
-face gol.x11
-anim
-gol.x11
-gol.x12
-mina
-monster 1
-alive 1
-x 1
-y 1
-magicmap grey
-end
-More
-Object golem_necro_5
-name golem of Necromancer
-face gol.x11
-anim
-gol.x11
-gol.x12
-mina
-monster 1
-alive 1
-y 2
-magicmap grey
-end
-More
-Object golem_necro_6
-name golem of Necromancer
-face gol.x11
-anim
-gol.x11
-gol.x12
-mina
-monster 1
-alive 1
-x 1
-y 2
-magicmap grey
 end
