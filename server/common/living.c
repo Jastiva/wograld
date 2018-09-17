@@ -1305,8 +1305,19 @@ void fix_player(object *op) {
 	 * weight limit, then player suffers a speed reduction based on how
 	 * much above he is, and what is max carry is
 	 */
-	f=(op->carrying/1000)-max_carry[op->stats.Str];
-	if(f>0) op->speed=op->speed/(1.0+f/max_carry[op->stats.Str]);
+//	f=(op->carrying/1000)-max_carry[op->stats.Str];
+//	if(f>0) op->speed=op->speed/(1.0+f/max_carry[op->stats.Str]);
+
+
+	printf("%s\n",op->name);
+	printf("%i\n",(int)(op->carrying));
+	 f=((float)(op->carrying))/((float)weight_limit[op->stats.Str]);
+	printf("%f\n",f);	
+	if(f > 0.5)
+	{
+	printf("burden\n");
+		op->speed = (op->speed)/(2*f);
+	}
     }
 
     op->speed+=bonus_speed/10.0; /* Not affected by limits */
