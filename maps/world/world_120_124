@@ -3,7 +3,7 @@ name world_120_124
 width 50
 height 50
 msg
-Modified: 2018-09-11 lori
+Modified: 2018-09-21 lori
 endmsg
 outdoor 1
 tile_path_1 world_120_123
@@ -565,6 +565,10 @@ x 2
 y 21
 elevation -267
 end
+arch desertcliff2
+x 2
+y 21
+end
 arch lostlabdesert
 x 2
 y 22
@@ -809,25 +813,45 @@ x 3
 y 20
 elevation -182
 end
+arch desertcliff2
+x 3
+y 20
+end
 arch lostlabdesert
 x 3
 y 21
 elevation -185
+end
+arch desertcliff2
+x 3
+y 21
 end
 arch desert
 x 3
 y 22
 elevation -181
 end
+arch desertcliff4
+x 3
+y 22
+end
 arch desert
 x 3
 y 23
 elevation -175
 end
+arch desertcliff4
+x 3
+y 23
+end
 arch desert
 x 3
 y 24
 elevation -166
+end
+arch desertcliff4
+x 3
+y 24
 end
 arch lostlabdesert
 x 3
@@ -1063,6 +1087,10 @@ x 4
 y 21
 elevation -98
 end
+arch desertcliff2
+x 4
+y 21
+end
 arch desert
 x 4
 y 22
@@ -1077,6 +1105,10 @@ arch desert
 x 4
 y 24
 elevation -94
+end
+arch desertcliff4
+x 4
+y 24
 end
 arch desert
 x 4
@@ -1297,20 +1329,36 @@ x 5
 y 18
 elevation -53
 end
+arch desertcliff3
+x 5
+y 18
+end
 arch desert
 x 5
 y 19
 elevation -51
+end
+arch desertcliff3
+x 5
+y 19
 end
 arch desert
 x 5
 y 20
 elevation -24
 end
+arch desertcliff2
+x 5
+y 20
+end
 arch desert
 x 5
 y 21
 elevation -1
+end
+arch desertcliff2
+x 5
+y 21
 end
 arch desert
 x 5
@@ -1549,6 +1597,10 @@ arch lostlabdesert2
 x 6
 y 19
 elevation -10
+end
+arch desertcliff3
+x 6
+y 19
 end
 arch desert
 x 6
@@ -1793,10 +1845,18 @@ x 7
 y 18
 elevation -3
 end
+arch desertcliff3
+x 7
+y 18
+end
 arch lostlabdesert2
 x 7
 y 19
 elevation -10
+end
+arch desertcliff3
+x 7
+y 19
 end
 arch desert
 x 7
@@ -2040,6 +2100,10 @@ arch desert
 x 8
 y 18
 elevation 165
+end
+arch desertcliff3
+x 8
+y 18
 end
 arch desert
 x 8
@@ -2285,10 +2349,18 @@ x 9
 y 17
 elevation 1427
 end
+arch desertcliff3
+x 9
+y 17
+end
 arch desert
 x 9
 y 18
 elevation 1547
+end
+arch desertcliff3
+x 9
+y 18
 end
 arch desert
 x 9
@@ -2532,6 +2604,10 @@ arch desert
 x 10
 y 17
 elevation 2217
+end
+arch desertcliff3
+x 10
+y 17
 end
 arch desert
 x 10
@@ -2787,10 +2863,18 @@ x 11
 y 18
 elevation 222
 end
+arch desertcliff3
+x 11
+y 18
+end
 arch desert
 x 11
 y 19
 elevation 158
+end
+arch desertcliff3
+x 11
+y 19
 end
 arch desert
 x 11
@@ -3045,6 +3129,10 @@ arch desert
 x 12
 y 20
 elevation 47
+end
+arch desertcliff3
+x 12
+y 20
 end
 arch desert
 x 12
@@ -3523,6 +3611,10 @@ arch lostlabdesert
 x 14
 y 16
 elevation 3874
+end
+arch desertcliff3
+x 14
+y 16
 end
 arch lostlabdesert
 x 14
