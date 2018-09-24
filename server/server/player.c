@@ -2533,7 +2533,10 @@ void do_some_living(object *op) {
     /* Regenerate Hit Points */
     if(--op->last_heal<0) {
       if(op->stats.hp<op->stats.maxhp) {
+	if(op->stats.food >= 0)
+	{
 	op->stats.hp++;
+	}
  	/* dms do not consume food */
  	if (!QUERY_FLAG(op,FLAG_WIZ)) {
  	   op->stats.food--;
@@ -2570,7 +2573,7 @@ void do_some_living(object *op) {
     if (!QUERY_FLAG(op,FLAG_WIZ)) op->stats.food--;
     }
   }
-
+/*
     if(op->contr->state==ST_PLAYING&&op->stats.food<0&&op->stats.hp>=0) {
 	object *tmp, *flesh=NULL;
 
@@ -2583,22 +2586,33 @@ void do_some_living(object *op) {
 			break;
 		}
 		else if (tmp->type==FLESH) flesh=tmp;
-	    } /* End if paid for object */
-	} /* end of for loop */
+	    } 
+	*/ /* End if paid for object */
+//	} /* end of for loop */
 	/* If player is still starving, it means they don't have any food, so
 	 * eat flesh instead.
 	 */
+	/*
 	if (op->stats.food<0 && op->stats.hp>=0 && flesh) {
 	    new_draw_info(NDI_UNIQUE, 0,op,"You blindly grab for a bite of food.");
 	    manual_apply(op,flesh,0);
 	}
-    } /* end if player is starving */
-
+    } */
+/* end if player is starving */
+/*
     while(op->stats.food<0&&op->stats.hp>0)
 	op->stats.food++,op->stats.hp--;
-
-    if (!op->contr->state&&!QUERY_FLAG(op,FLAG_WIZ)&&(op->stats.hp<0||op->stats.food<0)) 
+*/
+	if(op->stats.food<0)
+	{
+		op->stats.food=-1;
+	}
+    if (!op->contr->state&&!QUERY_FLAG(op,FLAG_WIZ)&&(op->stats.hp<0)) 
+	{
 	kill_player(op);
+	}
+//op->stats.food<0
+
 }
 
 
