@@ -7,7 +7,7 @@ enter_x 17
 enter_y 18
 msg
 Created:  1993-10-15
-Modified: 2018-06-14 lori
+Modified: 2018-09-23 lori
 endmsg
 end
 arch lostlabfloor3
@@ -452,6 +452,10 @@ arch grassdark
 x 3
 y 13
 end
+arch tree6_darkerstill
+x 3
+y 13
+end
 arch grassdark
 x 3
 y 14
@@ -704,6 +708,10 @@ arch grassdark
 x 5
 y 15
 end
+arch tree6_darkerstill
+x 5
+y 15
+end
 arch grassdark
 x 5
 y 16
@@ -952,6 +960,10 @@ arch grass
 x 7
 y 15
 end
+arch tree6_gray
+x 7
+y 15
+end
 arch grass
 x 7
 y 16
@@ -1055,6 +1067,10 @@ x 8
 y 14
 end
 arch grass
+x 8
+y 15
+end
+arch tree6_gray
 x 8
 y 15
 end
@@ -1326,7 +1342,7 @@ arch awall_2_1_2
 x 10
 y 14
 end
-arch tree01a
+arch jungle_1
 x 10
 y 15
 end
@@ -1590,6 +1606,10 @@ arch grass
 x 12
 y 15
 end
+arch tree6_gray
+x 12
+y 15
+end
 arch grass
 x 12
 y 16
@@ -1832,6 +1852,10 @@ arch grass
 x 14
 y 15
 end
+arch tree6_darkerstill
+x 14
+y 15
+end
 arch grass
 x 14
 y 16
@@ -2071,11 +2095,10 @@ y 18
 end
 arch exit
 slaying /world/world_105_115
-hp 13
-sp 42
+hp 12
+sp 49
 x 16
 y 19
-speed_left -0.200000
 end
 arch cobblestones
 x 16
@@ -2226,11 +2249,10 @@ y 18
 end
 arch exit
 slaying /world/world_105_115
-hp 13
-sp 42
+hp 12
+sp 49
 x 17
 y 19
-speed_left -0.200000
 end
 arch cobblestones
 x 17

@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-02-16
-Modified: 2018-09-19 lori
+Modified: 2018-09-24 lori
 Modified: 2015-01-17 serpentshard
 endmsg
 outdoor 1
@@ -7808,7 +7808,7 @@ x 30
 y 39
 elevation 7671
 end
-arch cwall_2_2_1
+arch cwall_2_1_1
 x 30
 y 39
 end
@@ -7816,6 +7816,10 @@ arch grass_only
 x 30
 y 40
 elevation 4356
+end
+arch cwall_2_2_1
+x 30
+y 40
 end
 arch hills
 x 30
@@ -8099,12 +8103,12 @@ arch grass_only
 x 31
 y 37
 end
-arch grass_only
+arch dungeon_magic
 x 31
 y 38
 elevation 10125
 end
-arch dungeon_magic
+arch grass_only
 x 31
 y 38
 end
@@ -8113,7 +8117,7 @@ x 31
 y 39
 elevation 7243
 end
-arch cwall_2_1_2
+arch dungeon_magic
 x 31
 y 39
 end
@@ -8121,6 +8125,10 @@ arch hills
 x 31
 y 40
 elevation 3887
+end
+arch cwall_2_1_2
+x 31
+y 40
 end
 arch brush
 x 31
@@ -8424,6 +8432,14 @@ arch grass_only
 x 32
 y 37
 end
+arch minihouse
+name Mike Miller's House
+slaying /scorn/houses/house3.1st
+hp 6
+sp 8
+x 32
+y 37
+end
 arch dungeon_magic
 x 32
 y 38
@@ -8433,12 +8449,12 @@ arch grass_only
 x 32
 y 38
 end
-arch grass_only
+arch dungeon_magic
 x 32
 y 39
 elevation 6103
 end
-arch cwall_2_1_2
+arch grass_only
 x 32
 y 39
 end
@@ -8446,6 +8462,10 @@ arch hills
 x 32
 y 40
 elevation 618
+end
+arch cwall_2_1_2
+x 32
+y 40
 end
 arch hills
 x 32
@@ -8742,19 +8762,23 @@ arch bosgrass3
 x 33
 y 38
 end
-arch treed_hills
+arch dungeon_magic
 x 33
 y 39
 elevation 5297
 end
-arch cwall_2_1_2
+arch grass
 x 33
 y 39
 end
-arch hills
+arch grass
 x 33
 y 40
 elevation 1400
+end
+arch cwall_2_1_2
+x 33
+y 40
 end
 arch hills
 x 33
@@ -9054,6 +9078,14 @@ arch bosgrass3
 x 34
 y 37
 end
+arch minihouse_shop
+name Abandoned House
+slaying /scorn/houses/house3.2nd
+hp 5
+sp 9
+x 34
+y 37
+end
 arch dungeon_magic
 x 34
 y 38
@@ -9063,19 +9095,23 @@ arch grass_only
 x 34
 y 38
 end
-arch treed_hills
+arch dungeon_magic
 x 34
 y 39
 elevation 6215
 end
-arch cwall_2_1_2
+arch grass
 x 34
 y 39
 end
-arch treed_hills
+arch grass
 x 34
 y 40
 elevation 5624
+end
+arch cwall_2_1_2
+x 34
+y 40
 end
 arch treed_hills
 x 34
@@ -9368,19 +9404,23 @@ arch grass_only
 x 35
 y 38
 end
-arch hills
+arch dungeon_magic
 x 35
 y 39
 elevation 8021
 end
-arch cwall_2_1_2
+arch grass
 x 35
 y 39
 end
-arch hills
+arch grass
 x 35
 y 40
 elevation 8124
+end
+arch cwall_2_1_2
+x 35
+y 40
 end
 arch treed_hills
 x 35
@@ -9693,21 +9733,25 @@ arch grass_only
 x 36
 y 38
 end
-arch treed_hills
+arch dungeon_magic
 x 36
 y 39
 elevation 9480
 end
-arch cwall_2_1_2
+arch grass
 x 36
 y 39
 end
-arch treed_hills
+arch grass
 x 36
 y 40
 elevation 9250
 end
-arch hills
+arch cwall_2_1_2
+x 36
+y 40
+end
+arch grass
 x 36
 y 41
 elevation 9231
@@ -9998,16 +10042,16 @@ x 37
 y 38
 elevation 10267
 end
-arch brush
+arch grass
 x 37
 y 38
 end
-arch brush
+arch dungeon_magic
 x 37
 y 39
 elevation 9122
 end
-arch cwall_2_1_2
+arch grass
 x 37
 y 39
 end
@@ -10015,6 +10059,10 @@ arch grass_only
 x 37
 y 40
 elevation 8571
+end
+arch cwall_2_1_2
+x 37
+y 40
 end
 arch grass_only
 x 37
@@ -10325,12 +10373,12 @@ arch grass_only
 x 38
 y 38
 end
-arch grass_only
+arch dungeon_magic
 x 38
 y 39
 elevation 8605
 end
-arch cwall_2_2_3
+arch grass
 x 38
 y 39
 end
@@ -10338,7 +10386,7 @@ arch grass_only
 x 38
 y 40
 end
-arch cwall_2_2_1
+arch cwall_2_1_2
 x 38
 y 40
 end
@@ -11344,20 +11392,19 @@ arch brush
 x 41
 y 31
 end
-arch store_magic
-name Magic Shop
-name_pl Magic Shop
-slaying /scorn/shops/magicshop
-hp 14
-sp 14
-x 41
-y 31
-end
 arch dungeon_magic
 x 41
 y 32
 end
 arch grass
+x 41
+y 32
+end
+arch tower_tob
+name Magic Shop
+slaying /scorn/shops/magicshop
+hp 14
+sp 14
 x 41
 y 32
 end
@@ -11373,7 +11420,7 @@ arch dungeon_magic
 x 41
 y 34
 end
-arch cobblestones2
+arch grass
 x 41
 y 34
 end
@@ -11396,6 +11443,7 @@ end
 arch lamppost
 x 41
 y 36
+glow_radius 10
 end
 arch dungeon_magic
 x 41
@@ -11756,7 +11804,7 @@ arch dungeon_magic
 x 42
 y 34
 end
-arch cobblestones2
+arch grass
 x 42
 y 34
 end
@@ -11764,7 +11812,7 @@ arch dungeon_magic
 x 42
 y 35
 end
-arch cobblestones2
+arch grass
 x 42
 y 35
 end
@@ -11772,7 +11820,7 @@ arch dungeon_magic
 x 42
 y 36
 end
-arch cobblestones2
+arch grass
 x 42
 y 36
 end
@@ -11788,7 +11836,7 @@ arch dungeon_magic
 x 42
 y 38
 end
-arch grass
+arch cobblestones2
 x 42
 y 38
 end
@@ -11796,7 +11844,7 @@ arch dungeon_magic
 x 42
 y 39
 end
-arch grass
+arch cobblestones2
 x 42
 y 39
 end
@@ -12140,20 +12188,19 @@ arch grass
 x 43
 y 34
 end
-arch guild
-name West Scorn Trademarket
-name_pl West Scorn Trademarket
-slaying /mlab/mlabscrntrd1
-hp 1
-sp 10
-x 43
-y 34
-end
 arch dungeon_magic
 x 43
 y 35
 end
 arch grass
+x 43
+y 35
+end
+arch woodhouse_shop
+name West Scorn Trademarket
+slaying /mlab/mlabscrntrd1
+hp 1
+sp 10
 x 43
 y 35
 end
@@ -12177,7 +12224,7 @@ arch dungeon_magic
 x 43
 y 38
 end
-arch grass
+arch cobblestones2
 x 43
 y 38
 end
@@ -12185,7 +12232,7 @@ arch dungeon_magic
 x 43
 y 39
 end
-arch grass
+arch cobblestones2
 x 43
 y 39
 end
@@ -12483,21 +12530,20 @@ arch brush
 x 44
 y 31
 end
-arch store_weapons
+arch dungeon_magic
+x 44
+y 32
+end
+arch cobblestones2
+x 44
+y 32
+end
+arch barrack_small_goth_shop
 name Weapon Shop
-name_pl Weapon shop
 slaying /scorn/shops/weaponshop
 hp 1
 sp 14
 x 44
-y 31
-end
-arch dungeon_magic
-x 44
-y 32
-end
-arch cobblestones2
-x 44
 y 32
 end
 arch dungeon_magic
@@ -12529,15 +12575,6 @@ x 44
 y 36
 end
 arch grass
-x 44
-y 36
-end
-arch store_alchemy
-name Alchemy Shop
-name_pl Alchemy Shop
-slaying /scorn/shops/potionshop
-hp 14
-sp 14
 x 44
 y 36
 end
@@ -12546,6 +12583,14 @@ x 44
 y 37
 end
 arch grass
+x 44
+y 37
+end
+arch keep_sym_noflag_west
+name Alchemy Shop
+slaying /scorn/shops/potionshop
+hp 14
+sp 14
 x 44
 y 37
 end
@@ -12553,7 +12598,7 @@ arch dungeon_magic
 x 44
 y 38
 end
-arch grass
+arch cobblestones2
 x 44
 y 38
 end
@@ -12561,7 +12606,7 @@ arch dungeon_magic
 x 44
 y 39
 end
-arch grass
+arch cobblestones2
 x 44
 y 39
 end
@@ -12907,15 +12952,6 @@ arch grass
 x 45
 y 34
 end
-arch house_2
-name Mike Miller's house
-name_pl Mike Miller's house
-slaying /scorn/houses/house3.1st
-hp 6
-sp 8
-x 45
-y 34
-end
 arch dungeon_magic
 x 45
 y 35
@@ -12924,12 +12960,11 @@ arch grass
 x 45
 y 35
 end
-arch house_2
-name Abandoned house
-name_pl Abandoned house
-slaying /scorn/houses/house3.2nd
-hp 5
-sp 9
+arch barrack_small
+name Barracks
+slaying /scorn/houses/barracks
+hp 24
+sp 4
 x 45
 y 35
 end
@@ -12953,7 +12988,7 @@ arch dungeon_magic
 x 45
 y 38
 end
-arch grass
+arch cobblestones2
 x 45
 y 38
 end
@@ -12961,7 +12996,7 @@ arch dungeon_magic
 x 45
 y 39
 end
-arch grass
+arch cobblestones2
 x 45
 y 39
 end
@@ -13337,15 +13372,6 @@ arch grass
 x 46
 y 34
 end
-arch barrack_long
-name Barracks
-name_pl Barracks
-slaying /scorn/houses/barracks
-hp 24
-sp 4
-x 46
-y 34
-end
 arch dungeon_magic
 x 46
 y 35
@@ -13354,9 +13380,8 @@ arch grass
 x 46
 y 35
 end
-arch barrack_long
+arch barrack_small
 name Mess Hall
-name_pl Mess Hall
 slaying /scorn/houses/messhall
 hp 24
 sp 4
@@ -13371,19 +13396,19 @@ arch grass
 x 46
 y 36
 end
-arch barrack_up
-name Mercenaries Agency
-slaying /scorn/misc/mercenaries
-hp 6
-sp 15
-x 46
-y 36
-end
 arch dungeon_magic
 x 46
 y 37
 end
 arch grass
+x 46
+y 37
+end
+arch barrack_small_goth
+name Mercenaries Agency
+slaying /scorn/misc/mercenaries
+hp 6
+sp 15
 x 46
 y 37
 end
@@ -13391,7 +13416,7 @@ arch dungeon_magic
 x 46
 y 38
 end
-arch grass
+arch cobblestones2
 x 46
 y 38
 end
@@ -13399,7 +13424,7 @@ arch dungeon_magic
 x 46
 y 39
 end
-arch grass
+arch cobblestones2
 x 46
 y 39
 end
@@ -13705,21 +13730,20 @@ arch brush
 x 47
 y 31
 end
-arch store_armour
+arch dungeon_magic
+x 47
+y 32
+end
+arch cobblestones2
+x 47
+y 32
+end
+arch barrack_small_goth_shop
 name Armour Shop
-name_pl Armour Shop
 slaying /scorn/shops/armourshop
 hp 14
 sp 1
 x 47
-y 31
-end
-arch dungeon_magic
-x 47
-y 32
-end
-arch cobblestones2
-x 47
 y 32
 end
 arch dungeon_magic
@@ -13754,20 +13778,20 @@ arch grass
 x 47
 y 36
 end
-arch store_weapons
+arch dungeon_magic
+x 47
+y 37
+end
+arch grass
+x 47
+y 37
+end
+arch keep_sym_noflag_west
 name Scorn's Best Bows
 slaying /scorn/shops/bowshop
 hp 14
 sp 14
 x 47
-y 36
-end
-arch dungeon_magic
-x 47
-y 37
-end
-arch grass
-x 47
 y 37
 end
 arch dungeon_magic
@@ -13782,11 +13806,7 @@ arch dungeon_magic
 x 47
 y 39
 end
-arch grass
-x 47
-y 39
-end
-arch lamppost
+arch cobblestones2
 x 47
 y 39
 end
@@ -14148,6 +14168,10 @@ arch grass
 x 48
 y 37
 end
+arch lamppost
+x 48
+y 37
+end
 arch dungeon_magic
 x 48
 y 38
@@ -14160,7 +14184,7 @@ arch dungeon_magic
 x 48
 y 39
 end
-arch grass
+arch cobblestones2
 x 48
 y 39
 end
@@ -14466,20 +14490,19 @@ arch brush
 x 49
 y 31
 end
-arch barrack_up
-name Food Shop Warehouse
-name_pl Food Shop
-slaying /scorn/shops/foodshop
-hp 2
-sp 14
-x 49
-y 31
-end
 arch dungeon_magic
 x 49
 y 32
 end
 arch brush
+x 49
+y 32
+end
+arch tavern_fant_shop
+name Food Shop Warehouse
+slaying /scorn/shops/foodshop
+hp 2
+sp 14
 x 49
 y 32
 end
@@ -14532,12 +14555,9 @@ x 49
 y 37
 elevation 1191
 end
-arch s_shop2
+arch woodhouse_shop
 name Imperial Post Office
 slaying /scorn/shops/IPO_scorn
-msg
-Ding!
-endmsg
 hp 5
 sp 8
 x 49
@@ -14555,7 +14575,7 @@ arch dungeon_magic
 x 49
 y 39
 end
-arch grass
+arch cobblestones2
 x 49
 y 39
 end

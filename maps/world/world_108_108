@@ -2,6 +2,9 @@ arch map
 name world_108_108
 width 50
 height 50
+msg
+Modified: 2018-09-23 lori
+endmsg
 outdoor 1
 tile_path_1 world_108_107
 tile_path_2 world_109_108
@@ -1372,30 +1375,54 @@ x 5
 y 33
 elevation 1935
 end
+arch redrock1
+x 5
+y 33
+end
 arch jungle_1
 x 5
 y 34
 elevation 2058
+end
+arch redrock1
+x 5
+y 34
 end
 arch woods_3
 x 5
 y 35
 elevation 1689
 end
+arch redrock1
+x 5
+y 35
+end
 arch hills
 x 5
 y 36
 elevation 3119
+end
+arch redrock1
+x 5
+y 36
 end
 arch hills
 x 5
 y 37
 elevation 3400
 end
+arch desertcliff2
+x 5
+y 37
+end
 arch mountain
 x 5
 y 38
 elevation 5776
+end
+arch redrock3
+x 5
+y 38
 end
 arch mountain
 x 5
@@ -1616,22 +1643,30 @@ x 6
 y 32
 elevation 1319
 end
-arch woods_3
+arch redrock1
+x 6
+y 32
+end
+arch steppelight
 x 6
 y 33
 elevation 1869
 end
-arch woods_3
+arch redrock1
+x 6
+y 33
+end
+arch steppelight
 x 6
 y 34
 elevation 1784
 end
-arch desert
+arch steppelight
 x 6
 y 35
 elevation 692
 end
-arch woods_3
+arch steppelight
 x 6
 y 36
 elevation 2017
@@ -1641,15 +1676,31 @@ x 6
 y 37
 elevation 3869
 end
+arch redrock1
+x 6
+y 37
+end
 arch hills_rocky
 x 6
 y 38
 elevation 4997
 end
+arch redrock1
+x 6
+y 38
+end
+arch desertcliff2
+x 6
+y 38
+end
 arch mountain
 x 6
 y 39
 elevation 5900
+end
+arch desertcliff2
+x 6
+y 39
 end
 arch mountain
 x 6
@@ -1865,32 +1916,36 @@ x 7
 y 32
 elevation 1416
 end
-arch woods_3
+arch redrock1
+x 7
+y 32
+end
+arch steppelight
 x 7
 y 33
 elevation 1901
 end
-arch woods_3
+arch steppelight
 x 7
 y 34
 elevation 2057
 end
-arch woods_3
+arch steppelight
 x 7
 y 35
 elevation 1556
 end
-arch hills_rocky
+arch steppelight
 x 7
 y 36
 elevation 3331
 end
-arch hills
+arch steppelight
 x 7
 y 37
 elevation 4005
 end
-arch hills
+arch steppelight
 x 7
 y 38
 elevation 3080
@@ -1900,10 +1955,18 @@ x 7
 y 39
 elevation 5233
 end
+arch redrock1
+x 7
+y 39
+end
 arch mountain
 x 7
 y 40
 elevation 5962
+end
+arch desertcliff2
+x 7
+y 40
 end
 arch mountain
 x 7
@@ -2109,42 +2172,46 @@ x 8
 y 31
 elevation 1363
 end
-arch woods_3
+arch steppelight
 x 8
 y 32
 elevation 1887
 end
-arch grass
+arch redrock1
+x 8
+y 32
+end
+arch steppelight
 x 8
 y 33
 elevation 450
 end
-arch hills
+arch steppelight
 x 8
 y 34
 elevation 3069
 end
-arch hills_rocky
+arch steppelight
 x 8
 y 35
 elevation 4045
 end
-arch hills_rocky
+arch steppelight
 x 8
 y 36
 elevation 4638
 end
-arch hills
+arch steppelight
 x 8
 y 37
 elevation 4645
 end
-arch hills_rocky
+arch steppelight
 x 8
 y 38
 elevation 3748
 end
-arch mountain
+arch steppelight
 x 8
 y 39
 elevation 5097
@@ -2153,6 +2220,10 @@ arch mountain
 x 8
 y 40
 elevation 5665
+end
+arch redrock1
+x 8
+y 40
 end
 arch hills_rocky
 x 8
@@ -2353,47 +2424,55 @@ x 9
 y 30
 elevation 338
 end
+arch redrock1
+x 9
+y 30
+end
 arch woods_3
 x 9
 y 31
 elevation 1664
 end
-arch woods_3
+arch redrock1
+x 9
+y 31
+end
+arch steppelight
 x 9
 y 32
 elevation 2368
 end
-arch hills
+arch steppelight
 x 9
 y 33
 elevation 3320
 end
-arch hills
+arch steppelight
 x 9
 y 34
 elevation 4271
 end
-arch mountain
+arch steppelight
 x 9
 y 35
 elevation 5172
 end
-arch mountain
+arch steppelight
 x 9
 y 36
 elevation 5540
 end
-arch mountain
+arch steppelight
 x 9
 y 37
 elevation 5322
 end
-arch hills
+arch steppelight
 x 9
 y 38
 elevation 4986
 end
-arch mountain
+arch steppelight
 x 9
 y 39
 elevation 5143
@@ -2402,6 +2481,10 @@ arch mountain
 x 9
 y 40
 elevation 5350
+end
+arch redrock1
+x 9
+y 40
 end
 arch mountain
 x 9
@@ -2607,42 +2690,46 @@ x 10
 y 31
 elevation 1469
 end
-arch woods_3
+arch redrock1
+x 10
+y 31
+end
+arch steppelight
 x 10
 y 32
 elevation 2607
 end
-arch hills
+arch steppelight
 x 10
 y 33
 elevation 3989
 end
-arch mountain
+arch steppelight
 x 10
 y 34
 elevation 5203
 end
-arch mountain
+arch steppelight
 x 10
 y 35
 elevation 5443
 end
-arch mountain
+arch steppelight
 x 10
 y 36
 elevation 5274
 end
-arch mountain
+arch steppelight
 x 10
 y 37
 elevation 5220
 end
-arch mountain
+arch steppelight
 x 10
 y 38
 elevation 5195
 end
-arch steppe
+arch steppelight
 x 10
 y 39
 elevation 4308
@@ -2651,6 +2738,10 @@ arch mountain
 x 10
 y 40
 elevation 5300
+end
+arch redrock1
+x 10
+y 40
 end
 arch mountain
 x 10
@@ -2851,47 +2942,51 @@ x 11
 y 30
 elevation 920
 end
-arch grass
+arch steppelight
 x 11
 y 31
 elevation 916
 end
-arch grass
+arch redrock1
+x 11
+y 31
+end
+arch steppelight
 x 11
 y 32
 elevation 78
 end
-arch steppe
+arch steppelight
 x 11
 y 33
 elevation 4440
 end
-arch mountain
+arch steppelight
 x 11
 y 34
 elevation 5271
 end
-arch mountain
+arch steppelight
 x 11
 y 35
 elevation 5102
 end
-arch steppe
+arch steppelight
 x 11
 y 36
 elevation 4194
 end
-arch hills
+arch steppelight
 x 11
 y 37
 elevation 3331
 end
-arch mountain
+arch steppelight
 x 11
 y 38
 elevation 5461
 end
-arch mountain
+arch steppelight
 x 11
 y 39
 elevation 5895
@@ -2900,6 +2995,10 @@ arch mountain
 x 11
 y 40
 elevation 5727
+end
+arch redrock1
+x 11
+y 40
 end
 arch hills_rocky
 x 11
@@ -3035,25 +3134,45 @@ x 12
 y 17
 elevation 5774
 end
+arch redrock2
+x 12
+y 17
+end
 arch mountain
 x 12
 y 18
 elevation 5027
+end
+arch redrock2
+x 12
+y 18
 end
 arch steppe
 x 12
 y 19
 elevation 3525
 end
+arch redrock2
+x 12
+y 19
+end
 arch woods_3
 x 12
 y 20
 elevation 1977
 end
-arch woods_3
+arch redrock2
+x 12
+y 20
+end
+arch steppelight
 x 12
 y 21
 elevation 1532
+end
+arch redrock2
+x 12
+y 21
 end
 arch jungle_1
 x 12
@@ -3100,47 +3219,51 @@ x 12
 y 30
 elevation 1824
 end
-arch steppe
+arch steppelight
 x 12
 y 31
 elevation 3729
 end
-arch hills
+arch redrock1
+x 12
+y 31
+end
+arch steppelight
 x 12
 y 32
 elevation 4915
 end
-arch mountain
+arch steppelight
 x 12
 y 33
 elevation 5468
 end
-arch hills
+arch steppelight
 x 12
 y 34
 elevation 4510
 end
-arch hills
+arch steppelight
 x 12
 y 35
 elevation 4509
 end
-arch hills_rocky
+arch steppelight
 x 12
 y 36
 elevation 4952
 end
-arch mountain
+arch steppelight
 x 12
 y 37
 elevation 5140
 end
-arch mountain
+arch steppelight
 x 12
 y 38
 elevation 5691
 end
-arch mountain
+arch steppelight
 x 12
 y 39
 elevation 6307
@@ -3149,6 +3272,10 @@ arch mountain
 x 12
 y 40
 elevation 5806
+end
+arch redrock1
+x 12
+y 40
 end
 arch hills
 x 12
@@ -3279,40 +3406,52 @@ x 13
 y 16
 elevation 5715
 end
-arch mountain
+arch redrock2
+x 13
+y 16
+end
+arch steppelight
 x 13
 y 17
 elevation 5476
 end
-arch hills
+arch steppelight
 x 13
 y 18
 elevation 4573
 end
-arch hills
+arch steppelight
 x 13
 y 19
 elevation 3474
 end
-arch jungle_1
+arch steppelight
 x 13
 y 20
 elevation 2254
 end
-arch woods_3
+arch steppelight
 x 13
 y 21
 elevation 1343
 end
-arch jungle_1
+arch steppelight
 x 13
 y 22
 elevation 2153
+end
+arch redrock2
+x 13
+y 22
 end
 arch woods_3
 x 13
 y 23
 elevation 2760
+end
+arch redrock2
+x 13
+y 23
 end
 arch hills
 x 13
@@ -3349,42 +3488,50 @@ x 13
 y 30
 elevation 4705
 end
-arch mountain
+arch steppelight
 x 13
 y 31
 elevation 6134
 end
-arch mountain
+arch redrock1
+x 13
+y 31
+end
+arch steppelight
 x 13
 y 32
 elevation 7136
 end
-arch mountain
+arch redrock3
+x 13
+y 32
+end
+arch steppelight
 x 13
 y 33
 elevation 7114
 end
-arch mountain
+arch steppelight
 x 13
 y 34
 elevation 6515
 end
-arch mountain
+arch steppelight
 x 13
 y 35
 elevation 5823
 end
-arch mountain
+arch steppelight
 x 13
 y 36
 elevation 5347
 end
-arch mountain
+arch steppelight
 x 13
 y 37
 elevation 5177
 end
-arch mountain
+arch steppelight
 x 13
 y 38
 elevation 5375
@@ -3394,10 +3541,18 @@ x 13
 y 39
 elevation 5610
 end
+arch redrock1
+x 13
+y 39
+end
 arch mountain
 x 13
 y 40
 elevation 5037
+end
+arch redrock1
+x 13
+y 40
 end
 arch hills
 x 13
@@ -3523,42 +3678,46 @@ x 14
 y 15
 elevation 4996
 end
-arch mountain
+arch redrock2
+x 14
+y 15
+end
+arch steppelight
 x 14
 y 16
 elevation 5004
 end
-arch hills
+arch steppelight
 x 14
 y 17
 elevation 4325
 end
-arch hills
+arch steppelight
 x 14
 y 18
 elevation 3554
 end
-arch hills
+arch steppelight
 x 14
 y 19
 elevation 3005
 end
-arch woods_3
+arch steppelight
 x 14
 y 20
 elevation 2412
 end
-arch woods_3
+arch steppelight
 x 14
 y 21
 elevation 1736
 end
-arch woods_3
+arch steppelight
 x 14
 y 22
 elevation 2310
 end
-arch woods_3
+arch steppelight
 x 14
 y 23
 elevation 2918
@@ -3568,10 +3727,18 @@ x 14
 y 24
 elevation 3396
 end
+arch redrock2
+x 14
+y 24
+end
 arch hills
 x 14
 y 25
 elevation 3487
+end
+arch redrock2
+x 14
+y 25
 end
 arch hills
 x 14
@@ -3593,55 +3760,71 @@ x 14
 y 29
 elevation 4398
 end
-arch mountain
+arch steppelight
 x 14
 y 30
 elevation 5992
 end
-arch mountain
+arch steppelight
 x 14
 y 31
 elevation 7318
 end
-arch mountain
+arch steppelight
 x 14
 y 32
 elevation 8033
 end
-arch mountain
+arch redrock1
+x 14
+y 32
+end
+arch steppelight
 x 14
 y 33
 elevation 8001
 end
-arch mountain
+arch steppelight
 x 14
 y 34
 elevation 7404
 end
-arch mountain
+arch steppelight
 x 14
 y 35
 elevation 6513
 end
-arch mountain
+arch steppelight
 x 14
 y 36
 elevation 5505
 end
-arch hills
+arch steppelight
 x 14
 y 37
 elevation 3985
+end
+arch redrock1
+x 14
+y 37
 end
 arch hills
 x 14
 y 38
 elevation 3995
 end
+arch redrock1
+x 14
+y 38
+end
 arch hills
 x 14
 y 39
 elevation 4176
+end
+arch redrock1
+x 14
+y 39
 end
 arch hills_rocky
 x 14
@@ -3772,47 +3955,51 @@ x 15
 y 15
 elevation 4129
 end
-arch hills
+arch redrock2
+x 15
+y 15
+end
+arch steppelight
 x 15
 y 16
 elevation 3673
 end
-arch woods_3
+arch steppelight
 x 15
 y 17
 elevation 2883
 end
-arch woods_3
+arch steppelight
 x 15
 y 18
 elevation 2292
 end
-arch woods_3
+arch steppelight
 x 15
 y 19
 elevation 2151
 end
-arch woods_3
+arch steppelight
 x 15
 y 20
 elevation 2168
 end
-arch woods_3
+arch steppelight
 x 15
 y 21
 elevation 2162
 end
-arch woods_3
+arch steppelight
 x 15
 y 22
 elevation 1874
 end
-arch woods_3
+arch steppelight
 x 15
 y 23
 elevation 2313
 end
-arch woods_3
+arch steppelight
 x 15
 y 24
 elevation 2845
@@ -3826,6 +4013,10 @@ arch hills
 x 15
 y 26
 elevation 3230
+end
+arch redrock2
+x 15
+y 26
 end
 arch hills
 x 15
@@ -3842,32 +4033,32 @@ x 15
 y 29
 elevation 4940
 end
-arch mountain
+arch steppelight
 x 15
 y 30
 elevation 5973
 end
-arch mountain
+arch steppelight
 x 15
 y 31
 elevation 7136
 end
-arch mountain
+arch steppelight
 x 15
 y 32
 elevation 7911
 end
-arch mountain
+arch steppelight
 x 15
 y 33
 elevation 8090
 end
-arch mountain
+arch steppelight
 x 15
 y 34
 elevation 7248
 end
-arch mountain
+arch steppelight
 x 15
 y 35
 elevation 6657
@@ -3877,10 +4068,18 @@ x 15
 y 36
 elevation 5557
 end
+arch redrock1
+x 15
+y 36
+end
 arch steppe
 x 15
 y 37
 elevation 4201
+end
+arch redrock1
+x 15
+y 37
 end
 arch hills_rocky
 x 15
@@ -4021,52 +4220,56 @@ x 16
 y 15
 elevation 2749
 end
-arch woods_3
+arch redrock2
+x 16
+y 15
+end
+arch steppelight
 x 16
 y 16
 elevation 2250
 end
-arch grass
+arch steppelight
 x 16
 y 17
 elevation 673
 end
-arch grass
+arch steppelight
 x 16
 y 18
 elevation 265
 end
-arch grass
+arch steppelight
 x 16
 y 19
 elevation 951
 end
-arch woods_3
+arch steppelight
 x 16
 y 20
 elevation 1749
 end
-arch woods_3
+arch steppelight
 x 16
 y 21
 elevation 1978
 end
-arch woods_3
+arch steppelight
 x 16
 y 22
 elevation 1948
 end
-arch grass
+arch steppelight
 x 16
 y 23
 elevation 959
 end
-arch woods_3
+arch steppelight
 x 16
 y 24
 elevation 2149
 end
-arch woods_3
+arch steppelight
 x 16
 y 25
 elevation 2446
@@ -4075,6 +4278,10 @@ arch woods_3
 x 16
 y 26
 elevation 2142
+end
+arch redrock2
+x 16
+y 26
 end
 arch woods_3
 x 16
@@ -4091,27 +4298,27 @@ x 16
 y 29
 elevation 4329
 end
-arch mountain
+arch steppelight
 x 16
 y 30
 elevation 5292
 end
-arch mountain
+arch steppelight
 x 16
 y 31
 elevation 5552
 end
-arch mountain
+arch steppelight
 x 16
 y 32
 elevation 7300
 end
-arch mountain
+arch steppelight
 x 16
 y 33
 elevation 7756
 end
-arch mountain
+arch steppelight
 x 16
 y 34
 elevation 7280
@@ -4121,10 +4328,18 @@ x 16
 y 35
 elevation 6523
 end
+arch redrock1
+x 16
+y 35
+end
 arch mountain
 x 16
 y 36
 elevation 5298
+end
+arch redrock1
+x 16
+y 36
 end
 arch steppe
 x 16
@@ -4270,60 +4485,76 @@ x 17
 y 15
 elevation 660
 end
+arch redrock2
+x 17
+y 15
+end
 arch woods_3
 x 17
 y 16
 elevation 1588
 end
-arch woods_3
+arch redrock2
+x 17
+y 16
+end
+arch steppelight
 x 17
 y 17
 elevation 1388
 end
-arch grass
+arch steppelight
 x 17
 y 18
 elevation 861
 end
-arch grass
+arch steppelight
 x 17
 y 19
 elevation 986
 end
-arch grass
+arch steppelight
 x 17
 y 20
 elevation 819
 end
-arch woods_3
+arch steppelight
 x 17
 y 21
 elevation 1753
 end
-arch woods_3
+arch steppelight
 x 17
 y 22
 elevation 2053
 end
-arch woods_3
+arch steppelight
 x 17
 y 23
 elevation 1665
 end
-arch woods_3
+arch steppelight
 x 17
 y 24
 elevation 2012
 end
-arch woods_3
+arch steppelight
 x 17
 y 25
 elevation 1111
+end
+arch redrock2
+x 17
+y 25
 end
 arch woods_3
 x 17
 y 26
 elevation 2160
+end
+arch redrock2
+x 17
+y 26
 end
 arch woods_3
 x 17
@@ -4345,22 +4576,22 @@ x 17
 y 30
 elevation 4379
 end
-arch mountain
+arch steppelight
 x 17
 y 31
 elevation 5019
 end
-arch mountain
+arch steppelight
 x 17
 y 32
 elevation 6477
 end
-arch mountain
+arch steppelight
 x 17
 y 33
 elevation 7247
 end
-arch mountain
+arch steppelight
 x 17
 y 34
 elevation 7061
@@ -4369,6 +4600,10 @@ arch mountain
 x 17
 y 35
 elevation 6193
+end
+arch redrock1
+x 17
+y 35
 end
 arch hills
 x 17
@@ -4524,47 +4759,51 @@ x 18
 y 16
 elevation 1161
 end
-arch woods_3
+arch redrock2
+x 18
+y 16
+end
+arch steppelight
 x 18
 y 17
 elevation 1470
 end
-arch woods_3
+arch steppelight
 x 18
 y 18
 elevation 1444
 end
-arch woods_3
+arch steppelight
 x 18
 y 19
 elevation 1222
 end
-arch grass
+arch steppelight
 x 18
 y 20
 elevation 168
 end
-arch woods_3
+arch steppelight
 x 18
 y 21
 elevation 1637
 end
-arch woods_3
+arch steppelight
 x 18
 y 22
 elevation 2328
 end
-arch woods_3
+arch steppelight
 x 18
 y 23
 elevation 2585
 end
-arch woods_3
+arch steppelight
 x 18
 y 24
 elevation 2493
 end
-arch woods_3
+arch steppelight
 x 18
 y 25
 elevation 2322
@@ -4573,6 +4812,10 @@ arch woods_3
 x 18
 y 26
 elevation 1918
+end
+arch redrock2
+x 18
+y 26
 end
 arch woods_3
 x 18
@@ -4599,22 +4842,22 @@ x 18
 y 31
 elevation 4129
 end
-arch mountain
+arch steppelight
 x 18
 y 32
 elevation 5742
 end
-arch mountain
+arch steppelight
 x 18
 y 33
 elevation 6361
 end
-arch mountain
+arch steppelight
 x 18
 y 34
 elevation 6251
 end
-arch mountain
+arch steppelight
 x 18
 y 35
 elevation 5446
@@ -4773,47 +5016,51 @@ x 19
 y 16
 elevation 1062
 end
-arch grass
+arch redrock2
+x 19
+y 16
+end
+arch steppelight
 x 19
 y 17
 elevation 527
 end
-arch woods_3
+arch steppelight
 x 19
 y 18
 elevation 1927
 end
-arch woods_3
+arch steppelight
 x 19
 y 19
 elevation 1523
 end
-arch grass
+arch steppelight
 x 19
 y 20
 elevation 981
 end
-arch woods_3
+arch steppelight
 x 19
 y 21
 elevation 1909
 end
-arch woods_3
+arch steppelight
 x 19
 y 22
 elevation 2082
 end
-arch hills
+arch steppelight
 x 19
 y 23
 elevation 3123
 end
-arch hills
+arch steppelight
 x 19
 y 24
 elevation 3178
 end
-arch woods_3
+arch steppelight
 x 19
 y 25
 elevation 2695
@@ -4822,6 +5069,10 @@ arch woods_3
 x 19
 y 26
 elevation 2091
+end
+arch redrock2
+x 19
+y 26
 end
 arch grass
 x 19
@@ -4858,17 +5109,17 @@ x 19
 y 33
 elevation 5267
 end
-arch mountain
+arch steppelight
 x 19
 y 34
 elevation 5149
 end
-arch steppe
+arch steppelight
 x 19
 y 35
 elevation 4590
 end
-arch woods_3
+arch steppelight
 x 19
 y 36
 elevation 2929
@@ -5022,47 +5273,51 @@ x 20
 y 16
 elevation 1110
 end
-arch woods_3
+arch redrock2
+x 20
+y 16
+end
+arch steppelight
 x 20
 y 17
 elevation 1851
 end
-arch woods_3
+arch steppelight
 x 20
 y 18
 elevation 2456
 end
-arch woods_3
+arch steppelight
 x 20
 y 19
 elevation 2845
 end
-arch hills
+arch steppelight
 x 20
 y 20
 elevation 3221
 end
-arch hills
+arch steppelight
 x 20
 y 21
 elevation 3443
 end
-arch hills
+arch steppelight
 x 20
 y 22
 elevation 3081
 end
-arch hills
+arch steppelight
 x 20
 y 23
 elevation 3838
 end
-arch hills
+arch steppelight
 x 20
 y 24
 elevation 3787
 end
-arch hills
+arch steppelight
 x 20
 y 25
 elevation 3175
@@ -5072,10 +5327,18 @@ x 20
 y 26
 elevation 2446
 end
+arch redrock2
+x 20
+y 26
+end
 arch woods_3
 x 20
 y 27
 elevation 1896
+end
+arch redrock2
+x 20
+y 27
 end
 arch woods_3
 x 20
@@ -5271,52 +5534,56 @@ x 21
 y 16
 elevation 855
 end
-arch woods_3
+arch redrock2
+x 21
+y 16
+end
+arch steppelight
 x 21
 y 17
 elevation 2004
 end
-arch woods_3
+arch steppelight
 x 21
 y 18
 elevation 2861
 end
-arch hills
+arch steppelight
 x 21
 y 19
 elevation 3671
 end
-arch hills
+arch steppelight
 x 21
 y 20
 elevation 4268
 end
-arch hills
+arch steppelight
 x 21
 y 21
 elevation 4726
 end
-arch hills
+arch steppelight
 x 21
 y 22
 elevation 4908
 end
-arch hills
+arch steppelight
 x 21
 y 23
 elevation 4771
 end
-arch hills
+arch steppelight
 x 21
 y 24
 elevation 4512
 end
-arch hills
+arch steppelight
 x 21
 y 25
 elevation 3953
 end
-arch woods_3
+arch steppelight
 x 21
 y 26
 elevation 2703
@@ -5325,6 +5592,10 @@ arch hills
 x 21
 y 27
 elevation 3053
+end
+arch redrock2
+x 21
+y 27
 end
 arch hills
 x 21
@@ -5520,52 +5791,56 @@ x 22
 y 16
 elevation 1241
 end
-arch grass
+arch redrock2
+x 22
+y 16
+end
+arch steppelight
 x 22
 y 17
 elevation 972
 end
-arch woods_3
+arch steppelight
 x 22
 y 18
 elevation 2559
 end
-arch hills
+arch steppelight
 x 22
 y 19
 elevation 3392
 end
-arch hills
+arch steppelight
 x 22
 y 20
 elevation 4191
 end
-arch mountain
+arch steppelight
 x 22
 y 21
 elevation 5108
 end
-arch mountain
+arch steppelight
 x 22
 y 22
 elevation 5745
 end
-arch mountain
+arch steppelight
 x 22
 y 23
 elevation 5492
 end
-arch mountain
+arch steppelight
 x 22
 y 24
 elevation 5221
 end
-arch hills
+arch steppelight
 x 22
 y 25
 elevation 4719
 end
-arch hills
+arch steppelight
 x 22
 y 26
 elevation 4260
@@ -5574,6 +5849,10 @@ arch hills
 x 22
 y 27
 elevation 4136
+end
+arch redrock2
+x 22
+y 27
 end
 arch hills
 x 22
@@ -5769,52 +6048,56 @@ x 23
 y 16
 elevation 1396
 end
-arch woods_3
+arch redrock2
+x 23
+y 16
+end
+arch steppelight
 x 23
 y 17
 elevation 1129
 end
-arch woods_3
+arch steppelight
 x 23
 y 18
 elevation 1858
 end
-arch woods_3
+arch steppelight
 x 23
 y 19
 elevation 2330
 end
-arch woods_3
+arch steppelight
 x 23
 y 20
 elevation 2613
 end
-arch hills
+arch steppelight
 x 23
 y 21
 elevation 4792
 end
-arch mountain
+arch steppelight
 x 23
 y 22
 elevation 5800
 end
-arch mountain
+arch steppelight
 x 23
 y 23
 elevation 5826
 end
-arch mountain
+arch steppelight
 x 23
 y 24
 elevation 5455
 end
-arch mountain
+arch steppelight
 x 23
 y 25
 elevation 5164
 end
-arch mountain
+arch steppelight
 x 23
 y 26
 elevation 5102
@@ -5823,6 +6106,10 @@ arch mountain
 x 23
 y 27
 elevation 5032
+end
+arch redrock2
+x 23
+y 27
 end
 arch hills
 x 23
@@ -6013,57 +6300,57 @@ x 24
 y 15
 elevation 1339
 end
-arch woods_3
+arch steppelight
 x 24
 y 16
 elevation 1363
 end
-arch woods_3
+arch steppelight
 x 24
 y 17
 elevation 1378
 end
-arch woods_3
+arch steppelight
 x 24
 y 18
 elevation 1237
 end
-arch grass
+arch steppelight
 x 24
 y 19
 elevation 654
 end
-arch woods_3
+arch steppelight
 x 24
 y 20
 elevation 2138
 end
-arch hills
+arch steppelight
 x 24
 y 21
 elevation 4106
 end
-arch mountain
+arch steppelight
 x 24
 y 22
 elevation 5208
 end
-arch mountain
+arch steppelight
 x 24
 y 23
 elevation 5404
 end
-arch hills
+arch steppelight
 x 24
 y 24
 elevation 4674
 end
-arch mountain
+arch steppelight
 x 24
 y 25
 elevation 5137
 end
-arch mountain
+arch steppelight
 x 24
 y 26
 elevation 5401
@@ -6072,6 +6359,10 @@ arch mountain
 x 24
 y 27
 elevation 5449
+end
+arch redrock2
+x 24
+y 27
 end
 arch mountain
 x 24
@@ -6257,62 +6548,62 @@ x 25
 y 14
 elevation 583
 end
-arch grass
+arch steppelight
 x 25
 y 15
 elevation 141
 end
-arch grass
+arch steppelight
 x 25
 y 16
 elevation 982
 end
-arch woods_3
+arch steppelight
 x 25
 y 17
 elevation 1057
 end
-arch grass
+arch steppelight
 x 25
 y 18
 elevation 768
 end
-arch grass
+arch steppelight
 x 25
 y 19
 elevation 31
 end
-arch woods_3
+arch steppelight
 x 25
 y 20
 elevation 1891
 end
-arch hills
+arch steppelight
 x 25
 y 21
 elevation 3142
 end
-arch hills
+arch steppelight
 x 25
 y 22
 elevation 3953
 end
-arch hills
+arch steppelight
 x 25
 y 23
 elevation 4238
 end
-arch hills
+arch steppelight
 x 25
 y 24
 elevation 4522
 end
-arch hills
+arch steppelight
 x 25
 y 25
 elevation 4813
 end
-arch mountain
+arch steppelight
 x 25
 y 26
 elevation 5117
@@ -6321,6 +6612,10 @@ arch mountain
 x 25
 y 27
 elevation 5148
+end
+arch redrock2
+x 25
+y 27
 end
 arch hills
 x 25
@@ -6506,7 +6801,7 @@ x 26
 y 14
 elevation 769
 end
-arch grass
+arch steppelight
 x 26
 y 15
 elevation 149
@@ -6521,55 +6816,99 @@ x 26
 y 17
 elevation 750
 end
+arch redrock2
+x 26
+y 17
+end
 arch grass
 x 26
 y 18
 elevation 429
+end
+arch redrock2
+x 26
+y 18
 end
 arch grass
 x 26
 y 19
 elevation 42
 end
+arch redrock2
+x 26
+y 19
+end
 arch woods_3
 x 26
 y 20
 elevation 1252
+end
+arch redrock2
+x 26
+y 20
 end
 arch woods_3
 x 26
 y 21
 elevation 2157
 end
+arch redrock2
+x 26
+y 21
+end
 arch woods_3
 x 26
 y 22
 elevation 1570
+end
+arch redrock2
+x 26
+y 22
 end
 arch woods_3
 x 26
 y 23
 elevation 2571
 end
+arch redrock2
+x 26
+y 23
+end
 arch hills
 x 26
 y 24
 elevation 3679
+end
+arch redrock2
+x 26
+y 24
 end
 arch hills
 x 26
 y 25
 elevation 4388
 end
+arch redrock2
+x 26
+y 25
+end
 arch hills
 x 26
 y 26
 elevation 4348
 end
+arch redrock2
+x 26
+y 26
+end
 arch hills
 x 26
 y 27
 elevation 4315
+end
+arch redrock2
+x 26
+y 27
 end
 arch hills
 x 26
@@ -6750,12 +7089,12 @@ x 27
 y 13
 elevation 1387
 end
-arch woods_3
+arch steppelight
 x 27
 y 14
 elevation 1116
 end
-arch grass
+arch steppelight
 x 27
 y 15
 elevation 809
@@ -6775,10 +7114,18 @@ x 27
 y 18
 elevation 410
 end
+arch redrock2
+x 27
+y 18
+end
 arch grass
 x 27
 y 19
 elevation 159
+end
+arch redrock2
+x 27
+y 19
 end
 arch grass
 x 27
@@ -6789,6 +7136,10 @@ arch woods_3
 x 27
 y 21
 elevation 1285
+end
+arch redrock2
+x 27
+y 21
 end
 arch woods_3
 x 27
@@ -6814,6 +7165,10 @@ arch hills
 x 27
 y 26
 elevation 3722
+end
+arch redrock2
+x 27
+y 26
 end
 arch hills
 x 27
@@ -6999,12 +7354,12 @@ x 28
 y 13
 elevation 1314
 end
-arch woods_3
+arch steppelight
 x 28
 y 14
 elevation 1112
 end
-arch grass
+arch steppelight
 x 28
 y 15
 elevation 824
@@ -7248,7 +7603,7 @@ x 29
 y 13
 elevation 67
 end
-arch grass
+arch steppelight
 x 29
 y 14
 elevation 851
@@ -7502,7 +7857,7 @@ x 30
 y 14
 elevation 860
 end
-arch woods_3
+arch steppelight
 x 30
 y 15
 elevation 1041

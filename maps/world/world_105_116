@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2018-07-19 lori
+Modified: 2018-09-24 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_115
@@ -18,29 +18,36 @@ tile_path_4 world_104_116
 end
 arch dungeon_magic
 end
-arch cobblestones2
-elevation 12489
+arch grass
+end
+arch cwall_2_2_2
 end
 arch dungeon_magic
 y 1
 end
-arch cobblestones2
+arch grass
 y 1
-elevation 14576
+end
+arch cwall_2_1_1
+y 1
 end
 arch dungeon_magic
 y 2
 end
-arch cobblestones2
+arch grass
 y 2
-elevation 16382
+end
+arch cwall_2_1_1
+y 2
 end
 arch dungeon_magic
 y 3
 end
-arch cobblestones2
+arch grass
 y 3
-elevation 17007
+end
+arch cwall_2_1_1
+y 3
 end
 arch dungeon_magic
 y 4
@@ -49,6 +56,9 @@ arch grass
 y 4
 elevation 16100
 end
+arch cwall_2_1_1
+y 4
+end
 arch dungeon_magic
 y 5
 end
@@ -56,85 +66,145 @@ arch grass
 y 5
 elevation 13733
 end
+arch cwall_2_1_1
+y 5
+end
 arch dungeon_magic
 y 6
 end
-arch cobblestones2
+arch grass
 y 6
-elevation 9568
+end
+arch cwall_2_1_1
+y 6
 end
 arch dungeon_magic
 y 7
 end
-arch cobblestones2
+arch grass
 y 7
-elevation 10989
+end
+arch cwall_2_1_1
+y 7
 end
 arch dungeon_magic
 y 8
 end
 arch grass
 y 8
-elevation 9829
+end
+arch cwall_2_1_1
+y 8
 end
 arch dungeon_magic
 y 9
 end
-arch woods_3
+arch grass
 y 9
-elevation 9345
+end
+arch cwall_2_1_1
+y 9
 end
 arch dungeon_magic
 y 10
 end
 arch grass
 y 10
-elevation 7257
 end
-arch cwall_2_1_2
+arch cwall_2_1_1
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 y 11
 elevation 4838
 end
-arch river_w-e
+arch grass
 y 11
-elevation 10622
 end
-arch hills_rocky
+arch cwall_2_1_1
+y 11
+end
+arch dungeon_magic
 y 12
 elevation 3014
 end
-arch mountain
+arch grass
+y 12
+end
+arch cwall_2_1_1
+y 12
+end
+arch dungeon_magic
 y 13
 elevation 8587
 end
-arch mountain
+arch grass
+y 13
+end
+arch cwall_2_1_1
+y 13
+end
+arch dungeon_magic
 y 14
 elevation 7897
 end
-arch mountain2
+arch grass
+y 14
+end
+arch cwall_2_1_1
+y 14
+end
+arch dungeon_magic
 y 15
 elevation 9587
 end
-arch mountain2
+arch grass
+y 15
+end
+arch cwall_2_1_1
+y 15
+end
+arch dungeon_magic
 y 16
 elevation 9471
 end
-arch mountain4
+arch grass
+y 16
+end
+arch cwall_2_1_1
+y 16
+end
+arch dungeon_magic
 y 17
 elevation 12959
 end
-arch mountain5
+arch grass
+y 17
+end
+arch cwall_2_1_1
+y 17
+end
+arch dungeon_magic
 y 18
 elevation 19709
 end
-arch mountain5
+arch grass
+y 18
+end
+arch cwall_2_1_1
+y 18
+end
+arch dungeon_magic
 y 19
 elevation 23739
 end
-arch mountain5
+arch grass
+y 19
+end
+arch cwall_2_2_1
+y 19
+end
+arch river_new2
 y 20
 elevation 17437
 end
@@ -261,7 +331,7 @@ arch cobblestones2
 x 1
 elevation 13085
 end
-arch cwall_2_2_1
+arch cwall_3_1
 x 1
 end
 arch dungeon_magic
@@ -273,13 +343,9 @@ x 1
 y 1
 elevation 14615
 end
-arch s_shop2
-name coffee shop
-name_pl coffee shop
+arch tavern_fant_shop
+name The Coffee Fix
 slaying /scorn/shops/coffeeshop
-msg
-Ding!
-endmsg
 hp 4
 sp 8
 x 1
@@ -289,19 +355,17 @@ arch dungeon_magic
 x 1
 y 2
 end
-arch cobblestones2
+arch grass
 x 1
 y 2
-elevation 15699
 end
 arch dungeon_magic
 x 1
 y 3
 end
-arch cobblestones2
+arch grass
 x 1
 y 3
-elevation 16154
 end
 arch dungeon_magic
 x 1
@@ -330,27 +394,21 @@ x 1
 y 5
 elevation 13598
 end
-arch lamppost
-x 1
-y 5
-end
 arch dungeon_magic
 x 1
 y 6
 end
-arch cobblestones2
+arch grass
 x 1
 y 6
-elevation 11832
 end
 arch dungeon_magic
 x 1
 y 7
 end
-arch cobblestones2
+arch grass
 x 1
 y 7
-elevation 10732
 end
 arch dungeon_magic
 x 1
@@ -361,6 +419,14 @@ x 1
 y 8
 elevation 10355
 end
+arch grasspond
+x 1
+y 8
+end
+arch lamppost
+x 1
+y 8
+end
 arch dungeon_magic
 x 1
 y 9
@@ -370,6 +436,10 @@ x 1
 y 9
 elevation 9819
 end
+arch grass
+x 1
+y 9
+end
 arch dungeon_magic
 x 1
 y 10
@@ -377,63 +447,93 @@ end
 arch grass
 x 1
 y 10
-elevation 9605
 end
-arch cwall_2_1_2
-x 1
-y 10
-end
-arch hills_rocky
+arch dungeon_magic
 x 1
 y 11
 elevation 4242
 end
-arch river_w-e
+arch grass
 x 1
 y 11
-elevation 9612
 end
-arch mountain
+arch dungeon_magic
 x 1
 y 12
 elevation 8182
 end
-arch mountain
+arch grass
+x 1
+y 12
+end
+arch dungeon_magic
 x 1
 y 13
 elevation 7636
 end
-arch mountain2
+arch grass
+x 1
+y 13
+end
+arch dungeon_magic
 x 1
 y 14
 elevation 9493
 end
-arch mountain
+arch grass
+x 1
+y 14
+end
+arch dungeon_magic
 x 1
 y 15
 elevation 7022
 end
-arch mountain2
+arch grass
+x 1
+y 15
+end
+arch dungeon_magic
 x 1
 y 16
 elevation 10113
 end
-arch mountain4
+arch grass
+x 1
+y 16
+end
+arch dungeon_magic
 x 1
 y 17
 elevation 13440
 end
-arch mountain5
+arch grass
+x 1
+y 17
+end
+arch grass
 x 1
 y 18
 elevation 15394
 end
-arch mountain5
+arch dungeon_magic
+x 1
+y 18
+end
+arch dungeon_magic
 x 1
 y 19
 elevation 17926
 end
-arch mountain5
+arch grass
+x 1
+y 19
+end
+arch cwall_2_1_2
+x 1
+y 19
+end
+arch river_new2
 x 1
 y 20
 elevation 23926
@@ -636,15 +736,6 @@ x 2
 y 4
 elevation 13597
 end
-arch tavern
-name Beginners
-name_pl Beginners
-slaying /scorn/misc/beginners
-hp 14
-sp 28
-x 2
-y 4
-end
 arch dungeon_magic
 x 2
 y 5
@@ -665,19 +756,17 @@ arch dungeon_magic
 x 2
 y 6
 end
-arch cobblestones2
+arch grass
 x 2
 y 6
-elevation 11694
 end
 arch dungeon_magic
 x 2
 y 7
 end
-arch cobblestones2
+arch grass
 x 2
 y 7
-elevation 10015
 end
 arch dungeon_magic
 x 2
@@ -701,75 +790,112 @@ arch dungeon_magic
 x 2
 y 9
 end
-arch woods_3
+arch cobblestones2
 x 2
 y 9
-elevation 9660
 end
 arch dungeon_magic
 x 2
 y 10
 end
-arch grass
-x 2
-y 10
-elevation 9698
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 2
 y 10
 end
-arch treed_hills
+arch dungeon_magic
 x 2
 y 11
 elevation 4339
 end
-arch river_w-e
+arch grass
 x 2
 y 11
-elevation 9018
 end
-arch mountain
+arch dungeon_magic
 x 2
 y 12
 elevation 7817
 end
-arch mountain
+arch grass
+x 2
+y 12
+end
+arch dungeon_magic
 x 2
 y 13
 elevation 7957
 end
-arch mountain
+arch grass
+x 2
+y 13
+end
+arch dungeon_magic
 x 2
 y 14
 elevation 7626
 end
-arch mountain
+arch grass
+x 2
+y 14
+end
+arch farmhouse
+name Patch's House
+slaying /scorn/houses/house2
+hp 10
+sp 1
+x 2
+y 14
+end
+arch dungeon_magic
 x 2
 y 15
 elevation 8891
 end
-arch mountain2
+arch cobblestones2
+x 2
+y 15
+end
+arch dungeon_magic
 x 2
 y 16
 elevation 11688
 end
-arch mountain4
+arch cobblestones2
+x 2
+y 16
+end
+arch dungeon_magic
 x 2
 y 17
 elevation 12127
 end
-arch mountain4
+arch grass
+x 2
+y 17
+end
+arch dungeon_magic
 x 2
 y 18
 elevation 13785
 end
-arch mountain4
+arch grass
+x 2
+y 18
+end
+arch dungeon_magic
 x 2
 y 19
 elevation 14908
 end
-arch mountain5
+arch grass
+x 2
+y 19
+end
+arch cwall_2_1_2
+x 2
+y 19
+end
+arch river_new2
 x 2
 y 20
 elevation 16474
@@ -938,10 +1064,6 @@ x 3
 y 1
 elevation 14391
 end
-arch pillars
-x 3
-y 1
-end
 arch dungeon_magic
 x 3
 y 2
@@ -964,130 +1086,148 @@ arch dungeon_magic
 x 3
 y 4
 end
-arch cobblestones2
+arch grass
 x 3
 y 4
-elevation 13813
 end
 arch dungeon_magic
 x 3
 y 5
-end
-arch cobblestones2
-x 3
-y 5
-elevation 13009
-end
-arch dungeon_magic
-x 3
-y 6
-end
-arch cobblestones2
-x 3
-y 6
-elevation 11508
-end
-arch dungeon_magic
-x 3
-y 7
-end
-arch cobblestones2
-x 3
-y 7
-elevation 7118
-end
-arch dungeon_magic
-x 3
-y 8
-end
-arch hills
-x 3
-y 8
-elevation 6327
-end
-arch dungeon_magic
-x 3
-y 9
-end
-arch hills
-x 3
-y 9
-elevation 8966
-end
-arch dungeon_magic
-x 3
-y 10
 end
 arch grass
 x 3
-y 10
-elevation 9142
+y 5
 end
-arch cwall_2_1_2
+arch dungeon_magic
+x 3
+y 6
+end
+arch grass
+x 3
+y 6
+end
+arch dungeon_magic
+x 3
+y 7
+end
+arch grass
+x 3
+y 7
+end
+arch dungeon_magic
+x 3
+y 8
+end
+arch grass
+x 3
+y 8
+end
+arch shrub2a
+x 3
+y 8
+end
+arch dungeon_magic
+x 3
+y 9
+end
+arch cobblestones2
+x 3
+y 9
+end
+arch dungeon_magic
 x 3
 y 10
 end
-arch treed_hills
+arch cobblestones2
+x 3
+y 10
+end
+arch dungeon_magic
 x 3
 y 11
 elevation 3530
 end
-arch river_w-e
+arch grass
 x 3
 y 11
-elevation 8431
 end
-arch treed_hills
+arch grasspond
 x 3
 y 12
 elevation 4865
 end
-arch mountain
+arch dungeon_magic
+x 3
+y 12
+end
+arch dungeon_magic
 x 3
 y 13
 elevation 6377
 end
-arch treed_hills
+arch grass
+x 3
+y 13
+end
+arch dungeon_magic
 x 3
 y 14
 elevation 4096
 end
-arch mountain
+arch grass
+x 3
+y 14
+end
+arch dungeon_magic
 x 3
 y 15
 elevation 6712
 end
-arch mountain
+arch cobblestones2
+x 3
+y 15
+end
+arch dungeon_magic
 x 3
 y 16
 elevation 5549
 end
-arch mountain2
+arch cobblestones2
+x 3
+y 16
+end
+arch dungeon_magic
 x 3
 y 17
 elevation 9471
 end
-arch river_sw-ne_u
+arch grass
 x 3
 y 17
-elevation 9568
 end
-arch mountain2
+arch dungeon_magic
 x 3
 y 18
 elevation 10955
 end
-arch river_sw-ne
+arch grass
 x 3
 y 18
-elevation 9431
 end
-arch mountain4
+arch dungeon_magic
 x 3
 y 19
 elevation 12779
 end
-arch mountain4
+arch grass
+x 3
+y 19
+end
+arch cwall_2_1_2
+x 3
+y 19
+end
+arch river_new2
 x 3
 y 20
 elevation 14186
@@ -1291,7 +1431,7 @@ x 4
 y 4
 elevation 12659
 end
-arch cobblestones2
+arch grass
 x 4
 y 4
 end
@@ -1320,10 +1460,9 @@ arch dungeon_magic
 x 4
 y 5
 end
-arch cobblestones2
+arch grass
 x 4
 y 5
-elevation 12659
 end
 arch sign
 name Beginners
@@ -1344,19 +1483,21 @@ arch dungeon_magic
 x 4
 y 6
 end
-arch cobblestones2
+arch grass
 x 4
 y 6
-elevation 11347
 end
 arch dungeon_magic
 x 4
 y 7
 end
-arch cobblestones2
+arch grass
 x 4
 y 7
-elevation 9470
+end
+arch tree6_darkerstill
+x 4
+y 7
 end
 arch dungeon_magic
 x 4
@@ -1367,94 +1508,116 @@ x 4
 y 8
 elevation 7767
 end
+arch house_2
+name Beginner's House
+slaying /scorn/misc/beginners
+hp 14
+sp 28
+x 4
+y 8
+end
 arch dungeon_magic
 x 4
 y 9
 end
-arch hills
+arch cobblestones2
 x 4
 y 9
-elevation 8861
 end
 arch dungeon_magic
 x 4
 y 10
 end
-arch grass
-x 4
-y 10
-elevation 8800
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 4
 y 10
 end
-arch treed_hills
+arch dungeon_magic
 x 4
 y 11
 elevation 4506
 end
-arch river_w-e
+arch grass
 x 4
 y 11
-elevation 7922
 end
-arch treed_hills
+arch dungeon_magic
 x 4
 y 12
 elevation 3227
 end
-arch treed_hills
+arch hills
+x 4
+y 12
+end
+arch dungeon_magic
 x 4
 y 13
 elevation 3293
 end
-arch mountain
+arch hills
+x 4
+y 13
+end
+arch dungeon_magic
 x 4
 y 14
 elevation 7179
 end
-arch mountain
+arch grass
+x 4
+y 14
+end
+arch dungeon_magic
 x 4
 y 15
 elevation 7037
 end
-arch mountain
+arch cobblestones2
+x 4
+y 15
+end
+arch dungeon_magic
 x 4
 y 16
 elevation 8839
 end
-arch river_sw-ne_u
+arch cobblestones2
 x 4
 y 16
-elevation 6525
 end
-arch mountain
+arch dungeon_magic
 x 4
 y 17
 elevation 6279
 end
-arch river_sw-ne
+arch grass
 x 4
 y 17
-elevation 7089
 end
-arch mountain
+arch dungeon_magic
 x 4
 y 18
 elevation 6360
 end
-arch river_sw-ne_l
+arch grass
 x 4
 y 18
-elevation 6664
 end
-arch mountain2
+arch dungeon_magic
 x 4
 y 19
 elevation 11849
 end
-arch mountain4
+arch grass
+x 4
+y 19
+end
+arch cwall_2_1_2
+x 4
+y 19
+end
+arch river_new2
 x 4
 y 20
 elevation 13115
@@ -1642,37 +1805,33 @@ arch dungeon_magic
 x 5
 y 4
 end
-arch cobblestones2
+arch grass
 x 5
 y 4
-elevation 12023
 end
 arch dungeon_magic
 x 5
 y 5
 end
-arch cobblestones2
+arch grass
 x 5
 y 5
-elevation 12049
 end
 arch dungeon_magic
 x 5
 y 6
 end
-arch cobblestones2
+arch grass
 x 5
 y 6
-elevation 11110
 end
 arch dungeon_magic
 x 5
 y 7
 end
-arch cobblestones2
+arch grasspond
 x 5
 y 7
-elevation 9899
 end
 arch dungeon_magic
 x 5
@@ -1683,12 +1842,7 @@ x 5
 y 8
 elevation 9534
 end
-arch hovels2
-name Riverside Manor
-name_pl Riverside Manor
-slaying /scorn/houses/riverside_manor
-hp 11
-sp 1
+arch shrub02
 x 5
 y 8
 end
@@ -1696,90 +1850,111 @@ arch dungeon_magic
 x 5
 y 9
 end
-arch grass
+arch cobblestones2
 x 5
 y 9
-elevation 9213
 end
 arch dungeon_magic
 x 5
 y 10
 end
-arch grass
-x 5
-y 10
-elevation 8473
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 5
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 x 5
 y 11
 elevation 4844
 end
-arch river_w-e
+arch hills
 x 5
 y 11
-elevation 6740
 end
-arch treed_hills
+arch dungeon_magic
 x 5
 y 12
 elevation 4697
 end
-arch treed_hills
+arch hills_rocky
+x 5
+y 12
+end
+arch dungeon_magic
 x 5
 y 13
 elevation 3805
 end
-arch mountain
+arch hills_rocky
+x 5
+y 13
+end
+arch dungeon_magic
 x 5
 y 14
 elevation 6911
 end
 arch hills
 x 5
+y 14
+end
+arch farmhouse
+name Riverside Manor
+slaying /scorn/houses/riverside_manor
+hp 11
+sp 1
+x 5
+y 14
+end
+arch dungeon_magic
+x 5
 y 15
 elevation 3262
 end
-arch river_sw-ne_u
+arch cobblestones2
 x 5
 y 15
-elevation 4479
 end
-arch mountain
+arch dungeon_magic
 x 5
 y 16
-elevation 6718
 end
-arch river_sw-ne
+arch cobblestones2
 x 5
 y 16
-elevation 5335
 end
-arch mountain
+arch dungeon_magic
 x 5
 y 17
 elevation 5387
 end
-arch river_sw-ne_l
+arch grass
 x 5
 y 17
-elevation 5825
 end
-arch mountain
+arch dungeon_magic
 x 5
 y 18
 elevation 6618
 end
-arch mountain
+arch grass
+x 5
+y 18
+end
+arch dungeon_magic
 x 5
 y 19
 elevation 8551
 end
-arch mountain2
+arch grass
+x 5
+y 19
+end
+arch cwall_2_1_2
+x 5
+y 19
+end
+arch river_new2
 x 5
 y 20
 elevation 10706
@@ -1945,10 +2120,6 @@ x 6
 y 1
 elevation 12018
 end
-arch pillars
-x 6
-y 1
-end
 arch dungeon_magic
 x 6
 y 2
@@ -1985,15 +2156,6 @@ x 6
 y 5
 elevation 11843
 end
-arch house_2
-name Alfalfa's House
-name_pl Alfalfa's House
-slaying /scorn/houses/newhouse1
-hp 2
-sp 1
-x 6
-y 5
-end
 arch dungeon_magic
 x 6
 y 6
@@ -2007,7 +2169,7 @@ arch dungeon_magic
 x 6
 y 6
 end
-arch cobblestones2
+arch grass
 x 6
 y 6
 end
@@ -2015,10 +2177,9 @@ arch dungeon_magic
 x 6
 y 7
 end
-arch cobblestones2
+arch grass
 x 6
 y 7
-elevation 9914
 end
 arch dungeon_magic
 x 6
@@ -2029,94 +2190,116 @@ x 6
 y 8
 elevation 9295
 end
+arch house_small
+name Alfalfa's House
+slaying /scorn/houses/newhouse1
+hp 2
+sp 1
+x 6
+y 8
+end
 arch dungeon_magic
 x 6
 y 9
 end
-arch grass
+arch cobblestones2
 x 6
 y 9
-elevation 8913
 end
 arch dungeon_magic
 x 6
 y 10
 end
-arch hills
-x 6
-y 10
-elevation 7775
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 6
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 x 6
 y 11
 elevation 4080
 end
-arch river_w-e
+arch grass
 x 6
 y 11
-elevation 5978
 end
-arch hills
+arch dungeon_magic
 x 6
 y 12
 elevation 3871
 end
-arch treed_hills
+arch hills_rocky
+x 6
+y 12
+end
+arch dungeon_magic
 x 6
 y 13
 elevation 4132
 end
-arch mountain
+arch hills_rocky
+x 6
+y 13
+end
+arch dungeon_magic
 x 6
 y 14
 elevation 7253
 end
-arch river_sw-ne_u
+arch hills_rocky
 x 6
 y 14
-elevation 4871
 end
-arch mountain
+arch dungeon_magic
 x 6
 y 15
 elevation 6694
 end
-arch river_sw-ne
+arch cobblestones2
 x 6
 y 15
-elevation 5255
 end
-arch mountain
+arch dungeon_magic
 x 6
 y 16
 elevation 6991
 end
-arch river_sw-ne_l
+arch cobblestones2
 x 6
 y 16
-elevation 5243
 end
-arch mountain
+arch dungeon_magic
 x 6
 y 17
 elevation 6782
 end
-arch steppe
+arch grass
+x 6
+y 17
+end
+arch dungeon_magic
 x 6
 y 18
 elevation 4035
 end
-arch mountain
+arch grass
+x 6
+y 18
+end
+arch dungeon_magic
 x 6
 y 19
 elevation 8479
 end
-arch mountain2
+arch grass
+x 6
+y 19
+end
+arch cwall_2_1_2
+x 6
+y 19
+end
+arch river_new2
 x 6
 y 20
 elevation 9714
@@ -2282,9 +2465,8 @@ x 7
 y 1
 elevation 11305
 end
-arch inn
+arch tavern_fant_shop
 name Wanderer Inn
-name_pl Wanderer Inn
 slaying /scorn/taverns/inn
 hp 8
 sp 15
@@ -2341,19 +2523,17 @@ arch dungeon_magic
 x 7
 y 6
 end
-arch cobblestones2
+arch grass
 x 7
 y 6
-elevation 10747
 end
 arch dungeon_magic
 x 7
 y 7
 end
-arch cobblestones2
+arch grass
 x 7
 y 7
-elevation 9909
 end
 arch dungeon_magic
 x 7
@@ -2368,95 +2548,103 @@ arch dungeon_magic
 x 7
 y 9
 end
-arch hills
+arch cobblestones2
 x 7
 y 9
-elevation 8526
 end
 arch dungeon_magic
 x 7
 y 10
 end
-arch hills
-x 7
-y 10
-elevation 6889
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 7
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 x 7
 y 11
 elevation 3307
 end
-arch river_se-w
+arch hills
 x 7
 y 11
-elevation 4104
 end
-arch hills_rocky
+arch dungeon_magic
 x 7
 y 12
 elevation 3932
 end
-arch river_nw-se_l
+arch hills_rocky
 x 7
 y 12
-elevation 3519
 end
-arch hills
+arch dungeon_magic
 x 7
 y 13
 elevation 3089
 end
-arch river_sw-ne_u
+arch hills_rocky
 x 7
 y 13
-elevation 3541
 end
-arch mountain
+arch dungeon_magic
 x 7
 y 14
-elevation 7664
 end
-arch river_sw-ne
+arch hills_rocky
 x 7
 y 14
-elevation 4635
 end
-arch mountain
+arch dungeon_magic
 x 7
 y 15
 elevation 5473
 end
-arch river_sw-ne_l
+arch cobblestones2
 x 7
 y 15
-elevation 5290
 end
-arch mountain
+arch dungeon_magic
 x 7
 y 16
 elevation 6245
 end
-arch mountain
+arch cobblestones2
+x 7
+y 16
+end
+arch dungeon_magic
 x 7
 y 17
 elevation 7399
 end
-arch mountain
+arch grass
+x 7
+y 17
+end
+arch dungeon_magic
 x 7
 y 18
 elevation 7685
 end
-arch mountain
+arch grass
+x 7
+y 18
+end
+arch dungeon_magic
 x 7
 y 19
 elevation 7028
 end
-arch mountain
+arch grass
+x 7
+y 19
+end
+arch cwall_2_1_2
+x 7
+y 19
+end
+arch river_new2
 x 7
 y 20
 elevation 8236
@@ -2609,9 +2797,8 @@ end
 arch dungeon_magic
 x 8
 end
-arch woods_3
+arch hills
 x 8
-elevation 10631
 end
 arch dungeon_magic
 x 8
@@ -2649,15 +2836,6 @@ x 8
 y 4
 elevation 10990
 end
-arch farmhouse
-name Patch's House
-name_pl Patch's House
-slaying /scorn/houses/house2
-hp 10
-sp 1
-x 8
-y 4
-end
 arch dungeon_magic
 x 8
 y 5
@@ -2671,127 +2849,140 @@ arch dungeon_magic
 x 8
 y 6
 end
-arch cobblestones2
+arch grass
 x 8
 y 6
-elevation 10600
 end
 arch dungeon_magic
 x 8
 y 7
+end
+arch grass
+x 8
+y 7
+end
+arch dungeon_magic
+x 8
+y 8
+end
+arch grass
+x 8
+y 8
+end
+arch woodhouse
+name Mrs. Noob's Place
+slaying /scorn/houses/easy_house.1.a
+hp 10
+sp 19
+x 8
+y 8
+end
+arch dungeon_magic
+x 8
+y 9
 end
 arch cobblestones2
 x 8
-y 7
-elevation 10094
-end
-arch dungeon_magic
-x 8
-y 8
-end
-arch blackrock
-x 8
-y 8
-end
-arch burning_house_small
-slaying /planes/plane_of_fire_se
-hp 8
-sp 8
-x 8
-y 8
-end
-arch dungeon_magic
-x 8
-y 9
-end
-arch grass
-x 8
-y 9
-elevation 8449
-end
-arch mountain3
-x 8
 y 9
 end
 arch dungeon_magic
 x 8
 y 10
 end
-arch grass
-x 8
-y 10
-elevation 6225
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 8
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 x 8
 y 11
 elevation 3994
 end
-arch river_nw-se_u
+arch grass
 x 8
 y 11
-elevation 2801
 end
-arch hills_rocky
+arch dungeon_magic
 x 8
 y 12
 elevation 4220
 end
-arch river_nw-s
+arch hills_rocky
 x 8
 y 12
-elevation 2814
 end
-arch hills_rocky
+arch tree6_darkerstill
+x 8
+y 12
+end
+arch dungeon_magic
 x 8
 y 13
 elevation 3679
 end
-arch river_sw-n
+arch hills_rocky
 x 8
 y 13
-elevation 3266
 end
-arch mountain
+arch dungeon_magic
 x 8
 y 14
 elevation 8372
 end
-arch river_sw-ne_l
+arch hills_rocky
 x 8
 y 14
-elevation 4152
 end
-arch mountain
+arch dungeon_magic
 x 8
 y 15
 elevation 6715
 end
-arch mountain
+arch cobblestones2
+x 8
+y 15
+end
+arch dungeon_magic
 x 8
 y 16
 elevation 5816
 end
-arch mountain
+arch cobblestones2
+x 8
+y 16
+end
+arch dungeon_magic
 x 8
 y 17
 elevation 7824
 end
-arch mountain
+arch grass
+x 8
+y 17
+end
+arch dungeon_magic
 x 8
 y 18
 elevation 5803
 end
-arch hills
+arch grass
+x 8
+y 18
+end
+arch dungeon_magic
 x 8
 y 19
 elevation 3733
 end
-arch steppe
+arch grass
+x 8
+y 19
+end
+arch cwall_2_1_2
+x 8
+y 19
+end
+arch river_new2
 x 8
 y 20
 elevation 4890
@@ -2957,6 +3148,14 @@ x 9
 y 1
 elevation 9384
 end
+arch woodhouse_shop
+name Scorn General Store
+slaying /scorn/shops/generalshop
+hp 13
+sp 13
+x 9
+y 1
+end
 arch dungeon_magic
 x 9
 y 2
@@ -2993,30 +3192,21 @@ x 9
 y 5
 elevation 9429
 end
-arch house_small
-slaying /scorn/houses/easy_house.1.a
-hp 10
-sp 19
-x 9
-y 5
-end
 arch dungeon_magic
 x 9
 y 6
 end
-arch cobblestones2
+arch grass
 x 9
 y 6
-elevation 9669
 end
 arch dungeon_magic
 x 9
 y 7
 end
-arch cobblestones2
+arch grass
 x 9
 y 7
-elevation 9759
 end
 arch dungeon_magic
 x 9
@@ -3035,70 +3225,105 @@ arch dungeon_magic
 x 9
 y 9
 end
-arch hills
+arch cobblestones2
 x 9
 y 9
-elevation 8488
 end
 arch dungeon_magic
 x 9
 y 10
 end
-arch grass
-x 9
-y 10
-elevation 6922
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 9
 y 10
 end
-arch hills_rocky
+arch dungeon_magic
 x 9
 y 11
 elevation 4820
 end
 arch hills
 x 9
+y 11
+end
+arch dungeon_magic
+x 9
 y 12
 elevation 3381
 end
 arch hills_rocky
+x 9
+y 12
+end
+arch dungeon_magic
 x 9
 y 13
 elevation 3149
 end
 arch hills_rocky
 x 9
+y 13
+end
+arch hills_rocky
+x 9
 y 14
 elevation 3861
 end
-arch mountain
+arch lamppost
+x 9
+y 14
+glow_radius 10
+end
+arch dungeon_magic
 x 9
 y 15
 elevation 7526
 end
-arch mountain
+arch cobblestones2
+x 9
+y 15
+end
+arch dungeon_magic
 x 9
 y 16
 elevation 6946
 end
-arch hills
+arch cobblestones2
+x 9
+y 16
+end
+arch dungeon_magic
 x 9
 y 17
 elevation 3250
 end
-arch mountain
+arch hills_rocky
+x 9
+y 17
+end
+arch dungeon_magic
 x 9
 y 18
 elevation 8263
 end
-arch mountain
+arch grass
+x 9
+y 18
+end
+arch dungeon_magic
 x 9
 y 19
 elevation 5737
 end
-arch mountain
+arch grass
+x 9
+y 19
+end
+arch cwall_2_1_2
+x 9
+y 19
+end
+arch river_new2
 x 9
 y 20
 elevation 7942
@@ -3283,19 +3508,17 @@ arch dungeon_magic
 x 10
 y 2
 end
-arch cobblestones2
+arch grass
 x 10
 y 2
-elevation 7383
 end
 arch dungeon_magic
 x 10
 y 3
 end
-arch cobblestones2
+arch grass
 x 10
 y 3
-elevation 7172
 end
 arch dungeon_magic
 x 10
@@ -3304,16 +3527,14 @@ end
 arch grass
 x 10
 y 4
-elevation 5985
 end
 arch dungeon_magic
 x 10
 y 5
 end
-arch woods_3
+arch hills
 x 10
 y 5
-elevation 6137
 end
 arch dungeon_magic
 x 10
@@ -3337,12 +3558,7 @@ arch dungeon_magic
 x 10
 y 8
 end
-arch grass
-x 10
-y 8
-elevation 8932
-end
-arch mountain3
+arch cobblestones2
 x 10
 y 8
 end
@@ -3350,75 +3566,105 @@ arch dungeon_magic
 x 10
 y 9
 end
-arch hills
+arch cobblestones2
 x 10
 y 9
-elevation 8581
 end
 arch dungeon_magic
 x 10
 y 10
 end
-arch grass
-x 10
-y 10
-elevation 7552
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 10
 y 10
 end
-arch hills
+arch dungeon_magic
 x 10
 y 11
 elevation 3499
 end
-arch hills
+arch cobblestones2
+x 10
+y 11
+end
+arch dungeon_magic
 x 10
 y 12
 elevation 4569
 end
-arch mountain
+arch cobblestones2
+x 10
+y 12
+end
+arch cobblestones2
 x 10
 y 13
 elevation 5942
 end
-arch mountain
+arch dungeon_magic
+x 10
+y 13
+end
+arch dungeon_magic
 x 10
 y 14
 elevation 8759
 end
-arch mountain
+arch cobblestones2
+x 10
+y 14
+end
+arch dungeon_magic
 x 10
 y 15
 elevation 6003
 end
-arch mountain
+arch cobblestones2
+x 10
+y 15
+end
+arch dungeon_magic
 x 10
 y 16
 elevation 7909
 end
-arch mountain
+arch cobblestones2
+x 10
+y 16
+end
+arch dungeon_magic
 x 10
 y 17
 elevation 6432
 end
-arch mountain
+arch hills_rocky
+x 10
+y 17
+end
+arch hills_rocky
 x 10
 y 18
 elevation 5337
 end
-arch mountain
+arch dungeon_magic
 x 10
 y 19
 elevation 6639
 end
-arch hills
+arch grass
+x 10
+y 19
+end
+arch cwall_2_1_2
+x 10
+y 19
+end
+arch river_new2
 x 10
 y 20
 elevation 4368
 end
-arch hills
+arch grass
 x 10
 y 21
 elevation 4638
@@ -3579,15 +3825,6 @@ x 11
 y 1
 elevation 5799
 end
-arch store_general
-name Scorn General store
-name_pl Scorn General store
-slaying /scorn/shops/generalshop
-hp 13
-sp 13
-x 11
-y 1
-end
 arch dungeon_magic
 x 11
 y 2
@@ -3601,10 +3838,9 @@ arch dungeon_magic
 x 11
 y 3
 end
-arch cobblestones2
+arch grass
 x 11
 y 3
-elevation 5899
 end
 arch dungeon_magic
 x 11
@@ -3616,6 +3852,7 @@ y 4
 elevation 6055
 end
 arch house_small
+name To: BankBox (testing)
 slaying /grassplains1
 hp 4
 sp 4
@@ -3626,10 +3863,9 @@ arch dungeon_magic
 x 11
 y 5
 end
-arch treed_hills
+arch hills
 x 11
 y 5
-elevation 6472
 end
 arch dungeon_magic
 x 11
@@ -3644,30 +3880,23 @@ arch dungeon_magic
 x 11
 y 7
 end
-arch woods_3
+arch cobblestones2
 x 11
 y 7
-elevation 7857
 end
 arch dungeon_magic
 x 11
 y 8
 end
-arch treed_hills
+arch cobblestones2
 x 11
 y 8
-elevation 7421
 end
 arch dungeon_magic
 x 11
 y 9
 end
-arch grass
-x 11
-y 9
-elevation 7899
-end
-arch mountain3
+arch cobblestones2
 x 11
 y 9
 end
@@ -3675,66 +3904,101 @@ arch dungeon_magic
 x 11
 y 10
 end
-arch hills
-x 11
-y 10
-elevation 7413
-end
-arch cwall_2_1_2
+arch cobblestones2
 x 11
 y 10
 end
-arch hills
+arch dungeon_magic
 x 11
 y 11
 elevation 4102
 end
-arch hills
+arch cobblestones2
+x 11
+y 11
+end
+arch dungeon_magic
 x 11
 y 12
 elevation 3746
 end
-arch mountain
+arch cobblestones2
+x 11
+y 12
+end
+arch dungeon_magic
 x 11
 y 13
 elevation 6874
 end
-arch treed_hills
+arch cobblestones2
+x 11
+y 13
+end
+arch dungeon_magic
 x 11
 y 14
 elevation 4730
 end
-arch mountain
+arch cobblestones2
+x 11
+y 14
+end
+arch dungeon_magic
 x 11
 y 15
 elevation 7906
 end
-arch mountain
+arch cobblestones2
+x 11
+y 15
+end
+arch dungeon_magic
 x 11
 y 16
 elevation 6660
 end
-arch treed_hills
+arch cobblestones2
+x 11
+y 16
+end
+arch dungeon_magic
 x 11
 y 17
 elevation 3601
 end
-arch mountain
+arch hills_rocky
+x 11
+y 17
+end
+arch dungeon_magic
 x 11
 y 18
 elevation 5871
 end
-arch mountain
+arch hills_rocky
+x 11
+y 18
+end
+arch dungeon_magic
 x 11
 y 19
 elevation 8050
 end
-arch desert
+arch grass
+x 11
+y 19
+end
+arch cwall_2_1_2
+x 11
+y 19
+end
+arch river_new2
 x 11
 y 20
 elevation 3631
 end
-arch desert
+arch grass
 x 11
 y 21
 elevation 5631
@@ -3882,9 +4146,8 @@ end
 arch dungeon_magic
 x 12
 end
-arch treed_hills
+arch bosgrass3
 x 12
-elevation 7235
 end
 arch dungeon_magic
 x 12
@@ -3917,10 +4180,9 @@ arch dungeon_magic
 x 12
 y 4
 end
-arch woods_3
+arch hills
 x 12
 y 4
-elevation 4934
 end
 arch dungeon_magic
 x 12
@@ -3935,15 +4197,6 @@ arch brush
 x 12
 y 5
 elevation 2552
-end
-arch city_tower
-name Newbie Tower
-name_pl Newbie Tower
-slaying /scorn/towers/tower
-hp 16
-sp 30
-x 12
-y 5
 end
 arch dungeon_magic
 x 12
@@ -3963,23 +4216,29 @@ x 12
 y 7
 elevation 7019
 end
+arch keep_sym_noflag_misc_colored
+name Newbie Tower
+slaying /scorn/towers/tower
+hp 16
+sp 30
+x 12
+y 7
+end
 arch dungeon_magic
 x 12
 y 8
 end
-arch woods_3
+arch hills
 x 12
 y 8
-elevation 7097
 end
 arch dungeon_magic
 x 12
 y 9
 end
-arch grass
+arch hills
 x 12
 y 9
-elevation 5412
 end
 arch dungeon_magic
 x 12
@@ -3988,63 +4247,106 @@ end
 arch hills
 x 12
 y 10
-elevation 7150
 end
-arch cwall_2_1_2
-x 12
-y 10
-end
-arch mountain
+arch dungeon_magic
 x 12
 y 11
 elevation 6025
 end
-arch mountain
+arch hills_rocky
+x 12
+y 11
+end
+arch dungeon_magic
 x 12
 y 12
 elevation 5001
 end
-arch mountain
+arch hills_rocky
+x 12
+y 12
+end
+arch dungeon_magic
 x 12
 y 13
 elevation 5192
 end
-arch mountain
+arch hills_rocky
+x 12
+y 13
+end
+arch dungeon_magic
 x 12
 y 14
 elevation 5376
 end
-arch mountain
+arch hills_rocky
+x 12
+y 14
+end
+arch dungeon_magic
 x 12
 y 15
 elevation 8187
 end
-arch mountain
+arch hills_rocky
+x 12
+y 15
+end
+arch dungeon_magic
 x 12
 y 16
 elevation 6670
 end
-arch mountain
+arch hills_rocky
+x 12
+y 16
+end
+arch keep_sym_noflag_burning
+name Fire Plane Tower
+slaying /planes/plane_of_fire_se
+hp 8
+sp 8
+x 12
+y 16
+end
+arch dungeon_magic
 x 12
 y 17
 elevation 7493
 end
-arch jungle_1
+arch hills_rocky
+x 12
+y 17
+end
+arch dungeon_magic
 x 12
 y 18
 elevation 2409
 end
-arch desert
+arch hills_rocky
+x 12
+y 18
+end
+arch dungeon_magic
 x 12
 y 19
 elevation 4007
 end
-arch desert
+arch grass
+x 12
+y 19
+end
+arch cwall_2_1_2
+x 12
+y 19
+end
+arch river_new2
 x 12
 y 20
 elevation 3633
 end
-arch desert
+arch grass
 x 12
 y 21
 elevation 8855
@@ -4325,61 +4627,133 @@ x 13
 y 10
 elevation 7076
 end
-arch cwall_2_2_4
+arch cwall_2_1_1
 x 13
 y 10
 end
-arch treed_hills
+arch dungeon_magic
 x 13
 y 11
 elevation 3498
 end
-arch mountain
+arch hills_rocky
+x 13
+y 11
+end
+arch cwall_2_1_1
+x 13
+y 11
+end
+arch dungeon_magic
 x 13
 y 12
 elevation 8871
 end
-arch jungle_1
+arch hills_rocky
+x 13
+y 12
+end
+arch cwall_2_1_1
+x 13
+y 12
+end
+arch dungeon_magic
 x 13
 y 13
 elevation 101
 end
-arch hills
+arch hills_rocky
+x 13
+y 13
+end
+arch cwall_2_1_1
+x 13
+y 13
+end
+arch dungeon_magic
 x 13
 y 14
 elevation 3368
 end
-arch jungle_1
+arch hills_rocky
+x 13
+y 14
+end
+arch cwall_2_1_1
+x 13
+y 14
+end
+arch dungeon_magic
 x 13
 y 15
 elevation 205
 end
-arch jungle_1
+arch hills_rocky
+x 13
+y 15
+end
+arch cwall_2_1_1
+x 13
+y 15
+end
+arch dungeon_magic
 x 13
 y 16
 elevation 1640
 end
-arch jungle_1
+arch hills_rocky
+x 13
+y 16
+end
+arch cwall_2_1_1
+x 13
+y 16
+end
+arch dungeon_magic
 x 13
 y 17
 elevation 1828
 end
-arch jungle_1
+arch hills_rocky
+x 13
+y 17
+end
+arch cwall_2_1_1
+x 13
+y 17
+end
+arch dungeon_magic
 x 13
 y 18
 elevation 912
 end
-arch desert
+arch hills_rocky
+x 13
+y 18
+end
+arch cwall_2_1_1
+x 13
+y 18
+end
+arch dungeon_magic
 x 13
 y 19
 elevation 2546
 end
-arch desert
+arch grass
+x 13
+y 19
+end
+arch cwall_2_2_4
+x 13
+y 19
+end
+arch river_new2
 x 13
 y 20
 elevation 4039
 end
-arch steppe
+arch grass
 x 13
 y 21
 elevation 4674
@@ -4524,7 +4898,7 @@ x 13
 y 49
 elevation 4035
 end
-arch hills_rocky
+arch hills
 x 14
 elevation 4258
 end
@@ -4538,12 +4912,12 @@ x 14
 y 2
 elevation 4258
 end
-arch hills_rocky
+arch hills
 x 14
 y 3
 elevation 4258
 end
-arch hills_rocky
+arch hills
 x 14
 y 4
 elevation 4258
@@ -4553,12 +4927,12 @@ x 14
 y 5
 elevation 4258
 end
-arch hills_rocky
+arch hills
 x 14
 y 6
 elevation 4258
 end
-arch hills_rocky
+arch hills
 x 14
 y 7
 elevation 4258
@@ -4573,62 +4947,62 @@ x 14
 y 9
 elevation 4959
 end
-arch treed_hills
+arch grass
 x 14
 y 10
 elevation 4903
 end
-arch mountain
+arch hills_rocky
 x 14
 y 11
 elevation 8810
 end
-arch mountain
+arch hills_rocky
 x 14
 y 12
 elevation 7487
 end
-arch jungle_1
+arch hills_rocky
 x 14
 y 13
 elevation 1394
 end
-arch mountain
+arch hills_rocky
 x 14
 y 14
 elevation 7483
 end
-arch tree
+arch hills_rocky
 x 14
 y 15
 elevation 1370
 end
-arch desert
+arch hills_rocky
 x 14
 y 16
 elevation 2035
 end
-arch desert
+arch hills_rocky
 x 14
 y 17
 elevation 2154
 end
-arch desert
+arch grass
 x 14
 y 18
 elevation 1666
 end
-arch desert
+arch grass
 x 14
 y 19
 elevation 3885
 end
-arch steppe
+arch river_new2
 x 14
 y 20
 elevation 4670
 end
-arch hills_rocky
+arch grass
 x 14
 y 21
 elevation 4810
@@ -4817,67 +5191,67 @@ x 15
 y 8
 elevation 4778
 end
-arch mountain
+arch grass
 x 15
 y 9
 elevation 8132
 end
-arch mountain
+arch grass
 x 15
 y 10
 elevation 7281
 end
-arch mountain
+arch grass
 x 15
 y 11
 elevation 6511
 end
-arch mountain
+arch hills_rocky
 x 15
 y 12
 elevation 8892
 end
-arch mountain
+arch hills_rocky
 x 15
 y 13
 elevation 8112
 end
-arch mountain
+arch hills_rocky
 x 15
 y 14
 elevation 5837
 end
-arch mountain
+arch hills_rocky
 x 15
 y 15
 elevation 8125
 end
-arch desert
+arch grass
 x 15
 y 16
 elevation 2309
 end
-arch desert
+arch grass
 x 15
 y 17
 elevation 814
 end
-arch desert
+arch grass
 x 15
 y 18
 elevation 4645
 end
-arch desert
+arch grass
 x 15
 y 19
 elevation 3756
 end
-arch steppe
+arch river_new2
 x 15
 y 20
 elevation 3155
 end
-arch steppe
+arch grass
 x 15
 y 21
 elevation 4394
@@ -5081,7 +5455,7 @@ x 16
 y 11
 elevation 5416
 end
-arch mountain
+arch hills_rocky
 x 16
 y 12
 elevation 7694
@@ -5091,42 +5465,42 @@ x 16
 y 13
 elevation 3401
 end
-arch mountain
+arch hills_rocky
 x 16
 y 14
 elevation 6314
 end
-arch mountain
+arch grass
 x 16
 y 15
 elevation 7312
 end
-arch desert
+arch grass
 x 16
 y 16
 elevation 3618
 end
-arch desert
+arch grass
 x 16
 y 17
 elevation 3415
 end
-arch desert
+arch grass
 x 16
 y 18
 elevation 4141
 end
-arch desert
+arch grass
 x 16
 y 19
 elevation 3340
 end
-arch mountain
+arch river_new2
 x 16
 y 20
 elevation 7597
 end
-arch mountain
+arch grass
 x 16
 y 21
 elevation 8292
@@ -5370,7 +5744,7 @@ x 17
 y 19
 elevation 5500
 end
-arch hills_rocky
+arch river_new2
 x 17
 y 20
 elevation 3269

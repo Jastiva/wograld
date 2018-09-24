@@ -7,6 +7,9 @@ width 50
 height 50
 enter_x 1
 enter_y 1
+msg
+Modified: 2018-09-23 lori
+endmsg
 outdoor 1
 tile_path_1 plane_of_fire_ne
 tile_path_4 plane_of_fire_sw
@@ -78,9 +81,6 @@ end
 arch blackrock
 y 10
 end
-arch burningwall_2_1_2
-y 10
-end
 arch blackrock
 y 11
 end
@@ -90,35 +90,38 @@ end
 arch blackrock
 y 12
 end
-arch mountain
+arch blackrock
 y 13
 elevation 8587
 end
-arch mountain
+arch blackrock
 y 14
 elevation 7897
 end
-arch mountain2
+arch blackrock
 y 15
 elevation 9587
 end
-arch mountain2
+arch blackrock
 y 16
 elevation 9471
 end
-arch mountain4
+arch blackrock
 y 17
 elevation 12959
 end
-arch mountain5
+arch blackrock
 y 18
 elevation 19709
 end
-arch mountain5
+arch blackrock
 y 19
 elevation 23739
 end
-arch mountain5
+arch burningwall_1_4
+y 19
+end
+arch lava
 y 20
 elevation 17437
 end
@@ -350,10 +353,6 @@ arch blackrock
 x 1
 y 10
 end
-arch burningwall_2_1_2
-x 1
-y 10
-end
 arch blackrock
 x 1
 y 11
@@ -362,47 +361,51 @@ arch lava_river_w-e
 x 1
 y 11
 end
-arch mountain
+arch blackrock
 x 1
 y 12
 elevation 8182
 end
-arch mountain
+arch blackrock
 x 1
 y 13
 elevation 7636
 end
-arch mountain2
+arch blackrock
 x 1
 y 14
 elevation 9493
 end
-arch mountain
+arch blackrock
 x 1
 y 15
 elevation 7022
 end
-arch mountain2
+arch blackrock
 x 1
 y 16
 elevation 10113
 end
-arch mountain4
+arch blackrock
 x 1
 y 17
 elevation 13440
 end
-arch mountain5
+arch blackrock
 x 1
 y 18
 elevation 15394
 end
-arch mountain5
+arch blackrock
 x 1
 y 19
 elevation 17926
 end
-arch mountain5
+arch burningwall_2_1_2
+x 1
+y 19
+end
+arch lava
 x 1
 y 20
 elevation 23926
@@ -671,10 +674,6 @@ arch blackrock
 x 2
 y 10
 end
-arch burningwall_2_1_2
-x 2
-y 10
-end
 arch blackrock
 x 2
 y 11
@@ -683,47 +682,51 @@ arch lava_river_w-e
 x 2
 y 11
 end
-arch mountain
+arch blackrock
 x 2
 y 12
 elevation 7817
 end
-arch mountain
+arch blackrock
 x 2
 y 13
 elevation 7957
 end
-arch mountain
+arch blackrock
 x 2
 y 14
 elevation 7626
 end
-arch mountain
+arch blackrock
 x 2
 y 15
 elevation 8891
 end
-arch mountain2
+arch blackrock
 x 2
 y 16
 elevation 11688
 end
-arch mountain4
+arch blackrock
 x 2
 y 17
 elevation 12127
 end
-arch mountain4
+arch blackrock
 x 2
 y 18
 elevation 13785
 end
-arch mountain4
+arch blackrock
 x 2
 y 19
 elevation 14908
 end
-arch mountain5
+arch burningwall_2_1_2
+x 2
+y 19
+end
+arch lava
 x 2
 y 20
 elevation 16474
@@ -966,10 +969,6 @@ arch blackrock
 x 3
 y 10
 end
-arch burningwall_2_1_2
-x 3
-y 10
-end
 arch blackrock
 x 3
 y 11
@@ -982,27 +981,27 @@ arch blackrock
 x 3
 y 12
 end
-arch mountain
+arch blackrock
 x 3
 y 13
 elevation 6377
 end
-arch treed_hills
+arch blackrock
 x 3
 y 14
 elevation 4096
 end
-arch mountain
+arch blackrock
 x 3
 y 15
 elevation 6712
 end
-arch mountain
+arch blackrock
 x 3
 y 16
 elevation 5549
 end
-arch mountain2
+arch blackrock
 x 3
 y 17
 elevation 9471
@@ -1011,7 +1010,7 @@ arch lava_river_sw-ne_u
 x 3
 y 17
 end
-arch mountain2
+arch blackrock
 x 3
 y 18
 elevation 10955
@@ -1020,12 +1019,16 @@ arch lava_river_sw-ne
 x 3
 y 18
 end
-arch mountain4
+arch blackrock
 x 3
 y 19
 elevation 12779
 end
-arch mountain4
+arch burningwall_2_1_2
+x 3
+y 19
+end
+arch lava
 x 3
 y 20
 elevation 14186
@@ -1313,10 +1316,6 @@ arch blackrock
 x 4
 y 10
 end
-arch burningwall_2_1_2
-x 4
-y 10
-end
 arch blackrock
 x 4
 y 11
@@ -1329,22 +1328,22 @@ arch blackrock
 x 4
 y 12
 end
-arch treed_hills
+arch blackrock
 x 4
 y 13
 elevation 3293
 end
-arch mountain
+arch blackrock
 x 4
 y 14
 elevation 7179
 end
-arch mountain
+arch blackrock
 x 4
 y 15
 elevation 7037
 end
-arch mountain
+arch blackrock
 x 4
 y 16
 elevation 8839
@@ -1353,7 +1352,7 @@ arch lava_river_sw-ne_u
 x 4
 y 16
 end
-arch mountain
+arch blackrock
 x 4
 y 17
 elevation 6279
@@ -1362,7 +1361,7 @@ arch lava_river_sw-ne
 x 4
 y 17
 end
-arch mountain
+arch blackrock
 x 4
 y 18
 elevation 6360
@@ -1371,12 +1370,16 @@ arch lava_river_sw-ne_l
 x 4
 y 18
 end
-arch mountain2
+arch blackrock
 x 4
 y 19
 elevation 11849
 end
-arch mountain4
+arch burningwall_2_1_2
+x 4
+y 19
+end
+arch lava
 x 4
 y 20
 elevation 13115
@@ -1618,10 +1621,6 @@ arch blackrock
 x 5
 y 10
 end
-arch burningwall_2_1_2
-x 5
-y 10
-end
 arch blackrock
 x 5
 y 11
@@ -1634,12 +1633,12 @@ arch blackrock
 x 5
 y 12
 end
-arch treed_hills
+arch blackrock
 x 5
 y 13
 elevation 3805
 end
-arch mountain
+arch blackrock
 x 5
 y 14
 elevation 6911
@@ -1652,7 +1651,7 @@ arch lava_river_sw-ne_u
 x 5
 y 15
 end
-arch mountain
+arch blackrock
 x 5
 y 16
 elevation 6718
@@ -1661,7 +1660,7 @@ arch lava_river_sw-ne
 x 5
 y 16
 end
-arch mountain
+arch blackrock
 x 5
 y 17
 elevation 5387
@@ -1670,17 +1669,21 @@ arch lava_river_sw-ne_l
 x 5
 y 17
 end
-arch mountain
+arch blackrock
 x 5
 y 18
 elevation 6618
 end
-arch mountain
+arch blackrock
 x 5
 y 19
 elevation 8551
 end
-arch mountain2
+arch burningwall_2_1_2
+x 5
+y 19
+end
+arch lava
 x 5
 y 20
 elevation 10706
@@ -1932,10 +1935,6 @@ arch blackrock
 x 6
 y 10
 end
-arch burningwall_2_1_2
-x 6
-y 10
-end
 arch blackrock
 x 6
 y 11
@@ -1948,12 +1947,12 @@ arch blackrock
 x 6
 y 12
 end
-arch treed_hills
+arch blackrock
 x 6
 y 13
 elevation 4132
 end
-arch mountain
+arch blackrock
 x 6
 y 14
 elevation 7253
@@ -1962,7 +1961,7 @@ arch lava_river_sw-ne_u
 x 6
 y 14
 end
-arch mountain
+arch blackrock
 x 6
 y 15
 elevation 6694
@@ -1971,7 +1970,7 @@ arch lava_river_sw-ne
 x 6
 y 15
 end
-arch mountain
+arch blackrock
 x 6
 y 16
 elevation 6991
@@ -1980,22 +1979,26 @@ arch lava_river_sw-ne_l
 x 6
 y 16
 end
-arch mountain
+arch blackrock
 x 6
 y 17
 elevation 6782
 end
-arch steppe
+arch blackrock
 x 6
 y 18
 elevation 4035
 end
-arch mountain
+arch blackrock
 x 6
 y 19
 elevation 8479
 end
-arch mountain2
+arch burningwall_2_1_2
+x 6
+y 19
+end
+arch lava
 x 6
 y 20
 elevation 9714
@@ -2219,19 +2222,33 @@ arch stonefloorred2
 x 7
 y 7
 end
+arch invis_exit
+slaying /world/world_105_116
+hp 12
+sp 16
+x 7
+y 8
+end
 arch dungeon_magic
 x 7
 y 8
 end
-arch blackrock
+arch blackmarble
 x 7
 y 8
+end
+arch invis_exit
+slaying /world/world_105_116
+hp 12
+sp 16
+x 7
+y 9
 end
 arch dungeon_magic
 x 7
 y 9
 end
-arch blackrock
+arch blackmarble
 x 7
 y 9
 end
@@ -2240,10 +2257,6 @@ x 7
 y 10
 end
 arch blackrock
-x 7
-y 10
-end
-arch burningwall_2_1_2
 x 7
 y 10
 end
@@ -2271,7 +2284,7 @@ arch lava_river_sw-ne_u
 x 7
 y 13
 end
-arch mountain
+arch blackrock
 x 7
 y 14
 elevation 7664
@@ -2280,7 +2293,7 @@ arch lava_river_sw-ne
 x 7
 y 14
 end
-arch mountain
+arch blackrock
 x 7
 y 15
 elevation 5473
@@ -2289,27 +2302,31 @@ arch lava_river_sw-ne_l
 x 7
 y 15
 end
-arch mountain
+arch blackrock
 x 7
 y 16
 elevation 6245
 end
-arch mountain
+arch blackrock
 x 7
 y 17
 elevation 7399
 end
-arch mountain
+arch blackrock
 x 7
 y 18
 elevation 7685
 end
-arch mountain
+arch blackrock
 x 7
 y 19
 elevation 7028
 end
-arch mountain
+arch burningwall_2_1_2
+x 7
+y 19
+end
+arch lava
 x 7
 y 20
 elevation 8236
@@ -2530,23 +2547,33 @@ arch stonefloorred2
 x 8
 y 7
 end
+arch invis_exit
+slaying /world/world_105_116
+hp 12
+sp 16
+x 8
+y 8
+end
 arch dungeon_magic
 x 8
 y 8
 end
-arch blackrock
+arch blackmarble
 x 8
 y 8
+end
+arch invis_exit
+slaying /world/world_105_116
+hp 12
+sp 16
+x 8
+y 9
 end
 arch dungeon_magic
 x 8
 y 9
 end
-arch blackrock
-x 8
-y 9
-end
-arch mountain3
+arch blackmarble
 x 8
 y 9
 end
@@ -2555,10 +2582,6 @@ x 8
 y 10
 end
 arch blackrock
-x 8
-y 10
-end
-arch burningwall_2_1_2
 x 8
 y 10
 end
@@ -2586,7 +2609,7 @@ arch lava_river_sw-n
 x 8
 y 13
 end
-arch mountain
+arch blackrock
 x 8
 y 14
 elevation 8372
@@ -2595,32 +2618,36 @@ arch lava_river_sw-ne_l
 x 8
 y 14
 end
-arch mountain
+arch blackrock
 x 8
 y 15
 elevation 6715
 end
-arch mountain
+arch blackrock
 x 8
 y 16
 elevation 5816
 end
-arch mountain
+arch blackrock
 x 8
 y 17
 elevation 7824
 end
-arch mountain
+arch blackrock
 x 8
 y 18
 elevation 5803
 end
-arch hills
+arch blackrock
 x 8
 y 19
 elevation 3733
 end
-arch steppe
+arch burningwall_2_1_2
+x 8
+y 19
+end
+arch lava
 x 8
 y 20
 elevation 4890
@@ -2864,11 +2891,7 @@ arch blackrock
 x 9
 y 10
 end
-arch burningwall_2_1_2
-x 9
-y 10
-end
-arch hills_rocky
+arch blackrock
 x 9
 y 11
 elevation 4820
@@ -2885,32 +2908,36 @@ arch blackrock
 x 9
 y 14
 end
-arch mountain
+arch blackrock
 x 9
 y 15
 elevation 7526
 end
-arch mountain
+arch blackrock
 x 9
 y 16
 elevation 6946
 end
-arch hills
+arch blackrock
 x 9
 y 17
 elevation 3250
 end
-arch mountain
+arch blackrock
 x 9
 y 18
 elevation 8263
 end
-arch mountain
+arch blackrock
 x 9
 y 19
 elevation 5737
 end
-arch mountain
+arch burningwall_2_1_2
+x 9
+y 19
+end
+arch lava
 x 9
 y 20
 elevation 7942
@@ -3169,56 +3196,56 @@ arch blackrock
 x 10
 y 10
 end
-arch burningwall_2_1_2
-x 10
-y 10
-end
-arch hills
+arch blackrock
 x 10
 y 11
 elevation 3499
 end
-arch hills
+arch blackrock
 x 10
 y 12
 elevation 4569
 end
-arch mountain
+arch blackrock
 x 10
 y 13
 elevation 5942
 end
-arch mountain
+arch blackrock
 x 10
 y 14
 elevation 8759
 end
-arch mountain
+arch blackrock
 x 10
 y 15
 elevation 6003
 end
-arch mountain
+arch blackrock
 x 10
 y 16
 elevation 7909
 end
-arch mountain
+arch blackrock
 x 10
 y 17
 elevation 6432
 end
-arch mountain
+arch blackrock
 x 10
 y 18
 elevation 5337
 end
-arch mountain
+arch blackrock
 x 10
 y 19
 elevation 6639
 end
-arch hills
+arch burningwall_2_1_2
+x 10
+y 19
+end
+arch lava
 x 10
 y 20
 elevation 4368
@@ -3480,56 +3507,56 @@ arch blackrock
 x 11
 y 10
 end
-arch burningwall_2_1_2
-x 11
-y 10
-end
-arch hills
+arch blackrock
 x 11
 y 11
 elevation 4102
 end
-arch hills
+arch blackrock
 x 11
 y 12
 elevation 3746
 end
-arch mountain
+arch blackrock
 x 11
 y 13
 elevation 6874
 end
-arch treed_hills
+arch blackrock
 x 11
 y 14
 elevation 4730
 end
-arch mountain
+arch blackrock
 x 11
 y 15
 elevation 7906
 end
-arch mountain
+arch blackrock
 x 11
 y 16
 elevation 6660
 end
-arch treed_hills
+arch blackrock
 x 11
 y 17
 elevation 3601
 end
-arch mountain
+arch blackrock
 x 11
 y 18
 elevation 5871
 end
-arch mountain
+arch blackrock
 x 11
 y 19
 elevation 8050
 end
-arch treed_hills
+arch burningwall_2_1_2
+x 11
+y 19
+end
+arch lava
 x 11
 y 20
 elevation 3631
@@ -3782,56 +3809,56 @@ arch blackrock
 x 12
 y 10
 end
-arch burningwall_2_1_2
-x 12
-y 10
-end
-arch mountain
+arch blackrock
 x 12
 y 11
 elevation 6025
 end
-arch mountain
+arch blackrock
 x 12
 y 12
 elevation 5001
 end
-arch mountain
+arch blackrock
 x 12
 y 13
 elevation 5192
 end
-arch mountain
+arch blackrock
 x 12
 y 14
 elevation 5376
 end
-arch mountain
+arch blackrock
 x 12
 y 15
 elevation 8187
 end
-arch mountain
+arch blackrock
 x 12
 y 16
 elevation 6670
 end
-arch mountain
+arch blackrock
 x 12
 y 17
 elevation 7493
 end
-arch jungle_1
+arch blackrock
 x 12
 y 18
 elevation 2409
 end
-arch steppe
+arch blackrock
 x 12
 y 19
 elevation 4007
 end
-arch steppe
+arch burningwall_2_1_2
+x 12
+y 19
+end
+arch lava
 x 12
 y 20
 elevation 3633
@@ -4106,56 +4133,92 @@ arch blackrock
 x 13
 y 10
 end
-arch burningwall_2_2_4
+arch burningwall_2_1_1
 x 13
 y 10
 end
-arch treed_hills
+arch blackrock
 x 13
 y 11
 elevation 3498
 end
-arch mountain
+arch burningwall_2_1_1
+x 13
+y 11
+end
+arch blackrock
 x 13
 y 12
 elevation 8871
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 12
+end
+arch blackrock
 x 13
 y 13
 elevation 101
 end
-arch hills
+arch burningwall_2_1_1
+x 13
+y 13
+end
+arch blackrock
 x 13
 y 14
 elevation 3368
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 14
+end
+arch blackrock
 x 13
 y 15
 elevation 205
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 15
+end
+arch blackrock
 x 13
 y 16
 elevation 1640
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 16
+end
+arch blackrock
 x 13
 y 17
 elevation 1828
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 17
+end
+arch blackrock
 x 13
 y 18
 elevation 912
 end
-arch jungle_1
+arch burningwall_2_1_1
+x 13
+y 18
+end
+arch blackrock
 x 13
 y 19
 elevation 2546
 end
-arch steppe
+arch burningwall_2_2_4
+x 13
+y 19
+end
+arch lava
 x 13
 y 20
 elevation 4039

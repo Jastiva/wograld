@@ -9,7 +9,7 @@ enter_x 16
 enter_y 29
 msg
 Created:  1993-10-15
-Modified: 2018-09-20 lori
+Modified: 2018-09-23 lori
 endmsg
 end
 arch dungeon_floor
@@ -1082,6 +1082,10 @@ x 4
 y 14
 end
 arch kobold
+x 4
+y 14
+end
+arch key
 x 4
 y 14
 end
@@ -4291,6 +4295,10 @@ arch kobold
 x 16
 y 27
 end
+arch key
+x 16
+y 27
+end
 arch cobblestones2
 x 16
 y 28
@@ -5783,7 +5791,7 @@ arch cwall_2_1_1
 x 22
 y 19
 end
-arch lostlabfloor3
+arch lostlabfloor11
 x 22
 y 20
 end

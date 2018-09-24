@@ -8,6 +8,7 @@ enter_x 11
 enter_y 1
 msg
 Created:  2003-04-27 Avion
+Modified: 2018-09-23 lori
 endmsg
 outdoor 1
 end
@@ -242,7 +243,7 @@ arch wwall_2_1_1
 x 1
 y 9
 end
-arch woodfloor
+arch grass
 x 1
 y 10
 end
@@ -250,17 +251,13 @@ arch wwall_2_2_1
 x 1
 y 10
 end
-arch tree
+arch grass
 x 1
 y 11
-no_pass 1
-blocksview 1
 end
-arch tree
+arch grass
 x 1
 y 12
-no_pass 1
-blocksview 1
 end
 arch woodfloor
 x 1
@@ -434,7 +431,7 @@ arch table_4
 x 2
 y 9
 end
-arch woodfloor
+arch grass
 x 2
 y 10
 end
@@ -442,11 +439,15 @@ arch wwall_2_1_2
 x 2
 y 10
 end
-arch dirtfloor
+arch grass
 x 2
 y 11
 end
-arch grassdark
+arch tree3cherry2
+x 2
+y 11
+end
+arch grass
 x 2
 y 12
 end
@@ -612,7 +613,7 @@ arch chair_1.2
 x 3
 y 9
 end
-arch woodfloor
+arch grass
 x 3
 y 10
 end
@@ -620,7 +621,7 @@ arch wwall_2_1_2
 x 3
 y 10
 end
-arch dirtfloor
+arch grass
 x 3
 y 11
 end
@@ -753,7 +754,7 @@ arch woodfloor
 x 4
 y 9
 end
-arch woodfloor
+arch grass
 x 4
 y 10
 end
@@ -899,7 +900,7 @@ arch woodfloor
 x 5
 y 9
 end
-arch woodfloor
+arch grass
 x 5
 y 10
 end
@@ -911,7 +912,7 @@ arch grass
 x 5
 y 11
 end
-arch dirtfloor
+arch bosgrass2
 x 5
 y 12
 end
@@ -1048,7 +1049,7 @@ arch woodfloor
 x 6
 y 9
 end
-arch woodfloor
+arch grass
 x 6
 y 10
 end
@@ -1214,7 +1215,7 @@ arch woodfloor
 x 7
 y 9
 end
-arch woodfloor
+arch grass
 x 7
 y 10
 end
@@ -1377,7 +1378,7 @@ arch barrel
 x 8
 y 9
 end
-arch woodfloor
+arch grass
 x 8
 y 10
 end
@@ -1577,7 +1578,7 @@ arch wwall_1_1
 x 9
 y 9
 end
-arch woodfloor
+arch grass
 x 9
 y 10
 end
@@ -1589,11 +1590,13 @@ arch grass
 x 9
 y 11
 end
-arch tree
+arch tree3cherry2
+x 9
+y 11
+end
+arch bosgrass
 x 9
 y 12
-no_pass 1
-blocksview 1
 end
 arch brush
 x 9
@@ -1668,13 +1671,13 @@ end
 arch invis_exit
 slaying /world/world_105_116
 hp 5
-sp 8
+sp 14
 x 10
 end
 arch grass
 x 10
 end
-arch dirtfloor
+arch bosgrass2
 x 10
 y 1
 end
@@ -1684,19 +1687,35 @@ y 2
 no_pass 1
 blocksview 1
 end
-arch grass
+arch bosgrass2
 x 10
 y 3
 end
-arch grass
+arch tree3cherry2
+x 10
+y 3
+end
+arch bosgrass2
 x 10
 y 4
 end
-arch grass
+arch tree3cherry2
+x 10
+y 4
+end
+arch bosgrass2
 x 10
 y 5
 end
-arch grass
+arch tree3cherry2
+x 10
+y 5
+end
+arch bosgrass2
+x 10
+y 6
+end
+arch tree3cherry2
 x 10
 y 6
 end
@@ -1839,7 +1858,7 @@ end
 arch invis_exit
 slaying /world/world_105_116
 hp 5
-sp 8
+sp 14
 x 11
 end
 arch grass
@@ -1849,7 +1868,7 @@ arch grass
 x 11
 y 1
 end
-arch dirtfloor
+arch bosgrass2
 x 11
 y 2
 end
@@ -1990,54 +2009,54 @@ y 24
 end
 arch invis_exit
 slaying /world/world_105_116
-hp 6
-sp 8
+hp 5
+sp 14
 x 12
 end
 arch grass
 x 12
 end
-arch grass
+arch bosgrass
 x 12
 y 1
 end
-arch grass
+arch bosgrass
 x 12
 y 2
 end
-arch grass
+arch bosgrass
 x 12
 y 3
 end
-arch grass
+arch bosgrass
 x 12
 y 4
 end
-arch grass
+arch bosgrass
 x 12
 y 5
 end
-arch grass
+arch bosgrass
 x 12
 y 6
 end
-arch grass
+arch bosgrass
 x 12
 y 7
 end
-arch brush
+arch bosgrass
 x 12
 y 8
 end
-arch grass
+arch bosgrass
 x 12
 y 9
 end
-arch grass
+arch bosgrass
 x 12
 y 10
 end
-arch grass
+arch bosgrass
 x 12
 y 11
 end
@@ -2122,54 +2141,54 @@ y 24
 end
 arch invis_exit
 slaying /world/world_105_116
-hp 6
-sp 8
+hp 5
+sp 14
 x 13
 end
 arch grass
 x 13
 end
-arch grass
+arch bosgrass
 x 13
 y 1
 end
-arch grass
+arch bosgrass
 x 13
 y 2
 end
-arch grass
+arch bosgrass2
 x 13
 y 3
 end
-arch grass
+arch bosgrass2
 x 13
 y 4
 end
-arch grass
+arch bosgrass
 x 13
 y 5
 end
-arch grass
+arch bosgrass
 x 13
 y 6
 end
-arch grass
+arch bosgrass
 x 13
 y 7
 end
-arch grass
+arch bosgrass
 x 13
 y 8
 end
-arch dirtfloor
+arch bosgrass
 x 13
 y 9
 end
-arch dirtfloor
+arch bosgrass
 x 13
 y 10
 end
-arch dirtfloor
+arch bosgrass
 x 13
 y 11
 end
@@ -2178,7 +2197,7 @@ x 13
 y 12
 connected 5
 end
-arch stonefloor2
+arch bosgrass
 x 13
 y 12
 end
@@ -2253,14 +2272,14 @@ y 24
 end
 arch invis_exit
 slaying /world/world_105_116
-hp 6
-sp 8
+hp 5
+sp 14
 x 14
 end
 arch grass
 x 14
 end
-arch grass
+arch bosgrass
 x 14
 y 1
 end
@@ -2277,11 +2296,19 @@ endmsg
 x 14
 y 2
 end
-arch grass
+arch bosgrass2
 x 14
 y 3
 end
-arch grass
+arch tree3cherry2
+x 14
+y 3
+end
+arch bosgrass2
+x 14
+y 4
+end
+arch tree3cherry2
 x 14
 y 4
 end
@@ -2310,15 +2337,27 @@ endmsg
 x 14
 y 7
 end
-arch grass
+arch bosgrass2
 x 14
 y 8
 end
-arch grass
+arch tree3cherry2
+x 14
+y 8
+end
+arch bosgrass2
 x 14
 y 9
 end
-arch grass
+arch tree3cherry2
+x 14
+y 9
+end
+arch bosgrass2
+x 14
+y 10
+end
+arch tree3cherry2
 x 14
 y 10
 end
@@ -3331,6 +3370,10 @@ arch grass
 x 20
 y 13
 end
+arch tree3cherry2
+x 20
+y 13
+end
 arch grass
 x 20
 y 14
@@ -3339,30 +3382,41 @@ arch grass
 x 20
 y 15
 end
+arch tree3cherry2
+x 20
+y 15
+end
 arch grass
 x 20
 y 16
 end
-arch tree
+arch bosgrass3
 x 20
 y 17
-no_pass 1
-blocksview 1
 end
-arch tree
+arch tree3cherry2
+x 20
+y 17
+end
+arch bosgrass3
 x 20
 y 18
-no_pass 1
-blocksview 1
+end
+arch tree3cherry2
+x 20
+y 18
 end
 arch grass
 x 20
 y 19
 end
-arch tree
+arch bosgrass3
 x 20
 y 20
-blocksview 1
+end
+arch tree3cherry2
+x 20
+y 20
 end
 arch grass
 x 20
@@ -3497,6 +3551,10 @@ arch grass
 x 21
 y 11
 end
+arch tree3cherry2
+x 21
+y 11
+end
 arch grass
 x 21
 y 12
@@ -3525,11 +3583,9 @@ arch grass
 x 21
 y 18
 end
-arch tree
+arch bosgrass3
 x 21
 y 19
-no_pass 1
-blocksview 1
 end
 arch tree
 x 21
@@ -3551,11 +3607,9 @@ y 22
 no_pass 1
 blocksview 1
 end
-arch tree
+arch bosgrass3
 x 21
 y 23
-no_pass 1
-blocksview 1
 end
 arch grass
 x 21
@@ -3661,11 +3715,11 @@ arch grass
 x 22
 y 12
 end
-arch dirtfloor
+arch bosgrass2
 x 22
 y 13
 end
-arch earth
+arch bosgrass2
 x 22
 y 14
 end
@@ -3673,11 +3727,11 @@ arch potato
 x 22
 y 14
 end
-arch earth
+arch bosgrass2
 x 22
 y 15
 end
-arch earth
+arch bosgrass2
 x 22
 y 16
 end
@@ -3685,19 +3739,19 @@ arch onion
 x 22
 y 16
 end
-arch earth
+arch bosgrass2
 x 22
 y 17
 end
-arch earth
+arch bosgrass2
 x 22
 y 18
 end
-arch earth
+arch bosgrass2
 x 22
 y 19
 end
-arch earth
+arch bosgrass2
 x 22
 y 20
 end
@@ -3709,11 +3763,11 @@ arch cabbage
 x 22
 y 21
 end
-arch earth
+arch bosgrass2
 x 22
 y 22
 end
-arch earth
+arch bosgrass2
 x 22
 y 23
 end
@@ -3819,15 +3873,15 @@ arch grass
 x 23
 y 12
 end
-arch dirtfloor
+arch bosgrass2
 x 23
 y 13
 end
-arch earth
+arch bosgrass2
 x 23
 y 14
 end
-arch earth
+arch bosgrass2
 x 23
 y 15
 end
@@ -3835,11 +3889,11 @@ arch potato
 x 23
 y 15
 end
-arch earth
+arch bosgrass2
 x 23
 y 16
 end
-arch earth
+arch bosgrass2
 x 23
 y 17
 end
@@ -3847,11 +3901,11 @@ arch onion
 x 23
 y 17
 end
-arch earth
+arch bosgrass2
 x 23
 y 18
 end
-arch earth
+arch bosgrass2
 x 23
 y 19
 end
@@ -3859,19 +3913,19 @@ arch cabbage
 x 23
 y 19
 end
-arch earth
+arch bosgrass2
 x 23
 y 20
 end
-arch earth
+arch bosgrass2
 x 23
 y 21
 end
-arch earth
+arch bosgrass2
 x 23
 y 22
 end
-arch earth
+arch bosgrass2
 x 23
 y 23
 end

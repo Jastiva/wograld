@@ -11,7 +11,7 @@ msg
 Creator: Gnat the Gnu
 Email: gnu@foo.bar
 Date: Sun Dec 16 20:53:13 2001
-Modified: 2018-06-13 lori
+Modified: 2018-09-24 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_114
@@ -155,9 +155,6 @@ arch cobblestones2
 y 25
 elevation 4854
 end
-arch bungalow
-y 25
-end
 arch dungeon_magic
 y 26
 end
@@ -178,9 +175,6 @@ end
 arch cobblestones2
 y 28
 elevation 73
-end
-arch barn
-y 28
 end
 arch dungeon_magic
 y 29
@@ -206,20 +200,19 @@ arch brush
 y 31
 elevation 4274
 end
-arch guild
-name Scorn Sale Shop
-name_pl Scorn Sale Shop
-slaying /scorn/shops/scorn.sale1
-hp 10
-sp 16
-y 31
-end
 arch dungeon_magic
 y 32
 end
 arch brush
 y 32
 elevation 4274
+end
+arch woodhouse_shop
+name Scorn Sale Shop
+slaying /scorn/shops/scorn.sale1
+hp 10
+sp 16
+y 32
 end
 arch dungeon_magic
 y 33
@@ -235,14 +228,12 @@ arch grass
 y 34
 elevation 8100
 end
-arch market1
+arch barrack_small
 name Permanent Apartments
-name_pl Permanent Apartments
 slaying /scorn/apartment/apartments
 hp 1
 sp 2
 y 34
-unique 1
 end
 arch dungeon_magic
 y 35
@@ -258,20 +249,19 @@ arch grass
 y 36
 elevation 11542
 end
-arch courthouse
-name City Hall
-name_pl City Hall
-slaying /scorn/misc/cityhall
-hp 13
-sp 26
-y 36
-end
 arch dungeon_magic
 y 37
 end
 arch grass
 y 37
 elevation 12343
+end
+arch small_temple2
+name City Hall
+slaying /scorn/misc/cityhall
+hp 13
+sp 26
+y 37
 end
 arch dungeon_magic
 y 38
@@ -538,10 +528,6 @@ x 1
 y 25
 elevation 2703
 end
-arch bungalow
-x 1
-y 25
-end
 arch dungeon_magic
 x 1
 y 26
@@ -559,10 +545,6 @@ arch cobblestones2
 x 1
 y 27
 elevation 169
-end
-arch house_2
-x 1
-y 27
 end
 arch dungeon_magic
 x 1
@@ -629,32 +611,12 @@ end
 arch grass
 x 1
 y 34
-elevation 8657
-end
-arch market3
-name Permanent Apartments
-name_pl Permanent Apartments
-slaying /scorn/apartment/apartments
-hp 1
-sp 2
-x 1
-y 34
-unique 1
 end
 arch dungeon_magic
 x 1
 y 35
 end
 arch grass
-x 1
-y 35
-end
-arch house_long
-name Resir's house
-name_pl Resir's house
-slaying /scorn/houses/resir
-hp 24
-sp 4
 x 1
 y 35
 end
@@ -1026,10 +988,6 @@ x 2
 y 27
 elevation 9
 end
-arch house_up
-x 2
-y 27
-end
 arch dungeon_magic
 x 2
 y 28
@@ -1047,10 +1005,6 @@ arch cobblestones2
 x 2
 y 29
 elevation 596
-end
-arch woodhouse
-x 2
-y 29
 end
 arch dungeon_magic
 x 2
@@ -1104,6 +1058,14 @@ arch grass
 x 2
 y 34
 elevation 8218
+end
+arch woodhouse
+name Resir's house
+slaying /scorn/houses/resir
+hp 24
+sp 4
+x 2
+y 34
 end
 arch dungeon_magic
 x 2
@@ -1488,10 +1450,6 @@ arch cobblestones2
 x 3
 y 28
 elevation 337
-end
-arch barrack_up
-x 3
-y 28
 end
 arch dungeon_magic
 x 3
@@ -2823,10 +2781,6 @@ x 6
 y 28
 elevation 20
 end
-arch house_up
-x 6
-y 28
-end
 arch dungeon_magic
 x 6
 y 29
@@ -2858,15 +2812,6 @@ x 6
 y 31
 elevation 4536
 end
-arch store_general
-name Gem Shop
-name_pl Gem Shop
-slaying /scorn/shops/gemshop
-hp 1
-sp 14
-x 6
-y 31
-end
 arch dungeon_magic
 x 6
 y 32
@@ -2875,6 +2820,14 @@ arch grass
 x 6
 y 32
 elevation 5581
+end
+arch woodhouse_shop
+name Gem Shop
+slaying /scorn/shops/gemshop
+hp 1
+sp 14
+x 6
+y 32
 end
 arch dungeon_magic
 x 6
@@ -3033,10 +2986,9 @@ arch dungeon_magic
 x 6
 y 47
 end
-arch cobblestones2
+arch grass
 x 6
 y 47
-elevation 10816
 end
 arch dungeon_magic
 x 6
@@ -3047,15 +2999,6 @@ x 6
 y 48
 elevation 10859
 end
-arch church
-name Undead Church
-name_pl Undead Church
-slaying /scorn/misc/church
-hp 10
-sp 15
-x 6
-y 48
-end
 arch dungeon_magic
 x 6
 y 49
@@ -3064,6 +3007,14 @@ arch grass
 x 6
 y 49
 elevation 11285
+end
+arch small_temple2_west
+name Undead Church
+slaying /scorn/misc/church
+hp 10
+sp 15
+x 6
+y 49
 end
 arch sea
 x 7
@@ -3258,12 +3209,6 @@ x 7
 y 28
 elevation 127
 end
-arch tavern
-name The Rowdy Sailor
-name_pl The Rowdy Sailor
-x 7
-y 28
-end
 arch dungeon_magic
 x 7
 y 29
@@ -3452,10 +3397,9 @@ arch dungeon_magic
 x 7
 y 47
 end
-arch cobblestones2
+arch grass
 x 7
 y 47
-elevation 8852
 end
 arch dungeon_magic
 x 7
@@ -3909,10 +3853,9 @@ arch dungeon_magic
 x 8
 y 47
 end
-arch cobblestones2
+arch grass
 x 8
 y 47
-elevation 8630
 end
 arch dungeon_magic
 x 8
@@ -4178,15 +4121,6 @@ x 9
 y 31
 elevation 2125
 end
-arch guild
-name Bank of Skud
-name_pl Bank of Skud
-slaying /scorn/shops/bank
-hp 7
-sp 14
-x 9
-y 31
-end
 arch dungeon_magic
 x 9
 y 32
@@ -4195,6 +4129,14 @@ arch grass
 x 9
 y 32
 elevation 797
+end
+arch woodhouse_shop
+name Bank of Skud
+slaying /scorn/shops/bank
+hp 7
+sp 14
+x 9
+y 32
 end
 arch dungeon_magic
 x 9
@@ -4226,20 +4168,6 @@ arch grass
 x 9
 y 35
 elevation 528
-end
-arch house_2
-name Angel Zoo
-slaying /scorn/misc/angelzoo
-msg
-
-
-Angels are like beasts and belong in
-a zoo.
-endmsg
-hp 1
-sp 16
-x 9
-y 35
 end
 arch dungeon_magic
 x 9
@@ -4345,30 +4273,21 @@ x 9
 y 43
 elevation 9490
 end
-arch city_tower
-name Mad Mage's Tower
-name_pl Mad Mage's Tower
-slaying /scorn/towers/tower.mad
-x 9
-y 43
-end
 arch dungeon_magic
 x 9
 y 44
 end
-arch cobblestones2
+arch grass
 x 9
 y 44
-elevation 10089
 end
 arch dungeon_magic
 x 9
 y 45
 end
-arch cobblestones2
+arch grass
 x 9
 y 45
-elevation 9798
 end
 arch dungeon_magic
 x 9
@@ -4383,10 +4302,9 @@ arch dungeon_magic
 x 9
 y 47
 end
-arch cobblestones2
+arch grass
 x 9
 y 47
-elevation 8665
 end
 arch dungeon_magic
 x 9
@@ -4656,15 +4574,6 @@ x 10
 y 34
 elevation 2009
 end
-arch barrack_long
-name Apartment Building
-name_pl Apartment Building
-slaying /scorn/taverns/apartments
-hp 13
-sp 3
-x 10
-y 34
-end
 arch dungeon_magic
 x 10
 y 35
@@ -4818,10 +4727,9 @@ arch dungeon_magic
 x 10
 y 47
 end
-arch cobblestones2
+arch grass
 x 10
 y 47
-elevation 8087
 end
 arch dungeon_magic
 x 10
@@ -4840,6 +4748,12 @@ arch grass
 x 10
 y 49
 elevation 7528
+end
+arch city_tower_west
+name Mad Mage's Tower
+slaying /scorn/towers/tower.mad
+x 10
+y 49
 end
 arch swamp
 x 11
@@ -5093,15 +5007,6 @@ x 11
 y 31
 elevation 141
 end
-arch church
-name House of Healing
-name_pl House of Healing
-slaying /scorn/misc/HouseofHealing
-hp 10
-sp 33
-x 11
-y 31
-end
 arch dungeon_magic
 x 11
 y 32
@@ -5110,6 +5015,14 @@ arch grass
 x 11
 y 32
 elevation 145
+end
+arch lyth_temple
+name House of Healing
+slaying /scorn/misc/HouseofHealing
+hp 10
+sp 33
+x 11
+y 32
 end
 arch dungeon_magic
 x 11
@@ -5138,9 +5051,11 @@ x 11
 y 35
 elevation 3260
 end
-arch house_2
-name Library
-slaying alddev/wograld_alpha_0.1.0/maps/scorn/misc/library
+arch barrack_small
+name Apartment Building
+slaying /scorn/taverns/apartments
+hp 13
+sp 3
 x 11
 y 35
 end
@@ -5212,12 +5127,6 @@ arch grass
 x 11
 y 40
 elevation 11883
-end
-arch barrack_long
-name large house
-name_pl large house
-x 11
-y 40
 end
 arch dungeon_magic
 x 11
@@ -5317,10 +5226,9 @@ arch dungeon_magic
 x 11
 y 47
 end
-arch cobblestones2
+arch grass
 x 11
 y 47
-elevation 7082
 end
 arch dungeon_magic
 x 11
@@ -5330,15 +5238,6 @@ arch grass
 x 11
 y 48
 elevation 7066
-end
-arch zoo_1
-name The Zoo
-name_pl The Zoo
-slaying /scorn/misc/zoo
-hp 1
-sp 16
-x 11
-y 48
 end
 arch dungeon_magic
 x 11
@@ -5568,10 +5467,6 @@ x 12
 y 29
 elevation -67
 end
-arch woodhouse
-x 12
-y 29
-end
 arch dungeon_magic
 x 12
 y 30
@@ -5742,10 +5637,9 @@ arch dungeon_magic
 x 12
 y 47
 end
-arch cobblestones2
+arch grass
 x 12
 y 47
-elevation 5615
 end
 arch dungeon_magic
 x 12
@@ -5764,6 +5658,14 @@ arch grass
 x 12
 y 49
 elevation 6666
+end
+arch house_small
+name Harry's Place
+slaying /scorn/houses/house.haunted
+hp 16
+sp 18
+x 12
+y 49
 end
 arch beach
 x 13
@@ -5966,10 +5868,6 @@ x 13
 y 29
 elevation -90
 end
-arch bungalow
-x 13
-y 29
-end
 arch dungeon_magic
 x 13
 y 30
@@ -5991,15 +5889,6 @@ x 13
 y 31
 elevation 1393
 end
-arch store_magic
-name House of Mana
-name_pl House of Mana
-slaying /scorn/misc/PowerHouse
-hp 10
-sp 33
-x 13
-y 31
-end
 arch dungeon_magic
 x 13
 y 32
@@ -6008,6 +5897,14 @@ arch grass
 x 13
 y 32
 elevation 3175
+end
+arch tower_tob
+name House of Mana
+slaying /scorn/misc/PowerHouse
+hp 10
+sp 33
+x 13
+y 32
 end
 arch dungeon_magic
 x 13
@@ -6035,6 +5932,12 @@ arch grass
 x 13
 y 35
 elevation 5879
+end
+arch tavern_fant
+name Library
+slaying /scorn/misc/library
+x 13
+y 35
 end
 arch dungeon_magic
 x 13
@@ -6108,15 +6011,6 @@ x 13
 y 42
 elevation 8067
 end
-arch r_house2
-name Harry's Place
-name_pl Harry's Place
-slaying /scorn/houses/house.haunted
-hp 16
-sp 18
-x 13
-y 42
-end
 arch dungeon_magic
 x 13
 y 43
@@ -6135,10 +6029,6 @@ x 13
 y 44
 elevation 2875
 end
-arch swall_2_2_2
-x 13
-y 44
-end
 arch dungeon_magic
 x 13
 y 45
@@ -6148,27 +6038,21 @@ x 13
 y 45
 elevation 3792
 end
-arch swall_1_2
-x 13
-y 45
-end
 arch dungeon_magic
 x 13
 y 46
 end
-arch cobblestones2
+arch grass
 x 13
 y 46
-elevation 4008
 end
 arch dungeon_magic
 x 13
 y 47
 end
-arch cobblestones2
+arch grass
 x 13
 y 47
-elevation 3268
 end
 arch dungeon_magic
 x 13
@@ -6179,10 +6063,6 @@ x 13
 y 48
 elevation 3449
 end
-arch swall_1_1
-x 13
-y 48
-end
 arch dungeon_magic
 x 13
 y 49
@@ -6191,10 +6071,6 @@ arch grass
 x 13
 y 49
 elevation 5791
-end
-arch swall_1_2
-x 13
-y 49
 end
 arch cwall_2_2_2
 x 13
@@ -6343,13 +6219,6 @@ x 14
 y 23
 elevation -2256
 end
-arch tower_a
-name Lighthouse
-name_pl Lighthouse
-x 14
-y 23
-glow_radius 4
-end
 arch dungeon_magic
 x 14
 y 24
@@ -6448,19 +6317,17 @@ arch dungeon_magic
 x 14
 y 34
 end
-arch cobblestones2
+arch grass
 x 14
 y 34
-elevation 5401
 end
 arch dungeon_magic
 x 14
 y 35
 end
-arch cobblestones2
+arch grass
 x 14
 y 35
-elevation 6564
 end
 arch dungeon_magic
 x 14
@@ -6552,10 +6419,6 @@ x 14
 y 44
 elevation 2378
 end
-arch swall_2_1_2
-x 14
-y 44
-end
 arch dungeon_magic
 x 14
 y 45
@@ -6568,33 +6431,31 @@ end
 arch lamppost
 x 14
 y 45
+glow_radius 10
 end
 arch dungeon_magic
 x 14
 y 46
 end
-arch cobblestones2
+arch grass
 x 14
 y 46
-elevation 2663
 end
 arch dungeon_magic
 x 14
 y 47
 end
-arch cobblestones2
+arch grass
 x 14
 y 47
-elevation 3040
 end
 arch dungeon_magic
 x 14
 y 48
 end
-arch grasspond
+arch grass
 x 14
 y 48
-elevation 2282
 end
 arch dungeon_magic
 x 14
@@ -6809,10 +6670,6 @@ x 15
 y 28
 elevation -213
 end
-arch bungalow
-x 15
-y 28
-end
 arch dungeon_magic
 x 15
 y 29
@@ -6821,10 +6678,6 @@ arch cobblestones2
 x 15
 y 29
 elevation -108
-end
-arch house_long
-x 15
-y 29
 end
 arch dungeon_magic
 x 15
@@ -6884,15 +6737,6 @@ x 15
 y 34
 elevation 4816
 end
-arch fort
-name dragon guild
-name_pl dragon guild
-slaying /scorn/misc/dragon_guild
-hp 7
-sp 15
-x 15
-y 34
-end
 arch dungeon_magic
 x 15
 y 35
@@ -6901,6 +6745,14 @@ arch grass
 x 15
 y 35
 elevation 7010
+end
+arch keep_sym_noflag_greco
+name Dragon Guild
+slaying /scorn/misc/dragon_guild
+hp 7
+sp 15
+x 15
+y 35
 end
 arch dungeon_magic
 x 15
@@ -6938,9 +6790,8 @@ x 15
 y 39
 elevation 10124
 end
-arch market1
+arch tavern
 name Guild Houses Inc.
-name_pl Guild Houses Inc.
 slaying /scorn/guilds/guildhousesinc
 hp 9
 sp 9
@@ -6955,12 +6806,6 @@ arch grass
 x 15
 y 40
 elevation 6093
-end
-arch barrack_long
-name large house
-name_pl large house
-x 15
-y 40
 end
 arch dungeon_magic
 x 15
@@ -7004,10 +6849,6 @@ x 15
 y 44
 elevation 3481
 end
-arch swall_2_1_2
-x 15
-y 44
-end
 arch dungeon_magic
 x 15
 y 45
@@ -7021,37 +6862,33 @@ arch dungeon_magic
 x 15
 y 46
 end
-arch cobblestones2
+arch grass
 x 15
 y 46
-elevation 3886
 end
 arch dungeon_magic
 x 15
 y 47
 end
-arch cobblestones2
+arch grass
 x 15
 y 47
-elevation 3905
 end
 arch dungeon_magic
 x 15
 y 48
 end
-arch woods_2
+arch grass
 x 15
 y 48
-elevation 4615
 end
 arch dungeon_magic
 x 15
 y 49
 end
-arch brush
+arch grass
 x 15
 y 49
-elevation 5822
 end
 arch cwall_2_1_2
 x 15
@@ -7274,10 +7111,6 @@ x 16
 y 27
 elevation -313
 end
-arch tavern
-x 16
-y 27
-end
 arch dungeon_magic
 x 16
 y 28
@@ -7318,14 +7151,6 @@ x 16
 y 31
 elevation -1
 end
-arch guild
-name Guild of the Mailed Fist
-name_pl Guild of the Mailed Fist
-slaying /scorn/guilds/mailed_fist/ground
-x 16
-y 31
-move_block 0
-end
 arch dungeon_magic
 x 16
 y 32
@@ -7334,6 +7159,12 @@ arch grass
 x 16
 y 32
 elevation 760
+end
+arch barrack_small_goth
+name Guild of the Mailed Fist
+slaying /scorn/guilds/mailed_fist/ground
+x 16
+y 32
 end
 arch dungeon_magic
 x 16
@@ -7398,15 +7229,6 @@ x 16
 y 39
 elevation 9163
 end
-arch market3
-name Guild Houses Inc.
-name_pl Guild Houses Inc.
-slaying /scorn/guilds/guildhousesinc
-hp 9
-sp 9
-x 16
-y 39
-end
 arch dungeon_magic
 x 16
 y 40
@@ -7470,10 +7292,6 @@ x 16
 y 44
 elevation 5402
 end
-arch swall_2_1_2
-x 16
-y 44
-end
 arch dungeon_magic
 x 16
 y 45
@@ -7482,15 +7300,6 @@ arch brush
 x 16
 y 45
 elevation 5401
-end
-arch collesium
-name the ARENA
-name_pl the ARENA
-slaying /scorn/misc/battle_arena/entrance
-hp 11
-sp 24
-x 16
-y 45
 end
 arch dungeon_magic
 x 16
@@ -7505,28 +7314,25 @@ arch dungeon_magic
 x 16
 y 47
 end
-arch cobblestones2
+arch grass
 x 16
 y 47
-elevation 4466
 end
 arch dungeon_magic
 x 16
 y 48
+end
+arch hills
+x 16
+y 48
+end
+arch dungeon_magic
+x 16
+y 49
 end
 arch grass
 x 16
-y 48
-elevation 4576
-end
-arch dungeon_magic
-x 16
 y 49
-end
-arch brush
-x 16
-y 49
-elevation 6379
 end
 arch cwall_2_1_2
 x 16
@@ -7852,10 +7658,6 @@ x 17
 y 40
 elevation 8762
 end
-arch swall_1_1
-x 17
-y 40
-end
 arch dungeon_magic
 x 17
 y 41
@@ -7864,10 +7666,6 @@ arch grass
 x 17
 y 41
 elevation 8183
-end
-arch swall_2_1_1
-x 17
-y 41
 end
 arch dungeon_magic
 x 17
@@ -7878,10 +7676,6 @@ x 17
 y 42
 elevation 7576
 end
-arch swall_2_1_1
-x 17
-y 42
-end
 arch dungeon_magic
 x 17
 y 43
@@ -7890,10 +7684,6 @@ arch grass
 x 17
 y 43
 elevation 7360
-end
-arch swall_2_1_1
-x 17
-y 43
 end
 arch dungeon_magic
 x 17
@@ -7904,10 +7694,6 @@ x 17
 y 44
 elevation 7231
 end
-arch swall_3_1
-x 17
-y 44
-end
 arch dungeon_magic
 x 17
 y 45
@@ -7916,6 +7702,14 @@ arch grass
 x 17
 y 45
 elevation 6713
+end
+arch castle
+name Angel Zoo
+slaying /scorn/misc/angelzoo
+hp 1
+sp 16
+x 17
+y 45
 end
 arch dungeon_magic
 x 17
@@ -7930,19 +7724,17 @@ arch dungeon_magic
 x 17
 y 47
 end
-arch grass
+arch hills
 x 17
 y 47
-elevation 5581
 end
 arch dungeon_magic
 x 17
 y 48
 end
-arch grass
+arch hills
 x 17
 y 48
-elevation 5468
 end
 arch dungeon_magic
 x 17
@@ -7951,7 +7743,6 @@ end
 arch grass
 x 17
 y 49
-elevation 6255
 end
 arch cwall_2_1_2
 x 17
@@ -8188,19 +7979,17 @@ arch dungeon_magic
 x 18
 y 31
 end
-arch cobblestones2
+arch grass
 x 18
 y 31
-elevation 132
 end
 arch dungeon_magic
 x 18
 y 32
 end
-arch cobblestones2
+arch grass
 x 18
 y 32
-elevation 1560
 end
 arch dungeon_magic
 x 18
@@ -8215,19 +8004,17 @@ arch dungeon_magic
 x 18
 y 34
 end
-arch cobblestones2
+arch grass
 x 18
 y 34
-elevation 1320
 end
 arch dungeon_magic
 x 18
 y 35
 end
-arch cobblestones2
+arch grass
 x 18
 y 35
-elevation 1989
 end
 arch dungeon_magic
 x 18
@@ -8278,9 +8065,8 @@ x 18
 y 40
 elevation 8223
 end
-arch house_long
+arch farmhouse
 name Old Mansion
-name_pl Old Mansion
 slaying /scorn/mansion/entrance
 hp 14
 x 18
@@ -8323,10 +8109,6 @@ x 18
 y 44
 elevation 8200
 end
-arch swall_2_1_2
-x 18
-y 44
-end
 arch dungeon_magic
 x 18
 y 45
@@ -8335,6 +8117,14 @@ arch grass
 x 18
 y 45
 elevation 7652
+end
+arch keep_sym
+name Zoo
+slaying /scorn/misc/zoo
+hp 1
+sp 16
+x 18
+y 45
 end
 arch dungeon_magic
 x 18
@@ -8352,16 +8142,14 @@ end
 arch grass
 x 18
 y 47
-elevation 6047
 end
 arch dungeon_magic
 x 18
 y 48
 end
-arch brush
+arch grass
 x 18
 y 48
-elevation 5953
 end
 arch dungeon_magic
 x 18
@@ -8370,7 +8158,6 @@ end
 arch grass
 x 18
 y 49
-elevation 5883
 end
 arch cwall_2_1_2
 x 18
@@ -8605,17 +8392,7 @@ arch dungeon_magic
 x 19
 y 31
 end
-arch cobblestones2
-x 19
-y 31
-elevation 129
-end
-arch prison
-name Prison
-name_pl Prison
-slaying /scorn/anthony/prison
-hp 9
-sp 23
+arch grass
 x 19
 y 31
 end
@@ -8623,10 +8400,17 @@ arch dungeon_magic
 x 19
 y 32
 end
-arch cobblestones2
+arch grass
 x 19
 y 32
-elevation 2640
+end
+arch fort_sym
+name Prison
+slaying /scorn/anthony/prison
+hp 9
+sp 23
+x 19
+y 32
 end
 arch dungeon_magic
 x 19
@@ -8641,17 +8425,7 @@ arch dungeon_magic
 x 19
 y 34
 end
-arch cobblestones2
-x 19
-y 34
-elevation 3490
-end
-arch l_shop1
-name Goth's Tavern
-name_pl Goth's Tavern
-slaying /scorn/taverns/goths
-hp 18
-sp 32
+arch grass
 x 19
 y 34
 end
@@ -8659,10 +8433,17 @@ arch dungeon_magic
 x 19
 y 35
 end
-arch cobblestones2
+arch grass
 x 19
 y 35
-elevation 2231
+end
+arch keep_sym_noflag_northwest
+name Goth's Tavern
+slaying /scorn/taverns/goths
+hp 18
+sp 32
+x 19
+y 35
 end
 arch dungeon_magic
 x 19
@@ -8746,10 +8527,6 @@ x 19
 y 44
 elevation 8325
 end
-arch swall_2_1_2
-x 19
-y 44
-end
 arch dungeon_magic
 x 19
 y 45
@@ -8759,14 +8536,21 @@ x 19
 y 45
 elevation 8035
 end
+arch keep_sym_noflag
+name the ARENA
+slaying /scorn/misc/battle_arena/entrance
+hp 11
+sp 24
+x 19
+y 45
+end
 arch dungeon_magic
 x 19
 y 46
 end
-arch grasspond
+arch grass
 x 19
 y 46
-elevation 7054
 end
 arch dungeon_magic
 x 19
@@ -8784,16 +8568,14 @@ end
 arch grass
 x 19
 y 48
-elevation 6154
 end
 arch dungeon_magic
 x 19
 y 49
 end
-arch brush
+arch grass
 x 19
 y 49
-elevation 6390
 end
 arch cwall_2_1_2
 x 19
@@ -9039,46 +8821,41 @@ arch dungeon_magic
 x 20
 y 31
 end
-arch cobblestones2
+arch grass
 x 20
 y 31
-elevation 1352
 end
 arch dungeon_magic
 x 20
 y 32
 end
-arch cobblestones2
+arch grass
 x 20
 y 32
-elevation 3402
 end
 arch dungeon_magic
 x 20
 y 33
 end
-arch cobblestones2
+arch grass
 x 20
 y 33
-elevation 4671
 end
 arch dungeon_magic
 x 20
 y 34
 end
-arch cobblestones2
+arch grass
 x 20
 y 34
-elevation 4192
 end
 arch dungeon_magic
 x 20
 y 35
 end
-arch cobblestones2
+arch grass
 x 20
 y 35
-elevation 3432
 end
 arch dungeon_magic
 x 20
@@ -9149,10 +8926,6 @@ x 20
 y 40
 elevation 7349
 end
-arch swall_1_4
-x 20
-y 40
-end
 arch dungeon_magic
 x 20
 y 41
@@ -9190,10 +8963,6 @@ x 20
 y 44
 elevation 8019
 end
-arch swall_2_1_2
-x 20
-y 44
-end
 arch dungeon_magic
 x 20
 y 45
@@ -9216,10 +8985,9 @@ arch dungeon_magic
 x 20
 y 47
 end
-arch woods_2
+arch hills
 x 20
 y 47
-elevation 5495
 end
 arch dungeon_magic
 x 20
@@ -9230,7 +8998,7 @@ x 20
 y 48
 elevation 6119
 end
-arch ytree_2
+arch lamppost
 x 20
 y 48
 end
@@ -9238,10 +9006,9 @@ arch dungeon_magic
 x 20
 y 49
 end
-arch brush
+arch grass
 x 20
 y 49
-elevation 6834
 end
 arch cwall_2_1_2
 x 20
@@ -9613,10 +9380,6 @@ arch cwall_2_1_1
 x 21
 y 40
 end
-arch swall_1_3_half
-x 21
-y 40
-end
 arch dungeon_magic
 x 21
 y 41
@@ -9666,10 +9429,6 @@ y 44
 elevation 7839
 end
 arch cwall_2_1_1
-x 21
-y 44
-end
-arch swall_1_3_half
 x 21
 y 44
 end
