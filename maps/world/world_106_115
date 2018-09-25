@@ -8,13 +8,14 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-02-31
-Modified: 2018-06-10 lori
+Modified: 2018-09-24 alexander
 endmsg
 outdoor 1
 tile_path_1 world_106_114
 tile_path_2 world_107_115
 tile_path_3 world_106_116
 tile_path_4 world_105_115
+tile_path_5 above_106_115
 end
 arch hills
 elevation 4284
@@ -10623,7 +10624,11 @@ end
 arch desert
 x 42
 y 7
-elevation 11
+elevation 97
+end
+arch cwall_cyanmarble
+x 42
+y 7
 end
 arch desert
 x 42
@@ -10634,6 +10639,10 @@ arch desert
 x 42
 y 9
 elevation 106
+end
+arch cwall_cyanmarble
+x 42
+y 9
 end
 arch desert
 x 42
@@ -10880,7 +10889,7 @@ end
 arch desert
 x 43
 y 9
-elevation 48
+elevation 12
 end
 arch desert
 x 43
@@ -11119,6 +11128,10 @@ x 44
 y 7
 elevation 17
 end
+arch cwall_cyanmarble
+x 44
+y 7
+end
 arch desert
 x 44
 y 8
@@ -11128,6 +11141,10 @@ arch desert
 x 44
 y 9
 elevation 11
+end
+arch cwall_cyanmarble
+x 44
+y 9
 end
 arch desert
 x 44
@@ -11621,7 +11638,7 @@ end
 arch desert
 x 46
 y 9
-elevation 11
+elevation 347
 end
 arch desert
 x 46
