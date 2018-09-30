@@ -8,7 +8,7 @@ enter_x 10
 enter_y 24
 msg
 Created:  1996-01-29
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2018-09-28 alexander
 endmsg
 end
 arch dungeon_floor
@@ -1487,9 +1487,9 @@ x 9
 y 24
 end
 arch invis_exit
-slaying ../world
-hp 23
-sp 33
+slaying ../../world/world_108_113
+hp 26
+sp 35
 x 9
 y 25
 end
@@ -1651,9 +1651,9 @@ x 10
 y 24
 end
 arch invis_exit
-slaying ../world
-hp 23
-sp 33
+slaying ../../world/world_108_113
+hp 26
+sp 35
 x 10
 y 25
 end
@@ -1817,9 +1817,9 @@ x 11
 y 24
 end
 arch invis_exit
-slaying ../world
-hp 23
-sp 33
+slaying ../../world/world_108_113
+hp 26
+sp 35
 x 11
 y 25
 end

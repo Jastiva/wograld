@@ -6,6 +6,7 @@ width 15
 height 15
 msg
 Created:  1997-06-11
+Modified: 2018-09-28 alexander
 endmsg
 end
 arch woods
@@ -668,9 +669,9 @@ x 7
 y 13
 end
 arch invis_exit
-slaying ../islands
-hp 21
-sp 20
+slaying ../../../world/world_108_114
+hp 27
+sp 4
 x 7
 y 14
 end
@@ -1132,9 +1133,9 @@ y 12
 no_pass 0
 end
 arch galleon
-slaying ../islands
-hp 24
-sp 23
+slaying ../../../world/world_108_114
+hp 30
+sp 7
 x 13
 y 12
 end

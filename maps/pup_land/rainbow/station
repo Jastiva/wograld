@@ -6,6 +6,7 @@ width 16
 height 16
 msg
 Created:  1996-05-30
+Modified: 2018-09-27 alexander
 endmsg
 end
 arch pstone_1
@@ -585,7 +586,7 @@ y 2
 end
 arch dragon_exit
 name To terminal
-slaying /pup_land/terminal
+slaying ../terminal
 hp 10
 sp 16
 x 6
@@ -739,9 +740,9 @@ x 7
 y 14
 end
 arch invis_exit
-slaying islands
-hp 17
-sp 17
+slaying ../../world/world_108_114
+hp 23
+sp 1
 x 7
 y 15
 end
@@ -816,9 +817,9 @@ x 8
 y 14
 end
 arch invis_exit
-slaying islands
-hp 17
-sp 17
+slaying ../../world/world_108_114
+hp 23
+sp 1
 x 8
 y 15
 end

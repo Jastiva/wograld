@@ -6,6 +6,7 @@ width 32
 height 16
 msg
 Created:  1996-01-29
+Modified: 2018-09-28 alexander
 endmsg
 end
 arch sea
@@ -1103,8 +1104,8 @@ y 5
 no_pass 0
 end
 arch s_ship
-name To Nurnberg
-slaying nurnberg/city
+name To Keljeni
+slaying keljeni/city
 hp 1
 sp 26
 x 14
@@ -1148,9 +1149,9 @@ x 14
 y 14
 end
 arch invis_exit
-slaying world
-hp 24
-sp 7
+slaying ../world/world_108_113
+hp 27
+sp 9
 x 14
 y 15
 end
@@ -1226,9 +1227,9 @@ x 15
 y 14
 end
 arch invis_exit
-slaying world
-hp 24
-sp 7
+slaying ../world/world_108_113
+hp 27
+sp 9
 x 15
 y 15
 end

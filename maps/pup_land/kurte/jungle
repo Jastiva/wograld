@@ -6,6 +6,7 @@ width 31
 height 31
 msg
 Created:  1996-04-01
+Modified: 2018-09-28 alexander
 endmsg
 end
 arch dungeon_magic
@@ -994,31 +995,22 @@ arch pstone_1
 x 4
 y 3
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 4
+end
 arch dungeon_magic
 x 4
 y 4
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 4
-end
-arch evergreen
-name EverGreen
-x 4
-y 4
-no_pass 1
 end
 arch dungeon_magic
-x 4
-y 5
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 4
 y 5
 end
@@ -1026,14 +1018,14 @@ arch pstone_1
 x 4
 y 5
 end
-arch dungeon_magic
-x 4
-y 6
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 5
+end
+arch dungeon_magic
 x 4
 y 6
 end
@@ -1043,18 +1035,25 @@ x 4
 y 6
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 6
+end
 arch dungeon_magic
 x 4
 y 7
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 7
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 7
 end
@@ -1062,31 +1061,31 @@ arch dungeon_magic
 x 4
 y 8
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 8
-end
 arch evergreen
 name EverGreen
 x 4
 y 8
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 8
+end
 arch dungeon_magic
 x 4
 y 9
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 9
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 9
 end
@@ -1094,31 +1093,31 @@ arch dungeon_magic
 x 4
 y 10
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 10
-end
 arch evergreen
 name EverGreen
 x 4
 y 10
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 10
+end
 arch dungeon_magic
 x 4
 y 11
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 11
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 11
 end
@@ -1126,31 +1125,31 @@ arch dungeon_magic
 x 4
 y 12
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 12
-end
 arch evergreen
 name EverGreen
 x 4
 y 12
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 12
+end
 arch dungeon_magic
 x 4
 y 13
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 13
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 13
 end
@@ -1158,31 +1157,31 @@ arch dungeon_magic
 x 4
 y 14
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 14
-end
 arch evergreen
 name EverGreen
 x 4
 y 14
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 14
+end
 arch dungeon_magic
 x 4
 y 15
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 15
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 15
 end
@@ -1190,31 +1189,31 @@ arch dungeon_magic
 x 4
 y 16
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 16
-end
 arch evergreen
 name EverGreen
 x 4
 y 16
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 16
+end
 arch dungeon_magic
 x 4
 y 17
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 17
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 17
 end
@@ -1222,31 +1221,31 @@ arch dungeon_magic
 x 4
 y 18
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 18
-end
 arch evergreen
 name EverGreen
 x 4
 y 18
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 18
+end
 arch dungeon_magic
 x 4
 y 19
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 4
 y 19
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 4
 y 19
 end
@@ -1254,27 +1253,20 @@ arch dungeon_magic
 x 4
 y 20
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 4
-y 20
-end
 arch evergreen
 name EverGreen
 x 4
 y 20
 no_pass 1
 end
-arch dungeon_magic
-x 4
-y 21
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 20
+end
+arch dungeon_magic
 x 4
 y 21
 end
@@ -1282,14 +1274,14 @@ arch pstone_1
 x 4
 y 21
 end
-arch dungeon_magic
-x 4
-y 22
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 21
+end
+arch dungeon_magic
 x 4
 y 22
 end
@@ -1299,14 +1291,14 @@ x 4
 y 22
 no_pass 1
 end
-arch dungeon_magic
-x 4
-y 23
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 22
+end
+arch dungeon_magic
 x 4
 y 23
 end
@@ -1314,14 +1306,14 @@ arch pstone_1
 x 4
 y 23
 end
-arch dungeon_magic
-x 4
-y 24
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 23
+end
+arch dungeon_magic
 x 4
 y 24
 end
@@ -1331,14 +1323,14 @@ x 4
 y 24
 no_pass 1
 end
-arch dungeon_magic
-x 4
-y 25
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 24
+end
+arch dungeon_magic
 x 4
 y 25
 end
@@ -1346,14 +1338,14 @@ arch pstone_1
 x 4
 y 25
 end
-arch dungeon_magic
-x 4
-y 26
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 25
+end
+arch dungeon_magic
 x 4
 y 26
 end
@@ -1362,6 +1354,13 @@ name EverGreen
 x 4
 y 26
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 4
+y 26
 end
 arch dungeon_magic
 x 4
@@ -1431,14 +1430,14 @@ arch dungeon_magic
 x 5
 y 4
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 5
 y 4
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 5
 y 4
 end
@@ -1614,14 +1613,14 @@ arch dungeon_magic
 x 5
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 5
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 5
 y 26
 end
@@ -1693,18 +1692,18 @@ arch dungeon_magic
 x 6
 y 4
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 6
-y 4
-end
 arch evergreen
 name EverGreen
 x 6
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 6
+y 4
 end
 arch dungeon_magic
 x 6
@@ -1943,19 +1942,19 @@ arch dungeon_magic
 x 6
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 6
-y 26
-end
 arch evergreen
 name EverGreen
 x 6
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 6
+y 26
+end
 arch dungeon_magic
 x 6
 y 27
@@ -2021,17 +2020,17 @@ x 7
 y 3
 end
 arch dungeon_magic
+x 7
+y 4
+end
+arch pstone_1
 x 7
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 7
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 7
 y 4
 end
@@ -2224,14 +2223,14 @@ arch dungeon_magic
 x 7
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 7
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 7
 y 26
 end
@@ -2300,13 +2299,6 @@ x 8
 y 3
 end
 arch dungeon_magic
-x 8
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 8
 y 4
 end
@@ -2315,6 +2307,13 @@ name EverGreen
 x 8
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 8
+y 4
 end
 arch dungeon_magic
 x 8
@@ -2540,19 +2539,19 @@ arch dungeon_magic
 x 8
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 8
-y 26
-end
 arch evergreen
 name EverGreen
 x 8
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 8
+y 26
+end
 arch dungeon_magic
 x 8
 y 27
@@ -2618,17 +2617,17 @@ x 9
 y 3
 end
 arch dungeon_magic
+x 9
+y 4
+end
+arch pstone_1
 x 9
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 9
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 9
 y 4
 end
@@ -2834,14 +2833,14 @@ arch dungeon_magic
 x 9
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 9
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 9
 y 26
 end
@@ -2910,13 +2909,6 @@ x 10
 y 3
 end
 arch dungeon_magic
-x 10
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 10
 y 4
 end
@@ -2925,6 +2917,13 @@ name EverGreen
 x 10
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 10
+y 4
 end
 arch dungeon_magic
 x 10
@@ -3139,19 +3138,19 @@ arch dungeon_magic
 x 10
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 10
-y 26
-end
 arch evergreen
 name EverGreen
 x 10
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 10
+y 26
+end
 arch dungeon_magic
 x 10
 y 27
@@ -3217,17 +3216,17 @@ x 11
 y 3
 end
 arch dungeon_magic
+x 11
+y 4
+end
+arch pstone_1
 x 11
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 11
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 11
 y 4
 end
@@ -3450,14 +3449,14 @@ arch dungeon_magic
 x 11
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 11
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 11
 y 26
 end
@@ -3526,13 +3525,6 @@ x 12
 y 3
 end
 arch dungeon_magic
-x 12
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 12
 y 4
 end
@@ -3541,6 +3533,13 @@ name everGreen
 x 12
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 12
+y 4
 end
 arch dungeon_magic
 x 12
@@ -3745,19 +3744,19 @@ arch dungeon_magic
 x 12
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 12
-y 26
-end
 arch evergreen
 name EverGreen
 x 12
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 12
+y 26
+end
 arch dungeon_magic
 x 12
 y 27
@@ -3823,17 +3822,17 @@ x 13
 y 3
 end
 arch dungeon_magic
+x 13
+y 4
+end
+arch pstone_1
 x 13
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 13
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 13
 y 4
 end
@@ -4039,14 +4038,14 @@ arch dungeon_magic
 x 13
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 13
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 13
 y 26
 end
@@ -4115,13 +4114,6 @@ x 14
 y 3
 end
 arch dungeon_magic
-x 14
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 14
 y 4
 end
@@ -4130,6 +4122,13 @@ name EverGreen
 x 14
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 14
+y 4
 end
 arch dungeon_magic
 x 14
@@ -4362,19 +4361,19 @@ arch dungeon_magic
 x 14
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 14
-y 26
-end
 arch evergreen
 name EverGreen
 x 14
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 14
+y 26
+end
 arch dungeon_magic
 x 14
 y 27
@@ -4440,17 +4439,17 @@ x 15
 y 3
 end
 arch dungeon_magic
+x 15
+y 4
+end
+arch pstone_1
 x 15
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 15
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 15
 y 4
 end
@@ -4676,14 +4675,14 @@ arch dungeon_magic
 x 15
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 15
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 15
 y 26
 end
@@ -4752,13 +4751,6 @@ x 16
 y 3
 end
 arch dungeon_magic
-x 16
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 16
 y 4
 end
@@ -4767,6 +4759,13 @@ name EverGreen
 x 16
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 16
+y 4
 end
 arch dungeon_magic
 x 16
@@ -4989,19 +4988,19 @@ arch dungeon_magic
 x 16
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 16
-y 26
-end
 arch evergreen
 name EverGreen
 x 16
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 16
+y 26
+end
 arch dungeon_magic
 x 16
 y 27
@@ -5067,17 +5066,17 @@ x 17
 y 3
 end
 arch dungeon_magic
+x 17
+y 4
+end
+arch pstone_1
 x 17
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 17
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 17
 y 4
 end
@@ -5297,14 +5296,14 @@ arch dungeon_magic
 x 17
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 17
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 17
 y 26
 end
@@ -5373,13 +5372,6 @@ x 18
 y 3
 end
 arch dungeon_magic
-x 18
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 18
 y 4
 end
@@ -5388,6 +5380,13 @@ name EverGreen
 x 18
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 18
+y 4
 end
 arch dungeon_magic
 x 18
@@ -5627,19 +5626,19 @@ arch dungeon_magic
 x 18
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 18
-y 26
-end
 arch evergreen
 name EverGreen
 x 18
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 18
+y 26
+end
 arch dungeon_magic
 x 18
 y 27
@@ -5705,17 +5704,17 @@ x 19
 y 3
 end
 arch dungeon_magic
+x 19
+y 4
+end
+arch pstone_1
 x 19
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 19
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 19
 y 4
 end
@@ -5901,14 +5900,14 @@ arch dungeon_magic
 x 19
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 19
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 19
 y 26
 end
@@ -5977,13 +5976,6 @@ x 20
 y 3
 end
 arch dungeon_magic
-x 20
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 20
 y 4
 end
@@ -5992,6 +5984,13 @@ name EverGreen
 x 20
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 20
+y 4
 end
 arch dungeon_magic
 x 20
@@ -6187,19 +6186,19 @@ arch dungeon_magic
 x 20
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 20
-y 26
-end
 arch evergreen
 name EverGreen
 x 20
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 20
+y 26
+end
 arch dungeon_magic
 x 20
 y 27
@@ -6265,17 +6264,17 @@ x 21
 y 3
 end
 arch dungeon_magic
+x 21
+y 4
+end
+arch pstone_1
 x 21
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 21
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 21
 y 4
 end
@@ -6465,14 +6464,14 @@ arch dungeon_magic
 x 21
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 21
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 21
 y 26
 end
@@ -6556,6 +6555,13 @@ name EverGreen
 x 22
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 22
+y 4
 end
 arch dungeon_magic
 x 22
@@ -6786,19 +6792,19 @@ arch dungeon_magic
 x 22
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 22
-y 26
-end
 arch evergreen
 name EverGreen
 x 22
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 22
+y 26
+end
 arch dungeon_magic
 x 22
 y 27
@@ -6864,17 +6870,17 @@ x 23
 y 3
 end
 arch dungeon_magic
+x 23
+y 4
+end
+arch pstone_1
 x 23
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 23
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 23
 y 4
 end
@@ -7085,14 +7091,14 @@ arch dungeon_magic
 x 23
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 23
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 23
 y 26
 end
@@ -7161,13 +7167,6 @@ x 24
 y 3
 end
 arch dungeon_magic
-x 24
-y 4
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 24
 y 4
 end
@@ -7176,6 +7175,13 @@ name EverGreen
 x 24
 y 4
 no_pass 1
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 24
+y 4
 end
 arch dungeon_magic
 x 24
@@ -7394,19 +7400,19 @@ arch dungeon_magic
 x 24
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 24
-y 26
-end
 arch evergreen
 name EverGreen
 x 24
 y 26
 no_pass 1
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 24
+y 26
+end
 arch dungeon_magic
 x 24
 y 27
@@ -7472,17 +7478,17 @@ x 25
 y 3
 end
 arch dungeon_magic
+x 25
+y 4
+end
+arch pstone_1
 x 25
 y 4
 end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 25
-y 4
-end
-arch pstone_1
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 25
 y 4
 end
@@ -7693,14 +7699,14 @@ arch dungeon_magic
 x 25
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch pstone_1
 x 25
 y 26
 end
-arch pstone_1
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 25
 y 26
 end
@@ -7772,27 +7778,20 @@ arch dungeon_magic
 x 26
 y 4
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 4
-end
 arch evergreen
 name EverGreen
 x 26
 y 4
 no_pass 1
 end
-arch dungeon_magic
-x 26
-y 5
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 26
+y 4
+end
+arch dungeon_magic
 x 26
 y 5
 end
@@ -7800,14 +7799,14 @@ arch pstone_1
 x 26
 y 5
 end
-arch dungeon_magic
-x 26
-y 6
-end
 arch invis_exit
-slaying ../world
-hp 34
-sp 29
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 26
+y 5
+end
+arch dungeon_magic
 x 26
 y 6
 end
@@ -7821,13 +7820,6 @@ arch dungeon_magic
 x 26
 y 7
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 7
-end
 arch pstone_1
 x 26
 y 7
@@ -7836,13 +7828,6 @@ arch dungeon_magic
 x 26
 y 8
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 8
-end
 arch evergreen
 name EverGreen
 x 26
@@ -7853,13 +7838,6 @@ arch dungeon_magic
 x 26
 y 9
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 9
-end
 arch pstone_1
 x 26
 y 9
@@ -7868,13 +7846,6 @@ arch dungeon_magic
 x 26
 y 10
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 10
-end
 arch evergreen
 name EverGreen
 x 26
@@ -7885,13 +7856,6 @@ arch dungeon_magic
 x 26
 y 11
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 11
-end
 arch pstone_1
 x 26
 y 11
@@ -7900,13 +7864,6 @@ arch dungeon_magic
 x 26
 y 12
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 12
-end
 arch evergreen
 name EverGreen
 x 26
@@ -7917,25 +7874,11 @@ arch dungeon_magic
 x 26
 y 13
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 13
-end
 arch pstone_1
 x 26
 y 13
 end
 arch dungeon_magic
-x 26
-y 14
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 26
 y 14
 end
@@ -7949,29 +7892,11 @@ arch dungeon_magic
 x 26
 y 15
 end
-arch dungeon_magic
-x 26
-y 15
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 15
-end
 arch pstone_1
 x 26
 y 15
 end
 arch dungeon_magic
-x 26
-y 16
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 26
 y 16
 end
@@ -7985,25 +7910,11 @@ arch dungeon_magic
 x 26
 y 17
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 17
-end
 arch pstone_1
 x 26
 y 17
 end
 arch dungeon_magic
-x 26
-y 18
-end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
 x 26
 y 18
 end
@@ -8017,13 +7928,6 @@ arch dungeon_magic
 x 26
 y 19
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 19
-end
 arch pstone_1
 x 26
 y 19
@@ -8032,13 +7936,6 @@ arch dungeon_magic
 x 26
 y 20
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 20
-end
 arch evergreen
 x 26
 y 20
@@ -8048,13 +7945,6 @@ arch dungeon_magic
 x 26
 y 21
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 21
-end
 arch pstone_1
 x 26
 y 21
@@ -8063,26 +7953,19 @@ arch dungeon_magic
 x 26
 y 22
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 22
-end
 arch evergreen
 x 26
 y 22
 no_pass 1
 end
-arch dungeon_magic
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 26
 y 23
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch dungeon_magic
 x 26
 y 23
 end
@@ -8090,18 +7973,19 @@ arch pstone_1
 x 26
 y 23
 end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 26
+y 24
+end
 arch dungeon_magic
 x 26
 y 24
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 24
-end
 arch evergreen
+name EverGreen
 x 26
 y 24
 no_pass 1
@@ -8110,25 +7994,25 @@ arch dungeon_magic
 x 26
 y 25
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
-x 26
-y 25
-end
 arch pstone_1
 x 26
 y 25
 end
-arch dungeon_magic
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
+x 26
+y 25
+end
+arch invis_exit
+slaying ../../world/world_108_113
+hp 37
+sp 31
 x 26
 y 26
 end
-arch invis_exit
-slaying ../world
-hp 34
-sp 29
+arch dungeon_magic
 x 26
 y 26
 end

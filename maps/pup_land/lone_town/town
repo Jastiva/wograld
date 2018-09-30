@@ -8,6 +8,7 @@ enter_x 5
 enter_y 18
 msg
 Created:  1996-01-25
+Modified: 2018-09-27 alexander
 endmsg
 end
 arch grass
@@ -685,9 +686,9 @@ x 5
 y 18
 end
 arch invis_exit
-slaying ../world
-hp 10
-sp 11
+slaying ../../world/world_108_113
+hp 13
+sp 13
 x 5
 y 19
 end
