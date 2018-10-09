@@ -75,6 +75,17 @@ editable 512
 visibility 100
 magicmap dark_orange
 end
+Object gwall_2_2_2x
+name wall
+face gwall_6_ext.111
+color_bg dark_orange
+no_pick 1
+no_pass 1
+blocksview 1
+editable 512
+visibility 100
+magicmap dark_orange
+end
 Object gwall_3_2
 name wall
 face gwall_7.111
@@ -100,6 +111,17 @@ end
 Object gwall_2_2_4
 name wall
 face gwall_9.111
+color_bg dark_orange
+no_pick 1
+no_pass 1
+blocksview 1
+editable 512
+visibility 100
+magicmap dark_orange
+end
+Object gwall_2_2_4x
+name wall
+face gwall_9_ext.111
 color_bg dark_orange
 no_pick 1
 no_pass 1
