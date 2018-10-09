@@ -2,6 +2,9 @@ arch map
 name world_122_111
 width 50
 height 50
+msg
+Modified: 2018-10-06 lori
+endmsg
 outdoor 1
 tile_path_1 world_122_110
 tile_path_2 world_123_111
@@ -111,7 +114,7 @@ arch grass
 y 25
 elevation 73
 end
-arch grass
+arch cobblestones
 y 26
 elevation 225
 end
@@ -336,7 +339,7 @@ x 1
 y 25
 elevation 28
 end
-arch grass
+arch cobblestones
 x 1
 y 26
 elevation 256
@@ -585,7 +588,7 @@ x 2
 y 25
 elevation 315
 end
-arch grass
+arch cobblestones
 x 2
 y 26
 elevation 531
@@ -834,7 +837,7 @@ x 3
 y 25
 elevation 266
 end
-arch grass
+arch cobblestones
 x 3
 y 26
 elevation 651
@@ -1083,7 +1086,7 @@ x 4
 y 25
 elevation 442
 end
-arch brush
+arch cobblestones
 x 4
 y 26
 elevation 304
@@ -1332,7 +1335,7 @@ x 5
 y 25
 elevation 346
 end
-arch grass
+arch cobblestones
 x 5
 y 26
 elevation 508
@@ -1581,7 +1584,7 @@ x 6
 y 25
 elevation 738
 end
-arch desert
+arch cobblestones
 x 6
 y 26
 elevation 533
@@ -1830,7 +1833,7 @@ x 7
 y 25
 elevation 786
 end
-arch desert
+arch cobblestones
 x 7
 y 26
 elevation 533
@@ -2074,12 +2077,12 @@ x 8
 y 24
 elevation 183
 end
-arch desert
+arch cobblestones
 x 8
 y 25
 elevation 533
 end
-arch desert
+arch cobblestones
 x 8
 y 26
 elevation 533
@@ -2323,7 +2326,7 @@ x 9
 y 24
 elevation 533
 end
-arch desert
+arch cobblestones
 x 9
 y 25
 elevation 533
@@ -2567,12 +2570,12 @@ x 10
 y 23
 elevation 533
 end
-arch desert
+arch cobblestones
 x 10
 y 24
 elevation 533
 end
-arch desert
+arch cobblestones
 x 10
 y 25
 elevation 533
@@ -2816,7 +2819,7 @@ x 11
 y 23
 elevation 533
 end
-arch desert
+arch cobblestones
 x 11
 y 24
 elevation 533
@@ -3060,12 +3063,12 @@ x 12
 y 22
 elevation 533
 end
-arch desert
+arch cobblestones
 x 12
 y 23
 elevation 533
 end
-arch desert
+arch cobblestones
 x 12
 y 24
 elevation 533
@@ -3309,7 +3312,7 @@ x 13
 y 22
 elevation 533
 end
-arch desert
+arch cobblestones
 x 13
 y 23
 elevation 533
@@ -3553,12 +3556,12 @@ x 14
 y 21
 elevation 999
 end
-arch desert
+arch cobblestones
 x 14
 y 22
 elevation 533
 end
-arch desert
+arch cobblestones
 x 14
 y 23
 elevation 533
@@ -3807,7 +3810,7 @@ x 15
 y 21
 elevation 829
 end
-arch desert
+arch cobblestones
 x 15
 y 22
 elevation 533
@@ -4056,7 +4059,7 @@ x 16
 y 21
 elevation 488
 end
-arch desert
+arch cobblestones
 x 16
 y 22
 elevation 533
@@ -4305,7 +4308,7 @@ x 17
 y 21
 elevation 31
 end
-arch grass
+arch cobblestones
 x 17
 y 22
 elevation 23
@@ -4554,12 +4557,12 @@ x 18
 y 21
 elevation 74
 end
-arch grass
+arch cobblestones
 x 18
 y 22
 elevation 18
 end
-arch grass
+arch cobblestones
 x 18
 y 23
 elevation 43
@@ -4808,7 +4811,7 @@ x 19
 y 22
 elevation 473
 end
-arch grass
+arch cobblestones
 x 19
 y 23
 elevation 515
@@ -5057,7 +5060,7 @@ x 20
 y 22
 elevation 932
 end
-arch evergreen
+arch cobblestones
 x 20
 y 23
 elevation 1043
@@ -5306,7 +5309,7 @@ x 21
 y 22
 elevation 1347
 end
-arch evergreen
+arch cobblestones
 x 21
 y 23
 elevation 1472
@@ -5555,7 +5558,7 @@ x 22
 y 22
 elevation 1585
 end
-arch evergreen
+arch cobblestones
 x 22
 y 23
 elevation 1681
@@ -5804,7 +5807,7 @@ x 23
 y 22
 elevation 1383
 end
-arch evergreen
+arch cobblestones
 x 23
 y 23
 elevation 1641
@@ -6053,12 +6056,12 @@ x 24
 y 22
 elevation 825
 end
-arch evergreen
+arch cobblestones
 x 24
 y 23
 elevation 1290
 end
-arch evergreen
+arch cobblestones
 x 24
 y 24
 elevation 1406
@@ -6307,17 +6310,17 @@ x 25
 y 23
 elevation 730
 end
-arch grass
+arch cobblestones
 x 25
 y 24
 elevation 959
 end
-arch grass
+arch cobblestones
 x 25
 y 25
 elevation 958
 end
-arch grass
+arch cobblestones
 x 25
 y 26
 elevation 878
@@ -6566,7 +6569,7 @@ x 26
 y 25
 elevation 302
 end
-arch grass
+arch cobblestones
 x 26
 y 26
 elevation 838
@@ -6815,7 +6818,7 @@ x 27
 y 25
 elevation 153
 end
-arch grass
+arch cobblestones
 x 27
 y 26
 elevation 757
@@ -7064,7 +7067,7 @@ x 28
 y 25
 elevation 247
 end
-arch grass
+arch cobblestones
 x 28
 y 26
 elevation 645
@@ -7313,12 +7316,12 @@ x 29
 y 25
 elevation 82
 end
-arch grass
+arch cobblestones
 x 29
 y 26
 elevation 575
 end
-arch grass
+arch cobblestones
 x 29
 y 27
 elevation 590
@@ -7567,7 +7570,7 @@ x 30
 y 26
 elevation 618
 end
-arch grass
+arch cobblestones
 x 30
 y 27
 elevation 993
@@ -7816,7 +7819,7 @@ x 31
 y 26
 elevation 755
 end
-arch evergreen
+arch cobblestones
 x 31
 y 27
 elevation 1175
@@ -8065,7 +8068,7 @@ x 32
 y 26
 elevation 642
 end
-arch woods_3
+arch cobblestones
 x 32
 y 27
 elevation 1117
@@ -8314,7 +8317,7 @@ x 33
 y 26
 elevation 87
 end
-arch grass
+arch cobblestones
 x 33
 y 27
 elevation 896
@@ -8563,7 +8566,7 @@ x 34
 y 26
 elevation 72
 end
-arch brush
+arch cobblestones
 x 34
 y 27
 elevation 662
@@ -8812,7 +8815,7 @@ x 35
 y 26
 elevation 207
 end
-arch brush
+arch cobblestones
 x 35
 y 27
 elevation 511
@@ -9061,7 +9064,7 @@ x 36
 y 26
 elevation 187
 end
-arch grass
+arch cobblestones
 x 36
 y 27
 elevation 363
@@ -9310,7 +9313,7 @@ x 37
 y 26
 elevation 45
 end
-arch grass
+arch cobblestones
 x 37
 y 27
 elevation 233
@@ -9559,7 +9562,7 @@ x 38
 y 26
 elevation 108
 end
-arch brush
+arch cobblestones
 x 38
 y 27
 elevation 169
@@ -9808,7 +9811,7 @@ x 39
 y 26
 elevation 129
 end
-arch grass
+arch cobblestones
 x 39
 y 27
 elevation 173
@@ -10057,7 +10060,7 @@ x 40
 y 26
 elevation 151
 end
-arch brush
+arch cobblestones
 x 40
 y 27
 elevation 152
@@ -10306,7 +10309,7 @@ x 41
 y 26
 elevation 168
 end
-arch brush
+arch cobblestones
 x 41
 y 27
 elevation 67
@@ -10555,7 +10558,7 @@ x 42
 y 26
 elevation 556
 end
-arch grass
+arch cobblestones
 x 42
 y 27
 elevation 383
@@ -10799,12 +10802,12 @@ x 43
 y 25
 elevation 1962
 end
-arch hills_rocky
+arch cobblestones
 x 43
 y 26
 elevation 1832
 end
-arch woods_3
+arch cobblestones
 x 43
 y 27
 elevation 1294
@@ -11043,12 +11046,12 @@ x 44
 y 24
 elevation 1658
 end
-arch woods_2
+arch cobblestones
 x 44
 y 25
 elevation 2412
 end
-arch woods_3
+arch cobblestones
 x 44
 y 26
 elevation 2314
@@ -11292,7 +11295,7 @@ x 45
 y 24
 elevation 1600
 end
-arch woods_3
+arch cobblestones
 x 45
 y 25
 elevation 2211
@@ -11536,12 +11539,12 @@ x 46
 y 23
 elevation 548
 end
-arch woods_3
+arch cobblestones
 x 46
 y 24
 elevation 1409
 end
-arch woods_3
+arch cobblestones
 x 46
 y 25
 elevation 1742
@@ -11780,12 +11783,12 @@ x 47
 y 22
 elevation 90
 end
-arch brush
+arch cobblestones
 x 47
 y 23
 elevation 716
 end
-arch woods_3
+arch cobblestones
 x 47
 y 24
 elevation 1094
@@ -12029,7 +12032,7 @@ x 48
 y 22
 elevation 311
 end
-arch grass
+arch cobblestones
 x 48
 y 23
 elevation 326
@@ -12278,7 +12281,7 @@ x 49
 y 22
 elevation 201
 end
-arch brush
+arch cobblestones
 x 49
 y 23
 elevation 111
