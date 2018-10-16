@@ -10,16 +10,6 @@ face nasty_ice.111
 anim
 nasty_ice.111
 nasty_ice.112
-nasty_ice.113
-nasty_ice.114
-nasty_ice.115
-nasty_ice.116
-nasty_ice.117
-nasty_ice.118
-nasty_ice.119
-nasty_ice.11A
-nasty_ice.11B
-nasty_ice.11C
 mina
 color_fg light_blue
 color_bg blue
