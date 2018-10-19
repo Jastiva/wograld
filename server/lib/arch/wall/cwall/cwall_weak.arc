@@ -10,9 +10,6 @@ cwall_w_0.114
 cwall_w_0.115
 cwall_w_0.116
 cwall_w_0.117
-cwall_w_0.118
-cwall_w_0.119
-cwall_w_0.11A
 mina
 is_animated 0
 tear_down 1
@@ -47,8 +44,6 @@ cwall_w_1.114
 cwall_w_1.115
 cwall_w_1.116
 cwall_w_1.117
-cwall_w_1.118
-cwall_w_1.119
 mina
 is_animated 0
 tear_down 1
