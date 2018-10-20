@@ -10,9 +10,6 @@ redcwall_w_0.114
 redcwall_w_0.115
 redcwall_w_0.116
 redcwall_w_0.117
-redcwall_w_0.118
-redcwall_w_0.119
-redcwall_w_0.11A
 mina
 is_animated 0
 tear_down 1
@@ -47,8 +44,6 @@ redcwall_w_1.114
 redcwall_w_1.115
 redcwall_w_1.116
 redcwall_w_1.117
-redcwall_w_1.118
-redcwall_w_1.119
 mina
 is_animated 0
 tear_down 1

@@ -10,9 +10,6 @@ westcwall_w_0.114
 westcwall_w_0.115
 westcwall_w_0.116
 westcwall_w_0.117
-westcwall_w_0.118
-westcwall_w_0.119
-westcwall_w_0.11A
 mina
 is_animated 0
 tear_down 1
@@ -46,8 +43,6 @@ westcwall_w_1.114
 westcwall_w_1.115
 westcwall_w_1.116
 westcwall_w_1.117
-westcwall_w_1.118
-westcwall_w_1.119
 mina
 is_animated 0
 tear_down 1

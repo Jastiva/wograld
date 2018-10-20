@@ -10,9 +10,6 @@ magentacwall_w_0.114
 magentacwall_w_0.115
 magentacwall_w_0.116
 magentacwall_w_0.117
-magentacwall_w_0.118
-magentacwall_w_0.119
-magentacwall_w_0.11A
 mina
 is_animated 0
 tear_down 1
@@ -47,8 +44,6 @@ magentacwall_w_1.114
 magentacwall_w_1.115
 magentacwall_w_1.116
 magentacwall_w_1.117
-magentacwall_w_1.118
-magentacwall_w_1.119
 mina
 is_animated 0
 tear_down 1
