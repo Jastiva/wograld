@@ -20,6 +20,17 @@ smoothface cobblesto2.111 empty_S.111
 magicmap yellow
 move_block boat swim
 end
+Object cobble_part_3
+face cobble_part_3.111
+color_fg dark_orange
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+smoothface cobblesto2.111 empty_S.111
+magicmap yellow
+move_block boat swim
+end
 Object cobble_part_4
 face cobble_part_4.111
 color_fg dark_orange
@@ -31,8 +42,41 @@ smoothface cobblesto2.111 empty_S.111
 magicmap yellow
 move_block boat swim
 end
+Object cobble_part_6
+face cobble_part_6.111
+color_fg dark_orange
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+smoothface cobblesto2.111 empty_S.111
+magicmap yellow
+move_block boat swim
+end
+Object cobble_part_7
+face cobble_part_7.111
+color_fg dark_orange
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+smoothface cobblesto2.111 empty_S.111
+magicmap yellow
+move_block boat swim
+end
 Object cobble_part_8
 face cobble_part_8.111
+color_fg dark_orange
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+smoothface cobblesto2.111 empty_S.111
+magicmap yellow
+move_block boat swim
+end
+Object cobble_part_9
+face cobble_part_9.111
 color_fg dark_orange
 no_pick 1
 is_floor 1
