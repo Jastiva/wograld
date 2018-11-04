@@ -4340,7 +4340,7 @@ treasure guard_h
   more
   arch poleaxe
   end
-treasure slave
+treasure servitor
   list human_parts
     chance 20
   more
@@ -5928,7 +5928,7 @@ treasure a_priest
 treasure beggar
   arch skill_use_magic_item
   more
-  list slave
+  list servitor
   end
 treasure dancing_girl
   arch skill_use_magic_item
