@@ -7,7 +7,7 @@ height 14
 enter_y 7
 msg
 Created:  1993-10-15
-Modified: 1998-12-28 Anthony Thyssen (anthony@cit.gu.edu.au)
+Modified: 2018-11-04 lx
 endmsg
 outdoor 1
 end
@@ -253,7 +253,7 @@ connected 14
 end
 arch magic_ear
 msg
-@match chain|Chain|CHAIN
+@match gearworks
 Well, you know the password,
 so you must be ok.   Pass Friend.
 endmsg
@@ -2161,7 +2161,7 @@ connected 24
 end
 arch magic_ear
 msg
-@match chain|Chain|CHAIN
+@match gearworks
 Well, you know the password,
 so you must be ok.   Pass Friend.
 endmsg
