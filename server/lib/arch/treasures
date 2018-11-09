@@ -2892,6 +2892,53 @@ treasure chinese
       end
     end
   end
+treasure ice_dragon
+  list big_dragon_parts
+    chance 50
+  more
+  arch abil_icestorm
+    nrof 3
+  more
+  arch abil_large_icestorm
+    nrof 3
+  more
+  arch abil_fear
+  more
+  arch spell_wave
+    nrof 3
+  more
+  arch gem
+    chance 10
+    nrof 1
+    no
+      arch ruby
+        nrof 1
+        chance 30
+        no
+          arch sapphire
+          nrof 3
+          chance 30
+          no
+            arch emerald
+              nrof 4
+              chance 50
+        end
+      end
+    end
+  more
+  arch platinacoin
+    nrof 2
+    chance 10
+    no
+    arch goldcoin
+      nrof 7
+      chance 50
+      no
+      arch silvercoin
+        nrof 30
+      end
+    end
+  end
 treasure dragon
   list big_dragon_parts
     chance 80
