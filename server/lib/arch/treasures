@@ -3421,10 +3421,10 @@ treasure dwarf
   more
   arch skill_smithery
   end
-treasure half_orc_player_items
+treasure orc_player_items
   arch skill_stealing
   end
-treasure pl_half_orc
+treasure pl_orc
   list fighter_skills
   more
   arch mace
@@ -3434,6 +3434,8 @@ treasure pl_half_orc
   arch scale_mail
   more
   arch sack
+  more
+  arch no_class_face_change
   more
   arch skill_stealing
   end
