@@ -3,6 +3,9 @@ name world_116_104
 region darcap
 width 50
 height 50
+msg
+Modified: 2018-11-16 lx
+endmsg
 outdoor 1
 tile_path_1 world_116_103
 tile_path_2 world_117_104
@@ -64,11 +67,11 @@ arch tree
 y 13
 elevation 2536
 end
-arch steppe
+arch cobblestones
 y 14
 elevation 3956
 end
-arch mountain
+arch cobblestones
 y 15
 elevation 5250
 end
@@ -272,12 +275,12 @@ x 1
 y 12
 elevation 3435
 end
-arch tree
+arch cobblestones
 x 1
 y 13
 elevation 2634
 end
-arch steppe
+arch cobblestones
 x 1
 y 14
 elevation 3923
@@ -521,7 +524,7 @@ x 2
 y 12
 elevation 4319
 end
-arch steppe
+arch cobblestones
 x 2
 y 13
 elevation 3964
@@ -770,7 +773,7 @@ x 3
 y 12
 elevation 4647
 end
-arch mountain
+arch cobblestones
 x 3
 y 13
 elevation 5176
@@ -1019,7 +1022,7 @@ x 4
 y 12
 elevation 3758
 end
-arch steppe
+arch cobblestones
 x 4
 y 13
 elevation 4328
@@ -1268,7 +1271,7 @@ x 5
 y 12
 elevation 2397
 end
-arch tree
+arch cobblestones
 x 5
 y 13
 elevation 1442
@@ -1517,7 +1520,7 @@ x 6
 y 12
 elevation 1753
 end
-arch brush
+arch cobblestones
 x 6
 y 13
 elevation 399
@@ -1766,7 +1769,7 @@ x 7
 y 12
 elevation 2022
 end
-arch tree
+arch cobblestones
 x 7
 y 13
 elevation 1699
@@ -2015,7 +2018,7 @@ x 8
 y 12
 elevation 1946
 end
-arch tree
+arch cobblestones
 x 8
 y 13
 elevation 1915
@@ -2264,7 +2267,7 @@ x 9
 y 12
 elevation 496
 end
-arch brush
+arch cobblestones
 x 9
 y 13
 elevation 215
@@ -2513,7 +2516,7 @@ x 10
 y 12
 elevation 2414
 end
-arch tree
+arch cobblestones
 x 10
 y 13
 elevation 2588
@@ -2760,7 +2763,7 @@ x 11
 y 12
 elevation 3119
 end
-arch steppe
+arch cobblestones
 x 11
 y 13
 elevation 3837
@@ -3003,7 +3006,7 @@ x 12
 y 12
 elevation 3099
 end
-arch steppe
+arch cobblestones
 x 12
 y 13
 elevation 3716
@@ -3252,7 +3255,7 @@ x 13
 y 12
 elevation 3844
 end
-arch mountain
+arch cobblestones
 x 13
 y 13
 elevation 5207
@@ -3508,42 +3511,42 @@ x 14
 y 12
 elevation 3507
 end
-arch steppe
+arch cobblestones
 x 14
 y 13
 elevation 4892
 end
-arch mountain
+arch cobblestones
 x 14
 y 14
 elevation 6392
 end
-arch mountain
+arch cobblestones
 x 14
 y 15
 elevation 7255
 end
-arch mountain
+arch cobblestones
 x 14
 y 16
 elevation 8054
 end
-arch mountain
+arch cobblestones
 x 14
 y 17
 elevation 7250
 end
-arch jungle_1
+arch cobblestones
 x 14
 y 18
 elevation 1464
 end
-arch mountain
+arch cobblestones
 x 14
 y 19
 elevation 8705
 end
-arch mountain
+arch cobblestones
 x 14
 y 20
 end
@@ -3749,7 +3752,7 @@ x 15
 y 12
 elevation 1917
 end
-arch tree
+arch cobblestones
 x 15
 y 13
 elevation 2720
@@ -4006,7 +4009,7 @@ x 16
 y 12
 elevation 2426
 end
-arch steppe
+arch cobblestones
 x 16
 y 13
 elevation 3565
@@ -4247,7 +4250,7 @@ x 17
 y 12
 elevation 2572
 end
-arch hills
+arch cobblestones
 x 17
 y 13
 elevation 3438
@@ -4490,7 +4493,7 @@ x 18
 y 12
 elevation 2836
 end
-arch steppe
+arch cobblestones
 x 18
 y 13
 elevation 3430
@@ -4747,7 +4750,7 @@ x 19
 y 12
 elevation 3390
 end
-arch steppe
+arch cobblestones
 x 19
 y 13
 elevation 3762
@@ -4990,7 +4993,7 @@ x 20
 y 12
 elevation 3978
 end
-arch steppe
+arch cobblestones
 x 20
 y 13
 elevation 4324
@@ -5239,7 +5242,7 @@ x 21
 y 12
 elevation 4280
 end
-arch hills
+arch cobblestones
 x 21
 y 13
 elevation 4626
@@ -5488,7 +5491,7 @@ x 22
 y 12
 elevation 4201
 end
-arch steppe
+arch cobblestones
 x 22
 y 13
 elevation 4658
@@ -5737,7 +5740,7 @@ x 23
 y 12
 elevation 3696
 end
-arch hills
+arch cobblestones
 x 23
 y 13
 elevation 4425
@@ -5986,7 +5989,7 @@ x 24
 y 12
 elevation 3159
 end
-arch hills
+arch cobblestones
 x 24
 y 13
 elevation 4159
@@ -6235,7 +6238,7 @@ x 25
 y 12
 elevation 2778
 end
-arch hills
+arch cobblestones
 x 25
 y 13
 elevation 3946
@@ -6484,7 +6487,7 @@ x 26
 y 12
 elevation 3076
 end
-arch hills
+arch cobblestones
 x 26
 y 13
 elevation 3674
@@ -6669,71 +6672,71 @@ x 26
 y 49
 elevation 10197
 end
-arch hills
+arch cobblestones
 x 27
 elevation 3776
 end
-arch hills
+arch cobblestones
 x 27
 y 1
 elevation 3630
 end
-arch hills
+arch cobblestones
 x 27
 y 2
 elevation 3412
 end
-arch hills
+arch cobblestones
 x 27
 y 3
 elevation 3171
 end
-arch hills
+arch cobblestones
 x 27
 y 4
 elevation 3026
 end
-arch hills
+arch cobblestones
 x 27
 y 5
 elevation 3378
 end
-arch hills
+arch cobblestones
 x 27
 y 6
 elevation 3566
 end
-arch hills
+arch cobblestones
 x 27
 y 7
 elevation 3252
 end
-arch woods_3
+arch cobblestones
 x 27
 y 8
 elevation 2677
 end
-arch woods_3
+arch cobblestones
 x 27
 y 9
 elevation 2419
 end
-arch woods_3
+arch cobblestones
 x 27
 y 10
 elevation 2466
 end
-arch woods_3
+arch cobblestones
 x 27
 y 11
 elevation 2673
 end
-arch hills
+arch cobblestones
 x 27
 y 12
 elevation 3248
 end
-arch steppe
+arch cobblestones
 x 27
 y 13
 elevation 3329
