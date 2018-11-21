@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2018-09-08 lori
+Modified: 2018-11-18 lori
 endmsg
 outdoor 1
 tile_path_1 world_122_116
@@ -55,17 +55,17 @@ end
 arch grass
 y 4
 end
-arch church
-name Church of Valriel
-slaying /navar_city/temples/valriel
-hp 9
-sp 27
-y 4
-end
 arch dungeon_magic
 y 5
 end
 arch grass_only
+y 5
+end
+arch small_temple2_west
+name Church of Valriel
+slaying /navar_city/temples/valriel
+hp 9
+sp 27
 y 5
 end
 arch dungeon_magic
@@ -136,25 +136,16 @@ end
 arch grass
 y 13
 end
-arch s_house1
-y 13
-end
 arch dungeon_magic
 y 14
 end
 arch grass
 y 14
 end
-arch s_house1
-y 14
-end
 arch dungeon_magic
 y 15
 end
 arch grass
-y 15
-end
-arch s_house1
 y 15
 end
 arch grass
@@ -375,13 +366,9 @@ arch grass
 x 1
 y 7
 end
-arch s_shop1
+arch mos_temple
 name Imperial Post
-name_pl Imperial Post
 slaying /navar_city/misc/IPO_navar
-msg
-!Ding
-endmsg
 hp 5
 sp 8
 x 1
@@ -783,10 +770,6 @@ arch grass
 x 2
 y 13
 end
-arch hovels
-x 2
-y 13
-end
 arch dungeon_magic
 x 2
 y 14
@@ -795,7 +778,7 @@ arch grass
 x 2
 y 14
 end
-arch guild_west
+arch lyth_temple
 name Navar Dragon Guild
 slaying /navar_city/misc/dragon_guild
 hp 7
@@ -1727,20 +1710,20 @@ arch grass
 x 5
 y 4
 end
-arch guild_west
+arch dungeon_magic
+x 5
+y 5
+end
+arch grass
+x 5
+y 5
+end
+arch tower_tob_northwest
 name Central Library
 slaying /navar_city/misc/library
 hp 9
 sp 15
 x 5
-y 4
-end
-arch dungeon_magic
-x 5
-y 5
-end
-arch grass
-x 5
 y 5
 end
 arch dungeon_magic
@@ -1748,14 +1731,6 @@ x 5
 y 6
 end
 arch grass
-x 5
-y 6
-end
-arch l_shop1
-name Museum of Arms
-slaying /navar_city/magara/houses/museum
-hp 4
-sp 18
 x 5
 y 6
 end
@@ -1764,6 +1739,14 @@ x 5
 y 7
 end
 arch grass
+x 5
+y 7
+end
+arch lyth_temple
+name Museum of Arms
+slaying /navar_city/magara/houses/museum
+hp 4
+sp 18
 x 5
 y 7
 end
@@ -1829,19 +1812,19 @@ arch brush
 x 5
 y 13
 end
-arch guild_west
-name Guild of the Dreaming Sage
-slaying /navar_city/dreaming_sage/ground
-hp 12
-sp 23
-x 5
-y 13
-end
 arch dungeon_magic
 x 5
 y 14
 end
 arch grass
+x 5
+y 14
+end
+arch mos_temple
+name Guild of the Dreaming Sage
+slaying /navar_city/dreaming_sage/ground
+hp 12
+sp 23
 x 5
 y 14
 end
@@ -3204,7 +3187,7 @@ arch grass
 x 9
 y 14
 end
-arch s_shop2
+arch bungalow
 name Jeweler
 slaying /navar_city/misc/jeweler
 hp 7
@@ -3789,9 +3772,8 @@ arch grass
 x 11
 y 7
 end
-arch house_larg_west
+arch shrine_northwest
 name Gunther's Smithy
-name_pl Gunther's Smithy
 slaying /navar_city/misc/city1smith
 hp 8
 sp 8
@@ -4141,21 +4123,20 @@ arch grass
 x 12
 y 9
 end
-arch bank_west
+arch dungeon_magic
+x 12
+y 10
+end
+arch grass
+x 12
+y 10
+end
+arch keep_sym
 name Bank of Skud, Navar Branch
-name_pl Bank of Skud, Navar Branch
 slaying /navar_city/misc/city1bank
 hp 7
 sp 14
 x 12
-y 9
-end
-arch dungeon_magic
-x 12
-y 10
-end
-arch grass
-x 12
 y 10
 end
 arch dungeon_magic
@@ -4163,14 +4144,6 @@ x 12
 y 11
 end
 arch grass
-x 12
-y 11
-end
-arch store_general_west
-name Eddie's Store by the Wall
-slaying /navar_city/misc/city1gen
-hp 1
-sp 1
 x 12
 y 11
 end
@@ -4179,6 +4152,14 @@ x 12
 y 12
 end
 arch grass
+x 12
+y 12
+end
+arch keep_sym_noflag_greco
+name Eddie's Store by the Wall
+slaying /navar_city/misc/city1gen
+hp 1
+sp 1
 x 12
 y 12
 end
@@ -5414,14 +5395,6 @@ arch cobblestones4
 x 16
 y 7
 end
-arch store_weapons
-name Red's Weapons Bazzar
-slaying /navar_city/misc/city1weapon
-hp 1
-sp 1
-x 16
-y 7
-end
 arch dungeon_magic
 x 16
 y 8
@@ -5430,31 +5403,27 @@ arch cobblestones4
 x 16
 y 8
 end
-arch dungeon_magic
-x 16
-y 9
-end
-arch grass
-x 16
-y 9
-end
-arch lamppost
-x 16
-y 9
-end
-arch dungeon_magic
-x 16
-y 10
-end
-arch grass
-x 16
-y 10
-end
-arch store_magic_west
-name Wizzo's Magic Shop
-slaying /navar_city/misc/city1magic
+arch shrine_northwest
+name Red's Weapons Bazzar
+slaying /navar_city/misc/city1weapon
 hp 1
 sp 1
+x 16
+y 8
+end
+arch dungeon_magic
+x 16
+y 9
+end
+arch grass
+x 16
+y 9
+end
+arch dungeon_magic
+x 16
+y 10
+end
+arch grass
 x 16
 y 10
 end
@@ -5463,6 +5432,14 @@ x 16
 y 11
 end
 arch grass
+x 16
+y 11
+end
+arch tower_tob_northwest
+name Wizzo's Magic Shop
+slaying /navar_city/misc/city1magic
+hp 1
+sp 1
 x 16
 y 11
 end
@@ -5774,6 +5751,10 @@ x 17
 y 9
 end
 arch grass
+x 17
+y 9
+end
+arch bright_lamppost
 x 17
 y 9
 end

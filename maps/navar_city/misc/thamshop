@@ -10,44 +10,44 @@ enter_x 4
 enter_y 13
 msg
 Created:  2004-22-02 Avion
-Modified: 2004-05-30 Gene Alexander
+Modified: 2018-11-18 lori
 endmsg
 end
 arch tile_white_floor
 end
-arch bwall_2_2_2
+arch dkgreenmarblewall_4
 end
-arch tile_white_floor
+arch greenmarble
 y 1
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 1
 end
-arch tile_white_floor
+arch greenmarble
 y 2
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 2
 end
-arch tile_white_floor
+arch greenmarble
 y 3
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 3
 end
-arch tile_white_floor
+arch greenmarble
 y 4
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 4
 end
-arch tile_white_floor
+arch greenmarble
 y 5
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 5
 end
-arch tile_white_floor
+arch greenmarble
 y 6
 end
 arch woodwall_3_2
@@ -56,55 +56,55 @@ end
 arch dungeon_magic
 y 6
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 6
 end
-arch cobblestones2
+arch greenmarble
 y 7
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 7
 end
-arch cobblestones2
+arch greenmarble
 y 8
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 8
 end
-arch cobblestones2
+arch greenmarble
 y 9
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 9
 end
-arch cobblestones2
+arch greenmarble
 y 10
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 10
 end
-arch cobblestones2
+arch greenmarble
 y 11
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 11
 end
-arch cobblestones2
+arch greenmarble
 y 12
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 y 12
 end
-arch cobblestones2
+arch greenmarble
 y 13
 end
-arch bwall_2_2_1
+arch dkgreenmarblewall_4
 y 13
 end
 arch tile_white_floor
 x 1
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 1
 end
 arch tile_white_floor
@@ -169,7 +169,7 @@ arch dungeon_magic
 x 1
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 7
 end
@@ -177,45 +177,45 @@ arch statue2
 x 1
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 1
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 1
 y 13
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 1
 y 13
 end
 arch tile_white_floor
 x 2
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 2
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 1
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 2
 end
@@ -243,49 +243,49 @@ arch dungeon_magic
 x 2
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 2
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 2
 y 13
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 2
 y 13
 end
 arch tile_white_floor
 x 3
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 3
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 1
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 2
 end
@@ -321,7 +321,7 @@ arch dungeon_magic
 x 3
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 7
 end
@@ -329,11 +329,11 @@ arch brazier
 x 3
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 9
 end
@@ -341,11 +341,11 @@ arch brazier
 x 3
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 11
 end
@@ -353,25 +353,25 @@ arch brazier
 x 3
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 3
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 3
 y 13
 end
-arch bwall_1_3
+arch dkgreenmarblewall_1_4
 x 3
 y 13
 end
 arch tile_white_floor
 x 4
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 4
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 1
 end
@@ -383,19 +383,19 @@ arch light3
 x 4
 y 1
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 2
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 3
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 4
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 5
 end
@@ -405,7 +405,7 @@ y 5
 invisible 1
 connected 11
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 6
 end
@@ -416,7 +416,7 @@ connected 11
 no_magic 1
 damned 1
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 7
 end
@@ -426,7 +426,7 @@ x 4
 y 7
 connected 11
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 8
 end
@@ -449,23 +449,23 @@ x 4
 y 8
 connected 10
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 4
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 4
 y 13
 end
@@ -480,14 +480,14 @@ end
 arch tile_white_floor
 x 5
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 5
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 1
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 2
 end
@@ -523,7 +523,7 @@ arch dungeon_magic
 x 5
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 7
 end
@@ -531,11 +531,11 @@ arch brazier
 x 5
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 9
 end
@@ -543,11 +543,11 @@ arch brazier
 x 5
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 11
 end
@@ -555,29 +555,29 @@ arch brazier
 x 5
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 5
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 5
 y 13
 end
-arch bwall_1_4
+arch dkgreenmarblewall_1_4
 x 5
 y 13
 end
 arch tile_white_floor
 x 6
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 6
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 1
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 2
 end
@@ -605,42 +605,42 @@ arch dungeon_magic
 x 6
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 6
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 6
 y 13
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 6
 y 13
 end
 arch tile_white_floor
 x 7
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 7
 end
 arch tile_white_floor
@@ -693,7 +693,7 @@ arch dungeon_magic
 x 7
 y 6
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 7
 end
@@ -701,81 +701,81 @@ arch statue2
 x 7
 y 7
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 8
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 9
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 10
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 11
 end
-arch cobblestones2
+arch cobblestones4
 x 7
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 7
 y 13
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_1_4
 x 7
 y 13
 end
-arch tile_white_floor
+arch greenmarble
 x 8
 end
-arch bwall_2_2_3
+arch dkgreenmarblewall_4
 x 8
 end
-arch tile_white_floor
-x 8
-y 1
-end
-arch bwall_2_1_1
+arch greenmarble
 x 8
 y 1
 end
-arch tile_white_floor
+arch dkgreenmarblewall_1_2
+x 8
+y 1
+end
+arch greenmarble
 x 8
 y 2
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 2
 end
-arch tile_white_floor
+arch greenmarble
 x 8
 y 3
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 3
 end
-arch tile_white_floor
+arch greenmarble
 x 8
 y 4
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 4
 end
-arch tile_white_floor
+arch greenmarble
 x 8
 y 5
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 5
 end
-arch tile_white_floor
+arch greenmarble
 x 8
 y 6
 end
@@ -787,63 +787,63 @@ arch dungeon_magic
 x 8
 y 6
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 6
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 7
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 7
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 8
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 8
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 9
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 9
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 10
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 10
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 11
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 11
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 12
 end
-arch bwall_2_1_1
+arch dkgreenmarblewall_1_2
 x 8
 y 12
 end
-arch cobblestones2
+arch greenmarble
 x 8
 y 13
 end
-arch bwall_2_2_4
+arch dkgreenmarblewall_4
 x 8
 y 13
 end

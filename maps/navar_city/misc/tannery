@@ -7,95 +7,96 @@ enter_x 5
 enter_y 10
 msg
 Created:  2002-12-29
+Modified: 2018-11-18 lori
 endmsg
 end
-arch flagstone
+arch lightgreenmarble
 end
-arch wall_2_2_2
+arch dkgreenmarblewall_4
 end
-arch flagstone
+arch lightgreenmarble
 y 1
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 y 2
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 y 3
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 y 4
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 y 5
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 y 6
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 y 7
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 y 8
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 y 9
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 y 10
 end
-arch wall_2_2_1
+arch dkgreenmarblewall_4
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 1
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 5
 end
@@ -108,7 +109,7 @@ food 2
 x 1
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 6
 end
@@ -120,7 +121,7 @@ food 3
 x 1
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 7
 end
@@ -132,7 +133,7 @@ food 4
 x 1
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 8
 end
@@ -144,7 +145,7 @@ food 1000
 x 1
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 9
 end
@@ -156,21 +157,21 @@ food 2
 x 1
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 x 1
 y 10
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 1
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 2
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 1
 end
@@ -184,53 +185,53 @@ x 2
 y 1
 no_pick 1
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 x 2
 y 10
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 2
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 3
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 1
 end
@@ -239,11 +240,11 @@ x 3
 y 1
 no_pick 1
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 3
 end
@@ -251,15 +252,15 @@ arch tanbench
 x 3
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 6
 end
@@ -275,7 +276,7 @@ arch dungeon_magic
 x 3
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 7
 end
@@ -287,7 +288,7 @@ arch dungeon_magic
 x 3
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 8
 end
@@ -299,7 +300,7 @@ arch dungeon_magic
 x 3
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 3
 y 9
 end
@@ -307,7 +308,7 @@ arch swall_1_2_half
 x 3
 y 9
 end
-arch wall_1_1
+arch wall_0
 x 3
 y 9
 end
@@ -315,13 +316,7 @@ arch dungeon_magic
 x 3
 y 9
 end
-arch flagstone
-x 3
-y 10
-no_magic 1
-damned 1
-end
-arch wall_3_1
+arch lightgreenmarble
 x 3
 y 10
 end
@@ -329,13 +324,17 @@ arch dungeon_magic
 x 3
 y 10
 end
-arch flagstone
+arch dkgreenmarblewall_4
+x 3
+y 10
+end
+arch lightgreenmarble
 x 4
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 4
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 1
 end
@@ -349,19 +348,19 @@ x 4
 y 1
 no_pick 1
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 5
 end
@@ -369,7 +368,7 @@ arch wall_0
 x 4
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 6
 end
@@ -381,65 +380,57 @@ arch dungeon_magic
 x 4
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 7
-no_magic 1
-damned 1
 end
 arch fireplace
 x 4
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 8
-no_magic 1
-damned 1
 end
-arch flagstone
+arch lightgreenmarble
 x 4
 y 9
-no_magic 1
-damned 1
 end
 arch brazier
 x 4
 y 9
 end
-arch flagstone
-x 4
-y 10
-no_magic 1
-damned 1
-end
-arch wall_1_3
+arch lightgreenmarble
 x 4
 y 10
 end
-arch flagstone
+arch dkgreenmarblewall_1_4
+x 4
+y 10
+end
+arch lightgreenmarble
 x 5
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 5
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 5
 end
@@ -449,7 +440,7 @@ y 5
 invisible 1
 connected 11
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 6
 end
@@ -460,11 +451,9 @@ connected 11
 no_magic 1
 damned 1
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 7
-no_magic 1
-damned 1
 end
 arch check_floor
 slaying tanner_navar
@@ -472,11 +461,9 @@ x 5
 y 7
 connected 11
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 8
-no_magic 1
-damned 1
 end
 arch trigger_marker
 slaying tanner_navar
@@ -497,17 +484,13 @@ x 5
 y 8
 connected 10
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 9
-no_magic 1
-damned 1
 end
-arch flagstone
+arch lightgreenmarble
 x 5
 y 10
-no_magic 1
-damned 1
 end
 arch oakdoor
 slaying /world/world_122_116
@@ -517,29 +500,29 @@ sp 41
 x 5
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 6
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 5
 end
@@ -547,7 +530,7 @@ arch wall_0
 x 6
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 6
 end
@@ -559,50 +542,44 @@ arch dungeon_magic
 x 6
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 7
-no_magic 1
-damned 1
 end
 arch fireplace
 x 6
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 6
 y 9
-no_magic 1
-damned 1
 end
 arch brazier
 x 6
 y 9
 end
-arch flagstone
-x 6
-y 10
-no_magic 1
-damned 1
-end
-arch wall_1_4
+arch lightgreenmarble
 x 6
 y 10
 end
-arch flagstone
-x 7
+arch dkgreenmarblewall_1_4
+x 6
+y 10
 end
-arch wall_3_3
+arch lightgreenmarble
 x 7
 end
 arch dungeon_magic
 x 7
 end
-arch flagstone
+arch dkgreenmarblewall_4
+x 7
+end
+arch lightgreenmarble
 x 7
 y 1
 end
@@ -610,15 +587,15 @@ arch swall_1_1
 x 7
 y 1
 end
-arch wall_1_2
-x 7
-y 1
-end
 arch dungeon_magic
 x 7
 y 1
 end
-arch flagstone
+arch dkgreenmarblewall_1_2
+x 7
+y 1
+end
+arch lightgreenmarble
 x 7
 y 2
 end
@@ -630,7 +607,7 @@ arch dungeon_magic
 x 7
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 3
 end
@@ -642,7 +619,7 @@ arch dungeon_magic
 x 7
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 4
 end
@@ -654,7 +631,7 @@ arch dungeon_magic
 x 7
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 5
 end
@@ -666,7 +643,7 @@ arch dungeon_magic
 x 7
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 6
 end
@@ -682,7 +659,7 @@ arch dungeon_magic
 x 7
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 7
 end
@@ -694,7 +671,7 @@ arch dungeon_magic
 x 7
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 8
 end
@@ -706,7 +683,7 @@ arch dungeon_magic
 x 7
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 7
 y 9
 end
@@ -714,21 +691,15 @@ arch swall_1_2_half
 x 7
 y 9
 end
-arch wall_1_1
-x 7
-y 9
-end
 arch dungeon_magic
 x 7
 y 9
 end
-arch flagstone
+arch dkgreenmarblewall_1_2
 x 7
-y 10
-no_magic 1
-damned 1
+y 9
 end
-arch wall_3_1
+arch lightgreenmarble
 x 7
 y 10
 end
@@ -736,17 +707,21 @@ arch dungeon_magic
 x 7
 y 10
 end
-arch flagstone
+arch dkgreenmarblewall_4
+x 7
+y 10
+end
+arch lightgreenmarble
 x 8
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 8
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 2
 end
@@ -766,11 +741,11 @@ arch flagstone
 x 8
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 5
 end
@@ -778,7 +753,7 @@ arch hide_brown
 x 8
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 6
 end
@@ -786,11 +761,11 @@ arch hide_grey
 x 8
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 8
 end
@@ -798,25 +773,25 @@ arch hide_brown
 x 8
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 x 8
 y 10
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 8
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 9
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 1
 end
@@ -824,11 +799,11 @@ arch sheepskin
 x 9
 y 1
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 3
 end
@@ -836,7 +811,7 @@ arch hide_black
 x 9
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 4
 end
@@ -844,11 +819,11 @@ arch hide_grey
 x 9
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 6
 end
@@ -856,7 +831,7 @@ arch hide_brown
 x 9
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 7
 end
@@ -864,11 +839,11 @@ arch hide_white
 x 9
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 9
 end
@@ -876,97 +851,97 @@ arch hide_black
 x 9
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 x 9
 y 10
 end
-arch wall_2_1_2
+arch dkgreenmarblewall_1_4
 x 9
 y 10
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 end
-arch wall_2_2_3
+arch dkgreenmarblewall_4
 x 10
 end
-arch flagstone
-x 10
-y 1
-end
-arch wall_2_1_1
+arch lightgreenmarble
 x 10
 y 1
 end
-arch flagstone
+arch dkgreenmarblewall_1_2
+x 10
+y 1
+end
+arch lightgreenmarble
 x 10
 y 2
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 2
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 3
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 3
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 4
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 4
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 5
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 5
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 6
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 6
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 7
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 7
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 8
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 8
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 9
 end
-arch wall_2_1_1
+arch dkgreenmarblewall_1_2
 x 10
 y 9
 end
-arch flagstone
+arch lightgreenmarble
 x 10
 y 10
 end
-arch wall_2_2_4
+arch dkgreenmarblewall_4
 x 10
 y 10
 end
