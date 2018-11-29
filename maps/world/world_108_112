@@ -2,11 +2,15 @@ arch map
 name world_108_112
 width 50
 height 50
+msg
+Modified: 2018-11-27 lx
+endmsg
 outdoor 1
 tile_path_1 world_108_111
 tile_path_2 world_109_112
 tile_path_3 world_108_113
 tile_path_4 world_107_112
+tile_path_5 above_108_112
 end
 arch mountain
 elevation 5772
@@ -123,89 +127,107 @@ arch mountain
 y 28
 elevation 5042
 end
-arch hills_rocky
+arch dun0
+y 28
+end
+arch flagstone
+face snow.111
 y 29
-elevation 3396
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+y 29
+elevation 3812
+end
+arch icecave4
+y 29
+end
+arch flagstone
+face snow.111
 y 30
-elevation 3459
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+y 30
+elevation 3812
+end
+arch deep_sea
 y 31
-elevation 4433
+elevation -10094
 end
-arch mountain
+arch deep_sea
 y 32
-elevation 5084
+elevation -10040
 end
-arch mountain
+arch deep_sea
 y 33
-elevation 5074
+elevation -9970
 end
-arch hills_rocky
+arch deep_sea
 y 34
-elevation 4598
+elevation -9888
 end
-arch hills_rocky
+arch deep_sea
 y 35
-elevation 4136
+elevation -9801
 end
-arch hills_rocky
+arch deep_sea
 y 36
-elevation 3042
+elevation -9713
 end
-arch steppe
+arch deep_sea
 y 37
-elevation 3368
+elevation -9630
 end
-arch hills_rocky
+arch deep_sea
 y 38
-elevation 3413
+elevation -9557
 end
-arch steppe
+arch deep_sea
 y 39
-elevation 3115
+elevation -9496
 end
-arch hills_rocky
+arch deep_sea
 y 40
-elevation 3692
+elevation -9452
 end
-arch hills_rocky
+arch deep_sea
 y 41
-elevation 4826
+elevation -9425
 end
-arch mountain
+arch deep_sea
 y 42
-elevation 7180
+elevation -9418
 end
-arch mountain2
+arch deep_sea
 y 43
-elevation 9005
+elevation -9430
 end
-arch mountain2
+arch deep_sea
 y 44
-elevation 10370
+elevation -9461
 end
-arch mountain2
+arch deep_sea
 y 45
-elevation 10954
+elevation -9509
 end
-arch mountain2
+arch deep_sea
 y 46
-elevation 10987
+elevation -9572
 end
-arch mountain2
+arch deep_sea
 y 47
-elevation 10366
+elevation -9649
 end
-arch mountain2
+arch deep_sea
 y 48
-elevation 9979
+elevation -9736
 end
-arch mountain2
+arch deep_sea
 y 49
-elevation 9705
+elevation -9831
 end
 arch mountain
 x 1
@@ -351,110 +373,132 @@ x 1
 y 28
 elevation 5992
 end
-arch hills_rocky
+arch dun0
+x 1
+y 28
+end
+arch flagstone
+face snow.111
 x 1
 y 29
-elevation 3100
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 1
+y 29
+elevation 3812
+end
+arch icecave4
+x 1
+y 29
+end
+arch flagstone
+face snow.111
 x 1
 y 30
-elevation 3932
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 1
+y 30
+elevation 3812
+end
+arch deep_sea
 x 1
 y 31
-elevation 4845
+elevation -10054
 end
-arch mountain
+arch deep_sea
 x 1
 y 32
-elevation 5144
+elevation -10006
 end
-arch mountain
+arch deep_sea
 x 1
 y 33
-elevation 5073
+elevation -9942
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 34
-elevation 4671
+elevation -9866
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 35
-elevation 4404
+elevation -9786
 end
-arch steppe
+arch deep_sea
 x 1
 y 36
-elevation 4200
+elevation -9705
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 37
-elevation 4013
+elevation -9630
 end
-arch steppe
+arch deep_sea
 x 1
 y 38
-elevation 3154
+elevation -9565
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 39
-elevation 4227
+elevation -9513
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 40
-elevation 4468
+elevation -9478
 end
-arch hills_rocky
+arch deep_sea
 x 1
 y 41
-elevation 4816
+elevation -9461
 end
-arch mountain
+arch deep_sea
 x 1
 y 42
-elevation 5875
+elevation -9465
 end
-arch mountain
+arch deep_sea
 x 1
 y 43
-elevation 8414
+elevation -9488
 end
-arch mountain2
+arch deep_sea
 x 1
 y 44
-elevation 10354
+elevation -9531
 end
-arch mountain2
+arch deep_sea
 x 1
 y 45
-elevation 11152
+elevation -9591
 end
-arch mountain2
+arch deep_sea
 x 1
 y 46
-elevation 11118
+elevation -9667
 end
-arch mountain2
+arch deep_sea
 x 1
 y 47
-elevation 10401
+elevation -9757
 end
-arch mountain
+arch deep_sea
 x 1
 y 48
-elevation 8280
+elevation -9859
 end
-arch mountain2
+arch deep_sea
 x 1
 y 49
-elevation 9003
+elevation -9968
 end
 arch mountain
 x 2
@@ -600,110 +644,132 @@ x 2
 y 28
 elevation 6541
 end
-arch mountain
+arch dun0
+x 2
+y 28
+end
+arch flagstone
+face snow.111
 x 2
 y 29
-elevation 5701
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 2
+y 29
+elevation 3812
+end
+arch icecave4
+x 2
+y 29
+end
+arch flagstone
+face snow.111
 x 2
 y 30
-elevation 4849
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 2
+y 30
+elevation 3812
+end
+arch deep_sea
 x 2
 y 31
-elevation 4603
+elevation -9988
 end
-arch steppe
+arch deep_sea
 x 2
 y 32
-elevation 4663
+elevation -9946
 end
-arch hills_rocky
+arch deep_sea
 x 2
 y 33
-elevation 3021
+elevation -9887
 end
-arch steppe
+arch deep_sea
 x 2
 y 34
-elevation 4514
+elevation -9818
 end
-arch steppe
+arch deep_sea
 x 2
 y 35
-elevation 4409
+elevation -9744
 end
-arch steppe
+arch deep_sea
 x 2
 y 36
-elevation 4260
+elevation -9671
 end
-arch steppe
+arch deep_sea
 x 2
 y 37
-elevation 4251
+elevation -9603
 end
-arch steppe
+arch deep_sea
 x 2
 y 38
-elevation 4588
+elevation -9546
 end
-arch steppe
+arch deep_sea
 x 2
 y 39
-elevation 4825
+elevation -9503
 end
-arch hills_rocky
+arch deep_sea
 x 2
 y 40
-elevation 4823
+elevation -9477
 end
-arch steppe
+arch deep_sea
 x 2
 y 41
-elevation 4350
+elevation -9470
 end
-arch woods
+arch deep_sea
 x 2
 y 42
-elevation 2973
+elevation -9484
 end
-arch mountain
+arch deep_sea
 x 2
 y 43
-elevation 7201
+elevation -9518
 end
-arch mountain2
+arch deep_sea
 x 2
 y 44
-elevation 9587
+elevation -9572
 end
-arch mountain2
+arch deep_sea
 x 2
 y 45
-elevation 10458
+elevation -9645
 end
-arch mountain2
+arch deep_sea
 x 2
 y 46
-elevation 10495
+elevation -9734
 end
-arch mountain2
+arch deep_sea
 x 2
 y 47
-elevation 9925
+elevation -9837
 end
-arch mountain2
+arch deep_sea
 x 2
 y 48
-elevation 9235
+elevation -9952
 end
-arch mountain
+arch deep_sea
 x 2
 y 49
-elevation 7908
+elevation -10075
 end
 arch mountain
 x 3
@@ -849,110 +915,132 @@ x 3
 y 28
 elevation 7066
 end
-arch mountain
+arch dun0
+x 3
+y 28
+end
+arch flagstone
+face snow.111
 x 3
 y 29
-elevation 6324
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 3
+y 29
+elevation 3812
+end
+arch icecave4
+x 3
+y 29
+end
+arch flagstone
+face snow.111
 x 3
 y 30
-elevation 5277
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 3
+y 30
+elevation 3812
+end
+arch deep_sea
 x 3
 y 31
-elevation 4443
+elevation -9900
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 32
-elevation 4242
+elevation -9863
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 33
-elevation 4231
+elevation -9811
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 34
-elevation 4281
+elevation -9748
 end
-arch steppe
+arch deep_sea
 x 3
 y 35
-elevation 4244
+elevation -9681
 end
-arch steppe
+arch deep_sea
 x 3
 y 36
-elevation 3066
+elevation -9615
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 37
-elevation 3973
+elevation -9555
 end
-arch steppe
+arch deep_sea
 x 3
 y 38
-elevation 4776
+elevation -9506
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 39
-elevation 4992
+elevation -9471
 end
-arch hills_rocky
+arch deep_sea
 x 3
 y 40
-elevation 4741
+elevation -9454
 end
-arch steppe
+arch deep_sea
 x 3
 y 41
-elevation 4111
+elevation -9457
 end
-arch woods
+arch deep_sea
 x 3
 y 42
-elevation 2269
+elevation -9481
 end
-arch mountain
+arch deep_sea
 x 3
 y 43
-elevation 6450
+elevation -9526
 end
-arch mountain
+arch deep_sea
 x 3
 y 44
-elevation 8639
+elevation -9591
 end
-arch mountain2
+arch deep_sea
 x 3
 y 45
-elevation 9576
+elevation -9675
 end
-arch mountain
+arch deep_sea
 x 3
 y 46
-elevation 8673
+elevation -9776
 end
-arch mountain2
+arch deep_sea
 x 3
 y 47
-elevation 9363
+elevation -9892
 end
-arch mountain
+arch deep_sea
 x 3
 y 48
-elevation 8726
+elevation -10019
 end
-arch mountain
+arch deep_sea
 x 3
 y 49
-elevation 7841
+elevation -10155
 end
 arch mountain
 x 4
@@ -1098,110 +1186,132 @@ x 4
 y 28
 elevation 7071
 end
-arch mountain
+arch dun0
+x 4
+y 28
+end
+arch flagstone
+face snow.111
 x 4
 y 29
-elevation 6159
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 4
+y 29
+elevation 3812
+end
+arch icecave4
+x 4
+y 29
+end
+arch flagstone
+face snow.111
 x 4
 y 30
-elevation 5349
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 4
+y 30
+elevation 3812
+end
+arch deep_sea
 x 4
 y 31
-elevation 4086
+elevation -9795
 end
-arch steppe
+arch deep_sea
 x 4
 y 32
-elevation 4098
+elevation -9763
 end
-arch steppe
+arch deep_sea
 x 4
 y 33
-elevation 4008
+elevation -9717
 end
-arch steppe
+arch deep_sea
 x 4
 y 34
-elevation 3955
+elevation -9661
 end
-arch steppe
+arch deep_sea
 x 4
 y 35
-elevation 3705
+elevation -9601
 end
-arch steppe
+arch deep_sea
 x 4
 y 36
-elevation 3588
+elevation -9542
 end
-arch steppe
+arch deep_sea
 x 4
 y 37
-elevation 3980
+elevation -9490
 end
-arch steppe
+arch deep_sea
 x 4
 y 38
-elevation 4499
+elevation -9449
 end
-arch steppe
+arch deep_sea
 x 4
 y 39
-elevation 4591
+elevation -9423
 end
-arch steppe
+arch deep_sea
 x 4
 y 40
-elevation 4544
+elevation -9415
 end
-arch steppe
+arch deep_sea
 x 4
 y 41
-elevation 4466
+elevation -9427
 end
-arch mountain
+arch deep_sea
 x 4
 y 42
-elevation 5118
+elevation -9461
 end
-arch mountain
+arch deep_sea
 x 4
 y 43
-elevation 5964
+elevation -9516
 end
-arch mountain
+arch deep_sea
 x 4
 y 44
-elevation 7984
+elevation -9592
 end
-arch mountain
+arch deep_sea
 x 4
 y 45
-elevation 8845
+elevation -9687
 end
-arch mountain2
+arch deep_sea
 x 4
 y 46
-elevation 9064
+elevation -9800
 end
-arch mountain
+arch deep_sea
 x 4
 y 47
-elevation 8707
+elevation -9927
 end
-arch mountain
+arch deep_sea
 x 4
 y 48
-elevation 7100
+elevation -10066
 end
-arch mountain
+arch deep_sea
 x 4
 y 49
-elevation 6796
+elevation -10214
 end
 arch mountain
 x 5
@@ -1347,110 +1457,153 @@ x 5
 y 28
 elevation 6825
 end
-arch mountain
+arch dun0
+x 5
+y 28
+end
+arch flagstone
+face snow.111
 x 5
 y 29
-elevation 6241
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 5
+y 29
+elevation 3812
+end
+arch icecave4
+x 5
+y 29
+end
+arch flagstone
+face snow.111
 x 5
 y 30
-elevation 5700
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 5
+y 30
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 5
 y 31
-elevation 4993
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
+x 5
+y 31
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 5
 y 32
-elevation 2880
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
+x 5
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 5
 y 33
-elevation 2983
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 5
+y 33
+elevation 3812
+end
+arch deep_sea
 x 5
 y 34
-elevation 3742
+elevation -9510
 end
-arch woods
+arch deep_sea
 x 5
 y 35
-elevation 2045
+elevation -9510
 end
-arch woods
+arch deep_sea
 x 5
 y 36
-elevation 2651
+elevation -9459
 end
-arch steppe
+arch deep_sea
 x 5
 y 37
-elevation 3743
+elevation -9415
 end
-arch steppe
+arch deep_sea
 x 5
 y 38
-elevation 4048
+elevation -9382
 end
-arch steppe
+arch deep_sea
 x 5
 y 39
-elevation 3995
+elevation -9365
 end
-arch steppe
+arch deep_sea
 x 5
 y 40
-elevation 3354
+elevation -9366
 end
-arch steppe
+arch deep_sea
 x 5
 y 41
-elevation 4620
+elevation -9387
 end
-arch mountain
+arch deep_sea
 x 5
 y 42
-elevation 5550
+elevation -9430
 end
-arch mountain
+arch deep_sea
 x 5
 y 43
-elevation 6312
+elevation -9495
 end
-arch mountain
+arch deep_sea
 x 5
 y 44
-elevation 7604
+elevation -9581
 end
-arch mountain
+arch deep_sea
 x 5
 y 45
-elevation 8274
+elevation -9687
 end
-arch mountain
+arch deep_sea
 x 5
 y 46
-elevation 8386
+elevation -9810
 end
-arch mountain
+arch deep_sea
 x 5
 y 47
-elevation 8000
+elevation -9948
 end
-arch mountain
+arch deep_sea
 x 5
 y 48
-elevation 7317
+elevation -10097
 end
-arch mountain
+arch deep_sea
 x 5
 y 49
-elevation 5766
+elevation -10256
 end
 arch mountain
 x 6
@@ -1596,110 +1749,172 @@ x 6
 y 28
 elevation 5479
 end
-arch mountain
+arch dun0
+x 6
+y 28
+end
+arch flagstone
+face snow.111
 x 6
 y 29
-elevation 5895
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 6
+y 29
+elevation 3812
+end
+arch icecave4
+x 6
+y 29
+end
+arch flagstone
+face snow.111
 x 6
 y 30
-elevation 5835
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 6
+y 30
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 6
 y 31
-elevation 5599
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 6
+y 31
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 6
 y 32
-elevation 5078
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 6
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
+x 6
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
+x 6
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 6
 y 33
-elevation 4508
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 6
+y 33
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 6
 y 34
-elevation 3922
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 6
+y 34
+elevation 3812
+end
+arch deep_sea
 x 6
 y 35
-elevation 3252
+elevation -9415
 end
-arch steppe
+arch deep_sea
 x 6
 y 36
-elevation 3195
+elevation -9373
 end
-arch steppe
+arch deep_sea
 x 6
 y 37
-elevation 3150
+elevation -9337
 end
-arch steppe
+arch deep_sea
 x 6
 y 38
-elevation 3459
+elevation -9313
 end
-arch steppe
+arch deep_sea
 x 6
 y 39
-elevation 3371
+elevation -9305
 end
-arch woods
+arch deep_sea
 x 6
 y 40
-elevation 2830
+elevation -9314
 end
-arch steppe
+arch deep_sea
 x 6
 y 41
-elevation 4180
+elevation -9345
 end
-arch mountain
+arch deep_sea
 x 6
 y 42
-elevation 5549
+elevation -9397
 end
-arch mountain
+arch deep_sea
 x 6
 y 43
-elevation 6495
+elevation -9471
 end
-arch mountain
+arch deep_sea
 x 6
 y 44
-elevation 7131
+elevation -9566
 end
-arch mountain
+arch deep_sea
 x 6
 y 45
-elevation 7394
+elevation -9681
 end
-arch mountain
+arch deep_sea
 x 6
 y 46
-elevation 7004
+elevation -9813
 end
-arch mountain
+arch deep_sea
 x 6
 y 47
-elevation 7058
+elevation -9960
 end
-arch mountain
+arch deep_sea
 x 6
 y 48
-elevation 6342
+elevation -10119
 end
-arch mountain
+arch deep_sea
 x 6
 y 49
-elevation 5044
+elevation -10286
 end
 arch mountain
 x 7
@@ -1845,110 +2060,147 @@ x 7
 y 28
 elevation 5603
 end
-arch steppe
+arch dun0
+x 7
+y 28
+end
+arch s_mountain
 x 7
 y 29
-elevation 4713
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 7
 y 30
-elevation 5729
+elevation 3812
 end
-arch mountain
+arch s_mountain
+x 7
+y 30
+elevation 7758
+end
+arch flagstone
+face snow.111
 x 7
 y 31
-elevation 6135
+elevation 3812
 end
-arch mountain
+arch s_mountain
+x 7
+y 31
+elevation 7758
+end
+arch flagstone
+face snow.111
 x 7
 y 32
-elevation 6091
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 7
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 7
 y 33
-elevation 5539
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 7
+y 33
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 7
 y 34
-elevation 4502
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 7
+y 34
+elevation 3812
+end
+arch deep_sea
 x 7
 y 35
-elevation 3352
+elevation -9324
 end
-arch steppe
+arch deep_sea
 x 7
 y 36
-elevation 3303
+elevation -9290
 end
-arch steppe
+arch deep_sea
 x 7
 y 37
-elevation 3410
+elevation -9263
 end
-arch woods
+arch deep_sea
 x 7
 y 38
-elevation 2871
+elevation -9248
 end
-arch woods
+arch deep_sea
 x 7
 y 39
-elevation 2284
+elevation -9248
 end
-arch steppe
+arch deep_sea
 x 7
 y 40
-elevation 3462
+elevation -9267
 end
-arch steppe
+arch deep_sea
 x 7
 y 41
-elevation 4248
+elevation -9306
 end
-arch mountain
+arch deep_sea
 x 7
 y 42
-elevation 5311
+elevation -9366
 end
-arch mountain
+arch deep_sea
 x 7
 y 43
-elevation 6071
+elevation -9448
 end
-arch mountain
+arch deep_sea
 x 7
 y 44
-elevation 5970
+elevation -9552
 end
-arch mountain
+arch deep_sea
 x 7
 y 45
-elevation 6532
+elevation -9675
 end
-arch mountain
+arch deep_sea
 x 7
 y 46
-elevation 6180
+elevation -9815
 end
-arch mountain
+arch deep_sea
 x 7
 y 47
-elevation 5694
+elevation -9970
 end
-arch mountain
+arch deep_sea
 x 7
 y 48
-elevation 5183
+elevation -10136
 end
-arch hills_rocky
+arch deep_sea
 x 7
 y 49
-elevation 3045
+elevation -10311
 end
 arch mountain
 x 8
@@ -2094,110 +2346,147 @@ x 8
 y 28
 elevation 5228
 end
-arch steppe
+arch dun0
+x 8
+y 28
+end
+arch s_mountain
 x 8
 y 29
-elevation 4486
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 8
 y 30
-elevation 5293
+elevation 3812
 end
-arch mountain
+arch mountain5
+x 8
+y 30
+elevation 20619
+end
+arch flagstone
+face snow.111
 x 8
 y 31
-elevation 6234
+elevation 3812
 end
-arch mountain
+arch s_mountain
+x 8
+y 31
+elevation 7758
+end
+arch flagstone
+face snow.111
 x 8
 y 32
-elevation 6535
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 8
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 8
 y 33
-elevation 6001
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 8
+y 33
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 8
 y 34
-elevation 4911
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
+x 8
+y 34
+elevation 3812
+end
+arch deep_sea
 x 8
 y 35
-elevation 2736
+elevation -9243
 end
-arch woods
+arch deep_sea
 x 8
 y 36
-elevation 2625
+elevation -9218
 end
-arch steppe
+arch deep_sea
 x 8
 y 37
-elevation 3885
+elevation -9200
 end
-arch steppe
+arch deep_sea
 x 8
 y 38
-elevation 3960
+elevation -9194
 end
-arch steppe
+arch deep_sea
 x 8
 y 39
-elevation 3685
+elevation -9204
 end
-arch steppe
+arch deep_sea
 x 8
 y 40
-elevation 3832
+elevation -9231
 end
-arch steppe
+arch deep_sea
 x 8
 y 41
-elevation 3137
+elevation -9278
 end
-arch mountain
+arch deep_sea
 x 8
 y 42
-elevation 5823
+elevation -9346
 end
-arch mountain
+arch deep_sea
 x 8
 y 43
-elevation 5696
+elevation -9436
 end
-arch steppe
+arch deep_sea
 x 8
 y 44
-elevation 4685
+elevation -9546
 end
-arch mountain
+arch deep_sea
 x 8
 y 45
-elevation 6425
+elevation -9676
 end
-arch mountain
+arch deep_sea
 x 8
 y 46
-elevation 6260
+elevation -9823
 end
-arch mountain
+arch deep_sea
 x 8
 y 47
-elevation 5250
+elevation -9984
 end
-arch steppe
+arch deep_sea
 x 8
 y 48
-elevation 4438
+elevation -10156
 end
-arch steppe
+arch deep_sea
 x 8
 y 49
-elevation 3020
+elevation -10336
 end
 arch mountain
 x 9
@@ -2343,110 +2632,149 @@ x 9
 y 28
 elevation 5388
 end
-arch woods
+arch dun0
+x 9
+y 28
+end
+arch s_mountain
 x 9
 y 29
-elevation 2519
+elevation 7758
 end
-arch steppe
+arch flagstone
+face snow.111
 x 9
 y 30
-elevation 4721
+elevation 3812
 end
-arch mountain
+arch s_mountain
+x 9
+y 30
+elevation 7758
+end
+arch flagstone
+face snow.111
 x 9
 y 31
-elevation 6137
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 9
+y 31
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 9
 y 32
-elevation 6323
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
+x 9
+y 32
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 9
 y 33
-elevation 5788
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 9
+y 33
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 9
 y 34
-elevation 4950
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
+x 9
+y 34
+elevation 3812
+end
+arch flagstone
+face snow.111
 x 9
 y 35
-elevation 4418
+elevation 3812
 end
-arch steppe
+arch deep_sea
 x 9
 y 36
-elevation 4366
+elevation -9164
 end
-arch steppe
+arch deep_sea
 x 9
 y 37
-elevation 4552
+elevation -9156
 end
-arch steppe
+arch deep_sea
 x 9
 y 38
-elevation 4757
+elevation -9159
 end
-arch steppe
+arch deep_sea
 x 9
 y 39
-elevation 4940
+elevation -9177
 end
-arch mountain
+arch deep_sea
 x 9
 y 40
-elevation 5340
+elevation -9213
 end
-arch mountain
+arch deep_sea
 x 9
 y 41
-elevation 6328
+elevation -9267
 end
-arch mountain
+arch deep_sea
 x 9
 y 42
-elevation 7129
+elevation -9343
 end
-arch mountain
+arch deep_sea
 x 9
 y 43
-elevation 7441
+elevation -9439
 end
-arch mountain
+arch deep_sea
 x 9
 y 44
-elevation 7175
+elevation -9555
 end
-arch mountain
+arch deep_sea
 x 9
 y 45
-elevation 6661
+elevation -9690
 end
-arch mountain
+arch deep_sea
 x 9
 y 46
-elevation 6202
+elevation -9842
 end
-arch mountain
+arch deep_sea
 x 9
 y 47
-elevation 5419
+elevation -10007
 end
-arch steppe
+arch deep_sea
 x 9
 y 48
-elevation 4211
+elevation -10183
 end
-arch steppe
+arch deep_sea
 x 9
 y 49
-elevation 3588
+elevation -10366
 end
 arch steppe
 x 10
@@ -2592,110 +2920,126 @@ x 10
 y 28
 elevation 6142
 end
-arch mountain
+arch dun0
+x 10
+y 28
+end
+arch flagstone
+face snow.111
 x 10
 y 29
-elevation 5410
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 10
+y 29
+end
+arch flagstone
+face snow.111
 x 10
 y 30
-elevation 5796
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 10
 y 31
-elevation 5911
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 10
 y 32
-elevation 5395
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 10
 y 33
-elevation 4729
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 10
 y 34
-elevation 4321
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 10
 y 35
-elevation 4688
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 10
 y 36
-elevation 5076
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 10
 y 37
-elevation 5166
+elevation -9136
 end
-arch steppe
+arch deep_sea
 x 10
 y 38
-elevation 4813
+elevation -9149
 end
-arch mountain
+arch deep_sea
 x 10
 y 39
-elevation 5342
+elevation -9176
 end
-arch mountain
+arch deep_sea
 x 10
 y 40
-elevation 6118
+elevation -9219
 end
-arch mountain
+arch deep_sea
 x 10
 y 41
-elevation 7226
+elevation -9281
 end
-arch mountain
+arch deep_sea
 x 10
 y 42
-elevation 8336
+elevation -9363
 end
-arch mountain
+arch deep_sea
 x 10
 y 43
-elevation 8614
+elevation -9464
 end
-arch mountain
+arch deep_sea
 x 10
 y 44
-elevation 7729
+elevation -9585
 end
-arch mountain
+arch deep_sea
 x 10
 y 45
-elevation 6443
+elevation -9724
 end
-arch mountain
+arch deep_sea
 x 10
 y 46
-elevation 5567
+elevation -9878
 end
-arch mountain
+arch deep_sea
 x 10
 y 47
-elevation 5105
+elevation -10046
 end
-arch steppe
+arch deep_sea
 x 10
 y 48
-elevation 4590
+elevation -10223
 end
-arch hills
+arch deep_sea
 x 10
 y 49
-elevation 3829
+elevation -10407
 end
 arch hills_rocky
 x 11
@@ -2841,110 +3185,127 @@ x 11
 y 28
 elevation 7397
 end
-arch mountain
+arch dun0
+x 11
+y 28
+end
+arch flagstone
+face snow.111
 x 11
 y 29
-elevation 7267
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 11
+y 29
+end
+arch flagstone
+face snow.111
 x 11
 y 30
-elevation 6867
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 11
 y 31
-elevation 5761
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 11
 y 32
-elevation 3856
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 11
 y 33
-elevation 2420
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 11
 y 34
-elevation 3064
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 11
 y 35
-elevation 4221
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 11
 y 36
-elevation 4978
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 11
 y 37
-elevation 5169
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 11
 y 38
-elevation 5046
+elevation -9170
 end
-arch mountain
+arch deep_sea
 x 11
 y 39
-elevation 5142
+elevation -9205
 end
-arch mountain
+arch deep_sea
 x 11
 y 40
-elevation 5259
+elevation -9256
 end
-arch mountain
+arch deep_sea
 x 11
 y 41
-elevation 6579
+elevation -9324
 end
-arch mountain
+arch deep_sea
 x 11
 y 42
-elevation 7726
+elevation -9411
 end
-arch mountain
+arch deep_sea
 x 11
 y 43
-elevation 8143
+elevation -9517
 end
-arch mountain
+arch deep_sea
 x 11
 y 44
-elevation 7433
+elevation -9641
 end
-arch steppe
+arch deep_sea
 x 11
 y 45
-elevation 4705
+elevation -9781
 end
-arch steppe
+arch deep_sea
 x 11
 y 46
-elevation 3792
+elevation -9937
 end
-arch steppe
+arch deep_sea
 x 11
 y 47
-elevation 4725
+elevation -10104
 end
-arch steppe
+arch deep_sea
 x 11
 y 48
-elevation 4593
+elevation -10281
 end
-arch hills
+arch deep_sea
 x 11
 y 49
-elevation 3913
+elevation -10463
 end
 arch steppe
 x 12
@@ -3090,110 +3451,126 @@ x 12
 y 28
 elevation 8190
 end
-arch mountain
+arch dun0
+x 12
+y 28
+end
+arch flagstone
+face snow.111
 x 12
 y 29
-elevation 8204
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 12
+y 29
+end
+arch flagstone
+face snow.111
 x 12
 y 30
-elevation 7720
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 12
 y 31
-elevation 6699
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 12
 y 32
-elevation 5122
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 12
 y 33
-elevation 3849
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 12
 y 34
-elevation 2489
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 12
 y 35
-elevation 2985
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 12
 y 36
-elevation 4547
+elevation 3812
 end
-arch steppe
+arch mountain5
 x 12
 y 37
-elevation 4938
+elevation 20619
 end
-arch steppe
+arch mountain5
 x 12
 y 38
-elevation 3904
+elevation 20619
 end
-arch steppe
+arch deep_sea
 x 12
 y 39
-elevation 4605
+elevation -9269
 end
-arch mountain
+arch deep_sea
 x 12
 y 40
-elevation 5018
+elevation -9327
 end
-arch mountain
+arch deep_sea
 x 12
 y 41
-elevation 5437
+elevation -9401
 end
-arch steppe
+arch deep_sea
 x 12
 y 42
-elevation 4905
+elevation -9492
 end
-arch mountain
+arch deep_sea
 x 12
 y 43
-elevation 6526
+elevation -9601
 end
-arch mountain
+arch deep_sea
 x 12
 y 44
-elevation 6707
+elevation -9726
 end
-arch mountain
+arch deep_sea
 x 12
 y 45
-elevation 5770
+elevation -9867
 end
-arch steppe
+arch deep_sea
 x 12
 y 46
-elevation 4104
+elevation -10021
 end
-arch steppe
+arch deep_sea
 x 12
 y 47
-elevation 4420
+elevation -10186
 end
-arch hills_rocky
+arch deep_sea
 x 12
 y 48
-elevation 4337
+elevation -10359
 end
-arch hills
+arch deep_sea
 x 12
 y 49
-elevation 3934
+elevation -10538
 end
 arch steppe
 x 13
@@ -3339,110 +3716,126 @@ x 13
 y 28
 elevation 8412
 end
-arch mountain
+arch dun0
+x 13
+y 28
+end
+arch flagstone
+face snow.111
 x 13
 y 29
-elevation 8712
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 13
+y 29
+end
+arch flagstone
+face snow.111
 x 13
 y 30
-elevation 8312
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 13
 y 31
-elevation 7275
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 13
 y 32
-elevation 5860
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 13
 y 33
-elevation 4499
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 13
 y 34
-elevation 2950
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 13
 y 35
-elevation 3289
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 13
 y 36
-elevation 4462
+elevation 3812
 end
-arch steppe
+arch mountain5
 x 13
 y 37
-elevation 4704
+elevation 20619
 end
-arch steppe
+arch mountain5
 x 13
 y 38
-elevation 4230
+elevation 20619
 end
-arch woods
+arch deep_sea
 x 13
 y 39
-elevation 2757
+elevation -9373
 end
-arch steppe
+arch deep_sea
 x 13
 y 40
-elevation 4447
+elevation -9437
 end
-arch steppe
+arch deep_sea
 x 13
 y 41
-elevation 4532
+elevation -9516
 end
-arch steppe
+arch deep_sea
 x 13
 y 42
-elevation 3083
+elevation -9610
 end
-arch mountain
+arch deep_sea
 x 13
 y 43
-elevation 5160
+elevation -9720
 end
-arch mountain
+arch deep_sea
 x 13
 y 44
-elevation 6122
+elevation -9844
 end
-arch mountain
+arch deep_sea
 x 13
 y 45
-elevation 5929
+elevation -9983
 end
-arch steppe
+arch deep_sea
 x 13
 y 46
-elevation 4853
+elevation -10134
 end
-arch steppe
+arch deep_sea
 x 13
 y 47
-elevation 3799
+elevation -10295
 end
-arch steppe
+arch deep_sea
 x 13
 y 48
-elevation 3659
+elevation -10462
 end
-arch hills_rocky
+arch deep_sea
 x 13
 y 49
-elevation 3763
+elevation -10634
 end
 arch evergreens
 x 14
@@ -3588,110 +3981,128 @@ x 14
 y 28
 elevation 8575
 end
-arch mountain2
+arch dun0
+x 14
+y 28
+end
+arch flagstone
+face snow.111
 x 14
 y 29
-elevation 9012
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 14
+y 29
+end
+arch flagstone
+face snow.111
 x 14
 y 30
-elevation 8609
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 14
 y 31
-elevation 7196
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 14
 y 32
-elevation 5767
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 33
-elevation 4742
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 34
-elevation 4332
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 35
-elevation 4345
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 36
-elevation 4624
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 37
-elevation 4483
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 14
 y 38
-elevation 3977
+elevation 3812
 end
-arch steppe
+arch deep_sea
 x 14
 y 39
-elevation 3802
+elevation -9518
 end
-arch steppe
+arch deep_sea
 x 14
 y 40
-elevation 3898
+elevation -9588
 end
-arch steppe
+arch deep_sea
 x 14
 y 41
-elevation 3999
+elevation -9670
 end
-arch steppe
+arch deep_sea
 x 14
 y 42
-elevation 3886
+elevation -9766
 end
-arch steppe
+arch deep_sea
 x 14
 y 43
-elevation 3913
+elevation -9876
 end
-arch mountain
+arch deep_sea
 x 14
 y 44
-elevation 5581
+elevation -9998
 end
-arch mountain
+arch deep_sea
 x 14
 y 45
-elevation 5485
+elevation -10133
 end
-arch steppe
+arch deep_sea
 x 14
 y 46
-elevation 4450
+elevation -10278
 end
-arch woods
+arch deep_sea
 x 14
 y 47
-elevation 2613
+elevation -10432
 end
-arch woods_3
+arch deep_sea
 x 14
 y 48
-elevation 2603
+elevation -10591
 end
-arch evergreen
+arch deep_sea
 x 14
 y 49
-elevation 2719
+elevation -10753
 end
 arch steppe
 x 15
@@ -3837,110 +4248,128 @@ x 15
 y 28
 elevation 8774
 end
-arch mountain2
+arch dun0
+x 15
+y 28
+end
+arch flagstone
+face snow.111
 x 15
 y 29
-elevation 9176
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 15
+y 29
+end
+arch flagstone
+face snow.111
 x 15
 y 30
-elevation 8739
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 15
 y 31
-elevation 7400
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 32
-elevation 4579
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 15
 y 33
-elevation 5075
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 34
-elevation 3809
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 35
-elevation 4751
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 36
-elevation 4724
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 37
-elevation 3862
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 15
 y 38
-elevation 3118
+elevation 3812
 end
-arch steppe
+arch deep_sea
 x 15
 y 39
-elevation 3653
+elevation -9706
 end
-arch steppe
+arch deep_sea
 x 15
 y 40
-elevation 3584
+elevation -9781
 end
-arch steppe
+arch deep_sea
 x 15
 y 41
-elevation 3544
+elevation -9866
 end
-arch steppe
+arch deep_sea
 x 15
 y 42
-elevation 3978
+elevation -9962
 end
-arch steppe
+arch deep_sea
 x 15
 y 43
-elevation 4493
+elevation -10069
 end
-arch steppe
+arch deep_sea
 x 15
 y 44
-elevation 4945
+elevation -10188
 end
-arch steppe
+arch deep_sea
 x 15
 y 45
-elevation 4447
+elevation -10317
 end
-arch woods
+arch deep_sea
 x 15
 y 46
-elevation 2764
+elevation -10454
 end
-arch steppe
+arch deep_sea
 x 15
 y 47
-elevation 3105
+elevation -10598
 end
-arch steppe
+arch deep_sea
 x 15
 y 48
-elevation 3260
+elevation -10746
 end
-arch steppe
+arch deep_sea
 x 15
 y 49
-elevation 3574
+elevation -10896
 end
 arch steppe
 x 16
@@ -4086,110 +4515,125 @@ x 16
 y 28
 elevation 9297
 end
-arch mountain2
+arch dun0
+x 16
+y 28
+end
+arch flagstone
+face snow.111
 x 16
 y 29
-elevation 9275
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 16
+y 29
+end
+arch flagstone
+face snow.111
 x 16
 y 30
-elevation 8711
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 16
 y 31
-elevation 7451
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 16
 y 32
-elevation 6227
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 16
 y 33
-elevation 5136
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 16
 y 34
-elevation 4795
+elevation 7758
 end
-arch steppe
+arch flagstone
+face snow.111
 x 16
 y 35
-elevation 4711
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 16
 y 36
-elevation 4653
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 16
 y 37
-elevation 4122
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 16
 y 38
-elevation 4027
+elevation 3812
 end
-arch steppe
+arch deep_sea
 x 16
 y 39
-elevation 3617
+elevation -9937
 end
-arch woods
+arch deep_sea
 x 16
 y 40
-elevation 2248
+elevation -10015
 end
-arch steppe
+arch deep_sea
 x 16
 y 41
-elevation 3176
+elevation -10102
 end
-arch steppe
+arch deep_sea
 x 16
 y 42
-elevation 3035
+elevation -10197
 end
-arch steppe
+arch deep_sea
 x 16
 y 43
-elevation 4413
+elevation -10301
 end
-arch steppe
+arch deep_sea
 x 16
 y 44
-elevation 3910
+elevation -10413
 end
-arch steppe
+arch deep_sea
 x 16
 y 45
-elevation 3809
+elevation -10534
 end
-arch woods
+arch deep_sea
 x 16
 y 46
-elevation 1589
+elevation -10661
 end
-arch steppe
+arch deep_sea
 x 16
 y 47
-elevation 3086
+elevation -10793
 end
-arch steppe
+arch deep_sea
 x 16
 y 48
-elevation 3487
+elevation -10928
 end
-arch hills_rocky
+arch deep_sea
 x 16
 y 49
-elevation 3514
+elevation -11063
 end
 arch steppe
 x 17
@@ -4335,110 +4779,128 @@ x 17
 y 28
 elevation 9657
 end
-arch mountain2
+arch dun0
+x 17
+y 28
+end
+arch flagstone
+face snow.111
 x 17
 y 29
-elevation 9198
+elevation 3812
 end
-arch mountain
+arch stair_up_1
+slaying above_108_112
+hp 17
+sp 28
+x 17
+y 29
+end
+arch flagstone
+face snow.111
 x 17
 y 30
-elevation 8182
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 17
 y 31
-elevation 7232
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 17
 y 32
-elevation 6204
+elevation 7758
 end
-arch steppe
+arch mountain5
 x 17
 y 33
-elevation 4958
+elevation 20619
 end
-arch steppe
+arch s_mountain
 x 17
 y 34
-elevation 4081
+elevation 7758
 end
-arch steppe
+arch flagstone
+face snow.111
 x 17
 y 35
-elevation 4566
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 17
 y 36
-elevation 4726
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 17
 y 37
-elevation 4557
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 17
 y 38
-elevation 4147
+elevation 3812
 end
-arch steppe
+arch deep_sea
 x 17
 y 39
-elevation 3627
+elevation -10209
 end
-arch steppe
+arch deep_sea
 x 17
 y 40
-elevation 3137
+elevation -10290
 end
-arch steppe
+arch deep_sea
 x 17
 y 41
-elevation 3021
+elevation -10376
 end
-arch steppe
+arch deep_sea
 x 17
 y 42
-elevation 3545
+elevation -10469
 end
-arch steppe
+arch deep_sea
 x 17
 y 43
-elevation 4326
+elevation -10568
 end
-arch steppe
+arch deep_sea
 x 17
 y 44
-elevation 4474
+elevation -10673
 end
-arch steppe
+arch deep_sea
 x 17
 y 45
-elevation 3686
+elevation -10783
 end
-arch woods
+arch deep_sea
 x 17
 y 46
-elevation 2634
+elevation -10898
 end
-arch hills_rocky
+arch deep_sea
 x 17
 y 47
-elevation 3487
+elevation -11016
 end
-arch steppe
+arch deep_sea
 x 17
 y 48
-elevation 3705
+elevation -11135
 end
-arch woods
+arch deep_sea
 x 17
 y 49
-elevation 2169
+elevation -11253
 end
 arch steppe
 x 18
@@ -4584,110 +5046,129 @@ x 18
 y 28
 elevation 9188
 end
-arch mountain
+arch dun0
+x 18
+y 28
+end
+arch flagstone
+face snow.111
 x 18
 y 29
-elevation 8853
+elevation 3812
 end
-arch mountain
+arch stair_up_1
+slaying above_108_112
+hp 18
+sp 28
+x 18
+y 29
+end
+arch flagstone
+face snow.111
 x 18
 y 30
-elevation 6678
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 18
 y 31
-elevation 6755
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 18
 y 32
-elevation 5494
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 18
 y 33
-elevation 4177
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 18
 y 34
-elevation 3267
+elevation 7758
 end
-arch steppe
+arch flagstone
+face snow.111
 x 18
 y 35
-elevation 4134
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 18
 y 36
-elevation 4535
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 18
 y 37
-elevation 4245
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 18
 y 38
-elevation 3775
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 18
 y 39
-elevation 3342
+elevation 3812
 end
-arch woods
+arch deep_sea
 x 18
 y 40
-elevation 2990
+elevation -10602
 end
-arch woods
+arch deep_sea
 x 18
 y 41
-elevation 1948
+elevation -10687
 end
-arch steppe
+arch deep_sea
 x 18
 y 42
-elevation 3388
+elevation -10775
 end
-arch steppe
+arch deep_sea
 x 18
 y 43
-elevation 4216
+elevation -10867
 end
-arch steppe
+arch deep_sea
 x 18
 y 44
-elevation 4430
+elevation -10963
 end
-arch steppe
+arch deep_sea
 x 18
 y 45
-elevation 3436
+elevation -11061
 end
-arch steppe
+arch deep_sea
 x 18
 y 46
-elevation 3512
+elevation -11162
 end
-arch hills_rocky
+arch deep_sea
 x 18
 y 47
-elevation 3951
+elevation -11264
 end
-arch steppe
+arch deep_sea
 x 18
 y 48
-elevation 3933
+elevation -11364
 end
-arch steppe
+arch deep_sea
 x 18
 y 49
-elevation 3530
+elevation -11463
 end
 arch steppe
 x 19
@@ -4833,110 +5314,129 @@ x 19
 y 28
 elevation 7944
 end
-arch mountain
+arch dun0
+x 19
+y 28
+end
+arch flagstone
+face snow.111
 x 19
 y 29
-elevation 8014
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 19
+y 29
+end
+arch flagstone
+face snow.111
 x 19
 y 30
-elevation 7318
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 19
 y 31
-elevation 5785
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 19
 y 32
-elevation 4285
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 19
 y 33
-elevation 2390
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 19
 y 34
-elevation 1734
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 19
 y 35
-elevation 3772
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 19
 y 36
-elevation 3931
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 19
 y 37
-elevation 3375
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 19
 y 38
-elevation 2876
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 19
 y 39
-elevation 2631
+elevation 3812
 end
-arch woods
+arch deep_sea
 x 19
 y 40
-elevation 2349
+elevation -10948
 end
-arch woods
+arch deep_sea
 x 19
 y 41
-elevation 2248
+elevation -11030
 end
-arch woods
+arch deep_sea
 x 19
 y 42
-elevation 2484
+elevation -11113
 end
-arch steppe
+arch deep_sea
 x 19
 y 43
-elevation 3604
+elevation -11196
 end
-arch steppe
+arch deep_sea
 x 19
 y 44
-elevation 4032
+elevation -11280
 end
-arch steppe
+arch deep_sea
 x 19
 y 45
-elevation 4098
+elevation -11365
 end
-arch steppe
+arch deep_sea
 x 19
 y 46
-elevation 3936
+elevation -11450
 end
-arch steppe
+arch deep_sea
 x 19
 y 47
-elevation 3935
+elevation -11533
 end
-arch steppe
+arch deep_sea
 x 19
 y 48
-elevation 3941
+elevation -11614
 end
-arch steppe
+arch deep_sea
 x 19
 y 49
-elevation 3920
+elevation -11692
 end
 arch steppe
 x 20
@@ -5082,110 +5582,129 @@ x 20
 y 28
 elevation 6374
 end
-arch mountain
+arch dun0
+x 20
+y 28
+end
+arch flagstone
+face snow.111
 x 20
 y 29
-elevation 6973
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 20
+y 29
+end
+arch flagstone
+face snow.111
 x 20
 y 30
-elevation 6825
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 20
 y 31
-elevation 4077
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 20
 y 32
-elevation 1605
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 20
 y 33
-elevation 2468
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 20
 y 34
-elevation 3013
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 20
 y 35
-elevation 3577
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 20
 y 36
-elevation 3342
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 20
 y 37
-elevation 1897
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 20
 y 38
-elevation 1067
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 20
 y 39
-elevation 1594
+elevation 3812
 end
-arch woods
+arch deep_sea
 x 20
 y 40
-elevation 1833
+elevation -11323
 end
-arch woods
+arch deep_sea
 x 20
 y 41
-elevation 1021
+elevation -11400
 end
-arch woods
+arch deep_sea
 x 20
 y 42
-elevation 1256
+elevation -11476
 end
-arch steppe
+arch deep_sea
 x 20
 y 43
-elevation 3178
+elevation -11549
 end
-arch steppe
+arch deep_sea
 x 20
 y 44
-elevation 3454
+elevation -11620
 end
-arch steppe
+arch deep_sea
 x 20
 y 45
-elevation 4126
+elevation -11690
 end
-arch steppe
+arch deep_sea
 x 20
 y 46
-elevation 4167
+elevation -11757
 end
-arch evergreen
+arch deep_sea
 x 20
 y 47
-elevation 2745
+elevation -11820
 end
-arch steppe
+arch deep_sea
 x 20
 y 48
-elevation 3421
+elevation -11880
 end
-arch steppe
+arch deep_sea
 x 20
 y 49
-elevation 4178
+elevation -11935
 end
 arch mountain
 x 21
@@ -5326,115 +5845,136 @@ x 21
 y 27
 elevation 6041
 end
+arch dun0
+x 21
+y 27
+end
 arch steppe
 x 21
 y 28
 elevation 4999
 end
-arch mountain
+arch dun0
+x 21
+y 28
+end
+arch flagstone
+face snow.111
 x 21
 y 29
-elevation 5339
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 21
+y 29
+end
+arch flagstone
+face snow.111
 x 21
 y 30
-elevation 6373
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 21
 y 31
-elevation 5844
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 21
 y 32
-elevation 4874
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 21
 y 33
-elevation 4299
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 21
 y 34
-elevation 4124
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 21
 y 35
-elevation 3685
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 21
 y 36
-elevation 2929
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 21
 y 37
-elevation 1721
+elevation 3812
 end
-arch woods
+arch s_mountain
 x 21
 y 38
-elevation 1935
+elevation 7758
 end
-arch woods
+arch s_mountain
 x 21
 y 39
-elevation 1849
+elevation 7758
 end
-arch woods
+arch s_mountain
 x 21
 y 40
-elevation 1690
+elevation 7758
 end
-arch woods
+arch deep_sea
 x 21
 y 41
-elevation 1471
+elevation -11792
 end
-arch woods
+arch deep_sea
 x 21
 y 42
-elevation 2456
+elevation -11859
 end
-arch steppe
+arch deep_sea
 x 21
 y 43
-elevation 3124
+elevation -11921
 end
-arch steppe
+arch deep_sea
 x 21
 y 44
-elevation 3742
+elevation -11978
 end
-arch steppe
+arch deep_sea
 x 21
 y 45
-elevation 4069
+elevation -12030
 end
-arch steppe
+arch deep_sea
 x 21
 y 46
-elevation 4165
+elevation -12078
 end
-arch steppe
+arch deep_sea
 x 21
 y 47
-elevation 3878
+elevation -12121
 end
-arch steppe
+arch deep_sea
 x 21
 y 48
-elevation 3719
+elevation -12158
 end
-arch hills_rocky
+arch deep_sea
 x 21
 y 49
-elevation 4434
+elevation -12189
 end
 arch steppe
 x 22
@@ -5580,110 +6120,125 @@ x 22
 y 28
 elevation 5495
 end
-arch mountain
+arch dun0
+x 22
+y 28
+end
+arch flagstone
+face snow.111
 x 22
 y 29
-elevation 5390
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 22
+y 29
+end
+arch flagstone
+face snow.111
 x 22
 y 30
-elevation 6576
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 22
 y 31
-elevation 6896
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 22
 y 32
-elevation 6346
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 22
 y 33
-elevation 5561
+elevation 3812
 end
-arch steppe
+arch mountain5
 x 22
 y 34
-elevation 4792
+elevation 20619
 end
-arch steppe
+arch mountain5
 x 22
 y 35
-elevation 3909
+elevation 20619
 end
-arch woods
+arch flagstone
+face snow.111
 x 22
 y 36
-elevation 2248
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 22
 y 37
-elevation 2408
+elevation 3812
 end
-arch woods
+arch s_mountain
 x 22
 y 38
-elevation 2264
+elevation 7758
 end
-arch woods
+arch mountain5
 x 22
 y 39
-elevation 2135
+elevation 20619
 end
-arch woods
+arch s_mountain
 x 22
 y 40
-elevation 1741
+elevation 7758
 end
-arch woods
+arch deep_sea
 x 22
 y 41
-elevation 2088
+elevation -12199
 end
-arch woods
+arch deep_sea
 x 22
 y 42
-elevation 2960
+elevation -12256
 end
-arch steppe
+arch deep_sea
 x 22
 y 43
-elevation 3553
+elevation -12305
 end
-arch steppe
+arch deep_sea
 x 22
 y 44
-elevation 3081
+elevation -12347
 end
-arch steppe
+arch deep_sea
 x 22
 y 45
-elevation 3879
+elevation -12381
 end
-arch steppe
+arch deep_sea
 x 22
 y 46
-elevation 4004
+elevation -12409
 end
-arch steppe
+arch deep_sea
 x 22
 y 47
-elevation 3712
+elevation -12430
 end
-arch steppe
+arch deep_sea
 x 22
 y 48
-elevation 3795
+elevation -12443
 end
-arch steppe
+arch deep_sea
 x 22
 y 49
-elevation 4817
+elevation -12449
 end
 arch evergreens
 x 23
@@ -5829,110 +6384,123 @@ x 23
 y 28
 elevation 4577
 end
-arch mountain
+arch dun0
+x 23
+y 28
+end
+arch s_mountain
 x 23
 y 29
-elevation 6350
+elevation 7758
 end
-arch mountain
+arch icecave4
+x 23
+y 29
+end
+arch s_mountain
 x 23
 y 30
-elevation 7212
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 23
 y 31
-elevation 7706
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 23
 y 32
-elevation 7238
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 23
 y 33
-elevation 5427
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 23
 y 34
-elevation 5290
+elevation 20619
 end
-arch steppe
+arch mountain5
 x 23
 y 35
-elevation 4155
+elevation 20619
 end
-arch woods
+arch flagstone
+face snow.111
 x 23
 y 36
-elevation 2819
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 23
 y 37
-elevation 2215
+elevation 3812
 end
-arch woods
+arch s_mountain
 x 23
 y 38
-elevation 2112
+elevation 7758
 end
-arch woods
+arch s_mountain
 x 23
 y 39
-elevation 2206
+elevation 7758
 end
-arch woods
+arch s_mountain
 x 23
 y 40
-elevation 2031
+elevation 7758
 end
-arch woods
+arch deep_sea
 x 23
 y 41
-elevation 2532
+elevation -12616
 end
-arch steppe
+arch deep_sea
 x 23
 y 42
-elevation 3184
+elevation -12661
 end
-arch steppe
+arch deep_sea
 x 23
 y 43
-elevation 3580
+elevation -12696
 end
-arch steppe
+arch deep_sea
 x 23
 y 44
-elevation 3639
+elevation -12721
 end
-arch steppe
+arch deep_sea
 x 23
 y 45
-elevation 3413
+elevation -12737
 end
-arch steppe
+arch deep_sea
 x 23
 y 46
-elevation 3126
+elevation -12744
 end
-arch steppe
+arch deep_sea
 x 23
 y 47
-elevation 3930
+elevation -12742
 end
-arch steppe
+arch deep_sea
 x 23
 y 48
-elevation 4058
+elevation -12731
 end
-arch mountain
+arch deep_sea
 x 23
 y 49
-elevation 5434
+elevation -12712
 end
 arch evergreens
 x 24
@@ -6078,110 +6646,122 @@ x 24
 y 28
 elevation 5806
 end
-arch mountain
+arch dun0
+x 24
+y 28
+end
+arch mountain5
 x 24
 y 29
-elevation 6431
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 24
 y 30
-elevation 7552
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 24
 y 31
-elevation 8359
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 24
 y 32
-elevation 8077
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 24
 y 33
-elevation 6914
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 24
 y 34
-elevation 5717
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 24
 y 35
-elevation 4420
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 24
 y 36
-elevation 2876
+elevation 3812
 end
-arch desert
+arch flagstone
+face snow.111
 x 24
 y 37
-elevation 362
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 24
 y 38
-elevation 1647
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 24
 y 39
-elevation 1910
+elevation 3812
 end
-arch woods
+arch deep_sea
 x 24
 y 40
-elevation 2066
+elevation -12988
 end
-arch woods
+arch deep_sea
 x 24
 y 41
-elevation 2438
+elevation -13034
 end
-arch woods
+arch deep_sea
 x 24
 y 42
-elevation 2803
+elevation -13067
 end
-arch woods
+arch deep_sea
 x 24
 y 43
-elevation 2986
+elevation -13088
 end
-arch steppe
+arch deep_sea
 x 24
 y 44
-elevation 3060
+elevation -13096
 end
-arch steppe
+arch deep_sea
 x 24
 y 45
-elevation 3042
+elevation -13092
 end
-arch woods
+arch deep_sea
 x 24
 y 46
-elevation 2201
+elevation -13078
 end
-arch hills
+arch deep_sea
 x 24
 y 47
-elevation 4325
+elevation -13053
 end
-arch mountain
+arch deep_sea
 x 24
 y 48
-elevation 5485
+elevation -13018
 end
-arch mountain
+arch deep_sea
 x 24
 y 49
-elevation 6364
+elevation -12973
 end
 arch hills_rocky
 x 25
@@ -6327,110 +6907,122 @@ x 25
 y 28
 elevation 4705
 end
-arch mountain
+arch dun0
+x 25
+y 28
+end
+arch mountain5
 x 25
 y 29
-elevation 5338
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 25
 y 30
-elevation 7071
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 25
 y 31
-elevation 8384
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 25
 y 32
-elevation 8625
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 25
 y 33
-elevation 7823
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 25
 y 34
-elevation 6354
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 25
 y 35
-elevation 3708
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 25
 y 36
-elevation 3372
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 25
 y 37
-elevation 1302
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
 x 25
 y 38
-elevation 1519
+elevation 3812
 end
-arch desert
+arch flagstone
+face snow.111
 x 25
 y 39
-elevation 904
+elevation 3812
 end
-arch tree
+arch deep_sea
 x 25
 y 40
-elevation 1723
+elevation -13413
 end
-arch woods
+arch deep_sea
 x 25
 y 41
-elevation 1865
+elevation -13449
 end
-arch evergreens
+arch deep_sea
 x 25
 y 42
-elevation 2074
+elevation -13469
 end
-arch woods
+arch deep_sea
 x 25
 y 43
-elevation 1583
+elevation -13474
 end
-arch woods
+arch deep_sea
 x 25
 y 44
-elevation 1436
+elevation -13464
 end
-arch evergreens
+arch deep_sea
 x 25
 y 45
-elevation 2755
+elevation -13441
 end
-arch steppe
+arch deep_sea
 x 25
 y 46
-elevation 3676
+elevation -13405
 end
-arch steppe
+arch deep_sea
 x 25
 y 47
-elevation 4815
+elevation -13357
 end
-arch mountain
+arch deep_sea
 x 25
 y 48
-elevation 6059
+elevation -13298
 end
-arch mountain
+arch deep_sea
 x 25
 y 49
-elevation 7310
+elevation -13228
 end
 arch hills_rocky
 x 26
@@ -6571,115 +7163,122 @@ x 26
 y 27
 elevation 2588
 end
-arch tree
+arch dun0
 x 26
 y 28
-elevation 1794
 end
-arch steppe
+arch mountain5
 x 26
 y 29
-elevation 3276
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 26
 y 30
-elevation 6198
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 26
 y 31
-elevation 7671
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 26
 y 32
-elevation 8583
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 26
 y 33
-elevation 8356
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 26
 y 34
-elevation 6846
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 26
 y 35
-elevation 5735
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 26
 y 36
-elevation 4377
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 26
 y 37
-elevation 3141
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 26
 y 38
-elevation 1878
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 26
 y 39
-elevation 1305
+elevation 3812
 end
-arch woods
+arch mountain5
 x 26
 y 40
-elevation 1189
+elevation 20619
 end
-arch woods
+arch mountain5
 x 26
 y 41
-elevation 1340
+elevation 20619
 end
-arch woods
+arch deep_sea
 x 26
 y 42
-elevation 1266
+elevation -13859
 end
-arch woods
+arch deep_sea
 x 26
 y 43
-elevation 1255
+elevation -13848
 end
-arch evergreens
+arch deep_sea
 x 26
 y 44
-elevation 1576
+elevation -13821
 end
-arch woods
+arch deep_sea
 x 26
 y 45
-elevation 2340
+elevation -13778
 end
-arch hills
+arch deep_sea
 x 26
 y 46
-elevation 3456
+elevation -13721
 end
-arch steppe
+arch deep_sea
 x 26
 y 47
-elevation 4793
+elevation -13651
 end
-arch mountain
+arch deep_sea
 x 26
 y 48
-elevation 6371
+elevation -13568
 end
-arch mountain
+arch deep_sea
 x 26
 y 49
-elevation 7902
+elevation -13475
 end
 arch steppe
 x 27
@@ -6825,110 +7424,123 @@ x 27
 y 28
 elevation 1510
 end
-arch hills
+arch dun0
+x 27
+y 28
+end
+arch s_mountain
 x 27
 y 29
-elevation 3505
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 27
 y 30
-elevation 5102
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 31
-elevation 6723
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 32
-elevation 8057
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 33
-elevation 8614
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 34
-elevation 7956
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 35
-elevation 6719
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 27
 y 36
-elevation 5284
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 27
 y 37
-elevation 3725
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
 x 27
 y 38
-elevation 2206
+elevation 3812
 end
-arch desert
+arch flagstone
+face snow.111
 x 27
 y 39
-elevation 399
+elevation 3812
 end
-arch tree
+arch mountain5
 x 27
 y 40
-elevation 1060
+elevation 20619
 end
-arch desert
+arch mountain5
 x 27
 y 41
-elevation 206
+elevation 20619
 end
-arch grass
+arch deep_sea
 x 27
 y 42
-elevation 796
+elevation -14234
 end
-arch desert
+arch deep_sea
 x 27
 y 43
-elevation 681
+elevation -14207
 end
-arch grass
+arch deep_sea
 x 27
 y 44
-elevation 181
+elevation -14161
 end
-arch woods
+arch deep_sea
 x 27
 y 45
-elevation 1923
+elevation -14099
 end
-arch woods
+arch deep_sea
 x 27
 y 46
-elevation 2859
+elevation -14022
 end
-arch woods_3
+arch deep_sea
 x 27
 y 47
-elevation 2900
+elevation -13930
 end
-arch mountain
+arch deep_sea
 x 27
 y 48
-elevation 5997
+elevation -13825
 end
-arch mountain
+arch deep_sea
 x 27
 y 49
-elevation 7897
+elevation -13708
 end
 arch hills
 x 28
@@ -7074,110 +7686,122 @@ x 28
 y 28
 elevation 2133
 end
-arch steppe
+arch dun0
+x 28
+y 28
+end
+arch mountain5
 x 28
 y 29
-elevation 3102
+elevation 20619
 end
-arch steppe
+arch s_mountain
 x 28
 y 30
-elevation 4280
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 28
 y 31
-elevation 4347
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 28
 y 32
-elevation 7276
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 28
 y 33
-elevation 8488
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 28
 y 34
-elevation 8226
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 28
 y 35
-elevation 7066
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 28
 y 36
-elevation 5306
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 28
 y 37
-elevation 3865
+elevation 7758
 end
-arch tree
+arch flagstone
+face snow.111
 x 28
 y 38
-elevation 2305
+elevation 3812
 end
-arch desert
+arch flagstone
+face snow.111
 x 28
 y 39
-elevation 697
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 28
 y 40
-elevation 1461
+elevation 3812
 end
-arch woods_3
+arch flagstone
+face snow.111
 x 28
 y 41
-elevation 1590
+elevation 3812
 end
-arch desert
+arch deep_sea
 x 28
 y 42
-elevation 221
+elevation -14589
 end
-arch grass
+arch deep_sea
 x 28
 y 43
-elevation 385
+elevation -14545
 end
-arch desert
+arch deep_sea
 x 28
 y 44
-elevation 640
+elevation -14482
 end
-arch woods
+arch deep_sea
 x 28
 y 45
-elevation 1700
+elevation -14401
 end
-arch evergreens
+arch deep_sea
 x 28
 y 46
-elevation 2532
+elevation -14304
 end
-arch steppe
+arch deep_sea
 x 28
 y 47
-elevation 3035
+elevation -14191
 end
-arch mountain
+arch deep_sea
 x 28
 y 48
-elevation 5380
+elevation -14065
 end
-arch mountain
+arch deep_sea
 x 28
 y 49
-elevation 6738
+elevation -13928
 end
 arch mountain
 x 29
@@ -7323,110 +7947,122 @@ x 29
 y 28
 elevation 3365
 end
-arch hills
+arch dun0
+x 29
+y 28
+end
+arch s_mountain
 x 29
 y 29
-elevation 3585
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 29
 y 30
-elevation 3426
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 29
 y 31
-elevation 3338
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 29
 y 32
-elevation 6362
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 29
 y 33
-elevation 7804
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 29
 y 34
-elevation 7700
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 29
 y 35
-elevation 6684
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 29
 y 36
-elevation 5219
+elevation 20619
 end
-arch woods_2
+arch s_mountain
 x 29
 y 37
-elevation 2935
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 29
 y 38
-elevation 3201
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 29
 y 39
-elevation 3137
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 29
 y 40
-elevation 3216
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 29
 y 41
-elevation 3033
+elevation 3812
 end
-arch woods_2
+arch deep_sea
 x 29
 y 42
-elevation 2413
+elevation -14919
 end
-arch woods
+arch deep_sea
 x 29
 y 43
-elevation 1452
+elevation -14859
 end
-arch grass
+arch deep_sea
 x 29
 y 44
-elevation 610
+elevation -14779
 end
-arch woods_2
+arch deep_sea
 x 29
 y 45
-elevation 1341
+elevation -14680
 end
-arch woods_2
+arch deep_sea
 x 29
 y 46
-elevation 2368
+elevation -14564
 end
-arch woods
+arch deep_sea
 x 29
 y 47
-elevation 2571
+elevation -14433
 end
-arch mountain
+arch deep_sea
 x 29
 y 48
-elevation 5087
+elevation -14287
 end
-arch mountain
+arch deep_sea
 x 29
 y 49
-elevation 6950
+elevation -14130
 end
 arch mountain
 x 30
@@ -7572,110 +8208,121 @@ x 30
 y 28
 elevation 3874
 end
-arch hills
+arch dun0
+x 30
+y 28
+end
+arch s_mountain
 x 30
 y 29
-elevation 4274
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 30
 y 30
-elevation 3321
+elevation 7758
 end
-arch steppe
+arch s_mountain
 x 30
 y 31
-elevation 3288
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 30
 y 32
-elevation 5766
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 30
 y 33
-elevation 6774
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 30
 y 34
-elevation 6626
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 30
 y 35
-elevation 5893
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 30
 y 36
-elevation 5035
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 30
 y 37
-elevation 3786
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 30
 y 38
-elevation 3656
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 30
 y 39
-elevation 4562
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 30
 y 40
-elevation 4796
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 30
 y 41
-elevation 4606
+elevation 3812
 end
-arch hills_rocky
+arch s_mountain
 x 30
 y 42
-elevation 3917
+elevation 7758
 end
-arch woods_2
+arch s_mountain
 x 30
 y 43
-elevation 2756
+elevation 7758
 end
-arch brush
+arch s_mountain
 x 30
 y 44
-elevation 817
+elevation 7758
 end
-arch woods
+arch deep_sea
 x 30
 y 45
-elevation 1726
+elevation -14935
 end
-arch woods_2
+arch deep_sea
 x 30
 y 46
-elevation 1648
+elevation -14802
 end
-arch hills
+arch deep_sea
 x 30
 y 47
-elevation 3035
+elevation -14652
 end
-arch steppe
+arch deep_sea
 x 30
 y 48
-elevation 4660
+elevation -14489
 end
-arch mountain
+arch deep_sea
 x 30
 y 49
-elevation 6526
+elevation -14314
 end
 arch mountain
 x 31
@@ -7821,110 +8468,124 @@ x 31
 y 28
 elevation 4385
 end
-arch hills
+arch dun0
+x 31
+y 28
+end
+arch s_mountain
 x 31
 y 29
-elevation 4888
+elevation 7758
 end
-arch hills
+arch mountain5
 x 31
 y 30
-elevation 4782
+elevation 20619
 end
-arch hills
+arch s_mountain
 x 31
 y 31
-elevation 4640
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 32
-elevation 5151
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 33
-elevation 5536
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 34
-elevation 5173
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 31
 y 35
-elevation 4624
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 31
 y 36
-elevation 4827
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 37
-elevation 5315
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 38
-elevation 5604
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 39
-elevation 5647
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 40
-elevation 5817
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 31
 y 41
-elevation 5695
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 31
 y 42
-elevation 5001
+elevation 7758
 end
-arch steppe
+arch mountain5
 x 31
 y 43
-elevation 3782
+elevation 20619
 end
-arch woods_2
+arch s_mountain
 x 31
 y 44
-elevation 2739
+elevation 7758
 end
-arch woods
+arch deep_sea
 x 31
 y 45
-elevation 2039
+elevation -15163
 end
-arch woods_2
+arch deep_sea
 x 31
 y 46
-elevation 1313
+elevation -15014
 end
-arch woods_2
+arch deep_sea
 x 31
 y 47
-elevation 2136
+elevation -14849
 end
-arch hills_rocky
+arch deep_sea
 x 31
 y 48
-elevation 3498
+elevation -14670
 end
-arch mountain
+arch deep_sea
 x 31
 y 49
-elevation 5835
+elevation -14479
 end
 arch mountain
 x 32
@@ -8070,110 +8731,124 @@ x 32
 y 28
 elevation 4453
 end
-arch mountain
+arch dun0
+x 32
+y 28
+end
+arch s_mountain
 x 32
 y 29
-elevation 5190
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 32
 y 30
-elevation 5179
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 32
 y 31
-elevation 4833
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 32
 y 32
-elevation 3913
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 32
 y 33
-elevation 4329
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 32
 y 34
-elevation 3723
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 32
 y 35
-elevation 2005
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 32
 y 36
-elevation 4308
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 37
-elevation 5806
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 38
-elevation 6693
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 39
-elevation 6662
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 40
-elevation 6543
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 41
-elevation 6431
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 32
 y 42
-elevation 5414
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 32
 y 43
-elevation 4330
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 32
 y 44
-elevation 3274
+elevation 7758
 end
-arch evergreens
+arch deep_sea
 x 32
 y 45
-elevation 1595
+elevation -15365
 end
-arch woods_2
+arch deep_sea
 x 32
 y 46
-elevation 2070
+elevation -15201
 end
-arch woods_2
+arch deep_sea
 x 32
 y 47
-elevation 1132
+elevation -15022
 end
-arch steppe
+arch deep_sea
 x 32
 y 48
-elevation 3592
+elevation -14829
 end
-arch hills
+arch deep_sea
 x 32
 y 49
-elevation 3819
+elevation -14625
 end
 arch mountain
 x 33
@@ -8319,110 +8994,125 @@ x 33
 y 28
 elevation 4285
 end
-arch hills
+arch dun0
+x 33
+y 28
+end
+arch mountain5
 x 33
 y 29
-elevation 4857
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 33
 y 30
-elevation 5307
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 33
 y 31
-elevation 4743
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 33
 y 32
-elevation 3852
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 33
 y 33
-elevation 3729
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 33
 y 34
-elevation 1936
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 33
 y 35
-elevation 1636
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 33
 y 36
-elevation 2500
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 33
 y 37
-elevation 6100
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 33
 y 38
-elevation 6886
+elevation 20619
 end
-arch mountain
+arch flagstone
+face snow.111
 x 33
 y 39
-elevation 6918
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 33
 y 40
-elevation 6895
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 33
 y 41
-elevation 6947
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 33
 y 42
-elevation 5922
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 33
 y 43
-elevation 3048
+elevation 3812
 end
-arch steppe
+arch flagstone
+face snow.111
 x 33
 y 44
-elevation 3760
+elevation 3812
 end
-arch hills
+arch deep_sea
 x 33
 y 45
-elevation 3322
+elevation -15540
 end
-arch woods_2
+arch deep_sea
 x 33
 y 46
-elevation 2763
+elevation -15364
 end
-arch woods_2
+arch deep_sea
 x 33
 y 47
-elevation 2847
+elevation -15172
 end
-arch steppe
+arch deep_sea
 x 33
 y 48
-elevation 3667
+elevation -14967
 end
-arch mountain
+arch deep_sea
 x 33
 y 49
-elevation 5359
+elevation -14752
 end
 arch mountain
 x 34
@@ -8568,110 +9258,124 @@ x 34
 y 28
 elevation 3071
 end
-arch hills
+arch dun0
+x 34
+y 28
+end
+arch mountain5
 x 34
 y 29
-elevation 3660
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 34
 y 30
-elevation 5814
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 34
 y 31
-elevation 5994
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 34
 y 32
-elevation 5579
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 33
-elevation 4776
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 34
-elevation 3973
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 35
-elevation 3764
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 36
-elevation 4714
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 34
 y 37
-elevation 6299
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 34
 y 38
-elevation 6925
+elevation 20619
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 39
-elevation 4557
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 34
 y 40
-elevation 6946
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 34
 y 41
-elevation 7273
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 34
 y 42
-elevation 6273
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 34
 y 43
-elevation 4516
+elevation 3812
 end
-arch hills
+arch deep_sea
 x 34
 y 44
-elevation 4340
+elevation -15860
 end
-arch hills
+arch deep_sea
 x 34
 y 45
-elevation 3882
+elevation -15689
 end
-arch evergreens
+arch deep_sea
 x 34
 y 46
-elevation 2954
+elevation -15502
 end
-arch evergreens
+arch deep_sea
 x 34
 y 47
-elevation 2985
+elevation -15300
 end
-arch evergreens
+arch deep_sea
 x 34
 y 48
-elevation 2852
+elevation -15085
 end
-arch mountain
+arch deep_sea
 x 34
 y 49
-elevation 5655
+elevation -14860
 end
 arch mountain
 x 35
@@ -8817,110 +9521,123 @@ x 35
 y 28
 elevation 6114
 end
-arch mountain
+arch dun0
+x 35
+y 28
+end
+arch mountain5
 x 35
 y 29
-elevation 6181
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 35
 y 30
-elevation 6576
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 35
 y 31
-elevation 6743
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 35
 y 32
-elevation 6401
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 33
-elevation 5794
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 34
-elevation 5070
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 35
 y 35
-elevation 3613
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 36
-elevation 5760
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 37
-elevation 6620
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 38
-elevation 6697
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 39
-elevation 6720
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 40
-elevation 7061
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 35
 y 41
-elevation 7140
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 35
 y 42
-elevation 5990
+elevation 20619
 end
-arch hills
+arch mountain5
 x 35
 y 43
-elevation 4938
+elevation 20619
 end
-arch hills
+arch deep_sea
 x 35
 y 44
-elevation 4416
+elevation -15995
 end
-arch hills
+arch deep_sea
 x 35
 y 45
-elevation 4252
+elevation -15814
 end
-arch woods_2
+arch deep_sea
 x 35
 y 46
-elevation 2782
+elevation -15617
 end
-arch hills
+arch deep_sea
 x 35
 y 47
-elevation 3411
+elevation -15406
 end
-arch evergreens
+arch deep_sea
 x 35
 y 48
-elevation 2877
+elevation -15183
 end
-arch mountain
+arch deep_sea
 x 35
 y 49
-elevation 5464
+elevation -14951
 end
 arch hills
 x 36
@@ -9066,110 +9783,123 @@ x 36
 y 28
 elevation 7611
 end
-arch mountain
+arch dun0
+x 36
+y 28
+end
+arch s_mountain
 x 36
 y 29
-elevation 7316
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 36
 y 30
-elevation 6729
+elevation 20619
 end
-arch mountain
+arch mountain5
 x 36
 y 31
-elevation 6297
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 36
 y 32
-elevation 6094
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 33
-elevation 5985
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 34
-elevation 5748
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 35
-elevation 5450
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 36
-elevation 6555
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 37
-elevation 6953
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 38
-elevation 5497
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 39
-elevation 6648
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 40
-elevation 6671
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 36
 y 41
-elevation 6300
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 36
 y 42
-elevation 5177
+elevation 20619
 end
-arch woods_2
+arch mountain5
 x 36
 y 43
-elevation 1871
+elevation 20619
 end
-arch hills
+arch deep_sea
 x 36
 y 44
-elevation 4633
+elevation -16106
 end
-arch hills
+arch deep_sea
 x 36
 y 45
-elevation 4909
+elevation -15915
 end
-arch hills
+arch deep_sea
 x 36
 y 46
-elevation 4019
+elevation -15710
 end
-arch hills
+arch deep_sea
 x 36
 y 47
-elevation 4296
+elevation -15492
 end
-arch hills
+arch deep_sea
 x 36
 y 48
-elevation 4621
+elevation -15263
 end
-arch mountain
+arch deep_sea
 x 36
 y 49
-elevation 5203
+elevation -15025
 end
 arch jungle_1
 x 37
@@ -9315,110 +10045,120 @@ x 37
 y 28
 elevation 7793
 end
-arch mountain
+arch dun0
+x 37
+y 28
+end
+arch s_mountain
 x 37
 y 29
-elevation 7011
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 37
 y 30
-elevation 5146
+elevation 20619
 end
-arch hills
+arch mountain5
 x 37
 y 31
-elevation 4129
+elevation 20619
 end
-arch hills
+arch s_mountain
 x 37
 y 32
-elevation 4848
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 37
 y 33
-elevation 5410
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 37
 y 34
-elevation 6013
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 37
 y 35
-elevation 6502
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 37
 y 36
-elevation 7166
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 37
 y 37
-elevation 7229
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 37
 y 38
-elevation 6575
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 37
 y 39
-elevation 5349
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 37
 y 40
-elevation 5805
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 37
 y 41
-elevation 4716
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 37
 y 42
-elevation 4628
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 37
 y 43
-elevation 4442
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 37
 y 44
-elevation 5655
+elevation -16195
 end
-arch mountain
+arch deep_sea
 x 37
 y 45
-elevation 6044
+elevation -15996
 end
-arch mountain
+arch deep_sea
 x 37
 y 46
-elevation 5876
+elevation -15783
 end
-arch mountain
+arch deep_sea
 x 37
 y 47
-elevation 5503
+elevation -15559
 end
-arch hills
+arch deep_sea
 x 37
 y 48
-elevation 4779
+elevation -15325
 end
-arch hills
+arch deep_sea
 x 37
 y 49
-elevation 4950
+elevation -15083
 end
 arch mountain
 x 38
@@ -9564,110 +10304,121 @@ x 38
 y 28
 elevation 6756
 end
-arch mountain
+arch dun0
+x 38
+y 28
+end
+arch s_mountain
 x 38
 y 29
-elevation 5642
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 38
 y 30
-elevation 4235
+elevation 7758
 end
-arch woods_2
+arch s_mountain
 x 38
 y 31
-elevation 2319
+elevation 7758
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 38
 y 32
-elevation 2463
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 38
 y 33
-elevation 4869
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 38
 y 34
-elevation 4999
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 38
 y 35
-elevation 6555
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 38
 y 36
-elevation 7123
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 38
 y 37
-elevation 7164
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 38
 y 38
-elevation 6446
+elevation 7758
 end
-arch hills
+arch mountain5
 x 38
 y 39
-elevation 4682
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 38
 y 40
-elevation 5337
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 38
 y 41
-elevation 4799
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 38
 y 42
-elevation 6187
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 38
 y 43
-elevation 7034
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 38
 y 44
-elevation 7114
+elevation -16264
 end
-arch mountain
+arch deep_sea
 x 38
 y 45
-elevation 7136
+elevation -16058
 end
-arch mountain
+arch deep_sea
 x 38
 y 46
-elevation 6912
+elevation -15839
 end
-arch mountain
+arch deep_sea
 x 38
 y 47
-elevation 6617
+elevation -15609
 end
-arch mountain
+arch deep_sea
 x 38
 y 48
-elevation 5578
+elevation -15371
 end
-arch hills
+arch deep_sea
 x 38
 y 49
-elevation 3460
+elevation -15126
 end
 arch mountain
 x 39
@@ -9813,110 +10564,124 @@ x 39
 y 28
 elevation 5440
 end
-arch hills
+arch dun0
+x 39
+y 28
+end
+arch flagstone
+face snow.111
 x 39
 y 29
-elevation 3032
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 39
 y 30
-elevation 2747
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 39
 y 31
-elevation 1713
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 39
 y 32
-elevation 2762
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 39
 y 33
-elevation 4483
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 39
 y 34
-elevation 5744
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 39
 y 35
-elevation 5946
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 39
 y 36
-elevation 6236
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 39
 y 37
-elevation 6369
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 39
 y 38
-elevation 6302
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 39
 y 39
-elevation 5493
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 39
 y 40
-elevation 5183
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 39
 y 41
-elevation 6104
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 39
 y 42
-elevation 7291
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 39
 y 43
-elevation 8344
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 39
 y 44
-elevation 8518
+elevation -16316
 end
-arch mountain
+arch deep_sea
 x 39
 y 45
-elevation 5832
+elevation -16102
 end
-arch mountain
+arch deep_sea
 x 39
 y 46
-elevation 8205
+elevation -15878
 end
-arch mountain
+arch deep_sea
 x 39
 y 47
-elevation 7572
+elevation -15644
 end
-arch mountain
+arch deep_sea
 x 39
 y 48
-elevation 5936
+elevation -15403
 end
-arch hills
+arch deep_sea
 x 39
 y 49
-elevation 4408
+elevation -15156
 end
 arch mountain
 x 40
@@ -10062,110 +10827,130 @@ x 40
 y 28
 elevation 4024
 end
-arch woods_2
+arch dun0
+x 40
+y 28
+end
+arch flagstone
+face snow.111
 x 40
 y 29
-elevation 2086
+elevation 3812
 end
-arch woods_2
+arch icecave4
+x 40
+y 29
+end
+arch flagstone
+face snow.111
 x 40
 y 30
-elevation 1182
+elevation 3812
 end
-arch brush
+arch flagstone
+face snow.111
 x 40
 y 31
-elevation 472
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 40
 y 32
-elevation 2023
+elevation 3812
 end
-arch hills
+arch s_mountain
 x 40
 y 33
-elevation 4798
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 40
 y 34
-elevation 6030
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 35
-elevation 5523
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 40
 y 36
-elevation 3023
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 37
-elevation 6069
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 38
-elevation 6298
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 39
-elevation 6153
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 40
-elevation 6178
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 41
-elevation 6745
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 40
 y 42
-elevation 7436
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 40
 y 43
-elevation 8643
+elevation 20619
 end
-arch mountain2
+arch mountain5
 x 40
 y 44
-elevation 9235
+elevation 20619
 end
-arch mountain2
+arch deep_sea
 x 40
 y 45
-elevation 9769
+elevation -16131
 end
-arch mountain2
+arch deep_sea
 x 40
 y 46
-elevation 9428
+elevation -15902
 end
-arch mountain
+arch deep_sea
 x 40
 y 47
-elevation 8472
+elevation -15665
 end
-arch mountain
+arch deep_sea
 x 40
 y 48
-elevation 6184
+elevation -15421
 end
-arch hills
+arch deep_sea
 x 40
 y 49
-elevation 3894
+elevation -15173
 end
 arch mountain2
 x 41
@@ -10311,110 +11096,127 @@ x 41
 y 28
 elevation 4190
 end
-arch hills
+arch dun0
+x 41
+y 28
+end
+arch flagstone
+face snow.111
 x 41
 y 29
-elevation 3032
+elevation 3812
 end
-arch woods_2
+arch icecave4
+x 41
+y 29
+end
+arch s_mountain
 x 41
 y 30
-elevation 2011
+elevation 7758
 end
-arch woods_2
+arch s_mountain
 x 41
 y 31
-elevation 1004
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 41
 y 32
-elevation 3196
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 41
 y 33
-elevation 5160
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 41
 y 34
-elevation 6328
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 35
-elevation 6349
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 36
-elevation 6200
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 37
-elevation 6272
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 38
-elevation 6621
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 39
-elevation 5716
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 40
-elevation 6535
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 41
-elevation 6911
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 41
 y 42
-elevation 7443
+elevation 3812
 end
-arch mountain
+arch mountain5
 x 41
 y 43
-elevation 6723
+elevation 20619
 end
-arch mountain2
+arch mountain5
 x 41
 y 44
-elevation 9860
+elevation 20619
 end
-arch mountain2
+arch deep_sea
 x 41
 y 45
-elevation 10683
+elevation -16147
 end
-arch mountain2
+arch deep_sea
 x 41
 y 46
-elevation 10355
+elevation -15913
 end
-arch mountain2
+arch deep_sea
 x 41
 y 47
-elevation 9129
+elevation -15672
 end
-arch mountain
+arch deep_sea
 x 41
 y 48
-elevation 7321
+elevation -15426
 end
-arch hills
+arch deep_sea
 x 41
 y 49
-elevation 4401
+elevation -15177
 end
 arch mountain2
 x 42
@@ -10560,110 +11362,126 @@ x 42
 y 28
 elevation 3926
 end
-arch hills
+arch dun0
+x 42
+y 28
+end
+arch flagstone
+face snow.111
 x 42
 y 29
-elevation 3040
+elevation 3812
 end
-arch woods_2
+arch icecave4
+x 42
+y 29
+end
+arch s_mountain
 x 42
 y 30
-elevation 2395
+elevation 7758
 end
-arch woods_2
+arch mountain5
 x 42
 y 31
-elevation 2360
+elevation 20619
 end
-arch hills
+arch s_mountain
 x 42
 y 32
-elevation 3637
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 42
 y 33
-elevation 5285
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 42
 y 34
-elevation 6402
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 35
-elevation 6615
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 36
-elevation 6467
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 37
-elevation 6555
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 38
-elevation 7028
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 39
-elevation 7296
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 40
-elevation 7056
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 42
 y 41
-elevation 5281
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 42
 y 42
-elevation 7594
+elevation -16826
 end
-arch mountain
+arch deep_sea
 x 42
 y 43
-elevation 8618
+elevation -16610
 end
-arch mountain2
+arch deep_sea
 x 42
 y 44
-elevation 9553
+elevation -16384
 end
-arch mountain2
+arch deep_sea
 x 42
 y 45
-elevation 10254
+elevation -16151
 end
-arch mountain2
+arch deep_sea
 x 42
 y 46
-elevation 10049
+elevation -15912
 end
-arch mountain2
+arch deep_sea
 x 42
 y 47
-elevation 9071
+elevation -15668
 end
-arch mountain
+arch deep_sea
 x 42
 y 48
-elevation 7743
+elevation -15420
 end
-arch mountain
+arch deep_sea
 x 42
 y 49
-elevation 7195
+elevation -15170
 end
 arch mountain2
 x 43
@@ -10809,110 +11627,128 @@ x 43
 y 28
 elevation 2561
 end
-arch woods_2
+arch dun0
+x 43
+y 28
+end
+arch flagstone
+face snow.111
 x 43
 y 29
-elevation 2924
+elevation 3812
 end
-arch woods_2
+arch icecave4
+x 43
+y 29
+end
+arch s_mountain
 x 43
 y 30
-elevation 1891
+elevation 7758
 end
-arch woods_2
+arch s_mountain
 x 43
 y 31
-elevation 2146
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 43
 y 32
-elevation 3612
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 43
 y 33
-elevation 4866
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 34
-elevation 5568
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 35
-elevation 5537
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 43
 y 36
-elevation 4180
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 37
-elevation 6072
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 38
-elevation 7303
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 39
-elevation 8009
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 40
-elevation 7777
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 43
 y 41
-elevation 7509
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 43
 y 42
-elevation 7565
+elevation -16843
 end
-arch mountain
+arch deep_sea
 x 43
 y 43
-elevation 8253
+elevation -16617
 end
-arch mountain
+arch deep_sea
 x 43
 y 44
-elevation 8612
+elevation -16383
 end
-arch mountain
+arch deep_sea
 x 43
 y 45
-elevation 8879
+elevation -16144
 end
-arch mountain
+arch deep_sea
 x 43
 y 46
-elevation 8749
+elevation -15900
 end
-arch mountain
+arch deep_sea
 x 43
 y 47
-elevation 8112
+elevation -15653
 end
-arch mountain
+arch deep_sea
 x 43
 y 48
-elevation 6747
+elevation -15403
 end
-arch mountain
+arch deep_sea
 x 43
 y 49
-elevation 7481
+elevation -15152
 end
 arch mountain2
 x 44
@@ -11058,110 +11894,129 @@ x 44
 y 28
 elevation 4264
 end
-arch hills
+arch dun0
+x 44
+y 28
+end
+arch flagstone
+face snow.111
 x 44
 y 29
-elevation 3938
+elevation 3812
 end
-arch hills
+arch icecave4
+x 44
+y 29
+end
+arch flagstone
+face snow.111
 x 44
 y 30
-elevation 3588
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 31
-elevation 3926
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 32
-elevation 4095
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 33
-elevation 4179
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 34
-elevation 3758
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 35
-elevation 3956
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 44
 y 36
-elevation 3167
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 44
 y 37
-elevation 5347
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 44
 y 38
-elevation 7024
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 44
 y 39
-elevation 8358
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 44
 y 40
-elevation 8388
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 44
 y 41
-elevation 7376
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 44
 y 42
-elevation 7340
+elevation -16851
 end
-arch mountain
+arch deep_sea
 x 44
 y 43
-elevation 5934
+elevation -16614
 end
-arch mountain
+arch deep_sea
 x 44
 y 44
-elevation 6927
+elevation -16373
 end
-arch mountain
+arch deep_sea
 x 44
 y 45
-elevation 7148
+elevation -16127
 end
-arch mountain
+arch deep_sea
 x 44
 y 46
-elevation 7254
+elevation -15878
 end
-arch mountain
+arch deep_sea
 x 44
 y 47
-elevation 6185
+elevation -15627
 end
-arch mountain
+arch deep_sea
 x 44
 y 48
-elevation 6455
+elevation -15375
 end
-arch mountain
+arch deep_sea
 x 44
 y 49
-elevation 6702
+elevation -15122
 end
 arch mountain2
 x 45
@@ -11307,110 +12162,124 @@ x 45
 y 28
 elevation 5156
 end
-arch mountain
+arch dun0
+x 45
+y 28
+end
+arch flagstone
+face snow.111
 x 45
 y 29
-elevation 5132
+elevation 3812
 end
-arch mountain
+arch icecave4
+x 45
+y 29
+end
+arch s_mountain
 x 45
 y 30
-elevation 5195
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 45
 y 31
-elevation 5059
+elevation 7758
 end
-arch hills
+arch s_mountain
 x 45
 y 32
-elevation 4337
+elevation 7758
 end
-arch hills
+arch flagstone
+face snow.111
 x 45
 y 33
-elevation 3032
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 45
 y 34
-elevation 2953
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 45
 y 35
-elevation 3147
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 45
 y 36
-elevation 4045
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 45
 y 37
-elevation 5467
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 45
 y 38
-elevation 7046
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 45
 y 39
-elevation 8251
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 45
 y 40
-elevation 8752
+elevation 7758
 end
-arch mountain
+arch deep_sea
 x 45
 y 41
-elevation 7437
+elevation -17091
 end
-arch mountain
+arch deep_sea
 x 45
 y 42
-elevation 6822
+elevation -16850
 end
-arch mountain
+arch deep_sea
 x 45
 y 43
-elevation 6172
+elevation -16603
 end
-arch mountain
+arch deep_sea
 x 45
 y 44
-elevation 5570
+elevation -16353
 end
-arch mountain
+arch deep_sea
 x 45
 y 45
-elevation 6848
+elevation -16100
 end
-arch mountain
+arch deep_sea
 x 45
 y 46
-elevation 6849
+elevation -15846
 end
-arch mountain
+arch deep_sea
 x 45
 y 47
-elevation 5674
+elevation -15591
 end
-arch mountain
+arch deep_sea
 x 45
 y 48
-elevation 5660
+elevation -15336
 end
-arch mountain
+arch deep_sea
 x 45
 y 49
-elevation 5013
+elevation -15082
 end
 arch mountain2
 x 46
@@ -11556,110 +12425,119 @@ x 46
 y 28
 elevation 5362
 end
-arch mountain
+arch dun0
+x 46
+y 28
+end
+arch s_mountain
 x 46
 y 29
-elevation 5581
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 46
 y 30
-elevation 5901
+elevation 7758
 end
-arch mountain
+arch mountain5
 x 46
 y 31
-elevation 5747
+elevation 20619
 end
-arch hills
+arch s_mountain
 x 46
 y 32
-elevation 4854
+elevation 7758
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 46
 y 33
-elevation 1619
+elevation 3812
 end
-arch woods_2
+arch flagstone
+face snow.111
 x 46
 y 34
-elevation 1356
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 46
 y 35
-elevation 3505
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 46
 y 36
-elevation 4901
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 46
 y 37
-elevation 5987
+elevation 3812
 end
-arch mountain
+arch s_mountain
 x 46
 y 38
-elevation 5352
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 46
 y 39
-elevation 8392
+elevation 7758
 end
-arch mountain2
+arch deep_sea
 x 46
 y 40
-elevation 9142
+elevation -17348
 end
-arch mountain
+arch deep_sea
 x 46
 y 41
-elevation 8529
+elevation -17094
 end
-arch mountain
+arch deep_sea
 x 46
 y 42
-elevation 5905
+elevation -16841
 end
-arch mountain
+arch deep_sea
 x 46
 y 43
-elevation 5153
+elevation -16584
 end
-arch mountain
+arch deep_sea
 x 46
 y 44
-elevation 5410
+elevation -16325
 end
-arch mountain
+arch deep_sea
 x 46
 y 45
-elevation 6662
+elevation -16065
 end
-arch mountain
+arch deep_sea
 x 46
 y 46
-elevation 6919
+elevation -15805
 end
-arch mountain
+arch deep_sea
 x 46
 y 47
-elevation 6451
+elevation -15546
 end
-arch hills
+arch deep_sea
 x 46
 y 48
-elevation 4190
+elevation -15288
 end
-arch mountain
+arch deep_sea
 x 46
 y 49
-elevation 7179
+elevation -15032
 end
 arch mountain2
 x 47
@@ -11805,110 +12683,118 @@ x 47
 y 28
 elevation 4097
 end
-arch mountain
+arch dun0
+x 47
+y 28
+end
+arch mountain5
 x 47
 y 29
-elevation 5371
+elevation 20619
 end
-arch mountain
+arch s_mountain
 x 47
 y 30
-elevation 5798
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 47
 y 31
-elevation 5766
+elevation 7758
 end
-arch mountain
+arch s_mountain
 x 47
 y 32
-elevation 5655
+elevation 7758
 end
-arch mountain
+arch flagstone
+face snow.111
 x 47
 y 33
-elevation 5039
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 47
 y 34
-elevation 3211
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 47
 y 35
-elevation 3965
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 47
 y 36
-elevation 5712
+elevation 3812
 end
-arch mountain
+arch deep_sea
 x 47
 y 37
-elevation 6471
+elevation -18071
 end
-arch mountain
+arch deep_sea
 x 47
 y 38
-elevation 7270
+elevation -17843
 end
-arch mountain
+arch deep_sea
 x 47
 y 39
-elevation 8390
+elevation -17601
 end
-arch mountain2
+arch deep_sea
 x 47
 y 40
-elevation 9384
+elevation -17348
 end
-arch mountain2
+arch deep_sea
 x 47
 y 41
-elevation 9147
+elevation -17088
 end
-arch mountain
+arch deep_sea
 x 47
 y 42
-elevation 8026
+elevation -16823
 end
-arch mountain
+arch deep_sea
 x 47
 y 43
-elevation 6799
+elevation -16556
 end
-arch mountain
+arch deep_sea
 x 47
 y 44
-elevation 5604
+elevation -16289
 end
-arch mountain
+arch deep_sea
 x 47
 y 45
-elevation 6372
+elevation -16021
 end
-arch mountain
+arch deep_sea
 x 47
 y 46
-elevation 7111
+elevation -15755
 end
-arch mountain
+arch deep_sea
 x 47
 y 47
-elevation 6949
+elevation -15491
 end
-arch mountain
+arch deep_sea
 x 47
 y 48
-elevation 7200
+elevation -15230
 end
-arch mountain
+arch deep_sea
 x 47
 y 49
-elevation 8327
+elevation -14971
 end
 arch mountain2
 x 48
@@ -12054,110 +12940,114 @@ x 48
 y 28
 elevation 4213
 end
-arch hills
+arch dun0
+x 48
+y 28
+end
+arch s_mountain
 x 48
 y 29
-elevation 4850
+elevation 7758
 end
-arch mountain
+arch deep_sea
 x 48
 y 30
-elevation 5466
+elevation -19102
 end
-arch mountain
+arch deep_sea
 x 48
 y 31
-elevation 5260
+elevation -19066
 end
-arch mountain
+arch deep_sea
 x 48
 y 32
-elevation 6476
+elevation -18989
 end
-arch mountain
+arch deep_sea
 x 48
 y 33
-elevation 6714
+elevation -18874
 end
-arch mountain
+arch deep_sea
 x 48
 y 34
-elevation 6412
+elevation -18725
 end
-arch mountain
+arch deep_sea
 x 48
 y 35
-elevation 6275
+elevation -18546
 end
-arch mountain
+arch deep_sea
 x 48
 y 36
-elevation 6498
+elevation -18341
 end
-arch mountain
+arch deep_sea
 x 48
 y 37
-elevation 6672
+elevation -18114
 end
-arch mountain
+arch deep_sea
 x 48
 y 38
-elevation 7054
+elevation -17871
 end
-arch mountain
+arch deep_sea
 x 48
 y 39
-elevation 7611
+elevation -17614
 end
-arch mountain2
+arch deep_sea
 x 48
 y 40
-elevation 9196
+elevation -17347
 end
-arch mountain2
+arch deep_sea
 x 48
 y 41
-elevation 9630
+elevation -17074
 end
-arch mountain
+arch deep_sea
 x 48
 y 42
-elevation 8852
+elevation -16798
 end
-arch mountain
+arch deep_sea
 x 48
 y 43
-elevation 7425
+elevation -16521
 end
-arch mountain
+arch deep_sea
 x 48
 y 44
-elevation 6875
+elevation -16244
 end
-arch mountain
+arch deep_sea
 x 48
 y 45
-elevation 6562
+elevation -15969
 end
-arch mountain
+arch deep_sea
 x 48
 y 46
-elevation 7201
+elevation -15697
 end
-arch mountain
+arch deep_sea
 x 48
 y 47
-elevation 6836
+elevation -15428
 end
-arch mountain
+arch deep_sea
 x 48
 y 48
-elevation 7313
+elevation -15162
 end
-arch mountain
+arch deep_sea
 x 48
 y 49
-elevation 8663
+elevation -14900
 end
 arch mountain
 x 49
@@ -12303,108 +13193,112 @@ x 49
 y 28
 elevation 2916
 end
-arch hills
+arch dun0
+x 49
+y 28
+end
+arch deep_sea
 x 49
 y 29
-elevation 4529
+elevation -19251
 end
-arch mountain
+arch deep_sea
 x 49
 y 30
-elevation 5066
+elevation -19244
 end
-arch mountain
+arch deep_sea
 x 49
 y 31
-elevation 5506
+elevation -19193
 end
-arch mountain
+arch deep_sea
 x 49
 y 32
-elevation 6382
+elevation -19100
 end
-arch mountain
+arch deep_sea
 x 49
 y 33
-elevation 7098
+elevation -18969
 end
-arch mountain
+arch deep_sea
 x 49
 y 34
-elevation 7292
+elevation -18804
 end
-arch mountain
+arch deep_sea
 x 49
 y 35
-elevation 7009
+elevation -18609
 end
-arch mountain
+arch deep_sea
 x 49
 y 36
-elevation 6877
+elevation -18389
 end
-arch mountain
+arch deep_sea
 x 49
 y 37
-elevation 6332
+elevation -18147
 end
-arch hills
+arch deep_sea
 x 49
 y 38
-elevation 4924
+elevation -17889
 end
-arch mountain
+arch deep_sea
 x 49
 y 39
-elevation 6918
+elevation -17618
 end
-arch mountain
+arch deep_sea
 x 49
 y 40
-elevation 8703
+elevation -17338
 end
-arch mountain2
+arch deep_sea
 x 49
 y 41
-elevation 9603
+elevation -17053
 end
-arch mountain2
+arch deep_sea
 x 49
 y 42
-elevation 9318
+elevation -16766
 end
-arch mountain
+arch deep_sea
 x 49
 y 43
-elevation 7616
+elevation -16478
 end
-arch mountain
+arch deep_sea
 x 49
 y 44
-elevation 7860
+elevation -16192
 end
-arch mountain
+arch deep_sea
 x 49
 y 45
-elevation 6439
+elevation -15909
 end
-arch mountain
+arch deep_sea
 x 49
 y 46
-elevation 7477
+elevation -15630
 end
-arch mountain
+arch deep_sea
 x 49
 y 47
-elevation 6905
+elevation -15355
 end
-arch mountain
+arch deep_sea
 x 49
 y 48
-elevation 7287
+elevation -15085
 end
-arch mountain
+arch deep_sea
 x 49
 y 49
-elevation 7621
+elevation -14820
 end

@@ -2,11 +2,15 @@ arch map
 name world_107_112
 width 50
 height 50
+msg
+Modified: 2018-11-27 lx
+endmsg
 outdoor 1
 tile_path_1 world_107_111
 tile_path_2 world_108_112
 tile_path_3 world_107_113
 tile_path_4 world_106_112
+tile_path_5 above_107_112
 end
 arch mountain
 elevation 6687
@@ -4333,7 +4337,7 @@ end
 arch mountain
 x 17
 y 28
-elevation 5783
+elevation 5549
 end
 arch mountain
 x 17
@@ -4582,7 +4586,7 @@ end
 arch mountain
 x 18
 y 28
-elevation 5041
+elevation 5549
 end
 arch hills_rocky
 x 18
@@ -4831,7 +4835,7 @@ end
 arch hills_rocky
 x 19
 y 28
-elevation 3209
+elevation 4319
 end
 arch hills_rocky
 x 19
@@ -5077,10 +5081,10 @@ x 20
 y 27
 elevation 3346
 end
-arch tree
+arch hills_rocky
 x 20
 y 28
-elevation 2882
+elevation 4319
 end
 arch evergreen
 x 20
@@ -5326,10 +5330,10 @@ x 21
 y 27
 elevation 2416
 end
-arch tree
+arch hills_rocky
 x 21
 y 28
-elevation 2220
+elevation 4319
 end
 arch evergreen
 x 21
@@ -5570,15 +5574,15 @@ x 22
 y 26
 elevation 401
 end
-arch woods_2
+arch grass
 x 22
 y 27
-elevation 1882
+elevation 979
 end
-arch woods_2
+arch grass
 x 22
 y 28
-elevation 1694
+elevation 979
 end
 arch brush
 x 22
@@ -5819,15 +5823,15 @@ x 23
 y 26
 elevation 2289
 end
-arch tree
+arch grass
 x 23
 y 27
-elevation 1785
+elevation 979
 end
-arch woods_2
+arch grass
 x 23
 y 28
-elevation 1418
+elevation 979
 end
 arch evergreen
 x 23
@@ -6068,15 +6072,15 @@ x 24
 y 26
 elevation 2376
 end
-arch evergreen
+arch grass
 x 24
 y 27
-elevation 1846
+elevation 979
 end
-arch woods_2
+arch grass
 x 24
 y 28
-elevation 1253
+elevation 979
 end
 arch grass
 x 24
@@ -6317,15 +6321,15 @@ x 25
 y 26
 elevation 1545
 end
-arch woods_2
+arch grass
 x 25
 y 27
-elevation 1552
+elevation 979
 end
-arch evergreen
+arch grass
 x 25
 y 28
-elevation 1144
+elevation 979
 end
 arch brush
 x 25
@@ -6566,15 +6570,15 @@ x 26
 y 26
 elevation 1008
 end
-arch woods_2
+arch grass
 x 26
 y 27
-elevation 1318
+elevation 979
 end
 arch grass
 x 26
 y 28
-elevation 978
+elevation 979
 end
 arch grass
 x 26
@@ -6681,184 +6685,184 @@ x 26
 y 49
 elevation 5994
 end
-arch hills_rocky
+arch sea
 x 27
-elevation 3629
+elevation -4991
 end
-arch hills
+arch sea
 x 27
 y 1
-elevation 4573
+elevation -4991
 end
-arch hills
+arch sea
 x 27
 y 2
-elevation 4859
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 3
-elevation 4751
+elevation -4991
 end
-arch hills
+arch sea
 x 27
 y 4
-elevation 4114
+elevation -4991
 end
-arch woods
+arch sea
 x 27
 y 5
-elevation 2742
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 6
-elevation 3039
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 7
-elevation 3378
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 8
-elevation 4025
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 9
-elevation 4873
+elevation -4991
 end
-arch mountain
+arch sea
 x 27
 y 10
-elevation 5335
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 11
-elevation 4634
+elevation -4991
 end
-arch mountain
+arch sea
 x 27
 y 12
-elevation 5474
+elevation -4991
 end
-arch mountain
+arch sea
 x 27
 y 13
-elevation 5182
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 14
-elevation 4308
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 15
-elevation 3443
+elevation -4991
 end
-arch woods
+arch sea
 x 27
 y 16
-elevation 2871
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 27
 y 17
-elevation 2703
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 27
 y 18
-elevation 2785
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 19
-elevation 3095
+elevation -4991
 end
-arch hills
+arch sea
 x 27
 y 20
-elevation 3386
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 21
-elevation 3549
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 27
 y 22
-elevation 3461
+elevation -4991
 end
-arch hills
+arch sea
 x 27
 y 23
-elevation 3202
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 27
 y 24
-elevation 2419
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 27
 y 25
-elevation 1743
+elevation -4991
 end
-arch tree
+arch sea
 x 27
 y 26
-elevation 2056
+elevation -4991
 end
-arch woods_2
+arch sea
 x 27
 y 27
-elevation 1210
+elevation -4991
 end
-arch grass
+arch sea
 x 27
 y 28
-elevation 546
+elevation -4991
 end
-arch grass
+arch sea
 x 27
 y 29
-elevation 550
+elevation -4991
 end
-arch brush
+arch sea
 x 27
 y 30
-elevation 279
+elevation -4991
 end
-arch grass
+arch sea
 x 27
 y 31
-elevation 767
+elevation -4991
 end
-arch grass
+arch sea
 x 27
 y 32
-elevation 492
+elevation -4991
 end
-arch woods_2
+arch sea
 x 27
 y 33
-elevation 1328
+elevation -4991
 end
-arch woods_2
+arch sea
 x 27
 y 34
-elevation 1579
+elevation -4991
 end
-arch evergreen
+arch sea
 x 27
 y 35
-elevation 1674
+elevation -4991
 end
 arch evergreen
 x 27
@@ -6930,184 +6934,184 @@ x 27
 y 49
 elevation 7003
 end
-arch mountain
+arch sea
 x 28
-elevation 5493
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 1
-elevation 5432
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 2
-elevation 5098
+elevation -4991
 end
-arch hills
+arch sea
 x 28
 y 3
-elevation 4275
+elevation -4991
 end
-arch hills
+arch sea
 x 28
 y 4
-elevation 3810
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 5
-elevation 3354
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 6
-elevation 3605
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 7
-elevation 4123
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 8
-elevation 4838
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 9
-elevation 5439
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 10
-elevation 5540
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 11
-elevation 5124
+elevation -4991
 end
-arch mountain
+arch sea
 x 28
 y 12
-elevation 5368
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 13
-elevation 4888
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 14
-elevation 3796
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 28
 y 15
-elevation 2156
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 28
 y 16
-elevation 1549
+elevation -4991
 end
-arch woods
+arch sea
 x 28
 y 17
-elevation 1011
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 28
 y 18
-elevation 2082
+elevation -4991
 end
-arch woods_2
+arch sea
 x 28
 y 19
-elevation 2917
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 20
-elevation 3511
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 21
-elevation 3826
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 22
-elevation 3681
+elevation -4991
 end
-arch hills
+arch sea
 x 28
 y 23
-elevation 3452
+elevation -4991
 end
-arch hills
+arch sea
 x 28
 y 24
-elevation 3270
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 28
 y 25
-elevation 3151
+elevation -4991
 end
-arch tree
+arch sea
 x 28
 y 26
-elevation 2675
+elevation -4991
 end
-arch tree
+arch sea
 x 28
 y 27
-elevation 2024
+elevation -4991
 end
-arch evergreen
+arch sea
 x 28
 y 28
-elevation 1395
+elevation -4991
 end
-arch grass
+arch sea
 x 28
 y 29
-elevation 979
+elevation -4991
 end
-arch grass
+arch sea
 x 28
 y 30
-elevation 963
+elevation -4991
 end
-arch woods_2
+arch sea
 x 28
 y 31
-elevation 1086
+elevation -4991
 end
-arch woods_2
+arch sea
 x 28
 y 32
-elevation 1396
+elevation -4991
 end
-arch evergreen
+arch sea
 x 28
 y 33
-elevation 1568
+elevation -4991
 end
-arch woods_2
+arch sea
 x 28
 y 34
-elevation 1686
+elevation -4991
 end
-arch evergreen
+arch sea
 x 28
 y 35
-elevation 1705
+elevation -4991
 end
 arch evergreen
 x 28
@@ -7179,184 +7183,184 @@ x 28
 y 49
 elevation 7891
 end
-arch mountain
+arch sea
 x 29
-elevation 5975
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 1
-elevation 5656
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 2
-elevation 4829
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 3
-elevation 3315
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 4
-elevation 3515
+elevation -4991
 end
-arch hills
+arch sea
 x 29
 y 5
-elevation 3585
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 6
-elevation 3727
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 7
-elevation 4334
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 8
-elevation 5016
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 9
-elevation 5602
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 10
-elevation 5740
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 11
-elevation 5584
+elevation -4991
 end
-arch mountain
+arch sea
 x 29
 y 12
-elevation 5143
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 13
-elevation 4413
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 14
-elevation 3261
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 29
 y 15
-elevation 2198
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 29
 y 16
-elevation 1130
+elevation -4991
 end
-arch desert
+arch sea
 x 29
 y 17
-elevation 494
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 29
 y 18
-elevation 1204
+elevation -4991
 end
-arch woods
+arch sea
 x 29
 y 19
-elevation 2780
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 20
-elevation 3622
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 21
-elevation 3961
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 22
-elevation 3640
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 29
 y 23
-elevation 2388
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 24
-elevation 3892
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 25
-elevation 3708
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 29
 y 26
-elevation 3098
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 27
-elevation 2361
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 28
-elevation 1716
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 29
-elevation 1271
+elevation -4991
 end
-arch woods_2
+arch sea
 x 29
 y 30
-elevation 1019
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 31
-elevation 1392
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 32
-elevation 1619
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 33
-elevation 1508
+elevation -4991
 end
-arch woods_2
+arch sea
 x 29
 y 34
-elevation 1181
+elevation -4991
 end
-arch evergreen
+arch sea
 x 29
 y 35
-elevation 1240
+elevation -4991
 end
 arch evergreen
 x 29
@@ -7428,184 +7432,184 @@ x 29
 y 49
 elevation 8051
 end
-arch mountain
+arch sea
 x 30
-elevation 5453
+elevation -4991
 end
-arch mountain
+arch sea
 x 30
 y 1
-elevation 5107
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 2
-elevation 4199
+elevation -4991
 end
-arch hills
+arch sea
 x 30
 y 3
-elevation 2881
+elevation -4991
 end
-arch hills
+arch sea
 x 30
 y 4
-elevation 3202
+elevation -4991
 end
-arch hills
+arch sea
 x 30
 y 5
-elevation 3359
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 6
-elevation 3490
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 7
-elevation 3982
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 8
-elevation 4791
+elevation -4991
 end
-arch mountain
+arch sea
 x 30
 y 9
-elevation 5476
+elevation -4991
 end
-arch mountain
+arch sea
 x 30
 y 10
-elevation 5614
+elevation -4991
 end
-arch mountain
+arch sea
 x 30
 y 11
-elevation 5294
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 12
-elevation 4560
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 13
-elevation 3633
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 14
-elevation 3015
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 30
 y 15
-elevation 2243
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 30
 y 16
-elevation 1422
+elevation -4991
 end
-arch tree
+arch sea
 x 30
 y 17
-elevation 1364
+elevation -4991
 end
-arch woods
+arch sea
 x 30
 y 18
-elevation 2025
+elevation -4991
 end
-arch woods
+arch sea
 x 30
 y 19
-elevation 2996
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 20
-elevation 3280
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 21
-elevation 4487
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 22
-elevation 4592
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 23
-elevation 4530
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 24
-elevation 4195
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 25
-elevation 3714
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 30
 y 26
-elevation 3020
+elevation -4991
 end
-arch evergreen
+arch sea
 x 30
 y 27
-elevation 2224
+elevation -4991
 end
-arch tree
+arch sea
 x 30
 y 28
-elevation 1437
+elevation -4991
 end
-arch evergreen
+arch sea
 x 30
 y 29
-elevation 1305
+elevation -4991
 end
-arch woods_2
+arch sea
 x 30
 y 30
-elevation 1192
+elevation -4991
 end
-arch woods_2
+arch sea
 x 30
 y 31
-elevation 1242
+elevation -4991
 end
-arch evergreen
+arch sea
 x 30
 y 32
-elevation 1464
+elevation -4991
 end
-arch evergreen
+arch sea
 x 30
 y 33
-elevation 1318
+elevation -4991
 end
-arch desert
+arch sea
 x 30
 y 34
-elevation 177
+elevation -4991
 end
-arch grass
+arch sea
 x 30
 y 35
-elevation 904
+elevation -4991
 end
 arch grass
 x 30
@@ -7677,184 +7681,184 @@ x 30
 y 49
 elevation 7512
 end
-arch hills
+arch sea
 x 31
-elevation 4121
+elevation -4991
 end
-arch hills
+arch sea
 x 31
 y 1
-elevation 3968
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 2
-elevation 3408
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 31
 y 3
-elevation 2404
+elevation -4991
 end
-arch hills
+arch sea
 x 31
 y 4
-elevation 2998
+elevation -4991
 end
-arch hills
+arch sea
 x 31
 y 5
-elevation 3190
+elevation -4991
 end
-arch woods
+arch sea
 x 31
 y 6
-elevation 2396
+elevation -4991
 end
-arch woods
+arch sea
 x 31
 y 7
-elevation 2521
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 8
-elevation 4545
+elevation -4991
 end
-arch mountain
+arch sea
 x 31
 y 9
-elevation 5071
+elevation -4991
 end
-arch mountain
+arch sea
 x 31
 y 10
-elevation 5142
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 11
-elevation 4772
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 12
-elevation 3906
+elevation -4991
 end
-arch woods
+arch sea
 x 31
 y 13
-elevation 2548
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 31
 y 14
-elevation 2768
+elevation -4991
 end
-arch jungle_1
+arch sea
 x 31
 y 15
-elevation 2506
+elevation -4991
 end
-arch woods
+arch sea
 x 31
 y 16
-elevation 1252
+elevation -4991
 end
-arch tree
+arch sea
 x 31
 y 17
-elevation 1297
+elevation -4991
 end
-arch woods
+arch sea
 x 31
 y 18
-elevation 1983
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 19
-elevation 3611
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 20
-elevation 4554
+elevation -4991
 end
-arch mountain
+arch sea
 x 31
 y 21
-elevation 5227
+elevation -4991
 end
-arch mountain
+arch sea
 x 31
 y 22
-elevation 5452
+elevation -4991
 end
-arch mountain
+arch sea
 x 31
 y 23
-elevation 5157
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 24
-elevation 4389
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 31
 y 25
-elevation 3254
+elevation -4991
 end
-arch tree
+arch sea
 x 31
 y 26
-elevation 2749
+elevation -4991
 end
-arch tree
+arch sea
 x 31
 y 27
-elevation 2076
+elevation -4991
 end
-arch evergreen
+arch sea
 x 31
 y 28
-elevation 1448
+elevation -4991
 end
-arch grass
+arch sea
 x 31
 y 29
-elevation 962
+elevation -4991
 end
-arch brush
+arch sea
 x 31
 y 30
-elevation 697
+elevation -4991
 end
-arch grass
+arch sea
 x 31
 y 31
-elevation 896
+elevation -4991
 end
-arch evergreen
+arch sea
 x 31
 y 32
-elevation 1072
+elevation -4991
 end
-arch evergreen
+arch sea
 x 31
 y 33
-elevation 1100
+elevation -4991
 end
-arch tree
+arch sea
 x 31
 y 34
-elevation 1132
+elevation -4991
 end
-arch grass
+arch sea
 x 31
 y 35
-elevation 848
+elevation -4991
 end
 arch grass
 x 31
@@ -7926,184 +7930,215 @@ x 31
 y 49
 elevation 6636
 end
-arch jungle_1
+arch flagstone
+face snow.111
 x 32
-elevation 1763
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 1
-elevation 3041
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 32
 y 2
-elevation 2445
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 3
-elevation 3004
+elevation 3812
 end
-arch hills
+arch flagstone
+face snow.111
 x 32
 y 4
-elevation 2071
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 5
-elevation 3276
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 6
-elevation 3567
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 7
-elevation 3900
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 8
-elevation 4249
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 9
-elevation 4500
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 10
-elevation 4362
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 11
-elevation 4087
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 12
-elevation 3304
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 32
 y 13
-elevation 1967
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 14
-elevation 3074
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 32
 y 15
-elevation 2950
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
 x 32
 y 16
-elevation 2886
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 17
-elevation 3053
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 18
-elevation 3629
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 19
-elevation 3880
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 20
-elevation 5273
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 21
-elevation 5841
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 22
-elevation 5804
+elevation 3812
 end
-arch mountain
+arch flagstone
+face snow.111
 x 32
 y 23
-elevation 5272
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
 x 32
 y 24
-elevation 4226
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
 x 32
 y 25
-elevation 2623
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
 x 32
 y 26
-elevation 2426
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
 x 32
 y 27
-elevation 1917
+elevation 3812
 end
-arch brush
+arch flagstone
+face snow.111
 x 32
 y 28
-elevation 570
+elevation 3812
 end
-arch grass
+arch flagstone
+face snow.111
 x 32
 y 29
-elevation 515
+elevation 3812
 end
-arch brush
+arch flagstone
+face snow.111
 x 32
 y 30
-elevation 124
+elevation 3812
 end
-arch brush
+arch sea
 x 32
 y 31
-elevation 538
+elevation -4991
 end
-arch grass
+arch sea
 x 32
 y 32
-elevation 238
+elevation -4991
 end
-arch brush
+arch sea
 x 32
 y 33
-elevation 957
+elevation -4991
 end
-arch woods_2
+arch sea
 x 32
 y 34
-elevation 1186
+elevation -4991
 end
-arch evergreen
+arch sea
 x 32
 y 35
-elevation 1123
+elevation -4991
 end
 arch grass
 x 32
@@ -8175,184 +8210,334 @@ x 32
 y 49
 elevation 5512
 end
-arch jungle_1
+arch flagstone
+face snow.111
 x 33
-elevation 2370
+elevation 3812
 end
-arch hills
+arch icecave1
+x 33
+end
+arch flagstone
+face snow.111
 x 33
 y 1
-elevation 2983
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 1
+end
+arch flagstone
+face snow.111
 x 33
 y 2
-elevation 3479
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 2
+end
+arch flagstone
+face snow.111
 x 33
 y 3
-elevation 3447
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 3
+end
+arch flagstone
+face snow.111
 x 33
 y 4
-elevation 3390
+elevation 3812
 end
-arch hills
+arch icecave1
+x 33
+y 4
+end
+arch flagstone
+face snow.111
 x 33
 y 5
-elevation 3464
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 5
+end
+arch flagstone
+face snow.111
 x 33
 y 6
-elevation 3829
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 6
+end
+arch flagstone
+face snow.111
 x 33
 y 7
-elevation 4132
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 7
+end
+arch flagstone
+face snow.111
 x 33
 y 8
-elevation 4209
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 8
+end
+arch flagstone
+face snow.111
 x 33
 y 9
-elevation 3424
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 9
+end
+arch flagstone
+face snow.111
 x 33
 y 10
-elevation 3269
+elevation 3812
 end
-arch jungle_1
+arch icecave1
+x 33
+y 10
+end
+arch flagstone
+face snow.111
 x 33
 y 11
-elevation 2828
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 11
+end
+arch flagstone
+face snow.111
 x 33
 y 12
-elevation 3492
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 12
+end
+arch flagstone
+face snow.111
 x 33
 y 13
-elevation 3681
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 13
+end
+arch flagstone
+face snow.111
 x 33
 y 14
-elevation 3873
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 14
+end
+arch flagstone
+face snow.111
 x 33
 y 15
-elevation 3750
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 15
+end
+arch flagstone
+face snow.111
 x 33
 y 16
-elevation 3524
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 16
+end
+arch flagstone
+face snow.111
 x 33
 y 17
-elevation 4069
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 17
+end
+arch flagstone
+face snow.111
 x 33
 y 18
-elevation 4469
+elevation 3812
 end
-arch mountain
+arch icecave1
+x 33
+y 18
+end
+arch flagstone
+face snow.111
 x 33
 y 19
-elevation 5033
+elevation 3812
 end
-arch mountain
+arch icecave1
+x 33
+y 19
+end
+arch flagstone
+face snow.111
 x 33
 y 20
-elevation 5626
+elevation 3812
 end
-arch mountain
+arch icecave1
+x 33
+y 20
+end
+arch flagstone
+face snow.111
 x 33
 y 21
-elevation 5977
+elevation 3812
 end
-arch mountain
+arch icecave1
+x 33
+y 21
+end
+arch flagstone
+face snow.111
 x 33
 y 22
-elevation 5782
+elevation 3812
 end
-arch mountain
+arch icecave1
+x 33
+y 22
+end
+arch flagstone
+face snow.111
 x 33
 y 23
-elevation 5070
+elevation 3812
 end
-arch hills_rocky
+arch icecave1
+x 33
+y 23
+end
+arch flagstone
+face snow.111
 x 33
 y 24
-elevation 3915
+elevation 3812
 end
-arch tree
+arch icecave1
+x 33
+y 24
+end
+arch flagstone
+face snow.111
 x 33
 y 25
-elevation 2331
+elevation 3812
 end
-arch evergreen
+arch icecave1
+x 33
+y 25
+end
+arch flagstone
+face snow.111
 x 33
 y 26
-elevation 1975
+elevation 3812
 end
-arch tree
+arch icecave1
+x 33
+y 26
+end
+arch flagstone
+face snow.111
 x 33
 y 27
-elevation 1755
+elevation 3812
 end
-arch tree
+arch icecave1
+x 33
+y 27
+end
+arch flagstone
+face snow.111
 x 33
 y 28
-elevation 1254
+elevation 3812
 end
-arch brush
+arch icecave1
+x 33
+y 28
+end
+arch flagstone
+face snow.111
 x 33
 y 29
-elevation 682
+elevation 3812
 end
-arch brush
+arch icecave10
+x 33
+y 29
+end
+arch flagstone
+face snow.111
 x 33
 y 30
-elevation 238
+elevation 3812
 end
-arch grass
+arch sea
 x 33
 y 31
-elevation 352
+elevation -4991
 end
-arch grass
+arch sea
 x 33
 y 32
-elevation 652
+elevation -4991
 end
-arch brush
+arch sea
 x 33
 y 33
-elevation 651
+elevation -4991
 end
-arch evergreen
+arch sea
 x 33
 y 34
-elevation 1007
+elevation -4991
 end
-arch evergreen
+arch sea
 x 33
 y 35
-elevation 1293
+elevation -4991
 end
 arch evergreen
 x 33
@@ -8428,180 +8613,307 @@ arch woods
 x 34
 elevation 2223
 end
+arch dun0
+x 34
+end
 arch hills
 x 34
 y 1
 elevation 3411
+end
+arch dun0
+x 34
+y 1
 end
 arch hills
 x 34
 y 2
 elevation 4025
 end
+arch dun0
+x 34
+y 2
+end
 arch hills_rocky
 x 34
 y 3
 elevation 4141
+end
+arch dun0
+x 34
+y 3
 end
 arch hills
 x 34
 y 4
 elevation 3797
 end
+arch dun0
+x 34
+y 4
+end
 arch hills_rocky
 x 34
 y 5
 elevation 3176
+end
+arch dun0
+x 34
+y 5
 end
 arch hills_rocky
 x 34
 y 6
 elevation 3256
 end
+arch dun0
+x 34
+y 6
+end
 arch hills_rocky
 x 34
 y 7
 elevation 3897
+end
+arch dun0
+x 34
+y 7
 end
 arch hills
 x 34
 y 8
 elevation 4048
 end
+arch dun0
+x 34
+y 8
+end
 arch hills_rocky
 x 34
 y 9
 elevation 3582
+end
+arch dun0
+x 34
+y 9
 end
 arch hills_rocky
 x 34
 y 10
 elevation 3001
 end
+arch dun0
+x 34
+y 10
+end
 arch hills_rocky
 x 34
 y 11
 elevation 3142
+end
+arch dun0
+x 34
+y 11
 end
 arch hills_rocky
 x 34
 y 12
 elevation 3607
 end
+arch dun0
+x 34
+y 12
+end
 arch hills_rocky
 x 34
 y 13
 elevation 4210
+end
+arch dun0
+x 34
+y 13
 end
 arch hills_rocky
 x 34
 y 14
 elevation 4558
 end
+arch dun0
+x 34
+y 14
+end
 arch hills_rocky
 x 34
 y 15
 elevation 4521
+end
+arch dun0
+x 34
+y 15
 end
 arch hills_rocky
 x 34
 y 16
 elevation 4351
 end
+arch dun0
+x 34
+y 16
+end
 arch hills_rocky
 x 34
 y 17
 elevation 4256
+end
+arch dun0
+x 34
+y 17
 end
 arch hills_rocky
 x 34
 y 18
 elevation 4509
 end
+arch dun0
+x 34
+y 18
+end
 arch mountain
 x 34
 y 19
 elevation 5116
+end
+arch dun0
+x 34
+y 19
 end
 arch mountain
 x 34
 y 20
 elevation 5680
 end
+arch dun0
+x 34
+y 20
+end
 arch mountain
 x 34
 y 21
 elevation 5678
+end
+arch dun0
+x 34
+y 21
 end
 arch mountain
 x 34
 y 22
 elevation 5097
 end
+arch dun0
+x 34
+y 22
+end
 arch hills_rocky
 x 34
 y 23
 elevation 4272
+end
+arch dun0
+x 34
+y 23
 end
 arch hills_rocky
 x 34
 y 24
 elevation 3230
 end
+arch dun0
+x 34
+y 24
+end
 arch jungle_1
 x 34
 y 25
 elevation 2299
+end
+arch dun0
+x 34
+y 25
 end
 arch evergreen
 x 34
 y 26
 elevation 1800
 end
-arch evergreen
+arch dun0
+x 34
+y 26
+end
+arch grass
 x 34
 y 27
-elevation 1466
+elevation 304
 end
-arch tree
+arch dun0
+x 34
+y 27
+end
+arch brush
 x 34
 y 28
-elevation 1213
+elevation 979
 end
-arch brush
+arch dun0
+x 34
+y 28
+end
+arch flagstone
+face snow.111
 x 34
 y 29
-elevation 864
+elevation 3812
 end
-arch grass
+arch flagstone
+face snow.111
+x 34
+y 29
+elevation 3812
+end
+arch icecave4
+x 34
+y 29
+end
+arch flagstone
+face snow.111
 x 34
 y 30
-elevation 351
+elevation 3812
 end
-arch brush
+arch sea
 x 34
 y 31
-elevation 726
+elevation -4991
 end
-arch grass
+arch sea
 x 34
 y 32
-elevation 941
+elevation -4991
 end
-arch evergreen
+arch sea
 x 34
 y 33
-elevation 1028
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 34
 y 34
-elevation 1114
+elevation -4991
 end
-arch evergreen
+arch sea
 x 34
 y 35
-elevation 1323
+elevation -4991
 end
 arch evergreen
 x 34
@@ -8807,50 +9119,62 @@ x 35
 y 26
 elevation 794
 end
-arch grass
-x 35
-y 27
-elevation 987
-end
-arch grass
+arch flagstone
+face snow.111
 x 35
 y 28
-elevation 778
+elevation 3812
 end
-arch evergreen
+arch dun0
+x 35
+y 28
+end
+arch flagstone
+face snow.111
 x 35
 y 29
-elevation 1091
+elevation 3812
 end
-arch evergreen
+arch flagstone
+face snow.111
+x 35
+y 29
+elevation 3812
+end
+arch icecave4
+x 35
+y 29
+end
+arch flagstone
+face snow.111
 x 35
 y 30
-elevation 1209
+elevation 3812
 end
-arch evergreen
+arch sea
 x 35
 y 31
-elevation 1303
+elevation -4991
 end
-arch tree
+arch sea
 x 35
 y 32
-elevation 1337
+elevation -4991
 end
-arch woods_2
+arch sea
 x 35
 y 33
-elevation 1066
+elevation -4991
 end
-arch evergreen
+arch sea
 x 35
 y 34
-elevation 1016
+elevation -4991
 end
-arch evergreen
+arch sea
 x 35
 y 35
-elevation 1060
+elevation -4991
 end
 arch evergreen
 x 35
@@ -9056,50 +9380,62 @@ x 36
 y 26
 elevation 655
 end
-arch grass
-x 36
-y 27
-elevation 304
-end
-arch brush
+arch flagstone
+face snow.111
 x 36
 y 28
-elevation 979
+elevation 3812
 end
-arch evergreen
+arch dun0
+x 36
+y 28
+end
+arch flagstone
+face snow.111
 x 36
 y 29
-elevation 1443
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
+x 36
+y 29
+elevation 3812
+end
+arch icecave4
+x 36
+y 29
+end
+arch flagstone
+face snow.111
 x 36
 y 30
-elevation 1770
+elevation 3812
 end
-arch evergreen
+arch sea
 x 36
 y 31
-elevation 1801
+elevation -4991
 end
-arch tree
+arch sea
 x 36
 y 32
-elevation 1718
+elevation -4991
 end
-arch tree
+arch sea
 x 36
 y 33
-elevation 1425
+elevation -4991
 end
-arch evergreen
+arch sea
 x 36
 y 34
-elevation 1055
+elevation -4991
 end
-arch evergreen
+arch sea
 x 36
 y 35
-elevation 1293
+elevation -4991
 end
 arch evergreen
 x 36
@@ -9315,40 +9651,56 @@ x 37
 y 28
 elevation 924
 end
-arch evergreen
+arch dun0
+x 37
+y 28
+end
+arch flagstone
+face snow.111
 x 37
 y 29
-elevation 1852
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
+x 37
+y 29
+elevation 3812
+end
+arch icecave4
+x 37
+y 29
+end
+arch flagstone
+face snow.111
 x 37
 y 30
-elevation 2168
+elevation 3812
 end
-arch woods_2
+arch sea
 x 37
 y 31
-elevation 2214
+elevation -4991
 end
-arch evergreen
+arch sea
 x 37
 y 32
-elevation 2003
+elevation -4991
 end
-arch evergreen
+arch sea
 x 37
 y 33
-elevation 1645
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 37
 y 34
-elevation 1248
+elevation -4991
 end
-arch grass
+arch sea
 x 37
 y 35
-elevation 902
+elevation -4991
 end
 arch evergreen
 x 37
@@ -9559,45 +9911,57 @@ x 38
 y 27
 elevation 1716
 end
-arch evergreen
+arch dun0
 x 38
 y 28
 elevation 1835
 end
-arch evergreen
+arch flagstone
+face snow.111
 x 38
 y 29
-elevation 2152
+elevation 3812
 end
-arch evergreen
+arch flagstone
+face snow.111
+x 38
+y 29
+elevation 3812
+end
+arch icecave4
+x 38
+y 29
+end
+arch flagstone
+face snow.111
 x 38
 y 30
-elevation 2290
+elevation 3812
 end
-arch evergreen
+arch sea
 x 38
 y 31
-elevation 2201
+elevation -4991
 end
-arch evergreen
+arch sea
 x 38
 y 32
-elevation 2204
+elevation -4991
 end
-arch evergreen
+arch sea
 x 38
 y 33
-elevation 1785
+elevation -4991
 end
-arch grass
+arch sea
 x 38
 y 34
-elevation 994
+elevation -4991
 end
-arch grass
+arch sea
 x 38
 y 35
-elevation 480
+elevation -4991
 end
 arch evergreen
 x 38
@@ -9813,40 +10177,56 @@ x 39
 y 28
 elevation 2584
 end
-arch evergreen
+arch dun0
+x 39
+y 28
+end
+arch flagstone
+face snow.111
 x 39
 y 29
-elevation 2544
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
+x 39
+y 29
+elevation 3812
+end
+arch icecave4
+x 39
+y 29
+end
+arch flagstone
+face snow.111
 x 39
 y 30
-elevation 1669
+elevation 3812
 end
-arch tree
+arch sea
 x 39
 y 31
-elevation 2189
+elevation -4991
 end
-arch tree
+arch sea
 x 39
 y 32
-elevation 2591
+elevation -4991
 end
-arch evergreen
+arch sea
 x 39
 y 33
-elevation 2243
+elevation -4991
 end
-arch grass
+arch sea
 x 39
 y 34
-elevation 479
+elevation -4991
 end
-arch grass
+arch sea
 x 39
 y 35
-elevation 760
+elevation -4991
 end
 arch evergreen
 x 39
@@ -10062,40 +10442,56 @@ x 40
 y 28
 elevation 3154
 end
-arch hills_rocky
+arch dun0
+x 40
+y 28
+end
+arch flagstone
+face snow.111
 x 40
 y 29
-elevation 3064
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
+x 40
+y 29
+elevation 3812
+end
+arch icecave4
+x 40
+y 29
+end
+arch flagstone
+face snow.111
 x 40
 y 30
-elevation 2747
+elevation 3812
 end
-arch evergreen
+arch sea
 x 40
 y 31
-elevation 2780
+elevation -4991
 end
-arch evergreen
+arch sea
 x 40
 y 32
-elevation 2946
+elevation -4991
 end
-arch evergreen
+arch sea
 x 40
 y 33
-elevation 2937
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 40
 y 34
-elevation 2466
+elevation -4991
 end
-arch evergreen
+arch sea
 x 40
 y 35
-elevation 1988
+elevation -4991
 end
 arch evergreen
 x 40
@@ -10311,40 +10707,56 @@ x 41
 y 28
 elevation 3868
 end
-arch hills_rocky
+arch dun0
+x 41
+y 28
+end
+arch flagstone
+face snow.111
 x 41
 y 29
-elevation 3949
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 41
+y 29
+elevation 3812
+end
+arch icecave4
+x 41
+y 29
+end
+arch flagstone
+face snow.111
 x 41
 y 30
-elevation 3637
+elevation 3812
 end
-arch woods_2
+arch sea
 x 41
 y 31
-elevation 2043
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 41
 y 32
-elevation 3368
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 41
 y 33
-elevation 3485
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 41
 y 34
-elevation 3083
+elevation -4991
 end
-arch evergreen
+arch sea
 x 41
 y 35
-elevation 2495
+elevation -4991
 end
 arch evergreen
 x 41
@@ -10560,40 +10972,56 @@ x 42
 y 28
 elevation 4063
 end
-arch hills_rocky
+arch dun0
+x 42
+y 28
+end
+arch flagstone
+face snow.111
 x 42
 y 29
-elevation 4715
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 42
+y 29
+elevation 3812
+end
+arch icecave4
+x 42
+y 29
+end
+arch flagstone
+face snow.111
 x 42
 y 30
-elevation 4395
+elevation 3812
 end
-arch hills_rocky
+arch sea
 x 42
 y 31
-elevation 3792
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 42
 y 32
-elevation 3590
+elevation -4991
 end
-arch steppe
+arch sea
 x 42
 y 33
-elevation 3447
+elevation -4991
 end
-arch evergreen
+arch sea
 x 42
 y 34
-elevation 2933
+elevation -4991
 end
-arch evergreen
+arch sea
 x 42
 y 35
-elevation 2179
+elevation -4991
 end
 arch evergreen
 x 42
@@ -10809,40 +11237,50 @@ x 43
 y 28
 elevation 5393
 end
-arch mountain
+arch dun0
+x 43
+y 28
+end
+arch flagstone
+face snow.111
 x 43
 y 29
-elevation 5175
+elevation 3812
 end
-arch hills_rocky
+arch icecave4
+x 43
+y 29
+end
+arch flagstone
+face snow.111
 x 43
 y 30
-elevation 4933
+elevation 3812
 end
-arch hills_rocky
+arch sea
 x 43
 y 31
-elevation 4421
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 43
 y 32
-elevation 3616
+elevation -4991
 end
-arch evergreens
+arch sea
 x 43
 y 33
-elevation 2831
+elevation -4991
 end
-arch evergreens
+arch sea
 x 43
 y 34
-elevation 2737
+elevation -4991
 end
-arch evergreen
+arch sea
 x 43
 y 35
-elevation 1580
+elevation -4991
 end
 arch grass
 x 43
@@ -11058,40 +11496,56 @@ x 44
 y 28
 elevation 5806
 end
-arch mountain
+arch dun0
+x 44
+y 28
+end
+arch flagstone
+face snow.111
 x 44
 y 29
-elevation 5312
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 44
+y 29
+elevation 3812
+end
+arch icecave4
+x 44
+y 29
+end
+arch flagstone
+face snow.111
 x 44
 y 30
-elevation 4810
+elevation 3812
 end
-arch steppe
+arch sea
 x 44
 y 31
-elevation 4299
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 44
 y 32
-elevation 3751
+elevation -4991
 end
-arch steppe
+arch sea
 x 44
 y 33
-elevation 3211
+elevation -4991
 end
-arch evergreens
+arch sea
 x 44
 y 34
-elevation 2793
+elevation -4991
 end
-arch woods
+arch sea
 x 44
 y 35
-elevation 2251
+elevation -4991
 end
 arch woods
 x 44
@@ -11307,40 +11761,56 @@ x 45
 y 28
 elevation 5293
 end
-arch steppe
+arch dun0
+x 45
+y 28
+end
+arch flagstone
+face snow.111
 x 45
 y 29
-elevation 4543
+elevation 3812
 end
-arch hills_rocky
+arch flagstone
+face snow.111
+x 45
+y 29
+elevation 3812
+end
+arch icecave4
+x 45
+y 29
+end
+arch flagstone
+face snow.111
 x 45
 y 30
-elevation 4015
+elevation 3812
 end
-arch hills_rocky
+arch sea
 x 45
 y 31
-elevation 3458
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 45
 y 32
-elevation 3628
+elevation -4991
 end
-arch steppe
+arch sea
 x 45
 y 33
-elevation 3467
+elevation -4991
 end
-arch steppe
+arch sea
 x 45
 y 34
-elevation 3144
+elevation -4991
 end
-arch evergreen
+arch sea
 x 45
 y 35
-elevation 2714
+elevation -4991
 end
 arch tree
 x 45
@@ -11556,40 +12026,56 @@ x 46
 y 28
 elevation 4133
 end
-arch tree
+arch dun0
+x 46
+y 28
+end
+arch flagstone
+face snow.111
 x 46
 y 29
-elevation 2921
+elevation 3812
 end
-arch tree
+arch flagstone
+face snow.111
+x 46
+y 29
+elevation 3812
+end
+arch icecave4
+x 46
+y 29
+end
+arch flagstone
+face snow.111
 x 46
 y 30
-elevation 2293
+elevation 3812
 end
-arch steppe
+arch sea
 x 46
 y 31
-elevation 3177
+elevation -4991
 end
-arch steppe
+arch sea
 x 46
 y 32
-elevation 3128
+elevation -4991
 end
-arch steppe
+arch sea
 x 46
 y 33
-elevation 3560
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 46
 y 34
-elevation 3440
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 46
 y 35
-elevation 3020
+elevation -4991
 end
 arch woods
 x 46
@@ -11805,40 +12291,56 @@ x 47
 y 28
 elevation 4133
 end
-arch woods
+arch dun0
+x 47
+y 28
+end
+arch flagstone
+face snow.111
 x 47
 y 29
-elevation 2655
+elevation 3812
 end
-arch evergreen
+arch flagstone
+face snow.111
+x 47
+y 29
+elevation 3812
+end
+arch icecave4
+x 47
+y 29
+end
+arch flagstone
+face snow.111
 x 47
 y 30
-elevation 2403
+elevation 3812
 end
-arch steppe
+arch sea
 x 47
 y 31
-elevation 3009
+elevation -4991
 end
-arch steppe
+arch sea
 x 47
 y 32
-elevation 3183
+elevation -4991
 end
-arch steppe
+arch sea
 x 47
 y 33
-elevation 3570
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 47
 y 34
-elevation 3504
+elevation -4991
 end
-arch steppe
+arch sea
 x 47
 y 35
-elevation 3123
+elevation -4991
 end
 arch woods
 x 47
@@ -12054,40 +12556,56 @@ x 48
 y 28
 elevation 3924
 end
-arch woods
+arch dun0
+x 48
+y 28
+end
+arch flagstone
+face snow.111
 x 48
 y 29
-elevation 2088
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
+x 48
+y 29
+elevation 3812
+end
+arch icecave4
+x 48
+y 29
+end
+arch flagstone
+face snow.111
 x 48
 y 30
-elevation 2743
+elevation 3812
 end
-arch steppe
+arch sea
 x 48
 y 31
-elevation 3254
+elevation -4991
 end
-arch steppe
+arch sea
 x 48
 y 32
-elevation 3626
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 48
 y 33
-elevation 3737
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 48
 y 34
-elevation 3244
+elevation -4991
 end
-arch steppe
+arch sea
 x 48
 y 35
-elevation 3301
+elevation -4991
 end
 arch evergreen
 x 48
@@ -12303,40 +12821,56 @@ x 49
 y 28
 elevation 4440
 end
-arch evergreen
+arch dun0
+x 49
+y 28
+end
+arch flagstone
+face snow.111
 x 49
 y 29
-elevation 2328
+elevation 3812
 end
-arch woods
+arch flagstone
+face snow.111
+x 49
+y 29
+elevation 3812
+end
+arch icecave4
+x 49
+y 29
+end
+arch flagstone
+face snow.111
 x 49
 y 30
-elevation 2724
+elevation 3812
 end
-arch hills_rocky
+arch sea
 x 49
 y 31
-elevation 3412
+elevation -4991
 end
-arch steppe
+arch sea
 x 49
 y 32
-elevation 4334
+elevation -4991
 end
-arch steppe
+arch sea
 x 49
 y 33
-elevation 3322
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 49
 y 34
-elevation 4012
+elevation -4991
 end
-arch hills_rocky
+arch sea
 x 49
 y 35
-elevation 3619
+elevation -4991
 end
 arch steppe
 x 49
