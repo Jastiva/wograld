@@ -44,9 +44,6 @@ awall_w_1.114
 awall_w_1.115
 awall_w_1.116
 awall_w_1.117
-awall_w_1.118
-awall_w_1.119
-awall_w_1.11A
 mina
 is_animated 0
 tear_down 1
