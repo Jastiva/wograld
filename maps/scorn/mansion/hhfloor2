@@ -4,7 +4,7 @@ width 26
 height 20
 msg
 Created:  2018-12-03 lori
-Modified: 2018-12-03 lori
+Modified: 2018-12-04 lori
 endmsg
 end
 arch purplebrick
@@ -108,10 +108,7 @@ end
 arch purbrick_wall1
 y 17
 end
-arch lostlabfloor14
-y 18
-end
-arch purbrick_wall1
+arch purplebrick
 y 18
 end
 arch purplebrick
@@ -199,11 +196,7 @@ arch lostlabfloor14
 x 1
 y 18
 end
-arch lostlabfloor14
-x 1
-y 19
-end
-arch purbrick_wall2
+arch purplebrick
 x 1
 y 19
 end
@@ -218,6 +211,9 @@ x 2
 y 1
 end
 arch stair_up_2
+slaying hhfloor3
+hp 2
+sp 1
 x 2
 y 1
 end
