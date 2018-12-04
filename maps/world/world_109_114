@@ -2,6 +2,9 @@ arch map
 name world_109_114
 width 50
 height 50
+msg
+Modified: 2018-12-03 lori
+endmsg
 outdoor 1
 tile_path_1 world_109_113
 tile_path_2 world_110_114
@@ -103,15 +106,15 @@ arch mountain
 y 23
 elevation 7947
 end
-arch mountain2
+arch bosgrass
 y 24
 elevation 9818
 end
-arch mountain2
+arch bosgrass
 y 25
 elevation 10945
 end
-arch mountain2
+arch bosgrass
 y 26
 elevation 11969
 end
@@ -123,7 +126,7 @@ arch mountain
 y 28
 elevation 8515
 end
-arch mountain2
+arch bosgrass
 y 29
 elevation 9220
 end
@@ -131,11 +134,11 @@ arch mountain
 y 30
 elevation 5122
 end
-arch mountain
+arch bosgrass
 y 31
 elevation 7091
 end
-arch mountain
+arch bosgrass
 y 32
 elevation 7333
 end
@@ -155,11 +158,11 @@ arch mountain
 y 36
 elevation 5353
 end
-arch steppe
+arch bosgrass
 y 37
 elevation 3703
 end
-arch steppe
+arch bosgrass
 y 38
 elevation 3017
 end
@@ -171,19 +174,19 @@ arch tree
 y 40
 elevation 1923
 end
-arch woods_2
+arch bosgrass2
 y 41
 elevation 1923
 end
-arch steppe
+arch bosgrass
 y 42
 elevation 3334
 end
-arch steppe
+arch bosgrass
 y 43
 elevation 3726
 end
-arch steppe
+arch bosgrass
 y 44
 elevation 3843
 end
@@ -203,7 +206,7 @@ arch mountain
 y 48
 elevation 6167
 end
-arch hills
+arch bosgrass
 y 49
 elevation 4336
 end
@@ -241,12 +244,12 @@ x 1
 y 6
 elevation 7331
 end
-arch mountain
+arch bosgrass2
 x 1
 y 7
 elevation 8066
 end
-arch mountain
+arch bosgrass2
 x 1
 y 8
 elevation 8893
@@ -256,12 +259,12 @@ x 1
 y 9
 elevation 9694
 end
-arch mountain2
+arch bosgrass
 x 1
 y 10
 elevation 9606
 end
-arch mountain
+arch bosgrass2
 x 1
 y 11
 elevation 8546
@@ -326,32 +329,32 @@ x 1
 y 23
 elevation 7148
 end
-arch mountain
+arch bosgrass
 x 1
 y 24
 elevation 8172
 end
-arch mountain
+arch bosgrass
 x 1
 y 25
 elevation 8171
 end
-arch mountain2
+arch bosgrass
 x 1
 y 26
 elevation 9696
 end
-arch mountain2
+arch bosgrass
 x 1
 y 27
 elevation 10215
 end
-arch mountain2
+arch bosgrass
 x 1
 y 28
 elevation 9796
 end
-arch mountain
+arch bosgrass
 x 1
 y 29
 elevation 8542
@@ -361,37 +364,37 @@ x 1
 y 30
 elevation 7825
 end
-arch mountain
+arch bosgrass
 x 1
 y 31
 elevation 6618
 end
-arch mountain
+arch bosgrass
 x 1
 y 32
 elevation 8418
 end
-arch mountain
+arch bosgrass
 x 1
 y 33
 elevation 8765
 end
-arch mountain
+arch bosgrass
 x 1
 y 34
 elevation 8253
 end
-arch mountain
+arch bosgrass
 x 1
 y 35
 elevation 6985
 end
-arch steppe
+arch bosgrass
 x 1
 y 36
 elevation 4454
 end
-arch woods_2
+arch bosgrass
 x 1
 y 37
 elevation 2772
@@ -406,52 +409,52 @@ x 1
 y 39
 elevation 2333
 end
-arch woods_2
+arch bosgrass
 x 1
 y 40
 elevation 2197
 end
-arch hills_rocky
+arch bosgrass
 x 1
 y 41
 elevation 2241
 end
-arch jungle_1
+arch bosgrass
 x 1
 y 42
 elevation 1515
 end
-arch steppe
+arch bosgrass
 x 1
 y 43
 elevation 3114
 end
-arch woods_2
+arch bosgrass
 x 1
 y 44
 elevation 2847
 end
-arch steppe
+arch bosgrass
 x 1
 y 45
 elevation 4600
 end
-arch mountain
+arch bosgrass
 x 1
 y 46
 elevation 5570
 end
-arch mountain
+arch bosgrass
 x 1
 y 47
 elevation 6090
 end
-arch mountain
+arch bosgrass
 x 1
 y 48
 elevation 5601
 end
-arch steppe
+arch bosgrass
 x 1
 y 49
 elevation 4438
@@ -490,27 +493,27 @@ x 2
 y 6
 elevation 7479
 end
-arch mountain
+arch bosgrass2
 x 2
 y 7
 elevation 7720
 end
-arch mountain
+arch bosgrass2
 x 2
 y 8
 elevation 7912
 end
-arch mountain
+arch bosgrass2
 x 2
 y 9
 elevation 8309
 end
-arch mountain
+arch bosgrass2
 x 2
 y 10
 elevation 8073
 end
-arch mountain
+arch bosgrass2
 x 2
 y 11
 elevation 6137
@@ -535,22 +538,22 @@ x 2
 y 15
 elevation 3044
 end
-arch tree
+arch bosgrass2
 x 2
 y 16
 elevation 2918
 end
-arch tree
+arch bosgrass2
 x 2
 y 17
 elevation 2983
 end
-arch hills_rocky
+arch bosgrass2
 x 2
 y 18
 elevation 3682
 end
-arch hills_rocky
+arch bosgrass2
 x 2
 y 19
 elevation 4423
@@ -565,17 +568,17 @@ x 2
 y 21
 elevation 4885
 end
-arch mountain
+arch bosgrass
 x 2
 y 22
 elevation 5423
 end
-arch mountain
+arch bosgrass
 x 2
 y 23
 elevation 6268
 end
-arch mountain
+arch bosgrass
 x 2
 y 24
 elevation 6697
@@ -585,52 +588,52 @@ x 2
 y 25
 elevation 4582
 end
-arch mountain
+arch bosgrass
 x 2
 y 26
 elevation 8022
 end
-arch mountain2
+arch bosgrass
 x 2
 y 27
 elevation 9130
 end
-arch mountain2
+arch bosgrass
 x 2
 y 28
 elevation 9137
 end
-arch mountain
+arch bosgrass
 x 2
 y 29
 elevation 8507
 end
-arch mountain
+arch bosgrass
 x 2
 y 30
 elevation 7906
 end
-arch mountain
+arch bosgrass
 x 2
 y 31
 elevation 8099
 end
-arch mountain
+arch bosgrass
 x 2
 y 32
 elevation 8347
 end
-arch mountain
+arch bosgrass
 x 2
 y 33
 elevation 8346
 end
-arch mountain
+arch bosgrass
 x 2
 y 34
 elevation 7398
 end
-arch mountain
+arch bosgrass
 x 2
 y 35
 elevation 6169
@@ -640,67 +643,67 @@ x 2
 y 36
 elevation 4384
 end
-arch woods_2
+arch bosgrass
 x 2
 y 37
 elevation 2496
 end
-arch woods_3
+arch bosgrass
 x 2
 y 38
 elevation 1317
 end
-arch woods_3
+arch bosgrass
 x 2
 y 39
 elevation 2024
 end
-arch woods_2
+arch bosgrass
 x 2
 y 40
 elevation 2097
 end
-arch evergreen
+arch bosgrass
 x 2
 y 41
 elevation 1691
 end
-arch hills_rocky
+arch bosgrass
 x 2
 y 42
 elevation 2238
 end
-arch woods_2
+arch bosgrass
 x 2
 y 43
 elevation 2728
 end
-arch steppe
+arch bosgrass
 x 2
 y 44
 elevation 3464
 end
-arch steppe
+arch bosgrass
 x 2
 y 45
 elevation 4138
 end
-arch steppe
+arch bosgrass
 x 2
 y 46
 elevation 4919
 end
-arch mountain
+arch bosgrass
 x 2
 y 47
 elevation 5266
 end
-arch steppe
+arch bosgrass
 x 2
 y 48
 elevation 4990
 end
-arch hills
+arch bosgrass
 x 2
 y 49
 elevation 4452
@@ -734,162 +737,242 @@ x 3
 y 5
 elevation 7412
 end
-arch mountain
+arch bosgrass2
 x 3
 y 6
 elevation 6519
 end
-arch mountain
+arch bosgrass2
 x 3
 y 7
 elevation 5904
 end
-arch mountain
+arch bosgrass2
 x 3
 y 8
 elevation 5584
 end
-arch mountain
+arch bosgrass2
 x 3
 y 9
 elevation 6137
 end
-arch mountain
+arch bosgrass
 x 3
 y 10
 elevation 6276
 end
-arch mountain
+arch purplebrick
 x 3
 y 11
 elevation 5438
 end
-arch hills_rocky
+arch magentamarble
 x 3
 y 12
 elevation 3746
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 12
+end
+arch magentamarble
 x 3
 y 13
 elevation 3054
 end
-arch tree
+arch purbrick_wall1
+x 3
+y 13
+end
+arch magentamarble
 x 3
 y 14
 elevation 2066
 end
-arch tree
+arch purbrick_wall1
+x 3
+y 14
+end
+arch magentamarble
 x 3
 y 15
 elevation 2993
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 15
+end
+arch magentamarble
 x 3
 y 16
 elevation 3702
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 16
+end
+arch magentamarble
 x 3
 y 17
 elevation 4109
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 17
+end
+arch magentamarble
 x 3
 y 18
 elevation 4400
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 18
+end
+arch magentamarble
 x 3
 y 19
 elevation 4614
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 19
+end
+arch magentamarble
 x 3
 y 20
 elevation 4529
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 20
+end
+arch magentamarble
 x 3
 y 21
 elevation 4634
 end
-arch hills_rocky
+arch purbrick_wall1
+x 3
+y 21
+end
+arch magentamarble
 x 3
 y 22
 elevation 4881
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 22
+end
+arch magentamarble
 x 3
 y 23
 elevation 5594
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 23
+end
+arch magentamarble
 x 3
 y 24
 elevation 5821
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 24
+end
+arch purbrick_wall1
+x 3
+y 24
+end
+arch magentamarble
 x 3
 y 25
 elevation 5571
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 25
+end
+arch magentamarble
 x 3
 y 26
 elevation 7043
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 26
+end
+arch magentamarble
 x 3
 y 27
 elevation 8174
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 27
+end
+arch magentamarble
 x 3
 y 28
 elevation 8373
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 28
+end
+arch magentamarble
 x 3
 y 29
 elevation 6510
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 29
+end
+arch magentamarble
 x 3
 y 30
 elevation 7639
 end
-arch mountain
+arch purbrick_wall1
+x 3
+y 30
+end
+arch purplebrick
 x 3
 y 31
 elevation 7585
 end
-arch mountain
+arch bosgrass
 x 3
 y 32
 elevation 7425
 end
-arch mountain
+arch bosgrass
 x 3
 y 33
 elevation 7217
 end
-arch mountain
+arch bosgrass
 x 3
 y 34
 elevation 6574
 end
-arch mountain
+arch bosgrass
 x 3
 y 35
 elevation 5502
 end
-arch steppe
+arch bosgrass
 x 3
 y 36
 elevation 3928
 end
-arch woods_2
+arch bosgrass
 x 3
 y 37
 elevation 1787
@@ -899,37 +982,37 @@ x 3
 y 38
 elevation 1069
 end
-arch tree
+arch bosgrass2
 x 3
 y 39
 elevation 1162
 end
-arch woods_2
+arch bosgrass
 x 3
 y 40
 elevation 2081
 end
-arch woods_2
+arch bosgrass
 x 3
 y 41
 elevation 1522
 end
-arch woods_2
+arch bosgrass
 x 3
 y 42
 elevation 1353
 end
-arch steppe
+arch bosgrass
 x 3
 y 43
 elevation 3064
 end
-arch steppe
+arch bosgrass
 x 3
 y 44
 elevation 3210
 end
-arch hills_rocky
+arch bosgrass
 x 3
 y 45
 elevation 2720
@@ -939,17 +1022,17 @@ x 3
 y 46
 elevation 3866
 end
-arch steppe
+arch bosgrass
 x 3
 y 47
 elevation 3966
 end
-arch treed_hills
+arch bosgrass
 x 3
 y 48
 elevation 4104
 end
-arch treed_hills
+arch bosgrass
 x 3
 y 49
 elevation 3975
@@ -978,27 +1061,27 @@ x 4
 y 4
 elevation 7566
 end
-arch mountain
+arch bosgrass2
 x 4
 y 5
 elevation 6249
 end
-arch hills_rocky
+arch bosgrass2
 x 4
 y 6
 elevation 4864
 end
-arch hills
+arch bosgrass2
 x 4
 y 7
 elevation 3937
 end
-arch woods
+arch bosgrass2
 x 4
 y 8
 elevation 1387
 end
-arch hills
+arch bosgrass2
 x 4
 y 9
 elevation 4344
@@ -1008,122 +1091,146 @@ x 4
 y 10
 elevation 4887
 end
-arch hills_rocky
+arch purplebrick
 x 4
 y 11
 elevation 4452
 end
-arch hills_rocky
+arch lostlabfloor14
 x 4
 y 12
 elevation 3681
 end
-arch hills_rocky
+arch lostlabfloor14
 x 4
 y 13
 elevation 3053
 end
-arch jungle_1
+arch lostlabfloor14
 x 4
 y 14
 elevation 2925
 end
-arch hills_rocky
+arch lostlabfloor14
 x 4
 y 15
 elevation 3319
 end
-arch hills_rocky
+arch purplebrick
 x 4
 y 16
 elevation 4101
 end
-arch hills_rocky
+arch magentamarble
 x 4
 y 17
 elevation 4860
 end
-arch mountain
+arch bookshelf
+x 4
+y 17
+end
+arch magentamarble
 x 4
 y 18
 elevation 5021
 end
-arch hills_rocky
+arch magentamarble
 x 4
 y 19
 elevation 4553
 end
-arch hills_rocky
+arch magentamarble
 x 4
 y 20
 elevation 3976
 end
-arch jungle_1
+arch bookshelf_left
+x 4
+y 20
+end
+arch magentamarble
 x 4
 y 21
 elevation 2503
 end
-arch hills_rocky
+arch bookshelf_left
+x 4
+y 21
+end
+arch magentamarble
 x 4
 y 22
 elevation 4345
 end
-arch hills_rocky
+arch bookshelf_left
+x 4
+y 22
+end
+arch magentamarble
 x 4
 y 23
 elevation 4160
 end
-arch mountain
+arch bookshelf_left
+x 4
+y 23
+end
+arch magentamarble
 x 4
 y 24
 elevation 5527
 end
-arch mountain
+arch magentamarble
 x 4
 y 25
 elevation 5932
 end
-arch mountain
+arch magentamarble
 x 4
 y 26
 elevation 6192
 end
-arch mountain
+arch magentamarble
 x 4
 y 27
 elevation 6586
 end
-arch mountain
+arch magentamarble
 x 4
 y 28
 elevation 7503
 end
-arch mountain
+arch magentamarble
 x 4
 y 29
 elevation 7523
 end
-arch mountain
+arch magentamarble
 x 4
 y 30
 elevation 6638
 end
-arch mountain
+arch magentamarble
 x 4
 y 31
 elevation 5663
 end
-arch mountain
+arch purbrick_wall2
+x 4
+y 31
+end
+arch bosgrass
 x 4
 y 32
 elevation 6027
 end
-arch mountain
+arch bosgrass
 x 4
 y 33
 elevation 5496
 end
-arch mountain
+arch bosgrass
 x 4
 y 34
 elevation 5808
@@ -1133,77 +1240,77 @@ x 4
 y 35
 elevation 4960
 end
-arch steppe
+arch bosgrass
 x 4
 y 36
 elevation 3594
 end
-arch woods_2
+arch bosgrass
 x 4
 y 37
 elevation 2060
 end
-arch woods_2
+arch bosgrass2
 x 4
 y 38
 elevation 1804
 end
-arch woods_2
+arch bosgrass
 x 4
 y 39
 elevation 1635
 end
-arch woods_2
+arch bosgrass
 x 4
 y 40
 elevation 2042
 end
-arch woods_2
+arch bosgrass
 x 4
 y 41
 elevation 2394
 end
-arch woods_2
+arch bosgrass
 x 4
 y 42
 elevation 2843
 end
-arch hills
+arch bosgrass
 x 4
 y 43
 elevation 3393
 end
-arch treed_hills
+arch bosgrass
 x 4
 y 44
 elevation 3584
 end
-arch treed_hills
+arch bosgrass
 x 4
 y 45
 elevation 3362
 end
-arch woods_2
+arch bosgrass
 x 4
 y 46
 elevation 2512
 end
-arch woods_2
+arch bosgrass
 x 4
 y 47
 elevation 2039
 end
-arch hills_rocky
+arch bosgrass
 x 4
 y 48
 elevation 2986
 end
-arch steppe
+arch bosgrass
 x 4
 y 49
 elevation 3324
 end
-arch steppe
+arch bosgrass
 x 5
 elevation 4568
 end
@@ -1237,142 +1344,154 @@ x 5
 y 6
 elevation 2944
 end
-arch jungle_1
+arch bosgrass2
 x 5
 y 7
 elevation 2830
 end
-arch woods
+arch bosgrass2
 x 5
 y 8
 elevation 1952
 end
-arch hills
+arch bosgrass
 x 5
 y 9
 elevation 3379
 end
-arch hills
+arch bosgrass
 x 5
 y 10
 elevation 3697
 end
-arch hills
+arch purplebrick
 x 5
 y 11
 elevation 3208
 end
-arch tree
+arch lostlabfloor14
 x 5
 y 12
 elevation 2763
 end
-arch jungle_1
+arch lostlabfloor14
 x 5
 y 13
 elevation 2198
 end
-arch tree
+arch ghost
+x 5
+y 13
+end
+arch lostlabfloor14
 x 5
 y 14
 elevation 2553
 end
-arch hills_rocky
+arch lostlabfloor14
 x 5
 y 15
 elevation 2737
 end
-arch hills_rocky
+arch purplebrick
 x 5
 y 16
 elevation 4308
 end
-arch mountain
+arch magentamarble
 x 5
 y 17
 elevation 5368
 end
-arch mountain
+arch bookshelf
+x 5
+y 17
+end
+arch magentamarble
 x 5
 y 18
 elevation 5450
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 19
 elevation 4736
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 20
 elevation 4090
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 21
 elevation 3691
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 22
 elevation 3875
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 23
 elevation 4424
 end
-arch mountain
+arch magentamarble
 x 5
 y 24
 elevation 5057
 end
-arch mountain
+arch magentamarble
 x 5
 y 25
 elevation 5446
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 26
 elevation 3744
 end
-arch hills_rocky
+arch magentamarble
 x 5
 y 27
 elevation 4971
 end
-arch mountain
+arch magentamarble
 x 5
 y 28
 elevation 6276
 end
-arch mountain
+arch magentamarble
 x 5
 y 29
 elevation 6654
 end
-arch mountain
+arch magentamarble
 x 5
 y 30
 elevation 5788
 end
-arch woods_2
+arch magentamarble
 x 5
 y 31
 elevation 2635
 end
-arch mountain
+arch purbrick_wall2
+x 5
+y 31
+end
+arch bosgrass
 x 5
 y 32
 elevation 5060
 end
-arch mountain
+arch bosgrass
 x 5
 y 33
 elevation 5346
 end
-arch mountain
+arch bosgrass
 x 5
 y 34
 elevation 5162
@@ -1382,17 +1501,17 @@ x 5
 y 35
 elevation 4780
 end
-arch hills_rocky
+arch bosgrass
 x 5
 y 36
 elevation 3854
 end
-arch woods_2
+arch bosgrass2
 x 5
 y 37
 elevation 2819
 end
-arch tree
+arch bosgrass2
 x 5
 y 38
 elevation 2036
@@ -1402,7 +1521,7 @@ x 5
 y 39
 elevation 1574
 end
-arch woods_2
+arch bosgrass
 x 5
 y 40
 elevation 2019
@@ -1417,12 +1536,12 @@ x 5
 y 42
 elevation 3094
 end
-arch steppe
+arch bosgrass
 x 5
 y 43
 elevation 3801
 end
-arch hills_rocky
+arch bosgrass
 x 5
 y 44
 elevation 3782
@@ -1432,22 +1551,22 @@ x 5
 y 45
 elevation 3257
 end
-arch woods_2
+arch bosgrass
 x 5
 y 46
 elevation 2381
 end
-arch evergreen
+arch bosgrass
 x 5
 y 47
 elevation 1915
 end
-arch evergreen
+arch bosgrass2
 x 5
 y 48
 elevation 2104
 end
-arch woods_2
+arch bosgrass2
 x 5
 y 49
 elevation 2372
@@ -1486,17 +1605,17 @@ x 6
 y 6
 elevation 1959
 end
-arch woods
+arch bosgrass2
 x 6
 y 7
 elevation 2713
 end
-arch jungle_1
+arch bosgrass2
 x 6
 y 8
 elevation 2905
 end
-arch woods
+arch bosgrass2
 x 6
 y 9
 elevation 2955
@@ -1506,112 +1625,120 @@ x 6
 y 10
 elevation 2788
 end
-arch hills_rocky
+arch purplebrick
 x 6
 y 11
 elevation 2344
 end
-arch jungle_1
+arch lostlabfloor14
 x 6
 y 12
 elevation 2030
 end
-arch hills_rocky
+arch lostlabfloor14
 x 6
 y 13
 elevation 2116
 end
-arch hills_rocky
+arch lostlabfloor14
 x 6
 y 14
 elevation 2581
 end
-arch hills_rocky
+arch ghost
+x 6
+y 14
+end
+arch lostlabfloor14
 x 6
 y 15
 elevation 3489
 end
-arch hills_rocky
+arch purplebrick
 x 6
 y 16
 elevation 4559
 end
-arch mountain
+arch magentamarble
 x 6
 y 17
 elevation 5318
 end
-arch mountain
+arch magentamarble
 x 6
 y 18
 elevation 5257
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 19
 elevation 4535
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 20
 elevation 3999
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 21
 elevation 3923
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 22
 elevation 4065
 end
-arch jungle_1
+arch magentamarble
 x 6
 y 23
 elevation 2792
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 24
 elevation 4915
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 25
 elevation 4994
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 26
 elevation 4329
 end
-arch tree
+arch magentamarble
 x 6
 y 27
 elevation 2506
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 28
 elevation 4639
 end
-arch mountain
+arch magentamarble
 x 6
 y 29
 elevation 5154
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 30
 elevation 4662
 end
-arch hills_rocky
+arch magentamarble
 x 6
 y 31
 elevation 4331
 end
-arch hills_rocky
+arch purbrick_wall2
+x 6
+y 31
+end
+arch bosgrass
 x 6
 y 32
 elevation 4485
@@ -1631,12 +1758,12 @@ x 6
 y 35
 elevation 4745
 end
-arch steppe
+arch bosgrass
 x 6
 y 36
 elevation 4200
 end
-arch woods_3
+arch bosgrass
 x 6
 y 37
 elevation 1714
@@ -1646,42 +1773,42 @@ x 6
 y 38
 elevation 2351
 end
-arch woods_2
+arch bosgrass
 x 6
 y 39
 elevation 1882
 end
-arch woods_2
+arch bosgrass2
 x 6
 y 40
 elevation 1888
 end
-arch woods_2
+arch bosgrass2
 x 6
 y 41
 elevation 1388
 end
-arch woods_2
+arch bosgrass2
 x 6
 y 42
 elevation 2612
 end
-arch hills_rocky
+arch bosgrass2
 x 6
 y 43
 elevation 3434
 end
-arch steppe
+arch bosgrass
 x 6
 y 44
 elevation 3677
 end
-arch hills
+arch bosgrass
 x 6
 y 45
 elevation 3041
 end
-arch grass
+arch bosgrass
 x 6
 y 46
 elevation 920
@@ -1691,12 +1818,12 @@ x 6
 y 47
 elevation 664
 end
-arch woods_2
+arch bosgrass2
 x 6
 y 48
 elevation 1561
 end
-arch brush
+arch bosgrass2
 x 6
 y 49
 elevation 948
@@ -1730,135 +1857,155 @@ x 7
 y 5
 elevation 1730
 end
-arch jungle_1
+arch bosgrass2
 x 7
 y 6
 elevation 2797
 end
-arch jungle_1
+arch bosgrass2
 x 7
 y 7
 elevation 2756
 end
-arch hills_rocky
+arch bosgrass2
 x 7
 y 8
 elevation 2615
 end
-arch hills_rocky
+arch bosgrass
 x 7
 y 9
 elevation 2308
 end
-arch hills_rocky
+arch bosgrass2
 x 7
 y 10
 elevation 1886
 end
-arch desert
+arch purplebrick
 x 7
 y 11
 elevation 821
 end
-arch brush
+arch lostlabfloor14
 x 7
 y 12
 elevation 852
 end
-arch tree
+arch generate_ghost
+x 7
+y 12
+end
+arch lostlabfloor14
 x 7
 y 13
 elevation 1443
 end
-arch hills_rocky
+arch generate_ghost
+x 7
+y 13
+end
+arch lostlabfloor14
 x 7
 y 14
 elevation 2063
 end
-arch hills_rocky
+arch lostlabfloor14
 x 7
 y 15
 elevation 3294
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 16
 elevation 4144
 end
-arch hills_rocky
+arch odoor_2_fant_brown
+x 7
+y 16
+end
+arch magentamarble
 x 7
 y 17
 elevation 4425
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 18
 elevation 4099
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 19
 elevation 3480
 end
-arch jungle_1
+arch magentamarble
 x 7
 y 20
 elevation 2632
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 21
 elevation 3663
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 22
 elevation 4134
 end
-arch hills_rocky
+arch chair_bc_2.3
+x 7
+y 22
+end
+arch magentamarble
 x 7
 y 23
 elevation 4634
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 24
 elevation 4853
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 25
 elevation 4956
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 26
 elevation 4243
 end
-arch jungle_1
+arch magentamarble
 x 7
 y 27
 elevation 2376
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 28
 elevation 2478
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 29
 elevation 4123
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 30
 elevation 3209
 end
-arch hills_rocky
+arch magentamarble
 x 7
 y 31
 elevation 3461
+end
+arch purbrick_wall2
+x 7
+y 31
 end
 arch hills_rocky
 x 7
@@ -1895,22 +2042,22 @@ x 7
 y 38
 elevation 2912
 end
-arch woods_2
+arch bosgrass
 x 7
 y 39
 elevation 1954
 end
-arch hills_rocky
+arch bosgrass2
 x 7
 y 40
 elevation 1957
 end
-arch woods_3
+arch bosgrass2
 x 7
 y 41
 elevation 1619
 end
-arch brush
+arch bosgrass2
 x 7
 y 42
 elevation 746
@@ -1920,32 +2067,32 @@ x 7
 y 43
 elevation 2431
 end
-arch woods_2
+arch bosgrass2
 x 7
 y 44
 elevation 1353
 end
-arch woods_2
+arch bosgrass
 x 7
 y 45
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 7
 y 46
 elevation 1353
 end
-arch evergreen
+arch bosgrass2
 x 7
 y 47
 elevation 1434
 end
-arch woods_2
+arch bosgrass2
 x 7
 y 48
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 7
 y 49
 elevation 1353
@@ -1959,7 +2106,7 @@ x 8
 y 1
 elevation 4327
 end
-arch steppe
+arch bosgrass
 x 8
 y 2
 elevation 4201
@@ -1989,125 +2136,141 @@ x 8
 y 7
 elevation 2866
 end
-arch brush
+arch bosgrass
 x 8
 y 8
 elevation 918
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 9
 elevation 1735
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 10
 elevation 1354
 end
-arch jungle_1
+arch purplebrick
 x 8
 y 11
 elevation 1287
 end
-arch jungle_1
+arch lostlabfloor14
 x 8
 y 12
 elevation 1430
 end
-arch jungle_1
+arch generate_ghost
+x 8
+y 12
+end
+arch lostlabfloor14
 x 8
 y 13
 elevation 1784
 end
-arch hills_rocky
+arch lostlabfloor14
 x 8
 y 14
 elevation 1584
 end
-arch tree
+arch lostlabfloor14
 x 8
 y 15
 elevation 2984
 end
-arch hills_rocky
+arch purplebrick
 x 8
 y 16
 elevation 3200
 end
-arch jungle_1
+arch magentamarble
 x 8
 y 17
 elevation 2868
 end
-arch hills_rocky
+arch bookshelf
+x 8
+y 17
+end
+arch magentamarble
 x 8
 y 18
 elevation 2340
 end
-arch tree
+arch magentamarble
 x 8
 y 19
 elevation 1404
 end
-arch tree
+arch magentamarble
 x 8
 y 20
 elevation 1789
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 21
 elevation 3157
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 22
 elevation 4127
 end
-arch hills_rocky
+arch chair_bc_2.3
+x 8
+y 22
+end
+arch magentamarble
 x 8
 y 23
 elevation 4866
 end
-arch mountain
+arch magentamarble
 x 8
 y 24
 elevation 5140
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 25
 elevation 4405
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 26
 elevation 4698
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 27
 elevation 4327
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 28
 elevation 3915
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 29
 elevation 3638
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 30
 elevation 3680
 end
-arch hills_rocky
+arch magentamarble
 x 8
 y 31
 elevation 3214
+end
+arch purbrick_wall2
+x 8
+y 31
 end
 arch hills_rocky
 x 8
@@ -2134,22 +2297,22 @@ x 8
 y 36
 elevation 5198
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 37
 elevation 4385
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 38
 elevation 3813
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 39
 elevation 3005
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 40
 elevation 1733
@@ -2179,22 +2342,22 @@ x 8
 y 45
 elevation 2270
 end
-arch woods_3
+arch bosgrass2
 x 8
 y 46
 elevation 2361
 end
-arch woods_2
+arch bosgrass2
 x 8
 y 47
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 8
 y 48
 elevation 1353
 end
-arch brush
+arch bosgrass2
 x 8
 y 49
 elevation 666
@@ -2203,7 +2366,7 @@ arch hills_rocky
 x 9
 elevation 4293
 end
-arch hills_rocky
+arch bosgrass
 x 9
 y 1
 elevation 4213
@@ -2223,12 +2386,12 @@ x 9
 y 4
 elevation 2993
 end
-arch tree
+arch bosgrass2
 x 9
 y 5
 elevation 2993
 end
-arch tree
+arch bosgrass2
 x 9
 y 6
 elevation 2993
@@ -2243,120 +2406,144 @@ x 9
 y 8
 elevation 1792
 end
-arch woods
+arch bosgrass2
 x 9
 y 9
 elevation 2713
 end
-arch hills_rocky
+arch bosgrass2
 x 9
 y 10
 elevation 1374
 end
-arch evergreen
+arch purplebrick
 x 9
 y 11
 elevation 1396
 end
-arch evergreen
+arch purplebrick
 x 9
 y 12
 elevation 1296
 end
-arch tree
+arch purplebrick
 x 9
 y 13
 elevation 2266
 end
-arch hills_rocky
+arch purplebrick
 x 9
 y 14
 elevation 2880
 end
-arch hills_rocky
+arch purplebrick
 x 9
 y 15
 elevation 3079
 end
-arch evergreen
+arch purplebrick
 x 9
 y 16
 elevation 2428
 end
-arch tree
+arch magentamarble
 x 9
 y 17
 elevation 1292
 end
-arch tree
+arch bookshelf
+x 9
+y 17
+end
+arch magentamarble
 x 9
 y 18
 elevation 1696
 end
-arch hills_rocky
+arch magentamarble
 x 9
 y 19
 elevation 1638
 end
-arch hills_rocky
+arch magentamarble
 x 9
 y 20
 elevation 1620
 end
-arch jungle_1
+arch chair_bc_2.2
+x 9
+y 20
+end
+arch magentamarble
 x 9
 y 21
 elevation 2463
 end
-arch hills_rocky
+arch chair_bc_2.2
+x 9
+y 21
+end
+arch magentamarble
 x 9
 y 22
 elevation 3683
 end
-arch hills_rocky
+arch table_blue
+x 9
+y 22
+end
+arch magentamarble
 x 9
 y 23
 elevation 4646
 end
-arch mountain
+arch magentamarble
 x 9
 y 24
 elevation 5028
 end
-arch mountain
+arch magentamarble
 x 9
 y 25
 elevation 5087
 end
-arch mountain
+arch magentamarble
 x 9
 y 26
 elevation 5149
 end
-arch mountain
+arch magentamarble
 x 9
 y 27
 elevation 5391
 end
-arch mountain
+arch couch
+x 9
+y 27
+end
+arch magentamarble
 x 9
 y 28
 elevation 5098
 end
-arch hills_rocky
+arch magentamarble
 x 9
 y 29
 elevation 4528
 end
-arch hills_rocky
+arch magentamarble
 x 9
 y 30
 elevation 4137
 end
-arch evergreen
+arch magentamarble
 x 9
 y 31
 elevation 2634
+end
+arch purbrick_wall2
+x 9
+y 31
 end
 arch hills_rocky
 x 9
@@ -2383,7 +2570,7 @@ x 9
 y 36
 elevation 5703
 end
-arch mountain
+arch bosgrass2
 x 9
 y 37
 elevation 5216
@@ -2393,17 +2580,17 @@ x 9
 y 38
 elevation 4434
 end
-arch hills_rocky
+arch bosgrass2
 x 9
 y 39
 elevation 3444
 end
-arch hills_rocky
+arch bosgrass2
 x 9
 y 40
 elevation 2465
 end
-arch tree
+arch bosgrass2
 x 9
 y 41
 elevation 2045
@@ -2423,17 +2610,17 @@ x 9
 y 44
 elevation 1915
 end
-arch woods_2
+arch bosgrass2
 x 9
 y 45
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 9
 y 46
 elevation 1353
 end
-arch tree
+arch bosgrass2
 x 9
 y 47
 elevation 2045
@@ -2443,7 +2630,7 @@ x 9
 y 48
 elevation 981
 end
-arch grass
+arch bosgrass2
 x 9
 y 49
 elevation 917
@@ -2452,12 +2639,12 @@ arch hills_rocky
 x 10
 elevation 4010
 end
-arch hills_rocky
+arch bosgrass
 x 10
 y 1
 elevation 3575
 end
-arch hills_rocky
+arch bosgrass
 x 10
 y 2
 elevation 3134
@@ -2497,115 +2684,119 @@ x 10
 y 9
 elevation 1792
 end
-arch evergreen
+arch bosgrass2
 x 10
 y 10
 elevation 1255
 end
-arch brush
+arch purplebrick
 x 10
 y 11
 elevation 800
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 12
 elevation 1993
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 13
 elevation 2628
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 14
 elevation 3607
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 15
 elevation 3566
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 16
 elevation 2776
 end
-arch jungle_1
+arch magentamarble
 x 10
 y 17
 elevation 1945
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 18
 elevation 1352
 end
-arch evergreen
+arch magentamarble
 x 10
 y 19
 elevation 1540
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 20
 elevation 1200
 end
-arch tree
+arch magentamarble
 x 10
 y 21
 elevation 1885
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 22
 elevation 2044
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 23
 elevation 4543
 end
-arch mountain
+arch magentamarble
 x 10
 y 24
 elevation 5002
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 25
 elevation 3799
 end
-arch mountain
+arch magentamarble
 x 10
 y 26
 elevation 5016
 end
-arch mountain
+arch magentamarble
 x 10
 y 27
 elevation 5521
 end
-arch mountain
+arch magentamarble
 x 10
 y 28
 elevation 5643
 end
-arch mountain
+arch magentamarble
 x 10
 y 29
 elevation 5270
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 30
 elevation 4726
 end
-arch hills_rocky
+arch magentamarble
 x 10
 y 31
 elevation 4427
+end
+arch purbrick_wall2
+x 10
+y 31
 end
 arch hills_rocky
 x 10
@@ -2632,7 +2823,7 @@ x 10
 y 36
 elevation 5901
 end
-arch mountain
+arch bosgrass2
 x 10
 y 37
 elevation 5441
@@ -2692,7 +2883,7 @@ x 10
 y 48
 elevation 537
 end
-arch grass
+arch bosgrass2
 x 10
 y 49
 elevation 977
@@ -2746,115 +2937,150 @@ x 11
 y 9
 elevation 1792
 end
-arch jungle_1
+arch bosgrass2
 x 11
 y 10
 elevation 1049
 end
-arch jungle_1
+arch purplebrick
 x 11
 y 11
 elevation 1196
 end
-arch jungle_1
+arch magentamarble
 x 11
 y 12
 elevation 2367
 end
-arch hills_rocky
+arch stair_up_2
+slaying ../scorn/mansion/hhfloor2
+hp 10
+sp 1
+x 11
+y 12
+end
+arch magentamarble
 x 11
 y 13
 elevation 3457
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 14
 elevation 4124
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 15
 elevation 4023
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 16
 elevation 3185
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 17
 elevation 1492
 end
-arch desert
+arch magentamarble
 x 11
 y 18
 elevation 964
 end
-arch jungle_1
+arch magentamarble
 x 11
 y 19
 elevation 1716
 end
-arch hills_rocky
+arch bookshelf_right
+x 11
+y 19
+end
+arch magentamarble
 x 11
 y 20
 elevation 1781
 end
-arch hills_rocky
+arch bookshelf_right
+x 11
+y 20
+end
+arch magentamarble
 x 11
 y 21
 elevation 1166
 end
-arch hills_rocky
+arch bookshelf_right
+x 11
+y 21
+end
+arch magentamarble
 x 11
 y 22
 elevation 3255
 end
-arch hills_rocky
+arch bookshelf_right
+x 11
+y 22
+end
+arch magentamarble
 x 11
 y 23
 elevation 4681
 end
-arch mountain
+arch table_blue
+x 11
+y 23
+end
+arch magentamarble
 x 11
 y 24
 elevation 5171
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 25
 elevation 4260
 end
-arch jungle_1
+arch magentamarble
 x 11
 y 26
 elevation 2552
 end
-arch mountain
+arch magentamarble
 x 11
 y 27
 elevation 5239
 end
-arch mountain
+arch table_blue
+x 11
+y 27
+end
+arch magentamarble
 x 11
 y 28
 elevation 5525
 end
-arch mountain
+arch magentamarble
 x 11
 y 29
 elevation 5292
 end
-arch mountain
+arch magentamarble
 x 11
 y 30
 elevation 5031
 end
-arch hills_rocky
+arch magentamarble
 x 11
 y 31
 elevation 4826
+end
+arch purbrick_wall2
+x 11
+y 31
 end
 arch hills_rocky
 x 11
@@ -2876,12 +3102,12 @@ x 11
 y 35
 elevation 5689
 end
-arch mountain
+arch bosgrass2
 x 11
 y 36
 elevation 5683
 end
-arch mountain
+arch bosgrass2
 x 11
 y 37
 elevation 5215
@@ -2901,7 +3127,7 @@ x 11
 y 40
 elevation 800
 end
-arch brush
+arch bosgrass2
 x 11
 y 41
 elevation 556
@@ -2916,7 +3142,7 @@ x 11
 y 43
 elevation 1964
 end
-arch evergreens
+arch bosgrass2
 x 11
 y 44
 elevation 2498
@@ -2941,7 +3167,7 @@ x 11
 y 48
 elevation 1844
 end
-arch hills_rocky
+arch bosgrass2
 x 11
 y 49
 elevation 1257
@@ -2995,115 +3221,159 @@ x 12
 y 9
 elevation 2307
 end
-arch jungle_1
+arch bosgrass2
 x 12
 y 10
 elevation 1747
 end
-arch tree
+arch purplebrick
 x 12
 y 11
 elevation 2993
 end
-arch tree
+arch magentamarble
 x 12
 y 12
 elevation 2993
 end
-arch tree
+arch purstone_wall1
+x 12
+y 12
+end
+arch magentamarble
 x 12
 y 13
 elevation 2993
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 13
+end
+arch magentamarble
 x 12
 y 14
 elevation 4064
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 14
+end
+arch magentamarble
 x 12
 y 15
 elevation 3973
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 15
+end
+arch magentamarble
 x 12
 y 16
 elevation 3226
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 16
+end
+arch magentamarble
 x 12
 y 17
 elevation 2433
 end
-arch evergreen
+arch purstone_wall1
+x 12
+y 17
+end
+arch magentamarble
 x 12
 y 18
 elevation 1927
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 18
+end
+arch magentamarble
 x 12
 y 19
 elevation 1964
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 19
+end
+arch magentamarble
 x 12
 y 20
 elevation 2025
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 20
+end
+arch magentamarble
 x 12
 y 21
 elevation 2082
 end
-arch hills_rocky
+arch purstone_wall1
+x 12
+y 21
+end
+arch purplebrick
 x 12
 y 22
 elevation 3559
 end
-arch hills_rocky
+arch purplebrick
 x 12
 y 23
 elevation 4871
 end
-arch mountain
+arch magentamarble
 x 12
 y 24
 elevation 5469
 end
-arch mountain
+arch magentamarble
 x 12
 y 25
 elevation 5224
 end
-arch hills_rocky
+arch magentamarble
 x 12
 y 26
 elevation 4858
 end
-arch mountain
+arch magentamarble
 x 12
 y 27
 elevation 5348
 end
-arch hills_rocky
+arch magentamarble
 x 12
 y 28
 elevation 4369
 end
-arch mountain
+arch magentamarble
 x 12
 y 29
 elevation 5117
 end
-arch hills_rocky
+arch magentamarble
 x 12
 y 30
 elevation 4792
 end
-arch hills_rocky
+arch magentamarble
 x 12
 y 31
 elevation 3941
+end
+arch purbrick_wall2
+x 12
+y 31
 end
 arch hills_rocky
 x 12
@@ -3125,7 +3395,7 @@ x 12
 y 35
 elevation 5020
 end
-arch hills_rocky
+arch bosgrass
 x 12
 y 36
 elevation 4956
@@ -3145,17 +3415,17 @@ x 12
 y 39
 elevation 2642
 end
-arch hills_rocky
+arch bosgrass2
 x 12
 y 40
 elevation 1239
 end
-arch grass
+arch bosgrass2
 x 12
 y 41
 elevation 83
 end
-arch brush
+arch bosgrass2
 x 12
 y 42
 elevation 958
@@ -3165,7 +3435,7 @@ x 12
 y 43
 elevation 1729
 end
-arch evergreen
+arch bosgrass2
 x 12
 y 44
 elevation 2114
@@ -3190,7 +3460,7 @@ x 12
 y 48
 elevation 1998
 end
-arch hills_rocky
+arch bosgrass2
 x 12
 y 49
 elevation 1612
@@ -3239,122 +3509,130 @@ x 13
 y 8
 elevation 2246
 end
-arch evergreen
+arch bosgrass
 x 13
 y 9
 elevation 1792
 end
-arch jungle_1
+arch bosgrass2
 x 13
 y 10
 elevation 1664
 end
-arch tree
+arch magentamarble
 x 13
 y 11
 elevation 2993
 end
-arch treed_hills
+arch purbrick_wall2
+x 13
+y 11
+end
+arch white-red-c-marble_114
 x 13
 y 12
 elevation 2302
 end
-arch tree
+arch white-red-c-marble_114
 x 13
 y 13
 elevation 2993
 end
-arch woods
+arch white-red-c-marble_114
 x 13
 y 14
 elevation 2713
 end
-arch evergreen
+arch white-red-c-marble_114
 x 13
 y 15
 elevation 1792
 end
-arch woods
+arch white-red-c-marble_114
 x 13
 y 16
 elevation 2713
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 13
 y 17
 elevation 1896
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 13
 y 18
 elevation 2397
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 13
 y 19
 elevation 1660
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 13
 y 20
 elevation 2280
 end
-arch jungle_1
+arch white-red-c-marble_114
 x 13
 y 21
 elevation 2914
 end
-arch steppe
+arch magentamarble
 x 13
 y 22
 elevation 3726
 end
-arch hills_rocky
+arch magentamarble
 x 13
 y 23
 elevation 4694
 end
-arch mountain
+arch magentamarble
 x 13
 y 24
 elevation 5226
 end
-arch mountain
+arch magentamarble
 x 13
 y 25
 elevation 5560
 end
-arch mountain
+arch magentamarble
 x 13
 y 26
 elevation 5778
 end
-arch mountain
+arch magentamarble
 x 13
 y 27
 elevation 5760
 end
-arch mountain
+arch magentamarble
 x 13
 y 28
 elevation 5251
 end
-arch hills_rocky
+arch magentamarble
 x 13
 y 29
 elevation 4527
 end
-arch hills_rocky
+arch magentamarble
 x 13
 y 30
 elevation 4004
 end
-arch hills_rocky
+arch magentamarble
 x 13
 y 31
 elevation 3824
 end
-arch hills_rocky
+arch purbrick_wall2
+x 13
+y 31
+end
+arch bosgrass
 x 13
 y 32
 elevation 3871
@@ -3364,82 +3642,82 @@ x 13
 y 33
 elevation 4066
 end
-arch steppe
+arch bosgrass
 x 13
 y 34
 elevation 4088
 end
-arch hills_rocky
+arch bosgrass
 x 13
 y 35
 elevation 3861
 end
-arch hills_rocky
+arch bosgrass2
 x 13
 y 36
 elevation 3502
 end
-arch hills_rocky
+arch bosgrass2
 x 13
 y 37
 elevation 3352
 end
-arch hills_rocky
+arch bosgrass
 x 13
 y 38
 elevation 3152
 end
-arch hills_rocky
+arch bosgrass2
 x 13
 y 39
 elevation 2750
 end
-arch hills
+arch bosgrass2
 x 13
 y 40
 elevation 1989
 end
-arch tree
+arch bosgrass2
 x 13
 y 41
 elevation 2246
 end
-arch woods_3
+arch bosgrass2
 x 13
 y 42
 elevation 1012
 end
-arch woods_3
+arch bosgrass2
 x 13
 y 43
 elevation 1012
 end
-arch hills
+arch bosgrass2
 x 13
 y 44
 elevation 1080
 end
-arch evergreens
+arch bosgrass2
 x 13
 y 45
 elevation 2270
 end
-arch evergreen
+arch bosgrass2
 x 13
 y 46
 elevation 1676
 end
-arch evergreen
+arch bosgrass2
 x 13
 y 47
 elevation 1494
 end
-arch evergreen
+arch bosgrass2
 x 13
 y 48
 elevation 1976
 end
-arch evergreen
+arch bosgrass2
 x 13
 y 49
 elevation 1896
@@ -3493,120 +3771,136 @@ x 14
 y 9
 elevation 2407
 end
-arch treed_hills
+arch bosgrass
 x 14
 y 10
 elevation 1790
 end
-arch treed_hills
+arch magentamarble
 x 14
 y 11
 elevation 1563
 end
-arch tree
+arch purbrick_wall2
+x 14
+y 11
+end
+arch white-red-c-marble_114
 x 14
 y 12
 elevation 2246
 end
-arch treed_hills
+arch desk_cw
+x 14
+y 12
+end
+arch white-red-c-marble_114
 x 14
 y 13
 elevation 1932
 end
-arch hills
+arch white-red-c-marble_114
 x 14
 y 14
 elevation 2591
 end
-arch evergreen
+arch white-red-c-marble_114
 x 14
 y 15
 elevation 1792
 end
-arch tree
+arch white-red-c-marble_114
 x 14
 y 16
 elevation 2993
 end
-arch woods
+arch white-red-c-marble_114
 x 14
 y 17
 elevation 2713
 end
-arch evergreen
+arch white-red-c-marble_114
 x 14
 y 18
 elevation 1792
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 14
 y 19
 elevation 2810
 end
-arch hills
+arch white-red-c-marble_114
 x 14
 y 20
 elevation 2728
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 14
 y 21
 elevation 3465
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 22
 elevation 3884
 end
-arch steppe
+arch magentamarble
 x 14
 y 23
 elevation 4265
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 24
 elevation 4637
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 25
 elevation 4072
 end
-arch mountain
+arch magentamarble
 x 14
 y 26
 elevation 5601
 end
-arch mountain
+arch magentamarble
 x 14
 y 27
 elevation 5707
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 28
 elevation 4943
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 29
 elevation 2688
 end
-arch hills
+arch magentamarble
 x 14
 y 30
 elevation 2746
 end
-arch hills_rocky
+arch magentamarble
 x 14
 y 31
 elevation 2895
+end
+arch purbrick_wall2
+x 14
+y 31
 end
 arch hills
 x 14
 y 32
 elevation 2422
+end
+arch key
+x 14
+y 32
 end
 arch hills_rocky
 x 14
@@ -3618,77 +3912,85 @@ x 14
 y 34
 elevation 3226
 end
-arch hills_rocky
+arch bosgrass
 x 14
 y 35
 elevation 1771
 end
-arch woods_3
+arch bosgrass2
 x 14
 y 36
 elevation 1233
 end
-arch hills_rocky
+arch bosgrass2
 x 14
 y 37
 elevation 1042
 end
-arch hills_rocky
+arch bosgrass2
 x 14
 y 38
 elevation 2804
 end
-arch hills_rocky
+arch statue
+x 14
+y 38
+end
+arch bosgrass2
 x 14
 y 39
 elevation 2965
 end
-arch hills_rocky
+arch bosgrass2
 x 14
 y 40
 elevation 2633
 end
-arch treed_hills
+arch bosgrass2
 x 14
 y 41
 elevation 1798
 end
-arch hills_rocky
+arch statue
+x 14
+y 41
+end
+arch bosgrass2
 x 14
 y 42
 elevation 1883
 end
-arch treed_hills
+arch bosgrass2
 x 14
 y 43
 elevation 2001
 end
-arch treed_hills
+arch bosgrass2
 x 14
 y 44
 elevation 1651
 end
-arch grass
+arch bosgrass2
 x 14
 y 45
 elevation 659
 end
-arch grass
+arch bosgrass2
 x 14
 y 46
 elevation 928
 end
-arch evergreens
+arch bosgrass2
 x 14
 y 47
 elevation 2270
 end
-arch evergreen
+arch bosgrass2
 x 14
 y 48
 elevation 1785
 end
-arch woods_3
+arch bosgrass2
 x 14
 y 49
 elevation 1989
@@ -3732,12 +4034,12 @@ x 15
 y 7
 elevation 2171
 end
-arch treed_hills
+arch bosgrass
 x 15
 y 8
 elevation 2315
 end
-arch treed_hills
+arch bosgrass
 x 15
 y 9
 elevation 2388
@@ -3747,197 +4049,209 @@ x 15
 y 10
 elevation 1645
 end
-arch desert
+arch magentamarble
 x 15
 y 11
 elevation 781
 end
-arch brush
+arch purbrick_wall2
+x 15
+y 11
+end
+arch white-red-c-marble_114
 x 15
 y 12
 elevation 848
 end
-arch evergreen
+arch white-red-c-marble_114
 x 15
 y 13
 elevation 1792
 end
-arch tree
+arch white-red-c-marble_114
 x 15
 y 14
 elevation 2246
 end
-arch woods
+arch white-red-c-marble_114
 x 15
 y 15
 elevation 2713
 end
-arch tree
+arch white-red-c-marble_114
 x 15
 y 16
 elevation 2993
 end
-arch tree
+arch white-red-c-marble_114
 x 15
 y 17
 elevation 2993
 end
-arch evergreen
+arch white-red-c-marble_114
 x 15
 y 18
 elevation 1792
 end
-arch treed_hills
+arch white-red-c-marble_114
 x 15
 y 19
 elevation 3179
 end
-arch treed_hills
+arch white-red-c-marble_114
 x 15
 y 20
 elevation 3649
 end
-arch treed_hills
+arch white-red-c-marble_114
 x 15
 y 21
 elevation 3943
 end
-arch treed_hills
+arch magentamarble
 x 15
 y 22
 elevation 3418
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 23
 elevation 3143
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 24
 elevation 4141
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 25
 elevation 4556
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 26
 elevation 4786
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 27
 elevation 4781
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 28
 elevation 3989
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 29
 elevation 3111
 end
-arch hills_rocky
+arch magentamarble
 x 15
 y 30
 elevation 2744
 end
-arch evergreen
+arch magentamarble
 x 15
 y 31
 elevation 1665
 end
-arch evergreen
+arch door_look_1
+x 15
+y 31
+end
+arch lostlabfloor3
 x 15
 y 32
 elevation 1915
 end
-arch evergreen
+arch key
+x 15
+y 32
+end
+arch lostlabfloor3
 x 15
 y 33
 elevation 1915
 end
-arch woods_2
+arch lostlabfloor3
 x 15
 y 34
 elevation 1353
 end
-arch hills_rocky
+arch lostlabfloor3
 x 15
 y 35
 elevation 1746
 end
-arch hills_rocky
+arch lostlabfloor3
 x 15
 y 36
 elevation 1585
 end
-arch tree
+arch lostlabfloor3
 x 15
 y 37
 elevation 2246
 end
-arch tree
+arch lostlabfloor3
 x 15
 y 38
 elevation 2246
 end
-arch evergreen
+arch lostlabfloor3
 x 15
 y 39
 elevation 2580
 end
-arch evergreen
+arch lostlabfloor3
 x 15
 y 40
 elevation 2580
 end
-arch evergreen
+arch lostlabfloor3
 x 15
 y 41
 elevation 2580
 end
-arch treed_hills
+arch lostlabfloor3
 x 15
 y 42
 elevation 2878
 end
-arch tree
+arch lostlabfloor3
 x 15
 y 43
 elevation 2246
 end
-arch woods_3
+arch lostlabfloor3
 x 15
 y 44
 elevation 1012
 end
-arch woods_3
+arch lostlabfloor3
 x 15
 y 45
 elevation 1012
 end
-arch evergreens
+arch lostlabfloor3
 x 15
 y 46
 elevation 2270
 end
-arch evergreens
+arch lostlabfloor3
 x 15
 y 47
 elevation 2270
 end
-arch evergreen
+arch lostlabfloor3
 x 15
 y 48
 elevation 1276
 end
-arch evergreen
+arch lostlabfloor3
 x 15
 y 49
 elevation 1557
@@ -3996,197 +4310,209 @@ x 16
 y 10
 elevation 2217
 end
-arch hills
+arch magentamarble
 x 16
 y 11
 elevation 1846
 end
-arch evergreen
+arch purbrick_wall2
+x 16
+y 11
+end
+arch wallart_6
+x 16
+y 11
+end
+arch white-red-c-marble_114
 x 16
 y 12
 elevation 1792
 end
-arch jungle_1
+arch white-red-c-marble_114
 x 16
 y 13
 elevation 1554
 end
-arch evergreen
+arch white-red-c-marble_114
 x 16
 y 14
 elevation 1792
 end
-arch hills
+arch white-red-c-marble_114
 x 16
 y 15
 elevation 2378
 end
-arch hills
+arch white-red-c-marble_114
 x 16
 y 16
 elevation 2633
 end
-arch tree
+arch white-red-c-marble_114
 x 16
 y 17
 elevation 2993
 end
-arch woods
+arch white-red-c-marble_114
 x 16
 y 18
 elevation 2713
 end
-arch treed_hills
+arch white-red-c-marble_114
 x 16
 y 19
 elevation 3347
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 16
 y 20
 elevation 3942
 end
-arch evergreen
+arch white-red-c-marble_114
 x 16
 y 21
 elevation 1665
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 22
 elevation 4246
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 23
 elevation 4057
 end
-arch evergreen
+arch magentamarble
 x 16
 y 24
 elevation 1665
 end
-arch hills
+arch magentamarble
 x 16
 y 25
 elevation 2951
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 26
 elevation 4141
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 27
 elevation 3598
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 28
 elevation 1945
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 29
 elevation 2470
 end
-arch hills_rocky
+arch magentamarble
 x 16
 y 30
 elevation 2158
 end
-arch hills
+arch magentamarble
 x 16
 y 31
 elevation 2951
 end
-arch evergreen
+arch door_look_1
+x 16
+y 31
+end
+arch lostlabfloor3
 x 16
 y 32
 elevation 1665
 end
-arch tree
+arch lostlabfloor3
 x 16
 y 33
 elevation 2246
 end
-arch tree
+arch lostlabfloor3
 x 16
 y 34
 elevation 2246
 end
-arch woods_2
+arch lostlabfloor3
 x 16
 y 35
 elevation 1353
 end
-arch tree
+arch lostlabfloor3
 x 16
 y 36
 elevation 2246
 end
-arch tree
+arch lostlabfloor3
 x 16
 y 37
 elevation 2246
 end
-arch woods_3
+arch lostlabfloor3
 x 16
 y 38
 elevation 2260
 end
-arch treed_hills
+arch lostlabfloor3
 x 16
 y 39
 elevation 2905
 end
-arch evergreen
+arch lostlabfloor3
 x 16
 y 40
 elevation 2580
 end
-arch tree
+arch lostlabfloor3
 x 16
 y 41
 elevation 2246
 end
-arch evergreen
+arch lostlabfloor3
 x 16
 y 42
 elevation 1785
 end
-arch woods_3
+arch lostlabfloor3
 x 16
 y 43
 elevation 1012
 end
-arch evergreens
+arch lostlabfloor3
 x 16
 y 44
 elevation 2270
 end
-arch evergreens
+arch lostlabfloor3
 x 16
 y 45
 elevation 2270
 end
-arch evergreens
+arch lostlabfloor3
 x 16
 y 46
 elevation 2270
 end
-arch evergreens
+arch lostlabfloor3
 x 16
 y 47
 elevation 2270
 end
-arch evergreens
+arch lostlabfloor3
 x 16
 y 48
 elevation 2270
 end
-arch grass
+arch dungeon_floor
 x 16
 y 49
 elevation 781
@@ -4205,12 +4531,12 @@ x 17
 y 2
 elevation 2943
 end
-arch steppe
+arch bosgrass2
 x 17
 y 3
 elevation 3256
 end
-arch hills_rocky
+arch bosgrass2
 x 17
 y 4
 elevation 3440
@@ -4220,7 +4546,7 @@ x 17
 y 5
 elevation 2997
 end
-arch jungle_1
+arch bosgrass2
 x 17
 y 6
 elevation 2238
@@ -4245,112 +4571,124 @@ x 17
 y 10
 elevation 2321
 end
-arch hills_rocky
+arch magentamarble
 x 17
 y 11
 elevation 2291
 end
-arch hills
+arch purbrick_wall2
+x 17
+y 11
+end
+arch wallart_5
+x 17
+y 11
+end
+arch white-red-c-marble_114
 x 17
 y 12
 elevation 1848
 end
-arch tree
+arch white-red-c-marble_114
 x 17
 y 13
 elevation 2993
 end
-arch evergreen
+arch white-red-c-marble_114
 x 17
 y 14
 elevation 1792
 end
-arch tree
+arch white-red-c-marble_114
 x 17
 y 15
 elevation 2993
 end
-arch woods
+arch white-red-c-marble_114
 x 17
 y 16
 elevation 2713
 end
-arch tree
+arch white-red-c-marble_114
 x 17
 y 17
 elevation 2993
 end
-arch tree
+arch white-red-c-marble_114
 x 17
 y 18
 elevation 2246
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 17
 y 19
 elevation 2728
 end
-arch treed_hills
+arch white-red-c-marble_114
 x 17
 y 20
 elevation 3931
 end
-arch tree
+arch white-red-c-marble_114
 x 17
 y 21
 elevation 2246
 end
-arch treed_hills
+arch magentamarble
 x 17
 y 22
 elevation 4477
 end
-arch hills_rocky
+arch magentamarble
 x 17
 y 23
 elevation 4071
 end
-arch tree
+arch magentamarble
 x 17
 y 24
 elevation 2246
 end
-arch evergreen
+arch magentamarble
 x 17
 y 25
 elevation 1665
 end
-arch hills
+arch magentamarble
 x 17
 y 26
 elevation 2951
 end
-arch hills_rocky
+arch magentamarble
 x 17
 y 27
 elevation 2665
 end
-arch brush
+arch magentamarble
 x 17
 y 28
 elevation 851
 end
-arch hills
+arch magentamarble
 x 17
 y 29
 elevation 2951
 end
-arch evergreen
+arch magentamarble
 x 17
 y 30
 elevation 1785
 end
-arch hills
+arch magentamarble
 x 17
 y 31
 elevation 2951
 end
-arch tree
+arch purbrick_wall2
+x 17
+y 31
+end
+arch bosgrass
 x 17
 y 32
 elevation 2246
@@ -4375,52 +4713,60 @@ x 17
 y 36
 elevation 2580
 end
-arch hills_rocky
+arch bosgrass2
 x 17
 y 37
 elevation 1543
 end
-arch treed_hills
+arch bosgrass2
 x 17
 y 38
 elevation 2110
 end
-arch treed_hills
+arch statue
+x 17
+y 38
+end
+arch dungeon_floor
 x 17
 y 39
 elevation 1428
 end
-arch hills_rocky
+arch bosgrass2
 x 17
 y 40
 elevation 2632
 end
-arch tree
+arch bosgrass2
 x 17
 y 41
 elevation 2246
 end
-arch hills_rocky
+arch statue
+x 17
+y 41
+end
+arch bosgrass2
 x 17
 y 42
 elevation 1154
 end
-arch grass
+arch bosgrass2
 x 17
 y 43
 elevation 972
 end
-arch evergreen
+arch bosgrass2
 x 17
 y 44
 elevation 1851
 end
-arch evergreens
+arch bosgrass2
 x 17
 y 45
 elevation 2270
 end
-arch brush
+arch bosgrass2
 x 17
 y 46
 elevation 664
@@ -4435,7 +4781,7 @@ x 17
 y 48
 elevation 117
 end
-arch grass
+arch bosgrass2
 x 17
 y 49
 elevation 15
@@ -4454,17 +4800,17 @@ x 18
 y 2
 elevation 3517
 end
-arch steppe
+arch bosgrass2
 x 18
 y 3
 elevation 3605
 end
-arch hills_rocky
+arch bosgrass2
 x 18
 y 4
 elevation 3120
 end
-arch steppe
+arch bosgrass2
 x 18
 y 5
 elevation 3673
@@ -4474,12 +4820,12 @@ x 18
 y 6
 elevation 3570
 end
-arch steppe
+arch bosgrass2
 x 18
 y 7
 elevation 3567
 end
-arch steppe
+arch bosgrass2
 x 18
 y 8
 elevation 3080
@@ -4494,112 +4840,120 @@ x 18
 y 10
 elevation 2176
 end
-arch treed_hills
+arch magentamarble
 x 18
 y 11
 elevation 2406
 end
-arch hills_rocky
+arch purbrick_wall2
+x 18
+y 11
+end
+arch white-red-c-marble_114
 x 18
 y 12
 elevation 2070
 end
-arch desert
+arch white-red-c-marble_114
 x 18
 y 13
 elevation 513
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 18
 y 14
 elevation 1331
 end
-arch woods
+arch white-red-c-marble_114
 x 18
 y 15
 elevation 2713
 end
-arch woods
+arch white-red-c-marble_114
 x 18
 y 16
 elevation 2713
 end
-arch woods
+arch white-red-c-marble_114
 x 18
 y 17
 elevation 2713
 end
-arch tree
+arch white-red-c-marble_114
 x 18
 y 18
 elevation 2246
 end
-arch tree
+arch white-red-c-marble_114
 x 18
 y 19
 elevation 2246
 end
-arch hills_rocky
+arch white-red-c-marble_114
 x 18
 y 20
 elevation 3532
 end
-arch evergreen
+arch white-red-c-marble_114
 x 18
 y 21
 elevation 1665
 end
-arch tree
+arch magentamarble
 x 18
 y 22
 elevation 2246
 end
-arch hills_rocky
+arch magentamarble
 x 18
 y 23
 elevation 3457
 end
-arch evergreen
+arch magentamarble
 x 18
 y 24
 elevation 1665
 end
-arch tree
+arch magentamarble
 x 18
 y 25
 elevation 2246
 end
-arch tree
+arch magentamarble
 x 18
 y 26
 elevation 2246
 end
-arch hills
+arch magentamarble
 x 18
 y 27
 elevation 2951
 end
-arch brush
+arch magentamarble
 x 18
 y 28
 elevation 801
 end
-arch evergreen
+arch magentamarble
 x 18
 y 29
 elevation 1665
 end
-arch evergreen
+arch magentamarble
 x 18
 y 30
 elevation 1785
 end
-arch treed_hills
+arch magentamarble
 x 18
 y 31
 elevation 2951
 end
-arch treed_hills
+arch purbrick_wall2
+x 18
+y 31
+end
+arch bosgrass
 x 18
 y 32
 elevation 2951
@@ -4624,67 +4978,67 @@ x 18
 y 36
 elevation 2246
 end
-arch treed_hills
+arch bosgrass2
 x 18
 y 37
 elevation 2493
 end
-arch hills_rocky
+arch bosgrass2
 x 18
 y 38
 elevation 1668
 end
-arch woods_3
+arch blacklostlabfloor8
 x 18
 y 39
 elevation 2376
 end
-arch tree
+arch bosgrass2
 x 18
 y 40
 elevation 2246
 end
-arch tree
+arch bosgrass2
 x 18
 y 41
 elevation 2246
 end
-arch woods_3
+arch bosgrass2
 x 18
 y 42
 elevation 2796
 end
-arch hills
+arch bosgrass2
 x 18
 y 43
 elevation 2290
 end
-arch evergreen
+arch bosgrass2
 x 18
 y 44
 elevation 1918
 end
-arch grass
+arch bosgrass2
 x 18
 y 45
 elevation 842
 end
-arch brush
+arch bosgrass2
 x 18
 y 46
 elevation 664
 end
-arch brush
+arch bosgrass2
 x 18
 y 47
 elevation 664
 end
-arch grass
+arch bosgrass2
 x 18
 y 48
 elevation 84
 end
-arch grass
+arch bosgrass2
 x 18
 y 49
 elevation 360
@@ -4698,37 +5052,37 @@ x 19
 y 1
 elevation 4011
 end
-arch steppe
+arch bosgrass2
 x 19
 y 2
 elevation 4075
 end
-arch hills_rocky
+arch bosgrass2
 x 19
 y 3
 elevation 4072
 end
-arch steppe
+arch bosgrass2
 x 19
 y 4
 elevation 3322
 end
-arch hills_rocky
+arch bosgrass2
 x 19
 y 5
 elevation 4587
 end
-arch steppe
+arch bosgrass2
 x 19
 y 6
 elevation 4849
 end
-arch steppe
+arch bosgrass2
 x 19
 y 7
 elevation 4603
 end
-arch steppe
+arch bosgrass2
 x 19
 y 8
 elevation 3765
@@ -4743,117 +5097,173 @@ x 19
 y 10
 elevation 2353
 end
-arch hills
+arch magentamarble
 x 19
 y 11
 elevation 2639
 end
-arch jungle_1
+arch purbrick_wall2
+x 19
+y 11
+end
+arch magentamarble
 x 19
 y 12
 elevation 2239
 end
-arch hills
+arch purstone_wall1
+x 19
+y 12
+end
+arch magentamarble
 x 19
 y 13
 elevation 1898
 end
-arch hills_rocky
+arch purstone_wall1
+x 19
+y 13
+end
+arch magentamarble
 x 19
 y 14
 elevation 1818
 end
-arch evergreen
+arch purstone_wall1
+x 19
+y 14
+end
+arch magentamarble
 x 19
 y 15
 elevation 1792
 end
-arch evergreen
+arch purstone_wall1
+x 19
+y 15
+end
+arch magentamarble
 x 19
 y 16
 elevation 1792
 end
-arch woods
+arch purstone_wall1
+x 19
+y 16
+end
+arch magentamarble
 x 19
 y 17
 elevation 2713
 end
-arch woods
+arch purstone_wall1
+x 19
+y 17
+end
+arch magentamarble
 x 19
 y 18
 elevation 2713
 end
-arch tree
+arch purstone_wall1
+x 19
+y 18
+end
+arch magentamarble
 x 19
 y 19
 elevation 2246
 end
-arch tree
+arch door_look_2
+x 19
+y 19
+end
+arch magentamarble
 x 19
 y 20
 elevation 2246
 end
-arch hills_rocky
+arch purstone_wall1
+x 19
+y 20
+end
+arch magentamarble
 x 19
 y 21
 elevation 3225
 end
-arch treed_hills
+arch purstone_wall1
+x 19
+y 21
+end
+arch magentamarble
 x 19
 y 22
 elevation 2991
 end
-arch treed_hills
+arch purstone_wall1
+x 19
+y 22
+end
+arch purplebrick
 x 19
 y 23
 elevation 1897
 end
-arch hills_rocky
+arch magentamarble
 x 19
 y 24
 elevation 2069
 end
-arch treed_hills
+arch fireplace
+x 19
+y 24
+end
+arch magentamarble
 x 19
 y 25
 elevation 2951
 end
-arch treed_hills
+arch magentamarble
 x 19
 y 26
 elevation 2951
 end
-arch evergreen
+arch magentamarble
 x 19
 y 27
 elevation 1915
 end
-arch evergreen
+arch magentamarble
 x 19
 y 28
 elevation 1915
 end
-arch woods_2
+arch magentamarble
 x 19
 y 29
 elevation 1353
 end
-arch treed_hills
+arch magentamarble
 x 19
 y 30
 elevation 2951
 end
-arch evergreen
+arch magentamarble
 x 19
 y 31
 elevation 1785
 end
-arch woods_3
+arch purbrick_wall2
+x 19
+y 31
+end
+arch bosgrass
 x 19
 y 32
 elevation 1012
 end
-arch woods_2
+arch bosgrass
 x 19
 y 33
 elevation 1353
@@ -4873,67 +5283,71 @@ x 19
 y 36
 elevation 2246
 end
-arch treed_hills
+arch bosgrass2
 x 19
 y 37
 elevation 2967
 end
-arch brush
+arch bosgrass2
 x 19
 y 38
 elevation 280
 end
-arch tree
+arch bosgrass2
 x 19
 y 39
 elevation 2246
 end
-arch tree
+arch blacklostlabfloor8
 x 19
 y 40
 elevation 2246
 end
-arch woods_3
+arch bosgrass2
 x 19
 y 41
 elevation 2796
 end
-arch woods_3
+arch bosgrass2
 x 19
 y 42
 elevation 1012
 end
-arch woods_3
+arch bosgrass2
 x 19
 y 43
 elevation 2796
 end
-arch treed_hills
+arch bosgrass2
 x 19
 y 44
 elevation 2139
 end
-arch woods_3
+arch tree6_gray
+x 19
+y 44
+end
+arch bosgrass2
 x 19
 y 45
 elevation 2796
 end
-arch grass
+arch bosgrass2
 x 19
 y 46
 elevation 439
 end
-arch grass
+arch bosgrass2
 x 19
 y 47
 elevation 299
 end
-arch grass
+arch bosgrass2
 x 19
 y 48
 elevation 299
 end
-arch evergreen
+arch bosgrass2
 x 19
 y 49
 elevation 1450
@@ -4952,7 +5366,7 @@ x 20
 y 2
 elevation 4439
 end
-arch steppe
+arch bosgrass
 x 20
 y 3
 elevation 4552
@@ -4967,142 +5381,154 @@ x 20
 y 5
 elevation 5494
 end
-arch mountain
+arch bosgrass
 x 20
 y 6
 elevation 5736
 end
-arch mountain
+arch bosgrass
 x 20
 y 7
 elevation 5190
 end
-arch hills_rocky
+arch bosgrass
 x 20
 y 8
 elevation 4343
 end
-arch steppe
+arch bosgrass
 x 20
 y 9
 elevation 3641
 end
-arch steppe
+arch bosgrass2
 x 20
 y 10
 elevation 3251
 end
-arch hills_rocky
+arch magentamarble
 x 20
 y 11
 elevation 2805
 end
-arch hills_rocky
+arch purbrick_wall2
+x 20
+y 11
+end
+arch lostlabfloor5
 x 20
 y 12
 elevation 2378
 end
-arch treed_hills
+arch lostlabfloor5
 x 20
 y 13
 elevation 1615
 end
-arch treed_hills
+arch lostlabfloor5
 x 20
 y 14
 elevation 1912
 end
-arch treed_hills
+arch lostlabfloor5
 x 20
 y 15
 elevation 1740
 end
-arch hills
+arch lostlabfloor5
 x 20
 y 16
 elevation 1367
 end
-arch evergreen
+arch lostlabfloor5
 x 20
 y 17
 elevation 1792
 end
-arch woods
+arch lostlabfloor5
 x 20
 y 18
 elevation 2713
 end
-arch treed_hills
+arch lostlabfloor5
 x 20
 y 19
 elevation 2516
 end
-arch tree
+arch lostlabfloor5
 x 20
 y 20
 elevation 2246
 end
-arch tree
+arch lostlabfloor5
 x 20
 y 21
 elevation 2246
 end
-arch treed_hills
+arch lostlabfloor5
 x 20
 y 22
 elevation 2217
 end
-arch brush
+arch magentamarble
 x 20
 y 23
 elevation 191
 end
-arch hills_rocky
+arch purstone_wall2
+x 20
+y 23
+end
+arch magentamarble
 x 20
 y 24
 elevation 1463
 end
-arch hills
+arch magentamarble
 x 20
 y 25
 elevation 2951
 end
-arch evergreen
+arch magentamarble
 x 20
 y 26
 elevation 2580
 end
-arch evergreen
+arch magentamarble
 x 20
 y 27
 elevation 1665
 end
-arch evergreen
+arch magentamarble
 x 20
 y 28
 elevation 2580
 end
-arch woods_2
+arch magentamarble
 x 20
 y 29
 elevation 1353
 end
-arch woods_2
+arch magentamarble
 x 20
 y 30
 elevation 1353
 end
-arch treed_hills
+arch magentamarble
 x 20
 y 31
 elevation 2951
 end
-arch evergreen
+arch purbrick_wall2
+x 20
+y 31
+end
+arch bosgrass
 x 20
 y 32
 elevation 1785
 end
-arch evergreen
+arch bosgrass
 x 20
 y 33
 elevation 1785
@@ -5127,57 +5553,57 @@ x 20
 y 37
 elevation 3301
 end
-arch hills_rocky
+arch bosgrass2
 x 20
 y 38
 elevation 3311
 end
-arch tree
+arch bosgrass2
 x 20
 y 39
 elevation 2246
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 20
 y 40
 elevation 4265
 end
-arch treed_hills
+arch bosgrass2
 x 20
 y 41
 elevation 2740
 end
-arch woods_3
+arch bosgrass2
 x 20
 y 42
 elevation 2432
 end
-arch woods_3
+arch bosgrass2
 x 20
 y 43
 elevation 1012
 end
-arch woods_3
+arch bosgrass2
 x 20
 y 44
 elevation 1012
 end
-arch woods_3
+arch bosgrass2
 x 20
 y 45
 elevation 1012
 end
-arch grass
+arch bosgrass2
 x 20
 y 46
 elevation 252
 end
-arch grass
+arch bosgrass2
 x 20
 y 47
 elevation 986
 end
-arch evergreen
+arch bosgrass2
 x 20
 y 48
 elevation 1629
@@ -5201,17 +5627,17 @@ x 21
 y 2
 elevation 3939
 end
-arch mountain
+arch bosgrass
 x 21
 y 3
 elevation 5045
 end
-arch mountain
+arch bosgrass
 x 21
 y 4
 elevation 5598
 end
-arch mountain
+arch bosgrass
 x 21
 y 5
 elevation 6354
@@ -5226,12 +5652,12 @@ x 21
 y 7
 elevation 5534
 end
-arch steppe
+arch bosgrass
 x 21
 y 8
 elevation 3831
 end
-arch steppe
+arch bosgrass
 x 21
 y 9
 elevation 4378
@@ -5241,117 +5667,148 @@ x 21
 y 10
 elevation 3868
 end
-arch treed_hills
+arch magentamarble
 x 21
 y 11
 elevation 2869
 end
-arch treed_hills
+arch purbrick_wall2
+x 21
+y 11
+end
+arch lostlabfloor5
 x 21
 y 12
 elevation 1333
 end
-arch treed_hills
+arch broom_leaning
+x 21
+y 12
+end
+arch lostlabfloor5
 x 21
 y 13
 elevation 2338
 end
-arch treed_hills
+arch generate_zombie
+x 21
+y 13
+end
+arch lostlabfloor5
 x 21
 y 14
 elevation 1915
 end
-arch brush
+arch lostlabfloor5
 x 21
 y 15
 elevation 604
 end
-arch hills
+arch lostlabfloor5
 x 21
 y 16
 elevation 1029
 end
-arch evergreen
+arch lostlabfloor5
 x 21
 y 17
 elevation 1792
 end
-arch woods
+arch lostlabfloor5
 x 21
 y 18
 elevation 2713
 end
-arch treed_hills
+arch lostlabfloor5
 x 21
 y 19
 elevation 2681
 end
-arch hills_rocky
+arch lostlabfloor5
 x 21
 y 20
 elevation 1602
 end
-arch tree
+arch purbrick_wall2
+x 21
+y 20
+end
+arch lostlabfloor5
 x 21
 y 21
 elevation 2246
 end
-arch treed_hills
+arch stair_down_4
+slaying ../scorn/mansion/hhfloorb
+hp 16
+sp 10
+x 21
+y 21
+end
+arch lostlabfloor5
 x 21
 y 22
 elevation 2075
 end
-arch brush
+arch magentamarble
 x 21
 y 23
 elevation 718
 end
-arch hills_rocky
+arch purstone_wall2
+x 21
+y 23
+end
+arch magentamarble
 x 21
 y 24
 elevation 1187
 end
-arch evergreen
+arch magentamarble
 x 21
 y 25
 elevation 2580
 end
-arch evergreen
+arch magentamarble
 x 21
 y 26
 elevation 1665
 end
-arch evergreen
+arch magentamarble
 x 21
 y 27
 elevation 1665
 end
-arch woods_3
+arch magentamarble
 x 21
 y 28
 elevation 1012
 end
-arch woods_2
+arch magentamarble
 x 21
 y 29
 elevation 1353
 end
-arch woods_3
+arch magentamarble
 x 21
 y 30
 elevation 1012
 end
-arch tree
+arch magentamarble
 x 21
 y 31
 elevation 2246
 end
-arch evergreen
+arch purbrick_wall2
+x 21
+y 31
+end
+arch bosgrass
 x 21
 y 32
 elevation 1785
 end
-arch woods_3
+arch bosgrass
 x 21
 y 33
 elevation 1012
@@ -5381,17 +5838,17 @@ x 21
 y 38
 elevation 2580
 end
-arch brush
+arch bosgrass2
 x 21
 y 39
 elevation 642
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 21
 y 40
 elevation 4461
 end
-arch woods_3
+arch bosgrass2
 x 21
 y 41
 elevation 1012
@@ -5416,12 +5873,12 @@ x 21
 y 45
 elevation 752
 end
-arch evergreen
+arch bosgrass
 x 21
 y 46
 elevation 1082
 end
-arch woods_3
+arch bosgrass
 x 21
 y 47
 elevation 1270
@@ -5450,7 +5907,7 @@ x 22
 y 2
 elevation 3830
 end
-arch mountain
+arch bosgrass
 x 22
 y 3
 elevation 5419
@@ -5480,127 +5937,170 @@ x 22
 y 8
 elevation 5739
 end
-arch steppe
+arch bosgrass
 x 22
 y 9
 elevation 4674
 end
-arch steppe
+arch bosgrass
 x 22
 y 10
 elevation 4623
 end
-arch hills_rocky
+arch magentamarble
 x 22
 y 11
 elevation 3683
 end
-arch steppe
+arch purbrick_wall2
+x 22
+y 11
+end
+arch lostlabfloor5
 x 22
 y 12
 elevation 3325
 end
-arch hills_rocky
+arch lostlabfloor5
 x 22
 y 13
 elevation 3019
 end
-arch hills
+arch generate_zombie
+x 22
+y 13
+end
+arch lostlabfloor5
 x 22
 y 14
 elevation 2341
 end
-arch desert
+arch lostlabfloor5
 x 22
 y 15
 elevation 882
 end
-arch hills
+arch lostlabfloor5
 x 22
 y 16
 elevation 1600
 end
-arch hills_rocky
+arch lostlabfloor5
 x 22
 y 17
 elevation 2821
 end
-arch hills_rocky
+arch lostlabfloor5
 x 22
 y 18
 elevation 3293
 end
-arch treed_hills
+arch lostlabfloor5
 x 22
 y 19
 elevation 2784
 end
-arch treed_hills
+arch lostlabfloor5
 x 22
 y 20
-elevation 3189
 end
-arch hills_rocky
+arch lostlabfloor5
 x 22
 y 21
 elevation 3086
 end
-arch treed_hills
+arch purbrick_wall1
+x 22
+y 21
+end
+arch lostlabfloor5
 x 22
 y 22
 elevation 2547
 end
-arch treed_hills
+arch purbrick_wall1
+x 22
+y 22
+end
+arch purplebrick
 x 22
 y 23
 elevation 1542
 end
-arch brush
+arch graymarble
 x 22
 y 24
 elevation 664
 end
-arch evergreen
+arch purstone_wall1
+x 22
+y 24
+end
+arch graymarble
 x 22
 y 25
 elevation 2580
 end
-arch evergreen
+arch purstone_wall1
+x 22
+y 25
+end
+arch graymarble
 x 22
 y 26
 elevation 1665
 end
-arch evergreen
+arch door_look_2
+x 22
+y 26
+end
+arch graymarble
 x 22
 y 27
 elevation 2580
 end
-arch evergreen
+arch purstone_wall1
+x 22
+y 27
+end
+arch graymarble
 x 22
 y 28
 elevation 2580
 end
-arch woods_3
+arch purstone_wall1
+x 22
+y 28
+end
+arch graymarble
 x 22
 y 29
 elevation 1012
 end
-arch woods_3
+arch purstone_wall1
+x 22
+y 29
+end
+arch graymarble
 x 22
 y 30
 elevation 1012
 end
-arch woods_3
+arch purstone_wall1
+x 22
+y 30
+end
+arch purplebrick
 x 22
 y 31
 elevation 1012
 end
-arch tree
+arch bosgrass
 x 22
 y 32
 elevation 2246
 end
-arch tree
+arch bosgrass
 x 22
 y 33
 elevation 2246
@@ -5630,22 +6130,22 @@ x 22
 y 38
 elevation 2246
 end
-arch treed_hills
+arch dungeon_floor
 x 22
 y 39
 elevation 4474
 end
-arch treed_hills
+arch bosgrass2
 x 22
 y 40
 elevation 4672
 end
-arch treed_hills
+arch bosgrass
 x 22
 y 41
 elevation 3916
 end
-arch evergreen
+arch bosgrass
 x 22
 y 42
 elevation 1984
@@ -5665,12 +6165,12 @@ x 22
 y 45
 elevation 2700
 end
-arch evergreen
+arch bosgrass
 x 22
 y 46
 elevation 2580
 end
-arch evergreen
+arch bosgrass
 x 22
 y 47
 elevation 1665
@@ -5685,7 +6185,7 @@ x 22
 y 49
 elevation 1676
 end
-arch mountain
+arch bosgrass
 x 23
 elevation 5397
 end
@@ -5699,12 +6199,12 @@ x 23
 y 2
 elevation 4838
 end
-arch mountain
+arch bosgrass
 x 23
 y 3
 elevation 5671
 end
-arch mountain
+arch bosgrass
 x 23
 y 4
 elevation 6423
@@ -5734,127 +6234,167 @@ x 23
 y 9
 elevation 6206
 end
-arch mountain
+arch bosgrass
 x 23
 y 10
 elevation 5453
 end
-arch mountain
+arch magentamarble
 x 23
 y 11
 elevation 5296
 end
-arch steppe
+arch purbrick_wall2
+x 23
+y 11
+end
+arch lostlabfloor5
 x 23
 y 12
 elevation 4755
 end
-arch hills_rocky
+arch fireplace
+x 23
+y 12
+end
+arch lostlabfloor5
 x 23
 y 13
 elevation 3959
 end
-arch hills_rocky
+arch generate_zombie
+x 23
+y 13
+end
+arch lostlabfloor5
 x 23
 y 14
 elevation 3131
 end
-arch hills
+arch lostlabfloor5
 x 23
 y 15
 elevation 2113
 end
-arch hills
+arch lostlabfloor5
 x 23
 y 16
 elevation 2358
 end
-arch hills_rocky
+arch chair_wv_1.4
+x 23
+y 16
+end
+arch lostlabfloor5
 x 23
 y 17
 elevation 3741
 end
-arch hills_rocky
+arch chair_wv_1.4
+x 23
+y 17
+end
+arch lostlabfloor5
 x 23
 y 18
 elevation 3847
 end
-arch hills_rocky
+arch chair_wv_1.4
+x 23
+y 18
+end
+arch lostlabfloor5
 x 23
 y 19
 elevation 3739
 end
-arch hills_rocky
+arch chair_wv_1.4
+x 23
+y 19
+end
+arch lostlabfloor5
 x 23
 y 20
 elevation 3689
 end
-arch hills_rocky
+arch lostlabfloor5
 x 23
 y 21
 elevation 3729
 end
-arch hills_rocky
+arch lostlabfloor5
 x 23
 y 22
 elevation 3262
 end
-arch treed_hills
+arch graymarble
 x 23
 y 23
 elevation 2783
 end
-arch evergreen
+arch purstone_wall2
+x 23
+y 23
+end
+arch graymarble
 x 23
 y 24
 elevation 1915
 end
-arch woods_2
+arch graymarble
 x 23
 y 25
 elevation 1353
 end
-arch woods_2
+arch graymarble
 x 23
 y 26
 elevation 1353
 end
-arch evergreen
+arch graymarble
 x 23
 y 27
 elevation 1665
 end
-arch evergreen
+arch skeleton
+x 23
+y 27
+end
+arch graymarble
 x 23
 y 28
 elevation 2580
 end
-arch evergreen
+arch graymarble
 x 23
 y 29
 elevation 2580
 end
-arch woods_3
+arch graymarble
 x 23
 y 30
 elevation 1012
 end
-arch evergreen
+arch graymarble
 x 23
 y 31
 elevation 2580
 end
-arch evergreen
+arch purbrick_wall2
+x 23
+y 31
+end
+arch bosgrass
 x 23
 y 32
 elevation 2580
 end
-arch tree
+arch bosgrass
 x 23
 y 33
 elevation 2246
 end
-arch woods_3
+arch bosgrass
 x 23
 y 34
 elevation 1012
@@ -5874,27 +6414,27 @@ x 23
 y 37
 elevation 2580
 end
-arch steppe
+arch bosgrass
 x 23
 y 38
 elevation 4471
 end
-arch steppe
+arch bosgrass
 x 23
 y 39
 elevation 4902
 end
-arch mountain
+arch blacklostlabfloor8
 x 23
 y 40
 elevation 5050
 end
-arch steppe
+arch bosgrass
 x 23
 y 41
 elevation 3675
 end
-arch steppe
+arch bosgrass
 x 23
 y 42
 elevation 4003
@@ -5919,7 +6459,7 @@ x 23
 y 46
 elevation 3815
 end
-arch woods_3
+arch bosgrass
 x 23
 y 47
 elevation 2796
@@ -5938,7 +6478,7 @@ arch mountain
 x 24
 elevation 5669
 end
-arch steppe
+arch bosgrass
 x 24
 y 1
 elevation 4813
@@ -5953,7 +6493,7 @@ x 24
 y 3
 elevation 5396
 end
-arch mountain
+arch bosgrass
 x 24
 y 4
 elevation 6017
@@ -5983,172 +6523,232 @@ x 24
 y 9
 elevation 6746
 end
-arch mountain
+arch bosgrass
 x 24
 y 10
 elevation 6579
 end
-arch mountain
+arch magentamarble
 x 24
 y 11
 elevation 6259
 end
-arch mountain
+arch purbrick_wall2
+x 24
+y 11
+end
+arch lostlabfloor5
 x 24
 y 12
 elevation 5688
 end
-arch steppe
+arch lostlabfloor5
 x 24
 y 13
 elevation 4843
 end
-arch steppe
+arch generate_zombie
+x 24
+y 13
+end
+arch lostlabfloor5
 x 24
 y 14
 elevation 3067
 end
-arch steppe
+arch lostlabfloor5
 x 24
 y 15
 elevation 4015
 end
-arch steppe
+arch lostlabfloor5
 x 24
 y 16
 elevation 4569
 end
-arch hills_rocky
+arch table_cw_3
+x 24
+y 16
+end
+arch lostlabfloor5
 x 24
 y 17
 elevation 4892
 end
-arch hills_rocky
+arch table_cw_3
+x 24
+y 17
+end
+arch lostlabfloor5
 x 24
 y 18
 elevation 4734
 end
-arch hills_rocky
+arch table_cw_3
+x 24
+y 18
+end
+arch lostlabfloor5
 x 24
 y 19
 elevation 3213
 end
-arch hills_rocky
+arch table_cw_3
+x 24
+y 19
+end
+arch lostlabfloor5
 x 24
 y 20
 elevation 4106
 end
-arch hills_rocky
+arch lostlabfloor5
 x 24
 y 21
 elevation 4370
 end
-arch hills_rocky
+arch lostlabfloor5
 x 24
 y 22
 elevation 4063
 end
-arch hills
+arch graymarble
 x 24
 y 23
 elevation 2951
 end
-arch hills
+arch purstone_wall2
+x 24
+y 23
+end
+arch graymarble
 x 24
 y 24
 elevation 2951
 end
-arch evergreen
+arch stove
+x 24
+y 24
+end
+arch graymarble
 x 24
 y 25
 elevation 2580
 end
-arch evergreen
+arch skeleton
+x 24
+y 25
+end
+arch graymarble
 x 24
 y 26
 elevation 2580
 end
-arch evergreen
+arch skeleton
+x 24
+y 26
+end
+arch graymarble
 x 24
 y 27
 elevation 2580
 end
-arch brush
+arch skeleton
+x 24
+y 27
+end
+arch graymarble
 x 24
 y 28
 elevation 639
 end
-arch hills_rocky
+arch skeleton
+x 24
+y 28
+end
+arch graymarble
 x 24
 y 29
 elevation 1582
 end
-arch evergreen
+arch skeleton
+x 24
+y 29
+end
+arch graymarble
 x 24
 y 30
 elevation 2580
 end
-arch evergreen
+arch skeleton
+x 24
+y 30
+end
+arch graymarble
 x 24
 y 31
 elevation 2580
 end
-arch tree
+arch purbrick_wall2
+x 24
+y 31
+end
+arch bosgrass
 x 24
 y 32
 elevation 2246
 end
-arch woods_3
+arch bosgrass
 x 24
 y 33
 elevation 1012
 end
-arch treed_hills
+arch bosgrass
 x 24
 y 34
 elevation 2951
 end
-arch treed_hills
+arch bosgrass
 x 24
 y 35
 elevation 2951
 end
-arch woods_2
+arch bosgrass
 x 24
 y 36
 elevation 1353
 end
-arch tree
+arch bosgrass
 x 24
 y 37
 elevation 2246
 end
-arch steppe
+arch bosgrass
 x 24
 y 38
 elevation 4957
 end
-arch mountain
+arch blacklostlabfloor8
 x 24
 y 39
 elevation 5325
 end
-arch mountain
+arch bosgrass
 x 24
 y 40
 elevation 5413
 end
-arch mountain
+arch bosgrass
 x 24
 y 41
 elevation 5387
 end
-arch mountain
+arch bosgrass
 x 24
 y 42
 elevation 5142
 end
-arch hills_rocky
+arch bosgrass
 x 24
 y 43
 elevation 4211
@@ -6163,12 +6763,12 @@ x 24
 y 45
 elevation 4243
 end
-arch hills_rocky
+arch bosgrass
 x 24
 y 46
 elevation 4441
 end
-arch treed_hills
+arch bosgrass
 x 24
 y 47
 elevation 4281
@@ -6187,7 +6787,7 @@ arch mountain
 x 25
 elevation 5783
 end
-arch steppe
+arch bosgrass
 x 25
 y 1
 elevation 3684
@@ -6207,7 +6807,7 @@ x 25
 y 4
 elevation 5297
 end
-arch mountain
+arch bosgrass
 x 25
 y 5
 elevation 5517
@@ -6227,177 +6827,233 @@ x 25
 y 8
 elevation 5896
 end
-arch mountain
+arch bosgrass
 x 25
 y 9
 elevation 6598
 end
-arch mountain
+arch bosgrass
 x 25
 y 10
 elevation 6586
 end
-arch mountain
+arch magentamarble
 x 25
 y 11
 elevation 6347
 end
-arch mountain
+arch purbrick_wall2
+x 25
+y 11
+end
+arch lostlabfloor5
 x 25
 y 12
 elevation 6030
 end
-arch mountain
+arch lostlabfloor5
 x 25
 y 13
 elevation 5326
 end
-arch mountain
+arch generate_zombie
+x 25
+y 13
+end
+arch lostlabfloor5
 x 25
 y 14
 elevation 5297
 end
-arch mountain
+arch lostlabfloor5
 x 25
 y 15
 elevation 5620
 end
-arch mountain
+arch lostlabfloor5
 x 25
 y 16
 elevation 6032
 end
-arch mountain
+arch table_cw_3
+x 25
+y 16
+end
+arch lostlabfloor5
 x 25
 y 17
 elevation 5970
 end
-arch mountain
+arch table_cw_3
+x 25
+y 17
+end
+arch lostlabfloor5
 x 25
 y 18
 elevation 5530
 end
-arch mountain
+arch table_cw_3
+x 25
+y 18
+end
+arch lostlabfloor5
 x 25
 y 19
 elevation 5233
 end
-arch mountain
+arch table_cw_3
+x 25
+y 19
+end
+arch lostlabfloor5
 x 25
 y 20
 elevation 5032
 end
-arch hills_rocky
+arch lostlabfloor5
 x 25
 y 21
 elevation 4921
 end
-arch hills_rocky
+arch lostlabfloor5
 x 25
 y 22
 elevation 4557
 end
-arch evergreen
+arch graymarble
 x 25
 y 23
 elevation 1665
 end
-arch hills
+arch purstone_wall2
+x 25
+y 23
+end
+arch graymarble
 x 25
 y 24
 elevation 2951
 end
-arch tree
+arch generate_skeleton
+x 25
+y 24
+end
+arch graymarble
 x 25
 y 25
 elevation 2246
 end
-arch tree
+arch skeleton
+x 25
+y 25
+end
+arch graymarble
 x 25
 y 26
 elevation 2246
 end
-arch evergreen
+arch skeleton
+x 25
+y 26
+end
+arch graymarble
 x 25
 y 27
 elevation 1915
 end
-arch woods_2
+arch graymarble
 x 25
 y 28
 elevation 1353
 end
-arch woods_2
+arch skeleton
+x 25
+y 28
+end
+arch graymarble
 x 25
 y 29
 elevation 1353
 end
-arch evergreen
+arch skeleton
+x 25
+y 29
+end
+arch graymarble
 x 25
 y 30
 elevation 1915
 end
-arch evergreen
+arch skeleton
+x 25
+y 30
+end
+arch graymarble
 x 25
 y 31
 elevation 2580
 end
-arch tree
+arch purbrick_wall2
+x 25
+y 31
+end
+arch bosgrass
 x 25
 y 32
 elevation 2246
 end
-arch woods_2
+arch bosgrass
 x 25
 y 33
 elevation 1353
 end
-arch evergreen
+arch bosgrass
 x 25
 y 34
 elevation 1785
 end
-arch woods_3
+arch bosgrass
 x 25
 y 35
 elevation 1012
 end
-arch woods_3
+arch bosgrass
 x 25
 y 36
 elevation 1012
 end
-arch brush
+arch bosgrass
 x 25
 y 37
 elevation 642
 end
-arch hills_rocky
+arch bosgrass
 x 25
 y 38
 elevation 4799
 end
-arch mountain
+arch bosgrass
 x 25
 y 39
 elevation 5231
 end
-arch mountain
+arch bosgrass
 x 25
 y 40
 elevation 5405
 end
-arch mountain
+arch bosgrass
 x 25
 y 41
 elevation 5747
 end
-arch mountain
+arch bosgrass
 x 25
 y 42
 elevation 5745
 end
-arch mountain
+arch bosgrass
 x 25
 y 43
 elevation 5219
@@ -6412,12 +7068,12 @@ x 25
 y 45
 elevation 1676
 end
-arch woods_3
+arch bosgrass
 x 25
 y 46
 elevation 2796
 end
-arch treed_hills
+arch bosgrass
 x 25
 y 47
 elevation 4603
@@ -6441,22 +7097,22 @@ x 26
 y 1
 elevation 5177
 end
-arch steppe
+arch bosgrass
 x 26
 y 2
 elevation 4243
 end
-arch steppe
+arch bosgrass
 x 26
 y 3
 elevation 4039
 end
-arch steppe
+arch bosgrass
 x 26
 y 4
 elevation 4109
 end
-arch mountain
+arch bosgrass
 x 26
 y 5
 elevation 5066
@@ -6476,172 +7132,224 @@ x 26
 y 8
 elevation 4740
 end
-arch mountain
+arch bosgrass
 x 26
 y 9
 elevation 5688
 end
-arch mountain
+arch bosgrass
 x 26
 y 10
 elevation 5672
 end
-arch mountain
+arch magentamarble
 x 26
 y 11
 elevation 5006
 end
-arch mountain
+arch purbrick_wall2
+x 26
+y 11
+end
+arch lostlabfloor5
 x 26
 y 12
 elevation 6039
 end
-arch mountain
+arch lostlabfloor5
 x 26
 y 13
 elevation 6226
 end
-arch mountain
+arch generate_zombie
+x 26
+y 13
+end
+arch lostlabfloor5
 x 26
 y 14
 elevation 6403
 end
-arch mountain
+arch lostlabfloor5
 x 26
 y 15
 elevation 6881
 end
-arch mountain
+arch lostlabfloor5
 x 26
 y 16
 elevation 6994
 end
-arch mountain
+arch chair_wv_1.2
+x 26
+y 16
+end
+arch lostlabfloor5
 x 26
 y 17
 elevation 6415
 end
-arch mountain
+arch chair_wv_1.2
+x 26
+y 17
+end
+arch lostlabfloor5
 x 26
 y 18
 elevation 5880
 end
-arch mountain
+arch chair_wv_1.2
+x 26
+y 18
+end
+arch lostlabfloor5
 x 26
 y 19
 elevation 5576
 end
-arch mountain
+arch chair_wv_1.2
+x 26
+y 19
+end
+arch lostlabfloor5
 x 26
 y 20
 elevation 5427
 end
-arch mountain
+arch lostlabfloor5
 x 26
 y 21
 elevation 5023
 end
-arch hills_rocky
+arch lostlabfloor5
 x 26
 y 22
 elevation 4490
 end
-arch hills_rocky
+arch graymarble
 x 26
 y 23
 elevation 3704
 end
-arch woods_2
+arch purstone_wall2
+x 26
+y 23
+end
+arch graymarble
 x 26
 y 24
 elevation 1353
 end
-arch tree
+arch generate_skeleton
+x 26
+y 24
+end
+arch graymarble
 x 26
 y 25
 elevation 2246
 end
-arch woods_2
+arch skeleton
+x 26
+y 25
+end
+arch graymarble
 x 26
 y 26
 elevation 1353
 end
-arch woods_2
+arch skeleton
+x 26
+y 26
+end
+arch graymarble
 x 26
 y 27
 elevation 1353
 end
-arch woods_2
+arch skeleton
+x 26
+y 27
+end
+arch graymarble
 x 26
 y 28
 elevation 1353
 end
-arch tree
+arch graymarble
 x 26
 y 29
 elevation 2246
 end
-arch tree
+arch graymarble
 x 26
 y 30
 elevation 2246
 end
-arch tree
+arch skeleton
+x 26
+y 30
+end
+arch graymarble
 x 26
 y 31
 elevation 2246
 end
-arch woods_2
+arch purbrick_wall2
+x 26
+y 31
+end
+arch bosgrass
 x 26
 y 32
 elevation 1353
 end
-arch evergreen
+arch bosgrass
 x 26
 y 33
 elevation 1785
 end
-arch evergreen
+arch bosgrass2
 x 26
 y 34
 elevation 1785
 end
-arch brush
+arch bosgrass
 x 26
 y 35
 elevation 642
 end
-arch brush
+arch bosgrass
 x 26
 y 36
 elevation 642
 end
-arch hills_rocky
+arch bosgrass
 x 26
 y 37
 elevation 4317
 end
-arch steppe
+arch bosgrass
 x 26
 y 38
 elevation 4527
 end
-arch hills_rocky
+arch bosgrass
 x 26
 y 39
 elevation 4558
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 26
 y 40
 elevation 4823
 end
-arch mountain
+arch bosgrass
 x 26
 y 41
 elevation 5070
 end
-arch mountain
+arch bosgrass
 x 26
 y 42
 elevation 5163
@@ -6661,12 +7369,12 @@ x 26
 y 45
 elevation 4210
 end
-arch hills
+arch bosgrass
 x 26
 y 46
 elevation 4333
 end
-arch treed_hills
+arch bosgrass
 x 26
 y 47
 elevation 4377
@@ -6725,137 +7433,177 @@ x 27
 y 8
 elevation 4109
 end
-arch steppe
+arch bosgrass
 x 27
 y 9
 elevation 4382
 end
-arch steppe
+arch bosgrass
 x 27
 y 10
 elevation 4631
 end
-arch mountain
+arch magentamarble
 x 27
 y 11
 elevation 5123
 end
-arch mountain
+arch purbrick_wall2
+x 27
+y 11
+end
+arch lostlabfloor5
 x 27
 y 12
 elevation 5699
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 13
 elevation 6257
 end
-arch mountain
+arch generate_zombie
+x 27
+y 13
+end
+arch lostlabfloor5
 x 27
 y 14
 elevation 6768
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 15
 elevation 7266
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 16
 elevation 7214
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 17
 elevation 6379
 end
-arch hills_rocky
+arch lostlabfloor5
 x 27
 y 18
 elevation 4112
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 19
 elevation 5481
 end
-arch mountain
+arch lostlabfloor5
 x 27
 y 20
 elevation 5108
 end
-arch hills_rocky
+arch lostlabfloor5
 x 27
 y 21
 elevation 3715
 end
-arch hills_rocky
+arch lostlabfloor5
 x 27
 y 22
 elevation 3943
 end
-arch treed_hills
+arch graymarble
 x 27
 y 23
 elevation 3637
 end
-arch tree
+arch purstone_wall2
+x 27
+y 23
+end
+arch graymarble
 x 27
 y 24
 elevation 2246
 end
-arch woods_2
+arch generate_skeleton
+x 27
+y 24
+end
+arch graymarble
 x 27
 y 25
 elevation 1353
 end
-arch tree
+arch skeleton
+x 27
+y 25
+end
+arch graymarble
 x 27
 y 26
 elevation 2246
 end
-arch tree
+arch skeleton
+x 27
+y 26
+end
+arch graymarble
 x 27
 y 27
 elevation 2246
 end
-arch hills
+arch skeleton
+x 27
+y 27
+end
+arch graymarble
 x 27
 y 28
 elevation 2951
 end
-arch tree
+arch skeleton
+x 27
+y 28
+end
+arch graymarble
 x 27
 y 29
 elevation 2246
 end
-arch tree
+arch skeleton
+x 27
+y 29
+end
+arch graymarble
 x 27
 y 30
 elevation 2246
 end
-arch tree
+arch graymarble
 x 27
 y 31
 elevation 2246
 end
-arch evergreen
+arch purbrick_wall2
+x 27
+y 31
+end
+arch bosgrass
 x 27
 y 32
 elevation 1785
 end
-arch woods_2
+arch bosgrass
 x 27
 y 33
 elevation 1353
 end
-arch tree
+arch bosgrass2
 x 27
 y 34
 elevation 2246
 end
-arch tree
+arch bosgrass2
 x 27
 y 35
 elevation 2246
@@ -6865,32 +7613,32 @@ x 27
 y 36
 elevation 2246
 end
-arch hills_rocky
+arch bosgrass
 x 27
 y 37
 elevation 3953
 end
-arch woods_3
+arch bosgrass
 x 27
 y 38
 elevation 2957
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 27
 y 39
 elevation 3274
 end
-arch hills_rocky
+arch bosgrass
 x 27
 y 40
 elevation 3693
 end
-arch steppe
+arch bosgrass
 x 27
 y 41
 elevation 3726
 end
-arch steppe
+arch bosgrass
 x 27
 y 42
 elevation 3741
@@ -6905,17 +7653,17 @@ x 27
 y 44
 elevation 3749
 end
-arch tree
+arch bosgrass
 x 27
 y 45
 elevation 2944
 end
-arch treed_hills
+arch bosgrass
 x 27
 y 46
 elevation 3447
 end
-arch treed_hills
+arch bosgrass
 x 27
 y 47
 elevation 3908
@@ -6944,12 +7692,12 @@ x 28
 y 2
 elevation 4375
 end
-arch steppe
+arch bosgrass2
 x 28
 y 3
 elevation 4093
 end
-arch steppe
+arch bosgrass2
 x 28
 y 4
 elevation 4210
@@ -6959,17 +7707,17 @@ x 28
 y 5
 elevation 4466
 end
-arch steppe
+arch bosgrass2
 x 28
 y 6
 elevation 4147
 end
-arch steppe
+arch bosgrass2
 x 28
 y 7
 elevation 3984
 end
-arch steppe
+arch bosgrass2
 x 28
 y 8
 elevation 3693
@@ -6984,122 +7732,178 @@ x 28
 y 10
 elevation 2878
 end
-arch steppe
+arch magentamarble
 x 28
 y 11
 elevation 4235
 end
-arch mountain
+arch purbrick_wall2
+x 28
+y 11
+end
+arch lostlabfloor5
 x 28
 y 12
 elevation 5116
 end
-arch mountain
+arch clock_ag
+x 28
+y 12
+end
+arch lostlabfloor5
 x 28
 y 13
 elevation 5482
 end
-arch mountain
+arch generate_zombie
+x 28
+y 13
+end
+arch lostlabfloor5
 x 28
 y 14
 elevation 6204
 end
-arch mountain
+arch lostlabfloor5
 x 28
 y 15
 elevation 6506
 end
-arch mountain
+arch lostlabfloor5
 x 28
 y 16
 elevation 6460
 end
-arch mountain
+arch lostlabfloor5
 x 28
 y 17
 elevation 5961
 end
-arch mountain
+arch lostlabfloor5
 x 28
 y 18
 elevation 5670
 end
-arch mountain
+arch lostlabfloor5
 x 28
 y 19
 elevation 5170
 end
-arch hills_rocky
+arch lostlabfloor5
 x 28
 y 20
 elevation 4489
 end
-arch hills_rocky
+arch barrel
+x 28
+y 20
+end
+arch lostlabfloor5
 x 28
 y 21
 elevation 3033
 end
-arch treed_hills
+arch barrel
+x 28
+y 21
+end
+arch lostlabfloor5
 x 28
 y 22
 elevation 2544
 end
-arch tree
+arch graymarble
 x 28
 y 23
 elevation 2246
 end
-arch hills
+arch purstone_wall2
+x 28
+y 23
+end
+arch graymarble
 x 28
 y 24
 elevation 2951
 end
-arch woods_2
+arch generate_skeleton
+x 28
+y 24
+end
+arch graymarble
 x 28
 y 25
 elevation 1353
 end
-arch tree
+arch skeleton
+x 28
+y 25
+end
+arch graymarble
 x 28
 y 26
 elevation 2246
 end
-arch hills
+arch skeleton
+x 28
+y 26
+end
+arch graymarble
 x 28
 y 27
 elevation 2951
 end
-arch hills
+arch skeleton
+x 28
+y 27
+end
+arch graymarble
 x 28
 y 28
 elevation 2951
 end
-arch evergreen
+arch skeleton
+x 28
+y 28
+end
+arch graymarble
 x 28
 y 29
 elevation 1915
 end
-arch woods_2
+arch jar
+x 28
+y 29
+end
+arch graymarble
 x 28
 y 30
 elevation 1353
 end
-arch woods_2
+arch skeleton
+x 28
+y 30
+end
+arch graymarble
 x 28
 y 31
 elevation 1353
+end
+arch purbrick_wall2
+x 28
+y 31
 end
 arch evergreen
 x 28
 y 32
 elevation 1785
 end
-arch woods_3
+arch bosgrass2
 x 28
 y 33
 elevation 1012
 end
-arch tree
+arch bosgrass2
 x 28
 y 34
 elevation 2246
@@ -7114,32 +7918,32 @@ x 28
 y 36
 elevation 2246
 end
-arch hills_rocky
+arch bosgrass
 x 28
 y 37
 elevation 2989
 end
-arch hills
+arch bosgrass
 x 28
 y 38
 elevation 2951
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 28
 y 39
 elevation 2518
 end
-arch hills_rocky
+arch bosgrass
 x 28
 y 40
 elevation 2257
 end
-arch woods_3
+arch bosgrass
 x 28
 y 41
 elevation 2271
 end
-arch treed_hills
+arch bosgrass
 x 28
 y 42
 elevation 2042
@@ -7159,12 +7963,12 @@ x 28
 y 45
 elevation 2369
 end
-arch treed_hills
+arch bosgrass
 x 28
 y 46
 elevation 4325
 end
-arch treed_hills
+arch bosgrass
 x 28
 y 47
 elevation 4309
@@ -7188,22 +7992,22 @@ x 29
 y 1
 elevation 4813
 end
-arch hills_rocky
+arch bosgrass2
 x 29
 y 2
 elevation 4469
 end
-arch steppe
+arch bosgrass
 x 29
 y 3
 elevation 4333
 end
-arch steppe
+arch bosgrass
 x 29
 y 4
 elevation 4083
 end
-arch steppe
+arch bosgrass
 x 29
 y 5
 elevation 4346
@@ -7213,17 +8017,17 @@ x 29
 y 6
 elevation 3910
 end
-arch steppe
+arch bosgrass
 x 29
 y 7
 elevation 3538
 end
-arch hills_rocky
+arch bosgrass2
 x 29
 y 8
 elevation 3280
 end
-arch steppe
+arch bosgrass
 x 29
 y 9
 elevation 3014
@@ -7233,122 +8037,194 @@ x 29
 y 10
 elevation 1348
 end
-arch steppe
+arch purplebrick
 x 29
 y 11
 elevation 3386
 end
-arch steppe
+arch magentamarble
 x 29
 y 12
 elevation 4111
 end
-arch steppe
+arch purbrick_wall1
+x 29
+y 12
+end
+arch magentamarble
 x 29
 y 13
 elevation 4531
 end
-arch steppe
+arch purbrick_wall1
+x 29
+y 13
+end
+arch magentamarble
 x 29
 y 14
 elevation 4792
 end
-arch mountain
+arch purbrick_wall1
+x 29
+y 14
+end
+arch magentamarble
 x 29
 y 15
 elevation 5485
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 15
+end
+arch magentamarble
 x 29
 y 16
 elevation 4132
 end
-arch mountain
+arch purbrick_wall1
+x 29
+y 16
+end
+arch magentamarble
 x 29
 y 17
 elevation 5719
 end
-arch mountain
+arch purbrick_wall1
+x 29
+y 17
+end
+arch magentamarble
 x 29
 y 18
 elevation 5546
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 18
+end
+arch magentamarble
 x 29
 y 19
 elevation 4975
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 19
+end
+arch magentamarble
 x 29
 y 20
 elevation 4034
 end
-arch treed_hills
+arch purbrick_wall1
+x 29
+y 20
+end
+arch magentamarble
 x 29
 y 21
 elevation 2552
 end
-arch tree
+arch purbrick_wall1
+x 29
+y 21
+end
+arch magentamarble
 x 29
 y 22
 elevation 2246
 end
-arch hills
+arch purbrick_wall1
+x 29
+y 22
+end
+arch purplebrick
 x 29
 y 23
 elevation 2951
 end
-arch treed_hills
+arch graymarble
 x 29
 y 24
 elevation 3435
 end
-arch treed_hills
+arch purbrick_wall1
+x 29
+y 24
+end
+arch graymarble
 x 29
 y 25
 elevation 4138
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 25
+end
+arch graymarble
 x 29
 y 26
 elevation 4206
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 26
+end
+arch graymarble
 x 29
 y 27
 elevation 3613
 end
-arch hills_rocky
+arch purbrick_wall1
+x 29
+y 27
+end
+arch graymarble
 x 29
 y 28
 elevation 3542
 end
-arch tree
+arch purbrick_wall1
+x 29
+y 28
+end
+arch graymarble
 x 29
 y 29
 elevation 2246
 end
-arch woods_2
+arch purbrick_wall1
+x 29
+y 29
+end
+arch graymarble
 x 29
 y 30
 elevation 1353
 end
-arch evergreen
+arch purbrick_wall1
+x 29
+y 30
+end
+arch purplebrick
 x 29
 y 31
 elevation 1785
 end
-arch woods_2
+arch bosgrass2
 x 29
 y 32
 elevation 1353
 end
-arch woods_3
+arch bosgrass2
 x 29
 y 33
 elevation 1012
 end
-arch treed_hills
+arch bosgrass2
 x 29
 y 34
 elevation 2951
@@ -7363,17 +8239,17 @@ x 29
 y 36
 elevation 2951
 end
-arch treed_hills
+arch bosgrass
 x 29
 y 37
 elevation 2800
 end
-arch hills_rocky
+arch bosgrass
 x 29
 y 38
 elevation 2655
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 29
 y 39
 elevation 1851
@@ -7383,7 +8259,7 @@ x 29
 y 40
 elevation 2397
 end
-arch woods_3
+arch bosgrass
 x 29
 y 41
 elevation 2552
@@ -7403,7 +8279,7 @@ x 29
 y 44
 elevation 3494
 end
-arch hills_rocky
+arch bosgrass
 x 29
 y 45
 elevation 3952
@@ -7447,7 +8323,7 @@ x 30
 y 3
 elevation 4221
 end
-arch steppe
+arch bosgrass
 x 30
 y 4
 elevation 4651
@@ -7457,22 +8333,22 @@ x 30
 y 5
 elevation 4340
 end
-arch steppe
+arch bosgrass2
 x 30
 y 6
 elevation 3676
 end
-arch hills
+arch bosgrass2
 x 30
 y 7
 elevation 1889
 end
-arch steppe
+arch bosgrass2
 x 30
 y 8
 elevation 3356
 end
-arch steppe
+arch bosgrass2
 x 30
 y 9
 elevation 3381
@@ -7482,182 +8358,182 @@ x 30
 y 10
 elevation 3208
 end
-arch steppe
+arch bosgrass2
 x 30
 y 11
 elevation 3191
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 12
 elevation 2630
 end
-arch hills
+arch bosgrass2
 x 30
 y 13
 elevation 2819
 end
-arch hills_rocky
+arch bosgrass2
 x 30
 y 14
 elevation 3889
 end
-arch steppe
+arch bosgrass2
 x 30
 y 15
 elevation 4471
 end
-arch mountain
+arch bosgrass2
 x 30
 y 16
 elevation 5095
 end
-arch mountain
+arch bosgrass2
 x 30
 y 17
 elevation 5364
 end
-arch mountain
+arch bosgrass2
 x 30
 y 18
 elevation 5312
 end
-arch hills_rocky
+arch bosgrass2
 x 30
 y 19
 elevation 4543
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 20
 elevation 3319
 end
-arch tree
+arch bosgrass2
 x 30
 y 21
 elevation 2246
 end
-arch tree
+arch bosgrass
 x 30
 y 22
 elevation 2246
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 23
 elevation 3439
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 24
 elevation 4189
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 25
 elevation 4926
 end
-arch mountain
+arch bosgrass2
 x 30
 y 26
 elevation 5292
 end
-arch hills_rocky
+arch bosgrass2
 x 30
 y 27
 elevation 4918
 end
-arch hills_rocky
+arch bosgrass2
 x 30
 y 28
 elevation 4199
 end
-arch hills
+arch bosgrass2
 x 30
 y 29
 elevation 1202
 end
-arch hills
+arch bosgrass2
 x 30
 y 30
 elevation 1202
 end
-arch woods_3
+arch bosgrass2
 x 30
 y 31
 elevation 2085
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 32
 elevation 2951
 end
-arch treed_hills
+arch bosgrass2
 x 30
 y 33
 elevation 2951
 end
-arch woods_2
+arch bosgrass2
 x 30
 y 34
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 30
 y 35
 elevation 1353
 end
-arch woods_2
+arch bosgrass2
 x 30
 y 36
 elevation 1353
 end
-arch woods_3
+arch bosgrass2
 x 30
 y 37
 elevation 2085
 end
-arch woods_3
+arch bosgrass
 x 30
 y 38
 elevation 2085
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 30
 y 39
 elevation 1202
 end
-arch jungle_1
+arch bosgrass
 x 30
 y 40
 elevation 2978
 end
-arch jungle_1
+arch bosgrass
 x 30
 y 41
 elevation 2978
 end
-arch jungle_1
+arch bosgrass
 x 30
 y 42
 elevation 2978
 end
-arch steppe
+arch bosgrass
 x 30
 y 43
 elevation 3909
 end
-arch hills_rocky
+arch bosgrass
 x 30
 y 44
 elevation 4252
 end
-arch hills_rocky
+arch bosgrass
 x 30
 y 45
 elevation 4392
 end
-arch mountain
+arch bosgrass
 x 30
 y 46
 elevation 5123
@@ -7681,7 +8557,7 @@ arch hills_rocky
 x 31
 elevation 3391
 end
-arch steppe
+arch bosgrass2
 x 31
 y 1
 elevation 3848
@@ -7701,12 +8577,12 @@ x 31
 y 4
 elevation 4955
 end
-arch steppe
+arch bosgrass2
 x 31
 y 5
 elevation 4481
 end
-arch steppe
+arch bosgrass2
 x 31
 y 6
 elevation 3392
@@ -7716,197 +8592,201 @@ x 31
 y 7
 elevation 2960
 end
-arch steppe
+arch bosgrass2
 x 31
 y 8
 elevation 3803
 end
-arch steppe
+arch bosgrass2
 x 31
 y 9
 elevation 4137
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 10
 elevation 4081
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 11
 elevation 3640
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 12
 elevation 2358
 end
-arch hills_rocky
+arch bosgrass
 x 31
 y 13
 elevation 1755
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 14
 elevation 2600
 end
-arch steppe
+arch bosgrass2
 x 31
 y 15
 elevation 3725
 end
-arch steppe
+arch bosgrass2
 x 31
 y 16
 elevation 4440
 end
-arch mountain
+arch bosgrass2
 x 31
 y 17
 elevation 5199
 end
-arch mountain
+arch bosgrass2
 x 31
 y 18
 elevation 5130
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 19
 elevation 4157
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 20
 elevation 2521
 end
-arch tree
+arch bosgrass2
 x 31
 y 21
 elevation 2246
 end
-arch tree
+arch bosgrass2
 x 31
 y 22
 elevation 2246
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 23
 elevation 3730
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 24
 elevation 3673
 end
-arch mountain
+arch bosgrass2
 x 31
 y 25
 elevation 5554
 end
-arch mountain
+arch bosgrass2
 x 31
 y 26
 elevation 5952
 end
-arch mountain
+arch bosgrass2
 x 31
 y 27
 elevation 5436
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 28
 elevation 4553
 end
-arch hills_rocky
+arch bosgrass2
 x 31
 y 29
 elevation 2999
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 30
 elevation 1202
 end
-arch jungle_1
+arch bosgrass2
 x 31
 y 31
 elevation 2978
 end
-arch woods_3
+arch tree6_gray
+x 31
+y 31
+end
+arch bosgrass2
 x 31
 y 32
 elevation 2085
 end
-arch tree
+arch bosgrass2
 x 31
 y 33
 elevation 2246
 end
-arch woods_2
+arch bosgrass2
 x 31
 y 34
 elevation 1353
 end
-arch hills
+arch bosgrass2
 x 31
 y 35
 elevation 2951
 end
-arch woods_3
+arch bosgrass2
 x 31
 y 36
 elevation 2085
 end
-arch woods_3
+arch bosgrass2
 x 31
 y 37
 elevation 2085
 end
-arch treed_hills
+arch bosgrass2
 x 31
 y 38
 elevation 2533
 end
-arch woods_3
+arch blacklostlabfloor8
 x 31
 y 39
 elevation 2168
 end
-arch woods_3
+arch bosgrass
 x 31
 y 40
 elevation 2085
 end
-arch treed_hills
+arch bosgrass
 x 31
 y 41
 elevation 2752
 end
-arch hills_rocky
+arch bosgrass
 x 31
 y 42
 elevation 3818
 end
-arch steppe
+arch bosgrass
 x 31
 y 43
 elevation 4578
 end
-arch steppe
+arch bosgrass
 x 31
 y 44
 elevation 4883
 end
-arch hills_rocky
+arch bosgrass
 x 31
 y 45
 elevation 4751
 end
-arch hills_rocky
+arch bosgrass
 x 31
 y 46
 elevation 3507
@@ -7945,222 +8825,222 @@ x 32
 y 3
 elevation 4870
 end
-arch mountain
+arch bosgrass
 x 32
 y 4
 elevation 5288
 end
-arch mountain
+arch bosgrass
 x 32
 y 5
 elevation 5082
 end
-arch steppe
+arch bosgrass
 x 32
 y 6
 elevation 4629
 end
-arch steppe
+arch bosgrass
 x 32
 y 7
 elevation 4347
 end
-arch steppe
+arch bosgrass2
 x 32
 y 8
 elevation 4376
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 9
 elevation 4597
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 10
 elevation 4597
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 11
 elevation 4222
 end
-arch steppe
+arch bosgrass
 x 32
 y 12
 elevation 3519
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 13
 elevation 2785
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 14
 elevation 2566
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 15
 elevation 1747
 end
-arch steppe
+arch bosgrass
 x 32
 y 16
 elevation 4017
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 17
 elevation 4785
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 18
 elevation 4794
 end
-arch treed_hills
+arch bosgrass
 x 32
 y 19
 elevation 4286
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 20
 elevation 3917
 end
-arch hills_rocky
+arch bosgrass2
 x 32
 y 21
 elevation 3700
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 22
 elevation 3006
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 23
 elevation 3627
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 24
 elevation 4965
 end
-arch mountain
+arch bosgrass2
 x 32
 y 25
 elevation 5737
 end
-arch mountain
+arch bosgrass2
 x 32
 y 26
 elevation 5851
 end
-arch mountain
+arch bosgrass2
 x 32
 y 27
 elevation 5270
 end
-arch hills_rocky
+arch bosgrass2
 x 32
 y 28
 elevation 4434
 end
-arch hills_rocky
+arch bosgrass2
 x 32
 y 29
 elevation 3639
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 30
 elevation 1202
 end
-arch treed_hills
+arch bosgrass2
 x 32
 y 31
 elevation 1202
 end
-arch brush
+arch bosgrass2
 x 32
 y 32
 elevation 980
 end
-arch jungle_1
+arch bosgrass2
 x 32
 y 33
 elevation 2978
 end
-arch tree
+arch bosgrass2
 x 32
 y 34
 elevation 2246
 end
-arch tree
+arch bosgrass2
 x 32
 y 35
 elevation 2246
 end
-arch tree
+arch bosgrass2
 x 32
 y 36
 elevation 2246
 end
-arch evergreen
+arch bosgrass2
 x 32
 y 37
 elevation 2995
 end
-arch woods_3
+arch blacklostlabfloor8
 x 32
 y 38
 elevation 2085
 end
-arch woods_3
+arch bosgrass
 x 32
 y 39
 elevation 1556
 end
-arch brush
+arch bosgrass
 x 32
 y 40
 elevation 642
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 41
 elevation 1892
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 42
 elevation 4254
 end
-arch mountain
+arch bosgrass
 x 32
 y 43
 elevation 5288
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 44
 elevation 4818
 end
-arch mountain
+arch bosgrass
 x 32
 y 45
 elevation 5252
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 46
 elevation 4209
 end
-arch hills_rocky
+arch bosgrass
 x 32
 y 47
 elevation 4146
@@ -8189,227 +9069,299 @@ x 33
 y 2
 elevation 4599
 end
-arch mountain
+arch bosgrass
 x 33
 y 3
 elevation 5272
 end
-arch mountain
+arch bosgrass
 x 33
 y 4
 elevation 5519
 end
-arch mountain
+arch bosgrass2
 x 33
 y 5
 elevation 5340
 end
-arch steppe
+arch bosgrass
 x 33
 y 6
 elevation 4807
 end
-arch steppe
+arch bosgrass
 x 33
 y 7
 elevation 4476
 end
-arch treed_hills
+arch bosgrass
 x 33
 y 8
 elevation 4343
 end
-arch treed_hills
+arch bosgrass2
 x 33
 y 9
 elevation 4452
 end
-arch treed_hills
+arch purplebrick
 x 33
 y 10
 elevation 4616
 end
-arch steppe
+arch bosgrass
 x 33
 y 11
 elevation 4456
 end
-arch steppe
+arch graveyardw_gate1
+x 33
+y 11
+end
+arch bosgrass
 x 33
 y 12
 elevation 3975
 end
-arch steppe
+arch graveyardw_gate1
+x 33
+y 12
+end
+arch bosgrass2
 x 33
 y 13
 elevation 3413
 end
-arch treed_hills
+arch graveyardw_gate1
+x 33
+y 13
+end
+arch bosgrass2
 x 33
 y 14
 elevation 2960
 end
-arch treed_hills
+arch graveyardw_gate1
+x 33
+y 14
+end
+arch bosgrass
 x 33
 y 15
 elevation 3108
 end
-arch treed_hills
+arch graveyard_gate1
+x 33
+y 15
+end
+arch bosgrass
 x 33
 y 16
 elevation 3650
 end
-arch treed_hills
+arch weak_wall_1
+x 33
+y 16
+end
+arch bosgrass
 x 33
 y 17
 elevation 4077
 end
-arch treed_hills
+arch graveyardw_gate1
+x 33
+y 17
+end
+arch bosgrass
 x 33
 y 18
 elevation 4066
 end
-arch treed_hills
+arch graveyard_gate1
+x 33
+y 18
+end
+arch bosgrass
 x 33
 y 19
 elevation 3813
 end
-arch treed_hills
+arch graveyard_gate1
+x 33
+y 19
+end
+arch awall_1_1
+x 33
+y 19
+end
+arch bosgrass
 x 33
 y 20
 elevation 4073
 end
-arch treed_hills
+arch awall_1_2
+x 33
+y 20
+end
+arch bosgrass
 x 33
 y 21
 elevation 4077
 end
-arch treed_hills
+arch graveyard_gate1
+x 33
+y 21
+end
+arch bosgrass2
 x 33
 y 22
 elevation 4100
 end
-arch treed_hills
+arch graveyard_gate1
+x 33
+y 22
+end
+arch bosgrass2
 x 33
 y 23
 elevation 4584
 end
-arch mountain
+arch graveyard_gate1
+x 33
+y 23
+end
+arch bosgrass2
 x 33
 y 24
 elevation 5266
 end
-arch mountain
+arch graveyard_gate1
+x 33
+y 24
+end
+arch bosgrass2
 x 33
 y 25
 elevation 5488
 end
-arch hills_rocky
+arch graveyardw_gate1
+x 33
+y 25
+end
+arch bosgrass2
 x 33
 y 26
 elevation 4932
 end
-arch hills_rocky
+arch graveyardw_gate1
+x 33
+y 26
+end
+arch purplebrick
 x 33
 y 27
 elevation 4178
 end
-arch hills_rocky
+arch purplebrick
 x 33
 y 28
 elevation 3722
 end
-arch hills_rocky
+arch bosgrass2
 x 33
 y 29
 elevation 3479
 end
-arch hills_rocky
+arch bosgrass2
 x 33
 y 30
 elevation 2932
 end
-arch treed_hills
+arch bosgrass2
 x 33
 y 31
 elevation 1202
 end
-arch jungle_1
+arch bosgrass2
 x 33
 y 32
 elevation 2978
 end
-arch hills_rocky
+arch bosgrass2
 x 33
 y 33
 elevation 1158
 end
-arch brush
+arch blacklostlabfloor8
 x 33
 y 34
 elevation 426
 end
-arch woods_3
+arch blacklostlabfloor8
 x 33
 y 35
 elevation 2085
 end
-arch woods_3
+arch bosgrass2
 x 33
 y 36
 elevation 2085
 end
-arch tree
+arch blacklostlabfloor8
 x 33
 y 37
 elevation 2246
 end
-arch woods_3
+arch bosgrass2
 x 33
 y 38
 elevation 2427
 end
-arch woods_3
+arch bosgrass2
 x 33
 y 39
 elevation 2085
 end
-arch woods_3
+arch bosgrass
 x 33
 y 40
 elevation 2085
 end
-arch treed_hills
+arch bosgrass
 x 33
 y 41
 elevation 2832
 end
-arch hills_rocky
+arch bosgrass
 x 33
 y 42
 elevation 4567
 end
-arch mountain
+arch log_fallen
+x 33
+y 42
+end
+arch bosgrass
 x 33
 y 43
 elevation 5738
 end
-arch mountain
+arch bosgrass
 x 33
 y 44
 elevation 6157
 end
-arch mountain
+arch bosgrass
 x 33
 y 45
 elevation 5970
 end
-arch mountain
+arch bosgrass
 x 33
 y 46
 elevation 5473
 end
-arch hills
+arch bosgrass
 x 33
 y 47
 elevation 3899
@@ -8438,222 +9390,234 @@ x 34
 y 2
 elevation 4362
 end
-arch steppe
+arch bosgrass
 x 34
 y 3
 elevation 4890
 end
-arch mountain
+arch bosgrass
 x 34
 y 4
 elevation 5014
 end
-arch steppe
+arch bosgrass
 x 34
 y 5
 elevation 4879
 end
-arch steppe
+arch bosgrass
 x 34
 y 6
 elevation 4286
 end
-arch steppe
+arch bosgrass
 x 34
 y 7
 elevation 3076
 end
-arch steppe
+arch bosgrass2
 x 34
 y 8
 elevation 3701
 end
-arch treed_hills
+arch bosgrass2
 x 34
 y 9
 elevation 3907
 end
-arch steppe
+arch bosgrass
 x 34
 y 10
 elevation 4190
 end
-arch steppe
+arch graveyard_wall2
+x 34
+y 10
+end
+arch bosgrass
 x 34
 y 11
 elevation 4375
 end
-arch steppe
+arch bosgrass
 x 34
 y 12
 elevation 4197
 end
-arch hills_rocky
+arch bosgrass
 x 34
 y 13
 elevation 2871
 end
-arch hills
+arch bosgrass
 x 34
 y 14
 elevation 2939
 end
-arch steppe
+arch bosgrass
 x 34
 y 15
 elevation 3024
 end
-arch treed_hills
+arch bosgrass
 x 34
 y 16
 elevation 3066
 end
-arch hills_rocky
+arch bosgrass
 x 34
 y 17
 elevation 3544
 end
-arch treed_hills
+arch bosgrass
 x 34
 y 18
 elevation 1743
 end
-arch treed_hills
+arch bosgrass
 x 34
 y 19
 elevation 3133
 end
-arch treed_hills
+arch bosgrass
 x 34
 y 20
 elevation 3926
 end
-arch hills_rocky
+arch bosgrass2
 x 34
 y 21
 elevation 4199
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 34
 y 22
 elevation 4418
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 34
 y 23
 elevation 4363
 end
-arch mountain
+arch blacklostlabfloor8
 x 34
 y 24
 elevation 5203
 end
-arch mountain
+arch blacklostlabfloor8
 x 34
 y 25
 elevation 5043
 end
-arch hills_rocky
+arch bosgrass2
 x 34
 y 26
 elevation 3115
 end
-arch hills_rocky
+arch bosgrass2
 x 34
 y 27
 elevation 1661
 end
-arch hills_rocky
+arch bosgrass2
 x 34
 y 28
 elevation 2366
 end
-arch hills_rocky
+arch graveyard_wall2
+x 34
+y 28
+end
+arch bosgrass2
 x 34
 y 29
 elevation 3270
 end
-arch treed_hills
+arch bosgrass
 x 34
 y 30
 elevation 2900
 end
-arch treed_hills
+arch bosgrass2
 x 34
 y 31
 elevation 1776
 end
-arch tree
+arch bosgrass2
 x 34
 y 32
 elevation 2944
 end
-arch brush
+arch blacklostlabfloor8
 x 34
 y 33
 elevation 480
 end
-arch brush
+arch dungeon_floor
 x 34
 y 34
 elevation 995
 end
-arch hills_rocky
+arch bosgrass2
 x 34
 y 35
 elevation 1668
 end
-arch hills_rocky
+arch dungeon_floor
 x 34
 y 36
 elevation 2125
 end
-arch evergreen
+arch bosgrass2
 x 34
 y 37
 elevation 1999
 end
-arch treed_hills
+arch bosgrass2
 x 34
 y 38
 elevation 2326
 end
-arch tree
+arch bosgrass2
 x 34
 y 39
 elevation 2944
 end
-arch woods_3
+arch bosgrass
 x 34
 y 40
 elevation 2085
 end
-arch tree
+arch bosgrass
 x 34
 y 41
 elevation 2944
 end
-arch hills_rocky
+arch tree6_gray
+x 34
+y 41
+end
+arch bosgrass
 x 34
 y 42
 elevation 4685
 end
-arch mountain
+arch bosgrass
 x 34
 y 43
 elevation 5808
 end
-arch mountain
+arch bosgrass
 x 34
 y 44
 elevation 6296
 end
-arch mountain
+arch bosgrass
 x 34
 y 45
 elevation 6410
 end
-arch mountain
+arch bosgrass
 x 34
 y 46
 elevation 6013
@@ -8673,11 +9637,11 @@ x 34
 y 49
 elevation 3824
 end
-arch steppe
+arch bosgrass
 x 35
 elevation 3448
 end
-arch steppe
+arch bosgrass
 x 35
 y 1
 elevation 3870
@@ -8687,217 +9651,239 @@ x 35
 y 2
 elevation 3740
 end
-arch steppe
+arch bosgrass
 x 35
 y 3
 elevation 3971
 end
-arch steppe
+arch bosgrass
 x 35
 y 4
 elevation 4386
 end
-arch steppe
+arch bosgrass
 x 35
 y 5
 elevation 3710
 end
-arch steppe
+arch bosgrass
 x 35
 y 6
 elevation 3495
 end
-arch treed_hills
+arch bosgrass
 x 35
 y 7
 elevation 2643
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 8
 elevation 2638
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 9
 elevation 3106
 end
-arch steppe
+arch bosgrass
 x 35
 y 10
 elevation 3164
 end
-arch hills_rocky
+arch graveyard_wall2
+x 35
+y 10
+end
+arch grass_br_gr
 x 35
 y 11
 elevation 4393
 end
-arch steppe
+arch grass_br_gr
 x 35
 y 12
 elevation 4359
 end
-arch hills_rocky
+arch grass_br_gr
 x 35
 y 13
 elevation 3799
 end
-arch hills
+arch grass_br_gr
 x 35
 y 14
 elevation 2972
 end
-arch steppe
+arch bosgrass2
 x 35
 y 15
 elevation 3782
 end
-arch hills
+arch bosgrass2
 x 35
 y 16
 elevation 2091
 end
-arch treed_hills
+arch bosgrass2
 x 35
 y 17
 elevation 3720
 end
-arch treed_hills
+arch bosgrass2
 x 35
 y 18
 elevation 3765
 end
-arch treed_hills
+arch bosgrass2
 x 35
 y 19
 elevation 3606
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 20
 elevation 3709
 end
-arch treed_hills
+arch bosgrass2
 x 35
 y 21
 elevation 3570
 end
-arch treed_hills
+arch bluebrick_vine
 x 35
 y 22
 elevation 4280
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 35
 y 23
 elevation 4894
 end
-arch mountain
+arch greybrick_wall1
+x 35
+y 23
+end
+arch blacklostlabfloor8
 x 35
 y 24
 elevation 5152
 end
-arch hills_rocky
+arch door_look_2
+x 35
+y 24
+end
+arch blacklostlabfloor8
 x 35
 y 25
 elevation 4689
 end
-arch hills_rocky
+arch greybrick_wall1
+x 35
+y 25
+end
+arch bluebrick_vine
 x 35
 y 26
 elevation 3624
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 35
 y 27
 elevation 2829
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 35
 y 28
 elevation 2844
 end
-arch treed_hills
+arch locked_door1
+slaying hgrave_key1
+x 35
+y 28
+move_block all
+end
+arch blacklostlabfloor8
 x 35
 y 29
 elevation 3119
 end
-arch treed_hills
+arch bosgrass
 x 35
 y 30
 elevation 2666
 end
-arch tree
+arch blacklostlabfloor8
 x 35
 y 31
 elevation 2944
 end
-arch brush
+arch blacklostlabfloor8
 x 35
 y 32
 elevation 585
 end
-arch brush
+arch bosgrass2
 x 35
 y 33
 elevation 358
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 34
 elevation 1040
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 35
 elevation 1368
 end
-arch hills_rocky
+arch bosgrass2
 x 35
 y 36
 elevation 1554
 end
-arch evergreen
+arch bosgrass2
 x 35
 y 37
 elevation 1811
 end
-arch jungle_1
+arch bosgrass2
 x 35
 y 38
 elevation 2978
 end
-arch jungle_1
+arch bosgrass2
 x 35
 y 39
 elevation 2692
 end
-arch woods_3
+arch bosgrass
 x 35
 y 40
 elevation 2085
 end
-arch hills_rocky
+arch bosgrass
 x 35
 y 41
 elevation 2843
 end
-arch hills_rocky
+arch bosgrass
 x 35
 y 42
 elevation 4702
 end
-arch mountain
+arch bosgrass
 x 35
 y 43
 elevation 5323
 end
-arch mountain
+arch bosgrass
 x 35
 y 44
 elevation 5671
 end
-arch mountain
+arch bosgrass
 x 35
 y 45
 elevation 5948
@@ -8922,216 +9908,264 @@ x 35
 y 49
 elevation 5670
 end
-arch steppe
+arch bosgrass
 x 36
 elevation 3210
 end
-arch steppe
+arch bosgrass
 x 36
 y 1
 elevation 3954
 end
-arch steppe
+arch bosgrass
 x 36
 y 2
 elevation 4300
 end
-arch steppe
+arch bosgrass
 x 36
 y 3
 elevation 4332
 end
-arch steppe
+arch bosgrass
 x 36
 y 4
 elevation 3975
 end
-arch steppe
+arch bosgrass
 x 36
 y 5
 elevation 3262
 end
-arch hills
+arch bosgrass
 x 36
 y 6
 elevation 2697
 end
-arch treed_hills
+arch bosgrass
 x 36
 y 7
 elevation 2455
 end
-arch hills_rocky
+arch bosgrass
 x 36
 y 8
 elevation 2599
 end
-arch tree
+arch bosgrass2
 x 36
 y 9
 elevation 2761
 end
-arch steppe
+arch bosgrass2
 x 36
 y 10
 elevation 3924
 end
-arch hills_rocky
+arch graveyard_wall2
+x 36
+y 10
+end
+arch grass_br_gr
 x 36
 y 11
 elevation 4659
 end
-arch steppe
+arch bosgrass2
 x 36
 y 12
 elevation 4901
 end
-arch steppe
+arch gravestone2
+name Here Lies a Liar
+msg
+Here Lies a Liar.
+He caught his pants on fire.
+endmsg
+x 36
+y 12
+end
+arch bosgrass2
 x 36
 y 13
 elevation 4212
 end
-arch mountain
+arch zombie
+x 36
+y 13
+end
+arch grass_br_gr
 x 36
 y 14
 elevation 5254
 end
-arch mountain
+arch generate_zombie
+x 36
+y 14
+end
+arch bosgrass2
 x 36
 y 15
 elevation 5196
 end
-arch mountain
+arch grassbrown
 x 36
 y 16
 elevation 5046
 end
-arch hills_rocky
+arch bosgrass2
 x 36
 y 17
 elevation 4679
 end
-arch steppe
+arch gravestone3
+name Markus Mirkus
+msg
+Markus Merkas
+was a jerkus.
+He went to workus.
+Then he went home.
+endmsg
+x 36
+y 17
+end
+arch bosgrass2
 x 36
 y 18
 elevation 4229
 end
-arch steppe
+arch bosgrass
 x 36
 y 19
 elevation 4309
 end
-arch steppe
+arch zombie
+x 36
+y 19
+end
+arch bosgrass
 x 36
 y 20
 elevation 3300
 end
-arch hills_rocky
+arch bosgrass2
 x 36
 y 21
 elevation 2772
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 36
 y 22
 elevation 4381
 end
-arch steppe
+arch greybrick_wall2
+x 36
+y 22
+end
+arch blacklostlabfloor8
 x 36
 y 23
 elevation 4744
 end
-arch steppe
+arch blacklostlabfloor8
 x 36
 y 24
 elevation 4970
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 36
 y 25
 elevation 4481
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 36
 y 26
 elevation 3187
 end
-arch treed_hills
+arch greybrick_wall2
+x 36
+y 26
+end
+arch blacklostlabfloor8
 x 36
 y 27
 elevation 2372
 end
-arch hills
+arch bosgrass2
 x 36
 y 28
 elevation 2876
 end
-arch treed_hills
+arch graveyard_wall2
+x 36
+y 28
+end
+arch bosgrass2
 x 36
 y 29
 elevation 3003
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 36
 y 30
 elevation 2450
 end
-arch treed_hills
+arch blacklostlabfloor8
 x 36
 y 31
 elevation 751
 end
-arch brush
+arch bosgrass2
 x 36
 y 32
 elevation 885
 end
-arch treed_hills
+arch bosgrass2
 x 36
 y 33
 elevation 1202
 end
-arch hills_rocky
+arch bosgrass2
 x 36
 y 34
 elevation 1239
 end
-arch brush
+arch bosgrass2
 x 36
 y 35
 elevation 554
 end
-arch tree
+arch bosgrass2
 x 36
 y 36
 elevation 2944
 end
-arch jungle_1
+arch bosgrass2
 x 36
 y 37
 elevation 1236
 end
-arch treed_hills
+arch bosgrass2
 x 36
 y 38
 elevation 1691
 end
-arch woods_3
+arch bosgrass2
 x 36
 y 39
 elevation 2895
 end
-arch woods_3
+arch bosgrass
 x 36
 y 40
 elevation 2085
 end
-arch hills_rocky
+arch bosgrass
 x 36
 y 41
 elevation 4100
 end
-arch steppe
+arch bosgrass
 x 36
 y 42
 elevation 4609
@@ -9171,201 +10205,230 @@ x 36
 y 49
 elevation 5788
 end
-arch hills_rocky
+arch bosgrass
 x 37
 elevation 3406
 end
-arch steppe
+arch bosgrass
 x 37
 y 1
 elevation 4169
 end
-arch steppe
+arch bosgrass
 x 37
 y 2
 elevation 4166
 end
-arch steppe
+arch bosgrass
 x 37
 y 3
 elevation 4225
 end
-arch steppe
+arch bosgrass
 x 37
 y 4
 elevation 3727
 end
-arch hills
+arch bosgrass
 x 37
 y 5
 elevation 2230
 end
-arch treed_hills
+arch bosgrass
 x 37
 y 6
 elevation 677
 end
-arch treed_hills
+arch bosgrass
 x 37
 y 7
 elevation 2156
 end
-arch treed_hills
+arch bosgrass2
 x 37
 y 8
 elevation 1830
 end
-arch steppe
+arch bosgrass2
 x 37
 y 9
 elevation 3093
 end
-arch steppe
+arch bosgrass
 x 37
 y 10
 elevation 4128
 end
-arch mountain
+arch graveyard_wall2
+x 37
+y 10
+end
+arch grass_br_gr
 x 37
 y 11
 elevation 5023
 end
-arch mountain
+arch grass_br_gr
 x 37
 y 12
 elevation 5654
 end
-arch mountain
+arch bosgrass
 x 37
 y 13
 elevation 6287
 end
-arch mountain
+arch grass_br_gr
 x 37
 y 14
 elevation 6560
 end
-arch mountain
+arch generate_zombie
+x 37
+y 14
+end
+arch grass_br_gr
 x 37
 y 15
 elevation 6486
 end
-arch mountain
+arch bosgrass
 x 37
 y 16
 elevation 6104
 end
-arch mountain
+arch bosgrass
 x 37
 y 17
 elevation 5628
 end
-arch mountain
+arch bosgrass2
 x 37
 y 18
 elevation 5257
 end
-arch mountain
+arch bosgrass
 x 37
 y 19
 elevation 5023
 end
-arch steppe
+arch bosgrass
 x 37
 y 20
 elevation 4678
 end
-arch hills_rocky
+arch bosgrass2
 x 37
 y 21
 elevation 4479
 end
-arch steppe
+arch blacklostlabfloor8
 x 37
 y 22
 elevation 4547
 end
-arch steppe
+arch greybrick_wall2
+x 37
+y 22
+end
+arch blacklostlabfloor8
 x 37
 y 23
 elevation 4986
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 37
 y 24
 elevation 4950
 end
-arch steppe
+arch blacklostlabfloor8
 x 37
 y 25
 elevation 3715
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 37
 y 26
 elevation 3329
 end
-arch treed_hills
+arch greybrick_wall2
+x 37
+y 26
+end
+arch blacklostlabfloor8
 x 37
 y 27
 elevation 2448
 end
-arch hills
+arch bosgrass2
 x 37
 y 28
 elevation 2556
 end
-arch hills_rocky
+arch graveyard_gate2
+x 37
+y 28
+end
+arch bosgrass2
 x 37
 y 29
 elevation 2887
 end
-arch treed_hills
+arch key2
+slaying hgrave_key1
+x 37
+y 29
+end
+arch bosgrass2
 x 37
 y 30
 elevation 2446
 end
-arch hills_rocky
+arch bosgrass2
 x 37
 y 31
 elevation 1013
 end
-arch treed_hills
+arch bosgrass2
 x 37
 y 32
 elevation 1779
 end
-arch treed_hills
+arch bosgrass2
 x 37
 y 33
 elevation 1587
 end
-arch hills_rocky
+arch bosgrass2
 x 37
 y 34
 elevation 1814
 end
-arch hills_rocky
+arch bosgrass2
 x 37
 y 35
 elevation 1584
 end
-arch brush
+arch bosgrass2
 x 37
 y 36
 elevation 897
 end
-arch hills
+arch tree6_gray
+x 37
+y 36
+end
+arch bosgrass2
 x 37
 y 37
 elevation 1260
 end
-arch tree
+arch bosgrass2
 x 37
 y 38
 elevation 2944
 end
-arch tree
+arch bosgrass2
 x 37
 y 39
 elevation 2944
@@ -9400,12 +10463,12 @@ x 37
 y 45
 elevation 4151
 end
-arch treed_hills
+arch bosgrass
 x 37
 y 46
 elevation 4107
 end
-arch hills
+arch bosgrass
 x 37
 y 47
 elevation 4257
@@ -9420,201 +10483,254 @@ x 37
 y 49
 elevation 5398
 end
-arch hills_rocky
+arch bosgrass
 x 38
 elevation 4473
 end
-arch steppe
+arch bosgrass
 x 38
 y 1
 elevation 4555
 end
-arch steppe
+arch bosgrass
 x 38
 y 2
 elevation 4049
 end
-arch steppe
+arch bosgrass
 x 38
 y 3
 elevation 4013
 end
-arch steppe
+arch bosgrass
 x 38
 y 4
 elevation 3260
 end
-arch hills
+arch bosgrass
 x 38
 y 5
 elevation 2808
 end
-arch treed_hills
+arch bosgrass
 x 38
 y 6
 elevation 2210
 end
-arch treed_hills
+arch bosgrass
 x 38
 y 7
 elevation 1928
 end
-arch treed_hills
+arch bosgrass2
 x 38
 y 8
 elevation 2212
 end
-arch hills
+arch bosgrass2
 x 38
 y 9
 elevation 2961
 end
-arch steppe
+arch bosgrass2
 x 38
 y 10
 elevation 3980
 end
-arch steppe
+arch graveyard_wall2
+x 38
+y 10
+end
+arch grass_br_gr
 x 38
 y 11
 elevation 4934
 end
-arch mountain
+arch grassbrown
 x 38
 y 12
 elevation 5947
 end
-arch mountain
+arch gravestone
+name Mr. Bones
+msg
+Mr. Bones studied hard.
+He always sent a birthday card.
+He was a doctor.
+But that wasn't a factor.
+When death came for him.
+endmsg
+x 38
+y 12
+end
+arch grassbrown
 x 38
 y 13
 elevation 6761
 end
-arch mountain
+arch grass_br_gr
 x 38
 y 14
 elevation 7050
 end
-arch mountain
+arch generate_zombie
+x 38
+y 14
+end
+arch bosgrass2
 x 38
 y 15
 elevation 6557
 end
-arch mountain
+arch bosgrass
 x 38
 y 16
 elevation 6066
 end
-arch mountain
+arch grassbrown
 x 38
 y 17
 elevation 6121
 end
-arch mountain
+arch gravestone4
+name Danial Posh
+msg
+Danial Posh
+It was sad when he died.
+But no one left cried.
+endmsg
+x 38
+y 17
+end
+arch bosgrass2
 x 38
 y 18
 elevation 5912
 end
-arch mountain
+arch zombie
+x 38
+y 18
+end
+arch bosgrass
 x 38
 y 19
 elevation 5597
 end
-arch mountain
+arch bosgrass
 x 38
 y 20
 elevation 5286
 end
-arch mountain
+arch bosgrass
 x 38
 y 21
 elevation 5013
 end
-arch steppe
+arch blacklostlabfloor8
 x 38
 y 22
 elevation 4991
 end
-arch mountain
+arch greybrick_wall2
+x 38
+y 22
+end
+arch blacklostlabfloor8
 x 38
 y 23
 elevation 5188
 end
-arch mountain
+arch stair_down_4
+slaying ../scorn/mansion/hhfloorb
+hp 33
+sp 11
+x 38
+y 23
+end
+arch blacklostlabfloor8
 x 38
 y 24
 elevation 5186
 end
-arch steppe
+arch blacklostlabfloor8
 x 38
 y 25
 elevation 4936
 end
-arch steppe
+arch blacklostlabfloor8
 x 38
 y 26
 elevation 4316
 end
-arch treed_hills
+arch greybrick_wall2
+x 38
+y 26
+end
+arch blacklostlabfloor8
 x 38
 y 27
 elevation 2799
 end
-arch hills_rocky
+arch bosgrass2
 x 38
 y 28
 elevation 3161
 end
-arch hills_rocky
+arch graveyard_gate2
+x 38
+y 28
+end
+arch bosgrass2
 x 38
 y 29
 elevation 3269
 end
-arch treed_hills
+arch bosgrass2
 x 38
 y 30
 elevation 2202
 end
-arch treed_hills
+arch bosgrass2
 x 38
 y 31
 elevation 2674
 end
-arch hills_rocky
+arch bosgrass2
 x 38
 y 32
 elevation 2700
 end
-arch tree
+arch bosgrass2
 x 38
 y 33
 elevation 2944
 end
-arch hills
+arch bosgrass2
 x 38
 y 34
 elevation 2559
 end
-arch hills_rocky
+arch bosgrass2
 x 38
 y 35
 elevation 2152
 end
-arch jungle_1
+arch bosgrass2
 x 38
 y 36
 elevation 1723
 end
-arch tree
+arch bosgrass2
 x 38
 y 37
 elevation 2944
 end
-arch tree
+arch bosgrass2
 x 38
 y 38
 elevation 2944
 end
-arch tree
+arch bosgrass2
 x 38
 y 39
 elevation 2944
@@ -9649,12 +10765,12 @@ x 38
 y 45
 elevation 2685
 end
-arch evergreen
+arch bosgrass
 x 38
 y 46
 elevation 2065
 end
-arch jungle_1
+arch bosgrass
 x 38
 y 47
 elevation 2158
@@ -9669,201 +10785,225 @@ x 38
 y 49
 elevation 5182
 end
-arch steppe
+arch bosgrass
 x 39
 elevation 4701
 end
-arch steppe
+arch bosgrass
 x 39
 y 1
 elevation 4961
 end
-arch steppe
+arch bosgrass
 x 39
 y 2
 elevation 4946
 end
-arch steppe
+arch bosgrass
 x 39
 y 3
 elevation 4591
 end
-arch steppe
+arch bosgrass2
 x 39
 y 4
 elevation 4011
 end
-arch steppe
+arch bosgrass
 x 39
 y 5
 elevation 3138
 end
-arch treed_hills
+arch bosgrass
 x 39
 y 6
 elevation 2336
 end
-arch treed_hills
+arch bosgrass
 x 39
 y 7
 elevation 1709
 end
-arch treed_hills
+arch bosgrass2
 x 39
 y 8
 elevation 1748
 end
-arch treed_hills
+arch bosgrass2
 x 39
 y 9
 elevation 2878
 end
-arch steppe
+arch bosgrass2
 x 39
 y 10
 elevation 3094
 end
-arch steppe
+arch graveyardw_gate2
+x 39
+y 10
+end
+arch grass_br_gr
 x 39
 y 11
 elevation 4389
 end
-arch mountain
+arch grass_br_gr
 x 39
 y 12
 elevation 5375
 end
-arch mountain
+arch grass_br_gr
 x 39
 y 13
 elevation 6120
 end
-arch mountain
+arch grass_br_gr
 x 39
 y 14
 elevation 6388
 end
-arch mountain
+arch generate_zombie
+x 39
+y 14
+end
+arch grassbrown
 x 39
 y 15
 elevation 6165
 end
-arch mountain
+arch grassbrown
 x 39
 y 16
 elevation 5823
 end
-arch mountain
+arch grassbrown
 x 39
 y 17
 elevation 6245
 end
-arch mountain
+arch bosgrass2
 x 39
 y 18
 elevation 6013
 end
-arch mountain
+arch bosgrass
 x 39
 y 19
 elevation 5542
 end
-arch hills_rocky
+arch bosgrass
 x 39
 y 20
 elevation 4955
 end
-arch hills_rocky
+arch bosgrass
 x 39
 y 21
 elevation 4787
 end
-arch steppe
+arch bluebrick_vine
 x 39
 y 22
 elevation 4872
 end
-arch mountain
+arch blacklostlabfloor8
 x 39
 y 23
 elevation 5213
 end
-arch mountain
+arch greybrick_wall1
+x 39
+y 23
+end
+arch blacklostlabfloor8
 x 39
 y 24
 elevation 5596
 end
-arch mountain
+arch greybrick_wall1
+x 39
+y 24
+end
+arch blacklostlabfloor8
 x 39
 y 25
 elevation 5621
 end
-arch mountain
+arch greybrick_wall1
+x 39
+y 25
+end
+arch bluebrick_vine
 x 39
 y 26
 elevation 5644
 end
-arch mountain
+arch blacklostlabfloor8
 x 39
 y 27
 elevation 5173
 end
-arch steppe
+arch bosgrass2
 x 39
 y 28
 elevation 4614
 end
-arch hills_rocky
+arch graveyard_wall2
+x 39
+y 28
+end
+arch bosgrass2
 x 39
 y 29
 elevation 4142
 end
-arch steppe
+arch bosgrass2
 x 39
 y 30
 elevation 3336
 end
-arch hills_rocky
+arch bosgrass2
 x 39
 y 31
 elevation 3515
 end
-arch hills_rocky
+arch bosgrass2
 x 39
 y 32
 elevation 3504
 end
-arch steppe
+arch bosgrass
 x 39
 y 33
 elevation 3428
 end
-arch hills_rocky
+arch bosgrass2
 x 39
 y 34
 elevation 3077
 end
-arch hills_rocky
+arch bosgrass2
 x 39
 y 35
 elevation 2466
 end
-arch hills
+arch bosgrass2
 x 39
 y 36
 elevation 2002
 end
-arch hills_rocky
+arch bosgrass2
 x 39
 y 37
 elevation 1944
 end
-arch woods_3
+arch bosgrass2
 x 39
 y 38
 elevation 2085
 end
-arch tree
+arch bosgrass2
 x 39
 y 39
 elevation 2944
@@ -9898,12 +11038,12 @@ x 39
 y 45
 elevation 2786
 end
-arch evergreen
+arch bosgrass
 x 39
 y 46
 elevation 2996
 end
-arch hills_rocky
+arch bosgrass
 x 39
 y 47
 elevation 3447
@@ -9918,206 +11058,249 @@ x 39
 y 49
 elevation 5126
 end
-arch steppe
+arch bosgrass
 x 40
 elevation 4557
 end
-arch mountain
+arch bosgrass
 x 40
 y 1
 elevation 5099
 end
-arch mountain
+arch bosgrass
 x 40
 y 2
 elevation 5078
 end
-arch steppe
+arch bosgrass
 x 40
 y 3
 elevation 4988
 end
-arch steppe
+arch bosgrass
 x 40
 y 4
 elevation 4268
 end
-arch steppe
+arch bosgrass
 x 40
 y 5
 elevation 3044
 end
-arch treed_hills
+arch bosgrass
 x 40
 y 6
 elevation 1924
 end
-arch treed_hills
+arch bosgrass
 x 40
 y 7
 elevation 1452
 end
-arch treed_hills
+arch bosgrass2
 x 40
 y 8
 elevation 2307
 end
-arch treed_hills
+arch bosgrass2
 x 40
 y 9
 elevation 2796
 end
-arch hills
+arch bosgrass2
 x 40
 y 10
 elevation 2950
 end
-arch steppe
+arch graveyard_gate2
+x 40
+y 10
+end
+arch grass_br_gr
 x 40
 y 11
 elevation 3357
 end
-arch steppe
+arch bosgrass2
 x 40
 y 12
 elevation 4461
 end
-arch steppe
+arch gravestone4
+name Baby Zed
+msg
+Baby Zed
+Baby Zed
+Died in his baby bed.
+endmsg
+x 40
+y 12
+end
+arch bosgrass2
 x 40
 y 13
 elevation 4921
 end
-arch steppe
+arch grassbrown
 x 40
 y 14
 elevation 4577
 end
-arch mountain
+arch generate_zombie
+x 40
+y 14
+end
+arch bosgrass2
 x 40
 y 15
 elevation 5446
 end
-arch mountain
+arch zombie
+x 40
+y 15
+end
+arch bosgrass2
 x 40
 y 16
 elevation 5585
 end
-arch mountain
+arch grassbrown
 x 40
 y 17
 elevation 6461
 end
-arch mountain
+arch gravestone4
+name Gregory Posh
+msg
+Gregory Posh
+Fell in the wash.
+endmsg
+x 40
+y 17
+end
+arch bosgrass2
 x 40
 y 18
 elevation 6373
 end
-arch steppe
+arch bosgrass
 x 40
 y 19
 elevation 3667
 end
-arch hills_rocky
+arch zombie
+x 40
+y 19
+end
+arch bosgrass
 x 40
 y 20
 elevation 4649
 end
-arch steppe
+arch bosgrass
 x 40
 y 21
 elevation 3573
 end
-arch hills_rocky
+arch bosgrass
 x 40
 y 22
 elevation 4258
 end
-arch mountain
+arch bosgrass2
 x 40
 y 23
 elevation 5251
 end
-arch mountain
+arch bosgrass2
 x 40
 y 24
 elevation 5339
 end
-arch mountain
+arch bosgrass2
 x 40
 y 25
 elevation 6744
 end
-arch mountain
+arch bosgrass2
 x 40
 y 26
 elevation 6809
 end
-arch mountain
+arch bosgrass2
 x 40
 y 27
 elevation 6279
 end
-arch mountain
+arch bosgrass2
 x 40
 y 28
 elevation 5585
 end
-arch mountain
+arch graveyard_gate2
+x 40
+y 28
+end
+arch bosgrass2
 x 40
 y 29
 elevation 5032
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 30
 elevation 4574
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 31
 elevation 3929
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 32
 elevation 4152
 end
-arch hills_rocky
+arch tree6_gray
+x 40
+y 32
+end
+arch bosgrass2
 x 40
 y 33
 elevation 3738
 end
-arch steppe
+arch bosgrass2
 x 40
 y 34
 elevation 3126
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 35
 elevation 2757
 end
-arch jungle_1
+arch bosgrass2
 x 40
 y 36
 elevation 1493
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 37
 elevation 1968
 end
-arch jungle_1
+arch bosgrass2
 x 40
 y 38
 elevation 1921
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 39
 elevation 1724
 end
-arch hills_rocky
+arch bosgrass2
 x 40
 y 40
 elevation 2426
@@ -10127,7 +11310,7 @@ x 40
 y 41
 elevation 2779
 end
-arch steppe
+arch bosgrass
 x 40
 y 42
 elevation 3008
@@ -10147,7 +11330,7 @@ x 40
 y 45
 elevation 2741
 end
-arch treed_hills
+arch bosgrass
 x 40
 y 46
 elevation 3365
@@ -10167,91 +11350,103 @@ x 40
 y 49
 elevation 4998
 end
-arch hills_rocky
+arch bosgrass
 x 41
 elevation 4247
 end
-arch steppe
+arch bosgrass
 x 41
 y 1
 elevation 4762
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 2
 elevation 4846
 end
-arch steppe
+arch bosgrass
 x 41
 y 3
 elevation 4525
 end
-arch steppe
+arch bosgrass
 x 41
 y 4
 elevation 3745
 end
-arch treed_hills
+arch bosgrass
 x 41
 y 5
 elevation 2658
 end
-arch treed_hills
+arch bosgrass
 x 41
 y 6
 elevation 1655
 end
-arch treed_hills
+arch bosgrass
 x 41
 y 7
 elevation 1983
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 8
 elevation 2369
 end
-arch treed_hills
+arch bosgrass2
 x 41
 y 9
 elevation 2766
 end
-arch treed_hills
+arch bosgrass2
 x 41
 y 10
 elevation 2976
 end
-arch hills_rocky
+arch graveyard_gate2
+x 41
+y 10
+end
+arch grassbrown
 x 41
 y 11
 elevation 3371
 end
-arch steppe
+arch grassbrown
 x 41
 y 12
 elevation 3660
 end
-arch hills
+arch grassbrown
 x 41
 y 13
 elevation 2849
 end
-arch steppe
+arch zombie
+x 41
+y 13
+end
+arch grassbrown
 x 41
 y 14
 elevation 4163
 end
-arch steppe
+arch generate_zombie
+x 41
+y 14
+end
+arch grassbrown
 x 41
 y 15
 elevation 4528
 end
-arch mountain
+arch grassbrown
 x 41
 y 16
 elevation 5720
 end
-arch mountain
+arch grassbrown
 x 41
 y 17
 elevation 6702
@@ -10261,107 +11456,115 @@ x 41
 y 18
 elevation 6877
 end
-arch mountain
+arch bosgrass
 x 41
 y 19
 elevation 6461
 end
-arch mountain
+arch bosgrass
 x 41
 y 20
 elevation 5848
 end
-arch mountain
+arch bosgrass
 x 41
 y 21
 elevation 5912
 end
-arch mountain
+arch bosgrass
 x 41
 y 22
 elevation 6109
 end
-arch mountain
+arch zombie
+x 41
+y 22
+end
+arch bosgrass
 x 41
 y 23
 elevation 6542
 end
-arch mountain
+arch bosgrass2
 x 41
 y 24
 elevation 7027
 end
-arch mountain
+arch bosgrass2
 x 41
 y 25
 elevation 7323
 end
-arch mountain
+arch bosgrass2
 x 41
 y 26
 elevation 7360
 end
-arch mountain
+arch bosgrass2
 x 41
 y 27
 elevation 6780
 end
-arch mountain
+arch bosgrass2
 x 41
 y 28
 elevation 5988
 end
-arch mountain
+arch graveyard_gate2
+x 41
+y 28
+end
+arch bosgrass2
 x 41
 y 29
 elevation 5110
 end
-arch mountain
+arch bosgrass2
 x 41
 y 30
 elevation 5190
 end
-arch steppe
+arch bosgrass2
 x 41
 y 31
 elevation 4697
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 32
 elevation 4358
 end
-arch steppe
+arch bosgrass2
 x 41
 y 33
 elevation 4181
 end
-arch hills_rocky
+arch greysandcliff2
 x 41
 y 34
 elevation 3936
 end
-arch steppe
+arch greysandcliff2
 x 41
 y 35
 elevation 3359
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 36
 elevation 1715
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 37
 elevation 2270
 end
-arch woods_2
+arch bosgrass2
 x 41
 y 38
 elevation 2037
 end
-arch hills_rocky
+arch bosgrass2
 x 41
 y 39
 elevation 2933
@@ -10371,12 +11574,12 @@ x 41
 y 40
 elevation 2788
 end
-arch steppe
+arch bosgrass
 x 41
 y 41
 elevation 3182
 end
-arch hills
+arch bosgrass
 x 41
 y 42
 elevation 3030
@@ -10391,12 +11594,12 @@ x 41
 y 44
 elevation 2775
 end
-arch jungle_1
+arch bosgrass
 x 41
 y 45
 elevation 2085
 end
-arch tree
+arch bosgrass
 x 41
 y 46
 elevation 2944
@@ -10420,217 +11623,257 @@ arch hills_rocky
 x 42
 elevation 3669
 end
-arch steppe
+arch bosgrass
 x 42
 y 1
 elevation 3691
 end
-arch steppe
+arch bosgrass
 x 42
 y 2
 elevation 3635
 end
-arch steppe
+arch bosgrass
 x 42
 y 3
 elevation 3313
 end
-arch treed_hills
+arch bosgrass
 x 42
 y 4
 elevation 2720
 end
-arch treed_hills
+arch bosgrass
 x 42
 y 5
 elevation 1482
 end
-arch treed_hills
+arch bosgrass
 x 42
 y 6
 elevation 1492
 end
-arch treed_hills
+arch bosgrass
 x 42
 y 7
 elevation 1912
 end
-arch treed_hills
+arch bosgrass2
 x 42
 y 8
 elevation 2258
 end
-arch treed_hills
+arch bosgrass2
 x 42
 y 9
 elevation 2528
 end
-arch treed_hills
+arch bosgrass
 x 42
 y 10
 elevation 2762
 end
-arch hills
+arch graveyard_gate2
+x 42
+y 10
+end
+arch grassbrown
 x 42
 y 11
 elevation 2407
 end
-arch hills
+arch bosgrass
 x 42
 y 12
 elevation 3495
 end
-arch steppe
+arch gravestone3
+name The Avatar
+msg
+The Avatar ran from the guardian.
+So he didn't make it home.
+Now he is stuck in this stupid world.
+Forever with this stupid poem.
+endmsg
+x 42
+y 12
+end
+arch bosgrass
 x 42
 y 13
 elevation 3154
 end
-arch steppe
+arch bosgrass
 x 42
 y 14
 elevation 3799
 end
-arch steppe
+arch bosgrass
 x 42
 y 15
 elevation 3679
 end
-arch mountain
+arch grassbrown
 x 42
 y 16
 elevation 5256
 end
-arch mountain
+arch zombie
+x 42
+y 16
+end
+arch bosgrass2
 x 42
 y 17
 elevation 6529
 end
-arch mountain
+arch gravestone4
+name Josh Posh
+msg
+Josh Posh wasn't so posh.
+so his parents got him this cheap stone.
+endmsg
+x 42
+y 17
+end
+arch grassbrown
 x 42
 y 18
 elevation 7255
 end
-arch mountain
+arch bosgrass2
 x 42
 y 19
 elevation 7355
 end
-arch mountain
+arch zombie
+x 42
+y 19
+end
+arch bosgrass
 x 42
 y 20
 elevation 7210
 end
-arch mountain
+arch bosgrass
 x 42
 y 21
 elevation 7040
 end
-arch mountain
+arch bosgrass
 x 42
 y 22
 elevation 7006
 end
-arch mountain
+arch bosgrass2
 x 42
 y 23
 elevation 7177
 end
-arch mountain
+arch bosgrass2
 x 42
 y 24
 elevation 7253
 end
-arch mountain
+arch bosgrass2
 x 42
 y 25
 elevation 7265
 end
-arch mountain
+arch zombie
+x 42
+y 25
+end
+arch bosgrass2
 x 42
 y 26
 elevation 7053
 end
-arch mountain
+arch bosgrass2
 x 42
 y 27
 elevation 6739
 end
-arch mountain
+arch bosgrass2
 x 42
 y 28
 elevation 6227
 end
-arch mountain
+arch graveyard_wall2
+x 42
+y 28
+end
+arch bosgrass2
 x 42
 y 29
 elevation 5736
 end
-arch mountain
+arch bosgrass2
 x 42
 y 30
 elevation 5332
 end
-arch steppe
+arch bosgrass2
 x 42
 y 31
 elevation 4525
 end
-arch steppe
+arch bosgrass2
 x 42
 y 32
 elevation 3538
 end
-arch hills_rocky
+arch bosgrass2
 x 42
 y 33
 elevation 4329
 end
-arch steppe
+arch bosgrass2
 x 42
 y 34
 elevation 4578
 end
-arch steppe
+arch bosgrass2
 x 42
 y 35
 elevation 3883
 end
-arch steppe
+arch bosgrass2
 x 42
 y 36
 elevation 4256
 end
-arch hills_rocky
+arch bosgrass2
 x 42
 y 37
 elevation 3828
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 38
 elevation 3704
 end
-arch hills_rocky
+arch bosgrass2
 x 42
 y 39
 elevation 3966
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 40
 elevation 4268
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 41
 elevation 3864
 end
-arch steppe
+arch bosgrass
 x 42
 y 42
 elevation 3636
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 43
 elevation 3434
@@ -10640,17 +11883,17 @@ x 42
 y 44
 elevation 2980
 end
-arch jungle_1
+arch bosgrass
 x 42
 y 45
 elevation 2844
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 46
 elevation 3650
 end
-arch hills_rocky
+arch bosgrass
 x 42
 y 47
 elevation 4282
@@ -10669,207 +11912,247 @@ arch hills
 x 43
 elevation 2375
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 1
 elevation 2173
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 2
 elevation 681
 end
-arch hills
+arch bosgrass
 x 43
 y 3
 elevation 1970
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 4
 elevation 1930
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 5
 elevation 1594
 end
-arch hills
+arch bosgrass
 x 43
 y 6
 elevation 1070
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 7
 elevation 1703
 end
-arch treed_hills
+arch bosgrass2
 x 43
 y 8
 elevation 2003
 end
-arch treed_hills
+arch bosgrass2
 x 43
 y 9
 elevation 1677
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 10
 elevation 2412
 end
-arch steppe
+arch graveyard_gate2
+x 43
+y 10
+end
+arch bosgrass
 x 43
 y 11
 elevation 3157
 end
-arch steppe
+arch bosgrass
 x 43
 y 12
 elevation 3840
 end
-arch steppe
+arch bosgrass
 x 43
 y 13
 elevation 4329
 end
-arch steppe
+arch zombie
+x 43
+y 13
+end
+arch grassbrown
 x 43
 y 14
 elevation 4307
+end
+arch generate_zombie
+x 43
+y 14
 end
 arch hills_rocky
 x 43
 y 15
 elevation 3149
 end
-arch hills_rocky
+arch bosgrass2
 x 43
 y 16
 elevation 4474
 end
-arch mountain
+arch zombie
+x 43
+y 16
+end
+arch bosgrass2
 x 43
 y 17
 elevation 5872
 end
-arch mountain
+arch bosgrass2
 x 43
 y 18
 elevation 6723
 end
-arch mountain
+arch bosgrass2
 x 43
 y 19
 elevation 7275
 end
-arch mountain
+arch bosgrass2
 x 43
 y 20
 elevation 7523
 end
-arch mountain
+arch bosgrass2
 x 43
 y 21
 elevation 7386
 end
-arch mountain
+arch zombie
+x 43
+y 21
+end
+arch bosgrass2
 x 43
 y 22
 elevation 6881
 end
-arch mountain
+arch bosgrass16
 x 43
 y 23
 elevation 6429
 end
-arch mountain
+arch zombie
+x 43
+y 23
+end
+arch bosgrass16
 x 43
 y 24
 elevation 7070
 end
-arch mountain
+arch bosgrass2
 x 43
 y 25
 elevation 5876
 end
-arch mountain
+arch zombie
+x 43
+y 25
+end
+arch bosgrass2
 x 43
 y 26
 elevation 6204
 end
-arch mountain
+arch bosgrass2
 x 43
 y 27
 elevation 5949
 end
-arch mountain
+arch bosgrass
 x 43
 y 28
 elevation 5451
 end
-arch mountain
+arch graveyardw_gate2
+x 43
+y 28
+end
+arch bosgrass2
 x 43
 y 29
 elevation 5626
 end
-arch steppe
+arch bosgrass2
 x 43
 y 30
 elevation 4806
 end
-arch steppe
+arch bosgrass2
 x 43
 y 31
 elevation 4684
 end
-arch hills
+arch tree6_gray
+x 43
+y 31
+end
+arch bosgrass2
 x 43
 y 32
 elevation 2309
 end
-arch hills_rocky
+arch bosgrass2
 x 43
 y 33
 elevation 4785
 end
-arch mountain
+arch bosgrass
 x 43
 y 34
 elevation 5591
 end
-arch mountain
+arch bosgrass2
 x 43
 y 35
 elevation 5960
 end
-arch mountain
+arch bosgrass2
 x 43
 y 36
 elevation 5787
 end
-arch mountain
+arch bosgrass2
 x 43
 y 37
 elevation 5281
 end
-arch hills_rocky
+arch tree6_gray
+x 43
+y 37
+end
+arch bosgrass2
 x 43
 y 38
 elevation 4164
 end
-arch mountain
+arch bosgrass2
 x 43
 y 39
 elevation 5041
 end
-arch mountain
+arch bosgrass
 x 43
 y 40
 elevation 5415
 end
-arch mountain
+arch bosgrass
 x 43
 y 41
 elevation 5378
@@ -10879,27 +12162,27 @@ x 43
 y 42
 elevation 4815
 end
-arch jungle_1
+arch bosgrass
 x 43
 y 43
 elevation 2134
 end
-arch steppe
+arch bosgrass
 x 43
 y 44
 elevation 3825
 end
-arch jungle_1
+arch bosgrass
 x 43
 y 45
 elevation 2330
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 46
 elevation 4090
 end
-arch treed_hills
+arch bosgrass
 x 43
 y 47
 elevation 4378
@@ -10933,17 +12216,17 @@ x 44
 y 3
 elevation 681
 end
-arch treed_hills
+arch bosgrass
 x 44
 y 4
 elevation 1522
 end
-arch evergreen
+arch bosgrass
 x 44
 y 5
 elevation 1350
 end
-arch treed_hills
+arch bosgrass
 x 44
 y 6
 elevation 638
@@ -10953,187 +12236,229 @@ x 44
 y 7
 elevation 1442
 end
-arch treed_hills
+arch bosgrass
 x 44
 y 8
 elevation 1843
 end
-arch treed_hills
+arch bosgrass2
 x 44
 y 9
 elevation 1400
 end
-arch treed_hills
+arch bosgrass2
 x 44
 y 10
 elevation 1610
 end
-arch steppe
+arch graveyardw_gate2
+x 44
+y 10
+end
+arch grassbrown
 x 44
 y 11
 elevation 3451
 end
-arch hills
+arch bosgrass2
 x 44
 y 12
 elevation 4323
 end
-arch steppe
+arch gravestone3
+name Mr. Warcrap
+msg
+Mr. Warcrap played war games.
+He thought he would have a lot of fame.
+But the games weren't really tame.
+But who else is to blame.
+When he died in shame.
+endmsg
+x 44
+y 12
+end
+arch bosgrass
 x 44
 y 13
 elevation 4957
 end
-arch mountain
+arch bosgrass2
 x 44
 y 14
 elevation 5142
 end
-arch mountain
+arch generate_zombie
+x 44
+y 14
+end
+arch grassbrown
 x 44
 y 15
 elevation 5144
 end
-arch mountain
+arch bosgrass2
 x 44
 y 16
 elevation 5011
 end
-arch mountain
+arch bosgrass
 x 44
 y 17
 elevation 5222
 end
-arch hills_rocky
+arch gravestone3
+name Mildread Millar
+msg
+Mildread Millar was a killer.
+She thought she needed a thriller.
+Then she went into the chiller.
+endmsg
+x 44
+y 17
+end
+arch bosgrass2
 x 44
 y 18
 elevation 4822
 end
-arch mountain
+arch generate_zombie
+x 44
+y 18
+end
+arch bosgrass2
 x 44
 y 19
 elevation 6829
 end
-arch mountain
+arch bosgrass2
 x 44
 y 20
 elevation 7339
 end
-arch mountain
+arch shrub02
+x 44
+y 20
+end
+arch bosgrass2
 x 44
 y 21
 elevation 6255
 end
-arch mountain
+arch bosgrass2
 x 44
 y 22
 elevation 7303
 end
-arch mountain
+arch bosgrass16
 x 44
 y 23
 elevation 7633
 end
-arch mountain
+arch bosgrass16
 x 44
 y 24
 elevation 7074
 end
-arch mountain
+arch bosgrass2
 x 44
 y 25
 elevation 5438
 end
-arch mountain
+arch bosgrass2
 x 44
 y 26
 elevation 5559
 end
-arch hills_rocky
+arch bosgrass2
 x 44
 y 27
 elevation 4379
 end
-arch hills_rocky
+arch bosgrass2
 x 44
 y 28
 elevation 4377
 end
-arch mountain
+arch graveyard_gate2
+x 44
+y 28
+end
+arch bosgrass2
 x 44
 y 29
 elevation 5259
 end
-arch mountain
+arch bosgrass2
 x 44
 y 30
 elevation 5606
 end
-arch mountain
+arch bosgrass2
 x 44
 y 31
 elevation 5266
 end
-arch steppe
+arch bosgrass2
 x 44
 y 32
 elevation 4981
 end
-arch mountain
+arch bosgrass2
 x 44
 y 33
 elevation 5191
 end
-arch mountain
+arch bosgrass2
 x 44
 y 34
 elevation 6800
 end
-arch mountain
+arch bosgrass2
 x 44
 y 35
 elevation 7141
 end
-arch mountain
+arch bosgrass2
 x 44
 y 36
 elevation 6676
 end
-arch mountain
+arch bosgrass2
 x 44
 y 37
 elevation 5895
 end
-arch mountain
+arch bosgrass2
 x 44
 y 38
 elevation 5518
 end
-arch mountain
+arch bosgrass2
 x 44
 y 39
 elevation 5692
 end
-arch mountain
+arch bosgrass
 x 44
 y 40
 elevation 6110
 end
-arch mountain
+arch bosgrass
 x 44
 y 41
 elevation 6264
 end
-arch mountain
+arch bosgrass
 x 44
 y 42
 elevation 5871
 end
-arch mountain
+arch bosgrass
 x 44
 y 43
 elevation 5420
 end
-arch hills_rocky
+arch bosgrass
 x 44
 y 44
 elevation 4721
@@ -11182,27 +12507,27 @@ x 45
 y 3
 elevation 1126
 end
-arch treed_hills
+arch bosgrass
 x 45
 y 4
 elevation 1343
 end
-arch treed_hills
+arch bosgrass
 x 45
 y 5
 elevation 1244
 end
-arch treed_hills
+arch bosgrass
 x 45
 y 6
 elevation 646
 end
-arch hills
+arch bosgrass
 x 45
 y 7
 elevation 1046
 end
-arch treed_hills
+arch bosgrass
 x 45
 y 8
 elevation 1897
@@ -11212,177 +12537,201 @@ x 45
 y 9
 elevation 2367
 end
-arch hills
+arch bosgrass2
 x 45
 y 10
 elevation 2946
 end
-arch steppe
+arch greybrick_wall2
+x 45
+y 10
+end
+arch grassbrown
 x 45
 y 11
 elevation 3522
 end
-arch steppe
+arch grassbrown
 x 45
 y 12
 elevation 4726
 end
-arch steppe
+arch grassbrown
 x 45
 y 13
 elevation 4967
 end
-arch mountain
+arch grassbrown
 x 45
 y 14
 elevation 6052
 end
-arch mountain
+arch generate_zombie
+x 45
+y 14
+end
+arch bosgrass
 x 45
 y 15
 elevation 5990
 end
-arch steppe
+arch bosgrass2
 x 45
 y 16
 elevation 4915
 end
-arch steppe
+arch bosgrass
 x 45
 y 17
 elevation 3813
 end
-arch mountain
+arch bosgrass
 x 45
 y 18
 elevation 5249
 end
-arch mountain
+arch bosgrass2
 x 45
 y 19
 elevation 6276
 end
-arch mountain
+arch bosgrass2
 x 45
 y 20
 elevation 6829
 end
-arch mountain
+arch bosgrass2
 x 45
 y 21
 elevation 7158
 end
-arch mountain
+arch shrub02
+x 45
+y 21
+end
+arch bosgrass2
 x 45
 y 22
 elevation 7645
 end
-arch mountain
+arch bosgrass16
 x 45
 y 23
 elevation 8153
 end
-arch mountain
+arch bosgrass10
 x 45
 y 24
 elevation 7638
 end
-arch mountain
+arch bosgrass15
 x 45
 y 25
 elevation 5679
 end
-arch mountain
+arch bosgrass15
 x 45
 y 26
 elevation 5426
 end
-arch mountain
+arch bosgrass2
 x 45
 y 27
 elevation 5075
 end
-arch hills
+arch bosgrass2
 x 45
 y 28
 elevation 3399
 end
-arch mountain
+arch graveyard_gate2
+x 45
+y 28
+end
+arch bosgrass2
 x 45
 y 29
 elevation 5106
 end
-arch mountain
+arch bosgrass2
 x 45
 y 30
 elevation 5592
 end
-arch mountain
+arch bosgrass2
 x 45
 y 31
 elevation 5840
 end
-arch mountain
+arch tree6_gray
+x 45
+y 31
+end
+arch bosgrass2
 x 45
 y 32
 elevation 6274
 end
-arch mountain
+arch bosgrass2
 x 45
 y 33
 elevation 6923
 end
-arch mountain
+arch tree6_gray
+x 45
+y 33
+end
+arch bosgrass2
 x 45
 y 34
 elevation 7580
 end
-arch mountain
+arch bosgrass2
 x 45
 y 35
 elevation 7749
 end
-arch mountain
+arch bosgrass2
 x 45
 y 36
 elevation 7083
 end
-arch mountain
+arch bosgrass2
 x 45
 y 37
 elevation 5316
 end
-arch mountain
+arch bosgrass2
 x 45
 y 38
 elevation 5202
 end
-arch mountain
+arch bosgrass2
 x 45
 y 39
 elevation 5785
 end
-arch mountain
+arch greysandcliff1
 x 45
 y 40
 elevation 5870
 end
-arch mountain
+arch bosgrass
 x 45
 y 41
 elevation 6208
 end
-arch mountain
+arch bosgrass
 x 45
 y 42
 elevation 6307
 end
-arch mountain
+arch bosgrass
 x 45
 y 43
 elevation 5898
 end
-arch mountain
+arch bosgrass
 x 45
 y 44
 elevation 5137
@@ -11431,7 +12780,7 @@ x 46
 y 3
 elevation 1261
 end
-arch treed_hills
+arch bosgrass
 x 46
 y 4
 elevation 1307
@@ -11441,17 +12790,17 @@ x 46
 y 5
 elevation 1189
 end
-arch treed_hills
+arch bosgrass
 x 46
 y 6
 elevation 1194
 end
-arch treed_hills
+arch bosgrass
 x 46
 y 7
 elevation 1443
 end
-arch treed_hills
+arch bosgrass
 x 46
 y 8
 elevation 1964
@@ -11461,177 +12810,245 @@ x 46
 y 9
 elevation 2477
 end
-arch steppe
+arch purplebrick
 x 46
 y 10
 elevation 3304
 end
-arch steppe
+arch bosgrass
 x 46
 y 11
 elevation 4081
 end
-arch steppe
+arch graveyard_gate1
+x 46
+y 11
+end
+arch bosgrass2
 x 46
 y 12
 elevation 4867
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 12
+end
+arch bosgrass2
 x 46
 y 13
 elevation 5798
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 13
+end
+arch bosgrass
 x 46
 y 14
 elevation 6486
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 14
+end
+arch bosgrass
 x 46
 y 15
 elevation 6449
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 15
+end
+arch bosgrass
 x 46
 y 16
 elevation 5521
 end
-arch hills
+arch graveyard_gate1
+x 46
+y 16
+end
+arch bosgrass
 x 46
 y 17
 elevation 3029
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 17
+end
+arch bosgrass
 x 46
 y 18
 elevation 5010
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 18
+end
+arch bosgrass2
 x 46
 y 19
 elevation 5743
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 19
+end
+arch bosgrass2
 x 46
 y 20
 elevation 6090
 end
-arch mountain
+arch graveyard_gate1
+x 46
+y 20
+end
+arch bosgrass2
 x 46
 y 21
 elevation 6534
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 21
+end
+arch bosgrass
 x 46
 y 22
 elevation 7571
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 22
+end
+arch bosgrass2
 x 46
 y 23
 elevation 8067
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 23
+end
+arch bosgrass2
 x 46
 y 24
 elevation 7826
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 24
+end
+arch bosgrass2
 x 46
 y 25
 elevation 7143
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 25
+end
+arch bosgrass2
 x 46
 y 26
 elevation 6256
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 26
+end
+arch bosgrass2
 x 46
 y 27
 elevation 5405
 end
-arch mountain
+arch graveyardw_gate1
+x 46
+y 27
+end
+arch purplebrick
 x 46
 y 28
 elevation 5015
 end
-arch steppe
+arch bosgrass2
 x 46
 y 29
 elevation 4975
 end
-arch hills
+arch bosgrass2
 x 46
 y 30
 elevation 4666
 end
-arch mountain
+arch bosgrass2
 x 46
 y 31
 elevation 5587
 end
-arch mountain
+arch bosgrass2
 x 46
 y 32
 elevation 6341
 end
-arch mountain
+arch bosgrass2
 x 46
 y 33
 elevation 7179
 end
-arch mountain
+arch bosgrass2
 x 46
 y 34
 elevation 7802
 end
-arch mountain
+arch bosgrass2
 x 46
 y 35
 elevation 7847
 end
-arch mountain
+arch greysandcliff2
 x 46
 y 36
 elevation 7373
 end
-arch mountain
+arch bosgrass2
 x 46
 y 37
 elevation 6707
 end
-arch mountain
+arch bosgrass2
 x 46
 y 38
 elevation 6026
 end
-arch hills_rocky
+arch bosgrass2
 x 46
 y 39
 elevation 4836
 end
-arch mountain
+arch bosgrass
 x 46
 y 40
 elevation 5068
 end
-arch hills_rocky
+arch bosgrass
 x 46
 y 41
 elevation 4881
 end
-arch mountain
+arch bosgrass
 x 46
 y 42
 elevation 5605
 end
-arch mountain
+arch bosgrass
 x 46
 y 43
 elevation 5420
 end
-arch steppe
+arch bosgrass
 x 46
 y 44
 elevation 3390
@@ -11680,197 +13097,197 @@ x 47
 y 3
 elevation 1180
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 4
 elevation 1204
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 5
 elevation 1097
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 6
 elevation 931
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 7
 elevation 1526
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 8
 elevation 1752
 end
-arch hills
+arch bosgrass
 x 47
 y 9
 elevation 2096
 end
-arch treed_hills
+arch bosgrass
 x 47
 y 10
 elevation 2863
 end
-arch steppe
+arch bosgrass
 x 47
 y 11
 elevation 3716
 end
-arch steppe
+arch bosgrass
 x 47
 y 12
 elevation 4034
 end
-arch mountain
+arch bosgrass
 x 47
 y 13
 elevation 5659
 end
-arch mountain
+arch bosgrass
 x 47
 y 14
 elevation 6416
 end
-arch mountain
+arch bosgrass
 x 47
 y 15
 elevation 6498
 end
-arch mountain
+arch bosgrass
 x 47
 y 16
 elevation 5920
 end
-arch mountain
+arch bosgrass
 x 47
 y 17
 elevation 5498
 end
-arch hills
+arch bosgrass
 x 47
 y 18
 elevation 4936
 end
-arch steppe
+arch bosgrass
 x 47
 y 19
 elevation 4341
 end
-arch mountain
+arch bosgrass2
 x 47
 y 20
 elevation 5442
 end
-arch mountain
+arch bosgrass2
 x 47
 y 21
 elevation 5889
 end
-arch mountain
+arch bosgrass2
 x 47
 y 22
 elevation 7032
 end
-arch mountain
+arch bosgrass2
 x 47
 y 23
 elevation 7519
 end
-arch mountain
+arch bosgrass2
 x 47
 y 24
 elevation 7258
 end
-arch mountain
+arch bosgrass2
 x 47
 y 25
 elevation 7177
 end
-arch mountain
+arch bosgrass2
 x 47
 y 26
 elevation 6464
 end
-arch mountain
+arch bosgrass2
 x 47
 y 27
 elevation 5378
 end
-arch hills
+arch bosgrass2
 x 47
 y 28
 elevation 4721
 end
-arch steppe
+arch bosgrass2
 x 47
 y 29
 elevation 4542
 end
-arch hills_rocky
+arch bosgrass2
 x 47
 y 30
 elevation 4860
 end
-arch hills_rocky
+arch bosgrass2
 x 47
 y 31
 elevation 4638
 end
-arch mountain
+arch bosgrass2
 x 47
 y 32
 elevation 5221
 end
-arch mountain
+arch bosgrass2
 x 47
 y 33
 elevation 6602
 end
-arch mountain
+arch bosgrass2
 x 47
 y 34
 elevation 7528
 end
-arch mountain
+arch bosgrass2
 x 47
 y 35
 elevation 7896
 end
-arch mountain
+arch greysandcliff2
 x 47
 y 36
 elevation 6395
 end
-arch mountain
+arch bosgrass2
 x 47
 y 37
 elevation 7411
 end
-arch mountain
+arch bosgrass2
 x 47
 y 38
 elevation 6731
 end
-arch steppe
+arch bosgrass
 x 47
 y 39
 elevation 4419
 end
-arch mountain
+arch bosgrass
 x 47
 y 40
 elevation 5070
 end
-arch hills_rocky
+arch bosgrass
 x 47
 y 41
 elevation 3751
 end
-arch steppe
+arch bosgrass
 x 47
 y 42
 elevation 4571
@@ -11944,147 +13361,147 @@ x 48
 y 6
 elevation 1039
 end
-arch treed_hills
+arch bosgrass
 x 48
 y 7
 elevation 1803
 end
-arch treed_hills
+arch bosgrass
 x 48
 y 8
 elevation 1354
 end
-arch treed_hills
+arch bosgrass
 x 48
 y 9
 elevation 546
 end
-arch treed_hills
+arch bosgrass
 x 48
 y 10
 elevation 1422
 end
-arch steppe
+arch bosgrass
 x 48
 y 11
 elevation 3017
 end
-arch steppe
+arch bosgrass
 x 48
 y 12
 elevation 3592
 end
-arch mountain
+arch bosgrass
 x 48
 y 13
 elevation 5224
 end
-arch mountain
+arch bosgrass
 x 48
 y 14
 elevation 6023
 end
-arch mountain
+arch bosgrass
 x 48
 y 15
 elevation 5392
 end
-arch mountain
+arch bosgrass
 x 48
 y 16
 elevation 6350
 end
-arch mountain
+arch bosgrass
 x 48
 y 17
 elevation 6205
 end
-arch mountain
+arch bosgrass2
 x 48
 y 18
 elevation 5420
 end
-arch hills
+arch bosgrass2
 x 48
 y 19
 elevation 3061
 end
-arch mountain
+arch bosgrass2
 x 48
 y 20
 elevation 5237
 end
-arch mountain
+arch bosgrass2
 x 48
 y 21
 elevation 5860
 end
-arch mountain
+arch bosgrass2
 x 48
 y 22
 elevation 6311
 end
-arch mountain
+arch bosgrass2
 x 48
 y 23
 elevation 6743
 end
-arch mountain
+arch bosgrass2
 x 48
 y 24
 elevation 6880
 end
-arch mountain
+arch bosgrass2
 x 48
 y 25
 elevation 6418
 end
-arch mountain
+arch bosgrass2
 x 48
 y 26
 elevation 6237
 end
-arch mountain
+arch bosgrass2
 x 48
 y 27
 elevation 5267
 end
-arch hills
+arch bosgrass2
 x 48
 y 28
 elevation 2153
 end
-arch hills_rocky
+arch bosgrass2
 x 48
 y 29
 elevation 3521
 end
-arch steppe
+arch bosgrass2
 x 48
 y 30
 elevation 4461
 end
-arch hills_rocky
+arch bosgrass2
 x 48
 y 31
 elevation 4939
 end
-arch mountain
+arch bosgrass2
 x 48
 y 32
 elevation 5311
 end
-arch hills_rocky
+arch bosgrass2
 x 48
 y 33
 elevation 4622
 end
-arch mountain
+arch bosgrass2
 x 48
 y 34
 elevation 7167
 end
-arch mountain
+arch bosgrass2
 x 48
 y 35
 elevation 7716
@@ -12099,22 +13516,22 @@ x 48
 y 37
 elevation 7894
 end
-arch mountain
+arch bosgrass
 x 48
 y 38
 elevation 7540
 end
-arch mountain
+arch bosgrass
 x 48
 y 39
 elevation 6731
 end
-arch mountain
+arch bosgrass
 x 48
 y 40
 elevation 5799
 end
-arch hills_rocky
+arch bosgrass
 x 48
 y 41
 elevation 4814
@@ -12193,52 +13610,52 @@ x 49
 y 6
 elevation 2440
 end
-arch treed_hills
+arch bosgrass
 x 49
 y 7
 elevation 2374
 end
-arch treed_hills
+arch bosgrass
 x 49
 y 8
 elevation 2011
 end
-arch hills
+arch bosgrass
 x 49
 y 9
 elevation 1734
 end
-arch treed_hills
+arch bosgrass
 x 49
 y 10
 elevation 1316
 end
-arch hills
+arch bosgrass
 x 49
 y 11
 elevation 2244
 end
-arch hills
+arch bosgrass
 x 49
 y 12
 elevation 3826
 end
-arch steppe
+arch bosgrass
 x 49
 y 13
 elevation 4878
 end
-arch mountain
+arch bosgrass
 x 49
 y 14
 elevation 5554
 end
-arch mountain
+arch bosgrass
 x 49
 y 15
 elevation 6053
 end
-arch mountain
+arch bosgrass
 x 49
 y 16
 elevation 6436
@@ -12283,37 +13700,37 @@ x 49
 y 24
 elevation 6282
 end
-arch mountain
+arch bosgrass2
 x 49
 y 25
 elevation 6029
 end
-arch mountain
+arch bosgrass2
 x 49
 y 26
 elevation 5981
 end
-arch mountain
+arch bosgrass2
 x 49
 y 27
 elevation 5561
 end
-arch hills_rocky
+arch bosgrass2
 x 49
 y 28
 elevation 4417
 end
-arch steppe
+arch bosgrass2
 x 49
 y 29
 elevation 3724
 end
-arch steppe
+arch bosgrass2
 x 49
 y 30
 elevation 3280
 end
-arch hills_rocky
+arch bosgrass
 x 49
 y 31
 elevation 4965
@@ -12353,7 +13770,7 @@ x 49
 y 38
 elevation 8161
 end
-arch mountain
+arch bosgrass
 x 49
 y 39
 elevation 7684
