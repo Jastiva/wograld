@@ -3,7 +3,7 @@ name world_125_109
 width 50
 height 50
 msg
-Modified: 2018-12-01 lx
+Modified: 2018-12-02 lx
 endmsg
 outdoor 1
 tile_path_1 world_125_108
@@ -1207,24 +1207,20 @@ x 4
 y 49
 elevation 12586
 end
-arch mountain
+arch grassdark
 x 5
-elevation 8992
 end
-arch mountain
+arch grassdark
 x 5
 y 1
-elevation 7388
 end
-arch mountain
+arch grassdark
 x 5
 y 2
-elevation 8578
 end
-arch mountain
+arch grassdark
 x 5
 y 3
-elevation 8651
 end
 arch mountain2
 x 5
@@ -1456,24 +1452,20 @@ x 5
 y 49
 elevation 8361
 end
-arch mountain2
+arch grassdark
 x 6
-elevation 9558
 end
-arch mountain2
+arch grassdark
 x 6
 y 1
-elevation 9435
 end
-arch mountain2
+arch grassdark
 x 6
 y 2
-elevation 9078
 end
-arch mountain
+arch grassdark
 x 6
 y 3
-elevation 8872
 end
 arch mountain
 x 6
@@ -1555,10 +1547,10 @@ x 6
 y 19
 elevation 2641
 end
-arch evergreen
+arch steppe
 x 6
 y 20
-elevation 2694
+elevation 3182
 end
 arch steppe
 x 6
@@ -1705,24 +1697,20 @@ x 6
 y 49
 elevation 3646
 end
-arch mountain2
+arch grassdark
 x 7
-elevation 9822
 end
-arch mountain2
+arch grassdark
 x 7
 y 1
-elevation 9988
 end
-arch mountain2
+arch grassdark
 x 7
 y 2
-elevation 9106
 end
-arch mountain2
+arch grassdark
 x 7
 y 3
-elevation 9302
 end
 arch mountain
 x 7
@@ -1769,95 +1757,79 @@ x 7
 y 12
 elevation 9447
 end
-arch mountain
+arch oldwoodfloor
 x 7
 y 13
-elevation 8159
 end
-arch mountain
+arch oldwoodfloor
 x 7
 y 14
-elevation 6234
 end
-arch steppe
+arch oldwoodfloor
 x 7
 y 15
-elevation 4159
 end
-arch steppe
+arch oldwoodfloor
 x 7
 y 16
-elevation 3125
 end
-arch steppe
+arch oldwoodfloor
 x 7
 y 17
-elevation 3593
 end
-arch steppe
+arch oldwoodfloor
 x 7
 y 18
-elevation 3499
 end
-arch hills
+arch oldwoodfloor
 x 7
 y 19
-elevation 2836
 end
-arch steppe
+arch oldwoodfloor
 x 7
 y 20
-elevation 3242
 end
-arch steppe
+arch grassdark
 x 7
 y 21
-elevation 3359
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 7
 y 22
-elevation 2412
+elevation 4424
 end
-arch steppe
+arch redmarble
 x 7
 y 23
-elevation 3799
 end
-arch steppe
+arch redmarble
 x 7
 y 24
-elevation 3859
 end
-arch steppe
+arch redmarble
 x 7
 y 25
-elevation 3117
 end
-arch hills_rocky
+arch redmarble
 x 7
 y 26
-elevation 2548
 end
-arch steppe
+arch redmarble
 x 7
 y 27
-elevation 3460
 end
-arch steppe
+arch redmarble
 x 7
 y 28
-elevation 3986
 end
-arch steppe
+arch redmarble
 x 7
 y 29
-elevation 3998
 end
-arch hills_rocky
+arch redmarble
 x 7
 y 30
-elevation 2543
 end
 arch mountain
 x 7
@@ -1954,24 +1926,24 @@ x 7
 y 49
 elevation 6302
 end
-arch mountain2
+arch grassdark
 x 8
-elevation 9148
 end
-arch mountain2
+arch grassdark
 x 8
 y 1
-elevation 10081
 end
-arch mountain2
+arch grassdark
 x 8
 y 2
-elevation 10295
 end
-arch mountain2
+arch grassdark
 x 8
 y 3
-elevation 10109
+end
+arch grassdark
+x 8
+y 3
 end
 arch mountain2
 x 8
@@ -2018,95 +1990,79 @@ x 8
 y 12
 elevation 9707
 end
-arch mountain
+arch oldwoodfloor
 x 8
 y 13
-elevation 7567
 end
-arch mountain
+arch oldwoodfloor
 x 8
 y 14
-elevation 6522
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 15
-elevation 4845
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 16
-elevation 4941
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 17
-elevation 4681
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 18
-elevation 4159
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 19
-elevation 3491
 end
-arch steppe
+arch oldwoodfloor
 x 8
 y 20
-elevation 3248
 end
-arch steppe
+arch grassdark
 x 8
 y 21
-elevation 3105
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 8
 y 22
-elevation 3029
+elevation 4424
 end
-arch steppe
+arch redmarble
 x 8
 y 23
-elevation 3136
 end
-arch steppe
+arch redmarble
 x 8
 y 24
-elevation 3002
 end
-arch hills_rocky
+arch redmarble
 x 8
 y 25
-elevation 2439
 end
-arch brush
+arch redmarble
 x 8
 y 26
-elevation 980
 end
-arch hills_rocky
+arch redmarble
 x 8
 y 27
-elevation 2679
 end
-arch steppe
+arch redmarble
 x 8
 y 28
-elevation 3090
 end
-arch steppe
+arch redmarble
 x 8
 y 29
-elevation 3451
 end
-arch steppe
+arch redmarble
 x 8
 y 30
-elevation 3253
 end
 arch mountain
 x 8
@@ -2203,24 +2159,20 @@ x 8
 y 49
 elevation 6477
 end
-arch mountain2
+arch grassdark
 x 9
-elevation 9683
 end
-arch mountain2
+arch grassdark
 x 9
 y 1
-elevation 9216
 end
-arch mountain2
+arch grassdark
 x 9
 y 2
-elevation 10931
 end
-arch mountain2
+arch grassdark
 x 9
 y 3
-elevation 11194
 end
 arch mountain2
 x 9
@@ -2267,95 +2219,79 @@ x 9
 y 12
 elevation 9560
 end
-arch mountain
+arch oldwoodfloor
 x 9
 y 13
-elevation 7792
 end
-arch mountain
+arch oldwoodfloor
 x 9
 y 14
-elevation 6144
 end
-arch mountain
+arch oldwoodfloor
 x 9
 y 15
-elevation 5860
 end
-arch mountain
+arch oldwoodfloor
 x 9
 y 16
-elevation 5747
 end
-arch mountain
+arch oldwoodfloor
 x 9
 y 17
-elevation 5363
 end
-arch steppe
+arch oldwoodfloor
 x 9
 y 18
-elevation 4596
 end
-arch steppe
+arch oldwoodfloor
 x 9
 y 19
-elevation 3555
 end
-arch evergreen
+arch oldwoodfloor
 x 9
 y 20
-elevation 2256
 end
-arch hills_rocky
+arch grassdark
 x 9
 y 21
-elevation 2862
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 9
 y 22
-elevation 3027
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 23
-elevation 2801
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 24
-elevation 2288
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 25
-elevation 1741
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 26
-elevation 1495
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 27
-elevation 2292
 end
-arch steppe
+arch redmarble
 x 9
 y 28
-elevation 3241
 end
-arch steppe
+arch redmarble
 x 9
 y 29
-elevation 3577
 end
-arch hills_rocky
+arch redmarble
 x 9
 y 30
-elevation 2844
 end
 arch mountain
 x 9
@@ -2452,24 +2388,20 @@ x 9
 y 49
 elevation 6980
 end
-arch mountain2
+arch grassdark
 x 10
-elevation 10719
 end
-arch mountain2
+arch grassdark
 x 10
 y 1
-elevation 10856
 end
-arch mountain2
+arch grassdark
 x 10
 y 2
-elevation 11093
 end
-arch mountain2
+arch grassdark
 x 10
 y 3
-elevation 11198
 end
 arch mountain2
 x 10
@@ -2516,95 +2448,79 @@ x 10
 y 12
 elevation 8957
 end
-arch mountain
+arch oldwoodfloor
 x 10
 y 13
-elevation 7588
 end
-arch steppe
+arch oldwoodfloor
 x 10
 y 14
-elevation 4671
 end
-arch mountain
+arch oldwoodfloor
 x 10
 y 15
-elevation 5887
 end
-arch mountain
+arch oldwoodfloor
 x 10
 y 16
-elevation 5808
 end
-arch mountain
+arch oldwoodfloor
 x 10
 y 17
-elevation 5291
 end
-arch steppe
+arch oldwoodfloor
 x 10
 y 18
-elevation 4714
 end
-arch steppe
+arch oldwoodfloor
 x 10
 y 19
-elevation 3489
 end
-arch hills_rocky
+arch oldwoodfloor
 x 10
 y 20
-elevation 1425
 end
-arch hills_rocky
+arch grassdark
 x 10
 y 21
-elevation 2658
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 10
 y 22
-elevation 2911
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 10
 y 23
-elevation 2771
 end
-arch hills_rocky
+arch redmarble
 x 10
 y 24
-elevation 2255
 end
-arch brush
+arch redmarble
 x 10
 y 25
-elevation 584
 end
-arch brush
+arch redmarble
 x 10
 y 26
-elevation 584
 end
-arch hills_rocky
+arch redmarble
 x 10
 y 27
-elevation 2297
 end
-arch steppe
+arch redmarble
 x 10
 y 28
-elevation 3194
 end
-arch steppe
+arch redmarble
 x 10
 y 29
-elevation 3709
 end
-arch steppe
+arch redmarble
 x 10
 y 30
-elevation 4197
 end
 arch mountain
 x 10
@@ -2701,24 +2617,20 @@ x 10
 y 49
 elevation 5085
 end
-arch mountain2
+arch grassdark
 x 11
-elevation 10983
 end
-arch mountain2
+arch grassdark
 x 11
 y 1
-elevation 11022
 end
-arch mountain2
+arch grassdark
 x 11
 y 2
-elevation 10536
 end
-arch mountain2
+arch grassdark
 x 11
 y 3
-elevation 9740
 end
 arch mountain
 x 11
@@ -2765,95 +2677,79 @@ x 11
 y 12
 elevation 8218
 end
-arch mountain
+arch oldwoodfloor
 x 11
 y 13
-elevation 7006
 end
-arch mountain
+arch oldwoodfloor
 x 11
 y 14
-elevation 6319
 end
-arch mountain
+arch oldwoodfloor
 x 11
 y 15
-elevation 5828
 end
-arch steppe
+arch oldwoodfloor
 x 11
 y 16
-elevation 4248
 end
-arch mountain
+arch oldwoodfloor
 x 11
 y 17
-elevation 5173
 end
-arch steppe
+arch oldwoodfloor
 x 11
 y 18
-elevation 4615
 end
-arch steppe
+arch oldwoodfloor
 x 11
 y 19
-elevation 3508
 end
-arch evergreen
+arch oldwoodfloor
 x 11
 y 20
-elevation 2491
 end
-arch hills_rocky
+arch grassdark
 x 11
 y 21
-elevation 2563
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 11
 y 22
-elevation 2812
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 23
-elevation 2702
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 24
-elevation 2251
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 25
-elevation 1771
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 26
-elevation 1705
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 27
-elevation 2155
 end
-arch hills_rocky
+arch redmarble
 x 11
 y 28
-elevation 2898
 end
-arch steppe
+arch redmarble
 x 11
 y 29
-elevation 3589
 end
-arch steppe
+arch redmarble
 x 11
 y 30
-elevation 4357
 end
 arch mountain
 x 11
@@ -2950,24 +2846,20 @@ x 11
 y 49
 elevation 6818
 end
-arch mountain2
+arch grassdark
 x 12
-elevation 10206
 end
-arch mountain2
+arch grassdark
 x 12
 y 1
-elevation 10120
 end
-arch mountain2
+arch grassdark
 x 12
 y 2
-elevation 9203
 end
-arch mountain
+arch grassdark
 x 12
 y 3
-elevation 6758
 end
 arch mountain
 x 12
@@ -3014,95 +2906,79 @@ x 12
 y 12
 elevation 6912
 end
-arch mountain
+arch oldwoodfloor
 x 12
 y 13
-elevation 5776
 end
-arch mountain
+arch oldwoodfloor
 x 12
 y 14
-elevation 6098
 end
-arch mountain
+arch oldwoodfloor
 x 12
 y 15
-elevation 5628
 end
-arch mountain
+arch oldwoodfloor
 x 12
 y 16
-elevation 5217
 end
-arch steppe
+arch oldwoodfloor
 x 12
 y 17
-elevation 4528
 end
-arch steppe
+arch oldwoodfloor
 x 12
 y 18
-elevation 4033
 end
-arch steppe
+arch oldwoodfloor
 x 12
 y 19
-elevation 3049
 end
-arch evergreen
+arch oldwoodfloor
 x 12
 y 20
-elevation 2198
 end
-arch hills_rocky
+arch grassdark
 x 12
 y 21
-elevation 2500
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 12
 y 22
-elevation 2644
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 23
-elevation 2524
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 24
-elevation 2177
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 25
-elevation 1861
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 26
-elevation 1783
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 27
-elevation 1998
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 28
-elevation 2090
 end
-arch hills_rocky
+arch redmarble
 x 12
 y 29
-elevation 2760
 end
-arch steppe
+arch redmarble
 x 12
 y 30
-elevation 4011
 end
 arch steppe
 x 12
@@ -3199,24 +3075,20 @@ x 12
 y 49
 elevation 9521
 end
-arch mountain
+arch grassdark
 x 13
-elevation 8353
 end
-arch mountain
+arch grassdark
 x 13
 y 1
-elevation 8128
 end
-arch mountain
+arch grassdark
 x 13
 y 2
-elevation 7495
 end
-arch mountain
+arch grassdark
 x 13
 y 3
-elevation 5846
 end
 arch hills_rocky
 x 13
@@ -3263,95 +3135,79 @@ x 13
 y 12
 elevation 5179
 end
-arch mountain
+arch oldwoodfloor
 x 13
 y 13
-elevation 5381
 end
-arch mountain
+arch oldwoodfloor
 x 13
 y 14
-elevation 5355
 end
-arch mountain
+arch oldwoodfloor
 x 13
 y 15
-elevation 5134
 end
-arch steppe
+arch oldwoodfloor
 x 13
 y 16
-elevation 4278
 end
-arch steppe
+arch oldwoodfloor
 x 13
 y 17
-elevation 4309
 end
-arch hills_rocky
+arch oldwoodfloor
 x 13
 y 18
-elevation 1043
 end
-arch hills_rocky
+arch oldwoodfloor
 x 13
 y 19
-elevation 2710
 end
-arch evergreen
+arch oldwoodfloor
 x 13
 y 20
-elevation 1599
 end
-arch hills_rocky
+arch grassdark
 x 13
 y 21
-elevation 2269
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 13
 y 22
-elevation 2457
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 23
-elevation 2249
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 24
-elevation 1752
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 25
-elevation 1322
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 26
-elevation 1172
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 27
-elevation 1560
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 28
-elevation 2046
 end
-arch hills_rocky
+arch redmarble
 x 13
 y 29
-elevation 2783
 end
-arch steppe
+arch redmarble
 x 13
 y 30
-elevation 3592
 end
 arch steppe
 x 13
@@ -3448,24 +3304,20 @@ x 13
 y 49
 elevation 10372
 end
-arch steppe
+arch grassdark
 x 14
-elevation 3622
 end
-arch mountain
+arch grassdark
 x 14
 y 1
-elevation 5850
 end
-arch mountain
+arch grassdark
 x 14
 y 2
-elevation 6004
 end
-arch steppe
+arch grassdark
 x 14
 y 3
-elevation 4667
 end
 arch hills
 x 14
@@ -3512,95 +3364,79 @@ x 14
 y 12
 elevation 3085
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 13
-elevation 4578
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 14
-elevation 4851
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 15
-elevation 3700
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 16
-elevation 4820
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 17
-elevation 4385
 end
-arch steppe
+arch oldwoodfloor
 x 14
 y 18
-elevation 3791
 end
-arch hills
+arch oldwoodfloor
 x 14
 y 19
-elevation 2738
 end
-arch hills_rocky
+arch oldwoodfloor
 x 14
 y 20
-elevation 1859
 end
-arch hills_rocky
+arch grassdark
 x 14
 y 21
-elevation 1739
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 14
 y 22
-elevation 2433
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 14
 y 23
-elevation 2001
 end
-arch brush
+arch redmarble
 x 14
 y 24
-elevation 717
 end
-arch brush
+arch redmarble
 x 14
 y 25
-elevation 451
 end
-arch brush
+arch redmarble
 x 14
 y 26
-elevation 589
 end
-arch hills_rocky
+arch redmarble
 x 14
 y 27
-elevation 1342
 end
-arch brush
+arch redmarble
 x 14
 y 28
-elevation 995
 end
-arch hills_rocky
+arch redmarble
 x 14
 y 29
-elevation 2349
 end
-arch steppe
+arch redmarble
 x 14
 y 30
-elevation 3089
 end
 arch steppe
 x 14
@@ -3697,24 +3533,20 @@ x 14
 y 49
 elevation 10486
 end
-arch evergreen
+arch grassdark
 x 15
-elevation 1531
 end
-arch hills
+arch grassdark
 x 15
 y 1
-elevation 3925
 end
-arch steppe
+arch grassdark
 x 15
 y 2
-elevation 4717
 end
-arch hills
+arch grassdark
 x 15
 y 3
-elevation 4195
 end
 arch hills_rocky
 x 15
@@ -3761,95 +3593,79 @@ x 15
 y 12
 elevation 3536
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 13
-elevation 3300
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 14
-elevation 4902
 end
-arch mountain
+arch oldwoodfloor
 x 15
 y 15
-elevation 5124
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 16
-elevation 4984
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 17
-elevation 4957
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 18
-elevation 4396
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 19
-elevation 3659
 end
-arch steppe
+arch oldwoodfloor
 x 15
 y 20
-elevation 3167
 end
-arch hills_rocky
+arch grassdark
 x 15
 y 21
-elevation 2851
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 15
 y 22
-elevation 2385
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 23
-elevation 1785
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 24
-elevation 1123
 end
-arch brush
+arch redmarble
 x 15
 y 25
-elevation 712
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 26
-elevation 1504
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 27
-elevation 1692
 end
-arch brush
+arch redmarble
 x 15
 y 28
-elevation 712
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 29
-elevation 1964
 end
-arch hills_rocky
+arch redmarble
 x 15
 y 30
-elevation 2360
 end
 arch steppe
 x 15
@@ -3946,24 +3762,20 @@ x 15
 y 49
 elevation 10059
 end
-arch evergreen
+arch grassdark
 x 16
-elevation 1813
 end
-arch evergreen
+arch grassdark
 x 16
 y 1
-elevation 2386
 end
-arch steppe
+arch grassdark
 x 16
 y 2
-elevation 4024
 end
-arch hills_rocky
+arch grassdark
 x 16
 y 3
-elevation 4284
 end
 arch steppe
 x 16
@@ -4010,95 +3822,79 @@ x 16
 y 12
 elevation 4173
 end
-arch steppe
+arch oldwoodfloor
 x 16
 y 13
-elevation 4911
 end
-arch mountain
+arch oldwoodfloor
 x 16
 y 14
-elevation 5380
 end
-arch mountain
+arch oldwoodfloor
 x 16
 y 15
-elevation 5369
 end
-arch hills
+arch oldwoodfloor
 x 16
 y 16
-elevation 4817
 end
-arch steppe
+arch oldwoodfloor
 x 16
 y 17
-elevation 4476
 end
-arch hills
+arch oldwoodfloor
 x 16
 y 18
-elevation 4242
 end
-arch steppe
+arch oldwoodfloor
 x 16
 y 19
-elevation 4056
 end
-arch steppe
+arch oldwoodfloor
 x 16
 y 20
-elevation 3558
 end
-arch hills
+arch grassdark
 x 16
 y 21
-elevation 3410
+elevation 4424
 end
-arch hills
+arch grassdark
 x 16
 y 22
-elevation 2334
+elevation 4424
 end
-arch grass
+arch redmarble
 x 16
 y 23
-elevation 728
 end
-arch evergreen
+arch redmarble
 x 16
 y 24
-elevation 1822
 end
-arch hills_rocky
+arch redmarble
 x 16
 y 25
-elevation 2066
 end
-arch hills
+arch redmarble
 x 16
 y 26
-elevation 2346
 end
-arch hills_rocky
+arch redmarble
 x 16
 y 27
-elevation 2515
 end
-arch hills
+arch redmarble
 x 16
 y 28
-elevation 2512
 end
-arch hills
+arch redmarble
 x 16
 y 29
-elevation 2206
 end
-arch hills
+arch redmarble
 x 16
 y 30
-elevation 1947
 end
 arch hills_rocky
 x 16
@@ -4195,24 +3991,20 @@ x 16
 y 49
 elevation 7810
 end
-arch steppe
+arch grassdark
 x 17
-elevation 3386
 end
-arch steppe
+arch grassdark
 x 17
 y 1
-elevation 3218
 end
-arch steppe
+arch grassdark
 x 17
 y 2
-elevation 3593
 end
-arch steppe
+arch grassdark
 x 17
 y 3
-elevation 4330
 end
 arch steppe
 x 17
@@ -4259,95 +4051,79 @@ x 17
 y 12
 elevation 4470
 end
-arch mountain
+arch oldwoodfloor
 x 17
 y 13
-elevation 5511
 end
-arch mountain
+arch oldwoodfloor
 x 17
 y 14
-elevation 5531
 end
-arch steppe
+arch oldwoodfloor
 x 17
 y 15
-elevation 4966
 end
-arch steppe
+arch oldwoodfloor
 x 17
 y 16
-elevation 3574
 end
-arch hills_rocky
+arch oldwoodfloor
 x 17
 y 17
-elevation 2028
 end
-arch steppe
+arch oldwoodfloor
 x 17
 y 18
-elevation 3524
 end
-arch hills
+arch oldwoodfloor
 x 17
 y 19
-elevation 3637
 end
-arch steppe
+arch oldwoodfloor
 x 17
 y 20
-elevation 3678
 end
-arch steppe
+arch grassdark
 x 17
 y 21
-elevation 3534
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 17
 y 22
-elevation 3030
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 17
 y 23
-elevation 2386
 end
-arch hills
+arch redmarble
 x 17
 y 24
-elevation 2164
 end
-arch hills
+arch redmarble
 x 17
 y 25
-elevation 2493
 end
-arch hills
+arch redmarble
 x 17
 y 26
-elevation 2909
 end
-arch steppe
+arch redmarble
 x 17
 y 27
-elevation 3234
 end
-arch steppe
+arch redmarble
 x 17
 y 28
-elevation 3224
 end
-arch hills_rocky
+arch redmarble
 x 17
 y 29
-elevation 2844
 end
-arch hills_rocky
+arch redmarble
 x 17
 y 30
-elevation 1118
 end
 arch hills
 x 17
@@ -4444,24 +4220,20 @@ x 17
 y 49
 elevation 9187
 end
-arch steppe
+arch grassdark
 x 18
-elevation 3923
 end
-arch evergreens
+arch grassdark
 x 18
 y 1
-elevation 2568
 end
-arch hills_rocky
+arch grassdark
 x 18
 y 2
-elevation 3446
 end
-arch steppe
+arch grassdark
 x 18
 y 3
-elevation 4049
 end
 arch hills_rocky
 x 18
@@ -4508,95 +4280,79 @@ x 18
 y 12
 elevation 4628
 end
-arch mountain
+arch oldwoodfloor
 x 18
 y 13
-elevation 5420
 end
-arch mountain
+arch oldwoodfloor
 x 18
 y 14
-elevation 5167
 end
-arch steppe
+arch oldwoodfloor
 x 18
 y 15
-elevation 3134
 end
-arch steppe
+arch oldwoodfloor
 x 18
 y 16
-elevation 3637
 end
-arch hills_rocky
+arch oldwoodfloor
 x 18
 y 17
-elevation 2440
 end
-arch hills_rocky
+arch oldwoodfloor
 x 18
 y 18
-elevation 2636
 end
-arch hills
+arch oldwoodfloor
 x 18
 y 19
-elevation 2781
 end
-arch hills_rocky
+arch oldwoodfloor
 x 18
 y 20
-elevation 2971
 end
-arch steppe
+arch grassdark
 x 18
 y 21
-elevation 3510
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 18
 y 22
-elevation 3280
+elevation 4424
 end
-arch hills_rocky
+arch redmarble
 x 18
 y 23
-elevation 2739
 end
-arch evergreens
+arch redmarble
 x 18
 y 24
-elevation 1531
 end
-arch hills
+arch redmarble
 x 18
 y 25
-elevation 2126
 end
-arch steppe
+arch redmarble
 x 18
 y 26
-elevation 3001
 end
-arch steppe
+arch redmarble
 x 18
 y 27
-elevation 3294
 end
-arch steppe
+arch redmarble
 x 18
 y 28
-elevation 3437
 end
-arch steppe
+arch redmarble
 x 18
 y 29
-elevation 3211
 end
-arch hills
+arch redmarble
 x 18
 y 30
-elevation 3157
 end
 arch steppe
 x 18
@@ -4693,24 +4449,20 @@ x 18
 y 49
 elevation 8939
 end
-arch hills
+arch grassdark
 x 19
-elevation 3821
 end
-arch hills
+arch grassdark
 x 19
 y 1
-elevation 2330
 end
-arch steppe
+arch grassdark
 x 19
 y 2
-elevation 3127
 end
-arch steppe
+arch grassdark
 x 19
 y 3
-elevation 3487
 end
 arch hills_rocky
 x 19
@@ -4757,95 +4509,79 @@ x 19
 y 12
 elevation 4504
 end
-arch steppe
+arch oldwoodfloor
 x 19
 y 13
-elevation 4756
 end
-arch steppe
+arch oldwoodfloor
 x 19
 y 14
-elevation 4452
 end
-arch hills_rocky
+arch oldwoodfloor
 x 19
 y 15
-elevation 4018
 end
-arch steppe
+arch oldwoodfloor
 x 19
 y 16
-elevation 3948
 end
-arch steppe
+arch oldwoodfloor
 x 19
 y 17
-elevation 4107
 end
-arch hills_rocky
+arch oldwoodfloor
 x 19
 y 18
-elevation 3861
 end
-arch hills
+arch oldwoodfloor
 x 19
 y 19
-elevation 3826
 end
-arch hills_rocky
+arch oldwoodfloor
 x 19
 y 20
-elevation 3466
 end
-arch steppe
+arch grassdark
 x 19
 y 21
-elevation 3011
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 19
 y 22
-elevation 3332
+elevation 4424
 end
-arch evergreens
+arch redmarble
 x 19
 y 23
-elevation 2565
 end
-arch hills_rocky
+arch redmarble
 x 19
 y 24
-elevation 2132
 end
-arch hills_rocky
+arch redmarble
 x 19
 y 25
-elevation 1322
 end
-arch steppe
+arch redmarble
 x 19
 y 26
-elevation 3151
 end
-arch steppe
+arch redmarble
 x 19
 y 27
-elevation 3158
 end
-arch hills
+arch redmarble
 x 19
 y 28
-elevation 2877
 end
-arch hills_rocky
+arch redmarble
 x 19
 y 29
-elevation 2944
 end
-arch steppe
+arch redmarble
 x 19
 y 30
-elevation 3544
 end
 arch steppe
 x 19
@@ -4942,24 +4678,20 @@ x 19
 y 49
 elevation 8588
 end
-arch hills_rocky
+arch grassdark
 x 20
-elevation 3363
 end
-arch evergreens
+arch grassdark
 x 20
 y 1
-elevation 2963
 end
-arch hills
+arch grassdark
 x 20
 y 2
-elevation 2636
 end
-arch hills
+arch grassdark
 x 20
 y 3
-elevation 2582
 end
 arch hills
 x 20
@@ -5006,95 +4738,79 @@ x 20
 y 12
 elevation 3408
 end
-arch steppe
+arch oldwoodfloor
 x 20
 y 13
-elevation 3899
 end
-arch steppe
+arch oldwoodfloor
 x 20
 y 14
-elevation 4075
 end
-arch hills_rocky
+arch oldwoodfloor
 x 20
 y 15
-elevation 3184
 end
-arch steppe
+arch oldwoodfloor
 x 20
 y 16
-elevation 4514
 end
-arch steppe
+arch oldwoodfloor
 x 20
 y 17
-elevation 4973
 end
-arch hills_rocky
+arch oldwoodfloor
 x 20
 y 18
-elevation 4909
 end
-arch hills_rocky
+arch oldwoodfloor
 x 20
 y 19
-elevation 4557
 end
-arch hills_rocky
+arch oldwoodfloor
 x 20
 y 20
-elevation 4043
 end
 arch grassdark
 x 20
 y 21
-elevation 2070
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 20
 y 22
-elevation 4229
+elevation 4424
 end
-arch steppe
+arch redmarble
 x 20
 y 23
-elevation 3976
 end
-arch steppe
+arch redmarble
 x 20
 y 24
-elevation 3848
 end
-arch steppe
+arch redmarble
 x 20
 y 25
-elevation 3587
 end
-arch steppe
+arch redmarble
 x 20
 y 26
-elevation 3300
 end
-arch hills
+arch redmarble
 x 20
 y 27
-elevation 2787
 end
-arch brush
+arch redmarble
 x 20
 y 28
-elevation 503
 end
-arch hills_rocky
+arch redmarble
 x 20
 y 29
-elevation 1576
 end
-arch steppe
+arch redmarble
 x 20
 y 30
-elevation 3553
 end
 arch steppe
 x 20
@@ -5191,24 +4907,20 @@ x 20
 y 49
 elevation 7616
 end
-arch hills
+arch grassdark
 x 21
-elevation 2433
 end
-arch evergreens
+arch grassdark
 x 21
 y 1
-elevation 2450
 end
-arch tree
+arch grassdark
 x 21
 y 2
-elevation 2342
 end
-arch desert
+arch grassdark
 x 21
 y 3
-elevation 701
 end
 arch hills
 x 21
@@ -5315,45 +5027,45 @@ x 21
 y 24
 elevation 5416
 end
-arch steppe
+arch grassdark
 x 21
 y 25
-elevation 4319
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 21
 y 26
-elevation 3088
+elevation 4424
 end
-arch hills
+arch grassdark
 x 21
 y 27
-elevation 2275
+elevation 4424
 end
-arch hills
+arch grassdark
 x 21
 y 28
-elevation 1899
+elevation 4424
 end
-arch hills
+arch grassdark
 x 21
 y 29
-elevation 1980
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 21
 y 30
-elevation 3461
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 21
 y 31
-elevation 4657
+elevation 4424
 end
-arch mountain
+arch grassdark
 x 21
 y 32
-elevation 5401
+elevation 4424
 end
 arch mountain
 x 21
@@ -5440,24 +5152,20 @@ x 21
 y 49
 elevation 6066
 end
-arch desert
+arch grassdark
 x 22
-elevation 385
 end
-arch tree
+arch grassdark
 x 22
 y 1
-elevation 2098
 end
-arch tree
+arch grassdark
 x 22
 y 2
-elevation 2125
 end
-arch tree
+arch grassdark
 x 22
 y 3
-elevation 1880
 end
 arch hills
 x 22
@@ -5573,40 +5281,40 @@ x 22
 y 25
 elevation 4958
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 26
-elevation 2011
+elevation 4424
 end
-arch brush
+arch grassdark
 x 22
 y 27
-elevation 744
+elevation 4424
 end
-arch hills
+arch grassdark
 x 22
 y 28
-elevation 2682
+elevation 4424
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 29
-elevation 1921
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 22
 y 30
-elevation 3743
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 22
 y 31
-elevation 4389
+elevation 4424
 end
-arch hills
+arch grassdark
 x 22
 y 32
-elevation 4349
+elevation 4424
 end
 arch mountain
 x 22
@@ -5827,35 +5535,35 @@ x 23
 y 26
 elevation 4529
 end
-arch steppe
+arch grassdark
 x 23
 y 27
-elevation 3956
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 23
 y 28
-elevation 3863
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 23
 y 29
-elevation 3652
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 23
 y 30
-elevation 4385
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 23
 y 31
-elevation 4435
+elevation 4424
 end
-arch steppe
+arch grassdark
 x 23
 y 32
-elevation 3135
+elevation 4424
 end
 arch grassdark
 x 23
@@ -7251,62 +6959,62 @@ x 29
 y 1
 elevation 4749
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 2
 elevation 4465
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 3
 elevation 4527
 end
-arch steppe
+arch lostlabfloor11
 x 29
 y 4
 elevation 4582
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 5
 elevation 4015
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 6
 elevation 3389
 end
-arch steppe
+arch lostlabfloor11
 x 29
 y 7
 elevation 3983
 end
-arch steppe
+arch lostlabfloor11
 x 29
 y 8
 elevation 4335
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 9
 elevation 4602
 end
-arch mountain
+arch lostlabfloor11
 x 29
 y 10
 elevation 5010
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 11
 elevation 4766
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 12
 elevation 4421
 end
-arch hills
+arch lostlabfloor11
 x 29
 y 13
 elevation 4273
@@ -7530,62 +7238,62 @@ x 30
 y 1
 elevation 4769
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 2
 elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 3
-elevation 3820
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 4
-elevation 4578
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 5
-elevation 4873
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 6
-elevation 4714
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 7
-elevation 4692
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 8
-elevation 4930
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 30
 y 9
-elevation 5148
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 10
-elevation 3916
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 11
-elevation 4994
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 30
 y 12
-elevation 3632
+elevation 4307
 end
-arch hills_rocky
+arch lostlabfloor11
 x 30
 y 13
 elevation 2765
@@ -7818,62 +7526,62 @@ x 31
 y 1
 elevation 4532
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 2
 elevation 3553
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 3
-elevation 3239
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 4
-elevation 4904
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 5
-elevation 5486
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 6
-elevation 5371
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 7
-elevation 4464
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 8
-elevation 5125
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 9
-elevation 5230
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 10
-elevation 5412
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 31
 y 11
-elevation 5365
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 12
-elevation 4868
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 31
 y 13
 elevation 4284
@@ -8088,62 +7796,62 @@ x 32
 y 1
 elevation 5290
 end
-arch hills
+arch lostlabfloor11
 x 32
 y 2
 elevation 4938
 end
-arch steppe
+arch lostlabfloor11
 x 32
 y 3
-elevation 4973
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 4
-elevation 5521
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 5
-elevation 5990
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 6
-elevation 5372
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 7
-elevation 5214
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 32
 y 8
-elevation 4890
+elevation 4307
 end
-arch steppe
+arch lostlabfloor11
 x 32
 y 9
-elevation 4524
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 10
-elevation 5392
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 11
-elevation 5540
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 32
 y 12
-elevation 5174
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 32
 y 13
 elevation 4207
@@ -8365,62 +8073,62 @@ x 33
 y 1
 elevation 5901
 end
-arch mountain
+arch lostlabfloor11
 x 33
 y 2
 elevation 5545
 end
-arch steppe
+arch lostlabfloor11
 x 33
 y 3
-elevation 4361
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 33
 y 4
-elevation 5754
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 33
 y 5
-elevation 6147
+elevation 4307
 end
-arch mountain
+arch lostlabfloor11
 x 33
 y 6
-elevation 5767
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 7
-elevation 4741
+elevation 4307
 end
-arch steppe
+arch lostlabfloor11
 x 33
 y 8
-elevation 3930
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 9
-elevation 4055
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 10
-elevation 4527
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 11
-elevation 4921
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 12
-elevation 4588
+elevation 4307
 end
-arch hills
+arch lostlabfloor11
 x 33
 y 13
 elevation 4100
@@ -8640,62 +8348,62 @@ x 34
 y 1
 elevation 5926
 end
-arch mountain
+arch lostlabfloor11
 x 34
 y 2
 elevation 5691
 end
-arch steppe
+arch lostlabfloor11
 x 34
 y 3
 elevation 4433
 end
-arch mountain
+arch lostlabfloor11
 x 34
 y 4
 elevation 5239
 end
-arch mountain
+arch lostlabfloor11
 x 34
 y 5
 elevation 6161
 end
-arch mountain
+arch lostlabfloor11
 x 34
 y 6
 elevation 5272
 end
-arch steppe
+arch lostlabfloor11
 x 34
 y 7
 elevation 3801
 end
-arch woods_2
+arch lostlabfloor11
 x 34
 y 8
 elevation 1514
 end
-arch brush
+arch lostlabfloor11
 x 34
 y 9
 elevation 888
 end
-arch hills
+arch lostlabfloor11
 x 34
 y 10
 elevation 4365
 end
-arch hills
+arch lostlabfloor11
 x 34
 y 11
 elevation 3781
 end
-arch hills
+arch lostlabfloor11
 x 34
 y 12
 elevation 3495
 end
-arch hills_rocky
+arch lostlabfloor11
 x 34
 y 13
 elevation 3049

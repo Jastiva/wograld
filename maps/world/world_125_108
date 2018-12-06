@@ -2,6 +2,9 @@ arch map
 name world_125_108
 width 50
 height 50
+msg
+Modified: 2018-12-03 lx
+endmsg
 outdoor 1
 tile_path_1 world_125_107
 tile_path_2 world_126_108
@@ -864,95 +867,77 @@ x 3
 y 31
 elevation 6585
 end
-arch mountain
+arch grassdark
 x 3
 y 32
-elevation 7309
 end
-arch mountain
+arch grassdark
 x 3
 y 33
-elevation 7764
 end
-arch mountain
+arch grassdark
 x 3
 y 34
-elevation 7629
 end
-arch mountain
+arch grassdark
 x 3
 y 35
-elevation 7335
 end
-arch mountain
+arch grassdark
 x 3
 y 36
-elevation 6372
 end
-arch mountain
+arch grassdark
 x 3
 y 37
-elevation 7759
 end
-arch mountain
+arch grassdark
 x 3
 y 38
-elevation 8376
 end
-arch mountain
+arch grassdark
 x 3
 y 39
-elevation 7620
 end
-arch mountain
+arch grassdark
 x 3
 y 40
-elevation 6402
 end
-arch mountain
+arch grassdark
 x 3
 y 41
-elevation 5348
 end
-arch hills
+arch grassdark
 x 3
 y 42
-elevation 3589
 end
-arch steppe
+arch grassdark
 x 3
 y 43
-elevation 4857
 end
-arch mountain
+arch grassdark
 x 3
 y 44
-elevation 5278
 end
-arch steppe
+arch grassdark
 x 3
 y 45
-elevation 4912
 end
-arch steppe
+arch grassdark
 x 3
 y 46
-elevation 4265
 end
-arch steppe
+arch grassdark
 x 3
 y 47
-elevation 4780
 end
-arch mountain
+arch grassdark
 x 3
 y 48
-elevation 6152
 end
-arch mountain
+arch grassdark
 x 3
 y 49
-elevation 6622
 end
 arch mountain
 x 4
@@ -1113,95 +1098,77 @@ x 4
 y 31
 elevation 5056
 end
-arch mountain
+arch grassdark
 x 4
 y 32
-elevation 6654
 end
-arch mountain
+arch grassdark
 x 4
 y 33
-elevation 7500
 end
-arch mountain
+arch grassdark
 x 4
 y 34
-elevation 7222
 end
-arch mountain
+arch grassdark
 x 4
 y 35
-elevation 6747
 end
-arch mountain
+arch grassdark
 x 4
 y 36
-elevation 7160
 end
-arch mountain
+arch grassdark
 x 4
 y 37
-elevation 8141
 end
-arch mountain
+arch grassdark
 x 4
 y 38
-elevation 8759
 end
-arch mountain
+arch grassdark
 x 4
 y 39
-elevation 8627
 end
-arch mountain
+arch grassdark
 x 4
 y 40
-elevation 7997
 end
-arch mountain
+arch grassdark
 x 4
 y 41
-elevation 7144
 end
-arch mountain
+arch grassdark
 x 4
 y 42
-elevation 6646
 end
-arch mountain
+arch grassdark
 x 4
 y 43
-elevation 6522
 end
-arch mountain
+arch grassdark
 x 4
 y 44
-elevation 7178
 end
-arch mountain
+arch grassdark
 x 4
 y 45
-elevation 6550
 end
-arch steppe
+arch grassdark
 x 4
 y 46
-elevation 3751
 end
-arch mountain
+arch grassdark
 x 4
 y 47
-elevation 6098
 end
-arch mountain
+arch grassdark
 x 4
 y 48
-elevation 7218
 end
-arch mountain
+arch grassdark
 x 4
 y 49
-elevation 8093
 end
 arch mountain
 x 5
@@ -1352,10 +1319,9 @@ x 5
 y 29
 elevation 6111
 end
-arch woods_2
+arch grassdark
 x 5
 y 30
-elevation 2714
 end
 arch woods_2
 x 5
@@ -1367,90 +1333,155 @@ x 5
 y 32
 elevation 6018
 end
+arch mine_nw
+x 5
+y 32
+end
 arch mountain
 x 5
 y 33
 elevation 6774
+end
+arch mine0
+x 5
+y 33
 end
 arch mountain
 x 5
 y 34
 elevation 6376
 end
+arch mine0
+x 5
+y 34
+end
 arch steppe
 x 5
 y 35
 elevation 4492
+end
+arch mine0
+x 5
+y 35
 end
 arch mountain
 x 5
 y 36
 elevation 6597
 end
+arch mine0
+x 5
+y 36
+end
 arch mountain
 x 5
 y 37
 elevation 7941
+end
+arch mine0
+x 5
+y 37
 end
 arch mountain
 x 5
 y 38
 elevation 8840
 end
-arch mountain2
+arch mine0
+x 5
+y 38
+end
+arch grassdark
 x 5
 y 39
-elevation 9026
+elevation 3456
 end
-arch mountain
+arch mine_sw
+x 5
+y 39
+end
+arch steppe
 x 5
 y 40
-elevation 8618
+elevation 4857
 end
-arch mountain
+arch stair_up_2
+x 5
+y 40
+end
+arch steppe
 x 5
 y 41
-elevation 8084
+elevation 4857
 end
-arch mountain
+arch stair_up_2
+x 5
+y 41
+end
+arch grassdark
 x 5
 y 42
-elevation 7712
 end
-arch mountain
+arch mine_nw
+x 5
+y 42
+end
+arch blackmarble
 x 5
 y 43
-elevation 8054
 end
-arch mountain
+arch mine0
+x 5
+y 43
+end
+arch blackmarble
 x 5
 y 44
-elevation 8457
 end
-arch mountain
+arch mine0
+x 5
+y 44
+end
+arch blackmarble
 x 5
 y 45
-elevation 7914
 end
-arch mountain
+arch mine0
+x 5
+y 45
+end
+arch blackmarble
 x 5
 y 46
-elevation 6523
 end
-arch mountain
+arch mine0
+x 5
+y 46
+end
+arch blackmarble
 x 5
 y 47
-elevation 6790
 end
-arch mountain
+arch mine0
+x 5
+y 47
+end
+arch blackmarble
 x 5
 y 48
-elevation 7487
 end
-arch mountain
+arch mine0
+x 5
+y 48
+end
+arch grassdark
 x 5
 y 49
-elevation 8480
+elevation 3751
+end
+arch mine_sw
+x 5
+y 49
 end
 arch mountain
 x 6
@@ -1616,90 +1647,104 @@ x 6
 y 32
 elevation 5460
 end
-arch mountain
+arch mine0
+x 6
+y 32
+end
+arch blackmarble
 x 6
 y 33
-elevation 5714
 end
-arch mountain
+arch blackmarble
 x 6
 y 34
-elevation 5186
 end
-arch steppe
+arch blackmarble
 x 6
 y 35
-elevation 4839
 end
-arch steppe
+arch blackmarble
 x 6
 y 36
-elevation 4511
 end
-arch mountain
+arch blackmarble
 x 6
 y 37
-elevation 7571
 end
-arch mountain
+arch schest_2
+x 6
+y 37
+no_pick 1
+end
+arch blackmarble
 x 6
 y 38
-elevation 8827
 end
-arch mountain
+arch blackmarble
 x 6
 y 39
-elevation 7980
+end
+arch mine0
+x 6
+y 39
 end
 arch mountain
 x 6
 y 40
 elevation 8819
 end
+arch mine0
+x 6
+y 40
+end
 arch mountain
 x 6
 y 41
 elevation 8230
 end
-arch mountain
+arch mine0
+x 6
+y 41
+end
+arch blackmarble
 x 6
 y 42
-elevation 7277
 end
-arch mountain
+arch mine0
+x 6
+y 42
+end
+arch blackmarble
 x 6
 y 43
-elevation 7688
 end
-arch mountain2
+arch blackmarble
 x 6
 y 44
-elevation 9070
 end
-arch mountain
+arch blackmarble
 x 6
 y 45
-elevation 8921
 end
-arch mountain
+arch blackmarble
 x 6
 y 46
-elevation 7998
 end
-arch mountain
+arch blackmarble
 x 6
 y 47
-elevation 7160
 end
-arch mountain
+arch blackmarble
 x 6
 y 48
-elevation 5982
 end
-arch mountain
+arch blackmarble
 x 6
 y 49
-elevation 8595
+end
+arch mine0
+x 6
+y 49
 end
 arch mountain
 x 7
@@ -1865,90 +1910,113 @@ x 7
 y 32
 elevation 5326
 end
-arch hills
+arch mine0
+x 7
+y 32
+end
+arch blackmarble
 x 7
 y 33
-elevation 3737
 end
-arch hills
+arch forge
+x 7
+y 33
+end
+arch blackmarble
 x 7
 y 34
-elevation 4177
 end
-arch steppe
+arch blackmarble
 x 7
 y 35
-elevation 4065
 end
-arch mountain
+arch blackmarble
 x 7
 y 36
-elevation 5126
 end
-arch mountain
+arch blackmarble
 x 7
 y 37
-elevation 7321
 end
-arch mountain
+arch schest_2
+x 7
+y 37
+no_pick 1
+end
+arch blackmarble
 x 7
 y 38
-elevation 8856
 end
 arch mountain2
 x 7
 y 39
 elevation 9370
 end
+arch mine0
+x 7
+y 39
+end
 arch mountain2
 x 7
 y 40
 elevation 9432
+end
+arch mine0
+x 7
+y 40
 end
 arch mountain2
 x 7
 y 41
 elevation 9408
 end
-arch mountain2
+arch mine0
+x 7
+y 41
+end
+arch blackmarble
 x 7
 y 42
-elevation 9148
 end
-arch mountain
+arch mine0
+x 7
+y 42
+end
+arch blackmarble
 x 7
 y 43
-elevation 8080
 end
-arch mountain2
+arch blackmarble
 x 7
 y 44
-elevation 9533
 end
-arch mountain2
+arch altar_devourers
+x 7
+y 44
+end
+arch blackmarble
 x 7
 y 45
-elevation 9332
 end
-arch mountain
+arch blackmarble
 x 7
 y 46
-elevation 8286
 end
-arch mountain
+arch blackmarble
 x 7
 y 47
-elevation 6619
 end
-arch mountain
+arch blackmarble
 x 7
 y 48
-elevation 6484
 end
-arch mountain
+arch blackmarble
 x 7
 y 49
-elevation 8762
+end
+arch mine0
+x 7
+y 49
 end
 arch mountain
 x 8
@@ -2114,90 +2182,123 @@ x 8
 y 32
 elevation 5100
 end
+arch mine0
+x 8
+y 32
+end
 arch hills
 x 8
 y 33
 elevation 4889
 end
-arch hills
+arch mine0
+x 8
+y 33
+end
+arch blackmarble
 x 8
 y 34
-elevation 4285
 end
-arch evergreen
+arch blackmarble
 x 8
 y 35
-elevation 1343
 end
-arch hills
+arch blackmarble
 x 8
 y 36
-elevation 4478
 end
-arch mountain
+arch blackmarble
 x 8
 y 37
 elevation 7513
+end
+arch mine_nw
+x 8
+y 37
 end
 arch mountain
 x 8
 y 38
 elevation 8774
 end
+arch mine0
+x 8
+y 38
+end
 arch mountain2
 x 8
 y 39
 elevation 9356
+end
+arch mine0
+x 8
+y 39
 end
 arch mountain2
 x 8
 y 40
 elevation 9802
 end
+arch mine0
+x 8
+y 40
+end
 arch mountain2
 x 8
 y 41
 elevation 10221
 end
-arch mountain2
+arch mine0
+x 8
+y 41
+end
+arch blackmarble
 x 8
 y 42
-elevation 10246
 end
-arch mountain2
+arch mine0
+x 8
+y 42
+end
+arch blackmarble
 x 8
 y 43
-elevation 10266
 end
-arch mountain2
+arch mine0
+x 8
+y 43
+end
+arch blackmarble
 x 8
 y 44
-elevation 9971
 end
-arch mountain2
+arch mine_sw
+x 8
+y 44
+end
+arch blackmarble
 x 8
 y 45
-elevation 9725
 end
-arch mountain2
+arch blackmarble
 x 8
 y 46
-elevation 9242
 end
-arch mountain2
+arch blackmarble
 x 8
 y 47
-elevation 9075
 end
-arch mountain2
+arch blackmarble
 x 8
 y 48
-elevation 9115
 end
-arch mountain
+arch blackmarble
 x 8
 y 49
-elevation 8857
+end
+arch mine0
+x 8
+y 49
 end
 arch hills_rocky
 x 9
@@ -2363,90 +2464,108 @@ x 9
 y 32
 elevation 4615
 end
-arch hills_rocky
+arch mine0
+x 9
+y 32
+end
+arch blackmarble
 x 9
 y 33
-elevation 4800
 end
-arch steppe
+arch blackmarble
 x 9
 y 34
-elevation 4698
 end
-arch mountain
+arch blackmarble
 x 9
 y 35
-elevation 5193
 end
-arch mountain
+arch blackmarble
 x 9
 y 36
 elevation 6490
+end
+arch mine_nw
+x 9
+y 36
 end
 arch mountain
 x 9
 y 37
 elevation 8028
 end
-arch mountain
+arch mine0
+x 9
+y 37
+end
+arch blackmarble
 x 9
 y 38
 elevation 7858
 end
-arch mountain
+arch mine_ase
+x 9
+y 38
+end
+arch blackmarble
 x 9
 y 39
-elevation 7998
 end
-arch mountain2
+arch blackmarble
 x 9
 y 40
-elevation 9823
 end
-arch mountain2
+arch blackmarble
 x 9
 y 41
-elevation 10212
 end
-arch mountain2
+arch blackmarble
 x 9
 y 42
-elevation 10574
 end
-arch mountain2
+arch blackmarble
 x 9
 y 43
-elevation 10772
 end
-arch mountain2
+arch mine_ane
+x 9
+y 43
+end
+arch blackmarble
 x 9
 y 44
-elevation 10468
 end
-arch mountain2
+arch mine0
+x 9
+y 44
+end
+arch blackmarble
 x 9
 y 45
-elevation 9138
 end
-arch mountain2
+arch mine_sw
+x 9
+y 45
+end
+arch blackmarble
 x 9
 y 46
-elevation 9786
 end
-arch mountain2
+arch blackmarble
 x 9
 y 47
-elevation 9994
 end
-arch mountain2
+arch blackmarble
 x 9
 y 48
-elevation 10068
 end
-arch mountain2
+arch blackmarble
 x 9
 y 49
-elevation 10091
+end
+arch mine0
+x 9
+y 49
 end
 arch hills_rocky
 x 10
@@ -2612,90 +2731,107 @@ x 10
 y 32
 elevation 3661
 end
-arch hills
+arch mine0
+x 10
+y 32
+end
+arch blackmarble
 x 10
 y 33
-elevation 4320
 end
-arch hills
+arch blackmarble
 x 10
 y 34
-elevation 4582
 end
-arch mountain
+arch blackmarble
 x 10
 y 35
-elevation 6287
 end
 arch mountain
 x 10
 y 36
 elevation 7416
 end
-arch mountain
+arch mine0
+x 10
+y 36
+end
+arch blackmarble
 x 10
 y 37
 elevation 8433
 end
-arch mountain2
+arch mine_ase
+x 10
+y 37
+end
+arch blackmarble
 x 10
 y 38
-elevation 9099
 end
-arch mountain2
+arch ironfirepot
+x 10
+y 38
+end
+arch blackmarble
 x 10
 y 39
-elevation 9655
 end
-arch mountain2
+arch blackmarble
 x 10
 y 40
-elevation 9911
 end
-arch mountain2
+arch blackmarble
 x 10
 y 41
-elevation 9666
 end
-arch mountain2
+arch blackmarble
 x 10
 y 42
-elevation 9719
 end
-arch mountain2
+arch blackmarble
 x 10
 y 43
-elevation 10175
 end
-arch mountain2
+arch blackmarble
 x 10
 y 44
 elevation 10620
 end
-arch mountain2
+arch mine_ane
+x 10
+y 44
+end
+arch mine0
 x 10
 y 45
-elevation 10225
 end
-arch mountain2
+arch blackmarble
 x 10
 y 46
-elevation 9293
 end
-arch mountain
+arch button_trigger
+x 10
+y 46
+connected 1
+move_on walk
+move_off walk
+end
+arch blackmarble
 x 10
 y 47
-elevation 8892
 end
-arch mountain2
+arch blackmarble
 x 10
 y 48
-elevation 9686
 end
-arch mountain2
+arch blackmarble
 x 10
 y 49
-elevation 10582
+end
+arch mine0
+x 10
+y 49
 end
 arch hills_rocky
 x 11
@@ -2861,90 +2997,110 @@ x 11
 y 32
 elevation 3661
 end
+arch mine0
+x 11
+y 32
+end
 arch hills_rocky
 x 11
 y 33
 elevation 3960
 end
-arch mountain
+arch mine0
+x 11
+y 33
+end
+arch blackmarble
 x 11
 y 34
-elevation 5658
 end
 arch mountain
 x 11
 y 35
 elevation 6714
 end
+arch mine0
+x 11
+y 35
+end
 arch mountain
 x 11
 y 36
 elevation 7635
 end
-arch mountain
+arch mine0
+x 11
+y 36
+end
+arch blackmarble
 x 11
 y 37
-elevation 7567
 end
-arch mountain2
+arch blackmarble
 x 11
 y 38
-elevation 9448
 end
-arch mountain2
+arch blackmarble
 x 11
 y 39
-elevation 10293
 end
-arch mountain2
+arch blackmarble
 x 11
 y 40
-elevation 10061
 end
-arch mountain
+arch blackmarble
 x 11
 y 41
-elevation 8661
 end
-arch mountain
+arch blackmarble
 x 11
 y 42
-elevation 5863
 end
-arch mountain2
+arch blackmarble
 x 11
 y 43
-elevation 9364
 end
-arch mountain2
+arch blackmarble
 x 11
 y 44
-elevation 10520
 end
 arch mountain2
 x 11
 y 45
 elevation 10188
 end
-arch mountain2
+arch mine0
+x 11
+y 45
+end
+arch blackmarble
 x 11
 y 46
-elevation 9022
 end
-arch hills
+arch mine_secret_2_1
+x 11
+y 46
+connected 1
+end
+arch blackmarble
 x 11
 y 47
-elevation 4645
 end
-arch mountain2
+arch blackmarble
 x 11
 y 48
-elevation 9073
 end
-arch mountain2
+arch mine0
+x 11
+y 48
+end
+arch blackmarble
 x 11
 y 49
-elevation 10337
+end
+arch mine0
+x 11
+y 49
 end
 arch mountain
 x 12
@@ -3105,95 +3261,102 @@ x 12
 y 31
 elevation 6096
 end
-arch mountain
+arch blackmarble
 x 12
 y 32
-elevation 5694
 end
-arch mountain
+arch mine0
+x 12
+y 32
+end
+arch blackmarble
 x 12
 y 33
-elevation 5439
 end
-arch mountain
+arch blackmarble
 x 12
 y 34
-elevation 6225
 end
-arch mountain
+arch blackmarble
 x 12
 y 35
-elevation 6970
 end
-arch mountain
+arch blackmarble
 x 12
 y 36
-elevation 7367
 end
-arch mountain
+arch blackmarble
 x 12
 y 37
-elevation 7780
 end
-arch mountain
+arch blackmarble
 x 12
 y 38
 elevation 8522
 end
-arch mountain2
+arch bone_armour
+x 12
+y 38
+no_pick 1
+end
+arch blackmarble
 x 12
 y 39
-elevation 9257
 end
-arch mountain2
+arch blackmarble
 x 12
 y 40
-elevation 9111
 end
-arch mountain
+arch blackmarble
 x 12
 y 41
-elevation 7638
 end
-arch hills_rocky
+arch blackmarble
 x 12
 y 42
-elevation 4963
 end
-arch mountain
+arch blackmarble
 x 12
 y 43
-elevation 8769
 end
-arch mountain2
+arch blackmarble
 x 12
 y 44
-elevation 10130
 end
-arch mountain2
+arch blackmarble
 x 12
 y 45
-elevation 10034
 end
-arch mountain
+arch blackmarble
 x 12
 y 46
-elevation 8596
 end
-arch mountain
+arch button_trigger
+x 12
+y 46
+connected 1
+move_on walk
+move_off walk
+end
+arch blackmarble
 x 12
 y 47
-elevation 8641
 end
-arch mountain
+arch blackmarble
 x 12
 y 48
-elevation 8019
 end
-arch mountain2
+arch blackmarble
 x 12
 y 49
-elevation 9750
+end
+arch blackmarble
+x 12
+y 49
+end
+arch mine0
+x 12
+y 49
 end
 arch mountain
 x 13
@@ -3354,95 +3517,98 @@ x 13
 y 31
 elevation 6847
 end
-arch mountain
+arch blackmarble
 x 13
 y 32
-elevation 6654
 end
-arch mountain
+arch mine0
+x 13
+y 32
+end
+arch blackmarble
 x 13
 y 33
-elevation 6530
 end
-arch mountain
+arch silvercoin
+x 13
+y 33
+no_pick 1
+end
+arch blackmarble
 x 13
 y 34
-elevation 6405
 end
-arch mountain
+arch blackmarble
 x 13
 y 35
-elevation 6610
 end
-arch mountain
+arch blackmarble
 x 13
 y 36
-elevation 6733
 end
-arch mountain
+arch blackmarble
 x 13
 y 37
-elevation 5987
 end
-arch mountain
+arch blackmarble
 x 13
 y 38
-elevation 6576
 end
-arch mountain
+arch blackmarble
 x 13
 y 39
-elevation 7673
 end
-arch mountain
+arch beige-pink-c-marble_111
 x 13
 y 40
-elevation 6942
 end
-arch mountain
+arch pentagram_111
+x 13
+y 40
+end
+arch pinkmarble
 x 13
 y 41
-elevation 7654
 end
-arch mountain
+arch beige-pink-c-marble_112
 x 13
 y 42
-elevation 7958
 end
-arch mountain
+arch blackmarble
 x 13
 y 43
-elevation 8675
 end
-arch mountain2
+arch blackmarble
 x 13
 y 44
-elevation 9135
 end
-arch mountain2
+arch blackmarble
 x 13
 y 45
-elevation 9821
 end
-arch mountain2
+arch blackmarble
 x 13
 y 46
-elevation 9811
 end
-arch mountain2
+arch blackmarble
 x 13
 y 47
-elevation 9343
 end
-arch mountain
+arch blackmarble
 x 13
 y 48
-elevation 8945
 end
-arch mountain
+arch blackmarble
 x 13
 y 49
-elevation 8428
+end
+arch blackmarble
+x 13
+y 49
+end
+arch mine0
+x 13
+y 49
 end
 arch mountain
 x 14
@@ -3603,95 +3769,97 @@ x 14
 y 31
 elevation 6326
 end
-arch mountain
+arch blackmarble
 x 14
 y 32
-elevation 6616
 end
-arch mountain
+arch mine0
+x 14
+y 32
+end
+arch blackmarble
 x 14
 y 33
-elevation 6552
 end
-arch mountain
+arch barrel
+x 14
+y 33
+end
+arch blackmarble
 x 14
 y 34
-elevation 6031
 end
-arch hills
+arch blackmarble
 x 14
 y 35
-elevation 4979
 end
-arch mountain
+arch blackmarble
 x 14
 y 36
-elevation 5903
 end
-arch mountain
+arch blackmarble
 x 14
 y 37
-elevation 5426
 end
-arch mountain
+arch blackmarble
 x 14
 y 38
-elevation 5227
 end
-arch mountain
+arch blackmarble
 x 14
 y 39
-elevation 6180
 end
-arch mountain
+arch pinkmarble
 x 14
 y 40
-elevation 7145
 end
-arch mountain
+arch pinkmarble
 x 14
 y 41
-elevation 7592
 end
-arch mountain
+arch pinkmarble
 x 14
 y 42
-elevation 8083
 end
-arch mountain
+arch blackmarble
 x 14
 y 43
-elevation 8719
 end
-arch mountain
+arch bones3
+x 14
+y 43
+end
+arch blackmarble
 x 14
 y 44
-elevation 8874
 end
-arch mountain2
+arch blackmarble
 x 14
 y 45
-elevation 9636
 end
-arch mountain2
+arch blackmarble
 x 14
 y 46
-elevation 9916
 end
-arch mountain2
+arch blackmarble
 x 14
 y 47
-elevation 9540
 end
-arch mountain
+arch blackmarble
 x 14
 y 48
-elevation 8208
 end
-arch mountain
+arch blackmarble
 x 14
 y 49
-elevation 6543
+end
+arch blackmarble
+x 14
+y 49
+end
+arch mine0
+x 14
+y 49
 end
 arch mountain
 x 15
@@ -3852,95 +4020,94 @@ x 15
 y 31
 elevation 5216
 end
-arch mountain
+arch blackmarble
 x 15
 y 32
-elevation 5582
 end
-arch mountain
+arch mine0
+x 15
+y 32
+end
+arch blackmarble
 x 15
 y 33
-elevation 5711
 end
-arch mountain
+arch chest_2
+x 15
+y 33
+no_pick 1
+end
+arch blackmarble
 x 15
 y 34
-elevation 5451
 end
-arch mountain
+arch blackmarble
 x 15
 y 35
-elevation 5585
 end
-arch mountain
+arch blackmarble
 x 15
 y 36
-elevation 5506
 end
-arch hills
+arch blackmarble
 x 15
 y 37
-elevation 3719
 end
-arch evergreens
+arch blackmarble
 x 15
 y 38
-elevation 2625
 end
-arch mountain
+arch blackmarble
 x 15
 y 39
-elevation 5461
 end
-arch mountain
+arch beige-pink-c-marble_114
 x 15
 y 40
-elevation 6264
 end
-arch mountain
+arch pinkmarble
 x 15
 y 41
-elevation 6657
 end
-arch mountain
+arch beige-pink-c-marble_113
 x 15
 y 42
-elevation 7494
 end
-arch mountain
+arch blackmarble
 x 15
 y 43
-elevation 8368
 end
-arch mountain
+arch blackmarble
 x 15
 y 44
-elevation 8932
 end
-arch mountain2
+arch blackmarble
 x 15
 y 45
-elevation 9142
 end
-arch mountain2
+arch blackmarble
 x 15
 y 46
-elevation 9375
 end
-arch mountain
+arch blackmarble
 x 15
 y 47
-elevation 8873
 end
-arch mountain
+arch blackmarble
 x 15
 y 48
-elevation 6963
 end
-arch hills
+arch blackmarble
 x 15
 y 49
-elevation 3708
+end
+arch blackmarble
+x 15
+y 49
+end
+arch mine0
+x 15
+y 49
 end
 arch hills_rocky
 x 16
@@ -4101,95 +4268,97 @@ x 16
 y 31
 elevation 3407
 end
-arch hills_rocky
+arch blackmarble
 x 16
 y 32
-elevation 4226
 end
-arch hills_rocky
+arch mine0
+x 16
+y 32
+end
+arch blackmarble
 x 16
 y 33
-elevation 4106
 end
-arch steppe
+arch mine_asw
+x 16
+y 33
+end
+arch blackmarble
 x 16
 y 34
-elevation 4772
 end
-arch steppe
+arch blackmarble
 x 16
 y 35
-elevation 4364
 end
-arch mountain
+arch blackmarble
 x 16
 y 36
-elevation 5471
 end
-arch mountain
+arch blackmarble
 x 16
 y 37
-elevation 5284
 end
-arch mountain
+arch blackmarble
 x 16
 y 38
-elevation 5177
 end
-arch mountain
+arch blackmarble
 x 16
 y 39
-elevation 5231
 end
-arch steppe
+arch blackmarble
 x 16
 y 40
-elevation 4783
 end
-arch steppe
+arch blackmarble
 x 16
 y 41
-elevation 4844
 end
-arch mountain
+arch blackmarble
 x 16
 y 42
-elevation 5368
 end
-arch mountain
+arch blackmarble
 x 16
 y 43
-elevation 8424
 end
-arch mountain
+arch blackmarble
 x 16
 y 44
-elevation 8972
 end
-arch mountain
+arch blackmarble
 x 16
 y 45
-elevation 7636
 end
-arch mountain
+arch blackmarble
 x 16
 y 46
-elevation 8500
 end
-arch mountain
+arch blackmarble
 x 16
 y 47
-elevation 7503
 end
-arch mountain
+arch blackmarble
 x 16
 y 48
-elevation 5342
 end
-arch tree
+arch mine_anw
+x 16
+y 48
+end
+arch blackmarble
 x 16
 y 49
-elevation 2698
+end
+arch blackmarble
+x 16
+y 49
+end
+arch mine0
+x 16
+y 49
 end
 arch hills_rocky
 x 17
@@ -4350,95 +4519,149 @@ x 17
 y 31
 elevation 4579
 end
-arch hills
+arch blackmarble
 x 17
 y 32
-elevation 4534
 end
-arch steppe
+arch mine0
+x 17
+y 32
+end
+arch blackmarble
 x 17
 y 33
-elevation 4683
 end
-arch steppe
+arch mine0
+x 17
+y 33
+end
+arch blackmarble
 x 17
 y 34
-elevation 4890
 end
-arch mountain
+arch mine_se
+x 17
+y 34
+end
+arch blackmarble
 x 17
 y 35
-elevation 5022
 end
-arch mountain
+arch archway
+x 17
+y 35
+end
+arch blackmarble
 x 17
 y 36
-elevation 5173
 end
-arch mountain
+arch blackmarble
 x 17
 y 37
-elevation 5617
 end
-arch mountain
+arch bosgrass
 x 17
 y 38
-elevation 5825
+elevation 5177
 end
-arch mountain
+arch blackmarble
+x 17
+y 38
+elevation 5231
+end
+arch swall_2_2_2
+x 17
+y 38
+end
+arch blackmarble
 x 17
 y 39
-elevation 5652
+elevation 5231
 end
-arch hills_rocky
+arch swall_2_1_1
+x 17
+y 39
+end
+arch blackmarble
 x 17
 y 40
-elevation 4535
+elevation 4783
 end
-arch mountain
+arch swall_2_1_1
+x 17
+y 40
+end
+arch blackmarble
 x 17
 y 41
-elevation 5512
+elevation 4844
 end
-arch mountain
+arch swall_2_1_1
+x 17
+y 41
+end
+arch blackmarble
 x 17
 y 42
-elevation 7740
+elevation 5368
 end
-arch mountain
+arch swall_2_1_1
+x 17
+y 42
+end
+arch blackmarble
 x 17
 y 43
-elevation 8967
+elevation 8424
 end
-arch mountain2
+arch swall_2_1_1
+x 17
+y 43
+end
+arch blackmarble
 x 17
 y 44
-elevation 9160
+elevation 8972
 end
-arch mountain
+arch swall_2_2_1
+x 17
+y 44
+end
+arch blackmarble
 x 17
 y 45
-elevation 8585
 end
-arch mountain
+arch blackmarble
 x 17
 y 46
-elevation 7583
 end
-arch mountain
+arch chair_2.2
+x 17
+y 46
+end
+arch blackmarble
 x 17
 y 47
-elevation 5682
 end
-arch steppe
+arch blackmarble
 x 17
 y 48
-elevation 3742
 end
-arch steppe
+arch mine0
+x 17
+y 48
+end
+arch blackmarble
 x 17
 y 49
-elevation 4060
+end
+arch blackmarble
+x 17
+y 49
+end
+arch mine0
+x 17
+y 49
 end
 arch hills_rocky
 x 18
@@ -4599,95 +4822,124 @@ x 18
 y 31
 elevation 5631
 end
-arch steppe
+arch grassdark
 x 18
 y 32
-elevation 3758
 end
-arch steppe
+arch mine_ane
+x 18
+y 32
+end
+arch blackmarble
 x 18
 y 33
-elevation 4909
 end
-arch hills_rocky
+arch blackmarble
+x 18
+y 33
+end
+arch mine0
+x 18
+y 33
+end
+arch blackmarble
 x 18
 y 34
-elevation 4916
 end
-arch steppe
+arch mine_asw
+x 18
+y 34
+end
+arch blackmarble
 x 18
 y 35
-elevation 4683
 end
-arch steppe
+arch mine_nw
+x 18
+y 35
+end
+arch blackmarble
 x 18
 y 36
-elevation 4094
 end
-arch mountain
+arch blackmarble
 x 18
 y 37
-elevation 5410
 end
-arch mountain
+arch blackmarble
 x 18
 y 38
-elevation 5832
+elevation 5231
 end
-arch mountain
+arch swall_2_1_2
+x 18
+y 38
+end
+arch bosgrass
 x 18
 y 39
-elevation 5642
+elevation 5652
 end
-arch mountain
+arch bosgrass
 x 18
 y 40
-elevation 6257
+elevation 4535
 end
-arch mountain
+arch bosgrass
 x 18
 y 41
-elevation 7385
+elevation 5512
 end
-arch mountain
+arch bosgrass
 x 18
 y 42
-elevation 8797
+elevation 7740
 end
-arch mountain2
+arch bosgrass
 x 18
 y 43
-elevation 9519
+elevation 8967
 end
-arch mountain
+arch blackmarble
 x 18
 y 44
-elevation 8855
+elevation 9160
 end
-arch mountain
+arch swall_2_1_2
+x 18
+y 44
+end
+arch blackmarble
 x 18
 y 45
-elevation 7786
 end
-arch mountain
+arch blackmarble
 x 18
 y 46
-elevation 6312
 end
-arch mountain
+arch blackmarble
 x 18
 y 47
-elevation 5474
 end
-arch hills
+arch mine_anw
+x 18
+y 47
+end
+arch blackmarble
 x 18
 y 48
-elevation 4961
 end
-arch hills
+arch mine0
+x 18
+y 48
+end
+arch grassdark
 x 18
 y 49
-elevation 4691
+end
+arch mine_ase
+x 18
+y 49
 end
 arch hills_rocky
 x 19
@@ -4848,95 +5100,128 @@ x 19
 y 31
 elevation 6785
 end
-arch mountain
+arch grassdark
 x 19
 y 32
-elevation 5928
 end
-arch mountain
+arch grassdark
 x 19
 y 33
-elevation 5138
 end
-arch steppe
+arch mine_ne
+x 19
+y 33
+end
+arch blackmarble
 x 19
 y 34
-elevation 4129
 end
-arch hills_rocky
+arch mine0
+x 19
+y 34
+end
+arch blackmarble
 x 19
 y 35
-elevation 4056
 end
-arch steppe
+arch mine0
+x 19
+y 35
+end
+arch blackmarble
 x 19
 y 36
-elevation 3870
 end
-arch mountain
+arch blackmarble
 x 19
 y 37
-elevation 5042
 end
-arch mountain
+arch blackmarble
 x 19
 y 38
-elevation 5561
+elevation 5231
 end
-arch mountain
+arch swall_1_3
+x 19
+y 38
+end
+arch bosgrass
 x 19
 y 39
-elevation 5729
+elevation 5642
 end
-arch mountain
+arch spider_web2
+x 19
+y 39
+end
+arch bosgrass
 x 19
 y 40
-elevation 6130
+elevation 6257
 end
-arch mountain
+arch gravestone3
+x 19
+y 40
+end
+arch bosgrass
 x 19
 y 41
-elevation 7490
+elevation 7385
 end
-arch mountain
+arch bones3
+x 19
+y 41
+end
+arch bosgrass
 x 19
 y 42
-elevation 8877
+elevation 8797
 end
-arch mountain2
+arch bosgrass
 x 19
 y 43
-elevation 9329
+elevation 9519
 end
-arch mountain
+arch blackmarble
 x 19
 y 44
-elevation 7934
+elevation 8855
 end
-arch hills_rocky
+arch swall_1_3
+x 19
+y 44
+end
+arch blackmarble
 x 19
 y 45
-elevation 4349
 end
-arch mountain
+arch ironfirepot
+x 19
+y 45
+end
+arch blackmarble
 x 19
 y 46
-elevation 5144
 end
-arch hills_rocky
+arch blackmarble
 x 19
 y 47
-elevation 3043
 end
-arch mountain
+arch mine0
+x 19
+y 47
+end
+arch grassdark
 x 19
 y 48
-elevation 5062
 end
-arch hills
+arch mine_se
+x 19
+y 48
+end
+arch grassdark
 x 19
 y 49
-elevation 4819
 end
 arch hills_rocky
 x 20
@@ -5097,95 +5382,188 @@ x 20
 y 31
 elevation 7984
 end
-arch mountain
+arch grassdark
 x 20
 y 32
-elevation 7329
 end
-arch mountain
+arch grassdark
 x 20
 y 33
-elevation 5693
 end
-arch steppe
+arch blackmarble
 x 20
 y 34
-elevation 3047
 end
-arch hills
+arch blackmarble
+x 20
+y 34
+end
+arch mine0
+x 20
+y 34
+end
+arch blackmarble
 x 20
 y 35
-elevation 3441
 end
-arch hills
+arch blackmarble
+x 20
+y 35
+end
+arch mine0
+x 20
+y 35
+end
+arch blackmarble
 x 20
 y 36
-elevation 3827
 end
-arch hills
+arch blackmarble
+x 20
+y 36
+end
+arch mine0
+x 20
+y 36
+end
+arch blackmarble
 x 20
 y 37
-elevation 4387
 end
-arch hills
+arch mine0
+x 20
+y 37
+end
+arch blackmarble
 x 20
 y 38
-elevation 4850
 end
-arch mountain
+arch steppe
+x 20
+y 38
+elevation 4615
+end
+arch mine0
+x 20
+y 38
+end
+arch blackmarble
 x 20
 y 39
-elevation 5206
 end
-arch hills
+arch steppe
+x 20
+y 39
+elevation 4615
+end
+arch mine0
+x 20
+y 39
+end
+arch blackmarble
 x 20
 y 40
-elevation 4745
 end
-arch mountain
+arch steppe
+x 20
+y 40
+elevation 4615
+end
+arch mine0
+x 20
+y 40
+end
+arch blackmarble
 x 20
 y 41
-elevation 5120
 end
-arch mountain
+arch steppe
+x 20
+y 41
+elevation 4615
+end
+arch mine0
+x 20
+y 41
+end
+arch blackmarble
 x 20
 y 42
-elevation 8595
 end
-arch mountain
+arch steppe
+x 20
+y 42
+elevation 4615
+end
+arch mine0
+x 20
+y 42
+end
+arch blackmarble
 x 20
 y 43
-elevation 8832
 end
-arch mountain
+arch steppe
+x 20
+y 43
+elevation 4615
+end
+arch mine0
+x 20
+y 43
+end
+arch blackmarble
 x 20
 y 44
-elevation 6950
 end
 arch steppe
+x 20
+y 44
+elevation 4615
+end
+arch mine0
+x 20
+y 44
+end
+arch blackmarble
 x 20
 y 45
-elevation 3664
 end
-arch steppe
+arch mine0
+x 20
+y 45
+end
+arch blackmarble
 x 20
 y 46
-elevation 4078
 end
-arch hills
+arch blackmarble
+x 20
+y 46
+end
+arch mine0
+x 20
+y 46
+end
+arch blackmarble
 x 20
 y 47
-elevation 4445
 end
-arch steppe
+arch blackmarble
+x 20
+y 47
+end
+arch mine0
+x 20
+y 47
+end
+arch grassdark
 x 20
 y 48
-elevation 4423
 end
-arch hills
+arch grassdark
 x 20
 y 49
-elevation 4113
 end
 arch hills_rocky
 x 21
@@ -5371,70 +5749,57 @@ x 21
 y 36
 elevation 2984
 end
-arch hills
+arch grassdark
 x 21
 y 37
-elevation 3319
 end
-arch hills
+arch grassdark
 x 21
 y 38
-elevation 3636
 end
-arch steppe
+arch grassdark
 x 21
 y 39
-elevation 3612
 end
-arch mountain
+arch grassdark
 x 21
 y 40
-elevation 5823
 end
-arch mountain
+arch grassdark
 x 21
 y 41
-elevation 7298
 end
-arch mountain
+arch grassdark
 x 21
 y 42
-elevation 8238
 end
-arch mountain
+arch grassdark
 x 21
 y 43
-elevation 8058
 end
-arch mountain
+arch grassdark
 x 21
 y 44
-elevation 6365
 end
-arch hills_rocky
+arch grassdark
 x 21
 y 45
-elevation 3415
 end
-arch hills_rocky
+arch grassdark
 x 21
 y 46
-elevation 3295
 end
-arch hills
+arch grassdark
 x 21
 y 47
-elevation 3927
 end
-arch hills_rocky
+arch grassdark
 x 21
 y 48
-elevation 3559
 end
-arch evergreens
+arch grassdark
 x 21
 y 49
-elevation 2399
 end
 arch hills_rocky
 x 22
@@ -5620,70 +5985,57 @@ x 22
 y 36
 elevation 3063
 end
-arch tree
+arch grassdark
 x 22
 y 37
-elevation 1590
 end
-arch brush
+arch grassdark
 x 22
 y 38
-elevation 865
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 39
-elevation 4056
 end
-arch mountain
+arch grassdark
 x 22
 y 40
-elevation 6409
 end
-arch mountain
+arch grassdark
 x 22
 y 41
-elevation 7666
 end
-arch mountain
+arch grassdark
 x 22
 y 42
-elevation 7783
 end
-arch mountain
+arch grassdark
 x 22
 y 43
-elevation 6973
 end
-arch mountain
+arch grassdark
 x 22
 y 44
-elevation 5599
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 45
-elevation 4401
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 46
-elevation 3557
 end
-arch hills_rocky
+arch grassdark
 x 22
 y 47
-elevation 3006
 end
-arch hills
+arch grassdark
 x 22
 y 48
-elevation 2507
 end
-arch hills
+arch grassdark
 x 22
 y 49
-elevation 1006
 end
 arch hills_rocky
 x 23

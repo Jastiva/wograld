@@ -188,7 +188,7 @@ visibility 100
 magicmap grey
 end
 Object mine_anw
-face mine_ane.111
+face mine_anw.111
 blocksview 1
 no_pick 1
 no_pass 1
