@@ -8,8 +8,14 @@ anim
 t_star1.101
 t_star1.111
 t_star1.121
+t_star1.111
+t_star1.121
+t_star1.111
+t_star1.121
+t_star1.111
+t_star1.121
 mina
-is_animated 1
+is_animated 0
 is_turnable 1
 is_thrown 1
 material 2
