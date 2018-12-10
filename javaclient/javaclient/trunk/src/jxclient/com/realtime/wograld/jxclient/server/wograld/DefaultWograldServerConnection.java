@@ -776,6 +776,8 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
     private JOrbisPlayer oggpl;
 
     private int musicpl_num = 0;
+	
+	private int sound_init=0;
     
     JFrame frame1;
     
@@ -3704,10 +3706,19 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
         */
     //    notifyPacketWatcherListenersMixed(packet, args);
            // added for music test
-     if(track == 0)
-     {
-   oggpl.running_as_applet=false;
-   
+
+	if(sound_init==0)
+	{
+
+		sound_init=1;
+     //if(track == 0)
+     //{
+  	oggpl.playlist.removeAllElements(); 
+	oggpl.stop_sound();
+
+//	  frame1.remove(oggpl.panel);
+ //        oggpl=new JOrbisPlayer();
+	oggpl.running_as_applet=false;
    oggpl.playlist.addElement("resource/music/00.ogg");
 
   
@@ -3741,6 +3752,7 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
      else
      {
          //this.oggpl.
+	oggpl.playlist.removeAllElements();
          oggpl.stop_sound();
          
          frame1.remove(oggpl.panel);
