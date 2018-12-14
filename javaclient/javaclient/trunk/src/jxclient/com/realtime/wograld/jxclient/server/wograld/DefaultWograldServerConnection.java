@@ -3957,6 +3957,141 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
         
         trackname="dkch.ogg";
     }
+    else if(track==40 )
+    {
+        
+        trackname="3step.ogg";
+    }
+    else if(track==41 )
+    {
+        
+        trackname="birdonawing01.ogg";
+    }
+    else if(track==42 )
+    {
+        
+        trackname="borcs.ogg";
+    }
+    else if(track==43 )
+    {
+        
+        trackname="darkforest01.ogg";
+    }
+    else if(track==44 )
+    {
+        
+        trackname="derie.ogg";
+    }
+    else if(track==45 )
+    {
+        
+        trackname="downwyrds01.ogg";
+    }
+    else if(track==46 )
+    {
+        
+        trackname="elfflowers01.ogg";
+    }
+    else if(track==47 )
+    {
+        
+        trackname="humancombat01.ogg";
+    }
+    else if(track==48 )
+    {
+        
+        trackname="lairofunicorn01.ogg";
+    }
+    else if(track==49 )
+    {
+        
+        trackname="openportal01.ogg";
+    }
+    else if(track==50 )
+    {
+        
+        trackname="orcdrums01.ogg";
+    }
+    else if(track==51 )
+    {
+        
+        trackname="orcfort01.ogg";
+    }
+    else if(track==52 )
+    {
+        
+        trackname="undeadlair01.ogg";
+    }
+    else if(track==53 )
+    {
+        
+        trackname="beach02.ogg";
+    }
+    else if(track==54 )
+    {
+        
+        trackname="cave01.ogg";
+    }
+    else if(track==55 )
+    {
+        
+        trackname="desert02.ogg";
+    }
+    else if(track==56 )
+    {
+        
+        trackname="dirt01.ogg";
+    }
+    else if(track==57 )
+    {
+        
+        trackname="earth01.ogg";
+    }
+    else if(track==58 )
+    {
+        
+        trackname="grassland01.ogg";
+    }
+    else if(track==59 )
+    {
+        
+        trackname="holy01.ogg";
+    }
+    else if(track==60 )
+    {
+        
+        trackname="jungle01.ogg";
+    }
+    else if(track==61 )
+    {
+        
+        trackname="lava02.ogg";
+    }
+    else if(track==62 )
+    {
+        
+        trackname="ocean01.ogg";
+    }
+    else if(track==63 )
+    {
+        
+        trackname="rise.ogg";
+    }
+    else if(track==64 )
+    {
+        
+        trackname="riseagain.ogg";
+    }
+    else if(track==66 )
+    {
+        
+        trackname="swamp01.ogg";
+    }
+    else if(track==67 )
+    {
+        
+        trackname="wasteland01.ogg";
+    }
     else
     {
          trackname="00.ogg";

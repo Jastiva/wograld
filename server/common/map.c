@@ -1136,6 +1136,118 @@ static int load_map_header(FILE *fp, mapstruct *m)
     {
         m->tracknum=39;
     }
+    else if(!strncmp(value,"3step",5))
+    {
+        m->tracknum=40;
+    }
+    else if(!strncmp(value,"birdonawing01",13))
+    {
+        m->tracknum=41;
+    }
+    else if(!strncmp(value,"borcs",5))
+    {
+        m->tracknum=42;
+    }
+    else if(!strncmp(value,"darkforest01",12))
+    {
+        m->tracknum=43;
+    }
+    else if(!strncmp(value,"derie",5))
+    {
+        m->tracknum=44;
+    }
+    else if(!strncmp(value,"downwyrds01",11))
+    {
+        m->tracknum=45;
+    }
+    else if(!strncmp(value,"elfflowers01",12))
+    {
+        m->tracknum=46;
+    }
+    else if(!strncmp(value,"humancombat01",13))
+    {
+        m->tracknum=47;
+    }
+    else if(!strncmp(value,"lairofunicorn01",15))
+    {
+        m->tracknum=48;
+    }
+    else if(!strncmp(value,"openportal01",12))
+    {
+        m->tracknum=49;
+    }
+    else if(!strncmp(value,"orcdrums01",10))
+    {
+        m->tracknum=50;
+    }
+    else if(!strncmp(value,"orcfort01",9))
+    {
+        m->tracknum=51;
+    }
+    else if(!strncmp(value,"undeadlair01",12))
+    {
+        m->tracknum=52;
+    }
+    else if(!strncmp(value,"beach02",7))
+    {
+        m->tracknum=53;
+    }
+    else if(!strncmp(value,"cave01",6))
+    {
+        m->tracknum=54;
+    }
+    else if(!strncmp(value,"desert02",8))
+    {
+        m->tracknum=55;
+    }
+    else if(!strncmp(value,"dirt01",6))
+    {
+        m->tracknum=56;
+    }
+    else if(!strncmp(value,"earth01",7))
+    {
+        m->tracknum=57;
+    }
+    else if(!strncmp(value,"grassland01",11))
+    {
+        m->tracknum=58;
+    }
+    else if(!strncmp(value,"holy01",6))
+    {
+        m->tracknum=59;
+    }
+    else if(!strncmp(value,"jungle01",8))
+    {
+        m->tracknum=60;
+    }
+    else if(!strncmp(value,"lava02",6))
+    {
+        m->tracknum=61;
+    }
+    else if(!strncmp(value,"ocean01",7))
+    {
+        m->tracknum=62;
+    }
+    else if(!strncmp(value,"rise",4))
+    {
+        m->tracknum=63;
+    }
+    else if(!strncmp(value,"riseagain",9))
+    {
+        m->tracknum=64;
+    }
+    else if(!strncmp(value,"snow01",6))
+    {
+        m->tracknum=65;
+    }
+    else if(!strncmp(value,"swamp01",7))
+    {
+        m->tracknum=66;
+    }
+    else if(!strncmp(value,"wasteland01",4))
+    {
+        m->tracknum=67;
+    }
         }
 	else if (!strncmp(key,"tile_path_", 10)) {
 	    int tile=atoi(key+10);
