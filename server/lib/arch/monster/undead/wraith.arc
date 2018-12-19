@@ -5,7 +5,13 @@ face wraith.111
 anim
 wraith.111
 wraith.112
-wraith.113
+wraith.131
+wraith.132
+wraith.151
+wraith.152
+wraith.171
+wraith.172
+facings 4
 mina
 monster 1
 sleep 1
