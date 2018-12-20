@@ -9,7 +9,9 @@ enter_x 1
 enter_y 1
 msg
 Created:  1993-11-02
+Modified: 2018-12-19 lori
 endmsg
+background_music lowcity
 end
 arch dungeon_floor
 end
@@ -111,7 +113,7 @@ end
 arch gwall_2_1_2
 x 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 1
 y 1
 end
@@ -122,59 +124,55 @@ sp 1
 x 1
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 1
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 1
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 1
 y 4
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 5
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 6
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 7
 end
-arch chair_3.2
-x 1
-y 7
-end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 8
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 9
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 10
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 11
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 1
 y 14
 end
@@ -192,11 +190,11 @@ end
 arch gwall_2_1_2
 x 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 2
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 2
 y 2
 end
@@ -204,51 +202,51 @@ arch devil
 x 2
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 2
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 2
 y 4
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 5
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 6
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 7
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 8
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 9
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 10
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 11
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 2
 y 14
 end
@@ -266,35 +264,35 @@ end
 arch gwall_2_1_2
 x 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 3
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 3
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 3
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 3
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 8
 end
@@ -302,27 +300,27 @@ arch devil
 x 3
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 3
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 3
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 3
 y 14
 end
@@ -340,7 +338,7 @@ end
 arch gwall_2_1_2
 x 4
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 4
 y 1
 end
@@ -348,15 +346,15 @@ arch devil
 x 4
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 4
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 4
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 4
 y 4
 end
@@ -364,11 +362,11 @@ arch devil
 x 4
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 6
 end
@@ -376,15 +374,23 @@ arch chair_3.2
 x 4
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 7
 end
-arch dungeon_floor
+arch chair_3.2
+x 4
+y 7
+end
+arch lostlabfloor10
 x 4
 y 8
 end
-arch dungeon_floor
+arch chair_3.2
+x 4
+y 8
+end
+arch lostlabfloor10
 x 4
 y 9
 end
@@ -392,23 +398,23 @@ arch chair_3.2
 x 4
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 4
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 4
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 4
 y 14
 end
@@ -426,19 +432,19 @@ end
 arch gwall_2_1_2
 x 5
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 5
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 5
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 5
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 5
 y 4
 end
@@ -446,43 +452,43 @@ arch devil
 x 5
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 5
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 5
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 5
 y 14
 end
@@ -500,11 +506,11 @@ end
 arch gwall_2_1_2
 x 6
 end
-arch dungeon_floor
+arch redslate
 x 6
 y 1
 end
-arch dungeon_floor
+arch redslate
 x 6
 y 2
 end
@@ -514,23 +520,27 @@ x 6
 y 2
 value 1
 end
-arch dungeon_floor
+arch redslate
 x 6
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 6
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 6
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 6
 y 6
 end
-arch dungeon_floor
+arch chair_3.2
+x 6
+y 6
+end
+arch lostlabfloor7
 x 6
 y 7
 end
@@ -538,31 +548,39 @@ arch chair_3.2
 x 6
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 6
 y 8
 end
-arch dungeon_floor
+arch chair_3.2
+x 6
+y 8
+end
+arch lostlabfloor7
 x 6
 y 9
 end
-arch dungeon_floor
+arch chair_3.2
+x 6
+y 9
+end
+arch lostlabfloor10
 x 6
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 6
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 6
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 6
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 6
 y 14
 end
@@ -580,11 +598,11 @@ end
 arch gwall_2_1_2
 x 7
 end
-arch dungeon_floor
+arch redslate
 x 7
 y 1
 end
-arch dungeon_floor
+arch redslate
 x 7
 y 2
 end
@@ -594,51 +612,51 @@ x 7
 y 2
 value 1
 end
-arch dungeon_floor
+arch redslate
 x 7
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 7
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 7
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 7
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 7
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 7
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 7
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 7
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 7
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 7
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 7
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 7
 y 14
 end
@@ -656,11 +674,11 @@ end
 arch gwall_2_1_2
 x 8
 end
-arch dungeon_floor
+arch redslate
 x 8
 y 1
 end
-arch dungeon_floor
+arch redslate
 x 8
 y 2
 end
@@ -670,11 +688,11 @@ x 8
 y 2
 value 1
 end
-arch dungeon_floor
+arch redslate
 x 8
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 4
 end
@@ -682,11 +700,11 @@ arch devil
 x 8
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 8
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 6
 end
@@ -694,15 +712,23 @@ arch chair_3.2
 x 8
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 7
 end
-arch dungeon_floor
+arch chair_3.2
+x 8
+y 7
+end
+arch lostlabfloor7
 x 8
 y 8
 end
-arch dungeon_floor
+arch chair_3.2
+x 8
+y 8
+end
+arch lostlabfloor7
 x 8
 y 9
 end
@@ -710,23 +736,23 @@ arch chair_3.2
 x 8
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 8
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 8
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 8
 y 14
 end
@@ -747,11 +773,11 @@ end
 arch gwall_2_1_2
 x 9
 end
-arch dungeon_floor
+arch redslate
 x 9
 y 1
 end
-arch dungeon_floor
+arch redslate
 x 9
 y 2
 end
@@ -761,51 +787,51 @@ x 9
 y 2
 value 1
 end
-arch dungeon_floor
+arch redslate
 x 9
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 9
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 9
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 9
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 9
 y 14
 end
@@ -826,35 +852,43 @@ end
 arch gwall_2_1_2
 x 10
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 10
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 10
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 10
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 10
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 10
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 10
 y 6
 end
-arch dungeon_floor
+arch chair_3.2
+x 10
+y 6
+end
+arch lostlabfloor10
 x 10
 y 7
 end
-arch dungeon_floor
+arch chair_3.2
+x 10
+y 7
+end
+arch lostlabfloor10
 x 10
 y 8
 end
@@ -862,27 +896,31 @@ arch chair_3.2
 x 10
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 10
 y 9
 end
-arch dungeon_floor
+arch chair_3.2
+x 10
+y 9
+end
+arch lostlabfloor10
 x 10
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 10
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 10
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 10
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor7
 x 10
 y 14
 end
@@ -903,59 +941,59 @@ end
 arch gwall_2_1_2
 x 11
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 11
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 11
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 11
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 11
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 11
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 11
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 11
 y 14
 end
@@ -973,27 +1011,27 @@ end
 arch gwall_2_1_2
 x 12
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 12
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 12
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 12
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 12
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 6
 end
@@ -1001,15 +1039,23 @@ arch chair_3.2
 x 12
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 7
 end
-arch dungeon_floor
+arch chair_3.2
+x 12
+y 7
+end
+arch lostlabfloor10
 x 12
 y 8
 end
-arch dungeon_floor
+arch chair_3.2
+x 12
+y 8
+end
+arch lostlabfloor10
 x 12
 y 9
 end
@@ -1017,23 +1063,23 @@ arch chair_3.2
 x 12
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 12
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 12
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 12
 y 14
 end
@@ -1051,11 +1097,11 @@ end
 arch gwall_2_1_2
 x 13
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 13
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 13
 y 2
 end
@@ -1063,11 +1109,11 @@ arch devil
 x 13
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 13
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 13
 y 4
 end
@@ -1075,15 +1121,15 @@ arch devil
 x 13
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 7
 end
@@ -1091,11 +1137,11 @@ arch devil
 x 13
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 9
 end
@@ -1103,23 +1149,23 @@ arch devil
 x 13
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 13
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 13
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 13
 y 14
 end
@@ -1137,59 +1183,59 @@ end
 arch gwall_2_1_2
 x 14
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 14
 y 1
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 14
 y 2
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 14
 y 3
 end
-arch dungeon_floor
+arch white-pink-c-marble_114
 x 14
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor10
 x 14
 y 12
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 14
 y 13
 end
-arch dungeon_floor
+arch white-red-c-marble_112
 x 14
 y 14
 end

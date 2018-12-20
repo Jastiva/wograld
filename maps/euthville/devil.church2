@@ -6,20 +6,21 @@ width 25
 height 25
 msg
 Created:  1993-11-24
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2018-12-19 lori
 endmsg
+background_music lowcity
 end
-arch dungeon_floor
+arch lostlabfloor11
 end
 arch rough_wall_2_2_2
 end
-arch dungeon_floor
+arch lostlabfloor11
 y 1
 end
 arch rough_wall_2_1_1
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 y 2
 end
 arch rough_wall_2_1_1
@@ -79,91 +80,91 @@ end
 arch rough_wall_2_1_1
 y 11
 end
-arch dungeon_floor
+arch moss
 y 12
 end
 arch rough_wall_2_1_1
 y 12
 end
-arch dungeon_floor
+arch moss
 y 13
 end
 arch rough_wall_2_1_1
 y 13
 end
-arch dungeon_floor
+arch moss
 y 14
 end
 arch rough_wall_2_1_1
 y 14
 end
-arch dungeon_floor
+arch moss
 y 15
 end
 arch rough_wall_2_1_1
 y 15
 end
-arch dungeon_floor
+arch moss
 y 16
 end
 arch rough_wall_2_1_1
 y 16
 end
-arch dungeon_floor
+arch moss
 y 17
 end
 arch rough_wall_2_1_1
 y 17
 end
-arch dungeon_floor
+arch moss
 y 18
 end
 arch rough_wall_2_1_1
 y 18
 end
-arch dungeon_floor
+arch moss
 y 19
 end
 arch rough_wall_2_1_1
 y 19
 end
-arch dungeon_floor
+arch moss
 y 20
 end
 arch rough_wall_2_1_1
 y 20
 end
-arch dungeon_floor
+arch moss
 y 21
 end
 arch rough_wall_2_1_1
 y 21
 end
-arch dungeon_floor
+arch moss
 y 22
 end
 arch rough_wall_2_1_1
 y 22
 end
-arch dungeon_floor
+arch moss
 y 23
 end
 arch rough_wall_2_1_1
 y 23
 end
-arch dungeon_floor
+arch moss
 y 24
 end
 arch rough_wall_2_2_1
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 1
 end
 arch rough_wall_2_1_2
 x 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 1
 y 1
 end
@@ -230,49 +231,53 @@ arch dungeon_floor
 x 1
 y 11
 end
-arch dungeon_floor
+arch moss
 x 1
 y 12
 end
-arch dungeon_floor
+arch moss
 x 1
 y 13
 end
-arch dungeon_floor
+arch moss
 x 1
 y 14
 end
-arch dungeon_floor
+arch moss
 x 1
 y 15
 end
-arch dungeon_floor
+arch moss
 x 1
 y 16
 end
-arch dungeon_floor
+arch moss
 x 1
 y 17
 end
-arch dungeon_floor
+arch moss
 x 1
 y 18
 end
-arch dungeon_floor
+arch moss
 x 1
 y 19
 end
-arch dungeon_floor
+arch moss
 x 1
 y 20
 end
-arch dungeon_floor
+arch moss
 x 1
 y 21
 end
 arch random_food
 x 1
 y 21
+end
+arch moss
+x 1
+y 22
 end
 arch firewall_1
 x 1
@@ -280,7 +285,7 @@ y 22
 arch spell_small_fireball
 end
 end
-arch dungeon_floor
+arch moss
 x 1
 y 23
 end
@@ -288,7 +293,7 @@ arch bwall_0
 x 1
 y 23
 end
-arch dungeon_floor
+arch moss
 x 1
 y 24
 end
@@ -296,17 +301,17 @@ arch rough_wall_2_1_2
 x 1
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 2
 end
 arch rough_wall_2_1_2
 x 2
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 2
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 2
 y 2
 end
@@ -382,15 +387,15 @@ arch bwall_0
 x 2
 y 11
 end
-arch dungeon_floor
+arch moss
 x 2
 y 12
 end
-arch dungeon_floor
+arch moss
 x 2
 y 13
 end
-arch dungeon_floor
+arch moss
 x 2
 y 14
 end
@@ -414,7 +419,7 @@ arch bwall_0
 x 2
 y 16
 end
-arch dungeon_floor
+arch moss
 x 2
 y 17
 end
@@ -422,11 +427,11 @@ arch bwall_0
 x 2
 y 17
 end
-arch dungeon_floor
+arch moss
 x 2
 y 18
 end
-arch dungeon_floor
+arch moss
 x 2
 y 19
 end
@@ -434,11 +439,11 @@ arch bwall_0
 x 2
 y 19
 end
-arch dungeon_floor
+arch moss
 x 2
 y 20
 end
-arch dungeon_floor
+arch moss
 x 2
 y 21
 end
@@ -454,7 +459,7 @@ arch bwall_0
 x 2
 y 22
 end
-arch dungeon_floor
+arch moss
 x 2
 y 23
 end
@@ -462,7 +467,7 @@ arch earthwall
 x 2
 y 23
 end
-arch dungeon_floor
+arch moss
 x 2
 y 24
 end
@@ -476,7 +481,7 @@ end
 arch bwall_0
 x 3
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 3
 y 1
 end
@@ -508,7 +513,7 @@ arch random_food
 x 3
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 3
 y 5
 end
@@ -556,7 +561,7 @@ arch bwall_0
 x 3
 y 11
 end
-arch dungeon_floor
+arch moss
 x 3
 y 12
 end
@@ -580,35 +585,35 @@ arch dungeon_floor
 x 3
 y 16
 end
-arch dungeon_floor
+arch moss
 x 3
 y 17
 end
-arch dungeon_floor
+arch moss
 x 3
 y 18
 end
-arch dungeon_floor
+arch moss
 x 3
 y 19
 end
-arch dungeon_floor
+arch moss
 x 3
 y 20
 end
-arch dungeon_floor
+arch moss
 x 3
 y 21
 end
-arch dungeon_floor
+arch moss
 x 3
 y 22
 end
-arch dungeon_floor
+arch moss
 x 3
 y 23
 end
-arch dungeon_floor
+arch moss
 x 3
 y 24
 end
@@ -626,7 +631,7 @@ arch dungeon_floor
 x 4
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 4
 y 2
 end
@@ -642,7 +647,7 @@ arch bwall_0
 x 4
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 4
 y 4
 end
@@ -650,7 +655,7 @@ arch generate_ghost
 x 4
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 4
 y 5
 end
@@ -658,7 +663,7 @@ arch generate_ghost
 x 4
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 4
 y 6
 end
@@ -666,11 +671,11 @@ arch bwall_0
 x 4
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 4
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 4
 y 8
 end
@@ -698,55 +703,55 @@ arch bwall_0
 x 4
 y 11
 end
-arch dungeon_floor
+arch moss
 x 4
 y 12
 end
-arch dungeon_floor
+arch moss
 x 4
 y 13
 end
-arch dungeon_floor
+arch moss
 x 4
 y 14
 end
-arch dungeon_floor
+arch bosgrass17
 x 4
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 4
 y 16
 end
-arch dungeon_floor
+arch bosgrass17
 x 4
 y 17
 end
-arch dungeon_floor
+arch moss
 x 4
 y 18
 end
-arch dungeon_floor
+arch moss
 x 4
 y 19
 end
-arch dungeon_floor
+arch moss
 x 4
 y 20
 end
-arch dungeon_floor
+arch moss
 x 4
 y 21
 end
-arch dungeon_floor
+arch moss
 x 4
 y 22
 end
-arch dungeon_floor
+arch moss
 x 4
 y 23
 end
-arch dungeon_floor
+arch moss
 x 4
 y 24
 end
@@ -754,17 +759,17 @@ arch rough_wall_2_1_2
 x 4
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 5
 end
 arch rough_wall_2_1_2
 x 5
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 5
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 5
 y 2
 end
@@ -780,7 +785,7 @@ arch bwall_0
 x 5
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 5
 y 4
 end
@@ -796,7 +801,7 @@ arch generate_ghost
 x 5
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 5
 y 6
 end
@@ -804,11 +809,11 @@ arch bwall_0
 x 5
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 5
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 5
 y 8
 end
@@ -828,11 +833,11 @@ arch bwall_0
 x 5
 y 10
 end
-arch dungeon_floor
+arch moss
 x 5
 y 11
 end
-arch dungeon_floor
+arch moss
 x 5
 y 12
 end
@@ -847,11 +852,11 @@ end
 arch spell_summon_pet_monster
 end
 end
-arch dungeon_floor
+arch moss
 x 5
 y 13
 end
-arch dungeon_floor
+arch moss
 x 5
 y 14
 end
@@ -859,35 +864,35 @@ arch pillars
 x 5
 y 14
 end
-arch dungeon_floor
+arch bosgrass17
 x 5
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 5
 y 16
 end
-arch dungeon_floor
+arch bosgrass17
 x 5
 y 17
 end
-arch dungeon_floor
+arch moss
 x 5
 y 18
 end
-arch dungeon_floor
+arch moss
 x 5
 y 19
 end
-arch dungeon_floor
+arch moss
 x 5
 y 20
 end
-arch dungeon_floor
+arch moss
 x 5
 y 21
 end
-arch dungeon_floor
+arch moss
 x 5
 y 22
 end
@@ -895,11 +900,11 @@ arch pillars
 x 5
 y 22
 end
-arch dungeon_floor
+arch moss
 x 5
 y 23
 end
-arch dungeon_floor
+arch moss
 x 5
 y 24
 end
@@ -907,17 +912,17 @@ arch rough_wall_2_1_2
 x 5
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 6
 end
 arch rough_wall_2_1_2
 x 6
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 6
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 6
 y 2
 end
@@ -933,7 +938,7 @@ arch bwall_0
 x 6
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 6
 y 4
 end
@@ -941,7 +946,7 @@ arch dungeon_floor
 x 6
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 6
 y 6
 end
@@ -949,11 +954,11 @@ arch bwall_0
 x 6
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 6
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 6
 y 8
 end
@@ -973,11 +978,11 @@ arch bwall_0
 x 6
 y 10
 end
-arch dungeon_floor
+arch moss
 x 6
 y 11
 end
-arch dungeon_floor
+arch moss
 x 6
 y 12
 end
@@ -985,11 +990,11 @@ arch giant
 x 6
 y 12
 end
-arch dungeon_floor
+arch moss
 x 6
 y 13
 end
-arch dungeon_floor
+arch moss
 x 6
 y 14
 end
@@ -997,43 +1002,43 @@ arch pillars
 x 6
 y 14
 end
-arch dungeon_floor
+arch moss
 x 6
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 6
 y 16
 end
-arch dungeon_floor
+arch bosgrass17
 x 6
 y 17
 end
-arch dungeon_floor
+arch moss
 x 6
 y 18
 end
-arch dungeon_floor
+arch moss
 x 6
 y 19
 end
-arch dungeon_floor
+arch moss
 x 6
 y 20
 end
-arch dungeon_floor
+arch moss
 x 6
 y 21
 end
-arch dungeon_floor
+arch moss
 x 6
 y 22
 end
-arch dungeon_floor
+arch moss
 x 6
 y 23
 end
-arch dungeon_floor
+arch moss
 x 6
 y 24
 end
@@ -1041,17 +1046,17 @@ arch rough_wall_2_1_2
 x 6
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 7
 end
 arch rough_wall_2_1_2
 x 7
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 7
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 7
 y 2
 end
@@ -1063,7 +1068,7 @@ arch bwall_0
 x 7
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 7
 y 4
 end
@@ -1071,19 +1076,19 @@ arch wraith
 x 7
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 7
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 7
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 7
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 7
 y 8
 end
@@ -1103,59 +1108,59 @@ arch bwall_0
 x 7
 y 10
 end
-arch dungeon_floor
+arch moss
 x 7
 y 11
 end
-arch dungeon_floor
+arch moss
 x 7
 y 12
 end
-arch dungeon_floor
+arch moss
 x 7
 y 13
 end
-arch dungeon_floor
+arch moss
 x 7
 y 14
 end
-arch dungeon_floor
+arch moss
 x 7
 y 15
 end
-arch dungeon_floor
+arch moss
 x 7
 y 16
 end
-arch dungeon_floor
+arch moss
 x 7
 y 17
 end
-arch dungeon_floor
+arch moss
 x 7
 y 18
 end
-arch dungeon_floor
+arch moss
 x 7
 y 19
 end
-arch dungeon_floor
+arch moss
 x 7
 y 20
 end
-arch dungeon_floor
+arch moss
 x 7
 y 21
 end
-arch dungeon_floor
+arch moss
 x 7
 y 22
 end
-arch dungeon_floor
+arch moss
 x 7
 y 23
 end
-arch dungeon_floor
+arch moss
 x 7
 y 24
 end
@@ -1163,17 +1168,17 @@ arch rough_wall_2_1_2
 x 7
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 8
 end
 arch rough_wall_2_1_2
 x 8
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 8
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 8
 y 2
 end
@@ -1185,7 +1190,7 @@ arch bwall_0
 x 8
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 8
 y 4
 end
@@ -1193,11 +1198,11 @@ arch ghost
 x 8
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 8
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 8
 y 6
 end
@@ -1205,11 +1210,11 @@ arch wraith
 x 8
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 8
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 8
 y 8
 end
@@ -1229,11 +1234,11 @@ arch bwall_0
 x 8
 y 10
 end
-arch dungeon_floor
+arch moss
 x 8
 y 11
 end
-arch dungeon_floor
+arch moss
 x 8
 y 12
 end
@@ -1241,11 +1246,11 @@ arch giant
 x 8
 y 12
 end
-arch dungeon_floor
+arch moss
 x 8
 y 13
 end
-arch dungeon_floor
+arch moss
 x 8
 y 14
 end
@@ -1253,19 +1258,19 @@ arch pillars
 x 8
 y 14
 end
-arch dungeon_floor
+arch moss
 x 8
 y 15
 end
-arch dungeon_floor
+arch moss
 x 8
 y 16
 end
-arch dungeon_floor
+arch moss
 x 8
 y 17
 end
-arch dungeon_floor
+arch moss
 x 8
 y 18
 end
@@ -1277,19 +1282,19 @@ carrying 200
 arch improve_con
 end
 end
-arch dungeon_floor
+arch moss
 x 8
 y 19
 end
-arch dungeon_floor
+arch moss
 x 8
 y 20
 end
-arch dungeon_floor
+arch moss
 x 8
 y 21
 end
-arch dungeon_floor
+arch moss
 x 8
 y 22
 end
@@ -1297,11 +1302,11 @@ arch pillars
 x 8
 y 22
 end
-arch dungeon_floor
+arch moss
 x 8
 y 23
 end
-arch dungeon_floor
+arch moss
 x 8
 y 24
 end
@@ -1309,17 +1314,17 @@ arch rough_wall_2_1_2
 x 8
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 9
 end
 arch rough_wall_2_1_2
 x 9
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 9
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 9
 y 2
 end
@@ -1331,11 +1336,11 @@ arch bwall_0
 x 9
 y 3
 end
-arch dungeon_floor
+arch magentamarble
 x 9
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 9
 y 5
 end
@@ -1343,15 +1348,15 @@ arch ghost
 x 9
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 9
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 9
 y 7
 end
-arch dungeon_floor
+arch magentamarble
 x 9
 y 8
 end
@@ -1363,63 +1368,63 @@ arch bwall_0
 x 9
 y 9
 end
-arch dungeon_floor
+arch moss
 x 9
 y 10
 end
-arch dungeon_floor
+arch moss
 x 9
 y 11
 end
-arch dungeon_floor
+arch moss
 x 9
 y 12
 end
-arch dungeon_floor
+arch moss
 x 9
 y 13
 end
-arch dungeon_floor
+arch moss
 x 9
 y 14
 end
-arch dungeon_floor
+arch moss
 x 9
 y 15
 end
-arch dungeon_floor
+arch moss
 x 9
 y 16
 end
-arch dungeon_floor
+arch moss
 x 9
 y 17
 end
-arch dungeon_floor
+arch moss
 x 9
 y 18
 end
-arch dungeon_floor
+arch moss
 x 9
 y 19
 end
-arch dungeon_floor
+arch moss
 x 9
 y 20
 end
-arch dungeon_floor
+arch moss
 x 9
 y 21
 end
-arch dungeon_floor
+arch moss
 x 9
 y 22
 end
-arch dungeon_floor
+arch moss
 x 9
 y 23
 end
-arch dungeon_floor
+arch moss
 x 9
 y 24
 end
@@ -1427,13 +1432,13 @@ arch rough_wall_2_1_2
 x 9
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 10
 end
 arch rough_wall_2_1_2
 x 10
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 10
 y 1
 end
@@ -1441,7 +1446,7 @@ arch door_look_2
 x 10
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 10
 y 2
 end
@@ -1450,7 +1455,7 @@ x 10
 y 2
 blocksview 1
 end
-arch dungeon_floor
+arch lostlabfloor11
 x 10
 y 3
 end
@@ -1466,7 +1471,7 @@ arch bwall_0
 x 10
 y 4
 end
-arch dungeon_floor
+arch magentamarble
 x 10
 y 5
 end
@@ -1474,7 +1479,7 @@ arch bwall_0
 x 10
 y 5
 end
-arch dungeon_floor
+arch magentamarble
 x 10
 y 6
 end
@@ -1482,7 +1487,7 @@ arch bwall_0
 x 10
 y 6
 end
-arch dungeon_floor
+arch magentamarble
 x 10
 y 7
 end
@@ -1523,7 +1528,7 @@ arch bwall_0
 x 10
 y 11
 end
-arch dungeon_floor
+arch moss
 x 10
 y 12
 end
@@ -1531,11 +1536,11 @@ arch giant
 x 10
 y 12
 end
-arch dungeon_floor
+arch moss
 x 10
 y 13
 end
-arch dungeon_floor
+arch moss
 x 10
 y 14
 end
@@ -1543,43 +1548,43 @@ arch pillars
 x 10
 y 14
 end
-arch dungeon_floor
+arch moss
 x 10
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 10
 y 16
 end
-arch dungeon_floor
+arch moss
 x 10
 y 17
 end
-arch dungeon_floor
+arch moss
 x 10
 y 18
 end
-arch dungeon_floor
+arch moss
 x 10
 y 19
 end
-arch dungeon_floor
+arch moss
 x 10
 y 20
 end
-arch dungeon_floor
+arch moss
 x 10
 y 21
 end
-arch dungeon_floor
+arch moss
 x 10
 y 22
 end
-arch dungeon_floor
+arch moss
 x 10
 y 23
 end
-arch dungeon_floor
+arch moss
 x 10
 y 24
 end
@@ -1587,17 +1592,17 @@ arch rough_wall_2_1_2
 x 10
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 11
 end
 arch rough_wall_2_1_2
 x 11
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 11
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 11
 y 2
 end
@@ -1609,11 +1614,11 @@ arch acid_sphere
 x 11
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 11
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 11
 y 5
 end
@@ -1641,19 +1646,19 @@ arch dungeon_floor
 x 11
 y 10
 end
-arch dungeon_floor
+arch moss
 x 11
 y 11
 end
-arch dungeon_floor
+arch moss
 x 11
 y 12
 end
-arch dungeon_floor
+arch moss
 x 11
 y 13
 end
-arch dungeon_floor
+arch moss
 x 11
 y 14
 end
@@ -1661,35 +1666,35 @@ arch pillars
 x 11
 y 14
 end
-arch dungeon_floor
+arch bosgrass17
 x 11
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 11
 y 16
 end
-arch dungeon_floor
+arch bosgrass17
 x 11
 y 17
 end
-arch dungeon_floor
+arch moss
 x 11
 y 18
 end
-arch dungeon_floor
+arch moss
 x 11
 y 19
 end
-arch dungeon_floor
+arch moss
 x 11
 y 20
 end
-arch dungeon_floor
+arch moss
 x 11
 y 21
 end
-arch dungeon_floor
+arch moss
 x 11
 y 22
 end
@@ -1697,11 +1702,11 @@ arch pillars
 x 11
 y 22
 end
-arch dungeon_floor
+arch moss
 x 11
 y 23
 end
-arch dungeon_floor
+arch moss
 x 11
 y 24
 end
@@ -1709,29 +1714,29 @@ arch rough_wall_2_1_2
 x 11
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 end
 arch rough_wall_2_1_2
 x 12
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 12
 y 5
 end
@@ -1747,23 +1752,23 @@ arch bwall_0
 x 12
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 12
 y 8
 end
-arch dungeon_floor
+arch cyanbrush
 x 12
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 12
 y 10
 end
-arch dungeon_floor
+arch moss
 x 12
 y 11
 end
-arch dungeon_floor
+arch moss
 x 12
 y 12
 end
@@ -1771,51 +1776,51 @@ arch giant
 x 12
 y 12
 end
-arch dungeon_floor
+arch moss
 x 12
 y 13
 end
-arch dungeon_floor
+arch moss
 x 12
 y 14
 end
-arch dungeon_floor
+arch bosgrass17
 x 12
 y 15
 end
-arch dungeon_floor
+arch bosgrass17
 x 12
 y 16
 end
-arch dungeon_floor
+arch bosgrass17
 x 12
 y 17
 end
-arch dungeon_floor
+arch moss
 x 12
 y 18
 end
-arch dungeon_floor
+arch moss
 x 12
 y 19
 end
-arch dungeon_floor
+arch moss
 x 12
 y 20
 end
-arch dungeon_floor
+arch moss
 x 12
 y 21
 end
-arch dungeon_floor
+arch moss
 x 12
 y 22
 end
-arch dungeon_floor
+arch moss
 x 12
 y 23
 end
-arch dungeon_floor
+arch moss
 x 12
 y 24
 end
@@ -1823,33 +1828,33 @@ arch rough_wall_2_1_2
 x 12
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 end
 arch rough_wall_2_1_2
 x 13
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 13
 y 6
 end
@@ -1861,7 +1866,7 @@ arch bwall_0
 x 13
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 13
 y 8
 end
@@ -1869,7 +1874,7 @@ arch random_spells
 x 13
 y 8
 end
-arch dungeon_floor
+arch cyangrass_only
 x 13
 y 9
 end
@@ -1877,11 +1882,11 @@ arch generate_giant
 x 13
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 13
 y 10
 end
-arch dungeon_floor
+arch cyangrass_only
 x 13
 y 11
 end
@@ -1889,11 +1894,11 @@ arch bwall_0
 x 13
 y 11
 end
-arch dungeon_floor
+arch moss
 x 13
 y 12
 end
-arch dungeon_floor
+arch moss
 x 13
 y 13
 end
@@ -1937,7 +1942,7 @@ arch bwall_0
 x 13
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 13
 y 19
 end
@@ -1965,11 +1970,11 @@ arch bwall_0
 x 13
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 13
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 13
 y 24
 end
@@ -1977,13 +1982,13 @@ arch rough_wall_2_1_2
 x 13
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 end
 arch rough_wall_2_1_2
 x 14
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 y 1
 end
@@ -2002,19 +2007,19 @@ end
 arch spell_mass_confusion
 end
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 14
 y 5
 end
@@ -2030,27 +2035,27 @@ arch bwall_0
 x 14
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 8
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 10
 end
-arch dungeon_floor
+arch cyanbrush
 x 14
 y 11
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 12
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 13
 end
@@ -2066,19 +2071,19 @@ arch dungeon_floor
 x 14
 y 16
 end
-arch dungeon_floor
+arch cyanbrush
 x 14
 y 17
 end
-arch dungeon_floor
+arch cyangrass_only
 x 14
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 14
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 14
 y 20
 end
@@ -2086,15 +2091,15 @@ arch dungeon_floor
 x 14
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 14
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 14
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 14
 y 24
 end
@@ -2102,29 +2107,29 @@ arch rough_wall_2_1_2
 x 14
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 end
 arch rough_wall_2_1_2
 x 15
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 15
 y 5
 end
@@ -2140,11 +2145,11 @@ arch bwall_0
 x 15
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 8
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 9
 end
@@ -2152,7 +2157,7 @@ arch generate_giant
 x 15
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 10
 end
@@ -2160,59 +2165,59 @@ arch generate_giant
 x 15
 y 10
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 11
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 12
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 13
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 14
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 15
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 16
 end
-arch dungeon_floor
+arch cyangrass_only
 x 15
 y 17
 end
-arch dungeon_floor
+arch cyanbrush
 x 15
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 15
 y 24
 end
@@ -2220,17 +2225,21 @@ arch rough_wall_2_1_2
 x 15
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 end
 arch rough_wall_2_1_2
 x 16
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 y 1
 end
-arch dungeon_floor
+arch table_blue
+x 16
+y 1
+end
+arch lostlabfloor3
 x 16
 y 2
 end
@@ -2238,19 +2247,19 @@ arch acid_sphere
 x 16
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 16
 y 6
 end
@@ -2277,35 +2286,35 @@ arch bwall_0
 x 16
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 8
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 10
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 11
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 12
 end
-arch dungeon_floor
+arch cyanbrush
 x 16
 y 13
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 14
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 15
 end
@@ -2313,39 +2322,39 @@ arch random_food
 x 16
 y 15
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 16
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 17
 end
-arch dungeon_floor
+arch cyangrass_only
 x 16
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 16
 y 24
 end
@@ -2353,33 +2362,37 @@ arch rough_wall_2_1_2
 x 16
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 17
 end
 arch rough_wall_2_1_2
 x 17
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 17
 y 1
 end
-arch dungeon_floor
+arch chair_3.1
+x 17
+y 1
+end
+arch graymarble
 x 17
 y 2
 end
-arch dungeon_floor
+arch graymarble
 x 17
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 17
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 17
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 17
 y 6
 end
@@ -2391,11 +2404,11 @@ arch bwall_0
 x 17
 y 7
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 8
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 9
 end
@@ -2403,7 +2416,7 @@ arch generate_giant
 x 17
 y 9
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 10
 end
@@ -2411,7 +2424,7 @@ arch generate_giant
 x 17
 y 10
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 11
 end
@@ -2419,7 +2432,7 @@ arch generate_giant
 x 17
 y 11
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 12
 end
@@ -2427,35 +2440,35 @@ arch generate_giant
 x 17
 y 12
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 13
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 14
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 15
 end
-arch dungeon_floor
+arch cyanbrush
 x 17
 y 16
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 17
 end
-arch dungeon_floor
+arch cyangrass_only
 x 17
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 17
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 17
 y 20
 end
@@ -2467,15 +2480,15 @@ arch bwall_0
 x 17
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 17
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 17
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 17
 y 24
 end
@@ -2483,17 +2496,21 @@ arch rough_wall_2_1_2
 x 17
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 18
 end
 arch rough_wall_2_1_2
 x 18
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 18
 y 1
 end
-arch dungeon_floor
+arch chair_3.1
+x 18
+y 1
+end
+arch graymarble
 x 18
 y 2
 end
@@ -2512,19 +2529,19 @@ end
 arch spell_mass_confusion
 end
 end
-arch dungeon_floor
+arch graymarble
 x 18
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 18
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 18
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 18
 y 6
 end
@@ -2568,7 +2585,7 @@ arch bwall_0
 x 18
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 12
 end
@@ -2576,7 +2593,7 @@ arch bwall_0
 x 18
 y 12
 end
-arch dungeon_floor
+arch cyangrass_only
 x 18
 y 13
 end
@@ -2585,7 +2602,7 @@ x 18
 y 13
 blocksview 1
 end
-arch dungeon_floor
+arch cyangrass_only
 x 18
 y 14
 end
@@ -2593,7 +2610,7 @@ arch bwall_0
 x 18
 y 14
 end
-arch dungeon_floor
+arch cyangrass_only
 x 18
 y 15
 end
@@ -2601,7 +2618,7 @@ arch bwall_0
 x 18
 y 15
 end
-arch dungeon_floor
+arch cyangrass_only
 x 18
 y 16
 end
@@ -2625,15 +2642,15 @@ arch bwall_0
 x 18
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 21
 end
@@ -2641,15 +2658,15 @@ arch bwall_0
 x 18
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 18
 y 24
 end
@@ -2657,25 +2674,29 @@ arch rough_wall_2_1_2
 x 18
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 19
 end
 arch rough_wall_2_1_2
 x 19
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 19
 y 1
 end
-arch dungeon_floor
+arch chair_3.1
+x 19
+y 1
+end
+arch graymarble
 x 19
 y 2
 end
-arch dungeon_floor
+arch graymarble
 x 19
 y 3
 end
-arch dungeon_floor
+arch graymarble
 x 19
 y 4
 end
@@ -2683,11 +2704,11 @@ arch troll
 x 19
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 19
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 19
 y 6
 end
@@ -2715,7 +2736,7 @@ arch random_food
 x 19
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 12
 end
@@ -2723,23 +2744,23 @@ arch bwall_0
 x 19
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 17
 end
@@ -2751,15 +2772,15 @@ arch bwall_0
 x 19
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 21
 end
@@ -2767,15 +2788,15 @@ arch bwall_0
 x 19
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 19
 y 24
 end
@@ -2783,45 +2804,49 @@ arch rough_wall_2_1_2
 x 19
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 end
 arch rough_wall_2_1_2
 x 20
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 1
 end
-arch dungeon_floor
+arch chair_3.1
+x 20
+y 1
+end
+arch graymarble
 x 20
 y 2
 end
-arch dungeon_floor
+arch graymarble
 x 20
 y 3
 end
-arch dungeon_floor
+arch graymarble
 x 20
 y 4
 end
-arch dungeon_floor
+arch graymarble
 x 20
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 9
 end
@@ -2840,11 +2865,11 @@ end
 arch spell_mass_confusion
 end
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 20
 y 11
 end
@@ -2852,7 +2877,7 @@ arch random_food
 x 20
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 12
 end
@@ -2860,19 +2885,19 @@ arch bwall_0
 x 20
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 16
 end
@@ -2880,11 +2905,11 @@ arch beholder
 x 20
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 18
 end
@@ -2892,15 +2917,15 @@ arch bwall_0
 x 20
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 21
 end
@@ -2908,15 +2933,15 @@ arch bwall_0
 x 20
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 20
 y 24
 end
@@ -2924,17 +2949,21 @@ arch rough_wall_2_1_2
 x 20
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 end
 arch rough_wall_2_1_2
 x 21
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 y 1
 end
-arch dungeon_floor
+arch chair_3.1
+x 21
+y 1
+end
+arch graymarble
 x 21
 y 2
 end
@@ -2942,39 +2971,39 @@ arch troll
 x 21
 y 2
 end
-arch dungeon_floor
+arch graymarble
 x 21
 y 3
 end
-arch dungeon_floor
+arch graymarble
 x 21
 y 4
 end
-arch dungeon_floor
+arch graymarble
 x 21
 y 5
 end
-arch dungeon_floor
+arch graymarble
 x 21
 y 6
 end
-arch dungeon_floor
+arch graymarble
 x 21
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 21
 y 11
 end
@@ -2982,7 +3011,7 @@ arch random_food
 x 21
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 12
 end
@@ -2990,11 +3019,11 @@ arch bwall_0
 x 21
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 14
 end
@@ -3002,19 +3031,19 @@ arch beholder
 x 21
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 18
 end
@@ -3022,7 +3051,7 @@ arch bwall_0
 x 21
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 19
 end
@@ -3030,11 +3059,11 @@ arch skull
 x 21
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 21
 end
@@ -3042,11 +3071,11 @@ arch bwall_0
 x 21
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 23
 end
@@ -3054,7 +3083,7 @@ arch skull
 x 21
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 21
 y 24
 end
@@ -3062,29 +3091,33 @@ arch rough_wall_2_1_2
 x 21
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 end
 arch rough_wall_2_1_2
 x 22
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 y 1
 end
-arch dungeon_floor
+arch table_blue
+x 22
+y 1
+end
+arch graymarble
 x 22
 y 2
 end
-arch dungeon_floor
+arch graymarble
 x 22
 y 3
 end
-arch dungeon_floor
+arch graymarble
 x 22
 y 4
 end
-arch dungeon_floor
+arch graymarble
 x 22
 y 5
 end
@@ -3103,11 +3136,11 @@ end
 arch spell_mass_confusion
 end
 end
-arch dungeon_floor
+arch graymarble
 x 22
 y 6
 end
-arch dungeon_floor
+arch graymarble
 x 22
 y 7
 end
@@ -3115,7 +3148,7 @@ arch acid_sphere
 x 22
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 y 8
 end
@@ -3123,15 +3156,15 @@ arch acid_sphere
 x 22
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 22
 y 11
 end
@@ -3139,7 +3172,7 @@ arch random_food
 x 22
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 12
 end
@@ -3147,7 +3180,7 @@ arch bwall_0
 x 22
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 13
 end
@@ -3155,7 +3188,7 @@ arch random_wealth
 x 22
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 14
 end
@@ -3163,19 +3196,19 @@ arch beholder
 x 22
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 18
 end
@@ -3183,7 +3216,7 @@ arch bwall_0
 x 22
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 19
 end
@@ -3191,23 +3224,23 @@ arch bwall_0
 x 22
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 22
 y 24
 end
@@ -3215,53 +3248,85 @@ arch rough_wall_2_1_2
 x 22
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 23
 end
 arch rough_wall_2_1_2
 x 23
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 23
 y 1
 end
-arch dungeon_floor
+arch table_blue
+x 23
+y 1
+end
+arch lostlabfloor3
 x 23
 y 2
 end
-arch dungeon_floor
+arch table_blue
+x 23
+y 2
+end
+arch lostlabfloor3
 x 23
 y 3
 end
-arch dungeon_floor
+arch chair_3.2
+x 23
+y 3
+end
+arch lostlabfloor3
 x 23
 y 4
 end
-arch dungeon_floor
+arch chair_3.2
+x 23
+y 4
+end
+arch lostlabfloor3
 x 23
 y 5
 end
-arch dungeon_floor
+arch chair_3.2
+x 23
+y 5
+end
+arch lostlabfloor3
 x 23
 y 6
 end
-arch dungeon_floor
+arch chair_3.2
+x 23
+y 6
+end
+arch lostlabfloor3
 x 23
 y 7
 end
-arch dungeon_floor
+arch chair_3.2
+x 23
+y 7
+end
+arch lostlabfloor3
 x 23
 y 8
 end
-arch dungeon_floor
+arch table_blue
+x 23
+y 8
+end
+arch lostlabfloor3
 x 23
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 23
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 23
 y 11
 end
@@ -3269,7 +3334,7 @@ arch random_food
 x 23
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 12
 end
@@ -3277,7 +3342,7 @@ arch bwall_0
 x 23
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 13
 end
@@ -3285,7 +3350,7 @@ arch random_wealth
 x 23
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 14
 end
@@ -3293,7 +3358,7 @@ arch random_wealth
 x 23
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 15
 end
@@ -3301,7 +3366,7 @@ arch beholder
 x 23
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 16
 end
@@ -3309,7 +3374,7 @@ arch random_wealth
 x 23
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 17
 end
@@ -3317,19 +3382,19 @@ arch beholder
 x 23
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 21
 end
@@ -3337,11 +3402,11 @@ arch random_spells
 x 23
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 23
 end
@@ -3352,7 +3417,7 @@ sp 23
 x 23
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 23
 y 24
 end
@@ -3360,13 +3425,13 @@ arch rough_wall_2_1_2
 x 23
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 end
 arch rough_wall_2_2_3
 x 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 1
 end
@@ -3374,7 +3439,7 @@ arch rough_wall_2_1_1
 x 24
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 2
 end
@@ -3382,7 +3447,7 @@ arch rough_wall_2_1_1
 x 24
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 3
 end
@@ -3390,7 +3455,7 @@ arch rough_wall_2_1_1
 x 24
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 4
 end
@@ -3398,7 +3463,7 @@ arch rough_wall_2_1_1
 x 24
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 5
 end
@@ -3406,7 +3471,7 @@ arch rough_wall_2_1_1
 x 24
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 6
 end
@@ -3414,7 +3479,7 @@ arch rough_wall_2_1_1
 x 24
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 7
 end
@@ -3422,7 +3487,7 @@ arch rough_wall_2_1_1
 x 24
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 8
 end
@@ -3430,7 +3495,7 @@ arch rough_wall_2_1_1
 x 24
 y 8
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 9
 end
@@ -3438,7 +3503,7 @@ arch rough_wall_2_1_1
 x 24
 y 9
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 10
 end
@@ -3446,7 +3511,7 @@ arch rough_wall_2_1_1
 x 24
 y 10
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 24
 y 11
 end
@@ -3454,7 +3519,7 @@ arch rough_wall_2_1_1
 x 24
 y 11
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 12
 end
@@ -3462,7 +3527,7 @@ arch rough_wall_2_1_1
 x 24
 y 12
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 13
 end
@@ -3470,7 +3535,7 @@ arch rough_wall_2_1_1
 x 24
 y 13
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 14
 end
@@ -3478,7 +3543,7 @@ arch rough_wall_2_1_1
 x 24
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 15
 end
@@ -3486,7 +3551,7 @@ arch rough_wall_2_1_1
 x 24
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 16
 end
@@ -3494,7 +3559,7 @@ arch rough_wall_2_1_1
 x 24
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 17
 end
@@ -3502,7 +3567,7 @@ arch rough_wall_2_1_1
 x 24
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 18
 end
@@ -3510,7 +3575,7 @@ arch rough_wall_2_1_1
 x 24
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 19
 end
@@ -3518,7 +3583,7 @@ arch rough_wall_2_1_1
 x 24
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 20
 end
@@ -3526,7 +3591,7 @@ arch rough_wall_2_1_1
 x 24
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 21
 end
@@ -3534,7 +3599,7 @@ arch rough_wall_2_1_1
 x 24
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 22
 end
@@ -3542,7 +3607,7 @@ arch rough_wall_2_1_1
 x 24
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 23
 end
@@ -3550,7 +3615,7 @@ arch rough_wall_2_1_1
 x 24
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor4
 x 24
 y 24
 end

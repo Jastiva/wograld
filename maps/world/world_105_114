@@ -7,13 +7,14 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2007-12-24 tchize
+Modified: 2018-12-19 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_113
 tile_path_2 world_106_114
 tile_path_3 world_105_115
 tile_path_4 world_104_114
+background_music grassland01
 end
 arch sea
 end
@@ -1626,10 +1627,9 @@ arch evergreens2
 x 6
 y 9
 end
-arch woods
+arch grass
 x 6
 y 10
-elevation 0
 end
 arch woods
 x 6
@@ -1895,10 +1895,9 @@ x 7
 y 9
 elevation 0
 end
-arch woods_3
+arch grass
 x 7
 y 10
-elevation 0
 end
 arch woods
 x 7
@@ -2172,10 +2171,9 @@ x 8
 y 9
 elevation 0
 end
-arch woods
+arch grass
 x 8
 y 10
-elevation 0
 end
 arch woods
 x 8
@@ -2432,24 +2430,18 @@ x 9
 y 8
 elevation 0
 end
-arch evergreens2
-x 9
-y 8
-end
 arch beach
 x 9
 y 9
 elevation 0
 end
-arch woods
+arch grass
 x 9
 y 10
-elevation 0
 end
-arch beach
+arch grass
 x 9
 y 11
-elevation 0
 end
 arch hills_rocky
 x 9
@@ -2702,10 +2694,9 @@ x 10
 y 10
 elevation 0
 end
-arch beach
+arch grass
 x 10
 y 11
-elevation 0
 end
 arch grass_only
 x 10
@@ -5293,10 +5284,9 @@ x 20
 y 1
 elevation 0
 end
-arch steppe
+arch grass
 x 20
 y 2
-elevation 0
 end
 arch steppe
 x 20
@@ -5336,10 +5326,9 @@ arch evergreens2
 x 20
 y 8
 end
-arch woods
+arch grass
 x 20
 y 9
-elevation 0
 end
 arch desert
 x 20
@@ -5575,10 +5564,9 @@ x 21
 y 2
 elevation 0
 end
-arch hills
+arch grass
 x 21
 y 3
-elevation 0
 end
 arch hills_rocky
 x 21
@@ -5609,10 +5597,9 @@ arch evergreens2
 x 21
 y 8
 end
-arch woods
+arch grass
 x 21
 y 9
-elevation 0
 end
 arch grass_only
 x 21
@@ -6128,10 +6115,9 @@ x 23
 y 5
 elevation 0
 end
-arch woods
+arch grass
 x 23
 y 6
-elevation 0
 end
 arch grass_only
 x 23
@@ -6151,15 +6137,13 @@ arch evergreens2
 x 23
 y 8
 end
-arch woods
+arch grass
 x 23
 y 9
-elevation 0
 end
-arch woods_3
+arch grass
 x 23
 y 10
-elevation 0
 end
 arch woods_3
 x 23
@@ -6402,25 +6386,21 @@ x 24
 y 6
 elevation 0
 end
-arch woods_3
+arch grass
 x 24
 y 7
-elevation 0
 end
-arch woods
+arch grass
 x 24
 y 8
-elevation 0
 end
-arch woods
+arch grass
 x 24
 y 9
-elevation 0
 end
-arch woods
+arch grass
 x 24
 y 10
-elevation 0
 end
 arch steppe
 x 24
@@ -6671,25 +6651,22 @@ arch tree5
 x 25
 y 6
 end
-arch woods
+arch grass
 x 25
 y 7
-elevation 0
 end
-arch woods_3
+arch grass
 x 25
 y 8
-elevation 0
 end
 arch grass
 x 25
 y 9
 elevation 0
 end
-arch hills_rocky
+arch grass
 x 25
 y 10
-elevation 0
 end
 arch hills_rocky
 x 25
@@ -6986,10 +6963,9 @@ arch tree5
 x 26
 y 9
 end
-arch hills_rocky
+arch grass
 x 26
 y 10
-elevation 0
 end
 arch steppe
 x 26
@@ -7275,10 +7251,9 @@ x 27
 y 9
 elevation 0
 end
-arch steppe
+arch grass
 x 27
 y 10
-elevation 0
 end
 arch hills
 x 27
@@ -7863,15 +7838,13 @@ x 29
 y 7
 elevation 0
 end
-arch steppe
+arch grass
 x 29
 y 8
-elevation 0
 end
-arch steppe
+arch grass
 x 29
 y 9
-elevation 0
 end
 arch mountain
 x 29
@@ -7988,17 +7961,18 @@ x 29
 y 28
 elevation 0
 end
-arch outpost_tower
+arch hills
+x 29
+y 29
+elevation 0
+end
+arch keep_sym_noflag
+name outpost tower
 slaying /inn_and_outpost/outpost_aranor1
 hp 11
 sp 18
 x 29
-y 28
-end
-arch hills
-x 29
 y 29
-elevation 0
 end
 arch hills
 x 29
@@ -8154,15 +8128,13 @@ arch evergreens2
 x 30
 y 6
 end
-arch hills
+arch grass
 x 30
 y 7
-elevation 0
 end
-arch steppe
+arch grass
 x 30
 y 8
-elevation 0
 end
 arch mountain
 x 30
@@ -8430,15 +8402,13 @@ arch evergreens2
 x 31
 y 5
 end
-arch steppe
+arch grass
 x 31
 y 6
-elevation 0
 end
-arch steppe
+arch grass
 x 31
 y 7
-elevation 0
 end
 arch hills
 x 31
@@ -8714,15 +8684,13 @@ x 32
 y 4
 elevation 0
 end
-arch steppe
+arch grass
 x 32
 y 5
-elevation 0
 end
-arch hills
+arch grass
 x 32
 y 6
-elevation 0
 end
 arch hills
 x 32
@@ -8783,10 +8751,9 @@ x 32
 y 17
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 32
 y 18
-elevation 0
 end
 arch hills
 x 32
@@ -8821,10 +8788,9 @@ x 32
 y 23
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 32
 y 24
-elevation 0
 end
 arch hills
 x 32
@@ -8977,21 +8943,11 @@ x 33
 y 2
 elevation 0
 end
-arch grass_only
-x 33
-y 3
-elevation 0
-end
-arch evergreens2
+arch desert
 x 33
 y 3
 end
-arch grass_only
-x 33
-y 4
-elevation 0
-end
-arch evergreens2
+arch desert
 x 33
 y 4
 end
@@ -9085,10 +9041,9 @@ x 33
 y 22
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 33
 y 23
-elevation 0
 end
 arch hills
 x 33
@@ -9195,12 +9150,7 @@ x 33
 y 40
 elevation 0
 end
-arch grass_only
-x 33
-y 41
-elevation 0
-end
-arch evergreens2
+arch bosgrass3
 x 33
 y 41
 end
@@ -9263,17 +9213,11 @@ x 34
 y 3
 elevation 0
 end
-arch steppe
+arch desert
 x 34
 y 4
-elevation 0
 end
-arch grass_only
-x 34
-y 5
-elevation 0
-end
-arch evergreens2
+arch desert
 x 34
 y 5
 end
@@ -9452,12 +9396,7 @@ x 34
 y 40
 elevation 0
 end
-arch grass_only
-x 34
-y 41
-elevation 0
-end
-arch evergreens2
+arch bosgrass3
 x 34
 y 41
 end
@@ -9536,15 +9475,13 @@ x 35
 y 3
 elevation 0
 end
-arch steppe
+arch desert
 x 35
 y 4
-elevation 0
 end
-arch mountain
+arch desert
 x 35
 y 5
-elevation 0
 end
 arch mountain
 x 35
@@ -9561,15 +9498,13 @@ x 35
 y 8
 elevation 0
 end
-arch mountain
+arch desert
 x 35
 y 9
-elevation 0
 end
-arch steppe
+arch desert
 x 35
 y 10
-elevation 0
 end
 arch mountain
 x 35
@@ -9631,15 +9566,13 @@ x 35
 y 22
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 35
 y 23
-elevation 0
 end
-arch steppe
+arch bosgrass3
 x 35
 y 24
-elevation 0
 end
 arch brush
 x 35
@@ -9716,12 +9649,7 @@ x 35
 y 39
 elevation 0
 end
-arch grass_only
-x 35
-y 40
-elevation 0
-end
-arch tree3
+arch bosgrass3
 x 35
 y 40
 end
@@ -9782,10 +9710,9 @@ arch mountain
 x 36
 elevation 0
 end
-arch mountain
+arch desert
 x 36
 y 1
-elevation 0
 end
 arch hills
 x 36
@@ -9797,45 +9724,37 @@ x 36
 y 3
 elevation 0
 end
-arch hills_rocky
+arch desert
 x 36
 y 4
-elevation 0
 end
-arch mountain
+arch desert
 x 36
 y 5
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 36
 y 6
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 36
 y 7
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 36
 y 8
-elevation 0
 end
-arch steppe
+arch desert
 x 36
 y 9
-elevation 0
 end
-arch hills_rocky
+arch bosgrass10
 x 36
 y 10
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 36
 y 11
-elevation 0
 end
 arch mountain
 x 36
@@ -9897,15 +9816,13 @@ x 36
 y 23
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 36
 y 24
-elevation 0
 end
-arch steppe
+arch bosgrass3
 x 36
 y 25
-elevation 0
 end
 arch grass_only
 x 36
@@ -9995,10 +9912,6 @@ x 36
 y 41
 elevation 0
 end
-arch evergreens2
-x 36
-y 41
-end
 arch grass_only
 x 36
 y 42
@@ -10047,65 +9960,53 @@ arch mountain
 x 37
 elevation 0
 end
-arch steppe
+arch desert
 x 37
 y 1
-elevation 0
 end
-arch woods
+arch desert
 x 37
 y 2
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 37
 y 3
-elevation 0
 end
-arch steppe
+arch desert
 x 37
 y 4
-elevation 0
 end
-arch steppe
+arch desert
 x 37
 y 5
-elevation 0
 end
-arch steppe
+arch desert
 x 37
 y 6
-elevation 0
 end
-arch woods
+arch desert
 x 37
 y 7
-elevation 0
 end
-arch woods
+arch bosgrass10
 x 37
 y 8
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 37
 y 9
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 37
 y 10
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 37
 y 11
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 37
 y 12
-elevation 0
 end
 arch mountain
 x 37
@@ -10167,20 +10068,17 @@ x 37
 y 24
 elevation 0
 end
-arch mountain
+arch bosgrass3
 x 37
 y 25
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 37
 y 26
-elevation 0
 end
-arch steppe
+arch bosgrass3
 x 37
 y 27
-elevation 0
 end
 arch brush
 x 37
@@ -10236,10 +10134,6 @@ arch grass_only
 x 37
 y 38
 elevation 0
-end
-arch evergreens2
-x 37
-y 38
 end
 arch grass_only
 x 37
@@ -10320,70 +10214,57 @@ arch mountain
 x 38
 elevation 0
 end
-arch steppe
+arch desert
 x 38
 y 1
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 38
 y 2
-elevation 0
 end
-arch hills_rocky
+arch desert
 x 38
 y 3
-elevation 0
 end
-arch steppe
+arch desert
 x 38
 y 4
-elevation 0
 end
-arch steppe
+arch desert
 x 38
 y 5
-elevation 0
 end
-arch steppe
+arch desert
 x 38
 y 6
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 38
 y 7
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 38
 y 8
-elevation 0
 end
-arch woods
+arch bosgrass10
 x 38
 y 9
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 38
 y 10
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 38
 y 11
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 38
 y 12
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 38
 y 13
-elevation 0
 end
 arch mountain
 x 38
@@ -10444,20 +10325,17 @@ x 38
 y 25
 elevation 0
 end
-arch mountain
+arch bosgrass3
 x 38
 y 26
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 38
 y 27
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 38
 y 28
-elevation 0
 end
 arch hills
 x 38
@@ -10519,20 +10397,17 @@ arch tree3
 x 38
 y 36
 end
-arch hills_rocky
+arch grass_only
 x 38
 y 37
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 38
 y 38
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 38
 y 39
-elevation 0
 end
 arch hills
 x 38
@@ -10608,64 +10483,53 @@ arch tree3
 x 38
 y 49
 end
-arch steppe
+arch desert
 x 39
-elevation 0
 end
-arch steppe
+arch desert
 x 39
 y 1
-elevation 0
 end
-arch steppe
+arch desert
 x 39
 y 2
-elevation 0
 end
-arch steppe
+arch desert
 x 39
 y 3
-elevation 0
 end
-arch steppe
+arch desert
 x 39
 y 4
-elevation 0
 end
-arch steppe
+arch desert
 x 39
 y 5
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 39
 y 6
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 39
 y 7
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 39
 y 8
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 39
 y 9
-elevation 0
 end
 arch desert
 x 39
 y 10
 elevation 0
 end
-arch woods
+arch bosgrass16
 x 39
 y 11
-elevation 0
 end
 arch grass_only
 x 39
@@ -10676,10 +10540,9 @@ arch tree3
 x 39
 y 12
 end
-arch steppe
+arch bosgrass16
 x 39
 y 13
-elevation 0
 end
 arch mountain
 x 39
@@ -10749,15 +10612,13 @@ x 39
 y 27
 elevation 0
 end
-arch mountain
+arch bosgrass3
 x 39
 y 28
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 39
 y 29
-elevation 0
 end
 arch mountain
 x 39
@@ -10769,20 +10630,17 @@ x 39
 y 31
 elevation 0
 end
-arch steppe
+arch grass_only
 x 39
 y 32
-elevation 0
 end
-arch steppe
+arch grass_only
 x 39
 y 33
-elevation 0
 end
-arch steppe
+arch grass_only
 x 39
 y 34
-elevation 0
 end
 arch grass_only
 x 39
@@ -10793,55 +10651,46 @@ arch tree3
 x 39
 y 35
 end
-arch steppe
+arch grass_only
 x 39
 y 36
-elevation 0
 end
-arch mountain
+arch grass_only
 x 39
 y 37
-elevation 0
 end
-arch mountain
+arch grass_only
 x 39
 y 38
-elevation 0
 end
-arch mountain
+arch grass_only
 x 39
 y 39
-elevation 0
 end
-arch mountain
+arch grass_only
 x 39
 y 40
-elevation 0
 end
-arch mountain
+arch grass_only
 x 39
 y 41
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 39
 y 42
-elevation 0
 end
-arch steppe
+arch grass_only
 x 39
 y 43
-elevation 0
 end
 arch hills_rocky
 x 39
 y 44
 elevation 0
 end
-arch steppe
+arch grass_only
 x 39
 y 45
-elevation 0
 end
 arch hills
 x 39
@@ -10880,45 +10729,37 @@ x 40
 y 1
 elevation 0
 end
-arch steppe
+arch desert
 x 40
 y 2
-elevation 0
 end
-arch woods
+arch desert
 x 40
 y 3
-elevation 0
 end
-arch woods
+arch desert
 x 40
 y 4
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 40
 y 5
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 40
 y 6
-elevation 0
 end
-arch steppe
+arch bosgrass10
 x 40
 y 7
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 40
 y 8
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 40
 y 9
-elevation 0
 end
 arch desert
 x 40
@@ -10930,10 +10771,9 @@ x 40
 y 11
 elevation 0
 end
-arch steppe
+arch bosgrass16
 x 40
 y 12
-elevation 0
 end
 arch mountain
 x 40
@@ -11017,80 +10857,65 @@ x 40
 y 29
 elevation 0
 end
-arch mountain
+arch bosgrass3
 x 40
 y 30
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 40
 y 31
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 40
 y 32
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 40
 y 33
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 40
 y 34
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 35
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 36
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 37
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 38
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 39
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 40
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 41
-elevation 0
 end
-arch hills_rocky
+arch grass_only
 x 40
 y 42
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 43
-elevation 0
 end
-arch mountain
+arch grass_only
 x 40
 y 44
-elevation 0
 end
 arch hills_rocky
 x 40
@@ -11134,65 +10959,53 @@ x 41
 y 1
 elevation 0
 end
-arch hills
+arch desert
 x 41
 y 2
-elevation 0
 end
-arch steppe
+arch desert
 x 41
 y 3
-elevation 0
 end
-arch woods
+arch desert
 x 41
 y 4
-elevation 0
 end
-arch woods
+arch bosgrass10
 x 41
 y 5
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 41
 y 6
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 41
 y 7
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 41
 y 8
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 41
 y 9
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 41
 y 10
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 41
 y 11
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 41
 y 12
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 41
 y 13
-elevation 0
 end
 arch shallow_sea
 x 41
@@ -11210,7 +11023,7 @@ arch shallow_sea
 x 41
 y 17
 end
-arch shallow_sea
+arch river_new3
 x 41
 y 18
 end
@@ -11218,34 +11031,29 @@ arch shallow_sea
 x 41
 y 19
 end
-arch shallow_sea
+arch river_new3
 x 41
 y 20
 end
-arch mountain2
+arch river_new3
 x 41
 y 21
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 41
 y 22
-elevation 0
 end
-arch mountain5
+arch river_new3
 x 41
 y 23
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 41
 y 24
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 41
 y 25
-elevation 0
 end
 arch mountain2
 x 41
@@ -11287,54 +11095,45 @@ x 41
 y 33
 elevation 0
 end
-arch mountain
+arch bosgrass3
 x 41
 y 34
-elevation 0
 end
-arch mountain
+arch grass_only
 x 41
 y 35
-elevation 0
 end
-arch mountain
+arch river_new3
 x 41
 y 36
-elevation 0
 end
 arch shallow_sea
 x 41
 y 37
 end
-arch mountain
+arch swimming_fish
 x 41
 y 38
-elevation 0
 end
-arch mountain
+arch swimming_fish
 x 41
 y 39
-elevation 0
 end
-arch mountain
+arch grass_only
 x 41
 y 40
-elevation 0
 end
-arch mountain
+arch grass_only
 x 41
 y 41
-elevation 0
 end
-arch mountain
+arch grass_only
 x 41
 y 42
-elevation 0
 end
-arch hills_rocky
+arch grass_only
 x 41
 y 43
-elevation 0
 end
 arch hills
 x 41
@@ -11391,55 +11190,46 @@ x 42
 y 1
 elevation 0
 end
-arch hills
+arch desert
 x 42
 y 2
-elevation 0
 end
-arch hills
+arch desert
 x 42
 y 3
-elevation 0
 end
-arch woods
+arch desert
 x 42
 y 4
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 42
 y 5
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 42
 y 6
-elevation 0
 end
 arch desert
 x 42
 y 7
 elevation 0
 end
-arch woods
+arch bosgrass16
 x 42
 y 8
-elevation 0
 end
-arch steppe
+arch bosgrass16
 x 42
 y 9
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 42
 y 10
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 42
 y 11
-elevation 0
 end
 arch grass_only
 x 42
@@ -11473,50 +11263,41 @@ arch shallow_sea
 x 42
 y 17
 end
-arch mountain2
+arch river_new3
 x 42
 y 18
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 42
 y 19
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 42
 y 20
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 42
 y 21
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 42
 y 22
-elevation 0
 end
-arch mountain2
+arch river_new3
 x 42
 y 23
-elevation 0
 end
-arch mountain4
+arch river_new3
 x 42
 y 24
-elevation 0
 end
-arch mountain2
+arch river_new3
 x 42
 y 25
-elevation 0
 end
-arch mountain2
+arch river_new3
 x 42
 y 26
-elevation 0
 end
 arch mountain2
 x 42
@@ -11563,35 +11344,29 @@ x 42
 y 35
 elevation 0
 end
-arch mountain
+arch river_new3
 x 42
 y 36
-elevation 0
 end
-arch mountain
+arch swimming_fish
 x 42
 y 37
-elevation 0
 end
-arch mountain
+arch swimming_fish
 x 42
 y 38
-elevation 0
 end
-arch mountain
+arch swimming_fish
 x 42
 y 39
-elevation 0
 end
-arch mountain
+arch grass_only
 x 42
 y 40
-elevation 0
 end
-arch mountain
+arch grass_only
 x 42
 y 41
-elevation 0
 end
 arch cobblestones
 x 42
@@ -11641,30 +11416,25 @@ arch woods
 x 43
 elevation 0
 end
-arch steppe
+arch desert
 x 43
 y 1
-elevation 0
 end
-arch steppe
+arch desert
 x 43
 y 2
-elevation 0
 end
-arch hills
+arch desert
 x 43
 y 3
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 43
 y 4
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 43
 y 5
-elevation 0
 end
 arch desert
 x 43
@@ -11676,20 +11446,17 @@ x 43
 y 7
 elevation 0
 end
-arch woods
+arch bosgrass16
 x 43
 y 8
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 43
 y 9
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 43
 y 10
-elevation 0
 end
 arch woods
 x 43
@@ -11768,15 +11535,13 @@ x 43
 y 25
 elevation 0
 end
-arch mountain
+arch river_new3
 x 43
 y 26
-elevation 0
 end
-arch mountain
+arch river_new3
 x 43
 y 27
-elevation 0
 end
 arch mountain
 x 43
@@ -11813,14 +11578,13 @@ x 43
 y 34
 elevation 0
 end
-arch shallow_sea
+arch river_new4
 x 43
 y 35
 end
-arch mountain
+arch river_new3
 x 43
 y 36
-elevation 0
 end
 arch hills_rocky
 x 43
@@ -11832,10 +11596,9 @@ x 43
 y 38
 elevation 0
 end
-arch mountain
+arch grass_only
 x 43
 y 39
-elevation 0
 end
 arch cobblestones
 x 43
@@ -11895,25 +11658,21 @@ arch hills
 x 44
 elevation 0
 end
-arch steppe
+arch desert
 x 44
 y 1
-elevation 0
 end
-arch steppe
+arch desert
 x 44
 y 2
-elevation 0
 end
-arch steppe
+arch desert
 x 44
 y 3
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 44
 y 4
-elevation 0
 end
 arch desert
 x 44
@@ -11935,15 +11694,13 @@ x 44
 y 8
 elevation 0
 end
-arch woods
+arch bosgrass16
 x 44
 y 9
-elevation 0
 end
-arch woods
+arch bosgrass16
 x 44
 y 10
-elevation 0
 end
 arch shallow_sea
 x 44
@@ -12022,50 +11779,41 @@ x 44
 y 26
 elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 27
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 28
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 29
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 30
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 31
-elevation 0
 end
-arch mountain2
+arch river_new3
 x 44
 y 32
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 33
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 34
-elevation 0
 end
-arch mountain
+arch river_new3
 x 44
 y 35
-elevation 0
 end
 arch mountain
 x 44
@@ -12146,20 +11894,17 @@ x 45
 y 1
 elevation 0
 end
-arch steppe
+arch desert
 x 45
 y 2
-elevation 0
 end
-arch steppe
+arch desert
 x 45
 y 3
-elevation 0
 end
-arch steppe
+arch desert
 x 45
 y 4
-elevation 0
 end
 arch desert
 x 45
@@ -12195,15 +11940,13 @@ arch shallow_sea
 x 45
 y 11
 end
-arch woods
+arch desert
 x 45
 y 12
-elevation 0
 end
-arch steppe
+arch desert
 x 45
 y 13
-elevation 0
 end
 arch mountain
 x 45
@@ -12535,25 +12278,21 @@ x 46
 y 28
 elevation 0
 end
-arch steppe
+arch bosgrass17
 x 46
 y 29
-elevation 0
 end
-arch steppe
+arch bosgrass17
 x 46
 y 30
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 46
 y 31
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 46
 y 32
-elevation 0
 end
 arch mountain
 x 46
@@ -12570,10 +12309,9 @@ x 46
 y 35
 elevation 0
 end
-arch steppe
+arch grass_only
 x 46
 y 36
-elevation 0
 end
 arch cobblestones
 x 46
@@ -12713,10 +12451,9 @@ x 47
 y 13
 elevation 0
 end
-arch steppe
+arch desert
 x 47
 y 14
-elevation 0
 end
 arch mountain
 x 47
@@ -12761,10 +12498,9 @@ x 47
 y 22
 elevation 0
 end
-arch hills_rocky
+arch grass
 x 47
 y 23
-elevation 0
 end
 arch mountain
 x 47
@@ -12786,35 +12522,29 @@ x 47
 y 27
 elevation 0
 end
-arch steppe
+arch bosgrass17
 x 47
 y 28
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 47
 y 29
-elevation 0
 end
-arch woods
+arch bosgrass3
 x 47
 y 30
-elevation 0
 end
-arch woods
+arch bosgrass3
 x 47
 y 31
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 47
 y 32
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 47
 y 33
-elevation 0
 end
 arch mountain
 x 47
@@ -12960,15 +12690,13 @@ x 48
 y 12
 elevation 0
 end
-arch woods
+arch desert
 x 48
 y 13
-elevation 0
 end
-arch steppe
+arch desert
 x 48
 y 14
-elevation 0
 end
 arch mountain
 x 48
@@ -13015,10 +12743,9 @@ x 48
 y 23
 elevation 0
 end
-arch steppe
+arch grass
 x 48
 y 24
-elevation 0
 end
 arch mountain
 x 48
@@ -13035,15 +12762,13 @@ x 48
 y 27
 elevation 0
 end
-arch woods
+arch bosgrass3
 x 48
 y 28
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 48
 y 29
-elevation 0
 end
 arch grass_only
 x 48
@@ -13054,20 +12779,17 @@ arch tree5
 x 48
 y 30
 end
-arch woods
+arch bosgrass3
 x 48
 y 31
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 48
 y 32
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 48
 y 33
-elevation 0
 end
 arch cobblestones
 x 48
@@ -13089,10 +12811,9 @@ x 48
 y 37
 elevation 0
 end
-arch woods_2
+arch grass_only
 x 48
 y 38
-elevation 0
 end
 arch mountain
 x 48
@@ -13213,20 +12934,17 @@ x 49
 y 12
 elevation 0
 end
-arch woods
+arch desert
 x 49
 y 13
-elevation 0
 end
-arch woods
+arch desert
 x 49
 y 14
-elevation 0
 end
-arch steppe
+arch desert
 x 49
 y 15
-elevation 0
 end
 arch mountain
 x 49
@@ -13268,15 +12986,13 @@ x 49
 y 23
 elevation 0
 end
-arch woods
+arch grass
 x 49
 y 24
-elevation 0
 end
-arch woods
+arch grass
 x 49
 y 25
-elevation 0
 end
 arch mountain
 x 49
@@ -13288,35 +13004,29 @@ x 49
 y 27
 elevation 0
 end
-arch steppe
+arch bosgrass3
 x 49
 y 28
-elevation 0
 end
-arch hills_rocky
+arch bosgrass3
 x 49
 y 29
-elevation 0
 end
-arch steppe
+arch bosgrass3
 x 49
 y 30
-elevation 0
 end
-arch steppe
+arch bosgrass3
 x 49
 y 31
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 49
 y 32
-elevation 0
 end
-arch mountain
+arch bosgrass3
 x 49
 y 33
-elevation 0
 end
 arch cobblestones
 x 49

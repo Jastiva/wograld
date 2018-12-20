@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-02-16
-Modified: 2018-12-03 lori
+Modified: 2018-12-19 lori
 Modified: 2015-01-17 serpentshard
 endmsg
 outdoor 1
@@ -17,6 +17,7 @@ tile_path_1 world_104_114
 tile_path_2 world_105_115
 tile_path_3 world_104_116
 tile_path_4 world_103_115
+background_music grassland01
 end
 arch brush
 elevation 180
@@ -10202,10 +10203,6 @@ x 38
 y 18
 elevation 2154
 end
-arch rjunct_ns-ne
-x 38
-y 18
-end
 arch hills
 x 38
 y 19
@@ -14022,20 +14019,19 @@ arch cobblestones2
 x 48
 y 24
 end
-arch barn
-name Training Center
-name_pl Training Center
-slaying /scorn/crow/train/train
-hp 4
-sp 17
-x 48
-y 24
-end
 arch dungeon_magic
 x 48
 y 25
 end
 arch cobblestones2
+x 48
+y 25
+end
+arch woodhouse_shop
+name Training Center
+slaying /scorn/crow/train/train
+hp 4
+sp 17
 x 48
 y 25
 end

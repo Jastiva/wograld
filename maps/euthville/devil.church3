@@ -6,7 +6,9 @@ width 25
 height 25
 msg
 Created:  1993-11-24
+Modified: 2018-12-19 lori
 endmsg
+background_music lowcity
 end
 arch flagstone
 end
@@ -1060,7 +1062,7 @@ arch flagstone
 x 8
 y 9
 end
-arch flagstone
+arch lostlabfloor12
 x 8
 y 10
 end
@@ -1182,15 +1184,15 @@ arch flagstone
 x 9
 y 8
 end
-arch flagstone
+arch lostlabfloor13
 x 9
 y 9
 end
-arch flagstone
+arch lostlabfloor13
 x 9
 y 10
 end
-arch flagstone
+arch lostlabfloor13
 x 9
 y 11
 end
@@ -1308,19 +1310,19 @@ arch flagstone
 x 10
 y 8
 end
-arch flagstone
+arch lostlabfloor12
 x 10
 y 9
 end
-arch flagstone
+arch lostlabfloor12
 x 10
 y 10
 end
-arch flagstone
+arch lostlabfloor13
 x 10
 y 11
 end
-arch flagstone
+arch lostlabfloor12
 x 10
 y 12
 end
@@ -1426,19 +1428,19 @@ arch flagstone
 x 11
 y 8
 end
-arch flagstone
+arch lostlabfloor12
 x 11
 y 9
 end
-arch flagstone
+arch lostlabfloor12
 x 11
 y 10
 end
-arch flagstone
+arch lostlabfloor12
 x 11
 y 11
 end
-arch flagstone
+arch lostlabfloor12
 x 11
 y 12
 end
@@ -1552,7 +1554,7 @@ arch rough_wall_2_2_2
 x 12
 y 8
 end
-arch flagstone
+arch lostlabfloor12
 x 12
 y 9
 end
@@ -1560,7 +1562,7 @@ arch rough_wall_2_1_1
 x 12
 y 9
 end
-arch flagstone
+arch lostlabfloor12
 x 12
 y 10
 end
@@ -1568,7 +1570,7 @@ arch rough_wall_2_1_1
 x 12
 y 10
 end
-arch flagstone
+arch lostlabfloor12
 x 12
 y 11
 end
@@ -1576,7 +1578,7 @@ arch rough_wall_2_1_1
 x 12
 y 11
 end
-arch flagstone
+arch lostlabfloor12
 x 12
 y 12
 end
@@ -1922,7 +1924,7 @@ arch flagstone
 x 15
 y 10
 end
-arch flagstone
+arch lostlabfloor13
 x 15
 y 11
 end
@@ -1930,11 +1932,11 @@ arch rough_wall_1_4
 x 15
 y 11
 end
-arch flagstone
+arch lostlabfloor13
 x 15
 y 12
 end
-arch flagstone
+arch lostlabfloor13
 x 15
 y 13
 end
@@ -1954,11 +1956,11 @@ arch flagstone
 x 15
 y 17
 end
-arch flagstone
+arch lostlabfloor12
 x 15
 y 18
 end
-arch flagstone
+arch lostlabfloor12
 x 15
 y 19
 end
@@ -2016,7 +2018,7 @@ arch flagstone
 x 16
 y 6
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 7
 end
@@ -2032,7 +2034,7 @@ arch flagstone
 x 16
 y 10
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 11
 end
@@ -2040,7 +2042,7 @@ arch rough_wall_2_2_3
 x 16
 y 11
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 12
 end
@@ -2048,15 +2050,15 @@ arch rough_wall_1_2
 x 16
 y 12
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 13
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 14
 end
-arch flagstone
+arch lostlabfloor13
 x 16
 y 15
 end
@@ -2068,11 +2070,11 @@ arch flagstone
 x 16
 y 17
 end
-arch flagstone
+arch lostlabfloor12
 x 16
 y 18
 end
-arch flagstone
+arch lostlabfloor12
 x 16
 y 19
 end
@@ -2080,7 +2082,7 @@ arch rough_wall_2_1_1
 x 16
 y 19
 end
-arch flagstone
+arch lostlabfloor12
 x 16
 y 20
 end
@@ -2151,7 +2153,7 @@ arch flagstone
 x 17
 y 6
 end
-arch flagstone
+arch lostlabfloor13
 x 17
 y 7
 end
@@ -2164,7 +2166,7 @@ y 7
 attacktype 129
 can_cast_spell 1
 end
-arch flagstone
+arch lostlabfloor13
 x 17
 y 8
 end
@@ -2192,7 +2194,7 @@ arch rough_wall_1_1
 x 17
 y 13
 end
-arch flagstone
+arch lostlabfloor13
 x 17
 y 14
 end
@@ -2200,7 +2202,7 @@ arch rough_wall_2_1_1
 x 17
 y 14
 end
-arch flagstone
+arch lostlabfloor13
 x 17
 y 15
 end
@@ -2220,11 +2222,11 @@ arch flagstone
 x 17
 y 18
 end
-arch flagstone
+arch lostlabfloor12
 x 17
 y 19
 end
-arch flagstone
+arch lostlabfloor12
 x 17
 y 20
 end
@@ -2274,15 +2276,15 @@ arch flagstone
 x 18
 y 5
 end
-arch flagstone
+arch lostlabfloor13
 x 18
 y 6
 end
-arch flagstone
+arch lostlabfloor13
 x 18
 y 7
 end
-arch flagstone
+arch lostlabfloor13
 x 18
 y 8
 end
@@ -2388,7 +2390,7 @@ arch rough_wall_1_1
 x 19
 y 5
 end
-arch flagstone
+arch lostlabfloor13
 x 19
 y 6
 end
@@ -2396,7 +2398,7 @@ arch rough_wall_2_1_1
 x 19
 y 6
 end
-arch flagstone
+arch lostlabfloor13
 x 19
 y 7
 end
@@ -2404,7 +2406,7 @@ arch rough_wall_1_2
 x 19
 y 7
 end
-arch flagstone
+arch lostlabfloor13
 x 19
 y 8
 end
@@ -2998,7 +3000,7 @@ arch flagstone
 x 24
 y 3
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 3
 end
@@ -3006,7 +3008,7 @@ arch flagstone
 x 24
 y 4
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 4
 end
@@ -3014,7 +3016,7 @@ arch flagstone
 x 24
 y 5
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 5
 end
@@ -3022,7 +3024,7 @@ arch flagstone
 x 24
 y 6
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 6
 end
@@ -3030,7 +3032,7 @@ arch flagstone
 x 24
 y 7
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 7
 end
@@ -3038,7 +3040,7 @@ arch flagstone
 x 24
 y 8
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 8
 end
@@ -3046,7 +3048,7 @@ arch flagstone
 x 24
 y 9
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 9
 end
@@ -3054,7 +3056,7 @@ arch flagstone
 x 24
 y 10
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 10
 end
@@ -3062,7 +3064,7 @@ arch flagstone
 x 24
 y 11
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 11
 end
@@ -3070,7 +3072,7 @@ arch flagstone
 x 24
 y 12
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 12
 end
@@ -3078,7 +3080,7 @@ arch flagstone
 x 24
 y 13
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 13
 end
@@ -3086,7 +3088,7 @@ arch flagstone
 x 24
 y 14
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 14
 end
@@ -3094,7 +3096,7 @@ arch flagstone
 x 24
 y 15
 end
-arch bwall_2_1_1
+arch greybrick_wall1
 x 24
 y 15
 end

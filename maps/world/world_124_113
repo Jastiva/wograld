@@ -2,13 +2,17 @@ arch map
 name world_124_113
 width 50
 height 50
+msg
+Modified: 2018-12-19 lori
+endmsg
 outdoor 1
 tile_path_1 world_124_112
 tile_path_2 world_125_113
 tile_path_3 world_124_114
 tile_path_4 world_123_113
+background_music lava02
 end
-arch hills_rocky
+arch blacklostlabfloor
 elevation 3083
 end
 arch woods_3
@@ -552,17 +556,17 @@ x 2
 y 17
 elevation 8103
 end
-arch mountain
+arch blacklostlabfloor
 x 2
 y 18
 elevation 5787
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 2
 y 19
 elevation 3518
 end
-arch woods_3
+arch blacklostlabfloor
 x 2
 y 20
 elevation 1902
@@ -775,7 +779,7 @@ x 3
 y 11
 elevation 6738
 end
-arch mountain
+arch blacklostlabfloor
 x 3
 y 12
 elevation 7090
@@ -800,7 +804,7 @@ x 3
 y 16
 elevation 8371
 end
-arch mountain
+arch blacklostlabfloor
 x 3
 y 17
 elevation 6482
@@ -1033,22 +1037,22 @@ x 4
 y 12
 elevation 6872
 end
-arch mountain
+arch blacklostlabfloor
 x 4
 y 13
 elevation 7545
 end
-arch mountain
+arch blacklostlabfloor
 x 4
 y 14
 elevation 8110
 end
-arch mountain
+arch blacklostlabfloor
 x 4
 y 15
 elevation 7612
 end
-arch mountain
+arch blacklostlabfloor
 x 4
 y 16
 elevation 6947
@@ -1063,12 +1067,12 @@ x 4
 y 18
 elevation 825
 end
-arch woods_3
+arch blacklostlabfloor
 x 4
 y 19
 elevation 1379
 end
-arch woods_3
+arch blacklostlabfloor
 x 4
 y 20
 elevation 1068
@@ -1321,7 +1325,7 @@ x 5
 y 19
 elevation 145
 end
-arch woods_3
+arch blacklostlabfloor
 x 5
 y 20
 elevation 1404
@@ -1517,12 +1521,12 @@ x 6
 y 2
 elevation 3718
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 6
 y 3
 elevation 4173
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 6
 y 4
 elevation 4194
@@ -1602,7 +1606,7 @@ x 6
 y 19
 elevation 2310
 end
-arch woods_3
+arch blacklostlabfloor
 x 6
 y 20
 elevation 1366
@@ -1798,17 +1802,17 @@ x 7
 y 2
 elevation 3776
 end
-arch steppe
+arch blacklostlabfloor
 x 7
 y 3
 elevation 4092
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 7
 y 4
 elevation 4411
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 7
 y 5
 elevation 4740
@@ -1883,7 +1887,7 @@ x 7
 y 19
 elevation 806
 end
-arch woods_3
+arch blacklostlabfloor
 x 7
 y 20
 elevation 1348
@@ -2069,16 +2073,16 @@ x 7
 y 49
 elevation 1761
 end
-arch steppe
+arch blacklostlabfloor
 x 8
 elevation 3348
 end
-arch steppe
+arch blacklostlabfloor
 x 8
 y 1
 elevation 3684
 end
-arch steppe
+arch blacklostlabfloor
 x 8
 y 2
 elevation 3591
@@ -2093,7 +2097,7 @@ x 8
 y 4
 elevation 3907
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 8
 y 5
 elevation 4635
@@ -2148,7 +2152,7 @@ x 8
 y 15
 elevation 4584
 end
-arch hills_rocky
+arch permanent_lava
 x 8
 y 16
 elevation 4426
@@ -2168,7 +2172,7 @@ x 8
 y 19
 elevation 1090
 end
-arch woods_3
+arch blacklostlabfloor
 x 8
 y 20
 elevation 1326
@@ -2361,7 +2365,7 @@ x 9
 y 3
 elevation 2573
 end
-arch woods_3
+arch blacklostlabfloor
 x 9
 y 4
 elevation 2426
@@ -2371,7 +2375,7 @@ x 9
 y 5
 elevation 3810
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 9
 y 6
 elevation 4797
@@ -2401,52 +2405,52 @@ x 9
 y 11
 elevation 3690
 end
-arch hills_rocky
+arch blacksandcliff3
 x 9
 y 12
 elevation 3943
 end
-arch hills_rocky
+arch permanent_lava
 x 9
 y 13
 elevation 3932
 end
-arch hills_rocky
+arch permanent_lava
 x 9
 y 14
 elevation 3847
 end
-arch hills_rocky
+arch permanent_lava
 x 9
 y 15
 elevation 3801
 end
-arch hills_rocky
+arch permanent_lava
 x 9
 y 16
 elevation 3593
 end
-arch hills_rocky
+arch permanent_lava
 x 9
 y 17
 elevation 3082
 end
-arch woods_3
+arch permanent_lava
 x 9
 y 18
 elevation 2312
 end
-arch woods_3
+arch permanent_lava
 x 9
 y 19
 elevation 1804
 end
-arch woods_3
+arch blacklostlabfloor
 x 9
 y 20
 elevation 1398
 end
-arch woods_3
+arch blacklostlabfloor
 x 9
 y 21
 elevation 1116
@@ -2644,7 +2648,7 @@ x 10
 y 5
 elevation 3059
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 10
 y 6
 elevation 3980
@@ -2659,27 +2663,27 @@ x 10
 y 8
 elevation 3256
 end
-arch woods_3
+arch blacklostlabfloor7
 x 10
 y 9
 elevation 2384
 end
-arch woods_3
+arch blacklostlabfloor7
 x 10
 y 10
 elevation 2026
 end
-arch woods_3
+arch blacklostlabfloor7
 x 10
 y 11
 elevation 2925
 end
-arch hills_rocky
+arch blacksandcliff3
 x 10
 y 12
 elevation 3510
 end
-arch hills_rocky
+arch permanent_lava
 x 10
 y 13
 elevation 3284
@@ -2709,22 +2713,22 @@ x 10
 y 18
 elevation 1510
 end
-arch grass
+arch permanent_lava
 x 10
 y 19
 elevation 872
 end
-arch woods_3
+arch blacklostlabfloor
 x 10
 y 20
 elevation 1295
 end
-arch woods_3
+arch blacklostlabfloor
 x 10
 y 21
 elevation 1247
 end
-arch grass
+arch blacklostlabfloor
 x 10
 y 22
 elevation 912
@@ -2889,7 +2893,7 @@ arch hills_rocky
 x 11
 elevation 4947
 end
-arch steppe
+arch blacklostlabfloor
 x 11
 y 1
 elevation 4954
@@ -2914,7 +2918,7 @@ x 11
 y 5
 elevation 774
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 11
 y 6
 elevation 3246
@@ -2929,27 +2933,27 @@ x 11
 y 8
 elevation 3494
 end
-arch woods_3
+arch blacklostlabfloor7
 x 11
 y 9
 elevation 2711
 end
-arch woods_3
+arch blacklostlabfloor7
 x 11
 y 10
 elevation 2902
 end
-arch woods_3
+arch blacklostlabfloor7
 x 11
 y 11
 elevation 2946
 end
-arch woods_3
+arch blacklostlabfloor7
 x 11
 y 12
 elevation 2786
 end
-arch woods_3
+arch permanent_lava
 x 11
 y 13
 elevation 2207
@@ -2979,22 +2983,22 @@ x 11
 y 18
 elevation 1069
 end
-arch grass
+arch permanent_lava
 x 11
 y 19
 elevation 873
 end
-arch grass
+arch permanent_lava
 x 11
 y 20
 elevation 732
 end
-arch woods_3
+arch blacklostlabfloor
 x 11
 y 21
 elevation 1292
 end
-arch woods_3
+arch blacklostlabfloor
 x 11
 y 22
 elevation 1131
@@ -3161,7 +3165,7 @@ x 12
 y 2
 elevation 5197
 end
-arch steppe
+arch blacklostlabfloor
 x 12
 y 3
 elevation 4829
@@ -3176,7 +3180,7 @@ x 12
 y 5
 elevation 1930
 end
-arch woods
+arch blacklostlabfloor
 x 12
 y 6
 elevation 2490
@@ -3191,27 +3195,27 @@ x 12
 y 8
 elevation 3004
 end
-arch woods_3
+arch blacklostlabfloor7
 x 12
 y 9
 elevation 2971
 end
-arch woods_3
+arch blacklostlabfloor7
 x 12
 y 10
 elevation 2740
 end
-arch woods_3
+arch blacklostlabfloor7
 x 12
 y 11
 elevation 2440
 end
-arch woods_3
+arch blacksandcliff4
 x 12
 y 12
 elevation 1590
 end
-arch woods_3
+arch permanent_lava
 x 12
 y 13
 elevation 1130
@@ -3251,7 +3255,7 @@ x 12
 y 20
 elevation 1253
 end
-arch woods_3
+arch blacklostlabfloor
 x 12
 y 21
 elevation 1176
@@ -3438,67 +3442,67 @@ x 13
 y 5
 elevation 1375
 end
-arch woods
+arch blacklostlabfloor
 x 13
 y 6
 elevation 2506
 end
-arch woods
+arch blacklostlabfloor7
 x 13
 y 7
 elevation 1469
 end
-arch woods
+arch blacklostlabfloor7
 x 13
 y 8
 elevation 1976
 end
-arch woods_3
+arch blacklostlabfloor
 x 13
 y 9
 elevation 2476
 end
-arch woods_3
+arch blacklostlabfloor7
 x 13
 y 10
 elevation 2269
 end
-arch grass
+arch blacklostlabfloor7
 x 13
 y 11
 elevation 602
 end
-arch woods_3
+arch blacksandcliff4
 x 13
 y 12
 elevation 1531
 end
-arch woods_3
+arch permanent_lava
 x 13
 y 13
 elevation 1115
 end
-arch grass
+arch blacklostlabfloor7
 x 13
 y 14
 elevation 295
 end
-arch grass
+arch blacklostlabfloor7
 x 13
 y 15
 elevation 356
 end
-arch grass
+arch blacklostlabfloor7
 x 13
 y 16
 elevation 688
 end
-arch woods_3
+arch blacklostlabfloor7
 x 13
 y 17
 elevation 1193
 end
-arch woods_3
+arch blacklostlabfloor7
 x 13
 y 18
 elevation 1604
@@ -3513,7 +3517,7 @@ x 13
 y 20
 elevation 1323
 end
-arch grass
+arch blacklostlabfloor
 x 13
 y 21
 elevation 960
@@ -3695,11 +3699,11 @@ x 13
 y 49
 elevation 1334
 end
-arch mountain
+arch blacklostlabfloor
 x 14
 elevation 5545
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 14
 y 1
 elevation 4441
@@ -3724,52 +3728,52 @@ x 14
 y 5
 elevation 4077
 end
-arch woods
+arch blacklostlabfloor
 x 14
 y 6
 elevation 2733
 end
-arch woods_3
+arch blacklostlabfloor7
 x 14
 y 7
 elevation 1804
 end
-arch woods
+arch blacklostlabfloor7
 x 14
 y 8
 elevation 1298
 end
-arch woods_3
+arch blacklostlabfloor
 x 14
 y 9
 elevation 1833
 end
-arch woods_3
+arch blacklostlabfloor7
 x 14
 y 10
 elevation 1974
 end
-arch woods_3
+arch blacklostlabfloor7
 x 14
 y 11
 elevation 1897
 end
-arch woods_3
+arch blacksandcliff4
 x 14
 y 12
 elevation 1623
 end
-arch woods_3
+arch permanent_lava
 x 14
 y 13
 elevation 1207
 end
-arch grass
+arch blacklostlabfloor
 x 14
 y 14
 elevation 371
 end
-arch grass
+arch blacklostlabfloor7
 x 14
 y 15
 elevation 113
@@ -3779,32 +3783,32 @@ x 14
 y 16
 elevation 764
 end
-arch woods_3
+arch permanent_lava
 x 14
 y 17
 elevation 1239
 end
-arch woods_3
+arch permanent_lava
 x 14
 y 18
 elevation 1458
 end
-arch woods_3
+arch permanent_lava
 x 14
 y 19
 elevation 1425
 end
-arch woods_3
+arch permanent_lava
 x 14
 y 20
 elevation 1144
 end
-arch grass
+arch permanent_lava
 x 14
 y 21
 elevation 411
 end
-arch grass
+arch blacklostlabfloor
 x 14
 y 22
 elevation 195
@@ -3986,7 +3990,7 @@ x 14
 y 49
 elevation 2103
 end
-arch mountain
+arch blacklostlabfloor
 x 15
 elevation 6501
 end
@@ -4015,52 +4019,52 @@ x 15
 y 5
 elevation 4981
 end
-arch woods_3
+arch blacklostlabfloor
 x 15
 y 6
 elevation 2697
 end
-arch woods_3
+arch blacklostlabfloor7
 x 15
 y 7
 elevation 1863
 end
-arch desert
+arch blacklostlabfloor7
 x 15
 y 8
 elevation 838
 end
-arch woods_3
+arch blacklostlabfloor
 x 15
 y 9
 elevation 1379
 end
-arch woods_3
+arch blacklostlabfloor7
 x 15
 y 10
 elevation 1769
 end
-arch woods_3
+arch blacklostlabfloor7
 x 15
 y 11
 elevation 1746
 end
-arch woods_3
+arch blacksandcliff4
 x 15
 y 12
 elevation 1457
 end
-arch grass
+arch permanent_lava
 x 15
 y 13
 elevation 952
 end
-arch grass
+arch blacklostlabfloor
 x 15
 y 14
 elevation 511
 end
-arch grass
+arch blacklostlabfloor7
 x 15
 y 15
 elevation 190
@@ -4070,32 +4074,32 @@ x 15
 y 16
 elevation 260
 end
-arch grass
+arch permanent_lava
 x 15
 y 17
 elevation 770
 end
-arch grass
+arch blackrock
 x 15
 y 18
 elevation 435
 end
-arch woods_3
+arch blackrock
 x 15
 y 19
 elevation 1078
 end
-arch woods_3
+arch permanent_lava
 x 15
 y 20
 elevation 1334
 end
-arch grass
+arch permanent_lava
 x 15
 y 21
 elevation 208
 end
-arch grass
+arch blacklostlabfloor
 x 15
 y 22
 elevation 329
@@ -4288,7 +4292,7 @@ x 15
 y 49
 elevation 2465
 end
-arch mountain
+arch blacklostlabfloor
 x 16
 elevation 7521
 end
@@ -4317,92 +4321,92 @@ x 16
 y 5
 elevation 5417
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 16
 y 6
 elevation 3144
 end
-arch woods_3
+arch blacklostlabfloor7
 x 16
 y 7
 elevation 1598
 end
-arch grass
+arch blacklostlabfloor7
 x 16
 y 8
 elevation 424
 end
-arch grass
+arch blacklostlabfloor7
 x 16
 y 9
 elevation 965
 end
-arch woods_3
+arch blacklostlabfloor7
 x 16
 y 10
 elevation 1173
 end
-arch woods_3
+arch blacklostlabfloor7
 x 16
 y 11
 elevation 1084
 end
-arch grass
+arch blacksandcliff4
 x 16
 y 12
 elevation 360
 end
-arch grass
+arch permanent_lava
 x 16
 y 13
 elevation 316
 end
-arch grass
+arch permanent_lava
 x 16
 y 14
 elevation 316
 end
-arch grass
+arch blacklostlabfloor7
 x 16
 y 15
 elevation 11
 end
-arch grass
+arch permanent_lava
 x 16
 y 16
 elevation 71
 end
-arch grass
+arch permanent_lava
 x 16
 y 17
 elevation 44
 end
-arch grass
+arch blackrock
 x 16
 y 18
 elevation 433
 end
-arch woods_3
+arch blackrock
 x 16
 y 19
 elevation 1561
 end
-arch woods_3
+arch permanent_lava
 x 16
 y 20
 elevation 1870
 end
-arch woods_3
+arch permanent_lava
 x 16
 y 21
 elevation 1738
 end
-arch grass
+arch blacklostlabfloor
 x 16
 y 22
 elevation 881
 end
-arch woods_3
+arch beach
 x 16
 y 23
 elevation 1104
@@ -4411,7 +4415,7 @@ arch dungeon_magic
 x 16
 y 23
 end
-arch grass
+arch beach
 x 16
 y 24
 elevation 517
@@ -4613,7 +4617,7 @@ x 16
 y 49
 elevation 3619
 end
-arch mountain
+arch blacklostlabfloor
 x 17
 elevation 8289
 end
@@ -4642,92 +4646,92 @@ x 17
 y 5
 elevation 5671
 end
-arch woods_3
+arch blacklostlabfloor
 x 17
 y 6
 elevation 1901
 end
-arch grass
+arch blacklostlabfloor7
 x 17
 y 7
 elevation 855
 end
-arch desert
+arch blacklostlabfloor
 x 17
 y 8
 elevation 965
 end
-arch grass
+arch blacklostlabfloor7
 x 17
 y 9
 elevation 904
 end
-arch grass
+arch blacklostlabfloor7
 x 17
 y 10
 elevation 322
 end
-arch grass
+arch blacklostlabfloor
 x 17
 y 11
 elevation 219
 end
-arch grass
+arch blacksandcliff4
 x 17
 y 12
 elevation 150
 end
-arch grass
+arch permanent_lava
 x 17
 y 13
 elevation 247
 end
-arch grass
+arch permanent_lava
 x 17
 y 14
 elevation 165
 end
-arch grass
+arch permanent_lava
 x 17
 y 15
 elevation 69
 end
-arch grass
+arch permanent_lava
 x 17
 y 16
 elevation 121
 end
-arch grass
+arch blackrock
 x 17
 y 17
 elevation 763
 end
-arch woods_3
+arch blackrock
 x 17
 y 18
 elevation 1336
 end
-arch woods_3
+arch blackrock
 x 17
 y 19
 elevation 1932
 end
-arch woods_3
+arch permanent_lava
 x 17
 y 20
 elevation 2401
 end
-arch woods_3
+arch permanent_lava
 x 17
 y 21
 elevation 2407
 end
-arch woods_3
+arch blacklostlabfloor
 x 17
 y 22
 elevation 2059
 end
-arch woods_3
+arch beach
 x 17
 y 23
 elevation 1612
@@ -4736,7 +4740,7 @@ arch dungeon_magic
 x 17
 y 23
 end
-arch woods_3
+arch beach
 x 17
 y 24
 elevation 1114
@@ -4954,121 +4958,121 @@ x 17
 y 49
 elevation 4964
 end
-arch mountain
+arch blacklostlabfloor
 x 18
 elevation 8380
 end
-arch mountain
+arch blacklostlabfloor
 x 18
 y 1
 elevation 8608
 end
-arch mountain2
+arch blacklostlabfloor
 x 18
 y 2
 elevation 9122
 end
-arch mountain2
+arch blacklostlabfloor
 x 18
 y 3
 elevation 9090
 end
-arch mountain
+arch blacklostlabfloor
 x 18
 y 4
 elevation 8064
 end
-arch mountain
+arch blacklostlabfloor
 x 18
 y 5
 elevation 5651
 end
-arch woods
+arch blacklostlabfloor
 x 18
 y 6
 elevation 2012
 end
-arch woods
+arch blacklostlabfloor7
 x 18
 y 7
 elevation 2141
 end
-arch woods_3
+arch blacklostlabfloor
 x 18
 y 8
 elevation 1698
 end
-arch grass
+arch blacklostlabfloor7
 x 18
 y 9
 elevation 964
 end
-arch grass
+arch blacklostlabfloor7
 x 18
 y 10
 elevation 423
 end
-arch grass
+arch blacklostlabfloor
 x 18
 y 11
 elevation 441
 end
-arch grass
+arch blacksandcliff4
 x 18
 y 12
 elevation 421
 end
-arch grass
+arch permanent_lava
 x 18
 y 13
 elevation 185
 end
-arch grass
+arch blackrock
 x 18
 y 14
 elevation 35
 end
-arch grass
+arch blackrock
 x 18
 y 15
 elevation 126
 end
-arch grass
+arch blackrock
 x 18
 y 16
 elevation 708
 end
-arch woods_3
+arch blackrock
 x 18
 y 17
 elevation 1197
 end
-arch woods_3
+arch blackrock
 x 18
 y 18
 elevation 1507
 end
-arch woods_3
+arch blackrock
 x 18
 y 19
 elevation 1905
 end
-arch woods_3
+arch permanent_lava
 x 18
 y 20
 elevation 2415
 end
-arch woods_3
+arch permanent_lava
 x 18
 y 21
 elevation 2516
 end
-arch woods_3
+arch blacklostlabfloor
 x 18
 y 22
 elevation 2138
 end
-arch woods_3
+arch beach
 x 18
 y 23
 elevation 1571
@@ -5077,7 +5081,7 @@ arch dungeon_magic
 x 18
 y 23
 end
-arch woods_3
+arch beach
 x 18
 y 24
 elevation 1361
@@ -5086,7 +5090,7 @@ arch dungeon_magic
 x 18
 y 24
 end
-arch woods_3
+arch beach
 x 18
 y 25
 elevation 1080
@@ -5291,121 +5295,121 @@ x 18
 y 49
 elevation 5353
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 elevation 7792
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 1
 elevation 7786
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 2
 elevation 7826
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 3
 elevation 7798
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 4
 elevation 7198
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 5
 elevation 5866
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 19
 y 6
 elevation 3060
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 19
 y 7
 elevation 3245
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 8
 elevation 2313
 end
-arch grass
+arch blacklostlabfloor7
 x 19
 y 9
 elevation 905
 end
-arch grass
+arch blacklostlabfloor7
 x 19
 y 10
 elevation 844
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 11
 elevation 783
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 12
 elevation 679
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 13
 elevation 428
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 14
 elevation 69
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 15
 elevation 155
 end
-arch grass
+arch blacklostlabfloor
 x 19
 y 16
 elevation 768
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 17
 elevation 1183
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 18
 elevation 1374
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 19
 elevation 1554
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 20
 elevation 2143
 end
-arch woods_3
+arch permanent_lava
 x 19
 y 21
 elevation 1931
 end
-arch woods_3
+arch blacklostlabfloor
 x 19
 y 22
 elevation 1746
 end
-arch woods_3
+arch beach
 x 19
 y 23
 elevation 1194
@@ -5414,7 +5418,7 @@ arch dungeon_magic
 x 19
 y 23
 end
-arch woods_3
+arch beach
 x 19
 y 24
 elevation 1405
@@ -5423,7 +5427,7 @@ arch dungeon_magic
 x 19
 y 24
 end
-arch woods_3
+arch beach
 x 19
 y 25
 elevation 1412
@@ -5594,7 +5598,7 @@ arch dungeon_magic
 x 19
 y 43
 end
-arch woods_3
+arch beach
 x 19
 y 44
 elevation 2926
@@ -5628,121 +5632,121 @@ x 19
 y 49
 elevation 4510
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 elevation 6808
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 1
 elevation 5647
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 2
 elevation 6388
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 20
 y 3
 elevation 4973
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 4
 elevation 5861
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 5
 elevation 6506
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 6
 elevation 5734
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 20
 y 7
 elevation 4166
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 8
 elevation 2533
 end
-arch grass
+arch blacklostlabfloor7
 x 20
 y 9
 elevation 795
 end
-arch grass
+arch blacklostlabfloor7
 x 20
 y 10
 elevation 946
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 11
 elevation 1084
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 12
 elevation 781
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 13
 elevation 414
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 14
 elevation 65
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 15
 elevation 122
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 16
 elevation 518
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 17
 elevation 1080
 end
-arch grass
+arch blacklostlabfloor
 x 20
 y 18
 elevation 620
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 19
 elevation 1706
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 20
 elevation 1966
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 21
 elevation 1742
 end
-arch woods_3
+arch blacklostlabfloor
 x 20
 y 22
 elevation 1317
 end
-arch woods_3
+arch beach
 x 20
 y 23
 elevation 1081
@@ -5760,7 +5764,7 @@ arch dungeon_magic
 x 20
 y 24
 end
-arch hills
+arch beach
 x 20
 y 25
 elevation 1576
@@ -5769,7 +5773,7 @@ arch dungeon_magic
 x 20
 y 25
 end
-arch woods_3
+arch beach
 x 20
 y 26
 elevation 1575
@@ -6005,121 +6009,121 @@ x 20
 y 49
 elevation 3738
 end
-arch mountain
+arch blackrock
 x 21
 elevation 8370
 end
-arch mountain
+arch blackrock
 x 21
 y 1
 elevation 7534
 end
-arch mountain
+arch blackrock
 x 21
 y 2
 elevation 6971
 end
-arch mountain
+arch blackrock
 x 21
 y 3
 elevation 6924
 end
-arch mountain
+arch blackrock
 x 21
 y 4
 elevation 6728
 end
-arch mountain
+arch blackrock
 x 21
 y 5
 elevation 7581
 end
-arch mountain
+arch blackrock
 x 21
 y 6
 elevation 6859
 end
-arch hills_rocky
+arch blackrock
 x 21
 y 7
 elevation 4722
 end
-arch woods_3
+arch blackrock
 x 21
 y 8
 elevation 1781
 end
-arch grass
+arch blackrock
 x 21
 y 9
 elevation 835
 end
-arch woods_3
+arch blackrock
 x 21
 y 10
 elevation 1645
 end
-arch woods_3
+arch blacklostlabfloor
 x 21
 y 11
 elevation 1436
 end
-arch grass
+arch blackrock
 x 21
 y 12
 elevation 423
 end
-arch grass
+arch blackrock
 x 21
 y 13
 elevation 82
 end
-arch grass
+arch blackrock
 x 21
 y 14
 elevation 112
 end
-arch grass
+arch blackrock
 x 21
 y 15
 elevation 54
 end
-arch grass
+arch blackrock
 x 21
 y 16
 elevation 327
 end
-arch grass
+arch blackrock
 x 21
 y 17
 elevation 933
 end
-arch woods_3
+arch blackrock
 x 21
 y 18
 elevation 1483
 end
-arch woods_3
+arch blackrock
 x 21
 y 19
 elevation 1923
 end
-arch woods_3
+arch blackrock
 x 21
 y 20
 elevation 2028
 end
-arch woods_3
+arch blackrock
 x 21
 y 21
 elevation 1535
 end
-arch grass
+arch blackrock
 x 21
 y 22
 elevation 81
 end
-arch grass
+arch beach
 x 21
 y 23
 elevation 441
@@ -6128,7 +6132,7 @@ arch dungeon_magic
 x 21
 y 23
 end
-arch woods_3
+arch beach
 x 21
 y 24
 elevation 1085
@@ -6137,7 +6141,7 @@ arch dungeon_magic
 x 21
 y 24
 end
-arch woods_3
+arch beach
 x 21
 y 25
 elevation 1611
@@ -6164,7 +6168,7 @@ arch dungeon_magic
 x 21
 y 27
 end
-arch woods_3
+arch beach
 x 21
 y 28
 elevation 1030
@@ -6263,7 +6267,7 @@ arch dungeon_magic
 x 21
 y 38
 end
-arch woods_3
+arch beach
 x 21
 y 39
 elevation 1565
@@ -6272,7 +6276,7 @@ arch dungeon_magic
 x 21
 y 39
 end
-arch woods_3
+arch beach
 x 21
 y 40
 elevation 2117
@@ -6338,121 +6342,121 @@ x 21
 y 49
 elevation 6477
 end
-arch mountain
+arch blackrock
 x 22
 elevation 8817
 end
-arch mountain
+arch blackrock
 x 22
 y 1
 elevation 7963
 end
-arch mountain
+arch blackrock
 x 22
 y 2
 elevation 7457
 end
-arch mountain
+arch blackrock
 x 22
 y 3
 elevation 7540
 end
-arch mountain
+arch blackrock
 x 22
 y 4
 elevation 8106
 end
-arch mountain
+arch blackrock
 x 22
 y 5
 elevation 8524
 end
-arch mountain
+arch blackrock
 x 22
 y 6
 elevation 7604
 end
-arch mountain
+arch blackrock
 x 22
 y 7
 elevation 5068
 end
-arch woods
+arch blackrock
 x 22
 y 8
 elevation 1247
 end
-arch woods_3
+arch blackrock
 x 22
 y 9
 elevation 2234
 end
-arch woods_3
+arch blackrock
 x 22
 y 10
 elevation 2452
 end
-arch woods_3
+arch blackrock
 x 22
 y 11
 elevation 2103
 end
-arch grass
+arch blackrock
 x 22
 y 12
 elevation 441
 end
-arch grass
+arch blackrock
 x 22
 y 13
 elevation 287
 end
-arch grass
+arch blackrock
 x 22
 y 14
 elevation 150
 end
-arch grass
+arch blackrock
 x 22
 y 15
 elevation 168
 end
-arch grass
+arch blackrock
 x 22
 y 16
 elevation 391
 end
-arch grass
+arch blackrock
 x 22
 y 17
 elevation 457
 end
-arch woods_3
+arch blackrock
 x 22
 y 18
 elevation 1652
 end
-arch woods_3
+arch blackrock
 x 22
 y 19
 elevation 2163
 end
-arch woods_3
+arch blackrock
 x 22
 y 20
 elevation 2188
 end
-arch woods_3
+arch blackrock
 x 22
 y 21
 elevation 1519
 end
-arch grass
+arch blackrock
 x 22
 y 22
 elevation 261
 end
-arch grass
+arch beach
 x 22
 y 23
 elevation 80
@@ -6461,7 +6465,7 @@ arch dungeon_magic
 x 22
 y 23
 end
-arch woods_3
+arch beach
 x 22
 y 24
 elevation 1169
@@ -6470,7 +6474,7 @@ arch dungeon_magic
 x 22
 y 24
 end
-arch hills
+arch beach
 x 22
 y 25
 elevation 1634
@@ -6479,7 +6483,7 @@ arch dungeon_magic
 x 22
 y 25
 end
-arch hills
+arch beach
 x 22
 y 26
 elevation 1646
@@ -6488,7 +6492,7 @@ arch dungeon_magic
 x 22
 y 26
 end
-arch hills
+arch beach
 x 22
 y 27
 elevation 1438
@@ -6497,7 +6501,7 @@ arch dungeon_magic
 x 22
 y 27
 end
-arch woods_3
+arch beach
 x 22
 y 28
 elevation 1227
@@ -6506,7 +6510,7 @@ arch dungeon_magic
 x 22
 y 28
 end
-arch hills_rocky
+arch beach
 x 22
 y 29
 elevation 1110
@@ -6515,7 +6519,7 @@ arch dungeon_magic
 x 22
 y 29
 end
-arch grass
+arch beach
 x 22
 y 30
 elevation 10
@@ -6524,7 +6528,7 @@ arch dungeon_magic
 x 22
 y 30
 end
-arch grass
+arch beach
 x 22
 y 31
 elevation 382
@@ -6587,7 +6591,7 @@ arch dungeon_magic
 x 22
 y 37
 end
-arch woods_3
+arch beach
 x 22
 y 38
 elevation 1753
@@ -6596,7 +6600,7 @@ arch dungeon_magic
 x 22
 y 38
 end
-arch woods_3
+arch beach
 x 22
 y 39
 elevation 2589
@@ -6605,7 +6609,7 @@ arch dungeon_magic
 x 22
 y 39
 end
-arch hills
+arch beach
 x 22
 y 40
 elevation 3090
@@ -6614,7 +6618,7 @@ arch dungeon_magic
 x 22
 y 40
 end
-arch hills
+arch beach
 x 22
 y 41
 elevation 3281
@@ -6623,7 +6627,7 @@ arch dungeon_magic
 x 22
 y 41
 end
-arch hills
+arch beach
 x 22
 y 42
 elevation 3514
@@ -6632,7 +6636,7 @@ arch dungeon_magic
 x 22
 y 42
 end
-arch hills_rocky
+arch beach
 x 22
 y 43
 elevation 3950
@@ -6651,7 +6655,7 @@ x 22
 y 45
 elevation 3977
 end
-arch mountain
+arch blackrock
 x 22
 y 46
 elevation 6141
@@ -6671,241 +6675,241 @@ x 22
 y 49
 elevation 8156
 end
-arch mountain
+arch blackrock
 x 23
 elevation 7973
 end
-arch mountain
+arch blackrock
 x 23
 y 1
 elevation 7492
 end
-arch mountain
+arch blackrock
 x 23
 y 2
 elevation 6984
 end
-arch mountain
+arch blackrock
 x 23
 y 3
 elevation 6512
 end
-arch mountain
+arch blackrock
 x 23
 y 4
 elevation 8568
 end
-arch mountain2
+arch blackrock
 x 23
 y 5
 elevation 9226
 end
-arch mountain
+arch blackrock
 x 23
 y 6
 elevation 7930
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 7
 elevation 5611
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 23
 y 8
 elevation 3849
 end
-arch hills_rocky
+arch blackrock
 x 23
 y 9
 elevation 3177
 end
-arch hills_rocky
+arch blackrock
 x 23
 y 10
 elevation 3198
 end
-arch hills
+arch blackrock
 x 23
 y 11
 elevation 2829
 end
-arch hills
+arch blackrock
 x 23
 y 12
 elevation 2128
 end
-arch hills
+arch blackrock
 x 23
 y 13
 elevation 1387
 end
-arch desert
+arch blackrock
 x 23
 y 14
 elevation 966
 end
-arch grass
+arch blackrock
 x 23
 y 15
 elevation 820
 end
-arch grass
+arch blackrock
 x 23
 y 16
 elevation 913
 end
-arch woods_3
+arch blacklostlabfloor
 x 23
 y 17
 elevation 1225
 end
-arch woods_3
+arch blacklostlabfloor
 x 23
 y 18
 elevation 1665
 end
-arch hills
+arch blacklostlabfloor
 x 23
 y 19
 elevation 2157
 end
-arch hills
+arch blacklostlabfloor
 x 23
 y 20
 elevation 2231
 end
-arch hills
+arch blacklostlabfloor
 x 23
 y 21
 elevation 1607
 end
-arch desert
+arch blackrock
 x 23
 y 22
 elevation 638
 end
-arch desert
+arch blackrock
 x 23
 y 23
 elevation 764
 end
-arch woods_3
+arch blackrock
 x 23
 y 24
 elevation 1215
 end
-arch hills
+arch blackrock
 x 23
 y 25
 elevation 1666
 end
-arch woods_3
+arch blackrock
 x 23
 y 26
 elevation 1618
 end
-arch grass
+arch blackrock
 x 23
 y 27
 elevation 698
 end
-arch woods_3
+arch blackrock
 x 23
 y 28
 elevation 1390
 end
-arch tree
+arch blackrock
 x 23
 y 29
 elevation 1448
 end
-arch woods_3
+arch blackrock
 x 23
 y 30
 elevation 1094
 end
-arch woods
+arch blackrock
 x 23
 y 31
 elevation 1879
 end
-arch woods_3
+arch blackrock
 x 23
 y 32
 elevation 1862
 end
-arch hills
+arch blackrock
 x 23
 y 33
 elevation 1534
 end
-arch desert
+arch blackrock
 x 23
 y 34
 elevation 542
 end
-arch grass
+arch blackrock
 x 23
 y 35
 elevation 260
 end
-arch grass
+arch blackrock
 x 23
 y 36
 elevation 644
 end
-arch woods_3
+arch blackrock
 x 23
 y 37
 elevation 1062
 end
-arch woods_3
+arch blackrock
 x 23
 y 38
 elevation 2536
 end
-arch hills
+arch blackrock
 x 23
 y 39
 elevation 3400
 end
-arch hills
+arch blackrock
 x 23
 y 40
 elevation 3697
 end
-arch hills
+arch blackrock
 x 23
 y 41
 elevation 3694
 end
-arch hills_rocky
+arch blackrock
 x 23
 y 42
 elevation 3703
 end
-arch hills
+arch blackrock
 x 23
 y 43
 elevation 3763
 end
-arch hills
+arch blackrock
 x 23
 y 44
 elevation 4646
 end
-arch mountain
+arch blackrock
 x 23
 y 45
 elevation 5358
 end
-arch mountain
+arch blackrock
 x 23
 y 46
 elevation 7048
 end
-arch mountain
+arch blackrock
 x 23
 y 47
 elevation 7476
@@ -6920,241 +6924,241 @@ x 23
 y 49
 elevation 8950
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 elevation 6555
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 1
 elevation 5005
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 2
 elevation 7170
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 3
 elevation 5506
 end
-arch mountain2
+arch blacklostlabfloor
 x 24
 y 4
 elevation 9583
 end
-arch mountain2
+arch blacklostlabfloor
 x 24
 y 5
 elevation 9911
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 6
 elevation 8112
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 24
 y 7
 elevation 4889
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 24
 y 8
 elevation 3961
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 24
 y 9
 elevation 3691
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 24
 y 10
 elevation 3530
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 24
 y 11
 elevation 3249
 end
-arch hills
+arch blacklostlabfloor
 x 24
 y 12
 elevation 2748
 end
-arch woods_3
+arch blacklostlabfloor
 x 24
 y 13
 elevation 2147
 end
-arch hills
+arch blacklostlabfloor
 x 24
 y 14
 elevation 1523
 end
-arch desert
+arch blacklostlabfloor
 x 24
 y 15
 elevation 982
 end
-arch hills
+arch blacklostlabfloor
 x 24
 y 16
 elevation 1234
 end
-arch hills
+arch blacklostlabfloor
 x 24
 y 17
 elevation 1467
 end
-arch woods_3
+arch blacklostlabfloor
 x 24
 y 18
 elevation 1441
 end
-arch woods_3
+arch blacklostlabfloor
 x 24
 y 19
 elevation 2012
 end
-arch woods_3
+arch blacklostlabfloor
 x 24
 y 20
 elevation 2012
 end
-arch hills
+arch blacklostlabfloor
 x 24
 y 21
 elevation 1684
 end
-arch grass
+arch blacklostlabfloor
 x 24
 y 22
 elevation 722
 end
-arch desert
+arch blackrock
 x 24
 y 23
 elevation 576
 end
-arch woods_3
+arch blackrock
 x 24
 y 24
 elevation 1185
 end
-arch woods_3
+arch blackrock
 x 24
 y 25
 elevation 1628
 end
-arch woods_3
+arch blackrock
 x 24
 y 26
 elevation 1562
 end
-arch hills
+arch blackrock
 x 24
 y 27
 elevation 1014
 end
-arch woods_3
+arch blackrock
 x 24
 y 28
 elevation 1255
 end
-arch hills
+arch blackrock
 x 24
 y 29
 elevation 1685
 end
-arch hills
+arch blackrock
 x 24
 y 30
 elevation 2186
 end
-arch hills
+arch blackrock
 x 24
 y 31
 elevation 2705
 end
-arch woods_3
+arch blackrock
 x 24
 y 32
 elevation 2967
 end
-arch woods_3
+arch blackrock
 x 24
 y 33
 elevation 2594
 end
-arch hills
+arch blackrock
 x 24
 y 34
 elevation 2086
 end
-arch woods_3
+arch blackrock
 x 24
 y 35
 elevation 1891
 end
-arch woods_3
+arch blackrock
 x 24
 y 36
 elevation 1809
 end
-arch woods_3
+arch blackrock
 x 24
 y 37
 elevation 2209
 end
-arch hills
+arch blackrock
 x 24
 y 38
 elevation 3036
 end
-arch hills
+arch blackrock
 x 24
 y 39
 elevation 3948
 end
-arch hills_rocky
+arch blackrock
 x 24
 y 40
 elevation 3964
 end
-arch hills_rocky
+arch blackrock
 x 24
 y 41
 elevation 3466
 end
-arch hills
+arch blackrock
 x 24
 y 42
 elevation 3178
 end
-arch hills_rocky
+arch blackrock
 x 24
 y 43
 elevation 3571
 end
-arch hills
+arch blackrock
 x 24
 y 44
 elevation 4507
 end
-arch mountain
+arch blackrock
 x 24
 y 45
 elevation 6325
 end
-arch mountain
+arch blackrock
 x 24
 y 46
 elevation 7901
 end
-arch mountain
+arch blackrock
 x 24
 y 47
 elevation 8724
@@ -7169,156 +7173,156 @@ x 24
 y 49
 elevation 8609
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 elevation 5095
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 1
 elevation 7065
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 2
 elevation 8671
 end
-arch mountain2
+arch permanent_lava
 x 25
 y 3
 elevation 10283
 end
-arch mountain2
+arch blacklostlabfloor
 x 25
 y 4
 elevation 10861
 end
-arch mountain2
+arch blacklostlabfloor
 x 25
 y 5
 elevation 10172
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 6
 elevation 7688
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 7
 elevation 5096
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 25
 y 8
 elevation 3503
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 25
 y 9
 elevation 3169
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 25
 y 10
 elevation 3149
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 25
 y 11
 elevation 3030
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 12
 elevation 2771
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 13
 elevation 2331
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 14
 elevation 1836
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 15
 elevation 1414
 end
-arch desert
+arch blacklostlabfloor
 x 25
 y 16
 elevation 721
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 17
 elevation 1768
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 18
 elevation 2005
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 19
 elevation 1261
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 20
 elevation 1959
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 21
 elevation 1638
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 22
 elevation 1732
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 23
 elevation 1649
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 24
 elevation 1185
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 25
 elevation 1430
 end
-arch woods_3
+arch blackrock
 x 25
 y 26
 elevation 1318
 end
-arch hills
+arch blackrock
 x 25
 y 27
 elevation 1248
 end
-arch tree
+arch blackrock
 x 25
 y 28
 elevation 1370
 end
-arch woods_3
+arch blackrock
 x 25
 y 29
 elevation 1505
 end
-arch woods_3
+arch blackrock
 x 25
 y 30
 elevation 1515
@@ -7328,7 +7332,7 @@ x 25
 y 31
 elevation 2216
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 32
 elevation 2777
@@ -7338,22 +7342,22 @@ x 25
 y 33
 elevation 2973
 end
-arch woods
+arch blacklostlabfloor
 x 25
 y 34
 elevation 2961
 end
-arch hills
+arch blacklostlabfloor
 x 25
 y 35
 elevation 2850
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 36
 elevation 2505
 end
-arch woods_3
+arch blacklostlabfloor
 x 25
 y 37
 elevation 1738
@@ -7393,17 +7397,17 @@ x 25
 y 44
 elevation 3851
 end
-arch mountain
+arch blackrock
 x 25
 y 45
 elevation 6144
 end
-arch mountain
+arch blackrock
 x 25
 y 46
 elevation 8170
 end
-arch mountain2
+arch blackrock
 x 25
 y 47
 elevation 9081
@@ -7418,156 +7422,156 @@ x 25
 y 49
 elevation 6924
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 elevation 2558
 end
-arch mountain
+arch blacklostlabfloor
 x 26
 y 1
 elevation 7448
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 2
 elevation 10225
 end
-arch mountain2
+arch permanent_lava
 x 26
 y 3
 elevation 11659
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 4
 elevation 11152
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 5
 elevation 9238
 end
-arch mountain
+arch blacklostlabfloor
 x 26
 y 6
 elevation 6210
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 7
 elevation 2897
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 8
 elevation 1910
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 9
 elevation 1292
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 10
 elevation 2603
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 11
 elevation 2694
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 12
 elevation 1910
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 13
 elevation 2125
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 14
 elevation 1717
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 15
 elevation 1395
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 16
 elevation 1543
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 17
 elevation 2115
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 18
 elevation 2351
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 19
 elevation 2265
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 20
 elevation 1989
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 21
 elevation 2081
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 22
 elevation 2334
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 23
 elevation 2342
 end
-arch hills
+arch blacklostlabfloor
 x 26
 y 24
 elevation 1943
 end
-arch desert
+arch blacklostlabfloor
 x 26
 y 25
 elevation 970
 end
-arch grass
+arch blacklostlabfloor
 x 26
 y 26
 elevation 75
 end
-arch grass
+arch blackrock
 x 26
 y 27
 elevation 952
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 28
 elevation 1205
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 29
 elevation 1060
 end
-arch grass
+arch blacklostlabfloor
 x 26
 y 30
 elevation 94
@@ -7582,17 +7586,17 @@ x 26
 y 32
 elevation 1635
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 33
 elevation 2465
 end
-arch woods_3
+arch blacklostlabfloor
 x 26
 y 34
 elevation 2939
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 26
 y 35
 elevation 3088
@@ -7642,17 +7646,17 @@ x 26
 y 44
 elevation 2895
 end
-arch mountain
+arch blackrock
 x 26
 y 45
 elevation 5590
 end
-arch mountain
+arch blackrock
 x 26
 y 46
 elevation 7430
 end
-arch mountain2
+arch blackrock
 x 26
 y 47
 elevation 9219
@@ -7667,136 +7671,136 @@ x 26
 y 49
 elevation 7600
 end
-arch steppe
+arch blacklostlabfloor
 x 27
 elevation 4028
 end
-arch mountain
+arch blacklostlabfloor
 x 27
 y 1
 elevation 7281
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 2
 elevation 9941
 end
-arch mountain2
+arch permanent_lava
 x 27
 y 3
 elevation 10942
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 4
 elevation 9987
 end
-arch mountain
+arch blacklostlabfloor
 x 27
 y 5
 elevation 6717
 end
-arch hills_rocky
+arch permanent_lava
 x 27
 y 6
 elevation 4743
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 7
 elevation 2824
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 8
 elevation 1756
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 9
 elevation 1756
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 10
 elevation 2155
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 11
 elevation 2357
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 12
 elevation 2142
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 13
 elevation 1666
 end
-arch grass
+arch blacklostlabfloor
 x 27
 y 14
 elevation 680
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 15
 elevation 1048
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 16
 elevation 1796
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 17
 elevation 2274
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 18
 elevation 2454
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 19
 elevation 2429
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 20
 elevation 2434
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 21
 elevation 2479
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 22
 elevation 2581
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 23
 elevation 2562
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 24
 elevation 2138
 end
-arch hills
+arch blacklostlabfloor
 x 27
 y 25
 elevation 1287
 end
-arch desert
+arch blacklostlabfloor
 x 27
 y 26
 elevation 274
@@ -7831,7 +7835,7 @@ x 27
 y 32
 elevation 93
 end
-arch woods_3
+arch blacklostlabfloor
 x 27
 y 33
 elevation 1003
@@ -7896,12 +7900,12 @@ x 27
 y 45
 elevation 7796
 end
-arch mountain
+arch blackrock
 x 27
 y 46
 elevation 8998
 end
-arch mountain2
+arch blackrock
 x 27
 y 47
 elevation 9392
@@ -7916,131 +7920,131 @@ x 27
 y 49
 elevation 7437
 end
-arch steppe
+arch blacklostlabfloor
 x 28
 elevation 4275
 end
-arch mountain
+arch blacklostlabfloor
 x 28
 y 1
 elevation 6610
 end
-arch mountain
+arch blacklostlabfloor
 x 28
 y 2
 elevation 8388
 end
-arch mountain
+arch permanent_lava
 x 28
 y 3
 elevation 8875
 end
-arch mountain
+arch blacklostlabfloor
 x 28
 y 4
 elevation 8068
 end
-arch mountain
+arch blacklostlabfloor
 x 28
 y 5
 elevation 6346
 end
-arch hills_rocky
+arch permanent_lava
 x 28
 y 6
 elevation 4311
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 7
 elevation 1833
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 8
 elevation 2224
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 9
 elevation 1292
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 10
 elevation 2096
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 11
 elevation 2031
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 12
 elevation 1713
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 13
 elevation 1206
 end
-arch grass
+arch blacklostlabfloor
 x 28
 y 14
 elevation 505
 end
-arch grass
+arch blacklostlabfloor
 x 28
 y 15
 elevation 680
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 16
 elevation 1813
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 17
 elevation 2221
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 18
 elevation 1708
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 19
 elevation 2404
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 20
 elevation 2467
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 21
 elevation 2357
 end
-arch hills
+arch blacklostlabfloor
 x 28
 y 22
 elevation 2172
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 23
 elevation 2126
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 24
 elevation 1895
 end
-arch woods_3
+arch blacklostlabfloor
 x 28
 y 25
 elevation 1302
@@ -8165,71 +8169,71 @@ x 28
 y 49
 elevation 6905
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 29
 elevation 3968
 end
-arch mountain
+arch blacklostlabfloor
 x 29
 y 1
 elevation 5126
 end
-arch mountain
+arch blacklostlabfloor
 x 29
 y 2
 elevation 6693
 end
-arch mountain
+arch permanent_lava
 x 29
 y 3
 elevation 6849
 end
-arch mountain
+arch blacklostlabfloor
 x 29
 y 4
 elevation 5222
 end
-arch mountain
+arch blacklostlabfloor
 x 29
 y 5
 elevation 5413
 end
-arch hills_rocky
+arch permanent_lava
 x 29
 y 6
 elevation 4421
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 29
 y 7
 elevation 3781
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 29
 y 8
 elevation 3208
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 9
 elevation 2741
 end
-arch hills
+arch blacklostlabfloor
 x 29
 y 10
 elevation 1980
 end
-arch hills
+arch blacklostlabfloor7
 x 29
 y 11
 elevation 1044
 end
-arch hills
+arch blacklostlabfloor7
 x 29
 y 12
 elevation 1160
 end
-arch grass
+arch blacklostlabfloor
 x 29
 y 13
 elevation 989
@@ -8239,62 +8243,62 @@ x 29
 y 14
 elevation 312
 end
-arch hills
+arch blacklostlabfloor
 x 29
 y 15
 elevation 1178
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 16
 elevation 1734
 end
-arch hills
+arch blacklostlabfloor
 x 29
 y 17
 elevation 2073
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 18
 elevation 2287
 end
-arch hills
+arch blacklostlabfloor
 x 29
 y 19
 elevation 2376
 end
-arch hills
+arch blacklostlabfloor
 x 29
 y 20
 elevation 2281
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 21
 elevation 1394
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 22
 elevation 1467
 end
-arch desert
+arch blacklostlabfloor
 x 29
 y 23
 elevation 674
 end
-arch woods_3
+arch blacklostlabfloor
 x 29
 y 24
 elevation 1268
 end
-arch grass
+arch blacklostlabfloor
 x 29
 y 25
 elevation 988
 end
-arch grass
+arch blacklostlabfloor
 x 29
 y 26
 elevation 594
@@ -8414,71 +8418,71 @@ x 29
 y 49
 elevation 6518
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 elevation 5241
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 y 1
 elevation 6309
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 y 2
 elevation 6488
 end
-arch mountain
+arch permanent_lava
 x 30
 y 3
 elevation 6080
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 y 4
 elevation 5356
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 30
 y 5
 elevation 3747
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 30
 y 6
 elevation 4084
 end
-arch hills_rocky
+arch permanent_lava
 x 30
 y 7
 elevation 4352
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 30
 y 8
 elevation 3946
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 30
 y 9
 elevation 3029
 end
-arch woods_3
+arch blacklostlabfloor
 x 30
 y 10
 elevation 1884
 end
-arch desert
+arch permanent_lava
 x 30
 y 11
 elevation 103
 end
-arch desert
+arch blacklostlabfloor7
 x 30
 y 12
 elevation 753
 end
-arch grass
+arch blacklostlabfloor7
 x 30
 y 13
 elevation 797
@@ -8488,57 +8492,57 @@ x 30
 y 14
 elevation 763
 end
-arch grass
+arch blacklostlabfloor
 x 30
 y 15
 elevation 969
 end
-arch woods_3
+arch blacklostlabfloor
 x 30
 y 16
 elevation 1399
 end
-arch hills
+arch blacklostlabfloor
 x 30
 y 17
 elevation 1821
 end
-arch hills
+arch blacklostlabfloor
 x 30
 y 18
 elevation 2130
 end
-arch hills
+arch blacklostlabfloor
 x 30
 y 19
 elevation 2406
 end
-arch woods_3
+arch blacklostlabfloor
 x 30
 y 20
 elevation 2230
 end
-arch hills
+arch blacklostlabfloor
 x 30
 y 21
 elevation 1193
 end
-arch grass
+arch blacklostlabfloor
 x 30
 y 22
 elevation 387
 end
-arch grass
+arch blacklostlabfloor
 x 30
 y 23
 elevation 334
 end
-arch desert
+arch blacklostlabfloor
 x 30
 y 24
 elevation 471
 end
-arch desert
+arch blacklostlabfloor
 x 30
 y 25
 elevation 599
@@ -8663,66 +8667,66 @@ x 30
 y 49
 elevation 5943
 end
-arch mountain
+arch blacklostlabfloor
 x 31
 elevation 6220
 end
-arch mountain
+arch blacklostlabfloor
 x 31
 y 1
 elevation 6324
 end
-arch mountain
+arch blacklostlabfloor
 x 31
 y 2
 elevation 5681
 end
-arch hills_rocky
+arch permanent_lava
 x 31
 y 3
 elevation 4706
 end
-arch steppe
+arch blacklostlabfloor
 x 31
 y 4
 elevation 4851
 end
-arch steppe
+arch blacklostlabfloor
 x 31
 y 5
 elevation 4516
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 31
 y 6
 elevation 4190
 end
-arch hills_rocky
+arch permanent_lava
 x 31
 y 7
 elevation 4153
 end
-arch hills_rocky
+arch permanent_lava
 x 31
 y 8
 elevation 3949
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 31
 y 9
 elevation 3170
 end
-arch woods_3
+arch blacklostlabfloor
 x 31
 y 10
 elevation 1786
 end
-arch grass
+arch permanent_lava
 x 31
 y 11
 elevation 73
 end
-arch desert
+arch blacklostlabfloor7
 x 31
 y 12
 elevation 515
@@ -8747,47 +8751,47 @@ x 31
 y 16
 elevation 864
 end
-arch hills
+arch blacklostlabfloor
 x 31
 y 17
 elevation 1086
 end
-arch woods_3
+arch blacklostlabfloor
 x 31
 y 18
 elevation 1708
 end
-arch woods_3
+arch blacklostlabfloor
 x 31
 y 19
 elevation 2177
 end
-arch woods_3
+arch blacklostlabfloor
 x 31
 y 20
 elevation 2167
 end
-arch hills
+arch blacklostlabfloor
 x 31
 y 21
 elevation 1688
 end
-arch desert
+arch blacklostlabfloor
 x 31
 y 22
 elevation 697
 end
-arch grass
+arch blacklostlabfloor
 x 31
 y 23
 elevation 318
 end
-arch grass
+arch blacklostlabfloor
 x 31
 y 24
 elevation 710
 end
-arch grass
+arch blacklostlabfloor
 x 31
 y 25
 elevation 27
@@ -8912,71 +8916,71 @@ x 31
 y 49
 elevation 5528
 end
-arch mountain
+arch blacklostlabfloor
 x 32
 elevation 5265
 end
-arch steppe
+arch blacklostlabfloor
 x 32
 y 1
 elevation 4703
 end
-arch steppe
+arch blacklostlabfloor
 x 32
 y 2
 elevation 4196
 end
-arch hills_rocky
+arch permanent_lava
 x 32
 y 3
 elevation 3966
 end
-arch steppe
+arch blacklostlabfloor
 x 32
 y 4
 elevation 4090
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 32
 y 5
 elevation 4250
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 32
 y 6
 elevation 3181
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 7
 elevation 2546
 end
-arch hills_rocky
+arch permanent_lava
 x 32
 y 8
 elevation 3915
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 32
 y 9
 elevation 3544
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 10
 elevation 1733
 end
-arch desert
+arch permanent_lava
 x 32
 y 11
 elevation 185
 end
-arch desert
+arch blacklostlabfloor7
 x 32
 y 12
 elevation 266
 end
-arch desert
+arch blacklostlabfloor7
 x 32
 y 13
 elevation 717
@@ -9011,27 +9015,27 @@ x 32
 y 19
 elevation 1739
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 20
 elevation 1752
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 21
 elevation 1426
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 22
 elevation 1126
 end
-arch hills
+arch blacklostlabfloor
 x 32
 y 23
 elevation 1057
 end
-arch desert
+arch blacklostlabfloor
 x 32
 y 24
 elevation 954
@@ -9161,76 +9165,76 @@ x 32
 y 49
 elevation 5757
 end
-arch hills
+arch blacklostlabfloor
 x 33
 elevation 2057
 end
-arch desert
+arch blacklostlabfloor
 x 33
 y 1
 elevation 306
 end
-arch hills
+arch blacklostlabfloor
 x 33
 y 2
 elevation 2693
 end
-arch hills
+arch permanent_lava
 x 33
 y 3
 elevation 1970
 end
-arch hills
+arch permanent_lava
 x 33
 y 4
 elevation 2423
 end
-arch hills_rocky
+arch permanent_lava
 x 33
 y 5
 elevation 4332
 end
-arch hills_rocky
+arch permanent_lava
 x 33
 y 6
 elevation 3709
 end
-arch hills
+arch permanent_lava
 x 33
 y 7
 elevation 2678
 end
-arch hills_rocky
+arch permanent_lava
 x 33
 y 8
 elevation 4394
 end
-arch hills_rocky
+arch permanent_lava
 x 33
 y 9
 elevation 4208
 end
-arch hills
+arch permanent_lava
 x 33
 y 10
 elevation 2687
 end
-arch desert
+arch blacklostlabfloor7
 x 33
 y 11
 elevation 87
 end
-arch hills
+arch blacklostlabfloor7
 x 33
 y 12
 elevation 1105
 end
-arch hills
+arch blacklostlabfloor7
 x 33
 y 13
 elevation 1274
 end
-arch hills
+arch blacklostlabfloor7
 x 33
 y 14
 elevation 1223
@@ -9410,81 +9414,81 @@ x 33
 y 49
 elevation 5919
 end
-arch desert
+arch blacklostlabfloor
 x 34
 elevation 629
 end
-arch desert
+arch blacklostlabfloor
 x 34
 y 1
 elevation 19
 end
-arch hills
+arch blacklostlabfloor
 x 34
 y 2
 elevation 1484
 end
-arch hills
+arch blacklostlabfloor
 x 34
 y 3
 elevation 2657
 end
-arch steppe
+arch blacklostlabfloor7
 x 34
 y 4
 elevation 3968
 end
-arch mountain
+arch blacklostlabfloor7
 x 34
 y 5
 elevation 5171
 end
-arch mountain
+arch blacklostlabfloor7
 x 34
 y 6
 elevation 5662
 end
-arch mountain
+arch blacklostlabfloor7
 x 34
 y 7
 elevation 5486
 end
-arch mountain
+arch blacklostlabfloor7
 x 34
 y 8
 elevation 5345
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 34
 y 9
 elevation 4966
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 34
 y 10
 elevation 3701
 end
-arch hills
+arch blacklostlabfloor7
 x 34
 y 11
 elevation 1034
 end
-arch hills
+arch blacklostlabfloor7
 x 34
 y 12
 elevation 2471
 end
-arch hills
+arch blacklostlabfloor7
 x 34
 y 13
 elevation 2512
 end
-arch hills
+arch blacklostlabfloor7
 x 34
 y 14
 elevation 2119
 end
-arch hills
+arch blacklostlabfloor7
 x 34
 y 15
 elevation 1389
@@ -9659,81 +9663,81 @@ x 34
 y 49
 elevation 5629
 end
-arch desert
+arch blacklostlabfloor
 x 35
 elevation 357
 end
-arch desert
+arch blacklostlabfloor
 x 35
 y 1
 elevation 291
 end
-arch desert
+arch blacklostlabfloor
 x 35
 y 2
 elevation 426
 end
-arch hills
+arch blacklostlabfloor
 x 35
 y 3
 elevation 2353
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 4
 elevation 4307
 end
-arch mountain
+arch blacklostlabfloor7
 x 35
 y 5
 elevation 6123
 end
-arch mountain
+arch blacklostlabfloor7
 x 35
 y 6
 elevation 6866
 end
-arch mountain
+arch blacklostlabfloor7
 x 35
 y 7
 elevation 6680
 end
-arch mountain
+arch blacklostlabfloor7
 x 35
 y 8
 elevation 6140
 end
-arch mountain
+arch blacklostlabfloor7
 x 35
 y 9
 elevation 5481
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 10
 elevation 4574
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 11
 elevation 4032
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 12
 elevation 3822
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 13
 elevation 3877
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 35
 y 14
 elevation 3218
 end
-arch hills
+arch blacklostlabfloor7
 x 35
 y 15
 elevation 1315
@@ -9908,86 +9912,86 @@ x 35
 y 49
 elevation 4499
 end
-arch desert
+arch blacklostlabfloor
 x 36
 elevation 789
 end
-arch desert
+arch blacklostlabfloor
 x 36
 y 1
 elevation 936
 end
-arch desert
+arch blacklostlabfloor
 x 36
 y 2
 elevation 698
 end
-arch desert
+arch blacklostlabfloor
 x 36
 y 3
 elevation 355
 end
-arch steppe
+arch blacklostlabfloor7
 x 36
 y 4
 elevation 4043
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 5
 elevation 5794
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 6
 elevation 6624
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 7
 elevation 6646
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 8
 elevation 6213
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 9
 elevation 5584
 end
-arch mountain
+arch blacklostlabfloor7
 x 36
 y 10
 elevation 5103
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 36
 y 11
 elevation 4395
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 36
 y 12
 elevation 4515
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 36
 y 13
 elevation 4421
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 36
 y 14
 elevation 3915
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 36
 y 15
 elevation 3193
 end
-arch hills
+arch blacklostlabfloor7
 x 36
 y 16
 elevation 2452
@@ -10157,86 +10161,86 @@ x 36
 y 49
 elevation 4819
 end
-arch hills
+arch blacklostlabfloor
 x 37
 elevation 1098
 end
-arch hills
+arch blacklostlabfloor
 x 37
 y 1
 elevation 1268
 end
-arch hills
+arch blacklostlabfloor
 x 37
 y 2
 elevation 1447
 end
-arch hills
+arch blacklostlabfloor
 x 37
 y 3
 elevation 2057
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 4
 elevation 3051
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 5
 elevation 4344
 end
-arch mountain
+arch blacklostlabfloor7
 x 37
 y 6
 elevation 5121
 end
-arch mountain
+arch blacklostlabfloor7
 x 37
 y 7
 elevation 5581
 end
-arch mountain
+arch blacklostlabfloor7
 x 37
 y 8
 elevation 5556
 end
-arch mountain
+arch blacklostlabfloor7
 x 37
 y 9
 elevation 5270
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 10
 elevation 4901
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 11
 elevation 4502
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 12
 elevation 4087
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 13
 elevation 3923
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 14
 elevation 3805
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 15
 elevation 3536
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 37
 y 16
 elevation 3042
@@ -10406,86 +10410,86 @@ x 37
 y 49
 elevation 5284
 end
-arch hills
+arch blacklostlabfloor
 x 38
 elevation 1242
 end
-arch hills
+arch blacklostlabfloor
 x 38
 y 1
 elevation 1271
 end
-arch hills
+arch blacklostlabfloor
 x 38
 y 2
 elevation 1541
 end
-arch hills
+arch blacklostlabfloor
 x 38
 y 3
 elevation 1989
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 4
 elevation 1944
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 5
 elevation 1278
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 6
 elevation 3778
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 7
 elevation 4373
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 8
 elevation 3762
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 9
 elevation 4319
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 10
 elevation 3992
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 11
 elevation 3511
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 38
 y 12
 elevation 3009
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 13
 elevation 2209
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 14
 elevation 2804
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 15
 elevation 2752
 end
-arch hills
+arch blacklostlabfloor7
 x 38
 y 16
 elevation 2390
@@ -10655,81 +10659,81 @@ x 38
 y 49
 elevation 5462
 end
-arch hills
+arch blacklostlabfloor
 x 39
 elevation 1736
 end
-arch desert
+arch blacklostlabfloor
 x 39
 y 1
 elevation 600
 end
-arch desert
+arch blacklostlabfloor
 x 39
 y 2
 elevation 328
 end
-arch hills
+arch blacklostlabfloor
 x 39
 y 3
 elevation 2133
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 4
 elevation 2588
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 5
 elevation 2971
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 39
 y 6
 elevation 3245
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 39
 y 7
 elevation 3405
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 39
 y 8
 elevation 3288
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 39
 y 9
 elevation 3094
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 10
 elevation 2209
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 11
 elevation 1337
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 12
 elevation 2065
 end
-arch desert
+arch blacklostlabfloor7
 x 39
 y 13
 elevation 891
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 14
 elevation 1717
 end
-arch hills
+arch blacklostlabfloor7
 x 39
 y 15
 elevation 1263
@@ -10904,71 +10908,71 @@ x 39
 y 49
 elevation 4805
 end
-arch hills
+arch blacklostlabfloor
 x 40
 elevation 2435
 end
-arch hills
+arch blacklostlabfloor
 x 40
 y 1
 elevation 1004
 end
-arch hills
+arch blacklostlabfloor
 x 40
 y 2
 elevation 1909
 end
-arch hills
+arch blacklostlabfloor
 x 40
 y 3
 elevation 2480
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 40
 y 4
 elevation 3075
 end
-arch hills_rocky
+arch blacklostlabfloor7
 x 40
 y 5
 elevation 3230
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 6
 elevation 2965
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 7
 elevation 2613
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 8
 elevation 2477
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 9
 elevation 1861
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 10
 elevation 1893
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 11
 elevation 1469
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 12
 elevation 1762
 end
-arch hills
+arch blacklostlabfloor7
 x 40
 y 13
 elevation 1279
@@ -11182,42 +11186,42 @@ x 41
 y 5
 elevation 2927
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 6
 elevation 2521
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 7
 elevation 1266
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 8
 elevation 1339
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 9
 elevation 2251
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 10
 elevation 2448
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 11
 elevation 2368
 end
-arch hills
+arch blacklostlabfloor7
 x 41
 y 12
 elevation 2016
 end
-arch jungle_1
+arch blacklostlabfloor7
 x 41
 y 13
 elevation 1542

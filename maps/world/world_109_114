@@ -3,13 +3,14 @@ name world_109_114
 width 50
 height 50
 msg
-Modified: 2018-12-04 lori
+Modified: 2018-12-20 lori
 endmsg
 outdoor 1
 tile_path_1 world_109_113
 tile_path_2 world_110_114
 tile_path_3 world_109_115
 tile_path_4 world_108_114
+background_music ghost
 end
 arch mountain
 elevation 5570
@@ -9366,7 +9367,7 @@ x 33
 y 47
 elevation 3899
 end
-arch treed_hills
+arch bosgrass8
 x 33
 y 48
 elevation 3829
@@ -9627,12 +9628,12 @@ x 34
 y 47
 elevation 5208
 end
-arch steppe
+arch bosgrass8
 x 34
 y 48
 elevation 3803
 end
-arch treed_hills
+arch bosgrass8
 x 34
 y 49
 elevation 3824
@@ -10453,7 +10454,7 @@ x 37
 y 43
 elevation 4508
 end
-arch steppe
+arch bosgrass8
 x 37
 y 44
 elevation 4327
@@ -11614,7 +11615,7 @@ x 41
 y 48
 elevation 4602
 end
-arch steppe
+arch bosgrass8
 x 41
 y 49
 elevation 4688
@@ -11903,7 +11904,7 @@ x 42
 y 48
 elevation 4614
 end
-arch steppe
+arch bosgrass8
 x 42
 y 49
 elevation 4636
@@ -12478,12 +12479,12 @@ x 44
 y 47
 elevation 4487
 end
-arch steppe
+arch earth
 x 44
 y 48
 elevation 4533
 end
-arch mountain
+arch earth
 x 44
 y 49
 elevation 6020
@@ -12751,12 +12752,12 @@ x 45
 y 47
 elevation 5384
 end
-arch mountain
+arch earth
 x 45
 y 48
 elevation 6305
 end
-arch mountain
+arch earth
 x 45
 y 49
 elevation 6848
@@ -13053,7 +13054,7 @@ x 46
 y 44
 elevation 3390
 end
-arch hills_rocky
+arch bosgrass7
 x 46
 y 45
 elevation 3077
@@ -13063,17 +13064,17 @@ x 46
 y 46
 elevation 3944
 end
-arch mountain
+arch earth
 x 46
 y 47
 elevation 5893
 end
-arch mountain
+arch earth
 x 46
 y 48
 elevation 6827
 end
-arch mountain
+arch earth
 x 46
 y 49
 elevation 6995
@@ -13292,37 +13293,37 @@ x 47
 y 42
 elevation 4571
 end
-arch hills_rocky
+arch bosgrass7
 x 47
 y 43
 elevation 4501
 end
-arch hills_rocky
+arch earth
 x 47
 y 44
 elevation 4394
 end
-arch hills_rocky
+arch earth
 x 47
 y 45
 elevation 4242
 end
-arch hills_rocky
+arch earth
 x 47
 y 46
 elevation 4810
 end
-arch mountain
+arch earth
 x 47
 y 47
 elevation 5779
 end
-arch mountain
+arch earth
 x 47
 y 48
 elevation 6730
 end
-arch mountain
+arch earth
 x 47
 y 49
 elevation 6785
@@ -13491,7 +13492,7 @@ x 48
 y 32
 elevation 5311
 end
-arch bosgrass2
+arch bosgrass8
 x 48
 y 33
 elevation 4622
@@ -13501,17 +13502,17 @@ x 48
 y 34
 elevation 7167
 end
-arch bosgrass2
+arch earth
 x 48
 y 35
 elevation 7716
 end
-arch mountain
+arch earth
 x 48
 y 36
 elevation 7855
 end
-arch mountain
+arch earth
 x 48
 y 37
 elevation 7894
@@ -13536,42 +13537,42 @@ x 48
 y 41
 elevation 4814
 end
-arch jungle_1
+arch bosgrass7
 x 48
 y 42
 elevation 2986
 end
-arch hills_rocky
+arch earth
 x 48
 y 43
 elevation 3504
 end
-arch hills_rocky
+arch earth
 x 48
 y 44
 elevation 4238
 end
-arch hills_rocky
+arch bosgrass8
 x 48
 y 45
 elevation 4291
 end
-arch hills_rocky
+arch earth
 x 48
 y 46
 elevation 3392
 end
-arch mountain
+arch earth
 x 48
 y 47
 elevation 5458
 end
-arch mountain
+arch earth
 x 48
 y 48
 elevation 6307
 end
-arch mountain
+arch earth
 x 48
 y 49
 elevation 6379
@@ -13735,37 +13736,37 @@ x 49
 y 31
 elevation 4965
 end
-arch mountain
+arch earth
 x 49
 y 32
 elevation 5448
 end
-arch mountain
+arch earth
 x 49
 y 33
 elevation 6066
 end
-arch mountain
+arch bosgrass8
 x 49
 y 34
 elevation 6731
 end
-arch mountain
+arch earth
 x 49
 y 35
 elevation 7384
 end
-arch mountain
+arch bosgrass8
 x 49
 y 36
 elevation 7792
 end
-arch mountain
+arch earth
 x 49
 y 37
 elevation 8127
 end
-arch mountain
+arch earth
 x 49
 y 38
 elevation 8161
@@ -13775,52 +13776,52 @@ x 49
 y 39
 elevation 7684
 end
-arch mountain
+arch bosgrass7
 x 49
 y 40
 elevation 6826
 end
-arch mountain
+arch bosgrass7
 x 49
 y 41
 elevation 5695
 end
-arch steppe
+arch earth
 x 49
 y 42
 elevation 4682
 end
-arch hills_rocky
+arch earth
 x 49
 y 43
 elevation 3921
 end
-arch hills
+arch earth
 x 49
 y 44
 elevation 2509
 end
-arch hills_rocky
+arch earth
 x 49
 y 45
 elevation 3906
 end
-arch hills_rocky
+arch earth
 x 49
 y 46
 elevation 4079
 end
-arch hills_rocky
+arch bosgrass8
 x 49
 y 47
 elevation 4824
 end
-arch mountain
+arch earth
 x 49
 y 48
 elevation 5522
 end
-arch mountain
+arch earth
 x 49
 y 49
 elevation 5530

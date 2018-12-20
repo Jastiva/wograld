@@ -4,13 +4,14 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2018-06-12 lori
+Modified: 2018-12-19 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_112
 tile_path_2 world_106_113
 tile_path_3 world_105_114
 tile_path_4 world_104_113
+background_music beach02
 end
 arch mountain
 end
@@ -1908,18 +1909,18 @@ x 7
 y 11
 elevation 722
 end
-arch store_magic
-name Euthville Magic Shop
-slaying /euthville/magic.shop
-hp 1
-sp 1
-x 7
-y 11
-end
 arch pstone_1
 x 7
 y 12
 elevation 72
+end
+arch tower_tob
+name Euthville Magic Shope
+slaying /euthville/magic.shop
+hp 1
+sp 1
+x 7
+y 12
 end
 arch pstone_2
 x 7
@@ -1973,18 +1974,18 @@ x 7
 y 20
 elevation 725
 end
-arch church
+arch pstone_2
+x 7
+y 21
+elevation 2689
+end
+arch small_temple
 name Valriel Weeping
 slaying /euthville/devil.church1
 hp 9
 sp 14
 x 7
-y 20
-end
-arch pstone_2
-x 7
 y 21
-elevation 2689
 end
 arch pstone_2
 x 7
@@ -3891,7 +3892,7 @@ x 14
 y 23
 elevation 2364
 end
-arch barn
+arch small_temple
 name Hall of Bones
 slaying /euthville/hallofbones
 hp 3
@@ -4385,16 +4386,12 @@ x 16
 y 15
 elevation 1787
 end
-arch swall_1_1
-x 16
-y 15
-end
 arch small_stones
 x 16
 y 16
 elevation 2556
 end
-arch swall_2_1_1
+arch swall_1_1
 x 16
 y 16
 end
@@ -4662,16 +4659,12 @@ x 17
 y 11
 elevation 2725
 end
-arch evergreens2
-x 17
-y 11
-end
-arch hills_rocky
+arch bosgrass3
 x 17
 y 12
 elevation 2083
 end
-arch grass
+arch bosgrass12
 x 17
 y 13
 elevation 511
@@ -4681,7 +4674,7 @@ x 17
 y 14
 elevation 917
 end
-arch grass
+arch blacklostlabfloor8
 x 17
 y 15
 elevation 940
@@ -4928,10 +4921,6 @@ x 18
 y 12
 elevation 1340
 end
-arch evergreens2
-x 18
-y 12
-end
 arch brush
 x 18
 y 13
@@ -4962,7 +4951,7 @@ x 18
 y 18
 elevation 3993
 end
-arch steppe
+arch bosgrass3
 x 18
 y 19
 elevation 4009
@@ -5184,17 +5173,17 @@ x 19
 y 12
 elevation 119
 end
-arch desert
+arch bosgrass3
 x 19
 y 13
 elevation 405
 end
-arch brush
+arch blacklostlabfloor8
 x 19
 y 14
 elevation 156
 end
-arch brush
+arch blacklostlabfloor8
 x 19
 y 15
 elevation 837
@@ -5204,21 +5193,17 @@ x 19
 y 16
 elevation 2786
 end
-arch evergreens2
-x 19
-y 16
-end
-arch steppe
+arch bosgrass3
 x 19
 y 17
 elevation 3926
 end
-arch steppe
+arch bosgrass3
 x 19
 y 18
 elevation 4161
 end
-arch steppe
+arch bosgrass3
 x 19
 y 19
 elevation 3600
@@ -5257,17 +5242,17 @@ x 19
 y 25
 elevation 616
 end
-arch woods
+arch bosgrass3
 x 19
 y 26
 elevation 1008
 end
-arch woods
+arch bosgrass3
 x 19
 y 27
 elevation 1215
 end
-arch woods
+arch bosgrass3
 x 19
 y 28
 elevation 1038
@@ -5451,25 +5436,17 @@ x 20
 y 10
 elevation 2071
 end
-arch evergreens2
-x 20
-y 10
-end
 arch grass_only
 x 20
 y 11
 elevation 2231
-end
-arch evergreens2
-x 20
-y 11
 end
 arch grass
 x 20
 y 12
 elevation 945
 end
-arch hills_rocky
+arch bosgrass11
 x 20
 y 13
 elevation 2383
@@ -5479,7 +5456,7 @@ x 20
 y 14
 elevation 2309
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 20
 y 15
 elevation 1761
@@ -5499,7 +5476,7 @@ x 20
 y 18
 elevation 4048
 end
-arch steppe
+arch bosgrass3
 x 20
 y 19
 elevation 3205
@@ -5539,7 +5516,7 @@ x 20
 y 26
 elevation 1315
 end
-arch woods
+arch bosgrass3
 x 20
 y 27
 elevation 1289
@@ -5549,7 +5526,7 @@ x 20
 y 28
 elevation 1075
 end
-arch desert
+arch beach
 x 20
 y 29
 elevation 913
@@ -5721,16 +5698,12 @@ x 21
 y 11
 elevation 2589
 end
-arch evergreens2
-x 21
-y 11
-end
-arch hills_rocky
+arch bosgrass3
 x 21
 y 12
 elevation 3940
 end
-arch hills
+arch bosgrass11
 x 21
 y 13
 elevation 4383
@@ -5740,14 +5713,10 @@ x 21
 y 14
 elevation 3953
 end
-arch grass_only
+arch blacklostlabfloor8
 x 21
 y 15
 elevation 2013
-end
-arch evergreens2
-x 21
-y 15
 end
 arch steppe
 x 21
@@ -5784,7 +5753,7 @@ x 21
 y 22
 elevation 2247
 end
-arch woods
+arch bosgrass3
 x 21
 y 23
 elevation 1627
@@ -5794,17 +5763,17 @@ x 21
 y 24
 elevation 1058
 end
-arch woods
+arch bosgrass3
 x 21
 y 25
 elevation 1212
 end
-arch woods
+arch bosgrass3
 x 21
 y 26
 elevation 1452
 end
-arch woods
+arch bosgrass3
 x 21
 y 27
 elevation 1301
@@ -5814,7 +5783,7 @@ x 21
 y 28
 elevation 322
 end
-arch grass
+arch beach
 x 21
 y 29
 elevation 888
@@ -5991,7 +5960,7 @@ x 22
 y 12
 elevation 4261
 end
-arch hills_rocky
+arch bosgrass14
 x 22
 y 13
 elevation 4607
@@ -6020,7 +5989,7 @@ arch evergreens2
 x 22
 y 17
 end
-arch steppe
+arch bosgrass3
 x 22
 y 18
 elevation 3294
@@ -6035,7 +6004,7 @@ x 22
 y 20
 elevation 1855
 end
-arch steppe
+arch bosgrass3
 x 22
 y 21
 elevation 3104
@@ -6045,7 +6014,7 @@ x 22
 y 22
 elevation 3258
 end
-arch woods
+arch bosgrass3
 x 22
 y 23
 elevation 2562
@@ -6258,7 +6227,7 @@ x 23
 y 14
 elevation 2931
 end
-arch hills_rocky
+arch bosgrass3
 x 23
 y 15
 elevation 3960
@@ -6273,22 +6242,22 @@ x 23
 y 17
 elevation 3470
 end
-arch steppe
+arch bosgrass3
 x 23
 y 18
 elevation 3295
 end
-arch steppe
+arch bosgrass3
 x 23
 y 19
 elevation 3365
 end
-arch steppe
+arch bosgrass3
 x 23
 y 20
 elevation 3487
 end
-arch steppe
+arch bosgrass3
 x 23
 y 21
 elevation 3811
@@ -6303,7 +6272,7 @@ x 23
 y 23
 elevation 3095
 end
-arch woods
+arch bosgrass3
 x 23
 y 24
 elevation 1924
@@ -6313,7 +6282,7 @@ x 23
 y 25
 elevation 1742
 end
-arch woods
+arch beach
 x 23
 y 26
 elevation 1549
@@ -6323,7 +6292,7 @@ x 23
 y 27
 elevation 819
 end
-arch grass
+arch beach
 x 23
 y 28
 elevation 537
@@ -6538,22 +6507,22 @@ arch evergreens2
 x 24
 y 17
 end
-arch steppe
+arch bosgrass3
 x 24
 y 18
 elevation 3690
 end
-arch steppe
+arch bosgrass3
 x 24
 y 19
 elevation 3990
 end
-arch steppe
+arch bosgrass3
 x 24
 y 20
 elevation 3786
 end
-arch steppe
+arch bosgrass3
 x 24
 y 21
 elevation 4188
@@ -6568,7 +6537,7 @@ x 24
 y 23
 elevation 3166
 end
-arch woods
+arch bosgrass3
 x 24
 y 24
 elevation 2083
@@ -6795,7 +6764,7 @@ arch evergreens2
 x 25
 y 17
 end
-arch steppe
+arch bosgrass3
 x 25
 y 18
 elevation 3786
@@ -6810,7 +6779,7 @@ x 25
 y 20
 elevation 4241
 end
-arch steppe
+arch bosgrass3
 x 25
 y 21
 elevation 4042
@@ -6825,7 +6794,7 @@ x 25
 y 23
 elevation 2819
 end
-arch woods
+arch bosgrass3
 x 25
 y 24
 elevation 1483
@@ -7044,12 +7013,12 @@ x 26
 y 17
 elevation 2373
 end
-arch steppe
+arch bosgrass3
 x 26
 y 18
 elevation 3530
 end
-arch hills
+arch bosgrass3
 x 26
 y 19
 elevation 3977
@@ -7059,12 +7028,12 @@ x 26
 y 20
 elevation 3995
 end
-arch steppe
+arch bosgrass3
 x 26
 y 21
 elevation 3631
 end
-arch woods_3
+arch bosgrass3
 x 26
 y 22
 elevation 2999
@@ -7074,12 +7043,12 @@ x 26
 y 23
 elevation 2210
 end
-arch woods_2
+arch bosgrass3
 x 26
 y 24
 elevation 1448
 end
-arch grass
+arch beach
 x 26
 y 25
 elevation 567
@@ -7312,7 +7281,7 @@ x 27
 y 20
 elevation 3181
 end
-arch steppe
+arch bosgrass3
 x 27
 y 21
 elevation 3024
@@ -7327,14 +7296,10 @@ x 27
 y 23
 elevation 966
 end
-arch grass_only
+arch beach
 x 27
 y 24
 elevation 1040
-end
-arch evergreens2
-x 27
-y 24
 end
 arch desert
 x 27
@@ -8098,12 +8063,12 @@ arch cobblestones
 x 30
 y 23
 end
-arch grass
+arch beach
 x 30
 y 24
 elevation 882
 end
-arch grass
+arch beach
 x 30
 y 25
 elevation 860
@@ -8364,7 +8329,7 @@ x 31
 y 24
 elevation 881
 end
-arch grass
+arch beach
 x 31
 y 25
 elevation 898
@@ -8859,7 +8824,7 @@ x 33
 y 21
 elevation 108
 end
-arch brush
+arch beach
 x 33
 y 22
 elevation 97
@@ -9116,12 +9081,12 @@ x 34
 y 21
 elevation 155
 end
-arch brush
+arch beach
 x 34
 y 22
 elevation 181
 end
-arch grass
+arch beach
 x 34
 y 23
 elevation 509
@@ -9369,19 +9334,15 @@ x 35
 y 21
 elevation 562
 end
-arch brush
+arch beach
 x 35
 y 22
 elevation 701
 end
-arch grass_only
+arch beach
 x 35
 y 23
 elevation 1003
-end
-arch evergreens2
-x 35
-y 23
 end
 arch cobblestones
 x 35
@@ -9630,12 +9591,12 @@ arch evergreens2
 x 36
 y 21
 end
-arch grass
+arch beach
 x 36
 y 22
 elevation 556
 end
-arch brush
+arch beach
 x 36
 y 23
 elevation 998
