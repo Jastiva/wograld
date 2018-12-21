@@ -2587,12 +2587,12 @@ void do_some_living(object *op) {
 		}
 		else if (tmp->type==FLESH) flesh=tmp;
 	    } 
-	*/ /* End if paid for object */
-//	} /* end of for loop */
-	/* If player is still starving, it means they don't have any food, so
-	 * eat flesh instead.
-	 */
-	/*
+	 // End if paid for object 
+//	}  end of for loop 
+	// If player is still starving, it means they don't have any food, so
+	 // eat flesh instead.
+	 //
+	
 	if (op->stats.food<0 && op->stats.hp>=0 && flesh) {
 	    new_draw_info(NDI_UNIQUE, 0,op,"You blindly grab for a bite of food.");
 	    manual_apply(op,flesh,0);
