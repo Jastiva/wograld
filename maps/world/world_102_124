@@ -3,13 +3,14 @@ name world_102_124
 width 50
 height 50
 msg
-Modified: 2018-09-11 lori
+Modified: 2018-12-22 lori
 endmsg
 outdoor 1
 tile_path_1 world_102_123
 tile_path_2 world_103_124
 tile_path_3 world_102_125
 tile_path_4 world_101_124
+background_music wasteland01
 end
 arch rockdesert
 elevation 432
@@ -9104,10 +9105,14 @@ x 35
 y 36
 elevation -8
 end
-arch shrub2a
+arch rockdesert
 x 35
 y 37
 elevation 16
+end
+arch shrub2a
+x 35
+y 37
 end
 arch rockdesert
 x 35
@@ -9949,10 +9954,14 @@ x 38
 y 42
 elevation -11
 end
-arch shrub2a
+arch rockdesert
 x 38
 y 43
 elevation -11
+end
+arch shrub2a
+x 38
+y 43
 end
 arch rockdesert
 x 38
@@ -11484,10 +11493,14 @@ arch shrub02
 x 44
 y 36
 end
-arch shrub2a
+arch rockdesert
 x 44
 y 37
 elevation -11
+end
+arch shrub2a
+x 44
+y 37
 end
 arch rockdesert
 x 44
@@ -11532,10 +11545,14 @@ x 44
 y 44
 elevation -13
 end
-arch shrub2a
+arch rockdesert
 x 44
 y 45
 elevation -11
+end
+arch shrub2a
+x 44
+y 45
 end
 arch rockdesert
 x 44
@@ -12565,10 +12582,14 @@ x 48
 y 43
 elevation -10
 end
-arch shrub2a
+arch rockdesert
 x 48
 y 44
 elevation -10
+end
+arch shrub2a
+x 48
+y 44
 end
 arch rockdesert
 x 48
