@@ -111,15 +111,15 @@ DIST_SOURCES = $(librandom_map_a_SOURCES) $(random_map_SOURCES)
 ETAGS = etags
 CTAGS = ctags
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run aclocal-1.9
+ACLOCAL = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run aclocal-1.9
 AMDEP_FALSE = #
 AMDEP_TRUE = 
-AMTAR = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run tar
+AMTAR = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run tar
 AR = ar
-AUTOCONF = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run automake-1.9
-AWK = gawk
+AUTOCONF = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run automake-1.9
+AWK = mawk
 BASENAME = /usr/bin/basename
 BUNZIP = /bin/bunzip2
 BZIP = /bin/bzip2
@@ -131,7 +131,7 @@ CHECK_LIBS =
 COMPRESS = 
 CPP = gcc -E
 CPPFLAGS = 
-WOGEDIT = 
+WOGEDIT = wogedit
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
@@ -145,8 +145,8 @@ ECHO_N = -n
 ECHO_T = 
 EGREP = grep -E
 EXEEXT = 
-F77 = 
-FFLAGS = 
+F77 = f77
+FFLAGS = -g -O2
 GUNZIP = /bin/gunzip
 GZIP = /bin/gzip
 HAVE_CHECK_FALSE = 
@@ -159,10 +159,10 @@ INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s
-LATEX = /usr/bin/latex
+LATEX = 
 LDFLAGS = 
-LEX = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run flex
-LEXLIB = 
+LEX = flex
+LEXLIB = -lfl
 LEX_OUTPUT_ROOT = lex.rmap
 LIBOBJS = 
 LIBS = -lz -lcrypt -lm -lnsl 
@@ -172,7 +172,7 @@ LTLIBOBJS =
 MAINT = #
 MAINTAINER_MODE_FALSE = 
 MAINTAINER_MODE_TRUE = #
-MAKEINFO = ${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/missing --run makeinfo
 OBJEXT = o
 PACKAGE = wograld
 PACKAGE_BUGREPORT = wograld-devel@listserv.real-time.com
@@ -197,8 +197,8 @@ STRIP = strip
 TAR = /bin/tar
 UNCOMPRESS = /bin/uncompress
 VERSION = 1.9.1
-X11LIBS =   -lX11 -lICE -lSM -lXext -lXt -lpng -lz
-XSLTENGINE = 
+X11LIBS =  -lXaw  -lX11 -lICE -lSM -lXext -lXt -lXmu -lXpm -lpng -lz
+XSLTENGINE = /usr/local/bin/xsltproc -o %3 %2 %1
 X_CFLAGS = 
 X_EXTRA_LIBS = 
 X_LIBS = 
@@ -206,7 +206,7 @@ X_PRE_LIBS =
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
-ac_ct_F77 = 
+ac_ct_F77 = f77
 ac_ct_RANLIB = ranlib
 ac_ct_STRIP = strip
 am__fastdepCC_FALSE = #
@@ -226,7 +226,7 @@ build_os = linux-gnu
 build_vendor = unknown
 check_xslt_forcedprogfound = 
 check_xslt_sablotronfound = notfound
-check_xslt_xsltprocfound = notfound
+check_xslt_xsltprocfound = /usr/local/bin/xsltproc
 datadir = ${prefix}/share
 exec_prefix = ${prefix}
 host = x86_64-unknown-linux-gnu
@@ -236,7 +236,7 @@ host_os = linux-gnu
 host_vendor = unknown
 includedir = ${prefix}/include
 infodir = ${prefix}/info
-install_sh = /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/install-sh
+install_sh = /home/lx/Documents/alexander/Downloads/wograld/sfrg2018zr/wograld-gitcode/server/utils/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localstatedir = ${prefix}/var
@@ -260,7 +260,7 @@ librandom_map_a_SOURCES = random_map.c \
 	room_gen_onion.c \
         room_gen_spiral.c \
 	maze_gen.c \
-	reader.l \
+	reader.c \
 	floor.c \
 	wall.c \
 	monster.c \
@@ -522,7 +522,6 @@ distclean-generic:
 maintainer-clean-generic:
 	@echo "This command is intended for maintainers to use"
 	@echo "it deletes files that may require special tools to rebuild."
-	-rm -f reader.c
 clean: clean-am
 
 clean-am: clean-generic clean-libtool clean-noinstLIBRARIES \
