@@ -780,6 +780,8 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
 	private int sound_init=0;
     
     JFrame frame1;
+
+	private int musicpl_prev =0;
     
     /**
      * Creates a new instance.
@@ -3752,16 +3754,7 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
      else
      {
          //this.oggpl.
-	oggpl.playlist.removeAllElements();
-         oggpl.stop_sound();
-         
-         frame1.remove(oggpl.panel);
-         oggpl=new JOrbisPlayer(); 
-         
-        // oggpl.clearPlaylist(oggpl);
-         
-       // oggpl.changeTrack(oggpl, track );
-        oggpl.running_as_applet=false;
+	
         
         String trackname="00.ogg";
         
@@ -4100,11 +4093,24 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
     }
         
         String musicpath = "resource/music/" + trackname;
+	if(musicpl_prev != track)
+	{
+
+	oggpl.playlist.removeAllElements();
+         oggpl.stop_sound();
+         
+         frame1.remove(oggpl.panel);
+         oggpl=new JOrbisPlayer(); 
+         
+        // oggpl.clearPlaylist(oggpl);
+         
+       // oggpl.changeTrack(oggpl, track );
+        oggpl.running_as_applet=false;
         System.out.println(musicpath);
    oggpl.playlist.addElement(musicpath);
 
  
-
+	musicpl_prev=track;
 
     oggpl.loadPlaylist();
     oggpl.initUI();
@@ -4116,7 +4122,12 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
    oggpl.play_sound();
     frame1.setVisible(false);
         
-         System.out.println("got here\n");
+         System.out.println("play different music\n");
+	}
+	else
+	{
+System.out.println("discard repeat music\n");
+	}
          
          
      }
