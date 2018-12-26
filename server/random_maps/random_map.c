@@ -147,6 +147,295 @@ mapstruct *generate_random_map(const char *OutFileName, RMParms *RP) {
     free(layout);
 
     theMap->msg = strdup_local(buf);
+
+	if(RP->addmusic != NULL)
+	{
+	theMap->tracknum=0;	
+
+	LOG(llevDebug, "rndm map music %s\n", RP->addmusic);
+	//LOG("track name len %i\n",strlen(RP->addmusic));
+
+//	char trackname[15];
+//	trackname=strdup_local(RP->addmusic);
+    if(!strncmp(RP->addmusic,"gmajor",6))
+    {
+        theMap->tracknum=1;
+    }
+    else if(!strncmp(RP->addmusic,"00",2))
+    {
+        theMap->tracknum=0;
+    }
+    else if(!strncmp(RP->addmusic,"eminorh",7))
+    {
+        theMap->tracknum=2;
+    }
+    else if(!strncmp(RP->addmusic,"sumon",5))
+    {
+        theMap->tracknum=3;
+    }
+    else if(!strncmp(RP->addmusic,"mica",4))
+    {
+        theMap->tracknum=4;
+    }
+    else if(!strncmp(RP->addmusic,"dredy1",6))
+    {
+        theMap->tracknum=5;
+    }
+    else if(!strncmp(RP->addmusic,"sunset",6))
+    {
+        theMap->tracknum=6;
+    }
+    else if(!strncmp(RP->addmusic,"highcity",8))
+    {
+        theMap->tracknum=7;
+    }
+    else if(!strncmp(RP->addmusic,"lowcity",7))
+    {
+        theMap->tracknum=8;
+    }
+    else if(!strncmp(RP->addmusic,"eminor",6))
+    {
+        theMap->tracknum=9;
+    }
+    else if(!strncmp(RP->addmusic,"maso01",6))
+    {
+        theMap->tracknum=10;
+    }
+    else if(!strncmp(RP->addmusic,"paranoia01",10))
+    {
+theMap->tracknum=11;
+    }
+    else if(!strncmp(RP->addmusic,"dkpond3",7))
+    {
+        theMap->tracknum=12;
+    }
+    else if(!strncmp(RP->addmusic,"dkpond",6))
+    {
+  theMap->tracknum=13;
+    }
+    else if(!strncmp(RP->addmusic,"thisisthat2",11))
+    {
+        theMap->tracknum=14;
+    }
+    else if(!strncmp(RP->addmusic,"ghost",5))
+    {
+        theMap->tracknum=15;
+    }
+    else if(!strncmp(RP->addmusic,"bymyside02",10))
+    {
+        theMap->tracknum=16;
+    }
+    else if(!strncmp(RP->addmusic,"thief02",7))
+    {
+        theMap->tracknum=17;
+    }
+    else if(!strncmp(RP->addmusic,"dsharp",6))
+    {
+        theMap->tracknum=18;
+    }
+    else if(!strncmp(RP->addmusic,"laymet",6))
+    {
+        theMap->tracknum=19;
+    }
+    else if(!strncmp(RP->addmusic,"elfcombat1",10))
+    {
+        theMap->tracknum=20;
+    }
+    else if(!strncmp(RP->addmusic,"estnigh1",8))
+    {
+        theMap->tracknum=21;
+    }
+    else if(!strncmp(RP->addmusic,"skept02",7))
+    {
+        theMap->tracknum=22;
+    }
+    else if(!strncmp(RP->addmusic,"labscare01",10))
+    {
+        theMap->tracknum=23;
+    }
+    else if(!strncmp(RP->addmusic,"viod1",5))
+    {
+        theMap->tracknum=24;
+    }
+    else if(!strncmp(RP->addmusic,"darkpuddle",10))
+    {
+ theMap->tracknum=25;
+    }
+    else if(!strncmp(RP->addmusic,"humil1",6))
+    {
+        theMap->tracknum=26;
+ }
+    else if(!strncmp(RP->addmusic,"dida03",6))
+    {
+        theMap->tracknum=27;
+    }
+    else if(!strncmp(RP->addmusic,"lust02",6))
+    {
+        theMap->tracknum=28;
+    }
+    else if(!strncmp(RP->addmusic,"dida02",6))
+    {
+        theMap->tracknum=29;
+    }
+    else if(!strncmp(RP->addmusic,"dida",4))
+    {
+        theMap->tracknum=30;
+    }
+    else if(!strncmp(RP->addmusic,"fool01b",7))
+    {
+        theMap->tracknum=31;
+    }
+    else if(!strncmp(RP->addmusic,"veng01",6))
+    {
+        theMap->tracknum=32;
+    }
+    else if(!strncmp(RP->addmusic,"indiscret01",11))
+    {
+        theMap->tracknum=33;
+    }
+    else if(!strncmp(RP->addmusic,"fool1",5))
+    {
+        theMap->tracknum=34;
+    }
+    else if(!strncmp(RP->addmusic,"harp1",5))
+    {
+        theMap->tracknum=35;
+    }
+    else if(!strncmp(RP->addmusic,"crystalcave01",13))
+    {
+        theMap->tracknum=36;
+    }
+    else if(!strncmp(RP->addmusic,"conver",6))
+    {
+        theMap->tracknum=37;
+    }
+    else if(!strncmp(RP->addmusic,"laymet2a",8))
+    {
+        theMap->tracknum=38;
+    }
+    else if(!strncmp(RP->addmusic,"dkch",4))
+ {
+        theMap->tracknum=39;
+    }
+    else if(!strncmp(RP->addmusic,"3step",5))
+    {
+        theMap->tracknum=40;
+    }
+    else if(!strncmp(RP->addmusic,"birdonawing01",13))
+    {
+        theMap->tracknum=41;
+    }
+    else if(!strncmp(RP->addmusic,"borcs",5))
+    {
+        theMap->tracknum=42;
+    }
+    else if(!strncmp(RP->addmusic,"darkforest01",12))
+    {
+        theMap->tracknum=43;
+    }
+    else if(!strncmp(RP->addmusic,"derie",5))
+    {
+        theMap->tracknum=44;
+    }
+    else if(!strncmp(RP->addmusic,"downwyrds01",11))
+    {
+        theMap->tracknum=45;
+    }
+    else if(!strncmp(RP->addmusic,"elfflowers01",12))
+    {
+        theMap->tracknum=46;
+    }
+    else if(!strncmp(RP->addmusic,"humancombat01",13))
+    {
+        theMap->tracknum=47;
+    }
+    else if(!strncmp(RP->addmusic,"lairofunicorn01",15))
+    {
+        theMap->tracknum=48;
+    }
+    else if(!strncmp(RP->addmusic,"openportal01",12))
+    {
+        theMap->tracknum=49;
+    }
+    else if(!strncmp(RP->addmusic,"orcdrums01",10))
+    {
+        theMap->tracknum=50;
+    }
+    else if(!strncmp(RP->addmusic,"orcfort01",9))
+    {
+        theMap->tracknum=51;
+    }
+    else if(!strncmp(RP->addmusic,"undeadlair01",12))
+    {
+        theMap->tracknum=52;
+}
+    else if(!strncmp(RP->addmusic,"beach02",7))
+    {
+        theMap->tracknum=53;
+    }
+    else if(!strncmp(RP->addmusic,"cave01",6))
+    {
+        theMap->tracknum=54;
+    }
+    else if(!strncmp(RP->addmusic,"desert02",8))
+    {
+        theMap->tracknum=55;
+    }
+    else if(!strncmp(RP->addmusic,"dirt01",6))
+    {
+        theMap->tracknum=56;
+    }
+    else if(!strncmp(RP->addmusic,"earth01",7))
+    {
+        theMap->tracknum=57;
+    }
+    else if(!strncmp(RP->addmusic,"grassland01",11))
+    {
+        theMap->tracknum=58;
+    }
+    else if(!strncmp(RP->addmusic,"holy01",6))
+    {
+        theMap->tracknum=59;
+    }
+    else if(!strncmp(RP->addmusic,"jungle01",8))
+    {
+        theMap->tracknum=60;
+    }
+    else if(!strncmp(RP->addmusic,"lava02",6))
+    {
+        theMap->tracknum=61;
+    }
+    else if(!strncmp(RP->addmusic,"ocean01",7))
+    {
+        theMap->tracknum=62;
+    }
+    else if(!strncmp(RP->addmusic,"rise",4))
+    {
+        theMap->tracknum=63;
+    }
+    else if(!strncmp(RP->addmusic,"riseagain",9))
+    {
+        theMap->tracknum=64;
+    }
+    else if(!strncmp(RP->addmusic,"snow01",6))
+    {
+        theMap->tracknum=65;
+    }
+    else if(!strncmp(RP->addmusic,"swamp01",7))
+    {
+  theMap->tracknum=66;
+    }
+    else if(!strncmp(RP->addmusic,"wasteland01",4))
+    {
+        theMap->tracknum=67;
+    }	
+	
+
+	}
+	else
+	{
+		theMap->tracknum=0;
+	}
   
     return theMap;
 }
@@ -677,6 +966,11 @@ void write_map_parameters_to_string(char *buf,RMParms *RP) {
     strcat(buf,small_buf);
   }
 
+  if(RP->addmusic) {
+	 sprintf(small_buf,"addmusic %s\n",RP->addmusic);
+    strcat(buf,small_buf);
+  }
+
 
 }
 
@@ -708,7 +1002,8 @@ void write_parameters_to_string(char *buf,
                                 int origin_y_n,
                                 int random_seed_n,
                                 int treasureoptions_n,
-				float difficulty_increase) 
+				float difficulty_increase,
+				char *addmusic_n) 
 {
 
   char small_buf[256];
@@ -839,6 +1134,12 @@ void write_parameters_to_string(char *buf,
     sprintf(small_buf,"treasureoptions %d\n",treasureoptions_n);
     strcat(buf,small_buf);
   }
+
+   if(addmusic_n && addmusic_n[0]) {
+    sprintf(small_buf,"addmusic %s\n",addmusic_n);
+    strcat(buf,small_buf);
+  }
+
 
 
 }

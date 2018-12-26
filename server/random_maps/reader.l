@@ -100,6 +100,7 @@ WS	[ \t]*
 ^origin_map{S}       strncpy(RP->origin_map,rmap_yval(),RM_SIZE);
 ^random_seed{S}        RP->random_seed = IVAL;
 ^treasureoptions{S}    RP->treasureoptions = IVAL;
+^addmusic{S}		strncpy(RP->addmusic,rmap_yval(),RM_SIZE);
 ^exit_on_final_map{S} strncpy(RP->exit_on_final_map,rmap_yval(),RM_SIZE);
 
 <*>(^{WS}$)|\n		{/* ignore empty lines, newlines we don't do above */}

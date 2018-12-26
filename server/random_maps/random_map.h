@@ -69,6 +69,7 @@ typedef struct {
   int treasureoptions;
   int symmetry_used;
   region *region;
+  char addmusic[RM_SIZE];
 } RMParms;
 
 int load_parameters(FILE *fp, int bufstate,RMParms *RP);
