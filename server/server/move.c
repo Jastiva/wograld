@@ -64,6 +64,10 @@ int move_ob (object *op, int dir, object *originator)
     mapstruct *m;
     int mflags;
 
+	static int oldmusic=0;
+	static int mnum=0;
+	mapstruct *old_m;
+	mapstruct *test_m;
     if(op==NULL) {
 	LOG(llevError,"Trying to move NULL.\n");
 	return 0;
@@ -121,6 +125,20 @@ int move_ob (object *op, int dir, object *originator)
     if(op->head)
 	return 1;
 
+	//old_m = op->map;
+	//oldmusic=old_m->tracknum;
+test_m =  get_map_from_coord(op->map, &newx, &newy);
+	if(test_m)
+	{
+		oldmusic=mnum;
+		mnum=test_m->tracknum;
+
+	}
+	else
+	{
+		mnum=0;
+	}
+
     remove_ob(op);
 
     /* we already have newx, newy, and m, so lets use them.
@@ -136,13 +154,23 @@ int move_ob (object *op, int dir, object *originator)
     /* insert_ob_in_map will deal with any tiling issues */
     insert_ob_in_map(op, m, originator,0);
 
+	
+
     /* Hmmm.  Should be possible for multispace players now */
     if (op->type==PLAYER) {
 	esrv_map_scroll(&op->contr->socket, freearr_x[dir],freearr_y[dir]);
 	apply_gravity(op);
 	op->contr->socket.update_look=1;
 	op->contr->socket.look_position=0;
-    }
+	printf("mnum %i oldmusic %i\n",mnum,oldmusic);
+        if((mnum>0)&&(mnum!=oldmusic))
+        {
+	printf("tilemap music %i\n",mnum);
+        send_change_music( op->contr, mnum );
+	}
+
+}
+
     else if (op->type == TRANSPORT) {
 	object *pl;
 
