@@ -2,6 +2,9 @@ arch map
 name world_104_108
 width 50
 height 50
+msg
+Modified: 2018-12-29 lx
+endmsg
 outdoor 1
 tile_path_1 world_104_107
 tile_path_2 world_105_108
@@ -55,7 +58,7 @@ arch mountain4
 y 11
 elevation 13721
 end
-arch mountain4
+arch sea
 y 12
 elevation 13172
 end
@@ -266,7 +269,7 @@ x 1
 y 11
 elevation 14791
 end
-arch mountain4
+arch sea
 x 1
 y 12
 elevation 15060
@@ -515,7 +518,7 @@ x 2
 y 11
 elevation 14888
 end
-arch mountain4
+arch sea
 x 2
 y 12
 elevation 15651
@@ -764,7 +767,7 @@ x 3
 y 11
 elevation 13553
 end
-arch mountain4
+arch sea
 x 3
 y 12
 elevation 14559
@@ -1013,7 +1016,7 @@ x 4
 y 11
 elevation 11498
 end
-arch mountain2
+arch sea
 x 4
 y 12
 elevation 11342
@@ -1262,7 +1265,7 @@ x 5
 y 11
 elevation 9257
 end
-arch mountain2
+arch sea
 x 5
 y 12
 elevation 10542
@@ -1511,7 +1514,7 @@ x 6
 y 11
 elevation 7822
 end
-arch mountain
+arch sea
 x 6
 y 12
 elevation 8875
@@ -1760,7 +1763,7 @@ x 7
 y 11
 elevation 8435
 end
-arch mountain
+arch sea
 x 7
 y 12
 elevation 8326
@@ -2009,7 +2012,7 @@ x 8
 y 11
 elevation 8575
 end
-arch mountain
+arch sea
 x 8
 y 12
 elevation 8788
@@ -2258,7 +2261,7 @@ x 9
 y 11
 elevation 10240
 end
-arch mountain2
+arch sea
 x 9
 y 12
 elevation 10354
@@ -2507,7 +2510,7 @@ x 10
 y 11
 elevation 10873
 end
-arch mountain2
+arch sea
 x 10
 y 12
 elevation 11615
@@ -2756,12 +2759,12 @@ x 11
 y 11
 elevation 10362
 end
-arch mountain2
+arch sea
 x 11
 y 12
 elevation 11197
 end
-arch mountain2
+arch sea
 x 11
 y 13
 elevation 11330
@@ -3010,7 +3013,7 @@ x 12
 y 12
 elevation 9493
 end
-arch mountain2
+arch sea
 x 12
 y 13
 elevation 9521
@@ -3259,7 +3262,7 @@ x 13
 y 12
 elevation 7933
 end
-arch mountain
+arch sea
 x 13
 y 13
 elevation 6773
@@ -3508,7 +3511,7 @@ x 14
 y 12
 elevation 7587
 end
-arch mountain
+arch sea
 x 14
 y 13
 elevation 5716
@@ -3757,7 +3760,7 @@ x 15
 y 12
 elevation 8121
 end
-arch mountain
+arch sea
 x 15
 y 13
 elevation 7990
@@ -4006,7 +4009,7 @@ x 16
 y 12
 elevation 8527
 end
-arch mountain
+arch sea
 x 16
 y 13
 elevation 8683
@@ -4255,7 +4258,7 @@ x 17
 y 12
 elevation 9133
 end
-arch mountain2
+arch sea
 x 17
 y 13
 elevation 9214
@@ -4504,7 +4507,7 @@ x 18
 y 12
 elevation 9824
 end
-arch mountain2
+arch sea
 x 18
 y 13
 elevation 9824
@@ -4753,7 +4756,7 @@ x 19
 y 12
 elevation 9825
 end
-arch mountain2
+arch sea
 x 19
 y 13
 elevation 10501
@@ -5002,7 +5005,7 @@ x 20
 y 12
 elevation 7384
 end
-arch mountain2
+arch sea
 x 20
 y 13
 elevation 11601
@@ -5251,7 +5254,7 @@ x 21
 y 12
 elevation 12066
 end
-arch mountain4
+arch sea
 x 21
 y 13
 elevation 13031
@@ -5500,7 +5503,7 @@ x 22
 y 12
 elevation 13859
 end
-arch mountain4
+arch sea
 x 22
 y 13
 elevation 14445
@@ -5749,12 +5752,12 @@ x 23
 y 12
 elevation 13485
 end
-arch mountain4
+arch sea
 x 23
 y 13
 elevation 13924
 end
-arch mountain4
+arch sea
 x 23
 y 14
 elevation 14203
@@ -6003,7 +6006,7 @@ x 24
 y 13
 elevation 8917
 end
-arch mountain4
+arch sea
 x 24
 y 14
 elevation 13320
@@ -6252,12 +6255,12 @@ x 25
 y 13
 elevation 11842
 end
-arch mountain4
+arch sea
 x 25
 y 14
 elevation 12174
 end
-arch mountain2
+arch sea
 x 25
 y 15
 elevation 11405
@@ -6506,17 +6509,17 @@ x 26
 y 14
 elevation 11934
 end
-arch mountain4
+arch sea
 x 26
 y 15
 elevation 12692
 end
-arch mountain4
+arch sea
 x 26
 y 16
 elevation 12220
 end
-arch mountain
+arch sea
 x 26
 y 17
 elevation 8696
@@ -6765,12 +6768,12 @@ x 27
 y 16
 elevation 11609
 end
-arch mountain2
+arch sea
 x 27
 y 17
 elevation 9986
 end
-arch mountain
+arch sea
 x 27
 y 18
 elevation 8857
@@ -7019,12 +7022,12 @@ x 28
 y 17
 elevation 9528
 end
-arch mountain
+arch sea
 x 28
 y 18
 elevation 7278
 end
-arch mountain2
+arch sea
 x 28
 y 19
 elevation 9232
@@ -7273,12 +7276,12 @@ x 29
 y 18
 elevation 7475
 end
-arch mountain
+arch sea
 x 29
 y 19
 elevation 8439
 end
-arch mountain
+arch sea
 x 29
 y 20
 elevation 8466
@@ -7527,17 +7530,17 @@ x 30
 y 19
 elevation 7153
 end
-arch mountain
+arch sea
 x 30
 y 20
 elevation 8710
 end
-arch mountain
+arch sea
 x 30
 y 21
 elevation 8928
 end
-arch mountain
+arch sea
 x 30
 y 22
 elevation 7200
@@ -7786,17 +7789,17 @@ x 31
 y 21
 elevation 8880
 end
-arch mountain
+arch sea
 x 31
 y 22
 elevation 8349
 end
-arch mountain
+arch sea
 x 31
 y 23
 elevation 7874
 end
-arch mountain
+arch sea
 x 31
 y 24
 elevation 7999
@@ -8045,7 +8048,7 @@ x 32
 y 23
 elevation 6691
 end
-arch mountain
+arch sea
 x 32
 y 24
 elevation 6763
@@ -8294,12 +8297,12 @@ x 33
 y 23
 elevation 4523
 end
-arch mountain
+arch sea
 x 33
 y 24
 elevation 6475
 end
-arch mountain
+arch sea
 x 33
 y 25
 elevation 7934
@@ -8548,7 +8551,7 @@ x 34
 y 24
 elevation 5201
 end
-arch mountain
+arch sea
 x 34
 y 25
 elevation 7478
@@ -8797,7 +8800,7 @@ x 35
 y 24
 elevation 7208
 end
-arch mountain
+arch sea
 x 35
 y 25
 elevation 8242
@@ -9046,7 +9049,7 @@ x 36
 y 24
 elevation 9061
 end
-arch mountain
+arch sea
 x 36
 y 25
 elevation 8929
@@ -9295,7 +9298,7 @@ x 37
 y 24
 elevation 9089
 end
-arch mountain2
+arch sea
 x 37
 y 25
 elevation 9063
@@ -9544,7 +9547,7 @@ x 38
 y 24
 elevation 8615
 end
-arch mountain
+arch sea
 x 38
 y 25
 elevation 8469
@@ -9793,7 +9796,7 @@ x 39
 y 24
 elevation 7780
 end
-arch mountain
+arch sea
 x 39
 y 25
 elevation 7982
@@ -10042,7 +10045,7 @@ x 40
 y 24
 elevation 7481
 end
-arch mountain
+arch sea
 x 40
 y 25
 elevation 7726
@@ -10291,7 +10294,7 @@ x 41
 y 24
 elevation 7539
 end
-arch mountain
+arch sea
 x 41
 y 25
 elevation 7665
@@ -10540,7 +10543,7 @@ x 42
 y 24
 elevation 8411
 end
-arch mountain
+arch sea
 x 42
 y 25
 elevation 7532
@@ -10789,7 +10792,7 @@ x 43
 y 24
 elevation 9138
 end
-arch mountain2
+arch sea
 x 43
 y 25
 elevation 9065
@@ -11038,7 +11041,7 @@ x 44
 y 24
 elevation 9317
 end
-arch mountain
+arch sea
 x 44
 y 25
 elevation 8907
@@ -11287,7 +11290,7 @@ x 45
 y 24
 elevation 8347
 end
-arch mountain
+arch sea
 x 45
 y 25
 elevation 8444
@@ -11536,7 +11539,7 @@ x 46
 y 24
 elevation 7518
 end
-arch mountain
+arch sea
 x 46
 y 25
 elevation 7723
@@ -11785,7 +11788,7 @@ x 47
 y 24
 elevation 5129
 end
-arch mountain
+arch sea
 x 47
 y 25
 elevation 6748
@@ -12034,7 +12037,7 @@ x 48
 y 24
 elevation 5241
 end
-arch mountain
+arch sea
 x 48
 y 25
 elevation 7171
@@ -12283,7 +12286,7 @@ x 49
 y 24
 elevation 6801
 end
-arch mountain2
+arch sea
 x 49
 y 25
 elevation 9367

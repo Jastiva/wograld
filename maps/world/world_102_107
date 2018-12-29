@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2007-12-24 tchize
+Modified: 2018-12-29 lx
 endmsg
 outdoor 1
 tile_path_1 world_102_106
@@ -7739,6 +7739,17 @@ arch shallow_sea
 x 38
 y 31
 end
+arch galleon
+name sailing galleon
+name_pl sailing galleon
+x 38
+y 31
+speed 0.500000
+type 2
+container 10000000
+move_type boat
+passenger_limit 2
+end
 arch grass
 x 38
 y 32
@@ -8133,11 +8144,11 @@ arch shallow_sea
 x 40
 y 30
 end
-arch swamp
+arch sea
 x 40
 y 31
 end
-arch grass
+arch sea
 x 40
 y 32
 end
@@ -8336,11 +8347,11 @@ arch beach
 x 41
 y 31
 end
-arch brush
+arch sea
 x 41
 y 32
 end
-arch beach
+arch sea
 x 41
 y 33
 end
@@ -8543,11 +8554,11 @@ arch brush
 x 42
 y 32
 end
-arch hills_rocky
+arch sea
 x 42
 y 33
 end
-arch hills
+arch sea
 x 42
 y 34
 end
@@ -8754,23 +8765,23 @@ arch steppe
 x 43
 y 33
 end
-arch hills
+arch sea
 x 43
 y 34
 end
-arch steppe
+arch sea
 x 43
 y 35
 end
-arch steppe
+arch sea
 x 43
 y 36
 end
-arch hills
+arch sea
 x 43
 y 37
 end
-arch hills_rocky
+arch sea
 x 43
 y 38
 end
@@ -8969,27 +8980,27 @@ arch mountain
 x 44
 y 37
 end
-arch hills
+arch sea
 x 44
 y 38
 end
-arch steppe
+arch sea
 x 44
 y 39
 end
-arch hills
+arch sea
 x 44
 y 40
 end
-arch steppe
+arch sea
 x 44
 y 41
 end
-arch hills
+arch sea
 x 44
 y 42
 end
-arch mountain
+arch sea
 x 44
 y 43
 end
@@ -9196,15 +9207,15 @@ arch mountain
 x 45
 y 42
 end
-arch mountain
+arch sea
 x 45
 y 43
 end
-arch mountain
+arch sea
 x 45
 y 44
 end
-arch mountain
+arch sea
 x 45
 y 45
 end
@@ -9427,7 +9438,7 @@ arch mountain2
 x 46
 y 44
 end
-arch mountain2
+arch sea
 x 46
 y 45
 end
@@ -9646,7 +9657,7 @@ arch mountain2
 x 47
 y 44
 end
-arch mountain2
+arch sea
 x 47
 y 45
 end
@@ -9869,7 +9880,7 @@ arch mountain2
 x 48
 y 44
 end
-arch mountain2
+arch sea
 x 48
 y 45
 end
@@ -10080,7 +10091,7 @@ arch mountain2
 x 49
 y 44
 end
-arch mountain
+arch sea
 x 49
 y 45
 end
