@@ -4,6 +4,7 @@ face mountain1a.111
 type 67
 race /terrain/mountain
 walk_on 1
+move_block boat swim
 color_fg grey
 no_pick 1
 blocksview 1

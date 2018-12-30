@@ -11,4 +11,5 @@ is_hilly 1
 slow_move 5
 editable 8
 visibility 100
+move_block boat swim
 end

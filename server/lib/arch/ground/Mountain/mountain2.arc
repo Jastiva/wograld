@@ -12,5 +12,6 @@ blocksview 1
 editable 8
 smoothlevel 100
 is_floor 1
+move_block boat swim
 smoothface mountain2.111 mountain_S.111
 end

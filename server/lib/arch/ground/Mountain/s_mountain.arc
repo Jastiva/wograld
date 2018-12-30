@@ -11,4 +11,5 @@ is_hilly 1
 slow_move 8
 editable 8
 is_floor 1
+move_block boat swim
 end

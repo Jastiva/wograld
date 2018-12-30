@@ -7,4 +7,5 @@ editable 8
 magicmap white
 smoothface snow2.111 empty_S.111
 smoothlevel 25
+move_block boat swim
 end

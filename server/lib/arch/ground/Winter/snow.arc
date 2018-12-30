@@ -6,5 +6,6 @@ is_floor 1
 editable 8
 magicmap white
 smoothface snow.111 empty_S.111
+move_block boat swim
 smoothlevel 21
 end

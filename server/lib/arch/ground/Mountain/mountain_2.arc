@@ -8,6 +8,7 @@ blocksview 1
 editable 8
 is_floor 1
 magicmap grey
+move_block boat swim
 end
 More
 Object mountain_2_2
@@ -20,6 +21,7 @@ is_hilly 1
 blocksview 1
 is_floor 1
 magicmap grey
+move_block boat swim
 end
 More
 Object mountain_2_3
@@ -32,6 +34,7 @@ is_hilly 1
 blocksview 1
 is_floor 1
 magicmap grey
+move_block boat swim
 end
 More
 Object mountain_2_4
@@ -45,4 +48,5 @@ is_hilly 1
 blocksview 1
 is_floor 1
 magicmap grey
+move_block boat swim
 end
