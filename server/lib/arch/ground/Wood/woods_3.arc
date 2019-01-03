@@ -1,5 +1,5 @@
 Object woods_3
-name woods
+name green moss
 face woods_3.111
 type 67
 race /terrain/forest

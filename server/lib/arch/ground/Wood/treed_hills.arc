@@ -1,12 +1,13 @@
 Object treed_hills
+name grassy moss
 face treed_hills.111
 type 67
-race /terrain/hills
+race /terrain/forest
 walk_on 1
 is_hilly 1
 no_pick 1
 is_wooded 1
-slow_move 5
+slow_move 1
 editable 8
 is_floor 1
 smoothlevel 130

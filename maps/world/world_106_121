@@ -3,7 +3,7 @@ name world_106_121
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-01-03 lori
 endmsg
 outdoor 1
 tile_path_1 world_106_120
@@ -11,18 +11,18 @@ tile_path_2 world_107_121
 tile_path_3 world_106_122
 tile_path_4 world_105_121
 end
-arch mountain
+arch swamp
 elevation 6453
 end
-arch mountain
+arch swamp
 y 1
 elevation 6221
 end
-arch mountain
+arch swamp
 y 2
 elevation 5728
 end
-arch hills_rocky
+arch swamp
 y 3
 elevation 4741
 end
@@ -111,15 +111,15 @@ arch mountain
 y 22
 elevation 5020
 end
-arch steppe
+arch swamp
 y 23
 elevation 4717
 end
-arch hills_rocky
+arch swamp
 y 24
 elevation 3687
 end
-arch grass_only
+arch swamp
 y 25
 elevation 2155
 end
@@ -134,84 +134,84 @@ arch brush
 y 27
 elevation 668
 end
-arch steppe
+arch swamp
 y 28
 elevation 3970
 end
-arch hills_rocky
+arch swamp
 y 29
 elevation 2573
 end
-arch hills_rocky
+arch swamp
 y 30
 elevation 4301
 end
-arch steppe
+arch swamp
 y 31
 elevation 4482
 end
-arch steppe
+arch oldwoodfloor2
 y 32
 elevation 4313
 end
-arch steppe
+arch oldwoodfloor2
 y 33
 elevation 3316
 end
-arch hills_rocky
+arch oldwoodfloor2
 y 34
 elevation 2458
 end
-arch hills_rocky
+arch swamp
 y 35
 elevation 3841
 end
-arch hills_rocky
+arch swamp
 y 36
 elevation 4965
 end
-arch hills_rocky
+arch swamp
 y 37
 elevation 4893
 end
-arch hills_rocky
+arch swamp
 y 38
 elevation 4252
 end
-arch grass_only
+arch swamp
 y 39
 elevation 2891
 end
 arch tree5
 y 39
 end
-arch brush
+arch swamp
 y 40
 elevation 772
 end
-arch grass_only
+arch swamp
 y 41
 elevation 1632
 end
 arch tree5
 y 41
 end
-arch grass_only
+arch swamp
 y 42
 elevation 2743
 end
 arch tree5
 y 42
 end
-arch steppe
+arch swamp
 y 43
 elevation 3728
 end
-arch hills_rocky
+arch swamp
 y 44
 elevation 3738
 end
-arch grass_only
+arch swamp
 y 45
 elevation 2643
 end
@@ -381,32 +381,32 @@ x 1
 y 24
 elevation 4526
 end
-arch hills_rocky
+arch swamp
 x 1
 y 25
 elevation 4088
 end
-arch hills_rocky
+arch swamp
 x 1
 y 26
 elevation 3831
 end
-arch hills_rocky
+arch swamp
 x 1
 y 27
 elevation 4059
 end
-arch hills_rocky
+arch swampyel
 x 1
 y 28
 elevation 4019
 end
-arch hills_rocky
+arch swampyel
 x 1
 y 29
 elevation 3622
 end
-arch hills_rocky
+arch swamp
 x 1
 y 30
 elevation 2608
@@ -416,46 +416,42 @@ x 1
 y 31
 elevation 813
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 1
 y 32
 elevation 2677
 end
-arch grass_only
+arch oldwoodfloor2
 x 1
 y 33
 elevation 2503
 end
-arch tree5
-x 1
-y 33
-end
-arch brush
+arch oldwoodfloor2
 x 1
 y 34
 elevation 106
 end
-arch steppe
+arch swamp
 x 1
 y 35
 elevation 3444
 end
-arch hills_rocky
+arch swamp
 x 1
 y 36
 elevation 4702
 end
-arch hills_rocky
+arch swamp
 x 1
 y 37
 elevation 4907
 end
-arch hills_rocky
+arch swamp
 x 1
 y 38
 elevation 4132
 end
-arch hills_rocky
+arch swamp
 x 1
 y 39
 elevation 2614
@@ -474,17 +470,17 @@ arch tree3
 x 1
 y 41
 end
-arch steppe
+arch swamp
 x 1
 y 42
 elevation 3096
 end
-arch steppe
+arch swamp
 x 1
 y 43
 elevation 4435
 end
-arch hills_rocky
+arch swamp
 x 1
 y 44
 elevation 4912
@@ -678,27 +674,27 @@ x 2
 y 24
 elevation 5162
 end
-arch mountain
+arch swamp
 x 2
 y 25
 elevation 5368
 end
-arch mountain
+arch swamp
 x 2
 y 26
 elevation 5656
 end
-arch mountain
+arch swampyel
 x 2
 y 27
 elevation 5724
 end
-arch mountain
+arch swampyel
 x 2
 y 28
 elevation 5069
 end
-arch steppe
+arch swampyel
 x 2
 y 29
 elevation 3345
@@ -713,17 +709,17 @@ x 2
 y 31
 elevation 330
 end
-arch brush
+arch oldwoodfloor2
 x 2
 y 32
 elevation 973
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 2
 y 33
 elevation 1919
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 2
 y 34
 elevation 1426
@@ -737,22 +733,22 @@ arch tree3
 x 2
 y 35
 end
-arch steppe
+arch swamp
 x 2
 y 36
 elevation 4049
 end
-arch steppe
+arch swamp
 x 2
 y 37
 elevation 4064
 end
-arch hills_rocky
+arch swamp
 x 2
 y 38
 elevation 3443
 end
-arch grass_only
+arch swamp
 x 2
 y 39
 elevation 2108
@@ -771,47 +767,47 @@ x 2
 y 41
 elevation 167
 end
-arch woods_2
+arch swamp
 x 2
 y 42
 elevation 2849
 end
-arch steppe
+arch swamp
 x 2
 y 43
 elevation 4696
 end
-arch mountain
+arch swamp
 x 2
 y 44
 elevation 5659
 end
-arch mountain
+arch swamp
 x 2
 y 45
 elevation 5678
 end
-arch mountain
+arch swampyel
 x 2
 y 46
 elevation 5450
 end
-arch mountain
+arch swamp
 x 2
 y 47
 elevation 5288
 end
-arch mountain
+arch swamp
 x 2
 y 48
 elevation 5220
 end
-arch steppe
+arch swamp
 x 2
 y 49
 elevation 4768
 end
-arch mountain
+arch swamp
 x 3
 elevation 6810
 end
@@ -939,27 +935,27 @@ x 3
 y 24
 elevation 4937
 end
-arch mountain
+arch swamp
 x 3
 y 25
 elevation 5556
 end
-arch mountain
+arch swampyel
 x 3
 y 26
 elevation 6209
 end
-arch mountain
+arch swampyel
 x 3
 y 27
 elevation 6219
 end
-arch steppe
+arch swampyel
 x 3
 y 28
 elevation 4944
 end
-arch hills_rocky
+arch swampyel
 x 3
 y 29
 elevation 2685
@@ -974,97 +970,97 @@ x 3
 y 31
 elevation 158
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 3
 y 32
 elevation 1909
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 3
 y 33
 elevation 2443
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 3
 y 34
 elevation 1043
 end
-arch hills_rocky
+arch swamp
 x 3
 y 35
 elevation 3120
 end
-arch hills_rocky
+arch swamp
 x 3
 y 36
 elevation 3348
 end
-arch hills_rocky
+arch swamp
 x 3
 y 37
 elevation 2385
 end
-arch hills_rocky
+arch swamp
 x 3
 y 38
 elevation 2344
 end
-arch hills_rocky
+arch swamp
 x 3
 y 39
 elevation 1483
 end
-arch brush
+arch swamp
 x 3
 y 40
 elevation 58
 end
-arch brush
+arch swamp
 x 3
 y 41
 elevation 450
 end
-arch woods_2
+arch swamp
 x 3
 y 42
 elevation 2381
 end
-arch steppe
+arch swamp
 x 3
 y 43
 elevation 4192
 end
-arch mountain
+arch swamp
 x 3
 y 44
 elevation 5471
 end
-arch mountain
+arch swamp
 x 3
 y 45
 elevation 6357
 end
-arch mountain
+arch swampyel
 x 3
 y 46
 elevation 7069
 end
-arch mountain
+arch swamp
 x 3
 y 47
 elevation 7591
 end
-arch mountain
+arch swamp
 x 3
 y 48
 elevation 7492
 end
-arch mountain
+arch swamp
 x 3
 y 49
 elevation 6717
 end
-arch mountain
+arch swamp
 x 4
 elevation 5071
 end
@@ -1208,22 +1204,22 @@ x 4
 y 24
 elevation 4214
 end
-arch hills_rocky
+arch swampyel
 x 4
 y 25
 elevation 4611
 end
-arch mountain
+arch swampyel
 x 4
 y 26
 elevation 5399
 end
-arch mountain
+arch swampyel
 x 4
 y 27
 elevation 5398
 end
-arch steppe
+arch swampyel
 x 4
 y 28
 elevation 3871
@@ -1247,27 +1243,27 @@ x 4
 y 31
 elevation 1956
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 4
 y 32
 elevation 2867
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 4
 y 33
 elevation 3230
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 4
 y 34
 elevation 3378
 end
-arch steppe
+arch swamp
 x 4
 y 35
 elevation 3320
 end
-arch grass_only
+arch swamp
 x 4
 y 36
 elevation 2968
@@ -1276,7 +1272,7 @@ arch tree5
 x 4
 y 36
 end
-arch woods_2
+arch swamp
 x 4
 y 37
 elevation 1108
@@ -1286,7 +1282,7 @@ x 4
 y 38
 elevation 259
 end
-arch grass_only
+arch swamp
 x 4
 y 39
 elevation 1311
@@ -1295,12 +1291,12 @@ arch tree3
 x 4
 y 39
 end
-arch hills_rocky
+arch swamp
 x 4
 y 40
 elevation 1095
 end
-arch grass
+arch swamp
 x 4
 y 41
 elevation 374
@@ -1314,7 +1310,7 @@ arch tree5
 x 4
 y 42
 end
-arch grass_only
+arch swamp
 x 4
 y 43
 elevation 2998
@@ -1328,27 +1324,27 @@ x 4
 y 44
 elevation 4398
 end
-arch mountain
+arch swamp
 x 4
 y 45
 elevation 5733
 end
-arch mountain
+arch swampyel
 x 4
 y 46
 elevation 6920
 end
-arch mountain
+arch swamp
 x 4
 y 47
 elevation 7646
 end
-arch mountain
+arch swamp
 x 4
 y 48
 elevation 7743
 end
-arch mountain
+arch swamp
 x 4
 y 49
 elevation 7331
@@ -1520,32 +1516,32 @@ x 5
 y 31
 elevation 2758
 end
-arch steppe
+arch oldwoodfloor2
 x 5
 y 32
 elevation 3561
 end
-arch steppe
+arch oldwoodfloor2
 x 5
 y 33
 elevation 3842
 end
-arch steppe
+arch oldwoodfloor2
 x 5
 y 34
 elevation 3650
 end
-arch hills_rocky
+arch swamp
 x 5
 y 35
 elevation 3431
 end
-arch hills_rocky
+arch swamp
 x 5
 y 36
 elevation 2834
 end
-arch grass_only
+arch swamp
 x 5
 y 37
 elevation 1854
@@ -1559,7 +1555,7 @@ x 5
 y 38
 elevation 180
 end
-arch hills_rocky
+arch swamp
 x 5
 y 39
 elevation 1438
@@ -1573,7 +1569,7 @@ arch tree3
 x 5
 y 40
 end
-arch grass_only
+arch swamp
 x 5
 y 41
 elevation 1033
@@ -1601,27 +1597,27 @@ arch tree5
 x 5
 y 44
 end
-arch steppe
+arch swampyel
 x 5
 y 45
 elevation 4387
 end
-arch mountain
+arch swampyel
 x 5
 y 46
 elevation 5669
 end
-arch mountain
+arch swampyel
 x 5
 y 47
 elevation 6181
 end
-arch mountain
+arch swamp
 x 5
 y 48
 elevation 5560
 end
-arch mountain
+arch swamp
 x 5
 y 49
 elevation 6555
@@ -1793,37 +1789,37 @@ x 6
 y 31
 elevation 2807
 end
-arch steppe
+arch oldwoodfloor2
 x 6
 y 32
 elevation 3649
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 6
 y 33
 elevation 3747
 end
-arch steppe
+arch oldwoodfloor2
 x 6
 y 34
 elevation 3355
 end
-arch woods_2
+arch swamp
 x 6
 y 35
 elevation 2847
 end
-arch hills_rocky
+arch swamp
 x 6
 y 36
 elevation 2495
 end
-arch hills_rocky
+arch swamp
 x 6
 y 37
 elevation 2003
 end
-arch grass_only
+arch swamp
 x 6
 y 38
 elevation 1284
@@ -1832,7 +1828,7 @@ arch tree3
 x 6
 y 38
 end
-arch hills_rocky
+arch swamp
 x 6
 y 39
 elevation 1364
@@ -1842,7 +1838,7 @@ x 6
 y 40
 elevation 1374
 end
-arch woods_2
+arch swampyel
 x 6
 y 41
 elevation 1336
@@ -1866,27 +1862,27 @@ x 6
 y 44
 elevation 538
 end
-arch steppe
+arch swampyel
 x 6
 y 45
 elevation 3570
 end
-arch steppe
+arch swampyel
 x 6
 y 46
 elevation 3902
 end
-arch steppe
+arch swampyel
 x 6
 y 47
 elevation 4147
 end
-arch steppe
+arch swamp
 x 6
 y 48
 elevation 4628
 end
-arch mountain
+arch swamp
 x 6
 y 49
 elevation 5742
@@ -2062,17 +2058,17 @@ x 7
 y 31
 elevation 2350
 end
-arch steppe
+arch oldwoodfloor2
 x 7
 y 32
 elevation 3334
 end
-arch steppe
+arch oldwoodfloor2
 x 7
 y 33
 elevation 3490
 end
-arch woods_2
+arch oldwoodfloor2
 x 7
 y 34
 elevation 2766
@@ -2082,12 +2078,12 @@ x 7
 y 35
 elevation 975
 end
-arch woods_2
+arch swamp
 x 7
 y 36
 elevation 1548
 end
-arch grass_only
+arch swamp
 x 7
 y 37
 elevation 1856
@@ -2105,12 +2101,12 @@ arch tree3
 x 7
 y 38
 end
-arch brush
+arch swamp
 x 7
 y 39
 elevation 461
 end
-arch brush
+arch swamp
 x 7
 y 40
 elevation 329
@@ -2120,12 +2116,12 @@ x 7
 y 41
 elevation 468
 end
-arch woods_2
+arch swampyel
 x 7
 y 42
 elevation 1657
 end
-arch woods_2
+arch swampyel
 x 7
 y 43
 elevation 2211
@@ -2139,27 +2135,27 @@ arch tree5
 x 7
 y 44
 end
-arch hills_rocky
+arch swampyel
 x 7
 y 45
 elevation 3586
 end
-arch steppe
+arch swampyel
 x 7
 y 46
 elevation 3764
 end
-arch hills_rocky
+arch swamp
 x 7
 y 47
 elevation 3519
 end
-arch hills_rocky
+arch swamp
 x 7
 y 48
 elevation 4607
 end
-arch mountain
+arch swamp
 x 7
 y 49
 elevation 5660
@@ -2347,42 +2343,42 @@ x 8
 y 31
 elevation 2153
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 8
 y 32
 elevation 2996
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 8
 y 33
 elevation 3207
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 8
 y 34
 elevation 2328
 end
-arch brush
+arch swamp
 x 8
 y 35
 elevation 135
 end
-arch hills_rocky
+arch swamp
 x 8
 y 36
 elevation 1242
 end
-arch hills_rocky
+arch swamp
 x 8
 y 37
 elevation 1355
 end
-arch hills_rocky
+arch swamp
 x 8
 y 38
 elevation 1403
 end
-arch grass_only
+arch swamp
 x 8
 y 39
 elevation 1008
@@ -2391,7 +2387,7 @@ arch tree3
 x 8
 y 39
 end
-arch brush
+arch swamp
 x 8
 y 40
 elevation 629
@@ -2410,7 +2406,7 @@ arch evergreens2
 x 8
 y 42
 end
-arch grass_only
+arch swampyel
 x 8
 y 43
 elevation 2303
@@ -2419,12 +2415,12 @@ arch evergreens2
 x 8
 y 43
 end
-arch steppe
+arch swampyel
 x 8
 y 44
 elevation 3162
 end
-arch hills_rocky
+arch swampyel
 x 8
 y 45
 elevation 3598
@@ -2434,7 +2430,7 @@ x 8
 y 46
 elevation 3473
 end
-arch grass_only
+arch swamp
 x 8
 y 47
 elevation 2279
@@ -2443,12 +2439,12 @@ arch evergreens2
 x 8
 y 47
 end
-arch hills_rocky
+arch swamp
 x 8
 y 48
 elevation 4706
 end
-arch mountain
+arch swamp
 x 8
 y 49
 elevation 6372
@@ -2664,17 +2660,17 @@ arch tree3
 x 9
 y 31
 end
-arch steppe
+arch oldwoodfloor2
 x 9
 y 32
 elevation 3177
 end
-arch hills
+arch oldwoodfloor2
 x 9
 y 33
 elevation 3352
 end
-arch grass_only
+arch oldwoodfloor2
 x 9
 y 34
 elevation 2273
@@ -2706,7 +2702,7 @@ arch tree3
 x 9
 y 37
 end
-arch grass_only
+arch swamp
 x 9
 y 38
 elevation 1141
@@ -2735,12 +2731,12 @@ x 9
 y 42
 elevation 223
 end
-arch woods_2
+arch swampyel
 x 9
 y 43
 elevation 1341
 end
-arch grass_only
+arch swampyel
 x 9
 y 44
 elevation 2230
@@ -2767,7 +2763,7 @@ arch tree5
 x 9
 y 46
 end
-arch grass_only
+arch swamp
 x 9
 y 47
 elevation 2874
@@ -2776,12 +2772,12 @@ arch evergreens2
 x 9
 y 47
 end
-arch mountain
+arch swamp
 x 9
 y 48
 elevation 5004
 end
-arch mountain
+arch swamp
 x 9
 y 49
 elevation 6938
@@ -2997,22 +2993,22 @@ x 10
 y 31
 elevation 4419
 end
-arch steppe
+arch oldwoodfloor2
 x 10
 y 32
 elevation 4858
 end
-arch steppe
+arch oldwoodfloor2
 x 10
 y 33
 elevation 4302
 end
-arch woods_2
+arch oldwoodfloor2
 x 10
 y 34
 elevation 2081
 end
-arch grass_only
+arch oldwoodfloor2
 x 10
 y 35
 elevation 1268
@@ -3084,7 +3080,7 @@ arch tree5
 x 10
 y 46
 end
-arch grass_only
+arch swamp
 x 10
 y 47
 elevation 2278
@@ -3093,12 +3089,12 @@ arch evergreens2
 x 10
 y 47
 end
-arch mountain
+arch swamp
 x 10
 y 48
 elevation 5051
 end
-arch mountain
+arch swamp
 x 10
 y 49
 elevation 6732
@@ -3278,17 +3274,17 @@ x 11
 y 31
 elevation 5839
 end
-arch mountain
+arch oldwoodfloor2
 x 11
 y 32
 elevation 5897
 end
-arch mountain
+arch oldwoodfloor2
 x 11
 y 33
 elevation 5508
 end
-arch mountain
+arch oldwoodfloor2
 x 11
 y 34
 elevation 5010
@@ -3348,22 +3344,22 @@ x 11
 y 45
 elevation 144
 end
-arch woods_2
+arch swamp
 x 11
 y 46
 elevation 1553
 end
-arch hills
+arch swamp
 x 11
 y 47
 elevation 3027
 end
-arch hills_rocky
+arch swamp
 x 11
 y 48
 elevation 4830
 end
-arch mountain
+arch swamp
 x 11
 y 49
 elevation 6585
@@ -3527,22 +3523,22 @@ x 12
 y 31
 elevation 6567
 end
-arch mountain
+arch oldwoodfloor2
 x 12
 y 32
 elevation 5802
 end
-arch mountain
+arch oldwoodfloor2
 x 12
 y 33
 elevation 5786
 end
-arch mountain
+arch oldwoodfloor2
 x 12
 y 34
 elevation 6084
 end
-arch mountain
+arch oldwoodfloor2
 x 12
 y 35
 elevation 6077
@@ -3602,7 +3598,7 @@ x 12
 y 46
 elevation 669
 end
-arch grass_only
+arch swamp
 x 12
 y 47
 elevation 2776
@@ -3611,12 +3607,12 @@ arch tree5
 x 12
 y 47
 end
-arch hills_rocky
+arch swamp
 x 12
 y 48
 elevation 4513
 end
-arch mountain
+arch swamp
 x 12
 y 49
 elevation 5964
@@ -3665,7 +3661,7 @@ x 13
 y 8
 elevation 2967
 end
-arch hills_rocky
+arch swampyel
 x 13
 y 9
 elevation 2265
@@ -3784,17 +3780,17 @@ x 13
 y 31
 elevation 6545
 end
-arch hills
+arch oldwoodfloor2
 x 13
 y 32
 elevation 3442
 end
-arch mountain
+arch oldwoodfloor2
 x 13
 y 33
 elevation 5011
 end
-arch mountain
+arch oldwoodfloor2
 x 13
 y 34
 elevation 5702
@@ -3859,17 +3855,17 @@ x 13
 y 46
 elevation 38
 end
-arch woods_2
+arch swamp
 x 13
 y 47
 elevation 2270
 end
-arch steppe
+arch swamp
 x 13
 y 48
 elevation 3720
 end
-arch mountain
+arch swamp
 x 13
 y 49
 elevation 5254
@@ -3913,12 +3909,12 @@ x 14
 y 7
 elevation 1248
 end
-arch hills_rocky
+arch swampyel
 x 14
 y 8
 elevation 2474
 end
-arch hills_rocky
+arch swampyel
 x 14
 y 9
 elevation 2238
@@ -4033,17 +4029,17 @@ x 14
 y 31
 elevation 5832
 end
-arch steppe
+arch oldwoodfloor2
 x 14
 y 32
 elevation 3436
 end
-arch steppe
+arch oldwoodfloor2
 x 14
 y 33
 elevation 4275
 end
-arch mountain
+arch oldwoodfloor2
 x 14
 y 34
 elevation 5047
@@ -4108,17 +4104,17 @@ x 14
 y 46
 elevation 310
 end
-arch woods_2
+arch swamp
 x 14
 y 47
 elevation 1760
 end
-arch hills
+arch swamp
 x 14
 y 48
 elevation 4151
 end
-arch mountain
+arch swamp
 x 14
 y 49
 elevation 6034
@@ -4157,22 +4153,22 @@ x 15
 y 6
 elevation 3947
 end
-arch hills_rocky
+arch swampyel
 x 15
 y 7
 elevation 2661
 end
-arch hills_rocky
+arch swampyel
 x 15
 y 8
 elevation 1222
 end
-arch hills_rocky
+arch swampyel
 x 15
 y 9
 elevation 1790
 end
-arch hills_rocky
+arch swampyel
 x 15
 y 10
 elevation 2410
@@ -4217,7 +4213,7 @@ x 15
 y 18
 elevation 4511
 end
-arch grass_only
+arch swamp
 x 15
 y 19
 elevation 2416
@@ -4226,17 +4222,17 @@ arch evergreens2
 x 15
 y 19
 end
-arch steppe
+arch swamp
 x 15
 y 20
 elevation 3068
 end
-arch steppe
+arch swamp
 x 15
 y 21
 elevation 4591
 end
-arch steppe
+arch swamp
 x 15
 y 22
 elevation 4732
@@ -4286,17 +4282,17 @@ x 15
 y 31
 elevation 4050
 end
-arch hills
+arch oldwoodfloor2
 x 15
 y 32
 elevation 3273
 end
-arch steppe
+arch oldwoodfloor2
 x 15
 y 33
 elevation 3694
 end
-arch steppe
+arch oldwoodfloor2
 x 15
 y 34
 elevation 3965
@@ -4361,7 +4357,7 @@ x 15
 y 46
 elevation 201
 end
-arch grass_only
+arch swamp
 x 15
 y 47
 elevation 1447
@@ -4370,12 +4366,12 @@ arch tree5
 x 15
 y 47
 end
-arch hills_rocky
+arch swamp
 x 15
 y 48
 elevation 3944
 end
-arch mountain
+arch swamp
 x 15
 y 49
 elevation 6168
@@ -4474,27 +4470,27 @@ x 16
 y 18
 elevation 4351
 end
-arch hills
+arch swamp
 x 16
 y 19
 elevation 3611
 end
-arch steppe
+arch swamp
 x 16
 y 20
 elevation 4259
 end
-arch steppe
+arch swamp
 x 16
 y 21
 elevation 4941
 end
-arch mountain
+arch swamp
 x 16
 y 22
 elevation 5125
 end
-arch mountain
+arch swamp
 x 16
 y 23
 elevation 5248
@@ -4539,17 +4535,17 @@ x 16
 y 31
 elevation 4859
 end
-arch steppe
+arch oldwoodfloor2
 x 16
 y 32
 elevation 3360
 end
-arch hills
+arch oldwoodfloor2
 x 16
 y 33
 elevation 3030
 end
-arch steppe
+arch oldwoodfloor2
 x 16
 y 34
 elevation 3090
@@ -4573,22 +4569,22 @@ x 16
 y 37
 elevation 5705
 end
-arch mountain
+arch swamp
 x 16
 y 38
 elevation 6074
 end
-arch mountain
+arch swamp
 x 16
 y 39
 elevation 5760
 end
-arch steppe
+arch swamp
 x 16
 y 40
 elevation 4501
 end
-arch woods_2
+arch swamp
 x 16
 y 41
 elevation 2399
@@ -4618,17 +4614,17 @@ x 16
 y 46
 elevation 286
 end
-arch woods_2
+arch swamp
 x 16
 y 47
 elevation 1294
 end
-arch hills
+arch swamp
 x 16
 y 48
 elevation 3447
 end
-arch steppe
+arch swamp
 x 16
 y 49
 elevation 4213
@@ -4727,22 +4723,22 @@ x 17
 y 18
 elevation 4303
 end
-arch steppe
+arch swamp
 x 17
 y 19
 elevation 4308
 end
-arch steppe
+arch swamp
 x 17
 y 20
 elevation 4624
 end
-arch mountain
+arch swamp
 x 17
 y 21
 elevation 5068
 end
-arch mountain
+arch swamp
 x 17
 y 22
 elevation 5258
@@ -4792,61 +4788,57 @@ x 17
 y 31
 elevation 4848
 end
-arch steppe
+arch oldwoodfloor2
 x 17
 y 32
 elevation 3676
 end
-arch hills_rocky
+arch oldwoodfloor2
 x 17
 y 33
 elevation 2766
 end
-arch grass_only
+arch oldwoodfloor2
 x 17
 y 34
 elevation 2921
 end
-arch evergreens2
-x 17
-y 34
-end
-arch woods_2
+arch swamp
 x 17
 y 35
 elevation 1894
 end
-arch steppe
+arch swamp
 x 17
 y 36
 elevation 4957
 end
-arch mountain
+arch swamp
 x 17
 y 37
 elevation 6395
 end
-arch mountain
+arch swamp
 x 17
 y 38
 elevation 6806
 end
-arch mountain
+arch swamp
 x 17
 y 39
 elevation 6645
 end
-arch mountain
+arch swamp
 x 17
 y 40
 elevation 5453
 end
-arch steppe
+arch swamp
 x 17
 y 41
 elevation 3458
 end
-arch grass_only
+arch swamp
 x 17
 y 42
 elevation 1014
@@ -4855,7 +4847,7 @@ arch evergreens2
 x 17
 y 42
 end
-arch brush
+arch swamp
 x 17
 y 43
 elevation 162
@@ -4870,12 +4862,12 @@ x 17
 y 45
 elevation 21
 end
-arch grass
+arch swamp
 x 17
 y 46
 elevation 164
 end
-arch grass_only
+arch swamp
 x 17
 y 47
 elevation 1664
@@ -4884,12 +4876,12 @@ arch evergreens2
 x 17
 y 47
 end
-arch hills
+arch swamp
 x 17
 y 48
 elevation 3220
 end
-arch hills
+arch swamp
 x 17
 y 49
 elevation 3502
@@ -4988,121 +4980,117 @@ x 18
 y 18
 elevation 3190
 end
-arch steppe
+arch swamp
 x 18
 y 19
 elevation 4096
 end
-arch steppe
+arch swamp
 x 18
 y 20
 elevation 4372
 end
-arch steppe
+arch swamp
 x 18
 y 21
 elevation 4379
 end
-arch hills
+arch swamp
 x 18
 y 22
 elevation 4727
 end
-arch steppe
+arch swamp
 x 18
 y 23
 elevation 4514
 end
-arch steppe
+arch oldwoodfloor3
 x 18
 y 24
 elevation 3611
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 25
 elevation 5002
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 26
 elevation 7128
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 27
 elevation 8164
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 28
 elevation 8180
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 29
 elevation 7228
 end
-arch hills
+arch oldwoodfloor3
 x 18
 y 30
 elevation 4998
 end
-arch steppe
+arch oldwoodfloor3
 x 18
 y 31
 elevation 4799
 end
-arch hills
+arch oldwoodfloor3
 x 18
 y 32
 elevation 3179
 end
-arch grass_only
+arch oldwoodfloor3
 x 18
 y 33
 elevation 1912
 end
-arch evergreens2
-x 18
-y 33
-end
-arch hills
+arch oldwoodfloor3
 x 18
 y 34
 elevation 3604
 end
-arch hills
+arch oldwoodfloor3
 x 18
 y 35
 elevation 4471
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 36
 elevation 5482
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 37
 elevation 6734
 end
-arch mountain
+arch oldwoodfloor3
 x 18
 y 38
 elevation 7407
 end
-arch mountain
+arch swamp
 x 18
 y 39
 elevation 7132
 end
-arch mountain
+arch swamp
 x 18
 y 40
 elevation 5854
 end
-arch hills
+arch swamp
 x 18
 y 41
 elevation 3958
@@ -5116,22 +5104,22 @@ arch evergreens2
 x 18
 y 42
 end
-arch grass
+arch swamp
 x 18
 y 43
 elevation 43
 end
-arch grass
+arch swamp
 x 18
 y 44
 elevation 16
 end
-arch grass
+arch swamp
 x 18
 y 45
 elevation 53
 end
-arch grass
+arch swamp
 x 18
 y 46
 elevation 572
@@ -5155,7 +5143,7 @@ x 18
 y 49
 elevation 4432
 end
-arch hills_rocky
+arch swamp
 x 19
 elevation 2316
 end
@@ -5253,112 +5241,112 @@ arch tree5
 x 19
 y 18
 end
-arch steppe
+arch swamp
 x 19
 y 19
 elevation 3597
 end
-arch steppe
+arch swamp
 x 19
 y 20
 elevation 4021
 end
-arch steppe
+arch swamp
 x 19
 y 21
 elevation 3939
 end
-arch steppe
+arch swamp
 x 19
 y 22
 elevation 4008
 end
-arch steppe
+arch swamp
 x 19
 y 23
 elevation 3303
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 19
 y 24
 elevation 2850
 end
-arch hills
+arch oldwoodfloor3
 x 19
 y 25
 elevation 4899
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 26
 elevation 7115
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 27
 elevation 8374
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 28
 elevation 8219
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 29
 elevation 7002
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 30
 elevation 5150
 end
-arch steppe
+arch oldwoodfloor3
 x 19
 y 31
 elevation 4735
 end
-arch steppe
+arch oldwoodfloor2
 x 19
 y 32
 elevation 4235
 end
-arch hills
+arch oldwoodfloor2
 x 19
 y 33
 elevation 4131
 end
-arch hills
+arch oldwoodfloor2
 x 19
 y 34
 elevation 4433
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 35
 elevation 5067
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 36
 elevation 5756
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 37
 elevation 6263
 end
-arch mountain
+arch oldwoodfloor3
 x 19
 y 38
 elevation 7309
 end
-arch mountain
+arch swamp
 x 19
 y 39
 elevation 7218
 end
-arch mountain
+arch swamp
 x 19
 y 40
 elevation 5707
@@ -5382,7 +5370,7 @@ x 19
 y 43
 elevation 209
 end
-arch grass
+arch swamp
 x 19
 y 44
 elevation 85
@@ -5392,7 +5380,7 @@ x 19
 y 45
 elevation 45
 end
-arch grass_only
+arch swamp
 x 19
 y 46
 elevation 1028
@@ -5401,7 +5389,7 @@ arch evergreens2
 x 19
 y 46
 end
-arch grass_only
+arch swamp
 x 19
 y 47
 elevation 2896
@@ -5410,7 +5398,7 @@ arch evergreens2
 x 19
 y 47
 end
-arch hills
+arch swamp
 x 19
 y 48
 elevation 4010
@@ -5427,27 +5415,27 @@ end
 arch evergreens2
 x 20
 end
-arch hills_rocky
+arch swamp
 x 20
 y 1
 elevation 3569
 end
-arch steppe
+arch swamp
 x 20
 y 2
 elevation 3418
 end
-arch hills_rocky
+arch swamp
 x 20
 y 3
 elevation 3426
 end
-arch steppe
+arch swamp
 x 20
 y 4
 elevation 4095
 end
-arch steppe
+arch swamp
 x 20
 y 5
 elevation 4301
@@ -5517,27 +5505,27 @@ x 20
 y 18
 elevation 1852
 end
-arch steppe
+arch swamp
 x 20
 y 19
 elevation 3109
 end
-arch hills
+arch swamp
 x 20
 y 20
 elevation 3640
 end
-arch steppe
+arch swamp
 x 20
 y 21
 elevation 3777
 end
-arch hills
+arch swamp
 x 20
 y 22
 elevation 3788
 end
-arch grass_only
+arch swamp
 x 20
 y 23
 elevation 2772
@@ -5546,87 +5534,87 @@ arch evergreens2
 x 20
 y 23
 end
-arch grass
+arch oldwoodfloor3
 x 20
 y 24
 elevation 316
 end
-arch steppe
+arch oldwoodfloor3
 x 20
 y 25
 elevation 4134
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 26
 elevation 7591
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 27
 elevation 8227
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 28
 elevation 7835
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 29
 elevation 6839
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 30
 elevation 5369
 end
-arch steppe
+arch oldwoodfloor3
 x 20
 y 31
 elevation 4195
 end
-arch hills
+arch oldwoodfloor2
 x 20
 y 32
 elevation 4929
 end
-arch hills
+arch oldwoodfloor2
 x 20
 y 33
 elevation 4873
 end
-arch hills
+arch oldwoodfloor2
 x 20
 y 34
 elevation 4499
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 35
 elevation 5351
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 36
 elevation 5311
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 37
 elevation 5584
 end
-arch mountain
+arch oldwoodfloor3
 x 20
 y 38
 elevation 7077
 end
-arch mountain
+arch swamp
 x 20
 y 39
 elevation 7033
 end
-arch mountain
+arch swamp
 x 20
 y 40
 elevation 6023
@@ -5650,17 +5638,17 @@ arch evergreens2
 x 20
 y 43
 end
-arch grass
+arch swamp
 x 20
 y 44
 elevation 141
 end
-arch grass
+arch swamp
 x 20
 y 45
 elevation 221
 end
-arch grass_only
+arch swamp
 x 20
 y 46
 elevation 1780
@@ -5669,26 +5657,26 @@ arch evergreens2
 x 20
 y 46
 end
-arch hills
+arch swamp
 x 20
 y 47
 elevation 3346
 end
-arch hills
+arch swamp
 x 20
 y 48
 elevation 4085
 end
-arch hills
+arch swamp
 x 20
 y 49
 elevation 4412
 end
-arch hills_rocky
+arch swamp
 x 21
 elevation 3386
 end
-arch hills_rocky
+arch swamp
 x 21
 y 1
 elevation 4323
@@ -5703,7 +5691,7 @@ x 21
 y 3
 elevation 4483
 end
-arch hills_rocky
+arch swamp
 x 21
 y 4
 elevation 4447
@@ -5778,112 +5766,112 @@ x 21
 y 18
 elevation 2045
 end
-arch hills_rocky
+arch swamp
 x 21
 y 19
 elevation 1983
 end
-arch steppe
+arch swamp
 x 21
 y 20
 elevation 3448
 end
-arch steppe
+arch swamp
 x 21
 y 21
 elevation 3891
 end
-arch steppe
+arch swamp
 x 21
 y 22
 elevation 3943
 end
-arch steppe
+arch swamp
 x 21
 y 23
 elevation 3828
 end
-arch steppe
+arch oldwoodfloor3
 x 21
 y 24
 elevation 4442
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 25
 elevation 6259
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 26
 elevation 8019
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 27
 elevation 8033
 end
-arch steppe
+arch oldwoodfloor3
 x 21
 y 28
 elevation 4610
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 29
 elevation 7097
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 30
 elevation 7032
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 31
 elevation 5829
 end
-arch mountain
+arch oldwoodfloor2
 x 21
 y 32
 elevation 5563
 end
-arch steppe
+arch oldwoodfloor2
 x 21
 y 33
 elevation 4761
 end
-arch mountain
+arch oldwoodfloor2
 x 21
 y 34
 elevation 5518
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 35
 elevation 5390
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 36
 elevation 5640
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 37
 elevation 6375
 end
-arch mountain
+arch oldwoodfloor3
 x 21
 y 38
 elevation 6971
 end
-arch mountain
+arch swamp
 x 21
 y 39
 elevation 6724
 end
-arch mountain
+arch swamp
 x 21
 y 40
 elevation 5938
@@ -5916,7 +5904,7 @@ arch evergreens2
 x 21
 y 44
 end
-arch grass_only
+arch swamp
 x 21
 y 45
 elevation 1980
@@ -5934,41 +5922,41 @@ arch evergreens2
 x 21
 y 46
 end
-arch hills
+arch swamp
 x 21
 y 47
 elevation 3561
 end
-arch hills
+arch swamp
 x 21
 y 48
 elevation 3939
 end
-arch hills
+arch swamp
 x 21
 y 49
 elevation 3385
 end
-arch mountain
+arch swamp
 x 22
 elevation 5689
 end
-arch hills_rocky
+arch swamp
 x 22
 y 1
 elevation 4710
 end
-arch mountain
+arch swamp
 x 22
 y 2
 elevation 5274
 end
-arch mountain
+arch swamp
 x 22
 y 3
 elevation 5156
 end
-arch steppe
+arch swamp
 x 22
 y 4
 elevation 4771
@@ -6018,12 +6006,12 @@ x 22
 y 13
 elevation 5013
 end
-arch mountain
+arch jungle_2
 x 22
 y 14
 elevation 5551
 end
-arch mountain
+arch jungle_2
 x 22
 y 15
 elevation 5313
@@ -6043,107 +6031,107 @@ x 22
 y 18
 elevation 2365
 end
-arch hills_rocky
+arch swamp
 x 22
 y 19
 elevation 2771
 end
-arch steppe
+arch swamp
 x 22
 y 20
 elevation 3579
 end
-arch steppe
+arch swamp
 x 22
 y 21
 elevation 3871
 end
-arch steppe
+arch swamp
 x 22
 y 22
 elevation 3961
 end
-arch steppe
+arch swamp
 x 22
 y 23
 elevation 4443
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 24
 elevation 5384
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 25
 elevation 6728
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 26
 elevation 7760
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 27
 elevation 7587
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 28
 elevation 6522
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 29
 elevation 7633
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 30
 elevation 8167
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 31
 elevation 7732
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 32
 elevation 6946
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 33
 elevation 6612
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 34
 elevation 6232
 end
-arch hills
+arch oldwoodfloor3
 x 22
 y 35
 elevation 4818
 end
-arch steppe
+arch oldwoodfloor3
 x 22
 y 36
 elevation 4754
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 37
 elevation 6706
 end
-arch mountain
+arch oldwoodfloor3
 x 22
 y 38
 elevation 7081
 end
-arch mountain
+arch swamp
 x 22
 y 39
 elevation 6406
@@ -6182,7 +6170,7 @@ arch evergreens2
 x 22
 y 45
 end
-arch grass_only
+arch swamp
 x 22
 y 46
 elevation 2729
@@ -6201,31 +6189,31 @@ x 22
 y 48
 elevation 3922
 end
-arch hills
+arch swamp
 x 22
 y 49
 elevation 3014
 end
-arch mountain
+arch swamp
 x 23
 elevation 6557
 end
-arch mountain
+arch swamp
 x 23
 y 1
 elevation 5470
 end
-arch mountain
+arch swamp
 x 23
 y 2
 elevation 5862
 end
-arch mountain
+arch swamp
 x 23
 y 3
 elevation 5910
 end
-arch steppe
+arch swamp
 x 23
 y 4
 elevation 4412
@@ -6235,12 +6223,12 @@ x 23
 y 5
 elevation 5956
 end
-arch mountain
+arch swamp
 x 23
 y 6
 elevation 5504
 end
-arch hills_rocky
+arch swamp
 x 23
 y 7
 elevation 4842
@@ -6250,42 +6238,42 @@ x 23
 y 8
 elevation 7520
 end
-arch mountain
+arch jungle_1
 x 23
 y 9
 elevation 8227
 end
-arch mountain
+arch jungle_1
 x 23
 y 10
 elevation 8159
 end
-arch mountain
+arch jungle_1
 x 23
 y 11
 elevation 5940
 end
-arch mountain
+arch jungle_1
 x 23
 y 12
 elevation 6646
 end
-arch steppe
+arch jungle_1
 x 23
 y 13
 elevation 3727
 end
-arch mountain
+arch jungle_1
 x 23
 y 14
 elevation 5284
 end
-arch mountain
+arch jungle_1
 x 23
 y 15
 elevation 5233
 end
-arch steppe
+arch jungle_2
 x 23
 y 16
 elevation 4844
@@ -6300,107 +6288,107 @@ x 23
 y 18
 elevation 3392
 end
-arch steppe
+arch swamp
 x 23
 y 19
 elevation 3368
 end
-arch steppe
+arch swamp
 x 23
 y 20
 elevation 3653
 end
-arch steppe
+arch swamp
 x 23
 y 21
 elevation 3572
 end
-arch steppe
+arch swamp
 x 23
 y 22
 elevation 3615
 end
-arch steppe
+arch swamp
 x 23
 y 23
 elevation 3929
 end
-arch steppe
+arch oldwoodfloor3
 x 23
 y 24
 elevation 4629
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 25
 elevation 5517
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 26
 elevation 6236
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 27
 elevation 6642
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 28
 elevation 7057
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 29
 elevation 7697
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 30
 elevation 8296
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 31
 elevation 8272
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 32
 elevation 7871
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 33
 elevation 7043
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 34
 elevation 6948
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 35
 elevation 6551
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 36
 elevation 6480
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 37
 elevation 6942
 end
-arch mountain
+arch oldwoodfloor3
 x 23
 y 38
 elevation 7021
 end
-arch mountain
+arch swamp
 x 23
 y 39
 elevation 6204
@@ -6430,7 +6418,7 @@ x 23
 y 44
 elevation 3311
 end
-arch grass_only
+arch swamp
 x 23
 y 45
 elevation 2992
@@ -6439,7 +6427,7 @@ arch evergreens2
 x 23
 y 45
 end
-arch hills
+arch swamp
 x 23
 y 46
 elevation 3328
@@ -6449,51 +6437,51 @@ x 23
 y 47
 elevation 3969
 end
-arch hills
+arch swamp
 x 23
 y 48
 elevation 4319
 end
-arch hills
+arch swamp
 x 23
 y 49
 elevation 4753
 end
-arch mountain
+arch swamp
 x 24
 elevation 6873
 end
-arch mountain
+arch swamp
 x 24
 y 1
 elevation 6066
 end
-arch mountain
+arch swamp
 x 24
 y 2
 elevation 6125
 end
-arch mountain
+arch swamp
 x 24
 y 3
 elevation 6743
 end
-arch mountain
+arch swamp
 x 24
 y 4
 elevation 7223
 end
-arch mountain
+arch swamp
 x 24
 y 5
 elevation 7473
 end
-arch mountain
+arch swamp
 x 24
 y 6
 elevation 7664
 end
-arch mountain
+arch swamp
 x 24
 y 7
 elevation 7880
@@ -6503,42 +6491,42 @@ x 24
 y 8
 elevation 8145
 end
-arch mountain
+arch jungle_1
 x 24
 y 9
 elevation 8288
 end
-arch mountain
+arch jungle_1
 x 24
 y 10
 elevation 8151
 end
-arch mountain
+arch jungle_1
 x 24
 y 11
 elevation 7775
 end
-arch mountain
+arch jungle_1
 x 24
 y 12
 elevation 6839
 end
-arch mountain
+arch woods_3
 x 24
 y 13
 elevation 6221
 end
-arch mountain
+arch jungle_1
 x 24
 y 14
 elevation 5595
 end
-arch steppe
+arch jungle_2
 x 24
 y 15
 elevation 4972
 end
-arch steppe
+arch jungle_2
 x 24
 y 16
 elevation 4647
@@ -6553,117 +6541,117 @@ x 24
 y 18
 elevation 2746
 end
-arch hills_rocky
+arch swamp
 x 24
 y 19
 elevation 2948
 end
-arch steppe
+arch swamp
 x 24
 y 20
 elevation 3197
 end
-arch steppe
+arch swamp
 x 24
 y 21
 elevation 3009
 end
-arch hills_rocky
+arch swamp
 x 24
 y 22
 elevation 2039
 end
-arch steppe
+arch swamp
 x 24
 y 23
 elevation 3064
 end
-arch steppe
+arch oldwoodfloor3
 x 24
 y 24
 elevation 3217
 end
-arch steppe
+arch oldwoodfloor3
 x 24
 y 25
 elevation 3359
 end
-arch steppe
+arch oldwoodfloor3
 x 24
 y 26
 elevation 3796
 end
-arch steppe
+arch oldwoodfloor3
 x 24
 y 27
 elevation 4665
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 28
 elevation 5549
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 29
 elevation 6640
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 30
 elevation 7249
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 31
 elevation 7505
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 32
 elevation 8276
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 33
 elevation 8058
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 34
 elevation 6924
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 35
 elevation 7075
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 36
 elevation 6880
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 37
 elevation 6579
 end
-arch mountain
+arch oldwoodfloor3
 x 24
 y 38
 elevation 6304
 end
-arch mountain
+arch swamp
 x 24
 y 39
 elevation 5821
 end
-arch mountain
+arch swamp
 x 24
 y 40
 elevation 5347
 end
-arch steppe
+arch swamp
 x 24
 y 41
 elevation 4290
@@ -6673,12 +6661,12 @@ x 24
 y 42
 elevation 4408
 end
-arch hills
+arch swamp
 x 24
 y 43
 elevation 3655
 end
-arch grass_only
+arch swamp
 x 24
 y 44
 elevation 2584
@@ -6687,7 +6675,7 @@ arch evergreens2
 x 24
 y 44
 end
-arch grass_only
+arch swamp
 x 24
 y 45
 elevation 1049
@@ -6696,7 +6684,7 @@ arch evergreens2
 x 24
 y 45
 end
-arch grass_only
+arch swamp
 x 24
 y 46
 elevation 2514
@@ -6710,17 +6698,17 @@ x 24
 y 47
 elevation 3554
 end
-arch hills
+arch swamp
 x 24
 y 48
 elevation 4493
 end
-arch hills
+arch swamp
 x 24
 y 49
 elevation 4493
 end
-arch mountain
+arch swamp
 x 25
 elevation 6982
 end
@@ -6729,12 +6717,12 @@ x 25
 y 1
 elevation 5802
 end
-arch mountain
+arch swamp
 x 25
 y 2
 elevation 6370
 end
-arch mountain
+arch swamp
 x 25
 y 3
 elevation 7425
@@ -6744,67 +6732,67 @@ x 25
 y 4
 elevation 8522
 end
-arch mountain
+arch swamp
 x 25
 y 5
 elevation 8782
 end
-arch mountain
+arch swamp
 x 25
 y 6
 elevation 8748
 end
-arch mountain
+arch swamp
 x 25
 y 7
 elevation 8596
 end
-arch mountain
+arch swamp
 x 25
 y 8
 elevation 8335
 end
-arch mountain
+arch jungle_1
 x 25
 y 9
 elevation 8074
 end
-arch mountain
+arch jungle_1
 x 25
 y 10
 elevation 7878
 end
-arch mountain
+arch woods_3
 x 25
 y 11
 elevation 7405
 end
-arch mountain
+arch woods_3
 x 25
 y 12
 elevation 6793
 end
-arch mountain
+arch woods_3
 x 25
 y 13
 elevation 6592
 end
-arch mountain
+arch woods_3
 x 25
 y 14
 elevation 6041
 end
-arch steppe
+arch jungle_2
 x 25
 y 15
 elevation 4966
 end
-arch steppe
+arch treed_hills
 x 25
 y 16
 elevation 4345
 end
-arch steppe
+arch treed_hills
 x 25
 y 17
 elevation 3409
@@ -6814,127 +6802,127 @@ x 25
 y 18
 elevation 916
 end
-arch hills_rocky
+arch swamp
 x 25
 y 19
 elevation 1951
 end
-arch hills_rocky
+arch swamp
 x 25
 y 20
 elevation 2607
 end
-arch hills_rocky
+arch swamp
 x 25
 y 21
 elevation 2307
 end
-arch hills_rocky
+arch swamp
 x 25
 y 22
 elevation 1989
 end
-arch hills_rocky
+arch swamp
 x 25
 y 23
 elevation 2431
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 25
 y 24
 elevation 2017
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 25
 y 25
 elevation 1829
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 25
 y 26
 elevation 1829
 end
-arch steppe
+arch oldwoodfloor3
 x 25
 y 27
 elevation 3513
 end
-arch steppe
+arch oldwoodfloor3
 x 25
 y 28
 elevation 4596
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 29
 elevation 5456
 end
-arch steppe
+arch oldwoodfloor3
 x 25
 y 30
 elevation 4790
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 31
 elevation 7273
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 32
 elevation 8364
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 33
 elevation 8574
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 34
 elevation 7701
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 35
 elevation 6223
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 36
 elevation 6039
 end
-arch mountain
+arch oldwoodfloor3
 x 25
 y 37
 elevation 5459
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 25
 y 38
 elevation 1806
 end
-arch mountain
+arch swamp
 x 25
 y 39
 elevation 5208
 end
-arch mountain
+arch swamp
 x 25
 y 40
 elevation 5133
 end
-arch steppe
+arch swamp
 x 25
 y 41
 elevation 4564
 end
-arch hills
+arch swamp
 x 25
 y 42
 elevation 3864
 end
-arch grass_only
+arch swamp
 x 25
 y 43
 elevation 2819
@@ -6943,7 +6931,7 @@ arch evergreens2
 x 25
 y 43
 end
-arch grass
+arch swamp
 x 25
 y 44
 elevation 235
@@ -6968,16 +6956,16 @@ arch flagstone
 x 25
 y 49
 end
-arch mountain
+arch swamp
 x 26
 elevation 6878
 end
-arch mountain
+arch swamp
 x 26
 y 1
 elevation 5128
 end
-arch hills_rocky
+arch swamp
 x 26
 y 2
 elevation 4853
@@ -6987,177 +6975,177 @@ x 26
 y 3
 elevation 7709
 end
-arch mountain
+arch swamp
 x 26
 y 4
 elevation 8912
 end
-arch mountain2
+arch swamp
 x 26
 y 5
 elevation 9164
 end
-arch mountain
+arch swamp
 x 26
 y 6
 elevation 8616
 end
-arch mountain
+arch jungle_1
 x 26
 y 7
 elevation 7964
 end
-arch mountain
+arch woods_3
 x 26
 y 8
 elevation 7425
 end
-arch mountain
+arch jungle_1
 x 26
 y 9
 elevation 7148
 end
-arch mountain
+arch woods_3
 x 26
 y 10
 elevation 6999
 end
-arch mountain
+arch woods_3
 x 26
 y 11
 elevation 5834
 end
-arch mountain
+arch woods_3
 x 26
 y 12
 elevation 5404
 end
-arch mountain
+arch woods_3
 x 26
 y 13
 elevation 6616
 end
-arch mountain
+arch woods_3
 x 26
 y 14
 elevation 6268
 end
-arch steppe
+arch jungle_2
 x 26
 y 15
 elevation 4674
 end
-arch steppe
+arch treed_hills
 x 26
 y 16
 elevation 4050
 end
-arch steppe
+arch treed_hills
 x 26
 y 17
 elevation 3367
 end
-arch hills_rocky
+arch treed_hills
 x 26
 y 18
 elevation 2761
 end
-arch hills_rocky
+arch swamp
 x 26
 y 19
 elevation 2538
 end
-arch hills_rocky
+arch swamp
 x 26
 y 20
 elevation 1846
 end
-arch hills_rocky
+arch swamp
 x 26
 y 21
 elevation 2591
 end
-arch hills_rocky
+arch swamp
 x 26
 y 22
 elevation 1487
 end
-arch hills_rocky
+arch swamp
 x 26
 y 23
 elevation 2310
 end
-arch steppe
+arch oldwoodfloor3
 x 26
 y 24
 elevation 3021
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 26
 y 25
 elevation 2398
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 26
 y 26
 elevation 2232
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 26
 y 27
 elevation 2015
 end
-arch steppe
+arch oldwoodfloor3
 x 26
 y 28
 elevation 3110
 end
-arch steppe
+arch oldwoodfloor3
 x 26
 y 29
 elevation 4745
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 30
 elevation 5677
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 31
 elevation 6741
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 32
 elevation 8084
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 33
 elevation 8474
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 34
 elevation 7542
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 35
 elevation 5228
 end
-arch mountain
+arch oldwoodfloor3
 x 26
 y 36
 elevation 5142
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 26
 y 37
 elevation 1806
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 26
 y 38
 elevation 1806
@@ -7206,111 +7194,111 @@ arch flagstone
 x 26
 y 49
 end
-arch mountain
+arch swamp
 x 27
 elevation 6926
 end
-arch steppe
+arch swamp
 x 27
 y 1
 elevation 3590
 end
-arch mountain
+arch swamp
 x 27
 y 2
 elevation 6457
 end
-arch mountain
+arch swamp
 x 27
 y 3
 elevation 7153
 end
-arch mountain
+arch swamp
 x 27
 y 4
 elevation 8366
 end
-arch mountain
+arch swamp
 x 27
 y 5
 elevation 8510
 end
-arch mountain
+arch treed_hills
 x 27
 y 6
 elevation 7891
 end
-arch mountain
+arch treed_hills
 x 27
 y 7
 elevation 6904
 end
-arch mountain
+arch treed_hills
 x 27
 y 8
 elevation 5048
 end
-arch mountain
+arch treed_hills
 x 27
 y 9
 elevation 5648
 end
-arch mountain
+arch treed_hills
 x 27
 y 10
 elevation 5663
 end
-arch mountain
+arch treed_hills
 x 27
 y 11
 elevation 5935
 end
-arch mountain
+arch woods_3
 x 27
 y 12
 elevation 6498
 end
-arch mountain
+arch treed_hills
 x 27
 y 13
 elevation 6184
 end
-arch mountain
+arch swamp
 x 27
 y 14
 elevation 6723
 end
-arch mountain
+arch swamp
 x 27
 y 15
 elevation 6139
 end
-arch steppe
+arch swamp
 x 27
 y 16
 elevation 4740
 end
-arch steppe
+arch treed_hills
 x 27
 y 17
 elevation 3064
 end
-arch steppe
+arch treed_hills
 x 27
 y 18
 elevation 3041
 end
-arch steppe
+arch swamp
 x 27
 y 19
 elevation 3172
 end
-arch steppe
+arch swamp
 x 27
 y 20
 elevation 3459
 end
-arch steppe
+arch swamp
 x 27
 y 21
 elevation 3711
@@ -7320,72 +7308,72 @@ x 27
 y 22
 elevation 421
 end
-arch steppe
+arch swamp
 x 27
 y 23
 elevation 4224
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 24
 elevation 4252
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 25
 elevation 3886
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 26
 elevation 3481
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 27
 elevation 3536
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 28
 elevation 3936
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 29
 elevation 4346
 end
-arch steppe
+arch oldwoodfloor3
 x 27
 y 30
 elevation 4312
 end
-arch mountain
+arch oldwoodfloor3
 x 27
 y 31
 elevation 6133
 end
-arch mountain
+arch oldwoodfloor3
 x 27
 y 32
 elevation 7265
 end
-arch mountain
+arch oldwoodfloor3
 x 27
 y 33
 elevation 7696
 end
-arch mountain
+arch oldwoodfloor3
 x 27
 y 34
 elevation 6994
 end
-arch mountain
+arch oldwoodfloor3
 x 27
 y 35
 elevation 5636
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 27
 y 36
 elevation 1806
@@ -7435,56 +7423,56 @@ x 27
 y 47
 elevation 3326
 end
-arch hills
+arch swamp
 x 27
 y 48
 elevation 3707
 end
-arch hills
+arch swamp
 x 27
 y 49
 elevation 4493
 end
-arch mountain
+arch swamp
 x 28
 elevation 7093
 end
-arch mountain
+arch treed_hills
 x 28
 y 1
 elevation 7042
 end
-arch mountain
+arch treed_hills
 x 28
 y 2
 elevation 7161
 end
-arch mountain
+arch swamp
 x 28
 y 3
 elevation 6970
 end
-arch mountain
+arch swamp
 x 28
 y 4
 elevation 6954
 end
-arch mountain
+arch swamp
 x 28
 y 5
 elevation 7140
 end
-arch mountain
+arch treed_hills
 x 28
 y 6
 elevation 6837
 end
-arch mountain
+arch treed_hills
 x 28
 y 7
 elevation 5340
 end
-arch mountain
+arch treed_hills
 x 28
 y 8
 elevation 5259
@@ -7494,57 +7482,57 @@ x 28
 y 9
 elevation 3107
 end
-arch hills_rocky
+arch jungle_1
 x 28
 y 10
 elevation 2924
 end
-arch mountain
+arch treed_hills
 x 28
 y 11
 elevation 6141
 end
-arch mountain
+arch swamp
 x 28
 y 12
 elevation 6862
 end
-arch mountain
+arch swamp
 x 28
 y 13
 elevation 7161
 end
-arch mountain
+arch swamp
 x 28
 y 14
 elevation 7287
 end
-arch mountain
+arch swamp
 x 28
 y 15
 elevation 6881
 end
-arch mountain
+arch swamp
 x 28
 y 16
 elevation 5667
 end
-arch steppe
+arch swamp
 x 28
 y 17
 elevation 4096
 end
-arch steppe
+arch swamp
 x 28
 y 18
 elevation 3010
 end
-arch steppe
+arch swamp
 x 28
 y 19
 elevation 3279
 end
-arch steppe
+arch swamp
 x 28
 y 20
 elevation 4158
@@ -7564,57 +7552,57 @@ x 28
 y 23
 elevation 421
 end
-arch brush
+arch oldwoodfloor3
 x 28
 y 24
 elevation 421
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 25
 elevation 4881
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 26
 elevation 4513
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 27
 elevation 4320
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 28
 elevation 3668
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 29
 elevation 4321
 end
-arch steppe
+arch oldwoodfloor3
 x 28
 y 30
 elevation 3626
 end
-arch mountain
+arch oldwoodfloor3
 x 28
 y 31
 elevation 5229
 end
-arch mountain
+arch oldwoodfloor3
 x 28
 y 32
 elevation 6152
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 28
 y 33
 elevation 1806
 end
-arch hills_rocky
+arch oldwoodfloor3
 x 28
 y 34
 elevation 1806
@@ -7695,46 +7683,46 @@ x 28
 y 48
 elevation 4744
 end
-arch hills
+arch swamp
 x 28
 y 49
 elevation 4493
 end
-arch mountain
+arch swamp
 x 29
 elevation 6547
 end
-arch mountain
+arch treed_hills
 x 29
 y 1
 elevation 7622
 end
-arch mountain
+arch treed_hills
 x 29
 y 2
 elevation 7553
 end
-arch mountain
+arch swamp
 x 29
 y 3
 elevation 6732
 end
-arch steppe
+arch swamp
 x 29
 y 4
 elevation 4459
 end
-arch mountain
+arch swamp
 x 29
 y 5
 elevation 6109
 end
-arch mountain
+arch treed_hills
 x 29
 y 6
 elevation 5659
 end
-arch mountain
+arch treed_hills
 x 29
 y 7
 elevation 5423
@@ -7749,52 +7737,52 @@ x 29
 y 9
 elevation 4947
 end
-arch mountain
+arch swamp
 x 29
 y 10
 elevation 5696
 end
-arch mountain
+arch swamp
 x 29
 y 11
 elevation 6442
 end
-arch mountain
+arch swamp
 x 29
 y 12
 elevation 6828
 end
-arch mountain
+arch swamp
 x 29
 y 13
 elevation 7215
 end
-arch mountain
+arch swamp
 x 29
 y 14
 elevation 7391
 end
-arch mountain
+arch swamp
 x 29
 y 15
 elevation 7157
 end
-arch mountain
+arch swamp
 x 29
 y 16
 elevation 6038
 end
-arch steppe
+arch swamp
 x 29
 y 17
 elevation 4651
 end
-arch hills_rocky
+arch swamp
 x 29
 y 18
 elevation 1556
 end
-arch hills_rocky
+arch swamp
 x 29
 y 19
 elevation 1889
@@ -7958,96 +7946,96 @@ x 29
 y 48
 elevation 3674
 end
-arch hills
+arch swamp
 x 29
 y 49
 elevation 4304
 end
-arch mountain
+arch swamp
 x 30
 elevation 6841
 end
-arch mountain
+arch treed_hills
 x 30
 y 1
 elevation 6989
 end
-arch mountain
+arch treed_hills
 x 30
 y 2
 elevation 7446
 end
-arch mountain
+arch swamp
 x 30
 y 3
 elevation 5996
 end
-arch steppe
+arch swamp
 x 30
 y 4
 elevation 4911
 end
-arch mountain
+arch swamp
 x 30
 y 5
 elevation 5997
 end
-arch mountain
+arch treed_hills
 x 30
 y 6
 elevation 6485
 end
-arch mountain
+arch treed_hills
 x 30
 y 7
 elevation 6099
 end
-arch steppe
+arch swamp
 x 30
 y 8
 elevation 3624
 end
-arch mountain
+arch swamp
 x 30
 y 9
 elevation 5270
 end
-arch mountain
+arch swamp
 x 30
 y 10
 elevation 6635
 end
-arch mountain
+arch swamp
 x 30
 y 11
 elevation 6734
 end
-arch mountain
+arch swamp
 x 30
 y 12
 elevation 6483
 end
-arch mountain
+arch swamp
 x 30
 y 13
 elevation 6013
 end
-arch mountain
+arch swamp
 x 30
 y 14
 elevation 6890
 end
-arch mountain
+arch swamp
 x 30
 y 15
 elevation 6980
 end
-arch mountain
+arch swamp
 x 30
 y 16
 elevation 6445
 end
-arch mountain
+arch swamp
 x 30
 y 17
 elevation 5291
@@ -8208,56 +8196,56 @@ arch evergreens2
 x 30
 y 48
 end
-arch hills
+arch swamp
 x 30
 y 49
 elevation 3582
 end
-arch steppe
+arch swamp
 x 31
 elevation 4962
 end
-arch mountain
+arch swamp
 x 31
 y 1
 elevation 6775
 end
-arch mountain
+arch swamp
 x 31
 y 2
 elevation 7152
 end
-arch mountain
+arch swamp
 x 31
 y 3
 elevation 6701
 end
-arch mountain
+arch swamp
 x 31
 y 4
 elevation 6269
 end
-arch mountain
+arch swamp
 x 31
 y 5
 elevation 6540
 end
-arch mountain
+arch swamp
 x 31
 y 6
 elevation 7096
 end
-arch mountain
+arch swamp
 x 31
 y 7
 elevation 6885
 end
-arch mountain
+arch swamp
 x 31
 y 8
 elevation 6342
 end
-arch mountain
+arch swamp
 x 31
 y 9
 elevation 6365
@@ -8310,7 +8298,7 @@ arch flagstone
 x 31
 y 21
 end
-arch steppe
+arch swamp
 x 31
 y 22
 elevation 4290
@@ -8347,42 +8335,42 @@ arch flagstone
 x 31
 y 27
 end
-arch steppe
+arch swamp
 x 31
 y 28
 elevation 4441
 end
-arch mountain
+arch swamp
 x 31
 y 29
 elevation 5365
 end
-arch mountain
+arch swamp
 x 31
 y 30
 elevation 5455
 end
-arch steppe
+arch swamp
 x 31
 y 31
 elevation 4801
 end
-arch steppe
+arch swamp
 x 31
 y 32
 elevation 3730
 end
-arch hills_rocky
+arch swamp
 x 31
 y 33
 elevation 1254
 end
-arch brush
+arch swamp
 x 31
 y 34
 elevation 176
 end
-arch hills_rocky
+arch swamp
 x 31
 y 35
 elevation 1806
@@ -8476,7 +8464,7 @@ arch evergreens2
 x 31
 y 48
 end
-arch hills
+arch swamp
 x 31
 y 49
 elevation 3465
@@ -8485,37 +8473,37 @@ arch hills
 x 32
 elevation 4960
 end
-arch mountain
+arch swamp
 x 32
 y 1
 elevation 6535
 end
-arch mountain
+arch swamp
 x 32
 y 2
 elevation 6846
 end
-arch mountain
+arch swamp
 x 32
 y 3
 elevation 6196
 end
-arch mountain
+arch swamp
 x 32
 y 4
 elevation 5596
 end
-arch mountain
+arch swamp
 x 32
 y 5
 elevation 5951
 end
-arch mountain
+arch swamp
 x 32
 y 6
 elevation 6846
 end
-arch mountain
+arch swamp
 x 32
 y 7
 elevation 7235
@@ -8575,17 +8563,17 @@ x 32
 y 20
 elevation 5592
 end
-arch steppe
+arch swamp
 x 32
 y 21
 elevation 4044
 end
-arch steppe
+arch swamp
 x 32
 y 22
 elevation 3202
 end
-arch steppe
+arch swamp
 x 32
 y 23
 elevation 3055
@@ -8608,42 +8596,42 @@ arch flagstone
 x 32
 y 27
 end
-arch steppe
+arch swamp
 x 32
 y 28
 elevation 3739
 end
-arch steppe
+arch swamp
 x 32
 y 29
 elevation 4870
 end
-arch mountain
+arch swamp
 x 32
 y 30
 elevation 5130
 end
-arch steppe
+arch swamp
 x 32
 y 31
 elevation 4407
 end
-arch steppe
+arch swamp
 x 32
 y 32
 elevation 3557
 end
-arch hills_rocky
+arch swamp
 x 32
 y 33
 elevation 2726
 end
-arch hills_rocky
+arch swamp
 x 32
 y 34
 elevation 2247
 end
-arch grass_only
+arch swamp
 x 32
 y 35
 elevation 1677
@@ -8657,17 +8645,17 @@ x 32
 y 36
 elevation 183
 end
-arch brush
+arch swamp
 x 32
 y 37
 elevation 221
 end
-arch grass
+arch swamp
 x 32
 y 38
 elevation 965
 end
-arch grass_only
+arch swamp
 x 32
 y 39
 elevation 2373
@@ -8744,7 +8732,7 @@ arch evergreens2
 x 32
 y 47
 end
-arch grass_only
+arch swamp
 x 32
 y 48
 elevation 2734
@@ -8753,41 +8741,41 @@ arch evergreens2
 x 32
 y 48
 end
-arch hills
+arch swamp
 x 32
 y 49
 elevation 3741
 end
-arch mountain
+arch swamp
 x 33
 elevation 6441
 end
-arch mountain
+arch swamp
 x 33
 y 1
 elevation 6598
 end
-arch mountain
+arch swamp
 x 33
 y 2
 elevation 6295
 end
-arch mountain
+arch swamp
 x 33
 y 3
 elevation 5290
 end
-arch hills_rocky
+arch swamp
 x 33
 y 4
 elevation 2561
 end
-arch steppe
+arch swamp
 x 33
 y 5
 elevation 3190
 end
-arch mountain
+arch swamp
 x 33
 y 6
 elevation 6302
@@ -8813,37 +8801,37 @@ arch flagstone
 x 33
 y 11
 end
-arch hills_rocky
+arch swamp
 x 33
 y 12
 elevation 1199
 end
-arch hills_rocky
+arch swamp
 x 33
 y 13
 elevation 1965
 end
-arch hills_rocky
+arch swamp
 x 33
 y 14
 elevation 2825
 end
-arch mountain
+arch swamp
 x 33
 y 15
 elevation 5792
 end
-arch mountain
+arch swamp
 x 33
 y 16
 elevation 7358
 end
-arch mountain
+arch swamp
 x 33
 y 17
 elevation 8347
 end
-arch mountain
+arch swamp
 x 33
 y 18
 elevation 8694
@@ -8858,22 +8846,22 @@ x 33
 y 20
 elevation 5911
 end
-arch hills_rocky
+arch swamp
 x 33
 y 21
 elevation 1383
 end
-arch hills_rocky
+arch swamp
 x 33
 y 22
 elevation 2583
 end
-arch hills_rocky
+arch swamp
 x 33
 y 23
 elevation 2274
 end
-arch hills_rocky
+arch swamp
 x 33
 y 24
 elevation 1741
@@ -8891,42 +8879,42 @@ arch flagstone
 x 33
 y 27
 end
-arch hills_rocky
+arch swamp
 x 33
 y 28
 elevation 2568
 end
-arch steppe
+arch swamp
 x 33
 y 29
 elevation 4490
 end
-arch steppe
+arch swamp
 x 33
 y 30
 elevation 4879
 end
-arch steppe
+arch swamp
 x 33
 y 31
 elevation 3739
 end
-arch steppe
+arch swamp
 x 33
 y 32
 elevation 3293
 end
-arch steppe
+arch swamp
 x 33
 y 33
 elevation 3351
 end
-arch hills
+arch swamp
 x 33
 y 34
 elevation 3052
 end
-arch hills_rocky
+arch swamp
 x 33
 y 35
 elevation 2369
@@ -8940,12 +8928,12 @@ arch evergreens2
 x 33
 y 36
 end
-arch hills_rocky
+arch swamp
 x 33
 y 37
 elevation 1315
 end
-arch hills_rocky
+arch swamp
 x 33
 y 38
 elevation 1788
@@ -9024,7 +9012,7 @@ arch evergreens2
 x 33
 y 48
 end
-arch hills
+arch swamp
 x 33
 y 49
 elevation 3910
@@ -9068,72 +9056,72 @@ arch flagstone
 x 34
 y 9
 end
-arch hills_rocky
+arch swamp
 x 34
 y 10
 elevation 4170
 end
-arch steppe
+arch swamp
 x 34
 y 11
 elevation 3638
 end
-arch hills_rocky
+arch swamp
 x 34
 y 12
 elevation 2955
 end
-arch steppe
+arch swamp
 x 34
 y 13
 elevation 3356
 end
-arch steppe
+arch swamp
 x 34
 y 14
 elevation 4497
 end
-arch mountain
+arch swamp
 x 34
 y 15
 elevation 6773
 end
-arch mountain
+arch swamp
 x 34
 y 16
 elevation 7346
 end
-arch mountain2
+arch swamp
 x 34
 y 17
 elevation 9265
 end
-arch mountain2
+arch swamp
 x 34
 y 18
 elevation 9424
 end
-arch mountain
+arch swamp
 x 34
 y 19
 elevation 8312
 end
-arch mountain
+arch swamp
 x 34
 y 20
 elevation 5999
 end
-arch steppe
+arch swamp
 x 34
 y 21
 elevation 3027
 end
-arch hills_rocky
+arch swamp
 x 34
 y 22
 elevation 1690
 end
-arch hills_rocky
+arch swamp
 x 34
 y 23
 elevation 1595
@@ -9156,42 +9144,42 @@ arch flagstone
 x 34
 y 27
 end
-arch hills_rocky
+arch swamp
 x 34
 y 28
 elevation 2554
 end
-arch steppe
+arch swamp
 x 34
 y 29
 elevation 4918
 end
-arch mountain
+arch swamp
 x 34
 y 30
 elevation 5381
 end
-arch steppe
+arch swamp
 x 34
 y 31
 elevation 4161
 end
-arch steppe
+arch swamp
 x 34
 y 32
 elevation 3753
 end
-arch hills
+arch swamp
 x 34
 y 33
 elevation 3437
 end
-arch hills
+arch swamp
 x 34
 y 34
 elevation 3483
 end
-arch grass_only
+arch swamp
 x 34
 y 35
 elevation 2967
@@ -9200,12 +9188,12 @@ arch evergreens2
 x 34
 y 35
 end
-arch hills_rocky
+arch swamp
 x 34
 y 36
 elevation 1825
 end
-arch grass_only
+arch swamp
 x 34
 y 37
 elevation 1977
@@ -9214,7 +9202,7 @@ arch evergreens2
 x 34
 y 37
 end
-arch hills_rocky
+arch swamp
 x 34
 y 38
 elevation 1431
@@ -9292,7 +9280,7 @@ arch evergreens2
 x 34
 y 47
 end
-arch grass_only
+arch swamp
 x 34
 y 48
 elevation 2761
@@ -9301,7 +9289,7 @@ arch evergreens2
 x 34
 y 48
 end
-arch hills
+arch swamp
 x 34
 y 49
 elevation 3446
@@ -9341,72 +9329,72 @@ arch flagstone
 x 35
 y 8
 end
-arch steppe
+arch swamp
 x 35
 y 9
 elevation 4534
 end
-arch steppe
+arch swamp
 x 35
 y 10
 elevation 4760
 end
-arch steppe
+arch swamp
 x 35
 y 11
 elevation 4098
 end
-arch hills_rocky
+arch swamp
 x 35
 y 12
 elevation 1913
 end
-arch steppe
+arch swamp
 x 35
 y 13
 elevation 3832
 end
-arch mountain
+arch swamp
 x 35
 y 14
 elevation 5882
 end
-arch mountain
+arch swamp
 x 35
 y 15
 elevation 7767
 end
-arch mountain
+arch swamp
 x 35
 y 16
 elevation 8884
 end
-arch mountain2
+arch swamp
 x 35
 y 17
 elevation 9395
 end
-arch mountain2
+arch swamp
 x 35
 y 18
 elevation 9249
 end
-arch mountain
+arch swamp
 x 35
 y 19
 elevation 8074
 end
-arch mountain
+arch swamp
 x 35
 y 20
 elevation 6072
 end
-arch steppe
+arch swamp
 x 35
 y 21
 elevation 3778
 end
-arch hills_rocky
+arch swamp
 x 35
 y 22
 elevation 1976
@@ -9421,7 +9409,7 @@ x 35
 y 24
 elevation 393
 end
-arch hills_rocky
+arch swamp
 x 35
 y 25
 elevation 1205
@@ -9434,47 +9422,47 @@ arch flagstone
 x 35
 y 27
 end
-arch steppe
+arch swamp
 x 35
 y 28
 elevation 4620
 end
-arch mountain
+arch swamp
 x 35
 y 29
 elevation 6044
 end
-arch mountain
+arch swamp
 x 35
 y 30
 elevation 6713
 end
-arch mountain
+arch swamp
 x 35
 y 31
 elevation 6085
 end
-arch steppe
+arch swamp
 x 35
 y 32
 elevation 4616
 end
-arch hills
+arch swamp
 x 35
 y 33
 elevation 3612
 end
-arch steppe
+arch swamp
 x 35
 y 34
 elevation 3846
 end
-arch steppe
+arch swamp
 x 35
 y 35
 elevation 3534
 end
-arch hills_rocky
+arch swamp
 x 35
 y 36
 elevation 2479
@@ -9545,7 +9533,7 @@ arch evergreens2
 x 35
 y 46
 end
-arch grass_only
+arch swamp
 x 35
 y 47
 elevation 1899
@@ -9554,12 +9542,12 @@ arch evergreens2
 x 35
 y 47
 end
-arch grass
+arch swamp
 x 35
 y 48
 elevation 934
 end
-arch grass_only
+arch swamp
 x 35
 y 49
 elevation 2007
@@ -9587,37 +9575,37 @@ x 36
 y 3
 elevation 4444
 end
-arch hills_rocky
+arch swamp
 x 36
 y 4
 elevation 4924
 end
-arch mountain
+arch swamp
 x 36
 y 5
 elevation 5910
 end
-arch mountain
+arch swamp
 x 36
 y 6
 elevation 6182
 end
-arch mountain
+arch swamp
 x 36
 y 7
 elevation 6076
 end
-arch mountain
+arch swamp
 x 36
 y 8
 elevation 5698
 end
-arch mountain
+arch swamp
 x 36
 y 9
 elevation 5827
 end
-arch mountain
+arch swamp
 x 36
 y 10
 elevation 5562
@@ -9627,12 +9615,12 @@ x 36
 y 11
 elevation 4184
 end
-arch hills_rocky
+arch swamp
 x 36
 y 12
 elevation 1744
 end
-arch hills_rocky
+arch swamp
 x 36
 y 13
 elevation 1914
@@ -9642,57 +9630,57 @@ x 36
 y 14
 elevation 6314
 end
-arch mountain
+arch swamp
 x 36
 y 15
 elevation 8171
 end
-arch mountain
+arch fernrockscliff2
 x 36
 y 16
 elevation 8684
 end
-arch mountain
+arch fernrockscliff2
 x 36
 y 17
 elevation 8634
 end
-arch mountain
+arch fernrockscliff1
 x 36
 y 18
 elevation 8198
 end
-arch mountain
+arch fernrockscliff2
 x 36
 y 19
 elevation 7346
 end
-arch mountain
+arch fernrockscliff2
 x 36
 y 20
 elevation 5462
 end
-arch steppe
+arch swamp
 x 36
 y 21
 elevation 3510
 end
-arch hills_rocky
+arch swamp
 x 36
 y 22
 elevation 2172
 end
-arch hills_rocky
+arch swamp
 x 36
 y 23
 elevation 1686
 end
-arch hills_rocky
+arch swamp
 x 36
 y 24
 elevation 1597
 end
-arch hills_rocky
+arch swamp
 x 36
 y 25
 elevation 1134
@@ -9705,62 +9693,62 @@ arch flagstone
 x 36
 y 27
 end
-arch mountain
+arch swamp
 x 36
 y 28
 elevation 5719
 end
-arch mountain
+arch swamp
 x 36
 y 29
 elevation 7413
 end
-arch mountain
+arch swamp
 x 36
 y 30
 elevation 8658
 end
-arch mountain
+arch swamp
 x 36
 y 31
 elevation 7921
 end
-arch mountain
+arch swamp
 x 36
 y 32
 elevation 5713
 end
-arch steppe
+arch swamp
 x 36
 y 33
 elevation 3705
 end
-arch steppe
+arch swamp
 x 36
 y 34
 elevation 4855
 end
-arch hills
+arch swamp
 x 36
 y 35
 elevation 4197
 end
-arch steppe
+arch swamp
 x 36
 y 36
 elevation 3415
 end
-arch hills
+arch swamp
 x 36
 y 37
 elevation 3038
 end
-arch steppe
+arch swamp
 x 36
 y 38
 elevation 3202
 end
-arch grass_only
+arch swamp
 x 36
 y 39
 elevation 2681
@@ -9769,7 +9757,7 @@ arch evergreens2
 x 36
 y 39
 end
-arch grass
+arch swamp
 x 36
 y 40
 elevation 960
@@ -9820,7 +9808,7 @@ arch evergreens2
 x 36
 y 46
 end
-arch grass_only
+arch swamp
 x 36
 y 47
 elevation 1008
@@ -9892,7 +9880,7 @@ x 37
 y 9
 elevation 6664
 end
-arch mountain
+arch swamp
 x 37
 y 10
 elevation 5710
@@ -9927,47 +9915,47 @@ x 37
 y 16
 elevation 7626
 end
-arch mountain
+arch fernrockscliff2
 x 37
 y 17
 elevation 6284
 end
-arch mountain
+arch fernrockscliff2
 x 37
 y 18
 elevation 7292
 end
-arch mountain
+arch fernrockscliff2
 x 37
 y 19
 elevation 6559
 end
-arch steppe
+arch swamp
 x 37
 y 20
 elevation 3959
 end
-arch hills_rocky
+arch swamp
 x 37
 y 21
 elevation 1734
 end
-arch hills_rocky
+arch swamp
 x 37
 y 22
 elevation 1917
 end
-arch hills_rocky
+arch swamp
 x 37
 y 23
 elevation 1612
 end
-arch hills_rocky
+arch swamp
 x 37
 y 24
 elevation 2335
 end
-arch hills_rocky
+arch swamp
 x 37
 y 25
 elevation 2504
@@ -9980,47 +9968,47 @@ arch flagstone
 x 37
 y 27
 end
-arch mountain
+arch swamp
 x 37
 y 28
 elevation 7445
 end
-arch mountain2
+arch swamp
 x 37
 y 29
 elevation 9755
 end
-arch mountain2
+arch swamp
 x 37
 y 30
 elevation 10516
 end
-arch mountain2
+arch swamp
 x 37
 y 31
 elevation 9533
 end
-arch mountain
+arch swamp
 x 37
 y 32
 elevation 7928
 end
-arch mountain
+arch swamp
 x 37
 y 33
 elevation 6738
 end
-arch mountain
+arch swamp
 x 37
 y 34
 elevation 5933
 end
-arch steppe
+arch swamp
 x 37
 y 35
 elevation 4749
 end
-arch grass_only
+arch swamp
 x 37
 y 36
 elevation 2218
@@ -10029,22 +10017,22 @@ arch evergreens2
 x 37
 y 36
 end
-arch steppe
+arch swamp
 x 37
 y 37
 elevation 3188
 end
-arch hills
+arch swamp
 x 37
 y 38
 elevation 3678
 end
-arch steppe
+arch swamp
 x 37
 y 39
 elevation 3328
 end
-arch hills_rocky
+arch swamp
 x 37
 y 40
 elevation 2160
@@ -10095,12 +10083,12 @@ x 37
 y 46
 elevation 705
 end
-arch grass
+arch swamp
 x 37
 y 47
 elevation 45
 end
-arch grass
+arch swamp
 x 37
 y 48
 elevation 106
@@ -10207,42 +10195,42 @@ x 38
 y 17
 elevation 5790
 end
-arch mountain
+arch fernrockscliff2
 x 38
 y 18
 elevation 6673
 end
-arch mountain
+arch fernrockscliff1
 x 38
 y 19
 elevation 6344
 end
-arch steppe
+arch swamp
 x 38
 y 20
 elevation 4755
 end
-arch steppe
+arch swamp
 x 38
 y 21
 elevation 3650
 end
-arch steppe
+arch swamp
 x 38
 y 22
 elevation 3411
 end
-arch hills_rocky
+arch swamp
 x 38
 y 23
 elevation 2320
 end
-arch hills_rocky
+arch swamp
 x 38
 y 24
 elevation 2944
 end
-arch steppe
+arch swamp
 x 38
 y 25
 elevation 3129
@@ -10255,42 +10243,42 @@ arch flagstone
 x 38
 y 27
 end
-arch mountain
+arch swamp
 x 38
 y 28
 elevation 7983
 end
-arch mountain2
+arch swamp
 x 38
 y 29
 elevation 10669
 end
-arch mountain2
+arch swamp
 x 38
 y 30
 elevation 11601
 end
-arch mountain2
+arch swamp
 x 38
 y 31
 elevation 10700
 end
-arch mountain
+arch swamp
 x 38
 y 32
 elevation 8620
 end
-arch mountain
+arch swamp
 x 38
 y 33
 elevation 7897
 end
-arch mountain
+arch swamp
 x 38
 y 34
 elevation 6551
 end
-arch steppe
+arch swamp
 x 38
 y 35
 elevation 4749
@@ -10300,22 +10288,22 @@ x 38
 y 36
 elevation 3483
 end
-arch steppe
+arch swamp
 x 38
 y 37
 elevation 3531
 end
-arch steppe
+arch swamp
 x 38
 y 38
 elevation 3958
 end
-arch hills
+arch swamp
 x 38
 y 39
 elevation 3641
 end
-arch hills_rocky
+arch swamp
 x 38
 y 40
 elevation 2384
@@ -10339,7 +10327,7 @@ arch evergreens2
 x 38
 y 43
 end
-arch grass_only
+arch swamp
 x 38
 y 44
 elevation 1017
@@ -10363,12 +10351,12 @@ x 38
 y 47
 elevation 63
 end
-arch grass
+arch swamp
 x 38
 y 48
 elevation 147
 end
-arch grass
+arch swamp
 x 38
 y 49
 elevation 647
@@ -10467,37 +10455,37 @@ x 39
 y 18
 elevation 6343
 end
-arch mountain
+arch swamp
 x 39
 y 19
 elevation 6482
 end
-arch mountain
+arch swamp
 x 39
 y 20
 elevation 5797
 end
-arch mountain
+arch swamp
 x 39
 y 21
 elevation 5163
 end
-arch steppe
+arch swamp
 x 39
 y 22
 elevation 4599
 end
-arch steppe
+arch swamp
 x 39
 y 23
 elevation 3978
 end
-arch hills_rocky
+arch swamp
 x 39
 y 24
 elevation 2660
 end
-arch steppe
+arch swamp
 x 39
 y 25
 elevation 3621
@@ -10510,37 +10498,37 @@ arch flagstone
 x 39
 y 27
 end
-arch mountain
+arch swamp
 x 39
 y 28
 elevation 6836
 end
-arch mountain2
+arch swamp
 x 39
 y 29
 elevation 9970
 end
-arch mountain2
+arch swamp
 x 39
 y 30
 elevation 11269
 end
-arch mountain2
+arch swamp
 x 39
 y 31
 elevation 11036
 end
-arch mountain2
+arch swamp
 x 39
 y 32
 elevation 9583
 end
-arch mountain
+arch swamp
 x 39
 y 33
 elevation 7919
 end
-arch mountain
+arch swamp
 x 39
 y 34
 elevation 6071
@@ -10550,7 +10538,7 @@ x 39
 y 35
 elevation 4401
 end
-arch grass_only
+arch swamp
 x 39
 y 36
 elevation 2706
@@ -10559,22 +10547,22 @@ arch evergreens2
 x 39
 y 36
 end
-arch steppe
+arch swamp
 x 39
 y 37
 elevation 3849
 end
-arch steppe
+arch swamp
 x 39
 y 38
 elevation 4365
 end
-arch hills
+arch swamp
 x 39
 y 39
 elevation 3783
 end
-arch hills_rocky
+arch swamp
 x 39
 y 40
 elevation 2334
@@ -10594,12 +10582,12 @@ x 39
 y 43
 elevation 248
 end
-arch desert
+arch swamp
 x 39
 y 44
 elevation 292
 end
-arch desert
+arch swamp
 x 39
 y 45
 elevation 176
@@ -10614,12 +10602,12 @@ x 39
 y 47
 elevation 48
 end
-arch grass
+arch swamp
 x 39
 y 48
 elevation 17
 end
-arch desert
+arch swamp
 x 39
 y 49
 elevation 92
@@ -10722,37 +10710,37 @@ x 40
 y 18
 elevation 6750
 end
-arch mountain
+arch swamp
 x 40
 y 19
 elevation 6024
 end
-arch mountain
+arch swamp
 x 40
 y 20
 elevation 6191
 end
-arch mountain
+arch swamp
 x 40
 y 21
 elevation 5452
 end
-arch steppe
+arch swamp
 x 40
 y 22
 elevation 4473
 end
-arch steppe
+arch swamp
 x 40
 y 23
 elevation 4669
 end
-arch steppe
+arch swamp
 x 40
 y 24
 elevation 4527
 end
-arch steppe
+arch swamp
 x 40
 y 25
 elevation 4327
@@ -10765,32 +10753,32 @@ arch flagstone
 x 40
 y 27
 end
-arch mountain
+arch swamp
 x 40
 y 28
 elevation 6413
 end
-arch mountain
+arch swamp
 x 40
 y 29
 elevation 8250
 end
-arch mountain2
+arch swamp
 x 40
 y 30
 elevation 10016
 end
-arch mountain2
+arch swamp
 x 40
 y 31
 elevation 10659
 end
-arch mountain2
+arch swamp
 x 40
 y 32
 elevation 9615
 end
-arch mountain
+arch swamp
 x 40
 y 33
 elevation 7375
@@ -10800,32 +10788,32 @@ x 40
 y 34
 elevation 4694
 end
-arch hills_rocky
+arch swamp
 x 40
 y 35
 elevation 2327
 end
-arch steppe
+arch swamp
 x 40
 y 36
 elevation 3514
 end
-arch steppe
+arch swamp
 x 40
 y 37
 elevation 4334
 end
-arch steppe
+arch swamp
 x 40
 y 38
 elevation 4857
 end
-arch hills
+arch swamp
 x 40
 y 39
 elevation 4312
 end
-arch steppe
+arch swamp
 x 40
 y 40
 elevation 3098
@@ -10849,27 +10837,27 @@ x 40
 y 43
 elevation 551
 end
-arch desert
+arch swamp
 x 40
 y 44
 elevation 87
 end
-arch desert
+arch swamp
 x 40
 y 45
 elevation 41
 end
-arch desert
+arch swamp
 x 40
 y 46
 elevation 45
 end
-arch grass
+arch swamp
 x 40
 y 47
 elevation 68
 end
-arch grass
+arch swamp
 x 40
 y 48
 elevation 229
@@ -10977,37 +10965,37 @@ x 41
 y 18
 elevation 7689
 end
-arch mountain
+arch swamp
 x 41
 y 19
 elevation 7636
 end
-arch mountain
+arch swamp
 x 41
 y 20
 elevation 6714
 end
-arch steppe
+arch swamp
 x 41
 y 21
 elevation 3088
 end
-arch steppe
+arch swamp
 x 41
 y 22
 elevation 4359
 end
-arch mountain
+arch swamp
 x 41
 y 23
 elevation 5572
 end
-arch mountain
+arch swamp
 x 41
 y 24
 elevation 5649
 end
-arch mountain
+arch swamp
 x 41
 y 25
 elevation 5142
@@ -11020,62 +11008,62 @@ arch flagstone
 x 41
 y 27
 end
-arch steppe
+arch swamp
 x 41
 y 28
 elevation 4785
 end
-arch mountain
+arch swamp
 x 41
 y 29
 elevation 6310
 end
-arch mountain
+arch swamp
 x 41
 y 30
 elevation 7803
 end
-arch mountain2
+arch swamp
 x 41
 y 31
 elevation 10179
 end
-arch mountain2
+arch swamp
 x 41
 y 32
 elevation 9295
 end
-arch mountain
+arch swamp
 x 41
 y 33
 elevation 5015
 end
-arch hills
+arch swamp
 x 41
 y 34
 elevation 4113
 end
-arch hills_rocky
+arch swamp
 x 41
 y 35
 elevation 2479
 end
-arch steppe
+arch swamp
 x 41
 y 36
 elevation 4268
 end
-arch mountain
+arch swamp
 x 41
 y 37
 elevation 5131
 end
-arch mountain
+arch swamp
 x 41
 y 38
 elevation 5072
 end
-arch hills
+arch swamp
 x 41
 y 39
 elevation 4135
@@ -11105,7 +11093,7 @@ x 41
 y 44
 elevation 127
 end
-arch desert
+arch swamp
 x 41
 y 45
 elevation 132
@@ -11115,7 +11103,7 @@ x 41
 y 46
 elevation 133
 end
-arch desert
+arch swamp
 x 41
 y 47
 elevation 146
@@ -11228,37 +11216,37 @@ x 42
 y 18
 elevation 9073
 end
-arch mountain
+arch swamp
 x 42
 y 19
 elevation 7070
 end
-arch mountain
+arch swamp
 x 42
 y 20
 elevation 7769
 end
-arch mountain
+arch swamp
 x 42
 y 21
 elevation 7357
 end
-arch mountain
+arch swamp
 x 42
 y 22
 elevation 7286
 end
-arch mountain
+arch swamp
 x 42
 y 23
 elevation 7482
 end
-arch mountain
+arch swamp
 x 42
 y 24
 elevation 7075
 end
-arch mountain
+arch swamp
 x 42
 y 25
 elevation 5909
@@ -11271,62 +11259,62 @@ arch flagstone
 x 42
 y 27
 end
-arch steppe
+arch swamp
 x 42
 y 28
 elevation 3207
 end
-arch mountain
+arch swamp
 x 42
 y 29
 elevation 6558
 end
-arch mountain
+arch swamp
 x 42
 y 30
 elevation 8537
 end
-arch mountain2
+arch swamp
 x 42
 y 31
 elevation 9453
 end
-arch mountain
+arch swamp
 x 42
 y 32
 elevation 8869
 end
-arch mountain
+arch swamp
 x 42
 y 33
 elevation 7254
 end
-arch mountain
+arch swamp
 x 42
 y 34
 elevation 5674
 end
-arch hills
+arch swamp
 x 42
 y 35
 elevation 4163
 end
-arch mountain
+arch swamp
 x 42
 y 36
 elevation 5303
 end
-arch mountain
+arch swamp
 x 42
 y 37
 elevation 5259
 end
-arch steppe
+arch swamp
 x 42
 y 38
 elevation 4369
 end
-arch grass_only
+arch swamp
 x 42
 y 39
 elevation 2892
@@ -11335,7 +11323,7 @@ arch evergreens2
 x 42
 y 39
 end
-arch desert
+arch swamp
 x 42
 y 40
 elevation 401
@@ -11500,47 +11488,47 @@ x 43
 y 16
 elevation 10938
 end
-arch mountain2
+arch swamp
 x 43
 y 17
 elevation 10644
 end
-arch mountain2
+arch swamp
 x 43
 y 18
 elevation 9412
 end
-arch mountain
+arch swamp
 x 43
 y 19
 elevation 8683
 end
-arch mountain
+arch swamp
 x 43
 y 20
 elevation 8428
 end
-arch mountain
+arch swamp
 x 43
 y 21
 elevation 8556
 end
-arch mountain
+arch swamp
 x 43
 y 22
 elevation 8797
 end
-arch mountain
+arch swamp
 x 43
 y 23
 elevation 8705
 end
-arch mountain
+arch swamp
 x 43
 y 24
 elevation 7843
 end
-arch mountain
+arch swamp
 x 43
 y 25
 elevation 6370
@@ -11553,52 +11541,52 @@ arch flagstone
 x 43
 y 27
 end
-arch mountain
+arch swamp
 x 43
 y 28
 elevation 5231
 end
-arch mountain
+arch swamp
 x 43
 y 29
 elevation 6574
 end
-arch mountain
+arch swamp
 x 43
 y 30
 elevation 8179
 end
-arch mountain2
+arch swamp
 x 43
 y 31
 elevation 9018
 end
-arch mountain
+arch swamp
 x 43
 y 32
 elevation 8448
 end
-arch mountain
+arch swamp
 x 43
 y 33
 elevation 8043
 end
-arch mountain
+arch swamp
 x 43
 y 34
 elevation 6597
 end
-arch mountain
+arch swamp
 x 43
 y 35
 elevation 6577
 end
-arch mountain
+arch swamp
 x 43
 y 36
 elevation 6172
 end
-arch mountain
+arch swamp
 x 43
 y 37
 elevation 5064
@@ -11613,7 +11601,7 @@ x 43
 y 39
 elevation 1086
 end
-arch desert
+arch swamp
 x 43
 y 40
 elevation 857
@@ -11766,47 +11754,47 @@ x 44
 y 16
 elevation 10940
 end
-arch mountain2
+arch swamp
 x 44
 y 17
 elevation 10217
 end
-arch mountain
+arch swamp
 x 44
 y 18
 elevation 8053
 end
-arch mountain
+arch swamp
 x 44
 y 19
 elevation 7948
 end
-arch mountain
+arch swamp
 x 44
 y 20
 elevation 7773
 end
-arch mountain
+arch swamp
 x 44
 y 21
 elevation 7896
 end
-arch mountain
+arch swamp
 x 44
 y 22
 elevation 8641
 end
-arch mountain
+arch swamp
 x 44
 y 23
 elevation 8566
 end
-arch mountain
+arch swamp
 x 44
 y 24
 elevation 7574
 end
-arch mountain
+arch swamp
 x 44
 y 25
 elevation 5920
@@ -11819,72 +11807,72 @@ arch flagstone
 x 44
 y 27
 end
-arch mountain
+arch swamp
 x 44
 y 28
 elevation 5083
 end
-arch mountain
+arch swamp
 x 44
 y 29
 elevation 6283
 end
-arch mountain
+arch swamp
 x 44
 y 30
 elevation 7621
 end
-arch mountain
+arch swamp
 x 44
 y 31
 elevation 8544
 end
-arch mountain
+arch swamp
 x 44
 y 32
 elevation 8931
 end
-arch mountain
+arch swamp
 x 44
 y 33
 elevation 8528
 end
-arch mountain
+arch swamp
 x 44
 y 34
 elevation 7882
 end
-arch mountain
+arch swamp
 x 44
 y 35
 elevation 7383
 end
-arch mountain
+arch swamp
 x 44
 y 36
 elevation 6477
 end
-arch mountain
+arch swamp
 x 44
 y 37
 elevation 5220
 end
-arch steppe
+arch swamp
 x 44
 y 38
 elevation 3765
 end
-arch hills
+arch swamp
 x 44
 y 39
 elevation 3774
 end
-arch hills_rocky
+arch swamp
 x 44
 y 40
 elevation 1845
 end
-arch hills
+arch swamp
 x 44
 y 41
 elevation 3576
@@ -12028,47 +12016,47 @@ x 45
 y 16
 elevation 9881
 end
-arch mountain
+arch swamp
 x 45
 y 17
 elevation 8945
 end
-arch mountain
+arch swamp
 x 45
 y 18
 elevation 7900
 end
-arch mountain
+arch swamp
 x 45
 y 19
 elevation 6903
 end
-arch hills
+arch swamp
 x 45
 y 20
 elevation 4843
 end
-arch mountain
+arch swamp
 x 45
 y 21
 elevation 6819
 end
-arch mountain
+arch swamp
 x 45
 y 22
 elevation 7738
 end
-arch mountain
+arch swamp
 x 45
 y 23
 elevation 7689
 end
-arch mountain
+arch swamp
 x 45
 y 24
 elevation 6657
 end
-arch steppe
+arch swamp
 x 45
 y 25
 elevation 4660
@@ -12081,77 +12069,77 @@ arch flagstone
 x 45
 y 27
 end
-arch hills
+arch swamp
 x 45
 y 28
 elevation 4508
 end
-arch mountain
+arch swamp
 x 45
 y 29
 elevation 5924
 end
-arch mountain
+arch swamp
 x 45
 y 30
 elevation 5602
 end
-arch mountain
+arch swamp
 x 45
 y 31
 elevation 8285
 end
-arch mountain2
+arch swamp
 x 45
 y 32
 elevation 9025
 end
-arch mountain
+arch swamp
 x 45
 y 33
 elevation 8473
 end
-arch mountain
+arch swamp
 x 45
 y 34
 elevation 8447
 end
-arch mountain
+arch swamp
 x 45
 y 35
 elevation 6677
 end
-arch mountain
+arch swamp
 x 45
 y 36
 elevation 7274
 end
-arch steppe
+arch swamp
 x 45
 y 37
 elevation 4841
 end
-arch mountain
+arch swamp
 x 45
 y 38
 elevation 6297
 end
-arch mountain
+arch swamp
 x 45
 y 39
 elevation 6471
 end
-arch mountain
+arch swamp
 x 45
 y 40
 elevation 6482
 end
-arch mountain
+arch swamp
 x 45
 y 41
 elevation 6205
 end
-arch mountain
+arch swamp
 x 45
 y 42
 elevation 5983
@@ -12283,47 +12271,47 @@ x 46
 y 16
 elevation 8141
 end
-arch mountain
+arch swamp
 x 46
 y 17
 elevation 7178
 end
-arch mountain
+arch swamp
 x 46
 y 18
 elevation 6153
 end
-arch mountain
+arch swamp
 x 46
 y 19
 elevation 5669
 end
-arch mountain
+arch swamp
 x 46
 y 20
 elevation 5911
 end
-arch mountain
+arch swamp
 x 46
 y 21
 elevation 6342
 end
-arch mountain
+arch swamp
 x 46
 y 22
 elevation 6330
 end
-arch mountain
+arch swamp
 x 46
 y 23
 elevation 6768
 end
-arch mountain
+arch swamp
 x 46
 y 24
 elevation 5813
 end
-arch steppe
+arch swamp
 x 46
 y 25
 elevation 3282
@@ -12336,77 +12324,77 @@ arch flagstone
 x 46
 y 27
 end
-arch steppe
+arch swamp
 x 46
 y 28
 elevation 3694
 end
-arch mountain
+arch swamp
 x 46
 y 29
 elevation 5323
 end
-arch mountain
+arch swamp
 x 46
 y 30
 elevation 6572
 end
-arch mountain
+arch swamp
 x 46
 y 31
 elevation 7872
 end
-arch mountain
+arch swamp
 x 46
 y 32
 elevation 8875
 end
-arch mountain2
+arch swamp
 x 46
 y 33
 elevation 9253
 end
-arch mountain
+arch swamp
 x 46
 y 34
 elevation 8351
 end
-arch mountain2
+arch swamp
 x 46
 y 35
 elevation 9125
 end
-arch mountain
+arch swamp
 x 46
 y 36
 elevation 8823
 end
-arch mountain
+arch swamp
 x 46
 y 37
 elevation 8670
 end
-arch mountain
+arch swamp
 x 46
 y 38
 elevation 8732
 end
-arch mountain
+arch swamp
 x 46
 y 39
 elevation 8944
 end
-arch mountain
+arch swamp
 x 46
 y 40
 elevation 8453
 end
-arch mountain
+arch swamp
 x 46
 y 41
 elevation 7498
 end
-arch mountain
+arch swamp
 x 46
 y 42
 elevation 6556
@@ -12550,7 +12538,7 @@ x 47
 y 17
 elevation 4140
 end
-arch hills
+arch swamp
 x 47
 y 18
 elevation 3238
@@ -12560,32 +12548,32 @@ x 47
 y 19
 elevation 3947
 end
-arch mountain
+arch swamp
 x 47
 y 20
 elevation 5078
 end
-arch mountain
+arch swamp
 x 47
 y 21
 elevation 5510
 end
-arch mountain
+arch swamp
 x 47
 y 22
 elevation 5715
 end
-arch mountain
+arch swamp
 x 47
 y 23
 elevation 5880
 end
-arch mountain
+arch swamp
 x 47
 y 24
 elevation 5370
 end
-arch steppe
+arch swamp
 x 47
 y 25
 elevation 3875
@@ -12598,7 +12586,7 @@ arch flagstone
 x 47
 y 27
 end
-arch grass_only
+arch swamp
 x 47
 y 28
 elevation 2803
@@ -12607,62 +12595,62 @@ arch evergreens2
 x 47
 y 28
 end
-arch hills
+arch swamp
 x 47
 y 29
 elevation 4599
 end
-arch mountain
+arch swamp
 x 47
 y 30
 elevation 6194
 end
-arch mountain
+arch swamp
 x 47
 y 31
 elevation 6253
 end
-arch mountain
+arch swamp
 x 47
 y 32
 elevation 8905
 end
-arch mountain2
+arch swamp
 x 47
 y 33
 elevation 9341
 end
-arch mountain2
+arch swamp
 x 47
 y 34
 elevation 10250
 end
-arch mountain2
+arch swamp
 x 47
 y 35
 elevation 10668
 end
-arch mountain2
+arch swamp
 x 47
 y 36
 elevation 10765
 end
-arch mountain2
+arch swamp
 x 47
 y 37
 elevation 10748
 end
-arch mountain2
+arch swamp
 x 47
 y 38
 elevation 10682
 end
-arch mountain2
+arch swamp
 x 47
 y 39
 elevation 10660
 end
-arch mountain2
+arch swamp
 x 47
 y 40
 elevation 9154
@@ -12834,32 +12822,32 @@ x 48
 y 19
 elevation 2665
 end
-arch steppe
+arch swamp
 x 48
 y 20
 elevation 4354
 end
-arch steppe
+arch swamp
 x 48
 y 21
 elevation 3563
 end
-arch hills
+arch swamp
 x 48
 y 22
 elevation 3845
 end
-arch mountain
+arch swamp
 x 48
 y 23
 elevation 5495
 end
-arch mountain
+arch swamp
 x 48
 y 24
 elevation 5119
 end
-arch hills
+arch swamp
 x 48
 y 25
 elevation 3792
@@ -12872,67 +12860,67 @@ arch flagstone
 x 48
 y 27
 end
-arch steppe
+arch swamp
 x 48
 y 28
 elevation 3432
 end
-arch hills_rocky
+arch swamp
 x 48
 y 29
 elevation 2893
 end
-arch mountain
+arch swamp
 x 48
 y 30
 elevation 6202
 end
-arch mountain
+arch swamp
 x 48
 y 31
 elevation 7661
 end
-arch mountain
+arch swamp
 x 48
 y 32
 elevation 8824
 end
-arch mountain2
+arch swamp
 x 48
 y 33
 elevation 10065
 end
-arch mountain2
+arch swamp
 x 48
 y 34
 elevation 10893
 end
-arch mountain2
+arch swamp
 x 48
 y 35
 elevation 11767
 end
-arch mountain2
+arch swamp
 x 48
 y 36
 elevation 11988
 end
-arch mountain2
+arch swamp
 x 48
 y 37
 elevation 11900
 end
-arch mountain4
+arch swamp
 x 48
 y 38
 elevation 12019
 end
-arch mountain2
+arch swamp
 x 48
 y 39
 elevation 11913
 end
-arch mountain2
+arch swamp
 x 48
 y 40
 elevation 10480
@@ -13100,32 +13088,32 @@ x 49
 y 19
 elevation 4861
 end
-arch steppe
+arch swamp
 x 49
 y 20
 elevation 3448
 end
-arch hills
+arch swamp
 x 49
 y 21
 elevation 4247
 end
-arch steppe
+arch swamp
 x 49
 y 22
 elevation 4738
 end
-arch mountain
+arch swamp
 x 49
 y 23
 elevation 5007
 end
-arch steppe
+arch swamp
 x 49
 y 24
 elevation 4728
 end
-arch hills
+arch swamp
 x 49
 y 25
 elevation 3414
@@ -13138,62 +13126,62 @@ arch flagstone
 x 49
 y 27
 end
-arch hills
+arch swamp
 x 49
 y 28
 elevation 3942
 end
-arch mountain
+arch swamp
 x 49
 y 29
 elevation 5523
 end
-arch mountain
+arch swamp
 x 49
 y 30
 elevation 6776
 end
-arch mountain
+arch swamp
 x 49
 y 31
 elevation 7753
 end
-arch mountain
+arch swamp
 x 49
 y 32
 elevation 8541
 end
-arch mountain2
+arch swamp
 x 49
 y 33
 elevation 9814
 end
-arch mountain2
+arch swamp
 x 49
 y 34
 elevation 10991
 end
-arch mountain2
+arch swamp
 x 49
 y 35
 elevation 11741
 end
-arch mountain4
+arch swamp
 x 49
 y 36
 elevation 12158
 end
-arch mountain4
+arch swamp
 x 49
 y 37
 elevation 12291
 end
-arch mountain4
+arch swamp
 x 49
 y 38
 elevation 12381
 end
-arch mountain4
+arch swamp
 x 49
 y 39
 elevation 12942

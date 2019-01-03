@@ -44,7 +44,7 @@ end
 
 Object tree6_budding
 name budding sapling
-face tree_6_buds.111
+face tree_6_budding.111
 no_pick 1
 slow_move 1
 is_wooded 1
