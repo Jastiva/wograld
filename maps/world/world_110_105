@@ -2,11 +2,15 @@ arch map
 name world_110_105
 width 50
 height 50
+msg
+Modified: 2019-01-10 lori
+endmsg
 outdoor 1
 tile_path_1 world_110_104
 tile_path_2 world_111_105
 tile_path_3 world_110_106
 tile_path_4 world_109_105
+background_music beach02
 end
 arch desert
 elevation 401
@@ -207,7 +211,7 @@ arch brush
 y 49
 elevation 200
 end
-arch woods
+arch bosgrass16
 x 1
 elevation 1245
 end
@@ -456,7 +460,7 @@ x 1
 y 49
 elevation 543
 end
-arch woods
+arch bosgrass16
 x 2
 elevation 1757
 end
@@ -954,7 +958,7 @@ x 3
 y 49
 elevation 121
 end
-arch woods
+arch bosgrass16
 x 4
 elevation 2547
 end
@@ -1452,7 +1456,7 @@ x 5
 y 49
 elevation 16
 end
-arch woods
+arch bosgrass16
 x 6
 elevation 1989
 end
@@ -1701,16 +1705,16 @@ x 6
 y 49
 elevation 572
 end
-arch woods
+arch bosgrass16
 x 7
 elevation 1576
 end
-arch woods
+arch bosgrass16
 x 7
 y 1
 elevation 1624
 end
-arch woods
+arch bosgrass16
 x 7
 y 2
 elevation 1478

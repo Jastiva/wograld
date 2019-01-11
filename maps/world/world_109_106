@@ -2,11 +2,15 @@ arch map
 name world_109_106
 width 50
 height 50
+msg
+Modified: 2019-01-10 lori
+endmsg
 outdoor 1
 tile_path_1 world_109_105
 tile_path_2 world_110_106
 tile_path_3 world_109_107
 tile_path_4 world_108_106
+background_music beach02
 end
 arch shallow_sea
 elevation -10
@@ -4425,7 +4429,11 @@ x 17
 y 46
 elevation 47
 end
-arch desert
+arch palm
+x 17
+y 46
+end
+arch bosgrass16
 x 17
 y 47
 elevation 194
@@ -4654,6 +4662,10 @@ x 18
 y 42
 elevation 54
 end
+arch palm
+x 18
+y 42
+end
 arch desert
 x 18
 y 43
@@ -4669,12 +4681,12 @@ x 18
 y 45
 elevation 163
 end
-arch desert
+arch bosgrass16
 x 18
 y 46
 elevation 43
 end
-arch desert
+arch bosgrass16
 x 18
 y 47
 elevation 225
@@ -4918,7 +4930,7 @@ x 19
 y 45
 elevation 337
 end
-arch desert
+arch bosgrass16
 x 19
 y 46
 elevation 295
@@ -5157,6 +5169,10 @@ x 20
 y 43
 elevation 124
 end
+arch palms
+x 20
+y 43
+end
 arch desert
 x 20
 y 44
@@ -5167,7 +5183,7 @@ x 20
 y 45
 elevation 374
 end
-arch desert
+arch bosgrass16
 x 20
 y 46
 elevation 295
@@ -5201,7 +5217,7 @@ x 21
 y 2
 elevation 333
 end
-arch desert
+arch bosgrass10
 x 21
 y 3
 elevation 491
@@ -5396,27 +5412,35 @@ x 21
 y 41
 elevation 56
 end
-arch desert
+arch bosgrass16
 x 21
 y 42
 elevation 22
 end
-arch desert
+arch palms
+x 21
+y 42
+end
+arch bosgrass16
 x 21
 y 43
 elevation 114
 end
-arch desert
+arch palms
+x 21
+y 43
+end
+arch bosgrass16
 x 21
 y 44
 elevation 283
 end
-arch desert
+arch bosgrass16
 x 21
 y 45
 elevation 281
 end
-arch desert
+arch bosgrass16
 x 21
 y 46
 elevation 24
@@ -5450,12 +5474,12 @@ x 22
 y 2
 elevation 601
 end
-arch desert
+arch bosgrass10
 x 22
 y 3
 elevation 584
 end
-arch brush
+arch bosgrass10
 x 22
 y 4
 elevation 605
@@ -5645,27 +5669,39 @@ x 22
 y 41
 elevation 72
 end
-arch desert
+arch bosgrass16
 x 22
 y 42
 elevation 116
 end
-arch desert
+arch palms
+x 22
+y 42
+end
+arch bosgrass10
 x 22
 y 43
 elevation 185
 end
-arch desert
+arch palms
+x 22
+y 43
+end
+arch palms
+x 22
+y 43
+end
+arch bosgrass10
 x 22
 y 44
 elevation 213
 end
-arch desert
+arch bosgrass10
 x 22
 y 45
 elevation 95
 end
-arch desert
+arch bosgrass10
 x 22
 y 46
 elevation 113
@@ -5699,7 +5735,7 @@ x 23
 y 2
 elevation 579
 end
-arch desert
+arch bosgrass10
 x 23
 y 3
 elevation 661
@@ -5884,6 +5920,10 @@ x 23
 y 39
 elevation 84
 end
+arch palm
+x 23
+y 39
+end
 arch desert
 x 23
 y 40
@@ -5894,7 +5934,7 @@ x 23
 y 41
 elevation 89
 end
-arch desert
+arch bosgrass16
 x 23
 y 42
 elevation 113
@@ -5904,17 +5944,21 @@ x 23
 y 43
 elevation 167
 end
-arch desert
+arch bosgrass10
 x 23
 y 44
 elevation 177
+end
+arch palms
+x 23
+y 44
 end
 arch desert
 x 23
 y 45
 elevation 78
 end
-arch desert
+arch bosgrass10
 x 23
 y 46
 elevation 41
@@ -5923,6 +5967,10 @@ arch desert
 x 23
 y 47
 elevation 84
+end
+arch palm
+x 23
+y 47
 end
 arch desert
 x 23
@@ -5953,12 +6001,12 @@ x 24
 y 3
 elevation 836
 end
-arch desert
+arch bosgrass10
 x 24
 y 4
 elevation 487
 end
-arch desert
+arch bosgrass10
 x 24
 y 5
 elevation 587
@@ -6143,17 +6191,17 @@ x 24
 y 41
 elevation 38
 end
-arch desert
+arch bosgrass16
 x 24
 y 42
 elevation 32
 end
-arch desert
+arch bosgrass16
 x 24
 y 43
 elevation 112
 end
-arch desert
+arch bosgrass10
 x 24
 y 44
 elevation 179
@@ -6163,12 +6211,16 @@ x 24
 y 45
 elevation 154
 end
-arch desert
+arch palms
+x 24
+y 45
+end
+arch bosgrass10
 x 24
 y 46
 elevation 40
 end
-arch desert
+arch bosgrass10
 x 24
 y 47
 elevation 36
@@ -6392,27 +6444,27 @@ x 25
 y 41
 elevation 32
 end
-arch desert
+arch bosgrass16
 x 25
 y 42
 elevation 71
 end
-arch desert
+arch bosgrass16
 x 25
 y 43
 elevation 80
 end
-arch desert
+arch bosgrass10
 x 25
 y 44
 elevation 230
 end
-arch desert
+arch bosgrass10
 x 25
 y 45
 elevation 240
 end
-arch desert
+arch bosgrass10
 x 25
 y 46
 elevation 32
@@ -6646,22 +6698,22 @@ x 26
 y 42
 elevation 63
 end
-arch desert
+arch bosgrass16
 x 26
 y 43
 elevation 171
 end
-arch desert
+arch bosgrass10
 x 26
 y 44
 elevation 275
 end
-arch desert
+arch bosgrass10
 x 26
 y 45
 elevation 330
 end
-arch desert
+arch bosgrass10
 x 26
 y 46
 elevation 371
@@ -6895,22 +6947,26 @@ x 27
 y 42
 elevation 18
 end
-arch desert
+arch bosgrass10
 x 27
 y 43
 elevation 145
 end
-arch desert
+arch bosgrass10
 x 27
 y 44
 elevation 238
+end
+arch palms
+x 27
+y 44
 end
 arch desert
 x 27
 y 45
 elevation 360
 end
-arch desert
+arch bosgrass10
 x 27
 y 46
 elevation 496
@@ -6954,17 +7010,17 @@ x 28
 y 4
 elevation 894
 end
-arch desert
+arch bosgrass16
 x 28
 y 5
 elevation 658
 end
-arch desert
+arch bosgrass16
 x 28
 y 6
 elevation 419
 end
-arch desert
+arch bosgrass16
 x 28
 y 7
 elevation 461
@@ -6979,12 +7035,12 @@ x 28
 y 9
 elevation 530
 end
-arch desert
+arch bosgrass10
 x 28
 y 10
 elevation 421
 end
-arch desert
+arch bosgrass10
 x 28
 y 11
 elevation 348
@@ -6994,7 +7050,7 @@ x 28
 y 12
 elevation 352
 end
-arch desert
+arch bosgrass10
 x 28
 y 13
 elevation 394
@@ -7144,17 +7200,17 @@ x 28
 y 42
 elevation -2
 end
-arch desert
+arch bosgrass10
 x 28
 y 43
 elevation 50
 end
-arch desert
+arch bosgrass10
 x 28
 y 44
 elevation 161
 end
-arch desert
+arch bosgrass10
 x 28
 y 45
 elevation 134
@@ -7169,7 +7225,7 @@ x 28
 y 47
 elevation 669
 end
-arch desert
+arch bosgrass10
 x 28
 y 48
 elevation 703
@@ -7203,12 +7259,12 @@ x 29
 y 4
 elevation 599
 end
-arch desert
+arch bosgrass16
 x 29
 y 5
 elevation 417
 end
-arch brush
+arch bosgrass16
 x 29
 y 6
 elevation 167
@@ -7218,12 +7274,12 @@ x 29
 y 7
 elevation 44
 end
-arch desert
+arch bosgrass16
 x 29
 y 8
 elevation 341
 end
-arch desert
+arch bosgrass10
 x 29
 y 9
 elevation 132
@@ -7258,7 +7314,7 @@ x 29
 y 15
 elevation 390
 end
-arch brush
+arch bosgrass10
 x 29
 y 16
 elevation 355
@@ -7388,17 +7444,17 @@ x 29
 y 41
 elevation -2
 end
-arch deep_swamp
+arch bosgrass16
 x 29
 y 42
 elevation 9
 end
-arch desert
+arch bosgrass16
 x 29
 y 43
 elevation 46
 end
-arch desert
+arch bosgrass16
 x 29
 y 44
 elevation 117
@@ -7408,17 +7464,21 @@ x 29
 y 45
 elevation 75
 end
-arch desert
+arch bosgrass10
 x 29
 y 46
 elevation 435
 end
-arch desert
+arch bosgrass10
 x 29
 y 47
 elevation 578
 end
-arch desert
+arch palms
+x 29
+y 47
+end
+arch bosgrass10
 x 29
 y 48
 elevation 592
@@ -7457,7 +7517,7 @@ x 30
 y 5
 elevation 472
 end
-arch desert
+arch bosgrass16
 x 30
 y 6
 elevation 266
@@ -7467,12 +7527,12 @@ x 30
 y 7
 elevation 252
 end
-arch desert
+arch bosgrass16
 x 30
 y 8
 elevation 265
 end
-arch desert
+arch bosgrass16
 x 30
 y 9
 elevation 164
@@ -7487,7 +7547,7 @@ x 30
 y 11
 elevation 119
 end
-arch desert
+arch bosgrass10
 x 30
 y 12
 elevation 207
@@ -7507,12 +7567,12 @@ x 30
 y 15
 elevation 354
 end
-arch desert
+arch bosgrass10
 x 30
 y 16
 elevation 355
 end
-arch brush
+arch bosgrass10
 x 30
 y 17
 elevation 357
@@ -7652,17 +7712,17 @@ x 30
 y 44
 elevation 93
 end
-arch desert
+arch bosgrass10
 x 30
 y 45
 elevation 295
 end
-arch desert
+arch bosgrass10
 x 30
 y 46
 elevation 415
 end
-arch desert
+arch bosgrass10
 x 30
 y 47
 elevation 477
@@ -7706,12 +7766,12 @@ x 31
 y 5
 elevation 591
 end
-arch desert
+arch bosgrass16
 x 31
 y 6
 elevation 541
 end
-arch brush
+arch bosgrass16
 x 31
 y 7
 elevation 76
@@ -7751,12 +7811,12 @@ x 31
 y 14
 elevation 350
 end
-arch desert
+arch bosgrass10
 x 31
 y 15
 elevation 112
 end
-arch desert
+arch bosgrass10
 x 31
 y 16
 elevation 277
@@ -7891,6 +7951,10 @@ x 31
 y 42
 elevation 27
 end
+arch palm
+x 31
+y 42
+end
 arch desert
 x 31
 y 43
@@ -7901,7 +7965,7 @@ x 31
 y 44
 elevation 273
 end
-arch desert
+arch bosgrass10
 x 31
 y 45
 elevation 344
@@ -7911,7 +7975,7 @@ x 31
 y 46
 elevation 386
 end
-arch desert
+arch bosgrass10
 x 31
 y 47
 elevation 428
@@ -7955,7 +8019,7 @@ x 32
 y 5
 elevation 633
 end
-arch desert
+arch bosgrass16
 x 32
 y 6
 elevation 670
@@ -7985,7 +8049,7 @@ x 32
 y 11
 elevation 740
 end
-arch desert
+arch bosgrass10
 x 32
 y 12
 elevation 634
@@ -8125,6 +8189,10 @@ x 32
 y 39
 elevation 140
 end
+arch palms
+x 32
+y 39
+end
 arch desert
 x 32
 y 40
@@ -8155,12 +8223,16 @@ x 32
 y 45
 elevation 388
 end
-arch desert
+arch palms
+x 32
+y 45
+end
+arch bosgrass10
 x 32
 y 46
 elevation 205
 end
-arch desert
+arch bosgrass10
 x 32
 y 47
 elevation 436
@@ -8399,17 +8471,25 @@ x 33
 y 44
 elevation 279
 end
+arch palms
+x 33
+y 44
+end
 arch desert
 x 33
 y 45
 elevation 487
+end
+arch palms
+x 33
+y 45
 end
 arch desert
 x 33
 y 46
 elevation 535
 end
-arch desert
+arch bosgrass10
 x 33
 y 47
 elevation 487
@@ -8443,7 +8523,7 @@ x 34
 y 3
 elevation 658
 end
-arch brush
+arch beach
 x 34
 y 4
 elevation 219
@@ -8468,12 +8548,12 @@ x 34
 y 8
 elevation 887
 end
-arch desert
+arch bosgrass10
 x 34
 y 9
 elevation 905
 end
-arch desert
+arch bosgrass10
 x 34
 y 10
 elevation 762
@@ -8483,7 +8563,7 @@ x 34
 y 11
 elevation 778
 end
-arch desert
+arch bosgrass10
 x 34
 y 12
 elevation 613
@@ -8643,10 +8723,18 @@ x 34
 y 43
 elevation 446
 end
+arch palms
+x 34
+y 43
+end
 arch desert
 x 34
 y 44
 elevation 522
+end
+arch palms
+x 34
+y 44
 end
 arch desert
 x 34
@@ -8692,37 +8780,37 @@ x 35
 y 3
 elevation 533
 end
-arch brush
+arch beach
 x 35
 y 4
 elevation 396
 end
-arch desert
+arch beach
 x 35
 y 5
 elevation 357
 end
-arch brush
+arch beach
 x 35
 y 6
 elevation 430
 end
-arch brush
+arch beach
 x 35
 y 7
 elevation 597
 end
-arch brush
+arch beach
 x 35
 y 8
 elevation 762
 end
-arch brush
+arch beach
 x 35
 y 9
 elevation 881
 end
-arch brush
+arch beach
 x 35
 y 10
 elevation 831
@@ -8887,6 +8975,10 @@ x 35
 y 42
 elevation 393
 end
+arch palm
+x 35
+y 42
+end
 arch desert
 x 35
 y 43
@@ -8922,31 +9014,31 @@ x 35
 y 49
 elevation 262
 end
-arch brush
+arch beach
 x 36
 elevation 595
 end
-arch brush
+arch beach
 x 36
 y 1
 elevation 420
 end
-arch desert
+arch beach
 x 36
 y 2
 elevation 501
 end
-arch brush
+arch beach
 x 36
 y 3
 elevation 126
 end
-arch desert
+arch beach
 x 36
 y 4
 elevation 394
 end
-arch brush
+arch beach
 x 36
 y 5
 elevation 424
@@ -8961,12 +9053,12 @@ x 36
 y 7
 elevation 378
 end
-arch brush
+arch beach
 x 36
 y 8
 elevation 644
 end
-arch brush
+arch beach
 x 36
 y 9
 elevation 746
@@ -9076,22 +9168,22 @@ x 36
 y 30
 elevation 2835
 end
-arch hills
+arch bosgrass17
 x 36
 y 31
 elevation 3933
 end
-arch hills_rocky
+arch bosgrass17
 x 36
 y 32
 elevation 4028
 end
-arch hills_rocky
+arch bosgrass17
 x 36
 y 33
 elevation 3742
 end
-arch steppe
+arch bosgrass17
 x 36
 y 34
 elevation 3634
@@ -9156,6 +9248,10 @@ x 36
 y 46
 elevation 627
 end
+arch palm
+x 36
+y 46
+end
 arch desert
 x 36
 y 47
@@ -9171,26 +9267,26 @@ x 36
 y 49
 elevation 402
 end
-arch desert
+arch beach
 x 37
 elevation 495
 end
-arch desert
+arch beach
 x 37
 y 1
 elevation 425
 end
-arch desert
+arch beach
 x 37
 y 2
 elevation 336
 end
-arch desert
+arch beach
 x 37
 y 3
 elevation 319
 end
-arch desert
+arch beach
 x 37
 y 4
 elevation 362
@@ -9210,7 +9306,7 @@ x 37
 y 7
 elevation 400
 end
-arch brush
+arch beach
 x 37
 y 8
 elevation 438
@@ -9320,32 +9416,32 @@ x 37
 y 29
 elevation 3158
 end
-arch hills
+arch bosgrass17
 x 37
 y 30
 elevation 3355
 end
-arch hills
+arch bosgrass17
 x 37
 y 31
 elevation 3764
 end
-arch hills_rocky
+arch bosgrass17
 x 37
 y 32
 elevation 4040
 end
-arch hills
+arch bosgrass17
 x 37
 y 33
 elevation 4057
 end
-arch steppe
+arch bosgrass17
 x 37
 y 34
 elevation 4321
 end
-arch steppe
+arch bosgrass17
 x 37
 y 35
 elevation 4218
@@ -9385,15 +9481,27 @@ x 37
 y 42
 elevation 599
 end
+arch palms
+x 37
+y 42
+end
 arch desert
 x 37
 y 43
 elevation 723
 end
+arch palms
+x 37
+y 43
+end
 arch desert
 x 37
 y 44
 elevation 701
+end
+arch palms
+x 37
+y 44
 end
 arch desert
 x 37
@@ -9420,31 +9528,31 @@ x 37
 y 49
 elevation 522
 end
-arch brush
+arch beach
 x 38
 elevation 361
 end
-arch desert
+arch beach
 x 38
 y 1
 elevation 288
 end
-arch desert
+arch beach
 x 38
 y 2
 elevation 116
 end
-arch desert
+arch beach
 x 38
 y 3
 elevation 251
 end
-arch desert
+arch beach
 x 38
 y 4
 elevation 318
 end
-arch desert
+arch beach
 x 38
 y 5
 elevation 347
@@ -9454,17 +9562,17 @@ x 38
 y 6
 elevation 283
 end
-arch desert
+arch beach
 x 38
 y 7
 elevation 252
 end
-arch desert
+arch beach
 x 38
 y 8
 elevation 224
 end
-arch desert
+arch beach
 x 38
 y 9
 elevation 138
@@ -9574,27 +9682,27 @@ x 38
 y 30
 elevation 2636
 end
-arch hills
+arch bosgrass17
 x 38
 y 31
 elevation 3219
 end
-arch hills_rocky
+arch bosgrass17
 x 38
 y 32
 elevation 3658
 end
-arch hills
+arch bosgrass17
 x 38
 y 33
 elevation 3284
 end
-arch hills_rocky
+arch bosgrass17
 x 38
 y 34
 elevation 4752
 end
-arch mountain
+arch bosgrass17
 x 38
 y 35
 elevation 5011
@@ -9644,15 +9752,27 @@ x 38
 y 44
 elevation 884
 end
+arch palms
+x 38
+y 44
+end
 arch desert
 x 38
 y 45
 elevation 776
 end
+arch palms
+x 38
+y 45
+end
 arch desert
 x 38
 y 46
 elevation 556
+end
+arch palms
+x 38
+y 46
 end
 arch desert
 x 38
@@ -9669,21 +9789,21 @@ x 38
 y 49
 elevation 509
 end
-arch brush
+arch beach
 x 39
 elevation 191
 end
-arch desert
+arch beach
 x 39
 y 1
 elevation 92
 end
-arch desert
+arch beach
 x 39
 y 2
 elevation 141
 end
-arch desert
+arch beach
 x 39
 y 3
 elevation 131
@@ -9693,7 +9813,7 @@ x 39
 y 4
 elevation 188
 end
-arch desert
+arch beach
 x 39
 y 5
 elevation 271
@@ -9708,12 +9828,12 @@ x 39
 y 7
 elevation 28
 end
-arch desert
+arch beach
 x 39
 y 8
 elevation 130
 end
-arch desert
+arch beach
 x 39
 y 9
 elevation 107
@@ -9828,22 +9948,22 @@ x 39
 y 31
 elevation 2062
 end
-arch hills
+arch bosgrass17
 x 39
 y 32
 elevation 3578
 end
-arch steppe
+arch bosgrass17
 x 39
 y 33
 elevation 3630
 end
-arch mountain
+arch bosgrass17
 x 39
 y 34
 elevation 5037
 end
-arch mountain
+arch bosgrass17
 x 39
 y 35
 elevation 5211
@@ -9918,46 +10038,46 @@ x 39
 y 49
 elevation 455
 end
-arch grass
+arch beach
 x 40
 elevation 25
 end
-arch desert
+arch beach
 x 40
 y 1
 elevation 84
 end
-arch brush
+arch beach
 x 40
 y 2
 elevation 80
 end
-arch brush
+arch beach
 x 40
 y 3
 elevation 32
 end
-arch desert
+arch beach
 x 40
 y 4
 elevation 108
 end
-arch desert
+arch beach
 x 40
 y 5
 elevation 205
 end
-arch desert
+arch beach
 x 40
 y 6
 elevation 216
 end
-arch desert
+arch beach
 x 40
 y 7
 elevation 151
 end
-arch desert
+arch beach
 x 40
 y 8
 elevation 33
@@ -10077,32 +10197,32 @@ x 40
 y 31
 elevation 2999
 end
-arch hills_rocky
+arch bosgrass17
 x 40
 y 32
 elevation 3696
 end
-arch steppe
+arch bosgrass17
 x 40
 y 33
 elevation 4381
 end
-arch hills
+arch bosgrass17
 x 40
 y 34
 elevation 4937
 end
-arch steppe
+arch bosgrass17
 x 40
 y 35
 elevation 4865
 end
-arch steppe
+arch bosgrass17
 x 40
 y 36
 elevation 3612
 end
-arch woods
+arch bosgrass17
 x 40
 y 37
 elevation 2052
@@ -10171,32 +10291,32 @@ arch desert
 x 41
 elevation 11
 end
-arch brush
+arch beach
 x 41
 y 1
 elevation 34
 end
-arch brush
+arch beach
 x 41
 y 2
 elevation 33
 end
-arch desert
+arch beach
 x 41
 y 3
 elevation 21
 end
-arch desert
+arch beach
 x 41
 y 4
 elevation 37
 end
-arch desert
+arch beach
 x 41
 y 5
 elevation 160
 end
-arch desert
+arch beach
 x 41
 y 6
 elevation 191
@@ -10326,32 +10446,32 @@ x 41
 y 31
 elevation 3229
 end
-arch hills_rocky
+arch bosgrass17
 x 41
 y 32
 elevation 2537
 end
-arch hills_rocky
+arch bosgrass17
 x 41
 y 33
 elevation 4225
 end
-arch hills
+arch bosgrass17
 x 41
 y 34
 elevation 4548
 end
-arch steppe
+arch bosgrass17
 x 41
 y 35
 elevation 4144
 end
-arch woods
+arch bosgrass17
 x 41
 y 36
 elevation 2915
 end
-arch jungle_1
+arch bosgrass17
 x 41
 y 37
 elevation 2051
@@ -10420,7 +10540,7 @@ arch shallow_sea
 x 42
 elevation -5
 end
-arch deep_swamp
+arch beach
 x 42
 y 1
 elevation 1
@@ -10430,17 +10550,17 @@ x 42
 y 2
 elevation -1
 end
-arch deep_swamp
+arch beach
 x 42
 y 3
 elevation 3
 end
-arch desert
+arch beach
 x 42
 y 4
 elevation 50
 end
-arch desert
+arch beach
 x 42
 y 5
 elevation 118
@@ -10460,12 +10580,12 @@ x 42
 y 8
 elevation 11
 end
-arch desert
+arch bosgrass10
 x 42
 y 9
 elevation 11
 end
-arch desert
+arch bosgrass10
 x 42
 y 10
 elevation 12
@@ -10580,32 +10700,32 @@ x 42
 y 32
 elevation 2898
 end
-arch hills_rocky
+arch bosgrass17
 x 42
 y 33
 elevation 4018
 end
-arch steppe
+arch bosgrass17
 x 42
 y 34
 elevation 3917
 end
-arch hills_rocky
+arch bosgrass17
 x 42
 y 35
 elevation 3182
 end
-arch jungle_1
+arch bosgrass17
 x 42
 y 36
 elevation 2424
 end
-arch woods
+arch bosgrass17
 x 42
 y 37
 elevation 1794
 end
-arch woods
+arch bosgrass17
 x 42
 y 38
 elevation 1254
@@ -10714,7 +10834,7 @@ x 43
 y 9
 elevation 12
 end
-arch desert
+arch bosgrass10
 x 43
 y 10
 elevation 39
@@ -10824,12 +10944,12 @@ x 43
 y 31
 elevation 4296
 end
-arch hills
+arch bosgrass17
 x 43
 y 32
 elevation 4581
 end
-arch hills
+arch bosgrass17
 x 43
 y 33
 elevation 4081
@@ -10968,7 +11088,7 @@ x 44
 y 10
 elevation 70
 end
-arch desert
+arch bosgrass10
 x 44
 y 11
 elevation 54
@@ -11068,17 +11188,17 @@ x 44
 y 30
 elevation 3643
 end
-arch hills
+arch bosgrass17
 x 44
 y 31
 elevation 4542
 end
-arch hills_rocky
+arch bosgrass17
 x 44
 y 32
 elevation 4814
 end
-arch hills
+arch bosgrass17
 x 44
 y 33
 elevation 4154
@@ -11207,17 +11327,17 @@ x 45
 y 8
 elevation 4
 end
-arch brush
+arch bosgrass10
 x 45
 y 9
 elevation 46
 end
-arch brush
+arch bosgrass10
 x 45
 y 10
 elevation 90
 end
-arch desert
+arch bosgrass10
 x 45
 y 11
 elevation 84
@@ -11322,12 +11442,12 @@ x 45
 y 31
 elevation 3586
 end
-arch hills
+arch bosgrass17
 x 45
 y 32
 elevation 4379
 end
-arch hills_rocky
+arch bosgrass17
 x 45
 y 33
 elevation 4392

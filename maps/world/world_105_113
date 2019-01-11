@@ -4,7 +4,7 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2018-12-19 lori
+Modified: 2019-01-07 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_112
@@ -2277,7 +2277,7 @@ x 8
 y 26
 elevation 2426
 end
-arch woods
+arch grass_only
 x 8
 y 27
 elevation 2018
@@ -2850,7 +2850,7 @@ x 10
 y 28
 elevation 2074
 end
-arch woods
+arch grass_only
 x 10
 y 29
 elevation 1811
@@ -2865,10 +2865,14 @@ x 10
 y 31
 elevation 1809
 end
-arch woods
+arch blackforest2
 x 10
 y 32
 elevation 1596
+end
+arch lumber_oak
+x 10
+y 32
 end
 arch desert
 x 10
@@ -3121,20 +3125,28 @@ x 11
 y 27
 elevation 2333
 end
-arch woods
+arch grass_only
 x 11
 y 28
 elevation 2457
 end
-arch woods
+arch tree3fall1
+x 11
+y 28
+end
+arch grass_only
 x 11
 y 29
 elevation 2481
 end
-arch woods
+arch grass_only
 x 11
 y 30
 elevation 2545
+end
+arch tree3fall1
+x 11
+y 30
 end
 arch grass_only
 x 11
@@ -3145,10 +3157,14 @@ arch evergreens2
 x 11
 y 31
 end
-arch woods
+arch blackforest2
 x 11
 y 32
 elevation 1957
+end
+arch lumber_oak
+x 11
+y 32
 end
 arch desert
 x 11
@@ -3372,17 +3388,21 @@ arch swall_2_1_2
 x 12
 y 25
 end
-arch woods
+arch grass_only
 x 12
 y 26
 elevation 2411
 end
-arch woods
+arch tree3cherry3
+x 12
+y 26
+end
+arch grass_only
 x 12
 y 27
 elevation 1784
 end
-arch woods
+arch grass_only
 x 12
 y 28
 elevation 2141
@@ -3396,7 +3416,7 @@ arch tree5
 x 12
 y 29
 end
-arch woods
+arch grass_only
 x 12
 y 30
 elevation 2834
@@ -3410,10 +3430,14 @@ arch tree5
 x 12
 y 31
 end
-arch woods
+arch blackforest2
 x 12
 y 32
 elevation 2186
+end
+arch lumber_oak
+x 12
+y 32
 end
 arch desert
 x 12
@@ -3645,7 +3669,7 @@ arch swall_2_1_2
 x 13
 y 25
 end
-arch woods
+arch grass_only
 x 13
 y 26
 elevation 2213
@@ -3655,12 +3679,16 @@ x 13
 y 27
 elevation 1764
 end
-arch woods
+arch grass_only
 x 13
 y 28
 elevation 1346
 end
-arch woods
+arch shrub
+x 13
+y 28
+end
+arch grass_only
 x 13
 y 29
 elevation 1012
@@ -3674,32 +3702,36 @@ arch evergreens2
 x 13
 y 30
 end
-arch woods_2
+arch grass_only
 x 13
 y 31
 elevation 2837
 end
-arch woods
+arch grass_only
 x 13
 y 32
 elevation 2362
 end
-arch woods
+arch tree3cherry3
+x 13
+y 32
+end
+arch grass_only
 x 13
 y 33
 elevation 1913
 end
-arch woods
+arch grass_only
 x 13
 y 34
 elevation 1688
 end
-arch woods
+arch grass_only
 x 13
 y 35
 elevation 1571
 end
-arch woods
+arch grass_only
 x 13
 y 36
 elevation 1168
@@ -3719,12 +3751,12 @@ x 13
 y 39
 elevation 657
 end
-arch woods
+arch grass_only
 x 13
 y 40
 elevation 1123
 end
-arch woods
+arch grass_only
 x 13
 y 41
 elevation 1009
@@ -3919,7 +3951,7 @@ x 14
 y 26
 elevation 1165
 end
-arch woods
+arch grass_only
 x 14
 y 27
 elevation 1270
@@ -3934,42 +3966,62 @@ x 14
 y 29
 elevation 1211
 end
-arch woods
+arch grass_only
 x 14
 y 30
 elevation 1898
 end
-arch woods
+arch grass_only
 x 14
 y 31
 elevation 2411
 end
-arch woods
+arch shrub4b
+x 14
+y 31
+end
+arch grass_only
 x 14
 y 32
 elevation 2551
 end
-arch woods
+arch grass_only
 x 14
 y 33
 elevation 2579
 end
-arch woods
+arch tree4
+x 14
+y 33
+end
+arch grass_only
 x 14
 y 34
 elevation 2711
 end
-arch woods
+arch shrub4b
+x 14
+y 34
+end
+arch grass_only
 x 14
 y 35
 elevation 2671
 end
-arch woods
+arch tree3cherry3
+x 14
+y 35
+end
+arch grass_only
 x 14
 y 36
 elevation 2410
 end
-arch woods
+arch shrub4b
+x 14
+y 36
+end
+arch grass_only
 x 14
 y 37
 elevation 1939
@@ -3979,17 +4031,21 @@ x 14
 y 38
 elevation 450
 end
-arch woods
+arch grass_only
 x 14
 y 39
 elevation 1629
 end
-arch woods
+arch grass_only
 x 14
 y 40
 elevation 1583
 end
-arch woods
+arch tree3cherry3
+x 14
+y 40
+end
+arch grass_only
 x 14
 y 41
 elevation 1158
@@ -4199,57 +4255,69 @@ x 15
 y 29
 elevation 451
 end
-arch woods
+arch grass_only
 x 15
 y 30
 elevation 1216
 end
-arch woods
+arch grass_only
 x 15
 y 31
 elevation 1773
 end
-arch woods
+arch grass_only
 x 15
 y 32
 elevation 1995
 end
-arch woods
+arch tree3fall1
+x 15
+y 32
+end
+arch grass_only
 x 15
 y 33
 elevation 2740
 end
-arch woods
+arch grass_only
 x 15
 y 34
 elevation 2929
 end
-arch woods
+arch grass_only
 x 15
 y 35
 elevation 2867
 end
-arch woods
+arch grass_only
 x 15
 y 36
 elevation 2811
 end
-arch woods
+arch grass_only
 x 15
 y 37
 elevation 2680
 end
-arch woods
+arch shrub
+x 15
+y 37
+end
+arch grass_only
 x 15
 y 38
 elevation 2711
 end
-arch woods
+arch grass_only
 x 15
 y 39
 elevation 2430
 end
-arch woods
+arch tree3cherry3
+x 15
+y 39
+end
+arch grass_only
 x 15
 y 40
 elevation 1071
@@ -4294,7 +4362,7 @@ x 15
 y 48
 elevation 611
 end
-arch woods
+arch purplemoss2
 x 15
 y 49
 elevation 1491
@@ -4506,30 +4574,50 @@ x 16
 y 31
 elevation 758
 end
-arch woods
+arch blackforest2
 x 16
 y 32
 elevation 1883
 end
-arch woods
+arch lumber_oak
+x 16
+y 32
+end
+arch blackforest2
 x 16
 y 33
 elevation 2385
 end
-arch woods
+arch lumber_oak
+x 16
+y 33
+end
+arch blackforest2
 x 16
 y 34
 elevation 2565
 end
-arch woods
+arch lumber_oak
+x 16
+y 34
+end
+arch blackforest2
 x 16
 y 35
 elevation 2326
 end
-arch woods
+arch lumber_oak
+x 16
+y 35
+end
+arch blackforest2
 x 16
 y 36
 elevation 2064
+end
+arch lumber_oak
+x 16
+y 36
 end
 arch hills_rocky
 x 16
@@ -4546,15 +4634,23 @@ x 16
 y 39
 elevation 3405
 end
-arch woods
+arch blackforest2
 x 16
 y 40
 elevation 2661
 end
-arch woods
+arch lumber_oak
+x 16
+y 40
+end
+arch blackforest2
 x 16
 y 41
 elevation 1720
+end
+arch lumber_oak
+x 16
+y 41
 end
 arch desert
 x 16
@@ -4586,12 +4682,16 @@ x 16
 y 47
 elevation 142
 end
-arch woods
+arch blackforest2
 x 16
 y 48
 elevation 2302
 end
-arch desert
+arch lumber_oak
+x 16
+y 48
+end
+arch purplemoss2
 x 16
 y 49
 elevation 703
@@ -4768,7 +4868,7 @@ x 17
 y 32
 elevation 1392
 end
-arch woods
+arch blackforest2
 x 17
 y 33
 elevation 1807
@@ -4783,10 +4883,14 @@ x 17
 y 35
 elevation 1292
 end
-arch woods
+arch blackforest2
 x 17
 y 36
 elevation 2483
+end
+arch lumber_oak
+x 17
+y 36
 end
 arch hills_rocky
 x 17
@@ -4808,10 +4912,14 @@ x 17
 y 40
 elevation 3330
 end
-arch woods
+arch blackforest2
 x 17
 y 41
 elevation 2337
+end
+arch lumber_oak
+x 17
+y 41
 end
 arch woods_3
 x 17
@@ -4833,10 +4941,14 @@ x 17
 y 45
 elevation 1006
 end
-arch woods
+arch blackforest2
 x 17
 y 46
 elevation 1329
+end
+arch lumber_oak
+x 17
+y 46
 end
 arch grass_only
 x 17
@@ -4852,7 +4964,7 @@ x 17
 y 48
 elevation 4643
 end
-arch mountain
+arch purplemoss2
 x 17
 y 49
 elevation 6110
@@ -5025,20 +5137,32 @@ arch grasspond
 x 18
 y 33
 end
-arch woods
+arch blackforest2
 x 18
 y 34
 elevation 1363
 end
-arch woods
+arch lumber_oak
+x 18
+y 34
+end
+arch blackforest2
 x 18
 y 35
 elevation 1757
 end
-arch jungle_1
+arch lumber_oak
+x 18
+y 35
+end
+arch blackforest2
 x 18
 y 36
 elevation 2175
+end
+arch lumber_oak
+x 18
+y 36
 end
 arch woods_3
 x 18
@@ -5060,15 +5184,23 @@ x 18
 y 40
 elevation 3054
 end
-arch woods
+arch blackforest2
 x 18
 y 41
 elevation 2138
 end
-arch woods
+arch lumber_oak
+x 18
+y 41
+end
+arch blackforest2
 x 18
 y 42
 elevation 1417
+end
+arch lumber_oak
+x 18
+y 42
 end
 arch grass
 x 18
@@ -5095,12 +5227,12 @@ x 18
 y 47
 elevation 4926
 end
-arch mountain
+arch purplemoss2
 x 18
 y 48
 elevation 6991
 end
-arch mountain
+arch purplemoss2
 x 18
 y 49
 elevation 8458
@@ -5119,12 +5251,12 @@ x 19
 y 2
 elevation 10999
 end
-arch mountain2
+arch woods_3
 x 19
 y 3
 elevation 9936
 end
-arch mountain
+arch woods_3
 x 19
 y 4
 elevation 7294
@@ -5291,15 +5423,19 @@ x 19
 y 34
 elevation 488
 end
-arch woods
+arch blackforest2
 x 19
 y 35
 elevation 1138
 end
-arch woods
+arch blackforest2
 x 19
 y 36
 elevation 1705
+end
+arch lumber_oak
+x 19
+y 36
 end
 arch grass_only
 x 19
@@ -5333,20 +5469,28 @@ x 19
 y 40
 elevation 2191
 end
-arch woods
+arch blackforest2
 x 19
 y 41
 elevation 1109
+end
+arch lumber_oak
+x 19
+y 41
 end
 arch desert
 x 19
 y 42
 elevation 652
 end
-arch woods
+arch blackforest2
 x 19
 y 43
 elevation 1237
+end
+arch lumber_oak
+x 19
+y 43
 end
 arch grass_only
 x 19
@@ -5367,20 +5511,28 @@ x 19
 y 46
 elevation 3564
 end
-arch mountain
+arch shrub
+x 19
+y 46
+end
+arch purplemoss2
 x 19
 y 47
 elevation 5656
 end
-arch mountain
+arch purplemoss2
 x 19
 y 48
 elevation 7624
 end
-arch mountain2
+arch purplemoss2
 x 19
 y 49
 elevation 9018
+end
+arch shrub
+x 19
+y 49
 end
 arch mountain
 x 20
@@ -5396,17 +5548,17 @@ x 20
 y 2
 elevation 10405
 end
-arch mountain2
+arch woods_3
 x 20
 y 3
 elevation 9430
 end
-arch mountain
+arch woods_3
 x 20
 y 4
 elevation 7403
 end
-arch mountain
+arch woods_3
 x 20
 y 5
 elevation 5457
@@ -5566,10 +5718,14 @@ x 20
 y 36
 elevation 970
 end
-arch woods
+arch blackforest2
 x 20
 y 37
 elevation 1483
+end
+arch lumber_oak
+x 20
+y 37
 end
 arch grass_only
 x 20
@@ -5604,20 +5760,28 @@ x 20
 y 42
 elevation 1088
 end
-arch woods
+arch blackforest2
 x 20
 y 43
 elevation 1294
+end
+arch lumber_oak
+x 20
+y 43
 end
 arch woods_3
 x 20
 y 44
 elevation 1264
 end
-arch woods
+arch blackforest2
 x 20
 y 45
 elevation 2816
+end
+arch lumber_oak
+x 20
+y 45
 end
 arch hills
 x 20
@@ -5633,6 +5797,10 @@ arch mountain
 x 20
 y 48
 elevation 7000
+end
+arch shrub
+x 20
+y 48
 end
 arch mountain
 x 20
@@ -5653,22 +5821,22 @@ x 21
 y 2
 elevation 8159
 end
-arch mountain
+arch woods_3
 x 21
 y 3
 elevation 6135
 end
-arch mountain
+arch woods_3
 x 21
 y 4
 elevation 7012
 end
-arch mountain
+arch woods_3
 x 21
 y 5
 elevation 6682
 end
-arch mountain
+arch woods_3
 x 21
 y 6
 elevation 5473
@@ -5862,20 +6030,32 @@ x 21
 y 43
 elevation 807
 end
-arch woods
+arch blackforest2
 x 21
 y 44
 elevation 1483
 end
-arch woods
+arch lumber_oak
+x 21
+y 44
+end
+arch blackforest2
 x 21
 y 45
 elevation 2492
 end
-arch hills_rocky
+arch lumber_oak
+x 21
+y 45
+end
+arch blackforest2
 x 21
 y 46
 elevation 3620
+end
+arch lumber_oak
+x 21
+y 46
 end
 arch hills
 x 21
@@ -5906,22 +6086,22 @@ x 22
 y 2
 elevation 9168
 end
-arch mountain
+arch woods_3
 x 22
 y 3
 elevation 5310
 end
-arch mountain
+arch woods_3
 x 22
 y 4
 elevation 6918
 end
-arch mountain
+arch woods_3
 x 22
 y 5
 elevation 6935
 end
-arch mountain
+arch woods_3
 x 22
 y 6
 elevation 5860
@@ -6124,15 +6304,23 @@ x 22
 y 44
 elevation 257
 end
-arch woods
+arch blackforest2
 x 22
 y 45
 elevation 1546
 end
-arch woods
+arch lumber_oak
+x 22
+y 45
+end
+arch blackforest2
 x 22
 y 46
 elevation 2631
+end
+arch lumber_oak
+x 22
+y 46
 end
 arch hills
 x 22
@@ -6158,22 +6346,22 @@ x 23
 y 1
 elevation 11367
 end
-arch mountain2
+arch woods_3
 x 23
 y 2
 elevation 9816
 end
-arch mountain
+arch woods_3
 x 23
 y 3
 elevation 7751
 end
-arch mountain
+arch woods_3
 x 23
 y 4
 elevation 6097
 end
-arch mountain
+arch woods_3
 x 23
 y 5
 elevation 5634
@@ -6277,7 +6465,7 @@ x 23
 y 24
 elevation 1924
 end
-arch woods
+arch treed_hills
 x 23
 y 25
 elevation 1742
@@ -6382,15 +6570,23 @@ x 23
 y 45
 elevation 165
 end
-arch woods
+arch blackforest2
 x 23
 y 46
 elevation 1175
 end
-arch woods
+arch lumber_oak
+x 23
+y 46
+end
+arch blackforest2
 x 23
 y 47
 elevation 2249
+end
+arch lumber_oak
+x 23
+y 47
 end
 arch hills
 x 23
@@ -6411,12 +6607,12 @@ x 24
 y 1
 elevation 11205
 end
-arch mountain2
+arch woods_3
 x 24
 y 2
 elevation 9456
 end
-arch mountain
+arch woods_3
 x 24
 y 3
 elevation 7108
@@ -6676,30 +6872,50 @@ x 25
 y 1
 elevation 10870
 end
-arch mountain
+arch woods_3
 x 25
 y 2
 elevation 7923
+end
+arch lumber_oak
+x 25
+y 2
 end
 arch hills_rocky
 x 25
 y 3
 elevation 3731
 end
+arch lumber_oak
+x 25
+y 3
+end
 arch hills_rocky
 x 25
 y 4
 elevation 3954
+end
+arch lumber_oak
+x 25
+y 4
 end
 arch hills_rocky
 x 25
 y 5
 elevation 1034
 end
+arch lumber_oak
+x 25
+y 5
+end
 arch brush
 x 25
 y 6
 elevation 892
+end
+arch lumber_oak
+x 25
+y 6
 end
 arch hills_rocky
 x 25
@@ -6799,7 +7015,7 @@ x 25
 y 24
 elevation 1483
 end
-arch woods
+arch treed_hills
 x 25
 y 25
 elevation 1079
@@ -6933,7 +7149,7 @@ x 26
 y 1
 elevation 10985
 end
-arch mountain
+arch woods_3
 x 26
 y 2
 elevation 8906
@@ -6943,7 +7159,7 @@ x 26
 y 3
 elevation 4204
 end
-arch mountain
+arch woods_3
 x 26
 y 4
 elevation 5070
@@ -7191,12 +7407,12 @@ x 27
 y 2
 elevation 10517
 end
-arch mountain2
+arch woods_3
 x 27
 y 3
 elevation 9556
 end
-arch mountain
+arch woods_3
 x 27
 y 4
 elevation 7782
@@ -7211,6 +7427,10 @@ x 27
 y 6
 elevation 2059
 end
+arch lumber_oak
+x 27
+y 6
+end
 arch hills_rocky
 x 27
 y 7
@@ -7221,12 +7441,12 @@ x 27
 y 8
 elevation 3203
 end
-arch mountain
+arch woods_3
 x 27
 y 9
 elevation 5227
 end
-arch mountain
+arch woods_3
 x 27
 y 10
 elevation 5356
@@ -7445,42 +7665,62 @@ x 28
 y 3
 elevation 12147
 end
-arch mountain2
+arch woods_3
 x 28
 y 4
 elevation 10529
 end
-arch mountain
+arch woods_3
 x 28
 y 5
 elevation 8083
+end
+arch lumber_oak
+x 28
+y 5
 end
 arch hills_rocky
 x 28
 y 6
 elevation 3689
 end
+arch lumber_oak
+x 28
+y 6
+end
 arch hills_rocky
 x 28
 y 7
 elevation 2384
 end
-arch mountain
+arch lumber_oak
+x 28
+y 7
+end
+arch woods_3
 x 28
 y 8
 elevation 5951
 end
-arch mountain
+arch woods_3
 x 28
 y 9
 elevation 6550
 end
-arch mountain
+arch lumber_oak
+x 28
+y 9
+end
+arch woods_3
 x 28
 y 10
 elevation 6355
 end
-arch mountain
+arch lumber_oak
+x 28
+y 10
+end
+arch woods_3
 x 28
 y 11
 elevation 5230
@@ -7707,37 +7947,37 @@ x 29
 y 4
 elevation 12524
 end
-arch mountain2
+arch woods_3
 x 29
 y 5
 elevation 10609
 end
-arch mountain
+arch woods_3
 x 29
 y 6
 elevation 8846
 end
-arch mountain
+arch woods_3
 x 29
 y 7
 elevation 7933
 end
-arch mountain
+arch woods_3
 x 29
 y 8
 elevation 7761
 end
-arch mountain
+arch woods_3
 x 29
 y 9
 elevation 7304
 end
-arch mountain
+arch woods_3
 x 29
 y 10
 elevation 5362
 end
-arch mountain
+arch woods_3
 x 29
 y 11
 elevation 5400
@@ -7960,37 +8200,41 @@ x 30
 y 4
 elevation 13059
 end
-arch mountain2
+arch woods_3
 x 30
 y 5
 elevation 11619
 end
-arch mountain2
+arch woods_3
 x 30
 y 6
 elevation 10659
 end
-arch mountain2
+arch woods_3
 x 30
 y 7
 elevation 9816
 end
-arch mountain
+arch woods_3
 x 30
 y 8
 elevation 8431
 end
-arch mountain
+arch woods_3
 x 30
 y 9
 elevation 6852
 end
-arch mountain
+arch woods_3
 x 30
 y 10
 elevation 5829
 end
-arch mountain
+arch lumberjack_axe
+x 30
+y 10
+end
+arch woods_3
 x 30
 y 11
 elevation 5185
@@ -8217,35 +8461,55 @@ x 31
 y 4
 elevation 12122
 end
-arch mountain2
+arch woods_3
 x 31
 y 5
 elevation 9402
 end
-arch mountain2
+arch woods_3
 x 31
 y 6
 elevation 10640
 end
-arch mountain2
+arch lumber_oak
+x 31
+y 6
+end
+arch woods_3
 x 31
 y 7
 elevation 10326
 end
-arch mountain
+arch lumber_oak
+x 31
+y 7
+end
+arch woods_3
 x 31
 y 8
 elevation 7308
 end
-arch hills
+arch lumber_oak
+x 31
+y 8
+end
+arch woods_3
 x 31
 y 9
 elevation 4800
 end
-arch mountain
+arch lumber_oak
+x 31
+y 9
+end
+arch woods_3
 x 31
 y 10
 elevation 5269
+end
+arch lumber_oak
+x 31
+y 10
 end
 arch hills_rocky
 x 31
@@ -8478,35 +8742,59 @@ x 32
 y 4
 elevation 10759
 end
-arch mountain
+arch woods_3
 x 32
 y 5
 elevation 6947
 end
-arch mountain2
+arch lumber_oak
+x 32
+y 5
+end
+arch woods_3
 x 32
 y 6
 elevation 10954
 end
-arch mountain2
+arch lumber_oak
+x 32
+y 6
+end
+arch woods_3
 x 32
 y 7
 elevation 10778
 end
-arch mountain
+arch lumber_oak
+x 32
+y 7
+end
+arch woods_3
 x 32
 y 8
 elevation 8813
 end
-arch mountain
+arch lumber_oak
+x 32
+y 8
+end
+arch woods_3
 x 32
 y 9
 elevation 7603
 end
-arch mountain
+arch lumber_oak
+x 32
+y 9
+end
+arch woods_3
 x 32
 y 10
 elevation 6257
+end
+arch lumber_oak
+x 32
+y 10
 end
 arch hills
 x 32
@@ -8744,32 +9032,32 @@ x 33
 y 5
 elevation 12013
 end
-arch mountain2
+arch woods_3
 x 33
 y 6
 elevation 11783
 end
-arch mountain2
+arch woods_3
 x 33
 y 7
 elevation 11280
 end
-arch mountain2
+arch woods_3
 x 33
 y 8
 elevation 9987
 end
-arch mountain
+arch woods_3
 x 33
 y 9
 elevation 8750
 end
-arch mountain
+arch woods_3
 x 33
 y 10
 elevation 7255
 end
-arch mountain
+arch woods_3
 x 33
 y 11
 elevation 5336
@@ -8963,7 +9251,7 @@ x 33
 y 48
 elevation 710
 end
-arch woods
+arch woods_3
 x 33
 y 49
 elevation 1309
@@ -8997,35 +9285,59 @@ x 34
 y 5
 elevation 12407
 end
-arch mountain2
+arch woods_3
 x 34
 y 6
 elevation 11448
 end
-arch mountain2
+arch lumber_oak
+x 34
+y 6
+end
+arch woods_3
 x 34
 y 7
 elevation 10549
 end
-arch mountain2
+arch lumber_oak
+x 34
+y 7
+end
+arch woods_3
 x 34
 y 8
 elevation 10088
 end
-arch mountain
+arch lumber_oak
+x 34
+y 8
+end
+arch woods_3
 x 34
 y 9
 elevation 8979
 end
-arch mountain
+arch lumber_oak
+x 34
+y 9
+end
+arch woods_3
 x 34
 y 10
 elevation 7707
 end
-arch mountain
+arch lumber_oak
+x 34
+y 10
+end
+arch woods_3
 x 34
 y 11
 elevation 6131
+end
+arch lumber_oak
+x 34
+y 11
 end
 arch hills
 x 34
@@ -9047,7 +9359,7 @@ x 34
 y 15
 elevation 4940
 end
-arch mountain
+arch treed_hills
 x 34
 y 16
 elevation 5144
@@ -9211,7 +9523,7 @@ x 34
 y 47
 elevation 2031
 end
-arch woods
+arch woods_3
 x 34
 y 48
 elevation 2982
@@ -9255,32 +9567,32 @@ x 35
 y 6
 elevation 7592
 end
-arch mountain
+arch woods_3
 x 35
 y 7
 elevation 7870
 end
-arch mountain2
+arch woods_3
 x 35
 y 8
 elevation 10494
 end
-arch mountain2
+arch woods_3
 x 35
 y 9
 elevation 9678
 end
-arch mountain
+arch woods_3
 x 35
 y 10
 elevation 5838
 end
-arch mountain
+arch woods_3
 x 35
 y 11
 elevation 7126
 end
-arch mountain
+arch woods_3
 x 35
 y 12
 elevation 6134
@@ -9295,12 +9607,12 @@ x 35
 y 14
 elevation 4664
 end
-arch mountain
+arch woods_3
 x 35
 y 15
 elevation 6295
 end
-arch mountain
+arch treed_hills
 x 35
 y 16
 elevation 6337
@@ -9513,52 +9825,52 @@ x 36
 y 7
 elevation 10253
 end
-arch mountain2
+arch woods_3
 x 36
 y 8
 elevation 11328
 end
-arch mountain2
+arch woods_3
 x 36
 y 9
 elevation 10770
 end
-arch mountain
+arch woods_3
 x 36
 y 10
 elevation 8449
 end
-arch mountain
+arch woods_3
 x 36
 y 11
 elevation 8622
 end
-arch mountain
+arch woods_3
 x 36
 y 12
 elevation 7887
 end
-arch mountain
+arch woods_3
 x 36
 y 13
 elevation 7040
 end
-arch mountain
+arch woods_3
 x 36
 y 14
 elevation 6982
 end
-arch mountain
+arch treed_hills
 x 36
 y 15
 elevation 7615
 end
-arch mountain
+arch treed_hills
 x 36
 y 16
 elevation 7749
 end
-arch mountain
+arch treed_hills
 x 36
 y 17
 elevation 6419
@@ -9720,7 +10032,7 @@ x 36
 y 46
 elevation 4740
 end
-arch mountain
+arch woods_3
 x 36
 y 47
 elevation 5240
@@ -9779,57 +10091,85 @@ x 37
 y 8
 elevation 12178
 end
-arch mountain2
+arch woods_3
 x 37
 y 9
 elevation 11914
 end
-arch mountain2
+arch lumber_oak
+x 37
+y 9
+end
+arch woods_3
 x 37
 y 10
 elevation 11289
 end
-arch mountain2
+arch lumber_oak
+x 37
+y 10
+end
+arch woods_3
 x 37
 y 11
 elevation 10175
 end
-arch mountain
+arch lumber_oak
+x 37
+y 11
+end
+arch woods_3
 x 37
 y 12
 elevation 8971
 end
-arch mountain
+arch lumber_oak
+x 37
+y 12
+end
+arch woods_3
 x 37
 y 13
 elevation 7975
 end
-arch mountain
+arch lumber_oak
+x 37
+y 13
+end
+arch woods_3
 x 37
 y 14
 elevation 7976
 end
-arch mountain
+arch lumber_oak
+x 37
+y 14
+end
+arch treed_hills
 x 37
 y 15
 elevation 8759
 end
-arch mountain2
+arch lumber_oak
+x 37
+y 15
+end
+arch treed_hills
 x 37
 y 16
 elevation 9014
 end
-arch mountain
+arch treed_hills
 x 37
 y 17
 elevation 7738
 end
-arch mountain
+arch woods_3
 x 37
 y 18
 elevation 5011
 end
-arch hills_rocky
+arch woods_3
 x 37
 y 19
 elevation 3252
@@ -9976,15 +10316,19 @@ x 37
 y 45
 elevation 4045
 end
-arch mountain
+arch woods_3
 x 37
 y 46
 elevation 5750
 end
-arch mountain
+arch woods_3
 x 37
 y 47
 elevation 6384
+end
+arch lumber_oak
+x 37
+y 47
 end
 arch mountain
 x 37
@@ -10045,57 +10389,57 @@ x 38
 y 9
 elevation 12693
 end
-arch mountain2
+arch woods_3
 x 38
 y 10
 elevation 11839
 end
-arch mountain2
+arch woods_3
 x 38
 y 11
 elevation 10246
 end
-arch mountain
+arch woods_3
 x 38
 y 12
 elevation 8579
 end
-arch mountain
+arch woods_3
 x 38
 y 13
 elevation 6150
 end
-arch mountain
+arch treed_hills
 x 38
 y 14
 elevation 7037
 end
-arch mountain2
+arch treed_hills
 x 38
 y 15
 elevation 9310
 end
-arch mountain2
+arch treed_hills
 x 38
 y 16
 elevation 9583
 end
-arch mountain
+arch treed_hills
 x 38
 y 17
 elevation 8298
 end
-arch mountain
+arch woods_3
 x 38
 y 18
 elevation 6616
 end
-arch mountain
+arch woods_3
 x 38
 y 19
 elevation 5449
 end
-arch steppe
+arch woods_3
 x 38
 y 20
 elevation 4550
@@ -10239,7 +10583,7 @@ x 38
 y 43
 elevation 2624
 end
-arch woods
+arch grass_only
 x 38
 y 44
 elevation 2911
@@ -10249,17 +10593,17 @@ x 38
 y 45
 elevation 4937
 end
-arch mountain
+arch woods_3
 x 38
 y 46
 elevation 6508
 end
-arch mountain
+arch woods_3
 x 38
 y 47
 elevation 7167
 end
-arch mountain
+arch woods_3
 x 38
 y 48
 elevation 7175
@@ -10318,62 +10662,78 @@ x 39
 y 9
 elevation 12493
 end
-arch mountain2
+arch woods_3
 x 39
 y 10
 elevation 10939
 end
-arch mountain
+arch woods_3
 x 39
 y 11
 elevation 8926
 end
-arch mountain
+arch treed_hills
 x 39
 y 12
 elevation 5942
 end
-arch mountain
+arch treed_hills
 x 39
 y 13
 elevation 6951
 end
-arch mountain
+arch treed_hills
 x 39
 y 14
 elevation 7626
 end
-arch mountain
+arch treed_hills
 x 39
 y 15
 elevation 8516
 end
-arch mountain
+arch lumber_oak
+x 39
+y 15
+end
+arch treed_hills
 x 39
 y 16
 elevation 8775
 end
-arch mountain
+arch lumber_oak
+x 39
+y 16
+end
+arch treed_hills
 x 39
 y 17
 elevation 7249
 end
-arch mountain
+arch lumber_oak
+x 39
+y 17
+end
+arch woods_3
 x 39
 y 18
 elevation 6163
 end
-arch mountain
+arch lumber_oak
+x 39
+y 18
+end
+arch treed_hills
 x 39
 y 19
 elevation 6273
 end
-arch mountain
+arch woods_3
 x 39
 y 20
 elevation 6188
 end
-arch mountain
+arch woods_3
 x 39
 y 21
 elevation 5822
@@ -10513,25 +10873,33 @@ x 39
 y 44
 elevation 3361
 end
-arch mountain
+arch woods_3
 x 39
 y 45
 elevation 5584
 end
-arch mountain
+arch woods_3
 x 39
 y 46
 elevation 7179
 end
-arch mountain
+arch lumber_oak
+x 39
+y 46
+end
+arch woods_3
 x 39
 y 47
 elevation 8063
 end
-arch mountain
+arch woods_3
 x 39
 y 48
 elevation 8094
+end
+arch lumber_oak
+x 39
+y 48
 end
 arch mountain
 x 39
@@ -10582,72 +10950,112 @@ x 40
 y 8
 elevation 13737
 end
-arch mountain2
+arch woods_3
 x 40
 y 9
 elevation 11558
 end
-arch mountain2
+arch lumber_oak
+x 40
+y 9
+end
+arch woods_3
 x 40
 y 10
 elevation 9173
 end
-arch mountain
+arch lumber_oak
+x 40
+y 10
+end
+arch treed_hills
 x 40
 y 11
 elevation 6227
 end
-arch mountain
+arch lumber_oak
+x 40
+y 11
+end
+arch treed_hills
 x 40
 y 12
 elevation 5308
 end
-arch mountain
+arch lumber_oak
+x 40
+y 12
+end
+arch treed_hills
 x 40
 y 13
 elevation 6117
 end
-arch mountain
+arch lumber_oak
+x 40
+y 13
+end
+arch treed_hills
 x 40
 y 14
 elevation 5928
 end
-arch mountain
+arch lumber_oak
+x 40
+y 14
+end
+arch treed_hills
 x 40
 y 15
 elevation 6073
 end
-arch mountain
+arch lumber_oak
+x 40
+y 15
+end
+arch treed_hills
 x 40
 y 16
 elevation 6609
 end
-arch mountain
+arch lumber_oak
+x 40
+y 16
+end
+arch treed_hills
 x 40
 y 17
 elevation 6648
 end
-arch mountain
+arch treed_hills
 x 40
 y 18
 elevation 6178
 end
-arch mountain
+arch lumber_oak
+x 40
+y 18
+end
+arch treed_hills
 x 40
 y 19
 elevation 6111
 end
-arch mountain
+arch woods_3
 x 40
 y 20
 elevation 6772
 end
-arch mountain
+arch lumber_oak
+x 40
+y 20
+end
+arch woods_3
 x 40
 y 21
 elevation 7128
 end
-arch mountain
+arch woods_3
 x 40
 y 22
 elevation 6716
@@ -10773,32 +11181,44 @@ x 40
 y 43
 elevation 4069
 end
-arch mountain
+arch woods_3
 x 40
 y 44
 elevation 5298
 end
-arch mountain
+arch lumber_oak
+x 40
+y 44
+end
+arch woods_3
 x 40
 y 45
 elevation 6076
 end
-arch mountain
+arch woods_3
 x 40
 y 46
 elevation 7319
 end
-arch mountain2
+arch lumber_oak
+x 40
+y 46
+end
+arch woods_3
 x 40
 y 47
 elevation 9140
 end
-arch mountain2
+arch lumber_oak
+x 40
+y 47
+end
+arch woods_3
 x 40
 y 48
 elevation 9316
 end
-arch mountain
+arch woods_3
 x 40
 y 49
 elevation 8169
@@ -10847,35 +11267,51 @@ x 41
 y 8
 elevation 13307
 end
-arch mountain
+arch woods_3
 x 41
 y 9
 elevation 8650
 end
-arch mountain
+arch woods_3
 x 41
 y 10
 elevation 7195
 end
-arch mountain
+arch lumber_oak
+x 41
+y 10
+end
+arch treed_hills
 x 41
 y 11
 elevation 5369
 end
-arch mountain
+arch lumber_oak
+x 41
+y 11
+end
+arch treed_hills
 x 41
 y 12
 elevation 6262
 end
-arch mountain
+arch treed_hills
 x 41
 y 13
 elevation 5387
+end
+arch lumber_oak
+x 41
+y 13
 end
 arch brush
 x 41
 y 14
 elevation 878
+end
+arch lumber_oak
+x 41
+y 14
 end
 arch brush
 x 41
@@ -10887,7 +11323,7 @@ x 41
 y 16
 elevation 4486
 end
-arch mountain
+arch treed_hills
 x 41
 y 17
 elevation 5388
@@ -10897,27 +11333,31 @@ x 41
 y 18
 elevation 3966
 end
-arch mountain
+arch woods_3
 x 41
 y 19
 elevation 5878
 end
-arch mountain
+arch woods_3
 x 41
 y 20
 elevation 5641
 end
-arch mountain
+arch woods_3
 x 41
 y 21
 elevation 7534
 end
-arch mountain
+arch lumber_oak
+x 41
+y 21
+end
+arch woods_3
 x 41
 y 22
 elevation 7411
 end
-arch mountain
+arch woods_3
 x 41
 y 23
 elevation 5530
@@ -11033,37 +11473,53 @@ x 41
 y 42
 elevation 4230
 end
-arch mountain
+arch woods_3
 x 41
 y 43
 elevation 5457
 end
-arch mountain
+arch woods_3
 x 41
 y 44
 elevation 6373
 end
-arch mountain
+arch lumber_oak
+x 41
+y 44
+end
+arch woods_3
 x 41
 y 45
 elevation 7020
 end
-arch mountain
+arch woods_3
 x 41
 y 46
 elevation 8719
 end
-arch mountain2
+arch lumber_oak
+x 41
+y 46
+end
+arch woods_3
 x 41
 y 47
 elevation 9921
 end
-arch mountain2
+arch lumber_oak
+x 41
+y 47
+end
+arch woods_3
 x 41
 y 48
 elevation 9828
 end
-arch mountain
+arch lumber_oak
+x 41
+y 48
+end
+arch woods_3
 x 41
 y 49
 elevation 8698
@@ -11117,17 +11573,17 @@ x 42
 y 9
 elevation 10405
 end
-arch mountain
+arch woods_3
 x 42
 y 10
 elevation 8173
 end
-arch mountain
+arch woods_3
 x 42
 y 11
 elevation 7082
 end
-arch mountain
+arch treed_hills
 x 42
 y 12
 elevation 6167
@@ -11157,32 +11613,36 @@ x 42
 y 17
 elevation 4120
 end
-arch mountain
+arch woods_3
 x 42
 y 18
 elevation 5003
 end
-arch mountain
+arch woods_3
 x 42
 y 19
 elevation 5425
 end
-arch mountain
+arch woods_3
 x 42
 y 20
 elevation 6144
 end
-arch mountain
+arch woods_3
 x 42
 y 21
 elevation 7096
 end
-arch mountain
+arch woods_3
 x 42
 y 22
 elevation 7016
 end
-arch mountain
+arch lumber_oak
+x 42
+y 22
+end
+arch woods_3
 x 42
 y 23
 elevation 5119
@@ -11282,37 +11742,49 @@ x 42
 y 42
 elevation 4921
 end
-arch mountain
+arch woods_3
 x 42
 y 43
 elevation 6043
 end
-arch mountain
+arch woods_3
 x 42
 y 44
 elevation 6851
 end
-arch mountain
+arch lumber_oak
+x 42
+y 44
+end
+arch woods_3
 x 42
 y 45
 elevation 8178
 end
-arch mountain2
+arch woods_3
 x 42
 y 46
 elevation 9530
 end
-arch mountain2
+arch lumber_oak
+x 42
+y 46
+end
+arch woods_3
 x 42
 y 47
 elevation 9964
 end
-arch mountain2
+arch woods_3
 x 42
 y 48
 elevation 9002
 end
-arch mountain
+arch lumber_oak
+x 42
+y 48
+end
+arch woods_3
 x 42
 y 49
 elevation 7402
@@ -11376,7 +11848,7 @@ x 43
 y 11
 elevation 7151
 end
-arch mountain
+arch woods_3
 x 43
 y 12
 elevation 5481
@@ -11419,22 +11891,22 @@ x 43
 y 18
 elevation 4525
 end
-arch mountain
+arch woods_3
 x 43
 y 19
 elevation 5352
 end
-arch mountain
+arch woods_3
 x 43
 y 20
 elevation 5216
 end
-arch mountain
+arch woods_3
 x 43
 y 21
 elevation 6153
 end
-arch mountain
+arch woods_3
 x 43
 y 22
 elevation 5595
@@ -11538,40 +12010,52 @@ x 43
 y 41
 elevation 4204
 end
-arch mountain
+arch woods_3
 x 43
 y 42
 elevation 5176
 end
-arch mountain
+arch woods_3
 x 43
 y 43
 elevation 5913
 end
-arch mountain
+arch woods_3
 x 43
 y 44
 elevation 6674
 end
-arch mountain
+arch lumber_oak
+x 43
+y 44
+end
+arch woods_3
 x 43
 y 45
 elevation 7791
 end
-arch mountain
+arch woods_3
 x 43
 y 46
 elevation 8973
 end
-arch mountain2
+arch lumber_oak
+x 43
+y 46
+end
+arch woods_3
 x 43
 y 47
 elevation 9040
 end
-arch mountain
+arch woods_3
 x 43
 y 48
 elevation 7055
+end
+arch lumber_oak
+x 43
+y 48
 end
 arch hills_rocky
 x 43
@@ -11748,12 +12232,12 @@ arch evergreens2
 x 44
 y 30
 end
-arch woods
+arch woods_3
 x 44
 y 31
 elevation 1028
 end
-arch woods
+arch woods_3
 x 44
 y 32
 elevation 752
@@ -11803,12 +12287,12 @@ x 44
 y 41
 elevation 4528
 end
-arch mountain
+arch woods_3
 x 44
 y 42
 elevation 5131
 end
-arch mountain
+arch woods_3
 x 44
 y 43
 elevation 5447
@@ -11818,25 +12302,33 @@ x 44
 y 44
 elevation 4779
 end
-arch mountain
+arch woods_3
 x 44
 y 45
 elevation 6283
 end
-arch mountain
+arch woods_3
 x 44
 y 46
 elevation 7255
 end
-arch mountain
+arch lumber_oak
+x 44
+y 46
+end
+arch woods_3
 x 44
 y 47
 elevation 7647
 end
-arch mountain
+arch woods_3
 x 44
 y 48
 elevation 6610
+end
+arch lumber_oak
+x 44
+y 48
 end
 arch mountain
 x 44
@@ -12104,12 +12596,16 @@ x 45
 y 45
 elevation 3892
 end
-arch mountain
+arch woods_3
 x 45
 y 46
 elevation 6139
 end
-arch mountain
+arch lumber_oak
+x 45
+y 46
+end
+arch woods_3
 x 45
 y 47
 elevation 6482
@@ -12389,12 +12885,16 @@ x 46
 y 45
 elevation 4975
 end
-arch mountain
+arch woods_3
 x 46
 y 46
 elevation 5440
 end
-arch mountain
+arch lumber_oak
+x 46
+y 46
+end
+arch woods_3
 x 46
 y 47
 elevation 5282

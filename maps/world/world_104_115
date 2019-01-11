@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2001-02-16
-Modified: 2018-12-19 lori
+Modified: 2019-01-07 lori
 Modified: 2015-01-17 serpentshard
 endmsg
 outdoor 1
@@ -206,7 +206,7 @@ arch brush
 y 46
 elevation 255
 end
-arch woods
+arch grass_only
 y 47
 elevation 1289
 end
@@ -457,7 +457,7 @@ x 1
 y 47
 elevation 530
 end
-arch woods
+arch grass_only
 x 1
 y 48
 elevation 2678
@@ -706,7 +706,7 @@ x 2
 y 47
 elevation 239
 end
-arch woods
+arch grass_only
 x 2
 y 48
 elevation 1772
@@ -1198,12 +1198,12 @@ x 4
 y 45
 elevation 2657
 end
-arch woods_2
+arch grass_only
 x 4
 y 46
 elevation 2262
 end
-arch woods_2
+arch grass_only
 x 4
 y 47
 elevation 2108
@@ -1213,7 +1213,7 @@ x 4
 y 48
 elevation 2186
 end
-arch woods
+arch grass_only
 x 4
 y 49
 elevation 2105
@@ -1447,12 +1447,12 @@ x 5
 y 45
 elevation 3496
 end
-arch woods
+arch grass_only
 x 5
 y 46
 elevation 2799
 end
-arch woods
+arch grass_only
 x 5
 y 47
 elevation 2936
@@ -1646,7 +1646,7 @@ x 6
 y 35
 elevation 3748
 end
-arch woods
+arch grass_only
 x 6
 y 36
 elevation 2997
@@ -1691,7 +1691,7 @@ x 6
 y 44
 elevation 6132
 end
-arch woods_2
+arch grass_only
 x 6
 y 45
 elevation 1806
@@ -1701,7 +1701,7 @@ x 6
 y 46
 elevation 1503
 end
-arch woods_2
+arch grass_only
 x 6
 y 47
 elevation 2583
@@ -1950,17 +1950,17 @@ x 7
 y 46
 elevation 982
 end
-arch woods
+arch grass_only
 x 7
 y 47
 elevation 1030
 end
-arch woods_2
+arch grass_only
 x 7
 y 48
 elevation 2523
 end
-arch woods
+arch grass_only
 x 7
 y 49
 elevation 2752
@@ -2199,12 +2199,12 @@ x 8
 y 46
 elevation 1539
 end
-arch woods
+arch grass_only
 x 8
 y 47
 elevation 2565
 end
-arch woods
+arch grass_only
 x 8
 y 48
 elevation 1829
@@ -2711,7 +2711,7 @@ x 10
 y 48
 elevation 4883
 end
-arch woods
+arch grass_only
 x 10
 y 49
 elevation 2449
@@ -5820,7 +5820,7 @@ x 23
 y 17
 elevation 132
 end
-arch woods_2
+arch grass_only
 x 23
 y 18
 elevation 1660
@@ -6069,7 +6069,7 @@ x 24
 y 17
 elevation 335
 end
-arch woods_2
+arch grass_only
 x 24
 y 18
 elevation 2636
@@ -6089,7 +6089,7 @@ x 24
 y 21
 elevation 3668
 end
-arch woods_2
+arch grass_only
 x 24
 y 22
 elevation 2511
@@ -6292,7 +6292,7 @@ x 25
 y 11
 elevation 927
 end
-arch woods_2
+arch grass_only
 x 25
 y 12
 elevation 1656
@@ -6317,7 +6317,7 @@ x 25
 y 16
 elevation 181
 end
-arch woods_2
+arch grass_only
 x 25
 y 17
 elevation 1776
@@ -6553,7 +6553,7 @@ x 26
 y 11
 elevation 1582
 end
-arch woods_2
+arch grass_only
 x 26
 y 12
 elevation 2648
@@ -6818,7 +6818,7 @@ x 27
 y 11
 elevation 907
 end
-arch woods_2
+arch grass_only
 x 27
 y 12
 elevation 2185
@@ -6828,7 +6828,7 @@ x 27
 y 13
 elevation 2637
 end
-arch woods_2
+arch grass_only
 x 27
 y 14
 elevation 1717
@@ -6838,12 +6838,12 @@ x 27
 y 15
 elevation 747
 end
-arch grass
+arch grass_only
 x 27
 y 16
 elevation 425
 end
-arch woods_2
+arch grass_only
 x 27
 y 17
 elevation 2113
@@ -6853,7 +6853,7 @@ x 27
 y 18
 elevation 2695
 end
-arch woods_2
+arch grass_only
 x 27
 y 19
 elevation 2837
@@ -7089,7 +7089,7 @@ x 28
 y 13
 elevation 1462
 end
-arch woods_2
+arch grass_only
 x 28
 y 14
 elevation 1309
@@ -7099,12 +7099,12 @@ x 28
 y 15
 elevation 114
 end
-arch woods_2
+arch grass_only
 x 28
 y 16
 elevation 1144
 end
-arch evergreens
+arch grass_only
 x 28
 y 17
 elevation 1622
@@ -7359,7 +7359,7 @@ x 29
 y 14
 elevation 661
 end
-arch woods_2
+arch grass_only
 x 29
 y 15
 elevation 1130
@@ -7955,7 +7955,7 @@ x 31
 y 16
 elevation 2141
 end
-arch woods_2
+arch grass_only
 x 31
 y 17
 elevation 2001
@@ -8259,7 +8259,7 @@ x 32
 y 15
 elevation 271
 end
-arch woods_2
+arch grass_only
 x 32
 y 16
 elevation 1543
@@ -8597,7 +8597,7 @@ x 33
 y 16
 elevation 39
 end
-arch woods_2
+arch grass_only
 x 33
 y 17
 elevation 2148
@@ -8786,7 +8786,7 @@ x 33
 y 41
 elevation 293
 end
-arch woods
+arch grass_only
 x 33
 y 42
 elevation 1090
@@ -9556,7 +9556,7 @@ x 36
 y 16
 elevation 88
 end
-arch woods_2
+arch grass_only
 x 36
 y 17
 elevation 2659

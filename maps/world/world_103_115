@@ -3,13 +3,14 @@ name world_103_115
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-01-06 lori
 endmsg
 outdoor 1
 tile_path_1 world_103_114
 tile_path_2 world_104_115
 tile_path_3 world_103_116
 tile_path_4 world_102_115
+background_music jungle01
 end
 arch brush
 elevation 958
@@ -334,7 +335,7 @@ x 1
 y 29
 elevation 4663
 end
-arch mountain
+arch bosgrass16
 x 1
 y 30
 elevation 5556
@@ -387,17 +388,17 @@ x 1
 y 41
 elevation 3248
 end
-arch mountain
+arch bosgrass10
 x 1
 y 42
 elevation 5097
 end
-arch mountain
+arch bosgrass10
 x 1
 y 43
 elevation 5565
 end
-arch steppe
+arch bosgrass10
 x 1
 y 44
 elevation 4423
@@ -559,17 +560,17 @@ x 2
 y 28
 elevation 1950
 end
-arch mountain
+arch bosgrass16
 x 2
 y 29
 elevation 6287
 end
-arch mountain
+arch bosgrass16
 x 2
 y 30
 elevation 8024
 end
-arch mountain
+arch bosgrass16
 x 2
 y 31
 elevation 6424
@@ -609,37 +610,37 @@ x 2
 y 38
 elevation 556
 end
-arch woods_3
+arch bosgrass10
 x 2
 y 39
 elevation 1126
 end
-arch woods_3
+arch bosgrass10
 x 2
 y 40
 elevation 2109
 end
-arch mountain
+arch bosgrass10
 x 2
 y 41
 elevation 5434
 end
-arch mountain
+arch bosgrass10
 x 2
 y 42
 elevation 7309
 end
-arch mountain
+arch bosgrass10
 x 2
 y 43
 elevation 7363
 end
-arch mountain
+arch bosgrass10
 x 2
 y 44
 elevation 5350
 end
-arch woods_3
+arch bosgrass10
 x 2
 y 45
 elevation 1225
@@ -805,12 +806,12 @@ x 3
 y 30
 elevation 10382
 end
-arch mountain2
+arch bosgrass10
 x 3
 y 31
 elevation 9847
 end
-arch mountain
+arch bosgrass10
 x 3
 y 32
 elevation 7601
@@ -855,17 +856,17 @@ x 3
 y 40
 elevation 3642
 end
-arch mountain
+arch bosgrass10
 x 3
 y 41
 elevation 6190
 end
-arch mountain
+arch bosgrass10
 x 3
 y 42
 elevation 7613
 end
-arch mountain
+arch bosgrass10
 x 3
 y 43
 elevation 6862
@@ -1044,12 +1045,12 @@ x 4
 y 30
 elevation 12235
 end
-arch mountain4
+arch bosgrass16
 x 4
 y 31
 elevation 12006
 end
-arch mountain2
+arch bosgrass16
 x 4
 y 32
 elevation 9491
@@ -1064,7 +1065,7 @@ x 4
 y 34
 elevation 4502
 end
-arch steppe
+arch grassbrown
 x 4
 y 35
 elevation 3977
@@ -1097,7 +1098,7 @@ x 4
 y 41
 elevation 4890
 end
-arch mountain
+arch bosgrass10
 x 4
 y 42
 elevation 5560
@@ -1260,52 +1261,52 @@ x 5
 y 25
 elevation 2511
 end
-arch mountain
+arch bosgrass16
 x 5
 y 26
 elevation 5825
 end
-arch mountain
+arch bosgrass16
 x 5
 y 27
 elevation 8065
 end
-arch mountain2
+arch bosgrass16
 x 5
 y 28
 elevation 10413
 end
-arch mountain4
+arch bosgrass16
 x 5
 y 29
 elevation 12230
 end
-arch mountain4
+arch bosgrass16
 x 5
 y 30
 elevation 12913
 end
-arch mountain2
+arch bosgrass16
 x 5
 y 31
 elevation 11815
 end
-arch mountain
+arch bosgrass16
 x 5
 y 32
 elevation 8450
 end
-arch steppe
+arch grassbrown
 x 5
 y 33
 elevation 3908
 end
-arch steppe
+arch grassbrown
 x 5
 y 34
 elevation 4487
 end
-arch steppe
+arch grassbrown
 x 5
 y 35
 elevation 4159
@@ -1356,12 +1357,12 @@ x 5
 y 45
 elevation 4727
 end
-arch mountain
+arch bosgrass10
 x 5
 y 46
 elevation 5577
 end
-arch mountain
+arch bosgrass10
 x 5
 y 47
 elevation 5259
@@ -1492,42 +1493,42 @@ x 6
 y 24
 elevation 4971
 end
-arch mountain
+arch bosgrass16
 x 6
 y 25
 elevation 6076
 end
-arch mountain
+arch bosgrass16
 x 6
 y 26
 elevation 7123
 end
-arch mountain2
+arch bosgrass10
 x 6
 y 27
 elevation 9556
 end
-arch mountain2
+arch bosgrass10
 x 6
 y 28
 elevation 11176
 end
-arch mountain2
+arch bosgrass10
 x 6
 y 29
 elevation 11722
 end
-arch mountain2
+arch bosgrass10
 x 6
 y 30
 elevation 11295
 end
-arch mountain2
+arch bosgrass10
 x 6
 y 31
 elevation 9308
 end
-arch mountain
+arch bosgrass10
 x 6
 y 32
 elevation 5688
@@ -1562,12 +1563,12 @@ arch beach
 x 6
 y 39
 end
-arch woods_3
+arch bosgrass16
 x 6
 y 40
 elevation 1772
 end
-arch steppe
+arch bosgrass16
 x 6
 y 41
 elevation 3993
@@ -1577,7 +1578,7 @@ x 6
 y 42
 elevation 4897
 end
-arch steppe
+arch bosgrass16
 x 6
 y 43
 elevation 4881
@@ -1587,17 +1588,17 @@ x 6
 y 44
 elevation 4635
 end
-arch mountain
+arch bosgrass10
 x 6
 y 45
 elevation 5260
 end
-arch mountain
+arch bosgrass10
 x 6
 y 46
 elevation 6102
 end
-arch mountain
+arch bosgrass10
 x 6
 y 47
 elevation 5585
@@ -1720,42 +1721,42 @@ x 7
 y 23
 elevation 4820
 end
-arch mountain
+arch bosgrass16
 x 7
 y 24
 elevation 6120
 end
-arch mountain
+arch bosgrass16
 x 7
 y 25
 elevation 7262
 end
-arch mountain
+arch bosgrass10
 x 7
 y 26
 elevation 8106
 end
-arch mountain
+arch bosgrass10
 x 7
 y 27
 elevation 8942
 end
-arch mountain2
+arch bosgrass10
 x 7
 y 28
 elevation 9206
 end
-arch mountain
+arch bosgrass10
 x 7
 y 29
 elevation 8460
 end
-arch mountain
+arch bosgrass10
 x 7
 y 30
 elevation 7450
 end
-arch mountain
+arch bosgrass10
 x 7
 y 31
 elevation 6054
@@ -1802,32 +1803,32 @@ x 7
 y 40
 elevation 3454
 end
-arch mountain
+arch bosgrass16
 x 7
 y 41
 elevation 5737
 end
-arch mountain
+arch bosgrass10
 x 7
 y 42
 elevation 6794
 end
-arch mountain
+arch bosgrass16
 x 7
 y 43
 elevation 6291
 end
-arch steppe
+arch bosgrass16
 x 7
 y 44
 elevation 4190
 end
-arch mountain
+arch bosgrass10
 x 7
 y 45
 elevation 5293
 end
-arch mountain
+arch bosgrass10
 x 7
 y 46
 elevation 5674
@@ -1959,32 +1960,32 @@ x 8
 y 22
 elevation 4594
 end
-arch mountain
+arch bosgrass16
 x 8
 y 23
 elevation 5283
 end
-arch mountain
+arch bosgrass16
 x 8
 y 24
 elevation 6252
 end
-arch mountain
+arch bosgrass16
 x 8
 y 25
 elevation 7115
 end
-arch mountain
+arch bosgrass10
 x 8
 y 26
 elevation 7731
 end
-arch mountain
+arch bosgrass16
 x 8
 y 27
 elevation 7560
 end
-arch mountain
+arch bosgrass10
 x 8
 y 28
 elevation 5078
@@ -2009,17 +2010,17 @@ x 8
 y 32
 elevation 4357
 end
-arch mountain
+arch grassbrown
 x 8
 y 33
 elevation 5632
 end
-arch mountain
+arch grassbrown
 x 8
 y 34
 elevation 6859
 end
-arch mountain
+arch grassbrown
 x 8
 y 35
 elevation 6215
@@ -2043,37 +2044,37 @@ x 8
 y 39
 elevation 1961
 end
-arch steppe
+arch bosgrass16
 x 8
 y 40
 elevation 3720
 end
-arch mountain
+arch bosgrass10
 x 8
 y 41
 elevation 6093
 end
-arch mountain
+arch bosgrass10
 x 8
 y 42
 elevation 7659
 end
-arch mountain
+arch bosgrass10
 x 8
 y 43
 elevation 7093
 end
-arch steppe
+arch bosgrass16
 x 8
 y 44
 elevation 4819
 end
-arch mountain
+arch bosgrass10
 x 8
 y 45
 elevation 5225
 end
-arch mountain
+arch bosgrass10
 x 8
 y 46
 elevation 5027
@@ -2211,17 +2212,17 @@ x 9
 y 24
 elevation 4800
 end
-arch mountain
+arch bosgrass16
 x 9
 y 25
 elevation 6243
 end
-arch mountain
+arch bosgrass16
 x 9
 y 26
 elevation 6786
 end
-arch mountain
+arch bosgrass16
 x 9
 y 27
 elevation 6169
@@ -2246,32 +2247,32 @@ x 9
 y 31
 elevation 1530
 end
-arch mountain
+arch grassbrown
 x 9
 y 32
 elevation 5379
 end
-arch mountain
+arch grassbrown
 x 9
 y 33
 elevation 7604
 end
-arch mountain
+arch grassbrown
 x 9
 y 34
 elevation 8705
 end
-arch mountain
+arch grassbrown
 x 9
 y 35
 elevation 8010
 end
-arch mountain
+arch bosgrass16
 x 9
 y 36
 elevation 5816
 end
-arch steppe
+arch bosgrass16
 x 9
 y 37
 elevation 3579
@@ -2296,22 +2297,22 @@ x 9
 y 41
 elevation 4022
 end
-arch mountain
+arch bosgrass10
 x 9
 y 42
 elevation 8979
 end
-arch mountain2
+arch bosgrass10
 x 9
 y 43
 elevation 9099
 end
-arch mountain
+arch bosgrass10
 x 9
 y 44
 elevation 7587
 end
-arch mountain
+arch bosgrass10
 x 9
 y 45
 elevation 5839
@@ -2331,7 +2332,7 @@ x 9
 y 48
 elevation 2486
 end
-arch woods_3
+arch grass_br_gr
 x 9
 y 49
 elevation 1092
@@ -2455,17 +2456,17 @@ x 10
 y 24
 elevation 3603
 end
-arch mountain
+arch bosgrass16
 x 10
 y 25
 elevation 5424
 end
-arch mountain
+arch bosgrass16
 x 10
 y 26
 elevation 5929
 end
-arch mountain
+arch bosgrass16
 x 10
 y 27
 elevation 5333
@@ -2490,72 +2491,72 @@ x 10
 y 31
 elevation 4027
 end
-arch mountain
+arch grassbrown
 x 10
 y 32
 elevation 5892
 end
-arch mountain
+arch grassbrown
 x 10
 y 33
 elevation 8293
 end
-arch mountain2
+arch grassbrown
 x 10
 y 34
 elevation 9366
 end
-arch mountain
+arch grassbrown
 x 10
 y 35
 elevation 8913
 end
-arch mountain
+arch bosgrass16
 x 10
 y 36
 elevation 7400
 end
-arch steppe
+arch bosgrass16
 x 10
 y 37
 elevation 4711
 end
-arch mountain
+arch bosgrass16
 x 10
 y 38
 elevation 5936
 end
-arch mountain
+arch bosgrass10
 x 10
 y 39
 elevation 6826
 end
-arch mountain
+arch bosgrass10
 x 10
 y 40
 elevation 7961
 end
-arch mountain2
+arch bosgrass10
 x 10
 y 41
 elevation 9548
 end
-arch mountain2
+arch bosgrass10
 x 10
 y 42
 elevation 10462
 end
-arch mountain2
+arch bosgrass10
 x 10
 y 43
 elevation 10323
 end
-arch mountain
+arch bosgrass10
 x 10
 y 44
 elevation 8463
 end
-arch mountain
+arch bosgrass10
 x 10
 y 45
 elevation 5369
@@ -2574,7 +2575,7 @@ x 10
 y 48
 elevation 2849
 end
-arch hills_rocky
+arch grass_br_gr
 x 10
 y 49
 elevation 3056
@@ -2698,17 +2699,17 @@ x 11
 y 24
 elevation 4530
 end
-arch mountain
+arch bosgrass16
 x 11
 y 25
 elevation 5844
 end
-arch mountain
+arch bosgrass16
 x 11
 y 26
 elevation 6011
 end
-arch steppe
+arch bosgrass16
 x 11
 y 27
 elevation 3616
@@ -2733,72 +2734,72 @@ x 11
 y 31
 elevation 1730
 end
-arch mountain
+arch grassbrown
 x 11
 y 32
 elevation 6776
 end
-arch mountain
+arch grassbrown
 x 11
 y 33
 elevation 8705
 end
-arch mountain2
+arch grassbrown
 x 11
 y 34
 elevation 9021
 end
-arch mountain
+arch grassbrown
 x 11
 y 35
 elevation 8972
 end
-arch mountain
+arch bosgrass16
 x 11
 y 36
 elevation 7942
 end
-arch mountain
+arch bosgrass16
 x 11
 y 37
 elevation 7331
 end
-arch mountain
+arch bosgrass16
 x 11
 y 38
 elevation 7772
 end
-arch mountain2
+arch bosgrass16
 x 11
 y 39
 elevation 9508
 end
-arch mountain2
+arch bosgrass10
 x 11
 y 40
 elevation 11272
 end
-arch mountain4
+arch bosgrass10
 x 11
 y 41
 elevation 12241
 end
-arch mountain2
+arch bosgrass10
 x 11
 y 42
 elevation 11839
 end
-arch mountain2
+arch bosgrass10
 x 11
 y 43
 elevation 9715
 end
-arch mountain
+arch bosgrass10
 x 11
 y 44
 elevation 8177
 end
-arch mountain
+arch bosgrass10
 x 11
 y 45
 elevation 5262
@@ -2822,7 +2823,7 @@ x 11
 y 48
 elevation 3382
 end
-arch steppe
+arch grass_br_gr
 x 11
 y 49
 elevation 4120
@@ -2938,112 +2939,112 @@ x 12
 y 22
 elevation 6233
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 23
 elevation 5616
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 24
 elevation 5771
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 25
 elevation 6604
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 26
 elevation 6448
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 27
 elevation 5783
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 28
 elevation 5523
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 29
 elevation 5832
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 30
 elevation 6156
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 31
 elevation 6619
 end
-arch mountain
+arch grassbrown
 x 12
 y 32
 elevation 7671
 end
-arch mountain
+arch grassbrown
 x 12
 y 33
 elevation 8695
 end
-arch mountain
+arch grassbrown
 x 12
 y 34
 elevation 8696
 end
-arch mountain
+arch bosgrass16
 x 12
 y 35
 elevation 8320
 end
-arch mountain
+arch bosgrass16
 x 12
 y 36
 elevation 7776
 end
-arch mountain
+arch bosgrass16
 x 12
 y 37
 elevation 6176
 end
-arch mountain
+arch bosgrass16
 x 12
 y 38
 elevation 8180
 end
-arch mountain2
+arch bosgrass16
 x 12
 y 39
 elevation 10600
 end
-arch mountain4
+arch bosgrass10
 x 12
 y 40
 elevation 12464
 end
-arch mountain4
+arch bosgrass10
 x 12
 y 41
 elevation 13085
 end
-arch mountain4
+arch bosgrass10
 x 12
 y 42
 elevation 12078
 end
-arch mountain2
+arch bosgrass10
 x 12
 y 43
 elevation 9553
 end
-arch mountain
+arch bosgrass10
 x 12
 y 44
 elevation 6723
@@ -3068,7 +3069,7 @@ x 12
 y 48
 elevation 4013
 end
-arch steppe
+arch grass_br_gr
 x 12
 y 49
 elevation 4391
@@ -3210,82 +3211,82 @@ x 13
 y 27
 elevation 5663
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 28
 elevation 5952
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 29
 elevation 6944
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 30
 elevation 8047
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 31
 elevation 8573
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 32
 elevation 8310
 end
-arch mountain
+arch grassbrown
 x 13
 y 33
 elevation 7302
 end
-arch mountain
+arch grassbrown
 x 13
 y 34
 elevation 6440
 end
-arch mountain
+arch bosgrass16
 x 13
 y 35
 elevation 6334
 end
-arch mountain
+arch bosgrass16
 x 13
 y 36
 elevation 6758
 end
-arch mountain
+arch bosgrass16
 x 13
 y 37
 elevation 7424
 end
-arch mountain
+arch bosgrass16
 x 13
 y 38
 elevation 8760
 end
-arch mountain2
+arch bosgrass16
 x 13
 y 39
 elevation 10721
 end
-arch mountain2
+arch bosgrass10
 x 13
 y 40
 elevation 11943
 end
-arch mountain4
+arch bosgrass10
 x 13
 y 41
 elevation 12437
 end
-arch mountain2
+arch bosgrass10
 x 13
 y 42
 elevation 11654
 end
-arch mountain
+arch bosgrass10
 x 13
 y 43
 elevation 8981
@@ -3319,7 +3320,7 @@ x 13
 y 48
 elevation 4735
 end
-arch mountain
+arch grass_br_gr
 x 13
 y 49
 elevation 5501
@@ -3477,22 +3478,22 @@ x 14
 y 27
 elevation 3843
 end
-arch hills_rocky
+arch fernrockscliff2
 x 14
 y 28
 elevation 4386
 end
-arch mountain
+arch fernrockscliff2
 x 14
 y 29
 elevation 7344
 end
-arch mountain2
+arch fernrockscliff2
 x 14
 y 30
 elevation 9137
 end
-arch mountain2
+arch fernrockscliff2
 x 14
 y 31
 elevation 9543
@@ -3517,42 +3518,42 @@ x 14
 y 35
 elevation 3011
 end
-arch mountain
+arch bosgrass16
 x 14
 y 36
 elevation 5525
 end
-arch mountain
+arch bosgrass16
 x 14
 y 37
 elevation 6339
 end
-arch mountain
+arch bosgrass16
 x 14
 y 38
 elevation 7654
 end
-arch mountain2
+arch bosgrass16
 x 14
 y 39
 elevation 9325
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 40
 elevation 10573
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 41
 elevation 9954
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 42
 elevation 10980
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 43
 elevation 9041
@@ -3572,17 +3573,17 @@ x 14
 y 46
 elevation 3048
 end
-arch mountain
+arch grass_br_gr
 x 14
 y 47
 elevation 5054
 end
-arch mountain
+arch grass_br_gr
 x 14
 y 48
 elevation 5863
 end
-arch mountain
+arch grass_br_gr
 x 14
 y 49
 elevation 6245
@@ -3764,7 +3765,7 @@ x 15
 y 29
 elevation 7105
 end
-arch mountain
+arch fernrockscliff2
 x 15
 y 30
 elevation 8862
@@ -3812,57 +3813,57 @@ x 15
 y 38
 elevation 3575
 end
-arch mountain
+arch bosgrass10
 x 15
 y 39
 elevation 7334
 end
-arch mountain
+arch bosgrass10
 x 15
 y 40
 elevation 8821
 end
-arch mountain2
+arch bosgrass10
 x 15
 y 41
 elevation 9667
 end
-arch mountain2
+arch bosgrass10
 x 15
 y 42
 elevation 9991
 end
-arch mountain2
+arch bosgrass10
 x 15
 y 43
 elevation 9450
 end
-arch mountain
+arch grassbrown
 x 15
 y 44
 elevation 8023
 end
-arch mountain
+arch grassbrown
 x 15
 y 45
 elevation 6396
 end
-arch mountain
+arch grass_br_gr
 x 15
 y 46
 elevation 6098
 end
-arch mountain
+arch grass_br_gr
 x 15
 y 47
 elevation 6356
 end
-arch mountain
+arch grass_br_gr
 x 15
 y 48
 elevation 6897
 end
-arch mountain
+arch grass_br_gr
 x 15
 y 49
 elevation 6739
@@ -4080,57 +4081,57 @@ x 16
 y 38
 elevation 3481
 end
-arch mountain
+arch bosgrass10
 x 16
 y 39
 elevation 5994
 end
-arch mountain
+arch bosgrass10
 x 16
 y 40
 elevation 6785
 end
-arch mountain
+arch bosgrass10
 x 16
 y 41
 elevation 8325
 end
-arch mountain
+arch bosgrass10
 x 16
 y 42
 elevation 8785
 end
-arch mountain
+arch bosgrass10
 x 16
 y 43
 elevation 8508
 end
-arch mountain
+arch grassbrown
 x 16
 y 44
 elevation 7912
 end
-arch mountain
+arch grassbrown
 x 16
 y 45
 elevation 7028
 end
-arch mountain
+arch grass_br_gr
 x 16
 y 46
 elevation 6131
 end
-arch mountain
+arch grass_br_gr
 x 16
 y 47
 elevation 7140
 end
-arch mountain
+arch grass_br_gr
 x 16
 y 48
 elevation 7604
 end
-arch mountain
+arch grass_br_gr
 x 16
 y 49
 elevation 7017
@@ -4341,57 +4342,57 @@ x 17
 y 38
 elevation 4660
 end
-arch mountain
+arch bosgrass10
 x 17
 y 39
 elevation 5450
 end
-arch mountain
+arch bosgrass10
 x 17
 y 40
 elevation 6132
 end
-arch mountain
+arch bosgrass10
 x 17
 y 41
 elevation 6298
 end
-arch mountain
+arch bosgrass10
 x 17
 y 42
 elevation 6441
 end
-arch mountain
+arch grassbrown
 x 17
 y 43
 elevation 6354
 end
-arch mountain
+arch grassbrown
 x 17
 y 44
 elevation 5226
 end
-arch mountain
+arch grassbrown
 x 17
 y 45
 elevation 6326
 end
-arch mountain
+arch grass_br_gr
 x 17
 y 46
 elevation 6461
 end
-arch mountain
+arch grass_br_gr
 x 17
 y 47
 elevation 7280
 end
-arch mountain
+arch grass_br_gr
 x 17
 y 48
 elevation 8017
 end
-arch mountain
+arch grass_br_gr
 x 17
 y 49
 elevation 8320
@@ -4611,7 +4612,7 @@ x 18
 y 39
 elevation 4851
 end
-arch mountain
+arch bosgrass16
 x 18
 y 40
 elevation 5004
@@ -4636,27 +4637,27 @@ x 18
 y 44
 elevation 4105
 end
-arch mountain
+arch grass_br_gr
 x 18
 y 45
 elevation 5537
 end
-arch mountain
+arch grass_br_gr
 x 18
 y 46
 elevation 6591
 end
-arch mountain
+arch grass_br_gr
 x 18
 y 47
 elevation 5689
 end
-arch mountain
+arch grass_br_gr
 x 18
 y 48
 elevation 8794
 end
-arch mountain2
+arch grass_br_gr
 x 18
 y 49
 elevation 9460
@@ -4910,22 +4911,22 @@ x 19
 y 45
 elevation 4801
 end
-arch mountain
+arch grass_br_gr
 x 19
 y 46
 elevation 6467
 end
-arch mountain
+arch grass_br_gr
 x 19
 y 47
 elevation 8204
 end
-arch mountain2
+arch grass_br_gr
 x 19
 y 48
 elevation 9677
 end
-arch mountain2
+arch grass_br_gr
 x 19
 y 49
 elevation 10547
@@ -5186,22 +5187,22 @@ x 20
 y 45
 elevation 3946
 end
-arch mountain
+arch grass_br_gr
 x 20
 y 46
 elevation 6500
 end
-arch mountain
+arch grass_br_gr
 x 20
 y 47
 elevation 8387
 end
-arch mountain2
+arch grass_br_gr
 x 20
 y 48
 elevation 10014
 end
-arch mountain2
+arch grass_br_gr
 x 20
 y 49
 elevation 10847
@@ -5449,22 +5450,22 @@ x 21
 y 45
 elevation 4456
 end
-arch mountain
+arch grass_br_gr
 x 21
 y 46
 elevation 5940
 end
-arch mountain
+arch grass_br_gr
 x 21
 y 47
 elevation 7523
 end
-arch mountain
+arch grass_br_gr
 x 21
 y 48
 elevation 8895
 end
-arch mountain2
+arch grass_br_gr
 x 21
 y 49
 elevation 9360
@@ -5723,22 +5724,22 @@ x 22
 y 45
 elevation 4308
 end
-arch mountain
+arch grass_br_gr
 x 22
 y 46
 elevation 5139
 end
-arch mountain
+arch grass_br_gr
 x 22
 y 47
 elevation 5007
 end
-arch mountain
+arch grass_br_gr
 x 22
 y 48
 elevation 7175
 end
-arch mountain
+arch grass_br_gr
 x 22
 y 49
 elevation 7435
@@ -5996,17 +5997,17 @@ x 23
 y 46
 elevation 4587
 end
-arch mountain
+arch grass_br_gr
 x 23
 y 47
 elevation 5665
 end
-arch mountain
+arch grass_br_gr
 x 23
 y 48
 elevation 6878
 end
-arch mountain
+arch grass_br_gr
 x 23
 y 49
 elevation 6282
@@ -6251,7 +6252,7 @@ arch tree5
 x 24
 y 38
 end
-arch woods
+arch grass_br_gr
 x 24
 y 39
 elevation 2995
@@ -6291,17 +6292,17 @@ x 24
 y 46
 elevation 4498
 end
-arch mountain
+arch grass_br_gr
 x 24
 y 47
 elevation 6007
 end
-arch mountain
+arch grass_br_gr
 x 24
 y 48
 elevation 6842
 end
-arch mountain
+arch grass_br_gr
 x 24
 y 49
 elevation 6331
@@ -6506,7 +6507,7 @@ arch beach
 x 25
 y 33
 end
-arch woods
+arch bosgrass16
 x 25
 y 34
 elevation 1278
@@ -6583,17 +6584,17 @@ x 25
 y 46
 elevation 4546
 end
-arch mountain
+arch grass_br_gr
 x 25
 y 47
 elevation 5461
 end
-arch mountain
+arch grass_br_gr
 x 25
 y 48
 elevation 6020
 end
-arch mountain
+arch grass_br_gr
 x 25
 y 49
 elevation 5680
@@ -6806,12 +6807,12 @@ arch tree5
 x 26
 y 32
 end
-arch woods
+arch bosgrass16
 x 26
 y 33
 elevation 1201
 end
-arch grass_only
+arch bosgrass16
 x 26
 y 34
 elevation 1256
@@ -6820,17 +6821,17 @@ arch tree5
 x 26
 y 34
 end
-arch woods
+arch bosgrass16
 x 26
 y 35
 elevation 1632
 end
-arch jungle_1
+arch bosgrass16
 x 26
 y 36
 elevation 2005
 end
-arch woods
+arch bosgrass16
 x 26
 y 37
 elevation 2318
@@ -6844,7 +6845,7 @@ arch tree5
 x 26
 y 38
 end
-arch woods
+arch grass_br_gr
 x 26
 y 39
 elevation 2981
@@ -7162,7 +7163,7 @@ arch tree5
 x 27
 y 41
 end
-arch woods
+arch grass_br_gr
 x 27
 y 42
 elevation 2896
@@ -7457,7 +7458,7 @@ x 28
 y 40
 elevation 1963
 end
-arch grass_only
+arch grass_br_gr
 x 28
 y 41
 elevation 2827
@@ -7466,7 +7467,7 @@ arch tree5
 x 28
 y 41
 end
-arch woods
+arch grass_br_gr
 x 28
 y 42
 elevation 2745
@@ -7485,12 +7486,12 @@ x 28
 y 45
 elevation 3530
 end
-arch woods
+arch grass_br_gr
 x 28
 y 46
 elevation 2166
 end
-arch woods
+arch grass_br_gr
 x 28
 y 47
 elevation 2906
@@ -7500,7 +7501,7 @@ x 28
 y 48
 elevation 2485
 end
-arch woods
+arch grass_br_gr
 x 28
 y 49
 elevation 1299
@@ -7767,7 +7768,7 @@ x 29
 y 39
 elevation 993
 end
-arch grass_only
+arch grass_br_gr
 x 29
 y 40
 elevation 2313
@@ -7776,7 +7777,7 @@ arch tree5
 x 29
 y 40
 end
-arch hills
+arch grass_br_gr
 x 29
 y 41
 elevation 3152
@@ -7786,7 +7787,7 @@ x 29
 y 42
 elevation 3141
 end
-arch woods
+arch grass_br_gr
 x 29
 y 43
 elevation 1360
@@ -7806,7 +7807,7 @@ x 29
 y 46
 elevation 3449
 end
-arch woods
+arch grass_br_gr
 x 29
 y 47
 elevation 2451
@@ -7816,7 +7817,7 @@ x 29
 y 48
 elevation 1452
 end
-arch beach
+arch grass_br_gr
 x 29
 y 49
 end
@@ -8074,12 +8075,12 @@ arch beach
 x 30
 y 39
 end
-arch woods
+arch grass_br_gr
 x 30
 y 40
 elevation 1692
 end
-arch jungle_1
+arch grass_br_gr
 x 30
 y 41
 elevation 2929
@@ -8109,7 +8110,7 @@ x 30
 y 46
 elevation 4435
 end
-arch woods
+arch grass_br_gr
 x 30
 y 47
 elevation 2870
@@ -8119,7 +8120,7 @@ x 30
 y 48
 elevation 1532
 end
-arch woods
+arch grass_br_gr
 x 30
 y 49
 elevation 1193
@@ -8387,12 +8388,12 @@ x 31
 y 44
 elevation 4695
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 45
 elevation 5089
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 46
 elevation 5187
@@ -8407,7 +8408,7 @@ x 31
 y 48
 elevation 3879
 end
-arch woods
+arch grass_br_gr
 x 31
 y 49
 elevation 2916
@@ -8653,7 +8654,7 @@ x 32
 y 41
 elevation 1334
 end
-arch jungle_1
+arch bosgrass10
 x 32
 y 42
 elevation 2481
@@ -8673,12 +8674,12 @@ x 32
 y 45
 elevation 4551
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 46
 elevation 5286
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 47
 elevation 5444
@@ -8929,12 +8930,12 @@ arch beach
 x 33
 y 41
 end
-arch woods
+arch bosgrass10
 x 33
 y 42
 elevation 1709
 end
-arch woods
+arch bosgrass10
 x 33
 y 43
 elevation 2234
@@ -9201,22 +9202,22 @@ x 34
 y 40
 elevation -10
 end
-arch grass
+arch bosgrass10
 x 34
 y 41
 elevation 10
 end
-arch woods
+arch bosgrass10
 x 34
 y 42
 elevation 1101
 end
-arch woods
+arch bosgrass10
 x 34
 y 43
 elevation 1752
 end
-arch woods
+arch bosgrass10
 x 34
 y 44
 elevation 2407
@@ -9487,12 +9488,12 @@ arch beach
 x 35
 y 42
 end
-arch woods
+arch bosgrass10
 x 35
 y 43
 elevation 1160
 end
-arch woods
+arch bosgrass10
 x 35
 y 44
 elevation 1964
@@ -9507,7 +9508,7 @@ x 35
 y 46
 elevation 2527
 end
-arch woods
+arch grass_br_gr
 x 35
 y 47
 elevation 1640
@@ -9748,12 +9749,12 @@ arch beach
 x 36
 y 43
 end
-arch woods
+arch bosgrass10
 x 36
 y 44
 elevation 1117
 end
-arch woods
+arch bosgrass10
 x 36
 y 45
 elevation 1572
@@ -9763,7 +9764,7 @@ x 36
 y 46
 elevation 1645
 end
-arch woods
+arch grass_br_gr
 x 36
 y 47
 elevation 1295
@@ -10020,7 +10021,7 @@ arch beach
 x 37
 y 46
 end
-arch woods
+arch grass_br_gr
 x 37
 y 47
 elevation 1176
@@ -10282,17 +10283,17 @@ x 38
 y 46
 elevation 1684
 end
-arch woods
+arch grass_br_gr
 x 38
 y 47
 elevation 1851
 end
-arch woods
+arch grass_br_gr
 x 38
 y 48
 elevation 1433
 end
-arch woods
+arch grass_br_gr
 x 38
 y 49
 elevation 1021
@@ -10545,7 +10546,7 @@ arch beach
 x 39
 y 43
 end
-arch woods
+arch grass_br_gr
 x 39
 y 44
 elevation 1144
@@ -10555,22 +10556,22 @@ x 39
 y 45
 elevation 1458
 end
-arch woods
+arch grass_br_gr
 x 39
 y 46
 elevation 2253
 end
-arch woods
+arch bosgrass16
 x 39
 y 47
 elevation 2417
 end
-arch woods
+arch grass_br_gr
 x 39
 y 48
 elevation 1958
 end
-arch woods
+arch grass_br_gr
 x 39
 y 49
 elevation 2035
@@ -10830,26 +10831,26 @@ arch beach
 x 40
 y 42
 end
-arch beach
+arch bosgrass16
 x 40
 y 43
 end
-arch woods
+arch bosgrass10
 x 40
 y 44
 elevation 1388
 end
-arch woods
+arch grass_br_gr
 x 40
 y 45
 elevation 1941
 end
-arch woods
+arch bosgrass16
 x 40
 y 46
 elevation 2388
 end
-arch hills_rocky
+arch bosgrass16
 x 40
 y 47
 elevation 2458
@@ -11110,7 +11111,7 @@ arch beach
 x 41
 y 36
 end
-arch grass
+arch bosgrass16
 x 41
 y 37
 elevation 802
@@ -11133,26 +11134,26 @@ x 41
 y 41
 elevation 594
 end
-arch beach
+arch bosgrass16
 x 41
 y 42
 end
-arch woods
+arch bosgrass16
 x 41
 y 43
 elevation 1040
 end
-arch woods
+arch bosgrass16
 x 41
 y 44
 elevation 1401
 end
-arch woods
+arch grass_br_gr
 x 41
 y 45
 elevation 1547
 end
-arch woods
+arch bosgrass16
 x 41
 y 46
 elevation 1971
@@ -11404,22 +11405,22 @@ arch evergreens2
 x 42
 y 32
 end
-arch woods
+arch bosgrass16
 x 42
 y 33
 elevation 1728
 end
-arch woods
+arch bosgrass16
 x 42
 y 34
 elevation 1053
 end
-arch grass
+arch bosgrass16
 x 42
 y 35
 elevation 429
 end
-arch grass_only
+arch bosgrass16
 x 42
 y 36
 elevation 1154
@@ -11428,7 +11429,7 @@ arch evergreens2
 x 42
 y 36
 end
-arch grass_only
+arch bosgrass16
 x 42
 y 37
 elevation 1568
@@ -11460,12 +11461,12 @@ arch evergreens2
 x 42
 y 40
 end
-arch woods
+arch bosgrass16
 x 42
 y 41
 elevation 1433
 end
-arch woods
+arch bosgrass16
 x 42
 y 42
 elevation 1159
@@ -11479,7 +11480,7 @@ arch evergreens2
 x 42
 y 43
 end
-arch grass
+arch bosgrass16
 x 42
 y 44
 elevation 815
@@ -11489,7 +11490,7 @@ x 42
 y 45
 elevation 1035
 end
-arch beach
+arch bosgrass16
 x 42
 y 46
 end
@@ -11498,7 +11499,7 @@ x 42
 y 47
 elevation 1820
 end
-arch jungle_1
+arch bosgrass16
 x 42
 y 48
 elevation 1712
@@ -11766,7 +11767,7 @@ x 43
 y 35
 elevation 433
 end
-arch woods
+arch bosgrass16
 x 43
 y 36
 elevation 1227
@@ -11794,7 +11795,7 @@ x 43
 y 39
 elevation 954
 end
-arch woods
+arch bosgrass16
 x 43
 y 40
 elevation 1653
@@ -11808,7 +11809,7 @@ arch tree5
 x 43
 y 41
 end
-arch woods
+arch bosgrass16
 x 43
 y 42
 elevation 2481
@@ -11831,12 +11832,12 @@ arch evergreens2
 x 43
 y 44
 end
-arch woods
+arch bosgrass16
 x 43
 y 45
 elevation 1552
 end
-arch hills_rocky
+arch bosgrass16
 x 43
 y 46
 elevation 1810
@@ -11846,12 +11847,12 @@ x 43
 y 47
 elevation 2074
 end
-arch woods
+arch bosgrass16
 x 43
 y 48
 elevation 1805
 end
-arch jungle_1
+arch bosgrass16
 x 43
 y 49
 elevation 2429
@@ -12139,7 +12140,7 @@ arch tree5
 x 44
 y 39
 end
-arch woods
+arch bosgrass16
 x 44
 y 40
 elevation 2183
@@ -12153,12 +12154,12 @@ arch tree5
 x 44
 y 41
 end
-arch steppe
+arch bosgrass16
 x 44
 y 42
 elevation 3011
 end
-arch grass_only
+arch bosgrass16
 x 44
 y 43
 elevation 1733
@@ -12176,22 +12177,22 @@ arch evergreens2
 x 44
 y 44
 end
-arch hills_rocky
+arch bosgrass16
 x 44
 y 45
 elevation 1641
 end
-arch woods
+arch bosgrass16
 x 44
 y 46
 elevation 2083
 end
-arch woods
+arch bosgrass16
 x 44
 y 47
 elevation 2838
 end
-arch hills
+arch bosgrass16
 x 44
 y 48
 elevation 3482
@@ -12444,7 +12445,7 @@ arch evergreens2
 x 45
 y 39
 end
-arch woods
+arch bosgrass16
 x 45
 y 40
 elevation 1519
@@ -12458,7 +12459,7 @@ arch evergreens2
 x 45
 y 41
 end
-arch steppe
+arch bosgrass16
 x 45
 y 42
 elevation 3012
@@ -12472,7 +12473,7 @@ arch evergreens2
 x 45
 y 43
 end
-arch woods
+arch bosgrass16
 x 45
 y 44
 elevation 1093
@@ -12481,12 +12482,12 @@ arch beach
 x 45
 y 45
 end
-arch woods
+arch bosgrass16
 x 45
 y 46
 elevation 2136
 end
-arch hills
+arch bosgrass16
 x 45
 y 47
 elevation 3342
@@ -12734,7 +12735,7 @@ arch evergreens2
 x 46
 y 38
 end
-arch woods
+arch bosgrass16
 x 46
 y 39
 elevation 2021
@@ -12757,17 +12758,17 @@ arch evergreens2
 x 46
 y 41
 end
-arch woods
+arch bosgrass16
 x 46
 y 42
 elevation 2563
 end
-arch woods
+arch bosgrass16
 x 46
 y 43
 elevation 1941
 end
-arch grass_only
+arch bosgrass16
 x 46
 y 44
 elevation 1411
@@ -12790,7 +12791,7 @@ arch tree3
 x 46
 y 46
 end
-arch woods
+arch bosgrass16
 x 46
 y 47
 elevation 2897
@@ -13052,7 +13053,7 @@ arch evergreens2
 x 47
 y 40
 end
-arch woods
+arch bosgrass16
 x 47
 y 41
 elevation 2148
@@ -13380,7 +13381,7 @@ arch beach
 x 48
 y 45
 end
-arch woods
+arch bosgrass16
 x 48
 y 46
 elevation 1839
@@ -13630,7 +13631,7 @@ arch tree5
 x 49
 y 39
 end
-arch woods
+arch bosgrass16
 x 49
 y 40
 elevation 1195

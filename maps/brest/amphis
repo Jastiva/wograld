@@ -6,9 +6,10 @@ width 80
 height 50
 msg
 Created:  1994-02-31
-Modified: 2007-03-20 Gene Alexander (poof@eracc.com)
+Modified: 2019-01-08 lori
 What: Fix half-baked job of replacing the walls with "new" red walls some time back.
 endmsg
+background_music lust02
 end
 arch dungeon_floor
 end
@@ -1074,7 +1075,7 @@ arch redcwall_3_3
 x 7
 y 24
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 25
 end
@@ -1082,7 +1083,7 @@ arch redcwall_2_1_1
 x 7
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 26
 end
@@ -1090,7 +1091,7 @@ arch redcwall_2_1_1
 x 7
 y 26
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 27
 end
@@ -1098,7 +1099,7 @@ arch redcwall_2_1_1
 x 7
 y 27
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 28
 end
@@ -1106,7 +1107,7 @@ arch redcwall_2_1_1
 x 7
 y 28
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 29
 end
@@ -1114,7 +1115,7 @@ arch redcwall_2_1_1
 x 7
 y 29
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 30
 end
@@ -1122,7 +1123,7 @@ arch redcwall_2_1_1
 x 7
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 31
 end
@@ -1130,7 +1131,7 @@ arch redcwall_2_1_1
 x 7
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 32
 end
@@ -1138,7 +1139,7 @@ arch redcwall_2_1_1
 x 7
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 33
 end
@@ -1146,7 +1147,7 @@ arch redcwall_2_1_1
 x 7
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 34
 end
@@ -1154,7 +1155,7 @@ arch redcwall_2_1_1
 x 7
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 35
 end
@@ -1162,7 +1163,7 @@ arch redcwall_2_1_1
 x 7
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 7
 y 36
 end
@@ -1170,7 +1171,7 @@ arch redcwall_2_1_1
 x 7
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 37
 end
@@ -1178,7 +1179,7 @@ arch redcwall_2_1_1
 x 7
 y 37
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 38
 end
@@ -1186,7 +1187,7 @@ arch redcwall_2_1_1
 x 7
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 39
 end
@@ -1194,7 +1195,7 @@ arch redcwall_2_1_1
 x 7
 y 39
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 40
 end
@@ -1202,7 +1203,7 @@ arch redcwall_2_1_1
 x 7
 y 40
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 41
 end
@@ -1210,7 +1211,7 @@ arch redcwall_2_1_1
 x 7
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 42
 end
@@ -1218,7 +1219,7 @@ arch redcwall_2_1_1
 x 7
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 43
 end
@@ -1226,7 +1227,7 @@ arch redcwall_2_1_1
 x 7
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 44
 end
@@ -1234,7 +1235,7 @@ arch redcwall_2_1_1
 x 7
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 45
 end
@@ -1242,7 +1243,7 @@ arch redcwall_2_1_1
 x 7
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 46
 end
@@ -1250,7 +1251,7 @@ arch redcwall_2_1_1
 x 7
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 47
 end
@@ -1258,7 +1259,7 @@ arch redcwall_2_1_1
 x 7
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 48
 end
@@ -1266,7 +1267,7 @@ arch redcwall_2_1_1
 x 7
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 7
 y 49
 end
@@ -1468,7 +1469,7 @@ arch dungeon_magic
 x 8
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 25
 end
@@ -1476,7 +1477,7 @@ arch dungeon_magic
 x 8
 y 26
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 26
 end
@@ -1484,7 +1485,7 @@ arch dungeon_magic
 x 8
 y 27
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 27
 end
@@ -1492,7 +1493,7 @@ arch dungeon_magic
 x 8
 y 28
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 28
 end
@@ -1500,7 +1501,7 @@ arch dungeon_magic
 x 8
 y 29
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 29
 end
@@ -1508,7 +1509,7 @@ arch random_spells
 x 8
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 30
 end
@@ -1516,7 +1517,7 @@ arch random_spells
 x 8
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 31
 end
@@ -1528,7 +1529,7 @@ arch random_spells
 x 8
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 32
 end
@@ -1541,7 +1542,7 @@ arch random_spells
 x 8
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 33
 end
@@ -1549,7 +1550,7 @@ arch dungeon_magic
 x 8
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 34
 end
@@ -1557,7 +1558,7 @@ arch dungeon_magic
 x 8
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 35
 end
@@ -1565,11 +1566,11 @@ arch dungeon_magic
 x 8
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 8
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 37
 end
@@ -1578,51 +1579,51 @@ x 8
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 8
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 8
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 8
 y 49
 end
@@ -1640,7 +1641,7 @@ arch dungeon_magic
 x 9
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 9
 y 1
 end
@@ -1648,7 +1649,7 @@ arch dungeon_magic
 x 9
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 9
 y 2
 end
@@ -1656,7 +1657,7 @@ arch dungeon_magic
 x 9
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 9
 y 3
 end
@@ -1893,7 +1894,7 @@ arch dungeon_magic
 x 9
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 9
 y 25
 end
@@ -1901,7 +1902,7 @@ arch dungeon_magic
 x 9
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 26
 end
@@ -1909,7 +1910,7 @@ arch dungeon_magic
 x 9
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 27
 end
@@ -1917,7 +1918,7 @@ arch dungeon_magic
 x 9
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 28
 end
@@ -1925,7 +1926,7 @@ arch dungeon_magic
 x 9
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 29
 end
@@ -1933,7 +1934,7 @@ arch dungeon_magic
 x 9
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 30
 end
@@ -1941,7 +1942,7 @@ arch dungeon_magic
 x 9
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 31
 end
@@ -1949,7 +1950,7 @@ arch dungeon_magic
 x 9
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 32
 end
@@ -1957,7 +1958,7 @@ arch dungeon_magic
 x 9
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 33
 end
@@ -1965,7 +1966,7 @@ arch dungeon_magic
 x 9
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 34
 end
@@ -1973,7 +1974,7 @@ arch dungeon_magic
 x 9
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 35
 end
@@ -1981,11 +1982,11 @@ arch dungeon_magic
 x 9
 y 36
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 9
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 37
 end
@@ -1994,19 +1995,19 @@ x 9
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 9
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 9
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 9
 y 41
 end
@@ -2015,15 +2016,15 @@ name Olivier Keyboard
 x 9
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 9
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 44
 end
@@ -2032,23 +2033,23 @@ name Michel Bass
 x 9
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 9
 y 49
 end
@@ -2066,7 +2067,7 @@ arch dungeon_magic
 x 10
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 10
 y 1
 end
@@ -2074,7 +2075,7 @@ arch dungeon_magic
 x 10
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 10
 y 2
 end
@@ -2082,7 +2083,7 @@ arch dungeon_magic
 x 10
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 10
 y 3
 end
@@ -2291,7 +2292,7 @@ arch dungeon_magic
 x 10
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 10
 y 25
 end
@@ -2299,7 +2300,7 @@ arch dungeon_magic
 x 10
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 26
 end
@@ -2307,7 +2308,7 @@ arch dungeon_magic
 x 10
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 27
 end
@@ -2315,7 +2316,7 @@ arch dungeon_magic
 x 10
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 28
 end
@@ -2323,7 +2324,7 @@ arch dungeon_magic
 x 10
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 29
 end
@@ -2331,7 +2332,7 @@ arch dungeon_magic
 x 10
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 30
 end
@@ -2339,7 +2340,7 @@ arch dungeon_magic
 x 10
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 31
 end
@@ -2347,7 +2348,7 @@ arch dungeon_magic
 x 10
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 32
 end
@@ -2355,7 +2356,7 @@ arch dungeon_magic
 x 10
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 33
 end
@@ -2363,7 +2364,7 @@ arch dungeon_magic
 x 10
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 34
 end
@@ -2371,7 +2372,7 @@ arch dungeon_magic
 x 10
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 35
 end
@@ -2379,11 +2380,11 @@ arch dungeon_magic
 x 10
 y 36
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 10
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 37
 end
@@ -2392,51 +2393,51 @@ x 10
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 10
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 10
 y 49
 end
@@ -2454,7 +2455,7 @@ arch dungeon_magic
 x 11
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 11
 y 1
 end
@@ -2462,7 +2463,7 @@ arch dungeon_magic
 x 11
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 11
 y 2
 end
@@ -2470,7 +2471,7 @@ arch dungeon_magic
 x 11
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 11
 y 3
 end
@@ -2671,7 +2672,7 @@ arch redcwall_2_1_2
 x 11
 y 24
 end
-arch dungeon_floor
+arch redmarble
 x 11
 y 25
 end
@@ -2682,51 +2683,51 @@ endmsg
 x 11
 y 25
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 11
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 37
 end
@@ -2735,51 +2736,51 @@ x 11
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 11
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 11
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 11
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 11
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 11
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 11
 y 49
 end
@@ -2797,7 +2798,11 @@ arch dungeon_magic
 x 12
 y 1
 end
-arch woodfloor
+arch redrugfloor1
+x 12
+y 1
+end
+arch couch
 x 12
 y 1
 end
@@ -2805,7 +2810,7 @@ arch dungeon_magic
 x 12
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 12
 y 2
 end
@@ -2813,7 +2818,7 @@ arch dungeon_magic
 x 12
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 12
 y 3
 end
@@ -3014,55 +3019,55 @@ arch redcwall_2_1_2
 x 12
 y 24
 end
-arch dungeon_floor
+arch redmarble
 x 12
 y 25
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 12
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 37
 end
@@ -3071,43 +3076,43 @@ x 12
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 39
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 12
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 47
 end
@@ -3116,11 +3121,11 @@ name Jose Lyrics
 x 12
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 12
 y 49
 end
@@ -3138,7 +3143,7 @@ arch dungeon_magic
 x 13
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 13
 y 1
 end
@@ -3146,7 +3151,7 @@ arch dungeon_magic
 x 13
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 13
 y 2
 end
@@ -3154,7 +3159,7 @@ arch dungeon_magic
 x 13
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 13
 y 3
 end
@@ -3319,7 +3324,7 @@ arch redcwall_2_1_2
 x 13
 y 24
 end
-arch dungeon_floor
+arch redmarble
 x 13
 y 25
 end
@@ -3328,31 +3333,31 @@ x 13
 y 25
 connected 96
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 32
 end
@@ -3361,23 +3366,23 @@ name Paul Albert
 x 13
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 13
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 37
 end
@@ -3386,51 +3391,51 @@ x 13
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 39
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 13
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 13
 y 49
 end
@@ -3448,7 +3453,7 @@ arch dungeon_magic
 x 14
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 14
 y 1
 end
@@ -3456,7 +3461,7 @@ arch dungeon_magic
 x 14
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 14
 y 2
 end
@@ -3464,7 +3469,7 @@ arch dungeon_magic
 x 14
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 14
 y 3
 end
@@ -3689,7 +3694,7 @@ arch dungeon_magic
 x 14
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 14
 y 25
 end
@@ -3697,7 +3702,7 @@ arch dungeon_magic
 x 14
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 26
 end
@@ -3705,7 +3710,7 @@ arch dungeon_magic
 x 14
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 27
 end
@@ -3713,7 +3718,7 @@ arch dungeon_magic
 x 14
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 28
 end
@@ -3721,7 +3726,7 @@ arch dungeon_magic
 x 14
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 29
 end
@@ -3729,7 +3734,7 @@ arch dungeon_magic
 x 14
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 30
 end
@@ -3737,7 +3742,7 @@ arch dungeon_magic
 x 14
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 31
 end
@@ -3745,7 +3750,7 @@ arch dungeon_magic
 x 14
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 32
 end
@@ -3753,7 +3758,7 @@ arch dungeon_magic
 x 14
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 33
 end
@@ -3761,7 +3766,7 @@ arch dungeon_magic
 x 14
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 34
 end
@@ -3769,7 +3774,7 @@ arch dungeon_magic
 x 14
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 14
 y 35
 end
@@ -3777,11 +3782,11 @@ arch dungeon_magic
 x 14
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 14
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 37
 end
@@ -3790,51 +3795,51 @@ x 14
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 14
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 14
 y 49
 end
@@ -3852,7 +3857,7 @@ arch dungeon_magic
 x 15
 y 1
 end
-arch woodfloor
+arch redrugfloor1
 x 15
 y 1
 end
@@ -3860,7 +3865,7 @@ arch dungeon_magic
 x 15
 y 2
 end
-arch woodfloor
+arch redrugfloor1
 x 15
 y 2
 end
@@ -3868,7 +3873,7 @@ arch dungeon_magic
 x 15
 y 3
 end
-arch woodfloor
+arch redrugfloor1
 x 15
 y 3
 end
@@ -4086,7 +4091,7 @@ arch dungeon_magic
 x 15
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 15
 y 25
 end
@@ -4094,7 +4099,7 @@ arch dungeon_magic
 x 15
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 26
 end
@@ -4102,7 +4107,7 @@ arch dungeon_magic
 x 15
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 27
 end
@@ -4110,7 +4115,7 @@ arch dungeon_magic
 x 15
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 28
 end
@@ -4118,7 +4123,7 @@ arch dungeon_magic
 x 15
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 29
 end
@@ -4126,7 +4131,7 @@ arch dungeon_magic
 x 15
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 30
 end
@@ -4134,7 +4139,7 @@ arch dungeon_magic
 x 15
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 31
 end
@@ -4142,7 +4147,7 @@ arch dungeon_magic
 x 15
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 32
 end
@@ -4150,7 +4155,7 @@ arch dungeon_magic
 x 15
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 33
 end
@@ -4158,7 +4163,7 @@ arch dungeon_magic
 x 15
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 34
 end
@@ -4166,7 +4171,7 @@ arch dungeon_magic
 x 15
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 15
 y 35
 end
@@ -4174,11 +4179,11 @@ arch dungeon_magic
 x 15
 y 36
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 15
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 37
 end
@@ -4187,51 +4192,51 @@ x 15
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 15
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 15
 y 49
 end
@@ -4482,7 +4487,7 @@ arch dungeon_magic
 x 16
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 16
 y 25
 end
@@ -4490,7 +4495,7 @@ arch dungeon_magic
 x 16
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 26
 end
@@ -4498,7 +4503,7 @@ arch dungeon_magic
 x 16
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 27
 end
@@ -4506,7 +4511,7 @@ arch dungeon_magic
 x 16
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 28
 end
@@ -4514,7 +4519,7 @@ arch dungeon_magic
 x 16
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 29
 end
@@ -4522,7 +4527,7 @@ arch dungeon_magic
 x 16
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 30
 end
@@ -4530,7 +4535,7 @@ arch dungeon_magic
 x 16
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 31
 end
@@ -4538,7 +4543,7 @@ arch dungeon_magic
 x 16
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 32
 end
@@ -4550,7 +4555,7 @@ arch dungeon_magic
 x 16
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 33
 end
@@ -4563,7 +4568,7 @@ arch dungeon_magic
 x 16
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 16
 y 34
 end
@@ -4571,7 +4576,7 @@ arch dungeon_magic
 x 16
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 16
 y 35
 end
@@ -4579,11 +4584,11 @@ arch dungeon_magic
 x 16
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 16
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 37
 end
@@ -4592,19 +4597,19 @@ x 16
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 16
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 16
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 16
 y 41
 end
@@ -4613,35 +4618,35 @@ name Fred Lyrics
 x 16
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 16
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 16
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 16
 y 49
 end
@@ -4898,7 +4903,7 @@ arch dungeon_magic
 x 17
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 17
 y 25
 end
@@ -4906,7 +4911,7 @@ arch dungeon_magic
 x 17
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 26
 end
@@ -4914,7 +4919,7 @@ arch dungeon_magic
 x 17
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 27
 end
@@ -4922,7 +4927,7 @@ arch dungeon_magic
 x 17
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 28
 end
@@ -4930,7 +4935,7 @@ arch dungeon_magic
 x 17
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 29
 end
@@ -4938,7 +4943,7 @@ arch dungeon_magic
 x 17
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 30
 end
@@ -4946,7 +4951,7 @@ arch dungeon_magic
 x 17
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 31
 end
@@ -4954,7 +4959,7 @@ arch dungeon_magic
 x 17
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 32
 end
@@ -4962,7 +4967,7 @@ arch dungeon_magic
 x 17
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 17
 y 33
 end
@@ -4970,7 +4975,7 @@ arch dungeon_magic
 x 17
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 34
 end
@@ -4978,7 +4983,7 @@ arch dungeon_magic
 x 17
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 17
 y 35
 end
@@ -4986,11 +4991,11 @@ arch dungeon_magic
 x 17
 y 36
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 17
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 37
 end
@@ -4999,51 +5004,51 @@ x 17
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 17
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 47
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 17
 y 49
 end
@@ -5294,7 +5299,7 @@ arch dungeon_magic
 x 18
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 18
 y 25
 end
@@ -5302,7 +5307,7 @@ arch dungeon_magic
 x 18
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 26
 end
@@ -5310,7 +5315,7 @@ arch dungeon_magic
 x 18
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 27
 end
@@ -5318,7 +5323,7 @@ arch dungeon_magic
 x 18
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 28
 end
@@ -5326,7 +5331,7 @@ arch dungeon_magic
 x 18
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 29
 end
@@ -5334,7 +5339,7 @@ arch dungeon_magic
 x 18
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 30
 end
@@ -5342,7 +5347,7 @@ arch dungeon_magic
 x 18
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 31
 end
@@ -5350,7 +5355,7 @@ arch dungeon_magic
 x 18
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 18
 y 32
 end
@@ -5358,7 +5363,7 @@ arch dungeon_magic
 x 18
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 33
 end
@@ -5366,7 +5371,7 @@ arch dungeon_magic
 x 18
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 18
 y 34
 end
@@ -5374,7 +5379,7 @@ arch dungeon_magic
 x 18
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 18
 y 35
 end
@@ -5382,11 +5387,11 @@ arch dungeon_magic
 x 18
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 18
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 37
 end
@@ -5395,51 +5400,51 @@ x 18
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 47
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 18
 y 49
 end
@@ -5674,7 +5679,7 @@ arch dungeon_magic
 x 19
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 19
 y 25
 end
@@ -5682,7 +5687,7 @@ arch dungeon_magic
 x 19
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 26
 end
@@ -5690,7 +5695,7 @@ arch dungeon_magic
 x 19
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 27
 end
@@ -5698,7 +5703,7 @@ arch dungeon_magic
 x 19
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 28
 end
@@ -5706,7 +5711,7 @@ arch dungeon_magic
 x 19
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 29
 end
@@ -5714,7 +5719,7 @@ arch dungeon_magic
 x 19
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 30
 end
@@ -5726,7 +5731,7 @@ arch dungeon_magic
 x 19
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 19
 y 31
 end
@@ -5739,7 +5744,7 @@ arch dungeon_magic
 x 19
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 32
 end
@@ -5747,7 +5752,7 @@ arch dungeon_magic
 x 19
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 19
 y 33
 end
@@ -5755,7 +5760,7 @@ arch dungeon_magic
 x 19
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 34
 end
@@ -5763,7 +5768,7 @@ arch dungeon_magic
 x 19
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 19
 y 35
 end
@@ -5771,11 +5776,11 @@ arch dungeon_magic
 x 19
 y 36
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 19
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 37
 end
@@ -5784,51 +5789,51 @@ x 19
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 19
 y 39
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 19
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 19
 y 49
 end
@@ -6091,7 +6096,7 @@ arch dungeon_magic
 x 20
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 20
 y 25
 end
@@ -6099,7 +6104,7 @@ arch dungeon_magic
 x 20
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 26
 end
@@ -6107,7 +6112,7 @@ arch dungeon_magic
 x 20
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 27
 end
@@ -6115,7 +6120,7 @@ arch dungeon_magic
 x 20
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 28
 end
@@ -6123,7 +6128,7 @@ arch dungeon_magic
 x 20
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 29
 end
@@ -6131,7 +6136,7 @@ arch dungeon_magic
 x 20
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 20
 y 30
 end
@@ -6143,7 +6148,7 @@ arch dungeon_magic
 x 20
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 31
 end
@@ -6156,7 +6161,7 @@ arch dungeon_magic
 x 20
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 20
 y 32
 end
@@ -6164,7 +6169,7 @@ arch dungeon_magic
 x 20
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 33
 end
@@ -6172,7 +6177,7 @@ arch dungeon_magic
 x 20
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 20
 y 34
 end
@@ -6180,7 +6185,7 @@ arch dungeon_magic
 x 20
 y 35
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 20
 y 35
 end
@@ -6188,11 +6193,11 @@ arch dungeon_magic
 x 20
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 20
 y 36
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 37
 end
@@ -6201,43 +6206,43 @@ x 20
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 20
 y 38
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 20
 y 40
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 47
 end
@@ -6246,11 +6251,11 @@ name Helene Drums
 x 20
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 20
 y 49
 end
@@ -6268,7 +6273,7 @@ arch dungeon_magic
 x 21
 y 1
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 21
 y 1
 end
@@ -6276,7 +6281,7 @@ arch dungeon_magic
 x 21
 y 2
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 21
 y 2
 end
@@ -6284,7 +6289,7 @@ arch dungeon_magic
 x 21
 y 3
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 21
 y 3
 end
@@ -6457,7 +6462,7 @@ arch dungeon_magic
 x 21
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 25
 end
@@ -6465,7 +6470,7 @@ arch dungeon_magic
 x 21
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 26
 end
@@ -6473,7 +6478,7 @@ arch dungeon_magic
 x 21
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 27
 end
@@ -6481,7 +6486,7 @@ arch dungeon_magic
 x 21
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 28
 end
@@ -6489,7 +6494,7 @@ arch dungeon_magic
 x 21
 y 29
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 29
 end
@@ -6497,7 +6502,7 @@ arch dungeon_magic
 x 21
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 30
 end
@@ -6505,7 +6510,7 @@ arch dungeon_magic
 x 21
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 31
 end
@@ -6513,7 +6518,7 @@ arch dungeon_magic
 x 21
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 32
 end
@@ -6521,7 +6526,7 @@ arch dungeon_magic
 x 21
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 33
 end
@@ -6529,7 +6534,7 @@ arch dungeon_magic
 x 21
 y 34
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 21
 y 34
 end
@@ -6537,7 +6542,7 @@ arch dungeon_magic
 x 21
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 35
 end
@@ -6545,11 +6550,11 @@ arch dungeon_magic
 x 21
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 21
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 21
 y 37
 end
@@ -6558,51 +6563,51 @@ x 21
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 21
 y 39
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 40
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 41
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 42
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 43
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 44
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 45
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 46
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 47
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 48
 end
-arch dungeon_floor
+arch dcross-white
 x 21
 y 49
 end
@@ -6620,7 +6625,7 @@ arch dungeon_magic
 x 22
 y 1
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 22
 y 1
 end
@@ -6628,7 +6633,7 @@ arch dungeon_magic
 x 22
 y 2
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 22
 y 2
 end
@@ -6636,7 +6641,7 @@ arch dungeon_magic
 x 22
 y 3
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 22
 y 3
 end
@@ -6841,7 +6846,7 @@ arch dungeon_magic
 x 22
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 25
 end
@@ -6849,7 +6854,7 @@ arch dungeon_magic
 x 22
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 22
 y 26
 end
@@ -6857,7 +6862,7 @@ arch dungeon_magic
 x 22
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 22
 y 27
 end
@@ -6865,7 +6870,7 @@ arch dungeon_magic
 x 22
 y 28
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 28
 end
@@ -6873,7 +6878,7 @@ arch dungeon_magic
 x 22
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 22
 y 29
 end
@@ -6881,7 +6886,7 @@ arch dungeon_magic
 x 22
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 30
 end
@@ -6889,7 +6894,7 @@ arch dungeon_magic
 x 22
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 22
 y 31
 end
@@ -6897,7 +6902,7 @@ arch dungeon_magic
 x 22
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 32
 end
@@ -6905,7 +6910,7 @@ arch dungeon_magic
 x 22
 y 33
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 22
 y 33
 end
@@ -6913,7 +6918,7 @@ arch dungeon_magic
 x 22
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 34
 end
@@ -6921,7 +6926,7 @@ arch dungeon_magic
 x 22
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 35
 end
@@ -6929,11 +6934,11 @@ arch dungeon_magic
 x 22
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 22
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 37
 end
@@ -6942,23 +6947,23 @@ x 22
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 42
 end
@@ -6967,31 +6972,31 @@ name Francois Guitar
 x 22
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 47
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 22
 y 49
 end
@@ -7009,7 +7014,11 @@ arch dungeon_magic
 x 23
 y 1
 end
-arch woodfloor
+arch white-pink-c-marble_114
+x 23
+y 1
+end
+arch couch
 x 23
 y 1
 end
@@ -7017,7 +7026,7 @@ arch dungeon_magic
 x 23
 y 2
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 23
 y 2
 end
@@ -7025,7 +7034,7 @@ arch dungeon_magic
 x 23
 y 3
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 23
 y 3
 end
@@ -7222,7 +7231,7 @@ arch dungeon_magic
 x 23
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 25
 end
@@ -7230,7 +7239,7 @@ arch dungeon_magic
 x 23
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 23
 y 26
 end
@@ -7238,7 +7247,7 @@ arch dungeon_magic
 x 23
 y 27
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 27
 end
@@ -7246,7 +7255,7 @@ arch dungeon_magic
 x 23
 y 28
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 23
 y 28
 end
@@ -7254,7 +7263,7 @@ arch dungeon_magic
 x 23
 y 29
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 29
 end
@@ -7262,7 +7271,7 @@ arch dungeon_magic
 x 23
 y 30
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 23
 y 30
 end
@@ -7270,7 +7279,7 @@ arch dungeon_magic
 x 23
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 31
 end
@@ -7278,7 +7287,7 @@ arch dungeon_magic
 x 23
 y 32
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 23
 y 32
 end
@@ -7286,7 +7295,7 @@ arch dungeon_magic
 x 23
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 33
 end
@@ -7294,7 +7303,7 @@ arch dungeon_magic
 x 23
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 34
 end
@@ -7302,7 +7311,7 @@ arch dungeon_magic
 x 23
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 35
 end
@@ -7310,11 +7319,11 @@ arch dungeon_magic
 x 23
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 23
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 37
 end
@@ -7323,51 +7332,51 @@ x 23
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 47
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 23
 y 49
 end
@@ -7385,7 +7394,7 @@ arch dungeon_magic
 x 24
 y 1
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 24
 y 1
 end
@@ -7393,7 +7402,7 @@ arch dungeon_magic
 x 24
 y 2
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 24
 y 2
 end
@@ -7401,7 +7410,7 @@ arch dungeon_magic
 x 24
 y 3
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 24
 y 3
 end
@@ -7606,7 +7615,7 @@ arch dungeon_magic
 x 24
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 25
 end
@@ -7614,7 +7623,7 @@ arch dungeon_magic
 x 24
 y 26
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 26
 end
@@ -7622,7 +7631,7 @@ arch dungeon_magic
 x 24
 y 27
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 24
 y 27
 end
@@ -7630,7 +7639,7 @@ arch dungeon_magic
 x 24
 y 28
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 28
 end
@@ -7638,7 +7647,7 @@ arch dungeon_magic
 x 24
 y 29
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 24
 y 29
 end
@@ -7646,7 +7655,7 @@ arch dungeon_magic
 x 24
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 30
 end
@@ -7658,7 +7667,7 @@ arch dungeon_magic
 x 24
 y 31
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 24
 y 31
 end
@@ -7671,7 +7680,7 @@ arch dungeon_magic
 x 24
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 32
 end
@@ -7679,7 +7688,7 @@ arch dungeon_magic
 x 24
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 33
 end
@@ -7687,7 +7696,7 @@ arch dungeon_magic
 x 24
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 34
 end
@@ -7695,7 +7704,7 @@ arch dungeon_magic
 x 24
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 35
 end
@@ -7703,11 +7712,11 @@ arch dungeon_magic
 x 24
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 24
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 37
 end
@@ -7716,51 +7725,51 @@ x 24
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 47
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 24
 y 49
 end
@@ -7778,7 +7787,7 @@ arch dungeon_magic
 x 25
 y 1
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 25
 y 1
 end
@@ -7786,7 +7795,7 @@ arch dungeon_magic
 x 25
 y 2
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 25
 y 2
 end
@@ -7794,7 +7803,7 @@ arch dungeon_magic
 x 25
 y 3
 end
-arch woodfloor
+arch white-pink-c-marble_114
 x 25
 y 3
 end
@@ -8020,7 +8029,7 @@ arch dungeon_magic
 x 25
 y 25
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 25
 end
@@ -8028,7 +8037,7 @@ arch dungeon_magic
 x 25
 y 26
 end
-arch dungeon_floor
+arch lightmagentamarble
 x 25
 y 26
 end
@@ -8036,7 +8045,7 @@ arch dungeon_magic
 x 25
 y 27
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 27
 end
@@ -8044,7 +8053,7 @@ arch dungeon_magic
 x 25
 y 28
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 28
 end
@@ -8052,7 +8061,7 @@ arch dungeon_magic
 x 25
 y 29
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 29
 end
@@ -8060,7 +8069,7 @@ arch dungeon_magic
 x 25
 y 30
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 30
 end
@@ -8068,7 +8077,7 @@ arch dungeon_magic
 x 25
 y 31
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 31
 end
@@ -8076,7 +8085,7 @@ arch dungeon_magic
 x 25
 y 32
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 32
 end
@@ -8084,7 +8093,7 @@ arch dungeon_magic
 x 25
 y 33
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 33
 end
@@ -8092,7 +8101,7 @@ arch dungeon_magic
 x 25
 y 34
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 34
 end
@@ -8100,7 +8109,7 @@ arch dungeon_magic
 x 25
 y 35
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 35
 end
@@ -8108,11 +8117,11 @@ arch dungeon_magic
 x 25
 y 36
 end
-arch dungeon_floor
+arch redmarble
 x 25
 y 36
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 37
 end
@@ -8121,43 +8130,43 @@ x 25
 y 37
 connected 96
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 38
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 39
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 40
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 41
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 42
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 43
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 44
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 45
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 46
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 47
 end
@@ -8172,7 +8181,7 @@ sp 2
 x 25
 y 48
 end
-arch dungeon_floor
+arch dcross-red
 x 25
 y 49
 end

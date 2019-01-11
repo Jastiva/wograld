@@ -6,8 +6,9 @@ width 60
 height 60
 msg
 Created:  1994-02-31
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2019-01-07 lori
 endmsg
+background_music fool01b
 end
 arch blocked
 end
@@ -12282,7 +12283,7 @@ arch bwall_0
 x 33
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 33
 y 37
 end
@@ -12290,7 +12291,7 @@ arch chest
 x 33
 y 37
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 33
 y 38
 end
@@ -12298,7 +12299,7 @@ arch chest
 x 33
 y 38
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 33
 y 39
 end
@@ -12306,7 +12307,7 @@ arch chest
 x 33
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 33
 y 40
 end
@@ -12756,19 +12757,19 @@ arch bwall_0
 x 34
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 37
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 38
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 40
 end
@@ -12784,7 +12785,7 @@ arch dungeon_floor
 x 34
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 43
 end
@@ -12792,11 +12793,11 @@ arch dungeon_floor
 x 34
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 45
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 46
 end
@@ -12808,7 +12809,7 @@ arch guard
 x 34
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 34
 y 48
 end
@@ -12832,11 +12833,11 @@ arch bwall_0
 x 34
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 34
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 34
 y 53
 end
@@ -12848,7 +12849,7 @@ arch dungeon_floor
 x 34
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 34
 y 56
 end
@@ -12856,7 +12857,7 @@ arch chinese_dragon
 x 34
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 34
 y 57
 end
@@ -13082,7 +13083,7 @@ arch bat
 x 35
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 27
 end
@@ -13090,7 +13091,7 @@ arch bat
 x 35
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 28
 end
@@ -13098,7 +13099,7 @@ arch bat
 x 35
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 29
 end
@@ -13154,7 +13155,7 @@ arch bwall_0
 x 35
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 37
 end
@@ -13162,7 +13163,7 @@ arch dungeon_floor
 x 35
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 39
 end
@@ -13170,7 +13171,7 @@ arch dungeon_floor
 x 35
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 41
 end
@@ -13178,7 +13179,7 @@ arch dungeon_floor
 x 35
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 43
 end
@@ -13186,7 +13187,7 @@ arch dungeon_floor
 x 35
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 45
 end
@@ -13194,15 +13195,15 @@ arch dungeon_floor
 x 35
 y 46
 end
-arch dungeon_floor
+arch stonefloor2
 x 35
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 35
 y 49
 end
@@ -13222,7 +13223,7 @@ arch bwall_0
 x 35
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 52
 end
@@ -13230,7 +13231,7 @@ arch door_2_1_1
 x 35
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 53
 end
@@ -13238,23 +13239,23 @@ arch door_2_2_1
 x 35
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 57
 end
-arch dungeon_floor
+arch lostlabfloor
 x 35
 y 58
 end
@@ -13416,7 +13417,7 @@ arch random_food
 x 36
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 19
 end
@@ -13432,7 +13433,7 @@ arch bat
 x 36
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 22
 end
@@ -13440,7 +13441,7 @@ arch bat
 x 36
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 23
 end
@@ -13472,7 +13473,7 @@ arch grimreaper
 x 36
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 27
 end
@@ -13496,7 +13497,7 @@ arch bat
 x 36
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 30
 end
@@ -13504,7 +13505,7 @@ arch bat
 x 36
 y 30
 end
-arch dungeon_floor
+arch pstone_4
 x 36
 y 31
 end
@@ -13540,11 +13541,11 @@ arch bwall_0
 x 36
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 38
 end
@@ -13552,7 +13553,7 @@ arch dungeon_floor
 x 36
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 40
 end
@@ -13560,7 +13561,7 @@ arch dungeon_floor
 x 36
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 42
 end
@@ -13568,7 +13569,7 @@ arch dungeon_floor
 x 36
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 44
 end
@@ -13576,7 +13577,7 @@ arch dungeon_floor
 x 36
 y 45
 end
-arch dungeon_floor
+arch stonefloor2
 x 36
 y 46
 end
@@ -13584,11 +13585,11 @@ arch dungeon_floor
 x 36
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 36
 y 49
 end
@@ -13617,7 +13618,7 @@ arch dungeon_floor
 x 36
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 36
 y 53
 end
@@ -13625,7 +13626,7 @@ arch door_2_1_2
 x 36
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 36
 y 54
 end
@@ -13645,7 +13646,7 @@ arch chinese_dragon
 x 36
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 36
 y 57
 end
@@ -13807,7 +13808,7 @@ arch dungeon_floor
 x 37
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 19
 end
@@ -13823,7 +13824,7 @@ arch bat
 x 37
 y 21
 end
-arch dungeon_floor
+arch pstone_4
 x 37
 y 22
 end
@@ -13839,7 +13840,7 @@ arch bat
 x 37
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 24
 end
@@ -13855,7 +13856,7 @@ arch bat
 x 37
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 26
 end
@@ -13863,7 +13864,7 @@ arch bat
 x 37
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 27
 end
@@ -13895,7 +13896,7 @@ arch bat
 x 37
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 31
 end
@@ -13903,11 +13904,11 @@ arch bat
 x 37
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 32
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 33
 end
@@ -13927,7 +13928,7 @@ arch door_look_1
 x 37
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 37
 end
@@ -13935,7 +13936,7 @@ arch dungeon_floor
 x 37
 y 38
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 39
 end
@@ -13943,7 +13944,7 @@ arch dungeon_floor
 x 37
 y 40
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 41
 end
@@ -13951,7 +13952,7 @@ arch dungeon_floor
 x 37
 y 42
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 43
 end
@@ -13959,7 +13960,7 @@ arch dungeon_floor
 x 37
 y 44
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 45
 end
@@ -13967,15 +13968,15 @@ arch dungeon_floor
 x 37
 y 46
 end
-arch dungeon_floor
+arch stonefloor2
 x 37
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 37
 y 49
 end
@@ -14004,7 +14005,7 @@ arch dungeon_floor
 x 37
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 37
 y 53
 end
@@ -14012,15 +14013,15 @@ arch door_2_1_2
 x 37
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 37
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 37
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 37
 y 56
 end
@@ -14028,7 +14029,7 @@ arch dungeon_floor
 x 37
 y 57
 end
-arch dungeon_floor
+arch lostlabfloor
 x 37
 y 58
 end
@@ -14186,15 +14187,15 @@ arch dungeon_floor
 x 38
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 19
 end
-arch dungeon_floor
+arch pstone_4
 x 38
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 21
 end
@@ -14218,7 +14219,7 @@ arch bat
 x 38
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 24
 end
@@ -14226,7 +14227,7 @@ arch bat
 x 38
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 25
 end
@@ -14234,7 +14235,7 @@ arch bat
 x 38
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 26
 end
@@ -14242,7 +14243,7 @@ arch bat
 x 38
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 27
 end
@@ -14250,7 +14251,7 @@ arch bat
 x 38
 y 27
 end
-arch dungeon_floor
+arch pstone_4
 x 38
 y 28
 end
@@ -14282,19 +14283,19 @@ arch bat
 x 38
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 32
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 33
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 34
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 35
 end
@@ -14306,11 +14307,11 @@ arch door_look_1
 x 38
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 37
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 38
 end
@@ -14318,7 +14319,7 @@ arch dungeon_floor
 x 38
 y 39
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 40
 end
@@ -14326,7 +14327,7 @@ arch dungeon_floor
 x 38
 y 41
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 42
 end
@@ -14334,7 +14335,7 @@ arch dungeon_floor
 x 38
 y 43
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 44
 end
@@ -14342,7 +14343,7 @@ arch dungeon_floor
 x 38
 y 45
 end
-arch dungeon_floor
+arch stonefloor2
 x 38
 y 46
 end
@@ -14350,11 +14351,11 @@ arch dungeon_floor
 x 38
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 38
 y 49
 end
@@ -14383,7 +14384,7 @@ arch dungeon_floor
 x 38
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 38
 y 53
 end
@@ -14391,7 +14392,7 @@ arch door_2_1_2
 x 38
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 38
 y 54
 end
@@ -14399,15 +14400,15 @@ arch dungeon_floor
 x 38
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 38
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 38
 y 57
 end
-arch dungeon_floor
+arch lostlabfloor
 x 38
 y 58
 end
@@ -14573,11 +14574,11 @@ arch dungeon_floor
 x 39
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 20
 end
-arch dungeon_floor
+arch pstone_4
 x 39
 y 21
 end
@@ -14585,7 +14586,7 @@ arch bat
 x 39
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 22
 end
@@ -14593,7 +14594,7 @@ arch bat
 x 39
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 23
 end
@@ -14601,7 +14602,7 @@ arch bat
 x 39
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 24
 end
@@ -14613,7 +14614,7 @@ arch bat
 x 39
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 25
 end
@@ -14621,7 +14622,7 @@ arch bat
 x 39
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 26
 end
@@ -14629,7 +14630,7 @@ arch bat
 x 39
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 27
 end
@@ -14637,7 +14638,7 @@ arch bat
 x 39
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 28
 end
@@ -14645,7 +14646,7 @@ arch bat
 x 39
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 29
 end
@@ -14657,7 +14658,7 @@ arch bat
 x 39
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 30
 end
@@ -14665,7 +14666,7 @@ arch bat
 x 39
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 31
 end
@@ -14673,19 +14674,19 @@ arch bat
 x 39
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 32
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 33
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 34
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 35
 end
@@ -14701,23 +14702,23 @@ arch bwall_0
 x 39
 y 36
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 37
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 38
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 41
 end
@@ -14725,27 +14726,27 @@ arch guard
 x 39
 y 41
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 43
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 45
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 46
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 47
 end
@@ -14753,11 +14754,11 @@ arch guard
 x 39
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor3
 x 39
 y 49
 end
@@ -14785,7 +14786,7 @@ arch door_2_1_1
 x 39
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 39
 y 53
 end
@@ -14793,7 +14794,7 @@ arch door_2_2_4
 x 39
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 39
 y 54
 end
@@ -14801,11 +14802,11 @@ arch chinese_dragon
 x 39
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 39
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 39
 y 56
 end
@@ -15253,15 +15254,15 @@ arch bwall_0
 x 40
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 40
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 40
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 40
 y 54
 end
@@ -15269,11 +15270,11 @@ arch dungeon_floor
 x 40
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 40
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 40
 y 57
 end
@@ -15311,7 +15312,7 @@ arch dungeon_floor
 x 41
 y 4
 end
-arch dungeon_floor
+arch pstone_4
 x 41
 y 5
 end
@@ -15323,7 +15324,7 @@ arch dungeon_floor
 x 41
 y 7
 end
-arch dungeon_floor
+arch pstone_4
 x 41
 y 8
 end
@@ -15578,11 +15579,11 @@ arch dungeon_floor
 x 41
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 41
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 41
 y 55
 end
@@ -15590,7 +15591,7 @@ arch dungeon_floor
 x 41
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 41
 y 57
 end
@@ -15612,39 +15613,39 @@ end
 arch bwall_0
 x 42
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 1
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 4
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 5
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 6
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 7
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 8
 end
-arch dungeon_floor
+arch pstone_4
 x 42
 y 9
 end
@@ -15656,7 +15657,7 @@ arch bwall_0
 x 42
 y 10
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 11
 end
@@ -15672,7 +15673,7 @@ arch dungeon_floor
 x 42
 y 14
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 15
 end
@@ -15680,11 +15681,11 @@ arch dungeon_floor
 x 42
 y 16
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 17
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 18
 end
@@ -15704,23 +15705,23 @@ arch dungeon_floor
 x 42
 y 22
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 23
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 24
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 25
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 26
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 27
 end
@@ -15728,7 +15729,7 @@ arch dungeon_floor
 x 42
 y 28
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 29
 end
@@ -15740,7 +15741,7 @@ arch dungeon_floor
 x 42
 y 31
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 32
 end
@@ -15748,7 +15749,7 @@ arch dungeon_floor
 x 42
 y 33
 end
-arch dungeon_floor
+arch dirtfloor
 x 42
 y 34
 end
@@ -15793,7 +15794,7 @@ arch bwall_0
 x 42
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 41
 end
@@ -15813,19 +15814,19 @@ arch dungeon_floor
 x 42
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 45
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 46
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 48
 end
@@ -15837,7 +15838,7 @@ arch dungeon_floor
 x 42
 y 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 50
 end
@@ -15877,7 +15878,7 @@ arch chinese_dragon
 x 42
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 42
 y 57
 end
@@ -15899,11 +15900,11 @@ end
 arch bwall_0
 x 43
 end
-arch dungeon_floor
+arch pstone_4
 x 43
 y 1
 end
-arch dungeon_floor
+arch pstone_4
 x 43
 y 2
 end
@@ -15911,11 +15912,11 @@ arch big_dragon
 x 43
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 4
 end
@@ -15923,11 +15924,11 @@ arch big_dragon
 x 43
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 6
 end
@@ -15935,11 +15936,11 @@ arch big_dragon
 x 43
 y 6
 end
-arch dungeon_floor
+arch pstone_4
 x 43
 y 7
 end
-arch dungeon_floor
+arch pstone_4
 x 43
 y 8
 end
@@ -15963,7 +15964,7 @@ arch dungeon_floor
 x 43
 y 12
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 13
 end
@@ -15995,7 +15996,7 @@ arch dungeon_floor
 x 43
 y 18
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 19
 end
@@ -16011,7 +16012,7 @@ arch chest
 x 43
 y 21
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 22
 end
@@ -16043,7 +16044,7 @@ arch chest
 x 43
 y 27
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 28
 end
@@ -16051,7 +16052,7 @@ arch dungeon_floor
 x 43
 y 29
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 30
 end
@@ -16083,7 +16084,7 @@ arch food
 x 43
 y 34
 end
-arch dungeon_floor
+arch dirtfloor
 x 43
 y 35
 end
@@ -16127,15 +16128,15 @@ arch bwall_0
 x 43
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 41
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 43
 end
@@ -16143,7 +16144,7 @@ arch dungeon_floor
 x 43
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 45
 end
@@ -16163,7 +16164,7 @@ arch dungeon_floor
 x 43
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 49
 end
@@ -16171,19 +16172,19 @@ arch dungeon_floor
 x 43
 y 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 54
 end
@@ -16191,7 +16192,7 @@ arch dungeon_floor
 x 43
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 56
 end
@@ -16199,7 +16200,7 @@ arch dungeon_floor
 x 43
 y 57
 end
-arch dungeon_floor
+arch lostlabfloor
 x 43
 y 58
 end
@@ -16217,7 +16218,7 @@ end
 arch bwall_0
 x 44
 end
-arch dungeon_floor
+arch pstone_4
 x 44
 y 1
 end
@@ -16225,7 +16226,7 @@ arch dungeon_floor
 x 44
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 3
 end
@@ -16233,23 +16234,23 @@ arch dungeon_floor
 x 44
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 7
 end
-arch dungeon_floor
+arch pstone_4
 x 44
 y 8
 end
-arch dungeon_floor
+arch pstone_4
 x 44
 y 9
 end
@@ -16481,11 +16482,11 @@ arch chinese_dragon
 x 44
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 41
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 42
 end
@@ -16493,15 +16494,15 @@ arch dungeon_floor
 x 44
 y 43
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 45
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 46
 end
@@ -16521,11 +16522,11 @@ arch dungeon_floor
 x 44
 y 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 51
 end
@@ -16533,15 +16534,15 @@ arch chinese_dragon
 x 44
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 54
 end
@@ -16553,7 +16554,7 @@ arch dungeon_floor
 x 44
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 44
 y 56
 end
@@ -16579,35 +16580,35 @@ end
 arch bwall_0
 x 45
 end
-arch dungeon_floor
+arch pstone_4
 x 45
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 8
 end
@@ -16648,7 +16649,7 @@ arch dungeon_floor
 x 45
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 16
 end
@@ -16664,7 +16665,7 @@ arch dungeon_floor
 x 45
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 20
 end
@@ -16672,11 +16673,11 @@ arch dungeon_floor
 x 45
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 23
 end
@@ -16756,11 +16757,11 @@ arch dungeon_floor
 x 45
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 41
 end
@@ -16776,11 +16777,11 @@ arch dungeon_floor
 x 45
 y 43
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 45
 end
@@ -16788,7 +16789,7 @@ arch dungeon_floor
 x 45
 y 46
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 47
 end
@@ -16800,7 +16801,7 @@ arch dungeon_floor
 x 45
 y 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 50
 end
@@ -16808,7 +16809,7 @@ arch dungeon_floor
 x 45
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 52
 end
@@ -16820,11 +16821,11 @@ arch dungeon_floor
 x 45
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 45
 y 56
 end
@@ -16854,11 +16855,11 @@ end
 arch bwall_0
 x 46
 end
-arch dungeon_floor
+arch pstone_4
 x 46
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 2
 end
@@ -16866,11 +16867,11 @@ arch big_dragon
 x 46
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 4
 end
@@ -16878,19 +16879,19 @@ arch big_dragon
 x 46
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 8
 end
@@ -16927,19 +16928,19 @@ arch bwall_0
 x 46
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 18
 end
@@ -16947,7 +16948,7 @@ arch big_dragon
 x 46
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 19
 end
@@ -16959,11 +16960,11 @@ arch big_dragon
 x 46
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 22
 end
@@ -16975,7 +16976,7 @@ arch dungeon_floor
 x 46
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 24
 end
@@ -16983,11 +16984,11 @@ arch big_dragon
 x 46
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 26
 end
@@ -16995,11 +16996,11 @@ arch big_dragon
 x 46
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 28
 end
@@ -17007,11 +17008,11 @@ arch big_dragon
 x 46
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 30
 end
@@ -17019,7 +17020,7 @@ arch big_dragon
 x 46
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 31
 end
@@ -17039,7 +17040,7 @@ arch bwall_0
 x 46
 y 34
 end
-arch dungeon_floor
+arch dirtfloor
 x 46
 y 35
 end
@@ -17047,7 +17048,7 @@ arch food
 x 46
 y 35
 end
-arch dungeon_floor
+arch dirtfloor
 x 46
 y 36
 end
@@ -17067,7 +17068,7 @@ arch dungeon_floor
 x 46
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 40
 end
@@ -17079,15 +17080,15 @@ arch dungeon_floor
 x 46
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 43
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 45
 end
@@ -17103,7 +17104,7 @@ arch dungeon_floor
 x 46
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 48
 end
@@ -17115,7 +17116,7 @@ arch dungeon_floor
 x 46
 y 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 50
 end
@@ -17123,7 +17124,7 @@ arch chinese_dragon
 x 46
 y 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 51
 end
@@ -17139,15 +17140,15 @@ arch chinese_dragon
 x 46
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 46
 y 56
 end
@@ -17173,7 +17174,7 @@ end
 arch bwall_0
 x 47
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 1
 end
@@ -17181,19 +17182,19 @@ arch dungeon_floor
 x 47
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 6
 end
@@ -17201,11 +17202,11 @@ arch big_dragon
 x 47
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 8
 end
@@ -17226,7 +17227,7 @@ arch dungeon_floor
 x 47
 y 11
 end
-arch dungeon_floor
+arch dirtfloor
 x 47
 y 12
 end
@@ -17242,7 +17243,7 @@ arch bwall_0
 x 47
 y 14
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 15
 end
@@ -17262,11 +17263,11 @@ arch dungeon_floor
 x 47
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 21
 end
@@ -17282,7 +17283,7 @@ arch dungeon_floor
 x 47
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 25
 end
@@ -17298,7 +17299,7 @@ arch dungeon_floor
 x 47
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 29
 end
@@ -17306,11 +17307,11 @@ arch dungeon_floor
 x 47
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 32
 end
@@ -17334,7 +17335,7 @@ arch food
 x 47
 y 35
 end
-arch dungeon_floor
+arch dirtfloor
 x 47
 y 36
 end
@@ -17350,7 +17351,7 @@ arch door_look_1
 x 47
 y 38
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 39
 end
@@ -17358,7 +17359,7 @@ arch chinese_dragon
 x 47
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 40
 end
@@ -17370,11 +17371,11 @@ arch chinese_dragon
 x 47
 y 41
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 43
 end
@@ -17394,11 +17395,11 @@ arch dungeon_floor
 x 47
 y 46
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 48
 end
@@ -17410,27 +17411,27 @@ arch dungeon_floor
 x 47
 y 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 56
 end
@@ -17438,7 +17439,7 @@ arch chinese_dragon
 x 47
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 47
 y 57
 end
@@ -17460,23 +17461,23 @@ end
 arch bwall_0
 x 48
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 5
 end
@@ -17488,7 +17489,7 @@ arch dungeon_floor
 x 48
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 8
 end
@@ -17529,7 +17530,7 @@ arch dungeon_floor
 x 48
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 16
 end
@@ -17553,7 +17554,7 @@ arch dungeon_floor
 x 48
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 22
 end
@@ -17569,7 +17570,7 @@ arch dungeon_floor
 x 48
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 26
 end
@@ -17585,15 +17586,15 @@ arch dungeon_floor
 x 48
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 32
 end
@@ -17609,7 +17610,7 @@ arch bwall_0
 x 48
 y 34
 end
-arch dungeon_floor
+arch dirtfloor
 x 48
 y 35
 end
@@ -17625,7 +17626,7 @@ arch food
 x 48
 y 36
 end
-arch dungeon_floor
+arch dirtfloor
 x 48
 y 37
 end
@@ -17641,23 +17642,23 @@ arch bwall_0
 x 48
 y 38
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 39
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 40
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 41
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 42
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 43
 end
@@ -17665,55 +17666,55 @@ arch dungeon_floor
 x 48
 y 44
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 45
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 46
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 47
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 48
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 56
 end
-arch dungeon_floor
+arch lostlabfloor
 x 48
 y 57
 end
@@ -17735,23 +17736,23 @@ end
 arch bwall_0
 x 49
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 5
 end
@@ -17759,11 +17760,11 @@ arch dungeon_floor
 x 49
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 8
 end
@@ -17784,7 +17785,7 @@ arch dungeon_floor
 x 49
 y 11
 end
-arch dungeon_floor
+arch dirtfloor
 x 49
 y 12
 end
@@ -17809,15 +17810,15 @@ arch dungeon_floor
 x 49
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 19
 end
@@ -17829,7 +17830,7 @@ arch dungeon_floor
 x 49
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 22
 end
@@ -17849,7 +17850,7 @@ arch dungeon_floor
 x 49
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 27
 end
@@ -17861,7 +17862,7 @@ arch dungeon_floor
 x 49
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 30
 end
@@ -17869,7 +17870,7 @@ arch dungeon_floor
 x 49
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 49
 y 32
 end
@@ -18091,27 +18092,27 @@ end
 arch bwall_0
 x 50
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 6
 end
@@ -18119,7 +18120,7 @@ arch dungeon_floor
 x 50
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 8
 end
@@ -18156,27 +18157,27 @@ x 50
 y 14
 connected 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 16
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 20
 end
@@ -18188,11 +18189,11 @@ arch dungeon_floor
 x 50
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 24
 end
@@ -18204,27 +18205,27 @@ arch dungeon_floor
 x 50
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 50
 y 32
 end
@@ -18324,23 +18325,23 @@ arch bwall_0
 x 50
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 49
 end
@@ -18348,23 +18349,23 @@ arch guard
 x 50
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 54
 end
@@ -18372,15 +18373,15 @@ arch guard
 x 50
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 50
 y 57
 end
@@ -18402,19 +18403,19 @@ end
 arch bwall_0
 x 51
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 4
 end
@@ -18426,11 +18427,11 @@ arch dungeon_floor
 x 51
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 8
 end
@@ -18450,7 +18451,7 @@ arch dungeon_floor
 x 51
 y 11
 end
-arch dungeon_floor
+arch dirtfloor
 x 51
 y 12
 end
@@ -18471,7 +18472,7 @@ arch dungeon_floor
 x 51
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 16
 end
@@ -18479,27 +18480,27 @@ arch dungeon_floor
 x 51
 y 17
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 18
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 19
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 20
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 21
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 23
 end
@@ -18507,7 +18508,7 @@ arch dungeon_floor
 x 51
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 25
 end
@@ -18519,23 +18520,23 @@ arch dungeon_floor
 x 51
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 51
 y 32
 end
@@ -18631,59 +18632,59 @@ arch bwall_0
 x 51
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 57
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 51
 y 58
 end
@@ -18701,11 +18702,11 @@ end
 arch bwall_0
 x 52
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 2
 end
@@ -18713,7 +18714,7 @@ arch big_dragon
 x 52
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 3
 end
@@ -18725,11 +18726,11 @@ arch big_dragon
 x 52
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 6
 end
@@ -18741,7 +18742,7 @@ arch dungeon_floor
 x 52
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 8
 end
@@ -18778,11 +18779,11 @@ x 52
 y 14
 connected 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 15
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 16
 end
@@ -18810,43 +18811,43 @@ arch dungeon_floor
 x 52
 y 22
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 23
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 24
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 25
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 26
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 27
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 28
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 29
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 30
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 31
 end
-arch dungeon_floor
+arch lostlabfloor
 x 52
 y 32
 end
@@ -18942,59 +18943,59 @@ arch door_look_1
 x 52
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 57
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 52
 y 58
 end
@@ -19012,7 +19013,7 @@ end
 arch bwall_0
 x 53
 end
-arch dungeon_floor
+arch lostlabfloor
 x 53
 y 1
 end
@@ -19020,7 +19021,7 @@ arch dungeon_floor
 x 53
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 53
 y 3
 end
@@ -19028,7 +19029,7 @@ arch dungeon_floor
 x 53
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 53
 y 5
 end
@@ -19036,11 +19037,11 @@ arch dungeon_floor
 x 53
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 53
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 53
 y 8
 end
@@ -19327,59 +19328,59 @@ arch door_look_1
 x 53
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 57
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 53
 y 58
 end
@@ -19397,15 +19398,15 @@ end
 arch bwall_0
 x 54
 end
-arch dungeon_floor
+arch lostlabfloor
 x 54
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 54
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 54
 y 3
 end
@@ -19413,7 +19414,7 @@ arch dungeon_floor
 x 54
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 54
 y 5
 end
@@ -19425,7 +19426,7 @@ arch dungeon_floor
 x 54
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 54
 y 8
 end
@@ -19638,59 +19639,59 @@ arch bwall_0
 x 54
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 57
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 54
 y 58
 end
@@ -19708,31 +19709,31 @@ end
 arch bwall_0
 x 55
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 1
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 2
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 55
 y 7
 end
@@ -19752,11 +19753,11 @@ arch bwall_0
 x 55
 y 10
 end
-arch dungeon_floor
+arch dirtfloor
 x 55
 y 11
 end
-arch dungeon_floor
+arch dirtfloor
 x 55
 y 12
 end
@@ -19949,23 +19950,23 @@ arch bwall_0
 x 55
 y 44
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 45
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 46
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 47
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 48
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 49
 end
@@ -19973,23 +19974,23 @@ arch guard
 x 55
 y 49
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 50
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 51
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 52
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 53
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 54
 end
@@ -19997,19 +19998,19 @@ arch guard
 x 55
 y 54
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 55
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 56
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 57
 end
-arch dungeon_floor
+arch blacklostlabfloor8
 x 55
 y 58
 end
@@ -20027,35 +20028,35 @@ end
 arch bwall_0
 x 56
 end
-arch dungeon_floor
+arch pstone_4
 x 56
 y 1
 end
-arch dungeon_floor
+arch pstone_4
 x 56
 y 2
 end
-arch dungeon_floor
+arch pstone_4
 x 56
 y 3
 end
-arch dungeon_floor
+arch lostlabfloor
 x 56
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 56
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 56
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 56
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 56
 y 8
 end
@@ -20083,7 +20084,7 @@ arch dungeon_floor
 x 56
 y 13
 end
-arch dungeon_floor
+arch dirtfloor
 x 56
 y 14
 end
@@ -20398,35 +20399,35 @@ end
 arch bwall_0
 x 57
 end
-arch dungeon_floor
+arch pstone_4
 x 57
 y 1
 end
-arch dungeon_floor
+arch pstone_4
 x 57
 y 2
 end
-arch dungeon_floor
+arch pstone_4
 x 57
 y 3
 end
-arch dungeon_floor
+arch pstone_4
 x 57
 y 4
 end
-arch dungeon_floor
+arch lostlabfloor
 x 57
 y 5
 end
-arch dungeon_floor
+arch lostlabfloor
 x 57
 y 6
 end
-arch dungeon_floor
+arch lostlabfloor
 x 57
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 57
 y 8
 end
@@ -20446,7 +20447,7 @@ arch dungeon_floor
 x 57
 y 11
 end
-arch dungeon_floor
+arch dirtfloor
 x 57
 y 12
 end
@@ -20454,7 +20455,7 @@ arch dungeon_floor
 x 57
 y 13
 end
-arch dungeon_floor
+arch dirtfloor
 x 57
 y 14
 end
@@ -20785,35 +20786,35 @@ end
 arch bwall_0
 x 58
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 1
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 2
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 3
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 4
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 5
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 6
 end
-arch dungeon_floor
+arch pstone_4
 x 58
 y 7
 end
-arch dungeon_floor
+arch lostlabfloor
 x 58
 y 8
 end
@@ -20829,7 +20830,7 @@ arch bwall_0
 x 58
 y 10
 end
-arch dungeon_floor
+arch dirtfloor
 x 58
 y 11
 end
