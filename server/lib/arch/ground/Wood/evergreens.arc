@@ -1,5 +1,6 @@
 Object evergreens
 face evergreens.111
+name pine sappling
 type 67
 race /terrain/forest
 walk_on 1

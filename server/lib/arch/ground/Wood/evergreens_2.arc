@@ -1,5 +1,5 @@
 Object evergreens2
-name evergreens
+name pine sappling
 face evergreens_2.111
 type 67
 race /terrain/forest

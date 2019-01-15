@@ -1,6 +1,6 @@
 Object white-green-x-marble_111
 face white-green-x-marble.111
-name marble
+name tile floor (green)
 no_pick 1
 is_floor 1
 editable 8
@@ -11,7 +11,7 @@ end
 
 Object white-green-x-marble_112
 face white-green-x-marble.112
-name marble
+name tile floor (green)
 no_pick 1
 is_floor 1
 editable 8
@@ -22,7 +22,7 @@ end
 
 Object white-green-x-marble_113
 face white-green-x-marble.113
-name marble
+name tile floor (yellow)
 no_pick 1
 is_floor 1
 editable 8
@@ -33,7 +33,7 @@ end
 
 Object white-green-x-marble_114
 face white-green-x-marble.114
-name marble
+name tile floor (red)
 no_pick 1
 is_floor 1
 editable 8
@@ -44,7 +44,7 @@ end
 
 Object white-green-x-marble_115
 face white-green-x-marble.115
-name marble
+name cave (dark)
 no_pick 1
 is_floor 1
 editable 8
@@ -55,7 +55,7 @@ end
 
 Object white-green-x-marble_116
 face white-green-x-marble.116
-name marble
+name tile (orange)
 no_pick 1
 is_floor 1
 editable 8
@@ -67,7 +67,7 @@ end
 
 Object white-green-x-marble_117
 face white-green-x-marble.117
-name marble
+name pink marble (heart)
 no_pick 1
 is_floor 1
 editable 8
@@ -78,7 +78,7 @@ end
 
 Object white-green-x-marble_118
 face white-green-x-marble.118
-name marble
+name red marble (heart)
 no_pick 1
 is_floor 1
 editable 8
@@ -89,7 +89,7 @@ end
 
 Object white-green-x-marble_119
 face white-green-x-marble.119
-name marble
+name rug (orange)
 no_pick 1
 is_floor 1
 editable 8

@@ -3,13 +3,14 @@ name world_113_115
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-01-15 lori
 endmsg
 outdoor 1
 tile_path_1 world_113_114
 tile_path_2 world_114_115
 tile_path_3 world_113_116
 tile_path_4 world_112_115
+background_music snow01
 end
 arch mountain2
 elevation 10733
@@ -90,123 +91,123 @@ arch mountain2
 y 19
 elevation 11045
 end
-arch mountain2
+arch snow
 y 20
 elevation 9720
 end
-arch mountain
+arch snow
 y 21
 elevation 7905
 end
-arch mountain2
+arch snow
 y 22
 elevation 10101
 end
-arch mountain2
+arch snow
 y 23
 elevation 9360
 end
-arch mountain
+arch snow
 y 24
 elevation 5315
 end
-arch mountain
+arch snow
 y 25
 elevation 7706
 end
-arch mountain
+arch snow
 y 26
 elevation 7791
 end
-arch mountain
+arch snow
 y 27
 elevation 5375
 end
-arch mountain
+arch snow
 y 28
 elevation 7260
 end
-arch mountain2
+arch snow
 y 29
 elevation 9842
 end
-arch mountain2
+arch snow
 y 30
 elevation 10129
 end
-arch mountain2
+arch snow
 y 31
 elevation 9311
 end
-arch mountain
+arch snow
 y 32
 elevation 6691
 end
-arch mountain
+arch snow
 y 33
 elevation 8849
 end
-arch mountain2
+arch snow
 y 34
 elevation 9205
 end
-arch mountain2
+arch snow
 y 35
 elevation 9042
 end
-arch mountain
+arch snow
 y 36
 elevation 8655
 end
-arch mountain
+arch snow
 y 37
 elevation 8181
 end
-arch mountain
+arch snow
 y 38
 elevation 7598
 end
-arch mountain
+arch snow
 y 39
 elevation 7276
 end
-arch mountain
+arch snow
 y 40
 elevation 7191
 end
-arch mountain
+arch snow
 y 41
 elevation 6691
 end
-arch mountain
+arch snow
 y 42
 elevation 7720
 end
-arch mountain
+arch snow
 y 43
 elevation 7722
 end
-arch mountain
+arch snow
 y 44
 elevation 6204
 end
-arch mountain
+arch snow
 y 45
 elevation 6069
 end
-arch mountain
+arch snow
 y 46
 elevation 7556
 end
-arch mountain
+arch snow
 y 47
 elevation 7692
 end
-arch mountain
+arch snow
 y 48
 elevation 7593
 end
-arch mountain
+arch snow
 y 49
 elevation 7702
 end
@@ -304,12 +305,12 @@ x 1
 y 18
 elevation 10377
 end
-arch mountain2
+arch snow
 x 1
 y 19
 elevation 10187
 end
-arch mountain2
+arch snow
 x 1
 y 20
 elevation 9816
@@ -324,27 +325,27 @@ x 1
 y 22
 elevation 9604
 end
-arch mountain2
+arch snow
 x 1
 y 23
 elevation 9050
 end
-arch mountain
+arch snow
 x 1
 y 24
 elevation 7537
 end
-arch mountain
+arch snow
 x 1
 y 25
 elevation 6840
 end
-arch mountain
+arch snow
 x 1
 y 26
 elevation 6812
 end
-arch mountain
+arch snow
 x 1
 y 27
 elevation 6539
@@ -354,7 +355,7 @@ x 1
 y 28
 elevation 6806
 end
-arch mountain
+arch snow2
 x 1
 y 29
 elevation 7391
@@ -369,12 +370,12 @@ x 1
 y 31
 elevation 7428
 end
-arch mountain
+arch snow
 x 1
 y 32
 elevation 7461
 end
-arch mountain
+arch snow
 x 1
 y 33
 elevation 7445
@@ -399,7 +400,7 @@ x 1
 y 37
 elevation 7097
 end
-arch mountain
+arch snow
 x 1
 y 38
 elevation 6776
@@ -414,47 +415,47 @@ x 1
 y 40
 elevation 7133
 end
-arch mountain
+arch snow
 x 1
 y 41
 elevation 8247
 end
-arch mountain
+arch snow
 x 1
 y 42
 elevation 8799
 end
-arch mountain
+arch snow
 x 1
 y 43
 elevation 8203
 end
-arch mountain
+arch snow
 x 1
 y 44
 elevation 7149
 end
-arch mountain
+arch snow
 x 1
 y 45
 elevation 6706
 end
-arch mountain
+arch snow
 x 1
 y 46
 elevation 6650
 end
-arch mountain
+arch snow
 x 1
 y 47
 elevation 6516
 end
-arch mountain
+arch snow
 x 1
 y 48
 elevation 7048
 end
-arch mountain
+arch snow2
 x 1
 y 49
 elevation 7504
@@ -558,12 +559,12 @@ x 2
 y 19
 elevation 9511
 end
-arch mountain2
+arch snow
 x 2
 y 20
 elevation 9331
 end
-arch mountain2
+arch snow
 x 2
 y 21
 elevation 9511
@@ -573,22 +574,22 @@ x 2
 y 22
 elevation 9708
 end
-arch mountain2
+arch snow
 x 2
 y 23
 elevation 9472
 end
-arch mountain
+arch snow
 x 2
 y 24
 elevation 8788
 end
-arch mountain
+arch snow
 x 2
 y 25
 elevation 7681
 end
-arch mountain
+arch snow
 x 2
 y 26
 elevation 6488
@@ -603,7 +604,7 @@ x 2
 y 28
 elevation 6051
 end
-arch mountain
+arch snow2
 x 2
 y 29
 elevation 5432
@@ -618,17 +619,17 @@ x 2
 y 31
 elevation 6051
 end
-arch mountain
+arch snow
 x 2
 y 32
 elevation 6311
 end
-arch mountain
+arch snow
 x 2
 y 33
 elevation 5329
 end
-arch mountain
+arch snow
 x 2
 y 34
 elevation 5656
@@ -648,7 +649,7 @@ x 2
 y 37
 elevation 6015
 end
-arch mountain
+arch snow
 x 2
 y 38
 elevation 5929
@@ -663,47 +664,47 @@ x 2
 y 40
 elevation 6746
 end
-arch mountain
+arch snow
 x 2
 y 41
 elevation 8226
 end
-arch mountain
+arch snow
 x 2
 y 42
 elevation 8702
 end
-arch mountain
+arch snow
 x 2
 y 43
 elevation 7881
 end
-arch mountain
+arch snow
 x 2
 y 44
 elevation 5940
 end
-arch mountain
+arch snow
 x 2
 y 45
 elevation 6316
 end
-arch mountain
+arch snow
 x 2
 y 46
 elevation 5986
 end
-arch mountain
+arch snow2
 x 2
 y 47
 elevation 5032
 end
-arch mountain
+arch snow2
 x 2
 y 48
 elevation 5524
 end
-arch mountain
+arch snow2
 x 2
 y 49
 elevation 6921
@@ -827,17 +828,17 @@ x 3
 y 23
 elevation 9352
 end
-arch mountain2
+arch snow
 x 3
 y 24
 elevation 9503
 end
-arch mountain
+arch snow
 x 3
 y 25
 elevation 8151
 end
-arch mountain
+arch snow
 x 3
 y 26
 elevation 5357
@@ -852,7 +853,7 @@ x 3
 y 28
 elevation 5388
 end
-arch mountain
+arch snow2
 x 3
 y 29
 elevation 5508
@@ -867,12 +868,12 @@ x 3
 y 31
 elevation 5302
 end
-arch mountain
+arch snow
 x 3
 y 32
 elevation 5068
 end
-arch mountain
+arch snow
 x 3
 y 33
 elevation 5466
@@ -897,7 +898,7 @@ x 3
 y 37
 elevation 6186
 end
-arch mountain
+arch snow
 x 3
 y 38
 elevation 5621
@@ -912,37 +913,37 @@ x 3
 y 40
 elevation 5968
 end
-arch mountain
+arch snow
 x 3
 y 41
 elevation 7280
 end
-arch mountain
+arch snow
 x 3
 y 42
 elevation 7326
 end
-arch mountain
+arch snow
 x 3
 y 43
 elevation 6562
 end
-arch mountain
+arch snow
 x 3
 y 44
 elevation 5321
 end
-arch mountain
+arch snow
 x 3
 y 45
 elevation 5747
 end
-arch mountain
+arch snow
 x 3
 y 46
 elevation 5542
 end
-arch steppe
+arch snow2
 x 3
 y 47
 elevation 4261
@@ -952,7 +953,7 @@ x 3
 y 48
 elevation 5551
 end
-arch mountain
+arch snow2
 x 3
 y 49
 elevation 6251
@@ -1056,12 +1057,12 @@ x 4
 y 19
 elevation 8453
 end
-arch mountain
+arch snow
 x 4
 y 20
 elevation 8576
 end
-arch mountain
+arch snow
 x 4
 y 21
 elevation 8044
@@ -1076,17 +1077,17 @@ x 4
 y 23
 elevation 10529
 end
-arch mountain2
+arch snow
 x 4
 y 24
 elevation 10085
 end
-arch mountain
+arch snow
 x 4
 y 25
 elevation 8971
 end
-arch mountain
+arch snow
 x 4
 y 26
 elevation 7380
@@ -1106,7 +1107,7 @@ x 4
 y 29
 elevation 6218
 end
-arch mountain
+arch snow2
 x 4
 y 30
 elevation 6575
@@ -1116,32 +1117,32 @@ x 4
 y 31
 elevation 6453
 end
-arch mountain
+arch snow
 x 4
 y 32
 elevation 6094
 end
-arch mountain
+arch snow
 x 4
 y 33
 elevation 5419
 end
-arch steppe
+arch snow2
 x 4
 y 34
 elevation 3860
 end
-arch mountain
+arch snow2
 x 4
 y 35
 elevation 5432
 end
-arch mountain
+arch snow2
 x 4
 y 36
 elevation 6301
 end
-arch mountain
+arch snow
 x 4
 y 37
 elevation 6442
@@ -1156,42 +1157,42 @@ x 4
 y 39
 elevation 4646
 end
-arch mountain
+arch snow
 x 4
 y 40
 elevation 5519
 end
-arch mountain
+arch snow
 x 4
 y 41
 elevation 5810
 end
-arch mountain
+arch snow
 x 4
 y 42
 elevation 5831
 end
-arch hills_rocky
+arch snow
 x 4
 y 43
 elevation 3762
 end
-arch steppe
+arch snow
 x 4
 y 44
 elevation 4990
 end
-arch mountain
+arch snow
 x 4
 y 45
 elevation 5353
 end
-arch mountain
+arch snow
 x 4
 y 46
 elevation 5299
 end
-arch mountain
+arch snow2
 x 4
 y 47
 elevation 5115
@@ -1201,7 +1202,7 @@ x 4
 y 48
 elevation 5687
 end
-arch mountain
+arch snow2
 x 4
 y 49
 elevation 6157
@@ -1300,7 +1301,7 @@ x 5
 y 18
 elevation 8587
 end
-arch mountain
+arch snow
 x 5
 y 19
 elevation 8635
@@ -1315,7 +1316,7 @@ x 5
 y 21
 elevation 9552
 end
-arch mountain2
+arch snow
 x 5
 y 22
 elevation 10403
@@ -1325,57 +1326,57 @@ x 5
 y 23
 elevation 10943
 end
-arch mountain2
+arch snow
 x 5
 y 24
 elevation 10446
 end
-arch mountain2
+arch snow
 x 5
 y 25
 elevation 9477
 end
-arch mountain
+arch snow
 x 5
 y 26
 elevation 8213
 end
-arch mountain
+arch snow
 x 5
 y 27
 elevation 7150
 end
-arch mountain
+arch snow
 x 5
 y 28
 elevation 6553
 end
-arch mountain
+arch snow2
 x 5
 y 29
 elevation 7059
 end
-arch mountain
+arch snow2
 x 5
 y 30
 elevation 7532
 end
-arch mountain
+arch snow2
 x 5
 y 31
 elevation 7507
 end
-arch mountain
+arch snow2
 x 5
 y 32
 elevation 6756
 end
-arch hills
+arch snow2
 x 5
 y 33
 elevation 4764
 end
-arch mountain
+arch snow2
 x 5
 y 34
 elevation 5075
@@ -1385,12 +1386,12 @@ x 5
 y 35
 elevation 5551
 end
-arch mountain
+arch snow2
 x 5
 y 36
 elevation 6130
 end
-arch mountain
+arch snow
 x 5
 y 37
 elevation 6309
@@ -1405,52 +1406,52 @@ x 5
 y 39
 elevation 3349
 end
-arch mountain
+arch snow
 x 5
 y 40
 elevation 5677
 end
-arch mountain
+arch snow
 x 5
 y 41
 elevation 6062
 end
-arch mountain
+arch snow
 x 5
 y 42
 elevation 5401
 end
-arch woods_2
+arch snow
 x 5
 y 43
 elevation 2998
 end
-arch steppe
+arch snow2
 x 5
 y 44
 elevation 4800
 end
-arch steppe
+arch snow2
 x 5
 y 45
 elevation 4956
 end
-arch mountain
+arch snow2
 x 5
 y 46
 elevation 5108
 end
-arch mountain
+arch snow2
 x 5
 y 47
 elevation 5235
 end
-arch mountain
+arch snow2
 x 5
 y 48
 elevation 5649
 end
-arch mountain
+arch snow2
 x 5
 y 49
 elevation 6159
@@ -1544,7 +1545,7 @@ x 6
 y 17
 elevation 6723
 end
-arch mountain
+arch snow
 x 6
 y 18
 elevation 7377
@@ -1554,37 +1555,37 @@ x 6
 y 19
 elevation 7905
 end
-arch mountain
+arch snow
 x 6
 y 20
 elevation 8327
 end
-arch mountain2
+arch snow
 x 6
 y 21
 elevation 9616
 end
-arch mountain2
+arch snow
 x 6
 y 22
 elevation 10602
 end
-arch mountain2
+arch snow
 x 6
 y 23
 elevation 10777
 end
-arch mountain2
+arch snow
 x 6
 y 24
 elevation 10373
 end
-arch mountain
+arch snow
 x 6
 y 25
 elevation 8645
 end
-arch mountain
+arch snow
 x 6
 y 26
 elevation 8370
@@ -1609,17 +1610,17 @@ x 6
 y 30
 elevation 7801
 end
-arch mountain
+arch snow2
 x 6
 y 31
 elevation 7965
 end
-arch mountain
+arch snow2
 x 6
 y 32
 elevation 7249
 end
-arch mountain
+arch snow2
 x 6
 y 33
 elevation 6038
@@ -1629,7 +1630,7 @@ x 6
 y 34
 elevation 5469
 end
-arch mountain
+arch snow2
 x 6
 y 35
 elevation 5119
@@ -1644,47 +1645,47 @@ x 6
 y 37
 elevation 5581
 end
-arch mountain
+arch snow
 x 6
 y 38
 elevation 5339
 end
-arch mountain
+arch snow
 x 6
 y 39
 elevation 5593
 end
-arch mountain
+arch snow
 x 6
 y 40
 elevation 6000
 end
-arch mountain
+arch snow
 x 6
 y 41
 elevation 6339
 end
-arch mountain
+arch snow
 x 6
 y 42
 elevation 5852
 end
-arch mountain
+arch snow
 x 6
 y 43
 elevation 5327
 end
-arch mountain
+arch snow2
 x 6
 y 44
 elevation 5015
 end
-arch mountain
+arch snow2
 x 6
 y 45
 elevation 5129
 end
-arch steppe
+arch snow2
 x 6
 y 46
 elevation 4785
@@ -1694,12 +1695,12 @@ x 6
 y 47
 elevation 3762
 end
-arch mountain
+arch snow2
 x 6
 y 48
 elevation 5576
 end
-arch mountain
+arch snow2
 x 6
 y 49
 elevation 6506
@@ -1793,37 +1794,37 @@ x 7
 y 17
 elevation 4747
 end
-arch mountain
+arch snow
 x 7
 y 18
 elevation 5850
 end
-arch mountain
+arch snow
 x 7
 y 19
 elevation 6549
 end
-arch mountain
+arch snow
 x 7
 y 20
 elevation 7596
 end
-arch mountain
+arch snow
 x 7
 y 21
 elevation 8719
 end
-arch mountain2
+arch snow
 x 7
 y 22
 elevation 10618
 end
-arch mountain2
+arch snow
 x 7
 y 23
 elevation 10887
 end
-arch mountain2
+arch snow
 x 7
 y 24
 elevation 10210
@@ -1843,22 +1844,22 @@ x 7
 y 27
 elevation 7575
 end
-arch mountain
+arch snow2
 x 7
 y 28
 elevation 7278
 end
-arch mountain
+arch snow2
 x 7
 y 29
 elevation 7273
 end
-arch mountain
+arch snow2
 x 7
 y 30
 elevation 7713
 end
-arch mountain
+arch snow2
 x 7
 y 31
 elevation 8050
@@ -1868,12 +1869,12 @@ x 7
 y 32
 elevation 7656
 end
-arch mountain
+arch snow2
 x 7
 y 33
 elevation 6664
 end
-arch mountain
+arch snow2
 x 7
 y 34
 elevation 5986
@@ -1883,12 +1884,12 @@ x 7
 y 35
 elevation 5486
 end
-arch mountain
+arch snow2
 x 7
 y 36
 elevation 5046
 end
-arch hills
+arch snow2
 x 7
 y 37
 elevation 3795
@@ -1903,17 +1904,17 @@ x 7
 y 39
 elevation 5341
 end
-arch mountain
+arch snow
 x 7
 y 40
 elevation 6091
 end
-arch mountain
+arch snow
 x 7
 y 41
 elevation 6457
 end
-arch mountain
+arch snow2
 x 7
 y 42
 elevation 6190
@@ -1923,7 +1924,7 @@ x 7
 y 43
 elevation 5799
 end
-arch mountain
+arch snow2
 x 7
 y 44
 elevation 5299
@@ -1933,7 +1934,7 @@ x 7
 y 45
 elevation 4590
 end
-arch mountain
+arch snow2
 x 7
 y 46
 elevation 5027
@@ -1943,12 +1944,12 @@ x 7
 y 47
 elevation 3179
 end
-arch mountain
+arch snow2
 x 7
 y 48
 elevation 6347
 end
-arch mountain
+arch snow2
 x 7
 y 49
 elevation 7312
@@ -2047,37 +2048,37 @@ x 8
 y 18
 elevation 8206
 end
-arch mountain2
+arch desert
 x 8
 y 19
 elevation 9156
 end
-arch mountain2
+arch desert
 x 8
 y 20
 elevation 9758
 end
-arch mountain2
+arch desert
 x 8
 y 21
 elevation 10336
 end
-arch mountain2
+arch snow
 x 8
 y 22
 elevation 10836
 end
-arch mountain2
+arch desert
 x 8
 y 23
 elevation 10221
 end
-arch mountain2
+arch desert
 x 8
 y 24
 elevation 10506
 end
-arch mountain2
+arch desert
 x 8
 y 25
 elevation 9262
@@ -2092,7 +2093,7 @@ x 8
 y 27
 elevation 7354
 end
-arch mountain
+arch snow2
 x 8
 y 28
 elevation 6330
@@ -2102,32 +2103,32 @@ x 8
 y 29
 elevation 6409
 end
-arch mountain
+arch snow2
 x 8
 y 30
 elevation 7301
 end
-arch mountain
+arch snow2
 x 8
 y 31
 elevation 7647
 end
-arch mountain
+arch snow2
 x 8
 y 32
 elevation 7502
 end
-arch mountain
+arch snow2
 x 8
 y 33
 elevation 6964
 end
-arch mountain
+arch snow2
 x 8
 y 34
 elevation 5967
 end
-arch mountain
+arch snow2
 x 8
 y 35
 elevation 5015
@@ -2137,7 +2138,7 @@ x 8
 y 36
 elevation 4390
 end
-arch steppe
+arch snow2
 x 8
 y 37
 elevation 3918
@@ -2152,52 +2153,52 @@ x 8
 y 39
 elevation 3622
 end
-arch mountain
+arch snow
 x 8
 y 40
 elevation 5520
 end
-arch mountain
+arch snow
 x 8
 y 41
 elevation 6007
 end
-arch mountain
+arch snow2
 x 8
 y 42
 elevation 5837
 end
-arch mountain
+arch snow2
 x 8
 y 43
 elevation 5701
 end
-arch mountain
+arch snow2
 x 8
 y 44
 elevation 5212
 end
-arch steppe
+arch snow2
 x 8
 y 45
 elevation 4280
 end
-arch mountain
+arch snow2
 x 8
 y 46
 elevation 6092
 end
-arch mountain
+arch snow2
 x 8
 y 47
 elevation 6897
 end
-arch mountain
+arch snow2
 x 8
 y 48
 elevation 7576
 end
-arch mountain
+arch snow2
 x 8
 y 49
 elevation 8282
@@ -2291,37 +2292,41 @@ x 9
 y 17
 elevation 9095
 end
-arch mountain2
+arch snow3
 x 9
 y 18
 elevation 9994
 end
-arch mountain2
+arch desert
 x 9
 y 19
 elevation 10910
 end
-arch mountain2
+arch desert
 x 9
 y 20
 elevation 10545
 end
-arch mountain2
+arch palms
+x 9
+y 20
+end
+arch desert
 x 9
 y 21
 elevation 11164
 end
-arch mountain2
+arch desert
 x 9
 y 22
 elevation 11122
 end
-arch mountain2
+arch desert
 x 9
 y 23
 elevation 11289
 end
-arch mountain2
+arch desert
 x 9
 y 24
 elevation 10933
@@ -2346,37 +2351,37 @@ x 9
 y 28
 elevation 6706
 end
-arch mountain
+arch snow2
 x 9
 y 29
 elevation 6043
 end
-arch mountain
+arch snow2
 x 9
 y 30
 elevation 6604
 end
-arch mountain
+arch white-pink-c-marble_111
 x 9
 y 31
 elevation 6186
 end
-arch mountain
+arch white-pink-c-marble_111
 x 9
 y 32
 elevation 6668
 end
-arch mountain
+arch snow2
 x 9
 y 33
 elevation 6346
 end
-arch mountain
+arch snow2
 x 9
 y 34
 elevation 5445
 end
-arch hills
+arch snow2
 x 9
 y 35
 elevation 4319
@@ -2386,12 +2391,12 @@ x 9
 y 36
 elevation 3559
 end
-arch woods_2
+arch snow2
 x 9
 y 37
 elevation 2828
 end
-arch grass_only
+arch snow2
 x 9
 y 38
 elevation 2476
@@ -2415,42 +2420,42 @@ x 9
 y 41
 elevation 4878
 end
-arch mountain
+arch snow2
 x 9
 y 42
 elevation 5472
 end
-arch steppe
+arch snow2
 x 9
 y 43
 elevation 4392
 end
-arch mountain
+arch snow2
 x 9
 y 44
 elevation 6166
 end
-arch mountain
+arch snow2
 x 9
 y 45
 elevation 6863
 end
-arch mountain
+arch snow2
 x 9
 y 46
 elevation 7453
 end
-arch mountain
+arch snow2
 x 9
 y 47
 elevation 8118
 end
-arch mountain
+arch snow2
 x 9
 y 48
 elevation 8453
 end
-arch mountain
+arch snow2
 x 9
 y 49
 elevation 8839
@@ -2544,40 +2549,52 @@ x 10
 y 17
 elevation 9386
 end
-arch mountain2
+arch snow3
 x 10
 y 18
 elevation 10401
 end
-arch mountain2
+arch desert
 x 10
 y 19
 elevation 11081
 end
-arch mountain2
+arch desert
 x 10
 y 20
 elevation 11335
 end
-arch mountain2
+arch desert
 x 10
 y 21
 elevation 11308
 end
-arch mountain2
+arch palm
+x 10
+y 21
+end
+arch desert
 x 10
 y 22
 elevation 11654
 end
-arch mountain2
+arch palms
+x 10
+y 22
+end
+arch desert
 x 10
 y 23
 elevation 11736
 end
-arch mountain2
+arch desert
 x 10
 y 24
 elevation 11341
+end
+arch palms
+x 10
+y 24
 end
 arch mountain2
 x 10
@@ -2604,17 +2621,25 @@ x 10
 y 29
 elevation 6009
 end
+arch beigemarblewall_4
+x 10
+y 29
+end
 arch mountain
 x 10
 y 30
 elevation 5790
 end
-arch mountain
+arch beigemarblewall_4
+x 10
+y 30
+end
+arch white-pink-c-marble_111
 x 10
 y 31
 elevation 5578
 end
-arch steppe
+arch white-pink-c-marble_111
 x 10
 y 32
 elevation 4414
@@ -2624,17 +2649,29 @@ x 10
 y 33
 elevation 5327
 end
+arch beigemarblewall_4
+x 10
+y 33
+end
 arch steppe
 x 10
 y 34
 elevation 4714
+end
+arch beigemarblewall_4
+x 10
+y 34
 end
 arch hills
 x 10
 y 35
 elevation 3076
 end
-arch grass_only
+arch beigemarblewall_4
+x 10
+y 35
+end
+arch snow2
 x 10
 y 36
 elevation 1917
@@ -2643,7 +2680,7 @@ arch tree5
 x 10
 y 36
 end
-arch grass_only
+arch snow2
 x 10
 y 37
 elevation 2553
@@ -2652,7 +2689,7 @@ arch tree5
 x 10
 y 37
 end
-arch grass_only
+arch snow2
 x 10
 y 38
 elevation 2848
@@ -2676,42 +2713,42 @@ x 10
 y 41
 elevation 4647
 end
-arch mountain
+arch snow2
 x 10
 y 42
 elevation 5362
 end
-arch mountain
+arch snow2
 x 10
 y 43
 elevation 6188
 end
-arch mountain
+arch snow2
 x 10
 y 44
 elevation 7085
 end
-arch mountain
+arch snow2
 x 10
 y 45
 elevation 7950
 end
-arch mountain
+arch snow2
 x 10
 y 46
 elevation 8375
 end
-arch mountain
+arch snow2
 x 10
 y 47
 elevation 8199
 end
-arch mountain
+arch snow2
 x 10
 y 48
 elevation 8567
 end
-arch mountain
+arch snow2
 x 10
 y 49
 elevation 8644
@@ -2805,37 +2842,37 @@ x 11
 y 17
 elevation 8814
 end
-arch mountain2
+arch snow3
 x 11
 y 18
 elevation 9310
 end
-arch mountain2
+arch desert
 x 11
 y 19
 elevation 10295
 end
-arch mountain2
+arch desert
 x 11
 y 20
 elevation 9975
 end
-arch mountain2
+arch desert
 x 11
 y 21
 elevation 11306
 end
-arch mountain2
+arch desert
 x 11
 y 22
 elevation 11552
 end
-arch mountain2
+arch desert
 x 11
 y 23
 elevation 11495
 end
-arch mountain2
+arch desert
 x 11
 y 24
 elevation 10989
@@ -2865,32 +2902,36 @@ x 11
 y 29
 elevation 5787
 end
-arch steppe
+arch beigemarblewall_4
+x 11
+y 29
+end
+arch white-green-x-marble_118
 x 11
 y 30
 elevation 4872
 end
-arch hills
+arch white-green-x-marble_118
 x 11
 y 31
 elevation 4033
 end
-arch hills
+arch white-green-x-marble_118
 x 11
 y 32
 elevation 4728
 end
-arch hills
+arch white-green-x-marble_118
 x 11
 y 33
 elevation 4194
 end
-arch steppe
+arch white-green-x-marble_118
 x 11
 y 34
 elevation 4012
 end
-arch steppe
+arch white-green-x-marble_118
 x 11
 y 35
 elevation 3585
@@ -2900,12 +2941,16 @@ x 11
 y 36
 elevation 3042
 end
-arch woods_2
+arch beigemarblewall_4
+x 11
+y 36
+end
+arch snow2
 x 11
 y 37
 elevation 1803
 end
-arch woods_2
+arch snow2
 x 11
 y 38
 elevation 1753
@@ -2929,42 +2974,42 @@ x 11
 y 41
 elevation 4402
 end
-arch mountain
+arch snow2
 x 11
 y 42
 elevation 5325
 end
-arch mountain
+arch snow2
 x 11
 y 43
 elevation 6458
 end
-arch mountain
+arch snow2
 x 11
 y 44
 elevation 7649
 end
-arch mountain
+arch snow2
 x 11
 y 45
 elevation 8447
 end
-arch mountain
+arch snow2
 x 11
 y 46
 elevation 8575
 end
-arch mountain
+arch snow2
 x 11
 y 47
 elevation 8404
 end
-arch mountain
+arch snow2
 x 11
 y 48
 elevation 8311
 end
-arch mountain
+arch snow2
 x 11
 y 49
 elevation 8136
@@ -3058,37 +3103,41 @@ x 12
 y 17
 elevation 8221
 end
-arch mountain
+arch snow3
 x 12
 y 18
 elevation 7356
 end
-arch mountain2
+arch desert
 x 12
 y 19
 elevation 9376
 end
-arch mountain2
+arch desert
 x 12
 y 20
 elevation 10186
 end
-arch mountain2
+arch desert
 x 12
 y 21
 elevation 11068
 end
-arch mountain2
+arch palms
+x 12
+y 21
+end
+arch desert
 x 12
 y 22
 elevation 11132
 end
-arch mountain2
+arch desert
 x 12
 y 23
 elevation 10138
 end
-arch mountain2
+arch desert
 x 12
 y 24
 elevation 9421
@@ -3118,32 +3167,36 @@ x 12
 y 29
 elevation 5464
 end
-arch mountain
+arch beigemarblewall_4
+x 12
+y 29
+end
+arch white-green-x-marble_117
 x 12
 y 30
 elevation 5391
 end
-arch mountain
+arch white-green-x-marble_117
 x 12
 y 31
 elevation 5100
 end
-arch steppe
+arch white-green-x-marble_117
 x 12
 y 32
 elevation 4234
 end
-arch steppe
+arch white-green-x-marble_117
 x 12
 y 33
 elevation 4000
 end
-arch steppe
+arch white-green-x-marble_117
 x 12
 y 34
 elevation 4722
 end
-arch steppe
+arch white-green-x-marble_117
 x 12
 y 35
 elevation 4608
@@ -3153,7 +3206,11 @@ x 12
 y 36
 elevation 3875
 end
-arch grass_only
+arch beigemarblewall_4
+x 12
+y 36
+end
+arch snow2
 x 12
 y 37
 elevation 2606
@@ -3177,22 +3234,22 @@ x 12
 y 40
 elevation 4324
 end
-arch steppe
+arch snow2
 x 12
 y 41
 elevation 3836
 end
-arch steppe
+arch snow2
 x 12
 y 42
 elevation 4721
 end
-arch mountain
+arch snow2
 x 12
 y 43
 elevation 6009
 end
-arch mountain
+arch snow2
 x 12
 y 44
 elevation 7951
@@ -3202,22 +3259,22 @@ x 12
 y 45
 elevation 8590
 end
-arch mountain
+arch snow2
 x 12
 y 46
 elevation 7818
 end
-arch mountain
+arch snow2
 x 12
 y 47
 elevation 8303
 end
-arch mountain
+arch snow2
 x 12
 y 48
 elevation 7785
 end
-arch mountain
+arch snow2
 x 12
 y 49
 elevation 7644
@@ -3311,32 +3368,36 @@ x 13
 y 17
 elevation 6649
 end
-arch mountain
+arch snow3
 x 13
 y 18
 elevation 7492
 end
-arch mountain
+arch desert
 x 13
 y 19
 elevation 8787
 end
-arch mountain2
+arch palm
+x 13
+y 19
+end
+arch desert
 x 13
 y 20
 elevation 10215
 end
-arch mountain2
+arch desert
 x 13
 y 21
 elevation 10904
 end
-arch mountain2
+arch desert
 x 13
 y 22
 elevation 10642
 end
-arch mountain
+arch desert
 x 13
 y 23
 elevation 8753
@@ -3375,102 +3436,110 @@ x 13
 y 29
 elevation 4899
 end
-arch mountain
+arch beigemarblewall_4
+x 13
+y 29
+end
+arch white-green-x-marble_118
 x 13
 y 30
 elevation 5515
 end
-arch mountain
+arch white-green-x-marble_118
 x 13
 y 31
 elevation 5340
 end
-arch steppe
+arch white-green-x-marble_118
 x 13
 y 32
 elevation 4764
 end
-arch hills
+arch white-green-x-marble_118
 x 13
 y 33
 elevation 4881
 end
-arch mountain
+arch white-green-x-marble_118
 x 13
 y 34
 elevation 5469
 end
-arch mountain
+arch white-green-x-marble_118
 x 13
 y 35
 elevation 5654
 end
-arch hills
+arch snow2
 x 13
 y 36
 elevation 4987
 end
-arch steppe
+arch beigemarblewall_4
+x 13
+y 36
+end
+arch snow2
 x 13
 y 37
 elevation 3560
 end
-arch steppe
+arch snow2
 x 13
 y 38
 elevation 4730
 end
-arch mountain
+arch snow2
 x 13
 y 39
 elevation 5135
 end
-arch steppe
+arch snow2
 x 13
 y 40
 elevation 4994
 end
-arch steppe
+arch snow2
 x 13
 y 41
 elevation 4911
 end
-arch mountain
+arch snow2
 x 13
 y 42
 elevation 5543
 end
-arch mountain
+arch snow2
 x 13
 y 43
 elevation 6813
 end
-arch mountain
+arch snow2
 x 13
 y 44
 elevation 8109
 end
-arch mountain
+arch snow2
 x 13
 y 45
 elevation 8520
 end
-arch mountain
+arch snow2
 x 13
 y 46
 elevation 8586
 end
-arch mountain
+arch snow2
 x 13
 y 47
 elevation 8297
 end
-arch mountain
+arch snow2
 x 13
 y 48
 elevation 7525
 end
-arch mountain
+arch snow2
 x 13
 y 49
 elevation 7373
@@ -3564,27 +3633,27 @@ x 14
 y 17
 elevation 7726
 end
-arch mountain
+arch snow3
 x 14
 y 18
 elevation 5853
 end
-arch mountain
+arch desert
 x 14
 y 19
 elevation 8281
 end
-arch mountain2
+arch desert
 x 14
 y 20
 elevation 10151
 end
-arch mountain2
+arch desert
 x 14
 y 21
 elevation 10867
 end
-arch mountain2
+arch desert
 x 14
 y 22
 elevation 10156
@@ -3624,52 +3693,60 @@ x 14
 y 29
 elevation 4087
 end
-arch mountain
+arch beigemarblewall_4
+x 14
+y 29
+end
+arch white-green-x-marble_117
 x 14
 y 30
 elevation 5594
 end
-arch mountain
+arch white-green-x-marble_117
 x 14
 y 31
 elevation 5618
 end
-arch steppe
+arch white-green-x-marble_117
 x 14
 y 32
 elevation 3679
 end
-arch steppe
+arch white-green-x-marble_117
 x 14
 y 33
 elevation 4633
 end
-arch mountain
+arch white-green-x-marble_117
 x 14
 y 34
 elevation 6699
 end
-arch mountain
+arch white-green-x-marble_117
 x 14
 y 35
 elevation 6828
 end
-arch mountain
+arch snow2
 x 14
 y 36
 elevation 6378
 end
-arch mountain
+arch beigemarblewall_4
+x 14
+y 36
+end
+arch snow2
 x 14
 y 37
 elevation 5262
 end
-arch mountain
+arch snow2
 x 14
 y 38
 elevation 6010
 end
-arch mountain
+arch snow2
 x 14
 y 39
 elevation 5751
@@ -3679,47 +3756,47 @@ x 14
 y 40
 elevation 4834
 end
-arch mountain
+arch snow2
 x 14
 y 41
 elevation 5052
 end
-arch steppe
+arch snow2
 x 14
 y 42
 elevation 4715
 end
-arch mountain
+arch snow2
 x 14
 y 43
 elevation 7051
 end
-arch mountain
+arch snow2
 x 14
 y 44
 elevation 8529
 end
-arch mountain
+arch snow2
 x 14
 y 45
 elevation 8841
 end
-arch mountain
+arch snow2
 x 14
 y 46
 elevation 8843
 end
-arch mountain
+arch snow2
 x 14
 y 47
 elevation 8524
 end
-arch mountain
+arch snow2
 x 14
 y 48
 elevation 8132
 end
-arch mountain
+arch snow2
 x 14
 y 49
 elevation 7762
@@ -3813,52 +3890,52 @@ x 15
 y 17
 elevation 8917
 end
-arch mountain
+arch snow3
 x 15
 y 18
 elevation 5185
 end
-arch mountain
+arch snow3
 x 15
 y 19
 elevation 7133
 end
-arch mountain2
+arch snow3
 x 15
 y 20
 elevation 10602
 end
-arch mountain2
+arch snow3
 x 15
 y 21
 elevation 11633
 end
-arch mountain2
+arch snow3
 x 15
 y 22
 elevation 9341
 end
-arch mountain2
+arch snow3
 x 15
 y 23
 elevation 10234
 end
-arch mountain2
+arch snow3
 x 15
 y 24
 elevation 9849
 end
-arch mountain2
+arch snow3
 x 15
 y 25
 elevation 9280
 end
-arch mountain
+arch snow3
 x 15
 y 26
 elevation 7984
 end
-arch mountain
+arch snow3
 x 15
 y 27
 elevation 6458
@@ -3873,52 +3950,68 @@ x 15
 y 29
 elevation 5536
 end
-arch mountain
+arch beigemarblewall_4
+x 15
+y 29
+end
+arch white-green-x-marble_118
 x 15
 y 30
 elevation 5854
 end
-arch mountain
+arch beigemarblewall_4
+x 15
+y 30
+end
+arch white-green-x-marble_118
 x 15
 y 31
 elevation 6140
 end
-arch mountain
+arch white-green-x-marble_118
 x 15
 y 32
 elevation 6799
 end
-arch mountain
+arch white-green-x-marble_118
 x 15
 y 33
 elevation 7703
 end
-arch mountain
+arch white-green-x-marble_118
 x 15
 y 34
 elevation 8534
 end
-arch mountain
+arch white-green-x-marble_118
 x 15
 y 35
 elevation 8631
+end
+arch beigemarblewall_4
+x 15
+y 35
 end
 arch mountain
 x 15
 y 36
 elevation 8450
 end
-arch mountain
+arch beigemarblewall_4
+x 15
+y 36
+end
+arch snow2
 x 15
 y 37
 elevation 8011
 end
-arch mountain
+arch snow2
 x 15
 y 38
 elevation 7346
 end
-arch mountain
+arch snow2
 x 15
 y 39
 elevation 6127
@@ -3933,42 +4026,42 @@ x 15
 y 41
 elevation 4902
 end
-arch mountain
+arch snow2
 x 15
 y 42
 elevation 5191
 end
-arch mountain
+arch snow2
 x 15
 y 43
 elevation 7551
 end
-arch mountain2
+arch snow2
 x 15
 y 44
 elevation 9067
 end
-arch mountain2
+arch snow2
 x 15
 y 45
 elevation 9580
 end
-arch mountain2
+arch snow2
 x 15
 y 46
 elevation 9082
 end
-arch mountain
+arch snow2
 x 15
 y 47
 elevation 7843
 end
-arch mountain
+arch snow2
 x 15
 y 48
 elevation 8804
 end
-arch mountain
+arch snow2
 x 15
 y 49
 elevation 8689
@@ -4062,52 +4155,52 @@ x 16
 y 17
 elevation 10545
 end
-arch mountain
+arch snow3
 x 16
 y 18
 elevation 8658
 end
-arch mountain
+arch snow3
 x 16
 y 19
 elevation 8486
 end
-arch mountain4
+arch snow3
 x 16
 y 20
 elevation 12096
 end
-arch mountain4
+arch snow3
 x 16
 y 21
 elevation 13329
 end
-arch mountain4
+arch snow3
 x 16
 y 22
 elevation 12507
 end
-arch mountain2
+arch snow3
 x 16
 y 23
 elevation 10332
 end
-arch mountain2
+arch snow3
 x 16
 y 24
 elevation 10722
 end
-arch mountain2
+arch snow3
 x 16
 y 25
 elevation 10266
 end
-arch mountain
+arch snow3
 x 16
 y 26
 elevation 8924
 end
-arch mountain
+arch snow3
 x 16
 y 27
 elevation 6834
@@ -4122,32 +4215,36 @@ x 16
 y 29
 elevation 5389
 end
-arch mountain
+arch beigemarblewall_4
+x 16
+y 29
+end
+arch white-green-x-marble_117
 x 16
 y 30
 elevation 6547
 end
-arch mountain
+arch white-green-x-marble_117
 x 16
 y 31
 elevation 6356
 end
-arch mountain
+arch white-green-x-marble_117
 x 16
 y 32
 elevation 8749
 end
-arch mountain2
+arch white-green-x-marble_117
 x 16
 y 33
 elevation 10191
 end
-arch mountain2
+arch white-green-x-marble_117
 x 16
 y 34
 elevation 10897
 end
-arch mountain2
+arch white-green-x-marble_117
 x 16
 y 35
 elevation 10829
@@ -4157,17 +4254,21 @@ x 16
 y 36
 elevation 10077
 end
-arch mountain2
+arch beigemarblewall_4
+x 16
+y 36
+end
+arch snow2
 x 16
 y 37
 elevation 9347
 end
-arch mountain
+arch snow2
 x 16
 y 38
 elevation 8309
 end
-arch mountain
+arch snow2
 x 16
 y 39
 elevation 6456
@@ -4177,47 +4278,51 @@ x 16
 y 40
 elevation 3869
 end
+arch beigemarblewall_4
+x 16
+y 40
+end
 arch steppe
 x 16
 y 41
 elevation 4177
 end
-arch mountain
+arch snow2
 x 16
 y 42
 elevation 6718
 end
-arch mountain
+arch snow2
 x 16
 y 43
 elevation 8306
 end
-arch mountain2
+arch snow2
 x 16
 y 44
 elevation 9508
 end
-arch mountain2
+arch snow2
 x 16
 y 45
 elevation 9806
 end
-arch mountain2
+arch snow2
 x 16
 y 46
 elevation 9485
 end
-arch mountain
+arch snow2
 x 16
 y 47
 elevation 8050
 end
-arch mountain2
+arch snow2
 x 16
 y 48
 elevation 9601
 end
-arch mountain2
+arch snow2
 x 16
 y 49
 elevation 9774
@@ -4316,87 +4421,135 @@ x 17
 y 18
 elevation 12945
 end
+arch beigemarblewall_4
+x 17
+y 18
+end
 arch mountain4
 x 17
 y 19
 elevation 13470
+end
+arch beigemarblewall_4
+x 17
+y 19
 end
 arch mountain4
 x 17
 y 20
 elevation 14631
 end
+arch beigemarblewall_4
+x 17
+y 20
+end
 arch mountain4
 x 17
 y 21
 elevation 15267
+end
+arch beigemarblewall_4
+x 17
+y 21
 end
 arch mountain4
 x 17
 y 22
 elevation 14209
 end
+arch beigemarblewall_4
+x 17
+y 22
+end
 arch mountain2
 x 17
 y 23
 elevation 11363
+end
+arch beigemarblewall_4
+x 17
+y 23
 end
 arch mountain2
 x 17
 y 24
 elevation 11408
 end
+arch beigemarblewall_4
+x 17
+y 24
+end
 arch mountain2
 x 17
 y 25
 elevation 10451
+end
+arch beigemarblewall_4
+x 17
+y 25
 end
 arch mountain
 x 17
 y 26
 elevation 8787
 end
+arch beigemarblewall_4
+x 17
+y 26
+end
 arch mountain
 x 17
 y 27
 elevation 7167
+end
+arch beigemarblewall_4
+x 17
+y 27
 end
 arch mountain
 x 17
 y 28
 elevation 6087
 end
+arch beigemarblewall_4
+x 17
+y 28
+end
 arch mountain
 x 17
 y 29
 elevation 6317
 end
-arch mountain
+arch beigemarblewall_4
+x 17
+y 29
+end
+arch white-green-x-marble_118
 x 17
 y 30
 elevation 7135
 end
-arch mountain
+arch white-green-x-marble_118
 x 17
 y 31
 elevation 8428
 end
-arch mountain2
+arch white-green-x-marble_118
 x 17
 y 32
 elevation 10144
 end
-arch mountain2
+arch white-green-x-marble_118
 x 17
 y 33
 elevation 11438
 end
-arch mountain4
+arch white-green-x-marble_118
 x 17
 y 34
 elevation 12157
 end
-arch mountain2
+arch white-green-x-marble_118
 x 17
 y 35
 elevation 11974
@@ -4406,67 +4559,99 @@ x 17
 y 36
 elevation 10782
 end
+arch beigemarblewall_4
+x 17
+y 36
+end
 arch mountain
 x 17
 y 37
 elevation 8978
+end
+arch beigemarblewall_4
+x 17
+y 37
 end
 arch mountain
 x 17
 y 38
 elevation 8867
 end
+arch beigemarblewall_4
+x 17
+y 38
+end
 arch mountain
 x 17
 y 39
 elevation 7089
+end
+arch beigemarblewall_4
+x 17
+y 39
 end
 arch hills_rocky
 x 17
 y 40
 elevation 3310
 end
+arch beigemarblewall_4
+x 17
+y 40
+end
 arch mountain
 x 17
 y 41
 elevation 5956
+end
+arch beigemarblewall_4
+x 17
+y 41
 end
 arch mountain
 x 17
 y 42
 elevation 7676
 end
+arch beigemarblewall_4
+x 17
+y 42
+end
 arch mountain
 x 17
 y 43
 elevation 8911
 end
-arch mountain2
+arch beigemarblewall_4
+x 17
+y 43
+end
+arch snow2
 x 17
 y 44
 elevation 9377
 end
-arch mountain2
+arch snow2
 x 17
 y 45
 elevation 9523
 end
-arch mountain2
+arch snow2
 x 17
 y 46
 elevation 9899
 end
-arch mountain2
+arch snow2
 x 17
 y 47
 elevation 10346
 end
-arch mountain2
+arch snow2
 x 17
 y 48
 elevation 10456
 end
-arch mountain2
+arch snow2
 x 17
 y 49
 elevation 10446
@@ -4565,122 +4750,130 @@ x 18
 y 18
 elevation 14915
 end
-arch mountain4
+arch beigemarblewall_4
+x 18
+y 18
+end
+arch white-green-x-marble_112
 x 18
 y 19
 elevation 15360
 end
-arch mountain4
+arch white-green-x-marble_112
 x 18
 y 20
 elevation 15835
 end
-arch mountain4
+arch white-green-x-marble_112
 x 18
 y 21
 elevation 15937
 end
-arch mountain4
+arch white-green-x-marble_112
 x 18
 y 22
 elevation 15137
 end
-arch mountain4
+arch white-green-x-marble_112
 x 18
 y 23
 elevation 13723
 end
-arch mountain2
+arch white-green-x-marble_112
 x 18
 y 24
 elevation 11892
 end
-arch mountain2
+arch white-green-x-marble_112
 x 18
 y 25
 elevation 9377
 end
-arch mountain
+arch beigemarblewall_4
+x 18
+y 25
+end
+arch white-green-x-marble_119
 x 18
 y 26
 elevation 8813
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 27
 elevation 5745
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 28
 elevation 5956
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 29
 elevation 5055
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 30
 elevation 8074
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 31
 elevation 9618
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 32
 elevation 10275
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 33
 elevation 10773
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 34
 elevation 11246
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 35
 elevation 11315
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 36
 elevation 10348
 end
-arch mountain2
+arch white-green-x-marble_119
 x 18
 y 37
 elevation 9473
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 38
 elevation 8801
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 39
 elevation 7528
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 40
 elevation 5777
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 41
 elevation 6088
 end
-arch mountain
+arch white-green-x-marble_119
 x 18
 y 42
 elevation 7948
@@ -4690,32 +4883,36 @@ x 18
 y 43
 elevation 8978
 end
-arch mountain
+arch beigemarblewall_4
+x 18
+y 43
+end
+arch snow2
 x 18
 y 44
 elevation 8184
 end
-arch mountain
+arch snow2
 x 18
 y 45
 elevation 8404
 end
-arch mountain2
+arch snow2
 x 18
 y 46
 elevation 10543
 end
-arch mountain2
+arch snow2
 x 18
 y 47
 elevation 11005
 end
-arch mountain2
+arch snow2
 x 18
 y 48
 elevation 10839
 end
-arch mountain2
+arch snow2
 x 18
 y 49
 elevation 10582
@@ -4814,122 +5011,130 @@ x 19
 y 18
 elevation 15011
 end
-arch mountain4
+arch beigemarblewall_4
+x 19
+y 18
+end
+arch white-green-x-marble_112
 x 19
 y 19
 elevation 15601
 end
-arch mountain4
+arch white-green-x-marble_112
 x 19
 y 20
 elevation 15125
 end
-arch mountain4
+arch white-green-x-marble_112
 x 19
 y 21
 elevation 14738
 end
-arch mountain4
+arch white-green-x-marble_112
 x 19
 y 22
 elevation 14664
 end
-arch mountain4
+arch white-green-x-marble_112
 x 19
 y 23
 elevation 14003
 end
-arch mountain4
+arch white-green-x-marble_112
 x 19
 y 24
 elevation 12186
 end
-arch mountain2
+arch white-green-x-marble_112
 x 19
 y 25
 elevation 10258
 end
-arch mountain
+arch beigemarblewall_4
+x 19
+y 25
+end
+arch white-green-x-marble_119
 x 19
 y 26
 elevation 8800
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 27
 elevation 8233
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 28
 elevation 8124
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 29
 elevation 8408
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 30
 elevation 8725
 end
-arch mountain2
+arch white-green-x-marble_119
 x 19
 y 31
 elevation 9126
 end
-arch mountain2
+arch white-green-x-marble_119
 x 19
 y 32
 elevation 9047
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 33
 elevation 7329
 end
-arch mountain2
+arch white-green-x-marble_119
 x 19
 y 34
 elevation 9038
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 35
 elevation 8859
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 36
 elevation 8185
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 37
 elevation 8087
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 38
 elevation 8010
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 39
 elevation 7352
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 40
 elevation 6423
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 41
 elevation 5833
 end
-arch mountain
+arch white-green-x-marble_119
 x 19
 y 42
 elevation 7336
@@ -4939,32 +5144,36 @@ x 19
 y 43
 elevation 8474
 end
-arch mountain2
+arch beigemarblewall_4
+x 19
+y 43
+end
+arch snow2
 x 19
 y 44
 elevation 9198
 end
-arch mountain2
+arch snow2
 x 19
 y 45
 elevation 9896
 end
-arch mountain2
+arch snow2
 x 19
 y 46
 elevation 10555
 end
-arch mountain2
+arch snow2
 x 19
 y 47
 elevation 10681
 end
-arch mountain2
+arch snow2
 x 19
 y 48
 elevation 10327
 end
-arch mountain2
+arch snow2
 x 19
 y 49
 elevation 9863
@@ -5063,122 +5272,130 @@ x 20
 y 18
 elevation 14592
 end
-arch mountain4
+arch beigemarblewall_4
+x 20
+y 18
+end
+arch white-green-x-marble_112
 x 20
 y 19
 elevation 15484
 end
-arch mountain4
+arch white-green-x-marble_112
 x 20
 y 20
 elevation 14063
 end
-arch mountain2
+arch white-green-x-marble_112
 x 20
 y 21
 elevation 11083
 end
-arch mountain4
+arch white-green-x-marble_112
 x 20
 y 22
 elevation 13465
 end
-arch mountain4
+arch white-green-x-marble_112
 x 20
 y 23
 elevation 13514
 end
-arch mountain4
+arch white-green-x-marble_112
 x 20
 y 24
 elevation 12355
 end
-arch mountain2
+arch white-green-x-marble_112
 x 20
 y 25
 elevation 10123
 end
-arch mountain
+arch beigemarblewall_4
+x 20
+y 25
+end
+arch white-green-x-marble_119
 x 20
 y 26
 elevation 7341
 end
-arch mountain2
+arch white-green-x-marble_119
 x 20
 y 27
 elevation 9523
 end
-arch mountain2
+arch white-green-x-marble_119
 x 20
 y 28
 elevation 9800
 end
-arch mountain2
+arch white-green-x-marble_119
 x 20
 y 29
 elevation 9294
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 30
 elevation 8335
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 31
 elevation 7652
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 32
 elevation 6148
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 33
 elevation 6824
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 34
 elevation 7399
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 20
 y 35
 elevation 4429
 end
-arch hills
+arch white-green-x-marble_119
 x 20
 y 36
 elevation 4646
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 37
 elevation 5553
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 38
 elevation 6692
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 39
 elevation 6487
 end
-arch steppe
+arch white-green-x-marble_119
 x 20
 y 40
 elevation 4659
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 41
 elevation 5330
 end
-arch mountain
+arch white-green-x-marble_119
 x 20
 y 42
 elevation 6218
@@ -5188,32 +5405,36 @@ x 20
 y 43
 elevation 7655
 end
-arch mountain
+arch beigemarblewall_4
+x 20
+y 43
+end
+arch snow2
 x 20
 y 44
 elevation 8917
 end
-arch mountain2
+arch snow2
 x 20
 y 45
 elevation 9664
 end
-arch mountain2
+arch snow2
 x 20
 y 46
 elevation 9831
 end
-arch mountain2
+arch snow2
 x 20
 y 47
 elevation 9450
 end
-arch mountain
+arch snow2
 x 20
 y 48
 elevation 8211
 end
-arch mountain
+arch snow2
 x 20
 y 49
 elevation 8664
@@ -5312,122 +5533,130 @@ x 21
 y 18
 elevation 14288
 end
-arch mountain4
+arch beigemarblewall_4
+x 21
+y 18
+end
+arch white-green-x-marble_112
 x 21
 y 19
 elevation 14859
 end
-arch mountain4
+arch white-green-x-marble_112
 x 21
 y 20
 elevation 13457
 end
-arch mountain2
+arch white-green-x-marble_112
 x 21
 y 21
 elevation 11253
 end
-arch mountain4
+arch white-green-x-marble_112
 x 21
 y 22
 elevation 12484
 end
-arch mountain4
+arch white-green-x-marble_112
 x 21
 y 23
 elevation 12862
 end
-arch mountain4
+arch white-green-x-marble_112
 x 21
 y 24
 elevation 12052
 end
-arch mountain2
+arch white-green-x-marble_112
 x 21
 y 25
 elevation 11088
 end
-arch mountain2
+arch beigemarblewall_4
+x 21
+y 25
+end
+arch white-green-x-marble_119
 x 21
 y 26
 elevation 10340
 end
-arch mountain2
+arch white-green-x-marble_119
 x 21
 y 27
 elevation 10628
 end
-arch mountain2
+arch white-green-x-marble_119
 x 21
 y 28
 elevation 10784
 end
-arch mountain2
+arch white-green-x-marble_119
 x 21
 y 29
 elevation 9666
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 30
 elevation 6247
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 31
 elevation 5736
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 32
 elevation 6612
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 33
 elevation 7067
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 34
 elevation 6811
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 35
 elevation 6000
 end
-arch steppe
+arch white-green-x-marble_119
 x 21
 y 36
 elevation 4254
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 37
 elevation 5679
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 38
 elevation 6165
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 39
 elevation 5750
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 21
 y 40
 elevation 3613
 end
-arch woods_2
+arch white-green-x-marble_119
 x 21
 y 41
 elevation 2710
 end
-arch mountain
+arch white-green-x-marble_119
 x 21
 y 42
 elevation 5459
@@ -5437,32 +5666,36 @@ x 21
 y 43
 elevation 5935
 end
-arch mountain
+arch beigemarblewall_4
+x 21
+y 43
+end
+arch snow2
 x 21
 y 44
 elevation 8081
 end
-arch mountain
+arch snow2
 x 21
 y 45
 elevation 8885
 end
-arch mountain
+arch snow2
 x 21
 y 46
 elevation 7418
 end
-arch mountain
+arch snow2
 x 21
 y 47
 elevation 7893
 end
-arch mountain
+arch snow2
 x 21
 y 48
 elevation 7435
 end
-arch mountain
+arch snow2
 x 21
 y 49
 elevation 7657
@@ -5561,122 +5794,126 @@ x 22
 y 18
 elevation 13821
 end
-arch mountain4
+arch beigemarblewall_4
+x 22
+y 18
+end
+arch white-green-x-marble_112
 x 22
 y 19
 elevation 13916
 end
-arch mountain2
+arch white-green-x-marble_112
 x 22
 y 20
 elevation 11614
 end
-arch mountain2
+arch white-green-x-marble_112
 x 22
 y 21
 elevation 11883
 end
-arch mountain2
+arch white-green-x-marble_112
 x 22
 y 22
 elevation 11320
 end
-arch mountain4
+arch white-green-x-marble_112
 x 22
 y 23
 elevation 12284
 end
-arch mountain2
+arch white-green-x-marble_112
 x 22
 y 24
 elevation 11875
 end
-arch mountain2
+arch white-green-x-marble_112
 x 22
 y 25
 elevation 11473
 end
-arch mountain2
+arch white-green-x-marble_119
 x 22
 y 26
 elevation 11505
 end
-arch mountain2
+arch white-green-x-marble_119
 x 22
 y 27
 elevation 11873
 end
-arch mountain2
+arch white-green-x-marble_119
 x 22
 y 28
 elevation 11531
 end
-arch mountain2
+arch white-green-x-marble_119
 x 22
 y 29
 elevation 9946
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 30
 elevation 7985
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 31
 elevation 6716
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 32
 elevation 6614
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 33
 elevation 7010
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 34
 elevation 6900
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 35
 elevation 5818
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 36
 elevation 5691
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 37
 elevation 5826
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 38
 elevation 6094
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 39
 elevation 5660
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 22
 y 40
 elevation 4944
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 22
 y 41
 elevation 4717
 end
-arch mountain
+arch white-green-x-marble_119
 x 22
 y 42
 elevation 5153
@@ -5686,32 +5923,36 @@ x 22
 y 43
 elevation 5233
 end
-arch mountain
+arch beigemarblewall_4
+x 22
+y 43
+end
+arch snow2
 x 22
 y 44
 elevation 7351
 end
-arch mountain
+arch snow2
 x 22
 y 45
 elevation 8105
 end
-arch mountain
+arch snow2
 x 22
 y 46
 elevation 7810
 end
-arch mountain
+arch snow2
 x 22
 y 47
 elevation 6852
 end
-arch hills
+arch cforest3
 x 22
 y 48
 elevation 4612
 end
-arch mountain
+arch snow2
 x 22
 y 49
 elevation 7145
@@ -5810,122 +6051,130 @@ x 23
 y 18
 elevation 13361
 end
-arch mountain2
+arch beigemarblewall_4
+x 23
+y 18
+end
+arch white-green-x-marble_112
 x 23
 y 19
 elevation 11773
 end
-arch mountain4
+arch white-green-x-marble_112
 x 23
 y 20
 elevation 13120
 end
-arch mountain4
+arch white-green-x-marble_112
 x 23
 y 21
 elevation 12683
 end
-arch mountain2
+arch white-green-x-marble_112
 x 23
 y 22
 elevation 11375
 end
-arch mountain4
+arch white-green-x-marble_112
 x 23
 y 23
 elevation 12020
 end
-arch mountain2
+arch white-green-x-marble_112
 x 23
 y 24
 elevation 11702
 end
-arch mountain
+arch white-green-x-marble_112
 x 23
 y 25
 elevation 8925
 end
-arch mountain4
+arch beigemarblewall_4
+x 23
+y 25
+end
+arch white-green-x-marble_119
 x 23
 y 26
 elevation 12326
 end
-arch mountain4
+arch white-green-x-marble_119
 x 23
 y 27
 elevation 12598
 end
-arch mountain2
+arch white-green-x-marble_119
 x 23
 y 28
 elevation 11452
 end
-arch mountain2
+arch white-green-x-marble_119
 x 23
 y 29
 elevation 9596
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 30
 elevation 7783
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 31
 elevation 5824
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 32
 elevation 6214
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 33
 elevation 6789
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 34
 elevation 6873
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 35
 elevation 6003
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 36
 elevation 5529
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 37
 elevation 5762
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 38
 elevation 6145
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 39
 elevation 5930
 end
-arch steppe
+arch white-green-x-marble_119
 x 23
 y 40
 elevation 4936
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 41
 elevation 5021
 end
-arch mountain
+arch white-green-x-marble_119
 x 23
 y 42
 elevation 5098
@@ -5935,32 +6184,36 @@ x 23
 y 43
 elevation 5605
 end
-arch mountain
+arch beigemarblewall_4
+x 23
+y 43
+end
+arch snow2
 x 23
 y 44
 elevation 6523
 end
-arch mountain
+arch snow2
 x 23
 y 45
 elevation 7227
 end
-arch mountain
+arch snow2
 x 23
 y 46
 elevation 7081
 end
-arch mountain
+arch cforest3
 x 23
 y 47
 elevation 6260
 end
-arch mountain
+arch snow2
 x 23
 y 48
 elevation 5187
 end
-arch mountain
+arch snow2
 x 23
 y 49
 elevation 7380
@@ -6059,122 +6312,134 @@ x 24
 y 18
 elevation 13138
 end
-arch mountain4
+arch graveyard_fence2
+x 24
+y 18
+end
+arch white-green-x-marble_112
 x 24
 y 19
 elevation 13919
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 20
 elevation 14108
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 21
 elevation 13651
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 22
 elevation 12595
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 23
 elevation 12297
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 24
 elevation 12248
 end
-arch mountain4
+arch white-green-x-marble_112
 x 24
 y 25
 elevation 12264
 end
-arch mountain4
+arch beigemarblewall_4
+x 24
+y 25
+end
+arch white-green-x-marble_119
 x 24
 y 26
 elevation 12168
 end
-arch mountain4
+arch beigemarblewall_4
+x 24
+y 26
+end
+arch white-green-x-marble_119
 x 24
 y 27
 elevation 12089
 end
-arch mountain2
+arch white-green-x-marble_119
 x 24
 y 28
 elevation 10823
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 29
 elevation 6834
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 30
 elevation 6030
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 31
 elevation 7092
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 32
 elevation 8332
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 33
 elevation 8589
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 34
 elevation 7419
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 24
 y 35
 elevation 4809
 end
-arch hills
+arch white-green-x-marble_119
 x 24
 y 36
 elevation 3315
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 37
 elevation 5167
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 38
 elevation 6133
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 39
 elevation 6160
 end
-arch mountain
+arch white-green-x-marble_119
 x 24
 y 40
 elevation 5564
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 24
 y 41
 elevation 4704
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 24
 y 42
 elevation 3879
@@ -6184,32 +6449,36 @@ x 24
 y 43
 elevation 4916
 end
+arch beigemarblewall_4
+x 24
+y 43
+end
 arch hills_rocky
 x 24
 y 44
 elevation 4769
 end
-arch mountain
+arch snow2
 x 24
 y 45
 elevation 5667
 end
-arch mountain
+arch snow2
 x 24
 y 46
 elevation 5684
 end
-arch mountain
+arch snow2
 x 24
 y 47
 elevation 5348
 end
-arch mountain
+arch snow2
 x 24
 y 48
 elevation 6724
 end
-arch mountain
+arch snow2
 x 24
 y 49
 elevation 8320
@@ -6308,130 +6577,142 @@ x 25
 y 18
 elevation 13254
 end
-arch mountain4
+arch graveyard_fence2
+x 25
+y 18
+end
+arch white-green-x-marble_112
 x 25
 y 19
 elevation 14310
 end
-arch mountain4
+arch white-green-x-marble_112
 x 25
 y 20
 elevation 14616
 end
-arch mountain4
+arch white-green-x-marble_112
 x 25
 y 21
 elevation 13943
 end
-arch mountain4
+arch white-green-x-marble_112
 x 25
 y 22
 elevation 12852
 end
-arch mountain2
+arch white-green-x-marble_112
 x 25
 y 23
 elevation 11925
 end
-arch mountain2
+arch white-green-x-marble_112
 x 25
 y 24
 elevation 11443
 end
-arch mountain2
+arch white-green-x-marble_112
 x 25
 y 25
 elevation 11050
 end
-arch mountain2
+arch beigemarblewall_4
+x 25
+y 25
+end
+arch white-green-x-marble_119
 x 25
 y 26
 elevation 10735
 end
-arch mountain2
+arch white-green-x-marble_119
 x 25
 y 27
 elevation 10731
 end
-arch mountain2
+arch white-green-x-marble_119
 x 25
 y 28
 elevation 10031
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 29
 elevation 8734
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 30
 elevation 7188
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 31
 elevation 8616
 end
-arch mountain2
+arch white-green-x-marble_119
 x 25
 y 32
 elevation 10076
 end
-arch mountain2
+arch white-green-x-marble_119
 x 25
 y 33
 elevation 10683
 end
-arch mountain2
+arch white-green-x-marble_119
 x 25
 y 34
 elevation 9621
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 35
 elevation 6743
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 36
 elevation 5316
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 37
 elevation 5711
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 38
 elevation 6169
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 39
 elevation 6359
 end
-arch mountain
+arch white-green-x-marble_119
 x 25
 y 40
 elevation 5607
 end
-arch steppe
+arch white-green-x-marble_119
 x 25
 y 41
 elevation 4241
 end
-arch steppe
+arch white-green-x-marble_119
 x 25
 y 42
 elevation 3503
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 25
 y 43
 elevation 4286
+end
+arch beigemarblewall_4
+x 25
+y 43
 end
 arch hills_rocky
 x 25
@@ -6453,12 +6734,12 @@ x 25
 y 47
 elevation 4491
 end
-arch mountain
+arch snow2
 x 25
 y 48
 elevation 6264
 end
-arch mountain2
+arch snow2
 x 25
 y 49
 elevation 9580
@@ -6557,135 +6838,151 @@ x 26
 y 18
 elevation 13558
 end
-arch mountain4
+arch beigemarblewall_4
+x 26
+y 18
+end
+arch white-green-x-marble_112
 x 26
 y 19
 elevation 14165
 end
-arch mountain4
+arch white-green-x-marble_112
 x 26
 y 20
 elevation 14222
 end
-arch mountain4
+arch white-green-x-marble_112
 x 26
 y 21
 elevation 12849
 end
-arch mountain4
+arch white-green-x-marble_112
 x 26
 y 22
 elevation 12046
 end
-arch mountain2
+arch white-green-x-marble_112
 x 26
 y 23
 elevation 10720
 end
-arch mountain
+arch white-green-x-marble_112
 x 26
 y 24
 elevation 7711
 end
-arch mountain
+arch white-green-x-marble_112
 x 26
 y 25
 elevation 7359
 end
-arch mountain
+arch beigemarblewall_4
+x 26
+y 25
+end
+arch white-green-x-marble_119
 x 26
 y 26
 elevation 8334
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 27
 elevation 8154
 end
-arch mountain2
+arch white-green-x-marble_119
 x 26
 y 28
 elevation 9518
 end
-arch mountain2
+arch white-green-x-marble_119
 x 26
 y 29
 elevation 9715
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 30
 elevation 7980
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 31
 elevation 8396
 end
-arch mountain2
+arch white-green-x-marble_119
 x 26
 y 32
 elevation 11566
 end
-arch mountain4
+arch white-green-x-marble_119
 x 26
 y 33
 elevation 12642
 end
-arch mountain2
+arch white-green-x-marble_119
 x 26
 y 34
 elevation 11907
 end
-arch mountain2
+arch white-green-x-marble_119
 x 26
 y 35
 elevation 9990
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 36
 elevation 7792
 end
-arch hills
+arch white-green-x-marble_119
 x 26
 y 37
 elevation 4329
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 38
 elevation 6334
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 39
 elevation 6219
 end
-arch mountain
+arch white-green-x-marble_119
 x 26
 y 40
 elevation 5259
 end
-arch steppe
+arch white-green-x-marble_119
 x 26
 y 41
 elevation 4129
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 26
 y 42
 elevation 3737
 end
-arch steppe
+arch white-green-x-marble_119
 x 26
 y 43
 elevation 3948
+end
+arch beigemarblewall_4
+x 26
+y 43
 end
 arch hills_rocky
 x 26
 y 44
 elevation 4475
+end
+arch beigemarblewall_4
+x 26
+y 44
 end
 arch hills_rocky
 x 26
@@ -6697,17 +6994,17 @@ x 26
 y 46
 elevation 4966
 end
-arch mountain
+arch snow2
 x 26
 y 47
 elevation 6049
 end
-arch mountain
+arch snow2
 x 26
 y 48
 elevation 5690
 end
-arch mountain2
+arch snow2
 x 26
 y 49
 elevation 10512
@@ -6806,157 +7103,201 @@ x 27
 y 18
 elevation 13015
 end
-arch mountain4
+arch beigemarblewall_4
+x 27
+y 18
+end
+arch white-green-x-marble_111
 x 27
 y 19
 elevation 13564
 end
-arch mountain4
+arch beigemarblewall_4
+x 27
+y 19
+end
+arch white-green-x-marble_111
 x 27
 y 20
 elevation 13187
 end
-arch mountain4
+arch beigemarblewall_4
+x 27
+y 20
+end
+arch white-green-x-marble_111
 x 27
 y 21
 elevation 12045
 end
-arch mountain2
+arch beigemarblewall_4
+x 27
+y 21
+end
+arch white-green-x-marble_111
 x 27
 y 22
 elevation 10618
 end
-arch mountain2
+arch beigemarblewall_4
+x 27
+y 22
+end
+arch white-green-x-marble_111
 x 27
 y 23
 elevation 9717
 end
-arch mountain2
+arch beigemarblewall_4
+x 27
+y 23
+end
+arch white-green-x-marble_111
 x 27
 y 24
 elevation 9026
 end
-arch mountain
+arch beigemarblewall_4
+x 27
+y 24
+end
+arch white-green-x-marble_119
 x 27
 y 25
 elevation 8945
 end
-arch mountain2
+arch beigemarblewall_4
+x 27
+y 25
+end
+arch white-green-x-marble_119
 x 27
 y 26
 elevation 9405
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 27
 elevation 10266
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 28
 elevation 11035
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 29
 elevation 11103
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 30
 elevation 10090
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 31
 elevation 11198
 end
-arch mountain4
+arch white-green-x-marble_119
 x 27
 y 32
 elevation 12330
 end
-arch mountain4
+arch white-green-x-marble_119
 x 27
 y 33
 elevation 13357
 end
-arch mountain4
+arch ltbeigemarblewall_4
+x 27
+y 33
+end
+arch white-green-x-marble_119
 x 27
 y 34
 elevation 13071
 end
-arch mountain2
+arch white-green-x-marble_119
 x 27
 y 35
 elevation 11526
 end
-arch mountain
+arch white-green-x-marble_119
 x 27
 y 36
 elevation 8874
 end
-arch mountain
+arch white-green-x-marble_119
 x 27
 y 37
 elevation 6751
 end
-arch mountain
+arch white-green-x-marble_119
 x 27
 y 38
 elevation 5869
 end
-arch mountain
+arch white-green-x-marble_119
 x 27
 y 39
 elevation 5544
 end
-arch steppe
+arch white-green-x-marble_119
 x 27
 y 40
 elevation 4334
 end
-arch steppe
+arch white-green-x-marble_119
 x 27
 y 41
 elevation 3197
 end
-arch woods_2
+arch white-green-x-marble_119
 x 27
 y 42
 elevation 2366
 end
-arch steppe
+arch white-green-x-marble_119
 x 27
 y 43
 elevation 3563
+end
+arch beigemarblewall_4
+x 27
+y 43
 end
 arch hills_rocky
 x 27
 y 44
 elevation 4359
 end
-arch mountain
+arch beigemarblewall_4
+x 27
+y 44
+end
+arch snow2
 x 27
 y 45
 elevation 5356
 end
-arch mountain
+arch snow2
 x 27
 y 46
 elevation 6471
 end
-arch mountain
+arch snow2
 x 27
 y 47
 elevation 7293
 end
-arch mountain
+arch cforest3
 x 27
 y 48
 elevation 8267
 end
-arch mountain4
+arch snow2
 x 27
 y 49
 elevation 12213
@@ -7055,157 +7396,173 @@ x 28
 y 18
 elevation 11300
 end
-arch mountain4
+arch beigemarblewall_4
+x 28
+y 18
+end
+arch white-green-x-marble_111
 x 28
 y 19
 elevation 12018
 end
-arch mountain2
+arch white-green-x-marble_111
 x 28
 y 20
 elevation 11225
 end
-arch mountain2
+arch white-green-x-marble_111
 x 28
 y 21
 elevation 10234
 end
-arch mountain2
+arch white-green-x-marble_111
 x 28
 y 22
 elevation 9482
 end
-arch mountain
+arch white-green-x-marble_111
 x 28
 y 23
 elevation 8209
 end
-arch mountain2
+arch white-green-x-marble_111
 x 28
 y 24
 elevation 9107
 end
-arch mountain2
+arch white-green-x-marble_119
 x 28
 y 25
 elevation 9357
 end
-arch mountain2
+arch beigemarblewall_4
+x 28
+y 25
+end
+arch white-green-x-marble_119
 x 28
 y 26
 elevation 9628
 end
-arch mountain2
+arch white-green-x-marble_119
 x 28
 y 27
 elevation 11116
 end
-arch mountain4
+arch white-green-x-marble_119
 x 28
 y 28
 elevation 12351
 end
-arch mountain4
+arch white-green-x-marble_119
 x 28
 y 29
 elevation 12611
 end
-arch mountain4
+arch white-green-x-marble_119
 x 28
 y 30
 elevation 12383
 end
-arch mountain2
+arch white-green-x-marble_119
 x 28
 y 31
 elevation 11932
 end
-arch wasteland
+arch white-green-x-marble_119
 x 28
 y 32
 elevation 12000
 end
-arch mountain4
+arch white-green-x-marble_119
 x 28
 y 33
 elevation 12306
 end
-arch mountain4
+arch white-green-x-marble_119
 x 28
 y 34
 elevation 12528
 end
-arch mountain2
+arch white-green-x-marble_119
 x 28
 y 35
 elevation 11521
 end
-arch mountain
+arch white-green-x-marble_119
 x 28
 y 36
 elevation 8880
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 28
 y 37
 elevation 4935
 end
-arch mountain
+arch white-green-x-marble_119
 x 28
 y 38
 elevation 5049
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 28
 y 39
 elevation 4577
 end
-arch steppe
+arch white-green-x-marble_119
 x 28
 y 40
 elevation 3323
 end
-arch hills
+arch white-green-x-marble_119
 x 28
 y 41
 elevation 3431
 end
-arch woods_2
+arch white-green-x-marble_119
 x 28
 y 42
 elevation 2933
 end
-arch woods_2
+arch white-green-x-marble_119
 x 28
 y 43
 elevation 2266
+end
+arch beigemarblewall_4
+x 28
+y 43
 end
 arch hills_rocky
 x 28
 y 44
 elevation 3408
 end
-arch mountain
+arch beigemarblewall_4
+x 28
+y 44
+end
+arch snow2
 x 28
 y 45
 elevation 5116
 end
-arch mountain
+arch cforest3
 x 28
 y 46
 elevation 6844
 end
-arch mountain
+arch snow2
 x 28
 y 47
 elevation 8205
 end
-arch mountain
+arch snow2
 x 28
 y 48
 elevation 8873
 end
-arch mountain4
+arch snow2
 x 28
 y 49
 elevation 13833
@@ -7304,157 +7661,173 @@ x 29
 y 18
 elevation 9390
 end
-arch mountain2
+arch beigemarblewall_4
+x 29
+y 18
+end
+arch white-green-x-marble_111
 x 29
 y 19
 elevation 10330
 end
-arch mountain
+arch white-green-x-marble_111
 x 29
 y 20
 elevation 8987
 end
-arch hills
+arch white-green-x-marble_111
 x 29
 y 21
 elevation 4723
 end
-arch mountain2
+arch white-green-x-marble_111
 x 29
 y 22
 elevation 9112
 end
-arch mountain2
+arch white-green-x-marble_111
 x 29
 y 23
 elevation 9617
 end
-arch mountain2
+arch white-green-x-marble_111
 x 29
 y 24
 elevation 9118
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 25
 elevation 9461
 end
-arch mountain
+arch beigemarblewall_4
+x 29
+y 25
+end
+arch white-green-x-marble_119
 x 29
 y 26
 elevation 8527
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 27
 elevation 11109
 end
-arch mountain4
+arch white-green-x-marble_119
 x 29
 y 28
 elevation 12713
 end
-arch mountain4
+arch white-green-x-marble_119
 x 29
 y 29
 elevation 13241
 end
-arch mountain4
+arch white-green-x-marble_119
 x 29
 y 30
 elevation 12834
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 31
 elevation 11594
 end
-arch mountain
+arch white-green-x-marble_119
 x 29
 y 32
 elevation 8944
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 33
 elevation 9846
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 34
 elevation 10882
 end
-arch mountain2
+arch white-green-x-marble_119
 x 29
 y 35
 elevation 10618
 end
-arch mountain
+arch white-green-x-marble_119
 x 29
 y 36
 elevation 8562
 end
-arch hills
+arch white-green-x-marble_119
 x 29
 y 37
 elevation 4215
 end
-arch woods_2
+arch white-green-x-marble_119
 x 29
 y 38
 elevation 2888
 end
-arch hills
+arch white-green-x-marble_119
 x 29
 y 39
 elevation 3989
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 29
 y 40
 elevation 3986
 end
-arch hills
+arch white-green-x-marble_119
 x 29
 y 41
 elevation 3658
 end
-arch woods_2
+arch white-green-x-marble_119
 x 29
 y 42
 elevation 2533
 end
-arch woods_2
+arch white-green-x-marble_119
 x 29
 y 43
 elevation 1762
+end
+arch beigemarblewall_4
+x 29
+y 43
 end
 arch woods_2
 x 29
 y 44
 elevation 1759
 end
-arch mountain
+arch beigemarblewall_4
+x 29
+y 44
+end
+arch snow2
 x 29
 y 45
 elevation 5094
 end
-arch mountain
+arch snow2
 x 29
 y 46
 elevation 5506
 end
-arch mountain
+arch snow2
 x 29
 y 47
 elevation 8583
 end
-arch mountain2
+arch snow2
 x 29
 y 48
 elevation 11300
 end
-arch mountain4
+arch snow2
 x 29
 y 49
 elevation 14376
@@ -7553,157 +7926,169 @@ x 30
 y 18
 elevation 7427
 end
-arch mountain2
+arch graveyard_fence2
+x 30
+y 18
+end
+arch white-green-x-marble_111
 x 30
 y 19
 elevation 9218
 end
-arch mountain2
+arch white-green-x-marble_111
 x 30
 y 20
 elevation 9080
 end
-arch mountain
+arch white-green-x-marble_111
 x 30
 y 21
 elevation 8960
 end
-arch mountain2
+arch white-green-x-marble_111
 x 30
 y 22
 elevation 9365
 end
-arch mountain2
+arch white-green-x-marble_111
 x 30
 y 23
 elevation 10297
 end
-arch mountain2
+arch white-green-x-marble_111
 x 30
 y 24
 elevation 10502
 end
-arch mountain2
+arch white-green-x-marble_119
 x 30
 y 25
 elevation 10021
 end
-arch mountain
+arch beigemarblewall_4
+x 30
+y 25
+end
+arch white-green-x-marble_119
 x 30
 y 26
 elevation 8175
 end
-arch mountain2
+arch white-green-x-marble_119
 x 30
 y 27
 elevation 10811
 end
-arch mountain4
+arch white-green-x-marble_119
 x 30
 y 28
 elevation 12267
 end
-arch mountain4
+arch white-green-x-marble_119
 x 30
 y 29
 elevation 12622
 end
-arch mountain2
+arch white-green-x-marble_119
 x 30
 y 30
 elevation 11985
 end
-arch mountain2
+arch white-green-x-marble_119
 x 30
 y 31
 elevation 10483
 end
-arch mountain
+arch white-green-x-marble_119
 x 30
 y 32
 elevation 8099
 end
-arch mountain
+arch white-green-x-marble_119
 x 30
 y 33
 elevation 7349
 end
-arch mountain
+arch white-green-x-marble_119
 x 30
 y 34
 elevation 8645
 end
-arch mountain2
+arch white-green-x-marble_119
 x 30
 y 35
 elevation 9811
 end
-arch mountain
+arch white-green-x-marble_119
 x 30
 y 36
 elevation 8710
 end
-arch mountain
+arch white-green-x-marble_119
 x 30
 y 37
 elevation 6221
 end
-arch steppe
+arch white-green-x-marble_119
 x 30
 y 38
 elevation 3644
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 30
 y 39
 elevation 3554
 end
-arch hills
+arch white-green-x-marble_119
 x 30
 y 40
 elevation 3810
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 30
 y 41
 elevation 3854
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 30
 y 42
 elevation 3805
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 30
 y 43
 elevation 3956
+end
+arch beigemarblewall_4
+x 30
+y 43
 end
 arch hills_rocky
 x 30
 y 44
 elevation 4674
 end
-arch mountain
+arch snow2
 x 30
 y 45
 elevation 5580
 end
-arch mountain
+arch snow2
 x 30
 y 46
 elevation 6564
 end
-arch mountain
+arch snow2
 x 30
 y 47
 elevation 8323
 end
-arch mountain2
+arch snow2
 x 30
 y 48
 elevation 10991
 end
-arch mountain4
+arch snow2
 x 30
 y 49
 elevation 14024
@@ -7806,157 +8191,169 @@ x 31
 y 18
 elevation 7183
 end
-arch mountain
+arch beigemarblewall_4
+x 31
+y 18
+end
+arch white-green-x-marble_111
 x 31
 y 19
 elevation 8968
 end
-arch mountain2
+arch white-green-x-marble_111
 x 31
 y 20
 elevation 9575
 end
-arch mountain2
+arch white-green-x-marble_111
 x 31
 y 21
 elevation 9353
 end
-arch mountain2
+arch white-green-x-marble_111
 x 31
 y 22
 elevation 9939
 end
-arch mountain2
+arch white-green-x-marble_111
 x 31
 y 23
 elevation 10742
 end
-arch mountain2
+arch white-green-x-marble_111
 x 31
 y 24
 elevation 11179
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 25
 elevation 10764
 end
-arch mountain2
+arch beigemarblewall_4
+x 31
+y 25
+end
+arch white-green-x-marble_119
 x 31
 y 26
 elevation 10415
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 27
 elevation 10603
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 28
 elevation 11238
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 29
 elevation 11108
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 30
 elevation 10434
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 31
 elevation 8954
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 32
 elevation 7719
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 33
 elevation 7670
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 34
 elevation 8530
 end
-arch mountain2
+arch white-green-x-marble_119
 x 31
 y 35
 elevation 9397
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 36
 elevation 8930
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 37
 elevation 6728
 end
-arch steppe
+arch white-green-x-marble_119
 x 31
 y 38
 elevation 3184
 end
-arch woods_2
+arch white-green-x-marble_119
 x 31
 y 39
 elevation 2671
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 31
 y 40
 elevation 3478
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 31
 y 41
 elevation 3763
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 31
 y 42
 elevation 4554
 end
-arch mountain
+arch white-green-x-marble_119
 x 31
 y 43
 elevation 5230
 end
-arch mountain
+arch beigemarblewall_4
+x 31
+y 43
+end
+arch cforest3
 x 31
 y 44
 elevation 5879
 end
-arch mountain
+arch snow2
 x 31
 y 45
 elevation 6474
 end
-arch mountain
+arch cforest3
 x 31
 y 46
 elevation 6908
 end
-arch mountain
+arch snow2
 x 31
 y 47
 elevation 6310
 end
-arch mountain2
+arch snow2
 x 31
 y 48
 elevation 10553
 end
-arch mountain4
+arch snow2
 x 31
 y 49
 elevation 13038
@@ -8055,122 +8452,126 @@ x 32
 y 18
 elevation 7801
 end
-arch mountain2
+arch beigemarblewall_4
+x 32
+y 18
+end
+arch white-green-x-marble_111
 x 32
 y 19
 elevation 9256
 end
-arch mountain2
+arch white-green-x-marble_111
 x 32
 y 20
 elevation 9734
 end
-arch mountain2
+arch white-green-x-marble_111
 x 32
 y 21
 elevation 9656
 end
-arch mountain2
+arch white-green-x-marble_111
 x 32
 y 22
 elevation 9715
 end
-arch mountain2
+arch white-green-x-marble_111
 x 32
 y 23
 elevation 10323
 end
-arch mountain2
+arch white-green-x-marble_111
 x 32
 y 24
 elevation 11012
 end
-arch mountain2
+arch white-green-x-marble_119
 x 32
 y 25
 elevation 11216
 end
-arch mountain2
+arch white-green-x-marble_119
 x 32
 y 26
 elevation 10466
 end
-arch mountain2
+arch white-green-x-marble_119
 x 32
 y 27
 elevation 10434
 end
-arch mountain2
+arch white-green-x-marble_119
 x 32
 y 28
 elevation 9110
 end
-arch mountain2
+arch white-green-x-marble_119
 x 32
 y 29
 elevation 9539
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 30
 elevation 8042
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 31
 elevation 8096
 end
-arch hills
+arch white-green-x-marble_119
 x 32
 y 32
 elevation 4800
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 33
 elevation 7245
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 34
 elevation 8467
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 35
 elevation 8984
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 36
 elevation 8564
 end
-arch mountain
+arch white-green-x-marble_119
 x 32
 y 37
 elevation 6817
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 32
 y 38
 elevation 4047
 end
-arch steppe
+arch white-green-x-marble_119
 x 32
 y 39
 elevation 3739
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 32
 y 40
 elevation 3628
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 32
 y 41
 elevation 3992
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 32
 y 42
 elevation 4715
@@ -8180,32 +8581,36 @@ x 32
 y 43
 elevation 5640
 end
-arch mountain
+arch beigemarblewall_4
+x 32
+y 43
+end
+arch snow2
 x 32
 y 44
 elevation 6479
 end
-arch mountain
+arch snow2
 x 32
 y 45
 elevation 6705
 end
-arch mountain
+arch snow2
 x 32
 y 46
 elevation 6903
 end
-arch mountain
+arch ipond
 x 32
 y 47
 elevation 6925
 end
-arch mountain2
+arch snow2
 x 32
 y 48
 elevation 10083
 end
-arch mountain2
+arch snow2
 x 32
 y 49
 elevation 11998
@@ -8304,122 +8709,130 @@ x 33
 y 18
 elevation 8587
 end
-arch mountain2
+arch beigemarblewall_4
+x 33
+y 18
+end
+arch white-green-x-marble_111
 x 33
 y 19
 elevation 9494
 end
-arch mountain2
+arch white-green-x-marble_111
 x 33
 y 20
 elevation 9807
 end
-arch mountain
+arch white-green-x-marble_111
 x 33
 y 21
 elevation 8843
 end
-arch mountain
+arch white-green-x-marble_111
 x 33
 y 22
 elevation 8566
 end
-arch mountain
+arch white-green-x-marble_111
 x 33
 y 23
 elevation 8663
 end
-arch mountain2
+arch white-green-x-marble_111
 x 33
 y 24
 elevation 9723
 end
-arch mountain2
+arch white-green-x-marble_119
 x 33
 y 25
 elevation 11140
 end
-arch mountain2
+arch beigemarblewall_4
+x 33
+y 25
+end
+arch white-green-x-marble_119
 x 33
 y 26
 elevation 11203
 end
-arch mountain2
+arch white-green-x-marble_119
 x 33
 y 27
 elevation 10338
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 28
 elevation 7552
 end
-arch mountain2
+arch white-green-x-marble_119
 x 33
 y 29
 elevation 9141
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 30
 elevation 8365
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 31
 elevation 8836
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 32
 elevation 6357
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 33
 elevation 8240
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 34
 elevation 8199
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 35
 elevation 7244
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 36
 elevation 7805
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 37
 elevation 7083
 end
-arch mountain
+arch white-green-x-marble_119
 x 33
 y 38
 elevation 5430
 end
-arch hills
+arch white-green-x-marble_119
 x 33
 y 39
 elevation 3895
 end
-arch steppe
+arch white-green-x-marble_119
 x 33
 y 40
 elevation 3341
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 33
 y 41
 elevation 3611
 end
-arch hills
+arch white-green-x-marble_119
 x 33
 y 42
 elevation 3819
@@ -8429,32 +8842,36 @@ x 33
 y 43
 elevation 5719
 end
-arch mountain
+arch beigemarblewall_4
+x 33
+y 43
+end
+arch cforest3
 x 33
 y 44
 elevation 6751
 end
-arch mountain
+arch snow2
 x 33
 y 45
 elevation 7102
 end
-arch mountain
+arch snow
 x 33
 y 46
 elevation 6583
 end
-arch mountain
+arch snow
 x 33
 y 47
 elevation 7035
 end
-arch mountain2
+arch snow2
 x 33
 y 48
 elevation 9800
 end
-arch mountain2
+arch snow2
 x 33
 y 49
 elevation 11923
@@ -8553,122 +8970,130 @@ x 34
 y 18
 elevation 8106
 end
-arch mountain2
+arch beigemarblewall_4
+x 34
+y 18
+end
+arch white-green-x-marble_111
 x 34
 y 19
 elevation 9648
 end
-arch mountain2
+arch white-green-x-marble_111
 x 34
 y 20
 elevation 9719
 end
-arch mountain
+arch white-green-x-marble_111
 x 34
 y 21
 elevation 8964
 end
-arch mountain
+arch white-green-x-marble_111
 x 34
 y 22
 elevation 8524
 end
-arch mountain
+arch white-green-x-marble_111
 x 34
 y 23
 elevation 8788
 end
-arch mountain2
+arch white-green-x-marble_111
 x 34
 y 24
 elevation 9964
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 25
 elevation 10808
 end
-arch mountain2
+arch beigemarblewall_4
+x 34
+y 25
+end
+arch white-green-x-marble_119
 x 34
 y 26
 elevation 10700
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 27
 elevation 10100
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 28
 elevation 9848
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 29
 elevation 10194
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 30
 elevation 10830
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 31
 elevation 10829
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 32
 elevation 10483
 end
-arch mountain2
+arch white-green-x-marble_119
 x 34
 y 33
 elevation 9653
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 34
 elevation 8626
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 35
 elevation 5355
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 36
 elevation 7344
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 37
 elevation 7359
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 38
 elevation 6478
 end
-arch mountain
+arch white-green-x-marble_119
 x 34
 y 39
 elevation 5093
 end
-arch woods_2
+arch white-green-x-marble_119
 x 34
 y 40
 elevation 2717
 end
-arch woods_2
+arch white-green-x-marble_119
 x 34
 y 41
 elevation 2019
 end
-arch hills_rocky
+arch white-green-x-marble_119
 x 34
 y 42
 elevation 4135
@@ -8678,32 +9103,36 @@ x 34
 y 43
 elevation 5560
 end
-arch mountain
+arch beigemarblewall_4
+x 34
+y 43
+end
+arch snow2
 x 34
 y 44
 elevation 6763
 end
-arch mountain
+arch snow
 x 34
 y 45
 elevation 7358
 end
-arch mountain
+arch snow
 x 34
 y 46
 elevation 7247
 end
-arch steppe
+arch snow
 x 34
 y 47
 elevation 4928
 end
-arch mountain2
+arch snow2
 x 34
 y 48
 elevation 10108
 end
-arch mountain2
+arch snow2
 x 34
 y 49
 elevation 11777
@@ -8787,7 +9216,7 @@ x 35
 y 15
 elevation 8153
 end
-arch mountain
+arch snow2
 x 35
 y 16
 elevation 7140
@@ -8802,157 +9231,189 @@ x 35
 y 18
 elevation 8932
 end
-arch mountain2
+arch beigemarblewall_4
+x 35
+y 18
+end
+arch white-green-x-marble_111
 x 35
 y 19
 elevation 9645
 end
-arch mountain2
+arch white-green-x-marble_111
 x 35
 y 20
 elevation 9637
 end
-arch mountain
+arch white-green-x-marble_111
 x 35
 y 21
 elevation 8943
 end
-arch mountain
+arch white-green-x-marble_111
 x 35
 y 22
 elevation 5656
 end
-arch mountain
+arch white-green-x-marble_111
 x 35
 y 23
 elevation 8411
 end
-arch mountain2
+arch white-green-x-marble_111
 x 35
 y 24
 elevation 9664
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 25
 elevation 10352
 end
-arch mountain2
+arch beigemarblewall_4
+x 35
+y 25
+end
+arch white-green-x-marble_119
 x 35
 y 26
 elevation 10332
 end
-arch mountain
+arch white-green-x-marble_119
 x 35
 y 27
 elevation 7440
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 28
 elevation 9894
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 29
 elevation 10967
 end
-arch mountain4
+arch white-green-x-marble_119
 x 35
 y 30
 elevation 12265
 end
-arch mountain4
+arch white-green-x-marble_119
 x 35
 y 31
 elevation 12462
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 32
 elevation 11715
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 33
 elevation 10639
 end
-arch mountain2
+arch white-green-x-marble_119
 x 35
 y 34
 elevation 9297
 end
-arch mountain
+arch white-green-x-marble_119
 x 35
 y 35
 elevation 8375
 end
-arch mountain
+arch white-green-x-marble_119
 x 35
 y 36
 elevation 7573
 end
-arch mountain
+arch white-green-x-marble_113
 x 35
 y 37
 elevation 7405
 end
-arch mountain
+arch beigemarblewall_4
+x 35
+y 37
+end
+arch white-green-x-marble_113
 x 35
 y 38
 elevation 6886
 end
-arch mountain
+arch beigemarblewall_4
+x 35
+y 38
+end
+arch white-green-x-marble_113
 x 35
 y 39
 elevation 5862
 end
-arch hills_rocky
+arch white-green-x-marble_113
 x 35
 y 40
 elevation 4443
 end
-arch woods_2
+arch beigemarblewall_4
+x 35
+y 40
+end
+arch white-green-x-marble_113
 x 35
 y 41
 elevation 2636
 end
-arch hills_rocky
+arch beigemarblewall_4
+x 35
+y 41
+end
+arch white-green-x-marble_113
 x 35
 y 42
 elevation 4385
+end
+arch beigemarblewall_4
+x 35
+y 42
 end
 arch mountain
 x 35
 y 43
 elevation 5093
 end
-arch mountain
+arch beigemarblewall_4
+x 35
+y 43
+end
+arch snow2
 x 35
 y 44
 elevation 6643
 end
-arch mountain
+arch snow
 x 35
 y 45
 elevation 7817
 end
-arch mountain
+arch snow
 x 35
 y 46
 elevation 8243
 end
-arch mountain
+arch snow
 x 35
 y 47
 elevation 8200
 end
-arch mountain2
+arch snow2
 x 35
 y 48
 elevation 10886
 end
-arch mountain2
+arch snow2
 x 35
 y 49
 elevation 11830
@@ -9036,7 +9497,7 @@ x 36
 y 15
 elevation 7830
 end
-arch mountain
+arch snow2
 x 36
 y 16
 elevation 7721
@@ -9051,122 +9512,198 @@ x 36
 y 18
 elevation 8985
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 18
+end
+arch white-green-x-marble_114
 x 36
 y 19
 elevation 9712
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 19
+end
+arch white-green-x-marble_114
 x 36
 y 20
 elevation 9272
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 20
+end
+arch white-green-x-marble_114
 x 36
 y 21
 elevation 9000
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 21
+end
+arch white-green-x-marble_114
 x 36
 y 22
 elevation 8636
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 22
+end
+arch white-green-x-marble_114
 x 36
 y 23
 elevation 8664
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 23
+end
+arch white-green-x-marble_114
 x 36
 y 24
 elevation 9158
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 24
+end
+arch white-green-x-marble_114
 x 36
 y 25
 elevation 8787
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 25
+end
+arch white-green-x-marble_114
 x 36
 y 26
 elevation 10475
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 26
+end
+arch white-green-x-marble_114
 x 36
 y 27
 elevation 11238
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 27
+end
+arch white-green-x-marble_114
 x 36
 y 28
 elevation 11903
 end
-arch mountain4
+arch beigemarblewall_4
+x 36
+y 28
+end
+arch white-green-x-marble_116
 x 36
 y 29
 elevation 12941
 end
-arch mountain4
+arch beigemarblewall_4
+x 36
+y 29
+end
+arch white-green-x-marble_116
 x 36
 y 30
 elevation 13424
 end
-arch mountain4
+arch white-green-x-marble_116
 x 36
 y 31
 elevation 12985
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 31
+end
+arch white-green-x-marble_116
 x 36
 y 32
 elevation 11557
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 32
+end
+arch white-green-x-marble_116
 x 36
 y 33
 elevation 9867
 end
-arch mountain2
+arch beigemarblewall_4
+x 36
+y 33
+end
+arch white-green-x-marble_116
 x 36
 y 34
 elevation 9957
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 34
+end
+arch white-green-x-marble_116
 x 36
 y 35
 elevation 8849
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 35
+end
+arch white-green-x-marble_116
 x 36
 y 36
 elevation 7765
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 36
+end
+arch white-green-x-marble_113
 x 36
 y 37
 elevation 6501
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 37
+end
+arch white-green-x-marble_113
 x 36
 y 38
 elevation 6728
 end
-arch mountain
+arch white-green-x-marble_113
 x 36
 y 39
 elevation 6158
 end
-arch mountain
+arch white-green-x-marble_113
 x 36
 y 40
 elevation 5229
 end
-arch steppe
+arch white-green-x-marble_113
 x 36
 y 41
 elevation 4667
 end
-arch steppe
+arch white-green-x-marble_113
 x 36
 y 42
 elevation 4520
@@ -9176,32 +9713,36 @@ x 36
 y 43
 elevation 6200
 end
-arch mountain
+arch beigemarblewall_4
+x 36
+y 43
+end
+arch snow2
 x 36
 y 44
 elevation 7799
 end
-arch mountain
+arch ipond
 x 36
 y 45
 elevation 8392
 end
-arch mountain2
+arch snow
 x 36
 y 46
 elevation 9983
 end
-arch mountain2
+arch snow
 x 36
 y 47
 elevation 11185
 end
-arch mountain2
+arch snow2
 x 36
 y 48
 elevation 11949
 end
-arch mountain2
+arch snow2
 x 36
 y 49
 elevation 11472
@@ -9285,12 +9826,12 @@ x 37
 y 15
 elevation 8079
 end
-arch mountain
+arch snow2
 x 37
 y 16
 elevation 7694
 end
-arch mountain
+arch snow2
 x 37
 y 17
 elevation 8068
@@ -9300,122 +9841,130 @@ x 37
 y 18
 elevation 8886
 end
-arch mountain2
+arch beigemarblewall_4
+x 37
+y 18
+end
+arch white-green-x-marble_114
 x 37
 y 19
 elevation 9646
 end
-arch mountain2
+arch white-green-x-marble_114
 x 37
 y 20
 elevation 9425
 end
-arch mountain2
+arch white-green-x-marble_114
 x 37
 y 21
 elevation 9282
 end
-arch mountain
+arch white-green-x-marble_114
 x 37
 y 22
 elevation 8789
 end
-arch mountain
+arch white-green-x-marble_114
 x 37
 y 23
 elevation 8349
 end
-arch mountain
+arch white-green-x-marble_114
 x 37
 y 24
 elevation 8675
 end
-arch mountain2
+arch white-green-x-marble_114
 x 37
 y 25
 elevation 9335
 end
-arch mountain2
+arch white-green-x-marble_114
 x 37
 y 26
 elevation 11013
 end
-arch mountain4
+arch white-green-x-marble_114
 x 37
 y 27
 elevation 12581
 end
-arch mountain4
+arch white-green-x-marble_114
 x 37
 y 28
 elevation 13846
 end
-arch mountain4
+arch ltbeigemarblewall_4
+x 37
+y 28
+end
+arch white-green-x-marble_116
 x 37
 y 29
 elevation 14441
 end
-arch mountain4
+arch white-green-x-marble_116
 x 37
 y 30
 elevation 13976
 end
-arch mountain4
+arch white-green-x-marble_116
 x 37
 y 31
 elevation 13581
 end
-arch mountain2
+arch white-green-x-marble_116
 x 37
 y 32
 elevation 11457
 end
-arch mountain2
+arch white-green-x-marble_116
 x 37
 y 33
 elevation 11907
 end
-arch mountain2
+arch white-green-x-marble_116
 x 37
 y 34
 elevation 10919
 end
-arch mountain
+arch white-green-x-marble_116
 x 37
 y 35
 elevation 7183
 end
-arch mountain
+arch white-green-x-marble_116
 x 37
 y 36
 elevation 8341
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 37
 elevation 6692
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 38
 elevation 6703
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 39
 elevation 5275
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 40
 elevation 5678
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 41
 elevation 5807
 end
-arch mountain
+arch white-green-x-marble_113
 x 37
 y 42
 elevation 5742
@@ -9425,32 +9974,36 @@ x 37
 y 43
 elevation 7332
 end
-arch mountain2
+arch beigemarblewall_4
+x 37
+y 43
+end
+arch snow2
 x 37
 y 44
 elevation 9539
 end
-arch mountain2
+arch snow2
 x 37
 y 45
 elevation 10650
 end
-arch mountain2
+arch snow
 x 37
 y 46
 elevation 11587
 end
-arch mountain4
+arch snow
 x 37
 y 47
 elevation 12607
 end
-arch mountain4
+arch snow2
 x 37
 y 48
 elevation 12619
 end
-arch mountain2
+arch snow2
 x 37
 y 49
 elevation 11124
@@ -9529,17 +10082,17 @@ x 38
 y 14
 elevation 9095
 end
-arch mountain
+arch snow2
 x 38
 y 15
 elevation 7763
 end
-arch mountain
+arch snow2
 x 38
 y 16
 elevation 8215
 end
-arch mountain
+arch snow2
 x 38
 y 17
 elevation 6969
@@ -9549,122 +10102,130 @@ x 38
 y 18
 elevation 8911
 end
-arch mountain2
+arch beigemarblewall_4
+x 38
+y 18
+end
+arch white-green-x-marble_114
 x 38
 y 19
 elevation 9363
 end
-arch mountain2
+arch white-green-x-marble_114
 x 38
 y 20
 elevation 9536
 end
-arch mountain
+arch white-green-x-marble_114
 x 38
 y 21
 elevation 8457
 end
-arch mountain
+arch white-green-x-marble_114
 x 38
 y 22
 elevation 8777
 end
-arch mountain
+arch white-green-x-marble_114
 x 38
 y 23
 elevation 6713
 end
-arch mountain
+arch white-green-x-marble_114
 x 38
 y 24
 elevation 7565
 end
-arch mountain2
+arch white-green-x-marble_114
 x 38
 y 25
 elevation 9820
 end
-arch mountain2
+arch white-green-x-marble_114
 x 38
 y 26
 elevation 10671
 end
-arch mountain4
+arch white-green-x-marble_114
 x 38
 y 27
 elevation 13027
 end
-arch mountain4
+arch white-green-x-marble_114
 x 38
 y 28
 elevation 14486
 end
-arch mountain4
+arch ltbeigemarblewall_4
+x 38
+y 28
+end
+arch white-green-x-marble_116
 x 38
 y 29
 elevation 14630
 end
-arch mountain4
+arch white-green-x-marble_116
 x 38
 y 30
 elevation 14164
 end
-arch mountain4
+arch white-green-x-marble_116
 x 38
 y 31
 elevation 13698
 end
-arch mountain4
+arch white-green-x-marble_116
 x 38
 y 32
 elevation 13530
 end
-arch mountain4
+arch white-green-x-marble_116
 x 38
 y 33
 elevation 13025
 end
-arch mountain4
+arch white-green-x-marble_116
 x 38
 y 34
 elevation 12098
 end
-arch mountain2
+arch white-green-x-marble_116
 x 38
 y 35
 elevation 10998
 end
-arch mountain2
+arch white-green-x-marble_116
 x 38
 y 36
 elevation 9853
 end
-arch mountain2
+arch white-green-x-marble_113
 x 38
 y 37
 elevation 9089
 end
-arch mountain
+arch white-green-x-marble_113
 x 38
 y 38
 elevation 7949
 end
-arch mountain
+arch white-green-x-marble_113
 x 38
 y 39
 elevation 6177
 end
-arch mountain
+arch white-green-x-marble_113
 x 38
 y 40
 elevation 5196
 end
-arch mountain
+arch white-green-x-marble_113
 x 38
 y 41
 elevation 7154
 end
-arch mountain
+arch white-green-x-marble_113
 x 38
 y 42
 elevation 8884
@@ -9674,32 +10235,36 @@ x 38
 y 43
 elevation 10177
 end
-arch mountain2
+arch beigemarblewall_4
+x 38
+y 43
+end
+arch snow2
 x 38
 y 44
 elevation 11228
 end
-arch mountain2
+arch snow2
 x 38
 y 45
 elevation 11971
 end
-arch mountain4
+arch snow2
 x 38
 y 46
 elevation 12715
 end
-arch mountain4
+arch snow2
 x 38
 y 47
 elevation 13253
 end
-arch mountain4
+arch snow2
 x 38
 y 48
 elevation 12851
 end
-arch mountain2
+arch snow2
 x 38
 y 49
 elevation 10972
@@ -9778,17 +10343,17 @@ x 39
 y 14
 elevation 11188
 end
-arch mountain2
+arch snow2
 x 39
 y 15
 elevation 10344
 end
-arch mountain2
+arch snow2
 x 39
 y 16
 elevation 10101
 end
-arch mountain2
+arch snow2
 x 39
 y 17
 elevation 9584
@@ -9798,122 +10363,126 @@ x 39
 y 18
 elevation 8341
 end
-arch mountain2
+arch beigemarblewall_4
+x 39
+y 18
+end
+arch white-green-x-marble_114
 x 39
 y 19
 elevation 9459
 end
-arch mountain
+arch white-green-x-marble_114
 x 39
 y 20
 elevation 8920
 end
-arch mountain2
+arch white-green-x-marble_114
 x 39
 y 21
 elevation 10105
 end
-arch mountain2
+arch white-green-x-marble_114
 x 39
 y 22
 elevation 9605
 end
-arch mountain
+arch white-green-x-marble_114
 x 39
 y 23
 elevation 6776
 end
-arch mountain2
+arch white-green-x-marble_114
 x 39
 y 24
 elevation 9505
 end
-arch mountain2
+arch white-green-x-marble_114
 x 39
 y 25
 elevation 10612
 end
-arch mountain2
+arch white-green-x-marble_114
 x 39
 y 26
 elevation 11587
 end
-arch mountain4
+arch white-green-x-marble_114
 x 39
 y 27
 elevation 12793
 end
-arch mountain4
+arch white-green-x-marble_114
 x 39
 y 28
 elevation 13762
 end
-arch mountain4
+arch white-green-x-marble_116
 x 39
 y 29
 elevation 12710
 end
-arch mountain2
+arch white-green-x-marble_116
 x 39
 y 30
 elevation 11564
 end
-arch mountain4
+arch white-green-x-marble_116
 x 39
 y 31
 elevation 12669
 end
-arch mountain4
+arch white-green-x-marble_116
 x 39
 y 32
 elevation 13312
 end
-arch mountain4
+arch white-green-x-marble_116
 x 39
 y 33
 elevation 13310
 end
-arch mountain4
+arch white-green-x-marble_116
 x 39
 y 34
 elevation 12519
 end
-arch mountain2
+arch white-green-x-marble_116
 x 39
 y 35
 elevation 11603
 end
-arch mountain2
+arch white-green-x-marble_116
 x 39
 y 36
 elevation 11082
 end
-arch mountain2
+arch white-green-x-marble_113
 x 39
 y 37
 elevation 10130
 end
-arch mountain2
+arch white-green-x-marble_113
 x 39
 y 38
 elevation 9174
 end
-arch mountain
+arch white-green-x-marble_113
 x 39
 y 39
 elevation 8442
 end
-arch mountain
+arch white-green-x-marble_113
 x 39
 y 40
 elevation 8428
 end
-arch mountain2
+arch white-green-x-marble_113
 x 39
 y 41
 elevation 9286
 end
-arch mountain2
+arch white-green-x-marble_113
 x 39
 y 42
 elevation 10713
@@ -9923,32 +10492,36 @@ x 39
 y 43
 elevation 11514
 end
-arch mountain2
+arch beigemarblewall_4
+x 39
+y 43
+end
+arch snow2
 x 39
 y 44
 elevation 11900
 end
-arch mountain4
+arch snow2
 x 39
 y 45
 elevation 12443
 end
-arch mountain4
+arch snow2
 x 39
 y 46
 elevation 13164
 end
-arch mountain4
+arch snow2
 x 39
 y 47
 elevation 13361
 end
-arch mountain4
+arch snow2
 x 39
 y 48
 elevation 12850
 end
-arch mountain2
+arch snow2
 x 39
 y 49
 elevation 10918
@@ -10017,27 +10590,27 @@ x 40
 y 12
 elevation 13137
 end
-arch mountain4
+arch snow2
 x 40
 y 13
 elevation 14513
 end
-arch mountain4
+arch snow2
 x 40
 y 14
 elevation 14236
 end
-arch mountain2
+arch snow2
 x 40
 y 15
 elevation 11343
 end
-arch mountain4
+arch snow2
 x 40
 y 16
 elevation 12807
 end
-arch mountain2
+arch snow2
 x 40
 y 17
 elevation 11888
@@ -10047,122 +10620,130 @@ x 40
 y 18
 elevation 8851
 end
-arch mountain2
+arch beigemarblewall_4
+x 40
+y 18
+end
+arch white-green-x-marble_114
 x 40
 y 19
 elevation 10186
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 20
 elevation 10709
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 21
 elevation 11371
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 22
 elevation 11171
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 23
 elevation 10926
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 24
 elevation 10965
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 25
 elevation 11246
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 26
 elevation 11387
 end
-arch mountain2
+arch white-green-x-marble_114
 x 40
 y 27
 elevation 11297
 end
-arch mountain4
+arch white-green-x-marble_114
 x 40
 y 28
 elevation 12557
 end
-arch mountain4
+arch ltbeigemarblewall_4
+x 40
+y 28
+end
+arch white-green-x-marble_116
 x 40
 y 29
 elevation 12449
 end
-arch mountain2
+arch white-green-x-marble_116
 x 40
 y 30
 elevation 9243
 end
-arch mountain
+arch white-green-x-marble_116
 x 40
 y 31
 elevation 8133
 end
-arch mountain4
+arch white-green-x-marble_116
 x 40
 y 32
 elevation 12995
 end
-arch mountain4
+arch white-green-x-marble_116
 x 40
 y 33
 elevation 13072
 end
-arch mountain2
+arch white-green-x-marble_116
 x 40
 y 34
 elevation 9761
 end
-arch mountain2
+arch white-green-x-marble_116
 x 40
 y 35
 elevation 11193
 end
-arch mountain2
+arch white-green-x-marble_116
 x 40
 y 36
 elevation 10705
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 37
 elevation 9973
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 38
 elevation 9051
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 39
 elevation 9750
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 40
 elevation 10047
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 41
 elevation 10318
 end
-arch mountain2
+arch white-green-x-marble_113
 x 40
 y 42
 elevation 11531
@@ -10172,32 +10753,36 @@ x 40
 y 43
 elevation 11959
 end
-arch mountain2
+arch beigemarblewall_4
+x 40
+y 43
+end
+arch snow2
 x 40
 y 44
 elevation 10315
 end
-arch mountain4
+arch snow2
 x 40
 y 45
 elevation 12207
 end
-arch mountain4
+arch snow2
 x 40
 y 46
 elevation 13039
 end
-arch mountain4
+arch snow2
 x 40
 y 47
 elevation 13182
 end
-arch mountain4
+arch snow2
 x 40
 y 48
 elevation 12574
 end
-arch mountain2
+arch snow2
 x 40
 y 49
 elevation 11244
@@ -10296,122 +10881,130 @@ x 41
 y 18
 elevation 12940
 end
-arch mountain
+arch beigemarblewall_4
+x 41
+y 18
+end
+arch white-green-x-marble_114
 x 41
 y 19
 elevation 8678
 end
-arch mountain4
+arch white-green-x-marble_114
 x 41
 y 20
 elevation 12263
 end
-arch mountain4
+arch white-green-x-marble_114
 x 41
 y 21
 elevation 12859
 end
-arch mountain4
+arch white-green-x-marble_114
 x 41
 y 22
 elevation 12460
 end
-arch mountain4
+arch white-green-x-marble_114
 x 41
 y 23
 elevation 12142
 end
-arch mountain2
+arch white-green-x-marble_114
 x 41
 y 24
 elevation 11401
 end
-arch mountain2
+arch white-green-x-marble_114
 x 41
 y 25
 elevation 10860
 end
-arch mountain2
+arch white-green-x-marble_114
 x 41
 y 26
 elevation 10276
 end
-arch mountain2
+arch white-green-x-marble_114
 x 41
 y 27
 elevation 10444
 end
-arch mountain2
+arch white-green-x-marble_114
 x 41
 y 28
 elevation 11427
 end
-arch mountain4
+arch ltbeigemarblewall_4
+x 41
+y 28
+end
+arch white-green-x-marble_116
 x 41
 y 29
 elevation 12615
 end
-arch mountain4
+arch white-green-x-marble_116
 x 41
 y 30
 elevation 12683
 end
-arch mountain4
+arch white-green-x-marble_116
 x 41
 y 31
 elevation 12054
 end
-arch mountain4
+arch white-green-x-marble_116
 x 41
 y 32
 elevation 13616
 end
-arch mountain4
+arch white-green-x-marble_116
 x 41
 y 33
 elevation 13320
 end
-arch mountain2
+arch white-green-x-marble_116
 x 41
 y 34
 elevation 11044
 end
-arch mountain2
+arch white-green-x-marble_116
 x 41
 y 35
 elevation 10734
 end
-arch mountain
+arch white-green-x-marble_116
 x 41
 y 36
 elevation 8692
 end
-arch mountain
+arch white-green-x-marble_113
 x 41
 y 37
 elevation 8107
 end
-arch mountain2
+arch white-green-x-marble_113
 x 41
 y 38
 elevation 9067
 end
-arch mountain2
+arch white-green-x-marble_113
 x 41
 y 39
 elevation 10010
 end
-arch mountain2
+arch white-green-x-marble_113
 x 41
 y 40
 elevation 10793
 end
-arch mountain2
+arch white-green-x-marble_113
 x 41
 y 41
 elevation 11686
 end
-arch mountain2
+arch white-green-x-marble_113
 x 41
 y 42
 elevation 11917
@@ -10421,32 +11014,36 @@ x 41
 y 43
 elevation 11968
 end
-arch mountain4
+arch beigemarblewall_4
+x 41
+y 43
+end
+arch snow2
 x 41
 y 44
 elevation 12020
 end
-arch mountain4
+arch snow2
 x 41
 y 45
 elevation 12167
 end
-arch mountain4
+arch snow2
 x 41
 y 46
 elevation 12534
 end
-arch mountain4
+arch snow2
 x 41
 y 47
 elevation 12582
 end
-arch mountain4
+arch snow2
 x 41
 y 48
 elevation 12371
 end
-arch mountain2
+arch snow2
 x 41
 y 49
 elevation 11338
@@ -10540,127 +11137,143 @@ x 42
 y 17
 elevation 16341
 end
+arch beigemarblewall_4
+x 42
+y 17
+end
 arch mountain4
 x 42
 y 18
 elevation 15036
 end
-arch mountain4
+arch beigemarblewall_4
+x 42
+y 18
+end
+arch white-green-x-marble_114
 x 42
 y 19
 elevation 14230
 end
-arch mountain4
+arch white-green-x-marble_114
 x 42
 y 20
 elevation 13917
 end
-arch mountain4
+arch white-green-x-marble_114
 x 42
 y 21
 elevation 13750
 end
-arch mountain4
+arch white-green-x-marble_114
 x 42
 y 22
 elevation 14045
 end
-arch mountain2
+arch white-green-x-marble_114
 x 42
 y 23
 elevation 10615
 end
-arch mountain2
+arch white-green-x-marble_114
 x 42
 y 24
 elevation 11474
 end
-arch mountain
+arch white-green-x-marble_114
 x 42
 y 25
 elevation 8806
 end
-arch mountain
+arch white-green-x-marble_114
 x 42
 y 26
 elevation 8318
 end
-arch mountain
+arch white-green-x-marble_114
 x 42
 y 27
 elevation 8459
 end
-arch mountain2
+arch white-green-x-marble_114
 x 42
 y 28
 elevation 11007
 end
-arch mountain4
+arch beigemarblewall_4
+x 42
+y 28
+end
+arch ltbeigemarblewall_4
+x 42
+y 28
+end
+arch white-green-x-marble_116
 x 42
 y 29
 elevation 13078
 end
-arch mountain4
+arch white-green-x-marble_116
 x 42
 y 30
 elevation 14427
 end
-arch mountain4
+arch white-green-x-marble_116
 x 42
 y 31
 elevation 15292
 end
-arch mountain4
+arch white-green-x-marble_116
 x 42
 y 32
 elevation 15275
 end
-arch mountain4
+arch white-green-x-marble_116
 x 42
 y 33
 elevation 14309
 end
-arch mountain4
+arch white-green-x-marble_116
 x 42
 y 34
 elevation 12632
 end
-arch mountain2
+arch white-green-x-marble_116
 x 42
 y 35
 elevation 10711
 end
-arch mountain
+arch white-green-x-marble_116
 x 42
 y 36
 elevation 8662
 end
-arch mountain
+arch white-green-x-marble_113
 x 42
 y 37
 elevation 6211
 end
-arch mountain
+arch white-green-x-marble_113
 x 42
 y 38
 elevation 6980
 end
-arch mountain
+arch white-green-x-marble_113
 x 42
 y 39
 elevation 8730
 end
-arch mountain2
+arch white-green-x-marble_113
 x 42
 y 40
 elevation 10826
 end
-arch mountain4
+arch white-green-x-marble_113
 x 42
 y 41
 elevation 12150
 end
-arch mountain4
+arch white-green-x-marble_113
 x 42
 y 42
 elevation 12419
@@ -10670,32 +11283,36 @@ x 42
 y 43
 elevation 10485
 end
-arch mountain4
+arch beigemarblewall_4
+x 42
+y 43
+end
+arch snow2
 x 42
 y 44
 elevation 12578
 end
-arch mountain4
+arch snow2
 x 42
 y 45
 elevation 12395
 end
-arch mountain2
+arch snow2
 x 42
 y 46
 elevation 10233
 end
-arch mountain4
+arch snow2
 x 42
 y 47
 elevation 12128
 end
-arch mountain4
+arch snow2
 x 42
 y 48
 elevation 12122
 end
-arch mountain2
+arch snow2
 x 42
 y 49
 elevation 11476
@@ -10794,157 +11411,261 @@ x 43
 y 18
 elevation 16270
 end
+arch beigemarblewall_4
+x 43
+y 18
+end
 arch mountain4
 x 43
 y 19
 elevation 15609
+end
+arch beigemarblewall_4
+x 43
+y 19
 end
 arch mountain4
 x 43
 y 20
 elevation 15244
 end
+arch beigemarblewall_4
+x 43
+y 20
+end
 arch mountain4
 x 43
 y 21
 elevation 15381
+end
+arch beigemarblewall_4
+x 43
+y 21
 end
 arch mountain4
 x 43
 y 22
 elevation 15591
 end
+arch beigemarblewall_4
+x 43
+y 22
+end
 arch mountain4
 x 43
 y 23
 elevation 14718
+end
+arch beigemarblewall_4
+x 43
+y 23
 end
 arch mountain2
 x 43
 y 24
 elevation 11994
 end
+arch beigemarblewall_4
+x 43
+y 24
+end
 arch mountain
 x 43
 y 25
 elevation 6422
+end
+arch beigemarblewall_4
+x 43
+y 25
 end
 arch mountain
 x 43
 y 26
 elevation 7857
 end
+arch beigemarblewall_4
+x 43
+y 26
+end
 arch mountain
 x 43
 y 27
 elevation 6609
+end
+arch beigemarblewall_4
+x 43
+y 27
 end
 arch mountain2
 x 43
 y 28
 elevation 10691
 end
+arch beigemarblewall_4
+x 43
+y 28
+end
 arch mountain4
 x 43
 y 29
 elevation 12306
+end
+arch beigemarblewall_4
+x 43
+y 29
 end
 arch mountain4
 x 43
 y 30
 elevation 15335
 end
+arch beigemarblewall_4
+x 43
+y 30
+end
 arch mountain5
 x 43
 y 31
 elevation 16555
+end
+arch beigemarblewall_4
+x 43
+y 31
 end
 arch mountain5
 x 43
 y 32
 elevation 16491
 end
+arch beigemarblewall_4
+x 43
+y 32
+end
 arch mountain4
 x 43
 y 33
 elevation 14946
+end
+arch beigemarblewall_4
+x 43
+y 33
 end
 arch mountain4
 x 43
 y 34
 elevation 12677
 end
+arch beigemarblewall_4
+x 43
+y 34
+end
 arch mountain2
 x 43
 y 35
 elevation 10583
+end
+arch beigemarblewall_4
+x 43
+y 35
 end
 arch mountain
 x 43
 y 36
 elevation 8309
 end
+arch beigemarblewall_4
+x 43
+y 36
+end
 arch hills_rocky
 x 43
 y 37
 elevation 3858
+end
+arch beigemarblewall_4
+x 43
+y 37
 end
 arch woods_2
 x 43
 y 38
 elevation 1752
 end
+arch beigemarblewall_4
+x 43
+y 38
+end
 arch mountain
 x 43
 y 39
 elevation 5824
+end
+arch beigemarblewall_4
+x 43
+y 39
 end
 arch mountain2
 x 43
 y 40
 elevation 9979
 end
+arch beigemarblewall_4
+x 43
+y 40
+end
 arch mountain4
 x 43
 y 41
 elevation 12230
+end
+arch beigemarblewall_4
+x 43
+y 41
 end
 arch mountain4
 x 43
 y 42
 elevation 12976
 end
+arch beigemarblewall_4
+x 43
+y 42
+end
 arch mountain4
 x 43
 y 43
 elevation 13125
 end
-arch mountain4
+arch beigemarblewall_4
+x 43
+y 43
+end
+arch snow2
 x 43
 y 44
 elevation 12997
 end
-arch mountain4
+arch snow2
 x 43
 y 45
 elevation 12252
 end
-arch mountain2
+arch snow2
 x 43
 y 46
 elevation 11118
 end
-arch mountain2
+arch snow2
 x 43
 y 47
 elevation 11710
 end
-arch mountain2
+arch snow2
 x 43
 y 48
 elevation 11883
 end
-arch mountain2
+arch snow2
 x 43
 y 49
 elevation 10837
@@ -11058,10 +11779,18 @@ x 44
 y 21
 elevation 15583
 end
+arch beigemarblewall_4
+x 44
+y 21
+end
 arch mountain5
 x 44
 y 22
 elevation 16507
+end
+arch beigemarblewall_4
+x 44
+y 22
 end
 arch mountain4
 x 44
@@ -11098,10 +11827,18 @@ x 44
 y 29
 elevation 13069
 end
+arch beigemarblewall_4
+x 44
+y 29
+end
 arch mountain5
 x 44
 y 30
 elevation 16341
+end
+arch beigemarblewall_4
+x 44
+y 30
 end
 arch mountain5
 x 44
@@ -11113,27 +11850,39 @@ x 44
 y 32
 elevation 17174
 end
+arch beigemarblewall_4
+x 44
+y 32
+end
 arch mountain4
 x 44
 y 33
 elevation 15002
+end
+arch beigemarblewall_4
+x 44
+y 33
 end
 arch mountain2
 x 44
 y 34
 elevation 11265
 end
-arch mountain2
+arch beigemarblewall_4
+x 44
+y 34
+end
+arch snow2
 x 44
 y 35
 elevation 10093
 end
-arch mountain
+arch snow2
 x 44
 y 36
 elevation 7903
 end
-arch mountain
+arch snow2
 x 44
 y 37
 elevation 5617
@@ -11143,57 +11892,57 @@ x 44
 y 38
 elevation 3845
 end
-arch mountain
+arch snow2
 x 44
 y 39
 elevation 5748
 end
-arch mountain2
+arch snow2
 x 44
 y 40
 elevation 9077
 end
-arch mountain2
+arch snow2
 x 44
 y 41
 elevation 11731
 end
-arch mountain4
+arch snow2
 x 44
 y 42
 elevation 12848
 end
-arch mountain4
+arch snow2
 x 44
 y 43
 elevation 13046
 end
-arch mountain4
+arch snow2
 x 44
 y 44
 elevation 12871
 end
-arch mountain4
+arch snow2
 x 44
 y 45
 elevation 12143
 end
-arch mountain2
+arch snow2
 x 44
 y 46
 elevation 9931
 end
-arch mountain2
+arch snow2
 x 44
 y 47
 elevation 11756
 end
-arch mountain2
+arch snow2
 x 44
 y 48
 elevation 11737
 end
-arch mountain2
+arch snow2
 x 44
 y 49
 elevation 11041
@@ -11282,62 +12031,62 @@ x 45
 y 16
 elevation 15994
 end
-arch mountain4
+arch snow2
 x 45
 y 17
 elevation 15314
 end
-arch mountain4
+arch snow2
 x 45
 y 18
 elevation 14878
 end
-arch mountain4
+arch snow2
 x 45
 y 19
 elevation 14474
 end
-arch mountain4
+arch snow2
 x 45
 y 20
 elevation 12511
 end
-arch mountain4
+arch snow2
 x 45
 y 21
 elevation 14975
 end
-arch mountain4
+arch snow2
 x 45
 y 22
 elevation 15889
 end
-arch mountain4
+arch snow2
 x 45
 y 23
 elevation 15123
 end
-arch mountain2
+arch snow2
 x 45
 y 24
 elevation 10365
 end
-arch mountain2
+arch snow2
 x 45
 y 25
 elevation 9816
 end
-arch mountain4
+arch snow2
 x 45
 y 26
 elevation 12203
 end
-arch mountain2
+arch snow2
 x 45
 y 27
 elevation 11604
 end
-arch mountain4
+arch snow2
 x 45
 y 28
 elevation 14137
@@ -11362,87 +12111,87 @@ x 45
 y 32
 elevation 17755
 end
-arch mountain4
+arch snow2
 x 45
 y 33
 elevation 14960
 end
-arch mountain2
+arch snow2
 x 45
 y 34
 elevation 11763
 end
-arch mountain2
+arch snow2
 x 45
 y 35
 elevation 9120
 end
-arch mountain
+arch snow2
 x 45
 y 36
 elevation 7309
 end
-arch mountain
+arch snow2
 x 45
 y 37
 elevation 5743
 end
-arch hills_rocky
+arch snow2
 x 45
 y 38
 elevation 4267
 end
-arch mountain
+arch snow2
 x 45
 y 39
 elevation 5572
 end
-arch mountain
+arch snow2
 x 45
 y 40
 elevation 8297
 end
-arch mountain2
+arch snow2
 x 45
 y 41
 elevation 10447
 end
-arch mountain2
+arch snow2
 x 45
 y 42
 elevation 11332
 end
-arch mountain2
+arch snow2
 x 45
 y 43
 elevation 11421
 end
-arch mountain2
+arch snow2
 x 45
 y 44
 elevation 11421
 end
-arch mountain2
+arch snow2
 x 45
 y 45
 elevation 11511
 end
-arch mountain2
+arch snow2
 x 45
 y 46
 elevation 11372
 end
-arch mountain2
+arch snow2
 x 45
 y 47
 elevation 11274
 end
-arch mountain2
+arch snow2
 x 45
 y 48
 elevation 11200
 end
-arch mountain2
+arch snow2
 x 45
 y 49
 elevation 10609
@@ -11531,62 +12280,62 @@ x 46
 y 16
 elevation 13482
 end
-arch mountain2
+arch snow2
 x 46
 y 17
 elevation 11224
 end
-arch mountain4
+arch snow2
 x 46
 y 18
 elevation 13361
 end
-arch mountain4
+arch snow2
 x 46
 y 19
 elevation 13056
 end
-arch mountain4
+arch snow2
 x 46
 y 20
 elevation 12939
 end
-arch mountain4
+arch snow2
 x 46
 y 21
 elevation 13603
 end
-arch mountain4
+arch snow2
 x 46
 y 22
 elevation 14597
 end
-arch mountain4
+arch snow2
 x 46
 y 23
 elevation 14486
 end
-arch mountain4
+arch snow2
 x 46
 y 24
 elevation 13877
 end
-arch mountain4
+arch snow2
 x 46
 y 25
 elevation 13376
 end
-arch mountain4
+arch snow2
 x 46
 y 26
 elevation 13194
 end
-arch mountain4
+arch snow2
 x 46
 y 27
 elevation 13560
 end
-arch mountain4
+arch snow2
 x 46
 y 28
 elevation 14661
@@ -11611,87 +12360,87 @@ x 46
 y 32
 elevation 18055
 end
-arch mountain4
+arch snow2
 x 46
 y 33
 elevation 15244
 end
-arch mountain2
+arch snow2
 x 46
 y 34
 elevation 9966
 end
-arch mountain
+arch snow2
 x 46
 y 35
 elevation 7069
 end
-arch mountain
+arch snow2
 x 46
 y 36
 elevation 6747
 end
-arch mountain
+arch snow2
 x 46
 y 37
 elevation 5320
 end
-arch steppe
+arch snow2
 x 46
 y 38
 elevation 3638
 end
-arch mountain
+arch snow2
 x 46
 y 39
 elevation 5966
 end
-arch mountain
+arch snow2
 x 46
 y 40
 elevation 7139
 end
-arch mountain
+arch snow2
 x 46
 y 41
 elevation 8800
 end
-arch mountain2
+arch snow2
 x 46
 y 42
 elevation 9423
 end
-arch mountain
+arch snow2
 x 46
 y 43
 elevation 8314
 end
-arch mountain2
+arch snow2
 x 46
 y 44
 elevation 9612
 end
-arch mountain2
+arch snow2
 x 46
 y 45
 elevation 10340
 end
-arch mountain2
+arch snow2
 x 46
 y 46
 elevation 10618
 end
-arch mountain2
+arch snow2
 x 46
 y 47
 elevation 9766
 end
-arch mountain2
+arch snow2
 x 46
 y 48
 elevation 10368
 end
-arch mountain2
+arch snow2
 x 46
 y 49
 elevation 10029
@@ -11775,72 +12524,72 @@ x 47
 y 15
 elevation 13705
 end
-arch mountain4
+arch snow2
 x 47
 y 16
 elevation 12981
 end
-arch mountain4
+arch snow2
 x 47
 y 17
 elevation 13108
 end
-arch mountain4
+arch snow2
 x 47
 y 18
 elevation 12374
 end
-arch mountain2
+arch snow2
 x 47
 y 19
 elevation 9540
 end
-arch mountain2
+arch snow2
 x 47
 y 20
 elevation 11335
 end
-arch mountain2
+arch snow2
 x 47
 y 21
 elevation 11823
 end
-arch mountain4
+arch snow2
 x 47
 y 22
 elevation 12606
 end
-arch mountain4
+arch snow2
 x 47
 y 23
 elevation 13883
 end
-arch mountain4
+arch snow2
 x 47
 y 24
 elevation 14548
 end
-arch mountain4
+arch snow2
 x 47
 y 25
 elevation 14412
 end
-arch mountain4
+arch snow2
 x 47
 y 26
 elevation 13411
 end
-arch mountain2
+arch snow2
 x 47
 y 27
 elevation 11225
 end
-arch mountain4
+arch snow2
 x 47
 y 28
 elevation 13527
 end
-arch mountain4
+arch snow2
 x 47
 y 29
 elevation 14994
@@ -11860,87 +12609,87 @@ x 47
 y 32
 elevation 17386
 end
-arch mountain4
+arch snow2
 x 47
 y 33
 elevation 15348
 end
-arch mountain4
+arch snow2
 x 47
 y 34
 elevation 12104
 end
-arch mountain
+arch snow2
 x 47
 y 35
 elevation 8720
 end
-arch mountain
+arch snow2
 x 47
 y 36
 elevation 7181
 end
-arch hills_rocky
+arch snow2
 x 47
 y 37
 elevation 4837
 end
-arch mountain
+arch snow2
 x 47
 y 38
 elevation 5919
 end
-arch mountain
+arch snow2
 x 47
 y 39
 elevation 6002
 end
-arch mountain
+arch snow2
 x 47
 y 40
 elevation 6142
 end
-arch mountain
+arch snow2
 x 47
 y 41
 elevation 7204
 end
-arch mountain
+arch snow2
 x 47
 y 42
 elevation 7921
 end
-arch mountain
+arch snow2
 x 47
 y 43
 elevation 7446
 end
-arch mountain
+arch snow2
 x 47
 y 44
 elevation 7280
 end
-arch mountain
+arch snow2
 x 47
 y 45
 elevation 7863
 end
-arch mountain2
+arch snow2
 x 47
 y 46
 elevation 10196
 end
-arch mountain2
+arch snow2
 x 47
 y 47
 elevation 9407
 end
-arch mountain2
+arch snow2
 x 47
 y 48
 elevation 10104
 end
-arch mountain2
+arch snow2
 x 47
 y 49
 elevation 9920
@@ -12019,177 +12768,177 @@ x 48
 y 14
 elevation 13169
 end
-arch mountain4
+arch snow2
 x 48
 y 15
 elevation 13742
 end
-arch mountain4
+arch snow2
 x 48
 y 16
 elevation 13587
 end
-arch mountain4
+arch snow2
 x 48
 y 17
 elevation 13116
 end
-arch mountain4
+arch snow2
 x 48
 y 18
 elevation 12044
 end
-arch mountain2
+arch snow2
 x 48
 y 19
 elevation 10451
 end
-arch mountain2
+arch snow2
 x 48
 y 20
 elevation 9592
 end
-arch mountain
+arch snow2
 x 48
 y 21
 elevation 7368
 end
-arch mountain2
+arch snow2
 x 48
 y 22
 elevation 10010
 end
-arch mountain4
+arch snow2
 x 48
 y 23
 elevation 12043
 end
-arch mountain4
+arch snow2
 x 48
 y 24
 elevation 13515
 end
-arch mountain4
+arch snow2
 x 48
 y 25
 elevation 13844
 end
-arch mountain4
+arch snow2
 x 48
 y 26
 elevation 12702
 end
-arch mountain2
+arch snow2
 x 48
 y 27
 elevation 10068
 end
-arch mountain2
+arch snow2
 x 48
 y 28
 elevation 11002
 end
-arch mountain4
+arch snow2
 x 48
 y 29
 elevation 12452
 end
-arch mountain4
+arch snow2
 x 48
 y 30
 elevation 12305
 end
-arch mountain4
+arch snow2
 x 48
 y 31
 elevation 14893
 end
-arch mountain4
+arch snow2
 x 48
 y 32
 elevation 15265
 end
-arch mountain4
+arch snow2
 x 48
 y 33
 elevation 14470
 end
-arch mountain4
+arch snow2
 x 48
 y 34
 elevation 13001
 end
-arch mountain2
+arch snow2
 x 48
 y 35
 elevation 11198
 end
-arch mountain2
+arch snow2
 x 48
 y 36
 elevation 9666
 end
-arch mountain
+arch snow2
 x 48
 y 37
 elevation 8601
 end
-arch mountain
+arch snow2
 x 48
 y 38
 elevation 7307
 end
-arch hills_rocky
+arch snow2
 x 48
 y 39
 elevation 4216
 end
-arch mountain
+arch snow2
 x 48
 y 40
 elevation 6397
 end
-arch mountain
+arch snow2
 x 48
 y 41
 elevation 6556
 end
-arch mountain
+arch snow2
 x 48
 y 42
 elevation 6665
 end
-arch mountain
+arch snow2
 x 48
 y 43
 elevation 7616
 end
-arch mountain
+arch snow2
 x 48
 y 44
 elevation 8693
 end
-arch mountain2
+arch snow2
 x 48
 y 45
 elevation 9744
 end
-arch mountain2
+arch snow2
 x 48
 y 46
 elevation 10434
 end
-arch mountain2
+arch snow2
 x 48
 y 47
 elevation 10901
 end
-arch mountain2
+arch snow2
 x 48
 y 48
 elevation 10932
 end
-arch mountain2
+arch snow2
 x 48
 y 49
 elevation 10244
@@ -12273,172 +13022,172 @@ x 49
 y 15
 elevation 13022
 end
-arch mountain4
+arch snow2
 x 49
 y 16
 elevation 13024
 end
-arch mountain4
+arch snow2
 x 49
 y 17
 elevation 12571
 end
-arch mountain2
+arch snow2
 x 49
 y 18
 elevation 11739
 end
-arch mountain2
+arch snow2
 x 49
 y 19
 elevation 10686
 end
-arch mountain
+arch snow2
 x 49
 y 20
 elevation 8903
 end
-arch hills_rocky
+arch snow2
 x 49
 y 21
 elevation 4873
 end
-arch mountain
+arch snow2
 x 49
 y 22
 elevation 6790
 end
-arch mountain2
+arch snow2
 x 49
 y 23
 elevation 9641
 end
-arch mountain2
+arch snow2
 x 49
 y 24
 elevation 11324
 end
-arch mountain4
+arch snow2
 x 49
 y 25
 elevation 12758
 end
-arch mountain4
+arch snow2
 x 49
 y 26
 elevation 12175
 end
-arch mountain2
+arch snow2
 x 49
 y 27
 elevation 10409
 end
-arch mountain2
+arch snow2
 x 49
 y 28
 elevation 9080
 end
-arch mountain2
+arch snow2
 x 49
 y 29
 elevation 11446
 end
-arch mountain4
+arch snow2
 x 49
 y 30
 elevation 12331
 end
-arch mountain4
+arch snow2
 x 49
 y 31
 elevation 12430
 end
-arch mountain2
+arch snow2
 x 49
 y 32
 elevation 9739
 end
-arch mountain4
+arch snow2
 x 49
 y 33
 elevation 12529
 end
-arch mountain4
+arch snow2
 x 49
 y 34
 elevation 12320
 end
-arch mountain2
+arch snow2
 x 49
 y 35
 elevation 11620
 end
-arch mountain2
+arch snow2
 x 49
 y 36
 elevation 10956
 end
-arch mountain2
+arch snow2
 x 49
 y 37
 elevation 10036
 end
-arch mountain
+arch snow2
 x 49
 y 38
 elevation 8394
 end
-arch mountain
+arch snow2
 x 49
 y 39
 elevation 7161
 end
-arch mountain
+arch snow2
 x 49
 y 40
 elevation 6472
 end
-arch mountain
+arch snow2
 x 49
 y 41
 elevation 6181
 end
-arch hills_rocky
+arch snow2
 x 49
 y 42
 elevation 4469
 end
-arch mountain
+arch snow2
 x 49
 y 43
 elevation 7574
 end
-arch mountain2
+arch snow2
 x 49
 y 44
 elevation 9234
 end
-arch mountain2
+arch snow2
 x 49
 y 45
 elevation 10226
 end
-arch mountain2
+arch snow2
 x 49
 y 46
 elevation 10804
 end
-arch mountain2
+arch snow2
 x 49
 y 47
 elevation 11033
 end
-arch mountain2
+arch snow2
 x 49
 y 48
 elevation 11393
 end
-arch mountain2
+arch snow2
 x 49
 y 49
 elevation 10757

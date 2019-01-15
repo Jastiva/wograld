@@ -6,11 +6,15 @@ width 50
 height 50
 enter_x 1
 enter_y 1
+msg
+Modified: 2019-01-14 lori
+endmsg
 outdoor 1
 tile_path_1 world_113_115
 tile_path_2 world_114_116
 tile_path_3 world_113_117
 tile_path_4 world_112_116
+background_music desert02
 end
 arch mountain
 elevation 7779
@@ -103,35 +107,35 @@ arch mountain2
 y 22
 elevation 9100
 end
-arch mountain2
+arch greysandcliff1
 y 23
 elevation 9456
 end
-arch mountain2
+arch greysandcliff1
 y 24
 elevation 9278
 end
-arch mountain
+arch greysandcliff1
 y 25
 elevation 8381
 end
-arch mountain
+arch greysandcliff1
 y 26
 elevation 7090
 end
-arch mountain
+arch greysandcliff1
 y 27
 elevation 6314
 end
-arch mountain
+arch greysandcliff1
 y 28
 elevation 6258
 end
-arch mountain
+arch greysandcliff1
 y 29
 elevation 6187
 end
-arch mountain
+arch greysandcliff1
 y 30
 elevation 5449
 end
@@ -145,7 +149,7 @@ arch jungle_1
 y 33
 elevation 1809
 end
-arch woods_2
+arch steppe
 y 34
 elevation 2666
 end
@@ -193,19 +197,19 @@ arch hills_rocky
 y 45
 elevation 3202
 end
-arch woods_2
+arch steppe
 y 46
 elevation 1675
 end
-arch woods_2
+arch steppe
 y 47
 elevation 1031
 end
-arch woods_3
+arch steppe
 y 48
 elevation 2402
 end
-arch woods_2
+arch steppe
 y 49
 elevation 2166
 end
@@ -313,52 +317,52 @@ x 1
 y 20
 elevation 7824
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 21
 elevation 8556
 end
-arch mountain2
+arch greysandcliff1
 x 1
 y 22
 elevation 9162
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 23
 elevation 8622
 end
-arch mountain2
+arch greysandcliff1
 x 1
 y 24
 elevation 9432
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 25
 elevation 8651
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 26
 elevation 7225
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 27
 elevation 6184
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 28
 elevation 5851
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 29
 elevation 5771
 end
-arch mountain
+arch greysandcliff1
 x 1
 y 30
 elevation 5090
@@ -555,37 +559,37 @@ x 2
 y 19
 elevation 8054
 end
-arch mountain
+arch greysandcliff1
 x 2
 y 20
 elevation 8517
 end
-arch mountain
+arch steppelight
 x 2
 y 21
 elevation 7296
 end
-arch mountain
+arch fernrockscliff1
 x 2
 y 22
 elevation 8645
 end
-arch mountain2
+arch fernrockscliff1
 x 2
 y 23
 elevation 9052
 end
-arch mountain
+arch fernrockscliff1
 x 2
 y 24
 elevation 8759
 end
-arch mountain
+arch fernrockscliff1
 x 2
 y 25
 elevation 7545
 end
-arch mountain
+arch fernrockscliff1
 x 2
 y 26
 elevation 6036
@@ -623,17 +627,17 @@ x 2
 y 33
 elevation 2946
 end
-arch woods_2
+arch steppe
 x 2
 y 34
 elevation 2909
 end
-arch woods_2
+arch steppe
 x 2
 y 35
 elevation 2722
 end
-arch woods_2
+arch steppe
 x 2
 y 36
 elevation 2553
@@ -797,37 +801,37 @@ x 3
 y 18
 elevation 10232
 end
-arch mountain2
+arch greysandcliff1
 x 3
 y 19
 elevation 10120
 end
-arch mountain2
+arch greysandcliff1
 x 3
 y 20
 elevation 9604
 end
-arch mountain
+arch steppelight
 x 3
 y 21
 elevation 8485
 end
-arch mountain
+arch steppelight
 x 3
 y 22
 elevation 8048
 end
-arch mountain
+arch steppelight
 x 3
 y 23
 elevation 8506
 end
-arch mountain
+arch steppelight
 x 3
 y 24
 elevation 7950
 end
-arch mountain
+arch steppelight
 x 3
 y 25
 elevation 6347
@@ -870,12 +874,12 @@ x 3
 y 33
 elevation 2914
 end
-arch woods_2
+arch steppe
 x 3
 y 34
 elevation 1864
 end
-arch woods_2
+arch steppe
 x 3
 y 35
 elevation 2049
@@ -935,17 +939,17 @@ x 3
 y 46
 elevation 4942
 end
-arch mountain
+arch steppe
 x 3
 y 47
 elevation 5559
 end
-arch mountain
+arch steppe
 x 3
 y 48
 elevation 5766
 end
-arch mountain
+arch steppe
 x 3
 y 49
 elevation 5280
@@ -1039,42 +1043,42 @@ x 4
 y 17
 elevation 11697
 end
-arch mountain2
+arch greysandcliff1
 x 4
 y 18
 elevation 11358
 end
-arch mountain2
+arch greysandcliff1
 x 4
 y 19
 elevation 11078
 end
-arch mountain2
+arch steppelight
 x 4
 y 20
 elevation 10262
 end
-arch mountain
+arch steppelight
 x 4
 y 21
 elevation 8671
 end
-arch mountain
+arch steppelight
 x 4
 y 22
 elevation 7525
 end
-arch mountain
+arch steppelight
 x 4
 y 23
 elevation 7283
 end
-arch mountain
+arch steppelight
 x 4
 y 24
 elevation 7217
 end
-arch mountain
+arch steppelight
 x 4
 y 25
 elevation 6378
@@ -1122,7 +1126,7 @@ x 4
 y 34
 elevation 3098
 end
-arch woods_2
+arch steppe
 x 4
 y 35
 elevation 2834
@@ -1132,7 +1136,7 @@ x 4
 y 36
 elevation 3026
 end
-arch woods_2
+arch steppe
 x 4
 y 37
 elevation 2694
@@ -1152,7 +1156,7 @@ x 4
 y 40
 elevation 3135
 end
-arch hills_rocky
+arch steppe
 x 4
 y 41
 elevation 3762
@@ -1167,7 +1171,7 @@ x 4
 y 43
 elevation 3981
 end
-arch woods_2
+arch steppe
 x 4
 y 44
 elevation 2473
@@ -1177,22 +1181,22 @@ x 4
 y 45
 elevation 4229
 end
-arch mountain
+arch steppe
 x 4
 y 46
 elevation 5168
 end
-arch mountain
+arch steppe
 x 4
 y 47
 elevation 5904
 end
-arch mountain
+arch steppe
 x 4
 y 48
 elevation 6209
 end
-arch mountain
+arch steppe
 x 4
 y 49
 elevation 5843
@@ -1281,52 +1285,52 @@ x 5
 y 16
 elevation 11953
 end
-arch mountain4
+arch greysandcliff1
 x 5
 y 17
 elevation 12327
 end
-arch mountain2
+arch bluesandcliff4
 x 5
 y 18
 elevation 10898
 end
-arch mountain2
+arch steppelight
 x 5
 y 19
 elevation 11439
 end
-arch mountain2
+arch steppelight
 x 5
 y 20
 elevation 10171
 end
-arch mountain
+arch steppelight
 x 5
 y 21
 elevation 7291
 end
-arch steppe
+arch steppelight
 x 5
 y 22
 elevation 4567
 end
-arch hills
+arch steppelight
 x 5
 y 23
 elevation 4796
 end
-arch mountain
+arch steppelight
 x 5
 y 24
 elevation 6404
 end
-arch mountain
+arch steppelight
 x 5
 y 25
 elevation 6628
 end
-arch mountain
+arch steppelight
 x 5
 y 26
 elevation 6297
@@ -1336,17 +1340,17 @@ x 5
 y 27
 elevation 4729
 end
-arch mountain
+arch steppelight
 x 5
 y 28
 elevation 6132
 end
-arch mountain
+arch steppelight
 x 5
 y 29
 elevation 6058
 end
-arch mountain
+arch steppelight
 x 5
 y 30
 elevation 5815
@@ -1355,7 +1359,7 @@ arch cobblestones
 x 5
 y 31
 end
-arch mountain
+arch steppelight
 x 5
 y 32
 elevation 5027
@@ -1395,12 +1399,12 @@ x 5
 y 39
 elevation 3684
 end
-arch woods_2
+arch steppe
 x 5
 y 40
 elevation 1817
 end
-arch woods_2
+arch steppe
 x 5
 y 41
 elevation 2970
@@ -1430,17 +1434,17 @@ x 5
 y 46
 elevation 4937
 end
-arch mountain
+arch steppe
 x 5
 y 47
 elevation 5334
 end
-arch mountain
+arch steppe
 x 5
 y 48
 elevation 5887
 end
-arch mountain
+arch steppe
 x 5
 y 49
 elevation 6064
@@ -1514,87 +1518,87 @@ x 6
 y 13
 elevation 8828
 end
-arch mountain2
+arch greysandcliff1
 x 6
 y 14
 elevation 9442
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 15
 elevation 8943
 end
-arch mountain4
+arch greysandcliff1
 x 6
 y 16
 elevation 12532
 end
-arch mountain4
+arch greysandcliff1
 x 6
 y 17
 elevation 13405
 end
-arch mountain4
+arch bluesandcliff4
 x 6
 y 18
 elevation 12265
 end
-arch mountain2
+arch steppelight
 x 6
 y 19
 elevation 11945
 end
-arch mountain2
+arch steppelight
 x 6
 y 20
 elevation 9234
 end
-arch mountain
+arch steppelight
 x 6
 y 21
 elevation 7844
 end
-arch mountain
+arch steppelight
 x 6
 y 22
 elevation 6390
 end
-arch hills
+arch steppelight
 x 6
 y 23
 elevation 4912
 end
-arch steppe
+arch steppelight
 x 6
 y 24
 elevation 4706
 end
-arch mountain
+arch steppelight
 x 6
 y 25
 elevation 6817
 end
-arch mountain
+arch steppelight
 x 6
 y 26
 elevation 7607
 end
-arch mountain
+arch steppelight
 x 6
 y 27
 elevation 7850
 end
-arch mountain
+arch steppelight
 x 6
 y 28
 elevation 7835
 end
-arch mountain
+arch steppelight
 x 6
 y 29
 elevation 7698
 end
-arch mountain
+arch steppelight
 x 6
 y 30
 elevation 6159
@@ -1603,12 +1607,12 @@ arch cobblestones
 x 6
 y 31
 end
-arch mountain
+arch steppelight
 x 6
 y 32
 elevation 6746
 end
-arch mountain
+arch desertcliff3
 x 6
 y 33
 elevation 5724
@@ -1683,12 +1687,12 @@ x 6
 y 47
 elevation 3649
 end
-arch mountain
+arch steppe
 x 6
 y 48
 elevation 5305
 end
-arch mountain
+arch steppe
 x 6
 y 49
 elevation 5884
@@ -1762,82 +1766,86 @@ x 7
 y 13
 elevation 8950
 end
-arch mountain2
+arch greysandcliff1
 x 7
 y 14
 elevation 11042
 end
-arch mountain4
+arch greysandcliff1
 x 7
 y 15
 elevation 12308
 end
-arch mountain4
+arch greysandcliff1
 x 7
 y 16
 elevation 13557
 end
-arch mountain4
+arch greysandcliff1
 x 7
 y 17
 elevation 14306
 end
-arch mountain4
+arch bluesandcliff4
 x 7
 y 18
 elevation 13925
 end
-arch mountain4
+arch steppelight
 x 7
 y 19
 elevation 12096
 end
-arch mountain2
+arch steppelight
 x 7
 y 20
 elevation 9786
 end
-arch mountain
+arch steppelight
 x 7
 y 21
 elevation 7999
 end
-arch mountain
+arch steppelight
 x 7
 y 22
 elevation 7250
 end
-arch mountain
+arch shrub2a
+x 7
+y 22
+end
+arch steppelight
 x 7
 y 23
 elevation 6290
 end
-arch hills
+arch steppelight
 x 7
 y 24
 elevation 4293
 end
-arch mountain
+arch steppelight
 x 7
 y 25
 elevation 7596
 end
-arch mountain
+arch steppelight
 x 7
 y 26
 elevation 8819
 end
-arch mountain2
+arch steppelight
 x 7
 y 27
 elevation 9276
 end
-arch mountain2
+arch steppelight
 x 7
 y 28
 elevation 9297
 end
-arch mountain2
+arch steppelight
 x 7
 y 29
 elevation 9097
@@ -1850,27 +1858,27 @@ arch cobblestones
 x 7
 y 31
 end
-arch mountain
+arch steppelight
 x 7
 y 32
 elevation 8280
 end
-arch mountain
+arch desertcliff3
 x 7
 y 33
 elevation 7198
 end
-arch mountain
+arch desertcliff3
 x 7
 y 34
 elevation 6092
 end
-arch mountain
+arch desertcliff3
 x 7
 y 35
 elevation 5485
 end
-arch mountain
+arch desertcliff3
 x 7
 y 36
 elevation 5293
@@ -1880,22 +1888,22 @@ x 7
 y 37
 elevation 4777
 end
-arch mountain
+arch desertcliff3
 x 7
 y 38
 elevation 5269
 end
-arch mountain
+arch desertcliff3
 x 7
 y 39
 elevation 5329
 end
-arch mountain
+arch desertcliff3
 x 7
 y 40
 elevation 5186
 end
-arch mountain
+arch desertcliff3
 x 7
 y 41
 elevation 5052
@@ -1915,7 +1923,7 @@ x 7
 y 44
 elevation 4655
 end
-arch mountain
+arch desertcliff3
 x 7
 y 45
 elevation 5000
@@ -1935,7 +1943,7 @@ x 7
 y 48
 elevation 4329
 end
-arch mountain
+arch steppe
 x 7
 y 49
 elevation 5168
@@ -2034,57 +2042,57 @@ x 8
 y 18
 elevation 12953
 end
-arch mountain2
+arch steppelight
 x 8
 y 19
 elevation 11310
 end
-arch mountain
+arch steppelight
 x 8
 y 20
 elevation 8411
 end
-arch mountain
+arch steppelight
 x 8
 y 21
 elevation 7314
 end
-arch mountain
+arch steppelight
 x 8
 y 22
 elevation 8146
 end
-arch mountain
+arch steppelight
 x 8
 y 23
 elevation 8064
 end
-arch mountain
+arch steppelight
 x 8
 y 24
 elevation 8338
 end
-arch mountain
+arch steppelight
 x 8
 y 25
 elevation 8910
 end
-arch mountain2
+arch steppelight
 x 8
 y 26
 elevation 9589
 end
-arch mountain2
+arch steppelight
 x 8
 y 27
 elevation 9917
 end
-arch mountain2
+arch steppelight
 x 8
 y 28
 elevation 10108
 end
-arch mountain2
+arch steppelight
 x 8
 y 29
 elevation 10210
@@ -2093,62 +2101,62 @@ arch cobblestones
 x 8
 y 30
 end
-arch mountain2
+arch steppelight
 x 8
 y 31
 elevation 9757
 end
-arch mountain2
+arch steppelight
 x 8
 y 32
 elevation 9671
 end
-arch mountain
+arch steppelight
 x 8
 y 33
 elevation 8562
 end
-arch mountain
+arch desertcliff3
 x 8
 y 34
 elevation 6872
 end
-arch mountain
+arch desertcliff3
 x 8
 y 35
 elevation 6141
 end
-arch mountain
+arch desertcliff3
 x 8
 y 36
 elevation 6336
 end
-arch hills_rocky
+arch desertcliff3
 x 8
 y 37
 elevation 4596
 end
-arch mountain
+arch desertcliff3
 x 8
 y 38
 elevation 5989
 end
-arch mountain
+arch desertcliff3
 x 8
 y 39
 elevation 5244
 end
-arch mountain
+arch desertcliff3
 x 8
 y 40
 elevation 5492
 end
-arch mountain
+arch desertcliff3
 x 8
 y 41
 elevation 5445
 end
-arch mountain
+arch steppe
 x 8
 y 42
 elevation 5062
@@ -2158,12 +2166,12 @@ x 8
 y 43
 elevation 3016
 end
-arch mountain
+arch desertcliff3
 x 8
 y 44
 elevation 5301
 end
-arch mountain
+arch desertcliff3
 x 8
 y 45
 elevation 5427
@@ -2282,57 +2290,57 @@ x 9
 y 18
 elevation 9521
 end
-arch mountain2
+arch steppelight
 x 9
 y 19
 elevation 9295
 end
-arch mountain2
+arch steppelight
 x 9
 y 20
 elevation 9392
 end
-arch mountain
+arch steppelight
 x 9
 y 21
 elevation 8667
 end
-arch mountain
+arch steppelight
 x 9
 y 22
 elevation 8380
 end
-arch mountain
+arch steppelight
 x 9
 y 23
 elevation 8838
 end
-arch mountain2
+arch greysandcliff1
 x 9
 y 24
 elevation 9505
 end
-arch mountain2
+arch desertcliff4
 x 9
 y 25
 elevation 10011
 end
-arch mountain2
+arch desertcliff4
 x 9
 y 26
 elevation 9980
 end
-arch mountain2
+arch steppelight
 x 9
 y 27
 elevation 9754
 end
-arch mountain2
+arch steppelight
 x 9
 y 28
 elevation 10552
 end
-arch mountain2
+arch steppelight
 x 9
 y 29
 elevation 10744
@@ -2341,47 +2349,47 @@ arch cobblestones
 x 9
 y 30
 end
-arch mountain2
+arch steppelight
 x 9
 y 31
 elevation 10679
 end
-arch mountain2
+arch steppelight
 x 9
 y 32
 elevation 10441
 end
-arch mountain2
+arch steppelight
 x 9
 y 33
 elevation 9372
 end
-arch mountain
+arch desertcliff3
 x 9
 y 34
 elevation 6867
 end
-arch mountain
+arch desertcliff3
 x 9
 y 35
 elevation 7782
 end
-arch mountain
+arch desertcliff3
 x 9
 y 36
 elevation 7730
 end
-arch mountain
+arch desertcliff3
 x 9
 y 37
 elevation 7538
 end
-arch mountain
+arch steppe
 x 9
 y 38
 elevation 6991
 end
-arch mountain
+arch steppe
 x 9
 y 39
 elevation 6396
@@ -2391,32 +2399,32 @@ x 9
 y 40
 elevation 4535
 end
-arch mountain
+arch steppe
 x 9
 y 41
 elevation 5587
 end
-arch mountain
+arch steppe
 x 9
 y 42
 elevation 5268
 end
-arch mountain
+arch steppe
 x 9
 y 43
 elevation 5218
 end
-arch mountain
+arch desertcliff3
 x 9
 y 44
 elevation 5544
 end
-arch mountain
+arch desertcliff3
 x 9
 y 45
 elevation 5760
 end
-arch mountain
+arch desertcliff3
 x 9
 y 46
 elevation 5074
@@ -2431,7 +2439,7 @@ x 9
 y 48
 elevation 3550
 end
-arch woods_2
+arch steppe
 x 9
 y 49
 elevation 2451
@@ -2520,67 +2528,67 @@ x 10
 y 16
 elevation 9933
 end
-arch mountain2
+arch greysandcliff1
 x 10
 y 17
 elevation 9783
 end
-arch mountain2
+arch bluesandcliff4
 x 10
 y 18
 elevation 9616
 end
-arch mountain2
+arch steppelight
 x 10
 y 19
 elevation 9647
 end
-arch mountain2
+arch steppelight
 x 10
 y 20
 elevation 9392
 end
-arch mountain
+arch steppelight
 x 10
 y 21
 elevation 7948
 end
-arch mountain
+arch steppelight
 x 10
 y 22
 elevation 7447
 end
-arch mountain
+arch greysandcliff1
 x 10
 y 23
 elevation 7965
 end
-arch mountain2
+arch greysandcliff1
 x 10
 y 24
 elevation 9212
 end
-arch mountain2
+arch steppelight
 x 10
 y 25
 elevation 9902
 end
-arch mountain2
+arch desertcliff4
 x 10
 y 26
 elevation 10301
 end
-arch mountain2
+arch steppelight
 x 10
 y 27
 elevation 10371
 end
-arch mountain2
+arch steppelight
 x 10
 y 28
 elevation 10533
 end
-arch mountain2
+arch steppelight
 x 10
 y 29
 elevation 10660
@@ -2589,62 +2597,62 @@ arch cobblestones
 x 10
 y 30
 end
-arch mountain2
+arch steppelight
 x 10
 y 31
 elevation 10228
 end
-arch mountain2
+arch steppelight
 x 10
 y 32
 elevation 10024
 end
-arch mountain2
+arch steppelight
 x 10
 y 33
 elevation 9370
 end
-arch mountain
+arch desertcliff3
 x 10
 y 34
 elevation 8819
 end
-arch mountain
+arch desertcliff3
 x 10
 y 35
 elevation 8695
 end
-arch mountain
+arch steppe
 x 10
 y 36
 elevation 8800
 end
-arch mountain
+arch steppe
 x 10
 y 37
 elevation 8531
 end
-arch mountain
+arch steppe
 x 10
 y 38
 elevation 7916
 end
-arch mountain
+arch steppe
 x 10
 y 39
 elevation 6925
 end
-arch mountain
+arch steppe
 x 10
 y 40
 elevation 6154
 end
-arch mountain
+arch steppe
 x 10
 y 41
 elevation 5369
 end
-arch mountain
+arch steppe
 x 10
 y 42
 elevation 5018
@@ -2654,17 +2662,17 @@ x 10
 y 43
 elevation 4600
 end
-arch mountain
+arch desertcliff3
 x 10
 y 44
 elevation 5453
 end
-arch mountain
+arch desertcliff3
 x 10
 y 45
 elevation 6090
 end
-arch mountain
+arch desertcliff3
 x 10
 y 46
 elevation 5641
@@ -2679,7 +2687,7 @@ x 10
 y 48
 elevation 3082
 end
-arch woods_2
+arch steppe
 x 10
 y 49
 elevation 2942
@@ -2768,67 +2776,67 @@ x 11
 y 16
 elevation 7775
 end
-arch mountain
+arch greysandcliff1
 x 11
 y 17
 elevation 7111
 end
-arch mountain
+arch bluesandcliff4
 x 11
 y 18
 elevation 8335
 end
-arch mountain2
+arch steppelight
 x 11
 y 19
 elevation 9491
 end
-arch mountain2
+arch steppelight
 x 11
 y 20
 elevation 9036
 end
-arch mountain
+arch steppelight
 x 11
 y 21
 elevation 8026
 end
-arch mountain
+arch steppelight
 x 11
 y 22
 elevation 6813
 end
-arch mountain
+arch steppelight
 x 11
 y 23
 elevation 7818
 end
-arch mountain
+arch steppelight
 x 11
 y 24
 elevation 6357
 end
-arch mountain2
+arch steppelight
 x 11
 y 25
 elevation 9685
 end
-arch mountain2
+arch steppelight
 x 11
 y 26
 elevation 10216
 end
-arch mountain2
+arch steppelight
 x 11
 y 27
 elevation 9905
 end
-arch mountain2
+arch steppelight
 x 11
 y 28
 elevation 9698
 end
-arch mountain2
+arch steppelight
 x 11
 y 29
 elevation 9440
@@ -2837,57 +2845,57 @@ arch cobblestones
 x 11
 y 30
 end
-arch mountain
+arch steppelight
 x 11
 y 31
 elevation 8249
 end
-arch mountain
+arch steppelight
 x 11
 y 32
 elevation 8150
 end
-arch mountain
+arch steppelight
 x 11
 y 33
 elevation 8528
 end
-arch mountain
+arch desertcliff3
 x 11
 y 34
 elevation 8718
 end
-arch mountain2
+arch desertcliff3
 x 11
 y 35
 elevation 9011
 end
-arch mountain
+arch steppe
 x 11
 y 36
 elevation 8926
 end
-arch mountain
+arch steppe
 x 11
 y 37
 elevation 8339
 end
-arch mountain
+arch steppe
 x 11
 y 38
 elevation 7989
 end
-arch mountain
+arch steppe
 x 11
 y 39
 elevation 7448
 end
-arch mountain
+arch steppe
 x 11
 y 40
 elevation 5651
 end
-arch mountain
+arch steppe
 x 11
 y 41
 elevation 5373
@@ -2902,17 +2910,17 @@ x 11
 y 43
 elevation 4651
 end
-arch mountain
+arch desertcliff3
 x 11
 y 44
 elevation 5888
 end
-arch mountain
+arch desertcliff3
 x 11
 y 45
 elevation 6110
 end
-arch mountain
+arch desertcliff3
 x 11
 y 46
 elevation 5714
@@ -3016,67 +3024,67 @@ x 12
 y 16
 elevation 9168
 end
-arch mountain2
+arch greysandcliff1
 x 12
 y 17
 elevation 9607
 end
-arch mountain2
+arch bluesandcliff4
 x 12
 y 18
 elevation 9910
 end
-arch mountain
+arch steppelight
 x 12
 y 19
 elevation 8668
 end
-arch mountain
+arch steppelight
 x 12
 y 20
 elevation 8413
 end
-arch mountain
+arch steppelight
 x 12
 y 21
 elevation 8254
 end
-arch mountain
+arch steppelight
 x 12
 y 22
 elevation 5690
 end
-arch mountain
+arch greysandcliff1
 x 12
 y 23
 elevation 8227
 end
-arch mountain2
+arch steppelight
 x 12
 y 24
 elevation 9154
 end
-arch mountain2
+arch steppelight
 x 12
 y 25
 elevation 9322
 end
-arch mountain2
+arch steppelight
 x 12
 y 26
 elevation 9433
 end
-arch mountain
+arch steppelight
 x 12
 y 27
 elevation 8783
 end
-arch mountain
+arch steppelight
 x 12
 y 28
 elevation 6718
 end
-arch mountain
+arch steppelight
 x 12
 y 29
 elevation 7642
@@ -3085,57 +3093,61 @@ arch cobblestones
 x 12
 y 30
 end
-arch mountain
+arch steppelight
 x 12
 y 31
 elevation 6929
 end
-arch mountain
+arch steppelight
 x 12
 y 32
 elevation 7056
 end
-arch mountain
+arch shrub4
+x 12
+y 32
+end
+arch steppelight
 x 12
 y 33
 elevation 5497
 end
-arch mountain
+arch desertcliff3
 x 12
 y 34
 elevation 8262
 end
-arch mountain
+arch desertcliff3
 x 12
 y 35
 elevation 8902
 end
-arch mountain
+arch steppe
 x 12
 y 36
 elevation 8273
 end
-arch mountain
+arch steppe
 x 12
 y 37
 elevation 8469
 end
-arch mountain
+arch steppe
 x 12
 y 38
 elevation 8071
 end
-arch mountain
+arch steppe
 x 12
 y 39
 elevation 7516
 end
-arch mountain
+arch steppe
 x 12
 y 40
 elevation 6625
 end
-arch mountain
+arch steppe
 x 12
 y 41
 elevation 5361
@@ -3145,17 +3157,17 @@ x 12
 y 42
 elevation 4175
 end
-arch mountain
+arch steppe
 x 12
 y 43
 elevation 5666
 end
-arch mountain
+arch desertcliff3
 x 12
 y 44
 elevation 6247
 end
-arch mountain
+arch desertcliff3
 x 12
 y 45
 elevation 6122
@@ -3165,7 +3177,7 @@ x 12
 y 46
 elevation 4345
 end
-arch mountain
+arch desertcliff3
 x 12
 y 47
 elevation 5108
@@ -3264,67 +3276,67 @@ x 13
 y 16
 elevation 9481
 end
-arch mountain2
+arch greysandcliff1
 x 13
 y 17
 elevation 11040
 end
-arch mountain2
+arch bluesandcliff4
 x 13
 y 18
 elevation 11256
 end
-arch mountain2
+arch steppelight
 x 13
 y 19
 elevation 10492
 end
-arch mountain2
+arch steppelight
 x 13
 y 20
 elevation 9422
 end
-arch mountain
+arch steppelight
 x 13
 y 21
 elevation 8534
 end
-arch mountain
+arch steppelight
 x 13
 y 22
 elevation 8506
 end
-arch mountain2
+arch greysandcliff1
 x 13
 y 23
 elevation 9150
 end
-arch mountain2
+arch desertcliff4
 x 13
 y 24
 elevation 9730
 end
-arch mountain2
+arch desertcliff4
 x 13
 y 25
 elevation 9269
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 26
 elevation 6407
 end
-arch mountain
+arch steppelight
 x 13
 y 27
 elevation 7722
 end
-arch mountain
+arch steppelight
 x 13
 y 28
 elevation 7141
 end
-arch mountain
+arch steppelight
 x 13
 y 29
 elevation 5925
@@ -3333,97 +3345,97 @@ arch cobblestones
 x 13
 y 30
 end
-arch mountain
+arch steppelight
 x 13
 y 31
 elevation 5718
 end
-arch mountain
+arch steppelight
 x 13
 y 32
 elevation 6305
 end
-arch mountain
+arch steppelight
 x 13
 y 33
 elevation 6540
 end
-arch mountain
+arch desertcliff3
 x 13
 y 34
 elevation 7717
 end
-arch mountain
+arch desertcliff3
 x 13
 y 35
 elevation 8608
 end
-arch mountain
+arch steppe
 x 13
 y 36
 elevation 8655
 end
-arch mountain
+arch steppe
 x 13
 y 37
 elevation 8150
 end
-arch mountain
+arch steppe
 x 13
 y 38
 elevation 7706
 end
-arch mountain
+arch steppe
 x 13
 y 39
 elevation 6937
 end
-arch mountain
+arch steppe
 x 13
 y 40
 elevation 6238
 end
-arch mountain
+arch steppe
 x 13
 y 41
 elevation 5799
 end
-arch mountain
+arch steppe
 x 13
 y 42
 elevation 6040
 end
-arch mountain
+arch steppe
 x 13
 y 43
 elevation 6283
 end
-arch mountain
+arch steppe
 x 13
 y 44
 elevation 6416
 end
-arch mountain
+arch desertcliff3
 x 13
 y 45
 elevation 5960
 end
-arch mountain
+arch desertcliff3
 x 13
 y 46
 elevation 5514
 end
-arch mountain
+arch desertcliff3
 x 13
 y 47
 elevation 5560
 end
-arch mountain
+arch desertcliff3
 x 13
 y 48
 elevation 5513
 end
-arch mountain
+arch steppe
 x 13
 y 49
 elevation 5340
@@ -3507,72 +3519,72 @@ x 14
 y 15
 elevation 11634
 end
-arch mountain2
+arch greysandcliff2
 x 14
 y 16
 elevation 11674
 end
-arch mountain2
+arch greysandcliff1
 x 14
 y 17
 elevation 11951
 end
-arch mountain4
+arch bluesandcliff3
 x 14
 y 18
 elevation 12278
 end
-arch mountain2
+arch bluesandcliff3
 x 14
 y 19
 elevation 11238
 end
-arch mountain2
+arch steppelight
 x 14
 y 20
 elevation 9730
 end
-arch mountain
+arch steppelight
 x 14
 y 21
 elevation 7629
 end
-arch mountain2
+arch steppelight
 x 14
 y 22
 elevation 9165
 end
-arch mountain2
+arch greysandcliff1
 x 14
 y 23
 elevation 9872
 end
-arch mountain2
+arch steppelight
 x 14
 y 24
 elevation 10130
 end
-arch mountain2
+arch steppelight
 x 14
 y 25
 elevation 9184
 end
-arch mountain
+arch steppelight
 x 14
 y 26
 elevation 8065
 end
-arch mountain
+arch steppelight
 x 14
 y 27
 elevation 7635
 end
-arch mountain
+arch steppelight
 x 14
 y 28
 elevation 5722
 end
-arch hills
+arch steppelight
 x 14
 y 29
 elevation 4997
@@ -3581,47 +3593,47 @@ arch cobblestones
 x 14
 y 30
 end
-arch mountain
+arch steppelight
 x 14
 y 31
 elevation 5473
 end
-arch mountain
+arch steppelight
 x 14
 y 32
 elevation 6026
 end
-arch mountain
+arch steppelight
 x 14
 y 33
 elevation 6589
 end
-arch mountain
+arch desertcliff3
 x 14
 y 34
 elevation 6613
 end
-arch mountain
+arch desertcliff3
 x 14
 y 35
 elevation 8051
 end
-arch mountain
+arch steppe
 x 14
 y 36
 elevation 7950
 end
-arch mountain
+arch steppe
 x 14
 y 37
 elevation 7109
 end
-arch mountain
+arch steppe
 x 14
 y 38
 elevation 6295
 end
-arch mountain
+arch steppe
 x 14
 y 39
 elevation 5708
@@ -3631,47 +3643,47 @@ x 14
 y 40
 elevation 3542
 end
-arch mountain
+arch steppe
 x 14
 y 41
 elevation 5826
 end
-arch mountain
+arch steppe
 x 14
 y 42
 elevation 6322
 end
-arch mountain
+arch steppe
 x 14
 y 43
 elevation 6352
 end
-arch mountain
+arch steppe
 x 14
 y 44
 elevation 6115
 end
-arch mountain
+arch steppe
 x 14
 y 45
 elevation 5675
 end
-arch mountain
+arch steppe
 x 14
 y 46
 elevation 5371
 end
-arch mountain
+arch steppe
 x 14
 y 47
 elevation 5743
 end
-arch mountain
+arch steppe
 x 14
 y 48
 elevation 5885
 end
-arch mountain
+arch steppe
 x 14
 y 49
 elevation 5577
@@ -3755,67 +3767,67 @@ x 15
 y 15
 elevation 12562
 end
-arch mountain4
+arch greysandcliff2
 x 15
 y 16
 elevation 12260
 end
-arch mountain4
+arch greysandcliff2
 x 15
 y 17
 elevation 12659
 end
-arch mountain4
+arch steppelight
 x 15
 y 18
 elevation 12506
 end
-arch mountain2
+arch steppelight
 x 15
 y 19
 elevation 11574
 end
-arch mountain
+arch steppelight
 x 15
 y 20
 elevation 7792
 end
-arch mountain
+arch steppelight
 x 15
 y 21
 elevation 8826
 end
-arch mountain2
+arch steppelight
 x 15
 y 22
 elevation 9489
 end
-arch mountain2
+arch steppelight
 x 15
 y 23
 elevation 10354
 end
-arch mountain2
+arch steppelight
 x 15
 y 24
 elevation 10561
 end
-arch mountain2
+arch steppelight
 x 15
 y 25
 elevation 10662
 end
-arch mountain2
+arch steppelight
 x 15
 y 26
 elevation 9770
 end
-arch mountain
+arch steppelight
 x 15
 y 27
 elevation 8193
 end
-arch mountain
+arch steppelight
 x 15
 y 28
 elevation 6735
@@ -3828,32 +3840,32 @@ arch cobblestones
 x 15
 y 30
 end
-arch mountain
+arch steppelight
 x 15
 y 31
 elevation 6156
 end
-arch mountain
+arch steppelight
 x 15
 y 32
 elevation 6265
 end
-arch mountain
+arch steppelight
 x 15
 y 33
 elevation 6414
 end
-arch mountain
+arch desertcliff3
 x 15
 y 34
 elevation 6713
 end
-arch mountain
+arch desertcliff3
 x 15
 y 35
 elevation 7548
 end
-arch mountain
+arch steppe
 x 15
 y 36
 elevation 7097
@@ -3878,22 +3890,22 @@ x 15
 y 40
 elevation 4795
 end
-arch mountain
+arch steppe
 x 15
 y 41
 elevation 5286
 end
-arch mountain
+arch steppe
 x 15
 y 42
 elevation 5867
 end
-arch mountain
+arch steppe
 x 15
 y 43
 elevation 5827
 end
-arch mountain
+arch steppe
 x 15
 y 44
 elevation 5532
@@ -3908,17 +3920,17 @@ x 15
 y 46
 elevation 4884
 end
-arch mountain
+arch steppe
 x 15
 y 47
 elevation 5112
 end
-arch mountain
+arch steppe
 x 15
 y 48
 elevation 5446
 end
-arch mountain
+arch steppe
 x 15
 y 49
 elevation 5378
@@ -4002,67 +4014,67 @@ x 16
 y 15
 elevation 13620
 end
-arch mountain4
+arch greysandcliff2
 x 16
 y 16
 elevation 13631
 end
-arch mountain2
+arch greysandcliff1
 x 16
 y 17
 elevation 11804
 end
-arch mountain4
+arch steppelight
 x 16
 y 18
 elevation 12491
 end
-arch mountain2
+arch steppelight
 x 16
 y 19
 elevation 11900
 end
-arch mountain2
+arch steppelight
 x 16
 y 20
 elevation 11059
 end
-arch mountain
+arch steppelight
 x 16
 y 21
 elevation 8299
 end
-arch mountain2
+arch steppelight
 x 16
 y 22
 elevation 10217
 end
-arch mountain2
+arch steppelight
 x 16
 y 23
 elevation 10805
 end
-arch mountain2
+arch steppelight
 x 16
 y 24
 elevation 11846
 end
-arch mountain2
+arch steppelight
 x 16
 y 25
 elevation 11816
 end
-arch mountain2
+arch steppelight
 x 16
 y 26
 elevation 10575
 end
-arch mountain
+arch steppelight
 x 16
 y 27
 elevation 8589
 end
-arch mountain
+arch steppelight
 x 16
 y 28
 elevation 5695
@@ -4071,47 +4083,47 @@ arch cobblestones
 x 16
 y 29
 end
-arch mountain
+arch steppelight
 x 16
 y 30
 elevation 7046
 end
-arch mountain
+arch steppelight
 x 16
 y 31
 elevation 6973
 end
-arch mountain
+arch steppelight
 x 16
 y 32
 elevation 7345
 end
-arch mountain
+arch steppelight
 x 16
 y 33
 elevation 7162
 end
-arch mountain
+arch desertcliff3
 x 16
 y 34
 elevation 7075
 end
-arch mountain
+arch desertcliff3
 x 16
 y 35
 elevation 7401
 end
-arch mountain
+arch steppe
 x 16
 y 36
 elevation 7216
 end
-arch mountain
+arch steppe
 x 16
 y 37
 elevation 6406
 end
-arch mountain
+arch steppe
 x 16
 y 38
 elevation 5410
@@ -4250,67 +4262,71 @@ x 17
 y 15
 elevation 14688
 end
-arch mountain4
+arch greysandcliff2
 x 17
 y 16
 elevation 14490
 end
-arch mountain4
+arch greysandcliff1
 x 17
 y 17
 elevation 13696
 end
-arch mountain2
+arch steppelight
 x 17
 y 18
 elevation 11830
 end
-arch mountain4
+arch steppelight
 x 17
 y 19
 elevation 12290
 end
-arch mountain4
+arch steppelight
 x 17
 y 20
 elevation 12641
 end
-arch mountain4
+arch steppelight
 x 17
 y 21
 elevation 12466
 end
-arch mountain4
+arch steppelight
 x 17
 y 22
 elevation 12056
 end
-arch mountain2
+arch steppelight
 x 17
 y 23
 elevation 11967
 end
-arch mountain4
+arch steppelight
 x 17
 y 24
 elevation 12987
 end
-arch mountain4
+arch steppelight
 x 17
 y 25
 elevation 12649
 end
-arch mountain2
+arch shrub4
+x 17
+y 25
+end
+arch steppelight
 x 17
 y 26
 elevation 10790
 end
-arch mountain
+arch steppelight
 x 17
 y 27
 elevation 7672
 end
-arch mountain
+arch steppelight
 x 17
 y 28
 elevation 6619
@@ -4319,52 +4335,56 @@ arch cobblestones
 x 17
 y 29
 end
-arch mountain
+arch steppelight
 x 17
 y 30
 elevation 8006
 end
-arch mountain
+arch steppelight
 x 17
 y 31
 elevation 8214
 end
-arch mountain
+arch steppelight
 x 17
 y 32
 elevation 8073
 end
-arch mountain
+arch shrub
+x 17
+y 32
+end
+arch steppelight
 x 17
 y 33
 elevation 7682
 end
-arch mountain
+arch desertcliff3
 x 17
 y 34
 elevation 6530
 end
-arch mountain
+arch desertcliff3
 x 17
 y 35
 elevation 7413
 end
-arch mountain
+arch steppe
 x 17
 y 36
 elevation 7355
 end
-arch mountain
+arch steppe
 x 17
 y 37
 elevation 6852
 end
-arch mountain
+arch steppe
 x 17
 y 38
 elevation 6036
 end
-arch mountain
+arch steppe
 x 17
 y 39
 elevation 5005
@@ -4394,12 +4414,12 @@ x 17
 y 44
 elevation 3561
 end
-arch woods_2
+arch steppe
 x 17
 y 45
 elevation 2704
 end
-arch woods_2
+arch steppe
 x 17
 y 46
 elevation 2226
@@ -4503,62 +4523,66 @@ x 18
 y 16
 elevation 15177
 end
-arch mountain4
+arch greysandcliff2
 x 18
 y 17
 elevation 12723
 end
-arch mountain4
+arch steppelight
 x 18
 y 18
 elevation 14336
 end
-arch mountain4
+arch steppelight
 x 18
 y 19
 elevation 12899
 end
-arch mountain4
+arch steppelight
 x 18
 y 20
 elevation 14578
 end
-arch mountain4
+arch steppelight
 x 18
 y 21
 elevation 13874
 end
-arch mountain4
+arch steppelight
 x 18
 y 22
 elevation 13419
 end
-arch mountain4
+arch steppelight
 x 18
 y 23
 elevation 13353
 end
-arch mountain4
+arch steppelight
 x 18
 y 24
 elevation 13508
 end
-arch mountain4
+arch steppelight
 x 18
 y 25
 elevation 12742
 end
-arch mountain2
+arch shrub02
+x 18
+y 25
+end
+arch steppelight
 x 18
 y 26
 elevation 10952
 end
-arch mountain
+arch steppelight
 x 18
 y 27
 elevation 8339
 end
-arch mountain
+arch steppelight
 x 18
 y 28
 elevation 6518
@@ -4567,52 +4591,52 @@ arch cobblestones
 x 18
 y 29
 end
-arch mountain
+arch steppelight
 x 18
 y 30
 elevation 8112
 end
-arch mountain
+arch steppelight
 x 18
 y 31
 elevation 8382
 end
-arch mountain
+arch steppelight
 x 18
 y 32
 elevation 8258
 end
-arch mountain
+arch steppelight
 x 18
 y 33
 elevation 7895
 end
-arch mountain
+arch desertcliff3
 x 18
 y 34
 elevation 7477
 end
-arch mountain
+arch desertcliff3
 x 18
 y 35
 elevation 7115
 end
-arch mountain
+arch steppe
 x 18
 y 36
 elevation 6769
 end
-arch mountain
+arch steppe
 x 18
 y 37
 elevation 6403
 end
-arch mountain
+arch steppe
 x 18
 y 38
 elevation 5977
 end
-arch mountain
+arch steppe
 x 18
 y 39
 elevation 5228
@@ -4632,37 +4656,37 @@ x 18
 y 42
 elevation 3411
 end
-arch woods_2
+arch steppe
 x 18
 y 43
 elevation 2944
 end
-arch woods_2
+arch steppe
 x 18
 y 44
 elevation 2735
 end
-arch woods_2
+arch steppe
 x 18
 y 45
 elevation 2378
 end
-arch woods_2
+arch steppe
 x 18
 y 46
 elevation 1937
 end
-arch woods_2
+arch steppe
 x 18
 y 47
 elevation 2335
 end
-arch woods_2
+arch steppe
 x 18
 y 48
 elevation 2794
 end
-arch woods_2
+arch steppe
 x 18
 y 49
 elevation 2994
@@ -4751,62 +4775,66 @@ x 19
 y 16
 elevation 14989
 end
-arch mountain4
+arch greysandcliff1
 x 19
 y 17
 elevation 15326
 end
-arch mountain4
+arch steppelight
 x 19
 y 18
 elevation 15601
 end
-arch mountain5
+arch steppelight
 x 19
 y 19
 elevation 16162
 end
-arch mountain5
+arch steppelight
 x 19
 y 20
 elevation 16030
 end
-arch mountain4
+arch steppelight
 x 19
 y 21
 elevation 14909
 end
-arch mountain4
+arch steppelight
 x 19
 y 22
 elevation 12636
 end
-arch mountain4
+arch steppelight
 x 19
 y 23
 elevation 13543
 end
-arch mountain4
+arch steppelight
 x 19
 y 24
 elevation 13006
 end
-arch mountain2
+arch steppelight
 x 19
 y 25
 elevation 11807
 end
-arch mountain2
+arch steppelight
 x 19
 y 26
 elevation 10810
 end
-arch mountain2
+arch shrub2a
+x 19
+y 26
+end
+arch steppelight
 x 19
 y 27
 elevation 9311
 end
-arch mountain
+arch steppelight
 x 19
 y 28
 elevation 7601
@@ -4815,52 +4843,52 @@ arch cobblestones
 x 19
 y 29
 end
-arch mountain
+arch steppelight
 x 19
 y 30
 elevation 6915
 end
-arch mountain
+arch desertcliff3
 x 19
 y 31
 elevation 7514
 end
-arch mountain
+arch desertcliff3
 x 19
 y 32
 elevation 7768
 end
-arch mountain
+arch desertcliff3
 x 19
 y 33
 elevation 7941
 end
-arch mountain
+arch desertcliff3
 x 19
 y 34
 elevation 7833
 end
-arch mountain
+arch desertcliff3
 x 19
 y 35
 elevation 6148
 end
-arch mountain
+arch desertcliff4
 x 19
 y 36
 elevation 5606
 end
-arch mountain
+arch desertcliff4
 x 19
 y 37
 elevation 5121
 end
-arch mountain
+arch desertcliff4
 x 19
 y 38
 elevation 5397
 end
-arch mountain
+arch desertcliff4
 x 19
 y 39
 elevation 5473
@@ -4885,22 +4913,22 @@ x 19
 y 43
 elevation 3303
 end
-arch woods_2
+arch steppe
 x 19
 y 44
 elevation 1861
 end
-arch woods_2
+arch steppe
 x 19
 y 45
 elevation 1746
 end
-arch woods_2
+arch steppe
 x 19
 y 46
 elevation 2102
 end
-arch woods_2
+arch steppe
 x 19
 y 47
 elevation 1655
@@ -4910,7 +4938,7 @@ x 19
 y 48
 elevation 1200
 end
-arch woods_2
+arch steppe
 x 19
 y 49
 elevation 1958
@@ -4994,67 +5022,67 @@ x 20
 y 15
 elevation 14068
 end
-arch mountain4
+arch greysandcliff2
 x 20
 y 16
 elevation 13605
 end
-arch mountain4
+arch greysandcliff2
 x 20
 y 17
 elevation 14741
 end
-arch mountain4
+arch steppelight
 x 20
 y 18
 elevation 15528
 end
-arch mountain5
+arch steppelight
 x 20
 y 19
 elevation 16413
 end
-arch mountain5
+arch steppelight
 x 20
 y 20
 elevation 16438
 end
-arch mountain4
+arch steppelight
 x 20
 y 21
 elevation 15306
 end
-arch mountain4
+arch steppelight
 x 20
 y 22
 elevation 14006
 end
-arch mountain4
+arch steppelight
 x 20
 y 23
 elevation 12822
 end
-arch mountain2
+arch steppelight
 x 20
 y 24
 elevation 10599
 end
-arch mountain2
+arch steppelight
 x 20
 y 25
 elevation 10369
 end
-arch mountain2
+arch steppelight
 x 20
 y 26
 elevation 10663
 end
-arch mountain2
+arch steppelight
 x 20
 y 27
 elevation 9663
 end
-arch mountain
+arch steppelight
 x 20
 y 28
 elevation 7537
@@ -5068,52 +5096,52 @@ x 20
 y 30
 elevation 4764
 end
-arch mountain
+arch steppelight
 x 20
 y 31
 elevation 6703
 end
-arch mountain
+arch steppelight
 x 20
 y 32
 elevation 6519
 end
-arch mountain
+arch steppelight
 x 20
 y 33
 elevation 7926
 end
-arch mountain
+arch steppelight
 x 20
 y 34
 elevation 8400
 end
-arch mountain
+arch steppe
 x 20
 y 35
 elevation 8009
 end
-arch mountain
+arch steppe
 x 20
 y 36
 elevation 7074
 end
-arch mountain
+arch steppe
 x 20
 y 37
 elevation 5974
 end
-arch hills_rocky
+arch steppe
 x 20
 y 38
 elevation 4959
 end
-arch mountain
+arch desertcliff4
 x 20
 y 39
 elevation 5725
 end
-arch mountain
+arch desertcliff4
 x 20
 y 40
 elevation 5223
@@ -5143,17 +5171,17 @@ x 20
 y 45
 elevation 3155
 end
-arch woods_2
+arch steppe
 x 20
 y 46
 elevation 2805
 end
-arch woods_2
+arch steppe
 x 20
 y 47
 elevation 2163
 end
-arch woods_2
+arch steppe
 x 20
 y 48
 elevation 1344
@@ -5242,67 +5270,67 @@ x 21
 y 15
 elevation 13614
 end
-arch mountain4
+arch greysandcliff2
 x 21
 y 16
 elevation 13374
 end
-arch mountain4
+arch greysandcliff2
 x 21
 y 17
 elevation 12354
 end
-arch mountain4
+arch steppelight
 x 21
 y 18
 elevation 13612
 end
-arch mountain4
+arch steppelight
 x 21
 y 19
 elevation 15233
 end
-arch mountain4
+arch steppelight
 x 21
 y 20
 elevation 15408
 end
-arch mountain4
+arch steppelight
 x 21
 y 21
 elevation 14703
 end
-arch mountain4
+arch steppelight
 x 21
 y 22
 elevation 13141
 end
-arch mountain2
+arch steppelight
 x 21
 y 23
 elevation 11400
 end
-arch mountain2
+arch steppelight
 x 21
 y 24
 elevation 10583
 end
-arch mountain2
+arch steppelight
 x 21
 y 25
 elevation 10393
 end
-arch mountain2
+arch steppelight
 x 21
 y 26
 elevation 10563
 end
-arch mountain2
+arch steppelight
 x 21
 y 27
 elevation 9769
 end
-arch mountain
+arch steppelight
 x 21
 y 28
 elevation 7453
@@ -5311,57 +5339,57 @@ arch cobblestones
 x 21
 y 29
 end
-arch mountain
+arch steppelight
 x 21
 y 30
 elevation 5551
 end
-arch mountain
+arch steppelight
 x 21
 y 31
 elevation 6651
 end
-arch mountain
+arch steppelight
 x 21
 y 32
 elevation 6691
 end
-arch mountain
+arch steppelight
 x 21
 y 33
 elevation 8785
 end
-arch mountain2
+arch steppelight
 x 21
 y 34
 elevation 9299
 end
-arch mountain
+arch steppe
 x 21
 y 35
 elevation 8883
 end
-arch mountain
+arch steppe
 x 21
 y 36
 elevation 7711
 end
-arch mountain
+arch steppe
 x 21
 y 37
 elevation 6549
 end
-arch mountain
+arch steppe
 x 21
 y 38
 elevation 5831
 end
-arch mountain
+arch desertcliff4
 x 21
 y 39
 elevation 5850
 end
-arch mountain
+arch desertcliff4
 x 21
 y 40
 elevation 5711
@@ -5371,7 +5399,7 @@ x 21
 y 41
 elevation 4627
 end
-arch jungle_1
+arch pstone_3
 x 21
 y 42
 elevation 2895
@@ -5396,7 +5424,7 @@ x 21
 y 46
 elevation 3686
 end
-arch woods_2
+arch steppe
 x 21
 y 47
 elevation 2808
@@ -5406,7 +5434,7 @@ x 21
 y 48
 elevation 996
 end
-arch woods_2
+arch steppe
 x 21
 y 49
 elevation 1519
@@ -5490,67 +5518,67 @@ x 22
 y 15
 elevation 13130
 end
-arch mountain4
+arch greysandcliff2
 x 22
 y 16
 elevation 14023
 end
-arch mountain4
+arch greysandcliff2
 x 22
 y 17
 elevation 13405
 end
-arch mountain4
+arch steppelight
 x 22
 y 18
 elevation 14116
 end
-arch mountain4
+arch steppelight
 x 22
 y 19
 elevation 12820
 end
-arch mountain4
+arch steppelight
 x 22
 y 20
 elevation 14101
 end
-arch mountain4
+arch steppelight
 x 22
 y 21
 elevation 13202
 end
-arch mountain2
+arch steppelight
 x 22
 y 22
 elevation 10881
 end
-arch mountain2
+arch steppelight
 x 22
 y 23
 elevation 9481
 end
-arch mountain
+arch steppelight
 x 22
 y 24
 elevation 8025
 end
-arch mountain2
+arch steppelight
 x 22
 y 25
 elevation 10244
 end
-arch mountain2
+arch steppelight
 x 22
 y 26
 elevation 10463
 end
-arch mountain2
+arch steppelight
 x 22
 y 27
 elevation 9691
 end
-arch mountain
+arch steppelight
 x 22
 y 28
 elevation 7766
@@ -5559,47 +5587,47 @@ arch cobblestones
 x 22
 y 29
 end
-arch mountain
+arch steppelight
 x 22
 y 30
 elevation 5729
 end
-arch mountain
+arch desertcliff3
 x 22
 y 31
 elevation 7069
 end
-arch mountain
+arch desertcliff3
 x 22
 y 32
 elevation 8620
 end
-arch mountain2
+arch desertcliff3
 x 22
 y 33
 elevation 9891
 end
-arch mountain2
+arch desertcliff3
 x 22
 y 34
 elevation 10047
 end
-arch mountain
+arch desertcliff4
 x 22
 y 35
 elevation 8920
 end
-arch mountain
+arch desertcliff4
 x 22
 y 36
 elevation 7652
 end
-arch mountain
+arch desertcliff4
 x 22
 y 37
 elevation 5176
 end
-arch mountain
+arch steppe
 x 22
 y 38
 elevation 5856
@@ -5609,22 +5637,22 @@ x 22
 y 39
 elevation 4271
 end
-arch mountain
+arch pstone_2
 x 22
 y 40
 elevation 6225
 end
-arch mountain
+arch pstone_2
 x 22
 y 41
 elevation 6424
 end
-arch mountain
+arch pstone_2
 x 22
 y 42
 elevation 6019
 end
-arch mountain
+arch pstone_2
 x 22
 y 43
 elevation 5606
@@ -5634,7 +5662,7 @@ x 22
 y 44
 elevation 4554
 end
-arch mountain
+arch steppe
 x 22
 y 45
 elevation 5177
@@ -5649,12 +5677,12 @@ x 22
 y 47
 elevation 3443
 end
-arch woods_3
+arch steppe
 x 22
 y 48
 elevation 2504
 end
-arch woods_2
+arch steppe
 x 22
 y 49
 elevation 1545
@@ -5738,67 +5766,71 @@ x 23
 y 15
 elevation 12947
 end
-arch mountain4
+arch greysandcliff2
 x 23
 y 16
 elevation 14771
 end
-arch mountain4
+arch greysandcliff1
 x 23
 y 17
 elevation 15197
 end
-arch mountain4
+arch greysandcliff2
 x 23
 y 18
 elevation 14741
 end
-arch mountain4
+arch steppelight
 x 23
 y 19
 elevation 13940
 end
-arch mountain4
+arch steppelight
 x 23
 y 20
 elevation 12853
 end
-arch mountain2
+arch steppelight
 x 23
 y 21
 elevation 11716
 end
-arch mountain2
+arch steppelight
 x 23
 y 22
 elevation 9496
 end
-arch mountain2
+arch steppelight
 x 23
 y 23
 elevation 10109
 end
-arch mountain2
+arch shrub
+x 23
+y 23
+end
+arch steppelight
 x 23
 y 24
 elevation 10197
 end
-arch mountain2
+arch steppelight
 x 23
 y 25
 elevation 10235
 end
-arch mountain2
+arch steppelight
 x 23
 y 26
 elevation 9636
 end
-arch mountain2
+arch steppelight
 x 23
 y 27
 elevation 9428
 end
-arch mountain
+arch steppelight
 x 23
 y 28
 elevation 8085
@@ -5807,47 +5839,47 @@ arch cobblestones
 x 23
 y 29
 end
-arch mountain
+arch steppelight
 x 23
 y 30
 elevation 6306
 end
-arch mountain
+arch steppelight
 x 23
 y 31
 elevation 6229
 end
-arch mountain2
+arch steppelight
 x 23
 y 32
 elevation 9108
 end
-arch mountain2
+arch desertcliff3
 x 23
 y 33
 elevation 10853
 end
-arch mountain2
+arch desertcliff3
 x 23
 y 34
 elevation 10824
 end
-arch mountain2
+arch steppe
 x 23
 y 35
 elevation 9299
 end
-arch mountain
+arch steppe
 x 23
 y 36
 elevation 6465
 end
-arch mountain
+arch desertcliff4
 x 23
 y 37
 elevation 6405
 end
-arch mountain
+arch desertcliff4
 x 23
 y 38
 elevation 6355
@@ -5857,37 +5889,37 @@ x 23
 y 39
 elevation 4434
 end
-arch mountain
+arch pstone_2
 x 23
 y 40
 elevation 7029
 end
-arch mountain
+arch pstone_3
 x 23
 y 41
 elevation 7646
 end
-arch mountain
+arch steppe
 x 23
 y 42
 elevation 7331
 end
-arch mountain
+arch steppe
 x 23
 y 43
 elevation 6691
 end
-arch mountain
+arch steppe
 x 23
 y 44
 elevation 6351
 end
-arch mountain
+arch steppe
 x 23
 y 45
 elevation 6078
 end
-arch mountain
+arch steppe
 x 23
 y 46
 elevation 5560
@@ -5902,7 +5934,7 @@ x 23
 y 48
 elevation 3352
 end
-arch woods_2
+arch steppe
 x 23
 y 49
 elevation 2268
@@ -5986,67 +6018,67 @@ x 24
 y 15
 elevation 13049
 end
-arch mountain4
+arch greysandcliff2
 x 24
 y 16
 elevation 15391
 end
-arch mountain5
+arch greysandcliff2
 x 24
 y 17
 elevation 16024
 end
-arch mountain4
+arch desertcliff4
 x 24
 y 18
 elevation 15283
 end
-arch mountain4
+arch steppelight
 x 24
 y 19
 elevation 13371
 end
-arch mountain2
+arch steppelight
 x 24
 y 20
 elevation 11869
 end
-arch mountain2
+arch steppelight
 x 24
 y 21
 elevation 10315
 end
-arch mountain2
+arch steppelight
 x 24
 y 22
 elevation 9864
 end
-arch mountain2
+arch steppelight
 x 24
 y 23
 elevation 10745
 end
-arch mountain2
+arch steppelight
 x 24
 y 24
 elevation 10803
 end
-arch mountain2
+arch steppelight
 x 24
 y 25
 elevation 10504
 end
-arch mountain2
+arch steppelight
 x 24
 y 26
 elevation 9986
 end
-arch mountain2
+arch steppelight
 x 24
 y 27
 elevation 9116
 end
-arch mountain
+arch steppelight
 x 24
 y 28
 elevation 7257
@@ -6055,92 +6087,92 @@ arch cobblestones
 x 24
 y 29
 end
-arch mountain
+arch steppelight
 x 24
 y 30
 elevation 6038
 end
-arch mountain
+arch steppelight
 x 24
 y 31
 elevation 5806
 end
-arch mountain2
+arch steppelight
 x 24
 y 32
 elevation 9731
 end
-arch mountain2
+arch desertcliff3
 x 24
 y 33
 elevation 11447
 end
-arch mountain2
+arch desertcliff3
 x 24
 y 34
 elevation 11728
 end
-arch mountain2
+arch steppe
 x 24
 y 35
 elevation 10671
 end
-arch mountain2
+arch steppe
 x 24
 y 36
 elevation 9216
 end
-arch mountain
+arch desertcliff4
 x 24
 y 37
 elevation 7953
 end
-arch mountain
+arch desertcliff4
 x 24
 y 38
 elevation 7503
 end
-arch mountain
+arch pstone_2
 x 24
 y 39
 elevation 7681
 end
-arch mountain
+arch pstone_2
 x 24
 y 40
 elevation 8192
 end
-arch mountain
+arch pstone_2
 x 24
 y 41
 elevation 8122
 end
-arch mountain
+arch steppe
 x 24
 y 42
 elevation 7624
 end
-arch mountain
+arch steppe
 x 24
 y 43
 elevation 7081
 end
-arch mountain
+arch steppe
 x 24
 y 44
 elevation 6700
 end
-arch mountain
+arch steppe
 x 24
 y 45
 elevation 6900
 end
-arch mountain
+arch steppe
 x 24
 y 46
 elevation 6462
 end
-arch mountain
+arch steppe
 x 24
 y 47
 elevation 5547
@@ -6150,7 +6182,7 @@ x 24
 y 48
 elevation 4286
 end
-arch woods_2
+arch steppe
 x 24
 y 49
 elevation 2834
@@ -6234,65 +6266,73 @@ x 25
 y 15
 elevation 13380
 end
-arch mountain4
+arch desertcliff4
 x 25
 y 16
 elevation 15338
 end
-arch mountain4
+arch desertcliff4
 x 25
 y 17
 elevation 15719
 end
-arch mountain4
+arch desertcliff4
 x 25
 y 18
 elevation 14296
 end
-arch mountain4
+arch steppelight
 x 25
 y 19
 elevation 12305
 end
-arch mountain2
+arch steppelight
 x 25
 y 20
 elevation 10824
 end
-arch mountain2
+arch steppelight
 x 25
 y 21
 elevation 10575
 end
-arch mountain2
+arch steppelight
 x 25
 y 22
 elevation 10950
 end
-arch mountain2
+arch steppelight
 x 25
 y 23
 elevation 11188
 end
-arch mountain2
+arch steppelight
 x 25
 y 24
 elevation 11066
 end
-arch mountain2
+arch pstone_2
 x 25
 y 25
 elevation 10300
 end
-arch mountain2
+arch shrub02
+x 25
+y 25
+end
+arch pstone_2
 x 25
 y 26
 elevation 9911
 end
-arch mountain
+arch pstone_2
 x 25
 y 27
 elevation 8162
+end
+arch shrub4
+x 25
+y 27
 end
 arch cobblestones
 x 25
@@ -6302,97 +6342,97 @@ arch cobblestones
 x 25
 y 29
 end
-arch mountain
+arch steppelight
 x 25
 y 30
 elevation 8196
 end
-arch mountain2
+arch steppelight
 x 25
 y 31
 elevation 9115
 end
-arch mountain2
+arch steppelight
 x 25
 y 32
 elevation 10587
 end
-arch mountain2
+arch desertcliff3
 x 25
 y 33
 elevation 11739
 end
-arch mountain2
+arch desertcliff3
 x 25
 y 34
 elevation 11963
 end
-arch mountain2
+arch steppe
 x 25
 y 35
 elevation 11324
 end
-arch mountain2
+arch steppe
 x 25
 y 36
 elevation 10410
 end
-arch mountain2
+arch desertcliff4
 x 25
 y 37
 elevation 9029
 end
-arch mountain
+arch desertcliff4
 x 25
 y 38
 elevation 6928
 end
-arch mountain2
+arch pstone_3
 x 25
 y 39
 elevation 9618
 end
-arch mountain2
+arch pstone_2
 x 25
 y 40
 elevation 9290
 end
-arch mountain2
+arch pstone_2
 x 25
 y 41
 elevation 9095
 end
-arch mountain
+arch steppe
 x 25
 y 42
 elevation 5872
 end
-arch mountain
+arch steppe
 x 25
 y 43
 elevation 6926
 end
-arch mountain
+arch steppe
 x 25
 y 44
 elevation 7456
 end
-arch mountain
+arch steppe
 x 25
 y 45
 elevation 7347
 end
-arch mountain
+arch steppe
 x 25
 y 46
 elevation 7010
 end
-arch mountain
+arch steppe
 x 25
 y 47
 elevation 6302
 end
-arch mountain
+arch steppe
 x 25
 y 48
 elevation 5136
@@ -6481,62 +6521,62 @@ x 26
 y 15
 elevation 13604
 end
-arch mountain4
+arch desertcliff4
 x 26
 y 16
 elevation 14596
 end
-arch mountain4
+arch desertcliff4
 x 26
 y 17
 elevation 14090
 end
-arch mountain4
+arch steppelight
 x 26
 y 18
 elevation 12678
 end
-arch mountain
+arch steppelight
 x 26
 y 19
 elevation 8263
 end
-arch mountain
+arch steppelight
 x 26
 y 20
 elevation 8042
 end
-arch mountain2
+arch steppelight
 x 26
 y 21
 elevation 10113
 end
-arch mountain2
+arch steppelight
 x 26
 y 22
 elevation 10929
 end
-arch mountain2
+arch steppelight
 x 26
 y 23
 elevation 11248
 end
-arch mountain2
+arch pstone_2
 x 26
 y 24
 elevation 11038
 end
-arch mountain2
+arch pstone_2
 x 26
 y 25
 elevation 10455
 end
-arch mountain2
+arch pstone_2
 x 26
 y 26
 elevation 10043
 end
-arch mountain
+arch pstone_2
 x 26
 y 27
 elevation 7993
@@ -6545,102 +6585,106 @@ arch cobblestones
 x 26
 y 28
 end
-arch mountain
+arch steppelight
 x 26
 y 29
 elevation 8773
 end
-arch mountain
+arch steppelight
 x 26
 y 30
 elevation 8623
 end
-arch mountain2
+arch steppelight
 x 26
 y 31
 elevation 10633
 end
-arch mountain2
+arch shrub
+x 26
+y 31
+end
+arch steppelight
 x 26
 y 32
 elevation 11549
 end
-arch mountain4
+arch desertcliff3
 x 26
 y 33
 elevation 12038
 end
-arch mountain2
+arch desertcliff3
 x 26
 y 34
 elevation 11033
 end
-arch mountain2
+arch steppe
 x 26
 y 35
 elevation 11226
 end
-arch mountain2
+arch steppe
 x 26
 y 36
 elevation 10807
 end
-arch mountain2
+arch desertcliff4
 x 26
 y 37
 elevation 10888
 end
-arch mountain2
+arch desertcliff4
 x 26
 y 38
 elevation 11653
 end
-arch mountain2
+arch pstone_2
 x 26
 y 39
 elevation 11802
 end
-arch mountain2
+arch steppe
 x 26
 y 40
 elevation 11085
 end
-arch mountain2
+arch steppe
 x 26
 y 41
 elevation 10698
 end
-arch mountain2
+arch steppe
 x 26
 y 42
 elevation 9871
 end
-arch mountain
+arch steppe
 x 26
 y 43
 elevation 8504
 end
-arch mountain
+arch steppe
 x 26
 y 44
 elevation 8108
 end
-arch mountain
+arch steppe
 x 26
 y 45
 elevation 7394
 end
-arch mountain
+arch steppe
 x 26
 y 46
 elevation 7136
 end
-arch mountain
+arch steppe
 x 26
 y 47
 elevation 6388
 end
-arch mountain
+arch steppe
 x 26
 y 48
 elevation 5385
@@ -6729,62 +6773,62 @@ x 27
 y 15
 elevation 14053
 end
-arch mountain4
+arch desertcliff4
 x 27
 y 16
 elevation 14131
 end
-arch mountain2
+arch desertcliff4
 x 27
 y 17
 elevation 11799
 end
-arch mountain4
+arch desertcliff4
 x 27
 y 18
 elevation 12137
 end
-arch mountain
+arch steppelight
 x 27
 y 19
 elevation 8327
 end
-arch mountain
+arch steppelight
 x 27
 y 20
 elevation 8559
 end
-arch mountain2
+arch steppelight
 x 27
 y 21
 elevation 9054
 end
-arch mountain2
+arch steppelight
 x 27
 y 22
 elevation 10438
 end
-arch mountain2
+arch pstone_2
 x 27
 y 23
 elevation 11032
 end
-arch mountain2
+arch pstone_2
 x 27
 y 24
 elevation 10434
 end
-arch mountain2
+arch pstone_2
 x 27
 y 25
 elevation 10419
 end
-arch mountain2
+arch pstone_2
 x 27
 y 26
 elevation 9903
 end
-arch mountain2
+arch pstone_2
 x 27
 y 27
 elevation 9661
@@ -6793,102 +6837,102 @@ arch cobblestones
 x 27
 y 28
 end
-arch mountain2
+arch steppelight
 x 27
 y 29
 elevation 10134
 end
-arch mountain2
+arch steppelight
 x 27
 y 30
 elevation 10788
 end
-arch mountain2
+arch steppelight
 x 27
 y 31
 elevation 11626
 end
-arch mountain4
+arch steppelight
 x 27
 y 32
 elevation 12420
 end
-arch mountain4
+arch desertcliff3
 x 27
 y 33
 elevation 12485
 end
-arch mountain4
+arch desertcliff3
 x 27
 y 34
 elevation 12140
 end
-arch mountain2
+arch steppe
 x 27
 y 35
 elevation 10587
 end
-arch mountain2
+arch steppe
 x 27
 y 36
 elevation 9881
 end
-arch mountain4
+arch desertcliff4
 x 27
 y 37
 elevation 12912
 end
-arch mountain4
+arch desertcliff4
 x 27
 y 38
 elevation 14425
 end
-arch mountain4
+arch large_stones2
 x 27
 y 39
 elevation 14471
 end
-arch mountain4
+arch large_stones2
 x 27
 y 40
 elevation 12632
 end
-arch mountain4
+arch small_stones
 x 27
 y 41
 elevation 13005
 end
-arch mountain4
+arch steppe
 x 27
 y 42
 elevation 12238
 end
-arch mountain2
+arch steppe
 x 27
 y 43
 elevation 10087
 end
-arch mountain2
+arch steppe
 x 27
 y 44
 elevation 9052
 end
-arch mountain
+arch steppe
 x 27
 y 45
 elevation 7683
 end
-arch mountain
+arch steppe
 x 27
 y 46
 elevation 6599
 end
-arch mountain
+arch steppe
 x 27
 y 47
 elevation 5682
 end
-arch mountain
+arch steppe
 x 27
 y 48
 elevation 5045
@@ -6977,12 +7021,12 @@ x 28
 y 15
 elevation 14431
 end
-arch mountain4
+arch desertcliff4
 x 28
 y 16
 elevation 14489
 end
-arch mountain4
+arch desertcliff4
 x 28
 y 17
 elevation 14604
@@ -6992,47 +7036,51 @@ x 28
 y 18
 elevation 13638
 end
-arch mountain2
+arch desertcliff4
 x 28
 y 19
 elevation 11467
 end
-arch mountain
+arch steppelight
 x 28
 y 20
 elevation 7839
 end
-arch mountain
+arch steppelight
 x 28
 y 21
 elevation 8966
 end
-arch mountain2
+arch steppelight
 x 28
 y 22
 elevation 10472
 end
-arch mountain2
+arch steppelight
 x 28
 y 23
 elevation 10536
 end
-arch mountain2
+arch pstone_2
 x 28
 y 24
 elevation 10238
 end
-arch mountain2
+arch shrub
+x 28
+y 24
+end
+arch pstone_2
 x 28
 y 25
 elevation 9768
 end
-arch mountain
+arch pstone_2
 x 28
 y 26
 elevation 8565
 end
-arch mountain
+arch pstone_2
 x 28
 y 27
 elevation 8321
@@ -7041,87 +7089,87 @@ arch cobblestones
 x 28
 y 28
 end
-arch mountain2
+arch steppelight
 x 28
 y 29
 elevation 11083
 end
-arch mountain2
+arch steppelight
 x 28
 y 30
 elevation 11150
 end
-arch mountain4
+arch steppelight
 x 28
 y 31
 elevation 12622
 end
-arch mountain4
+arch steppelight
 x 28
 y 32
 elevation 13051
 end
-arch mountain4
+arch desertcliff3
 x 28
 y 33
 elevation 13083
 end
-arch mountain4
+arch desertcliff3
 x 28
 y 34
 elevation 12963
 end
-arch mountain4
+arch steppe
 x 28
 y 35
 elevation 12775
 end
-arch mountain4
+arch steppe
 x 28
 y 36
 elevation 13352
 end
-arch mountain4
+arch desertcliff4
 x 28
 y 37
 elevation 14822
 end
-arch mountain5
+arch desertcliff4
 x 28
 y 38
 elevation 16443
 end
-arch mountain5
+arch large_stones2
 x 28
 y 39
 elevation 16330
 end
-arch mountain4
+arch large_stones2
 x 28
 y 40
 elevation 15223
 end
-arch mountain4
+arch medium_stones
 x 28
 y 41
 elevation 14925
 end
-arch mountain4
+arch steppe
 x 28
 y 42
 elevation 14114
 end
-arch mountain4
+arch steppe
 x 28
 y 43
 elevation 12385
 end
-arch mountain2
+arch steppe
 x 28
 y 44
 elevation 10099
 end
-arch mountain
+arch steppe
 x 28
 y 45
 elevation 7662
@@ -7240,47 +7288,47 @@ x 29
 y 18
 elevation 16118
 end
-arch mountain4
+arch desertcliff4
 x 29
 y 19
 elevation 13685
 end
-arch mountain
+arch desertcliff4
 x 29
 y 20
 elevation 8587
 end
-arch mountain2
+arch steppelight
 x 29
 y 21
 elevation 10023
 end
-arch mountain2
+arch steppelight
 x 29
 y 22
 elevation 10544
 end
-arch mountain2
+arch steppelight
 x 29
 y 23
 elevation 10362
 end
-arch mountain
+arch pstone_2
 x 29
 y 24
 elevation 7252
 end
-arch mountain2
+arch pstone_2
 x 29
 y 25
 elevation 9304
 end
-arch mountain2
+arch pstone_2
 x 29
 y 26
 elevation 9543
 end
-arch mountain2
+arch pstone_2
 x 29
 y 27
 elevation 9949
@@ -7289,87 +7337,87 @@ arch cobblestones
 x 29
 y 28
 end
-arch mountain2
+arch steppelight
 x 29
 y 29
 elevation 11371
 end
-arch mountain4
+arch steppelight
 x 29
 y 30
 elevation 12234
 end
-arch mountain4
+arch steppelight
 x 29
 y 31
 elevation 13056
 end
-arch mountain4
+arch steppelight
 x 29
 y 32
 elevation 13492
 end
-arch mountain4
+arch desertcliff3
 x 29
 y 33
 elevation 12770
 end
-arch mountain4
+arch desertcliff3
 x 29
 y 34
 elevation 13775
 end
-arch mountain4
+arch steppe
 x 29
 y 35
 elevation 14053
 end
-arch mountain4
+arch steppe
 x 29
 y 36
 elevation 13300
 end
-arch mountain4
+arch desertcliff4
 x 29
 y 37
 elevation 15957
 end
-arch mountain5
+arch desertcliff4
 x 29
 y 38
 elevation 17066
 end
-arch mountain5
+arch steppe
 x 29
 y 39
 elevation 16904
 end
-arch mountain5
+arch medium_stones
 x 29
 y 40
 elevation 16178
 end
-arch mountain4
+arch steppe
 x 29
 y 41
 elevation 15651
 end
-arch mountain4
+arch steppe
 x 29
 y 42
 elevation 14940
 end
-arch mountain4
+arch steppe
 x 29
 y 43
 elevation 13289
 end
-arch mountain2
+arch steppe
 x 29
 y 44
 elevation 10758
 end
-arch mountain
+arch steppe
 x 29
 y 45
 elevation 7674
@@ -7488,47 +7536,47 @@ x 30
 y 18
 elevation 17694
 end
-arch mountain4
+arch desertcliff4
 x 30
 y 19
 elevation 15335
 end
-arch mountain4
+arch desertcliff4
 x 30
 y 20
 elevation 12471
 end
-arch mountain2
+arch steppelight
 x 30
 y 21
 elevation 10075
 end
-arch mountain2
+arch steppelight
 x 30
 y 22
 elevation 10354
 end
-arch mountain2
+arch steppelight
 x 30
 y 23
 elevation 9765
 end
-arch mountain
+arch pstone_3
 x 30
 y 24
 elevation 8893
 end
-arch mountain
+arch pstone_3
 x 30
 y 25
 elevation 8720
 end
-arch mountain2
+arch pstone_2
 x 30
 y 26
 elevation 9450
 end
-arch mountain2
+arch pstone_3
 x 30
 y 27
 elevation 10288
@@ -7537,87 +7585,87 @@ arch cobblestones
 x 30
 y 28
 end
-arch mountain2
+arch steppelight
 x 30
 y 29
 elevation 10520
 end
-arch mountain2
+arch steppelight
 x 30
 y 30
 elevation 11152
 end
-arch mountain4
+arch steppelight
 x 30
 y 31
 elevation 12374
 end
-arch mountain4
+arch desertcliff3
 x 30
 y 32
 elevation 13088
 end
-arch mountain4
+arch desertcliff3
 x 30
 y 33
 elevation 13266
 end
-arch mountain4
+arch desertcliff3
 x 30
 y 34
 elevation 13515
 end
-arch mountain4
+arch steppe
 x 30
 y 35
 elevation 14023
 end
-arch mountain4
+arch steppe
 x 30
 y 36
 elevation 14753
 end
-arch mountain4
+arch desertcliff4
 x 30
 y 37
 elevation 15631
 end
-arch mountain5
+arch desertcliff4
 x 30
 y 38
 elevation 16215
 end
-arch mountain4
+arch steppe
 x 30
 y 39
 elevation 15484
 end
-arch mountain4
+arch steppe
 x 30
 y 40
 elevation 14748
 end
-arch mountain4
+arch steppe
 x 30
 y 41
 elevation 14443
 end
-arch mountain4
+arch medium_stones
 x 30
 y 42
 elevation 14269
 end
-arch mountain4
+arch medium_stones
 x 30
 y 43
 elevation 12893
 end
-arch mountain2
+arch steppe
 x 30
 y 44
 elevation 10660
 end
-arch mountain
+arch steppe
 x 30
 y 45
 elevation 7929
@@ -7627,7 +7675,7 @@ x 30
 y 46
 elevation 4463
 end
-arch mountain
+arch steppe
 x 30
 y 47
 elevation 5159
@@ -7736,42 +7784,46 @@ x 31
 y 18
 elevation 17954
 end
-arch mountain4
+arch desertcliff4
 x 31
 y 19
 elevation 15879
 end
-arch mountain4
+arch desertcliff4
 x 31
 y 20
 elevation 12279
 end
-arch mountain2
+arch steppelight
 x 31
 y 21
 elevation 10139
 end
-arch mountain2
+arch steppelight
 x 31
 y 22
 elevation 10197
 end
-arch mountain
+arch steppelight
 x 31
 y 23
 elevation 8191
 end
-arch mountain
+arch pstone_3
 x 31
 y 24
 elevation 8084
 end
-arch mountain
+arch pstone_3
 x 31
 y 25
 elevation 6791
 end
-arch mountain
+arch shrub
+x 31
+y 25
+end
+arch pstone_2
 x 31
 y 26
 elevation 8770
@@ -7784,102 +7836,102 @@ arch cobblestones
 x 31
 y 28
 end
-arch mountain
+arch steppelight
 x 31
 y 29
 elevation 6413
 end
-arch mountain
+arch steppelight
 x 31
 y 30
 elevation 8066
 end
-arch mountain2
+arch steppelight
 x 31
 y 31
 elevation 10368
 end
-arch mountain2
+arch steppelight
 x 31
 y 32
 elevation 11627
 end
-arch mountain2
+arch steppelight
 x 31
 y 33
 elevation 11944
 end
-arch mountain2
+arch steppelight
 x 31
 y 34
 elevation 11396
 end
-arch mountain4
+arch steppe
 x 31
 y 35
 elevation 12694
 end
-arch mountain4
+arch steppe
 x 31
 y 36
 elevation 13822
 end
-arch mountain4
+arch desertcliff4
 x 31
 y 37
 elevation 14549
 end
-arch mountain4
+arch desertcliff4
 x 31
 y 38
 elevation 14297
 end
-arch mountain4
+arch steppe
 x 31
 y 39
 elevation 12952
 end
-arch mountain2
+arch steppe
 x 31
 y 40
 elevation 9567
 end
-arch mountain4
+arch steppe
 x 31
 y 41
 elevation 12069
 end
-arch mountain4
+arch medium_stones
 x 31
 y 42
 elevation 12501
 end
-arch mountain2
+arch large_stones2
 x 31
 y 43
 elevation 11650
 end
-arch mountain2
+arch medium_stones
 x 31
 y 44
 elevation 9792
 end
-arch mountain
+arch steppe
 x 31
 y 45
 elevation 7713
 end
-arch mountain
+arch steppe
 x 31
 y 46
 elevation 6299
 end
-arch mountain
+arch steppe
 x 31
 y 47
 elevation 5772
 end
-arch mountain
+arch steppe
 x 31
 y 48
 elevation 5553
@@ -7983,42 +8035,46 @@ x 32
 y 18
 elevation 17034
 end
-arch mountain4
+arch desertcliff4
 x 32
 y 19
 elevation 14954
 end
-arch mountain4
+arch desertcliff4
 x 32
 y 20
 elevation 13004
 end
-arch mountain2
+arch steppelight
 x 32
 y 21
 elevation 11643
 end
-arch mountain2
+arch steppelight
 x 32
 y 22
 elevation 10456
 end
-arch mountain
+arch shrub
+x 32
+y 22
+end
+arch steppelight
 x 32
 y 23
 elevation 8255
 end
-arch mountain
+arch steppelight
 x 32
 y 24
 elevation 6867
 end
-arch mountain
+arch pstone_2
 x 32
 y 25
 elevation 5614
 end
-arch mountain
+arch pstone_2
 x 32
 y 26
 elevation 8701
@@ -8027,112 +8083,112 @@ arch cobblestones
 x 32
 y 27
 end
-arch mountain2
+arch steppelight
 x 32
 y 28
 elevation 9013
 end
-arch mountain
+arch steppelight
 x 32
 y 29
 elevation 7818
 end
-arch mountain
+arch steppelight
 x 32
 y 30
 elevation 5697
 end
-arch mountain
+arch steppelight
 x 32
 y 31
 elevation 7663
 end
-arch mountain2
+arch steppelight
 x 32
 y 32
 elevation 10167
 end
-arch mountain2
+arch steppelight
 x 32
 y 33
 elevation 10026
 end
-arch mountain
+arch steppelight
 x 32
 y 34
 elevation 8912
 end
-arch mountain
+arch steppe
 x 32
 y 35
 elevation 8853
 end
-arch mountain4
+arch steppe
 x 32
 y 36
 elevation 12439
 end
-arch mountain4
+arch desertcliff4
 x 32
 y 37
 elevation 13369
 end
-arch mountain2
+arch desertcliff4
 x 32
 y 38
 elevation 11807
 end
-arch mountain2
+arch steppe
 x 32
 y 39
 elevation 10348
 end
-arch mountain
+arch steppe
 x 32
 y 40
 elevation 7871
 end
-arch mountain2
+arch medium_stones
 x 32
 y 41
 elevation 9800
 end
-arch mountain2
+arch medium_stones
 x 32
 y 42
 elevation 10774
 end
-arch mountain2
+arch large_stones2
 x 32
 y 43
 elevation 10512
 end
-arch mountain2
+arch medium_stones
 x 32
 y 44
 elevation 9054
 end
-arch mountain
+arch steppe
 x 32
 y 45
 elevation 5547
 end
-arch mountain
+arch steppe
 x 32
 y 46
 elevation 6184
 end
-arch mountain
+arch steppe
 x 32
 y 47
 elevation 6427
 end
-arch mountain
+arch steppe
 x 32
 y 48
 elevation 6044
 end
-arch mountain
+arch steppe
 x 32
 y 49
 elevation 5325
@@ -8231,42 +8287,42 @@ x 33
 y 18
 elevation 16474
 end
-arch mountain4
+arch desertcliff4
 x 33
 y 19
 elevation 12861
 end
-arch mountain2
+arch desertcliff4
 x 33
 y 20
 elevation 11608
 end
-arch mountain4
+arch steppelight
 x 33
 y 21
 elevation 12894
 end
-arch mountain2
+arch steppelight
 x 33
 y 22
 elevation 11770
 end
-arch mountain2
+arch steppelight
 x 33
 y 23
 elevation 9095
 end
-arch mountain
+arch steppelight
 x 33
 y 24
 elevation 8032
 end
-arch mountain
+arch steppelight
 x 33
 y 25
 elevation 8916
 end
-arch mountain
+arch steppelight
 x 33
 y 26
 elevation 8956
@@ -8275,112 +8331,112 @@ arch cobblestones
 x 33
 y 27
 end
-arch mountain
+arch steppelight
 x 33
 y 28
 elevation 8209
 end
-arch mountain
+arch steppelight
 x 33
 y 29
 elevation 7909
 end
-arch mountain
+arch steppelight
 x 33
 y 30
 elevation 8021
 end
-arch mountain
+arch steppelight
 x 33
 y 31
 elevation 7748
 end
-arch mountain2
+arch steppelight
 x 33
 y 32
 elevation 9707
 end
-arch mountain2
+arch desertcliff3
 x 33
 y 33
 elevation 10177
 end
-arch mountain2
+arch desertcliff3
 x 33
 y 34
 elevation 9891
 end
-arch mountain2
+arch steppe
 x 33
 y 35
 elevation 9305
 end
-arch mountain2
+arch steppe
 x 33
 y 36
 elevation 11112
 end
-arch mountain4
+arch desertcliff4
 x 33
 y 37
 elevation 13006
 end
-arch mountain4
+arch desertcliff4
 x 33
 y 38
 elevation 12733
 end
-arch mountain2
+arch steppe
 x 33
 y 39
 elevation 9990
 end
-arch mountain
+arch steppe
 x 33
 y 40
 elevation 6473
 end
-arch mountain
+arch desertcliff4
 x 33
 y 41
 elevation 7467
 end
-arch mountain2
+arch desertcliff4
 x 33
 y 42
 elevation 10350
 end
-arch mountain2
+arch large_stones2
 x 33
 y 43
 elevation 10144
 end
-arch mountain
+arch medium_stones
 x 33
 y 44
 elevation 8856
 end
-arch mountain
+arch steppe
 x 33
 y 45
 elevation 7550
 end
-arch mountain
+arch steppe
 x 33
 y 46
 elevation 6827
 end
-arch mountain
+arch steppe
 x 33
 y 47
 elevation 6714
 end
-arch mountain
+arch steppe
 x 33
 y 48
 elevation 6413
 end
-arch mountain
+arch steppe
 x 33
 y 49
 elevation 5646
@@ -8484,37 +8540,37 @@ x 34
 y 19
 elevation 16037
 end
-arch mountain4
+arch desertcliff4
 x 34
 y 20
 elevation 15006
 end
-arch mountain4
+arch steppelight
 x 34
 y 21
 elevation 14281
 end
-arch mountain4
+arch steppelight
 x 34
 y 22
 elevation 13628
 end
-arch mountain4
+arch steppelight
 x 34
 y 23
 elevation 12390
 end
-arch mountain2
+arch steppelight
 x 34
 y 24
 elevation 11344
 end
-arch mountain2
+arch steppelight
 x 34
 y 25
 elevation 10785
 end
-arch mountain2
+arch steppelight
 x 34
 y 26
 elevation 9717
@@ -8523,112 +8579,116 @@ arch cobblestones
 x 34
 y 27
 end
-arch mountain
+arch steppelight
 x 34
 y 28
 elevation 5637
 end
-arch mountain
+arch steppelight
 x 34
 y 29
 elevation 7763
 end
-arch mountain
+arch steppelight
 x 34
 y 30
 elevation 8631
 end
-arch mountain2
+arch shrub
+x 34
+y 30
+end
+arch steppelight
 x 34
 y 31
 elevation 9569
 end
-arch mountain2
+arch steppelight
 x 34
 y 32
 elevation 10186
 end
-arch mountain2
+arch desertcliff3
 x 34
 y 33
 elevation 10197
 end
-arch mountain2
+arch desertcliff3
 x 34
 y 34
 elevation 9760
 end
-arch mountain2
+arch steppe
 x 34
 y 35
 elevation 10358
 end
-arch mountain4
+arch steppe
 x 34
 y 36
 elevation 12023
 end
-arch mountain4
+arch desertcliff4
 x 34
 y 37
 elevation 13514
 end
-arch mountain4
+arch desertcliff4
 x 34
 y 38
 elevation 13781
 end
-arch mountain4
+arch steppe
 x 34
 y 39
 elevation 12805
 end
-arch mountain2
+arch steppe
 x 34
 y 40
 elevation 11523
 end
-arch mountain2
+arch desertcliff4
 x 34
 y 41
 elevation 10931
 end
-arch mountain2
+arch desertcliff4
 x 34
 y 42
 elevation 10867
 end
-arch mountain2
+arch large_stones2
 x 34
 y 43
 elevation 10458
 end
-arch mountain
+arch medium_stones
 x 34
 y 44
 elevation 8407
 end
-arch mountain
+arch steppe
 x 34
 y 45
 elevation 7790
 end
-arch mountain
+arch steppe
 x 34
 y 46
 elevation 7072
 end
-arch mountain
+arch steppe
 x 34
 y 47
 elevation 6374
 end
-arch mountain
+arch steppe
 x 34
 y 48
 elevation 6829
 end
-arch mountain
+arch steppe
 x 34
 y 49
 elevation 6288
@@ -8742,27 +8802,27 @@ x 35
 y 21
 elevation 16457
 end
-arch mountain4
+arch steppelight
 x 35
 y 22
 elevation 15731
 end
-arch mountain4
+arch steppelight
 x 35
 y 23
 elevation 14530
 end
-arch mountain4
+arch steppelight
 x 35
 y 24
 elevation 13993
 end
-arch mountain2
+arch steppelight
 x 35
 y 25
 elevation 11574
 end
-arch mountain2
+arch steppelight
 x 35
 y 26
 elevation 10925
@@ -8771,112 +8831,112 @@ arch cobblestones
 x 35
 y 27
 end
-arch mountain
+arch steppelight
 x 35
 y 28
 elevation 6391
 end
-arch mountain
+arch steppelight
 x 35
 y 29
 elevation 6586
 end
-arch mountain
+arch steppelight
 x 35
 y 30
 elevation 8713
 end
-arch mountain2
+arch steppelight
 x 35
 y 31
 elevation 9925
 end
-arch mountain2
+arch steppelight
 x 35
 y 32
 elevation 10371
 end
-arch mountain2
+arch desertcliff3
 x 35
 y 33
 elevation 9683
 end
-arch mountain
+arch desertcliff3
 x 35
 y 34
 elevation 7472
 end
-arch mountain2
+arch steppe
 x 35
 y 35
 elevation 9722
 end
-arch mountain2
+arch steppe
 x 35
 y 36
 elevation 11999
 end
-arch mountain4
+arch desertcliff4
 x 35
 y 37
 elevation 14000
 end
-arch mountain4
+arch desertcliff4
 x 35
 y 38
 elevation 14802
 end
-arch mountain4
+arch steppe
 x 35
 y 39
 elevation 14683
 end
-arch mountain4
+arch steppe
 x 35
 y 40
 elevation 13830
 end
-arch mountain4
+arch desertcliff4
 x 35
 y 41
 elevation 12726
 end
-arch mountain2
+arch desertcliff4
 x 35
 y 42
 elevation 11796
 end
-arch mountain2
+arch medium_stones
 x 35
 y 43
 elevation 10790
 end
-arch mountain2
+arch medium_stones
 x 35
 y 44
 elevation 9259
 end
-arch mountain
+arch steppe
 x 35
 y 45
 elevation 6421
 end
-arch mountain
+arch steppe
 x 35
 y 46
 elevation 6802
 end
-arch mountain
+arch steppe
 x 35
 y 47
 elevation 6972
 end
-arch mountain
+arch steppe
 x 35
 y 48
 elevation 7179
 end
-arch mountain
+arch steppe
 x 35
 y 49
 elevation 6831
@@ -9000,17 +9060,17 @@ x 36
 y 23
 elevation 17060
 end
-arch mountain4
+arch steppelight
 x 36
 y 24
 elevation 15820
 end
-arch mountain4
+arch steppelight
 x 36
 y 25
 elevation 14213
 end
-arch mountain2
+arch steppelight
 x 36
 y 26
 elevation 11702
@@ -9019,112 +9079,112 @@ arch cobblestones
 x 36
 y 27
 end
-arch mountain
+arch steppelight
 x 36
 y 28
 elevation 8108
 end
-arch mountain
+arch steppelight
 x 36
 y 29
 elevation 6988
 end
-arch mountain
+arch steppelight
 x 36
 y 30
 elevation 8496
 end
-arch mountain2
+arch steppelight
 x 36
 y 31
 elevation 9552
 end
-arch mountain2
+arch steppelight
 x 36
 y 32
 elevation 9869
 end
-arch mountain2
+arch desertcliff3
 x 36
 y 33
 elevation 9039
 end
-arch mountain
+arch desertcliff3
 x 36
 y 34
 elevation 6730
 end
-arch mountain
+arch steppe
 x 36
 y 35
 elevation 7145
 end
-arch mountain2
+arch steppe
 x 36
 y 36
 elevation 11421
 end
-arch mountain4
+arch desertcliff4
 x 36
 y 37
 elevation 13599
 end
-arch mountain4
+arch desertcliff4
 x 36
 y 38
 elevation 14891
 end
-arch mountain4
+arch steppe
 x 36
 y 39
 elevation 15114
 end
-arch mountain4
+arch steppe
 x 36
 y 40
 elevation 14382
 end
-arch mountain4
+arch desertcliff4
 x 36
 y 41
 elevation 13210
 end
-arch mountain2
+arch desertcliff4
 x 36
 y 42
 elevation 11980
 end
-arch mountain2
+arch steppe
 x 36
 y 43
 elevation 10618
 end
-arch mountain2
+arch steppe
 x 36
 y 44
 elevation 9379
 end
-arch mountain
+arch steppe
 x 36
 y 45
 elevation 7755
 end
-arch mountain
+arch steppe
 x 36
 y 46
 elevation 5366
 end
-arch mountain
+arch steppe
 x 36
 y 47
 elevation 7015
 end
-arch mountain
+arch steppe
 x 36
 y 48
 elevation 6941
 end
-arch mountain
+arch steppe
 x 36
 y 49
 elevation 6578
@@ -9243,22 +9303,22 @@ x 37
 y 22
 elevation 18049
 end
-arch mountain5
+arch steppelight
 x 37
 y 23
 elevation 17690
 end
-arch mountain5
+arch steppelight
 x 37
 y 24
 elevation 16339
 end
-arch mountain2
+arch steppelight
 x 37
 y 25
 elevation 11702
 end
-arch mountain2
+arch steppelight
 x 37
 y 26
 elevation 11702
@@ -9267,107 +9327,107 @@ arch cobblestones
 x 37
 y 27
 end
-arch mountain
+arch steppelight
 x 37
 y 28
 elevation 8082
 end
-arch mountain
+arch steppelight
 x 37
 y 29
 elevation 7854
 end
-arch mountain
+arch steppelight
 x 37
 y 30
 elevation 8160
 end
-arch mountain
+arch desertcliff3
 x 37
 y 31
 elevation 8784
 end
-arch mountain2
+arch desertcliff3
 x 37
 y 32
 elevation 9048
 end
-arch mountain
+arch desertcliff3
 x 37
 y 33
 elevation 8997
 end
-arch mountain
+arch desertcliff3
 x 37
 y 34
 elevation 8329
 end
-arch mountain
+arch steppe
 x 37
 y 35
 elevation 8565
 end
-arch mountain2
+arch steppe
 x 37
 y 36
 elevation 9909
 end
-arch mountain2
+arch desertcliff4
 x 37
 y 37
 elevation 11894
 end
-arch mountain4
+arch desertcliff4
 x 37
 y 38
 elevation 13659
 end
-arch mountain4
+arch steppe
 x 37
 y 39
 elevation 14524
 end
-arch mountain4
+arch steppe
 x 37
 y 40
 elevation 14013
 end
-arch mountain2
+arch desertcliff4
 x 37
 y 41
 elevation 11958
 end
-arch mountain2
+arch desertcliff4
 x 37
 y 42
 elevation 11913
 end
-arch mountain2
+arch steppe
 x 37
 y 43
 elevation 10873
 end
-arch mountain2
+arch steppe
 x 37
 y 44
 elevation 9240
 end
-arch mountain
+arch steppe
 x 37
 y 45
 elevation 7712
 end
-arch mountain
+arch steppe
 x 37
 y 46
 elevation 6798
 end
-arch mountain
+arch steppe
 x 37
 y 47
 elevation 6569
 end
-arch mountain
+arch steppe
 x 37
 y 48
 elevation 6006
@@ -9491,17 +9551,21 @@ x 38
 y 22
 elevation 17095
 end
-arch mountain5
+arch steppelight
 x 38
 y 23
 elevation 16941
 end
-arch mountain4
+arch steppelight
 x 38
 y 24
 elevation 14778
 end
-arch mountain2
+arch shrub
+x 38
+y 24
+end
+arch steppelight
 x 38
 y 25
 elevation 11702
@@ -9514,107 +9578,107 @@ arch cobblestones
 x 38
 y 27
 end
-arch mountain
+arch steppelight
 x 38
 y 28
 elevation 6368
 end
-arch mountain
+arch steppelight
 x 38
 y 29
 elevation 7504
 end
-arch mountain
+arch desertcliff3
 x 38
 y 30
 elevation 7957
 end
-arch mountain
+arch desertcliff3
 x 38
 y 31
 elevation 6834
 end
-arch mountain
+arch steppelight
 x 38
 y 32
 elevation 8821
 end
-arch mountain2
+arch desertcliff3
 x 38
 y 33
 elevation 9038
 end
-arch mountain
+arch steppe
 x 38
 y 34
 elevation 8363
 end
-arch mountain
+arch steppe
 x 38
 y 35
 elevation 6825
 end
-arch mountain
+arch steppe
 x 38
 y 36
 elevation 7474
 end
-arch mountain
+arch desertcliff4
 x 38
 y 37
 elevation 8859
 end
-arch mountain2
+arch desertcliff4
 x 38
 y 38
 elevation 11529
 end
-arch mountain4
+arch steppe
 x 38
 y 39
 elevation 12766
 end
-arch mountain4
+arch steppe
 x 38
 y 40
 elevation 12940
 end
-arch mountain4
+arch desertcliff4
 x 38
 y 41
 elevation 12200
 end
-arch mountain2
+arch desertcliff4
 x 38
 y 42
 elevation 11466
 end
-arch mountain2
+arch steppe
 x 38
 y 43
 elevation 10465
 end
-arch mountain
+arch steppe
 x 38
 y 44
 elevation 8852
 end
-arch mountain
+arch steppe
 x 38
 y 45
 elevation 5980
 end
-arch mountain
+arch steppe
 x 38
 y 46
 elevation 6656
 end
-arch mountain
+arch steppe
 x 38
 y 47
 elevation 5490
 end
-arch mountain
+arch steppe
 x 38
 y 48
 elevation 5465
@@ -9738,17 +9802,17 @@ x 39
 y 22
 elevation 16053
 end
-arch mountain4
+arch steppelight
 x 39
 y 23
 elevation 15833
 end
-arch mountain4
+arch steppelight
 x 39
 y 24
 elevation 12443
 end
-arch mountain
+arch steppelight
 x 39
 y 25
 elevation 7194
@@ -9767,107 +9831,107 @@ x 39
 y 28
 elevation 4689
 end
-arch mountain
+arch desertcliff3
 x 39
 y 29
 elevation 7244
 end
-arch mountain
+arch desertcliff3
 x 39
 y 30
 elevation 7973
 end
-arch mountain
+arch steppelight
 x 39
 y 31
 elevation 8117
 end
-arch mountain
+arch steppelight
 x 39
 y 32
 elevation 8346
 end
-arch mountain
+arch steppelight
 x 39
 y 33
 elevation 8762
 end
-arch mountain
+arch steppelight
 x 39
 y 34
 elevation 8419
 end
-arch mountain
+arch steppe
 x 39
 y 35
 elevation 5811
 end
-arch mountain
+arch steppe
 x 39
 y 36
 elevation 6727
 end
-arch mountain
+arch desertcliff4
 x 39
 y 37
 elevation 7977
 end
-arch mountain
+arch desertcliff4
 x 39
 y 38
 elevation 7927
 end
-arch mountain2
+arch steppe
 x 39
 y 39
 elevation 10432
 end
-arch mountain2
+arch steppe
 x 39
 y 40
 elevation 11358
 end
-arch mountain2
+arch desertcliff4
 x 39
 y 41
 elevation 11062
 end
-arch mountain2
+arch desertcliff4
 x 39
 y 42
 elevation 10331
 end
-arch mountain2
+arch steppe
 x 39
 y 43
 elevation 9206
 end
-arch mountain
+arch steppe
 x 39
 y 44
 elevation 7724
 end
-arch mountain
+arch steppe
 x 39
 y 45
 elevation 6778
 end
-arch mountain
+arch steppe
 x 39
 y 46
 elevation 6115
 end
-arch mountain
+arch steppe
 x 39
 y 47
 elevation 6059
 end
-arch mountain
+arch steppe
 x 39
 y 48
 elevation 5823
 end
-arch mountain
+arch steppe
 x 39
 y 49
 elevation 6048
@@ -9991,12 +10055,12 @@ x 40
 y 23
 elevation 15048
 end
-arch mountain2
+arch steppelight
 x 40
 y 24
 elevation 11741
 end
-arch mountain
+arch steppelight
 x 40
 y 25
 elevation 6638
@@ -10010,97 +10074,97 @@ x 40
 y 27
 elevation 3816
 end
-arch mountain
+arch steppelight
 x 40
 y 28
 elevation 5868
 end
-arch mountain
+arch steppelight
 x 40
 y 29
 elevation 7373
 end
-arch mountain
+arch steppelight
 x 40
 y 30
 elevation 8013
 end
-arch mountain
+arch steppelight
 x 40
 y 31
 elevation 8007
 end
-arch mountain
+arch steppelight
 x 40
 y 32
 elevation 6958
 end
-arch mountain
+arch steppelight
 x 40
 y 33
 elevation 8774
 end
-arch mountain
+arch steppelight
 x 40
 y 34
 elevation 8580
 end
-arch mountain
+arch steppe
 x 40
 y 35
 elevation 7785
 end
-arch mountain
+arch steppe
 x 40
 y 36
 elevation 7143
 end
-arch mountain
+arch desertcliff4
 x 40
 y 37
 elevation 7010
 end
-arch mountain
+arch desertcliff4
 x 40
 y 38
 elevation 5805
 end
-arch mountain
+arch steppe
 x 40
 y 39
 elevation 8748
 end
-arch mountain2
+arch steppe
 x 40
 y 40
 elevation 9592
 end
-arch mountain
+arch desertcliff4
 x 40
 y 41
 elevation 8971
 end
-arch mountain
+arch desertcliff4
 x 40
 y 42
 elevation 8004
 end
-arch mountain
+arch steppe
 x 40
 y 43
 elevation 7218
 end
-arch mountain
+arch steppe
 x 40
 y 44
 elevation 5839
 end
-arch mountain
+arch steppe
 x 40
 y 45
 elevation 5470
 end
-arch mountain
+arch steppe
 x 40
 y 46
 elevation 6398
@@ -10110,12 +10174,12 @@ x 40
 y 47
 elevation 4749
 end
-arch mountain
+arch steppe
 x 40
 y 48
 elevation 6446
 end
-arch mountain
+arch steppe
 x 40
 y 49
 elevation 6790
@@ -10244,7 +10308,7 @@ x 41
 y 24
 elevation 10620
 end
-arch mountain
+arch steppelight
 x 41
 y 25
 elevation 6744
@@ -10253,82 +10317,82 @@ arch cobblestones
 x 41
 y 26
 end
-arch mountain
+arch steppelight
 x 41
 y 27
 elevation 6185
 end
-arch mountain
+arch steppelight
 x 41
 y 28
 elevation 6897
 end
-arch mountain
+arch steppelight
 x 41
 y 29
 elevation 7827
 end
-arch mountain
+arch steppelight
 x 41
 y 30
 elevation 7960
 end
-arch mountain
+arch steppelight
 x 41
 y 31
 elevation 6846
 end
-arch mountain
+arch steppelight
 x 41
 y 32
 elevation 8369
 end
-arch mountain
+arch steppelight
 x 41
 y 33
 elevation 8886
 end
-arch mountain
+arch steppelight
 x 41
 y 34
 elevation 8794
 end
-arch mountain
+arch steppe
 x 41
 y 35
 elevation 7532
 end
-arch mountain
+arch steppe
 x 41
 y 36
 elevation 6780
 end
-arch mountain
+arch steppe
 x 41
 y 37
 elevation 5888
 end
-arch mountain
+arch steppe
 x 41
 y 38
 elevation 6797
 end
-arch mountain
+arch steppe
 x 41
 y 39
 elevation 7877
 end
-arch mountain
+arch steppe
 x 41
 y 40
 elevation 8227
 end
-arch mountain
+arch desertcliff4
 x 41
 y 41
 elevation 7149
 end
-arch hills
+arch desertcliff4
 x 41
 y 42
 elevation 3250
@@ -10338,32 +10402,32 @@ x 41
 y 43
 elevation 4308
 end
-arch mountain
+arch steppe
 x 41
 y 44
 elevation 6859
 end
-arch mountain
+arch steppe
 x 41
 y 45
 elevation 7482
 end
-arch mountain
+arch steppe
 x 41
 y 46
 elevation 7092
 end
-arch mountain
+arch steppe
 x 41
 y 47
 elevation 6554
 end
-arch mountain
+arch steppe
 x 41
 y 48
 elevation 6295
 end
-arch mountain
+arch steppe
 x 41
 y 49
 elevation 6494
@@ -10500,107 +10564,107 @@ arch cobblestones
 x 42
 y 26
 end
-arch mountain
+arch steppelight
 x 42
 y 27
 elevation 6291
 end
-arch mountain
+arch desertcliff3
 x 42
 y 28
 elevation 7979
 end
-arch mountain
+arch desertcliff3
 x 42
 y 29
 elevation 8412
 end
-arch mountain
+arch desertcliff3
 x 42
 y 30
 elevation 8079
 end
-arch mountain
+arch desertcliff3
 x 42
 y 31
 elevation 8142
 end
-arch mountain
+arch desertcliff3
 x 42
 y 32
 elevation 8584
 end
-arch mountain2
+arch desertcliff3
 x 42
 y 33
 elevation 9165
 end
-arch mountain
+arch steppelight
 x 42
 y 34
 elevation 8951
 end
-arch mountain
+arch desertcliff3
 x 42
 y 35
 elevation 7832
 end
-arch hills
+arch desertcliff3
 x 42
 y 36
 elevation 4716
 end
-arch mountain
+arch steppe
 x 42
 y 37
 elevation 6238
 end
-arch mountain
+arch steppe
 x 42
 y 38
 elevation 6591
 end
-arch mountain
+arch steppe
 x 42
 y 39
 elevation 7121
 end
-arch mountain
+arch steppe
 x 42
 y 40
 elevation 7481
 end
-arch mountain
+arch desertcliff4
 x 42
 y 41
 elevation 6296
 end
-arch hills
+arch desertcliff4
 x 42
 y 42
 elevation 3143
 end
-arch mountain
+arch steppe
 x 42
 y 43
 elevation 6114
 end
-arch mountain
+arch steppe
 x 42
 y 44
 elevation 7856
 end
-arch mountain
+arch steppe
 x 42
 y 45
 elevation 8590
 end
-arch mountain
+arch steppe
 x 42
 y 46
 elevation 8209
 end
-arch mountain
+arch steppe
 x 42
 y 47
 elevation 6717
@@ -10610,7 +10674,7 @@ x 42
 y 48
 elevation 4999
 end
-arch mountain
+arch steppe
 x 42
 y 49
 elevation 6074
@@ -10743,62 +10807,62 @@ arch cobblestones
 x 43
 y 25
 end
-arch mountain
+arch steppelight
 x 43
 y 26
 elevation 6308
 end
-arch mountain
+arch steppelight
 x 43
 y 27
 elevation 7877
 end
-arch mountain
+arch steppelight
 x 43
 y 28
 elevation 8761
 end
-arch mountain
+arch steppelight
 x 43
 y 29
 elevation 8992
 end
-arch mountain
+arch steppelight
 x 43
 y 30
 elevation 8341
 end
-arch mountain
+arch steppelight
 x 43
 y 31
 elevation 6618
 end
-arch mountain2
+arch steppelight
 x 43
 y 32
 elevation 9061
 end
-arch mountain2
+arch steppelight
 x 43
 y 33
 elevation 9465
 end
-arch mountain2
+arch steppelight
 x 43
 y 34
 elevation 9454
 end
-arch mountain
+arch steppelight
 x 43
 y 35
 elevation 8786
 end
-arch mountain
+arch desertcliff4
 x 43
 y 36
 elevation 7939
 end
-arch mountain
+arch steppe
 x 43
 y 37
 elevation 6765
@@ -10808,57 +10872,57 @@ x 43
 y 38
 elevation 3301
 end
-arch mountain
+arch steppe
 x 43
 y 39
 elevation 6481
 end
-arch mountain
+arch steppe
 x 43
 y 40
 elevation 6919
 end
-arch mountain
+arch desertcliff4
 x 43
 y 41
 elevation 6283
 end
-arch mountain
+arch desertcliff4
 x 43
 y 42
 elevation 5660
 end
-arch mountain
+arch steppe
 x 43
 y 43
 elevation 6477
 end
-arch mountain
+arch steppe
 x 43
 y 44
 elevation 7879
 end
-arch mountain
+arch steppe
 x 43
 y 45
 elevation 8637
 end
-arch mountain
+arch steppe
 x 43
 y 46
 elevation 8693
 end
-arch mountain
+arch steppe
 x 43
 y 47
 elevation 8041
 end
-arch mountain
+arch steppe
 x 43
 y 48
 elevation 7336
 end
-arch mountain
+arch steppe
 x 43
 y 49
 elevation 6762
@@ -10991,122 +11055,122 @@ arch cobblestones
 x 44
 y 25
 end
-arch mountain
+arch steppelight
 x 44
 y 26
 elevation 8271
 end
-arch mountain
+arch steppelight
 x 44
 y 27
 elevation 8816
 end
-arch mountain2
+arch steppelight
 x 44
 y 28
 elevation 9002
 end
-arch mountain
+arch steppelight
 x 44
 y 29
 elevation 8878
 end
-arch mountain
+arch steppelight
 x 44
 y 30
 elevation 8597
 end
-arch mountain
+arch steppelight
 x 44
 y 31
 elevation 8923
 end
-arch mountain2
+arch steppelight
 x 44
 y 32
 elevation 9205
 end
-arch mountain2
+arch steppelight
 x 44
 y 33
 elevation 9517
 end
-arch mountain2
+arch steppelight
 x 44
 y 34
 elevation 9384
 end
-arch mountain2
+arch steppelight
 x 44
 y 35
 elevation 9257
 end
-arch mountain
+arch desertcliff4
 x 44
 y 36
 elevation 8681
 end
-arch mountain
+arch desertcliff4
 x 44
 y 37
 elevation 7427
 end
-arch mountain
+arch desertcliff4
 x 44
 y 38
 elevation 5916
 end
-arch mountain
+arch desertcliff4
 x 44
 y 39
 elevation 5980
 end
-arch mountain
+arch desertcliff4
 x 44
 y 40
 elevation 6251
 end
-arch mountain
+arch desertcliff4
 x 44
 y 41
 elevation 6360
 end
-arch mountain
+arch desertcliff4
 x 44
 y 42
 elevation 6058
 end
-arch mountain
+arch steppe
 x 44
 y 43
 elevation 5848
 end
-arch mountain
+arch steppe
 x 44
 y 44
 elevation 5642
 end
-arch mountain
+arch steppe
 x 44
 y 45
 elevation 7747
 end
-arch mountain
+arch steppe
 x 44
 y 46
 elevation 8780
 end
-arch mountain
+arch steppe
 x 44
 y 47
 elevation 8587
 end
-arch mountain
+arch steppe
 x 44
 y 48
 elevation 7879
 end
-arch mountain
+arch steppe
 x 44
 y 49
 elevation 7134
@@ -11239,87 +11303,87 @@ arch cobblestones
 x 45
 y 25
 end
-arch mountain2
+arch steppelight
 x 45
 y 26
 elevation 9196
 end
-arch mountain2
+arch steppelight
 x 45
 y 27
 elevation 9527
 end
-arch mountain
+arch steppelight
 x 45
 y 28
 elevation 8919
 end
-arch mountain
+arch steppelight
 x 45
 y 29
 elevation 6368
 end
-arch mountain
+arch steppelight
 x 45
 y 30
 elevation 8320
 end
-arch mountain
+arch steppelight
 x 45
 y 31
 elevation 8782
 end
-arch mountain
+arch steppelight
 x 45
 y 32
 elevation 8882
 end
-arch mountain
+arch steppelight
 x 45
 y 33
 elevation 8615
 end
-arch mountain
+arch steppelight
 x 45
 y 34
 elevation 8500
 end
-arch mountain
+arch steppelight
 x 45
 y 35
 elevation 7481
 end
-arch mountain
+arch steppelight
 x 45
 y 36
 elevation 8106
 end
-arch mountain
+arch steppe
 x 45
 y 37
 elevation 7704
 end
-arch mountain
+arch desertcliff4
 x 45
 y 38
 elevation 6463
 end
-arch mountain
+arch desertcliff4
 x 45
 y 39
 elevation 5249
 end
-arch mountain
+arch desertcliff4
 x 45
 y 40
 elevation 6469
 end
-arch mountain
+arch steppe
 x 45
 y 41
 elevation 6543
 end
-arch mountain
+arch desertcliff4
 x 45
 y 42
 elevation 5904
@@ -11329,32 +11393,32 @@ x 45
 y 43
 elevation 4058
 end
-arch evergreen
+arch steppe
 x 45
 y 44
 elevation 2985
 end
-arch mountain
+arch steppe
 x 45
 y 45
 elevation 6679
 end
-arch mountain
+arch steppe
 x 45
 y 46
 elevation 8055
 end
-arch mountain
+arch steppe
 x 45
 y 47
 elevation 8138
 end
-arch mountain
+arch steppe
 x 45
 y 48
 elevation 7348
 end
-arch mountain
+arch steppe
 x 45
 y 49
 elevation 6479
@@ -11486,87 +11550,87 @@ arch cobblestones
 x 46
 y 25
 end
-arch mountain2
+arch steppelight
 x 46
 y 26
 elevation 9124
 end
-arch mountain2
+arch steppelight
 x 46
 y 27
 elevation 9316
 end
-arch mountain
+arch steppelight
 x 46
 y 28
 elevation 8368
 end
-arch mountain
+arch steppelight
 x 46
 y 29
 elevation 7226
 end
-arch mountain
+arch steppelight
 x 46
 y 30
 elevation 7156
 end
-arch mountain
+arch steppelight
 x 46
 y 31
 elevation 7395
 end
-arch mountain
+arch steppelight
 x 46
 y 32
 elevation 7368
 end
-arch mountain
+arch steppelight
 x 46
 y 33
 elevation 7252
 end
-arch mountain
+arch steppelight
 x 46
 y 34
 elevation 6828
 end
-arch mountain
+arch steppelight
 x 46
 y 35
 elevation 6279
 end
-arch mountain
+arch steppelight
 x 46
 y 36
 elevation 6045
 end
-arch mountain
+arch steppelight
 x 46
 y 37
 elevation 7392
 end
-arch mountain
+arch steppe
 x 46
 y 38
 elevation 7285
 end
-arch mountain
+arch steppe
 x 46
 y 39
 elevation 6572
 end
-arch mountain
+arch steppe
 x 46
 y 40
 elevation 6961
 end
-arch mountain
+arch steppe
 x 46
 y 41
 elevation 6740
 end
-arch mountain
+arch steppe
 x 46
 y 42
 elevation 5642
@@ -11581,27 +11645,27 @@ x 46
 y 44
 elevation 4644
 end
-arch mountain
+arch steppe
 x 46
 y 45
 elevation 5650
 end
-arch mountain
+arch steppe
 x 46
 y 46
 elevation 6681
 end
-arch mountain
+arch steppe
 x 46
 y 47
 elevation 6991
 end
-arch mountain
+arch steppe
 x 46
 y 48
 elevation 6616
 end
-arch mountain
+arch steppe
 x 46
 y 49
 elevation 5131
@@ -11729,32 +11793,32 @@ arch cobblestones
 x 47
 y 24
 end
-arch mountain
+arch steppe
 x 47
 y 25
 elevation 7779
 end
-arch mountain
+arch steppelight
 x 47
 y 26
 elevation 8401
 end
-arch mountain
+arch steppelight
 x 47
 y 27
 elevation 8136
 end
-arch mountain
+arch steppelight
 x 47
 y 28
 elevation 7215
 end
-arch mountain
+arch steppelight
 x 47
 y 29
 elevation 6060
 end
-arch mountain
+arch steppelight
 x 47
 y 30
 elevation 5293
@@ -11779,42 +11843,42 @@ x 47
 y 34
 elevation 4959
 end
-arch steppe
+arch steppelight
 x 47
 y 35
 elevation 4097
 end
-arch mountain
+arch steppelight
 x 47
 y 36
 elevation 5723
 end
-arch mountain
+arch steppelight
 x 47
 y 37
 elevation 7052
 end
-arch mountain
+arch steppe
 x 47
 y 38
 elevation 7740
 end
-arch mountain
+arch steppe
 x 47
 y 39
 elevation 7780
 end
-arch mountain
+arch steppe
 x 47
 y 40
 elevation 7505
 end
-arch mountain
+arch steppe
 x 47
 y 41
 elevation 6822
 end
-arch mountain
+arch steppe
 x 47
 y 42
 elevation 5316
@@ -11834,12 +11898,12 @@ x 47
 y 45
 elevation 4847
 end
-arch mountain
+arch steppe
 x 47
 y 46
 elevation 5639
 end
-arch mountain
+arch steppe
 x 47
 y 47
 elevation 6466
@@ -11849,7 +11913,7 @@ x 47
 y 48
 elevation 4659
 end
-arch mountain
+arch steppe
 x 47
 y 49
 elevation 6011
@@ -11977,17 +12041,17 @@ arch cobblestones
 x 48
 y 24
 end
-arch mountain
+arch steppe
 x 48
 y 25
 elevation 7584
 end
-arch mountain
+arch steppe
 x 48
 y 26
 elevation 7198
 end
-arch mountain
+arch steppe
 x 48
 y 27
 elevation 6116
@@ -12032,72 +12096,72 @@ x 48
 y 35
 elevation 4464
 end
-arch mountain
+arch steppe
 x 48
 y 36
 elevation 5581
 end
-arch mountain
+arch steppe
 x 48
 y 37
 elevation 6312
 end
-arch mountain
+arch steppe
 x 48
 y 38
 elevation 7763
 end
-arch mountain
+arch steppe
 x 48
 y 39
 elevation 8112
 end
-arch mountain
+arch steppe
 x 48
 y 40
 elevation 7654
 end
-arch mountain
+arch steppe
 x 48
 y 41
 elevation 6722
 end
-arch mountain
+arch steppe
 x 48
 y 42
 elevation 5807
 end
-arch mountain
+arch steppe
 x 48
 y 43
 elevation 6016
 end
-arch mountain
+arch steppe
 x 48
 y 44
 elevation 5844
 end
-arch mountain
+arch steppe
 x 48
 y 45
 elevation 5220
 end
-arch mountain
+arch steppe
 x 48
 y 46
 elevation 6491
 end
-arch mountain
+arch steppe
 x 48
 y 47
 elevation 6783
 end
-arch mountain
+arch steppe
 x 48
 y 48
 elevation 6656
 end
-arch mountain
+arch steppe
 x 48
 y 49
 elevation 6686
@@ -12225,22 +12289,22 @@ arch cobblestones
 x 49
 y 24
 end
-arch mountain
+arch steppe
 x 49
 y 25
 elevation 7411
 end
-arch mountain
+arch steppe
 x 49
 y 26
 elevation 5891
 end
-arch hills
+arch steppe
 x 49
 y 27
 elevation 3007
 end
-arch hills_rocky
+arch steppe
 x 49
 y 28
 elevation 1586
@@ -12280,72 +12344,72 @@ x 49
 y 35
 elevation 4098
 end
-arch mountain
+arch steppe
 x 49
 y 36
 elevation 5224
 end
-arch mountain
+arch steppe
 x 49
 y 37
 elevation 6266
 end
-arch mountain
+arch steppe
 x 49
 y 38
 elevation 7169
 end
-arch mountain
+arch steppe
 x 49
 y 39
 elevation 7634
 end
-arch mountain
+arch steppe
 x 49
 y 40
 elevation 7447
 end
-arch mountain
+arch steppe
 x 49
 y 41
 elevation 6851
 end
-arch mountain
+arch steppe
 x 49
 y 42
 elevation 7142
 end
-arch mountain
+arch steppe
 x 49
 y 43
 elevation 7297
 end
-arch mountain
+arch steppe
 x 49
 y 44
 elevation 7141
 end
-arch mountain
+arch steppe
 x 49
 y 45
 elevation 6934
 end
-arch mountain
+arch steppe
 x 49
 y 46
 elevation 7540
 end
-arch mountain
+arch steppe
 x 49
 y 47
 elevation 7604
 end
-arch mountain
+arch steppe
 x 49
 y 48
 elevation 7693
 end
-arch mountain
+arch steppe
 x 49
 y 49
 elevation 6232
