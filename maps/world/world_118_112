@@ -2,6 +2,9 @@ arch map
 name world_118_112
 width 50
 height 50
+msg
+Modified: 2019-01-19 lx
+endmsg
 outdoor 1
 tile_path_1 world_118_111
 tile_path_2 world_119_112
@@ -79,133 +82,119 @@ arch mountain2
 y 17
 elevation 10161
 end
-arch mountain2
+arch woods_2
 y 18
-elevation 9703
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_3
 y 19
-elevation 10208
+move_block all
 end
-arch mountain2
+arch brush
 y 20
-elevation 11426
 end
-arch mountain4
+arch grass
 y 21
-elevation 12131
 end
-arch mountain2
+arch grass
 y 22
-elevation 11675
 end
-arch mountain4
+arch grass
 y 23
-elevation 13994
 end
-arch mountain4
+arch grass
 y 24
-elevation 13670
 end
-arch mountain4
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+y 24
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 y 25
-elevation 13297
 end
-arch mountain4
+arch grass
 y 26
-elevation 13146
 end
-arch mountain4
+arch grass
 y 27
-elevation 14424
 end
-arch mountain4
+arch grass
 y 28
-elevation 14216
 end
-arch mountain4
+arch grass
 y 29
-elevation 12750
 end
-arch mountain2
+arch grass
 y 30
-elevation 11408
 end
-arch mountain2
+arch grass
 y 31
-elevation 10485
 end
-arch mountain2
+arch grass
 y 32
-elevation 10756
 end
-arch mountain2
+arch grass
 y 33
-elevation 11311
 end
-arch mountain2
+arch grass
 y 34
-elevation 11986
 end
-arch mountain2
+arch grass
 y 35
-elevation 11592
 end
-arch mountain2
+arch grass
 y 36
-elevation 9414
 end
-arch mountain
+arch grass
 y 37
-elevation 6885
 end
-arch mountain
+arch grass
 y 38
-elevation 5567
 end
-arch mountain
+arch grass
 y 39
-elevation 5707
 end
-arch mountain
+arch grass
 y 40
-elevation 5923
 end
-arch mountain
+arch grass
 y 41
-elevation 5658
 end
-arch mountain
+arch grass
 y 42
-elevation 5523
 end
-arch mountain
+arch brush
 y 43
-elevation 5383
 end
-arch hills
+arch grass
 y 44
-elevation 4390
 end
-arch mountain
+arch grass
 y 45
-elevation 5959
 end
-arch mountain
+arch grass
 y 46
-elevation 6772
 end
-arch mountain
+arch grass
 y 47
-elevation 6865
 end
-arch mountain
+arch grass
 y 48
-elevation 6247
 end
-arch mountain
+arch grass
 y 49
-elevation 5886
 end
 arch mountain4
 x 1
@@ -296,165 +285,138 @@ x 1
 y 17
 elevation 10152
 end
-arch mountain2
+arch woods_2
 x 1
 y 18
-elevation 10028
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_3
 x 1
 y 19
-elevation 9314
+move_block all
 end
-arch mountain
+arch brush
 x 1
 y 20
-elevation 8488
 end
-arch mountain2
+arch grass
 x 1
 y 21
-elevation 9924
 end
-arch mountain4
+arch grass
 x 1
 y 22
-elevation 12053
 end
-arch mountain4
+arch grass
 x 1
 y 23
-elevation 13308
 end
-arch mountain4
+arch grass
 x 1
 y 24
-elevation 13193
 end
-arch mountain
+arch grass
 x 1
 y 25
-elevation 7111
 end
-arch mountain4
+arch grass
 x 1
 y 26
-elevation 13892
 end
-arch mountain4
+arch grass
 x 1
 y 27
-elevation 14697
 end
-arch mountain4
+arch grass
 x 1
 y 28
-elevation 13642
 end
-arch mountain2
+arch grass
 x 1
 y 29
-elevation 11268
 end
-arch mountain
+arch grass
 x 1
 y 30
-elevation 6387
 end
-arch mountain2
+arch grass
 x 1
 y 31
-elevation 9652
 end
-arch mountain2
+arch grass
 x 1
 y 32
-elevation 11007
 end
-arch mountain2
+arch grass
 x 1
 y 33
-elevation 11789
 end
-arch mountain2
+arch grass
 x 1
 y 34
-elevation 11743
 end
-arch mountain2
+arch grass
 x 1
 y 35
-elevation 10536
 end
-arch mountain
+arch grass
 x 1
 y 36
-elevation 7945
 end
-arch hills
+arch grass
 x 1
 y 37
-elevation 4387
 end
-arch hills
+arch grass
 x 1
 y 38
-elevation 4515
 end
-arch mountain
+arch grass
 x 1
 y 39
-elevation 5388
 end
-arch mountain
+arch grass
 x 1
 y 40
-elevation 6331
 end
-arch mountain
+arch brush
 x 1
 y 41
-elevation 6929
 end
-arch mountain
+arch woods_3
 x 1
 y 42
-elevation 6831
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 43
-elevation 6033
+move_block all
 end
-arch hills
+arch brush
 x 1
 y 44
-elevation 3269
 end
-arch mountain
+arch grass
 x 1
 y 45
-elevation 5802
 end
-arch mountain
+arch grass
 x 1
 y 46
-elevation 7574
 end
-arch mountain
+arch grass
 x 1
 y 47
-elevation 7065
 end
-arch mountain
+arch grass
 x 1
 y 48
-elevation 5977
 end
-arch mountain
+arch grass
 x 1
 y 49
-elevation 8642
 end
 arch mountain4
 x 2
@@ -545,165 +507,155 @@ x 2
 y 17
 elevation 10293
 end
-arch mountain2
-x 2
-y 18
-elevation 9164
-end
-arch mountain
-x 2
-y 19
-elevation 8264
-end
-arch mountain
-x 2
-y 20
-elevation 6424
-end
-arch mountain2
-x 2
-y 21
-elevation 9292
-end
-arch mountain2
-x 2
-y 22
-elevation 11691
-end
-arch mountain4
-x 2
-y 23
-elevation 12295
-end
-arch mountain4
-x 2
-y 24
-elevation 13576
-end
-arch mountain4
-x 2
-y 25
-elevation 14437
-end
-arch mountain4
-x 2
-y 26
-elevation 14867
-end
-arch mountain4
-x 2
-y 27
-elevation 14912
-end
-arch mountain4
-x 2
-y 28
-elevation 12396
-end
-arch mountain
-x 2
-y 29
-elevation 8338
-end
-arch mountain
-x 2
-y 30
-elevation 6276
-end
-arch mountain
-x 2
-y 31
-elevation 8188
-end
-arch mountain2
-x 2
-y 32
-elevation 10673
-end
-arch mountain2
-x 2
-y 33
-elevation 11228
-end
-arch mountain2
-x 2
-y 34
-elevation 10369
-end
-arch mountain
-x 2
-y 35
-elevation 8396
-end
-arch mountain
-x 2
-y 36
-elevation 5961
-end
 arch woods_2
 x 2
-y 37
-elevation 1496
+y 18
+move_block all
+blocksview 1
 end
-arch hills
+arch woods
+x 2
+y 19
+move_block all
+end
+arch brush
+x 2
+y 20
+end
+arch grass
+x 2
+y 21
+end
+arch grass
+x 2
+y 22
+end
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 2
+y 22
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
+x 2
+y 23
+end
+arch grass
+x 2
+y 24
+end
+arch grass
+x 2
+y 25
+end
+arch grass
+x 2
+y 26
+end
+arch grass
+x 2
+y 27
+end
+arch grass
+x 2
+y 28
+end
+arch grass
+x 2
+y 29
+end
+arch grass
+x 2
+y 30
+end
+arch grass
+x 2
+y 31
+end
+arch grass
+x 2
+y 32
+end
+arch grass
+x 2
+y 33
+end
+arch grass
+x 2
+y 34
+end
+arch grass
+x 2
+y 35
+end
+arch grass
+x 2
+y 36
+end
+arch grass
+x 2
+y 37
+end
+arch grass
 x 2
 y 38
-elevation 3179
 end
-arch hills
+arch grass
 x 2
 y 39
-elevation 4564
 end
-arch mountain
+arch brush
 x 2
 y 40
-elevation 5729
 end
-arch mountain
+arch woods_3
 x 2
 y 41
-elevation 6612
+move_block all
 end
-arch mountain
+arch woods
 x 2
 y 42
-elevation 6701
+move_block all
 end
-arch mountain
+arch woods_3
 x 2
 y 43
-elevation 6239
+move_block all
 end
-arch mountain
+arch brush
 x 2
 y 44
-elevation 6766
 end
-arch mountain
+arch grass
 x 2
 y 45
-elevation 7781
 end
-arch mountain
+arch grass
 x 2
 y 46
-elevation 8743
 end
-arch mountain2
+arch grass
 x 2
 y 47
-elevation 9104
 end
-arch mountain2
+arch grass
 x 2
 y 48
-elevation 9452
 end
-arch mountain2
+arch grass
 x 2
 y 49
-elevation 11683
 end
 arch mountain4
 x 3
@@ -794,165 +746,137 @@ x 3
 y 17
 elevation 9943
 end
-arch mountain
+arch woods_2
 x 3
 y 18
-elevation 8815
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 3
 y 19
-elevation 8125
+move_block all
 end
-arch mountain
+arch brush
 x 3
 y 20
-elevation 8360
 end
-arch mountain2
+arch grass
 x 3
 y 21
-elevation 9656
 end
-arch mountain2
+arch grass
 x 3
 y 22
-elevation 11603
 end
-arch mountain4
+arch grass
 x 3
 y 23
-elevation 13008
 end
-arch mountain4
+arch grass
 x 3
 y 24
-elevation 14476
 end
-arch mountain4
+arch grass
 x 3
 y 25
-elevation 15475
 end
-arch mountain4
+arch grass
 x 3
 y 26
-elevation 15762
 end
-arch mountain4
+arch grass
 x 3
 y 27
-elevation 14319
 end
-arch mountain4
+arch grass
 x 3
 y 28
-elevation 12391
 end
-arch mountain2
+arch grass
 x 3
 y 29
-elevation 9506
 end
-arch mountain
+arch grass
 x 3
 y 30
-elevation 7186
 end
-arch mountain2
+arch grass
 x 3
 y 31
-elevation 9048
 end
-arch mountain2
+arch grass
 x 3
 y 32
-elevation 10308
 end
-arch mountain2
+arch grass
 x 3
 y 33
-elevation 9953
 end
-arch mountain
+arch grass
 x 3
 y 34
-elevation 8734
 end
-arch mountain
+arch grass
 x 3
 y 35
-elevation 5889
 end
-arch hills
+arch grass
 x 3
 y 36
-elevation 3555
 end
-arch hills
+arch grass
 x 3
 y 37
-elevation 3135
 end
-arch hills
+arch grass
 x 3
 y 38
-elevation 3364
 end
-arch jungle_1
+arch grass
 x 3
 y 39
-elevation 2290
 end
-arch hills
+arch grass
 x 3
 y 40
-elevation 4251
 end
-arch mountain
+arch brush
 x 3
 y 41
-elevation 5343
 end
-arch hills
+arch woods_3
 x 3
 y 42
-elevation 4862
+move_block all
 end
-arch mountain
+arch brush
 x 3
 y 43
-elevation 5999
 end
-arch mountain
+arch grass
 x 3
 y 44
-elevation 7343
 end
-arch mountain
+arch grass
 x 3
 y 45
-elevation 8703
 end
-arch mountain2
+arch grass
 x 3
 y 46
-elevation 9748
 end
-arch mountain2
+arch grass
 x 3
 y 47
-elevation 10213
 end
-arch mountain4
+arch grass
 x 3
 y 48
-elevation 12029
 end
-arch mountain4
+arch grass
 x 3
 y 49
-elevation 14183
 end
 arch mountain4
 x 4
@@ -1043,165 +967,152 @@ x 4
 y 17
 elevation 8914
 end
-arch mountain
+arch woods_2
 x 4
 y 18
-elevation 8407
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 4
 y 19
-elevation 8151
+move_block all
 end
-arch mountain
+arch brush
 x 4
 y 20
-elevation 6382
 end
-arch mountain2
+arch grass
 x 4
 y 21
-elevation 9786
 end
-arch mountain2
+arch grass
 x 4
 y 22
-elevation 11567
 end
-arch mountain4
+arch grass
 x 4
 y 23
-elevation 12989
 end
-arch mountain4
+arch grass
 x 4
 y 24
-elevation 14091
 end
-arch mountain4
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 4
+y 24
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 x 4
 y 25
-elevation 14996
 end
-arch mountain4
+arch grass
 x 4
 y 26
-elevation 15184
 end
-arch mountain4
+arch grass
 x 4
 y 27
-elevation 14292
 end
-arch mountain4
+arch grass
 x 4
 y 28
-elevation 12207
 end
-arch mountain2
+arch grass
 x 4
 y 29
-elevation 9885
 end
-arch mountain
+arch grass
 x 4
 y 30
-elevation 8091
 end
-arch mountain2
+arch grass
 x 4
 y 31
-elevation 9039
 end
-arch mountain2
+arch grass
 x 4
 y 32
-elevation 9998
 end
-arch mountain2
+arch grass
 x 4
 y 33
-elevation 10010
 end
-arch mountain
+arch grass
 x 4
 y 34
-elevation 8977
 end
-arch mountain
+arch grass
 x 4
 y 35
-elevation 7123
 end
-arch mountain
+arch grass
 x 4
 y 36
-elevation 5184
 end
-arch hills
+arch grass
 x 4
 y 37
-elevation 3884
 end
-arch hills
+arch grass
 x 4
 y 38
-elevation 4033
 end
-arch hills
+arch grass
 x 4
 y 39
-elevation 3733
 end
-arch hills
+arch grass
 x 4
 y 40
-elevation 3711
 end
-arch hills
+arch grass
 x 4
 y 41
-elevation 3198
 end
-arch hills
+arch grass
 x 4
 y 42
-elevation 4876
 end
-arch mountain
+arch grass
 x 4
 y 43
-elevation 6414
 end
-arch mountain
+arch grass
 x 4
 y 44
-elevation 6159
 end
-arch mountain
+arch grass
 x 4
 y 45
-elevation 7946
 end
-arch mountain2
+arch grass
 x 4
 y 46
-elevation 10232
 end
-arch mountain2
+arch grass
 x 4
 y 47
-elevation 10799
 end
-arch mountain4
+arch grass
 x 4
 y 48
-elevation 12926
 end
-arch mountain4
+arch grass
 x 4
 y 49
-elevation 15039
 end
 arch mountain5
 x 5
@@ -1292,165 +1203,136 @@ x 5
 y 17
 elevation 5220
 end
-arch mountain
+arch woods_2
 x 5
 y 18
-elevation 7344
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 5
 y 19
-elevation 7940
+move_block all
 end
-arch mountain
+arch brush
 x 5
 y 20
-elevation 8368
 end
-arch mountain2
+arch grass
 x 5
 y 21
-elevation 9457
 end
-arch mountain2
+arch grass
 x 5
 y 22
-elevation 10861
 end
-arch mountain2
+arch grass
 x 5
 y 23
-elevation 11661
 end
-arch mountain4
+arch grass
 x 5
 y 24
-elevation 12377
 end
-arch mountain4
+arch grass
 x 5
 y 25
-elevation 13156
 end
-arch mountain4
+arch grass
 x 5
 y 26
-elevation 13986
 end
-arch mountain4
+arch grass
 x 5
 y 27
-elevation 13757
 end
-arch mountain2
+arch grass
 x 5
 y 28
-elevation 11921
 end
-arch mountain2
+arch grass
 x 5
 y 29
-elevation 9782
 end
-arch mountain
+arch grass
 x 5
 y 30
-elevation 6852
 end
-arch mountain
+arch grass
 x 5
 y 31
-elevation 8325
 end
-arch mountain2
+arch grass
 x 5
 y 32
-elevation 9742
 end
-arch mountain2
+arch grass
 x 5
 y 33
-elevation 9740
 end
-arch mountain2
+arch grass
 x 5
 y 34
-elevation 9359
 end
-arch mountain
+arch grass
 x 5
 y 35
-elevation 8670
 end
-arch mountain
+arch grass
 x 5
 y 36
-elevation 7687
 end
-arch mountain
+arch grass
 x 5
 y 37
-elevation 6296
 end
-arch hills
+arch grass
 x 5
 y 38
-elevation 4062
 end
-arch mountain
+arch grass
 x 5
 y 39
-elevation 5092
 end
-arch hills
+arch grass
 x 5
 y 40
-elevation 4497
 end
-arch mountain
+arch grass
 x 5
 y 41
-elevation 5158
 end
-arch mountain
+arch grass
 x 5
 y 42
-elevation 6450
 end
-arch mountain
+arch grass
 x 5
 y 43
-elevation 7331
 end
-arch mountain
+arch grass
 x 5
 y 44
-elevation 6913
 end
-arch mountain2
+arch grass
 x 5
 y 45
-elevation 9326
 end
-arch mountain2
+arch grass
 x 5
 y 46
-elevation 10586
 end
-arch mountain2
+arch grass
 x 5
 y 47
-elevation 11654
 end
-arch mountain2
+arch grass
 x 5
 y 48
-elevation 11019
 end
-arch mountain4
+arch grass
 x 5
 y 49
-elevation 14948
 end
 arch mountain4
 x 6
@@ -1541,165 +1423,152 @@ x 6
 y 17
 elevation 7963
 end
-arch mountain
+arch woods_2
 x 6
 y 18
-elevation 7595
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 6
 y 19
-elevation 7361
+move_block all
 end
-arch mountain
+arch grass
 x 6
 y 20
-elevation 8577
 end
-arch mountain
+arch grass
 x 6
 y 21
-elevation 8930
 end
-arch mountain2
+arch grass
 x 6
 y 22
-elevation 9989
 end
-arch mountain2
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 6
+y 22
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 x 6
 y 23
-elevation 9864
 end
-arch mountain
+arch grass
 x 6
 y 24
-elevation 7759
 end
-arch mountain2
+arch grass
 x 6
 y 25
-elevation 10317
 end
-arch mountain4
+arch grass
 x 6
 y 26
-elevation 12373
 end
-arch mountain4
+arch grass
 x 6
 y 27
-elevation 12718
 end
-arch mountain2
+arch grass
 x 6
 y 28
-elevation 11535
 end
-arch mountain2
+arch grass
 x 6
 y 29
-elevation 9905
 end
-arch mountain
+arch grass
 x 6
 y 30
-elevation 6678
 end
-arch mountain
+arch grass
 x 6
 y 31
-elevation 8753
 end
-arch mountain2
+arch grass
 x 6
 y 32
-elevation 9242
 end
-arch mountain2
+arch grass
 x 6
 y 33
-elevation 9166
 end
-arch mountain2
+arch grass
 x 6
 y 34
-elevation 9199
 end
-arch mountain2
+arch grass
 x 6
 y 35
-elevation 9098
 end
-arch mountain
+arch grass
 x 6
 y 36
-elevation 8773
 end
-arch mountain
+arch grass
 x 6
 y 37
-elevation 8294
 end
-arch mountain
+arch grass
 x 6
 y 38
-elevation 8088
 end
-arch mountain
+arch grass
 x 6
 y 39
-elevation 7990
 end
-arch mountain
+arch grass
 x 6
 y 40
-elevation 8027
 end
-arch mountain
+arch grass
 x 6
 y 41
-elevation 7952
 end
-arch mountain
+arch grass
 x 6
 y 42
-elevation 6125
 end
-arch mountain2
+arch grass
 x 6
 y 43
-elevation 9384
 end
-arch mountain2
+arch grass
 x 6
 y 44
-elevation 10227
 end
-arch mountain2
+arch grass
 x 6
 y 45
-elevation 10347
 end
-arch mountain2
+arch grass
 x 6
 y 46
-elevation 10575
 end
-arch mountain2
+arch grass
 x 6
 y 47
-elevation 11836
 end
-arch mountain4
+arch grass
 x 6
 y 48
-elevation 13082
 end
-arch mountain4
+arch grass
 x 6
 y 49
-elevation 14391
 end
 arch mountain4
 x 7
@@ -1790,165 +1659,136 @@ x 7
 y 17
 elevation 8421
 end
-arch mountain
+arch woods_2
 x 7
 y 18
-elevation 7042
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 7
 y 19
-elevation 8215
+move_block all
 end
-arch mountain
+arch grass
 x 7
 y 20
-elevation 8345
 end
-arch mountain2
+arch grass
 x 7
 y 21
-elevation 9234
 end
-arch mountain2
+arch grass
 x 7
 y 22
-elevation 9224
 end
-arch mountain
+arch grass
 x 7
 y 23
-elevation 8256
 end
-arch mountain
+arch grass
 x 7
 y 24
-elevation 8221
 end
-arch mountain
+arch grass
 x 7
 y 25
-elevation 8152
 end
-arch mountain2
+arch grass
 x 7
 y 26
-elevation 10662
 end
-arch mountain2
+arch grass
 x 7
 y 27
-elevation 11319
 end
-arch mountain2
+arch grass
 x 7
 y 28
-elevation 10969
 end
-arch mountain2
+arch grass
 x 7
 y 29
-elevation 10051
 end
-arch mountain2
+arch grass
 x 7
 y 30
-elevation 9105
 end
-arch mountain
+arch grass
 x 7
 y 31
-elevation 8430
 end
-arch mountain
+arch grass
 x 7
 y 32
-elevation 8265
 end
-arch mountain
+arch grass
 x 7
 y 33
-elevation 8383
 end
-arch mountain
+arch grass
 x 7
 y 34
-elevation 8354
 end
-arch mountain
+arch grass
 x 7
 y 35
-elevation 7972
 end
-arch mountain
+arch grass
 x 7
 y 36
-elevation 7635
 end
-arch mountain
+arch grass
 x 7
 y 37
-elevation 7991
 end
-arch mountain2
+arch grass
 x 7
 y 38
-elevation 9039
 end
-arch mountain2
+arch grass
 x 7
 y 39
-elevation 10031
 end
-arch mountain2
+arch grass
 x 7
 y 40
-elevation 10364
 end
-arch mountain2
+arch grass
 x 7
 y 41
-elevation 10191
 end
-arch mountain2
+arch grass
 x 7
 y 42
-elevation 10434
 end
-arch mountain2
+arch grass
 x 7
 y 43
-elevation 10922
 end
-arch mountain2
+arch grass
 x 7
 y 44
-elevation 11369
 end
-arch mountain2
+arch grass
 x 7
 y 45
-elevation 10990
 end
-arch mountain2
+arch grass
 x 7
 y 46
-elevation 10861
 end
-arch mountain2
+arch grass
 x 7
 y 47
-elevation 11649
 end
-arch mountain4
+arch grass
 x 7
 y 48
-elevation 12615
 end
-arch mountain4
+arch grass
 x 7
 y 49
-elevation 13543
 end
 arch mountain4
 x 8
@@ -2039,165 +1879,152 @@ x 8
 y 17
 elevation 8330
 end
-arch mountain
+arch woods_2
 x 8
 y 18
-elevation 8507
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 8
 y 19
-elevation 8471
+move_block all
 end
-arch mountain
+arch brush
 x 8
 y 20
-elevation 8445
 end
-arch mountain
+arch grass
 x 8
 y 21
-elevation 8548
 end
-arch mountain
+arch grass
 x 8
 y 22
-elevation 8295
 end
-arch mountain
+arch grass
 x 8
 y 23
-elevation 7476
 end
-arch mountain
+arch grass
 x 8
 y 24
-elevation 6889
 end
-arch mountain
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 8
+y 24
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 x 8
 y 25
-elevation 7818
 end
-arch mountain2
+arch grass
 x 8
 y 26
-elevation 9242
 end
-arch mountain2
+arch grass
 x 8
 y 27
-elevation 10205
 end
-arch mountain2
+arch grass
 x 8
 y 28
-elevation 9119
 end
-arch mountain2
+arch grass
 x 8
 y 29
-elevation 10343
 end
-arch mountain2
+arch grass
 x 8
 y 30
-elevation 9550
 end
-arch mountain
+arch grass
 x 8
 y 31
-elevation 5174
 end
-arch mountain
+arch grass
 x 8
 y 32
-elevation 7316
 end
-arch mountain
+arch grass
 x 8
 y 33
-elevation 7889
 end
-arch mountain
+arch grass
 x 8
 y 34
-elevation 6088
 end
-arch mountain
+arch grass
 x 8
 y 35
-elevation 6805
 end
-arch hills
+arch grass
 x 8
 y 36
-elevation 3667
 end
-arch hills
+arch grass
 x 8
 y 37
-elevation 3195
 end
-arch mountain
+arch grass
 x 8
 y 38
-elevation 8679
 end
-arch mountain2
+arch grass
 x 8
 y 39
-elevation 10360
 end
-arch mountain2
+arch grass
 x 8
 y 40
-elevation 11218
 end
-arch mountain2
+arch grass
 x 8
 y 41
-elevation 11379
 end
-arch mountain2
+arch grass
 x 8
 y 42
-elevation 10930
 end
-arch mountain2
+arch grass
 x 8
 y 43
-elevation 10563
 end
-arch mountain2
+arch grass
 x 8
 y 44
-elevation 10371
 end
-arch mountain2
+arch grass
 x 8
 y 45
-elevation 10054
 end
-arch mountain2
+arch grass
 x 8
 y 46
-elevation 9110
 end
-arch mountain2
+arch grass
 x 8
 y 47
-elevation 11078
 end
-arch mountain2
+arch grass
 x 8
 y 48
-elevation 11591
 end
-arch mountain2
+arch grass
 x 8
 y 49
-elevation 10635
 end
 arch mountain4
 x 9
@@ -2288,165 +2115,139 @@ x 9
 y 17
 elevation 8358
 end
-arch mountain
+arch woods_2
 x 9
 y 18
-elevation 8739
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 9
 y 19
-elevation 8676
+move_block all
 end
-arch mountain
+arch brush
 x 9
 y 20
-elevation 7781
 end
-arch mountain
+arch grass
 x 9
 y 21
-elevation 5349
 end
-arch mountain
+arch grass
 x 9
 y 22
-elevation 7549
 end
-arch mountain
+arch grass
 x 9
 y 23
-elevation 7310
 end
-arch mountain
+arch grass
 x 9
 y 24
-elevation 6631
 end
-arch mountain
+arch grass
 x 9
 y 25
-elevation 6496
 end
-arch mountain
+arch grass
 x 9
 y 26
-elevation 8273
 end
-arch mountain2
+arch grass
 x 9
 y 27
-elevation 9314
 end
-arch mountain2
+arch grass
 x 9
 y 28
-elevation 10557
 end
-arch mountain2
+arch grass
 x 9
 y 29
-elevation 10601
 end
-arch mountain2
+arch grass
 x 9
 y 30
-elevation 9828
 end
-arch mountain2
+arch grass
 x 9
 y 31
-elevation 9100
 end
-arch mountain
+arch grass
 x 9
 y 32
-elevation 8445
 end
-arch mountain
+arch grass
 x 9
 y 33
-elevation 7731
 end
-arch mountain
+arch grass
 x 9
 y 34
-elevation 6547
 end
-arch mountain
+arch grass
 x 9
 y 35
-elevation 6321
 end
-arch mountain
+arch grass
 x 9
 y 36
-elevation 6243
 end
-arch mountain
+arch grass
 x 9
 y 37
-elevation 6758
 end
-arch mountain
+arch grass
 x 9
 y 38
-elevation 7953
 end
-arch mountain2
+arch grass
 x 9
 y 39
-elevation 9352
 end
-arch mountain2
+arch grass
 x 9
 y 40
-elevation 10240
 end
-arch mountain2
+arch grass
 x 9
 y 41
-elevation 10570
 end
-arch mountain2
+arch grass
 x 9
 y 42
-elevation 9538
 end
-arch mountain
+arch grass
 x 9
 y 43
-elevation 7121
 end
-arch mountain
+arch grass
 x 9
 y 44
-elevation 8155
 end
-arch mountain
+arch grass
 x 9
 y 45
-elevation 8875
 end
-arch mountain2
+arch grass
 x 9
 y 46
-elevation 10414
 end
-arch mountain2
+arch grass
 x 9
 y 47
-elevation 10588
 end
-arch mountain2
+arch woods
 x 9
 y 48
-elevation 9498
+move_block all
 end
-arch mountain2
+arch woods
 x 9
 y 49
-elevation 10862
+move_block all
+blocksview 1
 end
 arch mountain2
 x 10
@@ -2537,165 +2338,157 @@ x 10
 y 17
 elevation 7861
 end
-arch mountain
+arch woods_2
 x 10
 y 18
-elevation 8496
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 10
 y 19
-elevation 8709
+move_block all
 end
-arch mountain
+arch brush
 x 10
 y 20
-elevation 8292
 end
-arch mountain
+arch grass
 x 10
 y 21
-elevation 7774
 end
-arch mountain
+arch grass
 x 10
 y 22
-elevation 6865
 end
-arch mountain
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 10
+y 22
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 x 10
 y 23
-elevation 6995
 end
-arch mountain
+arch grass
 x 10
 y 24
-elevation 6940
 end
-arch mountain
+arch grass
 x 10
 y 25
-elevation 8095
 end
-arch mountain2
+arch grass
 x 10
 y 26
-elevation 9056
 end
-arch mountain2
+arch grass
 x 10
 y 27
-elevation 10398
 end
-arch mountain2
+arch grass
 x 10
 y 28
-elevation 11256
 end
-arch mountain2
+arch grass
 x 10
 y 29
-elevation 10993
 end
-arch mountain2
+arch grass
 x 10
 y 30
-elevation 10287
 end
-arch mountain2
+arch grass
 x 10
 y 31
-elevation 9854
 end
-arch mountain
+arch grass
 x 10
 y 32
-elevation 8946
 end
-arch mountain
+arch grass
 x 10
 y 33
-elevation 7520
 end
-arch mountain
+arch grass
 x 10
 y 34
-elevation 6044
 end
-arch mountain
+arch grass
 x 10
 y 35
-elevation 6534
 end
-arch mountain
+arch grass
 x 10
 y 36
-elevation 7111
 end
-arch mountain
+arch grass
 x 10
 y 37
-elevation 7325
 end
-arch mountain
+arch grass
 x 10
 y 38
-elevation 7407
 end
-arch mountain
+arch grass
 x 10
 y 39
-elevation 7123
 end
-arch mountain
+arch grass
 x 10
 y 40
-elevation 7895
 end
-arch mountain
+arch grass
 x 10
 y 41
-elevation 8987
 end
-arch mountain
+arch grass
 x 10
 y 42
-elevation 8025
 end
-arch hills
+arch grass
 x 10
 y 43
-elevation 3185
 end
-arch mountain
+arch grass
 x 10
 y 44
-elevation 7789
 end
-arch mountain2
+arch grass
 x 10
 y 45
-elevation 9595
 end
-arch mountain2
+arch woods
 x 10
 y 46
-elevation 10495
+move_block all
 end
-arch mountain2
+arch woods_3
 x 10
 y 47
-elevation 10395
+move_block all
 end
-arch mountain2
+arch woods_3
 x 10
 y 48
-elevation 9459
+move_block all
 end
-arch mountain2
+arch woods_2
 x 10
 y 49
-elevation 9315
+move_block all
+blocksview 1
 end
 arch mountain2
 x 11
@@ -2786,165 +2579,144 @@ x 11
 y 17
 elevation 7145
 end
-arch mountain
+arch woods_2
 x 11
 y 18
-elevation 7418
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 11
 y 19
-elevation 8818
+move_block all
 end
-arch mountain
+arch woods_3
 x 11
 y 20
-elevation 8874
+move_block all
 end
-arch mountain
+arch brush
 x 11
 y 21
-elevation 8245
 end
-arch mountain
+arch grass
 x 11
 y 22
-elevation 7275
 end
-arch mountain
+arch grass
 x 11
 y 23
-elevation 7957
 end
-arch mountain
+arch grass
 x 11
 y 24
-elevation 8235
 end
-arch mountain
+arch grass
 x 11
 y 25
-elevation 8346
 end
-arch mountain2
+arch grass
 x 11
 y 26
-elevation 9240
 end
-arch mountain2
+arch grass
 x 11
 y 27
-elevation 10604
 end
-arch mountain4
+arch grass
 x 11
 y 28
-elevation 12268
 end
-arch mountain2
+arch grass
 x 11
 y 29
-elevation 11956
 end
-arch mountain2
+arch grass
 x 11
 y 30
-elevation 10816
 end
-arch mountain2
+arch grass
 x 11
 y 31
-elevation 9691
 end
-arch mountain
+arch grass
 x 11
 y 32
-elevation 8610
 end
-arch mountain
+arch grass
 x 11
 y 33
-elevation 5877
 end
-arch hills
+arch grass
 x 11
 y 34
-elevation 4922
 end
-arch mountain
+arch grass
 x 11
 y 35
-elevation 6391
 end
-arch mountain
+arch grass
 x 11
 y 36
-elevation 6872
 end
-arch mountain
+arch grass
 x 11
 y 37
-elevation 6868
 end
-arch mountain
+arch grass
 x 11
 y 38
-elevation 6223
 end
-arch mountain
+arch grass
 x 11
 y 39
-elevation 5562
 end
-arch mountain
+arch grass
 x 11
 y 40
-elevation 6508
 end
-arch mountain
+arch grass
 x 11
 y 41
-elevation 7910
 end
-arch mountain
+arch grass
 x 11
 y 42
-elevation 7316
 end
-arch mountain
+arch grass
 x 11
 y 43
-elevation 6121
 end
-arch mountain
+arch grass
 x 11
 y 44
-elevation 8262
 end
-arch mountain2
+arch woods
 x 11
 y 45
-elevation 10161
+move_block all
 end
-arch mountain2
+arch woods_3
 x 11
 y 46
-elevation 10473
+move_block all
 end
-arch mountain2
+arch woods_3
 x 11
 y 47
-elevation 9687
+move_block all
 end
-arch mountain2
+arch woods_2
 x 11
 y 48
-elevation 9477
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 11
 y 49
-elevation 9647
+move_block all
+blocksview 1
 end
 arch mountain2
 x 12
@@ -3035,165 +2807,162 @@ x 12
 y 17
 elevation 8400
 end
-arch mountain
+arch woods_2
 x 12
 y 18
-elevation 8605
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 12
 y 19
-elevation 8577
+move_block all
 end
-arch mountain
+arch woods
 x 12
 y 20
-elevation 8336
+move_block all
 end
-arch mountain
+arch grass
 x 12
 y 21
-elevation 7724
 end
-arch mountain
+arch grass
 x 12
 y 22
-elevation 7640
 end
-arch mountain
+arch grass
 x 12
 y 23
-elevation 8233
 end
-arch mountain
+arch grass
 x 12
 y 24
-elevation 8842
 end
-arch mountain
+arch elf_1
+Con 1
+hp 90
+maxhp 90
+exp 300
+dam 10
+wc 6
+x 12
+y 24
+level 10
+resist_confusion 100
+resist_poison -30
+pick_up 0
+will_apply 0
+unaggressive 0
+end
+arch grass
 x 12
 y 25
-elevation 7568
 end
-arch mountain
+arch grass
 x 12
 y 26
-elevation 6787
 end
-arch mountain2
+arch grass
 x 12
 y 27
-elevation 11587
 end
-arch mountain4
+arch grass
 x 12
 y 28
-elevation 13109
 end
-arch mountain4
+arch grass
 x 12
 y 29
-elevation 12389
 end
-arch mountain2
+arch grass
 x 12
 y 30
-elevation 9506
 end
-arch mountain2
+arch grass
 x 12
 y 31
-elevation 9409
 end
-arch mountain
+arch grass
 x 12
 y 32
-elevation 8377
 end
-arch mountain
+arch grass
 x 12
 y 33
-elevation 6346
 end
-arch mountain
+arch grass
 x 12
 y 34
-elevation 5785
 end
-arch mountain
+arch grass
 x 12
 y 35
-elevation 5836
 end
-arch mountain
+arch grass
 x 12
 y 36
-elevation 6003
 end
-arch mountain
+arch grass
 x 12
 y 37
-elevation 5678
 end
-arch mountain
+arch grass
 x 12
 y 38
-elevation 5599
 end
-arch mountain
+arch grass
 x 12
 y 39
-elevation 6602
 end
-arch mountain
+arch grass
 x 12
 y 40
-elevation 7463
 end
-arch mountain
+arch grass
 x 12
 y 41
-elevation 8065
 end
-arch mountain
+arch grass
 x 12
 y 42
-elevation 6871
 end
-arch mountain
+arch grass
 x 12
 y 43
-elevation 7238
 end
-arch mountain2
+arch brush
 x 12
 y 44
-elevation 9458
 end
-arch mountain2
+arch woods_3
 x 12
 y 45
-elevation 11035
+move_block all
 end
-arch mountain2
+arch woods_2
 x 12
 y 46
-elevation 10951
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 12
 y 47
-elevation 7576
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 12
 y 48
-elevation 9191
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 12
 y 49
-elevation 8910
+move_block all
+blocksview 1
 end
 arch mountain2
 x 13
@@ -3284,165 +3053,146 @@ x 13
 y 17
 elevation 10006
 end
-arch mountain2
+arch woods_2
 x 13
 y 18
-elevation 9118
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 13
 y 19
-elevation 7896
+move_block all
 end
-arch mountain
+arch woods
 x 13
 y 20
-elevation 6813
+move_block all
 end
-arch mountain
+arch grass
 x 13
 y 21
-elevation 6000
 end
-arch mountain
+arch woods
 x 13
 y 22
-elevation 5957
+move_block all
 end
-arch mountain
+arch brush
 x 13
 y 23
-elevation 7469
 end
-arch mountain2
+arch brush
 x 13
 y 24
-elevation 9131
 end
-arch mountain2
+arch grass
 x 13
 y 25
-elevation 10162
 end
-arch mountain2
+arch grass
 x 13
 y 26
-elevation 11323
 end
-arch mountain4
+arch grass
 x 13
 y 27
-elevation 12632
 end
-arch mountain4
+arch grass
 x 13
 y 28
-elevation 13414
 end
-arch mountain4
+arch brush
 x 13
 y 29
-elevation 12306
 end
-arch mountain
+arch brush
 x 13
 y 30
-elevation 8438
 end
-arch mountain2
+arch grass
 x 13
 y 31
-elevation 9490
 end
-arch mountain
+arch grass
 x 13
 y 32
-elevation 8656
 end
-arch mountain
+arch grass
 x 13
 y 33
-elevation 6827
 end
-arch mountain
+arch grass
 x 13
 y 34
-elevation 6205
 end
-arch hills
+arch grass
 x 13
 y 35
-elevation 3051
 end
-arch mountain
+arch grass
 x 13
 y 36
-elevation 5917
 end
-arch mountain
+arch grass
 x 13
 y 37
-elevation 5810
 end
-arch mountain
+arch grass
 x 13
 y 38
-elevation 5620
 end
-arch mountain
+arch grass
 x 13
 y 39
-elevation 6892
 end
-arch mountain
+arch grass
 x 13
 y 40
-elevation 7840
 end
-arch mountain
+arch grass
 x 13
 y 41
-elevation 8557
 end
-arch mountain
+arch grass
 x 13
 y 42
-elevation 8958
 end
-arch mountain2
+arch brush
 x 13
 y 43
-elevation 9632
 end
-arch mountain2
+arch brush
 x 13
 y 44
-elevation 10884
 end
-arch mountain2
+arch woods
 x 13
 y 45
-elevation 11921
+move_block all
 end
-arch mountain2
+arch woods_2
 x 13
 y 46
-elevation 11761
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 13
 y 47
-elevation 10646
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 13
 y 48
-elevation 8997
+move_block all
 end
-arch mountain
+arch woods_2
 x 13
 y 49
-elevation 5703
+move_block all
+blocksview 1
 end
 arch mountain2
 x 14
@@ -3533,165 +3283,152 @@ x 14
 y 17
 elevation 11207
 end
-arch mountain2
+arch woods_2
 x 14
 y 18
-elevation 9190
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 14
 y 19
-elevation 7125
+move_block all
 end
-arch hills
+arch woods_3
 x 14
 y 20
-elevation 4120
+move_block all
 end
-arch hills
+arch woods_3
 x 14
 y 21
-elevation 3178
+move_block all
+end
+arch woods
+x 14
+y 22
+move_block all
+end
+arch woods
+x 14
+y 23
+move_block all
+end
+arch brush
+x 14
+y 24
+end
+arch grass
+x 14
+y 25
+end
+arch grass
+x 14
+y 26
+end
+arch brush
+x 14
+y 27
+end
+arch brush
+x 14
+y 28
+end
+arch woods_3
+x 14
+y 29
+move_block all
+end
+arch woods_3
+x 14
+y 30
+move_block all
+end
+arch brush
+x 14
+y 31
+end
+arch grass
+x 14
+y 32
+end
+arch grass
+x 14
+y 33
+end
+arch grass
+x 14
+y 34
+end
+arch brush
+x 14
+y 35
+end
+arch woods
+x 14
+y 36
+move_block all
+end
+arch woods
+x 14
+y 37
+move_block all
+end
+arch grass
+x 14
+y 38
+end
+arch grass
+x 14
+y 39
+end
+arch grass
+x 14
+y 40
+end
+arch grass
+x 14
+y 41
+end
+arch brush
+x 14
+y 42
+end
+arch brush
+x 14
+y 43
+end
+arch brush
+x 14
+y 44
+end
+arch woods
+x 14
+y 45
+move_block all
 end
 arch woods_2
 x 14
-y 22
-elevation 2696
-end
-arch mountain
-x 14
-y 23
-elevation 6952
-end
-arch mountain2
-x 14
-y 24
-elevation 9396
-end
-arch mountain2
-x 14
-y 25
-elevation 11764
-end
-arch mountain4
-x 14
-y 26
-elevation 13083
-end
-arch mountain4
-x 14
-y 27
-elevation 13584
-end
-arch mountain4
-x 14
-y 28
-elevation 13205
-end
-arch mountain4
-x 14
-y 29
-elevation 12260
-end
-arch mountain2
-x 14
-y 30
-elevation 11095
-end
-arch mountain2
-x 14
-y 31
-elevation 9776
-end
-arch mountain
-x 14
-y 32
-elevation 8750
-end
-arch mountain
-x 14
-y 33
-elevation 7570
-end
-arch mountain
-x 14
-y 34
-elevation 6551
-end
-arch mountain
-x 14
-y 35
-elevation 6411
-end
-arch mountain
-x 14
-y 36
-elevation 6489
-end
-arch mountain
-x 14
-y 37
-elevation 6703
-end
-arch mountain
-x 14
-y 38
-elevation 6471
-end
-arch mountain
-x 14
-y 39
-elevation 6470
-end
-arch mountain
-x 14
-y 40
-elevation 7169
-end
-arch mountain
-x 14
-y 41
-elevation 8260
-end
-arch mountain2
-x 14
-y 42
-elevation 9343
-end
-arch mountain2
-x 14
-y 43
-elevation 10326
-end
-arch mountain2
-x 14
-y 44
-elevation 11265
-end
-arch mountain4
-x 14
-y 45
-elevation 12208
-end
-arch mountain4
-x 14
 y 46
-elevation 12470
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 14
 y 47
-elevation 11450
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 14
 y 48
-elevation 8535
+move_block all
 end
-arch mountain
+arch woods_2
 x 14
 y 49
-elevation 8569
+move_block all
+blocksview 1
 end
 arch mountain2
 x 15
@@ -3782,165 +3519,171 @@ x 15
 y 17
 elevation 11380
 end
-arch mountain2
+arch woods_2
 x 15
 y 18
-elevation 9262
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 15
 y 19
-elevation 5583
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_2
 x 15
 y 20
-elevation 3744
+move_block all
+blocksview 1
 end
 arch woods_2
 x 15
 y 21
-elevation 2442
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_3
 x 15
 y 22
-elevation 3079
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 23
-elevation 7337
+move_block all
 end
-arch mountain2
+arch woods_3
 x 15
 y 24
-elevation 10461
+move_block all
 end
-arch mountain4
+arch woods
 x 15
 y 25
-elevation 12476
+move_block all
 end
-arch mountain4
+arch woods_3
 x 15
 y 26
-elevation 13653
+move_block all
 end
-arch mountain4
+arch woods_3
 x 15
 y 27
-elevation 13757
+move_block all
 end
-arch mountain4
+arch woods
 x 15
 y 28
-elevation 13225
+move_block all
 end
-arch mountain4
+arch woods_3
 x 15
 y 29
-elevation 12250
+move_block all
 end
-arch mountain2
+arch woods
 x 15
 y 30
-elevation 11285
+move_block all
 end
-arch mountain2
+arch woods_3
 x 15
 y 31
-elevation 10195
+move_block all
 end
-arch mountain
+arch woods
 x 15
 y 32
-elevation 7815
+move_block all
 end
-arch mountain
+arch grass
 x 15
 y 33
-elevation 7286
 end
-arch mountain
+arch brush
 x 15
 y 34
-elevation 6601
 end
-arch mountain
+arch woods
 x 15
 y 35
-elevation 6812
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 36
-elevation 7471
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 37
-elevation 7145
+move_block all
 end
-arch mountain
+arch woods
 x 15
 y 38
-elevation 6141
+move_block all
 end
-arch hills
+arch woods
 x 15
 y 39
-elevation 4245
+move_block all
 end
-arch hills
+arch woods_3
 x 15
 y 40
-elevation 4897
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 41
-elevation 7405
+move_block all
 end
-arch mountain
+arch woods
 x 15
 y 42
-elevation 8831
+move_block all
 end
-arch mountain2
+arch woods
 x 15
 y 43
-elevation 9538
+move_block all
 end
-arch mountain2
+arch woods_3
 x 15
 y 44
-elevation 10696
+move_block all
 end
-arch mountain2
+arch woods_3
 x 15
 y 45
-elevation 10915
+move_block all
 end
-arch mountain4
+arch woods_2
 x 15
 y 46
-elevation 12617
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 15
 y 47
-elevation 11710
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 15
 y 48
-elevation 9061
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_3
 x 15
 y 49
-elevation 9568
+move_block all
+blocksview 1
 end
 arch mountain2
 x 16
@@ -4031,165 +3774,191 @@ x 16
 y 17
 elevation 10099
 end
-arch mountain2
+arch blocked
 x 16
 y 18
-elevation 9505
 end
-arch mountain
+arch blocked
 x 16
 y 19
-elevation 6784
 end
-arch hills
+arch blocked
 x 16
 y 20
-elevation 4842
 end
-arch hills
+arch woods_2
 x 16
 y 21
-elevation 3840
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_2
 x 16
 y 22
-elevation 4560
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 23
-elevation 8594
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 24
-elevation 11130
+move_block all
+blocksview 1
 end
-arch mountain4
+arch woods_2
 x 16
 y 25
-elevation 12603
+move_block all
+blocksview 1
 end
-arch mountain4
+arch woods_2
 x 16
 y 26
-elevation 13271
+move_block all
+blocksview 1
 end
-arch mountain4
+arch woods_2
 x 16
 y 27
-elevation 13344
+move_block all
+blocksview 1
 end
-arch mountain4
+arch woods_2
 x 16
 y 28
-elevation 12696
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 29
-elevation 11988
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 30
-elevation 9968
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods
 x 16
 y 31
-elevation 10708
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods
 x 16
 y 32
-elevation 9690
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 16
 y 33
-elevation 7765
+move_block all
+blocksview 1
 end
-arch evergreens
+arch woods_3
 x 16
 y 34
-elevation 2534
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 35
-elevation 7063
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 36
-elevation 7806
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 37
-elevation 7353
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 38
-elevation 5318
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_2
 x 16
 y 39
-elevation 3030
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_2
 x 16
 y 40
-elevation 4895
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 41
-elevation 6998
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 16
 y 42
-elevation 7631
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 43
-elevation 9364
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 44
-elevation 11094
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 45
-elevation 11919
+move_block all
+blocksview 1
 end
-arch mountain4
+arch woods_2
 x 16
 y 46
-elevation 12215
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 47
-elevation 11596
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods_2
 x 16
 y 48
-elevation 9701
+move_block all
+blocksview 1
 end
-arch mountain2
+arch woods
 x 16
 y 49
-elevation 10269
+move_block all
+blocksview 1
 end
 arch mountain2
 x 17

@@ -2,142 +2,145 @@ arch map
 name world_119_113
 width 50
 height 50
+msg
+Modified: 2019-01-20 lx
+endmsg
 outdoor 1
 tile_path_1 world_119_112
 tile_path_2 world_120_113
 tile_path_3 world_119_114
 tile_path_4 world_118_113
+tile_path_5 above_119_113
 end
-arch mountain
-elevation 7690
+arch woods
+move_block all
 end
-arch mountain
+arch woods_3
 y 1
-elevation 8335
+move_block all
 end
-arch mountain
+arch woods_3
 y 2
-elevation 8585
+move_block all
 end
-arch mountain
+arch woods_3
 y 3
-elevation 8267
+move_block all
 end
-arch mountain
+arch woods
 y 4
-elevation 8351
+move_block all
 end
-arch mountain2
+arch woods_3
 y 5
-elevation 10922
+move_block all
 end
-arch mountain4
+arch grass
 y 6
-elevation 12757
 end
-arch mountain4
+arch grass
 y 7
-elevation 13517
 end
-arch mountain4
+arch grass
 y 8
-elevation 12385
 end
-arch mountain2
+arch woods
 y 9
-elevation 9684
+move_block all
 end
-arch mountain
+arch woods_3
 y 10
-elevation 5185
+move_block all
 end
-arch evergreens
+arch woods_3
 y 11
-elevation 2474
+move_block all
 end
-arch hills
+arch woods_3
 y 12
-elevation 3834
+move_block all
 end
-arch mountain
+arch woods
 y 13
-elevation 5336
+move_block all
 end
-arch mountain
+arch woods
 y 14
-elevation 5477
+move_block all
 end
-arch mountain
+arch woods_3
 y 15
-elevation 6427
+move_block all
 end
-arch mountain
+arch woods_3
 y 16
-elevation 6095
+move_block all
 end
-arch mountain
+arch woods_3
 y 17
-elevation 5498
+move_block all
 end
-arch hills_rocky
+arch grass
 y 18
-elevation 4481
 end
-arch mountain
+arch woods_3
 y 19
-elevation 5054
+move_block all
 end
-arch mountain
+arch woods_3
 y 20
-elevation 5385
+move_block all
 end
-arch mountain
+arch woods_3
 y 21
-elevation 5912
+move_block all
 end
-arch mountain
+arch woods_3
 y 22
-elevation 6209
+move_block all
 end
-arch mountain
+arch woods
 y 23
-elevation 6308
+move_block all
 end
-arch mountain
+arch woods_3
 y 24
-elevation 6429
+move_block all
 end
-arch mountain
+arch grass
 y 25
-elevation 6488
 end
-arch mountain
+arch woods_3
 y 26
-elevation 6918
+move_block all
 end
-arch mountain
+arch woods_3
 y 27
-elevation 6846
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 y 28
-elevation 6786
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 y 29
-elevation 6581
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 y 30
-elevation 6334
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 y 31
-elevation 6517
+move_block all
+blocksview 1
 end
-arch mountain
+arch fernrockscliff2
 y 32
-elevation 6569
 end
 arch hills_rocky
 y 33
@@ -207,169 +210,161 @@ arch mountain2
 y 49
 elevation 10054
 end
-arch mountain
+arch woods
 x 1
-elevation 6809
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 1
-elevation 7539
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 2
-elevation 7460
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 3
-elevation 8306
+move_block all
 end
-arch mountain2
+arch woods
 x 1
 y 4
-elevation 9686
+move_block all
 end
-arch mountain2
+arch woods
 x 1
 y 5
-elevation 11174
+move_block all
 end
-arch mountain4
+arch grassmedium
 x 1
 y 6
-elevation 12834
 end
-arch mountain4
+arch grass
 x 1
 y 7
-elevation 13619
 end
-arch mountain4
+arch grassmedium
 x 1
 y 8
-elevation 12836
 end
-arch mountain2
+arch woods
 x 1
 y 9
-elevation 10203
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 10
-elevation 7124
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 11
-elevation 5076
+move_block all
 end
-arch hills_rocky
+arch woods
 x 1
 y 12
-elevation 4965
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 13
-elevation 5752
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 14
-elevation 6379
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 15
-elevation 6178
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 16
-elevation 5654
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 17
-elevation 5121
+move_block all
 end
-arch hills
+arch woods_3
 x 1
 y 18
-elevation 4960
+move_block all
 end
-arch mountain
+arch grass
 x 1
 y 19
-elevation 5042
 end
-arch mountain
+arch grass
 x 1
 y 20
-elevation 5195
 end
-arch mountain
+arch grass
 x 1
 y 21
-elevation 5411
 end
-arch mountain
+arch woods
 x 1
 y 22
-elevation 5416
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 1
 y 23
-elevation 4554
+move_block all
 end
-arch hills_rocky
+arch woods
 x 1
 y 24
-elevation 4546
+move_block all
 end
-arch mountain
+arch grassmedium
 x 1
 y 25
-elevation 5984
 end
-arch mountain
+arch woods
 x 1
 y 26
-elevation 6154
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 1
 y 27
-elevation 4972
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 28
-elevation 6188
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 29
-elevation 6318
+move_block all
 end
-arch mountain
+arch woods
 x 1
 y 30
-elevation 6250
+move_block all
 end
-arch mountain
+arch woods_3
 x 1
 y 31
-elevation 6175
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 1
 y 32
-elevation 6353
 end
 arch mountain
 x 1
@@ -456,169 +451,181 @@ x 1
 y 49
 elevation 8995
 end
-arch mountain
+arch woods
 x 2
-elevation 7061
+move_block all
 end
-arch mountain
+arch woods
 x 2
 y 1
-elevation 7307
+move_block all
 end
-arch mountain
+arch woods_3
 x 2
 y 2
-elevation 5387
+move_block all
 end
-arch mountain
+arch woods_3
+x 2
+y 2
+move_block all
+end
+arch woods_3
 x 2
 y 3
-elevation 7942
+move_block all
 end
-arch mountain2
+arch woods_3
+x 2
+y 3
+move_block all
+end
+arch woods
 x 2
 y 4
-elevation 9192
+move_block all
 end
-arch mountain2
+arch woods
 x 2
 y 5
-elevation 10472
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 2
 y 6
-elevation 11348
 end
-arch mountain4
+arch grassmedium
 x 2
 y 7
-elevation 12225
 end
-arch mountain2
+arch grassmedium
 x 2
 y 8
-elevation 11840
 end
-arch mountain2
+arch woods
 x 2
 y 9
-elevation 9948
+move_block all
 end
-arch mountain
+arch woods_3
 x 2
 y 10
-elevation 6439
+move_block all
 end
-arch mountain
+arch woods_3
 x 2
 y 11
-elevation 5109
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 2
 y 12
-elevation 4407
+move_block all
 end
-arch mountain
+arch grassmedium
 x 2
 y 13
-elevation 5968
 end
-arch mountain
+arch grassmedium
 x 2
 y 14
-elevation 6516
 end
-arch mountain
+arch grassmedium
 x 2
 y 15
-elevation 5832
 end
-arch hills_rocky
+arch grassmedium
 x 2
 y 16
-elevation 4399
 end
-arch hills_rocky
+arch woods
 x 2
 y 17
-elevation 3927
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 2
 y 18
-elevation 4600
+move_block all
 end
-arch hills_rocky
+arch woods_3
+x 2
+y 18
+move_block all
+end
+arch woods_3
 x 2
 y 19
-elevation 4590
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 2
 y 20
-elevation 4447
+move_block all
 end
-arch hills
+arch woods_3
 x 2
 y 21
-elevation 3350
+move_block all
 end
-arch hills_rocky
+arch woods_3
+x 2
+y 21
+move_block all
+end
+arch grassmedium
 x 2
 y 22
-elevation 4446
 end
-arch hills_rocky
+arch grassmedium
 x 2
 y 23
-elevation 4293
 end
-arch hills
+arch grassmedium
 x 2
 y 24
-elevation 4360
 end
-arch hills
+arch grassmedium
 x 2
 y 25
-elevation 4864
 end
-arch mountain
+arch grassmedium
 x 2
 y 26
-elevation 5197
 end
-arch mountain
+arch woods_3
 x 2
 y 27
-elevation 5248
+move_block all
 end
-arch mountain
+arch woods_3
+x 2
+y 27
+move_block all
+end
+arch woods_3
 x 2
 y 28
-elevation 5304
+move_block all
 end
-arch mountain
+arch woods
 x 2
 y 29
-elevation 5326
+move_block all
 end
-arch mountain
+arch woods
 x 2
 y 30
-elevation 5048
+move_block all
 end
-arch mountain
+arch woods
 x 2
 y 31
-elevation 5091
+move_block all
 end
-arch hills_rocky
+arch fernrockscliff2
 x 2
 y 32
-elevation 4873
 end
 arch mountain
 x 2
@@ -705,169 +712,151 @@ x 2
 y 49
 elevation 9710
 end
-arch mountain
+arch woods
 x 3
-elevation 7384
+move_block all
 end
-arch mountain
+arch grassmedium
 x 3
 y 1
-elevation 7455
 end
-arch mountain
+arch grassmedium
 x 3
 y 2
-elevation 7285
 end
-arch mountain
+arch grassmedium
 x 3
 y 3
-elevation 7111
-end
-arch mountain
-x 3
-y 4
-elevation 7339
-end
-arch mountain2
-x 3
-y 5
-elevation 9410
-end
-arch mountain2
-x 3
-y 6
-elevation 10030
-end
-arch mountain2
-x 3
-y 7
-elevation 10798
-end
-arch mountain2
-x 3
-y 8
-elevation 9438
-end
-arch mountain2
-x 3
-y 9
-elevation 9709
-end
-arch mountain
-x 3
-y 10
-elevation 8644
-end
-arch mountain
-x 3
-y 11
-elevation 7160
-end
-arch hills_rocky
-x 3
-y 12
-elevation 4246
-end
-arch mountain
-x 3
-y 13
-elevation 6463
-end
-arch mountain
-x 3
-y 14
-elevation 6485
-end
-arch mountain
-x 3
-y 15
-elevation 5566
-end
-arch hills_rocky
-x 3
-y 16
-elevation 4416
-end
-arch hills_rocky
-x 3
-y 17
-elevation 3858
-end
-arch hills_rocky
-x 3
-y 18
-elevation 3849
-end
-arch hills_rocky
-x 3
-y 19
-elevation 3829
-end
-arch woods_2
-x 3
-y 20
-elevation 2705
-end
-arch hills_rocky
-x 3
-y 21
-elevation 3737
-end
-arch hills_rocky
-x 3
-y 22
-elevation 3918
-end
-arch hills
-x 3
-y 23
-elevation 3238
-end
-arch evergreens
-x 3
-y 24
-elevation 2475
-end
-arch hills_rocky
-x 3
-y 25
-elevation 3491
-end
-arch hills_rocky
-x 3
-y 26
-elevation 3792
-end
-arch hills_rocky
-x 3
-y 27
-elevation 3932
-end
-arch hills_rocky
-x 3
-y 28
-elevation 4322
-end
-arch hills
-x 3
-y 29
-elevation 4512
-end
-arch woods_2
-x 3
-y 30
-elevation 2632
 end
 arch woods
 x 3
-y 31
-elevation 2260
+y 4
+move_block all
 end
-arch mountain
+arch grassmedium
+x 3
+y 5
+end
+arch grassmedium
+x 3
+y 6
+end
+arch grassmedium
+x 3
+y 7
+end
+arch woods_3
+x 3
+y 8
+move_block all
+end
+arch woods
+x 3
+y 9
+move_block all
+end
+arch woods_3
+x 3
+y 10
+move_block all
+end
+arch woods_3
+x 3
+y 11
+move_block all
+end
+arch woods
+x 3
+y 12
+move_block all
+end
+arch grassmedium
+x 3
+y 13
+end
+arch grassmedium
+x 3
+y 14
+end
+arch woods_3
+x 3
+y 15
+move_block all
+end
+arch grassmedium
+x 3
+y 16
+end
+arch grassmedium
+x 3
+y 17
+end
+arch grassmedium
+x 3
+y 18
+end
+arch grassmedium
+x 3
+y 19
+end
+arch woods
+x 3
+y 20
+move_block all
+end
+arch grassmedium
+x 3
+y 21
+end
+arch grassmedium
+x 3
+y 22
+end
+arch grassmedium
+x 3
+y 23
+end
+arch grassmedium
+x 3
+y 24
+end
+arch grassmedium
+x 3
+y 25
+end
+arch woods_3
+x 3
+y 26
+move_block all
+end
+arch woods_3
+x 3
+y 27
+move_block all
+end
+arch woods
+x 3
+y 28
+move_block all
+end
+arch woods_3
+x 3
+y 29
+move_block all
+end
+arch woods
+x 3
+y 30
+move_block all
+end
+arch woods_3
+x 3
+y 31
+move_block all
+end
+arch fernrockscliff2
 x 3
 y 32
-elevation 5640
 end
 arch mountain
 x 3
@@ -954,169 +943,158 @@ x 3
 y 49
 elevation 9833
 end
-arch mountain
+arch woods
 x 4
-elevation 8826
+move_block all
 end
-arch mountain
+arch grassmedium
 x 4
 y 1
-elevation 8834
 end
-arch hills_rocky
+arch mushroom_1
+x 4
+y 1
+end
+arch grassmedium
 x 4
 y 2
-elevation 4867
 end
-arch mountain
+arch grassmedium
 x 4
 y 3
-elevation 7576
 end
-arch mountain
+arch grassmedium
 x 4
 y 4
-elevation 6086
 end
-arch mountain2
+arch grassmedium
 x 4
 y 5
-elevation 9397
 end
-arch mountain2
+arch woods_3
 x 4
 y 6
-elevation 10506
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 4
 y 7
-elevation 10561
 end
-arch mountain2
+arch grassmedium
 x 4
 y 8
-elevation 10414
 end
-arch mountain2
+arch woods_3
 x 4
 y 9
-elevation 10071
+move_block all
 end
-arch mountain2
+arch woods
 x 4
 y 10
-elevation 9916
+move_block all
 end
-arch mountain
+arch woods
 x 4
 y 11
-elevation 8884
+move_block all
 end
-arch mountain
+arch woods
 x 4
 y 12
-elevation 7865
+move_block all
 end
-arch mountain
+arch grassmedium
 x 4
 y 13
-elevation 7216
 end
-arch mountain
+arch woods_3
 x 4
 y 14
-elevation 6727
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 4
 y 15
-elevation 4781
+move_block all
 end
-arch hills_rocky
+arch woods
 x 4
 y 16
-elevation 3542
+move_block all
 end
-arch evergreens
+arch woods
 x 4
 y 17
-elevation 2930
+move_block all
 end
-arch evergreens
+arch woods
 x 4
 y 18
-elevation 2629
+move_block all
 end
-arch hills_rocky
+arch grassmedium
 x 4
 y 19
-elevation 3165
 end
-arch hills_rocky
+arch grassmedium
 x 4
 y 20
-elevation 3266
 end
-arch hills_rocky
+arch grassmedium
 x 4
 y 21
-elevation 3527
 end
-arch hills_rocky
+arch grassmedium
 x 4
 y 22
-elevation 3729
 end
-arch hills_rocky
+arch woods_3
 x 4
 y 23
-elevation 3479
+move_block all
 end
-arch woods_2
+arch woods_3
 x 4
 y 24
-elevation 2120
+move_block all
 end
-arch jungle_1
+arch grassmedium
 x 4
 y 25
-elevation 2389
 end
-arch jungle_1
+arch grassmedium
 x 4
 y 26
-elevation 1527
 end
-arch evergreens
+arch woods_3
 x 4
 y 27
-elevation 1844
+move_block all
 end
-arch evergreens
+arch woods
 x 4
 y 28
-elevation 2867
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 4
 y 29
-elevation 4285
+move_block all
 end
-arch mountain
+arch woods
 x 4
 y 30
-elevation 5028
+move_block all
 end
-arch mountain
+arch woods_3
 x 4
 y 31
-elevation 6113
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 4
 y 32
-elevation 7449
 end
 arch mountain
 x 4
@@ -1203,169 +1181,160 @@ x 4
 y 49
 elevation 9393
 end
-arch mountain2
+arch woods_3
 x 5
-elevation 10939
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 5
 y 1
-elevation 10470
 end
-arch mountain2
+arch grassmedium
 x 5
 y 2
-elevation 9633
 end
-arch mountain
+arch grassmedium
 x 5
 y 3
-elevation 8780
 end
-arch mountain
+arch grassmedium
 x 5
 y 4
-elevation 8705
 end
-arch mountain2
+arch woods
 x 5
 y 5
-elevation 10339
+move_block all
 end
-arch mountain2
+arch woods_3
 x 5
 y 6
-elevation 11408
+move_block all
 end
-arch mountain2
+arch woods
 x 5
 y 7
-elevation 11197
+move_block all
 end
-arch mountain
+arch grassmedium
 x 5
 y 8
-elevation 8581
 end
-arch mountain2
+arch grassmedium
 x 5
 y 9
-elevation 10626
 end
-arch mountain2
+arch woods
 x 5
 y 10
-elevation 10654
+move_block all
 end
-arch mountain2
+arch woods
 x 5
 y 11
-elevation 9998
+move_block all
 end
-arch mountain
+arch grassmedium
 x 5
 y 12
-elevation 8851
 end
-arch mountain
+arch grassmedium
 x 5
 y 13
-elevation 7188
 end
-arch mountain
+arch grassmedium
 x 5
 y 14
-elevation 7097
 end
-arch mountain
+arch grassmedium
 x 5
 y 15
-elevation 6157
 end
-arch hills_rocky
+arch woods
 x 5
 y 16
-elevation 4714
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 5
 y 17
-elevation 3571
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 5
 y 18
-elevation 3278
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 5
 y 19
-elevation 3260
+move_block all
 end
-arch hills
+arch grassmedium
 x 5
 y 20
-elevation 3378
 end
-arch hills_rocky
+arch woods
 x 5
 y 21
-elevation 3162
+move_block all
 end
-arch hills_rocky
+arch woods
 x 5
 y 22
-elevation 3321
+move_block all
 end
-arch hills
+arch woods
 x 5
 y 23
-elevation 3419
+move_block all
 end
-arch hills_rocky
+arch woods
 x 5
 y 24
-elevation 3428
+move_block all
 end
-arch hills_rocky
+arch grassmedium
 x 5
 y 25
-elevation 3111
 end
-arch evergreens
+arch grassmedium
 x 5
 y 26
-elevation 2869
 end
-arch jungle_1
+arch woods_3
 x 5
 y 27
-elevation 2384
+move_block all
 end
-arch woods_2
+arch woods_3
+x 5
+y 27
+move_block all
+end
+arch woods
 x 5
 y 28
-elevation 2983
+move_block all
 end
-arch hills_rocky
+arch woods
 x 5
 y 29
-elevation 4644
+move_block all
 end
-arch mountain
+arch woods
 x 5
 y 30
-elevation 6069
+move_block all
 end
-arch mountain
+arch woods_3
 x 5
 y 31
-elevation 7680
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 5
 y 32
-elevation 8787
 end
 arch mountain
 x 5
@@ -1452,169 +1421,164 @@ x 5
 y 49
 elevation 7989
 end
-arch mountain4
+arch woods
 x 6
-elevation 12393
+move_block all
 end
-arch mountain4
+arch woods_3
 x 6
 y 1
-elevation 12088
+move_block all
 end
-arch mountain2
+arch woods
 x 6
 y 2
-elevation 11515
+move_block all
 end
-arch mountain2
+arch woods_3
 x 6
 y 3
-elevation 10711
+move_block all
 end
-arch mountain2
+arch woods_3
 x 6
 y 4
-elevation 10104
+move_block all
 end
-arch mountain2
+arch woods_3
 x 6
 y 5
-elevation 11467
+move_block all
 end
-arch mountain4
+arch woods_3
 x 6
 y 6
-elevation 12262
+move_block all
 end
-arch mountain2
+arch woods
 x 6
 y 7
-elevation 11542
+move_block all
 end
-arch mountain2
+arch woods
 x 6
 y 8
-elevation 10886
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 6
 y 9
-elevation 10592
 end
-arch mountain2
+arch woods
 x 6
 y 10
-elevation 10620
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 6
 y 11
-elevation 9792
 end
-arch mountain
+arch grassmedium
 x 6
 y 12
-elevation 8397
 end
-arch mountain
+arch woods
 x 6
 y 13
-elevation 7531
+move_block all
 end
-arch mountain
+arch woods_3
 x 6
 y 14
-elevation 7049
+move_block all
 end
-arch mountain
+arch grassmedium
 x 6
 y 15
-elevation 6858
 end
-arch mountain
+arch mushroom_1
+x 6
+y 15
+end
+arch woods
 x 6
 y 16
-elevation 5510
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 6
 y 17
-elevation 3075
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 6
 y 18
-elevation 3535
+move_block all
 end
-arch hills
+arch grassmedium
 x 6
 y 19
-elevation 3839
 end
-arch hills_rocky
+arch woods
 x 6
 y 20
-elevation 3377
+move_block all
 end
-arch evergreens
+arch grassmedium
 x 6
 y 21
-elevation 2796
 end
-arch evergreens
+arch woods
 x 6
 y 22
-elevation 1128
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 6
 y 23
-elevation 3489
+move_block all
 end
-arch hills
+arch woods
 x 6
 y 24
-elevation 4069
+move_block all
 end
-arch hills_rocky
+arch grassmedium
 x 6
 y 25
-elevation 3521
 end
-arch hills
+arch grassmedium
 x 6
 y 26
-elevation 3988
 end
-arch hills_rocky
+arch woods
 x 6
 y 27
-elevation 4094
+move_block all
 end
-arch hills_rocky
+arch woods
 x 6
 y 28
-elevation 4320
+move_block all
 end
-arch hills_rocky
+arch woods
 x 6
 y 29
-elevation 3893
+move_block all
 end
-arch mountain
+arch woods
 x 6
 y 30
-elevation 6354
+move_block all
 end
-arch mountain
+arch woods
 x 6
 y 31
-elevation 8005
+move_block all
 end
-arch mountain2
+arch fernrockscliff2
 x 6
 y 32
-elevation 9058
 end
 arch mountain
 x 6
@@ -1701,169 +1665,167 @@ x 6
 y 49
 elevation 5705
 end
-arch mountain4
+arch woods_3
 x 7
-elevation 12408
+move_block all
 end
-arch mountain4
+arch woods_3
 x 7
 y 1
-elevation 12511
+move_block all
 end
-arch mountain4
+arch woods
 x 7
 y 2
-elevation 12498
+move_block all
 end
-arch mountain2
+arch woods_3
 x 7
 y 3
-elevation 11795
+move_block all
 end
-arch mountain2
+arch woods_3
 x 7
 y 4
-elevation 10351
+move_block all
 end
-arch mountain4
+arch woods_3
 x 7
 y 5
-elevation 12162
+move_block all
 end
-arch mountain4
+arch woods_3
 x 7
 y 6
-elevation 12611
+move_block all
 end
-arch mountain2
+arch woods
 x 7
 y 7
-elevation 11600
+move_block all
 end
-arch mountain
+arch woods_3
 x 7
 y 8
-elevation 8820
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 7
 y 9
-elevation 10646
 end
-arch mountain2
+arch woods
 x 7
 y 10
-elevation 10326
+move_block all
 end
-arch mountain
+arch grassmedium
 x 7
 y 11
-elevation 8372
 end
-arch mountain
+arch woods_3
 x 7
 y 12
-elevation 7589
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 7
 y 13
-elevation 4772
+move_block all
 end
-arch mountain
+arch woods
 x 7
 y 14
-elevation 6919
+move_block all
 end
-arch mountain
+arch woods_3
 x 7
 y 15
-elevation 7117
+move_block all
 end
-arch mountain
+arch woods
 x 7
 y 16
-elevation 6746
+move_block all
 end
-arch mountain
+arch grassmedium
 x 7
 y 17
-elevation 5934
 end
-arch hills_rocky
+arch grassmedium
 x 7
 y 18
-elevation 4869
 end
-arch hills_rocky
+arch grassmedium
 x 7
 y 19
-elevation 3855
 end
-arch woods_2
+arch grassmedium
 x 7
 y 20
-elevation 2937
 end
-arch evergreens
+arch grassmedium
 x 7
 y 21
-elevation 2314
 end
-arch evergreens
+arch mushroom_1
+x 7
+y 21
+end
+arch woods
 x 7
 y 22
-elevation 2142
+move_block all
 end
-arch hills
+arch woods_3
 x 7
 y 23
-elevation 3507
+move_block all
 end
-arch hills
+arch grassmedium
 x 7
 y 24
-elevation 4614
 end
-arch hills_rocky
+arch mushroom_1
+x 7
+y 24
+end
+arch grassmedium
 x 7
 y 25
-elevation 4845
 end
-arch hills_rocky
+arch woods_3
 x 7
 y 26
-elevation 4586
+move_block all
 end
-arch hills
+arch woods_3
 x 7
 y 27
-elevation 4624
+move_block all
 end
-arch hills_rocky
+arch woods
 x 7
 y 28
-elevation 4688
+move_block all
 end
-arch mountain
+arch woods
 x 7
 y 29
-elevation 5223
+move_block all
 end
-arch mountain
+arch woods_3
 x 7
 y 30
-elevation 6150
+move_block all
 end
-arch mountain
+arch woods_3
 x 7
 y 31
-elevation 7228
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 7
 y 32
-elevation 8636
 end
 arch mountain
 x 7
@@ -1950,169 +1912,162 @@ x 7
 y 49
 elevation 3326
 end
-arch mountain2
+arch woods
 x 8
-elevation 11499
+move_block all
 end
-arch mountain4
+arch woods
 x 8
 y 1
-elevation 12107
+move_block all
 end
-arch mountain4
+arch woods
 x 8
 y 2
-elevation 12434
+move_block all
 end
-arch mountain4
+arch grassmedium
 x 8
 y 3
-elevation 12043
 end
-arch mountain2
+arch grassmedium
 x 8
 y 4
-elevation 11493
 end
-arch mountain4
+arch grassmedium
 x 8
 y 5
-elevation 12159
 end
-arch mountain2
+arch woods_3
 x 8
 y 6
-elevation 11867
+move_block all
 end
-arch mountain2
+arch woods
 x 8
 y 7
-elevation 10322
+move_block all
 end
-arch mountain2
+arch woods
 x 8
 y 8
-elevation 9377
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 8
 y 9
-elevation 10104
 end
-arch mountain2
+arch grassmedium
 x 8
 y 10
-elevation 10341
 end
-arch mountain2
+arch grassmedium
 x 8
 y 11
-elevation 9472
 end
-arch mountain
+arch grassmedium
 x 8
 y 12
-elevation 8460
 end
-arch mountain
+arch woods_3
 x 8
 y 13
-elevation 7773
+move_block all
 end
-arch mountain
+arch woods
 x 8
 y 14
-elevation 5864
+move_block all
 end
-arch mountain
+arch woods_3
 x 8
 y 15
-elevation 7598
+move_block all
 end
-arch mountain
+arch grassmedium
 x 8
 y 16
-elevation 7427
 end
-arch mountain
+arch grassmedium
 x 8
 y 17
-elevation 6557
 end
-arch mountain
+arch woods
 x 8
 y 18
-elevation 5160
+move_block all
 end
-arch evergreens
+arch grassmedium
 x 8
 y 19
-elevation 2800
 end
-arch jungle_1
+arch woods_3
 x 8
 y 20
-elevation 1215
+move_block all
 end
-arch evergreens
+arch woods_3
 x 8
 y 21
-elevation 1798
+move_block all
 end
-arch jungle_1
+arch woods
 x 8
 y 22
-elevation 2592
+move_block all
 end
-arch hills_rocky
+arch grassmedium
 x 8
 y 23
-elevation 3795
 end
-arch hills_rocky
+arch mushroom_1
+x 8
+y 23
+end
+arch grassmedium
 x 8
 y 24
-elevation 4821
 end
-arch mountain
+arch grassmedium
 x 8
 y 25
-elevation 5098
 end
-arch hills_rocky
+arch grassmedium
 x 8
 y 26
-elevation 4680
 end
-arch hills_rocky
+arch mushroom_1
+x 8
+y 26
+end
+arch woods_3
 x 8
 y 27
-elevation 3687
+move_block all
 end
-arch hills_rocky
+arch woods
 x 8
 y 28
-elevation 4194
+move_block all
 end
-arch hills_rocky
+arch woods
 x 8
 y 29
-elevation 4535
+move_block all
 end
-arch mountain
+arch woods
 x 8
 y 30
-elevation 5011
+move_block all
 end
-arch mountain
+arch woods_3
 x 8
 y 31
-elevation 6770
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 8
 y 32
-elevation 7890
 end
 arch mountain
 x 8
@@ -2199,169 +2154,158 @@ x 8
 y 49
 elevation 3832
 end
-arch mountain2
+arch woods_3
 x 9
-elevation 9814
+move_block all
 end
-arch mountain2
+arch woods_3
 x 9
 y 1
-elevation 11579
+move_block all
 end
-arch mountain2
+arch woods
 x 9
 y 2
-elevation 11494
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 9
 y 3
-elevation 11536
 end
-arch mountain2
+arch grassmedium
 x 9
 y 4
-elevation 11188
 end
-arch mountain2
+arch grassmedium
 x 9
 y 5
-elevation 11145
 end
-arch mountain2
+arch grassmedium
 x 9
 y 6
-elevation 10381
 end
-arch mountain
+arch grassmedium
 x 9
 y 7
-elevation 7399
 end
-arch mountain
+arch woods_3
 x 9
 y 8
-elevation 6872
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 9
 y 9
-elevation 9874
 end
-arch mountain2
+arch grassmedium
 x 9
 y 10
-elevation 9783
 end
-arch mountain
+arch grassmedium
 x 9
 y 11
-elevation 8995
 end
-arch mountain
+arch grassmedium
 x 9
 y 12
-elevation 8883
 end
-arch mountain2
+arch grassmedium
 x 9
 y 13
-elevation 9222
 end
-arch mountain2
+arch grassmedium
 x 9
 y 14
-elevation 9243
 end
-arch mountain
+arch grassmedium
 x 9
 y 15
-elevation 8679
 end
-arch mountain
+arch grassmedium
 x 9
 y 16
-elevation 6427
 end
-arch mountain
+arch grassmedium
 x 9
 y 17
-elevation 6467
 end
-arch hills_rocky
+arch grassmedium
 x 9
 y 18
-elevation 4808
 end
-arch woods
+arch grassmedium
 x 9
 y 19
-elevation 2469
 end
-arch evergreens
+arch grassmedium
 x 9
 y 20
-elevation 2357
+end
+arch grassmedium
+x 9
+y 21
+end
+arch woods_3
+x 9
+y 22
+move_block all
 end
 arch woods
 x 9
-y 21
-elevation 1508
-end
-arch evergreens
-x 9
-y 22
-elevation 2531
-end
-arch steppe
-x 9
 y 23
-elevation 3499
+move_block all
 end
-arch steppe
+arch woods
 x 9
 y 24
-elevation 4392
+move_block all
 end
-arch hills
+arch grassmedium
 x 9
 y 25
-elevation 4676
 end
-arch hills
+arch mushroom_1
+x 9
+y 25
+end
+arch woods
 x 9
 y 26
-elevation 4231
+move_block all
 end
-arch hills_rocky
+arch woods
 x 9
 y 27
-elevation 3442
+move_block all
 end
-arch jungle_1
+arch woods_3
 x 9
 y 28
-elevation 2801
+move_block all
 end
-arch woods_2
+arch woods
 x 9
 y 29
-elevation 2346
+move_block all
 end
-arch hills_rocky
+arch woods
 x 9
 y 30
-elevation 3721
+move_block all
 end
-arch mountain
+arch woods_3
 x 9
 y 31
-elevation 5668
+move_block all
 end
-arch mountain
+arch woods_3
+x 9
+y 31
+move_block all
+end
+arch fernrockscliff2
 x 9
 y 32
-elevation 6371
 end
 arch mountain
 x 9
@@ -2448,169 +2392,159 @@ x 9
 y 49
 elevation 5754
 end
-arch mountain2
+arch woods
 x 10
-elevation 10519
-end
-arch mountain2
-x 10
-y 1
-elevation 11507
-end
-arch mountain2
-x 10
-y 2
-elevation 11285
-end
-arch mountain2
-x 10
-y 3
-elevation 9748
-end
-arch mountain2
-x 10
-y 4
-elevation 10076
-end
-arch mountain
-x 10
-y 5
-elevation 8130
-end
-arch mountain2
-x 10
-y 6
-elevation 9358
-end
-arch mountain2
-x 10
-y 7
-elevation 9078
-end
-arch mountain2
-x 10
-y 8
-elevation 9019
-end
-arch mountain2
-x 10
-y 9
-elevation 9407
-end
-arch mountain2
-x 10
-y 10
-elevation 9048
-end
-arch mountain
-x 10
-y 11
-elevation 5314
-end
-arch mountain
-x 10
-y 12
-elevation 8658
-end
-arch mountain2
-x 10
-y 13
-elevation 9847
-end
-arch mountain2
-x 10
-y 14
-elevation 10250
-end
-arch mountain2
-x 10
-y 15
-elevation 9622
-end
-arch mountain
-x 10
-y 16
-elevation 8637
-end
-arch mountain
-x 10
-y 17
-elevation 7302
-end
-arch mountain
-x 10
-y 18
-elevation 5914
-end
-arch steppe
-x 10
-y 19
-elevation 4606
-end
-arch hills_rocky
-x 10
-y 20
-elevation 3377
+move_block all
 end
 arch woods
 x 10
-y 21
-elevation 2447
+y 1
+move_block all
 end
-arch jungle_1
+arch grassmedium
+x 10
+y 2
+end
+arch grassmedium
+x 10
+y 3
+end
+arch grassmedium
+x 10
+y 4
+end
+arch woods
+x 10
+y 5
+move_block all
+end
+arch woods
+x 10
+y 6
+move_block all
+end
+arch grassmedium
+x 10
+y 7
+end
+arch grassmedium
+x 10
+y 8
+end
+arch grassmedium
+x 10
+y 9
+end
+arch grassmedium
+x 10
+y 10
+end
+arch grassmedium
+x 10
+y 11
+end
+arch grassmedium
+x 10
+y 12
+end
+arch grassmedium
+x 10
+y 13
+end
+arch grassmedium
+x 10
+y 14
+end
+arch button_small
+x 10
+y 15
+connected 30
+end
+arch grassmedium
+x 10
+y 15
+end
+arch grassmedium
+x 10
+y 16
+end
+arch grassmedium
+x 10
+y 17
+end
+arch grassmedium
+x 10
+y 18
+end
+arch grassmedium
+x 10
+y 19
+end
+arch grassmedium
+x 10
+y 20
+end
+arch grassmedium
+x 10
+y 21
+end
+arch grassmedium
 x 10
 y 22
-elevation 1626
 end
-arch jungle_1
+arch woods_3
 x 10
 y 23
-elevation 2367
+move_block all
 end
-arch steppe
+arch woods_3
 x 10
 y 24
-elevation 3705
+move_block all
 end
-arch steppe
+arch woods
 x 10
 y 25
-elevation 3918
+move_block all
 end
-arch steppe
+arch woods_3
 x 10
 y 26
-elevation 3769
+move_block all
 end
-arch jungle_1
+arch woods
 x 10
 y 27
-elevation 2839
+move_block all
 end
-arch jungle_1
+arch woods
 x 10
 y 28
-elevation 1912
+move_block all
 end
-arch woods_2
+arch woods
 x 10
 y 29
-elevation 1761
+move_block all
 end
-arch hills_rocky
+arch woods
 x 10
 y 30
-elevation 4395
+move_block all
 end
-arch hills_rocky
+arch woods
 x 10
 y 31
-elevation 4854
+move_block all
 end
-arch woods_2
+arch woods
+x 10
+y 31
+move_block all
+end
+arch fernrockscliff2
 x 10
 y 32
-elevation 2374
 end
 arch hills
 x 10
@@ -2697,169 +2631,209 @@ x 10
 y 49
 elevation 8587
 end
-arch mountain2
+arch woods_3
 x 11
-elevation 10866
+move_block all
 end
-arch mountain2
+arch woods_3
 x 11
 y 1
-elevation 11406
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 11
 y 2
-elevation 10417
 end
-arch mountain2
+arch grassmedium
 x 11
 y 3
-elevation 9204
 end
-arch mountain2
+arch woods_3
 x 11
 y 4
-elevation 9010
+move_block all
 end
-arch mountain
+arch woods_3
 x 11
 y 5
-elevation 8496
+move_block all
 end
-arch mountain2
+arch woods_3
 x 11
 y 6
-elevation 9320
-end
-arch mountain
-x 11
-y 7
-elevation 8894
-end
-arch mountain2
-x 11
-y 8
-elevation 9086
-end
-arch mountain
-x 11
-y 9
-elevation 8832
-end
-arch mountain
-x 11
-y 10
-elevation 8079
-end
-arch mountain
-x 11
-y 11
-elevation 7771
-end
-arch mountain
-x 11
-y 12
-elevation 7903
-end
-arch mountain
-x 11
-y 13
-elevation 8874
-end
-arch mountain2
-x 11
-y 14
-elevation 9423
-end
-arch mountain2
-x 11
-y 15
-elevation 9554
-end
-arch mountain
-x 11
-y 16
-elevation 8876
-end
-arch mountain
-x 11
-y 17
-elevation 7881
-end
-arch mountain
-x 11
-y 18
-elevation 6712
-end
-arch mountain
-x 11
-y 19
-elevation 5440
-end
-arch hills_rocky
-x 11
-y 20
-elevation 3991
-end
-arch jungle_1
-x 11
-y 21
-elevation 2669
-end
-arch evergreens
-x 11
-y 22
-elevation 2055
+move_block all
 end
 arch woods
 x 11
-y 23
-elevation 2086
+y 7
+move_block all
 end
-arch hills_rocky
+arch grassmedium
+x 11
+y 8
+end
+arch grassmedium
+x 11
+y 9
+end
+arch grassmedium
+x 11
+y 10
+end
+arch grassmedium
+x 11
+y 11
+end
+arch grassmedium
+x 11
+y 12
+end
+arch unholy_ground
+x 11
+y 13
+end
+arch dungeon_magic
+x 11
+y 13
+end
+arch grassdark
+x 11
+y 13
+end
+arch unholy_ground
+x 11
+y 14
+end
+arch dungeon_magic
+x 11
+y 14
+end
+arch button_small
+x 11
+y 14
+connected 10
+end
+arch grassdark
+x 11
+y 14
+end
+arch unholy_ground
+x 11
+y 15
+end
+arch dungeon_magic
+x 11
+y 15
+end
+arch button_small
+x 11
+y 15
+connected 40
+end
+arch grassdark
+x 11
+y 15
+end
+arch unholy_ground
+x 11
+y 16
+end
+arch dungeon_magic
+x 11
+y 16
+end
+arch button_small
+x 11
+y 16
+connected 20
+end
+arch grassdark
+x 11
+y 16
+end
+arch unholy_ground
+x 11
+y 17
+end
+arch dungeon_magic
+x 11
+y 17
+end
+arch grassdark
+x 11
+y 17
+end
+arch grassmedium
+x 11
+y 18
+end
+arch grassmedium
+x 11
+y 19
+end
+arch grassmedium
+x 11
+y 20
+end
+arch grassmedium
+x 11
+y 21
+end
+arch grassmedium
+x 11
+y 22
+end
+arch grassmedium
+x 11
+y 23
+end
+arch grassmedium
 x 11
 y 24
-elevation 3138
 end
-arch steppe
+arch woods_3
 x 11
 y 25
-elevation 3747
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 11
 y 26
-elevation 3576
+move_block all
 end
-arch woods_2
+arch woods
 x 11
 y 27
-elevation 2483
+move_block all
 end
-arch woods_2
+arch woods_3
 x 11
 y 28
-elevation 2872
+move_block all
 end
-arch hills_rocky
+arch woods_3
 x 11
 y 29
-elevation 3826
+move_block all
 end
-arch hills_rocky
+arch woods
 x 11
 y 30
-elevation 4943
+move_block all
 end
-arch mountain
+arch woods_3
 x 11
 y 31
-elevation 5058
+move_block all
 end
-arch tree
+arch woods
+x 11
+y 31
+move_block all
+end
+arch fernrockscliff2
 x 11
 y 32
-elevation 2109
 end
 arch hills_rocky
 x 11
@@ -2946,169 +2920,215 @@ x 11
 y 49
 elevation 11889
 end
-arch mountain2
+arch woods
 x 12
-elevation 10498
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 12
 y 1
-elevation 9838
 end
-arch mountain
+arch grassmedium
 x 12
 y 2
-elevation 8236
 end
-arch mountain
+arch woods_3
 x 12
 y 3
-elevation 7085
+move_block all
 end
-arch mountain
+arch woods_3
 x 12
 y 4
-elevation 8059
+move_block all
 end
-arch mountain2
+arch woods_3
 x 12
 y 5
-elevation 9138
+move_block all
 end
-arch mountain2
+arch woods
 x 12
 y 6
-elevation 9472
+move_block all
 end
-arch mountain
+arch woods_3
 x 12
 y 7
-elevation 8789
+move_block all
 end
-arch mountain
+arch grassmedium
 x 12
 y 8
-elevation 7958
 end
-arch mountain
+arch grassmedium
 x 12
 y 9
-elevation 7341
 end
-arch mountain
+arch grassmedium
 x 12
 y 10
-elevation 6813
 end
-arch mountain
+arch unholy_ground
 x 12
 y 11
-elevation 7064
 end
-arch mountain
+arch dungeon_magic
+x 12
+y 11
+end
+arch grassdark
+x 12
+y 11
+end
+arch unholy_ground
 x 12
 y 12
-elevation 7007
 end
-arch mountain
+arch dungeon_magic
+x 12
+y 12
+end
+arch grassdark
+x 12
+y 12
+end
+arch unholy_ground
 x 12
 y 13
-elevation 5284
 end
-arch mountain
+arch dungeon_magic
+x 12
+y 13
+end
+arch grassdark
+x 12
+y 13
+end
+arch shallow_sea
+name water
 x 12
 y 14
-elevation 7910
 end
-arch mountain
+arch igate_closed_2
 x 12
 y 15
-elevation 8269
+connected 41
+blocksview 0
 end
-arch mountain
+arch creator
+name grassdark
+slaying grassdark
+other_arch grassdark
+x 12
+y 15
+connected 41
+end
+arch shallow_sea
+name water
+x 12
+y 15
+move_block 0
+end
+arch shallow_sea
+name water
 x 12
 y 16
-elevation 8060
 end
-arch mountain
+arch unholy_ground
 x 12
 y 17
-elevation 7262
 end
-arch mountain
+arch dungeon_magic
+x 12
+y 17
+end
+arch grassdark
+x 12
+y 17
+end
+arch unholy_ground
 x 12
 y 18
-elevation 6506
 end
-arch mountain
+arch dungeon_magic
+x 12
+y 18
+end
+arch grassdark
+x 12
+y 18
+end
+arch unholy_ground
 x 12
 y 19
-elevation 5390
 end
-arch steppe
+arch dungeon_magic
+x 12
+y 19
+end
+arch grassdark
+x 12
+y 19
+end
+arch grassmedium
 x 12
 y 20
-elevation 3740
 end
-arch woods
+arch grassmedium
 x 12
 y 21
-elevation 2195
 end
-arch woods
+arch grassmedium
 x 12
 y 22
-elevation 1223
+end
+arch grassmedium
+x 12
+y 23
+end
+arch grassmedium
+x 12
+y 24
+end
+arch woods_3
+x 12
+y 25
+move_block all
 end
 arch woods
 x 12
-y 23
-elevation 1678
-end
-arch woods_2
-x 12
-y 24
-elevation 2980
-end
-arch hills_rocky
-x 12
-y 25
-elevation 3598
-end
-arch steppe
-x 12
 y 26
-elevation 3749
+move_block all
 end
-arch hills_rocky
+arch woods
 x 12
 y 27
-elevation 3680
+move_block all
 end
-arch jungle_1
+arch woods_3
 x 12
 y 28
-elevation 2959
+move_block all
 end
-arch hills
+arch woods_3
 x 12
 y 29
-elevation 4664
+move_block all
 end
-arch mountain
+arch woods
 x 12
 y 30
-elevation 5636
+move_block all
 end
-arch mountain
+arch woods_3
 x 12
 y 31
-elevation 6034
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 12
 y 32
-elevation 6358
 end
 arch mountain
 x 12
@@ -3195,169 +3215,201 @@ x 12
 y 49
 elevation 14774
 end
-arch mountain2
+arch woods_3
 x 13
-elevation 9243
+move_block all
 end
-arch mountain
+arch woods_3
 x 13
 y 1
-elevation 6482
+move_block all
 end
-arch hills_rocky
+arch grassmedium
 x 13
 y 2
-elevation 4190
 end
-arch hills_rocky
+arch woods_3
 x 13
 y 3
-elevation 4207
+move_block all
 end
-arch mountain
+arch woods
 x 13
 y 4
-elevation 5365
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 13
 y 5
-elevation 9023
 end
-arch mountain2
+arch grassmedium
 x 13
 y 6
-elevation 9358
 end
-arch mountain
+arch woods_3
 x 13
 y 7
-elevation 7822
+move_block all
 end
-arch steppe
+arch grassmedium
 x 13
 y 8
-elevation 4876
 end
-arch mountain
+arch grassmedium
 x 13
 y 9
-elevation 5539
 end
-arch steppe
+arch unholy_ground
 x 13
 y 10
-elevation 4932
 end
-arch mountain
+arch dungeon_magic
+x 13
+y 10
+end
+arch grassdark
+x 13
+y 10
+end
+arch unholy_ground
 x 13
 y 11
-elevation 5943
 end
-arch mountain
+arch dungeon_magic
+x 13
+y 11
+end
+arch grassdark
+x 13
+y 11
+end
+arch shallow_sea
+name water
 x 13
 y 12
-elevation 5859
 end
-arch mountain
+arch shallow_sea
+name water
 x 13
 y 13
-elevation 6061
 end
-arch mountain
+arch shallow_sea
+name water
 x 13
 y 14
-elevation 6527
 end
-arch mountain
+arch igate_closed_2
 x 13
 y 15
-elevation 6873
+connected 31
+blocksview 0
 end
-arch mountain
+arch creator
+name grassdark
+slaying grassdark
+other_arch grassdark
+x 13
+y 15
+connected 31
+end
+arch shallow_sea
+name water
+x 13
+y 15
+move_block 0
+end
+arch shallow_sea
+name water
 x 13
 y 16
-elevation 6559
 end
-arch mountain
+arch shallow_sea
+name water
 x 13
 y 17
-elevation 5903
 end
-arch mountain
+arch shallow_sea
+name water
 x 13
 y 18
-elevation 5113
 end
-arch steppe
+arch unholy_ground
 x 13
 y 19
-elevation 4326
 end
-arch hills_rocky
+arch dungeon_magic
+x 13
+y 19
+end
+arch grassdark
+x 13
+y 19
+end
+arch unholy_ground
 x 13
 y 20
-elevation 3161
 end
-arch jungle_1
+arch dungeon_magic
+x 13
+y 20
+end
+arch grassdark
+x 13
+y 20
+end
+arch grassmedium
 x 13
 y 21
-elevation 2255
 end
-arch woods
+arch grassmedium
 x 13
 y 22
-elevation 1919
 end
-arch woods
+arch grassmedium
 x 13
 y 23
-elevation 2144
+end
+arch grassmedium
+x 13
+y 24
+end
+arch grassmedium
+x 13
+y 25
 end
 arch woods
 x 13
-y 24
-elevation 2701
-end
-arch hills_rocky
-x 13
-y 25
-elevation 3313
-end
-arch hills_rocky
-x 13
 y 26
-elevation 3810
+move_block all
 end
-arch hills_rocky
+arch woods
 x 13
 y 27
-elevation 3972
+move_block all
 end
-arch hills
+arch woods
 x 13
 y 28
-elevation 4297
+move_block all
 end
-arch mountain
+arch woods
 x 13
 y 29
-elevation 5042
+move_block all
 end
-arch mountain
+arch woods
 x 13
 y 30
-elevation 6192
+move_block all
 end
-arch mountain
+arch woods_3
 x 13
 y 31
-elevation 7112
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 13
 y 32
-elevation 7684
 end
 arch mountain
 x 13
@@ -3444,169 +3496,201 @@ x 13
 y 49
 elevation 16639
 end
-arch mountain
+arch woods
 x 14
-elevation 8349
+move_block all
 end
-arch mountain
+arch woods_3
 x 14
 y 1
-elevation 5650
+move_block all
 end
-arch mountain
+arch grassmedium
 x 14
 y 2
-elevation 5996
 end
-arch mountain
+arch grassmedium
 x 14
 y 3
-elevation 6130
 end
-arch mountain
+arch woods
 x 14
 y 4
-elevation 7319
+move_block all
 end
-arch mountain
+arch grassmedium
 x 14
 y 5
-elevation 8745
 end
-arch mountain2
+arch grassmedium
 x 14
 y 6
-elevation 9149
 end
-arch mountain
+arch grassmedium
 x 14
 y 7
-elevation 7077
 end
-arch evergreens
+arch grassmedium
 x 14
 y 8
-elevation 2918
 end
-arch steppe
+arch unholy_ground
 x 14
 y 9
-elevation 3912
 end
-arch steppe
+arch dungeon_magic
+x 14
+y 9
+end
+arch grassdark
+x 14
+y 9
+end
+arch unholy_ground
 x 14
 y 10
-elevation 4423
 end
-arch mountain
+arch dungeon_magic
+x 14
+y 10
+end
+arch grassdark
+x 14
+y 10
+end
+arch shallow_sea
+name water
 x 14
 y 11
-elevation 5828
 end
-arch steppe
+arch shallow_sea
+name water
 x 14
 y 12
-elevation 4425
 end
-arch mountain
+arch shallow_sea
+name water
 x 14
 y 13
-elevation 5576
 end
-arch mountain
+arch shallow_sea
+name water
 x 14
 y 14
-elevation 5157
 end
-arch steppe
+arch igate_closed_2
 x 14
 y 15
-elevation 4824
+connected 21
+blocksview 0
 end
-arch hills_rocky
+arch creator
+name grassdark
+slaying grassdark
+other_arch grassdark
+x 14
+y 15
+connected 21
+end
+arch shallow_sea
+name water
+x 14
+y 15
+move_block 0
+end
+arch shallow_sea
+name water
 x 14
 y 16
-elevation 4381
 end
-arch hills_rocky
+arch shallow_sea
+name water
 x 14
 y 17
-elevation 3415
 end
-arch hills_rocky
+arch shallow_sea
+name water
 x 14
 y 18
-elevation 3095
 end
-arch woods_2
+arch shallow_sea
+name water
 x 14
 y 19
-elevation 2616
 end
-arch jungle_1
+arch unholy_ground
 x 14
 y 20
-elevation 1879
 end
-arch desert
+arch dungeon_magic
+x 14
+y 20
+end
+arch grassdark
+x 14
+y 20
+end
+arch unholy_ground
 x 14
 y 21
-elevation 971
 end
-arch woods
+arch dungeon_magic
+x 14
+y 21
+end
+arch grassdark
+x 14
+y 21
+end
+arch grassmedium
 x 14
 y 22
-elevation 1697
 end
-arch woods
+arch grassmedium
 x 14
 y 23
-elevation 1965
 end
-arch woods
+arch grassmedium
 x 14
 y 24
-elevation 1833
+end
+arch grassmedium
+x 14
+y 25
 end
 arch woods
 x 14
-y 25
-elevation 2871
-end
-arch hills_rocky
-x 14
 y 26
-elevation 3419
+move_block all
 end
-arch hills
+arch woods_3
 x 14
 y 27
-elevation 3840
+move_block all
 end
-arch steppe
+arch woods
 x 14
 y 28
-elevation 3653
+move_block all
 end
-arch hills_rocky
+arch woods
 x 14
 y 29
-elevation 4614
+move_block all
 end
-arch mountain
+arch woods
 x 14
 y 30
-elevation 6537
+move_block all
 end
-arch mountain
+arch woods
 x 14
 y 31
-elevation 7573
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 14
 y 32
-elevation 8042
 end
 arch mountain
 x 14
@@ -3693,169 +3777,187 @@ x 14
 y 49
 elevation 17105
 end
-arch mountain
+arch woods_3
 x 15
-elevation 8380
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 1
-elevation 6818
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 2
-elevation 6567
+move_block all
 end
-arch mountain
+arch grassmedium
 x 15
 y 3
-elevation 6928
 end
-arch mountain
+arch grassmedium
 x 15
 y 4
-elevation 7224
 end
-arch mountain
+arch grassmedium
 x 15
 y 5
-elevation 8459
 end
-arch mountain
+arch grassmedium
 x 15
 y 6
-elevation 8893
 end
-arch mountain
+arch grassmedium
 x 15
 y 7
-elevation 8280
 end
-arch mountain
+arch grassmedium
 x 15
 y 8
-elevation 7023
 end
-arch mountain
+arch unholy_ground
 x 15
 y 9
-elevation 6501
 end
-arch mountain
+arch dungeon_magic
+x 15
+y 9
+end
+arch grassdark
+x 15
+y 9
+end
+arch shallow_sea
+name water
 x 15
 y 10
-elevation 6707
 end
-arch mountain
+arch shallow_sea
+name water
 x 15
 y 11
-elevation 6509
 end
-arch mountain
+arch shallow_sea
+name water
 x 15
 y 12
-elevation 6619
 end
-arch mountain
+arch shallow_sea
+name water
 x 15
 y 13
-elevation 5579
 end
-arch evergreens
+arch shallow_sea
+name water
 x 15
 y 14
-elevation 2298
 end
-arch steppe
+arch igate_closed_2
 x 15
 y 15
-elevation 3303
+connected 11
+blocksview 0
 end
-arch desert
+arch creator
+name grassdark
+slaying grassdark
+other_arch grassdark
+x 15
+y 15
+connected 11
+end
+arch shallow_sea
+name water
+x 15
+y 15
+move_block 0
+end
+arch shallow_sea
+name water
 x 15
 y 16
-elevation 616
 end
-arch desert
+arch shallow_sea
+name water
 x 15
 y 17
-elevation 487
 end
-arch evergreens
+arch shallow_sea
+name water
 x 15
 y 18
-elevation 1317
 end
-arch grass
+arch shallow_sea
+name water
 x 15
 y 19
-elevation 122
 end
-arch desert
+arch shallow_sea
+name water
 x 15
 y 20
-elevation 345
 end
-arch desert
+arch unholy_ground
 x 15
 y 21
-elevation 584
 end
-arch jungle_1
+arch dungeon_magic
+x 15
+y 21
+end
+arch grassdark
+x 15
+y 21
+end
+arch grassmedium
 x 15
 y 22
-elevation 1253
+end
+arch grassmedium
+x 15
+y 23
+end
+arch grassmedium
+x 15
+y 24
+end
+arch grassmedium
+x 15
+y 25
 end
 arch woods
 x 15
-y 23
-elevation 1197
-end
-arch jungle_1
-x 15
-y 24
-elevation 1965
-end
-arch evergreens
-x 15
-y 25
-elevation 2521
-end
-arch evergreens
-x 15
 y 26
-elevation 2323
+move_block all
 end
-arch jungle_1
+arch woods_3
 x 15
 y 27
-elevation 2978
+move_block all
 end
-arch hills
+arch woods
 x 15
 y 28
-elevation 4428
+move_block all
 end
-arch mountain
+arch woods
 x 15
 y 29
-elevation 5510
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 30
-elevation 6228
+move_block all
 end
-arch mountain
+arch woods_3
 x 15
 y 31
-elevation 6883
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 15
 y 32
-elevation 7566
 end
 arch mountain
 x 15
@@ -3942,169 +4044,210 @@ x 15
 y 49
 elevation 17765
 end
-arch mountain
+arch woods
 x 16
-elevation 8392
+move_block all
 end
-arch mountain
+arch woods
 x 16
 y 1
-elevation 6358
+move_block all
 end
-arch mountain
+arch woods_3
 x 16
 y 2
-elevation 6382
+move_block all
 end
-arch mountain
+arch woods
 x 16
 y 3
-elevation 7208
+move_block all
 end
-arch mountain
+arch woods_3
 x 16
 y 4
-elevation 7346
+move_block all
 end
-arch mountain
+arch grassmedium
 x 16
 y 5
-elevation 5877
 end
-arch mountain2
+arch grassmedium
 x 16
 y 6
-elevation 9279
 end
-arch mountain2
+arch grassmedium
 x 16
 y 7
-elevation 9358
 end
-arch mountain
+arch unholy_ground
 x 16
 y 8
-elevation 8729
 end
-arch mountain
+arch dungeon_magic
+x 16
+y 8
+end
+arch grassdark
+x 16
+y 8
+end
+arch unholy_ground
 x 16
 y 9
-elevation 8363
 end
-arch mountain
+arch dungeon_magic
+x 16
+y 9
+end
+arch grassdark
+x 16
+y 9
+end
+arch shallow_sea
+name water
 x 16
 y 10
-elevation 8295
 end
-arch mountain
+arch shallow_sea
+name water
 x 16
 y 11
-elevation 8110
 end
-arch mountain
+arch shallow_sea
+name water
 x 16
 y 12
-elevation 7425
 end
-arch mountain
+arch shallow_sea
+name water
 x 16
 y 13
-elevation 5540
 end
-arch hills_rocky
+arch unholy_ground
 x 16
 y 14
-elevation 3744
 end
-arch woods
+arch dungeon_magic
+x 16
+y 14
+end
+arch grassdark
+x 16
+y 14
+end
+arch unholy_ground
 x 16
 y 15
-elevation 2244
 end
-arch evergreens
+arch dungeon_magic
+x 16
+y 15
+end
+arch grassdark
+x 16
+y 15
+end
+arch unholy_ground
 x 16
 y 16
-elevation 1487
 end
-arch grass
+arch dungeon_magic
+x 16
+y 16
+end
+arch grassdark
+x 16
+y 16
+end
+arch shallow_sea
+name water
 x 16
 y 17
-elevation 906
 end
-arch grass
+arch shallow_sea
+name water
 x 16
 y 18
-elevation 746
 end
-arch brush
+arch shallow_sea
+name water
 x 16
 y 19
-elevation 872
 end
-arch desert
+arch shallow_sea
+name water
 x 16
 y 20
-elevation 833
 end
-arch desert
+arch unholy_ground
 x 16
 y 21
-elevation 910
 end
-arch desert
+arch dungeon_magic
+x 16
+y 21
+end
+arch grassdark
+x 16
+y 21
+end
+arch unholy_ground
 x 16
 y 22
-elevation 972
 end
-arch woods
+arch dungeon_magic
+x 16
+y 22
+end
+arch grassdark
+x 16
+y 22
+end
+arch grassmedium
 x 16
 y 23
-elevation 1145
 end
-arch woods
+arch grassmedium
 x 16
 y 24
-elevation 1567
+end
+arch grassmedium
+x 16
+y 25
+end
+arch grassmedium
+x 16
+y 26
+end
+arch woods_3
+x 16
+y 27
+move_block all
 end
 arch woods
 x 16
-y 25
-elevation 2218
-end
-arch evergreens
-x 16
-y 26
-elevation 2843
-end
-arch hills
-x 16
-y 27
-elevation 3447
-end
-arch hills
-x 16
 y 28
-elevation 4310
+move_block all
 end
-arch mountain
+arch woods_3
 x 16
 y 29
-elevation 5235
+move_block all
 end
-arch mountain
+arch woods_3
 x 16
 y 30
-elevation 5676
+move_block all
 end
-arch hills
+arch woods_2
 x 16
 y 31
-elevation 4012
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 16
 y 32
-elevation 7270
 end
 arch mountain
 x 16
@@ -4191,169 +4334,223 @@ x 16
 y 49
 elevation 18255
 end
-arch mountain
+arch woods_3
 x 17
-elevation 6033
-end
-arch mountain
-x 17
-y 1
-elevation 7357
-end
-arch mountain
-x 17
-y 2
-elevation 7258
-end
-arch mountain
-x 17
-y 3
-elevation 7428
-end
-arch mountain
-x 17
-y 4
-elevation 7265
-end
-arch mountain
-x 17
-y 5
-elevation 8867
-end
-arch mountain2
-x 17
-y 6
-elevation 9843
-end
-arch mountain2
-x 17
-y 7
-elevation 10005
-end
-arch mountain
-x 17
-y 8
-elevation 8940
-end
-arch mountain2
-x 17
-y 9
-elevation 9552
-end
-arch mountain2
-x 17
-y 10
-elevation 9327
-end
-arch mountain
-x 17
-y 11
-elevation 8745
-end
-arch mountain
-x 17
-y 12
-elevation 7391
-end
-arch mountain
-x 17
-y 13
-elevation 5054
-end
-arch evergreens
-x 17
-y 14
-elevation 1794
-end
-arch evergreens
-x 17
-y 15
-elevation 1988
-end
-arch evergreens
-x 17
-y 16
-elevation 1222
-end
-arch grass
-x 17
-y 17
-elevation 81
-end
-arch desert
-x 17
-y 18
-elevation 581
-end
-arch brush
-x 17
-y 19
-elevation 699
-end
-arch desert
-x 17
-y 20
-elevation 700
-end
-arch brush
-x 17
-y 21
-elevation 788
-end
-arch desert
-x 17
-y 22
-elevation 839
-end
-arch grass
-x 17
-y 23
-elevation 98
-end
-arch desert
-x 17
-y 24
-elevation 483
+move_block all
 end
 arch woods
 x 17
-y 25
-elevation 2004
+y 1
+move_block all
 end
-arch jungle_1
+arch woods_3
+x 17
+y 2
+move_block all
+end
+arch woods_3
+x 17
+y 3
+move_block all
+end
+arch grassmedium
+x 17
+y 4
+end
+arch grassmedium
+x 17
+y 5
+end
+arch grassmedium
+x 17
+y 6
+end
+arch grassmedium
+x 17
+y 7
+end
+arch unholy_ground
+x 17
+y 8
+end
+arch dungeon_magic
+x 17
+y 8
+end
+arch grassdark
+x 17
+y 8
+end
+arch shallow_sea
+name water
+x 17
+y 9
+end
+arch shallow_sea
+name water
+x 17
+y 10
+end
+arch shallow_sea
+name water
+x 17
+y 11
+end
+arch shallow_sea
+name water
+x 17
+y 12
+end
+arch unholy_ground
+x 17
+y 13
+end
+arch dungeon_magic
+x 17
+y 13
+end
+arch grassdark
+x 17
+y 13
+end
+arch unholy_ground
+x 17
+y 14
+end
+arch dungeon_magic
+x 17
+y 14
+end
+arch altar
+slaying pear
+msg
+A green light emanates from the pond.
+endmsg
+food 1
+x 17
+y 14
+connected 10
+end
+arch grasspond
+name Queen's pond
+x 17
+y 14
+end
+arch tree
+x 17
+y 15
+end
+arch unholy_ground
+x 17
+y 16
+end
+arch dungeon_magic
+x 17
+y 16
+end
+arch altar
+slaying pear
+msg
+A green light emanates from the pond.
+endmsg
+food 1
+x 17
+y 16
+connected 40
+end
+arch grasspond
+name Queen's pond
+x 17
+y 16
+end
+arch unholy_ground
+x 17
+y 17
+end
+arch dungeon_magic
+x 17
+y 17
+end
+arch grassdark
+x 17
+y 17
+end
+arch shallow_sea
+name water
+x 17
+y 18
+end
+arch shallow_sea
+name water
+x 17
+y 19
+end
+arch shallow_sea
+name water
+x 17
+y 20
+end
+arch shallow_sea
+name water
+x 17
+y 21
+end
+arch unholy_ground
+x 17
+y 22
+end
+arch dungeon_magic
+x 17
+y 22
+end
+arch grassdark
+x 17
+y 22
+end
+arch grassmedium
+x 17
+y 23
+end
+arch grassmedium
+x 17
+y 24
+end
+arch grassmedium
+x 17
+y 25
+end
+arch grassmedium
 x 17
 y 26
-elevation 2818
 end
-arch hills_rocky
+arch woods_3
 x 17
 y 27
-elevation 3345
+move_block all
 end
-arch hills
+arch woods
 x 17
 y 28
-elevation 3504
+move_block all
 end
-arch steppe
+arch woods_3
 x 17
 y 29
-elevation 4088
+move_block all
 end
-arch hills
+arch woods_3
 x 17
 y 30
-elevation 4600
+move_block all
 end
-arch mountain
+arch woods
 x 17
 y 31
-elevation 5622
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 17
 y 32
-elevation 7071
 end
 arch mountain
 x 17
@@ -4440,169 +4637,196 @@ x 17
 y 49
 elevation 17845
 end
-arch mountain2
+arch woods
 x 18
-elevation 9232
+move_block all
 end
-arch mountain
+arch woods_3
 x 18
 y 1
-elevation 7844
-end
-arch mountain
-x 18
-y 2
-elevation 6272
-end
-arch mountain
-x 18
-y 3
-elevation 7766
-end
-arch mountain
-x 18
-y 4
-elevation 8539
-end
-arch mountain2
-x 18
-y 5
-elevation 9353
-end
-arch mountain2
-x 18
-y 6
-elevation 10154
-end
-arch mountain2
-x 18
-y 7
-elevation 10337
-end
-arch mountain2
-x 18
-y 8
-elevation 10485
-end
-arch mountain2
-x 18
-y 9
-elevation 10410
-end
-arch mountain2
-x 18
-y 10
-elevation 9753
-end
-arch mountain
-x 18
-y 11
-elevation 8518
-end
-arch mountain
-x 18
-y 12
-elevation 6380
-end
-arch hills_rocky
-x 18
-y 13
-elevation 3729
-end
-arch evergreens
-x 18
-y 14
-elevation 2292
-end
-arch evergreens
-x 18
-y 15
-elevation 1328
-end
-arch grass
-x 18
-y 16
-elevation 514
-end
-arch grass
-x 18
-y 17
-elevation 20
-end
-arch desert
-x 18
-y 18
-elevation 209
-end
-arch shallow_sea
-x 18
-y 19
-elevation -9
-end
-arch desert
-x 18
-y 20
-elevation 200
-end
-arch desert
-x 18
-y 21
-elevation 200
-end
-arch desert
-x 18
-y 22
-elevation 684
-end
-arch grass
-x 18
-y 23
-elevation 820
-end
-arch brush
-x 18
-y 24
-elevation 671
-end
-arch jungle_1
-x 18
-y 25
-elevation 1554
+move_block all
 end
 arch woods
 x 18
-y 26
-elevation 2824
+y 2
+move_block all
 end
-arch evergreens
+arch woods_3
 x 18
-y 27
-elevation 2825
+y 3
+move_block all
 end
-arch woods_2
+arch grassmedium
 x 18
-y 28
-elevation 2453
+y 4
+end
+arch grassmedium
+x 18
+y 5
+end
+arch grassmedium
+x 18
+y 6
+end
+arch grassmedium
+x 18
+y 7
+end
+arch unholy_ground
+x 18
+y 8
+end
+arch dungeon_magic
+x 18
+y 8
+end
+arch grassdark
+x 18
+y 8
+end
+arch shallow_sea
+name water
+x 18
+y 9
+end
+arch shallow_sea
+name water
+x 18
+y 10
+end
+arch shallow_sea
+name water
+x 18
+y 11
+end
+arch shallow_sea
+name water
+x 18
+y 12
+end
+arch unholy_ground
+x 18
+y 13
+end
+arch dungeon_magic
+x 18
+y 13
+end
+arch grassdark
+x 18
+y 13
 end
 arch tree
 x 18
-y 29
-elevation 1487
+y 14
 end
-arch hills
+arch grassmedium
+x 18
+y 15
+end
+arch cforest6
+x 18
+y 15
+end
+arch archway_tree
+slaying elvenmoon.1
+hp 22
+sp 6
+x 18
+y 15
+end
+arch tree
+x 18
+y 16
+end
+arch unholy_ground
+x 18
+y 17
+end
+arch dungeon_magic
+x 18
+y 17
+end
+arch grassdark
+x 18
+y 17
+end
+arch shallow_sea
+name water
+x 18
+y 18
+end
+arch shallow_sea
+name water
+x 18
+y 19
+end
+arch shallow_sea
+name water
+x 18
+y 20
+end
+arch shallow_sea
+name water
+x 18
+y 21
+end
+arch unholy_ground
+x 18
+y 22
+end
+arch dungeon_magic
+x 18
+y 22
+end
+arch grassdark
+x 18
+y 22
+end
+arch grassmedium
+x 18
+y 23
+end
+arch grassmedium
+x 18
+y 24
+end
+arch grassmedium
+x 18
+y 25
+end
+arch grassmedium
+x 18
+y 26
+end
+arch woods_3
+x 18
+y 27
+move_block all
+end
+arch woods
+x 18
+y 28
+move_block all
+end
+arch woods_3
+x 18
+y 29
+move_block all
+end
+arch woods
 x 18
 y 30
-elevation 4334
+move_block all
 end
-arch hills
+arch woods
 x 18
 y 31
-elevation 4205
+move_block all
 end
-arch mountain
+arch fernrockscliff2
 x 18
 y 32
-elevation 6270
 end
 arch mountain2
 x 18
@@ -4689,169 +4913,220 @@ x 18
 y 49
 elevation 15529
 end
-arch mountain2
+arch woods_3
 x 19
-elevation 9635
+move_block all
 end
-arch mountain
+arch woods_3
 x 19
 y 1
-elevation 8244
+move_block all
 end
-arch mountain
+arch grassmedium
 x 19
 y 2
-elevation 7576
 end
-arch mountain
+arch grassmedium
 x 19
 y 3
-elevation 7746
 end
-arch mountain
+arch grassmedium
 x 19
 y 4
-elevation 8498
 end
-arch mountain2
+arch grassmedium
 x 19
 y 5
-elevation 9131
 end
-arch mountain
+arch grassmedium
 x 19
 y 6
-elevation 8485
 end
-arch mountain2
+arch grassmedium
 x 19
 y 7
-elevation 10618
 end
-arch mountain2
+arch unholy_ground
 x 19
 y 8
-elevation 11170
 end
-arch mountain2
+arch dungeon_magic
+x 19
+y 8
+end
+arch grassdark
+x 19
+y 8
+end
+arch shallow_sea
+name water
 x 19
 y 9
-elevation 10886
 end
-arch mountain2
+arch shallow_sea
+name water
 x 19
 y 10
-elevation 9609
 end
-arch mountain
+arch shallow_sea
+name water
 x 19
 y 11
-elevation 7373
 end
-arch steppe
+arch shallow_sea
+name water
 x 19
 y 12
-elevation 4830
 end
-arch woods
+arch unholy_ground
 x 19
 y 13
-elevation 1439
 end
-arch woods
+arch dungeon_magic
+x 19
+y 13
+end
+arch grassdark
+x 19
+y 13
+end
+arch unholy_ground
 x 19
 y 14
-elevation 1373
 end
-arch woods
+arch dungeon_magic
+x 19
+y 14
+end
+arch altar
+slaying pear
+msg
+A green light emanates from the pond.
+endmsg
+food 1
+x 19
+y 14
+connected 20
+end
+arch grasspond
+name Queen's pond
+x 19
+y 14
+end
+arch tree
 x 19
 y 15
-elevation 1097
 end
-arch desert
+arch unholy_ground
 x 19
 y 16
-elevation 801
 end
-arch desert
+arch dungeon_magic
+x 19
+y 16
+end
+arch altar
+slaying pear
+msg
+A green light emanates from the pond.
+endmsg
+food 1
+x 19
+y 16
+connected 30
+end
+arch grasspond
+name Queen's pond
+x 19
+y 16
+end
+arch unholy_ground
 x 19
 y 17
-elevation 397
 end
-arch desert
+arch dungeon_magic
+x 19
+y 17
+end
+arch grassdark
+x 19
+y 17
+end
+arch shallow_sea
+name water
 x 19
 y 18
-elevation 60
 end
-arch desert
+arch shallow_sea
+name water
 x 19
 y 19
-elevation 135
 end
-arch desert
+arch shallow_sea
+name water
 x 19
 y 20
-elevation 62
 end
-arch desert
+arch shallow_sea
+name water
 x 19
 y 21
-elevation 114
 end
-arch woods
+arch unholy_ground
 x 19
 y 22
-elevation 1007
 end
-arch evergreens
+arch dungeon_magic
+x 19
+y 22
+end
+arch grassdark
+x 19
+y 22
+end
+arch grassmedium
 x 19
 y 23
-elevation 1500
 end
-arch grass
+arch grassmedium
 x 19
 y 24
-elevation 923
+end
+arch grassmedium
+x 19
+y 25
+end
+arch grassmedium
+x 19
+y 26
+end
+arch grassmedium
+x 19
+y 27
+end
+arch woods_3
+x 19
+y 28
+move_block all
+end
+arch woods_3
+x 19
+y 29
+move_block all
 end
 arch woods
 x 19
-y 25
-elevation 2465
-end
-arch evergreens
-x 19
-y 26
-elevation 2721
-end
-arch jungle_1
-x 19
-y 27
-elevation 2368
-end
-arch desert
-x 19
-y 28
-elevation 203
-end
-arch brush
-x 19
-y 29
-elevation 892
-end
-arch mountain
-x 19
 y 30
-elevation 5201
+move_block all
 end
-arch mountain
+arch woods
 x 19
 y 31
-elevation 7703
+move_block all
 end
-arch mountain2
+arch fernrockscliff2
 x 19
 y 32
-elevation 9598
 end
 arch mountain2
 x 19
@@ -4938,169 +5213,208 @@ x 19
 y 49
 elevation 12057
 end
-arch mountain
+arch woods_3
 x 20
-elevation 8884
+move_block all
 end
-arch mountain
+arch woods_3
 x 20
 y 1
-elevation 7679
+move_block all
 end
-arch mountain
+arch grassmedium
 x 20
 y 2
-elevation 6897
 end
-arch mountain
+arch woods_3
 x 20
 y 3
-elevation 7008
+move_block all
 end
-arch mountain
+arch woods_3
 x 20
 y 4
-elevation 7882
+move_block all
 end
-arch mountain
+arch grassmedium
 x 20
 y 5
-elevation 8362
 end
-arch mountain2
+arch grassmedium
 x 20
 y 6
-elevation 9302
 end
-arch mountain2
+arch grassmedium
 x 20
 y 7
-elevation 10627
 end
-arch mountain2
+arch unholy_ground
 x 20
 y 8
-elevation 11459
 end
-arch mountain2
+arch dungeon_magic
+x 20
+y 8
+end
+arch grassdark
+x 20
+y 8
+end
+arch unholy_ground
 x 20
 y 9
-elevation 10882
 end
-arch mountain
+arch dungeon_magic
+x 20
+y 9
+end
+arch grassdark
+x 20
+y 9
+end
+arch shallow_sea
+name water
 x 20
 y 10
-elevation 8454
 end
-arch mountain
+arch shallow_sea
+name water
 x 20
 y 11
-elevation 5454
 end
-arch woods
+arch shallow_sea
+name water
 x 20
 y 12
-elevation 1614
 end
-arch woods
+arch shallow_sea
+name water
 x 20
 y 13
-elevation 2147
 end
-arch desert
+arch unholy_ground
 x 20
 y 14
-elevation 254
 end
-arch desert
+arch dungeon_magic
+x 20
+y 14
+end
+arch grassdark
+x 20
+y 14
+end
+arch unholy_ground
 x 20
 y 15
-elevation 610
 end
-arch desert
+arch dungeon_magic
+x 20
+y 15
+end
+arch grassdark
+x 20
+y 15
+end
+arch unholy_ground
 x 20
 y 16
-elevation 988
 end
-arch desert
+arch dungeon_magic
+x 20
+y 16
+end
+arch grassdark
+x 20
+y 16
+end
+arch shallow_sea
+name water
 x 20
 y 17
-elevation 762
 end
-arch grass
+arch shallow_sea
+name water
 x 20
 y 18
-elevation 432
 end
-arch desert
+arch shallow_sea
+name water
 x 20
 y 19
-elevation 148
 end
-arch grass
+arch shallow_sea
+name water
 x 20
 y 20
-elevation 129
 end
-arch desert
+arch unholy_ground
 x 20
 y 21
-elevation 387
 end
-arch woods
+arch dungeon_magic
+x 20
+y 21
+end
+arch grassdark
+x 20
+y 21
+end
+arch unholy_ground
 x 20
 y 22
-elevation 1929
 end
-arch hills_rocky
+arch dungeon_magic
+x 20
+y 22
+end
+arch grassdark
+x 20
+y 22
+end
+arch grassmedium
 x 20
 y 23
-elevation 2675
 end
-arch hills_rocky
+arch grassmedium
 x 20
 y 24
-elevation 3089
 end
-arch hills_rocky
+arch grassmedium
 x 20
 y 25
-elevation 3070
+end
+arch grassmedium
+x 20
+y 26
+end
+arch grassmedium
+x 20
+y 27
+end
+arch woods_3
+x 20
+y 28
+move_block all
 end
 arch woods
 x 20
-y 26
-elevation 2173
-end
-arch jungle_1
-x 20
-y 27
-elevation 1022
-end
-arch jungle_1
-x 20
-y 28
-elevation 2637
-end
-arch steppe
-x 20
 y 29
-elevation 4263
+move_block all
 end
-arch mountain
+arch woods
 x 20
 y 30
-elevation 6578
+move_block all
 end
-arch mountain2
+arch woods
 x 20
 y 31
-elevation 9279
+move_block all
 end
-arch mountain2
+arch fernrockscliff2
 x 20
 y 32
-elevation 11264
 end
 arch mountain4
 x 20
@@ -5187,169 +5501,171 @@ x 20
 y 49
 elevation 7942
 end
-arch mountain
+arch woods_3
 x 21
-elevation 7931
+move_block all
 end
-arch mountain
+arch woods
 x 21
 y 1
-elevation 5779
+move_block all
 end
-arch steppe
+arch grassmedium
 x 21
 y 2
-elevation 4365
 end
-arch mountain
+arch woods
 x 21
 y 3
-elevation 5513
+move_block all
 end
-arch mountain
+arch woods_3
 x 21
 y 4
-elevation 6172
+move_block all
 end
-arch mountain
+arch grassmedium
 x 21
 y 5
-elevation 8913
 end
-arch mountain2
+arch grassmedium
 x 21
 y 6
-elevation 9345
 end
-arch mountain2
+arch grassmedium
 x 21
 y 7
-elevation 10714
 end
-arch mountain2
+arch grassmedium
 x 21
 y 8
-elevation 11598
 end
-arch mountain2
+arch unholy_ground
 x 21
 y 9
-elevation 10672
 end
-arch mountain
+arch dungeon_magic
+x 21
+y 9
+end
+arch grassdark
+x 21
+y 9
+end
+arch shallow_sea
+name water
 x 21
 y 10
-elevation 7415
 end
-arch desert
+arch shallow_sea
+name water
 x 21
 y 11
-elevation 555
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 12
-elevation 1400
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 13
-elevation 2484
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 14
-elevation 2922
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 15
-elevation 2485
 end
-arch desert
+arch shallow_sea
+name water
 x 21
 y 16
-elevation 399
 end
-arch desert
+arch shallow_sea
+name water
 x 21
 y 17
-elevation 273
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 18
-elevation 1582
 end
-arch evergreens
+arch shallow_sea
+name water
 x 21
 y 19
-elevation 1213
 end
-arch woods
+arch shallow_sea
+name water
 x 21
 y 20
-elevation 1633
 end
-arch tree
+arch unholy_ground
 x 21
 y 21
-elevation 2024
+end
+arch dungeon_magic
+x 21
+y 21
+end
+arch grassdark
+x 21
+y 21
+end
+arch grassmedium
+x 21
+y 22
+end
+arch grassmedium
+x 21
+y 23
+end
+arch grassmedium
+x 21
+y 24
+end
+arch grassmedium
+x 21
+y 25
 end
 arch woods
 x 21
-y 22
-elevation 2845
-end
-arch hills
-x 21
-y 23
-elevation 3664
-end
-arch steppe
-x 21
-y 24
-elevation 3957
-end
-arch steppe
-x 21
-y 25
-elevation 3447
-end
-arch evergreens
-x 21
 y 26
-elevation 2496
+move_block all
 end
-arch evergreens
+arch grassmedium
 x 21
 y 27
-elevation 1326
 end
-arch hills
+arch grassmedium
 x 21
 y 28
-elevation 3339
 end
-arch mountain
+arch woods
 x 21
 y 29
-elevation 5162
+move_block all
 end
-arch mountain
+arch woods
 x 21
 y 30
-elevation 6989
+move_block all
 end
-arch mountain2
+arch woods
 x 21
 y 31
-elevation 9430
+move_block all
 end
-arch mountain2
+arch fernrockscliff2
 x 21
 y 32
-elevation 11330
 end
 arch mountain4
 x 21
@@ -5436,169 +5752,192 @@ x 21
 y 49
 elevation 4949
 end
-arch mountain
+arch woods_3
 x 22
-elevation 7560
+move_block all
 end
-arch mountain
+arch grassmedium
 x 22
 y 1
-elevation 5994
 end
-arch mountain
+arch mushroom_1
+x 22
+y 1
+end
+arch grassmedium
 x 22
 y 2
-elevation 6855
-end
-arch mountain
-x 22
-y 3
-elevation 7378
-end
-arch mountain
-x 22
-y 4
-elevation 8398
-end
-arch mountain2
-x 22
-y 5
-elevation 9236
-end
-arch mountain2
-x 22
-y 6
-elevation 10037
-end
-arch mountain2
-x 22
-y 7
-elevation 10992
-end
-arch mountain2
-x 22
-y 8
-elevation 11251
-end
-arch mountain2
-x 22
-y 9
-elevation 9979
-end
-arch mountain
-x 22
-y 10
-elevation 7037
-end
-arch steppe
-x 22
-y 11
-elevation 4247
-end
-arch desert
-x 22
-y 12
-elevation 167
-end
-arch steppe
-x 22
-y 13
-elevation 3914
-end
-arch steppe
-x 22
-y 14
-elevation 4924
-end
-arch steppe
-x 22
-y 15
-elevation 4341
-end
-arch steppe
-x 22
-y 16
-elevation 3527
-end
-arch steppe
-x 22
-y 17
-elevation 3277
-end
-arch hills_rocky
-x 22
-y 18
-elevation 3278
-end
-arch steppe
-x 22
-y 19
-elevation 3145
-end
-arch evergreens
-x 22
-y 20
-elevation 2807
-end
-arch jungle_1
-x 22
-y 21
-elevation 2594
 end
 arch woods
 x 22
-y 22
-elevation 2857
+y 3
+move_block all
 end
-arch hills
+arch grassmedium
+x 22
+y 4
+end
+arch grassmedium
+x 22
+y 5
+end
+arch grassmedium
+x 22
+y 6
+end
+arch grassmedium
+x 22
+y 7
+end
+arch grassmedium
+x 22
+y 8
+end
+arch unholy_ground
+x 22
+y 9
+end
+arch dungeon_magic
+x 22
+y 9
+end
+arch grassdark
+x 22
+y 9
+end
+arch unholy_ground
+x 22
+y 10
+end
+arch dungeon_magic
+x 22
+y 10
+end
+arch grassdark
+x 22
+y 10
+end
+arch shallow_sea
+name water
+x 22
+y 11
+end
+arch shallow_sea
+name water
+x 22
+y 12
+end
+arch shallow_sea
+name water
+x 22
+y 13
+end
+arch shallow_sea
+name water
+x 22
+y 14
+end
+arch shallow_sea
+name water
+x 22
+y 15
+end
+arch shallow_sea
+name water
+x 22
+y 16
+end
+arch shallow_sea
+name water
+x 22
+y 17
+end
+arch shallow_sea
+name water
+x 22
+y 18
+end
+arch shallow_sea
+name water
+x 22
+y 19
+end
+arch unholy_ground
+x 22
+y 20
+end
+arch dungeon_magic
+x 22
+y 20
+end
+arch grassdark
+x 22
+y 20
+end
+arch unholy_ground
+x 22
+y 21
+end
+arch dungeon_magic
+x 22
+y 21
+end
+arch grassdark
+x 22
+y 21
+end
+arch grassmedium
+x 22
+y 22
+end
+arch grassmedium
 x 22
 y 23
-elevation 3604
 end
-arch steppe
+arch grassmedium
 x 22
 y 24
-elevation 3838
 end
-arch hills_rocky
+arch grassmedium
 x 22
 y 25
-elevation 3135
 end
 arch woods
 x 22
 y 26
-elevation 2171
+move_block all
 end
-arch jungle_1
+arch woods
 x 22
 y 27
-elevation 1975
+move_block all
 end
-arch woods_2
+arch grassmedium
 x 22
 y 28
-elevation 2753
 end
-arch steppe
+arch water
+x 22
+y 28
+end
+arch woods
 x 22
 y 29
-elevation 4674
+move_block all
 end
-arch mountain
+arch woods
 x 22
 y 30
-elevation 6457
+move_block all
 end
-arch mountain
+arch woods
 x 22
 y 31
-elevation 8489
+move_block all
 end
-arch mountain2
+arch fernrockscliff2
 x 22
 y 32
-elevation 10552
 end
 arch mountain2
 x 22
@@ -5685,169 +6024,192 @@ x 22
 y 49
 elevation 965
 end
-arch mountain
+arch woods
 x 23
-elevation 8742
+move_block all
 end
-arch mountain
+arch woods
 x 23
 y 1
-elevation 8058
+move_block all
 end
-arch mountain
+arch woods
 x 23
 y 2
-elevation 7721
+move_block all
 end
-arch mountain
+arch woods_3
 x 23
 y 3
-elevation 8167
+move_block all
 end
-arch mountain
+arch woods
 x 23
 y 4
-elevation 8918
+move_block all
 end
-arch mountain2
+arch woods_3
 x 23
 y 5
-elevation 9284
+move_block all
 end
-arch mountain2
+arch woods
 x 23
 y 6
-elevation 9317
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 23
 y 7
-elevation 10390
 end
-arch mountain2
+arch grassmedium
 x 23
 y 8
-elevation 10376
 end
-arch mountain
+arch grassmedium
 x 23
 y 9
-elevation 7231
 end
-arch mountain
+arch unholy_ground
 x 23
 y 10
-elevation 7193
 end
-arch mountain
+arch dungeon_magic
+x 23
+y 10
+end
+arch grassdark
+x 23
+y 10
+end
+arch unholy_ground
 x 23
 y 11
-elevation 5327
 end
-arch steppe
+arch dungeon_magic
+x 23
+y 11
+end
+arch grassdark
+x 23
+y 11
+end
+arch shallow_sea
+name water
 x 23
 y 12
-elevation 3358
 end
-arch steppe
+arch shallow_sea
+name water
 x 23
 y 13
-elevation 4870
 end
-arch mountain
+arch shallow_sea
+name water
 x 23
 y 14
-elevation 5547
 end
-arch steppe
+arch shallow_sea
+name water
 x 23
 y 15
-elevation 4754
 end
-arch steppe
+arch shallow_sea
+name water
 x 23
 y 16
-elevation 3870
 end
-arch steppe
+arch shallow_sea
+name water
 x 23
 y 17
-elevation 3706
 end
-arch steppe
+arch shallow_sea
+name water
 x 23
 y 18
-elevation 3890
 end
-arch steppe
+arch unholy_ground
 x 23
 y 19
-elevation 3642
 end
-arch woods
+arch dungeon_magic
+x 23
+y 19
+end
+arch grassdark
+x 23
+y 19
+end
+arch unholy_ground
 x 23
 y 20
-elevation 2883
 end
-arch woods
+arch dungeon_magic
+x 23
+y 20
+end
+arch grassdark
+x 23
+y 20
+end
+arch grassmedium
 x 23
 y 21
-elevation 2177
+end
+arch grassmedium
+x 23
+y 22
+end
+arch grassmedium
+x 23
+y 23
+end
+arch grassmedium
+x 23
+y 24
+end
+arch grassmedium
+x 23
+y 25
 end
 arch woods
 x 23
-y 22
-elevation 1422
-end
-arch evergreens
-x 23
-y 23
-elevation 2694
-end
-arch evergreens
-x 23
-y 24
-elevation 2806
-end
-arch hills_rocky
-x 23
-y 25
-elevation 2070
-end
-arch desert
-x 23
 y 26
-elevation 455
+move_block all
 end
-arch brush
+arch woods
 x 23
 y 27
-elevation 440
+move_block all
 end
-arch hills_rocky
+arch woods
 x 23
 y 28
-elevation 1868
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 23
 y 29
-elevation 4057
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_3
 x 23
 y 30
-elevation 4645
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 23
 y 31
-elevation 7611
+move_block all
+blocksview 1
 end
-arch mountain2
+arch fernrockscliff2
 x 23
 y 32
-elevation 9226
 end
 arch mountain2
 x 23
@@ -5934,169 +6296,198 @@ x 23
 y 49
 elevation 988
 end
-arch mountain2
+arch woods
 x 24
-elevation 10427
+move_block all
 end
-arch mountain
+arch woods
 x 24
 y 1
-elevation 8663
+move_block all
 end
-arch mountain
+arch woods_3
 x 24
 y 2
-elevation 6711
+move_block all
 end
-arch mountain
+arch woods
 x 24
 y 3
-elevation 7614
+move_block all
 end
-arch mountain
+arch woods
 x 24
 y 4
-elevation 8613
+move_block all
 end
-arch mountain2
+arch woods
 x 24
 y 5
-elevation 9086
+move_block all
 end
-arch mountain
+arch woods_3
 x 24
 y 6
-elevation 7815
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 24
 y 7
-elevation 9523
 end
-arch mountain2
+arch grassmedium
 x 24
 y 8
-elevation 9091
 end
-arch mountain
+arch grassmedium
 x 24
 y 9
-elevation 7777
 end
-arch mountain
+arch grassmedium
 x 24
 y 10
-elevation 7047
 end
-arch mountain
+arch unholy_ground
 x 24
 y 11
-elevation 5979
 end
-arch steppe
+arch dungeon_magic
+x 24
+y 11
+end
+arch grassdark
+x 24
+y 11
+end
+arch unholy_ground
 x 24
 y 12
-elevation 4661
 end
-arch steppe
+arch dungeon_magic
+x 24
+y 12
+end
+arch grassdark
+x 24
+y 12
+end
+arch unholy_ground
 x 24
 y 13
-elevation 4750
 end
-arch steppe
+arch dungeon_magic
+x 24
+y 13
+end
+arch grassdark
+x 24
+y 13
+end
+arch shallow_sea
+name water
 x 24
 y 14
-elevation 4193
 end
-arch woods
+arch shallow_sea
+name water
 x 24
 y 15
-elevation 2995
 end
-arch woods
+arch shallow_sea
+name water
 x 24
 y 16
-elevation 1475
 end
-arch woods
+arch unholy_ground
 x 24
 y 17
-elevation 1809
 end
-arch woods
+arch dungeon_magic
+x 24
+y 17
+end
+arch grassdark
+x 24
+y 17
+end
+arch unholy_ground
 x 24
 y 18
-elevation 2514
 end
-arch woods
+arch dungeon_magic
+x 24
+y 18
+end
+arch grassdark
+x 24
+y 18
+end
+arch unholy_ground
 x 24
 y 19
-elevation 2569
 end
-arch evergreens
+arch dungeon_magic
+x 24
+y 19
+end
+arch grassdark
+x 24
+y 19
+end
+arch grassmedium
 x 24
 y 20
-elevation 1828
 end
-arch grass
+arch grassmedium
 x 24
 y 21
-elevation 557
 end
-arch desert
+arch grassmedium
 x 24
 y 22
-elevation 727
+end
+arch grassmedium
+x 24
+y 23
+end
+arch grassmedium
+x 24
+y 24
+end
+arch grassmedium
+x 24
+y 25
 end
 arch woods
 x 24
-y 23
-elevation 1438
-end
-arch hills_rocky
-x 24
-y 24
-elevation 1538
-end
-arch desert
-x 24
-y 25
-elevation 385
-end
-arch desert
-x 24
 y 26
-elevation 17
+move_block all
 end
-arch brush
+arch woods
 x 24
 y 27
-elevation 481
+move_block all
 end
-arch jungle_1
+arch woods_3
 x 24
 y 28
-elevation 2383
+move_block all
+blocksview 1
 end
-arch steppe
+arch blocked
 x 24
 y 29
-elevation 3805
 end
-arch hills
+arch blocked
 x 24
 y 30
-elevation 4644
 end
-arch mountain
+arch blocked
 x 24
 y 31
-elevation 7040
 end
-arch mountain
+arch fernrockscliff2
 x 24
 y 32
-elevation 8318
 end
 arch mountain
 x 24
@@ -6183,169 +6574,195 @@ x 24
 y 49
 elevation 1443
 end
-arch mountain2
+arch woods_3
 x 25
-elevation 11724
+move_block all
 end
-arch mountain
+arch woods
 x 25
 y 1
-elevation 8658
+move_block all
 end
-arch hills_rocky
+arch woods
 x 25
 y 2
-elevation 4984
+move_block all
 end
-arch mountain
+arch woods
 x 25
 y 3
-elevation 6101
+move_block all
 end
-arch mountain
+arch woods
 x 25
 y 4
-elevation 8319
+move_block all
 end
-arch mountain2
+arch woods
 x 25
 y 5
-elevation 9102
+move_block all
 end
-arch mountain2
+arch woods
 x 25
 y 6
-elevation 9179
+move_block all
 end
-arch mountain
+arch woods_3
 x 25
 y 7
-elevation 8701
+move_block all
 end
-arch mountain
+arch grassmedium
 x 25
 y 8
-elevation 8031
 end
-arch mountain
+arch grassmedium
 x 25
 y 9
-elevation 7256
 end
-arch mountain
+arch grassmedium
 x 25
 y 10
-elevation 6510
 end
-arch mountain
+arch grassmedium
 x 25
 y 11
-elevation 5837
 end
-arch steppe
+arch grassmedium
 x 25
 y 12
-elevation 4713
 end
-arch steppe
+arch unholy_ground
 x 25
 y 13
-elevation 3204
 end
-arch desert
+arch dungeon_magic
+x 25
+y 13
+end
+arch grassdark
+x 25
+y 13
+end
+arch unholy_ground
 x 25
 y 14
-elevation 953
 end
-arch desert
+arch dungeon_magic
+x 25
+y 14
+end
+arch grassdark
+x 25
+y 14
+end
+arch unholy_ground
 x 25
 y 15
-elevation 332
 end
-arch swamp
+arch dungeon_magic
+x 25
+y 15
+end
+arch grassdark
+x 25
+y 15
+end
+arch unholy_ground
 x 25
 y 16
-elevation 1
 end
-arch desert
+arch dungeon_magic
+x 25
+y 16
+end
+arch grassdark
+x 25
+y 16
+end
+arch unholy_ground
 x 25
 y 17
-elevation 13
 end
-arch brush
+arch dungeon_magic
+x 25
+y 17
+end
+arch grassdark
+x 25
+y 17
+end
+arch grassmedium
 x 25
 y 18
-elevation 41
 end
-arch shallow_sea
+arch grassmedium
 x 25
 y 19
-elevation -8
 end
-arch swamp
+arch grassmedium
 x 25
 y 20
-elevation 5
 end
-arch desert
+arch grassmedium
 x 25
 y 21
-elevation 27
 end
-arch desert
+arch grassmedium
 x 25
 y 22
-elevation 47
 end
-arch brush
+arch grassmedium
 x 25
 y 23
-elevation 194
 end
-arch desert
+arch grassmedium
 x 25
 y 24
-elevation 655
 end
-arch desert
+arch grassmedium
 x 25
 y 25
-elevation 172
 end
-arch desert
+arch woods
 x 25
 y 26
-elevation 139
+move_block all
 end
-arch desert
+arch woods
 x 25
 y 27
-elevation 45
+move_block all
 end
-arch tree
+arch woods_3
 x 25
 y 28
-elevation 2787
+move_block all
+blocksview 1
 end
-arch hills
+arch blocked
 x 25
 y 29
-elevation 4475
 end
-arch hills
+arch igate_open_1
 x 25
 y 30
-elevation 4551
+connected 40
 end
-arch mountain
+arch boulder
+x 25
+y 30
+end
+arch button_plate
+name large button 41
 x 25
 y 31
-elevation 7368
+connected 41
 end
-arch mountain
+arch fernrockscliff2
 x 25
 y 32
-elevation 8101
 end
 arch mountain
 x 25
@@ -6432,169 +6849,149 @@ x 25
 y 49
 elevation 2824
 end
-arch mountain2
+arch woods_2
 x 26
-elevation 11296
+move_block all
 end
-arch mountain2
+arch woods_3
 x 26
 y 1
-elevation 9403
+move_block all
 end
-arch mountain
+arch woods
 x 26
 y 2
-elevation 7392
+move_block all
 end
-arch mountain
+arch woods
 x 26
 y 3
-elevation 6024
+move_block all
 end
-arch mountain
+arch woods
 x 26
 y 4
-elevation 8479
+move_block all
 end
-arch mountain2
+arch grassmedium
 x 26
 y 5
-elevation 9387
 end
-arch mountain2
+arch mushroom_1
+x 26
+y 5
+end
+arch grassmedium
 x 26
 y 6
-elevation 9115
 end
-arch mountain
+arch grassmedium
 x 26
 y 7
-elevation 8080
 end
-arch mountain
+arch grassmedium
 x 26
 y 8
-elevation 6344
 end
-arch mountain
+arch grassmedium
 x 26
 y 9
-elevation 5240
 end
-arch mountain
+arch grassmedium
 x 26
 y 10
-elevation 5208
 end
-arch steppe
+arch grassmedium
 x 26
 y 11
-elevation 4764
 end
-arch steppe
+arch grassmedium
 x 26
 y 12
-elevation 3426
 end
-arch desert
+arch grassmedium
 x 26
 y 13
-elevation 297
 end
-arch desert
+arch grassmedium
 x 26
 y 14
-elevation 14
 end
-arch swamp
+arch grassmedium
 x 26
 y 15
-elevation 2
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 16
-elevation -9
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 17
-elevation -35
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 18
-elevation -42
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 19
-elevation -42
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 20
-elevation -37
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 21
-elevation -20
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 22
-elevation -9
 end
-arch shallow_sea
+arch grassmedium
 x 26
 y 23
-elevation -2
 end
-arch grass
+arch grassmedium
 x 26
 y 24
-elevation 244
 end
-arch brush
+arch grassmedium
 x 26
 y 25
-elevation 600
 end
-arch desert
+arch woods
 x 26
 y 26
-elevation 122
+move_block all
 end
-arch grass
+arch woods
 x 26
 y 27
-elevation 902
+move_block all
 end
-arch steppe
+arch woods
 x 26
 y 28
-elevation 3491
+move_block all
+blocksview 1
 end
-arch mountain
+arch blocked
 x 26
 y 29
-elevation 5623
 end
-arch mountain
+arch blocked
 x 26
 y 30
-elevation 7331
 end
-arch mountain
+arch blocked
 x 26
 y 31
-elevation 8153
 end
-arch mountain
+arch fernrockscliff2
 x 26
 y 32
-elevation 8545
 end
 arch mountain
 x 26
@@ -6676,174 +7073,161 @@ x 26
 y 48
 elevation 3647
 end
-arch jungle_1
+arch fernrockscliff2
 x 26
 y 49
-elevation 2563
 end
-arch mountain2
+arch woods
 x 27
-elevation 9513
+move_block all
 end
-arch mountain
+arch woods
 x 27
 y 1
-elevation 8529
+move_block all
 end
-arch mountain
+arch woods
 x 27
 y 2
-elevation 7658
+move_block all
 end
-arch mountain
+arch woods
 x 27
 y 3
-elevation 7940
+move_block all
 end
-arch mountain
+arch woods_3
 x 27
 y 4
-elevation 8447
+move_block all
 end
-arch mountain2
+arch woods
 x 27
 y 5
-elevation 9329
+move_block all
 end
-arch mountain
+arch woods_3
 x 27
 y 6
-elevation 8555
+move_block all
 end
-arch mountain
+arch grassmedium
 x 27
 y 7
-elevation 6697
 end
-arch steppe
+arch grassmedium
 x 27
 y 8
-elevation 4830
 end
-arch steppe
+arch grassmedium
 x 27
 y 9
-elevation 3732
 end
-arch steppe
+arch grassmedium
 x 27
 y 10
-elevation 3181
 end
-arch woods
+arch grassmedium
 x 27
 y 11
-elevation 2632
 end
-arch woods
+arch grassmedium
 x 27
 y 12
-elevation 1130
 end
-arch desert
+arch grassmedium
 x 27
 y 13
-elevation 10
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 14
-elevation -9
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 15
-elevation -56
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 16
-elevation -81
 end
-arch shallow_sea
+arch woods_3
 x 27
 y 17
-elevation -96
+move_block all
 end
-arch sea
+arch grassmedium
 x 27
 y 18
-elevation -103
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 19
-elevation -99
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 20
-elevation -85
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 21
-elevation -65
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 22
-elevation -41
 end
-arch shallow_sea
+arch grassmedium
 x 27
 y 23
-elevation -8
-end
-arch desert
-x 27
-y 24
-elevation 11
-end
-arch desert
-x 27
-y 25
-elevation 726
 end
 arch woods
 x 27
-y 26
-elevation 1609
+y 24
+move_block all
 end
-arch jungle_1
+arch woods
+x 27
+y 25
+move_block all
+end
+arch woods_3
+x 27
+y 26
+move_block all
+end
+arch woods
 x 27
 y 27
-elevation 1752
+move_block all
 end
-arch mountain
+arch woods_3
 x 27
 y 28
-elevation 5401
+move_block all
+blocksview 1
 end
-arch mountain
+arch blocked
 x 27
 y 29
-elevation 7610
 end
-arch mountain
+arch igate_open_1
 x 27
 y 30
-elevation 8805
+connected 30
 end
-arch mountain2
+arch boulder
+x 27
+y 30
+end
+arch button_plate
+name large button 31
 x 27
 y 31
-elevation 9197
+connected 31
 end
-arch mountain
+arch fernrockscliff2
 x 27
 y 32
-elevation 8938
 end
 arch mountain
 x 27
@@ -6925,174 +7309,165 @@ x 27
 y 48
 elevation 6379
 end
-arch mountain
+arch fernrockscliff2
 x 27
 y 49
-elevation 6476
 end
-arch mountain
+arch woods_3
 x 28
-elevation 7362
+move_block all
 end
-arch steppe
+arch woods_3
 x 28
 y 1
-elevation 4380
+move_block all
 end
-arch mountain
+arch woods
 x 28
 y 2
-elevation 6546
+move_block all
 end
-arch mountain
+arch woods
 x 28
 y 3
-elevation 7423
+move_block all
 end
-arch mountain
+arch woods
 x 28
 y 4
-elevation 8417
+move_block all
 end
-arch mountain
+arch woods
 x 28
 y 5
-elevation 8328
+move_block all
 end
-arch mountain
+arch woods
 x 28
 y 6
-elevation 6814
+move_block all
 end
-arch steppe
+arch woods_3
 x 28
 y 7
-elevation 4001
+move_block all
 end
 arch woods
 x 28
 y 8
-elevation 2491
-end
-arch desert
-x 28
-y 9
-elevation 29
-end
-arch desert
-x 28
-y 10
-elevation 550
-end
-arch desert
-x 28
-y 11
-elevation 61
-end
-arch shallow_sea
-x 28
-y 12
-elevation 0
-end
-arch shallow_sea
-x 28
-y 13
-elevation -2
-end
-arch shallow_sea
-x 28
-y 14
-elevation -83
-end
-arch sea
-x 28
-y 15
-elevation -123
-end
-arch sea
-x 28
-y 16
-elevation -151
-end
-arch sea
-x 28
-y 17
-elevation -165
-end
-arch sea
-x 28
-y 18
-elevation -166
-end
-arch sea
-x 28
-y 19
-elevation -156
-end
-arch sea
-x 28
-y 20
-elevation -135
-end
-arch sea
-x 28
-y 21
-elevation -107
-end
-arch shallow_sea
-x 28
-y 22
-elevation -72
-end
-arch shallow_sea
-x 28
-y 23
-elevation -35
-end
-arch shallow_sea
-x 28
-y 24
-elevation -7
-end
-arch desert
-x 28
-y 25
-elevation 519
+move_block all
 end
 arch woods
 x 28
-y 26
-elevation 2350
+y 9
+move_block all
 end
-arch hills
+arch woods_3
+x 28
+y 10
+move_block all
+end
+arch woods_3
+x 28
+y 11
+move_block all
+end
+arch woods
+x 28
+y 12
+move_block all
+end
+arch woods_3
+x 28
+y 13
+move_block all
+end
+arch grassmedium
+x 28
+y 14
+end
+arch grassmedium
+x 28
+y 15
+end
+arch woods_3
+x 28
+y 16
+move_block all
+end
+arch woods_3
+x 28
+y 17
+move_block all
+end
+arch grassmedium
+x 28
+y 18
+end
+arch grassmedium
+x 28
+y 19
+end
+arch grassmedium
+x 28
+y 20
+end
+arch woods
+x 28
+y 21
+move_block all
+end
+arch woods
+x 28
+y 22
+move_block all
+end
+arch woods
+x 28
+y 23
+move_block all
+end
+arch woods
+x 28
+y 24
+move_block all
+end
+arch woods
+x 28
+y 25
+move_block all
+end
+arch woods_3
+x 28
+y 26
+move_block all
+end
+arch woods
 x 28
 y 27
-elevation 4391
+move_block all
 end
-arch mountain
+arch woods_3
 x 28
 y 28
-elevation 6861
+move_block all
+blocksview 1
 end
-arch mountain
+arch blocked
 x 28
 y 29
-elevation 8722
 end
-arch mountain2
+arch blocked
 x 28
 y 30
-elevation 9339
 end
-arch mountain2
+arch blocked
 x 28
 y 31
-elevation 9282
 end
-arch mountain2
+arch fernrockscliff2
 x 28
 y 32
-elevation 9226
 end
 arch mountain2
 x 28
@@ -7174,174 +7549,174 @@ x 28
 y 48
 elevation 7381
 end
-arch mountain
+arch fernrockscliff2
 x 28
 y 49
-elevation 8552
 end
-arch mountain
+arch woods_3
 x 29
-elevation 5129
+move_block all
 end
-arch steppe
+arch woods
 x 29
 y 1
-elevation 4697
+move_block all
 end
-arch woods
+arch woods_3
 x 29
 y 2
-elevation 2480
-end
-arch mountain
-x 29
-y 3
-elevation 6165
-end
-arch mountain
-x 29
-y 4
-elevation 6859
-end
-arch mountain
-x 29
-y 5
-elevation 5982
-end
-arch steppe
-x 29
-y 6
-elevation 3990
+move_block all
 end
 arch woods
 x 29
-y 7
-elevation 1490
+y 3
+move_block all
 end
-arch desert
+arch woods
+x 29
+y 4
+move_block all
+end
+arch woods_3
+x 29
+y 5
+move_block all
+end
+arch woods
+x 29
+y 6
+move_block all
+end
+arch woods_3
+x 29
+y 7
+move_block all
+end
+arch woods_3
 x 29
 y 8
-elevation 21
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 9
-elevation -7
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 10
-elevation -8
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 11
-elevation -5
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 12
-elevation -68
+move_block all
 end
-arch sea
+arch woods
 x 29
 y 13
-elevation -117
+move_block all
 end
-arch sea
+arch woods_3
 x 29
 y 14
-elevation -159
+move_block all
 end
-arch sea
+arch woods_3
 x 29
 y 15
-elevation -199
+move_block all
 end
-arch sea
+arch woods_3
 x 29
 y 16
-elevation -223
+move_block all
 end
-arch sea
+arch woods_3
 x 29
 y 17
-elevation -232
+move_block all
 end
-arch sea
+arch grassmedium
 x 29
 y 18
-elevation -228
 end
-arch sea
+arch grassmedium
 x 29
 y 19
-elevation -211
 end
-arch sea
+arch grassmedium
 x 29
 y 20
-elevation -183
 end
-arch sea
+arch woods
 x 29
 y 21
-elevation -147
+move_block all
 end
-arch sea
+arch woods
 x 29
 y 22
-elevation -104
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 23
-elevation -55
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 29
 y 24
-elevation -3
+move_block all
 end
-arch desert
+arch woods
 x 29
 y 25
-elevation 631
+move_block all
 end
-arch tree
+arch woods
 x 29
 y 26
-elevation 1956
+move_block all
 end
-arch steppe
+arch woods
 x 29
 y 27
-elevation 4218
+move_block all
 end
-arch mountain
+arch woods_3
 x 29
 y 28
-elevation 6477
+move_block all
+blocksview 1
 end
-arch mountain
+arch blocked
 x 29
 y 29
-elevation 8144
 end
-arch mountain
+arch igate_open_1
 x 29
 y 30
-elevation 8130
+connected 20
 end
-arch mountain
+arch boulder
+x 29
+y 30
+end
+arch button_plate
+name large button 21
 x 29
 y 31
-elevation 7959
+connected 21
 end
-arch mountain
+arch fernrockscliff2
 x 29
 y 32
-elevation 7690
 end
 arch mountain2
 x 29
@@ -7423,174 +7798,167 @@ x 29
 y 48
 elevation 7178
 end
-arch mountain
+arch fernrockscliff2
 x 29
 y 49
-elevation 8973
+end
+arch woods_3
+x 30
+move_block all
 end
 arch woods
-x 30
-elevation 1740
-end
-arch steppe
 x 30
 y 1
-elevation 3659
-end
-arch steppe
-x 30
-y 2
-elevation 4232
-end
-arch steppe
-x 30
-y 3
-elevation 4427
-end
-arch steppe
-x 30
-y 4
-elevation 4086
+move_block all
 end
 arch woods
 x 30
-y 5
-elevation 2305
+y 2
+move_block all
 end
-arch desert
+arch woods_3
+x 30
+y 3
+move_block all
+end
+arch woods
+x 30
+y 4
+move_block all
+end
+arch woods_3
+x 30
+y 5
+move_block all
+end
+arch woods
 x 30
 y 6
-elevation 548
+move_block all
 end
-arch desert
+arch woods_3
 x 30
 y 7
-elevation 22
+move_block all
 end
-arch shallow_sea
+arch woods
 x 30
 y 8
-elevation -10
+move_block all
 end
-arch shallow_sea
+arch woods
 x 30
 y 9
-elevation -51
+move_block all
 end
-arch shallow_sea
+arch woods
 x 30
 y 10
-elevation -81
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 11
-elevation -115
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 12
-elevation -156
+move_block all
 end
-arch sea
+arch woods_3
 x 30
 y 13
-elevation -203
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 14
-elevation -242
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 15
-elevation -273
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 16
-elevation -291
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 17
-elevation -295
+move_block all
 end
-arch sea
+arch grass
 x 30
 y 18
-elevation -284
 end
-arch sea
+arch grassmedium
 x 30
 y 19
-elevation -261
 end
-arch sea
+arch grass
 x 30
 y 20
-elevation -226
 end
-arch sea
+arch woods
 x 30
 y 21
-elevation -182
+move_block all
 end
-arch sea
+arch woods
 x 30
 y 22
-elevation -132
+move_block all
 end
-arch shallow_sea
+arch woods
 x 30
 y 23
-elevation -76
+move_block all
 end
-arch shallow_sea
+arch woods
 x 30
 y 24
-elevation -4
+move_block all
 end
-arch desert
+arch woods
 x 30
 y 25
-elevation 17
+move_block all
 end
-arch desert
+arch woods
 x 30
 y 26
-elevation 561
+move_block all
 end
-arch brush
+arch woods
 x 30
 y 27
-elevation 18
+move_block all
 end
-arch steppe
+arch woods
 x 30
 y 28
-elevation 4643
+move_block all
+blocksview 1
 end
-arch mountain
+arch blocked
 x 30
 y 29
-elevation 6224
 end
-arch mountain
+arch blocked
 x 30
 y 30
-elevation 6190
 end
-arch hills
+arch blocked
 x 30
 y 31
-elevation 3200
 end
-arch mountain
+arch fernrockscliff2
 x 30
 y 32
-elevation 6970
 end
 arch mountain2
 x 30
@@ -7672,174 +8040,180 @@ x 30
 y 48
 elevation 5918
 end
-arch mountain
+arch fernrockscliff2
 x 30
 y 49
-elevation 7582
 end
-arch woods
+arch woods_3
 x 31
-elevation 2828
+move_block all
 end
-arch woods
+arch woods_3
 x 31
 y 1
-elevation 2859
+move_block all
 end
-arch woods
+arch woods_3
 x 31
 y 2
-elevation 2988
+move_block all
+end
+arch woods_3
+x 31
+y 3
+move_block all
+end
+arch woods_3
+x 31
+y 4
+move_block all
+end
+arch woods_3
+x 31
+y 5
+move_block all
 end
 arch woods
 x 31
-y 3
-elevation 2278
-end
-arch desert
-x 31
-y 4
-elevation 244
-end
-arch desert
-x 31
-y 5
-elevation 23
-end
-arch desert
-x 31
 y 6
-elevation 18
+move_block all
 end
-arch shallow_sea
+arch woods
 x 31
 y 7
-elevation -6
+move_block all
 end
-arch shallow_sea
+arch woods_3
 x 31
 y 8
-elevation -61
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 9
-elevation -107
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 10
-elevation -151
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 11
-elevation -194
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 12
-elevation -238
+move_block all
 end
-arch sea
+arch woods
 x 31
 y 13
-elevation -279
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 14
-elevation -314
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 15
-elevation -339
+move_block all
 end
-arch sea
+arch woods_3
 x 31
 y 16
-elevation -351
-end
-arch sea
-x 31
-y 17
-elevation -349
-end
-arch sea
-x 31
-y 18
-elevation -332
-end
-arch sea
-x 31
-y 19
-elevation -302
-end
-arch sea
-x 31
-y 20
-elevation -260
-end
-arch sea
-x 31
-y 21
-elevation -210
-end
-arch sea
-x 31
-y 22
-elevation -154
-end
-arch shallow_sea
-x 31
-y 23
-elevation -96
-end
-arch shallow_sea
-x 31
-y 24
-elevation -45
-end
-arch shallow_sea
-x 31
-y 25
-elevation -9
-end
-arch shallow_sea
-x 31
-y 26
-elevation -5
+move_block all
 end
 arch grass
 x 31
-y 27
-elevation 521
+y 17
+end
+arch ladder_bi_up
+slaying above_119_113
+hp 31
+sp 17
+x 31
+y 17
+end
+arch grass
+x 31
+y 18
+end
+arch grass
+x 31
+y 19
+end
+arch grass
+x 31
+y 20
 end
 arch woods
 x 31
-y 28
-elevation 1386
+y 21
+move_block all
 end
-arch hills
+arch woods_3
+x 31
+y 22
+move_block all
+end
+arch woods
+x 31
+y 23
+move_block all
+end
+arch woods_3
+x 31
+y 24
+move_block all
+end
+arch woods_3
+x 31
+y 25
+move_block all
+end
+arch woods
+x 31
+y 26
+move_block all
+end
+arch woods_3
+x 31
+y 27
+move_block all
+end
+arch woods_3
+x 31
+y 28
+move_block all
+blocksview 1
+end
+arch blocked
 x 31
 y 29
-elevation 3962
 end
-arch hills
+arch igate_open_1
 x 31
 y 30
-elevation 4453
+connected 10
 end
-arch hills
+arch boulder
+x 31
+y 30
+end
+arch button_plate
+name large button 11
 x 31
 y 31
-elevation 3393
+connected 11
 end
-arch mountain
+arch fernrockscliff2
 x 31
 y 32
-elevation 8278
 end
 arch mountain2
 x 31
@@ -7921,174 +8295,195 @@ x 31
 y 48
 elevation 5048
 end
-arch hills
+arch fernrockscliff2
 x 31
 y 49
-elevation 4705
 end
 arch woods
 x 32
-elevation 2691
+move_block all
+blocksview 1
 end
-arch woods
+arch woods_3
 x 32
 y 1
-elevation 2458
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_3
 x 32
 y 2
-elevation 77
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 32
 y 3
-elevation 271
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 32
 y 4
-elevation 10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 32
 y 5
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 32
 y 6
-elevation -30
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 32
 y 7
-elevation -64
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 8
-elevation -109
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 9
-elevation -160
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 32
 y 10
-elevation -209
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 32
 y 11
-elevation -257
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 32
 y 12
-elevation -302
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 32
 y 13
-elevation -341
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 14
-elevation -372
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 15
-elevation -392
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 16
-elevation -399
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 32
 y 17
-elevation -390
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 32
 y 18
-elevation -367
 end
-arch sea
+arch grass
 x 32
 y 19
-elevation -331
 end
-arch sea
+arch grass
 x 32
 y 20
-elevation -283
 end
-arch sea
+arch woods
 x 32
 y 21
-elevation -228
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 32
 y 22
-elevation -168
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 32
 y 23
-elevation -110
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 32
 y 24
-elevation -58
+move_block all
+blocksview 1
+end
+arch woods
+x 32
+y 25
+move_block all
+blocksview 1
+end
+arch woods
+x 32
+y 26
+move_block all
+blocksview 1
+end
+arch woods
+x 32
+y 27
+move_block all
+blocksview 1
+end
+arch woods_3
+x 32
+y 28
+move_block all
+blocksview 1
 end
 arch shallow_sea
 x 32
-y 25
+y 29
 elevation -20
 end
-arch swamp
-x 32
-y 26
-elevation 1
-end
-arch desert
-x 32
-y 27
-elevation 447
-end
-arch desert
-x 32
-y 28
-elevation 258
-end
-arch desert
-x 32
-y 29
-elevation 976
-end
-arch hills
+arch shallow_sea
 x 32
 y 30
-elevation 4053
+elevation -20
 end
-arch mountain
+arch shallow_sea
 x 32
 y 31
-elevation 6391
+elevation -20
 end
-arch mountain
+arch fernrockscliff2
 x 32
 y 32
-elevation 8958
 end
 arch mountain2
 x 32
@@ -8170,174 +8565,194 @@ x 32
 y 48
 elevation 5034
 end
-arch steppe
+arch fernrockscliff2
 x 32
 y 49
-elevation 4460
 end
-arch woods
+arch woods_3
 x 33
-elevation 2871
+move_block all
+blocksview 1
 end
-arch woods
+arch woods_2
 x 33
 y 1
-elevation 2286
+move_block all
+blocksview 1
+end
+arch woods_2
+x 33
+y 2
+move_block all
+blocksview 1
+end
+arch woods_2
+x 33
+y 3
+move_block all
+blocksview 1
+end
+arch woods_2
+x 33
+y 4
+move_block all
+blocksview 1
 end
 arch woods
 x 33
-y 2
-elevation 1133
-end
-arch desert
-x 33
-y 3
-elevation 40
-end
-arch shallow_sea
-x 33
-y 4
-elevation -10
-end
-arch shallow_sea
-x 33
 y 5
-elevation -31
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 33
 y 6
-elevation -63
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 33
 y 7
-elevation -103
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 33
 y 8
-elevation -150
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 33
 y 9
-elevation -201
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 33
 y 10
-elevation -253
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 33
 y 11
-elevation -302
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 33
 y 12
-elevation -347
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 33
 y 13
-elevation -385
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 33
 y 14
-elevation -413
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 33
 y 15
-elevation -429
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 33
 y 16
-elevation -430
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 33
 y 17
-elevation -416
 end
-arch sea
+arch grass
 x 33
 y 18
-elevation -388
 end
-arch sea
+arch grass
 x 33
 y 19
-elevation -346
 end
-arch sea
+arch grass
 x 33
 y 20
-elevation -293
 end
-arch sea
+arch grass
 x 33
 y 21
-elevation -232
 end
-arch sea
+arch grass
 x 33
 y 22
-elevation -169
-end
-arch sea
-x 33
-y 23
-elevation -109
-end
-arch shallow_sea
-x 33
-y 24
-elevation -57
-end
-arch shallow_sea
-x 33
-y 25
-elevation -10
 end
 arch brush
 x 33
-y 26
-elevation 21
+y 23
 end
-arch desert
+arch woods
+x 33
+y 24
+move_block all
+blocksview 1
+end
+arch woods_2
+x 33
+y 25
+move_block all
+blocksview 1
+end
+arch woods_2
+x 33
+y 26
+move_block all
+blocksview 1
+end
+arch woods_2
 x 33
 y 27
-elevation 331
+move_block all
+blocksview 1
 end
-arch grass
+arch woods_2
 x 33
 y 28
-elevation 13
+move_block all
+blocksview 1
 end
-arch grass
+arch fernrockscliff2
 x 33
 y 29
-elevation 824
 end
-arch hills
+arch fernrockscliff2
 x 33
 y 30
-elevation 3991
 end
 arch mountain
 x 33
 y 31
 elevation 6740
 end
+arch fernrockscliff2
+x 33
+y 31
+end
 arch mountain
 x 33
 y 32
 elevation 8569
+end
+arch fernrockscliff2
+x 33
+y 32
 end
 arch mountain2
 x 33
@@ -8424,159 +8839,163 @@ x 33
 y 49
 elevation 7277
 end
-arch woods
+arch woods_2
 x 34
-elevation 2446
+move_block all
+blocksview 1
 end
-arch woods
+arch woods_2
 x 34
 y 1
-elevation 2139
+move_block all
+blocksview 1
+end
+arch woods_3
+x 34
+y 2
+move_block all
+blocksview 1
 end
 arch woods
 x 34
-y 2
-elevation 1297
-end
-arch desert
-x 34
 y 3
-elevation 26
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 34
 y 4
-elevation -13
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch grassmedium
 x 34
 y 5
-elevation -47
 end
-arch shallow_sea
+arch grassmedium
 x 34
 y 6
-elevation -84
 end
-arch sea
+arch ladder_bi_up
+slaying above_119_113
+hp 34
+sp 6
+x 34
+y 6
+end
+arch woods_2
 x 34
 y 7
-elevation -127
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 34
 y 8
-elevation -175
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 34
 y 9
-elevation -227
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 34
 y 10
-elevation -279
 end
-arch sea
+arch woods_3
 x 34
 y 11
-elevation -328
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 34
 y 12
-elevation -372
+move_block all
+blocksview 1
 end
-arch sea
+arch woods
 x 34
 y 13
-elevation -408
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 34
 y 14
-elevation -433
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 34
 y 15
-elevation -446
 end
-arch sea
+arch grass
 x 34
 y 16
-elevation -443
 end
-arch sea
+arch grass
 x 34
 y 17
-elevation -425
 end
-arch sea
+arch grass
 x 34
 y 18
-elevation -392
 end
-arch sea
+arch grass
 x 34
 y 19
-elevation -345
 end
-arch sea
+arch grass
 x 34
 y 20
-elevation -287
 end
-arch sea
+arch grass
 x 34
 y 21
-elevation -222
 end
-arch sea
+arch grass
 x 34
 y 22
-elevation -155
 end
-arch shallow_sea
+arch grass
 x 34
 y 23
-elevation -92
 end
-arch shallow_sea
+arch brush
 x 34
 y 24
-elevation -40
 end
-arch shallow_sea
+arch woods
 x 34
 y 25
-elevation -7
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_2
 x 34
 y 26
-elevation 105
+move_block all
+blocksview 1
 end
-arch grass
+arch woods_2
 x 34
 y 27
-elevation 306
+move_block all
+blocksview 1
 end
-arch grass
+arch woods_2
 x 34
 y 28
-elevation 635
+move_block all
+blocksview 1
 end
-arch grass
+arch fernrockscliff2
 x 34
 y 29
-elevation 822
-end
-arch hills
-x 34
-y 30
-elevation 3349
 end
 arch mountain
 x 34
@@ -8673,159 +9092,174 @@ x 34
 y 49
 elevation 8221
 end
-arch desert
+arch woods_3
 x 35
-elevation 714
+move_block all
+blocksview 1
 end
 arch woods
 x 35
 y 1
-elevation 1312
+move_block all
+blocksview 1
 end
-arch desert
+arch grassmedium
 x 35
 y 2
-elevation 634
 end
-arch shallow_sea
+arch emerald
+name Elven Moon Emerald
+name_pl Elven Moon Emeralds
+title of flawless beauty
+face pretty_emerald.111
+x 35
+y 2
+speed 0.000000
+value 160000
+weight 90
+is_animated 0
+end
+arch button_small
 x 35
 y 3
-elevation -5
+connected 12
 end
-arch shallow_sea
+arch grassmedium
+x 35
+y 3
+end
+arch rune_paralysis
+x 35
+y 3
+level 60
+cha 200
+end
+arch creator
+name creator killer_bee
+other_arch killer_bee
+hp 10
 x 35
 y 4
-elevation -22
+level 30
+connected 12
 end
-arch shallow_sea
+arch grassmedium
+x 35
+y 4
+end
+arch grassmedium
 x 35
 y 5
-elevation -55
 end
-arch shallow_sea
+arch woods_3
 x 35
 y 6
-elevation -92
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 35
 y 7
-elevation -135
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 35
 y 8
-elevation -183
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 35
 y 9
-elevation -234
 end
-arch sea
+arch grass
 x 35
 y 10
-elevation -285
 end
-arch sea
+arch grass
 x 35
 y 11
-elevation -334
 end
-arch sea
+arch woods_3
 x 35
 y 12
-elevation -376
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 35
 y 13
-elevation -410
 end
-arch sea
+arch grass
 x 35
 y 14
-elevation -433
 end
-arch sea
+arch grass
 x 35
 y 15
-elevation -443
 end
-arch sea
+arch grass
 x 35
 y 16
-elevation -437
 end
-arch sea
+arch grass
 x 35
 y 17
-elevation -416
 end
-arch sea
+arch grass
 x 35
 y 18
-elevation -380
 end
-arch sea
+arch grass
 x 35
 y 19
-elevation -329
 end
-arch sea
+arch grass
 x 35
 y 20
-elevation -267
 end
-arch sea
+arch grass
 x 35
 y 21
-elevation -198
 end
-arch sea
+arch grass
 x 35
 y 22
-elevation -126
 end
-arch shallow_sea
+arch grass
 x 35
 y 23
-elevation -61
 end
-arch shallow_sea
+arch grass
 x 35
 y 24
-elevation -3
 end
-arch desert
+arch brush
 x 35
 y 25
-elevation 23
 end
-arch grass
+arch woods
 x 35
 y 26
-elevation 513
+move_block all
+blocksview 1
 end
-arch grass
+arch woods_2
 x 35
 y 27
-elevation 751
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_2
 x 35
 y 28
-elevation 680
+move_block all
+blocksview 1
 end
-arch desert
+arch fernrockscliff2
 x 35
 y 29
-elevation 117
-end
-arch evergreen
-x 35
-y 30
-elevation 2372
 end
 arch steppe
 x 35
@@ -8922,159 +9356,185 @@ x 35
 y 49
 elevation 7955
 end
-arch desert
+arch woods_2
 x 36
-elevation 191
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 36
 y 1
-elevation 298
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_3
 x 36
 y 2
-elevation 21
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 36
 y 3
-elevation -4
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch grassmedium
 x 36
 y 4
-elevation -27
 end
-arch shallow_sea
+arch emerald
+x 36
+y 4
+nrof 100
+end
+arch woods_3
 x 36
 y 5
-elevation -53
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 36
 y 6
-elevation -87
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_2
 x 36
 y 7
-elevation -128
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 36
 y 8
-elevation -175
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 36
 y 9
-elevation -224
 end
-arch sea
+arch grass
 x 36
 y 10
-elevation -273
 end
-arch sea
+arch grass
 x 36
 y 11
-elevation -319
 end
-arch sea
+arch grass
 x 36
 y 12
-elevation -360
 end
-arch sea
+arch grass
 x 36
 y 13
-elevation -392
 end
-arch sea
+arch grass
 x 36
 y 14
-elevation -413
 end
-arch sea
+arch grass
 x 36
 y 15
-elevation -420
 end
-arch sea
+arch grass
 x 36
 y 16
-elevation -413
 end
-arch sea
+arch grass
 x 36
 y 17
-elevation -390
 end
-arch sea
+arch grass
 x 36
 y 18
-elevation -352
 end
-arch sea
+arch grass
 x 36
 y 19
-elevation -299
 end
-arch sea
+arch grass
 x 36
 y 20
-elevation -235
 end
-arch sea
+arch grass
+x 36
+y 20
+end
+arch woods_3
+x 36
+y 20
+move_block all
+blocksview 1
+end
+arch grass
 x 36
 y 21
-elevation -159
 end
-arch shallow_sea
+arch grass
+x 36
+y 21
+end
+arch grass
+x 36
+y 21
+end
+arch woods_3
+x 36
+y 21
+move_block all
+blocksview 1
+end
+arch grass
 x 36
 y 22
-elevation -88
 end
-arch shallow_sea
+arch woods_3
+x 36
+y 22
+move_block all
+blocksview 1
+end
+arch grass
 x 36
 y 23
-elevation -4
 end
-arch desert
+arch woods_3
+x 36
+y 23
+move_block all
+blocksview 1
+end
+arch grass
 x 36
 y 24
-elevation 29
 end
 arch grass
 x 36
 y 25
-elevation 723
+end
+arch brush
+x 36
+y 26
 end
 arch woods
 x 36
-y 26
-elevation 1003
-end
-arch grass
-x 36
 y 27
-elevation 879
+move_block all
+blocksview 1
 end
-arch grass
+arch woods
 x 36
 y 28
-elevation 417
+move_block all
+blocksview 1
 end
-arch desert
+arch fernrockscliff2
 x 36
 y 29
-elevation 363
-end
-arch evergreen
-x 36
-y 30
-elevation 1692
 end
 arch jungle_1
 x 36
@@ -9171,79 +9631,80 @@ x 36
 y 49
 elevation 5965
 end
-arch desert
+arch woods
 x 37
-elevation 27
+move_block all
+blocksview 1
 end
-arch swamp
+arch woods_3
 x 37
 y 1
-elevation 6
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 37
 y 2
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 37
 y 3
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 37
 y 4
-elevation -22
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 37
 y 5
-elevation -42
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 37
 y 6
-elevation -70
+move_block all
+blocksview 1
 end
-arch sea
+arch woods_3
 x 37
 y 7
-elevation -106
+move_block all
+blocksview 1
 end
-arch sea
+arch grass
 x 37
 y 8
-elevation -149
 end
-arch sea
+arch grass
 x 37
 y 9
-elevation -196
 end
-arch sea
+arch grass
 x 37
 y 10
-elevation -242
 end
-arch sea
+arch grass
 x 37
 y 11
-elevation -285
 end
-arch sea
+arch grass
 x 37
 y 12
-elevation -323
 end
-arch sea
+arch grass
 x 37
 y 13
-elevation -353
 end
-arch sea
+arch grass
 x 37
 y 14
-elevation -373
 end
 arch sea
 x 37
@@ -9265,65 +9726,110 @@ x 37
 y 18
 elevation -311
 end
-arch sea
+arch grass
 x 37
 y 19
-elevation -259
-end
-arch sea
-x 37
-y 20
-elevation -194
-end
-arch sea
-x 37
-y 21
-elevation -118
-end
-arch shallow_sea
-x 37
-y 22
-elevation -8
-end
-arch shallow_sea
-x 37
-y 23
-elevation -10
-end
-arch desert
-x 37
-y 24
-elevation 739
-end
-arch woods
-x 37
-y 25
-elevation 1492
-end
-arch woods
-x 37
-y 26
-elevation 1167
 end
 arch grass
 x 37
-y 27
-elevation 281
+y 20
 end
-arch desert
+arch grass
+x 37
+y 20
+end
+arch woods_3
+x 37
+y 20
+move_block all
+blocksview 1
+end
+arch grass
+x 37
+y 21
+end
+arch igate_open_1
+name iron gate 30
+x 37
+y 21
+connected 32
+end
+arch button_small
+name small button 30
+x 37
+y 21
+weight 2
+connected 32
+move_on walk
+move_off walk
+end
+arch button_small
+name small button 50
+x 37
+y 21
+weight 2
+connected 50
+move_on walk
+move_off walk
+end
+arch grass
+x 37
+y 22
+end
+arch igate_open_1
+name iron gate 40
+x 37
+y 22
+connected 41
+end
+arch button_small
+name small button 40
+x 37
+y 22
+weight 2
+connected 41
+move_on walk
+move_off walk
+end
+arch boulder
+x 37
+y 22
+end
+arch grass
+x 37
+y 23
+end
+arch woods_3
+x 37
+y 23
+move_block all
+blocksview 1
+end
+arch grass
+x 37
+y 24
+end
+arch grass
+x 37
+y 25
+end
+arch grass
+x 37
+y 26
+end
+arch brush
+x 37
+y 27
+end
+arch woods_3
 x 37
 y 28
-elevation 924
+move_block all
+blocksview 1
 end
-arch evergreen
+arch fernrockscliff2
 x 37
 y 29
-elevation 1407
-end
-arch evergreen
-x 37
-y 30
-elevation 1602
 end
 arch evergreen
 x 37
@@ -9420,79 +9926,78 @@ x 37
 y 49
 elevation 294
 end
-arch shallow_sea
+arch woods_3
 x 38
-elevation -9
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 38
 y 1
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 38
 y 2
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 38
 y 3
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 38
 y 4
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 38
 y 5
-elevation -21
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 38
 y 6
-elevation -40
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch brush
 x 38
 y 7
-elevation -70
 end
-arch sea
+arch grass
 x 38
 y 8
-elevation -108
 end
-arch sea
+arch grass
 x 38
 y 9
-elevation -153
 end
-arch sea
+arch grass
 x 38
 y 10
-elevation -196
 end
-arch sea
+arch grass
 x 38
 y 11
-elevation -235
 end
-arch sea
+arch grass
 x 38
 y 12
-elevation -270
 end
-arch sea
+arch grass
 x 38
 y 13
-elevation -298
 end
-arch sea
+arch grass
 x 38
 y 14
-elevation -318
 end
 arch sea
 x 38
@@ -9514,65 +10019,93 @@ x 38
 y 18
 elevation -260
 end
-arch sea
+arch grass
 x 38
 y 19
-elevation -211
-end
-arch sea
-x 38
-y 20
-elevation -150
-end
-arch shallow_sea
-x 38
-y 21
-elevation -80
-end
-arch shallow_sea
-x 38
-y 22
-elevation -7
-end
-arch desert
-x 38
-y 23
-elevation 467
-end
-arch woods
-x 38
-y 24
-elevation 1500
-end
-arch evergreen
-x 38
-y 25
-elevation 2072
-end
-arch woods
-x 38
-y 26
-elevation 1925
 end
 arch grass
 x 38
-y 27
-elevation 725
+y 20
+end
+arch grass
+x 38
+y 20
+end
+arch woods_3
+x 38
+y 20
+move_block all
+blocksview 1
+end
+arch grass
+x 38
+y 21
+end
+arch grass
+x 38
+y 21
+end
+arch woods_3
+x 38
+y 21
+move_block all
+blocksview 1
+end
+arch grass
+x 38
+y 22
+end
+arch grass
+x 38
+y 22
+end
+arch woods_3
+x 38
+y 22
+move_block all
+blocksview 1
+end
+arch grass
+x 38
+y 23
+end
+arch grass
+x 38
+y 23
+end
+arch woods_3
+x 38
+y 23
+move_block all
+blocksview 1
+end
+arch grass
+x 38
+y 24
+end
+arch grass
+x 38
+y 25
+end
+arch brush
+x 38
+y 26
 end
 arch woods
 x 38
-y 28
-elevation 1609
+y 27
+move_block all
+blocksview 1
 end
-arch evergreen
+arch woods_2
+x 38
+y 28
+move_block all
+blocksview 1
+end
+arch fernrockscliff2
 x 38
 y 29
-elevation 1953
-end
-arch evergreen
-x 38
-y 30
-elevation 1926
 end
 arch evergreen
 x 38
@@ -9669,79 +10202,76 @@ x 38
 y 49
 elevation 3631
 end
-arch swamp
+arch woods_2
 x 39
-elevation 1
+move_block all
+blocksview 1
 end
-arch swamp
+arch woods_2
 x 39
 y 1
-elevation 9
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_2
 x 39
 y 2
-elevation 21
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 39
 y 3
-elevation -3
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_3
 x 39
 y 4
-elevation 15
+move_block all
+blocksview 1
 end
-arch desert
+arch woods_3
 x 39
 y 5
-elevation 13
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch brush
 x 39
 y 6
-elevation -7
 end
-arch shallow_sea
+arch grass
 x 39
 y 7
-elevation -7
 end
-arch shallow_sea
+arch grass
 x 39
 y 8
-elevation -62
 end
-arch sea
+arch grass
 x 39
 y 9
-elevation -101
 end
-arch sea
+arch grass
 x 39
 y 10
-elevation -138
 end
-arch sea
+arch grass
 x 39
 y 11
-elevation -170
 end
-arch sea
+arch grass
 x 39
 y 12
-elevation -201
 end
-arch sea
+arch grass
 x 39
 y 13
-elevation -229
 end
-arch sea
+arch grass
 x 39
 y 14
-elevation -250
 end
 arch sea
 x 39
@@ -9763,65 +10293,53 @@ x 39
 y 18
 elevation -201
 end
-arch sea
+arch grass
 x 39
 y 19
-elevation -158
 end
-arch sea
+arch grass
 x 39
 y 20
-elevation -104
 end
-arch shallow_sea
+arch grass
 x 39
 y 21
-elevation -41
 end
-arch shallow_sea
+arch grass
 x 39
 y 22
-elevation -2
 end
-arch desert
+arch grass
 x 39
 y 23
-elevation 859
 end
-arch woods
+arch grass
 x 39
 y 24
-elevation 1751
 end
-arch woods
+arch grass
 x 39
 y 25
-elevation 2422
 end
-arch woods
+arch brush
 x 39
 y 26
-elevation 2459
 end
-arch evergreen
+arch woods_3
 x 39
 y 27
-elevation 2255
+move_block all
+blocksview 1
 end
-arch woods
+arch woods_3
 x 39
 y 28
-elevation 2130
+move_block all
+blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 39
 y 29
-elevation 2246
-end
-arch woods
-x 39
-y 30
-elevation 2199
 end
 arch woods
 x 39
@@ -9918,79 +10436,73 @@ x 39
 y 49
 elevation 2854
 end
-arch desert
+arch woods_3
 x 40
-elevation 80
-end
-arch desert
-x 40
-y 1
-elevation 110
-end
-arch desert
-x 40
-y 2
-elevation 521
-end
-arch hills
-x 40
-y 3
-elevation 1239
+move_block all
+blocksview 1
 end
 arch woods
 x 40
-y 4
-elevation 1304
+y 1
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_3
+x 40
+y 2
+move_block all
+blocksview 1
+end
+arch woods_3
+x 40
+y 3
+move_block all
+blocksview 1
+end
+arch brush
+x 40
+y 4
+end
+arch grass
 x 40
 y 5
-elevation 1012
 end
-arch desert
+arch grass
 x 40
 y 6
-elevation 502
 end
-arch desert
+arch grass
 x 40
 y 7
-elevation 14
 end
-arch shallow_sea
+arch grass
 x 40
 y 8
-elevation -6
 end
-arch shallow_sea
+arch grass
 x 40
 y 9
-elevation -51
 end
-arch shallow_sea
+arch grass
 x 40
 y 10
-elevation -74
 end
-arch shallow_sea
+arch grass
 x 40
 y 11
-elevation -93
 end
-arch sea
+arch grass
 x 40
 y 12
-elevation -119
 end
-arch sea
+arch grass
 x 40
 y 13
-elevation -148
 end
 arch sea
 x 40
 y 14
-elevation -176
+elevation -113
 end
 arch sea
 x 40
@@ -10012,65 +10524,53 @@ x 40
 y 18
 elevation -139
 end
-arch sea
+arch grass
 x 40
 y 19
-elevation -102
 end
-arch shallow_sea
+arch grass
 x 40
 y 20
-elevation -60
 end
-arch shallow_sea
+arch grass
 x 40
 y 21
-elevation -6
 end
-arch desert
+arch grass
 x 40
 y 22
-elevation 87
 end
-arch desert
+arch grass
 x 40
 y 23
-elevation 643
 end
-arch woods
+arch grass
 x 40
 y 24
-elevation 1561
 end
-arch woods
+arch grass
 x 40
 y 25
-elevation 2125
 end
-arch evergreen
+arch brush
 x 40
 y 26
-elevation 2293
 end
 arch woods
 x 40
 y 27
-elevation 2162
+move_block all
+blocksview 1
 end
-arch evergreen
+arch woods_2
 x 40
 y 28
-elevation 2010
+move_block all
+blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 40
 y 29
-elevation 1921
-end
-arch evergreen
-x 40
-y 30
-elevation 2008
 end
 arch evergreen
 x 40
@@ -10167,79 +10667,69 @@ x 40
 y 49
 elevation 2492
 end
-arch desert
-x 41
-elevation 208
-end
-arch desert
-x 41
-y 1
-elevation 903
-end
 arch woods
 x 41
-y 2
-elevation 2401
+move_block all
+blocksview 1
 end
-arch hills_rocky
+arch woods_3
+x 41
+y 1
+move_block all
+blocksview 1
+end
+arch brush
+x 41
+y 2
+end
+arch grass
 x 41
 y 3
-elevation 3224
 end
-arch steppe
+arch grass
 x 41
 y 4
-elevation 3236
 end
-arch woods_2
+arch grass
 x 41
 y 5
-elevation 2594
 end
-arch hills
+arch grass
 x 41
 y 6
-elevation 1673
 end
 arch grass
 x 41
 y 7
-elevation 639
 end
-arch shallow_sea
+arch grass
 x 41
 y 8
-elevation -6
 end
-arch shallow_sea
+arch grass
 x 41
 y 9
-elevation -10
 end
-arch shallow_sea
+arch grass
 x 41
 y 10
-elevation -6
 end
-arch shallow_sea
+arch grass
 x 41
 y 11
-elevation -8
 end
-arch shallow_sea
+arch grass
 x 41
 y 12
-elevation -9
 end
-arch shallow_sea
+arch grass
 x 41
 y 13
-elevation -68
 end
 arch sea
 x 41
 y 14
-elevation -105
+elevation -113
 end
 arch sea
 x 41
@@ -10261,65 +10751,53 @@ x 41
 y 18
 elevation -72
 end
-arch shallow_sea
+arch grass
 x 41
 y 19
-elevation -49
-end
-arch shallow_sea
-x 41
-y 20
-elevation -8
-end
-arch shallow_sea
-x 41
-y 21
-elevation -1
-end
-arch desert
-x 41
-y 22
-elevation 258
-end
-arch desert
-x 41
-y 23
-elevation 716
-end
-arch woods
-x 41
-y 24
-elevation 1036
-end
-arch woods
-x 41
-y 25
-elevation 1358
-end
-arch woods
-x 41
-y 26
-elevation 1406
-end
-arch evergreen
-x 41
-y 27
-elevation 1192
-end
-arch desert
-x 41
-y 28
-elevation 963
 end
 arch grass
 x 41
-y 29
-elevation 972
+y 20
 end
-arch desert
+arch grass
 x 41
-y 30
-elevation 934
+y 21
+end
+arch grass
+x 41
+y 22
+end
+arch grass
+x 41
+y 23
+end
+arch grass
+x 41
+y 24
+end
+arch grass
+x 41
+y 25
+end
+arch brush
+x 41
+y 26
+end
+arch woods
+x 41
+y 27
+move_block all
+blocksview 1
+end
+arch woods
+x 41
+y 28
+move_block all
+blocksview 1
+end
+arch fernrockscliff2
+x 41
+y 29
 end
 arch evergreen
 x 41
@@ -10416,49 +10894,40 @@ x 41
 y 49
 elevation 1665
 end
-arch desert
+arch grass
 x 42
-elevation 176
 end
-arch woods
+arch grass
 x 42
 y 1
-elevation 1470
 end
-arch steppe
+arch grass
 x 42
 y 2
-elevation 3190
 end
-arch steppe
+arch grass
 x 42
 y 3
-elevation 4223
 end
-arch steppe
+arch grass
 x 42
 y 4
-elevation 3962
 end
-arch hills
+arch grass
 x 42
 y 5
-elevation 2349
 end
-arch hills
+arch grass
 x 42
 y 6
-elevation 1654
 end
-arch woods_2
+arch grass
 x 42
 y 7
-elevation 2036
 end
-arch woods
+arch grass
 x 42
 y 8
-elevation 1327
 end
 arch woods
 x 42
@@ -10510,65 +10979,53 @@ x 42
 y 18
 elevation -9
 end
-arch swamp
+arch grass
 x 42
 y 19
-elevation 6
 end
-arch swamp
+arch grass
 x 42
 y 20
-elevation 1
 end
-arch desert
+arch grass
 x 42
 y 21
-elevation 150
 end
-arch desert
+arch grass
 x 42
 y 22
-elevation 723
 end
 arch grass
 x 42
 y 23
-elevation 56
 end
 arch grass
 x 42
 y 24
-elevation 388
 end
-arch desert
+arch grass
 x 42
 y 25
-elevation 352
 end
-arch desert
+arch brush
 x 42
 y 26
-elevation 195
 end
-arch grass
+arch woods
 x 42
 y 27
-elevation 51
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 42
 y 28
-elevation -9
+move_block all
+blocksview 1
 end
-arch grass
+arch fernrockscliff2
 x 42
 y 29
-elevation 30
-end
-arch desert
-x 42
-y 30
-elevation 64
 end
 arch desert
 x 42
@@ -10665,49 +11122,40 @@ x 42
 y 49
 elevation 702
 end
-arch deep_swamp
+arch grass
 x 43
-elevation 4
 end
-arch desert
+arch grass
 x 43
 y 1
-elevation 823
 end
-arch steppe
+arch grass
 x 43
 y 2
-elevation 3167
 end
-arch steppe
+arch grass
 x 43
 y 3
-elevation 4378
 end
-arch steppe
+arch grass
 x 43
 y 4
-elevation 4283
 end
-arch woods
+arch grass
 x 43
 y 5
-elevation 2706
 end
-arch steppe
+arch grass
 x 43
 y 6
-elevation 3653
 end
-arch hills
+arch grass
 x 43
 y 7
-elevation 3679
 end
-arch steppe
+arch grass
 x 43
 y 8
-elevation 3257
 end
 arch woods
 x 43
@@ -10759,60 +11207,53 @@ x 43
 y 18
 elevation 408
 end
-arch desert
+arch grass
 x 43
 y 19
-elevation 412
 end
-arch evergreen
+arch grass
 x 43
 y 20
-elevation 1157
 end
 arch grass
 x 43
 y 21
-elevation 751
 end
-arch woods
+arch grass
 x 43
 y 22
-elevation 1556
 end
-arch evergreen
+arch grass
 x 43
 y 23
-elevation 1177
 end
-arch desert
+arch grass
 x 43
 y 24
-elevation 277
 end
-arch swamp
+arch grass
 x 43
 y 25
-elevation 5
 end
-arch shallow_sea
+arch brush
 x 43
 y 26
-elevation -8
 end
-arch shallow_sea
+arch woods_3
 x 43
 y 27
-elevation -6
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 43
 y 28
-elevation -9
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 43
 y 29
-elevation -10
 end
 arch grass
 x 43
@@ -10914,74 +11355,60 @@ x 43
 y 49
 elevation 635
 end
-arch desert
+arch grass
 x 44
-elevation 85
 end
-arch desert
+arch grass
 x 44
 y 1
-elevation 455
 end
-arch steppe
+arch grass
 x 44
 y 2
-elevation 3014
 end
-arch steppe
+arch grass
 x 44
 y 3
-elevation 4435
 end
-arch steppe
+arch grass
 x 44
 y 4
-elevation 4622
 end
-arch steppe
+arch grass
 x 44
 y 5
-elevation 4553
 end
-arch steppe
+arch grass
 x 44
 y 6
-elevation 4871
 end
-arch mountain
+arch grass
 x 44
 y 7
-elevation 5127
 end
-arch steppe
+arch grass
 x 44
 y 8
-elevation 4531
 end
-arch hills
+arch grass
 x 44
 y 9
-elevation 1865
 end
-arch hills
+arch grass
 x 44
 y 10
-elevation 2513
 end
-arch woods
+arch grass
 x 44
 y 11
-elevation 1084
 end
-arch desert
+arch grass
 x 44
 y 12
-elevation 554
 end
-arch desert
+arch grass
 x 44
 y 13
-elevation 430
 end
 arch grass
 x 44
@@ -11003,65 +11430,57 @@ x 44
 y 17
 elevation 361
 end
-arch woods
+arch grass
 x 44
 y 18
-elevation 1507
 end
-arch evergreen
+arch grass
 x 44
 y 19
-elevation 2547
 end
-arch steppe
+arch grass
 x 44
 y 20
-elevation 3031
 end
-arch steppe
+arch grass
 x 44
 y 21
-elevation 3119
 end
-arch evergreen
+arch grass
 x 44
 y 22
-elevation 2499
 end
-arch evergreen
+arch grass
 x 44
 y 23
-elevation 1458
 end
-arch desert
+arch grass
 x 44
 y 24
-elevation 65
 end
-arch shallow_sea
+arch grass
 x 44
 y 25
-elevation -4
 end
-arch shallow_sea
+arch brush
 x 44
 y 26
-elevation -10
 end
-arch shallow_sea
+arch woods
 x 44
 y 27
-elevation -10
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 44
 y 28
-elevation -10
+move_block all
+blocksview 1
 end
-arch swamp
+arch fernrockscliff2
 x 44
 y 29
-elevation 1
 end
 arch grass
 x 44
@@ -11163,154 +11582,128 @@ x 44
 y 49
 elevation 133
 end
-arch desert
+arch grass
 x 45
-elevation 602
 end
-arch desert
+arch grass
 x 45
 y 1
-elevation 725
 end
-arch steppe
+arch grass
 x 45
 y 2
-elevation 3466
 end
-arch steppe
+arch grass
 x 45
 y 3
-elevation 4648
 end
-arch steppe
+arch grass
 x 45
 y 4
-elevation 4792
 end
-arch steppe
+arch grass
 x 45
 y 5
-elevation 4818
 end
-arch mountain
+arch grass
 x 45
 y 6
-elevation 5144
 end
-arch mountain
+arch grass
 x 45
 y 7
-elevation 5520
 end
-arch mountain
+arch grass
 x 45
 y 8
-elevation 5406
 end
-arch steppe
+arch grass
 x 45
 y 9
-elevation 4750
 end
-arch steppe
+arch grass
 x 45
 y 10
-elevation 3423
 end
-arch desert
+arch grass
 x 45
 y 11
-elevation 261
 end
-arch evergreen
+arch grass
 x 45
 y 12
-elevation 2179
 end
-arch evergreen
+arch grass
 x 45
 y 13
-elevation 2171
 end
-arch woods
+arch grass
 x 45
 y 14
-elevation 1571
 end
-arch desert
+arch grass
 x 45
 y 15
-elevation 874
 end
-arch desert
+arch grass
 x 45
 y 16
-elevation 45
 end
-arch desert
+arch grass
 x 45
 y 17
-elevation 752
 end
-arch evergreen
+arch grass
 x 45
 y 18
-elevation 2647
 end
-arch steppe
+arch grass
 x 45
 y 19
-elevation 3783
 end
-arch steppe
+arch grass
 x 45
 y 20
-elevation 4509
 end
-arch steppe
+arch grass
 x 45
 y 21
-elevation 4126
 end
-arch woods
+arch grass
 x 45
 y 22
-elevation 2903
+end
+arch grass
+x 45
+y 23
+end
+arch grass
+x 45
+y 24
+end
+arch grass
+x 45
+y 25
+end
+arch brush
+x 45
+y 26
 end
 arch woods
 x 45
-y 23
-elevation 1066
-end
-arch swamp
-x 45
-y 24
-elevation 4
-end
-arch shallow_sea
-x 45
-y 25
-elevation -10
-end
-arch shallow_sea
-x 45
-y 26
-elevation -13
-end
-arch shallow_sea
-x 45
 y 27
-elevation -14
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 45
 y 28
-elevation -11
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 45
 y 29
-elevation -6
 end
 arch grass
 x 45
@@ -11412,154 +11805,128 @@ x 45
 y 49
 elevation -8
 end
-arch hills
+arch grass
 x 46
-elevation 1288
 end
-arch steppe
+arch grass
 x 46
 y 1
-elevation 3144
 end
-arch steppe
+arch grass
 x 46
 y 2
-elevation 4132
 end
-arch hills_rocky
+arch grass
 x 46
 y 3
-elevation 4810
 end
-arch steppe
+arch grass
 x 46
 y 4
-elevation 4993
 end
-arch steppe
+arch grass
 x 46
 y 5
-elevation 4482
 end
-arch steppe
+arch grass
 x 46
 y 6
-elevation 3145
 end
-arch mountain
+arch grass
 x 46
 y 7
-elevation 5730
 end
-arch mountain
+arch grass
 x 46
 y 8
-elevation 6184
 end
-arch mountain
+arch grass
 x 46
 y 9
-elevation 5896
 end
-arch steppe
+arch grass
 x 46
 y 10
-elevation 4854
 end
-arch steppe
+arch grass
 x 46
 y 11
-elevation 4049
 end
-arch steppe
+arch grass
 x 46
 y 12
-elevation 3683
 end
-arch steppe
+arch grass
 x 46
 y 13
-elevation 3605
 end
-arch evergreen
+arch grass
 x 46
 y 14
-elevation 2831
 end
-arch evergreen
+arch grass
 x 46
 y 15
-elevation 1676
 end
-arch evergreen
+arch grass
 x 46
 y 16
-elevation 1700
 end
-arch evergreen
+arch grass
 x 46
 y 17
-elevation 1015
 end
-arch steppe
+arch grass
 x 46
 y 18
-elevation 3778
 end
-arch steppe
+arch grass
 x 46
 y 19
-elevation 4807
 end
-arch steppe
+arch grass
 x 46
 y 20
-elevation 4947
 end
-arch steppe
+arch grass
 x 46
 y 21
-elevation 4066
 end
-arch woods
+arch grass
 x 46
 y 22
-elevation 2220
 end
-arch swamp
+arch grass
 x 46
 y 23
-elevation 4
 end
-arch shallow_sea
+arch grass
 x 46
 y 24
-elevation -9
 end
-arch shallow_sea
+arch grass
 x 46
 y 25
-elevation -16
 end
-arch shallow_sea
+arch brush
 x 46
 y 26
-elevation -22
 end
-arch shallow_sea
+arch woods_3
 x 46
 y 27
-elevation -22
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 46
 y 28
-elevation -17
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 46
 y 29
-elevation -9
 end
 arch grass
 x 46
@@ -11661,154 +12028,128 @@ x 46
 y 49
 elevation -10
 end
-arch mountain
+arch grass
 x 47
-elevation 5484
 end
-arch mountain
+arch grass
 x 47
 y 1
-elevation 5115
 end
-arch steppe
+arch grass
 x 47
 y 2
-elevation 4364
 end
-arch steppe
+arch grass
 x 47
 y 3
-elevation 4767
 end
-arch steppe
+arch grass
 x 47
 y 4
-elevation 4936
 end
-arch steppe
+arch grass
 x 47
 y 5
-elevation 4746
 end
-arch mountain
+arch grass
 x 47
 y 6
-elevation 5257
 end
-arch mountain
+arch grass
 x 47
 y 7
-elevation 6012
 end
-arch mountain
+arch grass
 x 47
 y 8
-elevation 6795
 end
-arch mountain
+arch grass
 x 47
 y 9
-elevation 6577
 end
-arch mountain
+arch grass
 x 47
 y 10
-elevation 5824
 end
-arch mountain
+arch grass
 x 47
 y 11
-elevation 5134
 end
-arch steppe
+arch grass
 x 47
 y 12
-elevation 4820
 end
-arch steppe
+arch grass
 x 47
 y 13
-elevation 4386
 end
-arch steppe
+arch grass
 x 47
 y 14
-elevation 3192
 end
-arch evergreen
+arch grass
 x 47
 y 15
-elevation 1890
+end
+arch grass
+x 47
+y 16
+end
+arch grass
+x 47
+y 17
+end
+arch grass
+x 47
+y 18
+end
+arch grass
+x 47
+y 19
+end
+arch grass
+x 47
+y 20
+end
+arch grass
+x 47
+y 21
+end
+arch grass
+x 47
+y 22
+end
+arch grass
+x 47
+y 23
+end
+arch grass
+x 47
+y 24
+end
+arch grass
+x 47
+y 25
+end
+arch brush
+x 47
+y 26
 end
 arch woods
 x 47
-y 16
-elevation 2428
-end
-arch steppe
-x 47
-y 17
-elevation 3543
-end
-arch steppe
-x 47
-y 18
-elevation 4546
-end
-arch mountain
-x 47
-y 19
-elevation 5017
-end
-arch steppe
-x 47
-y 20
-elevation 4562
-end
-arch steppe
-x 47
-y 21
-elevation 3155
-end
-arch desert
-x 47
-y 22
-elevation 877
-end
-arch shallow_sea
-x 47
-y 23
-elevation -7
-end
-arch shallow_sea
-x 47
-y 24
-elevation -16
-end
-arch shallow_sea
-x 47
-y 25
-elevation -27
-end
-arch shallow_sea
-x 47
-y 26
-elevation -34
-end
-arch shallow_sea
-x 47
 y 27
-elevation -36
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 47
 y 28
-elevation -30
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 47
 y 29
-elevation -9
 end
 arch swamp
 x 47
@@ -11910,154 +12251,188 @@ x 47
 y 49
 elevation -21
 end
-arch mountain
+arch grass
 x 48
-elevation 7134
 end
-arch mountain
+arch grass
 x 48
 y 1
-elevation 6660
 end
-arch mountain
+arch grass
 x 48
 y 2
-elevation 5949
 end
-arch mountain
+arch grass
 x 48
 y 3
-elevation 5210
 end
-arch steppe
+arch grass
 x 48
 y 4
-elevation 3849
 end
-arch steppe
+arch grass
 x 48
 y 5
-elevation 4886
 end
-arch mountain
+arch grass
 x 48
 y 6
-elevation 5108
 end
-arch mountain
+arch grass
 x 48
 y 7
-elevation 6533
 end
-arch mountain
+arch grass
 x 48
 y 8
-elevation 7297
 end
-arch mountain
+arch grass
 x 48
 y 9
-elevation 6631
 end
-arch mountain
+arch grass
 x 48
 y 10
-elevation 5404
 end
-arch mountain
+arch grass
 x 48
 y 11
-elevation 5179
 end
-arch mountain
+arch grass
 x 48
 y 12
-elevation 5082
 end
-arch steppe
+arch grass
 x 48
 y 13
-elevation 4654
 end
-arch steppe
+arch grass
 x 48
 y 14
-elevation 3578
 end
 arch grass
 x 48
 y 15
-elevation 422
 end
-arch steppe
+arch grass
 x 48
 y 16
-elevation 3011
 end
-arch steppe
+arch grass
+x 48
+y 16
+end
+arch grass
+x 48
+y 16
+end
+arch woods_3
+x 48
+y 16
+move_block all
+blocksview 1
+end
+arch grass
 x 48
 y 17
-elevation 3943
 end
-arch steppe
+arch grass
+x 48
+y 17
+end
+arch grass
+x 48
+y 17
+end
+arch woods_3
+x 48
+y 17
+move_block all
+blocksview 1
+end
+arch grass
 x 48
 y 18
-elevation 4619
 end
-arch steppe
+arch grass
+x 48
+y 18
+end
+arch grass
+x 48
+y 18
+end
+arch woods_3
+x 48
+y 18
+move_block all
+blocksview 1
+end
+arch grass
 x 48
 y 19
-elevation 4435
 end
-arch steppe
+arch grass
 x 48
 y 20
-elevation 3249
 end
-arch evergreen
+arch grass
 x 48
 y 21
-elevation 1848
 end
 arch grass
 x 48
 y 22
-elevation 10
 end
-arch shallow_sea
+arch button_small
+name small button 200
 x 48
 y 23
-elevation -7
+connected 200
 end
-arch shallow_sea
+arch creator
+name creator 200
+other_arch pear
+hp 5
+x 48
+y 23
+connected 200
+end
+arch grass
+x 48
+y 23
+end
+arch tree4
+x 48
+y 23
+end
+arch grass
 x 48
 y 24
-elevation -26
 end
-arch shallow_sea
+arch grass
 x 48
 y 25
-elevation -41
 end
-arch shallow_sea
+arch brush
 x 48
 y 26
-elevation -51
 end
-arch shallow_sea
+arch woods_3
 x 48
 y 27
-elevation -55
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_3
 x 48
 y 28
-elevation -50
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 48
 y 29
-elevation -37
 end
 arch shallow_sea
 x 48
@@ -12159,154 +12534,172 @@ x 48
 y 49
 elevation -22
 end
-arch mountain
+arch grass
 x 49
-elevation 7861
 end
-arch mountain
+arch grass
 x 49
 y 1
-elevation 7395
 end
-arch mountain
+arch grass
 x 49
 y 2
-elevation 6191
 end
-arch mountain
+arch grass
 x 49
 y 3
-elevation 5693
 end
-arch hills_rocky
+arch grass
 x 49
 y 4
-elevation 4734
 end
-arch mountain
+arch grass
 x 49
 y 5
-elevation 5282
 end
-arch steppe
+arch grass
 x 49
 y 6
-elevation 4306
 end
-arch mountain
+arch grass
 x 49
 y 7
-elevation 6903
 end
-arch mountain
+arch grass
 x 49
 y 8
-elevation 7336
 end
-arch mountain
+arch grass
 x 49
 y 9
-elevation 6058
 end
-arch steppe
+arch grass
 x 49
 y 10
-elevation 3413
 end
-arch steppe
+arch grass
 x 49
 y 11
-elevation 4892
 end
-arch mountain
+arch grass
 x 49
 y 12
-elevation 5589
 end
-arch steppe
+arch grass
 x 49
 y 13
-elevation 3698
 end
-arch steppe
+arch grass
 x 49
 y 14
-elevation 4907
 end
-arch steppe
+arch grass
 x 49
 y 15
-elevation 3910
 end
-arch evergreen
+arch grass
 x 49
 y 16
-elevation 2859
 end
-arch steppe
+arch grass
+x 49
+y 16
+end
+arch grass
+x 49
+y 16
+end
+arch woods_3
+x 49
+y 16
+move_block all
+blocksview 1
+end
+arch grass
 x 49
 y 17
-elevation 3236
 end
-arch steppe
+arch grass
+x 49
+y 17
+end
+arch igate_open_1
+name iron gate 30
+x 49
+y 17
+connected 50
+end
+arch boulder
+x 49
+y 17
+end
+arch grass
 x 49
 y 18
-elevation 3709
 end
-arch steppe
+arch grass
+x 49
+y 18
+end
+arch grass
+x 49
+y 18
+end
+arch woods_3
+x 49
+y 18
+move_block all
+blocksview 1
+end
+arch grass
 x 49
 y 19
-elevation 3513
 end
-arch evergreen
+arch grass
 x 49
 y 20
-elevation 1904
 end
 arch grass
 x 49
 y 21
-elevation 639
 end
 arch grass
 x 49
 y 22
-elevation 38
 end
-arch shallow_sea
+arch grass
 x 49
 y 23
-elevation -13
 end
-arch shallow_sea
+arch grass
 x 49
 y 24
-elevation -37
 end
-arch shallow_sea
+arch grass
 x 49
 y 25
-elevation -57
 end
-arch shallow_sea
+arch woods_3
 x 49
 y 26
-elevation -71
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods
 x 49
 y 27
-elevation -78
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch woods_2
 x 49
 y 28
-elevation -77
+move_block all
+blocksview 1
 end
-arch shallow_sea
+arch fernrockscliff2
 x 49
 y 29
-elevation -67
 end
 arch shallow_sea
 x 49
