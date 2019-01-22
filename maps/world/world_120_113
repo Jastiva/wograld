@@ -2,86 +2,121 @@ arch map
 name world_120_113
 width 50
 height 50
+msg
+Modified: 2019-01-20 lx
+endmsg
 outdoor 1
 tile_path_1 world_120_112
 tile_path_2 world_121_113
 tile_path_3 world_120_114
 tile_path_4 world_119_113
 end
-arch mountain
-elevation 8262
+arch woods_3
+move_block all
+blocksview 1
 end
-arch mountain
+arch brush
 y 1
-elevation 7449
 end
-arch mountain
+arch grass
 y 2
-elevation 6256
 end
-arch mountain
+arch grass
 y 3
-elevation 6087
 end
-arch mountain
+arch grass
 y 4
-elevation 6039
 end
-arch mountain
+arch grass
 y 5
-elevation 6095
 end
-arch mountain
+arch lightningwall_5
 y 6
-elevation 6586
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+y 6
+end
+arch grass
 y 7
-elevation 6876
 end
-arch mountain
+arch grass
 y 8
-elevation 6582
 end
-arch mountain
+arch grass
 y 9
-elevation 5094
 end
-arch hills
+arch grass
 y 10
-elevation 2473
 end
-arch steppe
+arch grass
 y 11
-elevation 4737
 end
-arch mountain
+arch lightningwall_4
 y 12
-elevation 6141
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+y 12
+move_block all
+blocksview 1
+end
+arch grass
 y 13
-elevation 7141
 end
-arch mountain
+arch grass
 y 14
-elevation 7001
 end
-arch mountain
+arch grass
 y 15
-elevation 5549
 end
-arch evergreen
+arch grass
 y 16
-elevation 1085
 end
-arch evergreen
+arch grass
+y 16
+end
+arch woods_3
+y 16
+move_block all
+blocksview 1
+end
+arch grass
 y 17
-elevation 1614
 end
-arch evergreen
+arch grass
+y 17
+end
+arch grass
+y 17
+end
+arch grass
+y 17
+end
+arch button_small
+name small button 30
+y 17
+weight 2
+connected 32
+move_on walk
+move_off walk
+end
+arch grass
 y 18
-elevation 2603
+end
+arch grass
+y 18
+end
+arch woods_3
+y 18
+move_block all
+blocksview 1
 end
 arch evergreen
 y 19
@@ -207,99 +242,118 @@ arch shallow_sea
 y 49
 elevation -8
 end
-arch mountain
+arch woods_2
 x 1
-elevation 7149
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 1
 y 1
-elevation 7432
 end
-arch mountain
+arch grass
 x 1
 y 2
-elevation 6560
 end
-arch mountain
+arch grass
 x 1
 y 3
-elevation 6000
 end
-arch mountain
+arch grass
 x 1
 y 4
-elevation 6253
 end
-arch mountain
+arch grass
 x 1
 y 5
-elevation 6540
 end
-arch mountain
+arch grass
 x 1
 y 6
-elevation 6555
 end
-arch mountain
+arch grass
 x 1
 y 7
-elevation 5873
 end
-arch steppe
+arch grass
 x 1
 y 8
-elevation 4830
 end
-arch steppe
+arch tree
 x 1
 y 9
-elevation 3730
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 1
 y 10
-elevation 3302
 end
-arch steppe
+arch grass
 x 1
 y 11
-elevation 3281
 end
-arch mountain
+arch grass
 x 1
 y 12
-elevation 6914
 end
-arch mountain
+arch grass
 x 1
 y 13
-elevation 8574
 end
-arch mountain
+arch grass
 x 1
 y 14
-elevation 8563
 end
-arch mountain
+arch grass
 x 1
 y 15
-elevation 6702
 end
-arch steppe
+arch grass
 x 1
 y 16
-elevation 4012
+end
+arch grass
+x 1
+y 16
+end
+arch woods_3
+x 1
+y 16
+move_block all
+blocksview 1
 end
 arch grass
 x 1
 y 17
-elevation 563
 end
-arch evergreen
+arch grass
+x 1
+y 17
+end
+arch grass
+x 1
+y 17
+end
+arch woods_3
+x 1
+y 17
+move_block all
+blocksview 1
+end
+arch grass
 x 1
 y 18
-elevation 2000
+end
+arch grass
+x 1
+y 18
+end
+arch woods_3
+x 1
+y 18
+move_block all
+blocksview 1
 end
 arch evergreen
 x 1
@@ -456,104 +510,110 @@ x 1
 y 49
 elevation -8
 end
-arch mountain2
+arch woods
 x 2
-elevation 9455
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 2
 y 1
-elevation 7284
 end
-arch mountain
+arch grass
 x 2
 y 2
-elevation 5414
 end
-arch mountain
+arch grass
 x 2
 y 3
-elevation 5539
 end
-arch mountain
+arch lightningwall_6
 x 2
 y 4
-elevation 5833
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+x 2
+y 4
+move_block all
+blocksview 1
+end
+arch grass
 x 2
 y 5
-elevation 6019
 end
-arch mountain
+arch grass
 x 2
 y 6
-elevation 5482
 end
-arch steppe
+arch tree
 x 2
 y 7
-elevation 4105
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 2
 y 8
-elevation 1004
 end
-arch hills
+arch grass
 x 2
 y 9
-elevation 1793
 end
-arch steppe
+arch grass
 x 2
 y 10
-elevation 3042
 end
-arch steppe
+arch tree
 x 2
 y 11
-elevation 4870
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 2
 y 12
-elevation 6941
 end
-arch mountain
+arch grass
 x 2
 y 13
-elevation 8737
 end
-arch mountain
+arch lightningwall_3
 x 2
 y 14
-elevation 8994
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+x 2
+y 14
+move_block all
+blocksview 1
+end
+arch grass
 x 2
 y 15
-elevation 7043
 end
-arch mountain
+arch grass
 x 2
 y 16
-elevation 5285
 end
-arch evergreen
+arch grass
 x 2
 y 17
-elevation 2230
 end
-arch evergreen
+arch grass
 x 2
 y 18
-elevation 2043
 end
-arch evergreen
+arch grass
 x 2
 y 19
-elevation 1394
 end
 arch grass
 x 2
@@ -705,104 +765,88 @@ x 2
 y 49
 elevation 286
 end
-arch mountain2
+arch woods_3
 x 3
-elevation 10221
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 3
 y 1
-elevation 8276
 end
-arch mountain
+arch grass
 x 3
 y 2
-elevation 6224
 end
-arch hills_rocky
+arch grass
 x 3
 y 3
-elevation 4950
 end
-arch mountain
+arch grass
 x 3
 y 4
-elevation 5006
 end
-arch steppe
+arch grass
 x 3
 y 5
-elevation 4955
 end
-arch hills
+arch grass
 x 3
 y 6
-elevation 4468
 end
-arch hills
+arch grass
 x 3
 y 7
-elevation 1919
 end
 arch grass
 x 3
 y 8
-elevation 16
 end
-arch woods_3
+arch tree
 x 3
 y 9
-elevation 1579
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 3
 y 10
-elevation 2737
 end
-arch steppe
+arch grass
 x 3
 y 11
-elevation 4357
 end
-arch mountain
+arch grass
 x 3
 y 12
-elevation 6198
 end
-arch mountain
+arch grass
 x 3
 y 13
-elevation 7794
 end
-arch mountain
+arch grass
 x 3
 y 14
-elevation 8531
 end
-arch mountain
+arch grass
 x 3
 y 15
-elevation 8174
 end
-arch mountain
+arch grass
 x 3
 y 16
-elevation 6452
 end
-arch steppe
+arch grass
 x 3
 y 17
-elevation 4675
 end
-arch evergreen
+arch grass
 x 3
 y 18
-elevation 2929
 end
-arch evergreen
+arch grass
 x 3
 y 19
-elevation 1409
 end
 arch grass
 x 3
@@ -954,104 +998,90 @@ x 3
 y 49
 elevation 32
 end
-arch mountain2
+arch woods_2
 x 4
-elevation 10127
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 4
 y 1
-elevation 8603
 end
-arch mountain
+arch grass
 x 4
 y 2
-elevation 6896
 end
-arch hills
+arch grass
 x 4
 y 3
-elevation 4507
 end
-arch steppe
+arch grass
 x 4
 y 4
-elevation 3156
 end
-arch steppe
+arch grass
 x 4
 y 5
-elevation 4058
 end
-arch steppe
+arch tree
 x 4
 y 6
-elevation 3867
+move_block all
+blocksview 1
 end
-arch hills_rocky
+arch grass
 x 4
 y 7
-elevation 3068
 end
-arch hills
+arch grass
 x 4
 y 8
-elevation 1315
 end
-arch hills
+arch grass
 x 4
 y 9
-elevation 1213
 end
-arch desert
+arch grass
 x 4
 y 10
-elevation 422
 end
-arch steppe
+arch grass
 x 4
 y 11
-elevation 3124
 end
-arch steppe
+arch tree
 x 4
 y 12
-elevation 4713
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 4
 y 13
-elevation 5259
 end
-arch mountain
+arch grass
 x 4
 y 14
-elevation 7233
 end
-arch mountain
+arch grass
 x 4
 y 15
-elevation 7779
 end
-arch mountain
+arch grass
 x 4
 y 16
-elevation 6795
 end
-arch steppe
+arch grass
 x 4
 y 17
-elevation 4755
 end
-arch evergreen
+arch grass
 x 4
 y 18
-elevation 2872
 end
-arch evergreen
+arch grass
 x 4
 y 19
-elevation 1405
 end
 arch grass
 x 4
@@ -1203,104 +1233,120 @@ x 4
 y 49
 elevation -5
 end
-arch mountain
+arch woods_3
 x 5
-elevation 8491
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 5
 y 1
-elevation 8524
 end
-arch mountain
+arch grass
 x 5
 y 2
-elevation 7025
 end
-arch mountain
+arch grass
 x 5
 y 3
-elevation 5379
 end
-arch steppe
+arch lightningwall_7
 x 5
 y 4
-elevation 3336
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch evergreen
+end
+arch tree
+x 5
+y 4
+move_block all
+blocksview 1
+end
+arch grass
 x 5
 y 5
-elevation 1771
 end
-arch hills
+arch grass
 x 5
 y 6
-elevation 4321
 end
-arch hills_rocky
+arch grass
 x 5
 y 7
-elevation 4032
 end
-arch hills
+arch grass
 x 5
 y 8
-elevation 2590
 end
-arch desert
+arch grass
 x 5
 y 9
-elevation 76
+end
+arch elf_man
+msg
+@match key
+There are may keys.
+@match Vim|vim
+We do have a Tower of Vim key.
+@match where|show|Tower of Vim|Tower of Vim key
+You will need to find the Queen's White Rose.
+@match *
+[you hear the murmur of elvish song]
+endmsg
+x 5
+y 9
 end
 arch grass
 x 5
 y 10
-elevation 191
 end
-arch hills
+arch grass
 x 5
 y 11
-elevation 1445
 end
-arch steppe
+arch grass
 x 5
 y 12
-elevation 3213
 end
-arch steppe
+arch grass
 x 5
 y 13
-elevation 3680
 end
-arch mountain
+arch lightningwall_4
 x 5
 y 14
-elevation 5411
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+x 5
+y 14
+move_block all
+blocksview 1
+end
+arch grass
 x 5
 y 15
-elevation 6550
 end
-arch mountain
+arch grass
 x 5
 y 16
-elevation 6038
 end
-arch steppe
+arch grass
 x 5
 y 17
-elevation 3977
 end
 arch grass
 x 5
 y 18
-elevation 45
 end
-arch evergreen
+arch grass
 x 5
 y 19
-elevation 1116
 end
 arch grass
 x 5
@@ -1452,104 +1498,86 @@ x 5
 y 49
 elevation -11
 end
-arch mountain2
+arch woods
 x 6
-elevation 9655
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 6
 y 1
-elevation 8015
 end
-arch mountain
+arch grass
 x 6
 y 2
-elevation 6835
 end
-arch mountain
+arch grass
 x 6
 y 3
-elevation 5444
 end
-arch steppe
+arch grass
 x 6
 y 4
-elevation 4444
 end
-arch steppe
+arch grass
 x 6
 y 5
-elevation 4384
 end
-arch hills
+arch grass
 x 6
 y 6
-elevation 4914
 end
-arch steppe
+arch grass
 x 6
 y 7
-elevation 4798
 end
-arch hills_rocky
+arch grass
 x 6
 y 8
-elevation 3292
 end
-arch desert
+arch grass
 x 6
 y 9
-elevation 429
 end
 arch grass
 x 6
 y 10
-elevation 226
 end
-arch desert
+arch grass
 x 6
 y 11
-elevation 550
 end
-arch evergreen
+arch grass
 x 6
 y 12
-elevation 2240
 end
-arch steppe
+arch grass
 x 6
 y 13
-elevation 3210
 end
-arch steppe
+arch grass
 x 6
 y 14
-elevation 4399
 end
-arch mountain
+arch grass
 x 6
 y 15
-elevation 5213
 end
-arch mountain
+arch grass
 x 6
 y 16
-elevation 5019
 end
-arch steppe
+arch grass
 x 6
 y 17
-elevation 3452
 end
 arch grass
 x 6
 y 18
-elevation 38
 end
 arch grass
 x 6
 y 19
-elevation 899
 end
 arch grass
 x 6
@@ -1701,104 +1729,138 @@ x 6
 y 49
 elevation -10
 end
-arch mountain2
+arch woods_3
 x 7
-elevation 9661
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 7
 y 1
-elevation 7865
 end
-arch mountain
+arch lightningwall_6
 x 7
 y 2
-elevation 6425
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch hills
+end
+arch tree
+x 7
+y 2
+move_block all
+blocksview 1
+end
+arch grass
 x 7
 y 3
-elevation 4995
 end
-arch steppe
+arch grass
 x 7
 y 4
-elevation 3550
 end
-arch hills
+arch tree
 x 7
 y 5
-elevation 4805
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 7
 y 6
-elevation 5425
 end
-arch mountain
+arch grass
 x 7
 y 7
-elevation 5119
 end
-arch steppe
+arch elf_lass
+msg
+@match Queen's White Rose|rose
+The rose can sometimes be found in the labyrinth.
+@match labyrinth
+How else did you arrive here?
+@match bow
+The Bow of Elven Moon requires skill and wisdom
+for one to obtain.  Simply look around and the
+key to finding it will be shown to you.
+@match *
+[you hear the murmur of elvish song]
+endmsg
+x 7
+y 7
+end
+arch grass
 x 7
 y 8
-elevation 3604
 end
-arch hills
+arch biglake_0
 x 7
 y 9
-elevation 2554
 end
-arch evergreen
+arch grass
 x 7
 y 10
-elevation 1454
 end
 arch grass
 x 7
 y 11
-elevation 600
 end
-arch evergreen
+arch elf_lass
+msg
+@match Queen's White Rose|rose
+The rose can sometimes be found in the labyrinth.
+@match labyrinth
+How else did you arrive here?
+@match *
+[you hear the murmur of elvish song]
+endmsg
+x 7
+y 11
+end
+arch grass
 x 7
 y 12
-elevation 1922
 end
-arch evergreen
+arch tree
 x 7
 y 13
-elevation 2492
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 7
 y 14
-elevation 3210
 end
-arch steppe
+arch grass
 x 7
 y 15
-elevation 3891
 end
-arch steppe
+arch lightningwall_2
 x 7
 y 16
-elevation 3840
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch steppe
+end
+arch tree
+x 7
+y 16
+move_block all
+blocksview 1
+end
+arch grass
 x 7
 y 17
-elevation 3109
 end
-arch evergreen
+arch grass
 x 7
 y 18
-elevation 2246
 end
-arch evergreen
+arch grass
 x 7
 y 19
-elevation 1050
 end
 arch grass
 x 7
@@ -1950,104 +2012,86 @@ x 7
 y 49
 elevation 32
 end
-arch mountain2
+arch woods_3
 x 8
-elevation 9044
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 8
 y 1
-elevation 7268
 end
-arch mountain
+arch grass
 x 8
 y 2
-elevation 6135
 end
-arch hills
+arch grass
 x 8
 y 3
-elevation 4648
 end
-arch hills
+arch grass
 x 8
 y 4
-elevation 1203
 end
-arch mountain
+arch grass
 x 8
 y 5
-elevation 5084
 end
-arch mountain
+arch grass
 x 8
 y 6
-elevation 5907
 end
-arch mountain
+arch grass
 x 8
 y 7
-elevation 5539
 end
-arch steppe
+arch grass
 x 8
 y 8
-elevation 4432
 end
-arch steppe
+arch grass
 x 8
 y 9
-elevation 3211
 end
-arch hills
+arch grass
 x 8
 y 10
-elevation 2343
 end
-arch evergreen
+arch grass
 x 8
 y 11
-elevation 1971
 end
-arch evergreen
+arch grass
 x 8
 y 12
-elevation 1697
 end
-arch evergreen
+arch grass
 x 8
 y 13
-elevation 1670
 end
-arch evergreen
+arch grass
 x 8
 y 14
-elevation 1894
 end
-arch evergreen
+arch grass
 x 8
 y 15
-elevation 2192
 end
-arch evergreen
+arch grass
 x 8
 y 16
-elevation 2270
 end
-arch evergreen
+arch grass
 x 8
 y 17
-elevation 1850
 end
-arch evergreen
+arch grass
 x 8
 y 18
-elevation 2313
 end
-arch evergreen
+arch grass
 x 8
 y 19
-elevation 2086
 end
 arch grass
 x 8
@@ -2199,114 +2243,134 @@ x 8
 y 49
 elevation 570
 end
-arch mountain
+arch woods
 x 9
-elevation 8356
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 9
 y 1
-elevation 7324
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 9
 y 2
-elevation 4797
 end
-arch steppe
+arch grass
 x 9
 y 3
-elevation 4766
 end
-arch steppe
+arch lightningwall_8
 x 9
 y 4
-elevation 4789
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch mountain
+end
+arch tree
+x 9
+y 4
+move_block all
+blocksview 1
+end
+arch grass
 x 9
 y 5
-elevation 5163
 end
-arch mountain
+arch grass
 x 9
 y 6
-elevation 5763
 end
-arch mountain
+arch grass
 x 9
 y 7
-elevation 5790
 end
-arch steppe
+arch grass
 x 9
 y 8
-elevation 4767
 end
-arch woods_2
+arch grass
 x 9
 y 9
-elevation 2229
 end
-arch steppe
+arch elf_man
+msg
+@match key
+There are may keys.
+@match Vim|vim
+We do have a Tower of Vim key.
+@match where|show|Tower of Vim|Tower of Vim key
+You will need to find the Queen's White Rose.
+@match *
+[you hear the murmur of elvish song]
+endmsg
+x 9
+y 9
+end
+arch grass
 x 9
 y 10
-elevation 3049
 end
-arch hills
+arch grass
 x 9
 y 11
-elevation 2326
 end
 arch grass
 x 9
 y 12
-elevation 804
 end
 arch grass
 x 9
 y 13
-elevation 540
 end
-arch grass
+arch lightningwall_3
 x 9
 y 14
-elevation 342
+level 50
+connected 30
+arch spell_sm_lightning
+end
+end
+arch tree
+x 9
+y 14
+move_block all
+blocksview 1
 end
 arch grass
 x 9
 y 15
-elevation 195
 end
 arch grass
 x 9
 y 16
-elevation 189
 end
 arch grass
 x 9
 y 17
-elevation 416
 end
-arch evergreen
+arch grass
 x 9
 y 18
-elevation 2055
 end
-arch evergreen
+arch grass
 x 9
 y 19
-elevation 2622
 end
-arch evergreen
+arch woods
 x 9
 y 20
-elevation 2272
+move_block all
+blocksview 1
 end
-arch evergreen
+arch woods
 x 9
 y 21
-elevation 1109
+move_block all
+blocksview 1
 end
 arch grass
 x 9
@@ -2448,114 +2512,110 @@ x 9
 y 49
 elevation 1781
 end
-arch mountain
+arch woods_3
 x 10
-elevation 8122
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_2
 x 10
 y 1
-elevation 7214
-end
-arch mountain
-x 10
-y 2
-elevation 5253
-end
-arch mountain
-x 10
-y 3
-elevation 5301
-end
-arch mountain
-x 10
-y 4
-elevation 5193
-end
-arch hills
-x 10
-y 5
-elevation 4890
-end
-arch mountain
-x 10
-y 6
-elevation 5043
-end
-arch mountain
-x 10
-y 7
-elevation 5193
-end
-arch mountain
-x 10
-y 8
-elevation 5001
-end
-arch steppe
-x 10
-y 9
-elevation 4466
-end
-arch steppe
-x 10
-y 10
-elevation 3716
-end
-arch evergreen
-x 10
-y 11
-elevation 2533
+move_block all
+blocksview 1
 end
 arch grass
 x 10
+y 2
+end
+arch grass
+x 10
+y 3
+end
+arch grass
+x 10
+y 4
+end
+arch grass
+x 10
+y 5
+end
+arch tree
+x 10
+y 6
+move_block all
+blocksview 1
+end
+arch grass
+x 10
+y 7
+end
+arch grass
+x 10
+y 8
+end
+arch grass
+x 10
+y 9
+end
+arch grass
+x 10
+y 10
+end
+arch grass
+x 10
+y 11
+end
+arch tree
+x 10
 y 12
-elevation 409
+move_block all
+blocksview 1
 end
 arch grass
 x 10
 y 13
-elevation 31
 end
 arch grass
 x 10
 y 14
-elevation 162
 end
 arch grass
 x 10
 y 15
-elevation 239
 end
 arch grass
 x 10
 y 16
-elevation 22
 end
 arch grass
 x 10
 y 17
-elevation 825
 end
-arch evergreen
+arch grass
 x 10
 y 18
-elevation 1031
 end
-arch steppe
+arch grass
 x 10
 y 19
-elevation 3104
 end
-arch steppe
+arch woods_2
 x 10
 y 20
-elevation 4165
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods
 x 10
 y 21
-elevation 3730
+move_block all
+blocksview 1
+end
+arch woods_2
+x 10
+y 21
+move_block all
+blocksview 1
 end
 arch evergreen
 x 10
@@ -2697,114 +2757,107 @@ x 10
 y 49
 elevation 2492
 end
-arch mountain
+arch woods_3
 x 11
-elevation 7264
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 11
 y 1
-elevation 6664
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 11
 y 2
-elevation 5868
 end
-arch mountain
+arch grass
 x 11
 y 3
-elevation 5339
 end
-arch hills
+arch grass
 x 11
 y 4
-elevation 4891
 end
-arch hills
+arch grass
 x 11
 y 5
-elevation 4201
 end
-arch hills
+arch grass
 x 11
 y 6
-elevation 1925
 end
-arch steppe
+arch grass
 x 11
 y 7
-elevation 4527
 end
-arch mountain
+arch grass
 x 11
 y 8
-elevation 5141
 end
-arch mountain
+arch tree
 x 11
 y 9
-elevation 5033
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 11
 y 10
-elevation 4296
 end
-arch hills
+arch grass
 x 11
 y 11
-elevation 2906
 end
 arch grass
 x 11
 y 12
-elevation 624
 end
 arch grass
 x 11
 y 13
-elevation 169
 end
 arch grass
 x 11
 y 14
-elevation 268
 end
-arch evergreen
+arch grass
 x 11
 y 15
-elevation 1594
 end
-arch steppe
+arch grass
 x 11
 y 16
-elevation 3172
 end
-arch steppe
+arch grass
 x 11
 y 17
-elevation 4316
 end
-arch mountain
+arch grass
 x 11
 y 18
-elevation 5040
 end
-arch mountain
+arch grass
 x 11
 y 19
-elevation 5613
 end
-arch mountain
+arch woods_3
 x 11
 y 20
-elevation 6470
+move_block all
+blocksview 1
 end
 arch mountain
 x 11
 y 21
 elevation 6220
+end
+arch woods_2
+x 11
+y 21
+move_block all
+blocksview 1
 end
 arch mountain
 x 11
@@ -2946,109 +2999,118 @@ x 11
 y 49
 elevation 3088
 end
-arch mountain
+arch woods_3
 x 12
-elevation 5426
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods
 x 12
 y 1
-elevation 4661
+move_block all
+blocksview 1
 end
-arch mountain
+arch grass
 x 12
 y 2
-elevation 5041
 end
-arch steppe
+arch grass
 x 12
 y 3
-elevation 4628
 end
-arch steppe
+arch lightningwall_7
 x 12
 y 4
-elevation 3926
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch steppe
+end
+arch tree
+x 12
+y 4
+move_block all
+blocksview 1
+end
+arch grass
 x 12
 y 5
-elevation 3601
 end
-arch steppe
+arch grass
 x 12
 y 6
-elevation 3878
 end
-arch steppe
+arch tree
 x 12
 y 7
-elevation 4394
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 12
 y 8
-elevation 4966
 end
-arch steppe
+arch grass
 x 12
 y 9
-elevation 4859
 end
-arch steppe
+arch grass
 x 12
 y 10
-elevation 4222
 end
-arch steppe
+arch tree
 x 12
 y 11
-elevation 3141
+move_block all
+blocksview 1
 end
-arch evergreen
+arch grass
 x 12
 y 12
-elevation 2040
 end
 arch grass
 x 12
 y 13
-elevation 631
+end
+arch lightningwall_2
+x 12
+y 14
+level 50
+connected 30
+arch spell_sm_lightning
+end
+end
+arch tree
+x 12
+y 14
+move_block all
+blocksview 1
 end
 arch grass
 x 12
-y 14
-elevation 578
-end
-arch steppe
-x 12
 y 15
-elevation 3343
 end
-arch mountain
+arch grass
 x 12
 y 16
-elevation 5652
 end
-arch mountain
+arch grass
 x 12
 y 17
-elevation 7436
 end
-arch mountain
+arch grass
 x 12
 y 18
-elevation 8471
 end
-arch mountain
+arch grass
 x 12
 y 19
-elevation 8757
 end
-arch mountain
+arch woods
 x 12
 y 20
-elevation 8502
+move_block all
+blocksview 1
 end
 arch mountain
 x 12
@@ -3195,109 +3257,118 @@ x 12
 y 49
 elevation 3517
 end
-arch steppe
+arch woods
 x 13
-elevation 3672
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 13
 y 1
-elevation 3459
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 13
 y 2
-elevation 3770
 end
-arch hills
+arch grass
 x 13
 y 3
-elevation 3362
 end
-arch hills
+arch grass
 x 13
 y 4
-elevation 2301
 end
-arch steppe
+arch grass
 x 13
 y 5
-elevation 3010
 end
-arch steppe
+arch grass
 x 13
 y 6
-elevation 3619
 end
-arch steppe
+arch grass
 x 13
 y 7
-elevation 4173
 end
-arch steppe
+arch grass
 x 13
 y 8
-elevation 4522
 end
-arch hills
+arch tree
 x 13
 y 9
-elevation 4387
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 13
 y 10
-elevation 3518
 end
-arch hills
+arch grass
 x 13
 y 11
-elevation 2986
 end
-arch evergreen
+arch grass
 x 13
 y 12
-elevation 2660
 end
-arch evergreen
+arch grass
 x 13
 y 13
-elevation 2212
 end
-arch evergreen
+arch grass
 x 13
 y 14
-elevation 1486
 end
-arch steppe
+arch grass
 x 13
 y 15
-elevation 4590
 end
-arch mountain
+arch grass
 x 13
 y 16
-elevation 7199
 end
-arch mountain2
+arch grass
 x 13
 y 17
-elevation 9221
 end
-arch mountain2
+arch button_small
+name small button 201
+x 13
+y 17
+connected 201
+end
+arch creator
+name creator 201
+other_arch pear
+hp 6
+x 13
+y 17
+connected 201
+end
+arch grass
+x 13
+y 17
+end
+arch tree4
+x 13
+y 17
+end
+arch grass
 x 13
 y 18
-elevation 10335
 end
-arch mountain2
+arch grass
 x 13
 y 19
-elevation 10360
 end
-arch mountain2
+arch woods_3
 x 13
 y 20
-elevation 9425
+move_block all
+blocksview 1
 end
 arch mountain
 x 13
@@ -3444,109 +3515,114 @@ x 13
 y 49
 elevation 3495
 end
-arch steppe
+arch woods_3
 x 14
-elevation 3376
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 14
 y 1
-elevation 3372
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 14
 y 2
-elevation 2230
 end
-arch hills
+arch grass
 x 14
 y 3
-elevation 2384
 end
-arch evergreen
+arch grass
 x 14
 y 4
-elevation 1353
 end
-arch hills
+arch grass
 x 14
 y 5
-elevation 2147
 end
-arch evergreen
+arch lightningwall_8
 x 14
 y 6
-elevation 2017
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch steppe
+end
+arch tree
+x 14
+y 6
+move_block all
+blocksview 1
+end
+arch grass
 x 14
 y 7
-elevation 3410
 end
-arch steppe
+arch grass
 x 14
 y 8
-elevation 4107
 end
-arch hills_rocky
+arch grass
 x 14
 y 9
-elevation 3490
 end
-arch steppe
+arch grass
 x 14
 y 10
-elevation 3532
 end
-arch hills_rocky
+arch grass
 x 14
 y 11
-elevation 3262
 end
-arch woods_2
+arch lightningwall_1
 x 14
 y 12
-elevation 2824
+level 50
+connected 30
+arch spell_sm_lightning
 end
-arch woods_2
+end
+arch tree
+x 14
+y 12
+move_block all
+blocksview 1
+end
+arch grass
 x 14
 y 13
-elevation 2419
 end
-arch hills_rocky
+arch grass
 x 14
 y 14
-elevation 3079
 end
-arch steppe
+arch grass
 x 14
 y 15
-elevation 4703
 end
-arch mountain
+arch grass
 x 14
 y 16
-elevation 7212
 end
-arch mountain2
+arch grass
 x 14
 y 17
-elevation 9347
 end
-arch mountain2
+arch grass
 x 14
 y 18
-elevation 10503
 end
-arch mountain2
+arch grass
 x 14
 y 19
-elevation 10360
 end
-arch mountain2
+arch woods
 x 14
 y 20
-elevation 9175
+move_block all
+blocksview 1
 end
 arch mountain
 x 14
@@ -3693,109 +3769,94 @@ x 14
 y 49
 elevation 3199
 end
-arch steppe
+arch woods_3
 x 15
-elevation 3296
+move_block all
+blocksview 1
 end
-arch hills
+arch woods
 x 15
 y 1
-elevation 3557
+move_block all
+blocksview 1
 end
-arch hills
+arch grass
 x 15
 y 2
-elevation 3175
 end
-arch evergreen
+arch grass
 x 15
 y 3
-elevation 2388
 end
-arch evergreen
+arch grass
 x 15
 y 4
-elevation 1781
 end
-arch hills
+arch grass
 x 15
 y 5
-elevation 1316
 end
 arch grass
 x 15
 y 6
-elevation 693
 end
-arch evergreen
+arch grass
 x 15
 y 7
-elevation 2546
 end
-arch hills
+arch grass
 x 15
 y 8
-elevation 3776
 end
-arch hills_rocky
+arch grass
 x 15
 y 9
-elevation 4249
 end
-arch hills_rocky
+arch grass
 x 15
 y 10
-elevation 4033
 end
-arch steppe
+arch grass
 x 15
 y 11
-elevation 3205
 end
-arch hills
+arch grass
 x 15
 y 12
-elevation 1119
 end
-arch woods_2
+arch grass
 x 15
 y 13
-elevation 1866
 end
-arch woods_2
+arch grass
 x 15
 y 14
-elevation 1419
 end
-arch hills
+arch grass
 x 15
 y 15
-elevation 3304
 end
-arch mountain
+arch grass
 x 15
 y 16
-elevation 5646
 end
-arch mountain
+arch grass
 x 15
 y 17
-elevation 7903
 end
-arch mountain2
+arch grass
 x 15
 y 18
-elevation 9473
 end
-arch mountain2
+arch grass
 x 15
 y 19
-elevation 9567
 end
-arch mountain
+arch woods
 x 15
 y 20
-elevation 8406
+move_block all
+blocksview 1
 end
 arch mountain
 x 15
@@ -3942,109 +4003,94 @@ x 15
 y 49
 elevation 2805
 end
-arch steppe
+arch woods_3
 x 16
-elevation 3359
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 16
 y 1
-elevation 3777
+move_block all
+blocksview 1
 end
-arch steppe
+arch grass
 x 16
 y 2
-elevation 3258
 end
-arch hills
+arch grass
 x 16
 y 3
-elevation 2347
 end
-arch hills
+arch grass
 x 16
 y 4
-elevation 1405
 end
-arch desert
+arch grass
 x 16
 y 5
-elevation 131
 end
 arch grass
 x 16
 y 6
-elevation 451
 end
-arch evergreen
+arch grass
 x 16
 y 7
-elevation 2063
 end
-arch hills_rocky
+arch grass
 x 16
 y 8
-elevation 3421
 end
-arch steppe
+arch grass
 x 16
 y 9
-elevation 4097
 end
-arch hills_rocky
+arch grass
 x 16
 y 10
-elevation 3745
 end
-arch evergreen
+arch grass
 x 16
 y 11
-elevation 2543
 end
-arch woods_2
+arch grass
 x 16
 y 12
-elevation 1281
 end
 arch grass
 x 16
 y 13
-elevation 933
 end
 arch grass
 x 16
 y 14
-elevation 191
 end
-arch hills
+arch grass
 x 16
 y 15
-elevation 1184
 end
-arch evergreen
+arch grass
 x 16
 y 16
-elevation 2218
 end
-arch mountain
+arch grass
 x 16
 y 17
-elevation 6394
 end
-arch mountain
+arch grass
 x 16
 y 18
-elevation 8012
 end
-arch mountain
+arch grass
 x 16
 y 19
-elevation 8831
 end
-arch mountain
+arch woods_3
 x 16
 y 20
-elevation 8187
+move_block all
+blocksview 1
 end
 arch mountain
 x 16
@@ -4191,109 +4237,92 @@ x 16
 y 49
 elevation 2168
 end
-arch hills
+arch woods
 x 17
-elevation 3258
+move_block all
+blocksview 1
 end
-arch steppe
+arch brush
 x 17
 y 1
-elevation 3732
 end
-arch steppe
+arch grass
 x 17
 y 2
-elevation 3122
 end
-arch hills
+arch grass
 x 17
 y 3
-elevation 1447
 end
-arch evergreen
+arch grass
 x 17
 y 4
-elevation 1013
 end
-arch desert
+arch grass
 x 17
 y 5
-elevation 595
 end
 arch grass
 x 17
 y 6
-elevation 334
 end
-arch evergreen
+arch grass
 x 17
 y 7
-elevation 1084
 end
-arch evergreen
+arch grass
 x 17
 y 8
-elevation 2685
 end
-arch hills_rocky
+arch grass
 x 17
 y 9
-elevation 3081
 end
-arch woods_2
+arch grass
 x 17
 y 10
-elevation 2526
 end
-arch evergreen
+arch grass
 x 17
 y 11
-elevation 1377
 end
 arch grass
 x 17
 y 12
-elevation 113
 end
-arch desert
+arch grass
 x 17
 y 13
-elevation 470
 end
 arch grass
 x 17
 y 14
-elevation 752
 end
-arch evergreen
+arch grass
 x 17
 y 15
-elevation 1200
 end
-arch steppe
+arch grass
 x 17
 y 16
-elevation 3523
 end
-arch mountain
+arch grass
 x 17
 y 17
-elevation 5823
 end
-arch mountain
+arch grass
 x 17
 y 18
-elevation 7690
 end
-arch mountain
+arch grass
 x 17
 y 19
-elevation 8447
 end
-arch mountain
+arch woods
 x 17
 y 20
-elevation 8031
+move_block all
+blocksview 1
 end
 arch mountain
 x 17
@@ -4440,109 +4469,94 @@ x 17
 y 49
 elevation 1209
 end
-arch hills
+arch woods_3
 x 18
-elevation 3200
+move_block all
+blocksview 1
 end
-arch steppe
+arch brush
 x 18
 y 1
-elevation 3650
 end
-arch evergreen
+arch grass
 x 18
 y 2
-elevation 2951
 end
-arch hills
+arch grass
 x 18
 y 3
-elevation 2577
 end
-arch hills
+arch grass
 x 18
 y 4
-elevation 1572
 end
 arch grass
 x 18
 y 5
-elevation 295
 end
-arch desert
+arch grass
 x 18
 y 6
-elevation 656
 end
 arch grass
 x 18
 y 7
-elevation 863
 end
-arch evergreen
+arch grass
 x 18
 y 8
-elevation 1813
 end
-arch woods_2
+arch grass
 x 18
 y 9
-elevation 1997
 end
-arch brush
+arch grass
 x 18
 y 10
-elevation 337
 end
 arch grass
 x 18
 y 11
-elevation 182
 end
-arch desert
+arch grass
 x 18
 y 12
-elevation 176
 end
 arch grass
 x 18
 y 13
-elevation 172
 end
 arch grass
 x 18
 y 14
-elevation 860
 end
 arch grass
 x 18
 y 15
-elevation 936
 end
-arch steppe
+arch brush
 x 18
 y 16
-elevation 3566
 end
-arch mountain
+arch brush
 x 18
 y 17
-elevation 5903
 end
-arch mountain
+arch brush
 x 18
 y 18
-elevation 7669
 end
-arch mountain
+arch woods_3
 x 18
 y 19
-elevation 8296
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 18
 y 20
-elevation 7749
+move_block all
+blocksview 1
 end
 arch mountain
 x 18
@@ -4689,109 +4703,112 @@ x 18
 y 49
 elevation 776
 end
-arch steppe
+arch woods_3
 x 19
-elevation 3061
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 19
 y 1
-elevation 3778
+move_block all
+blocksview 1
 end
-arch steppe
+arch brush
 x 19
 y 2
-elevation 3854
 end
-arch hills
+arch grass
 x 19
 y 3
-elevation 3362
 end
-arch evergreen
+arch grass
 x 19
 y 4
-elevation 2027
 end
-arch grass
+arch brush
 x 19
 y 5
-elevation 498
 end
-arch hills
+arch woods
 x 19
 y 6
-elevation 1075
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 19
 y 7
-elevation 295
+move_block all
+blocksview 1
 end
-arch hills
+arch woods
 x 19
 y 8
-elevation 1405
-end
-arch hills
-x 19
-y 9
-elevation 1315
-end
-arch desert
-x 19
-y 10
-elevation 646
-end
-arch desert
-x 19
-y 11
-elevation 171
-end
-arch desert
-x 19
-y 12
-elevation 13
+move_block all
+blocksview 1
 end
 arch grass
 x 19
-y 13
-elevation 705
+y 9
 end
-arch evergreen
+arch grass
+x 19
+y 10
+end
+arch grass
+x 19
+y 11
+end
+arch brush
+x 19
+y 12
+end
+arch woods
+x 19
+y 13
+move_block all
+blocksview 1
+end
+arch woods
 x 19
 y 14
-elevation 1191
+move_block all
+blocksview 1
 end
-arch hills
+arch brush
 x 19
 y 15
-elevation 1266
 end
-arch steppe
+arch woods
 x 19
 y 16
-elevation 3433
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 19
 y 17
-elevation 5982
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 19
 y 18
-elevation 7627
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods
 x 19
 y 19
-elevation 8239
+move_block all
+blocksview 1
 end
-arch mountain
+arch woods_3
 x 19
 y 20
-elevation 7673
+move_block all
+blocksview 1
 end
 arch mountain
 x 19
@@ -4938,104 +4955,85 @@ x 19
 y 49
 elevation 10
 end
-arch hills
-x 20
-elevation 3172
-end
-arch steppe
-x 20
-y 1
-elevation 3903
-end
-arch steppe
+arch woods
 x 20
 y 2
-elevation 4237
+move_block all
+blocksview 1
 end
-arch steppe
+arch brush
 x 20
 y 3
-elevation 3875
 end
-arch hills
+arch woods
 x 20
 y 4
-elevation 2936
+move_block all
+blocksview 1
 end
-arch hills
+arch woods
 x 20
 y 5
-elevation 2028
+move_block all
+blocksview 1
 end
-arch evergreen
+arch woods
 x 20
 y 6
-elevation 1618
+move_block all
+blocksview 1
 end
-arch hills
-x 20
-y 7
-elevation 1665
-end
-arch hills
+arch woods_3
 x 20
 y 8
-elevation 1430
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 20
 y 9
-elevation 617
+move_block all
+blocksview 1
 end
-arch desert
+arch woods
 x 20
 y 10
-elevation 890
+move_block all
+blocksview 1
 end
-arch grass
+arch brush
 x 20
 y 11
-elevation 692
 end
-arch desert
+arch woods
 x 20
 y 12
-elevation 623
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_3
 x 20
 y 13
-elevation 1000
+move_block all
+blocksview 1
 end
-arch jungle_1
+arch woods_3
 x 20
 y 14
-elevation 1589
+move_block all
+blocksview 1
 end
-arch hills
+arch woods_3
 x 20
 y 15
-elevation 2640
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 20
 y 16
-elevation 4234
-end
-arch mountain
-x 20
-y 17
-elevation 5797
-end
-arch mountain
-x 20
-y 18
-elevation 7730
-end
-arch mountain
-x 20
-y 19
-elevation 8333
+move_block all
+blocksview 1
 end
 arch mountain
 x 20
@@ -5187,104 +5185,41 @@ x 20
 y 49
 elevation -7
 end
-arch hills
-x 21
-elevation 3044
-end
-arch steppe
-x 21
-y 1
-elevation 3769
-end
-arch steppe
+arch woods_2
 x 21
 y 2
-elevation 4001
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods_3
 x 21
 y 3
-elevation 3771
+move_block all
+blocksview 1
 end
-arch steppe
+arch woods
 x 21
 y 4
-elevation 3083
+move_block all
+blocksview 1
 end
-arch hills
-x 21
-y 5
-elevation 2326
-end
-arch hills
-x 21
-y 6
-elevation 2009
-end
-arch hills
-x 21
-y 7
-elevation 1981
-end
-arch evergreen
-x 21
-y 8
-elevation 1757
-end
-arch evergreen
-x 21
-y 9
-elevation 1275
-end
-arch desert
+arch woods_3
 x 21
 y 10
-elevation 909
+move_block all
+blocksview 1
 end
-arch grass
+arch woods_3
 x 21
 y 11
-elevation 823
+move_block all
+blocksview 1
 end
-arch evergreen
+arch woods_3
 x 21
 y 12
-elevation 1034
-end
-arch hills
-x 21
-y 13
-elevation 1352
-end
-arch jungle_1
-x 21
-y 14
-elevation 1170
-end
-arch evergreen
-x 21
-y 15
-elevation 2994
-end
-arch steppe
-x 21
-y 16
-elevation 4309
-end
-arch mountain
-x 21
-y 17
-elevation 5911
-end
-arch mountain
-x 21
-y 18
-elevation 7491
-end
-arch mountain
-x 21
-y 19
-elevation 8115
+move_block all
+blocksview 1
 end
 arch mountain
 x 21
@@ -5479,41 +5414,6 @@ arch hills
 x 22
 y 8
 elevation 1926
-end
-arch hills
-x 22
-y 9
-elevation 1492
-end
-arch grass
-x 22
-y 10
-elevation 223
-end
-arch grass
-x 22
-y 11
-elevation 510
-end
-arch hills
-x 22
-y 12
-elevation 1195
-end
-arch hills
-x 22
-y 13
-elevation 1512
-end
-arch evergreen
-x 22
-y 14
-elevation 1992
-end
-arch evergreen
-x 22
-y 15
-elevation 2701
 end
 arch steppe
 x 22
@@ -5731,41 +5631,6 @@ elevation 1849
 end
 arch hills
 x 23
-y 9
-elevation 1414
-end
-arch hills
-x 23
-y 10
-elevation 1010
-end
-arch desert
-x 23
-y 11
-elevation 889
-end
-arch jungle_1
-x 23
-y 12
-elevation 1072
-end
-arch hills
-x 23
-y 13
-elevation 1321
-end
-arch hills
-x 23
-y 14
-elevation 1459
-end
-arch hills
-x 23
-y 15
-elevation 1687
-end
-arch hills
-x 23
 y 16
 elevation 2216
 end
@@ -5977,41 +5842,6 @@ arch hills
 x 24
 y 8
 elevation 1458
-end
-arch desert
-x 24
-y 9
-elevation 883
-end
-arch hills
-x 24
-y 10
-elevation 1042
-end
-arch desert
-x 24
-y 11
-elevation 145
-end
-arch desert
-x 24
-y 12
-elevation 775
-end
-arch desert
-x 24
-y 13
-elevation 866
-end
-arch desert
-x 24
-y 14
-elevation 75
-end
-arch desert
-x 24
-y 15
-elevation 156
 end
 arch desert
 x 24
