@@ -4,17 +4,6 @@ cobra_black.x12
 cobra_black.x13
 cobra_black.x12
 mina
-anim ./arch/player/class/Wizardry/pyromancer_class.arc
-pyromancer.x11
-pyromancer.x12
-pyromancer.x31
-pyromancer.x32
-pyromancer.x51
-pyromancer.x52
-pyromancer.x71
-pyromancer.x72
-facings 4
-mina
 anim ./arch/player/race/acidborn.arc
 acidborn.x11
 acidborn.x12
@@ -50,32 +39,6 @@ mina
 anim ArchAngel
 highangel.111
 highangel.112
-highangel.113
-mina
-anim ArchAngel_2
-highangel.211
-highangel.212
-highangel.213
-mina
-anim ArchAngel_3
-highangel.311
-highangel.312
-highangel.313
-mina
-anim ArchAngel_4
-highangel.411
-highangel.412
-highangel.413
-mina
-anim ArchAngel_5
-highangel.511
-highangel.512
-highangel.513
-mina
-anim ArchAngel_6
-highangel.611
-highangel.612
-highangel.613
 mina
 anim Balrog
 balrog.111
@@ -85,16 +48,6 @@ balrog.112
 mina
 anim CSword
 CSword.113
-CSword.114
-CSword.115
-CSword.116
-CSword.117
-CSword.118
-CSword.119
-CSword.116
-CSword.11A
-CSword.11B
-CSword.11C
 CSword.111
 CSword.112
 mina
@@ -740,12 +693,6 @@ mina
 anim archangle
 archangel.111
 archangel.112
-archangel.113
-archangel.114
-archangel.115
-archangel.116
-archangel.117
-archangel.118
 mina
 anim archon
 archon.111
@@ -2684,24 +2631,13 @@ dark_elf2.172
 mina
 anim darkangel
 darkangel.111
-darkangel.113
 darkangel.112
-darkangel.113
 mina
 anim darkblade
 darkblade.111
 darkblade.112
 darkblade.113
 darkblade.114
-darkblade.115
-darkblade.116
-darkblade.117
-darkblade.116
-darkblade.115
-darkblade.114
-darkblade.113
-darkblade.112
-darkblade.111
 mina
 anim darkness
 blocked.111
@@ -3604,8 +3540,6 @@ mina
 anim frost_hammer
 frost_hammer.111
 frost_hammer.112
-frost_hammer.113
-frost_hammer.114
 mina
 anim frostbolt
 frostbolt.111
@@ -4115,28 +4049,8 @@ golem.172
 facings 4
 mina
 anim golem_necro
-gol.x11
-gol.x12
-mina
-anim golem_necro_2
-gol.x11
-gol.x12
-mina
-anim golem_necro_3
-gol.x11
-gol.x12
-mina
-anim golem_necro_4
-gol.x11
-gol.x12
-mina
-anim golem_necro_5
-gol.x11
-gol.x12
-mina
-anim golem_necro_6
-gol.x11
-gol.x12
+gol.111
+gol.112
 mina
 anim golem_red
 golem_red.111
@@ -4507,12 +4421,6 @@ holyave.113
 holyave.114
 holyave.115
 holyave.116
-holyave.117
-holyave.118
-holyave.119
-holyave.11A
-holyave.11B
-holyave.11C
 mina
 anim holy_effect
 turnundead.111
@@ -4521,6 +4429,8 @@ turnundead.113
 mina
 anim holy_priest
 holy_priest.111
+holy_priest.211
+holy_priest.311
 holy_priest.211
 mina
 anim holy_servant
@@ -4536,6 +4446,12 @@ anim holy_wrath
 turnundead.111
 turnundead.112
 turnundead.113
+mina
+anim holyghost
+holyghost.111
+holyghost.112
+holyghost.114
+holyghost.113
 mina
 anim human
 human.111
@@ -4554,6 +4470,54 @@ human.152
 human.171
 human.172
 facings 4
+mina
+anim ice_dragon
+facings 2
+ice_dr.171
+ice_dr.172
+ice_dr.173
+ice_dr.172
+ice_dr.131
+ice_dr.132
+ice_dr.133
+ice_dr.132
+mina
+anim ice_dragon_2
+facings 2
+ice_dr.271
+ice_dr.272
+ice_dr.273
+ice_dr.272
+ice_dr.231
+ice_dr.232
+ice_dr.233
+ice_dr.232
+mina
+anim ice_dragon_3
+facings 2
+ice_dr.371
+ice_dr.372
+ice_dr.373
+ice_dr.372
+ice_dr.331
+ice_dr.332
+ice_dr.333
+ice_dr.332
+mina
+anim ice_dragon_4
+facings 2
+ice_dr.471
+ice_dr.472
+ice_dr.473
+ice_dr.472
+ice_dr.431
+ice_dr.432
+ice_dr.433
+ice_dr.432
+mina
+anim ice_warrior
+ice_warrior.111
+ice_warrior.112
 mina
 anim iceblock_outer
 iceblock_outer.111
@@ -4829,6 +4793,11 @@ lava_sea.112
 lava_sea.113
 lava_sea.114
 mina
+anim lava_well
+lava_well.111
+lava_well.112
+lava_well.113
+mina
 anim lbullet
 lbullet.111
 lbullet.111
@@ -5062,9 +5031,6 @@ magentacwall_w_0.114
 magentacwall_w_0.115
 magentacwall_w_0.116
 magentacwall_w_0.117
-magentacwall_w_0.118
-magentacwall_w_0.119
-magentacwall_w_0.11A
 mina
 anim magentaweak_wall_4
 magentacwall_w_1.111
@@ -5074,8 +5040,6 @@ magentacwall_w_1.114
 magentacwall_w_1.115
 magentacwall_w_1.116
 magentacwall_w_1.117
-magentacwall_w_1.118
-magentacwall_w_1.119
 mina
 anim magi_staff
 magi_staff.111
@@ -5320,9 +5284,9 @@ mina
 anim merchant
 facings 4
 merchant.111
-merchant.171
-merchant.111
 merchant.131
+merchant.151
+merchant.171
 mina
 anim mercury
 mercury.111
@@ -5402,6 +5366,78 @@ anim mithril_chainmail
 mithril_ar.111
 mithril_ar.112
 mithril_ar.113
+mina
+anim moat_0
+moat_0.111
+moat_0.112
+mina
+anim moat_1_1
+moat_4.111
+moat_4.112
+mina
+anim moat_1_2
+moat_1.111
+moat_1.112
+mina
+anim moat_1_3
+moat_8.111
+moat_8.112
+mina
+anim moat_1_4
+moat_2.111
+moat_2.112
+mina
+anim moat_2_1_1
+moat_5.111
+moat_5.112
+mina
+anim moat_2_1_2
+moat_A.111
+moat_A.112
+mina
+anim moat_2_2_1
+moat_3.111
+moat_3.112
+mina
+anim moat_2_2_2
+moat_6.111
+moat_6.112
+mina
+anim moat_2_2_2x
+moat_6_ext.111
+moat_6_ext.112
+mina
+anim moat_2_2_3
+moat_C.111
+moat_C.112
+mina
+anim moat_2_2_4
+moat_9.111
+moat_9.112
+mina
+anim moat_2_2_4x
+moat_9_ext.111
+moat_9_ext.112
+mina
+anim moat_3_1
+moat_B.111
+moat_B.112
+mina
+anim moat_3_2
+moat_7.111
+moat_7.112
+mina
+anim moat_3_3
+moat_E.111
+moat_E.112
+mina
+anim moat_3_4
+moat_D.111
+moat_D.112
+mina
+anim moat_4
+moat_F.111
+moat_F.112
 mina
 anim monk
 monk.151
@@ -5544,16 +5580,6 @@ mina
 anim nasty_ice
 nasty_ice.111
 nasty_ice.112
-nasty_ice.113
-nasty_ice.114
-nasty_ice.115
-nasty_ice.116
-nasty_ice.117
-nasty_ice.118
-nasty_ice.119
-nasty_ice.11A
-nasty_ice.11B
-nasty_ice.11C
 mina
 anim nazgul
 nazgul.111
@@ -5839,8 +5865,6 @@ mina
 anim para_air
 para_air.111
 para_air.112
-para_air.113
-para_air.114
 mina
 anim para_earth
 para_earth.111
@@ -5861,8 +5885,6 @@ mina
 anim para_lava
 para_lava.111
 para_lava.112
-para_lava.113
-para_lava.112
 mina
 anim para_lightning
 para_light.111
@@ -5872,17 +5894,10 @@ mina
 anim para_mud
 para_mud.111
 para_mud.112
-para_mud.113
-para_mud.114
-para_mud.115
-para_mud.114
-para_mud.113
-para_mud.112
 mina
 anim para_water
 para_water.111
 para_water.112
-para_water.113
 mina
 anim paralyze
 paralyse.111
@@ -6249,6 +6264,17 @@ pl_half_orc.171
 pl_half_orc.172
 facings 4
 mina
+anim pl_orc
+pl_orc.111
+pl_orc.112
+pl_orc.131
+pl_orc.132
+pl_orc.151
+pl_orc.152
+pl_orc.171
+pl_orc.172
+facings 4
+mina
 anim player_changer
 teleporter.111
 teleporter.112
@@ -6403,6 +6429,17 @@ facings 2
 purple_worm.x31
 purple_worm.x71
 mina
+anim pyromancer_class
+pyromancer.111
+pyromancer.112
+pyromancer.131
+pyromancer.132
+pyromancer.151
+pyromancer.152
+pyromancer.171
+pyromancer.172
+facings 4
+mina
 anim pyromaniac
 pyromaniac.111
 pyromaniac.112
@@ -6489,9 +6526,6 @@ redcwall_w_0.114
 redcwall_w_0.115
 redcwall_w_0.116
 redcwall_w_0.117
-redcwall_w_0.118
-redcwall_w_0.119
-redcwall_w_0.11A
 mina
 anim redweak_wall_4
 redcwall_w_1.111
@@ -6501,8 +6535,6 @@ redcwall_w_1.114
 redcwall_w_1.115
 redcwall_w_1.116
 redcwall_w_1.117
-redcwall_w_1.118
-redcwall_w_1.119
 mina
 anim reflector
 reflector.111
@@ -6539,6 +6571,26 @@ ring_drain.111
 ring_drain.112
 ring_drain.113
 ring_drain.114
+mina
+anim river_new
+river_new.111
+river_new.112
+river_new.113
+mina
+anim river_new2
+river_new.311
+river_new.312
+river_new.313
+mina
+anim river_new3
+river_new.511
+river_new.512
+river_new.513
+mina
+anim river_new4
+river_new.711
+river_new.712
+river_new.713
 mina
 anim robe_midnight
 robe_midnight.111
@@ -7256,9 +7308,7 @@ snake.112
 mina
 anim snitchangel
 snitchangel.111
-snitchangel.113
 snitchangel.112
-snitchangel.113
 mina
 anim snow_c
 snow_c.111
@@ -7592,9 +7642,6 @@ anim sting
 sting.111
 sting.112
 sting.113
-sting.114
-sting.113
-sting.112
 mina
 anim stonegiant
 stonegiant.x11
@@ -7697,6 +7744,12 @@ t_dagger.181
 mina
 anim t_star1
 t_star1.101
+t_star1.111
+t_star1.121
+t_star1.111
+t_star1.121
+t_star1.111
+t_star1.121
 t_star1.111
 t_star1.121
 mina
@@ -8229,10 +8282,6 @@ anim uk_sd
 uk_sd.111
 uk_sd.112
 uk_sd.113
-uk_sd.114
-uk_sd.115
-uk_sd.116
-uk_sd.117
 mina
 anim unicorn
 facings 2
@@ -8439,10 +8488,31 @@ mina
 anim water_elemental
 elem_water.111
 elem_water.112
+elem_water.113
 mina
 anim water_witch
 witch_water.111
 witch_water.112
+mina
+anim waterfall2_new
+waterfall2_new.511
+waterfall2_new.512
+waterfall2_new.513
+mina
+anim waterfall3_new
+waterfall_new.711
+waterfall_new.712
+waterfall_new.713
+mina
+anim waterfall4_new
+waterfall2_new.711
+waterfall2_new.712
+waterfall2_new.713
+mina
+anim waterfall_new
+waterfall_new.511
+waterfall_new.512
+waterfall_new.513
 mina
 anim wave
 wave.111
@@ -8471,9 +8541,6 @@ awall_w_1.114
 awall_w_1.115
 awall_w_1.116
 awall_w_1.117
-awall_w_1.118
-awall_w_1.119
-awall_w_1.11A
 mina
 anim weak_wall_3
 cwall_w_0.111
@@ -8483,9 +8550,6 @@ cwall_w_0.114
 cwall_w_0.115
 cwall_w_0.116
 cwall_w_0.117
-cwall_w_0.118
-cwall_w_0.119
-cwall_w_0.11A
 mina
 anim weak_wall_4
 cwall_w_1.111
@@ -8495,8 +8559,6 @@ cwall_w_1.114
 cwall_w_1.115
 cwall_w_1.116
 cwall_w_1.117
-cwall_w_1.118
-cwall_w_1.119
 mina
 anim weak_wall_5
 bwall_w_0.111
@@ -8583,9 +8645,6 @@ westcwall_w_0.114
 westcwall_w_0.115
 westcwall_w_0.116
 westcwall_w_0.117
-westcwall_w_0.118
-westcwall_w_0.119
-westcwall_w_0.11A
 mina
 anim westweak_wall_4
 westcwall_w_1.111
@@ -8595,8 +8654,6 @@ westcwall_w_1.114
 westcwall_w_1.115
 westcwall_w_1.116
 westcwall_w_1.117
-westcwall_w_1.118
-westcwall_w_1.119
 mina
 anim whim
 wingedhalo.111
@@ -8648,9 +8705,13 @@ wiz_hat.113
 mina
 anim wizard
 wizard.111
+wizard.112
 wizard.131
+wizard.132
 wizard.151
+wizard.152
 wizard.171
+wizard.172
 facings 4
 mina
 anim wizard_blue
@@ -8662,9 +8723,13 @@ wizard_blue.171
 mina
 anim wizard_class
 wizard.111
+wizard.112
 wizard.131
+wizard.132
 wizard.151
+wizard.152
 wizard.171
+wizard.172
 facings 4
 mina
 anim wizard_green
@@ -8755,7 +8820,13 @@ mina
 anim wraith
 wraith.111
 wraith.112
-wraith.113
+wraith.131
+wraith.132
+wraith.151
+wraith.152
+wraith.171
+wraith.172
+facings 4
 mina
 anim wraith_player
 wraithp.111

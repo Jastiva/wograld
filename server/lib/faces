@@ -188,33 +188,6 @@ end
 face CSword.113
 magicmap black
 end
-face CSword.114
-magicmap black
-end
-face CSword.115
-magicmap black
-end
-face CSword.116
-magicmap black
-end
-face CSword.117
-magicmap black
-end
-face CSword.118
-magicmap black
-end
-face CSword.119
-magicmap black
-end
-face CSword.11A
-magicmap black
-end
-face CSword.11B
-magicmap black
-end
-face CSword.11C
-magicmap black
-end
 face Cwyvern.131
 color_fg black
 end
@@ -1411,7 +1384,7 @@ end
 face aquamarine_gem.112
 color_fg white
 end
-face archangel.118
+face archangel.111
 color_fg white
 end
 face archgold.111
@@ -1749,18 +1722,6 @@ visibility 100
 magicmap black
 end
 face awall_w_1.117
-visibility 100
-magicmap black
-end
-face awall_w_1.118
-visibility 100
-magicmap black
-end
-face awall_w_1.119
-visibility 100
-magicmap black
-end
-face awall_w_1.11A
 visibility 100
 magicmap black
 end
@@ -2210,6 +2171,18 @@ face beigemarble.111
 magicmap grey
 is_floor 1
 end
+face beigemarblewall_1.111
+color_fg brown
+visibility 100
+end
+face beigemarblewall_2.111
+color_fg brown
+visibility 100
+end
+face beigemarblewall_F.111
+color_fg brown
+visibility 100
+end
 face belzebub.111
 magicmap khaki
 end
@@ -2283,6 +2256,7 @@ end
 face bforest.111
 color_fg green
 color_bg black
+is_floor 1
 end
 face big_club.111
 color_fg brown
@@ -2630,12 +2604,28 @@ face blackmarble.111
 magicmap grey
 is_floor 1
 end
+face blackmarblewall_F.111
+color_fg black
+visibility 100
+end
 face blackrock.111
 color_fg black
 is_floor 1
 end
 face blackroot.111
 color_fg black
+end
+face blacksandcliff1.111
+is_floor 1
+end
+face blacksandcliff2.111
+is_floor 1
+end
+face blacksandcliff3.111
+is_floor 1
+end
+face blacksandcliff4.111
+is_floor 1
 end
 face blades.111
 color_fg black
@@ -2761,6 +2751,12 @@ end
 face blue_dragon2.172
 color_fg black
 end
+face bluebrick1.111
+is_floor 1
+end
+face bluebrick_vine.111
+is_floor 1
+end
 face bluedragonmail.111
 magicmap black
 end
@@ -2770,6 +2766,18 @@ is_floor 1
 end
 face bluemarblemedium.111
 magicmap grey
+is_floor 1
+end
+face bluesandcliff1.111
+is_floor 1
+end
+face bluesandcliff2.111
+is_floor 1
+end
+face bluesandcliff3.111
+is_floor 1
+end
+face bluesandcliff4.111
 is_floor 1
 end
 face bluesphere.111
@@ -3710,6 +3718,10 @@ face burning_shrine.111
 visibility 100
 end
 face burning_smalltemple.111
+color_fg brown
+visibility 100
+end
+face burning_smalltemple2.111
 color_fg brown
 visibility 100
 end
@@ -5745,51 +5757,6 @@ end
 face closechest.111
 magicmap khaki
 end
-face cloud_1_1.x11
-is_floor 1
-end
-face cloud_1_2.x11
-is_floor 1
-end
-face cloud_1_3.x11
-is_floor 1
-end
-face cloud_2_1.x11
-is_floor 1
-end
-face cloud_2_2.x11
-is_floor 1
-end
-face cloud_2_3.x11
-is_floor 1
-end
-face cloud_3_1.x11
-is_floor 1
-end
-face cloud_3_2.x11
-is_floor 1
-end
-face cloud_3_3.x11
-is_floor 1
-end
-face cloud_4_1.x11
-is_floor 1
-end
-face cloud_4_2.x11
-is_floor 1
-end
-face cloud_4_3.x11
-is_floor 1
-end
-face cloud_5_1.x11
-is_floor 1
-end
-face cloud_5_2.x11
-is_floor 1
-end
-face cloud_5_3.x11
-is_floor 1
-end
 face clover.111
 color_fg green
 end
@@ -5799,6 +5766,46 @@ end
 face cmarsh.111
 color_fg green
 color_bg white
+is_floor 1
+end
+face cobble_part_1.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_2.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_3.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_4.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_6.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_7.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_8.111
+color_fg dark_orange
+magicmap yellow
+is_floor 1
+end
+face cobble_part_9.111
+color_fg dark_orange
+magicmap yellow
 is_floor 1
 end
 face cobblesto2.111
@@ -6103,6 +6110,10 @@ face cwall_blackmarble.111
 visibility 100
 magicmap grey
 end
+face cwall_bluemarbledark.111
+visibility 100
+magicmap grey
+end
 face cwall_bluemarblemedium.111
 visibility 100
 magicmap grey
@@ -6215,18 +6226,6 @@ face cwall_w_0.117
 visibility 100
 magicmap grey
 end
-face cwall_w_0.118
-visibility 100
-magicmap grey
-end
-face cwall_w_0.119
-visibility 100
-magicmap grey
-end
-face cwall_w_0.11A
-visibility 100
-magicmap grey
-end
 face cwall_w_1.111
 visibility 100
 magicmap grey
@@ -6252,14 +6251,6 @@ visibility 100
 magicmap grey
 end
 face cwall_w_1.117
-visibility 100
-magicmap grey
-end
-face cwall_w_1.118
-visibility 100
-magicmap grey
-end
-face cwall_w_1.119
 visibility 100
 magicmap grey
 end
@@ -6438,9 +6429,6 @@ end
 face darkangel.112
 color_fg black
 end
-face darkangel.113
-color_fg black
-end
 face darkblade.111
 magicmap black
 end
@@ -6451,15 +6439,6 @@ face darkblade.113
 magicmap black
 end
 face darkblade.114
-magicmap black
-end
-face darkblade.115
-magicmap black
-end
-face darkblade.116
-magicmap black
-end
-face darkblade.117
 magicmap black
 end
 face darkforest.111
@@ -6720,6 +6699,18 @@ end
 face desert.111
 color_fg green
 color_bg yellow
+is_floor 1
+end
+face desertcliff1.111
+is_floor 1
+end
+face desertcliff2.111
+is_floor 1
+end
+face desertcliff3.111
+is_floor 1
+end
+face desertcliff4.111
 is_floor 1
 end
 face desk.111
@@ -6989,6 +6980,30 @@ end
 face dirtroad_F.111
 visibility 100
 magicmap grey
+end
+face dkbluemarblewall_1.111
+color_fg blue
+visibility 100
+end
+face dkbluemarblewall_2.111
+color_fg blue
+visibility 100
+end
+face dkbluemarblewall_F.111
+color_fg blue
+visibility 100
+end
+face dkgreenmarblewall_1.111
+color_fg green
+visibility 100
+end
+face dkgreenmarblewall_2.111
+color_fg green
+visibility 100
+end
+face dkgreenmarblewall_F.111
+color_fg green
+visibility 100
 end
 face dlevel_0.111
 visibility 100
@@ -8111,6 +8126,9 @@ end
 face elem_water.112
 color_fg blue
 end
+face elem_water.113
+color_fg blue
+end
 face elf.111
 color_fg black
 end
@@ -8552,6 +8570,12 @@ magicmap gray
 end
 face fern_giant.111
 color_fg green
+end
+face fernrockcliff1.111
+is_floor 1
+end
+face fernrockcliff2.111
+is_floor 1
 end
 face fernsdense.111
 color_fg green
@@ -9360,12 +9384,6 @@ end
 face frost_hammer.112
 magicmap khaki
 end
-face frost_hammer.113
-magicmap khaki
-end
-face frost_hammer.114
-magicmap khaki
-end
 face frostbolt.111
 color_fg light_blue
 color_bg white
@@ -9892,10 +9910,10 @@ end
 face god_finger.112
 magicmap orange
 end
-face gol.x11
+face gol.111
 magicmap grey
 end
-face gol.x12
+face gol.112
 magicmap grey
 end
 face gold_converter.111
@@ -10073,9 +10091,65 @@ face grassramp8.111
 color_fg green
 is_floor 1
 end
+face grassramp_fh1.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh2.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh3.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh4.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh5.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh6.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh7.111
+color_fg green
+is_floor 1
+end
+face grassramp_fh8.111
+color_fg green
+is_floor 1
+end
 face grassramp_low1.111
 color_fg green
 is_floor 1
+end
+face grassramp_sh1.111
+color_fg green
+end
+face grassramp_sh2.111
+color_fg green
+end
+face grassramp_sh3.111
+color_fg green
+end
+face grassramp_sh4.111
+color_fg green
+end
+face grassramp_sh5.111
+color_fg green
+end
+face grassramp_sh6.111
+color_fg green
+end
+face grassramp_sh7.111
+color_fg green
+end
+face grassramp_sh8.111
+color_fg green
 end
 face grate_1.111
 visibility 50
@@ -10277,6 +10351,16 @@ end
 face grey_drag.172
 color_fg grey
 end
+face greymarblewall_F.111
+color_fg black
+visibility 100
+end
+face greysandcliff1.111
+is_floor 1
+end
+face greysandcliff2.111
+is_floor 1
+end
 face grimreaper.111
 color_fg black
 end
@@ -10468,6 +10552,11 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face gwall_6_ext.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face gwall_7.111
 color_bg dark_orange
 visibility 100
@@ -10479,6 +10568,11 @@ visibility 100
 magicmap dark_orange
 end
 face gwall_9.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face gwall_9_ext.111
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -10854,9 +10948,6 @@ end
 face highangel.112
 color_fg white
 end
-face highangel.113
-color_fg white
-end
 face highshield.111
 magicmap grey
 end
@@ -10957,24 +11048,6 @@ face holyave.115
 magicmap black
 end
 face holyave.116
-magicmap black
-end
-face holyave.117
-magicmap black
-end
-face holyave.118
-magicmap black
-end
-face holyave.119
-magicmap black
-end
-face holyave.11A
-magicmap black
-end
-face holyave.11B
-magicmap black
-end
-face holyave.11C
 magicmap black
 end
 face holyshield.111
@@ -11119,6 +11192,78 @@ end
 face ice2.111
 magicmap white
 is_floor 1
+end
+face ice_dr.131
+magicmap green
+end
+face ice_dr.132
+magicmap green
+end
+face ice_dr.133
+magicmap green
+end
+face ice_dr.171
+magicmap green
+end
+face ice_dr.172
+magicmap green
+end
+face ice_dr.173
+magicmap green
+end
+face ice_dr.231
+magicmap green
+end
+face ice_dr.232
+magicmap green
+end
+face ice_dr.233
+magicmap green
+end
+face ice_dr.271
+magicmap green
+end
+face ice_dr.272
+magicmap green
+end
+face ice_dr.273
+magicmap green
+end
+face ice_dr.331
+magicmap green
+end
+face ice_dr.332
+magicmap green
+end
+face ice_dr.333
+magicmap green
+end
+face ice_dr.371
+magicmap green
+end
+face ice_dr.372
+magicmap green
+end
+face ice_dr.373
+magicmap green
+end
+face ice_dr.431
+magicmap green
+end
+face ice_dr.432
+magicmap green
+end
+face ice_dr.433
+magicmap green
+end
+face ice_dr.471
+magicmap green
+end
+face ice_dr.472
+magicmap green
+end
+face ice_dr.473
+magicmap green
 end
 face iceblock_inner.111
 color_fg white
@@ -11868,6 +12013,26 @@ face ladder2_up.111
 visibility 100
 magicmap black
 end
+face ladder3_do.111
+visibility 100
+magicmap black
+end
+face ladder4_do.111
+visibility 100
+magicmap black
+end
+face ladder5_do.111
+visibility 100
+magicmap black
+end
+face ladder6_do.111
+visibility 100
+magicmap black
+end
+face ladder7_do.111
+visibility 100
+magicmap black
+end
 face ladder_down.111
 visibility 100
 magicmap black
@@ -12261,6 +12426,14 @@ color_bg blue
 is_floor 1
 end
 face lava_well.111
+visibility 100
+magicmap grey
+end
+face lava_well.112
+visibility 100
+magicmap grey
+end
+face lava_well.113
 visibility 100
 magicmap grey
 end
@@ -12926,6 +13099,42 @@ end
 face lsword.111
 magicmap grey
 end
+face ltagreenmarblewall_1.111
+color_fg green
+visibility 100
+end
+face ltagreenmarblewall_2.111
+color_fg green
+visibility 100
+end
+face ltbeigemarblewall_F.111
+color_fg brown
+visibility 100
+end
+face ltgreenmarblewall_1.111
+color_fg green
+visibility 100
+end
+face ltgreenmarblewall_2.111
+color_fg green
+visibility 100
+end
+face ltgreenmarblewall_F.111
+color_fg green
+visibility 100
+end
+face ltmagentamarblewall_1.111
+color_fg red
+visibility 100
+end
+face ltmagentamarblewall_2.111
+color_fg red
+visibility 100
+end
+face ltmagentamarblewall_F.111
+color_fg red
+visibility 100
+end
 face lucern_hammer.111
 magicmap brown
 end
@@ -13115,18 +13324,6 @@ face magentacwall_w_0.117
 visibility 100
 magicmap grey
 end
-face magentacwall_w_0.118
-visibility 100
-magicmap grey
-end
-face magentacwall_w_0.119
-visibility 100
-magicmap grey
-end
-face magentacwall_w_0.11A
-visibility 100
-magicmap grey
-end
 face magentacwall_w_1.111
 visibility 100
 magicmap grey
@@ -13152,14 +13349,6 @@ visibility 100
 magicmap grey
 end
 face magentacwall_w_1.117
-visibility 100
-magicmap grey
-end
-face magentacwall_w_1.118
-visibility 100
-magicmap grey
-end
-face magentacwall_w_1.119
 visibility 100
 magicmap grey
 end
@@ -13519,6 +13708,18 @@ end
 face mat.111
 magicmap brown
 end
+face mbluemarblewall_1.111
+color_fg blue
+visibility 100
+end
+face mbluemarblewall_2.111
+color_fg blue
+visibility 100
+end
+face mbluemarblewall_F.111
+color_fg blue
+visibility 100
+end
 face mdemon.111
 color_fg red
 end
@@ -13581,6 +13782,10 @@ visibility 100
 magicmap grey
 end
 face mine_ane.111
+visibility 100
+magicmap grey
+end
+face mine_anw.111
 visibility 100
 magicmap grey
 end
@@ -13790,7 +13995,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_0.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_1.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_1.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13800,7 +14015,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_2.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_3.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_3.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13810,7 +14035,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_4.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_5.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_5.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13820,7 +14055,27 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_6.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_6_ext.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_6_ext.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_7.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_7.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13830,7 +14085,27 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_8.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_9.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_9.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_9_ext.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_9_ext.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13840,7 +14115,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_A.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_B.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_B.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13850,7 +14135,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_C.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_D.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_D.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -13860,7 +14155,17 @@ color_bg dark_orange
 visibility 100
 magicmap dark_orange
 end
+face moat_E.112
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
 face moat_F.111
+color_bg dark_orange
+visibility 100
+magicmap dark_orange
+end
+face moat_F.112
 color_bg dark_orange
 visibility 100
 magicmap dark_orange
@@ -14044,56 +14349,6 @@ color_bg blue
 is_floor 1
 end
 face nasty_ice.112
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.113
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.114
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.115
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.116
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.117
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.118
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.119
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.11A
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.11B
-color_fg light_blue
-color_bg blue
-is_floor 1
-end
-face nasty_ice.11C
 color_fg light_blue
 color_bg blue
 is_floor 1
@@ -14421,6 +14676,94 @@ end
 face oilskin.111
 magicmap grey
 end
+face oldwall_0.111
+color_fg brown
+visibility 100
+end
+face oldwall_1.111
+color_fg brown
+visibility 100
+end
+face oldwall_1_ruin.111
+color_fg brown
+visibility 100
+end
+face oldwall_2.111
+color_fg brown
+visibility 100
+end
+face oldwall_2_ruin.111
+color_fg brown
+visibility 100
+end
+face oldwall_3.111
+color_fg brown
+visibility 100
+end
+face oldwall_4.111
+color_fg brown
+visibility 100
+end
+face oldwall_4_ruin.111
+color_fg brown
+visibility 100
+end
+face oldwall_5.111
+color_fg brown
+visibility 100
+end
+face oldwall_6.111
+color_fg brown
+visibility 100
+end
+face oldwall_7.111
+color_fg brown
+visibility 100
+end
+face oldwall_8.111
+color_fg brown
+visibility 100
+end
+face oldwall_8_ruin.111
+color_fg brown
+visibility 100
+end
+face oldwall_9.111
+color_fg brown
+visibility 100
+end
+face oldwall_A.111
+color_fg brown
+visibility 100
+end
+face oldwall_B.111
+color_fg brown
+visibility 100
+end
+face oldwall_C.111
+color_fg brown
+visibility 100
+end
+face oldwall_D.111
+color_fg brown
+visibility 100
+end
+face oldwall_E.111
+color_fg brown
+visibility 100
+end
+face oldwall_F.111
+color_fg brown
+visibility 100
+end
+face oldwindow_0.111
+color_fg brown
+visibility 100
+end
+face oldwindow_1.111
+color_fg brown
+visibility 100
+end
 face oldwoodfloor.111
 color_bg grey
 magicmap grey
@@ -14624,19 +14967,10 @@ end
 face para_air.112
 color_fg white
 end
-face para_air.113
-color_fg white
-end
-face para_air.114
-color_fg white
-end
 face para_earth.111
 color_fg brown
 end
 face para_earth.112
-color_fg brown
-end
-face para_earth.113
 color_fg brown
 end
 face para_fire.111
@@ -14651,16 +14985,10 @@ end
 face para_ice.112
 color_fg white
 end
-face para_ice.113
-color_fg white
-end
 face para_lava.111
 color_fg red
 end
 face para_lava.112
-color_fg red
-end
-face para_lava.113
 color_fg red
 end
 face para_light.111
@@ -14678,22 +15006,10 @@ end
 face para_mud.112
 color_fg brown
 end
-face para_mud.113
-color_fg brown
-end
-face para_mud.114
-color_fg brown
-end
-face para_mud.115
-color_fg brown
-end
 face para_water.111
 color_fg blue
 end
 face para_water.112
-color_fg blue
-end
-face para_water.113
 color_fg blue
 end
 face paralyse.111
@@ -15012,6 +15328,18 @@ face pinkmarble.111
 magicmap grey
 is_floor 1
 end
+face pinkmarblewall_1.111
+color_fg brown
+visibility 100
+end
+face pinkmarblewall_2.111
+color_fg brown
+visibility 100
+end
+face pinkmarblewall_F.111
+color_fg brown
+visibility 100
+end
 face pipe.111
 color_fg grey
 end
@@ -15125,6 +15453,30 @@ face pl_half_orc.171
 magicmap brown
 end
 face pl_half_orc.172
+magicmap brown
+end
+face pl_orc.111
+magicmap brown
+end
+face pl_orc.112
+magicmap brown
+end
+face pl_orc.131
+magicmap brown
+end
+face pl_orc.132
+magicmap brown
+end
+face pl_orc.151
+magicmap brown
+end
+face pl_orc.152
+magicmap brown
+end
+face pl_orc.171
+magicmap brown
+end
+face pl_orc.172
 magicmap brown
 end
 face platbar.111
@@ -15628,8 +15980,15 @@ end
 face purple_worm_stoned.x11
 magicmap black
 end
+face purplebrick.111
+is_floor 1
+end
 face purplemoss.111
 color_fg black
+is_floor 1
+end
+face purplemoss2.111
+color_fg green
 is_floor 1
 end
 face pyrite.111
@@ -15906,18 +16265,6 @@ face redcwall_w_0.117
 visibility 100
 magicmap grey
 end
-face redcwall_w_0.118
-visibility 100
-magicmap grey
-end
-face redcwall_w_0.119
-visibility 100
-magicmap grey
-end
-face redcwall_w_0.11A
-visibility 100
-magicmap grey
-end
 face redcwall_w_1.111
 visibility 100
 magicmap grey
@@ -15946,14 +16293,6 @@ face redcwall_w_1.117
 visibility 100
 magicmap grey
 end
-face redcwall_w_1.118
-visibility 100
-magicmap grey
-end
-face redcwall_w_1.119
-visibility 100
-magicmap grey
-end
 face redcwindow_0.111
 color_fg brown
 visibility 100
@@ -15977,6 +16316,18 @@ end
 face redmarble.111
 magicmap grey
 is_floor 1
+end
+face redmarblewall_1.111
+color_fg red
+visibility 100
+end
+face redmarblewall_2.111
+color_fg red
+visibility 100
+end
+face redmarblewall_F.111
+color_fg red
+visibility 100
 end
 face redrugfloor1.111
 magicmap red
@@ -16204,6 +16555,54 @@ end
 face river_58.111
 color_fg blue
 visibility 100
+end
+face river_new.111
+magicmap blue
+is_floor 1
+end
+face river_new.112
+magicmap blue
+is_floor 1
+end
+face river_new.113
+magicmap blue
+is_floor 1
+end
+face river_new.311
+magicmap blue
+is_floor 1
+end
+face river_new.312
+magicmap blue
+is_floor 1
+end
+face river_new.313
+magicmap blue
+is_floor 1
+end
+face river_new.511
+magicmap blue
+is_floor 1
+end
+face river_new.512
+magicmap blue
+is_floor 1
+end
+face river_new.513
+magicmap blue
+is_floor 1
+end
+face river_new.711
+magicmap blue
+is_floor 1
+end
+face river_new.712
+magicmap blue
+is_floor 1
+end
+face river_new.713
+magicmap blue
+is_floor 1
 end
 face rl_house1.311
 visibility 100
@@ -17429,27 +17828,21 @@ visibility 100
 end
 face shrub02.111
 color_fg green
-is_floor 1
 end
 face shrub1.111
 color_fg green
-is_floor 1
 end
 face shrub2.111
 color_fg green
-is_floor 1
 end
 face shrub3.111
 color_fg green
-is_floor 1
 end
 face shrub4.111
 color_fg green
-is_floor 1
 end
 face shrubb.111
 color_fg green
-is_floor 1
 end
 face sickle_1.111
 magicmap white
@@ -17589,9 +17982,6 @@ magicmap black
 end
 face skullcleav.114
 magicmap black
-end
-face sky.x11
-is_floor 1
 end
 face slate_b.111
 magicmap grey
@@ -17824,9 +18214,6 @@ face snitchangel.111
 color_fg black
 end
 face snitchangel.112
-color_fg black
-end
-face snitchangel.113
 color_fg black
 end
 face snow.111
@@ -18177,6 +18564,9 @@ face spinner.11D
 visibility 50
 magicmap black
 end
+face spinningwheel.111
+magicmap white
+end
 face spit_ant.131
 color_fg green
 end
@@ -18382,9 +18772,6 @@ face sting.112
 magicmap grey
 end
 face sting.113
-magicmap grey
-end
-face sting.114
 magicmap grey
 end
 face stl_bsword_1.111
@@ -19731,6 +20118,30 @@ face tree_3.111
 color_fg brown
 visibility 100
 end
+face tree_3birch1.111
+color_fg brown
+visibility 100
+end
+face tree_3blueleaf1.111
+color_fg brown
+visibility 100
+end
+face tree_3cherry1.111
+color_fg brown
+visibility 100
+end
+face tree_3cherry2.111
+color_fg brown
+visibility 100
+end
+face tree_3cherry3.111
+color_fg brown
+visibility 100
+end
+face tree_3fall1.111
+color_fg brown
+visibility 100
+end
 face tree_4.111
 color_fg brown
 visibility 100
@@ -19739,11 +20150,19 @@ face tree_5.111
 color_fg brown
 visibility 100
 end
+face tree_5_black.111
+color_fg brown
+visibility 100
+end
 face tree_5_christmas.x11
 color_fg brown
 visibility 100
 end
 face tree_6.111
+color_fg brown
+visibility 100
+end
+face tree_6_budding.111
 color_fg brown
 visibility 100
 end
@@ -19871,6 +20290,14 @@ end
 face true_lead.111
 magicmap grey
 end
+face truss1.111
+visibility 100
+magicmap black
+end
+face truss2.111
+visibility 100
+magicmap black
+end
 face tslotmachine1.111
 visibility 50
 end
@@ -19963,18 +20390,6 @@ face uk_sd.112
 magicmap grey
 end
 face uk_sd.113
-magicmap grey
-end
-face uk_sd.114
-magicmap grey
-end
-face uk_sd.115
-magicmap grey
-end
-face uk_sd.116
-magicmap grey
-end
-face uk_sd.117
 magicmap grey
 end
 face und_ar_1.111
@@ -20540,11 +20955,19 @@ face wall_1_ruin.111
 color_fg brown
 visibility 100
 end
+face wall_1_split.111
+color_fg brown
+visibility 100
+end
 face wall_2.111
 color_fg brown
 visibility 100
 end
 face wall_2_ruin.111
+color_fg brown
+visibility 100
+end
+face wall_2_split.111
 color_fg brown
 visibility 100
 end
@@ -20557,6 +20980,10 @@ color_fg brown
 visibility 100
 end
 face wall_4_ruin.111
+color_fg brown
+visibility 100
+end
+face wall_4_split.111
 color_fg brown
 visibility 100
 end
@@ -20577,6 +21004,10 @@ color_fg brown
 visibility 100
 end
 face wall_8_ruin.111
+color_fg brown
+visibility 100
+end
+face wall_8_split.111
 color_fg brown
 visibility 100
 end
@@ -20611,6 +21042,27 @@ end
 face wall_glass_block.x11
 visibility 100
 magicmap grey
+end
+face wallart_0.111
+color_fg black
+end
+face wallart_1.111
+color_fg black
+end
+face wallart_2.111
+color_fg black
+end
+face wallart_3.111
+color_fg black
+end
+face wallart_4.111
+color_fg black
+end
+face wallart_5.111
+color_fg black
+end
+face wallart_6.111
+color_fg black
 end
 face wallclock.111
 magicmap brown
@@ -20650,6 +21102,12 @@ color_fg red
 end
 face war_ant_stoned.111
 magicmap black
+end
+face wardrobe.111
+magicmap brown
+end
+face wardrobe_open.111
+magicmap brown
 end
 face warrior.111
 magicmap grey
@@ -20735,6 +21193,54 @@ magicmap black
 end
 face water_witch_stoned.111
 magicmap black
+end
+face waterfall2_new.511
+color_fg blue
+color_bg blue
+end
+face waterfall2_new.512
+color_fg blue
+color_bg blue
+end
+face waterfall2_new.513
+color_fg blue
+color_bg blue
+end
+face waterfall2_new.711
+color_fg blue
+color_bg blue
+end
+face waterfall2_new.712
+color_fg blue
+color_bg blue
+end
+face waterfall2_new.713
+color_fg blue
+color_bg blue
+end
+face waterfall_new.511
+color_fg blue
+color_bg blue
+end
+face waterfall_new.512
+color_fg blue
+color_bg blue
+end
+face waterfall_new.513
+color_fg blue
+color_bg blue
+end
+face waterfall_new.711
+color_fg blue
+color_bg blue
+end
+face waterfall_new.712
+color_fg blue
+color_bg blue
+end
+face waterfall_new.713
+color_fg blue
+color_bg blue
 end
 face waybread.111
 magicmap yellow
@@ -20925,18 +21431,6 @@ face westcwall_w_0.117
 visibility 100
 magicmap grey
 end
-face westcwall_w_0.118
-visibility 100
-magicmap grey
-end
-face westcwall_w_0.119
-visibility 100
-magicmap grey
-end
-face westcwall_w_0.11A
-visibility 100
-magicmap grey
-end
 face westcwall_w_1.111
 visibility 100
 magicmap grey
@@ -20962,14 +21456,6 @@ visibility 100
 magicmap grey
 end
 face westcwall_w_1.117
-visibility 100
-magicmap grey
-end
-face westcwall_w_1.118
-visibility 100
-magicmap grey
-end
-face westcwall_w_1.119
 visibility 100
 magicmap grey
 end
@@ -21423,13 +21909,25 @@ end
 face wizard.111
 color_fg black
 end
+face wizard.112
+color_fg black
+end
 face wizard.131
+color_fg black
+end
+face wizard.132
 color_fg black
 end
 face wizard.151
 color_fg black
 end
+face wizard.152
+color_fg black
+end
 face wizard.171
+color_fg black
+end
+face wizard.172
 color_fg black
 end
 face wizard_blue.111
@@ -21889,7 +22387,22 @@ end
 face wraith.112
 color_fg black
 end
-face wraith.113
+face wraith.131
+color_fg black
+end
+face wraith.132
+color_fg black
+end
+face wraith.151
+color_fg black
+end
+face wraith.152
+color_fg black
+end
+face wraith.171
+color_fg black
+end
+face wraith.172
 color_fg black
 end
 face wraithp.111

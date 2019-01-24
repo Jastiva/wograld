@@ -1969,6 +1969,174 @@ body_arm -1
 item_power 4
 editor_folder armour/shield
 end
+Object desertcliff1
+name desert cliff
+face desertcliff1.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object desertcliff2
+name desert cliff
+face desertcliff2.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object desertcliff3
+name high dunes
+face desertcliff3.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object desertcliff4
+name high dunes
+face desertcliff4.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object redrock1
+name rock cliffs
+face redrock1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder cliffs
+end
+Object redrock2
+name rock cliffs
+face redrock2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder cliffs
+end
+Object redrock3
+name rock cliffs
+face redrock3.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder cliffs
+end
+Object bluesandcliff1
+name blue sand cliff
+face bluesandcliff1.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object bluesandcliff2
+name blue sand cliff
+face bluesandcliff2.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object bluesandcliff3
+name blue sand dunes
+face bluesandcliff3.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object bluesandcliff4
+name blue sand dunes
+face bluesandcliff4.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object greysandcliff1
+name grey sand cliff
+face greysandcliff1.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object greysandcliff2
+name grey sand cliff
+face greysandcliff2.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object blacksandcliff1
+name black sand cliff
+face blacksandcliff1.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object blacksandcliff2
+name black sand cliff
+face blacksandcliff2.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object blacksandcliff3
+name black sand mound
+face blacksandcliff3.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object blacksandcliff4
+name black sand lava
+face blacksandcliff4.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object fernrockscliff1
+name fern rock cliff
+face fernrockcliff1.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
+Object fernrockscliff2
+name fern rock cliff
+face fernrockcliff2.111
+move_block all
+no_pick 1
+is_floor 1
+blocksview 1
+editor_folder cliffs
+end
 Object fslotmachine1
 name slotmachine
 slaying neverusethisarch
@@ -11304,6 +11472,51 @@ editable 2
 client_type 25012
 editor_folder exit/Ladder
 end
+Object ladder_3_down
+name ladder going down
+face ladder3_do.111
+type 66
+no_pick 1
+editable 2
+client_type 25012
+editor_folder exit/Ladder
+end
+Object ladder_4_down
+name ladder going down
+face ladder4_do.111
+type 66
+no_pick 1
+editable 2
+client_type 25012
+editor_folder exit/Ladder
+end
+Object ladder_5_down
+name ladder going down
+face ladder5_do.111
+type 66
+no_pick 1
+editable 2
+client_type 25012
+editor_folder exit/Ladder
+end
+Object ladder_6_down
+name ladder going down
+face ladder6_do.111
+type 66
+no_pick 1
+editable 2
+client_type 25012
+editor_folder exit/Ladder
+end
+Object ladder_7_down
+name ladder going down
+face ladder7_do.111
+type 66
+no_pick 1
+editable 2
+client_type 25012
+editor_folder exit/Ladder
+end
 Object ladder_down
 name ladder going down
 face ladder_down.111
@@ -14320,22 +14533,25 @@ editor_folder floor
 end
 Object blacklostlabfloor
 face blacklostlabfloor5.111
+name black sand
 no_pick 1
 is_floor 1
 editable 8
 smoothlevel 30
 editor_folder floor
 end
-Object blacklostlabfloor
+Object blacklostlabfloor7
 face blacklostlabfloor7.111
+name black rocks
 no_pick 1
 is_floor 1
 editable 8
 smoothlevel 30
 editor_folder floor
 end
-Object blacklostlabfloor
+Object blacklostlabfloor8
 face blacklostlabfloor8.111
+name cobblestone road
 no_pick 1
 is_floor 1
 editable 8
@@ -14376,6 +14592,79 @@ is_floor 1
 editable 8
 editor_folder floor
 end
+Object cobble_part_1
+face cobble_part_1.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_2
+face cobble_part_2.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_3
+face cobble_part_3.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_4
+face cobble_part_4.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_6
+face cobble_part_6.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_7
+face cobble_part_7.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_8
+face cobble_part_8.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+Object cobble_part_9
+face cobble_part_9.111
+no_pick 1
+is_floor 1
+editable 8
+smoothlevel 30
+move_block boat swim
+editor_folder floor/cobble_part
+end
+
 Object cobblestones
 face cobblesto2.111
 no_pick 1
@@ -15200,7 +15489,7 @@ end
 
 Object white-green-x-marble_111
 face white-green-x-marble.111
-name marble
+name tile floor (green)
 no_pick 1
 is_floor 1
 editable 8
@@ -15210,7 +15499,7 @@ end
 
 Object white-green-x-marble_112
 face white-green-x-marble.112
-name marble
+name tile floor (green)
 no_pick 1
 is_floor 1
 editable 8
@@ -15220,7 +15509,7 @@ end
 
 Object white-green-x-marble_113
 face white-green-x-marble.113
-name marble
+name tile floor (yellow)
 no_pick 1
 is_floor 1
 editable 8
@@ -15230,7 +15519,7 @@ end
 
 Object white-green-x-marble_114
 face white-green-x-marble.114
-name marble
+name tile floor (red)
 no_pick 1
 is_floor 1
 editable 8
@@ -15240,7 +15529,7 @@ end
 
 Object white-green-x-marble_115
 face white-green-x-marble.115
-name marble
+name cave (dark)
 no_pick 1
 is_floor 1
 editable 8
@@ -15250,7 +15539,7 @@ end
 
 Object white-green-x-marble_116
 face white-green-x-marble.116
-name marble
+name tile (orange)
 no_pick 1
 is_floor 1
 editable 8
@@ -15261,7 +15550,7 @@ end
 
 Object white-green-x-marble_117
 face white-green-x-marble.117
-name marble
+name pink marble (heart)
 no_pick 1
 is_floor 1
 editable 8
@@ -15271,7 +15560,7 @@ end
 
 Object white-green-x-marble_118
 face white-green-x-marble.118
-name marble
+name red marble (heart)
 no_pick 1
 is_floor 1
 editable 8
@@ -15281,7 +15570,7 @@ end
 
 Object white-green-x-marble_119
 face white-green-x-marble.119
-name marble
+name rug (orange)
 no_pick 1
 is_floor 1
 editable 8
@@ -15290,7 +15579,7 @@ editor_folder floor/inlayed
 end
 Object white-pink-c-marble_111
 face white-pink-c-marble.111
-name marble
+name rug (beige)
 no_pick 1
 is_floor 1
 editable 8
@@ -15300,7 +15589,7 @@ end
 
 Object white-pink-c-marble_112
 face white-pink-c-marble.112
-name marble
+name rug (blue)
 no_pick 1
 is_floor 1
 editable 8
@@ -15310,7 +15599,7 @@ end
 
 Object white-pink-c-marble_113
 face white-pink-c-marble.113
-name marble
+name rug (green)
 no_pick 1
 is_floor 1
 editable 8
@@ -15320,7 +15609,7 @@ end
 
 Object white-pink-c-marble_114
 face white-pink-c-marble.114
-name marble
+name rug (pink)
 no_pick 1
 is_floor 1
 editable 8
@@ -15329,7 +15618,7 @@ editor_folder floor/inlayed
 end
 Object white-red-c-marble_111
 face white-red-c-marble.111
-name marble
+name rug (maragold)
 no_pick 1
 is_floor 1
 editable 8
@@ -15339,7 +15628,7 @@ end
 
 Object white-red-c-marble_112
 face white-red-c-marble.112
-name marble
+name rug (cream)
 no_pick 1
 is_floor 1
 editable 8
@@ -15349,7 +15638,7 @@ end
 
 Object white-red-c-marble_113
 face white-red-c-marble.113
-name marble
+name rug (fushia)
 no_pick 1
 is_floor 1
 editable 8
@@ -15359,7 +15648,7 @@ end
 
 Object white-red-c-marble_114
 face white-red-c-marble.114
-name marble
+name rug (plum)
 no_pick 1
 is_floor 1
 editable 8
@@ -15384,7 +15673,7 @@ editor_folder floor
 end
 Object lostlabfloor
 face lostlabfloor.111
-name floor
+name cave floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15394,7 +15683,7 @@ end
 
 Object lostlabfloor2
 face lostlabfloor2.111
-name floor
+name underworld sand
 no_pick 1
 is_floor 1
 editable 8
@@ -15404,7 +15693,7 @@ end
 
 Object lostlabfloor3
 face lostlabfloor3.111
-name floor
+name stone tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15414,7 +15703,7 @@ end
 
 Object lostlabfloor4
 face lostlabfloor4.111
-name floor
+name tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15424,7 +15713,7 @@ end
 
 Object lostlabfloor5
 face lostlabfloor5.111
-name floor
+name tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15434,7 +15723,7 @@ end
 
 Object lostlabfloor6
 face lostlabfloor6.111
-name floor
+name bath tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15444,7 +15733,7 @@ end
 
 Object lostlabfloor7
 face lostlabfloor7.111
-name floor
+name spiral floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15454,7 +15743,7 @@ end
 
 Object lostlabfloor8
 face lostlabfloor8.111
-name floor
+name blood cell floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15464,7 +15753,7 @@ end
 
 Object lostlabfloor9
 face lostlabfloor9.111
-name floor
+name disco tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15474,7 +15763,7 @@ end
 
 Object lostlabfloor10
 face lostlabfloor10.111
-name floor
+name stone floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15484,7 +15773,7 @@ end
 
 Object lostlabfloor11
 face lostlabfloor11.111
-name floor
+name stone floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15494,7 +15783,7 @@ end
 
 Object lostlabfloor12
 face lostlabfloor12.111
-name floor
+name icy stone floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15504,7 +15793,7 @@ end
 
 Object lostlabfloor13
 face lostlabfloor13.111
-name floor
+name icy stone floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15514,7 +15803,7 @@ end
 
 Object lostlabfloor14
 face lostlabfloor14.111
-name floor
+name disco tile floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15524,7 +15813,7 @@ end
 
 Object lostlabfloor15
 face lostlabfloor15.111
-name floor
+name casino floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15534,7 +15823,7 @@ end
 
 Object lostlabfloor16
 face lostlabfloor16.111
-name floor
+name casino floor
 no_pick 1
 is_floor 1
 editable 8
@@ -15661,6 +15950,7 @@ end
 
 Object redrugfloor1
 face redrugfloor1.111
+name rug (red)
 no_pick 1
 is_floor 1
 editable 8
@@ -19381,6 +19671,7 @@ face mountain1a.111
 type 67
 race /terrain/mountain
 walk_on 1
+move_block boat swim
 no_pick 1
 blocksview 1
 is_hilly 1
@@ -19403,6 +19694,7 @@ blocksview 1
 editable 8
 smoothlevel 100
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 Object mountain3
@@ -19416,6 +19708,7 @@ blocksview 1
 is_hilly 1
 slow_move 5
 editable 8
+move_block boat swim
 editor_folder ground/Mountain
 end
 Object mountain4
@@ -19453,6 +19746,7 @@ is_hilly 1
 blocksview 1
 editable 8
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 More
@@ -19465,6 +19759,7 @@ slow_move 20
 is_hilly 1
 blocksview 1
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 More
@@ -19477,6 +19772,7 @@ slow_move 20
 is_hilly 1
 blocksview 1
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 More
@@ -19490,6 +19786,7 @@ slow_move 20
 is_hilly 1
 blocksview 1
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 Object s_mountain_cave
@@ -19514,6 +19811,7 @@ is_hilly 1
 slow_move 8
 editable 8
 is_floor 1
+move_block boat swim
 editor_folder ground/Mountain
 end
 Object Nimground3_purple
@@ -19832,6 +20130,7 @@ editor_folder ground/Winter
 end
 Object cforest3
 face cforest3.111
+name pine tree
 type 67
 race /terrain/forest
 walk_on 1
@@ -19866,6 +20165,7 @@ editor_folder ground/Winter
 end
 Object cforest6
 face cforest6.111
+name pine tree
 type 67
 race /terrain/forest
 walk_on 1
@@ -20029,6 +20329,7 @@ face snow.111
 no_pick 1
 is_floor 1
 editable 8
+move_block boat swim
 smoothlevel 21
 editor_folder ground/Winter
 end
@@ -20039,6 +20340,7 @@ no_pick 1
 is_floor 1
 editable 8
 smoothlevel 25
+move_block boat swim
 editor_folder ground/Winter
 end
 Object snow3
@@ -20048,6 +20350,7 @@ no_pick 1
 is_floor 1
 editable 8
 smoothlevel 26
+move_block boat swim
 editor_folder ground/Winter
 end
 Object snow4
@@ -20056,6 +20359,7 @@ face snow4.111
 no_pick 1
 editable 8
 smoothlevel 31
+move_block boat swim
 editor_folder ground/Winter
 end
 Object snow5
@@ -20064,6 +20368,7 @@ face snow5.111
 no_pick 1
 editable 8
 smoothlevel 32
+move_block boat swim
 editor_folder ground/Winter
 end
 Object spalm
@@ -20099,6 +20404,21 @@ slow_move 2
 is_wooded 1
 editable 8
 editor_folder ground/Winter
+end
+Object blackforest2
+name forestfloor
+face bforest.111
+type 67
+race /terrain/forest
+walk_on 1
+no_pick 1
+slow_move 3
+is_wooded 1
+editable 8
+is_floor 1
+smoothlevel 135
+move_block boat swim
+editor_folder ground/Wood
 end
 Object bigtree4
 face bigtree4.111
@@ -20639,6 +20959,7 @@ editor_folder ground/Wood
 end
 Object evergreens
 face evergreens.111
+name pine sappling
 type 67
 race /terrain/forest
 walk_on 1
@@ -20652,7 +20973,7 @@ move_block boat swim
 editor_folder ground/Wood
 end
 Object evergreens2
-name evergreens
+name pine sappling
 face evergreens_2.111
 type 67
 race /terrain/forest
@@ -20759,13 +21080,28 @@ editable 8
 smoothlevel 125
 editor_folder ground/Wood
 end
-Object shrub
+Object purplemoss2
+name purple moss
+face purplemoss2.111
+type 67
+race /terrain/forest
+walk_on 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+is_floor 1
+smoothlevel 135
+move_block boat swim
+editor_folder ground/Wood
+end
+Object shrub02
+name leafless bush
 face shrub02.111
 slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
@@ -20775,47 +21111,46 @@ slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
-Object shrub
+Object shrub2a
+name bush
 face shrub2.111
 slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
-Object shrub
+Object shrub3
+name bush
 face shrub3.111
 slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
-Object shrub
+Object shrub4
+name bush
 face shrub4.111
 slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
-Object shrub
+Object shrub4b
+name bush
 face shrubb.111
 slow_move 1
 is_wooded 1
 no_pick 1
 editable 8
-is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
@@ -20896,9 +21231,80 @@ is_floor 1
 smoothlevel 125
 editor_folder ground/Wood
 end
+Object evergn_nopass
+face tree_2.111
+name tree
+no_pick 1
+no_pass 1
+is_wooded 1
+editable 8
+is_floor 1
+smoothlevel 125
+editor_folder ground/Wood
+end
 Object tree3
 name tree
 face tree_3.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3cherry1
+name cherry tree
+face tree_3cherry1.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3cherry2
+name cherry sapling
+face tree_3cherry2.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3cherry3
+name dwarf cherry tree
+face tree_3cherry3.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3birch1
+name birch tree
+face tree_3birch1.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3blueleaf1
+name blueleaf tree
+face tree_3blueleaf1.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree3fall1
+name fall tree
+face tree_3fall1.111
 no_pick 1
 slow_move 1
 is_wooded 1
@@ -20917,6 +21323,16 @@ end
 Object tree5
 name tree
 face tree_5.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree5bblack
+name tree
+face tree_5_black.111
 no_pick 1
 slow_move 1
 is_wooded 1
@@ -20943,7 +21359,7 @@ editor_folder ground/Wood
 end
 
 Object tree6_darker
-name tree
+name burnt sapling
 face tree_6_darker.111
 no_pick 1
 slow_move 1
@@ -20953,7 +21369,7 @@ editor_folder ground/Wood
 end
 
 Object tree6_darkerstill
-name tree
+name leafless sapling
 face tree_6_darkerstill.111
 no_pick 1
 slow_move 1
@@ -20963,8 +21379,18 @@ editor_folder ground/Wood
 end
 
 Object tree6_gray
-name tree
+name leafless tree
 face tree_6_gray.111
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+editor_folder ground/Wood
+end
+
+Object tree6_budding
+name budding sapling
+face tree_6_budding.111
 no_pick 1
 slow_move 1
 is_wooded 1
@@ -20982,14 +21408,15 @@ editable 8
 editor_folder ground/Wood
 end
 Object treed_hills
+name grassy moss
 face treed_hills.111
 type 67
-race /terrain/hills
+race /terrain/forest
 walk_on 1
 is_hilly 1
 no_pick 1
 is_wooded 1
-slow_move 5
+slow_move 1
 editable 8
 is_floor 1
 smoothlevel 130
@@ -21026,7 +21453,7 @@ move_block boat swim
 editor_folder ground/Wood
 end
 Object woods_3
-name woods
+name green moss
 face woods_3.111
 type 67
 race /terrain/forest
@@ -22034,7 +22461,7 @@ editable 8
 editor_folder ground
 end
 Object bosgrass
-name grass
+name dirt
 face bosgrass.111
 type 67
 walk_on 1
@@ -22050,7 +22477,7 @@ editor_folder ground/new
 end
 
 Object bosgrass2
-name grass
+name dirt
 face bosgrass2.111
 type 67
 walk_on 1
@@ -22082,7 +22509,7 @@ editor_folder ground/new
 end
 
 Object bosgrass4
-name grass
+name earth
 face bosgrass4.111
 type 67
 walk_on 1
@@ -22098,7 +22525,7 @@ editor_folder ground/new
 end
 
 Object bosgrass5
-name grass
+name earth
 face bosgrass5.111
 type 67
 walk_on 1
@@ -22114,7 +22541,7 @@ editor_folder ground/new
 end
 
 Object bosgrass6
-name grass
+name earth
 face bosgrass6.111
 type 67
 walk_on 1
@@ -22130,7 +22557,7 @@ editor_folder ground/new
 end
 
 Object bosgrass7
-name grass
+name earth
 face bosgrass7.111
 type 67
 walk_on 1
@@ -22146,7 +22573,7 @@ editor_folder ground/new
 end
 
 Object bosgrass8
-name grass
+name earth
 face bosgrass8.111
 type 67
 walk_on 1
@@ -22162,7 +22589,7 @@ editor_folder ground/new
 end
 
 Object bosgrass9
-name grass
+name earth
 face bosgrass9.111
 type 67
 walk_on 1
@@ -22178,7 +22605,7 @@ editor_folder ground/new
 end
 
 Object bosgrass10
-name grass
+name beach
 face bosgrass10.111
 type 67
 walk_on 1
@@ -22258,7 +22685,7 @@ editor_folder ground/new
 end
 
 Object bosgrass15
-name grass
+name earth
 face bosgrass15.111
 type 67
 walk_on 1
@@ -22274,7 +22701,7 @@ editor_folder ground/new
 end
 
 Object bosgrass16
-name grass
+name beach
 face bosgrass16.111
 type 67
 walk_on 1
@@ -22290,7 +22717,7 @@ editor_folder ground/new
 end
 
 Object bosgrass17
-name grass
+name moss
 face bosgrass17.111
 type 67
 walk_on 1
@@ -22318,7 +22745,8 @@ is_floor 1
 editable 8
 editor_folder ground/new
 end
-Object dunes
+Object dunes2
+name dunes
 face dunes2.111
 type 67
 race /terrain/desert
@@ -22602,6 +23030,233 @@ is_floor 1
 editor_folder ground
 end
 
+Object grassramp_fh1
+face grassramp_fh1.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh1
+face grassramp_sh1.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh2
+face grassramp_fh2.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh2
+face grassramp_sh2.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh3
+face grassramp_fh3.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh3
+face grassramp_sh3.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh4
+face grassramp_fh4.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh4
+face grassramp_sh4.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh5
+face grassramp_fh5.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh5
+face grassramp_sh5.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh6
+face grassramp_fh6.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh6
+face grassramp_sh6.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh7
+face grassramp_fh7.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh7
+face grassramp_sh7.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+Object grassramp_fh8
+face grassramp_fh8.111
+type 67
+race /terrain/plains
+walk_on 1
+is_floor 1
+no_pick 1
+slow_move 1
+is_wooded 1
+editable 8
+smoothlevel 40
+move_block boat swim
+editor_folder ground/ramp/grass
+end
+Object grassramp_sh8
+face grassramp_sh8.111
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground/ramp/grass
+end
+
+
+
+Object river_new
+face river_new.111
+animation river_new
+name river
+speed 0.2
+no_pass 1
+no_pick 1
+is_water 1
+editable 8
+is_floor 1
+move_block all -boat -flying
+client_anim_sync 1
+editor_folder ground
+end
+Object river_new2
+face river_new.311
+animation river_new2
+name river
+speed 0.2
+no_pass 1
+no_pick 1
+is_water 1
+editable 8
+is_floor 1
+move_block all -boat -flying
+client_anim_sync 1
+editor_folder ground
+end
+Object river_new3
+face river_new.511
+animation river_new3
+name river
+speed 0.2
+no_pass 1
+no_pick 1
+is_water 1
+editable 8
+is_floor 1
+move_block all -boat -flying
+client_anim_sync 1
+editor_folder ground
+end
+Object river_new4
+face river_new.711
+animation river_new4
+name river
+speed 0.2
+no_pass 1
+no_pick 1
+is_water 1
+editable 8
+is_floor 1
+move_block all -boat -flying
+client_anim_sync 1
+editor_folder ground
+end
 Object sea
 face sea.111
 animation sea
@@ -22844,166 +23499,6 @@ move_block all
 client_anim_sync 1
 editor_folder ground
 end
-Object cloud_1_1_1
-name cloud
-face cloud_1_1.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_1_2_1
-name cloud
-face cloud_1_2.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_1_3_1
-name cloud
-face cloud_1_3.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_2_1_1
-name cloud
-face cloud_2_1.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_2_2_1
-name cloud
-face cloud_2_2.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_2_3_1
-name cloud
-face cloud_2_3.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_3_1_1
-name cloud
-face cloud_3_1.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_3_2_1
-name cloud
-face cloud_3_2.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_3_3_1
-name cloud
-face cloud_3_3.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_4_1_1
-name cloud
-face cloud_4_1.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_4_2_1
-name cloud
-face cloud_4_2.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_4_3_1
-name cloud
-face cloud_4_3.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_5_1_1
-name cloud
-face cloud_5_1.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_5_2_1
-name cloud
-face cloud_5_2.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object cloud_5_3_1
-name cloud
-face cloud_5_3.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
-Object empty_sky
-name sky
-face sky.x11
-type 67
-move_on walk
-is_floor 1
-no_pick 1
-move_slow walk
-editor_folder ground/sky
-end
 Object soccergrass1
 name grass
 face soccergrass.111
@@ -23238,6 +23733,46 @@ move_block all
 is_floor 1
 editable 8
 smoothlevel 51
+editor_folder ground
+end
+Object waterfall2_new
+face waterfall2_new.511
+animation waterfall2_new
+name waterfall
+speed 0.5
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground
+end
+Object waterfall3_new
+face waterfall_new.711
+animation waterfall3_new
+name waterfall
+speed 0.5
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground
+end
+Object waterfall4_new
+face waterfall2_new.711
+animation waterfall4_new
+name waterfall
+speed 0.5
+no_pick 1
+blocksview 1
+editable 768
+editor_folder ground
+end
+Object waterfall_new
+face waterfall_new.511
+animation waterfall_new
+name waterfall
+speed 0.5
+no_pick 1
+blocksview 1
+editable 768
 editor_folder ground
 end
 Object barrel
@@ -24509,6 +25044,62 @@ end
 Object broom_leaning
 name broom
 face broom.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_0
+name painting
+face wallart_0.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_1
+name painting
+face wallart_1.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_2
+name painting
+face wallart_2.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_3
+name painting
+face wallart_3.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_4
+name painting
+face wallart_4.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_5
+name painting
+face wallart_5.111
+no_pick 1
+editable 128
+editor_folder indoor/wall
+end
+
+Object wallart_6
+name painting
+face wallart_6.111
 no_pick 1
 editable 128
 editor_folder indoor/wall
@@ -30572,6 +31163,33 @@ editor_folder misc/Container
 end
 
 
+Object wardrobe
+name wardrobe
+other_arch wardrobe_open
+face wardrobe.111
+type 122
+material 18
+weight 120000
+container 80000
+Str 10
+value 150
+editable 128
+identified 1
+name_pl 
+client_type 51
+editor_folder misc/Container
+end
+Object wardrobe_open
+name close the wardrobe
+face wardrobe_open.111
+type 121
+no_pick 1
+no_drop 1
+identified 1
+editable 0
+editor_folder misc/Container
+end
+
 Object workbench
 name workbench
 face workbench.111
@@ -32403,7 +33021,7 @@ nrof 1
 weight 40000
 material 2
 materialname gold
-value 80000
+value 800
 editable 128
 name platter
 name_pl platters
@@ -32417,7 +33035,7 @@ nrof 1
 weight 40000
 material 2
 materialname silver
-value 8000
+value 80
 editable 128
 name platter
 name_pl platters
@@ -32431,7 +33049,7 @@ nrof 1
 weight 40000
 material 2
 materialname platinum
-value 400000
+value 4000
 editable 128
 name platter
 name_pl platters
@@ -32445,7 +33063,7 @@ nrof 1
 weight 40000
 material 2
 materialname bronze
-value 5400
+value 54
 editable 128
 name platter
 name_pl platters
@@ -32459,7 +33077,7 @@ nrof 1
 weight 40000
 material 2
 materialname copper
-value 4000
+value 40
 editable 128
 name platter
 name_pl platters
@@ -32473,7 +33091,7 @@ nrof 1
 weight 40000
 material 2
 materialname iron
-value 800
+value 8
 editable 128
 name platter
 name_pl platters
@@ -32487,7 +33105,7 @@ nrof 1
 weight 40000
 material 2
 materialname tin
-value 400
+value 4
 editable 128
 name platter
 name_pl platters
@@ -32782,6 +33400,24 @@ body_head -1
 gen_sp_armour 1
 editor_folder misc/social
 end
+Object spinningwheel
+name spinningwheel
+face spinningwheel.111
+type 15
+dam 1
+last_sp 19
+weight 7000
+value 0
+material 16
+nrof 1
+editable 128
+name_pl spinningwheels
+client_type 8002
+skill one handed weapons
+body_arm -1
+editor_folder misc
+end
+
 Object starofastaroth_0_0
 name Star of Astaroth
 face starofastaroth.x11
@@ -34753,7 +35389,7 @@ Object HighAngel
 randomitems high_angel
 name High Angel
 race angel
-face archangel.118
+face archangel.111
 animation archangle
 monster 1
 sleep 1
@@ -34890,69 +35526,6 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-editor_folder monster/angel
-end
-More
-Object ArchAngel_2
-name Arch Angel
-face highangel.211
-animation ArchAngel_2
-monster 1
-alive 1
-no_pick 1
-x 1
-weight 75000
-editor_folder monster/angel
-end
-More
-Object ArchAngel_3
-name Arch Angel
-face highangel.311
-animation ArchAngel_3
-monster 1
-alive 1
-no_pick 1
-y 1
-weight 75000
-editor_folder monster/angel
-end
-More
-Object ArchAngel_4
-name Arch Angel
-face highangel.411
-animation ArchAngel_4
-monster 1
-alive 1
-no_pick 1
-y 1
-x 1
-weight 75000
-editor_folder monster/angel
-end
-More
-Object ArchAngel_5
-name Arch Angel
-face highangel.511
-animation ArchAngel_5
-monster 1
-alive 1
-no_pick 1
-y 2
-x 0
-weight 75000
-editor_folder monster/angel
-end
-More
-Object ArchAngel_6
-name Arch Angel
-face highangel.611
-animation ArchAngel_6
-monster 1
-alive 1
-no_pick 1
-y 2
-x 1
-weight 75000
 editor_folder monster/angel
 end
 Object cherub
@@ -35142,6 +35715,7 @@ Object holyghost
 race angel
 face holyghost.111
 name holy ghost
+animation holyghost
 monster 1
 sleep 1
 see_invisible 1
@@ -39614,6 +40188,68 @@ attack_movement 1
 editable 1
 editor_folder monster/dragon/Hatchlings
 end
+Object ice_dragon
+name ice dragon
+randomitems ice_dragon
+race dragon
+face ice_dr.171
+animation ice_dragon
+monster 1
+sleep 1
+Wis 20
+level 14
+Con 4
+Pow 32
+can_cast_spell 1
+maxsp 40
+hp 1000
+maxhp 1000
+resist_cold 100
+resist_fear 100
+resist_blind 100
+resist_fire -100
+resist_magic 30
+ac -8
+wc -15
+dam 15
+exp 40000
+see_invisible 1
+alive 1
+no_pick 1
+speed -0.2
+weight 200000
+run_away 4
+editable 1
+editor_folder monster/dragon/Ice_Dra
+end
+More
+Object ice_dragon_2
+name ice dragon
+face ice_dr.271
+animation ice_dragon_2
+alive 1
+x 1
+editor_folder monster/dragon/Ice_Dra
+end
+More
+Object ice_dragon_3
+name ice dragon
+face ice_dr.371
+animation ice_dragon_3
+alive 1
+y 1
+editor_folder monster/dragon/Ice_Dra
+end
+More
+Object ice_dragon_4
+name ice dragon
+face ice_dr.471
+animation ice_dragon_4
+alive 1
+x 1
+y 1
+editor_folder monster/dragon/Ice_Dra
+end
 Object big_orange
 name orange dragon
 race dragon
@@ -40658,7 +41294,8 @@ end
 Object ice_warrior
 name ice warrior
 race elemental
-face ice_warrior.x11
+face ice_warrior.111
+animation ice_warrior
 randomitems ice_warrior
 monster 1
 move_type walk 
@@ -40708,95 +41345,6 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_2
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-x 1
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_3
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 1
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_4
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 1
-x 1
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_5
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 2
-x 0
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_6
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 2
-x 1
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_7
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 3
-x 0
-weight 75000
-editor_folder monster/elemental
-end
-More
-Object ice_warrior_8
-name ice warrior
-face ice_warrior.x11
-monster 1
-move_type walk 
-alive 1
-no_pick 1
-y 3
-x 1
-weight 75000
 editor_folder monster/elemental
 end
 Object golem_red
@@ -43691,6 +44239,40 @@ body_arm 2
 body_range 1
 editor_folder monster/humanoid/Arabic
 end
+Object big_servitor
+race human
+randomitems servitor
+name big servitor
+face big_servitor.111
+alive 1
+level 1
+monster 1
+hp 30
+maxhp 30
+Str 20
+Con 5
+ac 8
+exp 20
+wc 15
+speed 0.16
+dam 8
+weight 150000
+unaggressive 1
+can_use_weapon 1
+can_use_shield 1
+can_use_armour 1
+can_use_bow 1
+editable 1
+body_torso 1
+body_head 1
+body_shoulder 1
+body_foot 1
+body_wrist 1
+body_hand 2
+body_waist 1
+body_arm 2
+editor_folder monster/humanoid/Arabic
+end
 Object big_slave
 race human
 randomitems slave
@@ -43825,7 +44407,7 @@ Object merchant
 race human
 name Merchant
 randomitems merchant
-face merchant.111
+face merchant.151
 animation merchant
 is_animated 0
 sp 10
@@ -43869,6 +44451,41 @@ body_hand 2
 body_waist 1
 body_arm 2
 body_range 1
+editor_folder monster/humanoid/Arabic
+end
+Object servitor
+race human
+name servitor
+randomitems servitor
+face servitor.111
+speed 0.10
+alive 1
+level 1
+monster 1
+no_pick 1
+hp 10
+maxhp 10
+Con 5
+ac 10
+exp 10
+wc 20
+Str 15
+dam 5
+weight 150000
+unaggressive 1
+can_use_bow 1
+can_use_weapon 1
+can_use_shield 1
+can_use_armour 1
+editable 1
+body_torso 1
+body_head 1
+body_shoulder 1
+body_foot 1
+body_wrist 1
+body_hand 2
+body_waist 1
+body_arm 2
 editor_folder monster/humanoid/Arabic
 end
 Object slave
@@ -48489,7 +49106,7 @@ end
 Object golem_necro
 race unnatural
 name golem of Necromancer
-face gol.x11
+face gol.111
 animation golem_necro
 speed -0.4
 Str 60
@@ -48540,58 +49157,6 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-editor_folder monster/misc/Ngolem
-end
-More
-Object golem_necro_2
-name golem of Necromancer
-face gol.x11
-animation golem_necro_2
-monster 1
-alive 1
-x 1
-editor_folder monster/misc/Ngolem
-end
-More
-Object golem_necro_3
-name golem of Necromancer
-face gol.x11
-animation golem_necro_3
-monster 1
-alive 1
-y 1
-editor_folder monster/misc/Ngolem
-end
-More
-Object golem_necro_4
-name golem of Necromancer
-face gol.x11
-animation golem_necro_4
-monster 1
-alive 1
-x 1
-y 1
-editor_folder monster/misc/Ngolem
-end
-More
-Object golem_necro_5
-name golem of Necromancer
-face gol.x11
-animation golem_necro_5
-monster 1
-alive 1
-y 2
-editor_folder monster/misc/Ngolem
-end
-More
-Object golem_necro_6
-name golem of Necromancer
-face gol.x11
-animation golem_necro_6
-monster 1
-alive 1
-x 1
-y 2
 editor_folder monster/misc/Ngolem
 end
 Object unicorn
@@ -54677,6 +55242,15 @@ editable 2
 client_type 25012
 editor_folder planes/fire
 end
+Object burning_small_temple2
+name burning small temple
+type 66
+face burning_smalltemple2.111
+no_pick 1
+editable 2
+client_type 25012
+editor_folder planes/fire
+end
 Object burning_store_alchemy
 name burning shop
 face burning_store_alch.111
@@ -55920,6 +56494,7 @@ end
 Object lava_well
 type 66
 face lava_well.111
+animation lava_well
 no_pick 1
 editable 2
 client_type 25012
@@ -56344,32 +56919,34 @@ body_skill -1
 skill evocation
 editor_folder player/class/Wizardry
 end
-object pyromancer_class
-animation ./arch/player/class/Wizardry/pyromancer_class.arc
+Object pyromancer_class
 name pyromancer
-face pyromancer.x51
-is_animated 1
-str -1
-dex 0
-con -1
-wis 0
-pow 2
-int 0
-type 37
 randomitems pyromancer_class_items
+face pyromancer.151
+animation pyromancer_class
+is_animated 1
 anim_speed -1
+type 37
+Str -1
+Dex 0
+Con -1
+Wis 0
+Pow 2
+Int 0
+editable 0
 editor_folder player/class/Wizardry
 end
 
 object talisman_pyromancer
-inherit type_skill_tool
 name Pyromancers's talisman
 skill pyromancy
-face talisman.x11
+face talisman_pyromancy.111
+type 74
 nrof 1
+material 12
+editable 2048
 path_attuned 2
 path_repelled 33028
-materialname runestone
 value 3000
 weight 1000
 client_type 451
@@ -56447,7 +57024,7 @@ name wizard
 randomitems wizard
 face wizard.171
 animation wizard_class
-is_animated 0
+is_animated 1
 type 37
 Str -3
 Dex 0
@@ -58167,6 +58744,56 @@ can see in the dark, and every half-orc seems
 to know how to steal.
 endmsg
 animation pl_half_orc
+is_animated 1
+anim_speed -1
+no_pick 1
+alive 1
+level 1
+wc 21
+ac 10
+dam 1
+type 1
+speed 1
+weight 70000
+resist_poison 30
+can_use_shield 1
+can_use_armour 1
+can_use_weapon 1
+can_see_in_dark 1
+path_repelled 65536
+editable 0
+Str 2
+Dex 1
+Con 2
+Int -2
+Wis -2
+Pow -1
+Cha -3
+body_range 1
+body_arm 2
+body_torso 1
+body_head 1
+body_neck 1
+body_skill 1
+body_finger 2
+body_shoulder 1
+body_foot 2
+body_hand 2
+body_wrist 2
+body_waist 1
+can_use_shield 1
+editor_folder player/race
+end
+Object pl_orc
+name badlands orc
+randomitems pl_orc
+face pl_orc.151
+msg
+Orcs are elves who have lost immortality.
+They value warfighting and thievery.
+but have unique building styles and society.
+endmsg
+animation pl_orc
 is_animated 1
 anim_speed -1
 no_pick 1
@@ -75799,6 +76426,219 @@ no_pass 1
 editable 512
 editor_folder wall/blwall_short
 end
+Object bluebrick1
+name blue brick wall
+face bluebrick1.111
+move_block all
+no_pick 1
+blocksview 1
+is_floor 1
+editor_folder wall/brick
+end
+Object bluebrick_vine
+name blue brick wall
+face bluebrick_vine.111
+move_block all
+no_pick 1
+blocksview 1
+is_floor 1
+editor_folder wall/brick
+end
+Object purplebrick
+name purple brick wall
+face purplebrick.111
+move_block all
+no_pick 1
+blocksview 1
+is_floor 1
+editor_folder wall/brick
+end
+Object graveyard_gate1
+name graveyard gate
+face graveyard_gate1.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyard_gate2
+name graveyard gate
+face graveyard_gate2.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyard_fence1
+name graveyard fence
+face graveyard_fence1.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyard_fence2
+name graveyard fence
+face graveyard_fence2.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyardw_gate1
+name graveyard gate wall
+face graveyardw_gate1.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyardw_gate2
+name graveyard gate wall
+face graveyardw_gate2.111
+move_block all
+no_pick 1
+editor_folder wall/brick
+end
+Object graveyard_wall1
+name graveyard wall
+face graveyard_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object graveyard_wall2
+name graveyard wall
+face graveyard_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object lava_wall1
+name lava wall
+face lava_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object lava_wall2
+name lava wall
+face lava_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object sandlt_wall1
+name sandy wall
+face sandy_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object sandlt_wall2
+name sandy wall
+face sandy_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object sanddk_wall1
+name sandy wall
+face sandydk_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object sanddk_wall2
+name sandy wall
+face sandydk_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object rainbow_wall1
+name rainbow wall
+face rainbow_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object rainbow_wall2
+name rainbow wall
+face rainbow_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purbrick_wall1
+name purple brick wall
+face purbrick_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purbrick_wall2
+name purple brick wall
+face purbrick_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purstone_wall1
+name purple stone wall
+face purstone_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purstone_wall2
+name purple stone wall
+face purstone_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purstone_wall3
+name purple stone wall
+face purstone_wall3.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object purstone_wall4
+name purple stone wall
+face purstone_wall4.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object greybrick_wall1
+name grey brick wall
+face greybrick_wall1.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
+Object greybrick_wall2
+name grey brick wall
+face greybrick_wall2.111
+move_block all
+no_pick 1
+blocksview 1
+editor_folder wall/brick
+end
 Object brwall_0
 name brwall_0
 face brwall_0.111
@@ -78511,6 +79351,16 @@ end
 Object cwall_pinkmarble
 name marble wall column
 face cwall_pinkmarble.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/cwall
+end
+
+Object cwall_bluemarbledark
+name marble wall column
+face cwall_bluemarbledark.111
 blocksview 1
 no_pick 1
 no_pass 1
@@ -81334,6 +82184,15 @@ blocksview 1
 editable 512
 editor_folder wall/gwall
 end
+Object gwall_2_2_2x
+name wall
+face gwall_6_ext.111
+no_pick 1
+no_pass 1
+blocksview 1
+editable 512
+editor_folder wall/gwall
+end
 Object gwall_3_2
 name wall
 face gwall_7.111
@@ -81355,6 +82214,15 @@ end
 Object gwall_2_2_4
 name wall
 face gwall_9.111
+no_pick 1
+no_pass 1
+blocksview 1
+editable 512
+editor_folder wall/gwall
+end
+Object gwall_2_2_4x
+name wall
+face gwall_9_ext.111
 no_pick 1
 no_pass 1
 blocksview 1
@@ -82837,6 +83705,267 @@ no_pick 1
 editable 8
 editor_folder wall/longtable
 end
+Object beigemarblewall_1_2
+name marble wall
+face beigemarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object beigemarblewall_1_4
+name marble wall
+face beigemarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object beigemarblewall_4
+name marble wall
+face beigemarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltbeigemarblewall_4
+name marble wall
+face ltbeigemarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object blackmarblewall_4
+name marble wall
+face blackmarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object greymarblewall_4
+name marble wall
+face greymarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkbluemarblewall_1_2
+name marble wall
+face dkbluemarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkbluemarblewall_1_4
+name marble wall
+face dkbluemarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkbluemarblewall_4
+name marble wall
+face dkbluemarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object mbluemarblewall_1_2
+name marble wall
+face mbluemarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object mbluemarblewall_1_4
+name marble wall
+face mbluemarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object mbluemarblewall_4
+name marble wall
+face mbluemarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkgreenmarblewall_1_2
+name marble wall
+face dkgreenmarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkgreenmarblewall_1_4
+name marble wall
+face dkgreenmarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object dkgreenmarblewall_4
+name marble wall
+face dkgreenmarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltgreenmarblewall_1_2
+name marble wall
+face ltgreenmarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltgreenmarblewall_1_4
+name marble wall
+face ltgreenmarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltagreenmarblewall_1_2
+name marble wall
+face ltagreenmarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltagreenmarblewall_1_4
+name marble wall
+face ltagreenmarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltgreenmarblewall_4
+name marble wall
+face ltgreenmarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltmagentamarblewall_1_2
+name marble wall
+face ltmagentamarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltmagentamarblewall_1_4
+name marble wall
+face ltmagentamarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object ltmagentamarblewall_4
+name marble wall
+face ltmagentamarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object pinkmarblewall_1_2
+name marble wall
+face pinkmarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object pinkmarblewall_1_4
+name marble wall
+face pinkmarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object pinkmarblewall_4
+name marble wall
+face pinkmarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object redmarblewall_1_2
+name marble wall
+face redmarblewall_1.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object redmarblewall_1_4
+name marble wall
+face redmarblewall_2.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
+Object redmarblewall_4
+name marble wall
+face redmarblewall_F.111
+no_pass 1
+no_pick 1
+blocksview 1
+editable 512
+editor_folder wall/marble
+end
 Object mine0
 face mine_0.111
 blocksview 1
@@ -83006,7 +84135,7 @@ editable 512
 editor_folder wall/mine
 end
 Object mine_anw
-face mine_ane.111
+face mine_anw.111
 blocksview 1
 no_pick 1
 no_pass 1
@@ -83246,6 +84375,9 @@ end
 Object moat_0
 name moat
 face moat_0.111
+animation moat_0
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83254,6 +84386,9 @@ end
 Object moat_1_2
 name moat
 face moat_1.111
+animation moat_1_2
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83262,6 +84397,9 @@ end
 Object moat_1_4
 name moat
 face moat_2.111
+animation moat_1_4
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83270,6 +84408,9 @@ end
 Object moat_2_2_1
 name moat
 face moat_3.111
+animation moat_2_2_1
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83278,6 +84419,9 @@ end
 Object moat_1_1
 name moat
 face moat_4.111
+animation moat_1_1
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83286,6 +84430,9 @@ end
 Object moat_2_1_1
 name moat
 face moat_5.111
+animation moat_2_1_1
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83294,6 +84441,20 @@ end
 Object moat_2_2_2
 name moat
 face moat_6.111
+animation moat_2_2_2
+is_animated 1
+speed 0.2
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/moat
+end
+Object moat_2_2_2x
+name moat
+face moat_6_ext.111
+animation moat_2_2_2x
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83302,6 +84463,9 @@ end
 Object moat_3_2
 name moat
 face moat_7.111
+animation moat_3_2
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83310,6 +84474,9 @@ end
 Object moat_1_3
 name moat
 face moat_8.111
+animation moat_1_3
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83318,6 +84485,20 @@ end
 Object moat_2_2_4
 name moat
 face moat_9.111
+animation moat_2_2_4
+is_animated 1
+speed 0.2
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/moat
+end
+Object moat_2_2_4x
+name moat
+face moat_9_ext.111
+animation moat_2_2_4x
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83326,6 +84507,9 @@ end
 Object moat_2_1_2
 name moat
 face moat_A.111
+animation moat_2_1_2
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83334,6 +84518,9 @@ end
 Object moat_3_1
 name moat
 face moat_B.111
+animation moat_3_1
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83342,6 +84529,9 @@ end
 Object moat_2_2_3
 name moat
 face moat_C.111
+animation moat_2_2_3
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83350,6 +84540,9 @@ end
 Object moat_3_4
 name moat
 face moat_D.111
+animation moat_3_4
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83358,6 +84551,9 @@ end
 Object moat_3_3
 name moat
 face moat_E.111
+animation moat_3_3
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
@@ -83366,10 +84562,211 @@ end
 Object moat_4
 name moat
 face moat_F.111
+animation moat_4
+is_animated 1
+speed 0.2
 no_pick 1
 no_pass 1
 editable 512
 editor_folder wall/moat
+end
+
+Object oldwall_0
+name old wall
+face oldwall_0.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_2
+name old wall
+face oldwall_1.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_4
+name old wall
+face oldwall_2.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_2_1
+name old wall
+face oldwall_3.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_1
+name old wall
+face oldwall_4.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_1_1
+name old wall
+face oldwall_5.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_2_2
+name old wall
+face oldwall_6.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_3_2
+name old wall
+face oldwall_7.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_3
+name old wall
+face oldwall_8.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_2_4
+name old wall
+face oldwall_9.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_1_2
+name old wall
+face oldwall_A.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_3_1
+name old wall
+face oldwall_B.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_2_2_3
+name old wall
+face oldwall_C.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_3_4
+name old wall
+face oldwall_D.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_3_3
+name old wall
+face oldwall_E.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_4
+name old wall
+face oldwall_F.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_2_ruin
+name crumbled old wall
+face oldwall_1_ruin.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_4_ruin
+name crumbled old wall
+face oldwall_2_ruin.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_1_ruin
+name crumbled old wall
+face oldwall_4_ruin.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+Object oldwall_1_3_ruin
+name crumbled old wall
+face oldwall_8_ruin.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/oldwood
+end
+
+Object oldwindow_win1
+name window
+face oldwindow_0.111
+no_pass 1
+no_pick 1
+editable 768
+editor_folder wall/oldwood
+end
+Object oldwindow_win2
+name window
+face oldwindow_1.111
+no_pass 1
+no_pick 1
+editable 768
+editor_folder wall/oldwood
 end
 Object paved_0
 name paved road
@@ -84819,6 +86216,24 @@ blocksview 1
 editable 512
 editor_folder wall/timberwall
 end
+Object truss_1
+name wall
+face truss1.111
+no_pass 1
+no_pick 1
+editable 512
+editor_folder wall/truss
+end
+
+Object truss_2
+name wall
+face truss2.111
+no_pass 1
+no_pick 1
+editable 512
+editor_folder wall/truss
+end
+
 Object wall_0
 name wall
 face wall_0.111
@@ -84993,6 +86408,43 @@ end
 Object wall_1_3_ruin
 name crumbled wall
 face wall_8_ruin.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/wall
+end
+
+Object wall_1_2_split
+name crumbled wall
+face wall_1_split.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/wall
+end
+Object wall_1_4_split
+name crumbled wall
+face wall_2_split.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/wall
+end
+Object wall_1_1_split
+name crumbled wall
+face wall_4_split.111
+blocksview 1
+no_pick 1
+no_pass 1
+editable 512
+editor_folder wall/wall
+end
+Object wall_1_3_split
+name crumbled wall
+face wall_8_split.111
 blocksview 1
 no_pick 1
 no_pass 1
@@ -89190,7 +90642,7 @@ last_sp 2
 type 15
 face t_star1.111
 animation t_star1
-is_animated 1
+is_animated 0
 is_turnable 1
 is_thrown 1
 material 2
