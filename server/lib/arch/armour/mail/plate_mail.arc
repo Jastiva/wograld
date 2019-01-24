@@ -11,7 +11,7 @@ material 2
 ac 5
 resist_physical 40
 weight 100000
-value 100
+value 120
 editable 1024
 body_torso -1
 gen_sp_armour 30

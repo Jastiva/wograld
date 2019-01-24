@@ -1,11 +1,11 @@
 Object cabbage
 face cabbage.111
 color_fg green
-food 80
+food 800
 nrof 1
 type 6
 material 32
-value 4
+value 20
 weight 1500
 editable 2048
 identified 1

@@ -7,8 +7,8 @@ type 34
 face hornhelmet.111
 ac 1
 resist_physical 2
-weight 6000
-value 12
+weight 600
+value 25
 material 18
 editable 1024
 magicmap grey

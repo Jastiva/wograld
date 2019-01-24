@@ -6,9 +6,9 @@ client_type 271
 type 34
 face fullhelmet.111
 ac 1
-resist_physical 10
+resist_physical 11
 weight 12000
-value 16
+value 30
 material 2
 editable 1024
 magicmap grey

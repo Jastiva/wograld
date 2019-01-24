@@ -7,8 +7,8 @@ type 34
 face b_hornhelmet.111
 ac 1
 resist_physical 1
-weight 6000
-value 3
+weight 600
+value 20
 material 18
 materialname bronze
 editable 1024

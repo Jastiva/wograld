@@ -9,7 +9,7 @@ last_sp 13
 ac 2
 resist_physical 10
 weight 20000
-value 40
+value 50
 material 8
 editable 1024
 magicmap brown

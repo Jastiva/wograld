@@ -8,7 +8,7 @@ face chain_coif.111
 ac 1
 resist_physical 8
 weight 10000
-value 16
+value 20
 material 2
 editable 1024
 magicmap grey
