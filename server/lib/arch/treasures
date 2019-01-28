@@ -2340,6 +2340,9 @@ treasure wight
 treasure zombie
   arch fl_corpse
     chance 20
+  more
+  arch cabbage
+    chance 10
   end
 treasure skeleton
   list standard_old

@@ -1,5 +1,6 @@
 Object spider2
 face spider.111
+name spider
 race insect
 anim
 spider.111
