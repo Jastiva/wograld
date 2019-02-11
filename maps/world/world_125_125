@@ -3,7 +3,7 @@ name world_125_125
 width 50
 height 50
 msg
-Modified: 2019-01-31 lori
+Modified: 2019-02-01 lori
 endmsg
 outdoor 1
 tile_path_1 world_125_124
@@ -2492,30 +2492,54 @@ x 10
 y 4
 elevation -874
 end
+arch timberwall_2_2_2
+x 10
+y 4
+end
 arch afloor_black_left
 x 10
 y 5
 elevation -1009
+end
+arch timberwall_2_1_1
+x 10
+y 5
 end
 arch afloor_black_left
 x 10
 y 6
 elevation -1160
 end
+arch timberwall_2_1_1
+x 10
+y 6
+end
 arch afloor_black_left
 x 10
 y 7
 elevation -1328
+end
+arch timberwall_2_1_1
+x 10
+y 7
 end
 arch afloor_black_left
 x 10
 y 8
 elevation -1513
 end
+arch timberwall_2_1_1
+x 10
+y 8
+end
 arch afloor_black_left
 x 10
 y 9
 elevation -1715
+end
+arch timberwall_2_2_1
+x 10
+y 9
 end
 arch grassdark
 x 10
@@ -2741,6 +2765,10 @@ x 11
 y 4
 elevation -891
 end
+arch timberwall_2_1_2
+x 11
+y 4
+end
 arch afloor_black_left
 x 11
 y 5
@@ -2765,6 +2793,10 @@ arch afloor_black_left
 x 11
 y 9
 elevation -1720
+end
+arch timberwall_1_3
+x 11
+y 9
 end
 arch grassdark
 x 11
@@ -2990,6 +3022,10 @@ x 12
 y 4
 elevation -880
 end
+arch timberwall_2_1_2
+x 12
+y 4
+end
 arch afloor_black_left
 x 12
 y 5
@@ -3010,15 +3046,36 @@ x 12
 y 8
 elevation -1537
 end
+arch button_trigger
+x 12
+y 8
+invisible 1
+connected 4
+move_on walk
+move_off walk
+end
 arch afloor_black_left
 x 12
 y 9
 elevation -1694
 end
+arch grate_closed_1
+x 12
+y 9
+connected 4
+end
 arch grassdark
 x 12
 y 10
 elevation -1846
+end
+arch button_trigger
+x 12
+y 10
+invisible 1
+connected 4
+move_on walk
+move_off walk
 end
 arch swamp
 x 12
@@ -3239,6 +3296,10 @@ x 13
 y 4
 elevation -847
 end
+arch timberwall_2_1_2
+x 13
+y 4
+end
 arch afloor_black_left
 x 13
 y 5
@@ -3263,6 +3324,10 @@ arch afloor_black_left
 x 13
 y 9
 elevation -1649
+end
+arch timberwall_1_4
+x 13
+y 9
 end
 arch grassdark
 x 13
@@ -3488,30 +3553,54 @@ x 14
 y 4
 elevation -802
 end
+arch timberwall_3_3
+x 14
+y 4
+end
 arch afloor_black_left
 x 14
 y 5
 elevation -1000
+end
+arch timberwall_2_1_1
+x 14
+y 5
 end
 arch afloor_black_left
 x 14
 y 6
 elevation -1180
 end
+arch timberwall_2_1_1
+x 14
+y 6
+end
 arch afloor_black_left
 x 14
 y 7
 elevation -1339
+end
+arch timberwall_2_1_1
+x 14
+y 7
 end
 arch afloor_black_left
 x 14
 y 8
 elevation -1478
 end
+arch timberwall_2_1_1
+x 14
+y 8
+end
 arch afloor_black_left
 x 14
 y 9
 elevation -1593
+end
+arch timberwall_3_1
+x 14
+y 9
 end
 arch grassdark
 x 14
@@ -3737,6 +3826,10 @@ x 15
 y 4
 elevation -758
 end
+arch timberwall_2_1_2
+x 15
+y 4
+end
 arch afloor_black_left
 x 15
 y 5
@@ -3761,6 +3854,10 @@ arch afloor_black_left
 x 15
 y 9
 elevation -1538
+end
+arch timberwall_1_3
+x 15
+y 9
 end
 arch grassdark
 x 15
@@ -3971,7 +4068,7 @@ x 16
 y 1
 elevation 337
 end
-arch sea
+arch swamp
 x 16
 y 2
 elevation -135
@@ -3985,6 +4082,10 @@ arch afloor_black_left
 x 16
 y 4
 elevation -729
+end
+arch timberwall_2_1_2
+x 16
+y 4
 end
 arch afloor_black_left
 x 16
@@ -4006,15 +4107,36 @@ x 16
 y 8
 elevation -1409
 end
+arch button_trigger
+x 16
+y 8
+invisible 1
+connected 3
+move_on walk
+move_off walk
+end
 arch afloor_black_left
 x 16
 y 9
 elevation -1491
 end
+arch grate_closed_1
+x 16
+y 9
+connected 3
+end
 arch grassdark
 x 16
 y 10
 elevation -1531
+end
+arch button_trigger
+x 16
+y 10
+invisible 1
+connected 3
+move_on walk
+move_off walk
 end
 arch swamp
 x 16
@@ -4051,115 +4173,207 @@ x 16
 y 17
 elevation 41
 end
+arch awall_2_2_2
+x 16
+y 17
+end
 arch afloor_black_right
 x 16
 y 18
 elevation -958
+end
+arch awall_2_1_1
+x 16
+y 18
 end
 arch afloor_black_right
 x 16
 y 19
 elevation -1740
 end
+arch awall_2_1_1
+x 16
+y 19
+end
 arch afloor_black_right
 x 16
 y 20
 elevation -2533
+end
+arch awall_2_1_1
+x 16
+y 20
 end
 arch afloor_black_right
 x 16
 y 21
 elevation -3137
 end
+arch awall_2_1_1
+x 16
+y 21
+end
 arch afloor_black_right
 x 16
 y 22
 elevation -3623
+end
+arch awall_2_1_1
+x 16
+y 22
 end
 arch afloor_black_right
 x 16
 y 23
 elevation -4011
 end
+arch awall_2_1_1
+x 16
+y 23
+end
 arch afloor_black_right
 x 16
 y 24
 elevation -4317
+end
+arch awall_2_1_1
+x 16
+y 24
 end
 arch afloor_black_right
 x 16
 y 25
 elevation -4546
 end
+arch awall_2_1_1
+x 16
+y 25
+end
 arch afloor_black_right
 x 16
 y 26
 elevation -4704
+end
+arch awall_2_1_1
+x 16
+y 26
 end
 arch afloor_black_right
 x 16
 y 27
 elevation -4794
 end
+arch awall_2_1_1
+x 16
+y 27
+end
 arch afloor_black_right
 x 16
 y 28
 elevation -4823
+end
+arch awall_2_1_1
+x 16
+y 28
 end
 arch afloor_black_right
 x 16
 y 29
 elevation -4813
 end
+arch awall_2_1_1
+x 16
+y 29
+end
 arch afloor_black_right
 x 16
 y 30
 elevation -4815
+end
+arch awall_2_1_1
+x 16
+y 30
 end
 arch afloor_black_right
 x 16
 y 31
 elevation -4909
 end
+arch awall_2_1_1
+x 16
+y 31
+end
 arch afloor_black_right
 x 16
 y 32
 elevation -5178
+end
+arch awall_2_1_1
+x 16
+y 32
 end
 arch afloor_black_right
 x 16
 y 33
 elevation -5670
 end
+arch awall_2_1_1
+x 16
+y 33
+end
 arch afloor_black_right
 x 16
 y 34
 elevation -6364
+end
+arch awall_2_1_1
+x 16
+y 34
 end
 arch afloor_black_right
 x 16
 y 35
 elevation -7191
 end
+arch awall_2_1_1
+x 16
+y 35
+end
 arch afloor_black_right
 x 16
 y 36
 elevation -8064
+end
+arch awall_2_1_1
+x 16
+y 36
 end
 arch afloor_black_right
 x 16
 y 37
 elevation -8919
 end
+arch awall_2_1_1
+x 16
+y 37
+end
 arch afloor_black_right
 x 16
 y 38
 elevation -9723
 end
+arch awall_2_1_1
+x 16
+y 38
+end
 arch afloor_black_right
 x 16
 y 39
 elevation -10460
+end
+arch awall_2_2_1
+x 16
+y 39
 end
 arch grassdark
 x 16
@@ -4220,12 +4434,12 @@ x 17
 y 1
 elevation 266
 end
-arch sea
+arch swamp
 x 17
 y 2
 elevation -142
 end
-arch sea
+arch swamp
 x 17
 y 3
 elevation -463
@@ -4234,6 +4448,10 @@ arch afloor_black_left
 x 17
 y 4
 elevation -724
+end
+arch timberwall_2_1_2
+x 17
+y 4
 end
 arch afloor_black_left
 x 17
@@ -4259,6 +4477,10 @@ arch afloor_black_left
 x 17
 y 9
 elevation -1461
+end
+arch timberwall_1_4
+x 17
+y 9
 end
 arch grassdark
 x 17
@@ -4299,6 +4521,10 @@ arch afloor_black_right
 x 17
 y 17
 elevation 568
+end
+arch awall_2_1_2
+x 17
+y 17
 end
 arch afloor_black_right
 x 17
@@ -4410,6 +4636,10 @@ x 17
 y 39
 elevation -10166
 end
+arch awall_2_1_2
+x 17
+y 39
+end
 arch grassdark
 x 17
 y 40
@@ -4469,12 +4699,12 @@ x 18
 y 1
 elevation 67
 end
-arch sea
+arch swamp
 x 18
 y 2
 elevation -234
 end
-arch sea
+arch swamp
 x 18
 y 3
 elevation -503
@@ -4484,30 +4714,54 @@ x 18
 y 4
 elevation -742
 end
+arch timberwall_3_3
+x 18
+y 4
+end
 arch afloor_black_left
 x 18
 y 5
 elevation -949
+end
+arch timberwall_2_1_1
+x 18
+y 5
 end
 arch afloor_black_left
 x 18
 y 6
 elevation -1126
 end
+arch timberwall_2_1_1
+x 18
+y 6
+end
 arch afloor_black_left
 x 18
 y 7
 elevation -1271
+end
+arch timberwall_2_1_1
+x 18
+y 7
 end
 arch afloor_black_left
 x 18
 y 8
 elevation -1381
 end
+arch timberwall_2_1_1
+x 18
+y 8
+end
 arch afloor_black_left
 x 18
 y 9
 elevation -1450
+end
+arch timberwall_3_1
+x 18
+y 9
 end
 arch grassdark
 x 18
@@ -4548,6 +4802,10 @@ arch afloor_black_right
 x 18
 y 17
 elevation 416
+end
+arch awall_2_1_2
+x 18
+y 17
 end
 arch afloor_black_right
 x 18
@@ -4659,6 +4917,10 @@ x 18
 y 39
 elevation -9895
 end
+arch awall_2_1_2
+x 18
+y 39
+end
 arch grassdark
 x 18
 y 40
@@ -4709,21 +4971,21 @@ x 18
 y 49
 elevation -13981
 end
-arch shallow_sea
+arch swamp
 x 19
 elevation -37
 end
-arch sea
+arch swamp
 x 19
 y 1
 elevation -171
 end
-arch sea
+arch swamp
 x 19
 y 2
 elevation -346
 end
-arch sea
+arch swamp
 x 19
 y 3
 elevation -564
@@ -4732,6 +4994,10 @@ arch afloor_black_left
 x 19
 y 4
 elevation -775
+end
+arch timberwall_2_1_2
+x 19
+y 4
 end
 arch afloor_black_left
 x 19
@@ -4757,6 +5023,10 @@ arch afloor_black_left
 x 19
 y 9
 elevation -1458
+end
+arch timberwall_1_3
+x 19
+y 9
 end
 arch grassdark
 x 19
@@ -4797,6 +5067,10 @@ arch afloor_black_right
 x 19
 y 17
 elevation -733
+end
+arch awall_2_1_2
+x 19
+y 17
 end
 arch afloor_black_right
 x 19
@@ -4908,6 +5182,10 @@ x 19
 y 39
 elevation -9664
 end
+arch awall_2_1_2
+x 19
+y 39
+end
 arch grassdark
 x 19
 y 40
@@ -4958,21 +5236,21 @@ x 19
 y 49
 elevation -13930
 end
-arch sea
+arch swamp
 x 20
 elevation -139
 end
-arch sea
+arch swamp
 x 20
 y 1
 elevation -276
 end
-arch sea
+arch swamp
 x 20
 y 2
 elevation -441
 end
-arch sea
+arch swamp
 x 20
 y 3
 elevation -624
@@ -4981,6 +5259,10 @@ arch afloor_black_left
 x 20
 y 4
 elevation -811
+end
+arch timberwall_2_1_2
+x 20
+y 4
 end
 arch afloor_black_left
 x 20
@@ -5002,15 +5284,36 @@ x 20
 y 8
 elevation -1400
 end
+arch button_trigger
+x 20
+y 8
+invisible 1
+connected 2
+move_on walk
+move_off walk
+end
 arch afloor_black_left
 x 20
 y 9
 elevation -1480
 end
+arch grate_closed_1
+x 20
+y 9
+connected 2
+end
 arch grassdark
 x 20
 y 10
 elevation -1525
+end
+arch button_trigger
+x 20
+y 10
+invisible 1
+connected 2
+move_on walk
+move_off walk
 end
 arch grassdark
 x 20
@@ -5046,6 +5349,10 @@ arch afloor_black_right
 x 20
 y 17
 elevation -1377
+end
+arch awall_2_1_2
+x 20
+y 17
 end
 arch afloor_black_right
 x 20
@@ -5157,6 +5464,10 @@ x 20
 y 39
 elevation -9485
 end
+arch awall_2_1_2
+x 20
+y 39
+end
 arch grassdark
 x 20
 y 40
@@ -5207,21 +5518,21 @@ x 20
 y 49
 elevation -13859
 end
-arch sea
+arch swamp
 x 21
 elevation -209
 end
-arch sea
+arch swamp
 x 21
 y 1
 elevation -348
 end
-arch sea
+arch swamp
 x 21
 y 2
 elevation -503
 end
-arch sea
+arch swamp
 x 21
 y 3
 elevation -670
@@ -5230,6 +5541,10 @@ arch afloor_black_left
 x 21
 y 4
 elevation -841
+end
+arch timberwall_2_1_2
+x 21
+y 4
 end
 arch afloor_black_left
 x 21
@@ -5255,6 +5570,10 @@ arch afloor_black_left
 x 21
 y 9
 elevation -1509
+end
+arch timberwall_1_4
+x 21
+y 9
 end
 arch grassdark
 x 21
@@ -5295,6 +5614,10 @@ arch afloor_black_right
 x 21
 y 17
 elevation -1832
+end
+arch awall_2_1_2
+x 21
+y 17
 end
 arch afloor_black_right
 x 21
@@ -5406,6 +5729,10 @@ x 21
 y 39
 elevation -9363
 end
+arch awall_2_1_2
+x 21
+y 39
+end
 arch grassdark
 x 21
 y 40
@@ -5456,21 +5783,21 @@ x 21
 y 49
 elevation -13769
 end
-arch sea
+arch swamp
 x 22
 elevation -258
 end
-arch sea
+arch swamp
 x 22
 y 1
 elevation -393
 end
-arch sea
+arch swamp
 x 22
 y 2
 elevation -541
 end
-arch sea
+arch swamp
 x 22
 y 3
 elevation -698
@@ -5480,30 +5807,54 @@ x 22
 y 4
 elevation -859
 end
+arch timberwall_3_3
+x 22
+y 4
+end
 arch afloor_black_left
 x 22
 y 5
 elevation -1017
+end
+arch timberwall_2_1_1
+x 22
+y 5
 end
 arch afloor_black_left
 x 22
 y 6
 elevation -1168
 end
+arch timberwall_2_1_1
+x 22
+y 6
+end
 arch afloor_black_left
 x 22
 y 7
 elevation -1307
+end
+arch timberwall_2_1_1
+x 22
+y 7
 end
 arch afloor_black_left
 x 22
 y 8
 elevation -1430
 end
+arch timberwall_2_1_1
+x 22
+y 8
+end
 arch afloor_black_left
 x 22
 y 9
 elevation -1535
+end
+arch timberwall_3_1
+x 22
+y 9
 end
 arch grassdark
 x 22
@@ -5544,6 +5895,10 @@ arch afloor_black_right
 x 22
 y 17
 elevation -2161
+end
+arch awall_2_1_2
+x 22
+y 17
 end
 arch afloor_black_right
 x 22
@@ -5655,6 +6010,10 @@ x 22
 y 39
 elevation -9293
 end
+arch awall_2_1_2
+x 22
+y 39
+end
 arch grassdark
 x 22
 y 40
@@ -5705,21 +6064,21 @@ x 22
 y 49
 elevation -13659
 end
-arch sea
+arch swamp
 x 23
 elevation -285
 end
-arch sea
+arch swamp
 x 23
 y 1
 elevation -417
 end
-arch sea
+arch swamp
 x 23
 y 2
 elevation -559
 end
-arch sea
+arch swamp
 x 23
 y 3
 elevation -708
@@ -5728,6 +6087,10 @@ arch afloor_black_left
 x 23
 y 4
 elevation -860
+end
+arch timberwall_2_1_2
+x 23
+y 4
 end
 arch afloor_black_left
 x 23
@@ -5753,6 +6116,10 @@ arch afloor_black_left
 x 23
 y 9
 elevation -1550
+end
+arch timberwall_1_3
+x 23
+y 9
 end
 arch grassdark
 x 23
@@ -5793,6 +6160,10 @@ arch afloor_black_right
 x 23
 y 17
 elevation -2399
+end
+arch awall_2_1_2
+x 23
+y 17
 end
 arch afloor_black_right
 x 23
@@ -5904,6 +6275,10 @@ x 23
 y 39
 elevation -9263
 end
+arch awall_1_3
+x 23
+y 39
+end
 arch grassdark
 x 23
 y 40
@@ -5954,21 +6329,21 @@ x 23
 y 49
 elevation -13528
 end
-arch sea
+arch swamp
 x 24
 elevation -294
 end
-arch sea
+arch swamp
 x 24
 y 1
 elevation -422
 end
-arch sea
+arch swamp
 x 24
 y 2
 elevation -558
 end
-arch sea
+arch swamp
 x 24
 y 3
 elevation -699
@@ -5977,6 +6352,10 @@ arch afloor_black_left
 x 24
 y 4
 elevation -844
+end
+arch timberwall_2_1_2
+x 24
+y 4
 end
 arch afloor_black_left
 x 24
@@ -5998,15 +6377,37 @@ x 24
 y 8
 elevation -1416
 end
+arch button_trigger
+x 24
+y 8
+invisible 1
+connected 1
+move_on walk
+move_off walk
+end
 arch afloor_black_left
 x 24
 y 9
 elevation -1546
 end
+arch grate_closed_1
+x 24
+y 9
+invisible 1
+connected 1
+end
 arch grassdark
 x 24
 y 10
 elevation -1668
+end
+arch button_trigger
+x 24
+y 10
+invisible 1
+connected 1
+move_on walk
+move_off walk
 end
 arch grassdark
 x 24
@@ -6042,6 +6443,10 @@ arch afloor_black_right
 x 24
 y 17
 elevation -2565
+end
+arch awall_2_1_2
+x 24
+y 17
 end
 arch afloor_black_right
 x 24
@@ -6148,15 +6553,36 @@ x 24
 y 38
 elevation -8515
 end
+arch button_trigger
+x 24
+y 38
+invisible 1
+connected 6
+move_on walk
+move_off walk
+end
 arch afloor_black_right
 x 24
 y 39
 elevation -9255
 end
+arch grate_closed_1
+x 24
+y 39
+connected 6
+end
 arch grassdark
 x 24
 y 40
 elevation -9941
+end
+arch button_trigger
+x 24
+y 40
+invisible 1
+connected 6
+move_on walk
+move_off walk
 end
 arch grassdark
 x 24
@@ -6203,16 +6629,16 @@ x 24
 y 49
 elevation -13378
 end
-arch sea
+arch swamp
 x 25
 elevation -290
 end
-arch sea
+arch swamp
 x 25
 y 1
 elevation -412
 end
-arch sea
+arch swamp
 x 25
 y 2
 elevation -539
@@ -6226,6 +6652,10 @@ arch afloor_black_left
 x 25
 y 4
 elevation -807
+end
+arch timberwall_2_1_2
+x 25
+y 4
 end
 arch afloor_black_left
 x 25
@@ -6251,6 +6681,10 @@ arch afloor_black_left
 x 25
 y 9
 elevation -1517
+end
+arch timberwall_1_4
+x 25
+y 9
 end
 arch grassdark
 x 25
@@ -6291,6 +6725,10 @@ arch afloor_black_right
 x 25
 y 17
 elevation -2668
+end
+arch awall_2_1_2
+x 25
+y 17
 end
 arch afloor_black_right
 x 25
@@ -6402,6 +6840,10 @@ x 25
 y 39
 elevation -9256
 end
+arch awall_1_4
+x 25
+y 39
+end
 arch grassdark
 x 25
 y 40
@@ -6452,16 +6894,16 @@ x 25
 y 49
 elevation -13208
 end
-arch sea
+arch swamp
 x 26
 elevation -276
 end
-arch sea
+arch swamp
 x 26
 y 1
 elevation -386
 end
-arch sea
+arch swamp
 x 26
 y 2
 elevation -502
@@ -6476,30 +6918,54 @@ x 26
 y 4
 elevation -750
 end
+arch timberwall_3_3
+x 26
+y 4
+end
 arch afloor_black_left
 x 26
 y 5
 elevation -883
+end
+arch timberwall_2_1_1
+x 26
+y 5
 end
 arch afloor_black_left
 x 26
 y 6
 elevation -1021
 end
+arch timberwall_2_1_1
+x 26
+y 6
+end
 arch afloor_black_left
 x 26
 y 7
 elevation -1164
+end
+arch timberwall_2_1_1
+x 26
+y 7
 end
 arch afloor_black_left
 x 26
 y 8
 elevation -1310
 end
+arch timberwall_2_1_1
+x 26
+y 8
+end
 arch afloor_black_left
 x 26
 y 9
 elevation -1458
+end
+arch timberwall_3_1
+x 26
+y 9
 end
 arch grassdark
 x 26
@@ -6540,6 +7006,10 @@ arch afloor_black_right
 x 26
 y 17
 elevation -2713
+end
+arch awall_2_1_2
+x 26
+y 17
 end
 arch afloor_black_right
 x 26
@@ -6651,6 +7121,10 @@ x 26
 y 39
 elevation -9250
 end
+arch awall_2_1_2
+x 26
+y 39
+end
 arch grassdark
 x 26
 y 40
@@ -6701,16 +7175,16 @@ x 26
 y 49
 elevation -13018
 end
-arch sea
+arch swamp
 x 27
 elevation -253
 end
-arch sea
+arch swamp
 x 27
 y 1
 elevation -347
 end
-arch sea
+arch swamp
 x 27
 y 2
 elevation -447
@@ -6724,6 +7198,10 @@ arch afloor_black_left
 x 27
 y 4
 elevation -670
+end
+arch timberwall_2_1_2
+x 27
+y 4
 end
 arch afloor_black_left
 x 27
@@ -6749,6 +7227,10 @@ arch afloor_black_left
 x 27
 y 9
 elevation -1367
+end
+arch timberwall_1_3
+x 27
+y 9
 end
 arch grassdark
 x 27
@@ -6789,6 +7271,10 @@ arch afloor_black_right
 x 27
 y 17
 elevation -2704
+end
+arch awall_2_1_2
+x 27
+y 17
 end
 arch afloor_black_right
 x 27
@@ -6900,6 +7386,10 @@ x 27
 y 39
 elevation -9230
 end
+arch awall_2_1_2
+x 27
+y 39
+end
 arch grassdark
 x 27
 y 40
@@ -6950,16 +7440,16 @@ x 27
 y 49
 elevation -12809
 end
-arch sea
+arch swamp
 x 28
 elevation -219
 end
-arch sea
+arch swamp
 x 28
 y 1
 elevation -293
 end
-arch sea
+arch swamp
 x 28
 y 2
 elevation -376
@@ -6973,6 +7463,10 @@ arch afloor_black_left
 x 28
 y 4
 elevation -567
+end
+arch timberwall_2_1_2
+x 28
+y 4
 end
 arch afloor_black_left
 x 28
@@ -6994,15 +7488,33 @@ x 28
 y 8
 elevation -1081
 end
+arch button_trigger
+x 28
+y 8
+invisible 1
+move_on walk
+move_off walk
+end
 arch afloor_black_left
 x 28
 y 9
 elevation -1241
 end
+arch grate_closed_1
+x 28
+y 9
+end
 arch grassdark
 x 28
 y 10
 elevation -1409
+end
+arch button_trigger
+x 28
+y 10
+invisible 1
+move_on walk
+move_off walk
 end
 arch grassdark
 x 28
@@ -7038,6 +7550,10 @@ arch afloor_black_right
 x 28
 y 17
 elevation -2645
+end
+arch awall_2_1_2
+x 28
+y 17
 end
 arch afloor_black_right
 x 28
@@ -7149,6 +7665,10 @@ x 28
 y 39
 elevation -9189
 end
+arch awall_2_1_2
+x 28
+y 39
+end
 arch grassdark
 x 28
 y 40
@@ -7223,6 +7743,10 @@ x 29
 y 4
 elevation -443
 end
+arch timberwall_2_1_2
+x 29
+y 4
+end
 arch afloor_black_left
 x 29
 y 5
@@ -7247,6 +7771,10 @@ arch afloor_black_left
 x 29
 y 9
 elevation -1078
+end
+arch timberwall_1_4
+x 29
+y 9
 end
 arch grassdark
 x 29
@@ -7287,6 +7815,10 @@ arch afloor_black_right
 x 29
 y 17
 elevation -2538
+end
+arch awall_2_1_2
+x 29
+y 17
 end
 arch afloor_black_right
 x 29
@@ -7398,6 +7930,10 @@ x 29
 y 39
 elevation -9126
 end
+arch awall_2_1_2
+x 29
+y 39
+end
 arch grassdark
 x 29
 y 40
@@ -7472,30 +8008,54 @@ x 30
 y 4
 elevation -300
 end
+arch timberwall_2_2_3
+x 30
+y 4
+end
 arch afloor_black_left
 x 30
 y 5
 elevation -363
+end
+arch timberwall_2_1_1
+x 30
+y 5
 end
 arch afloor_black_left
 x 30
 y 6
 elevation -444
 end
+arch timberwall_2_1_1
+x 30
+y 6
+end
 arch afloor_black_left
 x 30
 y 7
 elevation -557
+end
+arch timberwall_2_1_1
+x 30
+y 7
 end
 arch afloor_black_left
 x 30
 y 8
 elevation -703
 end
+arch timberwall_2_1_1
+x 30
+y 8
+end
 arch afloor_black_left
 x 30
 y 9
 elevation -879
+end
+arch timberwall_2_2_4
+x 30
+y 9
 end
 arch grassdark
 x 30
@@ -7536,6 +8096,10 @@ arch afloor_black_right
 x 30
 y 17
 elevation -2384
+end
+arch awall_2_1_2
+x 30
+y 17
 end
 arch afloor_black_right
 x 30
@@ -7646,6 +8210,10 @@ arch afloor_black_right
 x 30
 y 39
 elevation -9040
+end
+arch awall_2_1_2
+x 30
+y 39
 end
 arch grassdark
 x 30
@@ -7786,6 +8354,10 @@ x 31
 y 17
 elevation -2188
 end
+arch awall_1_3
+x 31
+y 17
+end
 arch afloor_black_right
 x 31
 y 18
@@ -7895,6 +8467,10 @@ arch afloor_black_right
 x 31
 y 39
 elevation -8932
+end
+arch awall_2_1_2
+x 31
+y 39
 end
 arch grassdark
 x 31
@@ -8030,15 +8606,36 @@ x 32
 y 16
 elevation -1778
 end
+arch button_trigger
+x 32
+y 16
+invisible 1
+connected 5
+move_on walk
+move_off walk
+end
 arch afloor_black_right
 x 32
 y 17
 elevation -1951
 end
+arch grate_closed_1
+x 32
+y 17
+connected 5
+end
 arch afloor_black_right
 x 32
 y 18
 elevation -2124
+end
+arch button_trigger
+x 32
+y 18
+invisible 1
+connected 5
+move_on walk
+move_off walk
 end
 arch afloor_black_right
 x 32
@@ -8144,6 +8741,10 @@ arch afloor_black_right
 x 32
 y 39
 elevation -8802
+end
+arch awall_2_1_2
+x 32
+y 39
 end
 arch grassdark
 x 32
@@ -8292,6 +8893,10 @@ x 33
 y 17
 elevation -1680
 end
+arch awall_1_4
+x 33
+y 17
+end
 arch afloor_black_right
 x 33
 y 18
@@ -8401,6 +9006,10 @@ arch afloor_black_right
 x 33
 y 39
 elevation -8651
+end
+arch awall_2_1_2
+x 33
+y 39
 end
 arch grassdark
 x 33
@@ -8549,6 +9158,10 @@ x 34
 y 17
 elevation -1380
 end
+arch awall_2_1_2
+x 34
+y 17
+end
 arch afloor_black_right
 x 34
 y 18
@@ -8658,6 +9271,10 @@ arch afloor_black_right
 x 34
 y 39
 elevation -8483
+end
+arch awall_2_1_2
+x 34
+y 39
 end
 arch grassdark
 x 34
@@ -8802,6 +9419,10 @@ x 35
 y 17
 elevation -1060
 end
+arch awall_2_1_2
+x 35
+y 17
+end
 arch afloor_black_right
 x 35
 y 18
@@ -8911,6 +9532,10 @@ arch afloor_black_right
 x 35
 y 39
 elevation -8297
+end
+arch awall_2_1_2
+x 35
+y 39
 end
 arch grassdark
 x 35
@@ -9051,6 +9676,10 @@ x 36
 y 17
 elevation -731
 end
+arch awall_2_1_2
+x 36
+y 17
+end
 arch afloor_black_right
 x 36
 y 18
@@ -9160,6 +9789,10 @@ arch afloor_black_right
 x 36
 y 39
 elevation -8095
+end
+arch awall_2_1_2
+x 36
+y 39
 end
 arch grassdark
 x 36
@@ -9300,115 +9933,207 @@ x 37
 y 17
 elevation -407
 end
+arch awall_2_2_3
+x 37
+y 17
+end
 arch afloor_black_right
 x 37
 y 18
 elevation -445
+end
+arch awall_2_1_1
+x 37
+y 18
 end
 arch afloor_black_right
 x 37
 y 19
 elevation -474
 end
+arch awall_2_1_1
+x 37
+y 19
+end
 arch afloor_black_right
 x 37
 y 20
 elevation -517
+end
+arch awall_2_1_1
+x 37
+y 20
 end
 arch afloor_black_right
 x 37
 y 21
 elevation -589
 end
+arch awall_2_1_1
+x 37
+y 21
+end
 arch afloor_black_right
 x 37
 y 22
 elevation -723
+end
+arch awall_2_1_1
+x 37
+y 22
 end
 arch afloor_black_right
 x 37
 y 23
 elevation -958
 end
+arch awall_2_1_1
+x 37
+y 23
+end
 arch afloor_black_right
 x 37
 y 24
 elevation -1316
+end
+arch awall_2_1_1
+x 37
+y 24
 end
 arch afloor_black_right
 x 37
 y 25
 elevation -1778
 end
+arch awall_2_1_1
+x 37
+y 25
+end
 arch afloor_black_right
 x 37
 y 26
 elevation -2302
+end
+arch awall_2_1_1
+x 37
+y 26
 end
 arch afloor_black_right
 x 37
 y 27
 elevation -2852
 end
+arch awall_2_1_1
+x 37
+y 27
+end
 arch afloor_black_right
 x 37
 y 28
 elevation -3400
+end
+arch awall_2_1_1
+x 37
+y 28
 end
 arch afloor_black_right
 x 37
 y 29
 elevation -3930
 end
+arch awall_2_1_1
+x 37
+y 29
+end
 arch afloor_black_right
 x 37
 y 30
 elevation -4434
+end
+arch awall_2_1_1
+x 37
+y 30
 end
 arch afloor_black_right
 x 37
 y 31
 elevation -4911
 end
+arch awall_2_1_1
+x 37
+y 31
+end
 arch afloor_black_right
 x 37
 y 32
 elevation -5361
+end
+arch awall_2_1_1
+x 37
+y 32
 end
 arch afloor_black_right
 x 37
 y 33
 elevation -5784
 end
+arch awall_2_1_1
+x 37
+y 33
+end
 arch afloor_black_right
 x 37
 y 34
 elevation -6184
+end
+arch awall_2_1_1
+x 37
+y 34
 end
 arch afloor_black_right
 x 37
 y 35
 elevation -6562
 end
+arch awall_2_1_1
+x 37
+y 35
+end
 arch afloor_black_right
 x 37
 y 36
 elevation -6920
+end
+arch awall_2_1_1
+x 37
+y 36
 end
 arch afloor_black_right
 x 37
 y 37
 elevation -7258
 end
+arch awall_2_1_1
+x 37
+y 37
+end
 arch afloor_black_right
 x 37
 y 38
 elevation -7577
 end
+arch awall_2_1_1
+x 37
+y 38
+end
 arch afloor_black_right
 x 37
 y 39
 elevation -7878
+end
+arch awall_2_2_4
+x 37
+y 39
 end
 arch grassdark
 x 37
