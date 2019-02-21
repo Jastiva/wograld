@@ -1,5 +1,5 @@
 Object tree3
-name tree
+name oak tree
 face tree_3.111
 no_pick 1
 slow_move 1
@@ -10,7 +10,7 @@ color_fg brown
 end
 
 Object tree3cherry1
-name cherry tree
+name cherry rose tree
 face tree_3cherry1.111
 no_pick 1
 slow_move 1
@@ -32,7 +32,7 @@ color_fg brown
 end
 
 Object tree3cherry3
-name dwarf cherry tree
+name cherry tree 
 face tree_3cherry3.111
 no_pick 1
 slow_move 1

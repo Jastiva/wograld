@@ -1,5 +1,5 @@
 Object tree7
-name tree
+name leafless tree
 face tree_7.111
 no_pick 1
 slow_move 1

@@ -1,5 +1,6 @@
 Object cforest5
 face cforest5.111
+name brown grass
 color_fg green
 type 67
 race /terrain/forest

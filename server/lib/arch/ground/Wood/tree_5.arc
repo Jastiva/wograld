@@ -1,5 +1,5 @@
 Object tree5
-name tree
+name pine tree
 face tree_5.111
 no_pick 1
 slow_move 1
@@ -10,7 +10,7 @@ color_fg brown
 end
 
 Object tree5bblack
-name tree
+name pine tree
 face tree_5_black.111
 no_pick 1
 slow_move 1

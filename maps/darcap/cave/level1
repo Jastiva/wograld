@@ -8,7 +8,9 @@ enter_x 9
 enter_y 9
 msg
 Created:  1994-02-28
+Modified: 2019-02-19 lori
 endmsg
+background_music cave01
 end
 arch bwall_2_2_2
 end
@@ -179,7 +181,7 @@ end
 arch bwall_2_1_2
 x 2
 end
-arch medium_stones
+arch lostlabgreysand
 x 2
 y 1
 end
@@ -240,11 +242,7 @@ x 2
 y 8
 speed_left -0.740000
 end
-arch medium_stones
-x 2
-y 9
-end
-arch small_stones
+arch lostlabgreysand
 x 2
 y 9
 end
@@ -327,6 +325,10 @@ end
 arch bwall_3_3
 x 3
 end
+arch lostlabgreysand
+x 3
+y 1
+end
 arch bwall_2_1_1
 x 3
 y 1
@@ -375,7 +377,7 @@ arch medium_stones
 x 3
 y 9
 end
-arch small_stones
+arch lostlabgreysand
 x 3
 y 9
 end
@@ -442,7 +444,7 @@ end
 arch bwall_2_1_2
 x 4
 end
-arch medium_stones
+arch lostlabgreysand
 x 4
 y 1
 end
@@ -450,7 +452,7 @@ arch earthwall
 x 4
 y 1
 end
-arch medium_stones
+arch lostlabgreysand
 x 4
 y 2
 end
@@ -505,15 +507,11 @@ arch medium_stones
 x 4
 y 9
 end
-arch medium_stones
+arch lostlabgreysand
 x 4
 y 10
 end
-arch small_stones
-x 4
-y 10
-end
-arch medium_stones
+arch lostlabgreysand
 x 4
 y 11
 end
@@ -569,8 +567,15 @@ arch bwall_3_1
 x 4
 y 19
 end
+arch lostlabgreysand
+x 5
+end
 arch bwall_2_1_2
 x 5
+end
+arch lostlabgreysand
+x 5
+y 1
 end
 arch bwall_0
 x 5
@@ -628,7 +633,7 @@ arch medium_stones
 x 5
 y 9
 end
-arch medium_stones
+arch lostlabgreysand
 x 5
 y 10
 end
@@ -696,8 +701,15 @@ arch bwall_2_1_2
 x 5
 y 19
 end
+arch lostlabgreysand
+x 6
+end
 arch bwall_2_1_2
 x 6
+end
+arch lostlabgreysand
+x 6
+y 1
 end
 arch bwall_0
 x 6
@@ -815,22 +827,29 @@ arch bwall_2_1_2
 x 6
 y 19
 end
+arch lostlabgreysand
+x 7
+end
 arch bwall_2_1_2
 x 7
 end
-arch medium_stones
+arch lostlabgreysand
 x 7
 y 1
 end
-arch medium_stones
+arch lostlabgreysand
 x 7
 y 2
+end
+arch lostlabgreysand
+x 7
+y 3
 end
 arch bwall_0
 x 7
 y 3
 end
-arch medium_stones
+arch lostlabgreysand
 x 7
 y 4
 end
@@ -921,7 +940,7 @@ end
 arch bwall_2_1_2
 x 8
 end
-arch medium_stones
+arch lostlabgreysand
 x 8
 y 1
 end
@@ -930,7 +949,7 @@ x 8
 y 1
 speed_left -0.740000
 end
-arch medium_stones
+arch lostlabgreysand
 x 8
 y 2
 end
@@ -1335,7 +1354,7 @@ arch medium_stones
 x 11
 y 16
 end
-arch small_stones
+arch lostlabgreysand
 x 11
 y 16
 end
@@ -1374,15 +1393,11 @@ arch medium_stones
 x 12
 y 2
 end
-arch medium_stones
+arch lostlabgreysand
 x 12
 y 3
 end
-arch medium_stones
-x 12
-y 4
-end
-arch small_stones
+arch lostlabgreysand
 x 12
 y 4
 end
@@ -1454,7 +1469,7 @@ arch earthwall
 x 12
 y 14
 end
-arch medium_stones
+arch lostlabgreysand
 x 12
 y 15
 end
@@ -1466,7 +1481,7 @@ arch medium_stones
 x 12
 y 16
 end
-arch small_stones
+arch lostlabgreysand
 x 12
 y 16
 end
@@ -1497,19 +1512,11 @@ arch medium_stones
 x 13
 y 2
 end
-arch medium_stones
+arch lostlabgreysand
 x 13
 y 3
 end
-arch small_stones
-x 13
-y 3
-end
-arch medium_stones
-x 13
-y 4
-end
-arch small_stones
+arch lostlabgreysand
 x 13
 y 4
 end
@@ -1589,7 +1596,7 @@ arch earthwall
 x 13
 y 14
 end
-arch medium_stones
+arch lostlabgreysand
 x 13
 y 15
 end
@@ -1601,7 +1608,7 @@ arch medium_stones
 x 13
 y 16
 end
-arch small_stones
+arch lostlabgreysand
 x 13
 y 16
 end
@@ -1632,7 +1639,7 @@ arch bwall_3_1
 x 14
 y 1
 end
-arch medium_stones
+arch lostlabgreysand
 x 14
 y 2
 end
@@ -1640,11 +1647,7 @@ arch food
 x 14
 y 2
 end
-arch medium_stones
-x 14
-y 3
-end
-arch small_stones
+arch lostlabgreysand
 x 14
 y 3
 end
@@ -1738,7 +1741,7 @@ arch earthwall
 x 14
 y 14
 end
-arch medium_stones
+arch lostlabgreysand
 x 14
 y 15
 end
@@ -1750,7 +1753,7 @@ arch medium_stones
 x 14
 y 16
 end
-arch small_stones
+arch lostlabgreysand
 x 14
 y 16
 end
@@ -1778,11 +1781,7 @@ arch bwall_2_2_4
 x 15
 y 1
 end
-arch medium_stones
-x 15
-y 2
-end
-arch small_stones
+arch lostlabgreysand
 x 15
 y 2
 end

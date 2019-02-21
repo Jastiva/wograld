@@ -1,5 +1,5 @@
 Object tree4
-name tree
+name apple tree
 face tree_4.111
 no_pick 1
 slow_move 1

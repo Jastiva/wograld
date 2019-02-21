@@ -1,5 +1,6 @@
 Object cforest2
 face cforest2.111
+name snow covered pine needles
 color_fg green
 type 67
 race /terrain/forest

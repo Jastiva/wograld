@@ -1,5 +1,6 @@
 Object evergreen
 face tree_2.111
+name pine tree
 no_pick 1
 slow_move 1
 is_wooded 1
