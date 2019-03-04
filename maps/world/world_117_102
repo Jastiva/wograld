@@ -3,13 +3,14 @@ name world_117_102
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-03-04 lori
 endmsg
 outdoor 1
 tile_path_1 world_117_101
 tile_path_2 world_118_102
 tile_path_3 world_117_103
 tile_path_4 world_116_102
+background_music ocean01
 end
 arch sea
 elevation -126
@@ -42,7 +43,7 @@ arch brush
 y 7
 elevation 759
 end
-arch woods_2
+arch small_stones
 y 8
 elevation 1005
 end
@@ -2248,12 +2249,12 @@ x 9
 y 7
 elevation 251
 end
-arch woods_2
+arch pstone_3
 x 9
 y 8
 elevation 1094
 end
-arch woods_2
+arch pstone_3
 x 9
 y 9
 elevation 1279
@@ -2497,17 +2498,17 @@ x 10
 y 7
 elevation 722
 end
-arch woods_2
+arch pstone_3
 x 10
 y 8
 elevation 1593
 end
-arch woods_2
+arch pstone_3
 x 10
 y 9
 elevation 1924
 end
-arch woods_2
+arch pstone_3
 x 10
 y 10
 elevation 1838
@@ -2759,12 +2760,12 @@ arch tree3
 x 11
 y 8
 end
-arch woods_2
+arch pstone_3
 x 11
 y 9
 elevation 2310
 end
-arch woods_2
+arch pstone_3
 x 11
 y 10
 elevation 1867
@@ -3003,7 +3004,7 @@ x 12
 y 7
 elevation 1633
 end
-arch woods_2
+arch pstone_3
 x 12
 y 8
 elevation 2372
@@ -3017,7 +3018,7 @@ arch tree3
 x 12
 y 9
 end
-arch woods_2
+arch pstone_3
 x 12
 y 10
 elevation 1244
@@ -3269,7 +3270,7 @@ arch tree3
 x 13
 y 8
 end
-arch woods_2
+arch pstone_3
 x 13
 y 9
 elevation 1442
@@ -4256,7 +4257,7 @@ x 17
 y 3
 elevation 927
 end
-arch woods_2
+arch small_stones
 x 17
 y 4
 elevation 1667
@@ -4545,7 +4546,7 @@ x 18
 y 7
 elevation 3232
 end
-arch woods_3
+arch pstone_3
 x 18
 y 8
 elevation 2129
@@ -4774,7 +4775,7 @@ x 19
 y 3
 elevation 315
 end
-arch woods_2
+arch small_stones
 x 19
 y 4
 elevation 2010
@@ -4784,17 +4785,17 @@ x 19
 y 5
 elevation 3497
 end
-arch steppe
+arch pstone_3
 x 19
 y 6
 elevation 4210
 end
-arch steppe
+arch pstone_3
 x 19
 y 7
 elevation 3984
 end
-arch woods_3
+arch pstone_3
 x 19
 y 8
 elevation 2978
@@ -5032,7 +5033,7 @@ x 20
 y 4
 elevation 180
 end
-arch woods_3
+arch small_stones
 x 20
 y 5
 elevation 2348
@@ -5047,7 +5048,7 @@ x 20
 y 7
 elevation 4164
 end
-arch hills_rocky
+arch pstone_3
 x 20
 y 8
 elevation 3268
@@ -5290,7 +5291,7 @@ x 21
 y 5
 elevation 253
 end
-arch woods_3
+arch small_stones
 x 21
 y 6
 elevation 2564
@@ -5300,12 +5301,12 @@ x 21
 y 7
 elevation 3578
 end
-arch hills
+arch pstone_3
 x 21
 y 8
 elevation 3017
 end
-arch woods_3
+arch pstone_3
 x 21
 y 9
 elevation 1514
@@ -5553,7 +5554,7 @@ arch tree3
 x 22
 y 7
 end
-arch woods_3
+arch small_stones
 x 22
 y 8
 elevation 2108

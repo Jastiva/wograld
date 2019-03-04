@@ -3,13 +3,14 @@ name world_118_113
 width 50
 height 50
 msg
-Modified: 2019-01-19 lx
+Modified: 2019-02-25 lori
 endmsg
 outdoor 1
 tile_path_1 world_118_112
 tile_path_2 world_119_113
 tile_path_3 world_118_114
 tile_path_4 world_117_113
+background_music grassland01
 end
 arch grass
 end
@@ -643,6 +644,10 @@ arch grass
 x 3
 y 17
 end
+arch shrub3
+x 3
+y 17
+end
 arch grass
 x 3
 y 18
@@ -1073,6 +1078,10 @@ arch grass
 x 5
 y 24
 end
+arch shrub3
+x 5
+y 24
+end
 arch grass
 x 5
 y 25
@@ -1098,6 +1107,10 @@ x 5
 y 30
 end
 arch grass
+x 5
+y 31
+end
+arch shrub3
 x 5
 y 31
 end
@@ -1394,10 +1407,8 @@ arch grass
 x 6
 y 49
 end
-arch woods
+arch fernrockscliff2
 x 7
-move_block all
-blocksview 1
 end
 arch brush
 x 7
@@ -1613,10 +1624,8 @@ arch grass
 x 7
 y 49
 end
-arch woods_2
+arch fernrockscliff2
 x 8
-move_block all
-blocksview 1
 end
 arch brush
 x 8
@@ -1818,10 +1827,8 @@ arch grass
 x 8
 y 49
 end
-arch woods_2
+arch greysandcliff1
 x 9
-move_block all
-blocksview 1
 end
 arch brush
 x 9
@@ -2019,16 +2026,12 @@ arch grass
 x 9
 y 49
 end
-arch woods
+arch fernrockscliff2
 x 10
-move_block all
-blocksview 1
 end
-arch woods
+arch bluesandcliff4
 x 10
 y 1
-move_block all
-blocksview 0
 end
 arch grass
 x 10
@@ -2130,6 +2133,10 @@ arch grass
 x 10
 y 26
 end
+arch shrub3
+x 10
+y 26
+end
 arch grass
 x 10
 y 27
@@ -2158,35 +2165,29 @@ arch brush
 x 10
 y 33
 end
-arch woods_3
+arch greysandcliff2
 x 10
 y 34
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 10
 y 35
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 10
 y 36
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 10
 y 37
-move_block all
 end
-arch woods
+arch fernrockscliff1
 x 10
 y 38
-move_block all
 end
-arch woods
+arch greysandcliff2
 x 10
 y 39
-move_block all
 end
 arch brush
 x 10
@@ -2209,42 +2210,34 @@ x 10
 y 44
 move_block all
 end
-arch woods
+arch fernrockscliff2
 x 10
 y 45
-move_block all
 end
 arch woods_3
 x 10
 y 46
 move_block all
 end
-arch woods
+arch fernrockscliff2
 x 10
 y 47
-move_block all
 end
-arch woods
+arch fernrockscliff2
 x 10
 y 48
-move_block all
-blocksview 1
 end
 arch woods_3
 x 10
 y 49
 move_block all
 end
-arch woods_2
+arch fernrockscliff2
 x 11
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 11
 y 1
-move_block all
-blocksview 0
 end
 arch brush
 x 11
@@ -2358,145 +2351,106 @@ arch brush
 x 11
 y 29
 end
-arch woods_3
+arch fernrockscliff1
 x 11
 y 30
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 11
 y 31
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 11
 y 32
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 11
 y 33
-move_block all
-blocksview 1
 end
-arch treed_hills
+arch greysandcliff2
 x 11
 y 34
-move_block all
 end
-arch treed_hills
+arch fernrockscliff1
 x 11
 y 35
-move_block all
 end
-arch woods_2
+arch greysandcliff2
 x 11
 y 36
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 11
 y 37
-move_block all
 end
-arch woods
+arch greysandcliff2
 x 11
 y 38
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 11
 y 39
-move_block all
 end
-arch woods
+arch fernrockscliff1
 x 11
 y 40
-move_block all
 end
 arch woods_3
 x 11
 y 41
 move_block all
 end
-arch woods
+arch fernrockscliff1
 x 11
 y 42
-move_block all
 end
 arch woods_3
 x 11
 y 43
 move_block all
 end
-arch woods
+arch fernrockscliff2
 x 11
 y 44
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 11
 y 45
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 11
 y 46
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 11
 y 47
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 11
 y 48
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 11
 y 49
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 12
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 12
 y 1
-move_block all
-blocksview 0
 end
-arch woods
+arch fernrockscliff2
 x 12
 y 2
-move_block all
-blocksview 0
 end
-arch woods
+arch bluesandcliff4
 x 12
 y 3
-move_block all
-blocksview 0
 end
-arch woods_3
+arch bluesandcliff4
 x 12
 y 4
-move_block all
-blocksview 0
 end
 arch brush
 x 12
@@ -2598,141 +2552,100 @@ arch brush
 x 12
 y 29
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 30
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 31
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 32
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 33
-move_block all
-blocksview 1
 end
-arch treed_hills
+arch greysandcliff2
 x 12
 y 34
-move_block all
 end
-arch treed_hills
+arch greysandcliff2
 x 12
 y 35
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 36
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 37
-move_block all
 end
-arch woods
+arch greysandcliff2
 x 12
 y 38
-move_block all
 end
-arch woods
+arch greysandcliff2
 x 12
 y 39
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 12
 y 40
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 41
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 12
 y 42
-move_block all
 end
-arch woods
+arch fernrockscliff2
 x 12
 y 43
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 12
 y 44
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 12
 y 45
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 12
 y 46
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 12
 y 47
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 13
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 13
 y 1
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 13
 y 2
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 13
 y 3
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 13
 y 4
-move_block all
-blocksview 1
 end
-arch woods_3
+arch bluesandcliff4
 x 13
 y 5
-move_block all
-blocksview 0
 end
 arch brush
 x 13
@@ -2800,17 +2713,13 @@ y 21
 move_block all
 blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 13
 y 21
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff1
 x 13
 y 22
-move_block all
-blocksview 1
 end
 arch brush
 x 13
@@ -2840,116 +2749,80 @@ arch brush
 x 13
 y 29
 end
-arch woods
+arch fernrockscliff1
 x 13
 y 30
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 13
 y 31
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff1
 x 13
 y 32
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 13
 y 33
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 13
 y 34
-move_block all
 end
-arch woods_3
+arch greysandcliff2
 x 13
 y 35
-move_block all
 end
-arch woods
+arch greysandcliff2
 x 13
 y 36
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 13
 y 37
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 13
 y 38
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 13
 y 39
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 13
 y 40
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 13
 y 41
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 13
 y 42
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 13
 y 43
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 13
 y 44
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 14
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 14
 y 1
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 14
 y 2
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 14
 y 3
-move_block all
-blocksview 1
 end
 arch woods_2
 x 14
@@ -2957,23 +2830,17 @@ y 4
 move_block all
 blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 14
 y 4
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 14
 y 5
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 14
 y 6
-move_block all
-blocksview 1
 end
 arch grass
 x 14
@@ -3043,148 +2910,100 @@ arch grass
 x 14
 y 23
 end
-arch woods_3
+arch fernrockscliff1
 x 14
 y 24
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 25
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff1
 x 14
 y 26
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 27
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 28
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 29
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 30
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 31
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 32
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 14
 y 33
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 14
 y 34
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 14
 y 35
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 14
 y 36
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 14
 y 37
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 14
 y 38
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 14
 y 39
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 15
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 1
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 2
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 3
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 4
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 5
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 15
 y 6
-move_block all
-blocksview 0
 end
-arch woods_3
+arch fernrockscliff2
 x 15
 y 7
-move_block all
-blocksview 0
 end
 arch grass
 x 15
@@ -3250,29 +3069,25 @@ arch grass
 x 15
 y 23
 end
-arch woods_2
+arch fernrockscliff1
 x 15
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 15
 y 25
-move_block all
-blocksview 1
 end
-arch hills
+arch greysandcliff2
 x 15
 y 26
 elevation 3540
 end
-arch steppe
+arch greysandcliff2
 x 15
 y 27
 elevation 4117
 end
-arch steppe
+arch greysandcliff2
 x 15
 y 28
 elevation 4655
@@ -3329,97 +3144,81 @@ arch fernrockscliff2
 x 15
 y 40
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 41
 elevation 12030
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 42
 elevation 12278
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 43
 elevation 12909
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 44
 elevation 13459
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 45
 elevation 13657
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 46
 elevation 13424
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 47
 elevation 13538
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 48
 elevation 13614
 end
-arch mountain4
+arch mosscliff2
 x 15
 y 49
 elevation 12667
 end
-arch woods_3
+arch greysandcliff2
 x 16
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 1
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 2
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 3
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 4
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 5
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 6
-move_block all
-blocksview 0
 end
-arch woods_3
+arch greysandcliff2
 x 16
 y 7
-move_block all
-blocksview 0
 end
 arch grass
 x 16
@@ -3477,27 +3276,21 @@ arch grass
 x 16
 y 21
 end
-arch grass
+arch greysandcliff1
 x 16
 y 22
 end
-arch woods_2
+arch fernrockscliff1
 x 16
 y 23
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 16
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 16
 y 25
-move_block all
-blocksview 1
 end
 arch fernrockscliff2
 x 16
@@ -3556,81 +3349,67 @@ arch fernrockscliff2
 x 16
 y 43
 end
-arch mountain4
+arch mosscliff2
 x 16
 y 44
 elevation 13925
 end
-arch mountain4
+arch mosscliff2
 x 16
 y 45
 elevation 13406
 end
-arch mountain4
+arch mosscliff2
 x 16
 y 46
 elevation 12229
 end
-arch mountain2
+arch mosscliff2
 x 16
 y 47
 elevation 11176
 end
-arch mountain2
+arch mosscliff2
 x 16
 y 48
 elevation 11675
 end
-arch mountain2
+arch mosscliff2
 x 16
 y 49
 elevation 11748
 end
-arch mountain2
+arch greysandcliff2
 x 17
 elevation 9224
 end
-arch woods
+arch fernrockscliff2
 x 17
 y 1
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 17
 y 2
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 17
 y 3
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 17
 y 4
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 17
 y 5
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 17
 y 6
-move_block all
-blocksview 1
 end
-arch woods_3
+arch bluesandcliff4
 x 17
 y 7
-move_block all
-blocksview 1
 end
 arch grass
 x 17
@@ -3688,29 +3467,21 @@ arch grass
 x 17
 y 21
 end
-arch woods
+arch fernrockscliff1
 x 17
 y 22
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 17
 y 23
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 17
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff1
 x 17
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 17
@@ -3823,63 +3594,53 @@ arch fernrockscliff2
 x 17
 y 43
 end
-arch mountain2
+arch mosscliff2
 x 17
 y 46
 elevation 10369
 end
-arch mountain2
+arch mosscliff2
 x 17
 y 47
 elevation 11981
 end
-arch mountain4
+arch mosscliff2
 x 17
 y 48
 elevation 12219
 end
-arch mountain2
+arch mosscliff2
 x 17
 y 49
 elevation 11745
 end
-arch mountain
+arch fernrockscliff2
 x 18
 elevation 6797
 end
-arch woods
+arch fernrockscliff2
 x 18
 y 1
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 18
 y 2
-move_block all
-blocksview 1
 end
 arch grass
 x 18
 y 3
 end
-arch woods_3
+arch greysandcliff2
 x 18
 y 4
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 18
 y 5
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 18
 y 6
-move_block all
-blocksview 1
 end
 arch grass
 x 18
@@ -3902,6 +3663,10 @@ x 18
 y 11
 end
 arch grass
+x 18
+y 12
+end
+arch shrub3
 x 18
 y 12
 end
@@ -3968,11 +3733,9 @@ arch grass
 x 18
 y 24
 end
-arch woods_3
+arch fernrockscliff1
 x 18
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 18
@@ -4081,35 +3844,33 @@ arch fernrockscliff2
 x 18
 y 43
 end
-arch mountain2
+arch mosscliff2
 x 18
 y 46
 elevation 11627
 end
-arch mountain2
+arch mosscliff2
 x 18
 y 47
 elevation 11650
 end
-arch mountain2
+arch mosscliff2
 x 18
 y 48
 elevation 11803
 end
-arch mountain2
+arch mosscliff2
 x 18
 y 49
 elevation 11291
 end
-arch mountain
+arch fernrockscliff2
 x 19
 elevation 7130
 end
-arch woods_3
+arch fernrockscliff2
 x 19
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 19
@@ -4218,11 +3979,9 @@ arch grass
 x 19
 y 24
 end
-arch woods_3
+arch fernrockscliff1
 x 19
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 19
@@ -4331,35 +4090,33 @@ arch fernrockscliff2
 x 19
 y 43
 end
-arch mountain2
+arch mosscliff2
 x 19
 y 46
 elevation 10649
 end
-arch mountain2
+arch mosscliff2
 x 19
 y 47
 elevation 10233
 end
-arch mountain2
+arch mosscliff2
 x 19
 y 48
 elevation 9898
 end
-arch mountain2
+arch mosscliff2
 x 19
 y 49
 elevation 9500
 end
-arch mountain
+arch fernrockscliff2
 x 20
 elevation 5123
 end
-arch woods
+arch bluesandcliff4
 x 20
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 20
@@ -4458,11 +4215,9 @@ arch grass
 x 20
 y 24
 end
-arch woods
+arch fernrockscliff1
 x 20
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 20
@@ -4571,35 +4326,33 @@ arch fernrockscliff2
 x 20
 y 43
 end
-arch mountain2
+arch mosscliff2
 x 20
 y 46
 elevation 9711
 end
-arch mountain
+arch mosscliff2
 x 20
 y 47
 elevation 5702
 end
-arch mountain
+arch mosscliff2
 x 20
 y 48
 elevation 7719
 end
-arch mountain
+arch mosscliff2
 x 20
 y 49
 elevation 7838
 end
-arch mountain
+arch fernrockscliff2
 x 21
 elevation 5380
 end
-arch woods_3
+arch fernrockscliff2
 x 21
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 21
@@ -4685,23 +4438,17 @@ arch grass
 x 21
 y 22
 end
-arch woods_3
+arch fernrockscliff1
 x 21
 y 23
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff1
 x 21
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 21
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 21
@@ -4810,41 +4557,37 @@ arch fernrockscliff2
 x 21
 y 43
 end
-arch mountain
+arch mosscliff2
 x 21
 y 46
 elevation 8891
 end
-arch mountain
+arch mosscliff2
 x 21
 y 47
 elevation 7971
 end
-arch mountain
+arch mosscliff2
 x 21
 y 48
 elevation 6860
 end
-arch steppe
+arch mosscliff2
 x 21
 y 49
 elevation 4976
 end
-arch steppe
+arch fernrockscliff2
 x 22
 elevation 4368
 end
-arch woods_3
+arch fernrockscliff2
 x 22
 y 1
-move_block all
-blocksview 1
 end
-arch woods
+arch bluesandcliff4
 x 22
 y 2
-move_block all
-blocksview 1
 end
 arch grass
 x 22
@@ -4930,17 +4673,13 @@ arch grass
 x 22
 y 23
 end
-arch woods
+arch fernrockscliff1
 x 22
 y 24
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff1
 x 22
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 22
@@ -5049,41 +4788,37 @@ arch fernrockscliff2
 x 22
 y 43
 end
-arch mountain
+arch mosscliff2
 x 22
 y 46
 elevation 8405
 end
-arch mountain
+arch mosscliff2
 x 22
 y 47
 elevation 7874
 end
-arch mountain
+arch mosscliff2
 x 22
 y 48
 elevation 6460
 end
-arch mountain
+arch mosscliff2
 x 22
 y 49
 elevation 5154
 end
-arch steppe
+arch fernrockscliff2
 x 23
 elevation 4575
 end
-arch woods
+arch fernrockscliff2
 x 23
 y 1
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 23
 y 2
-move_block all
-blocksview 1
 end
 arch grass
 x 23
@@ -5169,17 +4904,13 @@ arch grass
 x 23
 y 23
 end
-arch woods
+arch fernrockscliff1
 x 23
 y 24
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff1
 x 23
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 23
@@ -5292,35 +5023,33 @@ arch fernrockscliff2
 x 23
 y 43
 end
-arch mountain
+arch mosscliff2
 x 23
 y 46
 elevation 7510
 end
-arch mountain
+arch mosscliff2
 x 23
 y 47
 elevation 7339
 end
-arch mountain
+arch mosscliff2
 x 23
 y 48
 elevation 6479
 end
-arch steppe
+arch mosscliff2
 x 23
 y 49
 elevation 4379
 end
-arch mountain
+arch fernrockscliff2
 x 24
 elevation 6287
 end
-arch woods_3
+arch fernrockscliff2
 x 24
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 24
@@ -5434,17 +5163,13 @@ arch grass
 x 24
 y 23
 end
-arch woods_3
+arch fernrockscliff1
 x 24
 y 24
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff1
 x 24
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 24
@@ -5494,35 +5219,33 @@ arch fernrockscliff2
 x 24
 y 43
 end
-arch mountain
+arch mosscliff2
 x 24
 y 46
 elevation 6618
 end
-arch mountain
+arch mosscliff2
 x 24
 y 47
 elevation 6549
 end
-arch mountain
+arch mosscliff2
 x 24
 y 48
 elevation 5977
 end
-arch mountain
+arch mosscliff2
 x 24
 y 49
 elevation 5757
 end
-arch mountain
+arch fernrockscliff2
 x 25
 elevation 7296
 end
-arch woods
+arch fernrockscliff2
 x 25
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 25
@@ -5721,6 +5444,10 @@ arch grass
 x 25
 y 20
 end
+arch shrub3
+x 25
+y 20
+end
 arch grass
 x 25
 y 21
@@ -5733,17 +5460,13 @@ arch grass
 x 25
 y 23
 end
-arch woods_3
+arch greysandcliff1
 x 25
 y 24
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 25
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 25
@@ -5832,35 +5555,33 @@ arch fernrockscliff2
 x 25
 y 43
 end
-arch mountain
+arch mosscliff2
 x 25
 y 46
 elevation 5868
 end
-arch steppe
+arch mosscliff2
 x 25
 y 47
 elevation 4897
 end
-arch steppe
+arch mosscliff2
 x 25
 y 48
 elevation 4529
 end
-arch mountain
+arch mosscliff2
 x 25
 y 49
 elevation 5460
 end
-arch mountain
+arch fernrockscliff2
 x 26
 elevation 7905
 end
-arch woods
+arch fernrockscliff2
 x 26
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 26
@@ -6000,11 +5721,9 @@ arch grass
 x 26
 y 24
 end
-arch woods_3
+arch fernrockscliff1
 x 26
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 26
@@ -6101,35 +5820,33 @@ arch fernrockscliff2
 x 26
 y 43
 end
-arch hills
+arch mosscliff2
 x 26
 y 46
 elevation 4893
 end
-arch hills_rocky
+arch mosscliff2
 x 26
 y 47
 elevation 4668
 end
-arch steppe
+arch mosscliff2
 x 26
 y 48
 elevation 4862
 end
-arch mountain
+arch mosscliff2
 x 26
 y 49
 elevation 5724
 end
-arch mountain2
+arch greysandcliff1
 x 27
 elevation 9028
 end
-arch woods_2
+arch fernrockscliff2
 x 27
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 27
@@ -6243,11 +5960,9 @@ arch grass
 x 27
 y 24
 end
-arch woods
+arch fernrockscliff1
 x 27
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 27
@@ -6344,35 +6059,33 @@ arch fernrockscliff2
 x 27
 y 43
 end
-arch hills
+arch mosscliff2
 x 27
 y 46
 elevation 2859
 end
-arch hills_rocky
+arch mosscliff2
 x 27
 y 47
 elevation 2642
 end
-arch hills_rocky
+arch mosscliff2
 x 27
 y 48
 elevation 3394
 end
-arch hills_rocky
+arch mosscliff2
 x 27
 y 49
 elevation 4389
 end
-arch mountain
+arch greysandcliff1
 x 28
 elevation 8742
 end
-arch woods_2
+arch greysandcliff1
 x 28
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 28
@@ -6492,11 +6205,9 @@ arch grass
 x 28
 y 24
 end
-arch woods
+arch greysandcliff1
 x 28
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 28
@@ -6581,35 +6292,33 @@ arch fernrockscliff2
 x 28
 y 43
 end
-arch grass
+arch mosscliff2
 x 28
 y 46
 elevation 410
 end
-arch brush
+arch mosscliff2
 x 28
 y 47
 elevation 339
 end
-arch brush
+arch mosscliff2
 x 28
 y 48
 elevation 168
 end
-arch hills
+arch mosscliff2
 x 28
 y 49
 elevation 2536
 end
-arch mountain2
+arch greysandcliff1
 x 29
 elevation 9699
 end
-arch woods_3
+arch greysandcliff1
 x 29
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 29
@@ -6732,11 +6441,9 @@ arch grass
 x 29
 y 24
 end
-arch woods_3
+arch fernrockscliff1
 x 29
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 29
@@ -6838,15 +6545,13 @@ x 29
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 30
 elevation 10202
 end
-arch woods_3
+arch greysandcliff1
 x 30
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 30
@@ -6968,6 +6673,10 @@ arch grass
 x 30
 y 21
 end
+arch shrub3
+x 30
+y 21
+end
 arch grass
 x 30
 y 22
@@ -6980,11 +6689,9 @@ arch grass
 x 30
 y 24
 end
-arch woods
+arch fernrockscliff1
 x 30
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 30
@@ -7086,7 +6793,7 @@ x 30
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 31
 elevation 10824
 end
@@ -7098,11 +6805,9 @@ arch dungeon_magic
 x 31
 y 1
 end
-arch woods_3
+arch greysandcliff1
 x 31
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 31
@@ -7214,11 +6919,9 @@ arch grass
 x 31
 y 24
 end
-arch woods
+arch greysandcliff1
 x 31
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 31
@@ -7308,7 +7011,7 @@ x 31
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 32
 elevation 10852
 end
@@ -7320,11 +7023,9 @@ arch dungeon_magic
 x 32
 y 1
 end
-arch woods_3
+arch greysandcliff1
 x 32
 y 1
-move_block all
-blocksview 1
 end
 arch shallow_sea
 name water
@@ -7435,11 +7136,9 @@ arch grass
 x 32
 y 24
 end
-arch woods
+arch greysandcliff1
 x 32
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 32
@@ -7494,7 +7193,7 @@ x 32
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 33
 elevation 10493
 end
@@ -7506,11 +7205,9 @@ arch dungeon_magic
 x 33
 y 1
 end
-arch woods_2
+arch greysandcliff1
 x 33
 y 1
-move_block all
-blocksview 1
 end
 arch shallow_sea
 name water
@@ -7653,11 +7350,9 @@ arch grass
 x 33
 y 24
 end
-arch woods
+arch greysandcliff1
 x 33
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 33
@@ -7724,7 +7419,7 @@ x 33
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 34
 elevation 10422
 end
@@ -7736,11 +7431,9 @@ arch dungeon_magic
 x 34
 y 1
 end
-arch woods_2
+arch greysandcliff1
 x 34
 y 1
-move_block all
-blocksview 1
 end
 arch shallow_sea
 name water
@@ -7847,17 +7540,13 @@ arch grass
 x 34
 y 23
 end
-arch woods_3
+arch greysandcliff1
 x 34
 y 24
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 34
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 34
@@ -7912,7 +7601,7 @@ x 34
 y 49
 elevation 4184
 end
-arch mountain2
+arch greysandcliff1
 x 35
 elevation 10885
 end
@@ -7924,11 +7613,9 @@ arch dungeon_magic
 x 35
 y 1
 end
-arch woods_2
+arch greysandcliff1
 x 35
 y 1
-move_block all
-blocksview 1
 end
 arch shallow_sea
 name water
@@ -8029,17 +7716,13 @@ arch grass
 x 35
 y 23
 end
-arch woods
+arch greysandcliff1
 x 35
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 35
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 35
@@ -8118,7 +7801,7 @@ x 35
 y 49
 elevation 4184
 end
-arch mountain4
+arch greysandcliff1
 x 36
 elevation 12236
 end
@@ -8130,11 +7813,9 @@ arch dungeon_magic
 x 36
 y 1
 end
-arch woods
+arch greysandcliff1
 x 36
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 36
@@ -8264,17 +7945,13 @@ arch grass
 x 36
 y 23
 end
-arch woods
+arch fernrockscliff2
 x 36
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 36
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 36
@@ -8398,15 +8075,13 @@ x 36
 y 49
 elevation 4184
 end
-arch mountain4
+arch greysandcliff1
 x 37
 elevation 13887
 end
-arch woods
+arch greysandcliff1
 x 37
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 37
@@ -8529,11 +8204,9 @@ arch grass
 x 37
 y 24
 end
-arch woods_3
+arch fernrockscliff2
 x 37
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 37
@@ -8636,15 +8309,13 @@ x 37
 y 49
 elevation 4184
 end
-arch mountain4
+arch greysandcliff1
 x 38
 elevation 15140
 end
-arch woods
+arch greysandcliff1
 x 38
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 38
@@ -8756,11 +8427,9 @@ arch grass
 x 38
 y 24
 end
-arch woods
+arch greysandcliff2
 x 38
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 38
@@ -8898,15 +8567,13 @@ x 38
 y 49
 elevation 4184
 end
-arch mountain4
+arch greysandcliff1
 x 39
 elevation 15156
 end
-arch woods_3
+arch greysandcliff1
 x 39
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 39
@@ -9011,6 +8678,10 @@ arch grass
 x 39
 y 22
 end
+arch shrub3
+x 39
+y 22
+end
 arch grass
 x 39
 y 23
@@ -9019,11 +8690,9 @@ arch grass
 x 39
 y 24
 end
-arch woods
+arch fernrockscliff2
 x 39
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 39
@@ -9098,15 +8767,13 @@ x 39
 y 49
 elevation 4184
 end
-arch mountain4
+arch greysandcliff1
 x 40
 elevation 13757
 end
-arch woods_2
+arch greysandcliff1
 x 40
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 40
@@ -9221,11 +8888,9 @@ arch grass
 x 40
 y 24
 end
-arch woods
+arch greysandcliff2
 x 40
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 40
@@ -9348,15 +9013,13 @@ x 40
 y 49
 elevation 4184
 end
-arch mountain2
+arch fernrockscliff2
 x 41
 elevation 10962
 end
-arch woods_3
+arch greysandcliff1
 x 41
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 41
@@ -9513,11 +9176,9 @@ arch grass
 x 41
 y 24
 end
-arch woods
+arch fernrockscliff2
 x 41
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 41
@@ -9592,15 +9253,13 @@ x 41
 y 49
 elevation 4184
 end
-arch mountain2
+arch fernrockscliff2
 x 42
 elevation 10811
 end
-arch woods_3
+arch greysandcliff1
 x 42
 y 1
-move_block all
-blocksview 1
 end
 arch unholy_ground
 x 42
@@ -9838,11 +9497,9 @@ arch grass
 x 42
 y 24
 end
-arch woods
+arch greysandcliff2
 x 42
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 42
@@ -9966,15 +9623,13 @@ x 42
 y 49
 elevation 4184
 end
-arch mountain2
+arch fernrockscliff2
 x 43
 elevation 10060
 end
-arch woods_2
+arch fernrockscliff2
 x 43
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 43
@@ -10061,35 +9716,25 @@ arch grass
 x 43
 y 20
 end
-arch woods
+arch greysandcliff1
 x 43
 y 21
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 43
 y 22
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 43
 y 23
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 43
 y 24
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 43
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 43
@@ -10175,15 +9820,13 @@ x 43
 y 49
 elevation 4184
 end
-arch mountain2
+arch fernrockscliff2
 x 44
 elevation 9505
 end
-arch woods
+arch fernrockscliff2
 x 44
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 44
@@ -10249,29 +9892,21 @@ arch grass
 x 44
 y 17
 end
-arch woods
+arch greysandcliff1
 x 44
 y 18
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 44
 y 19
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 44
 y 20
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 44
 y 21
-move_block all
-blocksview 1
 end
 arch grass
 x 44
@@ -10289,17 +9924,13 @@ arch mushroom_1
 x 44
 y 23
 end
-arch woods
+arch fernrockscliff2
 x 44
 y 24
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 44
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 44
@@ -10409,15 +10040,13 @@ x 44
 y 49
 elevation 4184
 end
-arch mountain2
+arch fernrockscliff2
 x 45
 elevation 9236
 end
-arch woods
+arch fernrockscliff2
 x 45
 y 1
-move_block all
-blocksview 1
 end
 arch grass
 x 45
@@ -10485,23 +10114,17 @@ arch grass
 x 45
 y 15
 end
-arch woods_3
+arch fernrockscliff2
 x 45
 y 16
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 45
 y 17
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 45
 y 18
-move_block all
-blocksview 1
 end
 arch grass
 x 45
@@ -10531,17 +10154,13 @@ arch mushroom_1
 x 45
 y 23
 end
-arch woods_2
+arch greysandcliff2
 x 45
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 45
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 45
@@ -10620,21 +10239,17 @@ x 45
 y 49
 elevation 3200
 end
-arch mountain
+arch fernrockscliff2
 x 46
 elevation 8223
 end
-arch woods_2
+arch fernrockscliff2
 x 46
 y 1
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 46
 y 2
-move_block all
-blocksview 1
 end
 arch grass
 x 46
@@ -10697,11 +10312,9 @@ arch grass
 x 46
 y 16
 end
-arch woods_3
+arch greysandcliff1
 x 46
 y 17
-move_block all
-blocksview 1
 end
 arch grass
 x 46
@@ -10723,29 +10336,21 @@ arch grass
 x 46
 y 21
 end
-arch woods
+arch fernrockscliff2
 x 46
 y 22
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff2
 x 46
 y 23
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 46
 y 24
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 46
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 46
@@ -10865,15 +10470,13 @@ x 46
 y 49
 elevation 629
 end
-arch hills_rocky
+arch fernrockscliff2
 x 47
 elevation 4101
 end
-arch woods_2
+arch fernrockscliff2
 x 47
 y 1
-move_block all
-blocksview 1
 end
 arch woods_2
 x 47
@@ -10881,11 +10484,9 @@ y 2
 move_block all
 blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 47
 y 3
-move_block all
-blocksview 1
 end
 arch grass
 x 47
@@ -10939,11 +10540,9 @@ arch grass
 x 47
 y 16
 end
-arch woods_3
+arch greysandcliff1
 x 47
 y 17
-move_block all
-blocksview 1
 end
 arch grass
 x 47
@@ -10969,29 +10568,21 @@ arch mushroom_1
 x 47
 y 21
 end
-arch woods_3
+arch greysandcliff2
 x 47
 y 22
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 47
 y 23
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 47
 y 24
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 47
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 47
@@ -11076,45 +10667,33 @@ x 47
 y 49
 elevation 4983
 end
-arch mountain
+arch fernrockscliff2
 x 48
 elevation 7917
 end
-arch woods_3
+arch fernrockscliff2
 x 48
 y 1
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 48
 y 2
-move_block all
-blocksview 1
 end
-arch woods_2
+arch fernrockscliff2
 x 48
 y 3
-move_block all
-blocksview 1
 end
-arch woods_3
+arch fernrockscliff2
 x 48
 y 4
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 48
 y 5
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 48
 y 6
-move_block all
-blocksview 1
 end
 arch grass
 x 48
@@ -11128,59 +10707,41 @@ arch grass
 x 48
 y 9
 end
-arch woods_2
+arch greysandcliff1
 x 48
 y 10
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 48
 y 11
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 48
 y 12
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 48
 y 13
-move_block all
-blocksview 1
 end
-arch woods
+arch fernrockscliff2
 x 48
 y 14
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff1
 x 48
 y 15
-move_block all
-blocksview 1
 end
-arch woods_3
+arch greysandcliff1
 x 48
 y 16
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 48
 y 17
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff1
 x 48
 y 18
-move_block all
-blocksview 1
 end
 arch grass
 x 48
@@ -11192,35 +10753,25 @@ y 20
 move_block all
 blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 48
 y 21
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 48
 y 22
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 48
 y 23
-move_block all
-blocksview 1
 end
-arch woods_2
+arch greysandcliff2
 x 48
 y 24
-move_block all
-blocksview 1
 end
-arch woods
+arch greysandcliff2
 x 48
 y 25
-move_block all
-blocksview 1
 end
 arch blocked
 x 48
@@ -11338,7 +10889,7 @@ x 48
 y 49
 elevation 7484
 end
-arch mountain
+arch fernrockscliff2
 x 49
 elevation 8078
 end

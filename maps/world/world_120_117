@@ -8,13 +8,14 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2018-09-08 lori
+Modified: 2019-02-24 lori
 endmsg
 outdoor 1
 tile_path_1 world_120_116
 tile_path_2 world_121_117
 tile_path_3 world_120_118
 tile_path_4 world_119_117
+background_music swamp01
 end
 arch mountain
 elevation 7464
@@ -127,7 +128,7 @@ arch mountain
 y 27
 elevation 6657
 end
-arch mountain
+arch bluesandcliff3
 y 28
 elevation 5799
 end
@@ -352,7 +353,7 @@ x 1
 y 27
 elevation 7017
 end
-arch mountain
+arch bluesandcliff3
 x 1
 y 28
 elevation 5464
@@ -469,7 +470,7 @@ x 2
 y 1
 elevation 4678
 end
-arch hills
+arch bluesandcliff3
 x 2
 y 2
 elevation 4484
@@ -584,7 +585,7 @@ x 2
 y 24
 elevation 8541
 end
-arch mountain2
+arch bluesandcliff3
 x 2
 y 25
 elevation 10713
@@ -594,27 +595,27 @@ x 2
 y 26
 elevation 10635
 end
-arch mountain2
+arch bluesandcliff3
 x 2
 y 27
 elevation 9339
 end
-arch mountain
+arch bluesandcliff3
 x 2
 y 28
 elevation 7286
 end
-arch mountain
+arch cyangrass
 x 2
 y 29
 elevation 5566
 end
-arch mountain
+arch cyangrass
 x 2
 y 30
 elevation 5347
 end
-arch mountain
+arch cyangrass
 x 2
 y 31
 elevation 5076
@@ -716,12 +717,12 @@ x 3
 y 1
 elevation 5714
 end
-arch mountain
+arch bluesandcliff3
 x 3
 y 2
 elevation 5808
 end
-arch mountain
+arch bluesandcliff3
 x 3
 y 3
 elevation 6339
@@ -831,37 +832,37 @@ x 3
 y 24
 elevation 11490
 end
-arch mountain2
+arch bluesandcliff3
 x 3
 y 25
 elevation 11705
 end
-arch mountain2
+arch bluesandcliff3
 x 3
 y 26
 elevation 11775
 end
-arch mountain2
+arch bluesandcliff3
 x 3
 y 27
 elevation 10548
 end
-arch mountain
+arch cyangrass
 x 3
 y 28
 elevation 7239
 end
-arch mountain
+arch cyangrass
 x 3
 y 29
 elevation 7058
 end
-arch mountain
+arch cyangrass
 x 3
 y 30
 elevation 6214
 end
-arch mountain
+arch cyangrass
 x 3
 y 31
 elevation 5496
@@ -968,12 +969,12 @@ x 4
 y 2
 elevation 7076
 end
-arch mountain
+arch bluesandcliff3
 x 4
 y 3
 elevation 7141
 end
-arch mountain
+arch bluesandcliff3
 x 4
 y 4
 elevation 6133
@@ -1073,12 +1074,12 @@ x 4
 y 23
 elevation 11773
 end
-arch mountain2
+arch bluesandcliff3
 x 4
 y 24
 elevation 11448
 end
-arch mountain2
+arch bluesandcliff3
 x 4
 y 25
 elevation 11255
@@ -1093,22 +1094,22 @@ x 4
 y 27
 elevation 10296
 end
-arch mountain
+arch cyangrass
 x 4
 y 28
 elevation 8937
 end
-arch mountain
+arch cyangrass
 x 4
 y 29
 elevation 7411
 end
-arch mountain
+arch cyangrass
 x 4
 y 30
 elevation 6286
 end
-arch mountain
+arch cyangrass
 x 4
 y 31
 elevation 5262
@@ -1220,12 +1221,12 @@ x 5
 y 3
 elevation 8139
 end
-arch mountain2
+arch bluesandcliff3
 x 5
 y 4
 elevation 9190
 end
-arch mountain2
+arch bluesandcliff3
 x 5
 y 5
 elevation 11226
@@ -1310,17 +1311,17 @@ x 5
 y 21
 elevation 8670
 end
-arch mountain2
+arch bluesandcliff3
 x 5
 y 22
 elevation 10880
 end
-arch mountain2
+arch bluesandcliff3
 x 5
 y 23
 elevation 11296
 end
-arch mountain2
+arch bluesandcliff3
 x 5
 y 24
 elevation 9144
@@ -1475,37 +1476,37 @@ x 6
 y 4
 elevation 12392
 end
-arch mountain4
+arch bluesandcliff3
 x 6
 y 5
 elevation 13625
 end
-arch mountain4
+arch bluesandcliff3
 x 6
 y 6
 elevation 13614
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 7
 elevation 11673
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 8
 elevation 11554
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 9
 elevation 11266
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 10
 elevation 9363
 end
-arch mountain4
+arch bluesandcliff3
 x 6
 y 11
 elevation 12808
@@ -1560,17 +1561,17 @@ x 6
 y 21
 elevation 9111
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 22
 elevation 10275
 end
-arch mountain2
+arch bluesandcliff3
 x 6
 y 23
 elevation 10464
 end
-arch cyangrass
+arch bluesandcliff3
 x 6
 y 24
 elevation 9621
@@ -1736,27 +1737,27 @@ x 7
 y 6
 elevation 14672
 end
-arch mountain4
+arch bluesandcliff3
 x 7
 y 7
 elevation 13390
 end
-arch mountain2
+arch cyangrass
 x 7
 y 8
 elevation 9358
 end
-arch mountain2
+arch cyangrass
 x 7
 y 9
 elevation 11407
 end
-arch mountain2
+arch cyangrass
 x 7
 y 10
 elevation 11866
 end
-arch mountain4
+arch bluesandcliff3
 x 7
 y 11
 elevation 12719
@@ -1806,12 +1807,12 @@ x 7
 y 20
 elevation 7992
 end
-arch mountain
+arch bluesandcliff3
 x 7
 y 21
 elevation 8576
 end
-arch mountain2
+arch bluesandcliff3
 x 7
 y 22
 elevation 9143
@@ -2008,22 +2009,22 @@ x 8
 y 7
 elevation 14300
 end
-arch mountain4
+arch cyangrass
 x 8
 y 8
 elevation 12760
 end
-arch mountain2
+arch cyangrass
 x 8
 y 9
 elevation 11606
 end
-arch mountain2
+arch cyangrass
 x 8
 y 10
 elevation 11320
 end
-arch mountain2
+arch bluesandcliff3
 x 8
 y 11
 elevation 11706
@@ -2073,12 +2074,12 @@ x 8
 y 20
 elevation 7276
 end
-arch mountain
+arch bluesandcliff3
 x 8
 y 21
 elevation 8021
 end
-arch cyangrass
+arch bluesandcliff3
 x 8
 y 22
 elevation 6276
@@ -2254,27 +2255,27 @@ x 9
 y 6
 elevation 15799
 end
-arch mountain4
+arch cyangrass
 x 9
 y 7
 elevation 14808
 end
-arch mountain4
+arch cyangrass
 x 9
 y 8
 elevation 12931
 end
-arch mountain2
+arch cyangrass
 x 9
 y 9
 elevation 10864
 end
-arch mountain2
+arch bluesandcliff3
 x 9
 y 10
 elevation 10276
 end
-arch mountain2
+arch bluesandcliff3
 x 9
 y 11
 elevation 9064
@@ -2319,12 +2320,12 @@ x 9
 y 19
 elevation 7828
 end
-arch mountain
+arch bluesandcliff3
 x 9
 y 20
 elevation 7817
 end
-arch mountain
+arch bluesandcliff3
 x 9
 y 21
 elevation 7732
@@ -2501,27 +2502,27 @@ x 10
 y 6
 elevation 14944
 end
-arch mountain4
+arch cyangrass
 x 10
 y 7
 elevation 14124
 end
-arch mountain4
+arch cyangrass
 x 10
 y 8
 elevation 12317
 end
-arch mountain
+arch cyangrass
 x 10
 y 9
 elevation 8539
 end
-arch mountain2
+arch bluesandcliff3
 x 10
 y 10
 elevation 10326
 end
-arch mountain2
+arch bluesandcliff3
 x 10
 y 11
 elevation 10511
@@ -2566,7 +2567,7 @@ x 10
 y 19
 elevation 7047
 end
-arch mountain
+arch bluesandcliff3
 x 10
 y 20
 elevation 7299
@@ -2756,27 +2757,27 @@ x 11
 y 6
 elevation 13191
 end
-arch mountain4
+arch cyangrass
 x 11
 y 7
 elevation 12401
 end
-arch mountain2
+arch cyangrass
 x 11
 y 8
 elevation 11359
 end
-arch mountain2
+arch cyangrass
 x 11
 y 9
 elevation 10414
 end
-arch mountain2
+arch cyangrass
 x 11
 y 10
 elevation 10507
 end
-arch mountain2
+arch bluesandcliff3
 x 11
 y 11
 elevation 11054
@@ -2811,17 +2812,17 @@ x 11
 y 17
 elevation 8321
 end
-arch mountain
+arch bluesandcliff3
 x 11
 y 18
 elevation 7887
 end
-arch mountain
+arch bluesandcliff3
 x 11
 y 19
 elevation 6920
 end
-arch mountain
+arch bluesandcliff3
 x 11
 y 20
 elevation 5019
@@ -3026,27 +3027,27 @@ x 12
 y 6
 elevation 11280
 end
-arch mountain2
+arch cyangrass
 x 12
 y 7
 elevation 9880
 end
-arch mountain2
+arch cyangrass
 x 12
 y 8
 elevation 10745
 end
-arch mountain2
+arch cyangrass
 x 12
 y 9
 elevation 10635
 end
-arch mountain
+arch cyangrass
 x 12
 y 10
 elevation 8910
 end
-arch mountain2
+arch bluesandcliff3
 x 12
 y 11
 elevation 11268
@@ -3076,12 +3077,12 @@ x 12
 y 16
 elevation 7827
 end
-arch mountain
+arch bluesandcliff3
 x 12
 y 17
 elevation 8002
 end
-arch mountain
+arch bluesandcliff3
 x 12
 y 18
 elevation 7831
@@ -3297,27 +3298,27 @@ x 13
 y 6
 elevation 9200
 end
-arch mountain
+arch cyangrass
 x 13
 y 7
 elevation 8691
 end
-arch mountain2
+arch cyangrass
 x 13
 y 8
 elevation 10750
 end
-arch mountain2
+arch cyangrass
 x 13
 y 9
 elevation 10777
 end
-arch mountain2
+arch cyangrass
 x 13
 y 10
 elevation 9705
 end
-arch mountain2
+arch bluesandcliff3
 x 13
 y 11
 elevation 11028
@@ -3342,12 +3343,12 @@ x 13
 y 15
 elevation 7280
 end
-arch mountain
+arch bluesandcliff3
 x 13
 y 16
 elevation 6162
 end
-arch mountain
+arch bluesandcliff3
 x 13
 y 17
 elevation 7221
@@ -3573,47 +3574,47 @@ x 14
 y 7
 elevation 11456
 end
-arch mountain2
+arch cyangrass
 x 14
 y 8
 elevation 11448
 end
-arch mountain2
+arch cyangrass
 x 14
 y 9
 elevation 11042
 end
-arch mountain2
+arch cyangrass
 x 14
 y 10
 elevation 10633
 end
-arch mountain2
+arch bluesandcliff3
 x 14
 y 11
 elevation 10472
 end
-arch mountain2
+arch bluesandcliff3
 x 14
 y 12
 elevation 10340
 end
-arch mountain2
+arch bluesandcliff3
 x 14
 y 13
 elevation 9275
 end
-arch mountain
+arch bluesandcliff3
 x 14
 y 14
 elevation 8814
 end
-arch mountain
+arch bluesandcliff3
 x 14
 y 15
 elevation 7361
 end
-arch mountain
+arch bluesandcliff3
 x 14
 y 16
 elevation 5124
@@ -3833,12 +3834,12 @@ x 15
 y 8
 elevation 11969
 end
-arch mountain2
+arch cyangrass
 x 15
 y 9
 elevation 10762
 end
-arch mountain2
+arch cyangrass
 x 15
 y 10
 elevation 9805

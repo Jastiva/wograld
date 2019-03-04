@@ -3,7 +3,7 @@ name world_119_113
 width 50
 height 50
 msg
-Modified: 2019-01-20 lx
+Modified: 2019-02-24 lori
 endmsg
 outdoor 1
 tile_path_1 world_119_112
@@ -11,6 +11,7 @@ tile_path_2 world_120_113
 tile_path_3 world_119_114
 tile_path_4 world_118_113
 tile_path_5 above_119_113
+background_music elfflowers01
 end
 arch woods
 move_block all
@@ -142,71 +143,71 @@ end
 arch fernrockscliff2
 y 32
 end
-arch hills_rocky
+arch greysandcliff2
 y 33
 elevation 4899
 end
-arch steppe
+arch greysandcliff2
 y 34
 elevation 4865
 end
-arch hills
+arch greysandcliff2
 y 35
 elevation 4890
 end
-arch hills_rocky
+arch greysandcliff1
 y 36
 elevation 3035
 end
-arch woods_2
+arch greysandcliff1
 y 37
 elevation 2392
 end
-arch woods_2
+arch greysandcliff1
 y 38
 elevation 1715
 end
-arch woods_2
+arch greysandcliff1
 y 39
 elevation 1228
 end
-arch brush
+arch greysandcliff1
 y 40
 elevation 743
 end
-arch brush
+arch greysandcliff2
 y 41
 elevation 495
 end
-arch brush
+arch greysandcliff2
 y 42
 elevation 391
 end
-arch woods_2
+arch greysandcliff2
 y 43
 elevation 2940
 end
-arch hills_rocky
+arch greysandcliff2
 y 44
 elevation 4766
 end
-arch mountain
+arch greysandcliff2
 y 45
 elevation 5780
 end
-arch mountain
+arch greysandcliff2
 y 46
 elevation 5747
 end
-arch mountain
+arch greysandcliff2
 y 47
 elevation 6897
 end
-arch mountain
+arch greysandcliff2
 y 48
 elevation 8608
 end
-arch mountain2
+arch greysandcliff2
 y 49
 elevation 10054
 end
@@ -366,87 +367,151 @@ arch fernrockscliff2
 x 1
 y 32
 end
-arch mountain
+arch grass
 x 1
 y 33
 elevation 6483
 end
-arch mountain
+arch ghost
+x 1
+y 33
+end
+arch grass
 x 1
 y 34
 elevation 6301
 end
-arch mountain
+arch ghost
+x 1
+y 34
+end
+arch grass
 x 1
 y 35
 elevation 5227
 end
-arch tree
+arch ghost
+x 1
+y 35
+end
+arch grass
 x 1
 y 36
 elevation 2921
 end
-arch woods_2
+arch ghost
+x 1
+y 36
+end
+arch grass
 x 1
 y 37
 elevation 1625
 end
-arch woods_2
+arch ghost
+x 1
+y 37
+end
+arch grass
 x 1
 y 38
 elevation 1834
 end
-arch woods_2
+arch ghost
+x 1
+y 38
+end
+arch grass
 x 1
 y 39
 elevation 1187
 end
-arch brush
+arch ghost
+x 1
+y 39
+end
+arch grass
 x 1
 y 40
 elevation 27
+end
+arch ghost
+x 1
+y 40
 end
 arch brush
 x 1
 y 41
 elevation 570
 end
-arch woods_2
+arch ghost
+x 1
+y 41
+end
+arch grass
 x 1
 y 42
 elevation 1226
 end
-arch woods_2
+arch ghost
+x 1
+y 42
+end
+arch grass
 x 1
 y 43
 elevation 2852
 end
-arch hills_rocky
+arch ghost
+x 1
+y 43
+end
+arch grass
 x 1
 y 44
 elevation 4367
 end
-arch mountain
+arch ghost
+x 1
+y 44
+end
+arch grass
 x 1
 y 45
 elevation 5183
 end
-arch mountain
+arch ghost
+x 1
+y 45
+end
+arch grass
 x 1
 y 46
 elevation 5114
 end
-arch mountain
+arch ghost
+x 1
+y 46
+end
+arch grass
 x 1
 y 47
 elevation 6085
 end
-arch mountain
+arch ghost
+x 1
+y 47
+end
+arch grass
 x 1
 y 48
 elevation 7735
 end
-arch mountain
+arch ghost
+x 1
+y 48
+end
+arch greysandcliff2
 x 1
 y 49
 elevation 8995
@@ -627,32 +692,40 @@ arch fernrockscliff2
 x 2
 y 32
 end
-arch mountain
+arch grass
 x 2
 y 33
 elevation 6915
 end
-arch mountain
+arch ghost
+x 2
+y 33
+end
+arch greysandcliff2
 x 2
 y 34
 elevation 6869
 end
-arch mountain
+arch greysandcliff2
 x 2
 y 35
 elevation 5491
 end
-arch hills
+arch grass
 x 2
 y 36
 elevation 3791
 end
-arch woods_2
+arch ghost
+x 2
+y 36
+end
+arch greysandcliff1
 x 2
 y 37
 elevation 2430
 end
-arch woods_2
+arch grass
 x 2
 y 38
 elevation 1581
@@ -662,12 +735,16 @@ x 2
 y 39
 elevation 946
 end
-arch brush
+arch ghost
+x 2
+y 39
+end
+arch greysandcliff1
 x 2
 y 40
 elevation 120
 end
-arch woods_2
+arch greysandcliff2
 x 2
 y 41
 elevation 1082
@@ -677,37 +754,41 @@ x 2
 y 42
 elevation 739
 end
-arch woods_2
+arch greysandcliff1
 x 2
 y 43
 elevation 2918
 end
-arch hills_rocky
+arch greysandcliff1
 x 2
 y 44
 elevation 3732
 end
-arch hills_rocky
+arch grass
 x 2
 y 45
 elevation 4065
 end
-arch hills_rocky
+arch greysandcliff1
 x 2
 y 46
 elevation 3978
 end
-arch brush
+arch grass
 x 2
 y 47
 elevation 583
 end
-arch mountain
+arch ghost
+x 2
+y 47
+end
+arch greysandcliff1
 x 2
 y 48
 elevation 6991
 end
-arch mountain2
+arch greysandcliff2
 x 2
 y 49
 elevation 9710
@@ -858,32 +939,40 @@ arch fernrockscliff2
 x 3
 y 32
 end
-arch mountain
+arch grass
 x 3
 y 33
 elevation 7224
 end
-arch mountain
+arch ghost
+x 3
+y 33
+end
+arch greysandcliff2
 x 3
 y 34
 elevation 6489
 end
-arch hills
+arch greysandcliff2
 x 3
 y 35
 elevation 4960
 end
-arch hills_rocky
+arch grass
 x 3
 y 36
 elevation 3407
 end
-arch woods_2
+arch ghost
+x 3
+y 36
+end
+arch greysandcliff1
 x 3
 y 37
 elevation 2006
 end
-arch woods_2
+arch greysandcliff1
 x 3
 y 38
 elevation 1120
@@ -893,52 +982,68 @@ x 3
 y 39
 elevation 623
 end
-arch brush
+arch ghost
+x 3
+y 39
+end
+arch greysandcliff1
 x 3
 y 40
 elevation 492
 end
-arch woods_2
+arch grass
 x 3
 y 41
 elevation 2311
 end
-arch hills_rocky
+arch generate_ghost
+x 3
+y 41
+end
+arch grass
 x 3
 y 42
 elevation 3328
 end
-arch hills_rocky
+arch greysandcliff1
 x 3
 y 43
 elevation 3493
 end
-arch woods_2
+arch grass
 x 3
 y 44
 elevation 2806
 end
-arch woods_2
+arch grass
 x 3
 y 45
 elevation 2229
 end
-arch woods_2
+arch ghost
+x 3
+y 45
+end
+arch greysandcliff2
 x 3
 y 46
 elevation 2921
 end
-arch hills_rocky
+arch grass
 x 3
 y 47
 elevation 3435
 end
-arch mountain
+arch ghost
+x 3
+y 47
+end
+arch greysandcliff1
 x 3
 y 48
 elevation 6730
 end
-arch mountain2
+arch greysandcliff2
 x 3
 y 49
 elevation 9833
@@ -1096,87 +1201,107 @@ arch fernrockscliff2
 x 4
 y 32
 end
-arch mountain
+arch grass
 x 4
 y 33
 elevation 7966
 end
-arch mountain
+arch ghost
+x 4
+y 33
+end
+arch greysandcliff2
 x 4
 y 34
 elevation 6845
 end
-arch woods_2
+arch greysandcliff2
 x 4
 y 35
 elevation 2503
 end
-arch woods_2
+arch grass
 x 4
 y 36
 elevation 1953
 end
-arch jungle_1
+arch ghost
+x 4
+y 36
+end
+arch greysandcliff1
 x 4
 y 37
 elevation 2512
 end
-arch woods_2
+arch grass
 x 4
 y 38
 elevation 1985
 end
-arch woods_2
+arch generate_ghost
+x 4
+y 38
+end
+arch grass
 x 4
 y 39
 elevation 2079
 end
-arch woods_2
+arch ghost
+x 4
+y 39
+end
+arch greysandcliff1
 x 4
 y 40
 elevation 2498
 end
-arch hills_rocky
+arch greysandcliff2
 x 4
 y 41
 elevation 4012
 end
-arch hills_rocky
+arch grass
 x 4
 y 42
 elevation 4880
 end
-arch hills_rocky
+arch greysandcliff1
 x 4
 y 43
 elevation 4661
 end
-arch woods_2
+arch greysandcliff1
 x 4
 y 44
 elevation 2966
 end
-arch hills_rocky
+arch grass
 x 4
 y 45
 elevation 3642
 end
-arch woods_2
+arch greysandcliff2
 x 4
 y 46
 elevation 2178
 end
-arch woods_2
+arch grass
 x 4
 y 47
 elevation 2357
 end
-arch mountain
+arch ghost
+x 4
+y 47
+end
+arch greysandcliff1
 x 4
 y 48
 elevation 6961
 end
-arch mountain2
+arch greysandcliff1
 x 4
 y 49
 elevation 9393
@@ -1336,87 +1461,115 @@ arch fernrockscliff2
 x 5
 y 32
 end
-arch mountain
+arch grass
 x 5
 y 33
 elevation 8792
 end
-arch mountain
+arch ghost
+x 5
+y 33
+end
+arch greysandcliff2
 x 5
 y 34
 elevation 7567
 end
-arch mountain
+arch greysandcliff2
 x 5
 y 35
 elevation 6010
 end
-arch hills_rocky
+arch grass
 x 5
 y 36
 elevation 4975
 end
-arch hills_rocky
+arch ghost
+x 5
+y 36
+end
+arch greysandcliff1
 x 5
 y 37
 elevation 4718
 end
-arch hills_rocky
+arch greysandcliff1
 x 5
 y 38
 elevation 4549
 end
-arch hills_rocky
+arch grass
 x 5
 y 39
 elevation 4571
 end
-arch hills_rocky
+arch ghost
+x 5
+y 39
+end
+arch greysandcliff1
 x 5
 y 40
 elevation 4837
 end
-arch mountain
+arch grass
 x 5
 y 41
 elevation 5609
 end
-arch mountain
+arch generate_ghost
+x 5
+y 41
+end
+arch grass
 x 5
 y 42
 elevation 6343
 end
-arch mountain
+arch ghost
+x 5
+y 42
+end
+arch greysandcliff1
 x 5
 y 43
 elevation 6526
 end
-arch mountain
+arch greysandcliff1
 x 5
 y 44
 elevation 6037
 end
-arch hills_rocky
+arch grass
 x 5
 y 45
 elevation 4883
 end
-arch hills_rocky
+arch ghost
+x 5
+y 45
+end
+arch greysandcliff2
 x 5
 y 46
 elevation 3866
 end
-arch hills_rocky
+arch grass
 x 5
 y 47
 elevation 4227
 end
-arch mountain
+arch ghost
+x 5
+y 47
+end
+arch greysandcliff1
 x 5
 y 48
 elevation 6008
 end
-arch mountain
+arch greysandcliff1
 x 5
 y 49
 elevation 7989
@@ -1580,87 +1733,107 @@ arch fernrockscliff2
 x 6
 y 32
 end
-arch mountain
+arch grass
 x 6
 y 33
 elevation 8933
 end
-arch mountain
+arch ghost
+x 6
+y 33
+end
+arch greysandcliff2
 x 6
 y 34
 elevation 7937
 end
-arch mountain
+arch greysandcliff2
 x 6
 y 35
 elevation 6916
 end
-arch mountain
+arch grass
 x 6
 y 36
 elevation 6445
 end
-arch mountain
+arch ghost
+x 6
+y 36
+end
+arch greysandcliff1
 x 6
 y 37
 elevation 6468
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 38
 elevation 6805
 end
-arch mountain
+arch grass
 x 6
 y 39
 elevation 5503
 end
-arch mountain
+arch ghost
+x 6
+y 39
+end
+arch greysandcliff1
 x 6
 y 40
 elevation 6628
 end
-arch mountain
+arch grass
 x 6
 y 41
 elevation 6220
 end
-arch mountain
+arch generate_ghost
+x 6
+y 41
+end
+arch grass
 x 6
 y 42
 elevation 7820
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 43
 elevation 8341
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 44
 elevation 7971
 end
-arch mountain
+arch grass
 x 6
 y 45
 elevation 6322
 end
-arch hills_rocky
+arch greysandcliff2
 x 6
 y 46
 elevation 3821
 end
-arch woods_2
+arch grass
 x 6
 y 47
 elevation 1242
 end
-arch hills_rocky
+arch ghost
+x 6
+y 47
+end
+arch greysandcliff1
 x 6
 y 48
 elevation 4414
 end
-arch mountain
+arch greysandcliff2
 x 6
 y 49
 elevation 5705
@@ -1827,87 +2000,111 @@ arch fernrockscliff2
 x 7
 y 32
 end
-arch mountain
+arch grass
 x 7
 y 33
 elevation 8580
 end
-arch mountain
+arch ghost
+x 7
+y 33
+end
+arch greysandcliff2
 x 7
 y 34
 elevation 6662
 end
-arch mountain
+arch greysandcliff1
 x 7
 y 35
 elevation 6189
 end
-arch mountain
+arch grass
 x 7
 y 36
 elevation 6692
 end
-arch mountain
+arch ghost
+x 7
+y 36
+end
+arch greysandcliff1
 x 7
 y 37
 elevation 7776
 end
-arch mountain
+arch grass
 x 7
 y 38
 elevation 8305
 end
-arch mountain
+arch generate_ghost
+x 7
+y 38
+end
+arch grass
 x 7
 y 39
 elevation 8318
 end
-arch mountain
+arch ghost
+x 7
+y 39
+end
+arch greysandcliff1
 x 7
 y 40
 elevation 8113
 end
-arch mountain
+arch greysandcliff1
 x 7
 y 41
 elevation 8588
 end
-arch mountain2
+arch grass
 x 7
 y 42
 elevation 9141
 end
-arch mountain2
+arch greysandcliff1
 x 7
 y 43
 elevation 9502
 end
-arch mountain2
+arch greysandcliff1
 x 7
 y 44
 elevation 9219
 end
-arch mountain
+arch grass
 x 7
 y 45
 elevation 7555
 end
-arch hills_rocky
+arch ghost
+x 7
+y 45
+end
+arch greysandcliff2
 x 7
 y 46
 elevation 3700
 end
-arch woods_2
+arch grass
 x 7
 y 47
 elevation 2231
 end
-arch jungle_1
+arch ghost
+x 7
+y 47
+end
+arch greysandcliff1
 x 7
 y 48
 elevation 1057
 end
-arch hills
+arch greysandcliff2
 x 7
 y 49
 elevation 3326
@@ -2069,87 +2266,111 @@ arch fernrockscliff2
 x 8
 y 32
 end
-arch mountain
+arch grass
 x 8
 y 33
 elevation 7680
 end
-arch mountain
+arch ghost
+x 8
+y 33
+end
+arch greysandcliff2
 x 8
 y 34
 elevation 6317
 end
-arch hills_rocky
+arch greysandcliff2
 x 8
 y 35
 elevation 3626
 end
-arch mountain
+arch grass
 x 8
 y 36
 elevation 6094
 end
-arch mountain
+arch ghost
+x 8
+y 36
+end
+arch greysandcliff1
 x 8
 y 37
 elevation 7758
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 38
 elevation 8690
 end
-arch mountain
+arch grass
 x 8
 y 39
 elevation 8893
 end
-arch mountain2
+arch ghost
+x 8
+y 39
+end
+arch greysandcliff1
 x 8
 y 40
 elevation 9075
 end
-arch mountain2
+arch grass
 x 8
 y 41
 elevation 9327
 end
-arch mountain2
+arch generate_ghost
+x 8
+y 41
+end
+arch grass
 x 8
 y 42
 elevation 9782
 end
-arch mountain2
+arch ghost
+x 8
+y 42
+end
+arch greysandcliff1
 x 8
 y 43
 elevation 10213
 end
-arch mountain2
+arch greysandcliff1
 x 8
 y 44
 elevation 9626
 end
-arch mountain2
+arch grass
 x 8
 y 45
 elevation 9450
 end
-arch mountain
+arch greysandcliff2
 x 8
 y 46
 elevation 6924
 end
-arch woods_2
+arch grass
 x 8
 y 47
 elevation 2739
 end
-arch jungle_1
+arch ghost
+x 8
+y 47
+end
+arch greysandcliff1
 x 8
 y 48
 elevation 1287
 end
-arch hills_rocky
+arch greysandcliff2
 x 8
 y 49
 elevation 3832
@@ -2307,87 +2528,107 @@ arch fernrockscliff2
 x 9
 y 32
 end
-arch mountain
+arch grass
 x 9
 y 33
 elevation 6223
 end
-arch mountain
+arch ghost
+x 9
+y 33
+end
+arch greysandcliff2
 x 9
 y 34
 elevation 5365
 end
-arch woods_2
+arch greysandcliff2
 x 9
 y 35
 elevation 2821
 end
-arch hills
+arch grass
 x 9
 y 36
 elevation 4598
 end
-arch mountain
+arch ghost
+x 9
+y 36
+end
+arch greysandcliff1
 x 9
 y 37
 elevation 6288
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 38
 elevation 7659
 end
-arch mountain
+arch grass
 x 9
 y 39
 elevation 8035
 end
-arch mountain
+arch ghost
+x 9
+y 39
+end
+arch greysandcliff1
 x 9
 y 40
 elevation 8634
 end
-arch mountain2
+arch greysandcliff2
 x 9
 y 41
 elevation 9534
 end
-arch mountain
+arch grass
 x 9
 y 42
 elevation 8560
 end
-arch mountain2
+arch greysandcliff1
 x 9
 y 43
 elevation 10463
 end
-arch mountain4
+arch greysandcliff1
 x 9
 y 44
 elevation 12136
 end
-arch mountain2
+arch grass
 x 9
 y 45
 elevation 11496
 end
-arch mountain2
+arch ghost
+x 9
+y 45
+end
+arch greysandcliff2
 x 9
 y 46
 elevation 9085
 end
-arch mountain
+arch grass
 x 9
 y 47
 elevation 5389
 end
-arch hills_rocky
+arch ghost
+x 9
+y 47
+end
+arch greysandcliff1
 x 9
 y 48
 elevation 4932
 end
-arch mountain
+arch greysandcliff2
 x 9
 y 49
 elevation 5754
@@ -2546,87 +2787,103 @@ arch fernrockscliff2
 x 10
 y 32
 end
-arch hills
+arch grass
 x 10
 y 33
 elevation 4386
 end
-arch hills_rocky
+arch ghost
+x 10
+y 33
+end
+arch greysandcliff2
 x 10
 y 34
 elevation 4955
 end
-arch hills_rocky
+arch greysandcliff1
 x 10
 y 35
 elevation 3748
 end
-arch woods_2
+arch grass
 x 10
 y 36
 elevation 1107
 end
-arch tree
+arch ghost
+x 10
+y 36
+end
+arch greysandcliff1
 x 10
 y 37
 elevation 2827
 end
-arch mountain
+arch greysandcliff1
 x 10
 y 38
 elevation 7072
 end
-arch mountain
+arch grass
 x 10
 y 39
 elevation 7434
 end
-arch mountain
+arch ghost
+x 10
+y 39
+end
+arch greysandcliff1
 x 10
 y 40
 elevation 8672
 end
-arch mountain2
+arch greysandcliff2
 x 10
 y 41
 elevation 9374
 end
-arch mountain2
+arch grass
 x 10
 y 42
 elevation 10167
 end
-arch mountain2
+arch greysandcliff1
 x 10
 y 43
 elevation 11957
 end
-arch mountain4
+arch greysandcliff1
 x 10
 y 44
 elevation 13361
 end
-arch mountain4
+arch grass
 x 10
 y 45
 elevation 12276
 end
-arch mountain2
+arch greysandcliff2
 x 10
 y 46
 elevation 9950
 end
-arch mountain
+arch grass
 x 10
 y 47
 elevation 8532
 end
-arch mountain
+arch ghost
+x 10
+y 47
+end
+arch greysandcliff1
 x 10
 y 48
 elevation 8690
 end
-arch mountain
+arch greysandcliff2
 x 10
 y 49
 elevation 8587
@@ -2835,87 +3092,107 @@ arch fernrockscliff2
 x 11
 y 32
 end
-arch hills_rocky
+arch grass
 x 11
 y 33
 elevation 4664
 end
-arch mountain
+arch ghost
+x 11
+y 33
+end
+arch greysandcliff2
 x 11
 y 34
 elevation 5018
 end
-arch hills_rocky
+arch greysandcliff2
 x 11
 y 35
 elevation 4791
 end
-arch mountain
+arch grass
 x 11
 y 36
 elevation 5062
 end
-arch mountain
+arch ghost
+x 11
+y 36
+end
+arch greysandcliff1
 x 11
 y 37
 elevation 6152
 end
-arch mountain
+arch greysandcliff1
 x 11
 y 38
 elevation 7191
 end
-arch mountain
+arch grass
 x 11
 y 39
 elevation 7524
 end
-arch mountain
+arch ghost
+x 11
+y 39
+end
+arch greysandcliff2
 x 11
 y 40
 elevation 7746
 end
-arch mountain
+arch grass
 x 11
 y 41
 elevation 8368
 end
-arch mountain2
+arch generate_ghost
+x 11
+y 41
+end
+arch grass
 x 11
 y 42
 elevation 9827
 end
-arch mountain2
+arch greysandcliff1
 x 11
 y 43
 elevation 11590
 end
-arch mountain4
+arch greysandcliff1
 x 11
 y 44
 elevation 12720
 end
-arch mountain2
+arch grass
 x 11
 y 45
 elevation 11670
 end
-arch mountain
+arch greysandcliff2
 x 11
 y 46
 elevation 6078
 end
-arch mountain2
+arch grass
 x 11
 y 47
 elevation 10142
 end
-arch mountain2
+arch ghost
+x 11
+y 47
+end
+arch greysandcliff1
 x 11
 y 48
 elevation 11590
 end
-arch mountain2
+arch greysandcliff2
 x 11
 y 49
 elevation 11889
@@ -3130,87 +3407,111 @@ arch fernrockscliff2
 x 12
 y 32
 end
-arch mountain
+arch grass
 x 12
 y 33
 elevation 6230
 end
-arch hills
+arch ghost
+x 12
+y 33
+end
+arch greysandcliff2
 x 12
 y 34
 elevation 4171
 end
-arch hills
+arch greysandcliff1
 x 12
 y 35
 elevation 4428
 end
-arch mountain
+arch grass
 x 12
 y 36
 elevation 7068
 end
-arch mountain
+arch ghost
+x 12
+y 36
+end
+arch greysandcliff1
 x 12
 y 37
 elevation 7710
 end
-arch mountain
+arch greysandcliff1
 x 12
 y 38
 elevation 7822
 end
-arch mountain
+arch grass
 x 12
 y 39
 elevation 7343
 end
-arch hills_rocky
+arch ghost
+x 12
+y 39
+end
+arch greysandcliff2
 x 12
 y 40
 elevation 4250
 end
-arch mountain
+arch greysandcliff2
 x 12
 y 41
 elevation 6224
 end
-arch mountain
+arch grass
 x 12
 y 42
 elevation 7149
 end
-arch mountain2
+arch ghost
+x 12
+y 42
+end
+arch greysandcliff1
 x 12
 y 43
 elevation 9833
 end
-arch mountain2
+arch greysandcliff1
 x 12
 y 44
 elevation 10783
 end
-arch mountain2
+arch grass
 x 12
 y 45
 elevation 10142
 end
-arch mountain2
+arch ghost
+x 12
+y 45
+end
+arch greysandcliff2
 x 12
 y 46
 elevation 10249
 end
-arch mountain2
+arch grass
 x 12
 y 47
 elevation 11424
 end
-arch mountain4
+arch ghost
+x 12
+y 47
+end
+arch greysandcliff1
 x 12
 y 48
 elevation 13748
 end
-arch mountain4
+arch greysandcliff2
 x 12
 y 49
 elevation 14774
@@ -3411,87 +3712,107 @@ arch fernrockscliff2
 x 13
 y 32
 end
-arch mountain
+arch grass
 x 13
 y 33
 elevation 7508
 end
-arch mountain
+arch ghost
+x 13
+y 33
+end
+arch greysandcliff2
 x 13
 y 34
 elevation 7324
 end
-arch mountain
+arch grass
 x 13
 y 35
 elevation 7754
 end
-arch mountain
+arch grass
 x 13
 y 36
 elevation 8643
 end
-arch mountain
+arch ghost
+x 13
+y 36
+end
+arch greysandcliff1
 x 13
 y 37
 elevation 7907
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 38
 elevation 8071
 end
-arch mountain
+arch grass
 x 13
 y 39
 elevation 6977
 end
-arch mountain
+arch ghost
+x 13
+y 39
+end
+arch greysandcliff2
 x 13
 y 40
 elevation 5784
 end
-arch hills
+arch greysandcliff2
 x 13
 y 41
 elevation 3608
 end
-arch mountain
+arch grass
 x 13
 y 42
 elevation 6382
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 43
 elevation 7756
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 44
 elevation 8780
 end
-arch mountain2
+arch grass
 x 13
 y 45
 elevation 9490
 end
-arch mountain
+arch greysandcliff2
 x 13
 y 46
 elevation 7989
 end
-arch mountain4
+arch grass
 x 13
 y 47
 elevation 13068
 end
-arch mountain4
+arch ghost
+x 13
+y 47
+end
+arch grass
 x 13
 y 48
 elevation 15074
 end
-arch mountain5
+arch generate_ghost
+x 13
+y 48
+end
+arch greysandcliff2
 x 13
 y 49
 elevation 16639
@@ -3692,87 +4013,115 @@ arch fernrockscliff2
 x 14
 y 32
 end
-arch mountain
+arch grass
 x 14
 y 33
 elevation 7857
 end
-arch mountain
+arch ghost
+x 14
+y 33
+end
+arch greysandcliff2
 x 14
 y 34
 elevation 6414
 end
-arch mountain2
+arch greysandcliff2
 x 14
 y 35
 elevation 9428
 end
-arch mountain2
+arch grass
 x 14
 y 36
 elevation 10650
 end
-arch mountain2
+arch ghost
+x 14
+y 36
+end
+arch greysandcliff1
 x 14
 y 37
 elevation 10316
 end
-arch mountain
+arch greysandcliff1
 x 14
 y 38
 elevation 7419
 end
-arch mountain
+arch grass
 x 14
 y 39
 elevation 6674
 end
-arch mountain
+arch ghost
+x 14
+y 39
+end
+arch greysandcliff2
 x 14
 y 40
 elevation 6334
 end
-arch hills_rocky
+arch grass
 x 14
 y 41
 elevation 4284
 end
-arch mountain
+arch generate_ghost
+x 14
+y 41
+end
+arch grass
 x 14
 y 42
 elevation 5997
 end
-arch mountain
+arch ghost
+x 14
+y 42
+end
+arch greysandcliff1
 x 14
 y 43
 elevation 6518
 end
-arch hills
+arch grass
 x 14
 y 44
 elevation 4844
 end
-arch mountain2
+arch generate_ghost
+x 14
+y 44
+end
+arch grass
 x 14
 y 45
 elevation 9139
 end
-arch mountain2
+arch greysandcliff2
 x 14
 y 46
 elevation 11779
 end
-arch mountain4
+arch grass
 x 14
 y 47
 elevation 13755
 end
-arch mountain4
+arch ghost
+x 14
+y 47
+end
+arch greysandcliff1
 x 14
 y 48
 elevation 15739
 end
-arch mountain5
+arch greysandcliff2
 x 14
 y 49
 elevation 17105
@@ -3959,87 +4308,111 @@ arch fernrockscliff2
 x 15
 y 32
 end
-arch mountain
+arch grass
 x 15
 y 33
 elevation 7306
 end
-arch mountain
+arch ghost
+x 15
+y 33
+end
+arch greysandcliff2
 x 15
 y 34
 elevation 7231
 end
-arch mountain2
+arch grass
 x 15
 y 35
 elevation 10687
 end
-arch mountain4
+arch grass
 x 15
 y 36
 elevation 12687
 end
-arch mountain4
+arch ghost
+x 15
+y 36
+end
+arch greysandcliff1
 x 15
 y 37
 elevation 12774
 end
-arch mountain2
+arch greysandcliff1
 x 15
 y 38
 elevation 11009
 end
-arch mountain2
+arch grass
 x 15
 y 39
 elevation 9333
 end
-arch mountain
+arch ghost
+x 15
+y 39
+end
+arch greysandcliff2
 x 15
 y 40
 elevation 7476
 end
-arch mountain
+arch grass
 x 15
 y 41
 elevation 5451
 end
-arch mountain
+arch generate_ghost
+x 15
+y 41
+end
+arch grass
 x 15
 y 42
 elevation 6200
 end
-arch mountain
+arch greysandcliff1
 x 15
 y 43
 elevation 6533
 end
-arch hills_rocky
+arch greysandcliff1
 x 15
 y 44
 elevation 4113
 end
-arch mountain2
+arch grass
 x 15
 y 45
 elevation 9607
 end
-arch mountain4
+arch ghost
+x 15
+y 45
+end
+arch greysandcliff2
 x 15
 y 46
 elevation 13067
 end
-arch mountain4
+arch grass
 x 15
 y 47
 elevation 14829
 end
-arch mountain4
+arch ghost
+x 15
+y 47
+end
+arch greysandcliff1
 x 15
 y 48
 elevation 12300
 end
-arch mountain5
+arch greysandcliff2
 x 15
 y 49
 elevation 17765
@@ -4249,87 +4622,111 @@ arch fernrockscliff2
 x 16
 y 32
 end
-arch mountain
+arch grass
 x 16
 y 33
 elevation 8524
 end
-arch mountain2
+arch ghost
+x 16
+y 33
+end
+arch greysandcliff2
 x 16
 y 34
 elevation 9869
 end
-arch mountain4
+arch greysandcliff2
 x 16
 y 35
 elevation 12029
 end
-arch mountain4
+arch grass
 x 16
 y 36
 elevation 14240
 end
-arch mountain4
+arch ghost
+x 16
+y 36
+end
+arch greysandcliff1
 x 16
 y 37
 elevation 15043
 end
-arch mountain4
+arch greysandcliff1
 x 16
 y 38
 elevation 13889
 end
-arch mountain2
+arch grass
 x 16
 y 39
 elevation 9986
 end
-arch mountain2
+arch ghost
+x 16
+y 39
+end
+arch greysandcliff2
 x 16
 y 40
 elevation 9259
 end
-arch mountain
+arch grass
 x 16
 y 41
 elevation 6529
 end
-arch mountain
+arch generate_ghost
+x 16
+y 41
+end
+arch grass
 x 16
 y 42
 elevation 7511
 end
-arch mountain
+arch ghost
+x 16
+y 42
+end
+arch greysandcliff1
 x 16
 y 43
 elevation 7382
 end
-arch mountain
+arch greysandcliff1
 x 16
 y 44
 elevation 7259
 end
-arch mountain2
+arch grass
 x 16
 y 45
 elevation 9741
 end
-arch mountain4
+arch greysandcliff2
 x 16
 y 46
 elevation 12862
 end
-arch mountain4
+arch grass
 x 16
 y 47
 elevation 14862
 end
-arch mountain5
+arch ghost
+x 16
+y 47
+end
+arch greysandcliff1
 x 16
 y 48
 elevation 16641
 end
-arch mountain5
+arch greysandcliff2
 x 16
 y 49
 elevation 18255
@@ -4552,87 +4949,107 @@ arch fernrockscliff2
 x 17
 y 32
 end
-arch mountain
+arch grass
 x 17
 y 33
 elevation 8991
 end
-arch mountain2
+arch ghost
+x 17
+y 33
+end
+arch greysandcliff2
 x 17
 y 34
 elevation 10785
 end
-arch mountain4
+arch grass
 x 17
 y 35
 elevation 12590
 end
-arch mountain4
+arch grass
 x 17
 y 36
 elevation 14640
 end
-arch mountain4
+arch ghost
+x 17
+y 36
+end
+arch greysandcliff1
 x 17
 y 37
 elevation 15949
 end
-arch mountain4
+arch greysandcliff1
 x 17
 y 38
 elevation 15617
 end
-arch mountain4
+arch grass
 x 17
 y 39
 elevation 13428
 end
-arch mountain2
+arch ghost
+x 17
+y 39
+end
+arch greysandcliff2
 x 17
 y 40
 elevation 10209
 end
-arch mountain
+arch greysandcliff2
 x 17
 y 41
 elevation 8579
 end
-arch mountain
+arch grass
 x 17
 y 42
 elevation 7797
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 43
 elevation 7658
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 44
 elevation 7918
 end
-arch mountain
+arch grass
 x 17
 y 45
 elevation 8672
 end
-arch mountain2
+arch greysandcliff2
 x 17
 y 46
 elevation 10894
 end
-arch mountain4
+arch grass
 x 17
 y 47
 elevation 13296
 end
-arch mountain4
+arch ghost
+x 17
+y 47
+end
+arch grass
 x 17
 y 48
 elevation 15768
 end
-arch mountain5
+arch generate_ghost
+x 17
+y 48
+end
+arch greysandcliff2
 x 17
 y 49
 elevation 17845
@@ -4828,87 +5245,111 @@ arch fernrockscliff2
 x 18
 y 32
 end
-arch mountain2
+arch grass
 x 18
 y 33
 elevation 9639
 end
-arch mountain2
+arch ghost
+x 18
+y 33
+end
+arch greysandcliff2
 x 18
 y 34
 elevation 10828
 end
-arch mountain2
+arch greysandcliff2
 x 18
 y 35
 elevation 11753
 end
-arch mountain4
+arch grass
 x 18
 y 36
 elevation 13358
 end
-arch mountain4
+arch ghost
+x 18
+y 36
+end
+arch greysandcliff1
 x 18
 y 37
 elevation 15115
 end
-arch mountain4
+arch greysandcliff1
 x 18
 y 38
 elevation 15659
 end
-arch mountain4
+arch grass
 x 18
 y 39
 elevation 13883
 end
-arch mountain2
+arch ghost
+x 18
+y 39
+end
+arch greysandcliff1
 x 18
 y 40
 elevation 10177
 end
-arch mountain
+arch greysandcliff2
 x 18
 y 41
 elevation 7182
 end
-arch mountain
+arch grass
 x 18
 y 42
 elevation 5891
 end
-arch mountain
+arch ghost
+x 18
+y 42
+end
+arch greysandcliff1
 x 18
 y 43
 elevation 5968
 end
-arch mountain
+arch greysandcliff1
 x 18
 y 44
 elevation 6710
 end
-arch mountain
+arch grass
 x 18
 y 45
 elevation 7471
 end
-arch mountain
+arch ghost
+x 18
+y 45
+end
+arch greysandcliff2
 x 18
 y 46
 elevation 6984
 end
-arch mountain
+arch grass
 x 18
 y 47
 elevation 7052
 end
-arch mountain4
+arch ghost
+x 18
+y 47
+end
+arch greysandcliff2
 x 18
 y 48
 elevation 12930
 end
-arch mountain4
+arch greysandcliff2
 x 18
 y 49
 elevation 15529
@@ -5128,87 +5569,115 @@ arch fernrockscliff2
 x 19
 y 32
 end
-arch mountain2
+arch grass
 x 19
 y 33
 elevation 10795
 end
-arch mountain2
+arch ghost
+x 19
+y 33
+end
+arch greysandcliff2
 x 19
 y 34
 elevation 9826
 end
-arch mountain2
+arch grass
 x 19
 y 35
 elevation 10260
 end
-arch mountain2
+arch grass
 x 19
 y 36
 elevation 9981
 end
-arch mountain4
+arch ghost
+x 19
+y 36
+end
+arch greysandcliff1
 x 19
 y 37
 elevation 12490
 end
-arch mountain4
+arch greysandcliff1
 x 19
 y 38
 elevation 14534
 end
-arch mountain4
+arch grass
 x 19
 y 39
 elevation 12655
 end
-arch mountain
+arch ghost
+x 19
+y 39
+end
+arch greysandcliff1
 x 19
 y 40
 elevation 8424
 end
-arch jungle_1
+arch greysandcliff2
 x 19
 y 41
 elevation 1325
 end
-arch jungle_1
+arch grass
 x 19
 y 42
 elevation 1794
 end
-arch hills
+arch ghost
+x 19
+y 42
+end
+arch greysandcliff1
 x 19
 y 43
 elevation 3292
 end
-arch jungle_1
+arch greysandcliff1
 x 19
 y 44
 elevation 2551
 end
-arch mountain
+arch grass
 x 19
 y 45
 elevation 6001
 end
-arch mountain
+arch ghost
+x 19
+y 45
+end
+arch greysandcliff2
 x 19
 y 46
 elevation 5824
 end
-arch hills
+arch grass
 x 19
 y 47
 elevation 4729
 end
-arch mountain2
+arch ghost
+x 19
+y 47
+end
+arch grass
 x 19
 y 48
 elevation 9617
 end
-arch mountain4
+arch generate_ghost
+x 19
+y 48
+end
+arch greysandcliff2
 x 19
 y 49
 elevation 12057
@@ -5416,42 +5885,54 @@ arch fernrockscliff2
 x 20
 y 32
 end
-arch mountain4
+arch grass
 x 20
 y 33
 elevation 12180
 end
-arch mountain4
+arch ghost
+x 20
+y 33
+end
+arch greysandcliff2
 x 20
 y 34
 elevation 12580
 end
-arch mountain4
+arch greysandcliff2
 x 20
 y 35
 elevation 12399
 end
-arch mountain4
+arch grass
 x 20
 y 36
 elevation 12991
 end
-arch mountain4
+arch ghost
+x 20
+y 36
+end
+arch greysandcliff1
 x 20
 y 37
 elevation 13579
 end
-arch mountain4
+arch greysandcliff1
 x 20
 y 38
 elevation 12939
 end
-arch mountain2
+arch grass
 x 20
 y 39
 elevation 10240
 end
-arch mountain
+arch ghost
+x 20
+y 39
+end
+arch greysandcliff1
 x 20
 y 40
 elevation 6272
@@ -5461,42 +5942,50 @@ x 20
 y 41
 elevation 2577
 end
-arch desert
+arch grass
 x 20
 y 42
 elevation 309
 end
-arch desert
+arch ghost
+x 20
+y 42
+end
+arch greysandcliff1
 x 20
 y 43
 elevation 317
 end
-arch hills
+arch greysandcliff1
 x 20
 y 44
 elevation 3597
 end
-arch mountain
+arch grass
 x 20
 y 45
 elevation 5011
 end
-arch mountain
+arch ghost
+x 20
+y 45
+end
+arch greysandcliff2
 x 20
 y 46
 elevation 5432
 end
-arch mountain
+arch grass
 x 20
 y 47
 elevation 5848
 end
-arch mountain
+arch greysandcliff2
 x 20
 y 48
 elevation 6822
 end
-arch mountain
+arch greysandcliff2
 x 20
 y 49
 elevation 7942
@@ -5667,87 +6156,107 @@ arch fernrockscliff2
 x 21
 y 32
 end
-arch mountain4
+arch grass
 x 21
 y 33
 elevation 12708
 end
-arch mountain4
+arch ghost
+x 21
+y 33
+end
+arch greysandcliff2
 x 21
 y 34
 elevation 13361
 end
-arch mountain4
+arch grass
 x 21
 y 35
 elevation 13601
 end
-arch mountain4
+arch grass
 x 21
 y 36
 elevation 13759
 end
-arch mountain4
+arch ghost
+x 21
+y 36
+end
+arch greysandcliff1
 x 21
 y 37
 elevation 13606
 end
-arch mountain2
+arch greysandcliff1
 x 21
 y 38
 elevation 11350
 end
-arch mountain
+arch grass
 x 21
 y 39
 elevation 7104
 end
-arch jungle_1
+arch ghost
+x 21
+y 39
+end
+arch greysandcliff1
 x 21
 y 40
 elevation 1853
 end
-arch jungle_1
+arch greysandcliff2
 x 21
 y 41
 elevation 2549
 end
-arch desert
+arch grass
 x 21
 y 42
 elevation 293
 end
-arch desert
+arch greysandcliff1
 x 21
 y 43
 elevation 856
 end
-arch hills
+arch greysandcliff1
 x 21
 y 44
 elevation 3755
 end
-arch hills
+arch grass
 x 21
 y 45
 elevation 4469
 end
-arch hills
+arch greysandcliff2
 x 21
 y 46
 elevation 4613
 end
-arch hills
+arch grass
 x 21
 y 47
 elevation 3208
 end
-arch hills
+arch ghost
+x 21
+y 47
+end
+arch grass
 x 21
 y 48
 elevation 3961
 end
-arch hills
+arch generate_ghost
+x 21
+y 48
+end
+arch greysandcliff2
 x 21
 y 49
 elevation 4949
@@ -5939,87 +6448,111 @@ arch fernrockscliff2
 x 22
 y 32
 end
-arch mountain2
+arch grass
 x 22
 y 33
 elevation 11919
 end
-arch mountain4
+arch ghost
+x 22
+y 33
+end
+arch greysandcliff2
 x 22
 y 34
 elevation 12511
 end
-arch mountain2
+arch greysandcliff2
 x 22
 y 35
 elevation 11661
 end
-arch mountain4
+arch grass
 x 22
 y 36
 elevation 12817
 end
-arch mountain4
+arch ghost
+x 22
+y 36
+end
+arch greysandcliff1
 x 22
 y 37
 elevation 12367
 end
-arch mountain2
+arch greysandcliff1
 x 22
 y 38
 elevation 9828
 end
-arch woods_2
+arch grass
 x 22
 y 39
 elevation 2973
 end
-arch desert
+arch ghost
+x 22
+y 39
+end
+arch greysandcliff1
 x 22
 y 40
 elevation 663
 end
-arch hills
+arch greysandcliff2
 x 22
 y 41
 elevation 3343
 end
-arch steppe
+arch grass
 x 22
 y 42
 elevation 3719
 end
-arch steppe
+arch ghost
+x 22
+y 42
+end
+arch greysandcliff1
 x 22
 y 43
 elevation 4072
 end
-arch steppe
+arch greysandcliff1
 x 22
 y 44
 elevation 4410
 end
-arch hills
+arch grass
 x 22
 y 45
 elevation 4144
 end
-arch jungle_1
+arch ghost
+x 22
+y 45
+end
+arch greysandcliff2
 x 22
 y 46
 elevation 2578
 end
-arch steppe
+arch grass
 x 22
 y 47
 elevation 3163
 end
-arch jungle_1
+arch ghost
+x 22
+y 47
+end
+arch greysandcliff2
 x 22
 y 48
 elevation 2902
 end
-arch desert
+arch greysandcliff2
 x 22
 y 49
 elevation 965
@@ -6211,77 +6744,89 @@ arch fernrockscliff2
 x 23
 y 32
 end
-arch mountain2
+arch grass
 x 23
 y 33
 elevation 9978
 end
-arch mountain2
+arch ghost
+x 23
+y 33
+end
+arch greysandcliff1
 x 23
 y 34
 elevation 10169
 end
-arch mountain2
+arch greysandcliff1
 x 23
 y 35
 elevation 10292
 end
-arch mountain2
+arch grass
 x 23
 y 36
 elevation 10549
 end
-arch mountain2
+arch ghost
+x 23
+y 36
+end
+arch greysandcliff1
 x 23
 y 37
 elevation 10171
 end
-arch mountain
+arch greysandcliff1
 x 23
 y 38
 elevation 8306
 end
-arch mountain
+arch grass
 x 23
 y 39
 elevation 6116
 end
-arch hills
+arch ghost
+x 23
+y 39
+end
+arch greysandcliff1
 x 23
 y 40
 elevation 4226
 end
-arch mountain
+arch greysandcliff2
 x 23
 y 41
 elevation 5328
 end
-arch mountain
+arch grass
 x 23
 y 42
 elevation 5982
 end
-arch mountain
+arch greysandcliff1
 x 23
 y 43
 elevation 5765
 end
-arch steppe
+arch grass
 x 23
 y 44
 elevation 4828
 end
-arch steppe
+arch grass
 x 23
 y 45
 elevation 3467
 end
-arch jungle_1
+arch greysandcliff2
 x 23
 y 46
 elevation 1748
 end
-arch woods_2
+arch grass
 x 23
 y 47
 elevation 2846
@@ -6291,7 +6836,11 @@ x 23
 y 48
 elevation 2184
 end
-arch desert
+arch generate_ghost
+x 23
+y 48
+end
+arch greysandcliff2
 x 23
 y 49
 elevation 988
@@ -6489,87 +7038,111 @@ arch fernrockscliff2
 x 24
 y 32
 end
-arch mountain
+arch grass
 x 24
 y 33
 elevation 6762
 end
-arch mountain
+arch ghost
+x 24
+y 33
+end
+arch greysandcliff1
 x 24
 y 34
 elevation 6129
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 35
 elevation 8193
 end
-arch mountain
+arch grass
 x 24
 y 36
 elevation 8332
 end
-arch mountain
+arch ghost
+x 24
+y 36
+end
+arch greysandcliff1
 x 24
 y 37
 elevation 7266
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 38
 elevation 6873
 end
-arch mountain
+arch grass
 x 24
 y 39
 elevation 6403
 end
-arch mountain
+arch ghost
+x 24
+y 39
+end
+arch greysandcliff1
 x 24
 y 40
 elevation 6580
 end
-arch mountain
+arch greysandcliff2
 x 24
 y 41
 elevation 7042
 end
-arch mountain
+arch grass
 x 24
 y 42
 elevation 7389
 end
-arch mountain
+arch ghost
+x 24
+y 42
+end
+arch greysandcliff1
 x 24
 y 43
 elevation 5992
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 44
 elevation 5062
 end
-arch jungle_1
+arch grass
 x 24
 y 45
 elevation 2626
 end
-arch steppe
+arch ghost
+x 24
+y 45
+end
+arch greysandcliff2
 x 24
 y 46
 elevation 4200
 end
-arch steppe
+arch grass
 x 24
 y 47
 elevation 3168
 end
-arch jungle_1
+arch ghost
+x 24
+y 47
+end
+arch greysandcliff2
 x 24
 y 48
 elevation 1030
 end
-arch jungle_1
+arch greysandcliff2
 x 24
 y 49
 elevation 1443
@@ -6764,87 +7337,147 @@ arch fernrockscliff2
 x 25
 y 32
 end
-arch mountain
+arch grass
 x 25
 y 33
 elevation 7853
 end
-arch mountain
+arch ghost
+x 25
+y 33
+end
+arch grass
 x 25
 y 34
 elevation 7185
 end
-arch mountain
+arch ghost
+x 25
+y 34
+end
+arch grass
 x 25
 y 35
 elevation 5807
 end
-arch mountain
+arch ghost
+x 25
+y 35
+end
+arch grass
 x 25
 y 36
 elevation 6533
 end
-arch mountain
+arch ghost
+x 25
+y 36
+end
+arch grass
 x 25
 y 37
 elevation 5569
 end
-arch steppe
+arch ghost
+x 25
+y 37
+end
+arch grass
 x 25
 y 38
 elevation 3139
 end
-arch mountain
+arch ghost
+x 25
+y 38
+end
+arch grass
 x 25
 y 39
 elevation 5487
 end
-arch mountain
+arch ghost
+x 25
+y 39
+end
+arch grass
 x 25
 y 40
 elevation 6831
 end
-arch mountain
+arch ghost
+x 25
+y 40
+end
+arch grass
 x 25
 y 41
 elevation 7700
 end
-arch mountain
+arch ghost
+x 25
+y 41
+end
+arch grass
 x 25
 y 42
 elevation 7911
 end
-arch mountain
+arch ghost
+x 25
+y 42
+end
+arch grass
 x 25
 y 43
 elevation 7783
 end
-arch mountain
+arch ghost
+x 25
+y 43
+end
+arch grass
 x 25
 y 44
 elevation 7307
 end
-arch mountain
+arch ghost
+x 25
+y 44
+end
+arch grass
 x 25
 y 45
 elevation 6911
 end
-arch mountain
+arch ghost
+x 25
+y 45
+end
+arch grass
 x 25
 y 46
 elevation 5941
 end
-arch hills
+arch ghost
+x 25
+y 46
+end
+arch grass
 x 25
 y 47
 elevation 4353
 end
-arch jungle_1
+arch ghost
+x 25
+y 47
+end
+arch grass
 x 25
 y 48
 elevation 1182
 end
-arch woods_2
+arch greysandcliff2
 x 25
 y 49
 elevation 2824
@@ -6993,85 +7626,89 @@ arch fernrockscliff2
 x 26
 y 32
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 33
 elevation 8369
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 34
 elevation 7601
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 35
 elevation 6081
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 36
 elevation 5282
 end
-arch steppe
+arch greysandcliff2
 x 26
 y 37
 elevation 4826
 end
-arch brush
+arch greysandcliff2
 x 26
 y 38
 elevation 861
 end
-arch steppe
+arch greysandcliff2
 x 26
 y 39
 elevation 4401
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 40
 elevation 6060
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 41
 elevation 7154
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 42
 elevation 7993
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 43
 elevation 8378
 end
-arch mountain2
+arch greysandcliff2
 x 26
 y 44
 elevation 9160
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 45
 elevation 8961
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 46
 elevation 7636
 end
-arch mountain
+arch greysandcliff2
 x 26
 y 47
 elevation 5874
 end
-arch hills
+arch grass
 x 26
 y 48
 elevation 3647
+end
+arch ghost
+x 26
+y 48
 end
 arch fernrockscliff2
 x 26
@@ -7229,82 +7866,98 @@ arch fernrockscliff2
 x 27
 y 32
 end
-arch mountain
+arch grass
 x 27
 y 33
 elevation 7973
 end
-arch mountain
+arch grass
 x 27
 y 34
 elevation 8413
 end
-arch mountain
+arch vein_iron
+x 27
+y 34
+end
+arch grass
 x 27
 y 35
 elevation 7132
 end
-arch mountain
+arch vein_iron
+x 27
+y 35
+end
+arch grass
 x 27
 y 36
 elevation 5930
 end
-arch steppe
+arch vein_iron
+x 27
+y 36
+end
+arch greysandcliff2
 x 27
 y 37
 elevation 4670
 end
-arch hills
+arch grass
 x 27
 y 38
 elevation 4101
 end
-arch steppe
+arch grass
 x 27
 y 39
 elevation 3985
 end
-arch hills
+arch false_wall
+x 27
+y 39
+end
+arch grass
 x 27
 y 40
 elevation 3285
 end
-arch mountain
+arch grass
 x 27
 y 41
 elevation 7007
 end
-arch mountain
+arch greysandcliff2
 x 27
 y 42
 elevation 6705
 end
-arch mountain
+arch grass
 x 27
 y 43
 elevation 8965
 end
-arch mountain2
+arch grass
 x 27
 y 44
 elevation 9858
 end
-arch mountain2
+arch grass
 x 27
 y 45
 elevation 9642
 end
-arch mountain
+arch grass
 x 27
 y 46
 elevation 8363
 end
-arch mountain
+arch greysandcliff2
 x 27
 y 47
 elevation 7079
 end
-arch mountain
+arch grass
 x 27
 y 48
 elevation 6379
@@ -7469,85 +8122,109 @@ arch fernrockscliff2
 x 28
 y 32
 end
-arch mountain2
+arch grass
 x 28
 y 33
 elevation 9520
 end
-arch mountain2
+arch grass
 x 28
 y 34
 elevation 9393
 end
-arch mountain
+arch vein_iron
+x 28
+y 34
+end
+arch grass
 x 28
 y 35
 elevation 7779
 end
-arch hills
+arch vein_iron
+x 28
+y 35
+end
+arch grass
 x 28
 y 36
 elevation 4153
 end
-arch mountain
+arch vein_iron
+x 28
+y 36
+end
+arch grass
 x 28
 y 37
 elevation 5032
 end
-arch steppe
+arch grass
 x 28
 y 38
 elevation 3499
 end
-arch hills
+arch pickaxe
+x 28
+y 38
+end
+arch grass
 x 28
 y 39
 elevation 3079
 end
-arch mountain
+arch weak_wall_2
+x 28
+y 39
+end
+arch grass
 x 28
 y 40
 elevation 5723
 end
-arch mountain
+arch grass
 x 28
 y 41
 elevation 7161
 end
-arch mountain
+arch grass
 x 28
 y 42
 elevation 8091
 end
-arch mountain
+arch grass
 x 28
 y 43
 elevation 8861
 end
-arch mountain2
+arch grass
 x 28
 y 44
 elevation 9716
 end
-arch mountain2
+arch grass
 x 28
 y 45
 elevation 9190
 end
-arch mountain
+arch grass
 x 28
 y 46
 elevation 7789
 end
-arch mountain
+arch greysandcliff2
 x 28
 y 47
 elevation 7048
 end
-arch mountain
+arch grass
 x 28
 y 48
 elevation 7381
+end
+arch ghost
+x 28
+y 48
 end
 arch fernrockscliff2
 x 28
@@ -7718,82 +8395,102 @@ arch fernrockscliff2
 x 29
 y 32
 end
-arch mountain2
+arch grass
 x 29
 y 33
 elevation 10074
 end
-arch mountain2
+arch grass
 x 29
 y 34
 elevation 10576
 end
-arch mountain
+arch vein_iron
+x 29
+y 34
+end
+arch grass
 x 29
 y 35
 elevation 8694
 end
-arch mountain
+arch vein_iron
+x 29
+y 35
+end
+arch grass
 x 29
 y 36
 elevation 5198
 end
-arch mountain
+arch vein_iron
+x 29
+y 36
+end
+arch greysandcliff2
 x 29
 y 37
 elevation 5612
 end
-arch mountain
+arch grass
 x 29
 y 38
 elevation 5116
 end
-arch mountain
+arch false_wall
+x 29
+y 38
+end
+arch grass
 x 29
 y 39
 elevation 5457
 end
-arch mountain
+arch false_wall
+x 29
+y 39
+end
+arch grass
 x 29
 y 40
 elevation 6632
 end
-arch mountain
+arch grass
 x 29
 y 41
 elevation 6845
 end
-arch mountain
+arch grass
 x 29
 y 42
 elevation 6579
 end
-arch mountain
+arch grass
 x 29
 y 43
 elevation 7633
 end
-arch mountain
+arch grass
 x 29
 y 44
 elevation 8691
 end
-arch mountain
+arch grass
 x 29
 y 45
 elevation 8121
 end
-arch mountain
+arch grass
 x 29
 y 46
 elevation 5498
 end
-arch steppe
+arch greysandcliff2
 x 29
 y 47
 elevation 4259
 end
-arch mountain
+arch grass
 x 29
 y 48
 elevation 7178
@@ -7960,85 +8657,101 @@ arch fernrockscliff2
 x 30
 y 32
 end
-arch mountain2
+arch grass
 x 30
 y 33
 elevation 10566
 end
-arch mountain2
+arch grass
 x 30
 y 34
 elevation 11457
 end
-arch mountain2
+arch vein_iron
+x 30
+y 34
+end
+arch grass
 x 30
 y 35
 elevation 10519
 end
-arch mountain2
+arch vein_iron
+x 30
+y 35
+end
+arch grass
 x 30
 y 36
 elevation 9150
 end
-arch mountain
+arch vein_iron
+x 30
+y 36
+end
+arch greysandcliff2
 x 30
 y 37
 elevation 7605
 end
-arch steppe
+arch grass
 x 30
 y 38
 elevation 3525
 end
-arch mountain
+arch grass
 x 30
 y 39
 elevation 6878
 end
-arch mountain
+arch grass
 x 30
 y 40
 elevation 7111
 end
-arch mountain
+arch grass
 x 30
 y 41
 elevation 5678
 end
-arch woods_2
+arch grass
 x 30
 y 42
 elevation 1989
 end
-arch mountain
+arch grass
 x 30
 y 43
 elevation 5328
 end
-arch mountain
+arch grass
 x 30
 y 44
 elevation 6608
 end
-arch mountain
+arch grass
 x 30
 y 45
 elevation 6431
 end
-arch mountain
+arch grass
 x 30
 y 46
 elevation 5333
 end
-arch steppe
+arch greysandcliff2
 x 30
 y 47
 elevation 4950
 end
-arch mountain
+arch grass
 x 30
 y 48
 elevation 5918
+end
+arch ghost
+x 30
+y 48
 end
 arch fernrockscliff2
 x 30
@@ -8215,57 +8928,57 @@ arch fernrockscliff2
 x 31
 y 32
 end
-arch mountain2
+arch bluesandcliff1
 x 31
 y 33
 elevation 10939
 end
-arch mountain2
+arch bluesandcliff1
 x 31
 y 34
 elevation 11701
 end
-arch mountain2
+arch bluesandcliff1
 x 31
 y 35
 elevation 11420
 end
-arch mountain2
+arch bluesandcliff1
 x 31
 y 36
 elevation 10620
 end
-arch mountain2
+arch greysandcliff2
 x 31
 y 37
 elevation 9406
 end
-arch mountain
+arch grass
 x 31
 y 38
 elevation 8656
 end
-arch mountain
+arch grass
 x 31
 y 39
 elevation 8044
 end
-arch mountain
+arch grass
 x 31
 y 40
 elevation 7025
 end
-arch hills
+arch greysandcliff2
 x 31
 y 41
 elevation 4695
 end
-arch desert
+arch grass
 x 31
 y 42
 elevation 850
 end
-arch woods_2
+arch grass
 x 31
 y 43
 elevation 2677
@@ -8285,12 +8998,12 @@ x 31
 y 46
 elevation 4535
 end
-arch woods_2
+arch greysandcliff2
 x 31
 y 47
 elevation 2649
 end
-arch mountain
+arch grass
 x 31
 y 48
 elevation 5048
@@ -8485,62 +9198,62 @@ arch fernrockscliff2
 x 32
 y 32
 end
-arch mountain2
+arch bluesandcliff1
 x 32
 y 33
 elevation 10674
 end
-arch mountain2
+arch bluesandcliff1
 x 32
 y 34
 elevation 11012
 end
-arch mountain2
+arch bluesandcliff1
 x 32
 y 35
 elevation 10562
 end
-arch mountain2
+arch bluesandcliff1
 x 32
 y 36
 elevation 10110
 end
-arch mountain2
+arch swamp
 x 32
 y 37
 elevation 9900
 end
-arch mountain2
+arch swamp
 x 32
 y 38
 elevation 9697
 end
-arch mountain
+arch grass
 x 32
 y 39
 elevation 8799
 end
-arch mountain
+arch grass
 x 32
 y 40
 elevation 6504
 end
-arch steppe
+arch grass
 x 32
 y 41
 elevation 3584
 end
-arch woods
+arch grass
 x 32
 y 42
 elevation 2293
 end
-arch woods
+arch grass
 x 32
 y 43
 elevation 2065
 end
-arch desert
+arch greysandcliff2
 x 32
 y 44
 elevation 831
@@ -8555,15 +9268,19 @@ x 32
 y 46
 elevation 4412
 end
-arch steppe
+arch greysandcliff2
 x 32
 y 47
 elevation 3821
 end
-arch mountain
+arch grass
 x 32
 y 48
 elevation 5034
+end
+arch vein_iron
+x 32
+y 48
 end
 arch fernrockscliff2
 x 32
@@ -8754,57 +9471,57 @@ arch fernrockscliff2
 x 33
 y 32
 end
-arch mountain2
+arch bluesandcliff1
 x 33
 y 33
 elevation 9071
 end
-arch mountain
+arch bluesandcliff1
 x 33
 y 34
 elevation 8549
 end
-arch mountain
+arch bluesandcliff1
 x 33
 y 35
 elevation 8106
 end
-arch mountain
+arch swamp
 x 33
 y 36
 elevation 7489
 end
-arch mountain
+arch swamp
 x 33
 y 37
 elevation 8508
 end
-arch mountain
+arch swamp
 x 33
 y 38
 elevation 8999
 end
-arch mountain
+arch grass
 x 33
 y 39
 elevation 8282
 end
-arch mountain
+arch grass
 x 33
 y 40
 elevation 6028
 end
-arch hills_rocky
+arch swamp
 x 33
 y 41
 elevation 1563
 end
-arch brush
+arch swamp
 x 33
 y 42
 elevation 525
 end
-arch woods_2
+arch grass
 x 33
 y 43
 elevation 2621
@@ -8819,22 +9536,22 @@ x 33
 y 45
 elevation 4967
 end
-arch mountain
+arch grass
 x 33
 y 46
 elevation 5692
 end
-arch steppe
+arch grass
 x 33
 y 47
 elevation 4918
 end
-arch mountain
+arch grass
 x 33
 y 48
 elevation 6347
 end
-arch mountain
+arch grass
 x 33
 y 49
 elevation 7277
@@ -8997,97 +9714,101 @@ arch fernrockscliff2
 x 34
 y 29
 end
-arch mountain
+arch bluesandcliff3
+x 34
+y 30
+end
+arch bluesandcliff1
 x 34
 y 31
 elevation 5378
 end
-arch mountain
+arch bluesandcliff1
 x 34
 y 32
 elevation 6480
 end
-arch mountain
+arch bluesandcliff1
 x 34
 y 33
 elevation 6507
 end
-arch steppe
+arch swamp
 x 34
 y 34
 elevation 4431
 end
-arch hills
+arch swamp
 x 34
 y 35
 elevation 3731
 end
-arch mountain
+arch swamp
 x 34
 y 36
 elevation 5899
 end
-arch mountain
+arch swamp
 x 34
 y 37
 elevation 6634
 end
-arch mountain
+arch swamp
 x 34
 y 38
 elevation 7372
 end
-arch mountain
+arch grass
 x 34
 y 39
 elevation 7031
 end
-arch mountain
+arch grass
 x 34
 y 40
 elevation 5333
 end
-arch hills
+arch swamp
 x 34
 y 41
 elevation 3618
 end
-arch woods_2
+arch swamp
 x 34
 y 42
 elevation 1316
 end
-arch steppe
+arch grass
 x 34
 y 43
 elevation 3905
 end
-arch mountain
+arch grass
 x 34
 y 44
 elevation 5646
 end
-arch mountain
+arch grass
 x 34
 y 45
 elevation 6916
 end
-arch mountain
+arch grass
 x 34
 y 46
 elevation 7343
 end
-arch mountain
+arch grass
 x 34
 y 47
 elevation 7243
 end
-arch mountain
+arch grass
 x 34
 y 48
 elevation 7516
 end
-arch mountain
+arch grass
 x 34
 y 49
 elevation 8221
@@ -9261,97 +9982,101 @@ arch fernrockscliff2
 x 35
 y 29
 end
-arch steppe
+arch bluesandcliff3
+x 35
+y 30
+end
+arch bluesandcliff3
 x 35
 y 31
 elevation 3336
 end
-arch evergreen
+arch bluesandcliff3
 x 35
 y 32
 elevation 2692
 end
-arch steppe
+arch swamp
 x 35
 y 33
 elevation 3948
 end
-arch steppe
+arch swamp
 x 35
 y 34
 elevation 3991
 end
-arch steppe
+arch swamp
 x 35
 y 35
 elevation 3861
 end
-arch steppe
+arch swamp
 x 35
 y 36
 elevation 3931
 end
-arch steppe
+arch swamp
 x 35
 y 37
 elevation 4359
 end
-arch mountain
+arch swamp
 x 35
 y 38
 elevation 5593
 end
-arch mountain
+arch grass
 x 35
 y 39
 elevation 5809
 end
-arch steppe
+arch grass
 x 35
 y 40
 elevation 4307
 end
-arch steppe
+arch swamp
 x 35
 y 41
 elevation 4341
 end
-arch steppe
+arch swamp
 x 35
 y 42
 elevation 4195
 end
-arch steppe
+arch swamp
 x 35
 y 43
 elevation 4848
 end
-arch mountain
+arch grass
 x 35
 y 44
 elevation 6632
 end
-arch mountain
+arch grass
 x 35
 y 45
 elevation 8164
 end
-arch mountain
+arch grass
 x 35
 y 46
 elevation 8444
 end
-arch mountain
+arch swamp
 x 35
 y 47
 elevation 7710
 end
-arch mountain
+arch grass
 x 35
 y 48
 elevation 7271
 end
-arch mountain
+arch grass
 x 35
 y 49
 elevation 7955
@@ -9536,97 +10261,101 @@ arch fernrockscliff2
 x 36
 y 29
 end
-arch jungle_1
+arch bluesandcliff3
+x 36
+y 30
+end
+arch bluesandcliff3
 x 36
 y 31
 elevation 1852
 end
-arch desert
+arch bluesandcliff3
 x 36
 y 32
 elevation 481
 end
-arch jungle_1
+arch swamp
 x 36
 y 33
 elevation 2252
 end
-arch woods
+arch swamp
 x 36
 y 34
 elevation 2796
 end
-arch evergreen
+arch swamp
 x 36
 y 35
 elevation 2787
 end
-arch woods
+arch swamp
 x 36
 y 36
 elevation 2506
 end
-arch woods
+arch swamp
 x 36
 y 37
 elevation 1660
 end
-arch steppe
+arch swamp
 x 36
 y 38
 elevation 4064
 end
-arch steppe
+arch greysandcliff2
 x 36
 y 39
 elevation 4709
 end
-arch steppe
+arch swamp
 x 36
 y 40
 elevation 4601
 end
-arch hills
+arch grass
 x 36
 y 41
 elevation 4343
 end
-arch steppe
+arch swamp
 x 36
 y 42
 elevation 4394
 end
-arch steppe
+arch swamp
 x 36
 y 43
 elevation 4033
 end
-arch mountain
+arch grass
 x 36
 y 44
 elevation 6397
 end
-arch mountain
+arch swamp
 x 36
 y 45
 elevation 8151
 end
-arch mountain
+arch swamp
 x 36
 y 46
 elevation 8328
 end
-arch mountain
+arch swamp
 x 36
 y 47
 elevation 6932
 end
-arch mountain
+arch swamp
 x 36
 y 48
 elevation 5727
 end
-arch mountain
+arch grass
 x 36
 y 49
 elevation 5965
@@ -9831,7 +10560,11 @@ arch fernrockscliff2
 x 37
 y 29
 end
-arch evergreen
+arch bluesandcliff3
+x 37
+y 30
+end
+arch bluesandcliff3
 x 37
 y 31
 elevation 1327
@@ -9841,7 +10574,7 @@ x 37
 y 32
 elevation 305
 end
-arch woods
+arch swamp
 x 37
 y 33
 elevation 1288
@@ -9851,7 +10584,7 @@ x 37
 y 34
 elevation 1691
 end
-arch jungle_1
+arch swamp
 x 37
 y 35
 elevation 1043
@@ -9871,52 +10604,52 @@ x 37
 y 38
 elevation 2827
 end
-arch steppe
+arch grass
 x 37
 y 39
 elevation 3693
 end
-arch hills
+arch grass
 x 37
 y 40
 elevation 3491
 end
-arch steppe
+arch grass
 x 37
 y 41
 elevation 3710
 end
-arch steppe
+arch grass
 x 37
 y 42
 elevation 3272
 end
-arch hills
+arch swamp
 x 37
 y 43
 elevation 3723
 end
-arch mountain
+arch swamp
 x 37
 y 44
 elevation 5250
 end
-arch mountain
+arch grass
 x 37
 y 45
 elevation 6874
 end
-arch mountain
+arch grass
 x 37
 y 46
 elevation 6814
 end
-arch mountain
+arch swamp
 x 37
 y 47
 elevation 5291
 end
-arch woods_2
+arch swamp
 x 37
 y 48
 elevation 1207
@@ -10107,7 +10840,11 @@ arch fernrockscliff2
 x 38
 y 29
 end
-arch evergreen
+arch bluesandcliff3
+x 38
+y 30
+end
+arch bluesandcliff3
 x 38
 y 31
 elevation 1208
@@ -10117,17 +10854,17 @@ x 38
 y 32
 elevation 598
 end
-arch woods
+arch swamp
 x 38
 y 33
 elevation 1082
 end
-arch grass
+arch swamp
 x 38
 y 34
 elevation 629
 end
-arch desert
+arch swamp
 x 38
 y 35
 elevation 795
@@ -10142,62 +10879,62 @@ x 38
 y 37
 elevation 648
 end
-arch evergreen
+arch swamp
 x 38
 y 38
 elevation 2025
 end
-arch woods_2
+arch swamp
 x 38
 y 39
 elevation 2698
 end
-arch woods_2
+arch swamp
 x 38
 y 40
 elevation 2884
 end
-arch woods_2
+arch swamp
 x 38
 y 41
 elevation 2769
 end
-arch woods_2
+arch swamp
 x 38
 y 42
 elevation 2606
 end
-arch woods_2
+arch greysandcliff2
 x 38
 y 43
 elevation 2942
 end
-arch steppe
+arch swamp
 x 38
 y 44
 elevation 3860
 end
-arch steppe
+arch grass
 x 38
 y 45
 elevation 4606
 end
-arch steppe
+arch grass
 x 38
 y 46
 elevation 4425
 end
-arch steppe
+arch swamp
 x 38
 y 47
 elevation 3226
 end
-arch woods_2
+arch swamp
 x 38
 y 48
 elevation 2835
 end
-arch steppe
+arch grass
 x 38
 y 49
 elevation 3631
@@ -10341,27 +11078,31 @@ arch fernrockscliff2
 x 39
 y 29
 end
-arch woods
+arch bluesandcliff3
+x 39
+y 30
+end
+arch swamp
 x 39
 y 31
 elevation 1988
 end
-arch evergreen
+arch swamp
 x 39
 y 32
 elevation 1725
 end
-arch woods
+arch bluesandcliff3
 x 39
 y 33
 elevation 1245
 end
-arch desert
+arch swamp
 x 39
 y 34
 elevation 249
 end
-arch desert
+arch swamp
 x 39
 y 35
 elevation 249
@@ -10371,47 +11112,47 @@ x 39
 y 36
 elevation 235
 end
-arch brush
+arch swamp
 x 39
 y 37
 elevation 649
 end
-arch woods
+arch swamp
 x 39
 y 38
 elevation 1293
 end
-arch woods_2
+arch swamp
 x 39
 y 39
 elevation 1992
 end
-arch woods
+arch swamp
 x 39
 y 40
 elevation 2067
 end
-arch woods
+arch swamp
 x 39
 y 41
 elevation 1884
 end
-arch woods
+arch swamp
 x 39
 y 42
 elevation 1453
 end
-arch desert
+arch swamp
 x 39
 y 43
 elevation 521
 end
-arch woods_2
+arch swamp
 x 39
 y 44
 elevation 2188
 end
-arch woods
+arch swamp
 x 39
 y 45
 elevation 2555
@@ -10421,17 +11162,17 @@ x 39
 y 46
 elevation 860
 end
-arch woods_2
+arch swamp
 x 39
 y 47
 elevation 1597
 end
-arch woods_2
+arch swamp
 x 39
 y 48
 elevation 2651
 end
-arch woods_2
+arch grass
 x 39
 y 49
 elevation 2854
@@ -10572,52 +11313,56 @@ arch fernrockscliff2
 x 40
 y 29
 end
-arch evergreen
+arch bluesandcliff3
+x 40
+y 30
+end
+arch swamp
 x 40
 y 31
 elevation 2064
 end
-arch evergreen
+arch swamp
 x 40
 y 32
 elevation 1901
 end
-arch evergreen
+arch bluesandcliff3
 x 40
 y 33
 elevation 1306
 end
-arch desert
+arch swamp
 x 40
 y 34
 elevation 642
 end
-arch desert
+arch swamp
 x 40
 y 35
 elevation 260
 end
-arch brush
+arch swamp
 x 40
 y 36
 elevation 22
 end
-arch brush
+arch swamp
 x 40
 y 37
 elevation 758
 end
-arch evergreen
+arch swamp
 x 40
 y 38
 elevation 1185
 end
-arch woods
+arch swamp
 x 40
 y 39
 elevation 1325
 end
-arch woods_2
+arch swamp
 x 40
 y 40
 elevation 1167
@@ -10627,42 +11372,42 @@ x 40
 y 41
 elevation 671
 end
-arch desert
+arch swamp
 x 40
 y 42
 elevation 834
 end
-arch desert
+arch swamp
 x 40
 y 43
 elevation 978
 end
-arch woods
+arch grass
 x 40
 y 44
 elevation 1045
 end
-arch brush
+arch swamp
 x 40
 y 45
 elevation 904
 end
-arch woods_2
+arch grass
 x 40
 y 46
 elevation 1187
 end
-arch woods_2
+arch swamp
 x 40
 y 47
 elevation 1406
 end
-arch woods_2
+arch grass
 x 40
 y 48
 elevation 1027
 end
-arch woods_2
+arch grass
 x 40
 y 49
 elevation 2492
@@ -10795,31 +11540,35 @@ y 28
 move_block all
 blocksview 1
 end
-arch fernrockscliff2
+arch bluesandcliff3
 x 41
 y 29
 end
-arch evergreen
+arch bluesandcliff3
+x 41
+y 30
+end
+arch swamp
 x 41
 y 31
 elevation 1389
 end
-arch evergreen
+arch swamp
 x 41
 y 32
 elevation 1396
 end
-arch desert
+arch swamp
 x 41
 y 33
 elevation 870
 end
-arch desert
+arch swamp
 x 41
 y 34
 elevation 316
 end
-arch desert
+arch swamp
 x 41
 y 35
 elevation 17
@@ -10834,7 +11583,7 @@ x 41
 y 37
 elevation 577
 end
-arch desert
+arch swamp
 x 41
 y 38
 elevation 778
@@ -10874,22 +11623,22 @@ x 41
 y 45
 elevation 6
 end
-arch brush
+arch grass
 x 41
 y 46
 elevation 56
 end
-arch brush
+arch grass
 x 41
 y 47
 elevation 596
 end
-arch woods_2
+arch grass
 x 41
 y 48
 elevation 1146
 end
-arch woods_2
+arch grass
 x 41
 y 49
 elevation 1665
@@ -11027,22 +11776,26 @@ arch fernrockscliff2
 x 42
 y 29
 end
-arch desert
+arch bluesandcliff3
+x 42
+y 30
+end
+arch swamp
 x 42
 y 31
 elevation 738
 end
-arch desert
+arch swamp
 x 42
 y 32
 elevation 652
 end
-arch grass
+arch swamp
 x 42
 y 33
 elevation 69
 end
-arch desert
+arch swamp
 x 42
 y 34
 elevation 44
@@ -11260,17 +12013,17 @@ x 43
 y 30
 elevation 80
 end
-arch desert
+arch swamp
 x 43
 y 31
 elevation 682
 end
-arch grass
+arch swamp
 x 43
 y 32
 elevation 463
 end
-arch grass
+arch swamp
 x 43
 y 33
 elevation 81
@@ -11487,17 +12240,17 @@ x 44
 y 30
 elevation 203
 end
-arch grass
+arch swamp
 x 44
 y 31
 elevation 962
 end
-arch grass
+arch swamp
 x 44
 y 32
 elevation 643
 end
-arch desert
+arch swamp
 x 44
 y 33
 elevation 92
@@ -11710,7 +12463,7 @@ x 45
 y 30
 elevation 338
 end
-arch evergreen
+arch swamp
 x 45
 y 31
 elevation 1201
@@ -11933,17 +12686,17 @@ x 46
 y 30
 elevation 132
 end
-arch evergreen
+arch swamp
 x 46
 y 31
 elevation 1105
 end
-arch evergreen
+arch swamp
 x 46
 y 32
 elevation 1188
 end
-arch desert
+arch swamp
 x 46
 y 33
 elevation 908
@@ -12156,22 +12909,22 @@ x 47
 y 30
 elevation 1
 end
-arch desert
+arch bluesandcliff3
 x 47
 y 31
 elevation 393
 end
-arch woods
+arch swamp
 x 47
 y 32
 elevation 1076
 end
-arch evergreen
+arch swamp
 x 47
 y 33
 elevation 1176
 end
-arch evergreen
+arch swamp
 x 47
 y 34
 elevation 1383
@@ -12454,22 +13207,22 @@ x 48
 y 33
 elevation 900
 end
-arch evergreen
+arch swamp
 x 48
 y 34
 elevation 1385
 end
-arch evergreen
+arch swamp
 x 48
 y 35
 elevation 1725
 end
-arch woods
+arch swamp
 x 48
 y 36
 elevation 1113
 end
-arch desert
+arch swamp
 x 48
 y 37
 elevation 19
@@ -12721,22 +13474,22 @@ x 49
 y 33
 elevation -8
 end
-arch desert
+arch swamp
 x 49
 y 34
 elevation 515
 end
-arch woods
+arch swamp
 x 49
 y 35
 elevation 1531
 end
-arch woods
+arch swamp
 x 49
 y 36
 elevation 1431
 end
-arch desert
+arch swamp
 x 49
 y 37
 elevation 131

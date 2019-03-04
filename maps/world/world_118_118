@@ -2,11 +2,15 @@ arch map
 name world_118_118
 width 50
 height 50
+msg
+Modified: 2019-02-24 lori
+endmsg
 outdoor 1
 tile_path_1 world_118_117
 tile_path_2 world_119_118
 tile_path_3 world_118_119
 tile_path_4 world_117_118
+background_music grassland01
 end
 arch woods
 elevation 1456
@@ -199,11 +203,11 @@ arch hills_rocky
 y 47
 elevation 4837
 end
-arch hills_rocky
+arch lostlabdesert
 y 48
 elevation 4334
 end
-arch hills_rocky
+arch lostlabdesert
 y 49
 elevation 4608
 end
@@ -441,17 +445,17 @@ x 1
 y 46
 elevation 4651
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 47
 elevation 4887
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 48
 elevation 4653
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 49
 elevation 3485
@@ -690,17 +694,17 @@ x 2
 y 46
 elevation 3978
 end
-arch hills_rocky
+arch lostlabdesert
 x 2
 y 47
 elevation 4816
 end
-arch mountain
+arch lostlabdesert
 x 2
 y 48
 elevation 5140
 end
-arch mountain
+arch lostlabdesert
 x 2
 y 49
 elevation 5333
@@ -934,22 +938,22 @@ x 3
 y 45
 elevation 889
 end
-arch woods_2
+arch lostlabdesert
 x 3
 y 46
 elevation 2948
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 47
 elevation 4575
 end
-arch mountain
+arch lostlabdesert
 x 3
 y 48
 elevation 5411
 end
-arch mountain
+arch lostlabdesert
 x 3
 y 49
 elevation 5960
@@ -1143,7 +1147,7 @@ x 4
 y 37
 elevation 4936
 end
-arch mountain
+arch grass_br_gr
 x 4
 y 38
 elevation 5034
@@ -1178,27 +1182,27 @@ x 4
 y 44
 elevation 2020
 end
-arch evergreen
+arch lostlabdesert
 x 4
 y 45
 elevation 2193
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 46
 elevation 3500
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 47
 elevation 4732
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 48
 elevation 4873
 end
-arch mountain
+arch lostlabdesert
 x 4
 y 49
 elevation 6001
@@ -1352,12 +1356,12 @@ x 5
 y 29
 elevation 1472
 end
-arch woods_2
+arch grass_br_gr
 x 5
 y 30
 elevation 1006
 end
-arch woods_2
+arch grass_br_gr
 x 5
 y 31
 elevation 1264
@@ -1372,7 +1376,7 @@ x 5
 y 33
 elevation 1548
 end
-arch woods_2
+arch grass_br_gr
 x 5
 y 34
 elevation 1373
@@ -1392,7 +1396,7 @@ x 5
 y 37
 elevation 4270
 end
-arch hills_rocky
+arch grass_br_gr
 x 5
 y 38
 elevation 4335
@@ -1427,27 +1431,27 @@ x 5
 y 44
 elevation 2193
 end
-arch woods_2
+arch lostlabdesert
 x 5
 y 45
 elevation 2380
 end
-arch hills_rocky
+arch lostlabdesert
 x 5
 y 46
 elevation 4060
 end
-arch mountain
+arch lostlabdesert
 x 5
 y 47
 elevation 5186
 end
-arch mountain
+arch lostlabdesert
 x 5
 y 48
 elevation 5875
 end
-arch mountain
+arch lostlabdesert
 x 5
 y 49
 elevation 6030
@@ -1606,7 +1610,7 @@ x 6
 y 30
 elevation 1290
 end
-arch evergreen
+arch grass_br_gr
 x 6
 y 31
 elevation 1315
@@ -1616,22 +1620,22 @@ x 6
 y 32
 elevation 1505
 end
-arch woods_2
+arch grass_br_gr
 x 6
 y 33
 elevation 1612
 end
-arch evergreen
+arch grass_br_gr
 x 6
 y 34
 elevation 1397
 end
-arch woods_2
+arch grass_br_gr
 x 6
 y 35
 elevation 1856
 end
-arch evergreen
+arch grass_br_gr
 x 6
 y 36
 elevation 2816
@@ -1641,12 +1645,12 @@ x 6
 y 37
 elevation 3296
 end
-arch steppe
+arch grass_br_gr
 x 6
 y 38
 elevation 3220
 end
-arch woods_2
+arch grass_br_gr
 x 6
 y 39
 elevation 1346
@@ -1681,22 +1685,22 @@ x 6
 y 45
 elevation 2598
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 46
 elevation 4411
 end
-arch mountain
+arch lostlabdesert
 x 6
 y 47
 elevation 5498
 end
-arch mountain
+arch lostlabdesert
 x 6
 y 48
 elevation 6110
 end
-arch mountain
+arch lostlabdesert
 x 6
 y 49
 elevation 6266
@@ -1850,22 +1854,22 @@ x 7
 y 29
 elevation 1046
 end
-arch jungle_1
+arch grass_br_gr
 x 7
 y 30
 elevation 1157
 end
-arch woods_2
+arch grass_br_gr
 x 7
 y 31
 elevation 1057
 end
-arch evergreen
+arch grass_br_gr
 x 7
 y 32
 elevation 1210
 end
-arch woods_2
+arch grass_br_gr
 x 7
 y 33
 elevation 1683
@@ -1880,7 +1884,7 @@ x 7
 y 35
 elevation 2098
 end
-arch woods_2
+arch grass_br_gr
 x 7
 y 36
 elevation 2131
@@ -1895,7 +1899,7 @@ x 7
 y 38
 elevation 2445
 end
-arch jungle_1
+arch grass_br_gr
 x 7
 y 39
 elevation 2795
@@ -1920,32 +1924,32 @@ x 7
 y 43
 elevation 3145
 end
-arch evergreen
+arch lostlabdesert
 x 7
 y 44
 elevation 2934
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 45
 elevation 3455
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 46
 elevation 4563
 end
-arch mountain
+arch lostlabdesert
 x 7
 y 47
 elevation 5407
 end
-arch mountain
+arch lostlabdesert
 x 7
 y 48
 elevation 6082
 end
-arch mountain
+arch lostlabdesert
 x 7
 y 49
 elevation 6284
@@ -2104,12 +2108,12 @@ x 8
 y 30
 elevation 1104
 end
-arch evergreen
+arch grass_br_gr
 x 8
 y 31
 elevation 1213
 end
-arch woods_2
+arch grass_br_gr
 x 8
 y 32
 elevation 1392
@@ -2119,17 +2123,17 @@ x 8
 y 33
 elevation 1210
 end
-arch jungle_1
+arch grass_br_gr
 x 8
 y 34
 elevation 1933
 end
-arch woods_2
+arch grass_br_gr
 x 8
 y 35
 elevation 1946
 end
-arch evergreen
+arch grass_br_gr
 x 8
 y 36
 elevation 2101
@@ -2139,17 +2143,17 @@ x 8
 y 37
 elevation 1205
 end
-arch evergreen
+arch grass_br_gr
 x 8
 y 38
 elevation 2193
 end
-arch evergreen
+arch grass_br_gr
 x 8
 y 39
 elevation 2529
 end
-arch evergreen
+arch grass_br_gr
 x 8
 y 40
 elevation 2879
@@ -2159,22 +2163,22 @@ x 8
 y 41
 elevation 3727
 end
-arch steppe
+arch lostlabdesert
 x 8
 y 42
 elevation 3951
 end
-arch hills_rocky
+arch lostlabdesert
 x 8
 y 43
 elevation 3565
 end
-arch hills_rocky
+arch lostlabdesert
 x 8
 y 44
 elevation 3204
 end
-arch steppe
+arch lostlabdesert
 x 8
 y 45
 elevation 3484
@@ -2184,17 +2188,17 @@ x 8
 y 46
 elevation 4441
 end
-arch mountain
+arch lostlabdesert
 x 8
 y 47
 elevation 5405
 end
-arch mountain
+arch lostlabdesert
 x 8
 y 48
 elevation 5815
 end
-arch mountain
+arch lostlabdesert
 x 8
 y 49
 elevation 5848
@@ -2368,52 +2372,52 @@ x 9
 y 33
 elevation 1642
 end
-arch woods_2
+arch grass_br_gr
 x 9
 y 34
 elevation 1837
 end
-arch woods_2
+arch grass_br_gr
 x 9
 y 35
 elevation 2102
 end
-arch evergreen
+arch grass_br_gr
 x 9
 y 36
 elevation 2092
 end
-arch evergreen
+arch grass_br_gr
 x 9
 y 37
 elevation 1964
 end
-arch woods_2
+arch grass_br_gr
 x 9
 y 38
 elevation 1817
 end
-arch evergreen
+arch grass_br_gr
 x 9
 y 39
 elevation 1811
 end
-arch woods_2
+arch grass_br_gr
 x 9
 y 40
 elevation 2464
 end
-arch hills_rocky
+arch lostlabdesert
 x 9
 y 41
 elevation 3442
 end
-arch hills_rocky
+arch lostlabdesert
 x 9
 y 42
 elevation 3829
 end
-arch steppe
+arch lostlabdesert
 x 9
 y 43
 elevation 3388
@@ -2433,17 +2437,17 @@ x 9
 y 46
 elevation 3700
 end
-arch mountain
+arch lostlabdesert
 x 9
 y 47
 elevation 5242
 end
-arch mountain
+arch lostlabdesert
 x 9
 y 48
 elevation 5581
 end
-arch hills_rocky
+arch lostlabdesert
 x 9
 y 49
 elevation 4875
@@ -2667,32 +2671,32 @@ x 10
 y 43
 elevation 2676
 end
-arch evergreen
+arch lostlabdesert
 x 10
 y 44
 elevation 2405
 end
-arch evergreen
+arch lostlabdesert
 x 10
 y 45
 elevation 2186
 end
-arch hills_rocky
+arch lostlabdesert
 x 10
 y 46
 elevation 3637
 end
-arch hills_rocky
+arch lostlabdesert
 x 10
 y 47
 elevation 4934
 end
-arch mountain
+arch lostlabdesert
 x 10
 y 48
 elevation 5384
 end
-arch hills
+arch lostlabdesert
 x 10
 y 49
 elevation 4780
@@ -2871,12 +2875,12 @@ x 11
 y 34
 elevation 715
 end
-arch woods_2
+arch grass_br_gr
 x 11
 y 35
 elevation 1154
 end
-arch evergreen
+arch grass_br_gr
 x 11
 y 36
 elevation 1364
@@ -2911,37 +2915,37 @@ x 11
 y 42
 elevation 2818
 end
-arch evergreen
+arch lostlabdesert
 x 11
 y 43
 elevation 2590
 end
-arch evergreen
+arch lostlabdesert
 x 11
 y 44
 elevation 2220
 end
-arch woods_3
+arch lostlabdesert
 x 11
 y 45
 elevation 1754
 end
-arch evergreen
+arch lostlabdesert
 x 11
 y 46
 elevation 2882
 end
-arch steppe
+arch lostlabdesert
 x 11
 y 47
 elevation 4817
 end
-arch mountain
+arch lostlabdesert
 x 11
 y 48
 elevation 5285
 end
-arch steppe
+arch lostlabdesert
 x 11
 y 49
 elevation 4735
@@ -3105,27 +3109,27 @@ x 12
 y 31
 elevation 825
 end
-arch woods_2
+arch grass_br_gr
 x 12
 y 32
 elevation 1022
 end
-arch brush
+arch grass_br_gr
 x 12
 y 33
 elevation 914
 end
-arch brush
+arch grass_br_gr
 x 12
 y 34
 elevation 298
 end
-arch brush
+arch grass_br_gr
 x 12
 y 35
 elevation 363
 end
-arch brush
+arch grass_br_gr
 x 12
 y 36
 elevation 187
@@ -3140,27 +3144,27 @@ x 12
 y 38
 elevation 1364
 end
-arch woods_2
+arch grass_br_gr
 x 12
 y 39
 elevation 1133
 end
-arch woods_2
+arch lostlabdesert
 x 12
 y 40
 elevation 1959
 end
-arch woods_2
+arch lostlabdesert
 x 12
 y 41
 elevation 2169
 end
-arch woods_2
+arch lostlabdesert
 x 12
 y 42
 elevation 1687
 end
-arch woods_2
+arch lostlabdesert
 x 12
 y 43
 elevation 1857
@@ -3170,7 +3174,7 @@ x 12
 y 44
 elevation 2172
 end
-arch woods_2
+arch lostlabdesert
 x 12
 y 45
 elevation 1868
@@ -3185,12 +3189,12 @@ x 12
 y 47
 elevation 4901
 end
-arch mountain
+arch lostlabdesert
 x 12
 y 48
 elevation 5336
 end
-arch steppe
+arch lostlabdesert
 x 12
 y 49
 elevation 4770
@@ -3359,7 +3363,7 @@ x 13
 y 32
 elevation 407
 end
-arch grass
+arch grass_br_gr
 x 13
 y 33
 elevation 995
@@ -3384,62 +3388,62 @@ x 13
 y 37
 elevation 1573
 end
-arch woods_2
+arch grass_br_gr
 x 13
 y 38
 elevation 1678
 end
-arch jungle_1
+arch grass_br_gr
 x 13
 y 39
 elevation 1357
 end
-arch woods_2
+arch grass_br_gr
 x 13
 y 40
 elevation 2260
 end
-arch evergreen
+arch lostlabdesert
 x 13
 y 41
 elevation 2500
 end
-arch evergreen
+arch lostlabdesert
 x 13
 y 42
 elevation 1726
 end
-arch evergreen
+arch lostlabdesert
 x 13
 y 43
 elevation 2166
 end
-arch evergreen
+arch lostlabdesert
 x 13
 y 44
 elevation 2438
 end
-arch steppe
+arch lostlabdesert
 x 13
 y 45
 elevation 3056
 end
-arch steppe
+arch lostlabdesert
 x 13
 y 46
 elevation 4000
 end
-arch mountain
+arch lostlabdesert
 x 13
 y 47
 elevation 5483
 end
-arch mountain
+arch lostlabdesert
 x 13
 y 48
 elevation 5684
 end
-arch steppe
+arch lostlabdesert
 x 13
 y 49
 elevation 4793
@@ -3613,7 +3617,7 @@ x 14
 y 33
 elevation 1089
 end
-arch woods_2
+arch grass_br_gr
 x 14
 y 34
 elevation 1345
@@ -3633,17 +3637,17 @@ x 14
 y 37
 elevation 1974
 end
-arch evergreen
+arch grass_br_gr
 x 14
 y 38
 elevation 2117
 end
-arch woods_2
+arch grass_br_gr
 x 14
 y 39
 elevation 1900
 end
-arch woods_2
+arch grass_br_gr
 x 14
 y 40
 elevation 2894
@@ -3653,17 +3657,17 @@ x 14
 y 41
 elevation 3139
 end
-arch hills_rocky
+arch lostlabdesert
 x 14
 y 42
 elevation 3085
 end
-arch hills
+arch lostlabdesert
 x 14
 y 43
 elevation 3081
 end
-arch steppe
+arch lostlabdesert
 x 14
 y 44
 elevation 3673
@@ -3673,22 +3677,22 @@ x 14
 y 45
 elevation 4492
 end
-arch mountain
+arch lostlabdesert
 x 14
 y 46
 elevation 5531
 end
-arch mountain
+arch lostlabdesert
 x 14
 y 47
 elevation 6244
 end
-arch mountain
+arch lostlabdesert
 x 14
 y 48
 elevation 5944
 end
-arch mountain
+arch lostlabdesert
 x 14
 y 49
 elevation 6322
@@ -3862,12 +3866,12 @@ x 15
 y 33
 elevation 939
 end
-arch woods_2
+arch grass_br_gr
 x 15
 y 34
 elevation 1290
 end
-arch hills_rocky
+arch grass_br_gr
 x 15
 y 35
 elevation 1565
@@ -3877,17 +3881,17 @@ x 15
 y 36
 elevation 1728
 end
-arch jungle_1
+arch grass_br_gr
 x 15
 y 37
 elevation 1917
 end
-arch woods_2
+arch grass_br_gr
 x 15
 y 38
 elevation 2232
 end
-arch evergreen
+arch grass_br_gr
 x 15
 y 39
 elevation 2838
@@ -3902,42 +3906,42 @@ x 15
 y 41
 elevation 3904
 end
-arch steppe
+arch lostlabdesert
 x 15
 y 42
 elevation 3505
 end
-arch hills
+arch lostlabdesert
 x 15
 y 43
 elevation 3704
 end
-arch hills
+arch lostlabdesert
 x 15
 y 44
 elevation 4174
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 45
 elevation 5105
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 46
 elevation 6113
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 47
 elevation 6694
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 48
 elevation 6737
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 49
 elevation 7031
@@ -4116,12 +4120,12 @@ x 16
 y 34
 elevation 886
 end
-arch jungle_1
+arch grass_br_gr
 x 16
 y 35
 elevation 1055
 end
-arch woods_2
+arch grass_br_gr
 x 16
 y 36
 elevation 1132
@@ -4131,7 +4135,7 @@ x 16
 y 37
 elevation 1483
 end
-arch woods_2
+arch grass_br_gr
 x 16
 y 38
 elevation 1687
@@ -4171,22 +4175,22 @@ x 16
 y 45
 elevation 4964
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 46
 elevation 5932
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 47
 elevation 6359
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 48
 elevation 6335
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 49
 elevation 6095
@@ -4360,7 +4364,7 @@ x 17
 y 33
 elevation 154
 end
-arch desert
+arch grass_br_gr
 x 17
 y 34
 elevation 483
@@ -4380,7 +4384,7 @@ x 17
 y 37
 elevation 361
 end
-arch woods_2
+arch grass_br_gr
 x 17
 y 38
 elevation 1901
@@ -4415,27 +4419,27 @@ x 17
 y 44
 elevation 2827
 end
-arch steppe
+arch lostlabdesert
 x 17
 y 45
 elevation 4549
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 46
 elevation 5142
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 47
 elevation 5240
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 48
 elevation 5093
 end
-arch steppe
+arch lostlabdesert
 x 17
 y 49
 elevation 4892
@@ -4644,7 +4648,7 @@ x 18
 y 40
 elevation 4707
 end
-arch mountain
+arch grass_br_gr
 x 18
 y 41
 elevation 5074
@@ -4674,17 +4678,17 @@ x 18
 y 46
 elevation 4276
 end
-arch steppe
+arch lostlabdesert
 x 18
 y 47
 elevation 3364
 end
-arch steppe
+arch lostlabdesert
 x 18
 y 48
 elevation 4035
 end
-arch evergreen
+arch lostlabdesert
 x 18
 y 49
 elevation 2762
@@ -4928,12 +4932,12 @@ x 19
 y 47
 elevation 3110
 end
-arch steppe
+arch lostlabdesert
 x 19
 y 48
 elevation 3732
 end
-arch steppe
+arch lostlabdesert
 x 19
 y 49
 elevation 3994
@@ -5177,12 +5181,12 @@ x 20
 y 47
 elevation 3227
 end
-arch steppe
+arch lostlabdesert
 x 20
 y 48
 elevation 3811
 end
-arch steppe
+arch lostlabdesert
 x 20
 y 49
 elevation 4434
@@ -5401,7 +5405,7 @@ x 21
 y 42
 elevation 4918
 end
-arch hills
+arch lostlabdesert
 x 21
 y 43
 elevation 4552
@@ -5431,7 +5435,7 @@ x 21
 y 48
 elevation 3606
 end
-arch steppe
+arch lostlabdesert
 x 21
 y 49
 elevation 4154
@@ -5680,7 +5684,7 @@ x 22
 y 48
 elevation 3027
 end
-arch steppe
+arch lostlabdesert
 x 22
 y 49
 elevation 3336
@@ -5874,12 +5878,12 @@ x 23
 y 37
 elevation 799
 end
-arch desert
+arch lostlabdesert
 x 23
 y 38
 elevation 615
 end
-arch hills_rocky
+arch lostlabdesert
 x 23
 y 39
 elevation 2308
@@ -5894,7 +5898,7 @@ x 23
 y 41
 elevation 3352
 end
-arch hills
+arch lostlabdesert
 x 23
 y 42
 elevation 3641
@@ -5924,12 +5928,12 @@ x 23
 y 47
 elevation 2082
 end
-arch evergreen
+arch lostlabdesert
 x 23
 y 48
 elevation 2058
 end
-arch evergreen
+arch lostlabdesert
 x 23
 y 49
 elevation 2579
@@ -5983,7 +5987,7 @@ x 24
 y 9
 elevation 3028
 end
-arch woods_2
+arch lostlabdesert
 x 24
 y 10
 elevation 2566
@@ -6008,7 +6012,7 @@ x 24
 y 14
 elevation 1892
 end
-arch desert
+arch grass_br_gr
 x 24
 y 15
 elevation 598
@@ -6113,12 +6117,12 @@ x 24
 y 35
 elevation 1271
 end
-arch desert
+arch lostlabdesert
 x 24
 y 36
 elevation 709
 end
-arch grass
+arch lostlabdesert
 x 24
 y 37
 elevation 677
@@ -6128,7 +6132,7 @@ x 24
 y 38
 elevation 1155
 end
-arch evergreen
+arch lostlabdesert
 x 24
 y 39
 elevation 2515
@@ -6168,17 +6172,17 @@ x 24
 y 46
 elevation 2245
 end
-arch grass
+arch lostlabdesert
 x 24
 y 47
 elevation 978
 end
-arch evergreen
+arch lostlabdesert
 x 24
 y 48
 elevation 1732
 end
-arch evergreen
+arch lostlabdesert
 x 24
 y 49
 elevation 1959
@@ -6377,12 +6381,12 @@ x 25
 y 38
 elevation 1778
 end
-arch steppe
+arch lostlabdesert
 x 25
 y 39
 elevation 3015
 end
-arch hills_rocky
+arch lostlabdesert
 x 25
 y 40
 elevation 3797
@@ -6422,12 +6426,12 @@ x 25
 y 47
 elevation 1257
 end
-arch evergreen
+arch lostlabdesert
 x 25
 y 48
 elevation 1354
 end
-arch evergreen
+arch lostlabdesert
 x 25
 y 49
 elevation 1130
@@ -6621,12 +6625,12 @@ x 26
 y 37
 elevation 1660
 end
-arch evergreen
+arch lostlabdesert
 x 26
 y 38
 elevation 2122
 end
-arch steppe
+arch lostlabdesert
 x 26
 y 39
 elevation 3300
@@ -6671,12 +6675,12 @@ x 26
 y 47
 elevation 1773
 end
-arch evergreen
+arch lostlabdesert
 x 26
 y 48
 elevation 1194
 end
-arch grass
+arch lostlabdesert
 x 26
 y 49
 elevation 292
@@ -6805,17 +6809,17 @@ x 27
 y 24
 elevation 4753
 end
-arch mountain
+arch grass_br_gr
 x 27
 y 25
 elevation 5238
 end
-arch mountain
+arch grass_br_gr
 x 27
 y 26
 elevation 5105
 end
-arch mountain
+arch grass_br_gr
 x 27
 y 27
 elevation 5004
@@ -6870,7 +6874,7 @@ x 27
 y 37
 elevation 2126
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 38
 elevation 1882
@@ -6880,12 +6884,12 @@ x 27
 y 39
 elevation 4003
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 40
 elevation 5211
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 41
 elevation 5426
@@ -6900,32 +6904,32 @@ x 27
 y 43
 elevation 2141
 end
-arch woods_3
+arch lostlabdesert
 x 27
 y 44
 elevation 2049
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 45
 elevation 1458
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 46
 elevation 1919
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 47
 elevation 1853
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 48
 elevation 1317
 end
-arch evergreen
+arch lostlabdesert
 x 27
 y 49
 elevation 1022
@@ -6954,7 +6958,7 @@ x 28
 y 4
 elevation 2499
 end
-arch woods
+arch grass_br_gr
 x 28
 y 5
 elevation 2532
@@ -7054,27 +7058,27 @@ x 28
 y 24
 elevation 4796
 end
-arch mountain
+arch grass_br_gr
 x 28
 y 25
 elevation 5731
 end
-arch mountain
+arch grass_br_gr
 x 28
 y 26
 elevation 6022
 end
-arch mountain
+arch grass_br_gr
 x 28
 y 27
 elevation 5821
 end
-arch mountain
+arch grass_br_gr
 x 28
 y 28
 elevation 5198
 end
-arch hills_rocky
+arch grass_br_gr
 x 28
 y 29
 elevation 4010
@@ -7119,62 +7123,62 @@ x 28
 y 37
 elevation 2728
 end
-arch tree
+arch lostlabdesert
 x 28
 y 38
 elevation 2866
 end
-arch hills
+arch lostlabdesert
 x 28
 y 39
 elevation 4582
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 40
 elevation 5483
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 41
 elevation 5508
 end
-arch steppe
+arch lostlabdesert
 x 28
 y 42
 elevation 4550
 end
-arch hills
+arch lostlabdesert
 x 28
 y 43
 elevation 3096
 end
-arch woods_3
+arch lostlabdesert
 x 28
 y 44
 elevation 1424
 end
-arch evergreen
+arch lostlabdesert
 x 28
 y 45
 elevation 1387
 end
-arch evergreen
+arch lostlabdesert
 x 28
 y 46
 elevation 1601
 end
-arch evergreen
+arch lostlabdesert
 x 28
 y 47
 elevation 1920
 end
-arch evergreen
+arch lostlabdesert
 x 28
 y 48
 elevation 1798
 end
-arch evergreen
+arch lostlabdesert
 x 28
 y 49
 elevation 1696
@@ -7208,12 +7212,12 @@ x 29
 y 5
 elevation 1254
 end
-arch woods_2
+arch grass_br_gr
 x 29
 y 6
 elevation 1591
 end
-arch evergreens
+arch grass_br_gr
 x 29
 y 7
 elevation 1925
@@ -7298,27 +7302,27 @@ x 29
 y 23
 elevation 4043
 end
-arch mountain
+arch grass_br_gr
 x 29
 y 24
 elevation 5158
 end
-arch mountain
+arch grass_br_gr
 x 29
 y 25
 elevation 6182
 end
-arch mountain
+arch grass_br_gr
 x 29
 y 26
 elevation 6702
 end
-arch mountain
+arch grass_br_gr
 x 29
 y 27
 elevation 6548
 end
-arch mountain
+arch grass_br_gr
 x 29
 y 28
 elevation 5363
@@ -7368,12 +7372,12 @@ x 29
 y 37
 elevation 3462
 end
-arch steppe
+arch lostlabdesert
 x 29
 y 38
 elevation 4196
 end
-arch hills
+arch lostlabdesert
 x 29
 y 39
 elevation 4738
@@ -7388,42 +7392,42 @@ x 29
 y 41
 elevation 4852
 end
-arch hills
+arch lostlabdesert
 x 29
 y 42
 elevation 4240
 end
-arch steppe
+arch lostlabdesert
 x 29
 y 43
 elevation 3383
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 44
 elevation 2617
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 45
 elevation 2176
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 46
 elevation 1973
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 47
 elevation 1879
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 48
 elevation 1900
 end
-arch evergreen
+arch lostlabdesert
 x 29
 y 49
 elevation 1756
@@ -7462,12 +7466,12 @@ x 30
 y 6
 elevation 2329
 end
-arch woods_2
+arch grass_br_gr
 x 30
 y 7
 elevation 2171
 end
-arch woods_2
+arch grass_br_gr
 x 30
 y 8
 elevation 1488
@@ -7547,27 +7551,27 @@ x 30
 y 23
 elevation 4282
 end
-arch mountain
+arch grass_br_gr
 x 30
 y 24
 elevation 5416
 end
-arch mountain
+arch grass_br_gr
 x 30
 y 25
 elevation 6367
 end
-arch mountain
+arch grass_br_gr
 x 30
 y 26
 elevation 7024
 end
-arch mountain
+arch grass_br_gr
 x 30
 y 27
 elevation 6964
 end
-arch mountain
+arch grass_br_gr
 x 30
 y 28
 elevation 6138
@@ -7587,7 +7591,7 @@ x 30
 y 31
 elevation 2136
 end
-arch woods_2
+arch grass_br_gr
 x 30
 y 32
 elevation 2262
@@ -7622,7 +7626,7 @@ x 30
 y 38
 elevation 4540
 end
-arch steppe
+arch lostlabdesert
 x 30
 y 39
 elevation 4470
@@ -7637,12 +7641,12 @@ x 30
 y 41
 elevation 3639
 end
-arch hills
+arch lostlabdesert
 x 30
 y 42
 elevation 3894
 end
-arch hills_rocky
+arch lostlabdesert
 x 30
 y 43
 elevation 2660
@@ -7652,27 +7656,27 @@ x 30
 y 44
 elevation 3325
 end
-arch evergreen
+arch lostlabdesert
 x 30
 y 45
 elevation 2859
 end
-arch evergreen
+arch lostlabdesert
 x 30
 y 46
 elevation 1553
 end
-arch evergreen
+arch lostlabdesert
 x 30
 y 47
 elevation 1741
 end
-arch evergreen
+arch lostlabdesert
 x 30
 y 48
 elevation 1566
 end
-arch evergreen
+arch lostlabdesert
 x 30
 y 49
 elevation 1818
@@ -7791,32 +7795,32 @@ x 31
 y 22
 elevation 3260
 end
-arch hills_rocky
+arch grass_br_gr
 x 31
 y 23
 elevation 4302
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 24
 elevation 5077
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 25
 elevation 5873
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 26
 elevation 6531
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 27
 elevation 6480
 end
-arch mountain
+arch grass_br_gr
 x 31
 y 28
 elevation 5858
@@ -7871,22 +7875,22 @@ x 31
 y 38
 elevation 4406
 end
-arch steppe
+arch lostlabdesert
 x 31
 y 39
 elevation 3849
 end
-arch jungle_1
+arch lostlabdesert
 x 31
 y 40
 elevation 2690
 end
-arch hills
+arch lostlabdesert
 x 31
 y 41
 elevation 3167
 end
-arch hills
+arch lostlabdesert
 x 31
 y 42
 elevation 3732
@@ -7896,7 +7900,7 @@ x 31
 y 43
 elevation 4115
 end
-arch steppe
+arch lostlabdesert
 x 31
 y 44
 elevation 3954
@@ -7906,22 +7910,22 @@ x 31
 y 45
 elevation 3320
 end
-arch evergreen
+arch lostlabdesert
 x 31
 y 46
 elevation 2552
 end
-arch evergreen
+arch lostlabdesert
 x 31
 y 47
 elevation 1835
 end
-arch grass
+arch lostlabdesert
 x 31
 y 48
 elevation 789
 end
-arch evergreen
+arch lostlabdesert
 x 31
 y 49
 elevation 1842
@@ -8015,22 +8019,22 @@ x 32
 y 17
 elevation 4618
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 18
 elevation 5140
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 19
 elevation 5198
 end
-arch hills_rocky
+arch grass_br_gr
 x 32
 y 20
 elevation 4461
 end
-arch hills_rocky
+arch grass_br_gr
 x 32
 y 21
 elevation 4176
@@ -8040,7 +8044,7 @@ x 32
 y 22
 elevation 4330
 end
-arch hills_rocky
+arch grass_br_gr
 x 32
 y 23
 elevation 4247
@@ -8055,12 +8059,12 @@ x 32
 y 25
 elevation 4730
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 26
 elevation 5266
 end
-arch mountain
+arch grass_br_gr
 x 32
 y 27
 elevation 5149
@@ -8150,27 +8154,27 @@ x 32
 y 44
 elevation 4469
 end
-arch steppe
+arch lostlabdesert
 x 32
 y 45
 elevation 3610
 end
-arch evergreen
+arch lostlabdesert
 x 32
 y 46
 elevation 2389
 end
-arch evergreen
+arch lostlabdesert
 x 32
 y 47
 elevation 2296
 end
-arch evergreen
+arch lostlabdesert
 x 32
 y 48
 elevation 1499
 end
-arch steppe
+arch lostlabdesert
 x 32
 y 49
 elevation 3545
@@ -8179,7 +8183,7 @@ arch hills_rocky
 x 33
 elevation 2411
 end
-arch woods
+arch grass_br_gr
 x 33
 y 1
 elevation 2173
@@ -8229,17 +8233,17 @@ x 33
 y 10
 elevation 4317
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 11
 elevation 5011
 end
-arch hills_rocky
+arch grass_br_gr
 x 33
 y 12
 elevation 4966
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 13
 elevation 5031
@@ -8259,17 +8263,17 @@ x 33
 y 16
 elevation 4754
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 17
 elevation 5272
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 18
 elevation 5616
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 19
 elevation 5448
@@ -8279,7 +8283,7 @@ x 33
 y 20
 elevation 3889
 end
-arch mountain
+arch grass_br_gr
 x 33
 y 21
 elevation 5082
@@ -8304,7 +8308,7 @@ x 33
 y 25
 elevation 3028
 end
-arch hills_rocky
+arch grass_br_gr
 x 33
 y 26
 elevation 3523
@@ -8404,22 +8408,22 @@ x 33
 y 45
 elevation 3526
 end
-arch evergreen
+arch lostlabdesert
 x 33
 y 46
 elevation 2534
 end
-arch evergreen
+arch lostlabdesert
 x 33
 y 47
 elevation 2779
 end
-arch steppe
+arch lostlabdesert
 x 33
 y 48
 elevation 3538
 end
-arch steppe
+arch lostlabdesert
 x 33
 y 49
 elevation 4970
@@ -8438,12 +8442,12 @@ x 34
 y 2
 elevation 2080
 end
-arch woods
+arch grass_br_gr
 x 34
 y 3
 elevation 2477
 end
-arch woods
+arch grass_br_gr
 x 34
 y 4
 elevation 2850
@@ -8473,22 +8477,22 @@ x 34
 y 9
 elevation 2790
 end
-arch hills
+arch grass_br_gr
 x 34
 y 10
 elevation 3960
 end
-arch hills_rocky
+arch grass_br_gr
 x 34
 y 11
 elevation 4888
 end
-arch mountain
+arch grass_br_gr
 x 34
 y 12
 elevation 5263
 end
-arch mountain
+arch grass_br_gr
 x 34
 y 13
 elevation 5029
@@ -8513,22 +8517,22 @@ x 34
 y 17
 elevation 4685
 end
-arch hills_rocky
+arch grass_br_gr
 x 34
 y 18
 elevation 4920
 end
-arch mountain
+arch grass_br_gr
 x 34
 y 19
 elevation 5003
 end
-arch mountain
+arch grass_br_gr
 x 34
 y 20
 elevation 5340
 end
-arch mountain
+arch grass_br_gr
 x 34
 y 21
 elevation 5408
@@ -8548,7 +8552,7 @@ x 34
 y 24
 elevation 1092
 end
-arch desert
+arch grass_br_gr
 x 34
 y 25
 elevation 880
@@ -8648,27 +8652,27 @@ x 34
 y 44
 elevation 4198
 end
-arch evergreen
+arch lostlabdesert
 x 34
 y 45
 elevation 2476
 end
-arch evergreen
+arch lostlabdesert
 x 34
 y 46
 elevation 2727
 end
-arch evergreen
+arch lostlabdesert
 x 34
 y 47
 elevation 2825
 end
-arch steppe
+arch lostlabdesert
 x 34
 y 48
 elevation 3849
 end
-arch mountain
+arch lostlabdesert
 x 34
 y 49
 elevation 5612
@@ -8677,22 +8681,22 @@ arch hills_rocky
 x 35
 elevation 1217
 end
-arch desert
+arch grass_br_gr
 x 35
 y 1
 elevation 746
 end
-arch woods
+arch grass_br_gr
 x 35
 y 2
 elevation 1429
 end
-arch hills_rocky
+arch grass_br_gr
 x 35
 y 3
 elevation 2435
 end
-arch hills_rocky
+arch grass_br_gr
 x 35
 y 4
 elevation 2660
@@ -8707,7 +8711,7 @@ x 35
 y 6
 elevation 2183
 end
-arch woods_2
+arch grass_br_gr
 x 35
 y 7
 elevation 1480
@@ -8722,7 +8726,7 @@ x 35
 y 9
 elevation 1885
 end
-arch hills_rocky
+arch grass_br_gr
 x 35
 y 10
 elevation 3444
@@ -8737,7 +8741,7 @@ x 35
 y 12
 elevation 4687
 end
-arch hills
+arch grass_br_gr
 x 35
 y 13
 elevation 4447
@@ -8777,7 +8781,7 @@ x 35
 y 20
 elevation 4953
 end
-arch mountain
+arch grass_br_gr
 x 35
 y 21
 elevation 5190
@@ -8842,12 +8846,12 @@ x 35
 y 33
 elevation 4096
 end
-arch hills
+arch grass_br_gr
 x 35
 y 34
 elevation 4961
 end
-arch mountain
+arch grass_br_gr
 x 35
 y 35
 elevation 5167
@@ -8892,12 +8896,12 @@ x 35
 y 43
 elevation 4358
 end
-arch steppe
+arch lostlabdesert
 x 35
 y 44
 elevation 3699
 end
-arch steppe
+arch lostlabdesert
 x 35
 y 45
 elevation 3037
@@ -8907,7 +8911,7 @@ x 35
 y 46
 elevation 2444
 end
-arch evergreen
+arch lostlabdesert
 x 35
 y 47
 elevation 1588
@@ -8917,7 +8921,7 @@ x 35
 y 48
 elevation 2718
 end
-arch mountain
+arch lostlabdesert
 x 35
 y 49
 elevation 5499
@@ -8941,37 +8945,37 @@ x 36
 y 3
 elevation 2330
 end
-arch woods_2
+arch grass_br_gr
 x 36
 y 4
 elevation 2311
 end
-arch jungle_1
+arch grass_br_gr
 x 36
 y 5
 elevation 2037
 end
-arch woods_2
+arch grass_br_gr
 x 36
 y 6
 elevation 2040
 end
-arch woods
+arch grass_br_gr
 x 36
 y 7
 elevation 1916
 end
-arch woods_2
+arch grass_br_gr
 x 36
 y 8
 elevation 1851
 end
-arch woods_2
+arch grass_br_gr
 x 36
 y 9
 elevation 2267
 end
-arch hills_rocky
+arch grass_br_gr
 x 36
 y 10
 elevation 3037
@@ -9086,27 +9090,27 @@ x 36
 y 32
 elevation 3182
 end
-arch hills_rocky
+arch grass_br_gr
 x 36
 y 33
 elevation 4522
 end
-arch mountain
+arch grass_br_gr
 x 36
 y 34
 elevation 5485
 end
-arch mountain
+arch grass_br_gr
 x 36
 y 35
 elevation 5790
 end
-arch mountain
+arch grass_br_gr
 x 36
 y 36
 elevation 5456
 end
-arch hills_rocky
+arch grass_br_gr
 x 36
 y 37
 elevation 3720
@@ -9141,12 +9145,12 @@ x 36
 y 43
 elevation 3492
 end
-arch evergreen
+arch lostlabdesert
 x 36
 y 44
 elevation 2997
 end
-arch evergreen
+arch lostlabdesert
 x 36
 y 45
 elevation 2602
@@ -9166,7 +9170,7 @@ x 36
 y 48
 elevation 1668
 end
-arch mountain
+arch lostlabdesert
 x 36
 y 49
 elevation 5577
@@ -9175,7 +9179,7 @@ arch hills_rocky
 x 37
 elevation 1436
 end
-arch jungle_1
+arch grass_br_gr
 x 37
 y 1
 elevation 2184
@@ -9190,7 +9194,7 @@ x 37
 y 3
 elevation 2323
 end
-arch hills_rocky
+arch grass_br_gr
 x 37
 y 4
 elevation 2052
@@ -9200,7 +9204,7 @@ x 37
 y 5
 elevation 1956
 end
-arch woods
+arch grass_br_gr
 x 37
 y 6
 elevation 1993
@@ -9220,7 +9224,7 @@ x 37
 y 9
 elevation 1920
 end
-arch woods_2
+arch grass_br_gr
 x 37
 y 10
 elevation 2694
@@ -9240,22 +9244,22 @@ x 37
 y 13
 elevation 2323
 end
-arch jungle_1
+arch grass_br_gr
 x 37
 y 14
 elevation 2143
 end
-arch jungle_1
+arch grass_br_gr
 x 37
 y 15
 elevation 1809
 end
-arch jungle_1
+arch grass_br_gr
 x 37
 y 16
 elevation 1755
 end
-arch jungle_1
+arch grass_br_gr
 x 37
 y 17
 elevation 1979
@@ -9340,22 +9344,22 @@ x 37
 y 33
 elevation 4700
 end
-arch mountain
+arch grass_br_gr
 x 37
 y 34
 elevation 5601
 end
-arch mountain
+arch grass_br_gr
 x 37
 y 35
 elevation 5900
 end
-arch mountain
+arch grass_br_gr
 x 37
 y 36
 elevation 5562
 end
-arch steppe
+arch grass_br_gr
 x 37
 y 37
 elevation 4887
@@ -9390,12 +9394,12 @@ x 37
 y 43
 elevation 2587
 end
-arch evergreen
+arch lostlabdesert
 x 37
 y 44
 elevation 1462
 end
-arch woods_3
+arch lostlabdesert
 x 37
 y 45
 elevation 1989
@@ -9415,7 +9419,7 @@ x 37
 y 48
 elevation 3463
 end
-arch mountain
+arch lostlabdesert
 x 37
 y 49
 elevation 6147
@@ -9424,7 +9428,7 @@ arch tree
 x 38
 elevation 1917
 end
-arch woods
+arch grass_br_gr
 x 38
 y 1
 elevation 2502
@@ -9439,7 +9443,7 @@ x 38
 y 3
 elevation 2356
 end
-arch jungle_1
+arch grass_br_gr
 x 38
 y 4
 elevation 1549
@@ -9449,7 +9453,7 @@ x 38
 y 5
 elevation 976
 end
-arch woods
+arch grass_br_gr
 x 38
 y 6
 elevation 2026
@@ -9464,7 +9468,7 @@ x 38
 y 8
 elevation 2174
 end
-arch jungle_1
+arch grass_br_gr
 x 38
 y 9
 elevation 2250
@@ -9489,22 +9493,22 @@ x 38
 y 13
 elevation 1781
 end
-arch jungle_1
+arch grass_br_gr
 x 38
 y 14
 elevation 1193
 end
-arch woods_2
+arch grass_br_gr
 x 38
 y 15
 elevation 1256
 end
-arch jungle_1
+arch grass_br_gr
 x 38
 y 16
 elevation 1706
 end
-arch woods_2
+arch grass_br_gr
 x 38
 y 17
 elevation 2025
@@ -9589,17 +9593,17 @@ x 38
 y 33
 elevation 4668
 end
-arch mountain
+arch grass_br_gr
 x 38
 y 34
 elevation 5300
 end
-arch mountain
+arch grass_br_gr
 x 38
 y 35
 elevation 5543
 end
-arch mountain
+arch grass_br_gr
 x 38
 y 36
 elevation 5272
@@ -9639,22 +9643,22 @@ x 38
 y 43
 elevation 1744
 end
-arch grass
+arch lostlabdesert
 x 38
 y 44
 elevation 832
 end
-arch evergreens
+arch lostlabdesert
 x 38
 y 45
 elevation 1549
 end
-arch evergreens
+arch lostlabdesert
 x 38
 y 46
 elevation 1442
 end
-arch evergreen
+arch lostlabdesert
 x 38
 y 47
 elevation 2068
@@ -9664,12 +9668,12 @@ x 38
 y 48
 elevation 4631
 end
-arch mountain
+arch lostlabdesert
 x 38
 y 49
 elevation 6783
 end
-arch woods_2
+arch grass_br_gr
 x 39
 elevation 2300
 end
@@ -9693,7 +9697,7 @@ x 39
 y 4
 elevation 1950
 end
-arch jungle_1
+arch grass_br_gr
 x 39
 y 5
 elevation 1792
@@ -9703,22 +9707,22 @@ x 39
 y 6
 elevation 2038
 end
-arch tree
+arch grass_br_gr
 x 39
 y 7
 elevation 2405
 end
-arch jungle_1
+arch grass_br_gr
 x 39
 y 8
 elevation 2513
 end
-arch woods_2
+arch grass_br_gr
 x 39
 y 9
 elevation 1759
 end
-arch tree
+arch grass_br_gr
 x 39
 y 10
 elevation 2562
@@ -9738,22 +9742,22 @@ x 39
 y 13
 elevation 1453
 end
-arch woods_2
+arch grass_br_gr
 x 39
 y 14
 elevation 1153
 end
-arch woods_2
+arch grass_br_gr
 x 39
 y 15
 elevation 1023
 end
-arch jungle_1
+arch grass_br_gr
 x 39
 y 16
 elevation 1303
 end
-arch jungle_1
+arch grass_br_gr
 x 39
 y 17
 elevation 1810
@@ -9838,17 +9842,17 @@ x 39
 y 33
 elevation 4410
 end
-arch hills
+arch grass_br_gr
 x 39
 y 34
 elevation 4997
 end
-arch mountain
+arch grass_br_gr
 x 39
 y 35
 elevation 5035
 end
-arch steppe
+arch grass_br_gr
 x 39
 y 36
 elevation 4199
@@ -9858,7 +9862,7 @@ x 39
 y 37
 elevation 4245
 end
-arch steppe
+arch grass_br_gr
 x 39
 y 38
 elevation 4126
@@ -9888,7 +9892,7 @@ x 39
 y 43
 elevation 1678
 end
-arch woods_3
+arch lostlabdesert
 x 39
 y 44
 elevation 1433
@@ -9903,22 +9907,22 @@ x 39
 y 46
 elevation 1079
 end
-arch steppe
+arch lostlabdesert
 x 39
 y 47
 elevation 3026
 end
-arch hills
+arch lostlabdesert
 x 39
 y 48
 elevation 4929
 end
-arch mountain
+arch lostlabdesert
 x 39
 y 49
 elevation 6734
 end
-arch woods
+arch grass_br_gr
 x 40
 elevation 2544
 end
@@ -9942,27 +9946,27 @@ x 40
 y 4
 elevation 1922
 end
-arch woods
+arch grass_br_gr
 x 40
 y 5
 elevation 1979
 end
-arch tree
+arch grass_br_gr
 x 40
 y 6
 elevation 1596
 end
-arch jungle_1
+arch grass_br_gr
 x 40
 y 7
 elevation 2273
 end
-arch woods_2
+arch grass_br_gr
 x 40
 y 8
 elevation 2864
 end
-arch jungle_1
+arch grass_br_gr
 x 40
 y 9
 elevation 2955
@@ -9997,12 +10001,12 @@ x 40
 y 15
 elevation 37
 end
-arch desert
+arch grass_br_gr
 x 40
 y 16
 elevation 381
 end
-arch woods_2
+arch grass_br_gr
 x 40
 y 17
 elevation 1545
@@ -10017,7 +10021,7 @@ x 40
 y 19
 elevation 2545
 end
-arch woods_2
+arch grass_br_gr
 x 40
 y 20
 elevation 2848
@@ -10047,12 +10051,12 @@ x 40
 y 25
 elevation 1322
 end
-arch desert
+arch grass_br_gr
 x 40
 y 26
 elevation 917
 end
-arch brush
+arch grass_br_gr
 x 40
 y 27
 elevation 548
@@ -10082,12 +10086,12 @@ x 40
 y 32
 elevation 2734
 end
-arch hills
+arch grass_br_gr
 x 40
 y 33
 elevation 3865
 end
-arch hills_rocky
+arch grass_br_gr
 x 40
 y 34
 elevation 4880
@@ -10102,12 +10106,12 @@ x 40
 y 36
 elevation 3976
 end
-arch steppe
+arch grass_br_gr
 x 40
 y 37
 elevation 3869
 end
-arch hills_rocky
+arch grass_br_gr
 x 40
 y 38
 elevation 4120
@@ -10152,22 +10156,22 @@ x 40
 y 46
 elevation 1876
 end
-arch evergreen
+arch lostlabdesert
 x 40
 y 47
 elevation 2818
 end
-arch steppe
+arch lostlabdesert
 x 40
 y 48
 elevation 4471
 end
-arch mountain
+arch lostlabdesert
 x 40
 y 49
 elevation 5874
 end
-arch woods
+arch grass_br_gr
 x 41
 elevation 2609
 end
@@ -10231,7 +10235,7 @@ x 41
 y 12
 elevation 1130
 end
-arch desert
+arch grass_br_gr
 x 41
 y 13
 elevation 753
@@ -10246,27 +10250,27 @@ x 41
 y 15
 elevation 177
 end
-arch desert
+arch grass_br_gr
 x 41
 y 16
 elevation 560
 end
-arch jungle_1
+arch grass_br_gr
 x 41
 y 17
 elevation 1339
 end
-arch woods_2
+arch grass_br_gr
 x 41
 y 18
 elevation 2117
 end
-arch jungle_1
+arch grass_br_gr
 x 41
 y 19
 elevation 2577
 end
-arch woods_2
+arch grass_br_gr
 x 41
 y 20
 elevation 2809
@@ -10286,7 +10290,7 @@ x 41
 y 23
 elevation 3134
 end
-arch woods_2
+arch grass_br_gr
 x 41
 y 24
 elevation 2423
@@ -10296,22 +10300,22 @@ x 41
 y 25
 elevation 2120
 end
-arch jungle_1
+arch grass_br_gr
 x 41
 y 26
 elevation 1465
 end
-arch desert
+arch grass_br_gr
 x 41
 y 27
 elevation 948
 end
-arch jungle_1
+arch grass_br_gr
 x 41
 y 28
 elevation 1845
 end
-arch tree
+arch grass_br_gr
 x 41
 y 29
 elevation 2570
@@ -10321,12 +10325,12 @@ x 41
 y 30
 elevation 2171
 end
-arch tree
+arch grass_br_gr
 x 41
 y 31
 elevation 2993
 end
-arch hills
+arch grass_br_gr
 x 41
 y 32
 elevation 3022
@@ -10356,12 +10360,12 @@ x 41
 y 37
 elevation 2626
 end
-arch steppe
+arch grass_br_gr
 x 41
 y 38
 elevation 3798
 end
-arch hills
+arch grass_br_gr
 x 41
 y 39
 elevation 4189
@@ -10406,12 +10410,12 @@ x 41
 y 47
 elevation 2852
 end
-arch evergreen
+arch lostlabdesert
 x 41
 y 48
 elevation 2221
 end
-arch mountain
+arch lostlabdesert
 x 41
 y 49
 elevation 5064
@@ -10435,17 +10439,17 @@ x 42
 y 3
 elevation 2420
 end
-arch hills_rocky
+arch grass_br_gr
 x 42
 y 4
 elevation 2153
 end
-arch woods
+arch grass_br_gr
 x 42
 y 5
 elevation 1807
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 6
 elevation 1822
@@ -10455,12 +10459,12 @@ x 42
 y 7
 elevation 2393
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 8
 elevation 2932
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 9
 elevation 2977
@@ -10490,32 +10494,32 @@ x 42
 y 14
 elevation 83
 end
-arch brush
+arch grass_br_gr
 x 42
 y 15
 elevation 128
 end
-arch brush
+arch grass_br_gr
 x 42
 y 16
 elevation 144
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 17
 elevation 1234
 end
-arch tree
+arch grass_br_gr
 x 42
 y 18
 elevation 1806
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 19
 elevation 2446
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 20
 elevation 2655
@@ -10535,22 +10539,22 @@ x 42
 y 23
 elevation 2587
 end
-arch tree
+arch grass_br_gr
 x 42
 y 24
 elevation 2539
 end
-arch tree
+arch grass_br_gr
 x 42
 y 25
 elevation 2537
 end
-arch woods_2
+arch grass_br_gr
 x 42
 y 26
 elevation 2522
 end
-arch tree
+arch grass_br_gr
 x 42
 y 27
 elevation 2630
@@ -10560,22 +10564,22 @@ x 42
 y 28
 elevation 2955
 end
-arch hills
+arch grass_br_gr
 x 42
 y 29
 elevation 3294
 end
-arch hills
+arch grass_br_gr
 x 42
 y 30
 elevation 3239
 end
-arch hills_rocky
+arch grass_br_gr
 x 42
 y 31
 elevation 2342
 end
-arch hills
+arch grass_br_gr
 x 42
 y 32
 elevation 3829
@@ -10585,7 +10589,7 @@ x 42
 y 33
 elevation 4668
 end
-arch mountain
+arch grass_br_gr
 x 42
 y 34
 elevation 5217
@@ -10615,12 +10619,12 @@ x 42
 y 39
 elevation 3579
 end
-arch hills
+arch grass_br_gr
 x 42
 y 40
 elevation 4089
 end
-arch hills
+arch grass_br_gr
 x 42
 y 41
 elevation 3780
@@ -10630,7 +10634,7 @@ x 42
 y 42
 elevation 3276
 end
-arch woods_3
+arch grass_br_gr
 x 42
 y 43
 elevation 2791
@@ -10640,27 +10644,27 @@ x 42
 y 44
 elevation 2525
 end
-arch evergreens
+arch grass_br_gr
 x 42
 y 45
 elevation 2373
 end
-arch evergreen
+arch grass_br_gr
 x 42
 y 46
 elevation 2426
 end
-arch evergreen
+arch grass_br_gr
 x 42
 y 47
 elevation 2678
 end
-arch steppe
+arch lostlabdesert
 x 42
 y 48
 elevation 3426
 end
-arch steppe
+arch lostlabdesert
 x 42
 y 49
 elevation 4470
@@ -10669,12 +10673,12 @@ arch hills_rocky
 x 43
 elevation 2872
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 1
 elevation 2579
 end
-arch woods
+arch grass_br_gr
 x 43
 y 2
 elevation 2482
@@ -10684,7 +10688,7 @@ x 43
 y 3
 elevation 2336
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 4
 elevation 1861
@@ -10699,7 +10703,7 @@ x 43
 y 6
 elevation 1075
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 7
 elevation 1705
@@ -10709,12 +10713,12 @@ x 43
 y 8
 elevation 2560
 end
-arch tree
+arch grass_br_gr
 x 43
 y 9
 elevation 2583
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 10
 elevation 2425
@@ -10739,7 +10743,7 @@ x 43
 y 14
 elevation 705
 end
-arch brush
+arch grass_br_gr
 x 43
 y 15
 elevation 558
@@ -10759,12 +10763,12 @@ x 43
 y 18
 elevation 1601
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 19
 elevation 2431
 end
-arch tree
+arch grass_br_gr
 x 43
 y 20
 elevation 2532
@@ -10784,17 +10788,17 @@ x 43
 y 23
 elevation 2142
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 24
 elevation 1757
 end
-arch woods_2
+arch grass_br_gr
 x 43
 y 25
 elevation 2849
 end
-arch hills
+arch grass_br_gr
 x 43
 y 26
 elevation 3300
@@ -10829,17 +10833,17 @@ x 43
 y 32
 elevation 4323
 end
-arch mountain
+arch grass_br_gr
 x 43
 y 33
 elevation 5204
 end
-arch mountain
+arch grass_br_gr
 x 43
 y 34
 elevation 5494
 end
-arch mountain
+arch grass_br_gr
 x 43
 y 35
 elevation 5091
@@ -10874,27 +10878,27 @@ x 43
 y 41
 elevation 3162
 end
-arch woods_3
+arch grass_br_gr
 x 43
 y 42
 elevation 2170
 end
-arch evergreen
+arch grass_br_gr
 x 43
 y 43
 elevation 1546
 end
-arch woods_3
+arch grass_br_gr
 x 43
 y 44
 elevation 1593
 end
-arch woods_3
+arch grass_br_gr
 x 43
 y 45
 elevation 2218
 end
-arch evergreens
+arch grass_br_gr
 x 43
 y 46
 elevation 2114
@@ -10904,12 +10908,12 @@ x 43
 y 47
 elevation 2145
 end
-arch steppe
+arch lostlabdesert
 x 43
 y 48
 elevation 3257
 end
-arch steppe
+arch lostlabdesert
 x 43
 y 49
 elevation 3916
@@ -10918,22 +10922,22 @@ arch hills_rocky
 x 44
 elevation 3091
 end
-arch woods
+arch grass_br_gr
 x 44
 y 1
 elevation 2369
 end
-arch tree
+arch grass_br_gr
 x 44
 y 2
 elevation 2414
 end
-arch hills_rocky
+arch grass_br_gr
 x 44
 y 3
 elevation 1879
 end
-arch hills_rocky
+arch grass_br_gr
 x 44
 y 4
 elevation 1959
@@ -10943,22 +10947,22 @@ x 44
 y 5
 elevation 1503
 end
-arch hills
+arch grass_br_gr
 x 44
 y 6
 elevation 1949
 end
-arch woods
+arch grass_br_gr
 x 44
 y 7
 elevation 2050
 end
-arch tree
+arch grass_br_gr
 x 44
 y 8
 elevation 2175
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 9
 elevation 2221
@@ -10968,17 +10972,17 @@ x 44
 y 10
 elevation 1868
 end
-arch tree
+arch grass_br_gr
 x 44
 y 11
 elevation 2424
 end
-arch hills
+arch grass_br_gr
 x 44
 y 12
 elevation 2146
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 13
 elevation 1229
@@ -10988,7 +10992,7 @@ x 44
 y 14
 elevation 1138
 end
-arch tree
+arch grass_br_gr
 x 44
 y 15
 elevation 1279
@@ -11008,17 +11012,17 @@ x 44
 y 18
 elevation 2241
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 19
 elevation 2601
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 20
 elevation 2578
 end
-arch tree
+arch grass_br_gr
 x 44
 y 21
 elevation 1619
@@ -11028,12 +11032,12 @@ x 44
 y 22
 elevation 987
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 23
 elevation 2146
 end
-arch woods_2
+arch grass_br_gr
 x 44
 y 24
 elevation 2105
@@ -11073,42 +11077,42 @@ x 44
 y 31
 elevation 4966
 end
-arch mountain
+arch grass_br_gr
 x 44
 y 32
 elevation 5175
 end
-arch mountain
+arch grass_br_gr
 x 44
 y 33
 elevation 5478
 end
-arch mountain
+arch grass_br_gr
 x 44
 y 34
 elevation 5588
 end
-arch mountain
+arch grass_br_gr
 x 44
 y 35
 elevation 5367
 end
-arch mountain
+arch grass_br_gr
 x 44
 y 36
 elevation 5002
 end
-arch steppe
+arch grass_br_gr
 x 44
 y 37
 elevation 4799
 end
-arch steppe
+arch grass_br_gr
 x 44
 y 38
 elevation 4798
 end
-arch hills
+arch grass_br_gr
 x 44
 y 39
 elevation 4511
@@ -11118,47 +11122,47 @@ x 44
 y 40
 elevation 3546
 end
-arch woods_3
+arch grass_br_gr
 x 44
 y 41
 elevation 2060
 end
-arch woods_3
+arch grass_br_gr
 x 44
 y 42
 elevation 1660
 end
-arch evergreen
+arch grass_br_gr
 x 44
 y 43
 elevation 1542
 end
-arch woods_3
+arch grass_br_gr
 x 44
 y 44
 elevation 1768
 end
-arch evergreens
+arch grass_br_gr
 x 44
 y 45
 elevation 2056
 end
-arch woods_3
+arch grass_br_gr
 x 44
 y 46
 elevation 2392
 end
-arch evergreens
+arch lostlabdesert
 x 44
 y 47
 elevation 2917
 end
-arch steppe
+arch lostlabdesert
 x 44
 y 48
 elevation 3228
 end
-arch evergreen
+arch lostlabdesert
 x 44
 y 49
 elevation 1901
@@ -11167,17 +11171,17 @@ arch hills_rocky
 x 45
 elevation 2757
 end
-arch tree
+arch grass_br_gr
 x 45
 y 1
 elevation 2547
 end
-arch woods
+arch grass_br_gr
 x 45
 y 2
 elevation 2120
 end
-arch woods
+arch grass_br_gr
 x 45
 y 3
 elevation 1908
@@ -11187,27 +11191,27 @@ x 45
 y 4
 elevation 1965
 end
-arch woods
+arch grass_br_gr
 x 45
 y 5
 elevation 2198
 end
-arch woods
+arch grass_br_gr
 x 45
 y 6
 elevation 2395
 end
-arch tree
+arch grass_br_gr
 x 45
 y 7
 elevation 2187
 end
-arch woods_2
+arch grass_br_gr
 x 45
 y 8
 elevation 1182
 end
-arch woods_2
+arch grass_br_gr
 x 45
 y 9
 elevation 1949
@@ -11222,7 +11226,7 @@ x 45
 y 11
 elevation 2451
 end
-arch tree
+arch grass_br_gr
 x 45
 y 12
 elevation 2361
@@ -11232,17 +11236,17 @@ x 45
 y 13
 elevation 2075
 end
-arch tree
+arch grass_br_gr
 x 45
 y 14
 elevation 1837
 end
-arch evergreens
+arch grass_br_gr
 x 45
 y 15
 elevation 1347
 end
-arch woods_2
+arch grass_br_gr
 x 45
 y 16
 elevation 1902
@@ -11272,12 +11276,12 @@ x 45
 y 21
 elevation 2023
 end
-arch woods_2
+arch grass_br_gr
 x 45
 y 22
 elevation 1995
 end
-arch woods
+arch grass_br_gr
 x 45
 y 23
 elevation 2488
@@ -11317,27 +11321,27 @@ x 45
 y 30
 elevation 4948
 end
-arch mountain
+arch grass_br_gr
 x 45
 y 31
 elevation 5232
 end
-arch mountain
+arch grass_br_gr
 x 45
 y 32
 elevation 5330
 end
-arch mountain
+arch grass_br_gr
 x 45
 y 33
 elevation 5357
 end
-arch mountain
+arch grass_br_gr
 x 45
 y 34
 elevation 5303
 end
-arch steppe
+arch grass_br_gr
 x 45
 y 35
 elevation 4997
@@ -11357,7 +11361,7 @@ x 45
 y 38
 elevation 4465
 end
-arch steppe
+arch grass_br_gr
 x 45
 y 39
 elevation 4135
@@ -11367,47 +11371,47 @@ x 45
 y 40
 elevation 3441
 end
-arch woods_3
+arch grass_br_gr
 x 45
 y 41
 elevation 2038
 end
-arch woods_3
+arch grass_br_gr
 x 45
 y 42
 elevation 2297
 end
-arch evergreen
+arch grass_br_gr
 x 45
 y 43
 elevation 2152
 end
-arch woods_3
+arch grass_br_gr
 x 45
 y 44
 elevation 1881
 end
-arch evergreens
+arch grass_br_gr
 x 45
 y 45
 elevation 1776
 end
-arch evergreens
+arch grass_br_gr
 x 45
 y 46
 elevation 2197
 end
-arch steppe
+arch lostlabdesert
 x 45
 y 47
 elevation 3034
 end
-arch hills
+arch lostlabdesert
 x 45
 y 48
 elevation 3665
 end
-arch steppe
+arch lostlabdesert
 x 45
 y 49
 elevation 3887
@@ -11416,7 +11420,7 @@ arch hills_rocky
 x 46
 elevation 2383
 end
-arch tree
+arch grass_br_gr
 x 46
 y 1
 elevation 2311
@@ -11426,7 +11430,7 @@ x 46
 y 2
 elevation 1264
 end
-arch tree
+arch grass_br_gr
 x 46
 y 3
 elevation 1151
@@ -11436,27 +11440,27 @@ x 46
 y 4
 elevation 1760
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 5
 elevation 2171
 end
-arch tree
+arch grass_br_gr
 x 46
 y 6
 elevation 2371
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 7
 elevation 2097
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 8
 elevation 1339
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 9
 elevation 2050
@@ -11471,27 +11475,27 @@ x 46
 y 11
 elevation 2395
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 12
 elevation 2355
 end
-arch woods_2
+arch grass_br_gr
 x 46
 y 13
 elevation 2296
 end
-arch tree
+arch grass_br_gr
 x 46
 y 14
 elevation 2241
 end
-arch hills_rocky
+arch grass_br_gr
 x 46
 y 15
 elevation 2347
 end
-arch hills
+arch grass_br_gr
 x 46
 y 16
 elevation 2427
@@ -11521,7 +11525,7 @@ x 46
 y 21
 elevation 1156
 end
-arch tree
+arch grass_br_gr
 x 46
 y 22
 elevation 1963
@@ -11591,91 +11595,91 @@ x 46
 y 35
 elevation 4355
 end
-arch tree
+arch grass_br_gr
 x 46
 y 36
 elevation 2699
 end
-arch hills
+arch grass_br_gr
 x 46
 y 37
 elevation 4038
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 38
 elevation 2722
 end
-arch hills
+arch grass_br_gr
 x 46
 y 39
 elevation 3317
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 40
 elevation 2925
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 41
 elevation 2587
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 42
 elevation 2413
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 43
 elevation 2261
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 44
 elevation 1858
 end
-arch grass
+arch grass_br_gr
 x 46
 y 45
 elevation 702
 end
-arch grass
+arch grass_br_gr
 x 46
 y 46
 elevation 740
 end
-arch woods_3
+arch grass_br_gr
 x 46
 y 47
 elevation 2989
 end
-arch hills
+arch lostlabdesert
 x 46
 y 48
 elevation 4129
 end
-arch hills
+arch lostlabdesert
 x 46
 y 49
 elevation 4653
 end
-arch woods_2
+arch grass_br_gr
 x 47
 elevation 2402
 end
-arch tree
+arch grass_br_gr
 x 47
 y 1
 elevation 2206
 end
-arch hills_rocky
+arch grass_br_gr
 x 47
 y 2
 elevation 1253
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 3
 elevation 1009
@@ -11685,27 +11689,27 @@ x 47
 y 4
 elevation 1251
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 5
 elevation 1364
 end
-arch hills
+arch grass_br_gr
 x 47
 y 6
 elevation 1953
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 7
 elevation 2028
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 8
 elevation 2057
 end
-arch woods
+arch grass_br_gr
 x 47
 y 9
 elevation 2247
@@ -11725,22 +11729,22 @@ x 47
 y 12
 elevation 2066
 end
-arch hills
+arch grass_br_gr
 x 47
 y 13
 elevation 2102
 end
-arch woods
+arch grass_br_gr
 x 47
 y 14
 elevation 2207
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 15
 elevation 2577
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 16
 elevation 2946
@@ -11765,22 +11769,22 @@ x 47
 y 20
 elevation 3605
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 21
 elevation 2984
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 22
 elevation 2206
 end
-arch woods_2
+arch grass_br_gr
 x 47
 y 23
 elevation 2059
 end
-arch hills
+arch grass_br_gr
 x 47
 y 24
 elevation 3561
@@ -11795,17 +11799,17 @@ x 47
 y 26
 elevation 4362
 end
-arch hills
+arch grass_br_gr
 x 47
 y 27
 elevation 3677
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 28
 elevation 2441
 end
-arch hills
+arch grass_br_gr
 x 47
 y 29
 elevation 3453
@@ -11835,12 +11839,12 @@ x 47
 y 34
 elevation 4256
 end
-arch hills
+arch grass_br_gr
 x 47
 y 35
 elevation 4178
 end
-arch hills
+arch grass_br_gr
 x 47
 y 36
 elevation 4178
@@ -11855,57 +11859,57 @@ x 47
 y 38
 elevation 3421
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 39
 elevation 1873
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 40
 elevation 1726
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 41
 elevation 2236
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 42
 elevation 1666
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 43
 elevation 2075
 end
-arch woods_3
+arch grass_br_gr
 x 47
 y 44
 elevation 1858
 end
-arch evergreens
+arch grass_br_gr
 x 47
 y 45
 elevation 1250
 end
-arch evergreens
+arch grass_br_gr
 x 47
 y 46
 elevation 1588
 end
-arch evergreens
+arch grass_br_gr
 x 47
 y 47
 elevation 2712
 end
-arch steppe
+arch lostlabdesert
 x 47
 y 48
 elevation 3874
 end
-arch steppe
+arch lostlabdesert
 x 47
 y 49
 elevation 4716
@@ -11914,7 +11918,7 @@ arch hills_rocky
 x 48
 elevation 2565
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 1
 elevation 2259
@@ -11924,12 +11928,12 @@ x 48
 y 2
 elevation 1887
 end
-arch tree
+arch grass_br_gr
 x 48
 y 3
 elevation 1522
 end
-arch desert
+arch grass_br_gr
 x 48
 y 4
 elevation 829
@@ -11939,52 +11943,52 @@ x 48
 y 5
 elevation 840
 end
-arch woods
+arch grass_br_gr
 x 48
 y 6
 elevation 1678
 end
-arch hills
+arch grass_br_gr
 x 48
 y 7
 elevation 1830
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 8
 elevation 1930
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 9
 elevation 2341
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 10
 elevation 2528
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 11
 elevation 2513
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 12
 elevation 2252
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 13
 elevation 1410
 end
-arch woods
+arch grass_br_gr
 x 48
 y 14
 elevation 1074
 end
-arch woods
+arch grass_br_gr
 x 48
 y 15
 elevation 2548
@@ -12014,17 +12018,17 @@ x 48
 y 20
 elevation 3711
 end
-arch hills
+arch grass_br_gr
 x 48
 y 21
 elevation 3373
 end
-arch hills
+arch grass_br_gr
 x 48
 y 22
 elevation 3073
 end
-arch woods_2
+arch grass_br_gr
 x 48
 y 23
 elevation 2554
@@ -12049,7 +12053,7 @@ x 48
 y 27
 elevation 3125
 end
-arch hills_rocky
+arch grass_br_gr
 x 48
 y 28
 elevation 1832
@@ -12059,17 +12063,17 @@ x 48
 y 29
 elevation 2634
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 30
 elevation 2862
 end
-arch hills_rocky
+arch grass_br_gr
 x 48
 y 31
 elevation 2711
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 32
 elevation 1840
@@ -12104,57 +12108,57 @@ x 48
 y 38
 elevation 3323
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 39
 elevation 2488
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 40
 elevation 1933
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 41
 elevation 1704
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 42
 elevation 1597
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 43
 elevation 1714
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 44
 elevation 2025
 end
-arch evergreens
+arch grass_br_gr
 x 48
 y 45
 elevation 1885
 end
-arch woods_3
+arch grass_br_gr
 x 48
 y 46
 elevation 1802
 end
-arch evergreens
+arch grass_br_gr
 x 48
 y 47
 elevation 2188
 end
-arch hills
+arch grass_br_gr
 x 48
 y 48
 elevation 3006
 end
-arch steppe
+arch lostlabdesert
 x 48
 y 49
 elevation 3691
@@ -12163,7 +12167,7 @@ arch hills_rocky
 x 49
 elevation 2313
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 1
 elevation 2277
@@ -12173,67 +12177,67 @@ x 49
 y 2
 elevation 2141
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 3
 elevation 1831
 end
-arch hills_rocky
+arch grass_br_gr
 x 49
 y 4
 elevation 1528
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 5
 elevation 1506
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 6
 elevation 1618
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 7
 elevation 1725
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 8
 elevation 1830
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 9
 elevation 2112
 end
-arch woods
+arch grass_br_gr
 x 49
 y 10
 elevation 2175
 end
-arch woods
+arch grass_br_gr
 x 49
 y 11
 elevation 2199
 end
-arch woods
+arch grass_br_gr
 x 49
 y 12
 elevation 2138
 end
-arch woods
+arch grass_br_gr
 x 49
 y 13
 elevation 1922
 end
-arch desert
+arch grass_br_gr
 x 49
 y 14
 elevation 734
 end
-arch woods
+arch grass_br_gr
 x 49
 y 15
 elevation 2723
@@ -12263,7 +12267,7 @@ x 49
 y 20
 elevation 3309
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 21
 elevation 2951
@@ -12298,42 +12302,42 @@ x 49
 y 27
 elevation 3359
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 28
 elevation 2328
 end
-arch woods
+arch grass_br_gr
 x 49
 y 29
 elevation 1367
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 30
 elevation 2141
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 31
 elevation 2041
 end
-arch woods
+arch grass_br_gr
 x 49
 y 32
 elevation 1648
 end
-arch woods_2
+arch grass_br_gr
 x 49
 y 33
 elevation 2748
 end
-arch hills_rocky
+arch grass_br_gr
 x 49
 y 34
 elevation 3556
 end
-arch hills
+arch grass_br_gr
 x 49
 y 35
 elevation 3873
@@ -12353,57 +12357,57 @@ x 49
 y 38
 elevation 3172
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 39
 elevation 2822
 end
-arch grass
+arch grass_br_gr
 x 49
 y 40
 elevation 461
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 41
 elevation 1409
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 42
 elevation 2194
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 43
 elevation 1654
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 44
 elevation 2125
 end
-arch evergreens
+arch grass_br_gr
 x 49
 y 45
 elevation 2419
 end
-arch grass
+arch grass_br_gr
 x 49
 y 46
 elevation 998
 end
-arch grass
+arch grass_br_gr
 x 49
 y 47
 elevation 524
 end
-arch woods_3
+arch grass_br_gr
 x 49
 y 48
 elevation 1931
 end
-arch evergreens
+arch grass_br_gr
 x 49
 y 49
 elevation 2951

@@ -2,11 +2,15 @@ arch map
 name world_118_115
 width 50
 height 50
+msg
+Modified: 2019-02-24 lori
+endmsg
 outdoor 1
 tile_path_1 world_118_114
 tile_path_2 world_119_115
 tile_path_3 world_118_116
 tile_path_4 world_117_115
+background_music desert02
 end
 arch mountain
 elevation 5098
@@ -199,11 +203,11 @@ arch hills_rocky
 y 47
 elevation 3267
 end
-arch hills_rocky
+arch lostlabdesert
 y 48
 elevation 4754
 end
-arch hills_rocky
+arch lostlabdesert
 y 49
 elevation 4760
 end
@@ -441,17 +445,17 @@ x 1
 y 46
 elevation 2758
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 47
 elevation 3358
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 48
 elevation 3542
 end
-arch hills_rocky
+arch lostlabdesert
 x 1
 y 49
 elevation 2045
@@ -690,17 +694,17 @@ x 2
 y 46
 elevation 1732
 end
-arch steppe
+arch lostlabdesert
 x 2
 y 47
 elevation 3063
 end
-arch steppe
+arch lostlabdesert
 x 2
 y 48
 elevation 3096
 end
-arch hills_rocky
+arch lostlabdesert
 x 2
 y 49
 elevation 2227
@@ -924,32 +928,32 @@ x 3
 y 43
 elevation 2189
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 44
 elevation 2404
 end
-arch woods_3
+arch lostlabdesert
 x 3
 y 45
 elevation 2556
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 46
 elevation 2782
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 47
 elevation 2891
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 48
 elevation 2956
 end
-arch hills_rocky
+arch lostlabdesert
 x 3
 y 49
 elevation 2809
@@ -1173,32 +1177,32 @@ x 4
 y 43
 elevation 1699
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 44
 elevation 2200
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 45
 elevation 2817
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 46
 elevation 2941
 end
-arch woods_3
+arch lostlabdesert
 x 4
 y 47
 elevation 2669
 end
-arch woods_3
+arch lostlabdesert
 x 4
 y 48
 elevation 2656
 end
-arch hills_rocky
+arch lostlabdesert
 x 4
 y 49
 elevation 2771
@@ -1407,47 +1411,47 @@ x 5
 y 40
 elevation 1061
 end
-arch desert
+arch lostlabdesert
 x 5
 y 41
 elevation 330
 end
-arch hills_rocky
+arch lostlabdesert
 x 5
 y 42
 elevation 1726
 end
-arch hills_rocky
+arch lostlabdesert
 x 5
 y 43
 elevation 2273
 end
-arch hills_rocky
+arch lostlabdesert
 x 5
 y 44
 elevation 2716
 end
-arch steppe
+arch lostlabdesert
 x 5
 y 45
 elevation 3024
 end
-arch hills
+arch lostlabdesert
 x 5
 y 46
 elevation 2917
 end
-arch woods_3
+arch lostlabdesert
 x 5
 y 47
 elevation 2566
 end
-arch woods_3
+arch lostlabdesert
 x 5
 y 48
 elevation 2263
 end
-arch woods_3
+arch lostlabdesert
 x 5
 y 49
 elevation 1610
@@ -1661,42 +1665,42 @@ x 6
 y 41
 elevation 1970
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 42
 elevation 1946
 end
-arch hills
+arch lostlabdesert
 x 6
 y 43
 elevation 2211
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 44
 elevation 2617
 end
-arch woods_3
+arch lostlabdesert
 x 6
 y 45
 elevation 2922
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 46
 elevation 2867
 end
-arch woods_3
+arch lostlabdesert
 x 6
 y 47
 elevation 1862
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 48
 elevation 1502
 end
-arch hills_rocky
+arch lostlabdesert
 x 6
 y 49
 elevation 2085
@@ -1915,37 +1919,37 @@ x 7
 y 42
 elevation 1920
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 43
 elevation 1730
 end
-arch hills
+arch lostlabdesert
 x 7
 y 44
 elevation 1283
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 45
 elevation 2401
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 46
 elevation 2579
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 47
 elevation 2231
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 48
 elevation 1885
 end
-arch hills_rocky
+arch lostlabdesert
 x 7
 y 49
 elevation 1946
@@ -2164,37 +2168,37 @@ x 8
 y 42
 elevation 912
 end
-arch hills_rocky
+arch lostlabdesert
 x 8
 y 43
 elevation 1217
 end
-arch brush
+arch lostlabdesert
 x 8
 y 44
 elevation 766
 end
-arch woods_3
+arch lostlabdesert
 x 8
 y 45
 elevation 1848
 end
-arch hills_rocky
+arch lostlabdesert
 x 8
 y 46
 elevation 2123
 end
-arch hills
+arch lostlabdesert
 x 8
 y 47
 elevation 1872
 end
-arch woods_3
+arch lostlabdesert
 x 8
 y 48
 elevation 1437
 end
-arch woods_3
+arch lostlabdesert
 x 8
 y 49
 elevation 1605
@@ -2413,7 +2417,7 @@ x 9
 y 42
 elevation 1109
 end
-arch desert
+arch lostlabdesert
 x 9
 y 43
 elevation 886
@@ -2423,27 +2427,27 @@ x 9
 y 44
 elevation 1373
 end
-arch hills
+arch lostlabdesert
 x 9
 y 45
 elevation 1292
 end
-arch hills
+arch lostlabdesert
 x 9
 y 46
 elevation 1801
 end
-arch desert
+arch lostlabdesert
 x 9
 y 47
 elevation 954
 end
-arch grass
+arch lostlabdesert
 x 9
 y 48
 elevation 438
 end
-arch hills_rocky
+arch lostlabdesert
 x 9
 y 49
 elevation 1113
@@ -2677,22 +2681,22 @@ x 10
 y 45
 elevation 2294
 end
-arch woods_3
+arch lostlabdesert
 x 10
 y 46
 elevation 2140
 end
-arch grass
+arch lostlabdesert
 x 10
 y 47
 elevation 285
 end
-arch grass
+arch lostlabdesert
 x 10
 y 48
 elevation 817
 end
-arch woods_3
+arch lostlabdesert
 x 10
 y 49
 elevation 1669
@@ -2926,22 +2930,22 @@ x 11
 y 45
 elevation 2891
 end
-arch hills_rocky
+arch lostlabdesert
 x 11
 y 46
 elevation 2850
 end
-arch woods_3
+arch lostlabdesert
 x 11
 y 47
 elevation 2587
 end
-arch hills
+arch lostlabdesert
 x 11
 y 48
 elevation 2551
 end
-arch woods_3
+arch lostlabdesert
 x 11
 y 49
 elevation 2684
@@ -3175,12 +3179,12 @@ x 12
 y 45
 elevation 3341
 end
-arch hills_rocky
+arch lostlabdesert
 x 12
 y 46
 elevation 2979
 end
-arch steppe
+arch lostlabdesert
 x 12
 y 47
 elevation 3546
@@ -3424,12 +3428,12 @@ x 13
 y 45
 elevation 3517
 end
-arch hills_rocky
+arch lostlabdesert
 x 13
 y 46
 elevation 3713
 end
-arch steppe
+arch lostlabdesert
 x 13
 y 47
 elevation 3930
@@ -3668,17 +3672,17 @@ x 14
 y 44
 elevation 3677
 end
-arch steppe
+arch lostlabdesert
 x 14
 y 45
 elevation 3567
 end
-arch steppe
+arch lostlabdesert
 x 14
 y 46
 elevation 3192
 end
-arch steppe
+arch lostlabdesert
 x 14
 y 47
 elevation 4500
@@ -3688,7 +3692,7 @@ x 14
 y 48
 elevation 4235
 end
-arch hills
+arch lostlabdesert
 x 14
 y 49
 elevation 2160
@@ -3917,27 +3921,27 @@ x 15
 y 44
 elevation 3413
 end
-arch woods_3
+arch lostlabdesert
 x 15
 y 45
 elevation 2420
 end
-arch steppe
+arch lostlabdesert
 x 15
 y 46
 elevation 4815
 end
-arch mountain
+arch lostlabdesert
 x 15
 y 47
 elevation 5371
 end
-arch hills_rocky
+arch lostlabdesert
 x 15
 y 48
 elevation 4636
 end
-arch steppe
+arch lostlabdesert
 x 15
 y 49
 elevation 3634
@@ -4166,27 +4170,27 @@ x 16
 y 44
 elevation 5415
 end
-arch hills_rocky
+arch lostlabdesert
 x 16
 y 45
 elevation 4738
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 46
 elevation 6060
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 47
 elevation 6377
 end
-arch mountain
+arch lostlabdesert
 x 16
 y 48
 elevation 5384
 end
-arch woods_3
+arch lostlabdesert
 x 16
 y 49
 elevation 2565
@@ -4415,27 +4419,27 @@ x 17
 y 44
 elevation 7348
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 45
 elevation 7206
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 46
 elevation 7096
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 47
 elevation 6777
 end
-arch mountain
+arch lostlabdesert
 x 17
 y 48
 elevation 5730
 end
-arch hills_rocky
+arch lostlabdesert
 x 17
 y 49
 elevation 4360
@@ -4659,32 +4663,32 @@ x 18
 y 43
 elevation 7955
 end
-arch mountain
+arch lostlabdesert
 x 18
 y 44
 elevation 8003
 end
-arch mountain
+arch lostlabdesert
 x 18
 y 45
 elevation 7908
 end
-arch mountain
+arch lostlabdesert
 x 18
 y 46
 elevation 6772
 end
-arch mountain
+arch lostlabdesert
 x 18
 y 47
 elevation 6604
 end
-arch mountain
+arch lostlabdesert
 x 18
 y 48
 elevation 5417
 end
-arch steppe
+arch lostlabdesert
 x 18
 y 49
 elevation 4240
@@ -4903,37 +4907,37 @@ x 19
 y 42
 elevation 7077
 end
-arch mountain
+arch lostlabdesert
 x 19
 y 43
 elevation 7320
 end
-arch mountain
+arch lostlabdesert
 x 19
 y 44
 elevation 7634
 end
-arch mountain
+arch lostlabdesert
 x 19
 y 45
 elevation 7516
 end
-arch mountain
+arch lostlabdesert
 x 19
 y 46
 elevation 6892
 end
-arch mountain
+arch lostlabdesert
 x 19
 y 47
 elevation 5835
 end
-arch steppe
+arch lostlabdesert
 x 19
 y 48
 elevation 4524
 end
-arch hills
+arch lostlabdesert
 x 19
 y 49
 elevation 1567
@@ -5157,22 +5161,22 @@ x 20
 y 43
 elevation 5846
 end
-arch mountain
+arch lostlabdesert
 x 20
 y 44
 elevation 6423
 end
-arch mountain
+arch lostlabdesert
 x 20
 y 45
 elevation 7112
 end
-arch mountain
+arch lostlabdesert
 x 20
 y 46
 elevation 6194
 end
-arch steppe
+arch lostlabdesert
 x 20
 y 47
 elevation 4182
@@ -5182,7 +5186,7 @@ x 20
 y 48
 elevation 3638
 end
-arch hills
+arch lostlabdesert
 x 20
 y 49
 elevation 1975
@@ -5406,17 +5410,17 @@ x 21
 y 43
 elevation 6179
 end
-arch mountain
+arch lostlabdesert
 x 21
 y 44
 elevation 6666
 end
-arch mountain
+arch lostlabdesert
 x 21
 y 45
 elevation 6824
 end
-arch mountain
+arch lostlabdesert
 x 21
 y 46
 elevation 5977
@@ -5431,7 +5435,7 @@ x 21
 y 48
 elevation 3262
 end
-arch hills
+arch lostlabdesert
 x 21
 y 49
 elevation 2765
@@ -5655,17 +5659,17 @@ x 22
 y 43
 elevation 6094
 end
-arch mountain
+arch lostlabdesert
 x 22
 y 44
 elevation 5777
 end
-arch mountain
+arch lostlabdesert
 x 22
 y 45
 elevation 6619
 end
-arch mountain
+arch lostlabdesert
 x 22
 y 46
 elevation 5716
@@ -5675,12 +5679,12 @@ x 22
 y 47
 elevation 4213
 end
-arch woods_3
+arch lostlabdesert
 x 22
 y 48
 elevation 2476
 end
-arch woods_3
+arch lostlabdesert
 x 22
 y 49
 elevation 2526
@@ -5904,17 +5908,17 @@ x 23
 y 43
 elevation 6437
 end
-arch mountain
+arch lostlabdesert
 x 23
 y 44
 elevation 6870
 end
-arch mountain
+arch lostlabdesert
 x 23
 y 45
 elevation 6253
 end
-arch mountain
+arch lostlabdesert
 x 23
 y 46
 elevation 5002
@@ -5924,12 +5928,12 @@ x 23
 y 47
 elevation 3398
 end
-arch woods_3
+arch lostlabdesert
 x 23
 y 48
 elevation 2175
 end
-arch woods_3
+arch lostlabdesert
 x 23
 y 49
 elevation 2142
@@ -6153,12 +6157,12 @@ x 24
 y 43
 elevation 7803
 end
-arch mountain
+arch lostlabdesert
 x 24
 y 44
 elevation 7566
 end
-arch mountain
+arch lostlabdesert
 x 24
 y 45
 elevation 6359
@@ -6168,17 +6172,17 @@ x 24
 y 46
 elevation 3107
 end
-arch woods_3
+arch lostlabdesert
 x 24
 y 47
 elevation 1874
 end
-arch hills
+arch lostlabdesert
 x 24
 y 48
 elevation 1173
 end
-arch hills
+arch lostlabdesert
 x 24
 y 49
 elevation 2485
@@ -6402,12 +6406,12 @@ x 25
 y 43
 elevation 8142
 end
-arch mountain
+arch lostlabdesert
 x 25
 y 44
 elevation 7836
 end
-arch mountain
+arch lostlabdesert
 x 25
 y 45
 elevation 6351
@@ -6417,7 +6421,7 @@ x 25
 y 46
 elevation 4386
 end
-arch hills
+arch lostlabdesert
 x 25
 y 47
 elevation 2076
@@ -6427,7 +6431,7 @@ x 25
 y 48
 elevation 3075
 end
-arch steppe
+arch lostlabdesert
 x 25
 y 49
 elevation 3613
@@ -6656,7 +6660,7 @@ x 26
 y 44
 elevation 7429
 end
-arch mountain
+arch lostlabdesert
 x 26
 y 45
 elevation 6282
@@ -6676,7 +6680,7 @@ x 26
 y 48
 elevation 4325
 end
-arch steppe
+arch lostlabdesert
 x 26
 y 49
 elevation 4789
@@ -6905,27 +6909,27 @@ x 27
 y 44
 elevation 7098
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 45
 elevation 5367
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 46
 elevation 5622
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 47
 elevation 5384
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 48
 elevation 5179
 end
-arch mountain
+arch lostlabdesert
 x 27
 y 49
 elevation 5285
@@ -7139,32 +7143,32 @@ x 28
 y 41
 elevation 6461
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 42
 elevation 7134
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 43
 elevation 7235
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 44
 elevation 7069
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 45
 elevation 7006
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 46
 elevation 6844
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 47
 elevation 6430
@@ -7174,7 +7178,7 @@ x 28
 y 48
 elevation 4953
 end
-arch mountain
+arch lostlabdesert
 x 28
 y 49
 elevation 5074
@@ -7373,7 +7377,7 @@ x 29
 y 38
 elevation 5409
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 39
 elevation 5089
@@ -7383,47 +7387,47 @@ x 29
 y 40
 elevation 5911
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 41
 elevation 6397
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 42
 elevation 6625
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 43
 elevation 6468
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 44
 elevation 6494
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 45
 elevation 7309
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 46
 elevation 7414
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 47
 elevation 6973
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 48
 elevation 6582
 end
-arch mountain
+arch lostlabdesert
 x 29
 y 49
 elevation 6771
@@ -7622,57 +7626,57 @@ x 30
 y 38
 elevation 5571
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 39
 elevation 5540
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 40
 elevation 5390
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 41
 elevation 5361
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 42
 elevation 5026
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 43
 elevation 5022
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 44
 elevation 5611
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 45
 elevation 6514
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 46
 elevation 6911
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 47
 elevation 6840
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 48
 elevation 6800
 end
-arch mountain
+arch lostlabdesert
 x 30
 y 49
 elevation 6010
@@ -7901,27 +7905,27 @@ x 31
 y 44
 elevation 3468
 end
-arch mountain
+arch lostlabdesert
 x 31
 y 45
 elevation 5436
 end
-arch mountain
+arch lostlabdesert
 x 31
 y 46
 elevation 5633
 end
-arch mountain
+arch lostlabdesert
 x 31
 y 47
 elevation 5628
 end
-arch mountain
+arch lostlabdesert
 x 31
 y 48
 elevation 5912
 end
-arch mountain
+arch lostlabdesert
 x 31
 y 49
 elevation 6770
@@ -8165,12 +8169,12 @@ x 32
 y 47
 elevation 3523
 end
-arch steppe
+arch lostlabdesert
 x 32
 y 48
 elevation 4432
 end
-arch mountain
+arch lostlabdesert
 x 32
 y 49
 elevation 5687
@@ -8409,17 +8413,17 @@ x 33
 y 46
 elevation 3128
 end
-arch evergreens
+arch lostlabdesert
 x 33
 y 47
 elevation 1587
 end
-arch woods_3
+arch lostlabdesert
 x 33
 y 48
 elevation 2271
 end
-arch steppe
+arch lostlabdesert
 x 33
 y 49
 elevation 3407
@@ -8658,17 +8662,17 @@ x 34
 y 46
 elevation 2008
 end
-arch woods_3
+arch lostlabdesert
 x 34
 y 47
 elevation 2023
 end
-arch evergreens
+arch lostlabdesert
 x 34
 y 48
 elevation 1163
 end
-arch hills
+arch lostlabdesert
 x 34
 y 49
 elevation 2260
@@ -8907,7 +8911,7 @@ x 35
 y 46
 elevation 1515
 end
-arch woods_3
+arch lostlabdesert
 x 35
 y 47
 elevation 1971

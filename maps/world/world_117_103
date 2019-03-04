@@ -3,11 +3,15 @@ name world_117_103
 region darcap
 width 50
 height 50
+msg
+Modified: 2019-03-04 lori
+endmsg
 outdoor 1
 tile_path_1 world_117_102
 tile_path_2 world_118_103
 tile_path_3 world_117_104
 tile_path_4 world_116_103
+background_music beach02
 end
 arch sea
 elevation -888
@@ -175,35 +179,35 @@ arch hills
 y 41
 elevation 4777
 end
-arch mountain
+arch snowcliff3
 y 42
 elevation 5826
 end
-arch mountain
+arch snowcliff3
 y 43
 elevation 5695
 end
-arch mountain
+arch snow
 y 44
 elevation 5050
 end
-arch hills
+arch snow
 y 45
 elevation 4255
 end
-arch steppe
+arch snow
 y 46
 elevation 4035
 end
-arch hills
+arch snow
 y 47
 elevation 3716
 end
-arch hills_rocky
+arch snow
 y 48
 elevation 2588
 end
-arch hills
+arch snow
 y 49
 elevation 3014
 end
@@ -414,42 +418,42 @@ x 1
 y 41
 elevation 4388
 end
-arch mountain
+arch snowcliff3
 x 1
 y 42
 elevation 5145
 end
-arch mountain
+arch snowcliff3
 x 1
 y 43
 elevation 5443
 end
-arch mountain
+arch snow
 x 1
 y 44
 elevation 5508
 end
-arch mountain
+arch snow
 x 1
 y 45
 elevation 5348
 end
-arch mountain
+arch snow
 x 1
 y 46
 elevation 5211
 end
-arch hills_rocky
+arch snow
 x 1
 y 47
 elevation 4068
 end
-arch hills
+arch snow
 x 1
 y 48
 elevation 4219
 end
-arch steppe
+arch snow
 x 1
 y 49
 elevation 4068
@@ -661,42 +665,42 @@ x 2
 y 41
 elevation 3736
 end
-arch hills_rocky
+arch snowcliff2
 x 2
 y 42
 elevation 3857
 end
-arch hills
+arch snowcliff2
 x 2
 y 43
 elevation 3182
 end
-arch hills
+arch snow
 x 2
 y 44
 elevation 4522
 end
-arch mountain
+arch snow
 x 2
 y 45
 elevation 6157
 end
-arch mountain
+arch snow
 x 2
 y 46
 elevation 6381
 end
-arch mountain
+arch snow
 x 2
 y 47
 elevation 5853
 end
-arch hills_rocky
+arch snow
 x 2
 y 48
 elevation 4681
 end
-arch hills_rocky
+arch snow
 x 2
 y 49
 elevation 4751
@@ -908,42 +912,42 @@ x 3
 y 41
 elevation 2592
 end
-arch hills_rocky
+arch snowcliff2
 x 3
 y 42
 elevation 2570
 end
-arch woods_3
+arch snowcliff2
 x 3
 y 43
 elevation 2443
 end
-arch hills
+arch snow
 x 3
 y 44
 elevation 4842
 end
-arch mountain
+arch snow
 x 3
 y 45
 elevation 6688
 end
-arch mountain
+arch snow
 x 3
 y 46
 elevation 7569
 end
-arch mountain
+arch snow
 x 3
 y 47
 elevation 7178
 end
-arch mountain
+arch snow
 x 3
 y 48
 elevation 6204
 end
-arch mountain
+arch snow
 x 3
 y 49
 elevation 5056
@@ -1155,42 +1159,42 @@ x 4
 y 41
 elevation 2345
 end
-arch hills_rocky
+arch snowcliff2
 x 4
 y 42
 elevation 1467
 end
-arch woods_3
+arch snowcliff3
 x 4
 y 43
 elevation 1861
 end
-arch hills
+arch snow
 x 4
 y 44
 elevation 4597
 end
-arch mountain
+arch snow
 x 4
 y 45
 elevation 7024
 end
-arch mountain
+arch snow
 x 4
 y 46
 elevation 8365
 end
-arch mountain
+arch snow
 x 4
 y 47
 elevation 8165
 end
-arch mountain
+arch snow
 x 4
 y 48
 elevation 6981
 end
-arch mountain
+arch snow
 x 4
 y 49
 elevation 5274
@@ -1397,47 +1401,47 @@ x 5
 y 40
 elevation 3173
 end
-arch woods_3
+arch snowcliff2
 x 5
 y 41
 elevation 2541
 end
-arch hills
+arch snowcliff2
 x 5
 y 42
 elevation 1861
 end
-arch grass
+arch snowcliff2
 x 5
 y 43
 elevation 763
 end
-arch hills_rocky
+arch snow
 x 5
 y 44
 elevation 3213
 end
-arch mountain
+arch snow
 x 5
 y 45
 elevation 6703
 end
-arch mountain
+arch snow
 x 5
 y 46
 elevation 8240
 end
-arch mountain
+arch snow
 x 5
 y 47
 elevation 8137
 end
-arch mountain
+arch snow
 x 5
 y 48
 elevation 6950
 end
-arch mountain
+arch snow
 x 5
 y 49
 elevation 5083
@@ -1639,52 +1643,52 @@ x 6
 y 39
 elevation 2843
 end
-arch hills_rocky
+arch snowcliff2
 x 6
 y 40
 elevation 2341
 end
-arch hills
+arch snowcliff2
 x 6
 y 41
 elevation 2060
 end
-arch woods_3
+arch snowcliff2
 x 6
 y 42
 elevation 1511
 end
-arch hills
+arch snowcliff2
 x 6
 y 43
 elevation 1469
 end
-arch woods_3
+arch snow
 x 6
 y 44
 elevation 2961
 end
-arch mountain
+arch snow
 x 6
 y 45
 elevation 5100
 end
-arch mountain
+arch snow
 x 6
 y 46
 elevation 6341
 end
-arch mountain
+arch snow
 x 6
 y 47
 elevation 6466
 end
-arch mountain
+arch snow
 x 6
 y 48
 elevation 5690
 end
-arch hills
+arch snow
 x 6
 y 49
 elevation 4588
@@ -1891,47 +1895,47 @@ x 7
 y 40
 elevation 1389
 end
-arch woods_3
+arch snowcliff2
 x 7
 y 41
 elevation 1060
 end
-arch woods_3
+arch snowcliff2
 x 7
 y 42
 elevation 1036
 end
-arch grass
+arch snowcliff2
 x 7
 y 43
 elevation 337
 end
-arch woods_3
+arch snowcliff2
 x 7
 y 44
 elevation 1071
 end
-arch woods_3
+arch snow
 x 7
 y 45
 elevation 2687
 end
-arch hills_rocky
+arch snow
 x 7
 y 46
 elevation 3754
 end
-arch hills_rocky
+arch snow
 x 7
 y 47
 elevation 1871
 end
-arch hills_rocky
+arch snow
 x 7
 y 48
 elevation 3855
 end
-arch hills_rocky
+arch snow
 x 7
 y 49
 elevation 3638
@@ -2163,22 +2167,22 @@ x 8
 y 45
 elevation 497
 end
-arch hills_rocky
+arch snow
 x 8
 y 46
 elevation 1441
 end
-arch hills_rocky
+arch snow
 x 8
 y 47
 elevation 1726
 end
-arch brush
+arch snow
 x 8
 y 48
 elevation 558
 end
-arch woods_3
+arch snow
 x 8
 y 49
 elevation 2873
@@ -2410,22 +2414,22 @@ x 9
 y 45
 elevation -9
 end
-arch brush
+arch snow
 x 9
 y 46
 elevation 67
 end
-arch grass
+arch snow
 x 9
 y 47
 elevation 641
 end
-arch brush
+arch snow
 x 9
 y 48
 elevation 443
 end
-arch woods_3
+arch snow
 x 9
 y 49
 elevation 2417
@@ -2534,7 +2538,7 @@ x 10
 y 20
 elevation 3619
 end
-arch hills_rocky
+arch cobblestones
 x 10
 y 21
 elevation 2051
@@ -2657,22 +2661,22 @@ x 10
 y 45
 elevation 24
 end
-arch brush
+arch snow
 x 10
 y 46
 elevation 26
 end
-arch grass
+arch snow
 x 10
 y 47
 elevation 532
 end
-arch brush
+arch snow
 x 10
 y 48
 elevation 497
 end
-arch hills_rocky
+arch snow
 x 10
 y 49
 elevation 2559
@@ -2786,7 +2790,7 @@ x 11
 y 21
 elevation 3461
 end
-arch hills_rocky
+arch cobblestones
 x 11
 y 22
 elevation 2101
@@ -2904,22 +2908,22 @@ x 11
 y 45
 elevation 80
 end
-arch grass
+arch snow
 x 11
 y 46
 elevation 245
 end
-arch woods_3
+arch snow
 x 11
 y 47
 elevation 1163
 end
-arch woods_3
+arch snow
 x 11
 y 48
 elevation 2118
 end
-arch hills_rocky
+arch snow
 x 11
 y 49
 elevation 2718
@@ -3038,7 +3042,7 @@ x 12
 y 22
 elevation 2551
 end
-arch brush
+arch cobblestones
 x 12
 y 23
 elevation 133
@@ -3141,7 +3145,7 @@ x 12
 y 43
 elevation 42
 end
-arch brush
+arch snowcliff2
 x 12
 y 44
 elevation 10
@@ -3151,22 +3155,22 @@ x 12
 y 45
 elevation 26
 end
-arch grass
+arch snowcliff3
 x 12
 y 46
 elevation 486
 end
-arch woods_3
+arch snow
 x 12
 y 47
 elevation 1850
 end
-arch hills_rocky
+arch snow
 x 12
 y 48
 elevation 2307
 end
-arch woods_3
+arch snow
 x 12
 y 49
 elevation 2398
@@ -3290,7 +3294,7 @@ x 13
 y 23
 elevation 56
 end
-arch brush
+arch cobblestones
 x 13
 y 24
 elevation 623
@@ -3388,32 +3392,32 @@ x 13
 y 43
 elevation 144
 end
-arch shallow_sea
+arch snowcliff2
 x 13
 y 44
 elevation -2
 end
-arch grass
+arch snowcliff2
 x 13
 y 45
 elevation 32
 end
-arch grass
+arch snowcliff2
 x 13
 y 46
 elevation 165
 end
-arch woods_3
+arch snowcliff2
 x 13
 y 47
 elevation 1415
 end
-arch woods_3
+arch snow
 x 13
 y 48
 elevation 1788
 end
-arch grass
+arch snow
 x 13
 y 49
 elevation 953
@@ -3542,7 +3546,7 @@ x 14
 y 24
 elevation 2036
 end
-arch hills_rocky
+arch cobblestones
 x 14
 y 25
 elevation 1850
@@ -3640,27 +3644,27 @@ x 14
 y 44
 elevation 42
 end
-arch shallow_sea
+arch snowcliff2
 x 14
 y 45
 elevation -6
 end
-arch grass
+arch snowcliff2
 x 14
 y 46
 elevation 11
 end
-arch grass
+arch snowcliff2
 x 14
 y 47
 elevation 427
 end
-arch grass
+arch snow
 x 14
 y 48
 elevation 674
 end
-arch grass
+arch snow
 x 14
 y 49
 elevation 843
@@ -3789,12 +3793,12 @@ x 15
 y 24
 elevation 1805
 end
-arch hills_rocky
+arch cobblestones
 x 15
 y 25
 elevation 1370
 end
-arch brush
+arch cobblestones
 x 15
 y 26
 elevation 420
@@ -3887,27 +3891,27 @@ x 15
 y 44
 elevation 517
 end
-arch grass
+arch snowcliff2
 x 15
 y 45
 elevation 134
 end
-arch grass
+arch snowcliff2
 x 15
 y 46
 elevation 24
 end
-arch grass
+arch snowcliff2
 x 15
 y 47
 elevation 98
 end
-arch grass
+arch snow
 x 15
 y 48
 elevation 47
 end
-arch brush
+arch snow
 x 15
 y 49
 elevation 767
@@ -4041,12 +4045,12 @@ x 16
 y 25
 elevation 50
 end
-arch grass
+arch cobblestones
 x 16
 y 26
 elevation 596
 end
-arch brush
+arch cobblestones
 x 16
 y 27
 elevation 842
@@ -4134,27 +4138,27 @@ x 16
 y 44
 elevation 734
 end
-arch brush
+arch snowcliff2
 x 16
 y 45
 elevation 90
 end
-arch grass
+arch snowcliff2
 x 16
 y 46
 elevation 19
 end
-arch grass
+arch snowcliff3
 x 16
 y 47
 elevation 59
 end
-arch grass
+arch snow
 x 16
 y 48
 elevation 130
 end
-arch grass
+arch snow
 x 16
 y 49
 elevation 390
@@ -4299,12 +4303,12 @@ x 17
 y 26
 elevation 404
 end
-arch brush
+arch cobblestones
 x 17
 y 27
 elevation 455
 end
-arch brush
+arch cobblestones
 x 17
 y 28
 elevation 321
@@ -4387,27 +4391,27 @@ x 17
 y 44
 elevation 135
 end
-arch brush
+arch snowcliff2
 x 17
 y 45
 elevation 238
 end
-arch grass
+arch snowcliff2
 x 17
 y 46
 elevation 15
 end
-arch grass
+arch snowcliff2
 x 17
 y 47
 elevation 127
 end
-arch grass
+arch snow
 x 17
 y 48
 elevation 88
 end
-arch brush
+arch snow
 x 17
 y 49
 elevation 153
@@ -4549,12 +4553,12 @@ x 18
 y 27
 elevation 37
 end
-arch brush
+arch cobblestones
 x 18
 y 28
 elevation 236
 end
-arch brush
+arch cobblestones
 x 18
 y 29
 elevation 512
@@ -4632,27 +4636,27 @@ x 18
 y 44
 elevation 460
 end
-arch grass
+arch snowcliff2
 x 18
 y 45
 elevation 168
 end
-arch grass
+arch snowcliff2
 x 18
 y 46
 elevation 373
 end
-arch grass
+arch snowcliff2
 x 18
 y 47
 elevation 205
 end
-arch woods_3
+arch snow
 x 18
 y 48
 elevation 1096
 end
-arch hills_rocky
+arch snow
 x 18
 y 49
 elevation 1437
@@ -4801,12 +4805,12 @@ x 19
 y 28
 elevation 86
 end
-arch brush
+arch cobblestones
 x 19
 y 29
 elevation 366
 end
-arch brush
+arch cobblestones
 x 19
 y 30
 elevation 641
@@ -4879,27 +4883,27 @@ x 19
 y 44
 elevation 41
 end
-arch brush
+arch snowcliff2
 x 19
 y 45
 elevation 536
 end
-arch woods_3
+arch snowcliff2
 x 19
 y 46
 elevation 1579
 end
-arch woods_3
+arch snowcliff2
 x 19
 y 47
 elevation 2033
 end
-arch woods_3
+arch snow
 x 19
 y 48
 elevation 2031
 end
-arch woods_3
+arch snow
 x 19
 y 49
 elevation 2331
@@ -5053,12 +5057,12 @@ x 20
 y 29
 elevation 147
 end
-arch brush
+arch cobblestones
 x 20
 y 30
 elevation 121
 end
-arch hills_rocky
+arch cobblestones
 x 20
 y 31
 elevation 1192
@@ -5126,27 +5130,27 @@ x 20
 y 44
 elevation 98
 end
-arch woods_3
+arch snowcliff2
 x 20
 y 45
 elevation 1001
 end
-arch woods_3
+arch snowcliff2
 x 20
 y 46
 elevation 2190
 end
-arch jungle_1
+arch snowcliff2
 x 20
 y 47
 elevation 2701
 end
-arch jungle_1
+arch snow
 x 20
 y 48
 elevation 2425
 end
-arch jungle_1
+arch snow
 x 20
 y 49
 elevation 2010
@@ -5305,12 +5309,12 @@ x 21
 y 30
 elevation 195
 end
-arch hills_rocky
+arch cobblestones
 x 21
 y 31
 elevation 1354
 end
-arch hills_rocky
+arch cobblestones
 x 21
 y 32
 elevation 2212
@@ -5373,27 +5377,27 @@ x 21
 y 44
 elevation 28
 end
-arch desert
+arch snowcliff2
 x 21
 y 45
 elevation 614
 end
-arch woods_3
+arch snowcliff2
 x 21
 y 46
 elevation 1851
 end
-arch jungle_1
+arch snowcliff3
 x 21
 y 47
 elevation 2374
 end
-arch hills_rocky
+arch snow
 x 21
 y 48
 elevation 2019
 end
-arch desert
+arch snow
 x 21
 y 49
 elevation 302
@@ -5557,12 +5561,12 @@ x 22
 y 31
 elevation 1087
 end
-arch hills_rocky
+arch cobblestones
 x 22
 y 32
 elevation 1882
 end
-arch hills_rocky
+arch cobblestones
 x 22
 y 33
 elevation 2309
@@ -5620,27 +5624,27 @@ x 22
 y 44
 elevation 8
 end
-arch desert
+arch snow
 x 22
 y 45
 elevation 291
 end
-arch grass
+arch snow
 x 22
 y 46
 elevation 721
 end
-arch woods_3
+arch snow
 x 22
 y 47
 elevation 1386
 end
-arch woods_3
+arch snow
 x 22
 y 48
 elevation 1379
 end
-arch grass
+arch snow
 x 22
 y 49
 elevation 835
@@ -5809,12 +5813,12 @@ x 23
 y 32
 elevation 158
 end
-arch hills_rocky
+arch cobblestones
 x 23
 y 33
 elevation 2099
 end
-arch hills_rocky
+arch cobblestones
 x 23
 y 34
 elevation 2620
@@ -5862,32 +5866,32 @@ x 23
 y 43
 elevation 93
 end
-arch grass
+arch snow
 x 23
 y 44
 elevation 126
 end
-arch brush
+arch snow
 x 23
 y 45
 elevation 25
 end
-arch grass
+arch snow
 x 23
 y 46
 elevation 124
 end
-arch grass
+arch snow
 x 23
 y 47
 elevation 454
 end
-arch grass
+arch snow
 x 23
 y 48
 elevation 320
 end
-arch evergreen
+arch snow
 x 23
 y 49
 elevation 2230
@@ -6041,7 +6045,7 @@ x 24
 y 29
 elevation 929
 end
-arch brush
+arch bosgrass16
 x 24
 y 30
 elevation 72
@@ -6056,17 +6060,17 @@ x 24
 y 32
 elevation 803
 end
-arch hills_rocky
+arch beach
 x 24
 y 33
 elevation 2177
 end
-arch hills_rocky
+arch beach
 x 24
 y 34
 elevation 2591
 end
-arch hills_rocky
+arch cobblestones
 x 24
 y 35
 elevation 2568
@@ -6108,42 +6112,42 @@ x 24
 y 41
 elevation 1222
 end
-arch grass
+arch snow
 x 24
 y 42
 elevation 232
 end
-arch grass
+arch snow
 x 24
 y 43
 elevation 560
 end
-arch hills_rocky
+arch snow
 x 24
 y 44
 elevation 1184
 end
-arch hills_rocky
+arch snow
 x 24
 y 45
 elevation 1474
 end
-arch grass
+arch snow
 x 24
 y 46
 elevation 440
 end
-arch jungle_1
+arch snow
 x 24
 y 47
 elevation 1247
 end
-arch steppe
+arch snow
 x 24
 y 48
 elevation 3577
 end
-arch hills
+arch snow
 x 24
 y 49
 elevation 3771
@@ -6292,37 +6296,37 @@ x 25
 y 28
 elevation 2646
 end
-arch hills_rocky
+arch bosgrass16
 x 25
 y 29
 elevation 2173
 end
-arch hills_rocky
+arch bosgrass16
 x 25
 y 30
 elevation 2012
 end
-arch hills_rocky
+arch bosgrass16
 x 25
 y 31
 elevation 2100
 end
-arch hills_rocky
+arch beach
 x 25
 y 32
 elevation 2790
 end
-arch hills
+arch beach
 x 25
 y 33
 elevation 3195
 end
-arch hills
+arch beach
 x 25
 y 34
 elevation 3319
 end
-arch hills_rocky
+arch cobblestones
 x 25
 y 35
 elevation 2939
@@ -6331,16 +6335,16 @@ arch cobblestones
 x 25
 y 36
 end
-arch hills
+arch snow
 x 25
 y 37
 end
-arch hills
+arch snow
 x 25
 y 38
 elevation 3136
 end
-arch hills
+arch snow
 x 25
 y 39
 elevation 3329
@@ -6355,42 +6359,42 @@ x 25
 y 41
 elevation 2007
 end
-arch grass
+arch snow
 x 25
 y 42
 elevation 614
 end
-arch hills_rocky
+arch snow
 x 25
 y 43
 elevation 1463
 end
-arch hills_rocky
+arch snow
 x 25
 y 44
 elevation 2536
 end
-arch hills
+arch snow
 x 25
 y 45
 elevation 3625
 end
-arch hills
+arch snow
 x 25
 y 46
 elevation 4778
 end
-arch mountain
+arch snow
 x 25
 y 47
 elevation 5769
 end
-arch mountain
+arch snow
 x 25
 y 48
 elevation 5959
 end
-arch mountain
+arch snow
 x 25
 y 49
 elevation 5045
@@ -6539,37 +6543,37 @@ x 26
 y 28
 elevation 3420
 end
-arch hills_rocky
+arch bosgrass16
 x 26
 y 29
 elevation 2886
 end
-arch hills_rocky
+arch bosgrass16
 x 26
 y 30
 elevation 2895
 end
-arch hills
+arch bosgrass16
 x 26
 y 31
 elevation 3393
 end
-arch hills
+arch beach
 x 26
 y 32
 elevation 4169
 end
-arch hills
+arch beach
 x 26
 y 33
 elevation 4491
 end
-arch hills
+arch beach
 x 26
 y 34
 elevation 3420
 end
-arch hills
+arch cobblestones
 x 26
 y 35
 elevation 3620
@@ -6578,67 +6582,71 @@ arch cobblestones
 x 26
 y 36
 end
-arch hills
+arch snow
 x 26
 y 37
 elevation 3210
 end
-arch hills
+arch snow
 x 26
 y 38
 elevation 3084
 end
-arch hills_rocky
+arch snow
 x 26
 y 39
 elevation 2869
 end
-arch evergreen
+arch snow
 x 26
 y 40
 elevation 2553
 end
-arch hills_rocky
+arch snow
 x 26
 y 41
 elevation 2223
 end
-arch grass
+arch snow
 x 26
 y 42
 elevation 995
 end
-arch hills_rocky
+arch snow
 x 26
 y 43
 elevation 1169
 end
-arch hills
+arch snow
 x 26
 y 44
 elevation 3404
 end
-arch mountain
+arch snow
 x 26
 y 45
 elevation 5115
 end
-arch mountain
+arch snow
 x 26
 y 46
 elevation 6857
 end
-arch mountain
+arch spalms2
+x 26
+y 46
+end
+arch snow
 x 26
 y 47
 elevation 7913
 end
-arch mountain
+arch snow
 x 26
 y 48
 elevation 7148
 end
-arch mountain
+arch snow
 x 26
 y 49
 elevation 5059
@@ -6782,42 +6790,46 @@ x 27
 y 27
 elevation 4050
 end
-arch hills
+arch bosgrass16
 x 27
 y 28
 elevation 3372
 end
-arch hills_rocky
+arch bosgrass16
 x 27
 y 29
 elevation 2810
 end
-arch hills_rocky
+arch bosgrass16
 x 27
 y 30
 elevation 2279
 end
-arch hills
+arch beach
 x 27
 y 31
 elevation 3930
 end
-arch mountain
+arch spalm
+x 27
+y 31
+end
+arch beach
 x 27
 y 32
 elevation 5132
 end
-arch mountain
+arch beach
 x 27
 y 33
 elevation 5596
 end
-arch mountain
+arch beach
 x 27
 y 34
 elevation 5089
 end
-arch hills
+arch cobblestones
 x 27
 y 35
 elevation 4004
@@ -6826,67 +6838,67 @@ arch cobblestones
 x 27
 y 36
 end
-arch hills_rocky
+arch snow
 x 27
 y 37
 elevation 2831
 end
-arch hills_rocky
+arch snow
 x 27
 y 38
 elevation 2308
 end
-arch brush
+arch snow
 x 27
 y 39
 elevation 286
 end
-arch woods_3
+arch snow
 x 27
 y 40
 elevation 1961
 end
-arch hills_rocky
+arch snow
 x 27
 y 41
 elevation 2293
 end
-arch evergreen
+arch snowcliff2
 x 27
 y 42
 elevation 2431
 end
-arch hills_rocky
+arch snowcliff2
 x 27
 y 43
 elevation 2934
 end
-arch hills
+arch snow
 x 27
 y 44
 elevation 3825
 end
-arch hills
+arch snow
 x 27
 y 45
 elevation 4529
 end
-arch mountain
+arch snow
 x 27
 y 46
 elevation 6930
 end
-arch mountain
+arch snow
 x 27
 y 47
 elevation 7580
 end
-arch mountain
+arch snow
 x 27
 y 48
 elevation 6273
 end
-arch hills_rocky
+arch snow
 x 27
 y 49
 elevation 3412
@@ -7025,47 +7037,47 @@ x 28
 y 26
 elevation 3744
 end
-arch hills
+arch bosgrass16
 x 28
 y 27
 elevation 3544
 end
-arch hills_rocky
+arch bosgrass16
 x 28
 y 28
 elevation 2665
 end
-arch hills_rocky
+arch bosgrass16
 x 28
 y 29
 elevation 1149
 end
-arch hills_rocky
+arch beach
 x 28
 y 30
 elevation 2281
 end
-arch hills
+arch beach
 x 28
 y 31
 elevation 3848
 end
-arch mountain
+arch beach
 x 28
 y 32
 elevation 5498
 end
-arch mountain
+arch beach
 x 28
 y 33
 elevation 6085
 end
-arch mountain
+arch beach
 x 28
 y 34
 elevation 5436
 end
-arch hills
+arch cobblestones
 x 28
 y 35
 elevation 3783
@@ -7074,67 +7086,71 @@ arch cobblestones
 x 28
 y 36
 end
-arch evergreen
+arch snow
 x 28
 y 37
 elevation 1721
 end
-arch hills_rocky
+arch snow
 x 28
 y 38
 elevation 1614
 end
-arch brush
+arch snow
 x 28
 y 39
 elevation 340
 end
-arch hills_rocky
+arch spalms2
+x 28
+y 39
+end
+arch snow
 x 28
 y 40
 elevation 1494
 end
-arch evergreen
+arch snow
 x 28
 y 41
 elevation 2535
 end
-arch hills
+arch snowcliff2
 x 28
 y 42
 elevation 3162
 end
-arch hills
+arch snowcliff2
 x 28
 y 43
 elevation 3071
 end
-arch hills
+arch snow
 x 28
 y 44
 elevation 4299
 end
-arch hills
+arch snow
 x 28
 y 45
 elevation 4662
 end
-arch mountain
+arch snow
 x 28
 y 46
 elevation 5421
 end
-arch mountain
+arch snow
 x 28
 y 47
 elevation 6091
 end
-arch hills
+arch snow
 x 28
 y 48
 elevation 3745
 end
-arch hills_rocky
+arch snow
 x 28
 y 49
 elevation 1828
@@ -7268,52 +7284,56 @@ x 29
 y 25
 elevation 2662
 end
-arch hills
+arch bosgrass16
 x 29
 y 26
 elevation 3209
 end
-arch hills_rocky
+arch bosgrass16
 x 29
 y 27
 elevation 2227
 end
-arch hills_rocky
+arch bosgrass16
 x 29
 y 28
 elevation 1844
 end
-arch brush
+arch beach
 x 29
 y 29
 elevation 406
 end
-arch hills_rocky
+arch beach
 x 29
 y 30
 elevation 2849
 end
-arch hills
+arch beach
 x 29
 y 31
 elevation 4124
 end
-arch hills
+arch beach
 x 29
 y 32
 elevation 4988
 end
-arch mountain
+arch beach
 x 29
 y 33
 elevation 5259
 end
-arch hills
+arch spalms1
+x 29
+y 33
+end
+arch beach
 x 29
 y 34
 elevation 4292
 end
-arch hills_rocky
+arch cobblestones
 x 29
 y 35
 elevation 2552
@@ -7322,67 +7342,67 @@ arch cobblestones
 x 29
 y 36
 end
-arch hills_rocky
+arch snow
 x 29
 y 37
 elevation 1333
 end
-arch woods_3
+arch snow
 x 29
 y 38
 elevation 1492
 end
-arch brush
+arch snow
 x 29
 y 39
 elevation 762
 end
-arch grass
+arch snow
 x 29
 y 40
 elevation 166
 end
-arch hills_rocky
+arch snow
 x 29
 y 41
 elevation 2849
 end
-arch hills
+arch snowcliff2
 x 29
 y 42
 elevation 4181
 end
-arch hills
+arch snowcliff2
 x 29
 y 43
 elevation 4747
 end
-arch hills
+arch snow
 x 29
 y 44
 elevation 4626
 end
-arch hills
+arch snow
 x 29
 y 45
 elevation 4761
 end
-arch mountain
+arch snow
 x 29
 y 46
 elevation 5085
 end
-arch hills
+arch snow
 x 29
 y 47
 elevation 4454
 end
-arch hills
+arch snow
 x 29
 y 48
 elevation 4450
 end
-arch hills
+arch snow
 x 29
 y 49
 elevation 4839
@@ -7516,52 +7536,52 @@ x 30
 y 25
 elevation 3349
 end
-arch hills_rocky
+arch bosgrass16
 x 30
 y 26
 elevation 2223
 end
-arch hills_rocky
+arch bosgrass16
 x 30
 y 27
 elevation 2761
 end
-arch hills_rocky
+arch bosgrass16
 x 30
 y 28
 elevation 2755
 end
-arch hills
+arch beach
 x 30
 y 29
 elevation 3080
 end
-arch hills
+arch beach
 x 30
 y 30
 elevation 3418
 end
-arch hills
+arch beach
 x 30
 y 31
 elevation 3567
 end
-arch hills
+arch beach
 x 30
 y 32
 elevation 4398
 end
-arch hills
+arch beach
 x 30
 y 33
 elevation 3390
 end
-arch hills_rocky
+arch beach
 x 30
 y 34
 elevation 2542
 end
-arch brush
+arch cobblestones
 x 30
 y 35
 elevation 165
@@ -7570,67 +7590,67 @@ arch cobblestones
 x 30
 y 36
 end
-arch evergreen
+arch snow
 x 30
 y 37
 elevation 1124
 end
-arch hills_rocky
+arch snow
 x 30
 y 38
 elevation 1330
 end
-arch hills_rocky
+arch snow
 x 30
 y 39
 elevation 1030
 end
-arch brush
+arch snow
 x 30
 y 40
 elevation 843
 end
-arch steppe
+arch snow
 x 30
 y 41
 elevation 3252
 end
-arch mountain
+arch snow
 x 30
 y 42
 elevation 5113
 end
-arch mountain
+arch snow
 x 30
 y 43
 elevation 5899
 end
-arch mountain
+arch snow
 x 30
 y 44
 elevation 5037
 end
-arch hills
+arch snow
 x 30
 y 45
 elevation 4672
 end
-arch mountain
+arch snow
 x 30
 y 46
 elevation 5370
 end
-arch hills
+arch snow
 x 30
 y 47
 elevation 4220
 end
-arch mountain
+arch snow
 x 30
 y 48
 elevation 6395
 end
-arch mountain
+arch snow
 x 30
 y 49
 elevation 7427
@@ -7764,52 +7784,56 @@ x 31
 y 25
 elevation 2506
 end
-arch hills_rocky
+arch bosgrass16
 x 31
 y 26
 elevation 2504
 end
-arch hills_rocky
+arch bosgrass16
 x 31
 y 27
 elevation 2937
 end
-arch hills
+arch beach
 x 31
 y 28
 elevation 3578
 end
-arch hills
+arch beach
 x 31
 y 29
 elevation 3977
 end
-arch hills
+arch beach
 x 31
 y 30
 elevation 4343
 end
-arch hills
+arch beach
 x 31
 y 31
 elevation 4756
 end
-arch hills
+arch spalms1
+x 31
+y 31
+end
+arch snow
 x 31
 y 32
 elevation 4489
 end
-arch hills_rocky
+arch beach
 x 31
 y 33
 elevation 2367
 end
-arch brush
+arch beach
 x 31
 y 34
 elevation 285
 end
-arch brush
+arch cobblestones
 x 31
 y 35
 elevation 371
@@ -7818,67 +7842,67 @@ arch cobblestones
 x 31
 y 36
 end
-arch brush
+arch snow
 x 31
 y 37
 elevation 800
 end
-arch brush
+arch snow
 x 31
 y 38
 elevation 959
 end
-arch brush
+arch snow
 x 31
 y 39
 elevation 432
 end
-arch evergreen
+arch snow
 x 31
 y 40
 elevation 1306
 end
-arch hills
+arch snow
 x 31
 y 41
 elevation 3785
 end
-arch mountain
+arch snowcliff2
 x 31
 y 42
 elevation 5811
 end
-arch mountain
+arch snowcliff2
 x 31
 y 43
 elevation 6724
 end
-arch mountain
+arch snow
 x 31
 y 44
 elevation 6398
 end
-arch mountain
+arch snow
 x 31
 y 45
 elevation 5663
 end
-arch mountain
+arch snow
 x 31
 y 46
 elevation 6148
 end
-arch mountain
+arch snow
 x 31
 y 47
 elevation 7079
 end
-arch mountain
+arch snow
 x 31
 y 48
 elevation 8150
 end
-arch mountain2
+arch snow
 x 31
 y 49
 elevation 9328
@@ -8012,52 +8036,52 @@ x 32
 y 25
 elevation 1016
 end
-arch hills_rocky
+arch bosgrass16
 x 32
 y 26
 elevation 1273
 end
-arch hills
+arch beach
 x 32
 y 27
 elevation 3204
 end
-arch hills
+arch beach
 x 32
 y 28
 elevation 3883
 end
-arch hills
+arch beach
 x 32
 y 29
 elevation 4135
 end
-arch hills
+arch beach
 x 32
 y 30
 elevation 4631
 end
-arch mountain
+arch beach
 x 32
 y 31
 elevation 5339
 end
-arch mountain
+arch snow
 x 32
 y 32
 elevation 5327
 end
-arch hills
+arch snow
 x 32
 y 33
 elevation 4413
 end
-arch hills_rocky
+arch snow
 x 32
 y 34
 elevation 2800
 end
-arch hills_rocky
+arch cobblestones
 x 32
 y 35
 elevation 1152
@@ -8066,67 +8090,71 @@ arch cobblestones
 x 32
 y 36
 end
-arch brush
+arch snow
 x 32
 y 37
 elevation 546
 end
-arch brush
+arch snow
 x 32
 y 38
 elevation 662
 end
-arch desert
+arch snow
 x 32
 y 39
 elevation 274
 end
-arch brush
+arch snow
 x 32
 y 40
 elevation 711
 end
-arch hills
+arch spalms1
+x 32
+y 40
+end
+arch snow
 x 32
 y 41
 elevation 4248
 end
-arch mountain
+arch snowcliff2
 x 32
 y 42
 elevation 6362
 end
-arch mountain
+arch snowcliff2
 x 32
 y 43
 elevation 6742
 end
-arch mountain
+arch snow
 x 32
 y 44
 elevation 7437
 end
-arch mountain
+arch snow
 x 32
 y 45
 elevation 5411
 end
-arch mountain
+arch snow
 x 32
 y 46
 elevation 7322
 end
-arch mountain
+arch snow
 x 32
 y 47
 elevation 8098
 end
-arch mountain
+arch snow
 x 32
 y 48
 elevation 8745
 end
-arch mountain2
+arch snow
 x 32
 y 49
 elevation 9554
@@ -8260,52 +8288,52 @@ x 33
 y 25
 elevation 237
 end
-arch hills_rocky
+arch beach
 x 33
 y 26
 elevation 2365
 end
-arch hills
+arch beach
 x 33
 y 27
 elevation 3375
 end
-arch hills
+arch beach
 x 33
 y 28
 elevation 3723
 end
-arch hills
+arch beach
 x 33
 y 29
 elevation 3590
 end
-arch hills
+arch beach
 x 33
 y 30
 elevation 4253
 end
-arch hills
+arch snow
 x 33
 y 31
 elevation 4745
 end
-arch mountain
+arch snow
 x 33
 y 32
 elevation 5147
 end
-arch hills
+arch snow
 x 33
 y 33
 elevation 4752
 end
-arch hills
+arch snow
 x 33
 y 34
 elevation 3441
 end
-arch brush
+arch cobblestones
 x 33
 y 35
 elevation 423
@@ -8314,67 +8342,67 @@ arch cobblestones
 x 33
 y 36
 end
-arch desert
+arch snow
 x 33
 y 37
 elevation 742
 end
-arch brush
+arch snow
 x 33
 y 38
 elevation 614
 end
-arch brush
+arch snow
 x 33
 y 39
 elevation 379
 end
-arch hills_rocky
+arch snow
 x 33
 y 40
 elevation 1744
 end
-arch hills
+arch snow
 x 33
 y 41
 elevation 4481
 end
-arch mountain
+arch snowcliff2
 x 33
 y 42
 elevation 6784
 end
-arch mountain
+arch snowcliff2
 x 33
 y 43
 elevation 8158
 end
-arch mountain
+arch snow
 x 33
 y 44
 elevation 8328
 end
-arch mountain
+arch snow
 x 33
 y 45
 elevation 8094
 end
-arch mountain
+arch snow
 x 33
 y 46
 elevation 7703
 end
-arch mountain
+arch snow
 x 33
 y 47
 elevation 7889
 end
-arch mountain
+arch snow
 x 33
 y 48
 elevation 8198
 end
-arch mountain
+arch snow
 x 33
 y 49
 elevation 7778
@@ -8503,57 +8531,61 @@ x 34
 y 24
 elevation 37
 end
-arch hills_rocky
+arch bosgrass10
 x 34
 y 25
 elevation 1564
 end
-arch hills_rocky
+arch beach
 x 34
 y 26
 elevation 2786
 end
-arch hills
+arch beach
 x 34
 y 27
 elevation 3737
 end
-arch hills
+arch beach
 x 34
 y 28
 elevation 3122
 end
-arch hills_rocky
+arch beach
 x 34
 y 29
 elevation 2350
 end
-arch hills_rocky
+arch beach
 x 34
 y 30
 elevation 2962
 end
-arch hills
+arch spalms1
+x 34
+y 30
+end
+arch snow
 x 34
 y 31
 elevation 3941
 end
-arch hills_rocky
+arch snow
 x 34
 y 32
 elevation 1286
 end
-arch hills
+arch snow
 x 34
 y 33
 elevation 4806
 end
-arch hills
+arch snow
 x 34
 y 34
 elevation 3600
 end
-arch brush
+arch cobblestones
 x 34
 y 35
 elevation 342
@@ -8562,22 +8594,22 @@ arch cobblestones
 x 34
 y 36
 end
-arch hills_rocky
+arch snow
 x 34
 y 37
 elevation 1759
 end
-arch hills_rocky
+arch snow
 x 34
 y 38
 elevation 2145
 end
-arch brush
+arch snow
 x 34
 y 39
 elevation 584
 end
-arch hills_rocky
+arch snow
 x 34
 y 40
 elevation 1659
@@ -8587,42 +8619,42 @@ x 34
 y 41
 elevation 4744
 end
-arch mountain
+arch snowcliff2
 x 34
 y 42
 elevation 7306
 end
-arch mountain
+arch snowcliff2
 x 34
 y 43
 elevation 8634
 end
-arch mountain
+arch snow
 x 34
 y 44
 elevation 8912
 end
-arch mountain
+arch snow
 x 34
 y 45
 elevation 8263
 end
-arch mountain
+arch snow
 x 34
 y 46
 elevation 7037
 end
-arch mountain
+arch snow
 x 34
 y 47
 elevation 6685
 end
-arch mountain
+arch snow
 x 34
 y 48
 elevation 7040
 end
-arch mountain
+arch snow
 x 34
 y 49
 elevation 7430
@@ -8751,57 +8783,61 @@ x 35
 y 24
 elevation 612
 end
-arch hills_rocky
+arch bosgrass10
 x 35
 y 25
 elevation 1781
 end
-arch hills
+arch beach
 x 35
 y 26
 elevation 3041
 end
-arch hills
+arch beach
 x 35
 y 27
 elevation 4161
 end
-arch mountain
+arch beach
 x 35
 y 28
 elevation 5313
 end
-arch mountain
+arch snow
 x 35
 y 29
 elevation 6142
 end
-arch mountain
+arch snow
 x 35
 y 30
 elevation 6959
 end
-arch mountain
+arch snow
 x 35
 y 31
 elevation 6808
 end
-arch mountain
+arch spalm
+x 35
+y 31
+end
+arch snow
 x 35
 y 32
 elevation 6345
 end
-arch mountain
+arch snow
 x 35
 y 33
 elevation 5722
 end
-arch hills
+arch snow
 x 35
 y 34
 elevation 4638
 end
-arch hills_rocky
+arch cobblestones
 x 35
 y 35
 elevation 2799
@@ -8810,22 +8846,22 @@ arch cobblestones
 x 35
 y 36
 end
-arch hills_rocky
+arch snow
 x 35
 y 37
 elevation 2899
 end
-arch hills
+arch snow
 x 35
 y 38
 elevation 4127
 end
-arch hills
+arch snow
 x 35
 y 39
 elevation 4314
 end
-arch hills_rocky
+arch snow
 x 35
 y 40
 elevation 1374
@@ -8835,42 +8871,46 @@ x 35
 y 41
 elevation 5945
 end
-arch mountain
+arch snowcliff2
 x 35
 y 42
 elevation 7596
 end
-arch mountain
+arch snowcliff2
 x 35
 y 43
 elevation 8246
 end
-arch mountain
+arch snow
 x 35
 y 44
 elevation 8073
 end
-arch mountain
+arch snow
 x 35
 y 45
 elevation 7194
 end
-arch mountain
+arch spalms2
+x 35
+y 45
+end
+arch snow
 x 35
 y 46
 elevation 6168
 end
-arch mountain
+arch snow
 x 35
 y 47
 elevation 5887
 end
-arch hills
+arch snow
 x 35
 y 48
 elevation 4430
 end
-arch mountain
+arch snow
 x 35
 y 49
 elevation 6762
@@ -8999,57 +9039,57 @@ x 36
 y 24
 elevation 506
 end
-arch hills_rocky
+arch bosgrass10
 x 36
 y 25
 elevation 1128
 end
-arch hills_rocky
+arch beach
 x 36
 y 26
 elevation 2979
 end
-arch hills
+arch beach
 x 36
 y 27
 elevation 4564
 end
-arch mountain
+arch snow
 x 36
 y 28
 elevation 6959
 end
-arch mountain2
+arch snow
 x 36
 y 29
 elevation 9085
 end
-arch mountain2
+arch snow
 x 36
 y 30
 elevation 10112
 end
-arch mountain2
+arch snow
 x 36
 y 31
 elevation 9944
 end
-arch mountain
+arch snow
 x 36
 y 32
 elevation 8720
 end
-arch mountain
+arch snow
 x 36
 y 33
 elevation 7589
 end
-arch mountain
+arch snow
 x 36
 y 34
 elevation 5895
 end
-arch hills
+arch cobblestones
 x 36
 y 35
 elevation 3067
@@ -9058,17 +9098,21 @@ arch cobblestones
 x 36
 y 36
 end
-arch hills_rocky
+arch snow
 x 36
 y 37
 elevation 2845
 end
-arch mountain
+arch snow
 x 36
 y 38
 elevation 5510
 end
-arch mountain
+arch spalms2
+x 36
+y 38
+end
+arch snow
 x 36
 y 39
 elevation 6649
@@ -9083,42 +9127,42 @@ x 36
 y 41
 elevation 7097
 end
-arch mountain
+arch snowcliff2
 x 36
 y 42
 elevation 7318
 end
-arch mountain
+arch snowcliff2
 x 36
 y 43
 elevation 6991
 end
-arch mountain
+arch snow
 x 36
 y 44
 elevation 5669
 end
-arch mountain
+arch snow
 x 36
 y 45
 elevation 5804
 end
-arch hills
+arch snow
 x 36
 y 46
 elevation 4893
 end
-arch mountain
+arch snow
 x 36
 y 47
 elevation 5148
 end
-arch hills
+arch snow
 x 36
 y 48
 elevation 4847
 end
-arch mountain
+arch snow
 x 36
 y 49
 elevation 6232
@@ -9252,52 +9296,56 @@ x 37
 y 25
 elevation 1528
 end
-arch hills_rocky
+arch beach
 x 37
 y 26
 elevation 2906
 end
-arch hills
+arch beach
 x 37
 y 27
 elevation 3853
 end
-arch mountain
+arch snow
 x 37
 y 28
 elevation 7513
 end
-arch mountain2
+arch snow
 x 37
 y 29
 elevation 9920
 end
-arch mountain2
+arch snow
 x 37
 y 30
 elevation 11123
 end
-arch mountain2
+arch snow
 x 37
 y 31
 elevation 11214
 end
-arch mountain2
+arch spalms1
+x 37
+y 31
+end
+arch snow
 x 37
 y 32
 elevation 10290
 end
-arch mountain
+arch snow
 x 37
 y 33
 elevation 8806
 end
-arch mountain
+arch snow
 x 37
 y 34
 elevation 6841
 end
-arch hills
+arch cobblestones
 x 37
 y 35
 elevation 4266
@@ -9306,12 +9354,12 @@ arch cobblestones
 x 37
 y 36
 end
-arch hills_rocky
+arch snow
 x 37
 y 37
 elevation 2555
 end
-arch mountain
+arch snow
 x 37
 y 38
 elevation 5069
@@ -9331,42 +9379,42 @@ x 37
 y 41
 elevation 7501
 end
-arch mountain
+arch snowcliff2
 x 37
 y 42
 elevation 6587
 end
-arch hills
+arch snowcliff2
 x 37
 y 43
 elevation 4794
 end
-arch hills
+arch snow
 x 37
 y 44
 elevation 4441
 end
-arch hills
+arch snow
 x 37
 y 45
 elevation 4262
 end
-arch hills
+arch snow
 x 37
 y 46
 elevation 4718
 end
-arch hills
+arch snow
 x 37
 y 47
 elevation 4423
 end
-arch mountain
+arch snow
 x 37
 y 48
 elevation 5146
 end
-arch mountain
+arch snow
 x 37
 y 49
 elevation 5528
@@ -9500,52 +9548,52 @@ x 38
 y 25
 elevation 1000
 end
-arch hills
+arch beach
 x 38
 y 26
 elevation 3060
 end
-arch hills
+arch beach
 x 38
 y 27
 elevation 4664
 end
-arch mountain
+arch beach
 x 38
 y 28
 elevation 6558
 end
-arch mountain
+arch snow
 x 38
 y 29
 elevation 7713
 end
-arch mountain2
+arch snow
 x 38
 y 30
 elevation 9167
 end
-arch mountain2
+arch snow
 x 38
 y 31
 elevation 10326
 end
-arch mountain2
+arch snow
 x 38
 y 32
 elevation 10820
 end
-arch mountain2
+arch snow
 x 38
 y 33
 elevation 9083
 end
-arch mountain
+arch snow
 x 38
 y 34
 elevation 7754
 end
-arch mountain
+arch cobblestones
 x 38
 y 35
 elevation 5722
@@ -9554,15 +9602,19 @@ arch cobblestones
 x 38
 y 36
 end
-arch hills_rocky
+arch snow
 x 38
 y 37
 elevation 1113
 end
-arch hills_rocky
+arch snow
 x 38
 y 38
 elevation 1922
+end
+arch spalms1
+x 38
+y 38
 end
 arch mountain
 x 38
@@ -9579,42 +9631,46 @@ x 38
 y 41
 elevation 6292
 end
-arch mountain
+arch snowcliff2
 x 38
 y 42
 elevation 5335
 end
-arch hills
+arch snowcliff2
 x 38
 y 43
 elevation 4635
 end
-arch hills
+arch snow
 x 38
 y 44
 elevation 4375
 end
-arch hills
+arch snow
 x 38
 y 45
 elevation 4191
 end
-arch steppe
+arch snow
 x 38
 y 46
 elevation 3938
 end
-arch hills
+arch snow
 x 38
 y 47
 elevation 4533
 end
-arch hills
+arch snow
 x 38
 y 48
 elevation 4877
 end
-arch hills
+arch spalms2
+x 38
+y 48
+end
+arch snow
 x 38
 y 49
 elevation 4017
@@ -9753,47 +9809,51 @@ x 39
 y 26
 elevation 3323
 end
-arch hills
+arch beach
 x 39
 y 27
 elevation 4474
 end
-arch hills
+arch beach
 x 39
 y 28
 elevation 4046
 end
-arch hills
+arch beach
 x 39
 y 29
 elevation 4676
 end
-arch hills_rocky
+arch beach
 x 39
 y 30
 elevation 1384
 end
-arch mountain2
+arch spalms1
+x 39
+y 30
+end
+arch snow
 x 39
 y 31
 elevation 9713
 end
-arch mountain2
+arch snow
 x 39
 y 32
 elevation 10907
 end
-arch mountain2
+arch snow
 x 39
 y 33
 elevation 10035
 end
-arch mountain
+arch snow
 x 39
 y 34
 elevation 8324
 end
-arch mountain
+arch cobblestones
 x 39
 y 35
 elevation 6415
@@ -9802,12 +9862,12 @@ arch cobblestones
 x 39
 y 36
 end
-arch hills_rocky
+arch snow
 x 39
 y 37
 elevation 1193
 end
-arch brush
+arch snow
 x 39
 y 38
 elevation 133
@@ -9827,42 +9887,42 @@ x 39
 y 41
 elevation 5078
 end
-arch hills_rocky
+arch snowcliff2
 x 39
 y 42
 elevation 2429
 end
-arch hills
+arch snowcliff2
 x 39
 y 43
 elevation 3657
 end
-arch hills
+arch snowcliff2
 x 39
 y 44
 elevation 3818
 end
-arch hills
+arch snow
 x 39
 y 45
 elevation 3664
 end
-arch hills
+arch snow
 x 39
 y 46
 elevation 3178
 end
-arch hills
+arch snow
 x 39
 y 47
 elevation 4069
 end
-arch hills
+arch snow
 x 39
 y 48
 elevation 4567
 end
-arch hills
+arch snow
 x 39
 y 49
 elevation 4300
@@ -10001,47 +10061,47 @@ x 40
 y 26
 elevation 3433
 end
-arch hills
+arch beach
 x 40
 y 27
 elevation 4044
 end
-arch hills
+arch bosgrass10
 x 40
 y 28
 elevation 4860
 end
-arch mountain
+arch beach
 x 40
 y 29
 elevation 5765
 end
-arch mountain
+arch beach
 x 40
 y 30
 elevation 7662
 end
-arch mountain2
+arch snow
 x 40
 y 31
 elevation 9521
 end
-arch mountain2
+arch snow
 x 40
 y 32
 elevation 10691
 end
-arch mountain2
+arch snow
 x 40
 y 33
 elevation 9759
 end
-arch mountain
+arch snow
 x 40
 y 34
 elevation 8183
 end
-arch mountain
+arch cobblestones
 x 40
 y 35
 elevation 6135
@@ -10075,42 +10135,42 @@ x 40
 y 41
 elevation 3171
 end
-arch hills_rocky
+arch snowcliff2
 x 40
 y 42
 elevation 2587
 end
-arch hills_rocky
+arch snowcliff2
 x 40
 y 43
 elevation 2498
 end
-arch hills_rocky
+arch snowcliff2
 x 40
 y 44
 elevation 2680
 end
-arch hills_rocky
+arch snowcliff2
 x 40
 y 45
 elevation 2343
 end
-arch hills
+arch snowcliff2
 x 40
 y 46
 elevation 3075
 end
-arch hills
+arch snow
 x 40
 y 47
 elevation 3824
 end
-arch steppe
+arch snow
 x 40
 y 48
 elevation 4145
 end
-arch steppe
+arch snow
 x 40
 y 49
 elevation 3483
@@ -10244,52 +10304,56 @@ x 41
 y 25
 elevation 4174
 end
-arch hills
+arch beach
 x 41
 y 26
 elevation 4129
 end
-arch hills_rocky
+arch beach
 x 41
 y 27
 elevation 1832
 end
-arch mountain
+arch beach
 x 41
 y 28
 elevation 5015
 end
-arch mountain
+arch beach
 x 41
 y 29
 elevation 6523
 end
-arch mountain
+arch beach
 x 41
 y 30
 elevation 8187
 end
-arch mountain2
+arch snow
 x 41
 y 31
 elevation 9279
 end
-arch mountain2
+arch snow
 x 41
 y 32
 elevation 9456
 end
-arch mountain
+arch snow
 x 41
 y 33
 elevation 8453
 end
-arch mountain
+arch spalms1
+x 41
+y 33
+end
+arch snow
 x 41
 y 34
 elevation 6783
 end
-arch hills
+arch cobblestones
 x 41
 y 35
 elevation 4826
@@ -10323,42 +10387,42 @@ x 41
 y 41
 elevation 190
 end
-arch brush
+arch snowcliff2
 x 41
 y 42
 elevation 517
 end
-arch brush
+arch snowcliff2
 x 41
 y 43
 elevation 711
 end
-arch hills_rocky
+arch snowcliff2
 x 41
 y 44
 elevation 1448
 end
-arch hills_rocky
+arch snowcliff2
 x 41
 y 45
 elevation 1101
 end
-arch evergreen
+arch snowcliff2
 x 41
 y 46
 elevation 2566
 end
-arch steppe
+arch snow
 x 41
 y 47
 elevation 3325
 end
-arch hills
+arch snow
 x 41
 y 48
 elevation 3711
 end
-arch steppe
+arch snow
 x 41
 y 49
 elevation 3096
@@ -10482,62 +10546,62 @@ x 42
 y 23
 elevation 4278
 end
-arch mountain
+arch beach
 x 42
 y 24
 elevation 5296
 end
-arch mountain
+arch beach
 x 42
 y 25
 elevation 5788
 end
-arch mountain
+arch beach
 x 42
 y 26
 elevation 5582
 end
-arch hills
+arch beach
 x 42
 y 27
 elevation 4594
 end
-arch hills
+arch beach
 x 42
 y 28
 elevation 3797
 end
-arch mountain
+arch beach
 x 42
 y 29
 elevation 6372
 end
-arch mountain
+arch beach
 x 42
 y 30
 elevation 6497
 end
-arch mountain
+arch snow
 x 42
 y 31
 elevation 6869
 end
-arch mountain
+arch snow
 x 42
 y 32
 elevation 6860
 end
-arch mountain
+arch snow
 x 42
 y 33
 elevation 6110
 end
-arch hills
+arch snow
 x 42
 y 34
 elevation 4571
 end
-arch hills_rocky
+arch cobblestones
 x 42
 y 35
 elevation 2204
@@ -10576,37 +10640,37 @@ x 42
 y 42
 elevation 57
 end
-arch brush
+arch snowcliff2
 x 42
 y 43
 elevation 99
 end
-arch brush
+arch snowcliff2
 x 42
 y 44
 elevation 425
 end
-arch hills_rocky
+arch snowcliff2
 x 42
 y 45
 elevation 1255
 end
-arch evergreen
+arch snowcliff2
 x 42
 y 46
 elevation 2021
 end
-arch evergreen
+arch snow
 x 42
 y 47
 elevation 2537
 end
-arch hills
+arch snow
 x 42
 y 48
 elevation 3237
 end
-arch hills
+arch snow
 x 42
 y 49
 elevation 3830
@@ -10720,72 +10784,76 @@ x 43
 y 21
 elevation 4438
 end
-arch hills
+arch beach
 x 43
 y 22
 elevation 3542
 end
-arch mountain
+arch beach
 x 43
 y 23
 elevation 5744
 end
-arch mountain
+arch beach
 x 43
 y 24
 elevation 6481
 end
-arch mountain
+arch beach
 x 43
 y 25
 elevation 6726
 end
-arch mountain
+arch beach
 x 43
 y 26
 elevation 7113
 end
-arch mountain
+arch beach
 x 43
 y 27
 elevation 6784
 end
-arch mountain
+arch beach
 x 43
 y 28
 elevation 6427
 end
-arch mountain
+arch beach
 x 43
 y 29
 elevation 6837
 end
-arch mountain
+arch beach
 x 43
 y 30
 elevation 5094
 end
-arch hills
+arch beach
 x 43
 y 31
 elevation 3130
 end
-arch hills_rocky
+arch beach
 x 43
 y 32
 elevation 1381
 end
-arch mountain
+arch spalms1
+x 43
+y 32
+end
+arch snow
 x 43
 y 33
 elevation 5055
 end
-arch hills
+arch snow
 x 43
 y 34
 elevation 4286
 end
-arch hills_rocky
+arch cobblestones
 x 43
 y 35
 elevation 2847
@@ -10829,32 +10897,32 @@ x 43
 y 43
 elevation 152
 end
-arch brush
+arch snow
 x 43
 y 44
 elevation 43
 end
-arch hills_rocky
+arch snow
 x 43
 y 45
 elevation 1189
 end
-arch brush
+arch snow
 x 43
 y 46
 elevation 813
 end
-arch evergreen
+arch snow
 x 43
 y 47
 elevation 2499
 end
-arch grass
+arch snow
 x 43
 y 48
 elevation 688
 end
-arch hills
+arch snow
 x 43
 y 49
 elevation 4282
@@ -10963,77 +11031,81 @@ x 44
 y 20
 elevation 4981
 end
-arch mountain
+arch beach
 x 44
 y 21
 elevation 5683
 end
-arch mountain
+arch beach
 x 44
 y 22
 elevation 5979
 end
-arch mountain
+arch beach
 x 44
 y 23
 elevation 7379
 end
-arch mountain
+arch beach
 x 44
 y 24
 elevation 7880
 end
-arch mountain
+arch beach
 x 44
 y 25
 elevation 6352
 end
-arch mountain
+arch beach
 x 44
 y 26
 elevation 8327
 end
-arch mountain
+arch beach
 x 44
 y 27
 elevation 8539
 end
-arch mountain
+arch spalms1
+x 44
+y 27
+end
+arch beach
 x 44
 y 28
 elevation 8267
 end
-arch mountain
+arch beach
 x 44
 y 29
 elevation 7667
 end
-arch mountain
+arch bosgrass10
 x 44
 y 30
 elevation 6441
 end
-arch hills
+arch beach
 x 44
 y 31
 elevation 4836
 end
-arch hills
+arch beach
 x 44
 y 32
 elevation 3270
 end
-arch mountain
+arch snow
 x 44
 y 33
 elevation 5199
 end
-arch mountain
+arch snow
 x 44
 y 34
 elevation 5178
 end
-arch hills
+arch cobblestones
 x 44
 y 35
 elevation 3151
@@ -11077,32 +11149,32 @@ x 44
 y 43
 elevation 165
 end
-arch brush
+arch snow
 x 44
 y 44
 elevation 740
 end
-arch hills_rocky
+arch snow
 x 44
 y 45
 elevation 1732
 end
-arch evergreen
+arch snow
 x 44
 y 46
 elevation 1975
 end
-arch steppe
+arch snow
 x 44
 y 47
 elevation 3286
 end
-arch hills
+arch snow
 x 44
 y 48
 elevation 4361
 end
-arch mountain
+arch snow
 x 44
 y 49
 elevation 5028
@@ -11206,72 +11278,76 @@ x 45
 y 19
 elevation 4952
 end
-arch mountain
+arch beach
 x 45
 y 20
 elevation 6755
 end
-arch mountain
+arch beach
 x 45
 y 21
 elevation 7951
 end
-arch mountain
+arch beach
 x 45
 y 22
 elevation 8854
 end
-arch mountain2
+arch spalms1
+x 45
+y 22
+end
+arch beach
 x 45
 y 23
 elevation 9373
 end
-arch mountain2
+arch beach
 x 45
 y 24
 elevation 9616
 end
-arch mountain2
+arch beach
 x 45
 y 25
 elevation 9448
 end
-arch mountain
+arch beach
 x 45
 y 26
 elevation 8875
 end
-arch mountain
+arch beach
 x 45
 y 27
 elevation 8347
 end
-arch mountain
+arch beach
 x 45
 y 28
 elevation 7968
 end
-arch mountain
+arch beach
 x 45
 y 29
 elevation 7373
 end
-arch mountain
+arch beach
 x 45
 y 30
 elevation 6106
 end
-arch mountain
+arch beach
 x 45
 y 31
 elevation 5174
 end
-arch mountain
+arch beach
 x 45
 y 32
 elevation 5262
 end
-arch mountain
+arch snow
 x 45
 y 33
 elevation 5973
@@ -11281,7 +11357,7 @@ x 45
 y 34
 elevation 5637
 end
-arch hills
+arch cobblestones
 x 45
 y 35
 elevation 4039
@@ -11325,32 +11401,32 @@ x 45
 y 43
 elevation 487
 end
-arch hills_rocky
+arch snow
 x 45
 y 44
 elevation 1824
 end
-arch hills_rocky
+arch snow
 x 45
 y 45
 elevation 2463
 end
-arch hills
+arch snow
 x 45
 y 46
 elevation 3731
 end
-arch steppe
+arch snow
 x 45
 y 47
 elevation 4847
 end
-arch mountain
+arch snow
 x 45
 y 48
 elevation 5845
 end
-arch mountain
+arch snow
 x 45
 y 49
 elevation 6184
@@ -11449,72 +11525,76 @@ x 46
 y 18
 elevation 2516
 end
-arch mountain
+arch beach
 x 46
 y 19
 elevation 5083
 end
-arch mountain
+arch beach
 x 46
 y 20
 elevation 7299
 end
-arch mountain2
+arch beach
 x 46
 y 21
 elevation 9095
 end
-arch mountain2
+arch bosgrass10
 x 46
 y 22
 elevation 10346
 end
-arch mountain2
+arch beach
 x 46
 y 23
 elevation 11062
 end
-arch mountain2
+arch beach
 x 46
 y 24
 elevation 11209
 end
-arch mountain2
+arch beach
 x 46
 y 25
 elevation 10558
 end
-arch mountain
+arch beach
 x 46
 y 26
 elevation 8716
 end
-arch mountain
+arch spalms1
+x 46
+y 26
+end
+arch beach
 x 46
 y 27
 elevation 6521
 end
-arch mountain
+arch beach
 x 46
 y 28
 elevation 5658
 end
-arch mountain
+arch beach
 x 46
 y 29
 elevation 5444
 end
-arch hills
+arch beach
 x 46
 y 30
 elevation 4830
 end
-arch hills_rocky
+arch beach
 x 46
 y 31
 elevation 2375
 end
-arch mountain
+arch beach
 x 46
 y 32
 elevation 5124
@@ -11529,7 +11609,7 @@ x 46
 y 34
 elevation 5506
 end
-arch hills
+arch cobblestones
 x 46
 y 35
 elevation 4381
@@ -11568,37 +11648,45 @@ x 46
 y 42
 elevation 1701
 end
-arch hills_rocky
+arch snow
 x 46
 y 43
 elevation 2221
 end
-arch hills_rocky
+arch snow
 x 46
 y 44
 elevation 2821
 end
-arch hills
+arch spalm
+x 46
+y 44
+end
+arch snow
 x 46
 y 45
 elevation 3430
 end
-arch steppe
+arch snow
 x 46
 y 46
 elevation 4678
 end
-arch mountain
+arch snow
 x 46
 y 47
 elevation 5863
 end
-arch mountain
+arch spalms2
+x 46
+y 47
+end
+arch snow
 x 46
 y 48
 elevation 6539
 end
-arch mountain
+arch snow
 x 46
 y 49
 elevation 6394
@@ -11702,62 +11790,62 @@ x 47
 y 19
 elevation 3620
 end
-arch mountain
+arch beach
 x 47
 y 20
 elevation 6401
 end
-arch mountain
+arch beach
 x 47
 y 21
 elevation 8726
 end
-arch mountain2
+arch beach
 x 47
 y 22
 elevation 10460
 end
-arch mountain2
+arch beach
 x 47
 y 23
 elevation 11395
 end
-arch mountain2
+arch beach
 x 47
 y 24
 elevation 11553
 end
-arch mountain2
+arch beach
 x 47
 y 25
 elevation 10718
 end
-arch mountain
+arch beach
 x 47
 y 26
 elevation 8712
 end
-arch mountain
+arch beach
 x 47
 y 27
 elevation 5548
 end
-arch hills_rocky
+arch beach
 x 47
 y 28
 elevation 2728
 end
-arch hills
+arch beach
 x 47
 y 29
 elevation 3107
 end
-arch hills_rocky
+arch beach
 x 47
 y 30
 elevation 2454
 end
-arch hills
+arch beach
 x 47
 y 31
 elevation 4136
@@ -11777,7 +11865,7 @@ x 47
 y 34
 elevation 5602
 end
-arch hills
+arch cobblestones
 x 47
 y 35
 elevation 3482
@@ -11816,37 +11904,37 @@ x 47
 y 42
 elevation 3539
 end
-arch hills_rocky
+arch snow
 x 47
 y 43
 elevation 2143
 end
-arch hills
+arch snow
 x 47
 y 44
 elevation 3847
 end
-arch hills
+arch snow
 x 47
 y 45
 elevation 4212
 end
-arch steppe
+arch snow
 x 47
 y 46
 elevation 4924
 end
-arch mountain
+arch snow
 x 47
 y 47
 elevation 5973
 end
-arch mountain
+arch snow
 x 47
 y 48
 elevation 6313
 end
-arch mountain
+arch snow
 x 47
 y 49
 elevation 5624
@@ -11960,32 +12048,32 @@ x 48
 y 21
 elevation 7235
 end
-arch mountain2
+arch beach
 x 48
 y 22
 elevation 9133
 end
-arch mountain2
+arch beach
 x 48
 y 23
 elevation 10374
 end
-arch mountain2
+arch beach
 x 48
 y 24
 elevation 10719
 end
-arch mountain2
+arch beach
 x 48
 y 25
 elevation 10018
 end
-arch mountain
+arch beach
 x 48
 y 26
 elevation 8084
 end
-arch mountain
+arch beach
 x 48
 y 27
 elevation 5400
@@ -12025,7 +12113,7 @@ x 48
 y 34
 elevation 6116
 end
-arch hills
+arch cobblestones
 x 48
 y 35
 elevation 4941
@@ -12064,37 +12152,37 @@ x 48
 y 42
 elevation 4400
 end
-arch mountain
+arch snow
 x 48
 y 43
 elevation 5047
 end
-arch mountain
+arch snow
 x 48
 y 44
 elevation 5196
 end
-arch hills
+arch snow
 x 48
 y 45
 elevation 3432
 end
-arch hills
+arch snow
 x 48
 y 46
 elevation 3277
 end
-arch mountain
+arch snow
 x 48
 y 47
 elevation 6073
 end
-arch mountain
+arch snow
 x 48
 y 48
 elevation 6084
 end
-arch hills
+arch snow
 x 48
 y 49
 elevation 3911
@@ -12312,37 +12400,37 @@ x 49
 y 42
 elevation 4734
 end
-arch mountain
+arch snow
 x 49
 y 43
 elevation 6017
 end
-arch mountain
+arch snow
 x 49
 y 44
 elevation 6182
 end
-arch mountain
+arch snow
 x 49
 y 45
 elevation 5936
 end
-arch mountain
+arch snow
 x 49
 y 46
 elevation 6027
 end
-arch mountain
+arch snow
 x 49
 y 47
 elevation 6569
 end
-arch mountain
+arch snow
 x 49
 y 48
 elevation 6333
 end
-arch mountain
+arch snow
 x 49
 y 49
 elevation 5087

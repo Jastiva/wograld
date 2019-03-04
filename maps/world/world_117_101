@@ -2,11 +2,15 @@ arch map
 name world_117_101
 width 50
 height 50
+msg
+Modified: 2019-03-04 lori
+endmsg
 outdoor 1
 tile_path_1 world_117_100
 tile_path_2 world_118_101
 tile_path_3 world_117_102
 tile_path_4 world_116_101
+background_music ocean01
 end
 arch deep_sea
 elevation -6100
@@ -386,17 +390,17 @@ x 1
 y 35
 elevation 744
 end
-arch woods_3
+arch snow2
 x 1
 y 36
 elevation 1353
 end
-arch woods_2
+arch snow2
 x 1
 y 37
 elevation 1298
 end
-arch woods_3
+arch snow2
 x 1
 y 38
 elevation 1276
@@ -625,32 +629,48 @@ x 2
 y 33
 elevation 1668
 end
-arch woods_3
+arch snow2
 x 2
 y 34
 elevation 1863
 end
-arch woods_3
+arch spalms1
+x 2
+y 34
+end
+arch snow2
 x 2
 y 35
 elevation 1668
 end
-arch woods_2
+arch snow2
 x 2
 y 36
 elevation 1499
 end
-arch woods_2
+arch spalms1
+x 2
+y 36
+end
+arch snow2
 x 2
 y 37
 elevation 1637
 end
-arch woods_2
+arch spalms1
+x 2
+y 37
+end
+arch snow2
 x 2
 y 38
 elevation 1725
 end
-arch woods_2
+arch spalms1
+x 2
+y 38
+end
+arch snow2
 x 2
 y 39
 elevation 1472
@@ -859,62 +879,86 @@ x 3
 y 30
 elevation 37
 end
-arch grass
+arch snow2
 x 3
 y 31
 elevation 526
 end
-arch woods_3
+arch spalms1
+x 3
+y 31
+end
+arch snow2
 x 3
 y 32
 elevation 1470
 end
-arch woods_3
+arch spalms1
+x 3
+y 32
+end
+arch snow2
 x 3
 y 33
 elevation 2014
 end
-arch woods_3
+arch spalms1
+x 3
+y 33
+end
+arch snow2
 x 3
 y 34
 elevation 2156
 end
-arch woods_3
+arch spalms1
+x 3
+y 34
+end
+arch snow2
 x 3
 y 35
 elevation 1686
 end
-arch brush
+arch snow2
 x 3
 y 36
 elevation 609
 end
-arch woods_3
+arch snow2
 x 3
 y 37
 elevation 1402
 end
-arch woods_3
+arch spalms1
+x 3
+y 37
+end
+arch snow2
 x 3
 y 38
 elevation 1806
 end
-arch woods_2
+arch snow2
 x 3
 y 39
 elevation 1845
 end
-arch woods_3
+arch spalms1
+x 3
+y 39
+end
+arch snow2
 x 3
 y 40
 elevation 1768
 end
-arch woods_3
+arch snow2
 x 3
 y 41
 elevation 1463
 end
-arch woods_2
+arch snow2
 x 3
 y 42
 elevation 1037
@@ -1103,72 +1147,84 @@ x 4
 y 29
 elevation 952
 end
-arch woods_3
+arch snow2
 x 4
 y 30
 elevation 1069
 end
-arch woods_3
+arch spalms1
+x 4
+y 30
+end
+arch snow2
 x 4
 y 31
 elevation 1298
 end
-arch woods_3
+arch spalms1
+x 4
+y 31
+end
+arch snow2
 x 4
 y 32
 elevation 1592
 end
-arch woods_3
+arch snow2
 x 4
 y 33
 elevation 1805
 end
-arch woods_3
+arch snow2
 x 4
 y 34
 elevation 1745
 end
-arch woods_3
+arch snow2
 x 4
 y 35
 elevation 1273
 end
-arch grass
+arch snow2
 x 4
 y 36
 elevation 172
 end
-arch grass
+arch snow2
 x 4
 y 37
 elevation 805
 end
-arch grass
+arch snow2
 x 4
 y 38
 elevation 365
 end
-arch woods_3
+arch snow2
 x 4
 y 39
 elevation 1781
 end
-arch woods_2
+arch spalms1
+x 4
+y 39
+end
+arch snow2
 x 4
 y 40
 elevation 2378
 end
-arch woods_3
+arch snow2
 x 4
 y 41
 elevation 2677
 end
-arch woods_2
+arch snow2
 x 4
 y 42
 elevation 2619
 end
-arch woods_3
+arch snow2
 x 4
 y 43
 elevation 1996
@@ -1352,52 +1408,56 @@ x 5
 y 29
 elevation 1537
 end
-arch woods_3
+arch snow2
 x 5
 y 30
 elevation 1451
 end
-arch woods_3
+arch spalms1
+x 5
+y 30
+end
+arch snow3
 x 5
 y 31
 elevation 1358
 end
-arch woods_3
+arch snow2
 x 5
 y 32
 elevation 1215
 end
-arch grass
+arch snow2
 x 5
 y 33
 elevation 764
 end
-arch grass
+arch snow2
 x 5
 y 34
 elevation 974
 end
-arch grass
+arch snow2
 x 5
 y 35
 elevation 456
 end
-arch grass
+arch snow2
 x 5
 y 36
 elevation 282
 end
-arch brush
+arch snow2
 x 5
 y 37
 elevation 12
 end
-arch brush
+arch snow2
 x 5
 y 38
 elevation 181
 end
-arch woods_3
+arch snow2
 x 5
 y 39
 elevation 1203
@@ -1407,17 +1467,21 @@ x 5
 y 40
 elevation 3038
 end
-arch steppe
+arch spalms1
+x 5
+y 40
+end
+arch snow2
 x 5
 y 41
 elevation 3465
 end
-arch hills_rocky
+arch snow2
 x 5
 y 42
 elevation 3256
 end
-arch woods_3
+arch snow2
 x 5
 y 43
 elevation 2280
@@ -1596,57 +1660,61 @@ x 6
 y 28
 elevation 1710
 end
-arch woods_3
+arch snow2
 x 6
 y 29
 elevation 1898
 end
-arch woods_3
+arch snow2
 x 6
 y 30
 elevation 1505
 end
-arch grass
+arch spalms1
+x 6
+y 30
+end
+arch snow2
 x 6
 y 31
 elevation 125
 end
-arch grass
+arch snow3
 x 6
 y 32
 elevation 639
 end
-arch grass
+arch snow3
 x 6
 y 33
 elevation 312
 end
-arch woods_3
+arch snow3
 x 6
 y 34
 elevation 1139
 end
-arch woods_3
+arch snow3
 x 6
 y 35
 elevation 1157
 end
-arch brush
+arch snow2
 x 6
 y 36
 elevation 962
 end
-arch desert
+arch snow2
 x 6
 y 37
 elevation 681
 end
-arch woods
+arch snow2
 x 6
 y 38
 elevation 1921
 end
-arch hills_rocky
+arch steppelight
 x 6
 y 39
 elevation 3046
@@ -1656,17 +1724,21 @@ x 6
 y 40
 elevation 3858
 end
-arch hills_rocky
+arch steppelight
 x 6
 y 41
 elevation 3987
 end
-arch woods_2
+arch spalms1
+x 6
+y 41
+end
+arch steppelight
 x 6
 y 42
 elevation 2762
 end
-arch woods_2
+arch steppelight
 x 6
 y 43
 elevation 2376
@@ -1850,57 +1922,69 @@ x 7
 y 29
 elevation 2049
 end
-arch woods_3
+arch snow2
 x 7
 y 30
 elevation 1420
 end
-arch grass
+arch spalms1
+x 7
+y 30
+end
+arch snow3
 x 7
 y 31
 elevation 15
 end
-arch grass
+arch snow3
 x 7
 y 32
 elevation 445
 end
-arch woods_3
+arch snow3
 x 7
 y 33
 elevation 1128
 end
-arch woods_3
+arch snow3
 x 7
 y 34
 elevation 1612
 end
-arch woods_3
+arch snow2
 x 7
 y 35
 elevation 1779
 end
-arch woods_3
+arch snow3
 x 7
 y 36
 elevation 1075
 end
-arch tree
+arch snow2
 x 7
 y 37
 elevation 2148
 end
-arch steppe
+arch steppelight
 x 7
 y 38
 elevation 3234
 end
-arch steppe
+arch snow4
+x 7
+y 38
+end
+arch steppelight
 x 7
 y 39
 elevation 4152
 end
-arch hills
+arch snow4
+x 7
+y 39
+end
+arch steppelight
 x 7
 y 40
 elevation 4573
@@ -1910,12 +1994,16 @@ x 7
 y 41
 elevation 4240
 end
-arch steppe
+arch steppelight
 x 7
 y 42
 elevation 3563
 end
-arch woods_3
+arch spalms1
+x 7
+y 42
+end
+arch steppelight
 x 7
 y 43
 elevation 2685
@@ -2099,75 +2187,91 @@ x 8
 y 29
 elevation 1812
 end
-arch woods_3
+arch snow2
 x 8
 y 30
 elevation 1305
 end
-arch grass
+arch snow2
 x 8
 y 31
 elevation 548
 end
-arch grass
+arch spalms1
+x 8
+y 31
+end
+arch snow2
 x 8
 y 32
 elevation 88
 end
-arch woods_3
+arch snow3
 x 8
 y 33
 elevation 1052
 end
-arch woods_3
+arch snow3
 x 8
 y 34
 elevation 1777
 end
-arch woods_3
+arch snow3
 x 8
 y 35
 elevation 2269
 end
-arch woods_3
+arch snow3
 x 8
 y 36
 elevation 2898
 end
-arch steppe
+arch snow2
 x 8
 y 37
 elevation 3448
 end
-arch steppe
+arch steppelight
 x 8
 y 38
 elevation 4138
 end
-arch steppe
+arch snow4
+x 8
+y 38
+end
+arch steppelight
 x 8
 y 39
 elevation 4659
 end
-arch hills_rocky
+arch snow4
+x 8
+y 39
+end
+arch steppelight
 x 8
 y 40
 elevation 4556
 end
-arch steppe
+arch steppelight
 x 8
 y 41
 elevation 4083
 end
-arch hills
+arch steppelight
 x 8
 y 42
 elevation 3542
 end
-arch hills_rocky
+arch steppelight
 x 8
 y 43
 elevation 3156
+end
+arch spalms1
+x 8
+y 43
 end
 arch woods_3
 x 8
@@ -2353,72 +2457,88 @@ x 9
 y 30
 elevation 1127
 end
-arch grass
+arch snow2
 x 9
 y 31
 elevation 213
 end
-arch grass
+arch spalms1
+x 9
+y 31
+end
+arch snow2
 x 9
 y 32
 elevation 40
 end
-arch grass
+arch snow2
 x 9
 y 33
 elevation 365
 end
-arch woods_3
+arch snow2
 x 9
 y 34
 elevation 1570
 end
-arch woods_3
+arch snow2
 x 9
 y 35
 elevation 2981
 end
-arch steppe
+arch snow2
 x 9
 y 36
 elevation 3795
 end
-arch steppe
+arch snow2
 x 9
 y 37
 elevation 4321
 end
-arch steppe
+arch steppelight
 x 9
 y 38
 elevation 4611
 end
-arch steppe
+arch snow4
+x 9
+y 38
+end
+arch steppelight
 x 9
 y 39
 elevation 4545
 end
-arch hills_rocky
+arch steppelight
 x 9
 y 40
 elevation 3940
 end
-arch tree
+arch steppelight
 x 9
 y 41
 elevation 2778
 end
-arch hills
+arch steppelight
 x 9
 y 42
 elevation 3225
 end
-arch steppe
+arch spalms1
+x 9
+y 42
+end
+arch steppelight
 x 9
 y 43
 elevation 3263
 end
-arch woods_2
+arch spalms1
+x 9
+y 43
+end
+arch steppelight
 x 9
 y 44
 elevation 2387
@@ -2607,67 +2727,79 @@ x 10
 y 31
 elevation 752
 end
-arch grass
+arch snow2
 x 10
 y 32
 elevation 403
 end
-arch woods_3
+arch spalms1
+x 10
+y 32
+end
+arch snow2
 x 10
 y 33
 elevation 1103
 end
-arch woods_3
+arch snow2
 x 10
 y 34
 elevation 2561
 end
-arch steppe
+arch snow2
 x 10
 y 35
 elevation 3523
 end
-arch steppe
+arch snow2
 x 10
 y 36
 elevation 4171
 end
-arch steppe
+arch snow2
 x 10
 y 37
 elevation 4457
 end
-arch hills
+arch steppelight
 x 10
 y 38
 elevation 4409
 end
-arch steppe
+arch steppelight
 x 10
 y 39
 elevation 3989
 end
-arch steppe
+arch steppelight
 x 10
 y 40
 elevation 3142
 end
-arch woods_3
+arch steppelight
 x 10
 y 41
 elevation 1551
 end
-arch woods_3
+arch steppelight
 x 10
 y 42
 elevation 2881
 end
-arch steppe
+arch spalms1
+x 10
+y 42
+end
+arch steppelight
 x 10
 y 43
 elevation 3038
 end
-arch woods_2
+arch spalms1
+x 10
+y 43
+end
+arch steppelight
 x 10
 y 44
 elevation 2382
@@ -2861,62 +2993,74 @@ x 11
 y 32
 elevation 1556
 end
-arch woods_3
+arch steppelight
 x 11
 y 33
 elevation 2266
 end
-arch steppe
+arch spalms1
+x 11
+y 33
+end
+arch steppelight
 x 11
 y 34
 elevation 3022
 end
-arch steppe
+arch steppelight
 x 11
 y 35
 elevation 3619
 end
-arch steppe
+arch steppelight
 x 11
 y 36
 elevation 3917
 end
-arch steppe
+arch steppelight
 x 11
 y 37
 elevation 3927
 end
-arch steppe
+arch steppelight
 x 11
 y 38
 elevation 3701
 end
-arch steppe
+arch steppelight
 x 11
 y 39
 elevation 3299
 end
-arch woods_3
+arch steppelight
 x 11
 y 40
 elevation 2307
 end
-arch woods_3
+arch steppelight
 x 11
 y 41
 elevation 2501
 end
-arch woods_2
+arch steppelight
 x 11
 y 42
 elevation 2470
 end
-arch woods_3
+arch spalms1
+x 11
+y 42
+end
+arch steppelight
 x 11
 y 43
 elevation 2584
 end
-arch woods_2
+arch spalms1
+x 11
+y 43
+end
+arch steppelight
 x 11
 y 44
 elevation 2140
@@ -3115,57 +3259,77 @@ x 12
 y 33
 elevation 2171
 end
-arch woods
+arch spalms1
+x 12
+y 33
+end
+arch steppelight
 x 12
 y 34
 elevation 2680
 end
-arch woods
+arch spalms1
+x 12
+y 34
+end
+arch steppelight
 x 12
 y 35
 elevation 2951
 end
-arch steppe
+arch spalms1
+x 12
+y 35
+end
+arch steppelight
 x 12
 y 36
 elevation 3004
 end
-arch woods_3
+arch steppelight
 x 12
 y 37
 elevation 2883
 end
-arch woods
+arch steppelight
 x 12
 y 38
 elevation 2594
 end
-arch woods
+arch steppelight
 x 12
 y 39
 elevation 2502
 end
-arch woods_2
+arch steppelight
 x 12
 y 40
 elevation 2395
 end
-arch woods_3
+arch steppelight
 x 12
 y 41
 elevation 2179
 end
-arch woods
+arch spalms1
+x 12
+y 41
+end
+arch steppelight
 x 12
 y 42
 elevation 1969
 end
-arch woods_3
+arch spalms1
+x 12
+y 42
+end
+arch steppelight
 x 12
 y 43
 elevation 1452
 end
-arch woods_3
+arch steppelight
 x 12
 y 44
 elevation 1603
@@ -3369,42 +3533,46 @@ x 13
 y 34
 elevation 1407
 end
-arch woods
+arch steppelight
 x 13
 y 35
 elevation 1640
 end
-arch woods
+arch spalms1
+x 13
+y 35
+end
+arch steppelight
 x 13
 y 36
 elevation 1679
 end
-arch woods
+arch steppelight
 x 13
 y 37
 elevation 1428
 end
-arch woods
+arch steppelight
 x 13
 y 38
 elevation 1315
 end
-arch woods
+arch steppelight
 x 13
 y 39
 elevation 1716
 end
-arch woods
+arch steppelight
 x 13
 y 40
 elevation 1600
 end
-arch woods_3
+arch steppelight
 x 13
 y 41
 elevation 1577
 end
-arch woods
+arch steppelight
 x 13
 y 42
 elevation 1166
@@ -3643,12 +3811,12 @@ x 14
 y 39
 elevation 948
 end
-arch woods
+arch steppelight
 x 14
 y 40
 elevation 1057
 end
-arch brush
+arch steppelight
 x 14
 y 41
 elevation 920
