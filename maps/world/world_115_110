@@ -3,66 +3,67 @@ name world_115_110
 width 50
 height 50
 msg
-Modified: 2018-12-29 lx
+Modified: 2019-03-10 lori
 endmsg
 outdoor 1
 tile_path_1 world_115_109
 tile_path_2 world_116_110
 tile_path_3 world_115_111
 tile_path_4 world_114_110
+background_music rise
 end
-arch mountain
+arch rockdesert
 elevation 7216
 end
-arch mountain
+arch rockdesert
 y 1
 elevation 7788
 end
-arch mountain
+arch rockdesert
 y 2
 elevation 5838
 end
-arch mountain
+arch rockdesert
 y 3
 elevation 5469
 end
-arch mountain
+arch rockdesert
 y 4
 elevation 5167
 end
-arch mountain
+arch rockdesert
 y 5
 elevation 6076
 end
-arch mountain
+arch rockdesert
 y 6
 elevation 6178
 end
-arch mountain
+arch rockdesert
 y 7
 elevation 5283
 end
-arch mountain
+arch rockdesert
 y 8
 elevation 6286
 end
-arch mountain
+arch rockdesert
 y 9
 elevation 6111
 end
-arch mountain
+arch rockdesert
 y 10
 elevation 5071
 end
-arch mountain
+arch rockdesert
 y 11
 elevation 5750
 end
-arch mountain
+arch rockdesert
 y 12
 elevation 5723
 end
-arch mountain
+arch rockdesert
 y 13
 elevation 5085
 end
@@ -70,11 +71,11 @@ arch hills
 y 14
 elevation 3566
 end
-arch woods_2
+arch grass
 y 15
 elevation 2986
 end
-arch woods_2
+arch grass
 y 16
 elevation 1946
 end
@@ -109,11 +110,11 @@ arch hills_rocky
 y 24
 elevation 4787
 end
-arch mountain
+arch grass
 y 25
 elevation 5372
 end
-arch mountain
+arch grass
 y 26
 elevation 5470
 end
@@ -209,11 +210,11 @@ arch mountain
 y 49
 elevation 6186
 end
-arch mountain
+arch rockdesert
 x 1
 elevation 7576
 end
-arch mountain
+arch rockdesert
 x 1
 y 1
 elevation 6344
@@ -222,32 +223,32 @@ arch evergreens
 x 1
 y 2
 end
-arch mountain
+arch rockdesert
 x 1
 y 3
 elevation 5024
 end
-arch mountain
+arch rockdesert
 x 1
 y 4
 elevation 5353
 end
-arch mountain
+arch rockdesert
 x 1
 y 5
 elevation 5961
 end
-arch mountain
+arch rockdesert
 x 1
 y 6
 elevation 6205
 end
-arch mountain
+arch rockdesert
 x 1
 y 7
 elevation 6067
 end
-arch mountain
+arch rockdesert
 x 1
 y 8
 elevation 5504
@@ -267,7 +268,7 @@ x 1
 y 11
 elevation 4587
 end
-arch mountain
+arch rockdesert
 x 1
 y 12
 elevation 5138
@@ -291,12 +292,12 @@ x 1
 y 15
 elevation 3123
 end
-arch woods_2
+arch grass
 x 1
 y 16
 elevation 2651
 end
-arch woods_2
+arch grass
 x 1
 y 17
 elevation 2122
@@ -344,12 +345,12 @@ x 1
 y 24
 elevation 4779
 end
-arch mountain
+arch grass
 x 1
 y 25
 elevation 5711
 end
-arch mountain
+arch grass
 x 1
 y 26
 elevation 6094
@@ -469,11 +470,11 @@ x 1
 y 49
 elevation 9727
 end
-arch mountain
+arch rockdesert
 x 2
 elevation 7069
 end
-arch mountain
+arch rockdesert
 x 2
 y 1
 elevation 5406
@@ -487,22 +488,22 @@ arch evergreens
 x 2
 y 3
 end
-arch mountain
+arch rockdesert
 x 2
 y 4
 elevation 5236
 end
-arch mountain
+arch rockdesert
 x 2
 y 5
 elevation 5741
 end
-arch mountain
+arch rockdesert
 x 2
 y 6
 elevation 6037
 end
-arch mountain
+arch rockdesert
 x 2
 y 7
 elevation 5812
@@ -565,7 +566,7 @@ x 2
 y 17
 elevation 2225
 end
-arch woods_2
+arch grass
 x 2
 y 18
 elevation 2608
@@ -600,12 +601,12 @@ x 2
 y 24
 elevation 4291
 end
-arch mountain
+arch grass
 x 2
 y 25
 elevation 5166
 end
-arch mountain
+arch grass
 x 2
 y 26
 elevation 6153
@@ -725,7 +726,7 @@ x 2
 y 49
 elevation 10907
 end
-arch mountain
+arch rockdesert
 x 3
 elevation 5759
 end
@@ -747,7 +748,7 @@ x 3
 y 4
 elevation 4840
 end
-arch mountain
+arch rockdesert
 x 3
 y 5
 elevation 5070
@@ -756,12 +757,12 @@ arch fog
 x 3
 y 5
 end
-arch mountain
+arch rockdesert
 x 3
 y 6
 elevation 5527
 end
-arch mountain
+arch rockdesert
 x 3
 y 7
 elevation 5180
@@ -776,12 +777,12 @@ x 3
 y 9
 elevation 2661
 end
-arch woods_2
+arch grass
 x 3
 y 10
 elevation 2400
 end
-arch woods_2
+arch grass
 x 3
 y 11
 elevation 2941
@@ -1265,7 +1266,7 @@ x 5
 y 2
 elevation 4581
 end
-arch mountain
+arch greysandcliff1
 x 5
 y 3
 elevation 5069
@@ -1355,7 +1356,7 @@ arch fog
 x 5
 y 16
 end
-arch woods_2
+arch grass
 x 5
 y 17
 elevation 2221
@@ -1531,17 +1532,17 @@ end
 arch evergreens
 x 6
 end
-arch mountain
+arch rockdesert
 x 6
 y 1
 elevation 5364
 end
-arch mountain
+arch rockdesert
 x 6
 y 2
 elevation 5721
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 3
 elevation 5633
@@ -1593,12 +1594,12 @@ arch fog
 x 6
 y 11
 end
-arch woods_2
+arch grass
 x 6
 y 12
 elevation 1417
 end
-arch woods_2
+arch grass
 x 6
 y 13
 elevation 1329
@@ -1754,12 +1755,12 @@ x 6
 y 42
 elevation 5292
 end
-arch woods
+arch greysandcliff1
 x 6
 y 43
 elevation 2608
 end
-arch mountain
+arch greysandcliff1
 x 6
 y 44
 elevation 5702
@@ -1789,26 +1790,26 @@ x 6
 y 49
 elevation 10997
 end
-arch mountain
+arch rockdesert
 x 7
 elevation 5982
 end
-arch mountain
+arch rockdesert
 x 7
 y 1
 elevation 6710
 end
-arch mountain
+arch rockdesert
 x 7
 y 2
 elevation 7049
 end
-arch mountain
+arch rockdesert
 x 7
 y 3
 elevation 6729
 end
-arch mountain
+arch greysandcliff1
 x 7
 y 4
 elevation 5319
@@ -1845,12 +1846,12 @@ arch evergreens
 x 7
 y 10
 end
-arch woods_2
+arch grass
 x 7
 y 11
 elevation 2107
 end
-arch woods_2
+arch grass
 x 7
 y 12
 elevation 1494
@@ -1870,7 +1871,7 @@ x 7
 y 15
 elevation 1456
 end
-arch woods_2
+arch grass
 x 7
 y 16
 elevation 1717
@@ -1894,7 +1895,7 @@ arch fog
 x 7
 y 19
 end
-arch woods_2
+arch grass
 x 7
 y 20
 elevation 2780
@@ -2011,17 +2012,17 @@ x 7
 y 42
 elevation 5557
 end
-arch hills_rocky
+arch greysandcliff1
 x 7
 y 43
 elevation 4358
 end
-arch steppe
+arch greysandcliff1
 x 7
 y 44
 elevation 3137
 end
-arch mountain
+arch greysandcliff1
 x 7
 y 45
 elevation 7730
@@ -2046,31 +2047,31 @@ x 7
 y 49
 elevation 9521
 end
-arch mountain
+arch rockdesert
 x 8
 elevation 6794
 end
-arch mountain
+arch rockdesert
 x 8
 y 1
 elevation 7561
 end
-arch mountain
+arch rockdesert
 x 8
 y 2
 elevation 8240
 end
-arch mountain
+arch rockdesert
 x 8
 y 3
 elevation 7850
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 4
 elevation 6517
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 5
 elevation 5164
@@ -2140,7 +2141,7 @@ arch swamp
 x 8
 y 16
 end
-arch woods_2
+arch grass
 x 8
 y 17
 elevation 1728
@@ -2173,12 +2174,12 @@ arch evergreens
 x 8
 y 22
 end
-arch woods_2
+arch grass
 x 8
 y 23
 elevation 2881
 end
-arch woods_2
+arch grass
 x 8
 y 24
 elevation 2380
@@ -2288,22 +2289,22 @@ x 8
 y 42
 elevation 5959
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 43
 elevation 5130
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 44
 elevation 5376
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 45
 elevation 6863
 end
-arch mountain
+arch greysandcliff1
 x 8
 y 46
 elevation 8393
@@ -2323,31 +2324,31 @@ x 8
 y 49
 elevation 7832
 end
-arch mountain
+arch rockdesert
 x 9
 elevation 5343
 end
-arch mountain
+arch rockdesert
 x 9
 y 1
 elevation 8020
 end
-arch mountain
+arch rockdesert
 x 9
 y 2
 elevation 8592
 end
-arch mountain
+arch rockdesert
 x 9
 y 3
 elevation 8047
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 4
 elevation 6837
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 5
 elevation 5827
@@ -2561,17 +2562,17 @@ x 9
 y 42
 elevation 6050
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 43
 elevation 5985
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 44
 elevation 5750
 end
-arch mountain
+arch greysandcliff1
 x 9
 y 45
 elevation 5593
@@ -2596,31 +2597,31 @@ x 9
 y 49
 elevation 7011
 end
-arch mountain
+arch rockdesert
 x 10
 elevation 7658
 end
-arch mountain
+arch rockdesert
 x 10
 y 1
 elevation 8028
 end
-arch mountain
+arch rockdesert
 x 10
 y 2
 elevation 8172
 end
-arch mountain
+arch rockdesert
 x 10
 y 3
 elevation 6941
 end
-arch mountain
+arch rockdesert
 x 10
 y 4
 elevation 6012
 end
-arch mountain
+arch greysandcliff1
 x 10
 y 5
 elevation 5774
@@ -2855,7 +2856,7 @@ x 10
 y 44
 elevation 5893
 end
-arch mountain
+arch greysandcliff1
 x 10
 y 45
 elevation 5828
@@ -2880,31 +2881,31 @@ x 10
 y 49
 elevation 6875
 end
-arch mountain
+arch rockdesert
 x 11
 elevation 7854
 end
-arch mountain
+arch rockdesert
 x 11
 y 1
 elevation 7911
 end
-arch mountain
+arch rockdesert
 x 11
 y 2
 elevation 7494
 end
-arch mountain
+arch rockdesert
 x 11
 y 3
 elevation 6466
 end
-arch mountain
+arch rockdesert
 x 11
 y 4
 elevation 6453
 end
-arch mountain
+arch greysandcliff1
 x 11
 y 5
 elevation 5833
@@ -3130,7 +3131,7 @@ x 11
 y 44
 elevation 5532
 end
-arch mountain
+arch greysandcliff1
 x 11
 y 45
 elevation 6415
@@ -3155,41 +3156,41 @@ x 11
 y 49
 elevation 6959
 end
-arch mountain
+arch rockdesert
 x 12
 elevation 7621
 end
-arch mountain
+arch rockdesert
 x 12
 y 1
 elevation 7153
 end
-arch mountain
+arch rockdesert
 x 12
 y 2
 elevation 6918
 end
-arch mountain
+arch rockdesert
 x 12
 y 3
 elevation 6551
 end
-arch mountain
+arch rockdesert
 x 12
 y 4
 elevation 6651
 end
-arch mountain
+arch greysandcliff1
 x 12
 y 5
 elevation 6457
 end
-arch mountain
+arch greysandcliff1
 x 12
 y 6
 elevation 6107
 end
-arch mountain
+arch greysandcliff1
 x 12
 y 7
 elevation 5935
@@ -3416,46 +3417,46 @@ x 12
 y 49
 elevation 6895
 end
-arch mountain
+arch rockdesert
 x 13
 elevation 7391
 end
-arch mountain
+arch rockdesert
 x 13
 y 1
 elevation 7648
 end
-arch mountain
+arch rockdesert
 x 13
 y 2
 elevation 6958
 end
-arch mountain
+arch rockdesert
 x 13
 y 3
 elevation 6532
 end
-arch mountain
+arch rockdesert
 x 13
 y 4
 elevation 6666
 end
-arch mountain
+arch rockdesert
 x 13
 y 5
 elevation 6968
 end
-arch mountain
+arch rockdesert
 x 13
 y 6
 elevation 6944
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 7
 elevation 6558
 end
-arch mountain
+arch greysandcliff1
 x 13
 y 8
 elevation 6297
@@ -3675,46 +3676,46 @@ x 13
 y 49
 elevation 5463
 end
-arch mountain
+arch rockdesert
 x 14
 elevation 7418
 end
-arch mountain
+arch rockdesert
 x 14
 y 1
 elevation 8159
 end
-arch mountain
+arch rockdesert
 x 14
 y 2
 elevation 7814
 end
-arch mountain
+arch rockdesert
 x 14
 y 3
 elevation 5498
 end
-arch mountain
+arch rockdesert
 x 14
 y 4
 elevation 5338
 end
-arch mountain
+arch rockdesert
 x 14
 y 5
 elevation 7921
 end
-arch mountain
+arch rockdesert
 x 14
 y 6
 elevation 7664
 end
-arch mountain
+arch greysandcliff1
 x 14
 y 7
 elevation 5951
 end
-arch mountain
+arch greysandcliff1
 x 14
 y 8
 elevation 5426
@@ -3920,41 +3921,41 @@ x 14
 y 49
 elevation 6659
 end
-arch mountain
+arch rockdesert
 x 15
 elevation 7527
 end
-arch mountain
+arch rockdesert
 x 15
 y 1
 elevation 8562
 end
-arch mountain
+arch rockdesert
 x 15
 y 2
 elevation 8771
 end
-arch mountain
+arch greysandcliff1
 x 15
 y 3
 elevation 8147
 end
-arch mountain2
+arch greysandcliff1
 x 15
 y 4
 elevation 9228
 end
-arch mountain2
+arch greysandcliff1
 x 15
 y 5
 elevation 9690
 end
-arch mountain2
+arch greysandcliff1
 x 15
 y 6
 elevation 9106
 end
-arch mountain
+arch greysandcliff1
 x 15
 y 7
 elevation 6196
@@ -4069,12 +4070,12 @@ arch sea
 x 15
 y 29
 end
-arch woods
+arch pine_needles
 x 15
 y 30
 elevation 2718
 end
-arch woods_3
+arch pine_needles
 x 15
 y 31
 elevation 2784
@@ -4088,12 +4089,12 @@ x 15
 y 32
 elevation 3979
 end
-arch hills_rocky
+arch pine_needles
 x 15
 y 33
 elevation 4976
 end
-arch mountain
+arch pine_needles
 x 15
 y 34
 elevation 5260
@@ -4154,12 +4155,12 @@ x 15
 y 44
 elevation 5158
 end
-arch mountain
+arch greysandcliff1
 x 15
 y 45
 elevation 5910
 end
-arch mountain
+arch greysandcliff1
 x 15
 y 46
 elevation 6581
@@ -4179,51 +4180,51 @@ x 15
 y 49
 elevation 7326
 end
-arch mountain
+arch rockdesert
 x 16
 elevation 7112
 end
-arch mountain
+arch greysandcliff1
 x 16
 y 1
 elevation 8434
 end
-arch mountain2
+arch greysandcliff1
 x 16
 y 2
 elevation 9504
 end
-arch mountain2
+arch greysandcliff1
 x 16
 y 3
 elevation 10673
 end
-arch mountain2
+arch pine_needles
 x 16
 y 4
 elevation 11506
 end
-arch mountain2
+arch pine_needles
 x 16
 y 5
 elevation 11927
 end
-arch mountain2
+arch pine_needles
 x 16
 y 6
 elevation 11216
 end
-arch mountain2
+arch pine_needles
 x 16
 y 7
 elevation 9663
 end
-arch mountain
+arch pine_needles
 x 16
 y 8
 elevation 8237
 end
-arch mountain
+arch pine_needles
 x 16
 y 9
 elevation 7300
@@ -4329,7 +4330,7 @@ arch sea
 x 16
 y 29
 end
-arch woods_3
+arch pine_needles
 x 16
 y 30
 elevation 2671
@@ -4338,27 +4339,27 @@ arch evergreens
 x 16
 y 31
 end
-arch hills_rocky
+arch pine_needles
 x 16
 y 32
 elevation 4692
 end
-arch mountain
+arch pine_needles
 x 16
 y 33
 elevation 5565
 end
-arch mountain
+arch pine_needles
 x 16
 y 34
 elevation 5825
 end
-arch mountain
+arch pine_needles
 x 16
 y 35
 elevation 5446
 end
-arch hills_rocky
+arch pine_needles
 x 16
 y 36
 elevation 4817
@@ -4409,7 +4410,7 @@ x 16
 y 44
 elevation 5847
 end
-arch mountain
+arch greysandcliff1
 x 16
 y 45
 elevation 6278
@@ -4434,56 +4435,56 @@ x 16
 y 49
 elevation 7922
 end
-arch mountain
+arch greysandcliff1
 x 17
 elevation 6514
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 1
 elevation 6682
 end
-arch mountain2
+arch pine_needles
 x 17
 y 2
 elevation 9900
 end
-arch mountain2
+arch pine_needles
 x 17
 y 3
 elevation 11316
 end
-arch mountain4
+arch pine_needles
 x 17
 y 4
 elevation 12766
 end
-arch mountain4
+arch grassmedium
 x 17
 y 5
 elevation 13208
 end
-arch mountain4
+arch pine_needles
 x 17
 y 6
 elevation 12767
 end
-arch mountain2
+arch pine_needles
 x 17
 y 7
 elevation 11307
 end
-arch mountain2
+arch pine_needles
 x 17
 y 8
 elevation 9382
 end
-arch mountain
+arch pine_needles
 x 17
 y 9
 elevation 7437
 end
-arch mountain
+arch pine_needles
 x 17
 y 10
 elevation 5029
@@ -4581,7 +4582,7 @@ arch sea
 x 17
 y 28
 end
-arch woods_3
+arch pine_needles
 x 17
 y 29
 elevation 1631
@@ -4599,72 +4600,72 @@ arch evergreens
 x 17
 y 31
 end
-arch mountain
+arch pine_needles
 x 17
 y 32
 elevation 5040
 end
-arch mountain
+arch pine_needles
 x 17
 y 33
 elevation 5749
 end
-arch mountain
+arch pine_needles
 x 17
 y 34
 elevation 6051
 end
-arch mountain
+arch pine_needles
 x 17
 y 35
 elevation 6028
 end
-arch mountain
+arch pine_needles
 x 17
 y 36
 elevation 5530
 end
-arch hills_rocky
+arch pine_needles
 x 17
 y 37
 elevation 4171
 end
-arch hills_rocky
+arch pine_needles
 x 17
 y 38
 elevation 3795
 end
-arch mountain
+arch pine_needles
 x 17
 y 39
 elevation 5388
 end
-arch mountain
+arch pine_needles
 x 17
 y 40
 elevation 5843
 end
-arch mountain
+arch pine_needles
 x 17
 y 41
 elevation 5863
 end
-arch mountain
+arch pine_needles
 x 17
 y 42
 elevation 5544
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 43
 elevation 5564
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 44
 elevation 6027
 end
-arch mountain
+arch greysandcliff1
 x 17
 y 45
 elevation 6323
@@ -4689,56 +4690,56 @@ x 17
 y 49
 elevation 8024
 end
-arch mountain
+arch pine_needles
 x 18
 elevation 6369
 end
-arch mountain
+arch pine_needles
 x 18
 y 1
 elevation 8386
 end
-arch mountain2
+arch pine_needles
 x 18
 y 2
 elevation 9720
 end
-arch mountain2
+arch grassmedium
 x 18
 y 3
 elevation 11727
 end
-arch mountain4
+arch grassmedium
 x 18
 y 4
 elevation 12965
 end
-arch mountain4
+arch grassmedium
 x 18
 y 5
 elevation 13319
 end
-arch mountain4
+arch grassmedium
 x 18
 y 6
 elevation 12806
 end
-arch mountain2
+arch pine_needles
 x 18
 y 7
 elevation 11485
 end
-arch mountain
+arch pine_needles
 x 18
 y 8
 elevation 8866
 end
-arch mountain
+arch pine_needles
 x 18
 y 9
 elevation 6771
 end
-arch hills_rocky
+arch pine_needles
 x 18
 y 10
 elevation 4737
@@ -4864,7 +4865,7 @@ arch fog
 x 18
 y 30
 end
-arch hills_rocky
+arch pine_needles
 x 18
 y 31
 elevation 4438
@@ -4874,57 +4875,57 @@ x 18
 y 32
 elevation 4801
 end
-arch mountain
+arch pine_needles
 x 18
 y 33
 elevation 5154
 end
-arch mountain
+arch pine_needles
 x 18
 y 34
 elevation 5638
 end
-arch mountain
+arch pine_needles
 x 18
 y 35
 elevation 6238
 end
-arch mountain
+arch pine_needles
 x 18
 y 36
 elevation 6690
 end
-arch mountain
+arch pine_needles
 x 18
 y 37
 elevation 6567
 end
-arch mountain
+arch pine_needles
 x 18
 y 38
 elevation 5749
 end
-arch mountain
+arch pine_needles
 x 18
 y 39
 elevation 7249
 end
-arch mountain
+arch pine_needles
 x 18
 y 40
 elevation 7429
 end
-arch mountain
+arch pine_needles
 x 18
 y 41
 elevation 5656
 end
-arch mountain
+arch pine_needles
 x 18
 y 42
 elevation 6072
 end
-arch mountain
+arch pine_needles
 x 18
 y 43
 elevation 5391
@@ -4959,51 +4960,51 @@ x 18
 y 49
 elevation 8312
 end
-arch mountain
+arch grassmedium
 x 19
 elevation 7070
 end
-arch mountain2
+arch grassmedium
 x 19
 y 1
 elevation 9013
 end
-arch mountain2
+arch grassmedium
 x 19
 y 2
 elevation 10488
 end
-arch mountain2
+arch grassmedium
 x 19
 y 3
 elevation 11521
 end
-arch mountain4
+arch grassmedium
 x 19
 y 4
 elevation 12177
 end
-arch mountain4
+arch grassmedium
 x 19
 y 5
 elevation 12423
 end
-arch mountain2
+arch grassmedium
 x 19
 y 6
 elevation 11981
 end
-arch mountain2
+arch grassmedium
 x 19
 y 7
 elevation 10712
 end
-arch mountain
+arch pine_needles
 x 19
 y 8
 elevation 8654
 end
-arch mountain
+arch pine_needles
 x 19
 y 9
 elevation 5663
@@ -5135,47 +5136,47 @@ x 19
 y 33
 elevation 3525
 end
-arch hills_rocky
+arch pine_needles
 x 19
 y 34
 elevation 4085
 end
-arch mountain
+arch pine_needles
 x 19
 y 35
 elevation 6309
 end
-arch mountain
+arch pine_needles
 x 19
 y 36
 elevation 7693
 end
-arch mountain
+arch pine_needles
 x 19
 y 37
 elevation 8337
 end
-arch mountain
+arch pine_needles
 x 19
 y 38
 elevation 8613
 end
-arch mountain
+arch pine_needles
 x 19
 y 39
 elevation 8751
 end
-arch mountain
+arch pine_needles
 x 19
 y 40
 elevation 8578
 end
-arch mountain
+arch pine_needles
 x 19
 y 41
 elevation 8003
 end
-arch mountain
+arch pine_needles
 x 19
 y 42
 elevation 6794
@@ -5215,51 +5216,78 @@ x 19
 y 49
 elevation 7651
 end
-arch mountain
+arch grassmedium
 x 20
 elevation 7505
 end
-arch mountain2
+arch lumber_pine
+x 20
+end
+arch grassmedium
 x 20
 y 1
 elevation 9313
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 1
+end
+arch grassmedium
 x 20
 y 2
 elevation 10140
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 2
+end
+arch grassmedium
 x 20
 y 3
 elevation 10489
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 3
+end
+arch grassmedium
 x 20
 y 4
 elevation 10555
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 4
+end
+arch grassmedium
 x 20
 y 5
 elevation 10473
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 5
+end
+arch grassmedium
 x 20
 y 6
 elevation 10090
 end
-arch mountain2
+arch lumber_pine
+x 20
+y 6
+end
+arch grassmedium
 x 20
 y 7
 elevation 9233
 end
-arch mountain
+arch pine_needles
 x 20
 y 8
 elevation 7792
 end
-arch mountain
+arch pine_needles
 x 20
 y 9
 elevation 5682
@@ -5389,57 +5417,57 @@ x 20
 y 33
 elevation 4087
 end
-arch hills
+arch pine_needles
 x 20
 y 34
 elevation 4020
 end
-arch mountain
+arch pine_needles
 x 20
 y 35
 elevation 6131
 end
-arch mountain
+arch pine_needles
 x 20
 y 36
 elevation 7933
 end
-arch mountain2
+arch pine_needles
 x 20
 y 37
 elevation 9102
 end
-arch mountain2
+arch pine_needles
 x 20
 y 38
 elevation 9482
 end
-arch mountain2
+arch pine_needles
 x 20
 y 39
 elevation 9290
 end
-arch mountain2
+arch pine_needles
 x 20
 y 40
 elevation 9171
 end
-arch mountain
+arch pine_needles
 x 20
 y 41
 elevation 8770
 end
-arch mountain
+arch greysandcliff1
 x 20
 y 42
 elevation 7825
 end
-arch mountain
+arch greysandcliff1
 x 20
 y 43
 elevation 6158
 end
-arch hills_rocky
+arch greysandcliff1
 x 20
 y 44
 elevation 3473
@@ -5469,56 +5497,56 @@ x 20
 y 49
 elevation 8255
 end
-arch mountain
+arch cobblestones
 x 21
 elevation 7346
 end
-arch mountain
+arch cobblestones
 x 21
 y 1
 elevation 8856
 end
-arch mountain2
+arch cobblestones
 x 21
 y 2
 elevation 9297
 end
-arch mountain
+arch cobblestones
 x 21
 y 3
 elevation 7604
 end
-arch mountain
+arch cobblestones
 x 21
 y 4
 elevation 8067
 end
-arch mountain
+arch cobblestones
 x 21
 y 5
 elevation 8134
 end
-arch mountain
+arch cobblestones
 x 21
 y 6
 elevation 7167
 end
-arch mountain
+arch pine_needles
 x 21
 y 7
 elevation 6986
 end
-arch mountain
+arch pine_needles
 x 21
 y 8
 elevation 6351
 end
-arch mountain
+arch pine_needles
 x 21
 y 9
 elevation 5542
 end
-arch mountain
+arch grass
 x 21
 y 10
 end
@@ -5645,17 +5673,17 @@ x 21
 y 29
 elevation 4476
 end
-arch mountain
+arch pine_needles
 x 21
 y 30
 elevation 5067
 end
-arch mountain
+arch pine_needles
 x 21
 y 31
 elevation 5490
 end
-arch mountain
+arch pine_needles
 x 21
 y 32
 elevation 5120
@@ -5665,47 +5693,47 @@ x 21
 y 33
 elevation 3945
 end
-arch hills_rocky
+arch pine_needles
 x 21
 y 34
 elevation 3258
 end
-arch mountain
+arch pine_needles
 x 21
 y 35
 elevation 6383
 end
-arch mountain
+arch pine_needles
 x 21
 y 36
 elevation 7864
 end
-arch mountain
+arch pine_needles
 x 21
 y 37
 elevation 8916
 end
-arch mountain2
+arch pine_needles
 x 21
 y 38
 elevation 9316
 end
-arch mountain2
+arch pine_needles
 x 21
 y 39
 elevation 9066
 end
-arch mountain
+arch pine_needles
 x 21
 y 40
 elevation 7778
 end
-arch mountain2
+arch greysandcliff1
 x 21
 y 41
 elevation 9079
 end
-arch mountain
+arch greysandcliff1
 x 21
 y 42
 elevation 8783
@@ -5745,56 +5773,56 @@ x 21
 y 49
 elevation 8577
 end
-arch mountain
+arch cobblestones
 x 22
 elevation 6339
 end
-arch mountain
+arch cobblestones
 x 22
 y 1
 elevation 8202
 end
-arch mountain
+arch cobblestones
 x 22
 y 2
 elevation 8669
 end
-arch mountain
+arch cobblestones
 x 22
 y 3
 elevation 7410
 end
-arch mountain
+arch cobblestones
 x 22
 y 4
 elevation 5913
 end
-arch mountain
+arch cobblestones
 x 22
 y 5
 elevation 7067
 end
-arch mountain
+arch cobblestones
 x 22
 y 6
 elevation 6129
 end
-arch hills
+arch pine_needles
 x 22
 y 7
 elevation 3103
 end
-arch hills_rocky
+arch pine_needles
 x 22
 y 8
 elevation 3787
 end
-arch mountain
+arch pine_needles
 x 22
 y 9
 elevation 5785
 end
-arch mountain
+arch pine_needles
 x 22
 y 10
 elevation 5398
@@ -5804,12 +5832,12 @@ x 22
 y 11
 elevation 3604
 end
-arch mountain
+arch grass
 x 22
 y 12
 elevation 5185
 end
-arch mountain
+arch grass
 x 22
 y 13
 elevation 5099
@@ -5895,22 +5923,22 @@ x 22
 y 28
 elevation 2088
 end
-arch mountain
+arch pine_needles
 x 22
 y 29
 elevation 5174
 end
-arch mountain
+arch pine_needles
 x 22
 y 30
 elevation 6613
 end
-arch mountain
+arch pine_needles
 x 22
 y 31
 elevation 7044
 end
-arch mountain
+arch pine_needles
 x 22
 y 32
 elevation 6433
@@ -5920,42 +5948,42 @@ x 22
 y 33
 elevation 4102
 end
-arch mountain
+arch pine_needles
 x 22
 y 34
 elevation 6157
 end
-arch mountain
+arch pine_needles
 x 22
 y 35
 elevation 7079
 end
-arch mountain
+arch pine_needles
 x 22
 y 36
 elevation 7215
 end
-arch mountain
+arch pine_needles
 x 22
 y 37
 elevation 8458
 end
-arch mountain
+arch pine_needles
 x 22
 y 38
 elevation 8699
 end
-arch mountain
+arch pine_needles
 x 22
 y 39
 elevation 7951
 end
-arch mountain
+arch greysandcliff1
 x 22
 y 40
 elevation 8405
 end
-arch mountain2
+arch greysandcliff1
 x 22
 y 41
 elevation 9139
@@ -6000,86 +6028,86 @@ x 22
 y 49
 elevation 8110
 end
-arch mountain
+arch cobblestones
 x 23
 elevation 7204
 end
-arch mountain
+arch cobblestones
 x 23
 y 1
 elevation 7925
 end
-arch mountain
+arch cobblestones
 x 23
 y 2
 elevation 8509
 end
-arch mountain
+arch cobblestones
 x 23
 y 3
 elevation 8387
 end
-arch mountain
+arch cobblestones
 x 23
 y 4
 elevation 8225
 end
-arch mountain
+arch cobblestones
 x 23
 y 5
 elevation 7610
 end
-arch mountain
+arch cobblestones
 x 23
 y 6
 elevation 6375
 end
-arch hills_rocky
+arch grass
 x 23
 y 7
 elevation 3333
 end
-arch mountain
+arch pine_needles
 x 23
 y 8
 elevation 5173
 end
-arch mountain
+arch pine_needles
 x 23
 y 9
 elevation 6355
 end
-arch mountain
+arch pine_needles
 x 23
 y 10
 elevation 6264
 end
-arch mountain
+arch grass
 x 23
 y 11
 elevation 5349
 end
-arch mountain
+arch grass
 x 23
 y 12
 elevation 6032
 end
-arch mountain
+arch grass
 x 23
 y 13
 elevation 6410
 end
-arch mountain
+arch grass
 x 23
 y 14
 elevation 5248
 end
-arch mountain
+arch grass
 x 23
 y 15
 elevation 5705
 end
-arch mountain
+arch grass
 x 23
 y 16
 elevation 5267
@@ -6160,67 +6188,67 @@ x 23
 y 28
 elevation 4485
 end
-arch mountain
+arch pine_needles
 x 23
 y 29
 elevation 6756
 end
-arch mountain
+arch pine_needles
 x 23
 y 30
 elevation 8194
 end
-arch mountain
+arch pine_needles
 x 23
 y 31
 elevation 8549
 end
-arch mountain
+arch pine_needles
 x 23
 y 32
 elevation 7951
 end
-arch mountain
+arch pine_needles
 x 23
 y 33
 elevation 7383
 end
-arch mountain
+arch pine_needles
 x 23
 y 34
 elevation 7481
 end
-arch mountain
+arch pine_needles
 x 23
 y 35
 elevation 7728
 end
-arch mountain
+arch pine_needles
 x 23
 y 36
 elevation 7726
 end
-arch mountain
+arch greysandcliff1
 x 23
 y 37
 elevation 7782
 end
-arch mountain
+arch rockdesert
 x 23
 y 38
 elevation 7703
 end
-arch mountain
+arch rockdesert
 x 23
 y 39
 elevation 7877
 end
-arch mountain
+arch rockdesert
 x 23
 y 40
 elevation 8267
 end
-arch mountain
+arch rockdesert
 x 23
 y 41
 elevation 8680
@@ -6450,82 +6478,82 @@ x 24
 y 25
 elevation 2571
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 26
 elevation 5057
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 27
 elevation 5979
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 28
 elevation 7187
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 29
 elevation 8495
 end
-arch mountain2
+arch greysandcliff1
 x 24
 y 30
 elevation 9543
 end
-arch mountain2
+arch greysandcliff1
 x 24
 y 31
 elevation 9716
 end
-arch mountain2
+arch greysandcliff1
 x 24
 y 32
 elevation 9282
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 33
 elevation 8613
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 34
 elevation 7972
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 35
 elevation 7740
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 36
 elevation 7423
 end
-arch mountain
+arch greysandcliff1
 x 24
 y 37
 elevation 6380
 end
-arch mountain
+arch rockdesert
 x 24
 y 38
 elevation 7185
 end
-arch mountain
+arch rockdesert
 x 24
 y 39
 elevation 6000
 end
-arch mountain
+arch rockdesert
 x 24
 y 40
 elevation 7558
 end
-arch mountain
+arch rockdesert
 x 24
 y 41
 elevation 7567
@@ -6570,91 +6598,91 @@ x 24
 y 49
 elevation 4355
 end
-arch mountain
+arch greysandcliff1
 x 25
 elevation 7192
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 1
 elevation 7515
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 2
 elevation 8157
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 3
 elevation 8620
 end
-arch mountain2
+arch greysandcliff1
 x 25
 y 4
 elevation 9327
 end
-arch mountain2
+arch greysandcliff1
 x 25
 y 5
 elevation 9289
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 6
 elevation 8943
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 7
 elevation 8499
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 8
 elevation 8297
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 9
 elevation 8366
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 10
 elevation 8500
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 11
 elevation 8596
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 12
 elevation 8517
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 13
 elevation 8388
 end
-arch mountain
+arch moss
 x 25
 y 14
 elevation 7766
 end
-arch mountain
+arch moss
 x 25
 y 15
 elevation 6590
 end
-arch mountain
+arch moss
 x 25
 y 16
 elevation 5073
 end
-arch mountain
+arch moss
 x 25
 y 17
 elevation 5114
@@ -6694,87 +6722,87 @@ x 25
 y 24
 elevation 3937
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 25
 elevation 5150
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 26
 elevation 6192
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 27
 elevation 7081
 end
-arch mountain
+arch greysandcliff1
 x 25
 y 28
 elevation 8109
 end
-arch mountain2
+arch rockdesert
 x 25
 y 29
 elevation 9282
 end
-arch mountain2
+arch rockdesert
 x 25
 y 30
 elevation 10048
 end
-arch mountain2
+arch rockdesert
 x 25
 y 31
 elevation 9835
 end
-arch mountain2
+arch rockdesert
 x 25
 y 32
 elevation 9415
 end
-arch mountain
+arch rockdesert
 x 25
 y 33
 elevation 8906
 end
-arch mountain
+arch rockdesert
 x 25
 y 34
 elevation 8094
 end
-arch mountain
+arch rockdesert
 x 25
 y 35
 elevation 6595
 end
-arch mountain
+arch rockdesert
 x 25
 y 36
 elevation 6972
 end
-arch mountain
+arch rockdesert
 x 25
 y 37
 elevation 7170
 end
-arch mountain
+arch rockdesert
 x 25
 y 38
 elevation 6959
 end
-arch mountain
+arch rockdesert
 x 25
 y 39
 elevation 6659
 end
-arch mountain
+arch rockdesert
 x 25
 y 40
 elevation 7187
 end
-arch mountain
+arch rockdesert
 x 25
 y 41
 elevation 6603
@@ -6819,86 +6847,86 @@ x 25
 y 49
 elevation 4346
 end
-arch mountain
+arch rockdesert
 x 26
 elevation 5980
 end
-arch mountain
+arch rockdesert
 x 26
 y 1
 elevation 6667
 end
-arch mountain
+arch rockdesert
 x 26
 y 2
 elevation 8101
 end
-arch mountain
+arch rockdesert
 x 26
 y 3
 elevation 8681
 end
-arch mountain
+arch rockdesert
 x 26
 y 4
 elevation 8803
 end
-arch mountain2
+arch rockdesert
 x 26
 y 5
 elevation 9340
 end
-arch mountain2
+arch rockdesert
 x 26
 y 6
 elevation 9489
 end
-arch mountain2
+arch rockdesert
 x 26
 y 7
 elevation 9132
 end
-arch mountain
+arch rockdesert
 x 26
 y 8
 elevation 8856
 end
-arch mountain
+arch rockdesert
 x 26
 y 9
 elevation 8772
 end
-arch mountain
+arch rockdesert
 x 26
 y 10
 elevation 8834
 end
-arch mountain
+arch rockdesert
 x 26
 y 11
 elevation 8814
 end
-arch mountain
+arch rockdesert
 x 26
 y 12
 elevation 8552
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 13
 elevation 8217
 end
-arch mountain
+arch moss
 x 26
 y 14
 elevation 7355
 end
-arch mountain
+arch moss
 x 26
 y 15
 elevation 6145
 end
-arch mountain
+arch moss
 x 26
 y 16
 elevation 5221
@@ -6947,87 +6975,87 @@ x 26
 y 24
 elevation 4375
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 25
 elevation 6174
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 26
 elevation 7271
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 27
 elevation 7629
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 28
 elevation 6363
 end
-arch mountain
+arch greysandcliff1
 x 26
 y 29
 elevation 8845
 end
-arch mountain2
+arch rockdesert
 x 26
 y 30
 elevation 9765
 end
-arch mountain
+arch rockdesert
 x 26
 y 31
 elevation 8462
 end
-arch mountain
+arch rockdesert
 x 26
 y 32
 elevation 7609
 end
-arch mountain2
+arch rockdesert
 x 26
 y 33
 elevation 9133
 end
-arch mountain
+arch rockdesert
 x 26
 y 34
 elevation 7419
 end
-arch mountain
+arch rockdesert
 x 26
 y 35
 elevation 6374
 end
-arch mountain
+arch rockdesert
 x 26
 y 36
 elevation 7837
 end
-arch mountain
+arch rockdesert
 x 26
 y 37
 elevation 7849
 end
-arch mountain
+arch rockdesert
 x 26
 y 38
 elevation 6056
 end
-arch mountain
+arch rockdesert
 x 26
 y 39
 elevation 7310
 end
-arch mountain
+arch rockdesert
 x 26
 y 40
 elevation 7336
 end
-arch mountain
+arch rockdesert
 x 26
 y 41
 elevation 6313
@@ -7072,81 +7100,81 @@ x 26
 y 49
 elevation 4579
 end
-arch mountain
+arch rockdesert
 x 27
 elevation 5847
 end
-arch mountain
+arch rockdesert
 x 27
 y 1
 elevation 6374
 end
-arch mountain
+arch rockdesert
 x 27
 y 2
 elevation 7442
 end
-arch mountain
+arch rockdesert
 x 27
 y 3
 elevation 8038
 end
-arch mountain
+arch rockdesert
 x 27
 y 4
 elevation 8155
 end
-arch mountain
+arch rockdesert
 x 27
 y 5
 elevation 8368
 end
-arch mountain2
+arch rockdesert
 x 27
 y 6
 elevation 9045
 end
-arch mountain2
+arch rockdesert
 x 27
 y 7
 elevation 9383
 end
-arch mountain2
+arch rockdesert
 x 27
 y 8
 elevation 9328
 end
-arch mountain
+arch rockdesert
 x 27
 y 9
 elevation 8563
 end
-arch mountain
+arch rockdesert
 x 27
 y 10
 elevation 8956
 end
-arch mountain
+arch rockdesert
 x 27
 y 11
 elevation 7197
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 12
 elevation 7914
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 13
 elevation 7186
 end
-arch mountain
+arch moss
 x 27
 y 14
 elevation 5840
 end
-arch mountain
+arch moss
 x 27
 y 15
 elevation 5207
@@ -7203,92 +7231,92 @@ x 27
 y 23
 elevation 3718
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 24
 elevation 5664
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 25
 elevation 6858
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 26
 elevation 8030
 end
-arch mountain
+arch greysandcliff1
 x 27
 y 27
 elevation 8091
 end
-arch mountain
+arch rockdesert
 x 27
 y 28
 elevation 7017
 end
-arch mountain
+arch rockdesert
 x 27
 y 29
 elevation 6831
 end
-arch mountain
+arch rockdesert
 x 27
 y 30
 elevation 8865
 end
-arch mountain2
+arch rockdesert
 x 27
 y 31
 elevation 9952
 end
-arch mountain2
+arch rockdesert
 x 27
 y 32
 elevation 9963
 end
-arch mountain2
+arch rockdesert
 x 27
 y 33
 elevation 9427
 end
-arch mountain
+arch rockdesert
 x 27
 y 34
 elevation 8776
 end
-arch mountain
+arch rockdesert
 x 27
 y 35
 elevation 8488
 end
-arch mountain
+arch rockdesert
 x 27
 y 36
 elevation 8618
 end
-arch mountain
+arch rockdesert
 x 27
 y 37
 elevation 8542
 end
-arch mountain
+arch rockdesert
 x 27
 y 38
 elevation 8008
 end
-arch mountain
+arch rockdesert
 x 27
 y 39
 elevation 7314
 end
-arch mountain
+arch rockdesert
 x 27
 y 40
 elevation 6897
 end
-arch mountain
+arch rockdesert
 x 27
 y 41
 elevation 5828
@@ -7342,62 +7370,62 @@ x 28
 y 1
 elevation 4873
 end
-arch mountain
+arch rockdesert
 x 28
 y 2
 elevation 6656
 end
-arch mountain
+arch rockdesert
 x 28
 y 3
 elevation 7418
 end
-arch mountain
+arch rockdesert
 x 28
 y 4
 elevation 6545
 end
-arch mountain
+arch rockdesert
 x 28
 y 5
 elevation 6469
 end
-arch mountain
+arch rockdesert
 x 28
 y 6
 elevation 8133
 end
-arch mountain2
+arch rockdesert
 x 28
 y 7
 elevation 9080
 end
-arch mountain2
+arch rockdesert
 x 28
 y 8
 elevation 9550
 end
-arch mountain2
+arch rockdesert
 x 28
 y 9
 elevation 10044
 end
-arch mountain2
+arch rockdesert
 x 28
 y 10
 elevation 9704
 end
-arch mountain
+arch rockdesert
 x 28
 y 11
 elevation 7841
 end
-arch mountain
+arch rockdesert
 x 28
 y 12
 elevation 7926
 end
-arch mountain
+arch greysandcliff1
 x 28
 y 13
 elevation 6043
@@ -7447,32 +7475,32 @@ x 28
 y 22
 elevation 4535
 end
-arch mountain
+arch greysandcliff1
 x 28
 y 23
 elevation 5295
 end
-arch mountain
+arch greysandcliff1
 x 28
 y 24
 elevation 6792
 end
-arch mountain
+arch greysandcliff1
 x 28
 y 25
 elevation 8027
 end
-arch mountain
+arch rockdesert
 x 28
 y 26
 elevation 8790
 end
-arch mountain
+arch rockdesert
 x 28
 y 27
 elevation 8952
 end
-arch mountain
+arch rockdesert
 x 28
 y 28
 elevation 7879
@@ -7482,52 +7510,52 @@ x 28
 y 29
 elevation 3729
 end
-arch mountain
+arch rockdesert
 x 28
 y 30
 elevation 8696
 end
-arch mountain2
+arch rockdesert
 x 28
 y 31
 elevation 10423
 end
-arch mountain2
+arch rockdesert
 x 28
 y 32
 elevation 10479
 end
-arch mountain2
+arch rockdesert
 x 28
 y 33
 elevation 9775
 end
-arch mountain2
+arch rockdesert
 x 28
 y 34
 elevation 9130
 end
-arch mountain
+arch rockdesert
 x 28
 y 35
 elevation 8878
 end
-arch mountain
+arch rockdesert
 x 28
 y 36
 elevation 8942
 end
-arch mountain
+arch rockdesert
 x 28
 y 37
 elevation 8853
 end
-arch mountain
+arch rockdesert
 x 28
 y 38
 elevation 8319
 end
-arch mountain
+arch rockdesert
 x 28
 y 39
 elevation 6540
@@ -7537,7 +7565,7 @@ x 28
 y 40
 elevation 4836
 end
-arch mountain
+arch rockdesert
 x 28
 y 41
 elevation 5220
@@ -7582,7 +7610,7 @@ x 28
 y 49
 elevation 5378
 end
-arch mountain
+arch rockdesert
 x 29
 elevation 5040
 end
@@ -7591,77 +7619,77 @@ x 29
 y 1
 elevation 4259
 end
-arch mountain
+arch rockdesert
 x 29
 y 2
 elevation 6585
 end
-arch mountain
+arch rockdesert
 x 29
 y 3
 elevation 6976
 end
-arch mountain
+arch rockdesert
 x 29
 y 4
 elevation 6948
 end
-arch mountain
+arch rockdesert
 x 29
 y 5
 elevation 6709
 end
-arch mountain
+arch rockdesert
 x 29
 y 6
 elevation 6601
 end
-arch mountain
+arch rockdesert
 x 29
 y 7
 elevation 8690
 end
-arch mountain2
+arch rockdesert
 x 29
 y 8
 elevation 10091
 end
-arch mountain2
+arch rockdesert
 x 29
 y 9
 elevation 10928
 end
-arch mountain2
+arch rockdesert
 x 29
 y 10
 elevation 11114
 end
-arch mountain2
+arch rockdesert
 x 29
 y 11
 elevation 10573
 end
-arch mountain
+arch rockdesert
 x 29
 y 12
 elevation 8721
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 13
 elevation 7142
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 14
 elevation 5203
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 15
 elevation 6088
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 16
 elevation 5671
@@ -7691,97 +7719,97 @@ x 29
 y 21
 elevation 4696
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 22
 elevation 5578
 end
-arch mountain
+arch greysandcliff1
 x 29
 y 23
 elevation 6284
 end
-arch mountain
+arch rockdesert
 x 29
 y 24
 elevation 7887
 end
-arch mountain
+arch rockdesert
 x 29
 y 25
 elevation 8943
 end
-arch mountain2
+arch rockdesert
 x 29
 y 26
 elevation 9208
 end
-arch mountain2
+arch rockdesert
 x 29
 y 27
 elevation 9194
 end
-arch mountain
+arch rockdesert
 x 29
 y 28
 elevation 8435
 end
-arch mountain
+arch rockdesert
 x 29
 y 29
 elevation 7382
 end
-arch mountain2
+arch rockdesert
 x 29
 y 30
 elevation 9171
 end
-arch mountain2
+arch rockdesert
 x 29
 y 31
 elevation 10157
 end
-arch mountain2
+arch rockdesert
 x 29
 y 32
 elevation 10013
 end
-arch mountain
+arch rockdesert
 x 29
 y 33
 elevation 8986
 end
-arch mountain
+arch rockdesert
 x 29
 y 34
 elevation 8023
 end
-arch mountain
+arch rockdesert
 x 29
 y 35
 elevation 8710
 end
-arch mountain
+arch rockdesert
 x 29
 y 36
 elevation 8375
 end
-arch mountain
+arch rockdesert
 x 29
 y 37
 elevation 8571
 end
-arch mountain
+arch rockdesert
 x 29
 y 38
 elevation 8041
 end
-arch mountain
+arch rockdesert
 x 29
 y 39
 elevation 6957
 end
-arch mountain
+arch rockdesert
 x 29
 y 40
 elevation 5969
@@ -7831,211 +7859,211 @@ x 29
 y 49
 elevation 5517
 end
-arch mountain
+arch rockdesert
 x 30
 elevation 5869
 end
-arch mountain
+arch rockdesert
 x 30
 y 1
 elevation 6335
 end
-arch mountain
+arch rockdesert
 x 30
 y 2
 elevation 6774
 end
-arch mountain
+arch rockdesert
 x 30
 y 3
 elevation 7050
 end
-arch mountain
+arch rockdesert
 x 30
 y 4
 elevation 6237
 end
-arch mountain
+arch rockdesert
 x 30
 y 5
 elevation 7086
 end
-arch mountain
+arch rockdesert
 x 30
 y 6
 elevation 5020
 end
-arch mountain2
+arch rockdesert
 x 30
 y 7
 elevation 9333
 end
-arch mountain2
+arch rockdesert
 x 30
 y 8
 elevation 10592
 end
-arch mountain2
+arch rockdesert
 x 30
 y 9
 elevation 10802
 end
-arch mountain4
+arch rockdesert
 x 30
 y 10
 elevation 12641
 end
-arch mountain4
+arch rockdesert
 x 30
 y 11
 elevation 12482
 end
-arch mountain2
+arch rockdesert
 x 30
 y 12
 elevation 11522
 end
-arch mountain2
+arch rockdesert
 x 30
 y 13
 elevation 10158
 end
-arch mountain
+arch rockdesert
 x 30
 y 14
 elevation 8987
 end
-arch mountain
+arch rockdesert
 x 30
 y 15
 elevation 8139
 end
-arch mountain
+arch rockdesert
 x 30
 y 16
 elevation 7532
 end
-arch mountain
+arch rockdesert
 x 30
 y 17
 elevation 6860
 end
-arch mountain
+arch rockdesert
 x 30
 y 18
 elevation 6292
 end
-arch mountain
+arch greysandcliff1
 x 30
 y 19
 elevation 5869
 end
-arch mountain
+arch greysandcliff1
 x 30
 y 20
 elevation 5315
 end
-arch mountain
+arch greysandcliff1
 x 30
 y 21
 elevation 5937
 end
-arch mountain
+arch greysandcliff1
 x 30
 y 22
 elevation 5876
 end
-arch mountain
+arch rockdesert
 x 30
 y 23
 elevation 7325
 end
-arch mountain
+arch rockdesert
 x 30
 y 24
 elevation 8401
 end
-arch mountain
+arch rockdesert
 x 30
 y 25
 elevation 8987
 end
-arch mountain
+arch rockdesert
 x 30
 y 26
 elevation 8760
 end
-arch mountain
+arch rockdesert
 x 30
 y 27
 elevation 6981
 end
-arch mountain2
+arch rockdesert
 x 30
 y 28
 elevation 9160
 end
-arch mountain2
+arch rockdesert
 x 30
 y 29
 elevation 9538
 end
-arch mountain2
+arch rockdesert
 x 30
 y 30
 elevation 9821
 end
-arch mountain2
+arch rockdesert
 x 30
 y 31
 elevation 9887
 end
-arch mountain2
+arch rockdesert
 x 30
 y 32
 elevation 9073
 end
-arch mountain
+arch rockdesert
 x 30
 y 33
 elevation 8002
 end
-arch mountain
+arch rockdesert
 x 30
 y 34
 elevation 8907
 end
-arch mountain
+arch rockdesert
 x 30
 y 35
 elevation 7877
 end
-arch mountain
+arch rockdesert
 x 30
 y 36
 elevation 8381
 end
-arch mountain
+arch rockdesert
 x 30
 y 37
 elevation 8363
 end
-arch mountain
+arch rockdesert
 x 30
 y 38
 elevation 7825
 end
-arch mountain
+arch rockdesert
 x 30
 y 39
 elevation 6664
 end
-arch mountain
+arch rockdesert
 x 30
 y 40
 elevation 5903
 end
-arch mountain
+arch rockdesert
 x 30
 y 41
 elevation 5122
@@ -8080,211 +8108,211 @@ x 30
 y 49
 elevation 6404
 end
-arch mountain
+arch rockdesert
 x 31
 elevation 6721
 end
-arch mountain
+arch rockdesert
 x 31
 y 1
 elevation 6740
 end
-arch mountain
+arch rockdesert
 x 31
 y 2
 elevation 6581
 end
-arch mountain
+arch rockdesert
 x 31
 y 3
 elevation 6585
 end
-arch mountain
+arch rockdesert
 x 31
 y 4
 elevation 7115
 end
-arch mountain
+arch rockdesert
 x 31
 y 5
 elevation 7638
 end
-arch mountain
+arch rockdesert
 x 31
 y 6
 elevation 8931
 end
-arch mountain2
+arch rockdesert
 x 31
 y 7
 elevation 10565
 end
-arch mountain4
+arch rockdesert
 x 31
 y 8
 elevation 12326
 end
-arch mountain4
+arch rockdesert
 x 31
 y 9
 elevation 13354
 end
-arch mountain4
+arch rockdesert
 x 31
 y 10
 elevation 13910
 end
-arch mountain4
+arch rockdesert
 x 31
 y 11
 elevation 13897
 end
-arch mountain4
+arch rockdesert
 x 31
 y 12
 elevation 13270
 end
-arch mountain4
+arch rockdesert
 x 31
 y 13
 elevation 12155
 end
-arch mountain2
+arch rockdesert
 x 31
 y 14
 elevation 10824
 end
-arch mountain2
+arch rockdesert
 x 31
 y 15
 elevation 9650
 end
-arch mountain
+arch rockdesert
 x 31
 y 16
 elevation 8872
 end
-arch mountain
+arch rockdesert
 x 31
 y 17
 elevation 8308
 end
-arch mountain
+arch rockdesert
 x 31
 y 18
 elevation 7755
 end
-arch mountain
+arch rockdesert
 x 31
 y 19
 elevation 7131
 end
-arch mountain
+arch rockdesert
 x 31
 y 20
 elevation 6839
 end
-arch mountain
+arch rockdesert
 x 31
 y 21
 elevation 6869
 end
-arch mountain
+arch greysandcliff1
 x 31
 y 22
 elevation 7214
 end
-arch mountain
+arch rockdesert
 x 31
 y 23
 elevation 7582
 end
-arch mountain
+arch rockdesert
 x 31
 y 24
 elevation 8001
 end
-arch mountain
+arch rockdesert
 x 31
 y 25
 elevation 7954
 end
-arch mountain
+arch rockdesert
 x 31
 y 26
 elevation 7714
 end
-arch mountain
+arch rockdesert
 x 31
 y 27
 elevation 8137
 end
-arch mountain2
+arch rockdesert
 x 31
 y 28
 elevation 9108
 end
-arch mountain2
+arch rockdesert
 x 31
 y 29
 elevation 9857
 end
-arch mountain
+arch rockdesert
 x 31
 y 30
 elevation 8933
 end
-arch mountain2
+arch rockdesert
 x 31
 y 31
 elevation 10082
 end
-arch mountain2
+arch rockdesert
 x 31
 y 32
 elevation 9844
 end
-arch mountain2
+arch rockdesert
 x 31
 y 33
 elevation 9482
 end
-arch mountain2
+arch rockdesert
 x 31
 y 34
 elevation 9342
 end
-arch mountain2
+arch rockdesert
 x 31
 y 35
 elevation 9431
 end
-arch mountain2
+arch rockdesert
 x 31
 y 36
 elevation 9392
 end
-arch mountain2
+arch rockdesert
 x 31
 y 37
 elevation 9043
 end
-arch mountain
+arch rockdesert
 x 31
 y 38
 elevation 8006
 end
-arch mountain
+arch rockdesert
 x 31
 y 39
 elevation 6797
 end
-arch mountain
+arch rockdesert
 x 31
 y 40
 elevation 5891
 end
-arch mountain
+arch rockdesert
 x 31
 y 41
 elevation 5235
@@ -8329,11 +8357,11 @@ x 31
 y 49
 elevation 6611
 end
-arch mountain
+arch rockdesert
 x 32
 elevation 7629
 end
-arch mountain
+arch rockdesert
 x 32
 y 1
 elevation 7002
@@ -8343,172 +8371,172 @@ x 32
 y 2
 elevation 4647
 end
-arch mountain
+arch rockdesert
 x 32
 y 3
 elevation 5349
 end
-arch mountain
+arch rockdesert
 x 32
 y 4
 elevation 6449
 end
-arch mountain
+arch rockdesert
 x 32
 y 5
 elevation 7802
 end
-arch mountain2
+arch rockdesert
 x 32
 y 6
 elevation 9693
 end
-arch mountain2
+arch rockdesert
 x 32
 y 7
 elevation 11883
 end
-arch mountain4
+arch rockdesert
 x 32
 y 8
 elevation 13842
 end
-arch mountain4
+arch rockdesert
 x 32
 y 9
 elevation 14864
 end
-arch mountain4
+arch rockdesert
 x 32
 y 10
 elevation 14686
 end
-arch mountain4
+arch rockdesert
 x 32
 y 11
 elevation 14291
 end
-arch mountain4
+arch rockdesert
 x 32
 y 12
 elevation 13549
 end
-arch mountain4
+arch rockdesert
 x 32
 y 13
 elevation 12795
 end
-arch mountain2
+arch rockdesert
 x 32
 y 14
 elevation 11347
 end
-arch mountain2
+arch rockdesert
 x 32
 y 15
 elevation 9845
 end
-arch mountain
+arch rockdesert
 x 32
 y 16
 elevation 8768
 end
-arch mountain
+arch rockdesert
 x 32
 y 17
 elevation 8946
 end
-arch mountain
+arch rockdesert
 x 32
 y 18
 elevation 8068
 end
-arch mountain
+arch rockdesert
 x 32
 y 19
 elevation 7254
 end
-arch mountain
+arch rockdesert
 x 32
 y 20
 elevation 6966
 end
-arch mountain
+arch rockdesert
 x 32
 y 21
 elevation 7185
 end
-arch mountain
+arch greysandcliff1
 x 32
 y 22
 elevation 7083
 end
-arch mountain
+arch greysandcliff1
 x 32
 y 23
 elevation 6972
 end
-arch mountain
+arch rockdesert
 x 32
 y 24
 elevation 6754
 end
-arch mountain
+arch rockdesert
 x 32
 y 25
 elevation 6170
 end
-arch mountain
+arch rockdesert
 x 32
 y 26
 elevation 5194
 end
-arch mountain
+arch rockdesert
 x 32
 y 27
 elevation 7166
 end
-arch mountain
+arch rockdesert
 x 32
 y 28
 elevation 8360
 end
-arch mountain2
+arch rockdesert
 x 32
 y 29
 elevation 9166
 end
-arch mountain2
+arch rockdesert
 x 32
 y 30
 elevation 9724
 end
-arch mountain2
+arch rockdesert
 x 32
 y 31
 elevation 9960
 end
-arch mountain2
+arch rockdesert
 x 32
 y 32
 elevation 9734
 end
-arch mountain2
+arch rockdesert
 x 32
 y 33
 elevation 9250
 end
-arch mountain2
+arch rockdesert
 x 32
 y 34
 elevation 9403
 end
-arch mountain2
+arch rockdesert
 x 32
 y 35
 elevation 9764
 end
-arch mountain2
+arch rockdesert
 x 32
 y 36
 elevation 9823
@@ -8518,12 +8546,12 @@ x 32
 y 37
 elevation 8956
 end
-arch mountain
+arch rockdesert
 x 32
 y 38
 elevation 7570
 end
-arch mountain
+arch rockdesert
 x 32
 y 39
 elevation 5720
@@ -8578,16 +8606,16 @@ x 32
 y 49
 elevation 6393
 end
-arch mountain2
+arch rockdesert
 x 33
 elevation 9098
 end
-arch mountain
+arch rockdesert
 x 33
 y 1
 elevation 8637
 end
-arch mountain
+arch rockdesert
 x 33
 y 2
 elevation 7096
@@ -8602,92 +8630,92 @@ x 33
 y 4
 elevation 4396
 end
-arch mountain
+arch rockdesert
 x 33
 y 5
 elevation 5988
 end
-arch mountain2
+arch rockdesert
 x 33
 y 6
 elevation 9351
 end
-arch mountain4
+arch rockdesert
 x 33
 y 7
 elevation 12648
 end
-arch mountain4
+arch rockdesert
 x 33
 y 8
 elevation 14706
 end
-arch mountain4
+arch rockdesert
 x 33
 y 9
 elevation 15643
 end
-arch mountain4
+arch rockdesert
 x 33
 y 10
 elevation 15275
 end
-arch mountain2
+arch rockdesert
 x 33
 y 11
 elevation 11497
 end
-arch mountain4
+arch rockdesert
 x 33
 y 12
 elevation 13718
 end
-arch mountain4
+arch rockdesert
 x 33
 y 13
 elevation 12272
 end
-arch mountain2
+arch rockdesert
 x 33
 y 14
 elevation 11198
 end
-arch mountain2
+arch rockdesert
 x 33
 y 15
 elevation 9617
 end
-arch mountain2
+arch rockdesert
 x 33
 y 16
 elevation 9506
 end
-arch mountain2
+arch rockdesert
 x 33
 y 17
 elevation 9167
 end
-arch mountain
+arch rockdesert
 x 33
 y 18
 elevation 8211
 end
-arch mountain
+arch rockdesert
 x 33
 y 19
 elevation 5003
 end
-arch mountain
+arch rockdesert
 x 33
 y 20
 elevation 6871
 end
-arch mountain
+arch rockdesert
 x 33
 y 21
 elevation 7004
 end
-arch mountain
+arch rockdesert
 x 33
 y 22
 elevation 6652
@@ -8697,17 +8725,17 @@ x 33
 y 23
 elevation 4905
 end
-arch mountain
+arch rockdesert
 x 33
 y 24
 elevation 5649
 end
-arch mountain
+arch rockdesert
 x 33
 y 25
 elevation 5388
 end
-arch mountain
+arch rockdesert
 x 33
 y 26
 elevation 5128
@@ -8717,47 +8745,47 @@ x 33
 y 27
 elevation 4960
 end
-arch mountain
+arch rockdesert
 x 33
 y 28
 elevation 6796
 end
-arch mountain
+arch rockdesert
 x 33
 y 29
 elevation 8168
 end
-arch mountain
+arch rockdesert
 x 33
 y 30
 elevation 8960
 end
-arch mountain
+arch rockdesert
 x 33
 y 31
 elevation 8773
 end
-arch mountain
+arch rockdesert
 x 33
 y 32
 elevation 8255
 end
-arch mountain
+arch rockdesert
 x 33
 y 33
 elevation 7757
 end
-arch mountain
+arch rockdesert
 x 33
 y 34
 elevation 8097
 end
-arch mountain
+arch rockdesert
 x 33
 y 35
 elevation 8853
 end
-arch mountain2
+arch rockdesert
 x 33
 y 36
 elevation 9605
@@ -8827,121 +8855,121 @@ x 33
 y 49
 elevation 6140
 end
-arch mountain2
+arch rockdesert
 x 34
 elevation 10360
 end
-arch mountain2
+arch rockdesert
 x 34
 y 1
 elevation 10272
 end
-arch mountain
+arch rockdesert
 x 34
 y 2
 elevation 8824
 end
-arch mountain
+arch rockdesert
 x 34
 y 3
 elevation 5880
 end
-arch mountain
+arch rockdesert
 x 34
 y 4
 elevation 6023
 end
-arch mountain
+arch rockdesert
 x 34
 y 5
 elevation 5151
 end
-arch mountain2
+arch rockdesert
 x 34
 y 6
 elevation 9966
 end
-arch mountain4
+arch rockdesert
 x 34
 y 7
 elevation 12903
 end
-arch mountain4
+arch rockdesert
 x 34
 y 8
 elevation 14974
 end
-arch mountain4
+arch rockdesert
 x 34
 y 9
 elevation 15875
 end
-arch mountain4
+arch rockdesert
 x 34
 y 10
 elevation 15628
 end
-arch mountain4
+arch rockdesert
 x 34
 y 11
 elevation 15167
 end
-arch mountain4
+arch rockdesert
 x 34
 y 12
 elevation 14184
 end
-arch mountain4
+arch rockdesert
 x 34
 y 13
 elevation 12878
 end
-arch mountain2
+arch rockdesert
 x 34
 y 14
 elevation 11066
 end
-arch mountain
+arch rockdesert
 x 34
 y 15
 elevation 8253
 end
-arch mountain2
+arch rockdesert
 x 34
 y 16
 elevation 9743
 end
-arch mountain2
+arch greysandcliff1
 x 34
 y 17
 elevation 9585
 end
-arch mountain
+arch greysandcliff1
 x 34
 y 18
 elevation 7853
 end
-arch mountain
+arch greysandcliff1
 x 34
 y 19
 elevation 8114
 end
-arch mountain
+arch rockdesert
 x 34
 y 20
 elevation 7823
 end
-arch mountain
+arch greysandcliff1
 x 34
 y 21
 elevation 7597
 end
-arch mountain
+arch greysandcliff1
 x 34
 y 22
 elevation 7254
 end
-arch mountain
+arch greysandcliff1
 x 34
 y 23
 elevation 6757
@@ -8956,7 +8984,7 @@ x 34
 y 25
 elevation 4296
 end
-arch mountain
+arch rockdesert
 x 34
 y 26
 elevation 5510
@@ -8966,32 +8994,32 @@ x 34
 y 27
 elevation 4854
 end
-arch mountain
+arch rockdesert
 x 34
 y 28
 elevation 6627
 end
-arch mountain
+arch rockdesert
 x 34
 y 29
 elevation 7704
 end
-arch mountain
+arch rockdesert
 x 34
 y 30
 elevation 7406
 end
-arch mountain
+arch rockdesert
 x 34
 y 31
 elevation 6862
 end
-arch mountain
+arch rockdesert
 x 34
 y 32
 elevation 5267
 end
-arch mountain
+arch rockdesert
 x 34
 y 33
 elevation 6124
@@ -9001,27 +9029,27 @@ x 34
 y 34
 elevation 4241
 end
-arch mountain
+arch rockdesert
 x 34
 y 35
 elevation 7369
 end
-arch mountain2
+arch rockdesert
 x 34
 y 36
 elevation 9556
 end
-arch mountain2
+arch rockdesert
 x 34
 y 37
 elevation 9654
 end
-arch mountain
+arch rockdesert
 x 34
 y 38
 elevation 6513
 end
-arch mountain
+arch rockdesert
 x 34
 y 39
 elevation 6239
@@ -9076,201 +9104,201 @@ x 34
 y 49
 elevation 5833
 end
-arch mountain2
+arch rockdesert
 x 35
 elevation 11098
 end
-arch mountain2
+arch rockdesert
 x 35
 y 1
 elevation 11206
 end
-arch mountain2
+arch rockdesert
 x 35
 y 2
 elevation 10751
 end
-arch mountain2
+arch rockdesert
 x 35
 y 3
 elevation 9600
 end
-arch mountain
+arch rockdesert
 x 35
 y 4
 elevation 8310
 end
-arch mountain
+arch rockdesert
 x 35
 y 5
 elevation 8635
 end
-arch mountain2
+arch rockdesert
 x 35
 y 6
 elevation 10296
 end
-arch mountain4
+arch rockdesert
 x 35
 y 7
 elevation 12792
 end
-arch mountain4
+arch rockdesert
 x 35
 y 8
 elevation 14678
 end
-arch mountain4
+arch rockdesert
 x 35
 y 9
 elevation 15665
 end
-arch mountain4
+arch rockdesert
 x 35
 y 10
 elevation 15804
 end
-arch mountain4
+arch rockdesert
 x 35
 y 11
 elevation 15506
 end
-arch mountain4
+arch rockdesert
 x 35
 y 12
 elevation 14542
 end
-arch mountain4
+arch rockdesert
 x 35
 y 13
 elevation 12937
 end
-arch mountain2
+arch rockdesert
 x 35
 y 14
 elevation 10037
 end
-arch mountain2
+arch rockdesert
 x 35
 y 15
 elevation 10215
 end
-arch mountain2
+arch rockdesert
 x 35
 y 16
 elevation 10093
 end
-arch mountain2
+arch greysandcliff1
 x 35
 y 17
 elevation 9797
 end
-arch mountain2
+arch greysandcliff1
 x 35
 y 18
 elevation 9564
 end
-arch mountain2
+arch greysandcliff1
 x 35
 y 19
 elevation 9139
 end
-arch mountain
+arch rockdesert
 x 35
 y 20
 elevation 8689
 end
-arch mountain
+arch rockdesert
 x 35
 y 21
 elevation 7841
 end
-arch mountain
+arch rockdesert
 x 35
 y 22
 elevation 8064
 end
-arch mountain
+arch rockdesert
 x 35
 y 23
 elevation 8258
 end
-arch mountain
+arch rockdesert
 x 35
 y 24
 elevation 7700
 end
-arch mountain
+arch rockdesert
 x 35
 y 25
 elevation 7047
 end
-arch mountain
+arch rockdesert
 x 35
 y 26
 elevation 6760
 end
-arch mountain
+arch rockdesert
 x 35
 y 27
 elevation 5189
 end
-arch mountain
+arch rockdesert
 x 35
 y 28
 elevation 6951
 end
-arch mountain
+arch rockdesert
 x 35
 y 29
 elevation 7195
 end
-arch mountain
+arch rockdesert
 x 35
 y 30
 elevation 6818
 end
-arch mountain
+arch rockdesert
 x 35
 y 31
 elevation 6145
 end
-arch mountain
+arch rockdesert
 x 35
 y 32
 elevation 5956
 end
-arch mountain
+arch rockdesert
 x 35
 y 33
 elevation 5774
 end
-arch mountain
+arch rockdesert
 x 35
 y 34
 elevation 6033
 end
-arch mountain
+arch rockdesert
 x 35
 y 35
 elevation 8504
 end
-arch mountain2
+arch rockdesert
 x 35
 y 36
 elevation 10800
 end
-arch mountain2
+arch rockdesert
 x 35
 y 37
 elevation 11541
 end
-arch mountain2
+arch rockdesert
 x 35
 y 38
 elevation 10673
 end
-arch mountain
+arch rockdesert
 x 35
 y 39
 elevation 8471
@@ -9325,161 +9353,161 @@ x 35
 y 49
 elevation 5460
 end
-arch mountain2
+arch rockdesert
 x 36
 elevation 9409
 end
-arch mountain4
+arch rockdesert
 x 36
 y 1
 elevation 12219
 end
-arch mountain4
+arch rockdesert
 x 36
 y 2
 elevation 13128
 end
-arch mountain4
+arch rockdesert
 x 36
 y 3
 elevation 12182
 end
-arch mountain2
+arch rockdesert
 x 36
 y 4
 elevation 10095
 end
-arch mountain
+arch rockdesert
 x 36
 y 5
 elevation 7815
 end
-arch mountain2
+arch rockdesert
 x 36
 y 6
 elevation 10497
 end
-arch mountain4
+arch rockdesert
 x 36
 y 7
 elevation 12682
 end
-arch mountain4
+arch rockdesert
 x 36
 y 8
 elevation 13758
 end
-arch mountain4
+arch rockdesert
 x 36
 y 9
 elevation 15240
 end
-arch mountain4
+arch rockdesert
 x 36
 y 10
 elevation 15292
 end
-arch mountain4
+arch rockdesert
 x 36
 y 11
 elevation 13626
 end
-arch mountain4
+arch rockdesert
 x 36
 y 12
 elevation 14023
 end
-arch mountain4
+arch rockdesert
 x 36
 y 13
 elevation 12780
 end
-arch mountain2
+arch rockdesert
 x 36
 y 14
 elevation 10945
 end
-arch mountain2
+arch rockdesert
 x 36
 y 15
 elevation 10728
 end
-arch mountain2
+arch greysandcliff2
 x 36
 y 16
 elevation 10429
 end
-arch mountain2
+arch greysandcliff2
 x 36
 y 17
 elevation 9643
 end
-arch mountain2
+arch greysandcliff2
 x 36
 y 18
 elevation 10274
 end
-arch mountain2
+arch greysandcliff2
 x 36
 y 19
 elevation 9954
 end
-arch mountain
+arch greysandcliff2
 x 36
 y 20
 elevation 7654
 end
-arch mountain2
+arch rockdesert
 x 36
 y 21
 elevation 9038
 end
-arch mountain2
+arch rockdesert
 x 36
 y 22
 elevation 9374
 end
-arch mountain2
+arch rockdesert
 x 36
 y 23
 elevation 9689
 end
-arch mountain2
+arch rockdesert
 x 36
 y 24
 elevation 9469
 end
-arch mountain
+arch rockdesert
 x 36
 y 25
 elevation 8730
 end
-arch mountain
+arch rockdesert
 x 36
 y 26
 elevation 7933
 end
-arch mountain
+arch rockdesert
 x 36
 y 27
 elevation 7515
 end
-arch mountain
+arch rockdesert
 x 36
 y 28
 elevation 6993
 end
-arch mountain
+arch rockdesert
 x 36
 y 29
 elevation 6456
 end
-arch mountain
+arch rockdesert
 x 36
 y 30
 elevation 5219
 end
-arch mountain
+arch rockdesert
 x 36
 y 31
 elevation 5330
@@ -9489,27 +9517,27 @@ x 36
 y 32
 elevation 4956
 end
-arch mountain
+arch rockdesert
 x 36
 y 33
 elevation 6013
 end
-arch mountain
+arch rockdesert
 x 36
 y 34
 elevation 6402
 end
-arch mountain2
+arch rockdesert
 x 36
 y 35
 elevation 9029
 end
-arch mountain4
+arch rockdesert
 x 36
 y 36
 elevation 12180
 end
-arch mountain4
+arch rockdesert
 x 36
 y 37
 elevation 13046
@@ -9574,146 +9602,146 @@ x 36
 y 49
 elevation 5093
 end
-arch mountain4
+arch rockdesert
 x 37
 elevation 14509
 end
-arch mountain4
+arch rockdesert
 x 37
 y 1
 elevation 15341
 end
-arch mountain4
+arch rockdesert
 x 37
 y 2
 elevation 15488
 end
-arch mountain4
+arch rockdesert
 x 37
 y 3
 elevation 14305
 end
-arch mountain4
+arch rockdesert
 x 37
 y 4
 elevation 12390
 end
-arch mountain2
+arch rockdesert
 x 37
 y 5
 elevation 10528
 end
-arch mountain2
+arch rockdesert
 x 37
 y 6
 elevation 11470
 end
-arch mountain4
+arch rockdesert
 x 37
 y 7
 elevation 12994
 end
-arch mountain4
+arch rockdesert
 x 37
 y 8
 elevation 14221
 end
-arch mountain4
+arch rockdesert
 x 37
 y 9
 elevation 14336
 end
-arch mountain4
+arch rockdesert
 x 37
 y 10
 elevation 14340
 end
-arch mountain4
+arch rockdesert
 x 37
 y 11
 elevation 13815
 end
-arch mountain4
+arch rockdesert
 x 37
 y 12
 elevation 13005
 end
-arch mountain4
+arch rockdesert
 x 37
 y 13
 elevation 12192
 end
-arch mountain2
+arch rockdesert
 x 37
 y 14
 elevation 11686
 end
-arch mountain2
+arch rockdesert
 x 37
 y 15
 elevation 11028
 end
-arch mountain2
+arch rockdesert
 x 37
 y 16
 elevation 9297
 end
-arch mountain2
+arch rockdesert
 x 37
 y 17
 elevation 10329
 end
-arch mountain2
+arch rockdesert
 x 37
 y 18
 elevation 10618
 end
-arch mountain2
+arch rockdesert
 x 37
 y 19
 elevation 10400
 end
-arch mountain2
+arch greysandcliff2
 x 37
 y 20
 elevation 9948
 end
-arch mountain2
+arch rockdesert
 x 37
 y 21
 elevation 9398
 end
-arch mountain2
+arch rockdesert
 x 37
 y 22
 elevation 9716
 end
-arch mountain2
+arch rockdesert
 x 37
 y 23
 elevation 9880
 end
-arch mountain2
+arch rockdesert
 x 37
 y 24
 elevation 9630
 end
-arch mountain
+arch rockdesert
 x 37
 y 25
 elevation 8699
 end
-arch mountain
+arch rockdesert
 x 37
 y 26
 elevation 7762
 end
-arch mountain
+arch rockdesert
 x 37
 y 27
 elevation 7456
 end
-arch mountain
+arch rockdesert
 x 37
 y 28
 elevation 6871
@@ -9738,12 +9766,12 @@ x 37
 y 32
 elevation 3600
 end
-arch mountain
+arch rockdesert
 x 37
 y 33
 elevation 5412
 end
-arch mountain
+arch rockdesert
 x 37
 y 34
 elevation 8819
@@ -9823,151 +9851,151 @@ x 37
 y 49
 elevation 6176
 end
-arch mountain5
+arch rockdesert
 x 38
 elevation 17757
 end
-arch mountain5
+arch rockdesert
 x 38
 y 1
 elevation 17868
 end
-arch mountain5
+arch rockdesert
 x 38
 y 2
 elevation 16890
 end
-arch mountain4
+arch rockdesert
 x 38
 y 3
 elevation 15239
 end
-arch mountain4
+arch rockdesert
 x 38
 y 4
 elevation 13441
 end
-arch mountain4
+arch rockdesert
 x 38
 y 5
 elevation 12094
 end
-arch mountain2
+arch rockdesert
 x 38
 y 6
 elevation 10742
 end
-arch mountain4
+arch rockdesert
 x 38
 y 7
 elevation 13034
 end
-arch mountain4
+arch rockdesert
 x 38
 y 8
 elevation 13686
 end
-arch mountain4
+arch rockdesert
 x 38
 y 9
 elevation 13599
 end
-arch mountain4
+arch rockdesert
 x 38
 y 10
 elevation 13164
 end
-arch mountain4
+arch rockdesert
 x 38
 y 11
 elevation 12278
 end
-arch mountain2
+arch rockdesert
 x 38
 y 12
 elevation 11918
 end
-arch mountain2
+arch rockdesert
 x 38
 y 13
 elevation 11302
 end
-arch mountain2
+arch rockdesert
 x 38
 y 14
 elevation 10995
 end
-arch mountain2
+arch rockdesert
 x 38
 y 15
 elevation 10830
 end
-arch mountain2
+arch rockdesert
 x 38
 y 16
 elevation 10540
 end
-arch mountain2
+arch rockdesert
 x 38
 y 17
 elevation 10590
 end
-arch mountain2
+arch rockdesert
 x 38
 y 18
 elevation 10386
 end
-arch mountain2
+arch rockdesert
 x 38
 y 19
 elevation 11174
 end
-arch mountain2
+arch greysandcliff2
 x 38
 y 20
 elevation 10375
 end
-arch mountain2
+arch rockdesert
 x 38
 y 21
 elevation 9392
 end
-arch mountain
+arch rockdesert
 x 38
 y 22
 elevation 8888
 end
-arch mountain
+arch rockdesert
 x 38
 y 23
 elevation 8884
 end
-arch mountain
+arch rockdesert
 x 38
 y 24
 elevation 8565
 end
-arch mountain
+arch rockdesert
 x 38
 y 25
 elevation 7637
 end
-arch mountain
+arch rockdesert
 x 38
 y 26
 elevation 5845
 end
-arch mountain
+arch rockdesert
 x 38
 y 27
 elevation 6134
 end
-arch mountain
+arch rockdesert
 x 38
 y 28
 elevation 6905
 end
-arch mountain
+arch rockdesert
 x 38
 y 29
 elevation 6058
@@ -9982,17 +10010,17 @@ x 38
 y 31
 elevation 4573
 end
-arch mountain
+arch rockdesert
 x 38
 y 32
 elevation 6443
 end
-arch mountain
+arch rockdesert
 x 38
 y 33
 elevation 6627
 end
-arch mountain2
+arch rockdesert
 x 38
 y 34
 elevation 10607
@@ -10072,176 +10100,176 @@ x 38
 y 49
 elevation 6664
 end
-arch mountain5
+arch rockdesert
 x 39
 elevation 19061
 end
-arch mountain5
+arch rockdesert
 x 39
 y 1
 elevation 18237
 end
-arch mountain5
+arch rockdesert
 x 39
 y 2
 elevation 16326
 end
-arch mountain4
+arch rockdesert
 x 39
 y 3
 elevation 14438
 end
-arch mountain4
+arch rockdesert
 x 39
 y 4
 elevation 12839
 end
-arch mountain2
+arch rockdesert
 x 39
 y 5
 elevation 11448
 end
-arch mountain2
+arch rockdesert
 x 39
 y 6
 elevation 11218
 end
-arch mountain2
+arch rockdesert
 x 39
 y 7
 elevation 11857
 end
-arch mountain4
+arch rockdesert
 x 39
 y 8
 elevation 12118
 end
-arch mountain2
+arch rockdesert
 x 39
 y 9
 elevation 11076
 end
-arch mountain2
+arch rockdesert
 x 39
 y 10
 elevation 11966
 end
-arch mountain4
+arch rockdesert
 x 39
 y 11
 elevation 12205
 end
-arch mountain2
+arch rockdesert
 x 39
 y 12
 elevation 11328
 end
-arch mountain
+arch rockdesert
 x 39
 y 13
 elevation 7126
 end
-arch mountain2
+arch rockdesert
 x 39
 y 14
 elevation 10492
 end
-arch mountain2
+arch rockdesert
 x 39
 y 15
 elevation 10275
 end
-arch mountain2
+arch rockdesert
 x 39
 y 16
 elevation 9348
 end
-arch mountain2
+arch greysandcliff2
 x 39
 y 17
 elevation 10900
 end
-arch mountain4
+arch rockdesert
 x 39
 y 18
 elevation 12190
 end
-arch mountain4
+arch greysandcliff2
 x 39
 y 19
 elevation 12154
 end
-arch mountain2
+arch rockdesert
 x 39
 y 20
 elevation 10731
 end
-arch mountain
+arch rockdesert
 x 39
 y 21
 elevation 7180
 end
-arch mountain
+arch rockdesert
 x 39
 y 22
 elevation 7156
 end
-arch mountain
+arch rockdesert
 x 39
 y 23
 elevation 7650
 end
-arch mountain
+arch rockdesert
 x 39
 y 24
 elevation 7382
 end
-arch mountain
+arch rockdesert
 x 39
 y 25
 elevation 6547
 end
-arch mountain
+arch rockdesert
 x 39
 y 26
 elevation 6475
 end
-arch mountain
+arch rockdesert
 x 39
 y 27
 elevation 6986
 end
-arch mountain
+arch rockdesert
 x 39
 y 28
 elevation 7615
 end
-arch mountain
+arch rockdesert
 x 39
 y 29
 elevation 6922
 end
-arch mountain
+arch rockdesert
 x 39
 y 30
 elevation 5387
 end
-arch mountain
+arch rockdesert
 x 39
 y 31
 elevation 6472
 end
-arch mountain
+arch rockdesert
 x 39
 y 32
 elevation 8541
 end
-arch mountain2
+arch rockdesert
 x 39
 y 33
 elevation 10612
 end
-arch mountain2
+arch rockdesert
 x 39
 y 34
 elevation 11845
@@ -10321,131 +10349,131 @@ x 39
 y 49
 elevation 5885
 end
-arch mountain5
+arch rockdesert
 x 40
 elevation 18701
 end
-arch mountain5
+arch rockdesert
 x 40
 y 1
 elevation 16548
 end
-arch mountain4
+arch rockdesert
 x 40
 y 2
 elevation 14372
 end
-arch mountain2
+arch rockdesert
 x 40
 y 3
 elevation 11946
 end
-arch mountain2
+arch rockdesert
 x 40
 y 4
 elevation 11655
 end
-arch mountain2
+arch rockdesert
 x 40
 y 5
 elevation 9156
 end
-arch mountain
+arch rockdesert
 x 40
 y 6
 elevation 8004
 end
-arch mountain2
+arch rockdesert
 x 40
 y 7
 elevation 10403
 end
-arch mountain2
+arch rockdesert
 x 40
 y 8
 elevation 10478
 end
-arch mountain
+arch rockdesert
 x 40
 y 9
 elevation 8272
 end
-arch mountain2
+arch rockdesert
 x 40
 y 10
 elevation 11202
 end
-arch mountain2
+arch rockdesert
 x 40
 y 11
 elevation 11720
 end
-arch mountain2
+arch rockdesert
 x 40
 y 12
 elevation 10907
 end
-arch mountain2
+arch rockdesert
 x 40
 y 13
 elevation 10194
 end
-arch mountain2
+arch rockdesert
 x 40
 y 14
 elevation 9990
 end
-arch mountain2
+arch rockdesert
 x 40
 y 15
 elevation 10133
 end
-arch mountain
+arch rockdesert
 x 40
 y 16
 elevation 6769
 end
-arch mountain2
+arch rockdesert
 x 40
 y 17
 elevation 11717
 end
-arch mountain4
+arch rockdesert
 x 40
 y 18
 elevation 13341
 end
-arch mountain4
+arch rockdesert
 x 40
 y 19
 elevation 12980
 end
-arch mountain2
+arch rockdesert
 x 40
 y 20
 elevation 10901
 end
-arch mountain
+arch rockdesert
 x 40
 y 21
 elevation 8143
 end
-arch hills
+arch rockdesert
 x 40
 y 22
 elevation 4490
 end
-arch mountain
+arch rockdesert
 x 40
 y 23
 elevation 6872
 end
-arch mountain
+arch rockdesert
 x 40
 y 24
 elevation 7373
 end
-arch mountain
+arch rockdesert
 x 40
 y 25
 elevation 6528
@@ -10455,17 +10483,17 @@ x 40
 y 26
 elevation 4466
 end
-arch mountain
+arch rockdesert
 x 40
 y 27
 elevation 7597
 end
-arch mountain
+arch grass
 x 40
 y 28
 elevation 8498
 end
-arch mountain
+arch rockdesert
 x 40
 y 29
 elevation 8181
@@ -10475,22 +10503,22 @@ x 40
 y 30
 elevation 4890
 end
-arch mountain
+arch rockdesert
 x 40
 y 31
 elevation 7768
 end
-arch mountain2
+arch rockdesert
 x 40
 y 32
 elevation 10561
 end
-arch mountain4
+arch rockdesert
 x 40
 y 33
 elevation 12251
 end
-arch mountain4
+arch rockdesert
 x 40
 y 34
 elevation 12784
@@ -10570,111 +10598,111 @@ x 40
 y 49
 elevation 3343
 end
-arch mountain5
+arch rockdesert
 x 41
 elevation 16827
 end
-arch mountain4
+arch rockdesert
 x 41
 y 1
 elevation 15126
 end
-arch mountain4
+arch rockdesert
 x 41
 y 2
 elevation 13125
 end
-arch mountain2
+arch rockdesert
 x 41
 y 3
 elevation 11746
 end
-arch mountain2
+arch rockdesert
 x 41
 y 4
 elevation 10488
 end
-arch mountain2
+arch rockdesert
 x 41
 y 5
 elevation 9347
 end
-arch mountain
+arch rockdesert
 x 41
 y 6
 elevation 8248
 end
-arch mountain2
+arch rockdesert
 x 41
 y 7
 elevation 9065
 end
-arch mountain2
+arch rockdesert
 x 41
 y 8
 elevation 9300
 end
-arch mountain2
+arch rockdesert
 x 41
 y 9
 elevation 9781
 end
-arch mountain2
+arch rockdesert
 x 41
 y 10
 elevation 10577
 end
-arch mountain2
+arch rockdesert
 x 41
 y 11
 elevation 10720
 end
-arch mountain2
+arch rockdesert
 x 41
 y 12
 elevation 9838
 end
-arch mountain2
+arch rockdesert
 x 41
 y 13
 elevation 9008
 end
-arch mountain
+arch rockdesert
 x 41
 y 14
 elevation 8962
 end
-arch mountain2
+arch rockdesert
 x 41
 y 15
 elevation 10228
 end
-arch mountain2
+arch rockdesert
 x 41
 y 16
 elevation 11695
 end
-arch mountain4
+arch rockdesert
 x 41
 y 17
 elevation 12780
 end
-arch mountain4
+arch rockdesert
 x 41
 y 18
 elevation 13996
 end
-arch mountain4
+arch rockdesert
 x 41
 y 19
 elevation 13378
 end
-arch mountain2
+arch rockdesert
 x 41
 y 20
 elevation 10138
 end
-arch mountain
+arch rockdesert
 x 41
 y 21
 elevation 8764
@@ -10684,57 +10712,57 @@ x 41
 y 22
 elevation 4412
 end
-arch mountain
+arch rockdesert
 x 41
 y 23
 elevation 6942
 end
-arch mountain
+arch rockdesert
 x 41
 y 24
 elevation 8312
 end
-arch mountain
+arch rockdesert
 x 41
 y 25
 elevation 7750
 end
-arch mountain
+arch grass
 x 41
 y 26
 elevation 7486
 end
-arch mountain
+arch grass
 x 41
 y 27
 elevation 8017
 end
-arch mountain2
+arch grass
 x 41
 y 28
 elevation 9178
 end
-arch mountain2
+arch grass
 x 41
 y 29
 elevation 9351
 end
-arch mountain2
+arch rockdesert
 x 41
 y 30
 elevation 9451
 end
-arch mountain2
+arch rockdesert
 x 41
 y 31
 elevation 10075
 end
-arch mountain2
+arch rockdesert
 x 41
 y 32
 elevation 11446
 end
-arch mountain4
+arch rockdesert
 x 41
 y 33
 elevation 12730
@@ -10819,156 +10847,156 @@ x 41
 y 49
 elevation 3912
 end
-arch mountain4
+arch rockdesert
 x 42
 elevation 13669
 end
-arch mountain4
+arch rockdesert
 x 42
 y 1
 elevation 12595
 end
-arch mountain2
+arch rockdesert
 x 42
 y 2
 elevation 11592
 end
-arch mountain2
+arch rockdesert
 x 42
 y 3
 elevation 10257
 end
-arch mountain2
+arch rockdesert
 x 42
 y 4
 elevation 9678
 end
-arch mountain
+arch rockdesert
 x 42
 y 5
 elevation 8640
 end
-arch mountain
+arch rockdesert
 x 42
 y 6
 elevation 7631
 end
-arch mountain
+arch rockdesert
 x 42
 y 7
 elevation 8945
 end
-arch mountain
+arch rockdesert
 x 42
 y 8
 elevation 8404
 end
-arch mountain
+arch rockdesert
 x 42
 y 9
 elevation 8478
 end
-arch mountain2
+arch rockdesert
 x 42
 y 10
 elevation 10574
 end
-arch mountain2
+arch rockdesert
 x 42
 y 11
 elevation 9755
 end
-arch mountain
+arch rockdesert
 x 42
 y 12
 elevation 5405
 end
-arch mountain
+arch rockdesert
 x 42
 y 13
 elevation 6505
 end
-arch mountain
+arch rockdesert
 x 42
 y 14
 elevation 7074
 end
-arch mountain2
+arch rockdesert
 x 42
 y 15
 elevation 10141
 end
-arch mountain4
+arch rockdesert
 x 42
 y 16
 elevation 12354
 end
-arch mountain4
+arch rockdesert
 x 42
 y 17
 elevation 13651
 end
-arch mountain4
+arch rockdesert
 x 42
 y 18
 elevation 13556
 end
-arch mountain4
+arch rockdesert
 x 42
 y 19
 elevation 13703
 end
-arch mountain4
+arch rockdesert
 x 42
 y 20
 elevation 12126
 end
-arch mountain2
+arch rockdesert
 x 42
 y 21
 elevation 10171
 end
-arch mountain
+arch rockdesert
 x 42
 y 22
 elevation 8835
 end
-arch mountain2
+arch rockdesert
 x 42
 y 23
 elevation 9409
 end
-arch mountain2
+arch rockdesert
 x 42
 y 24
 elevation 10007
 end
-arch mountain2
+arch rockdesert
 x 42
 y 25
 elevation 9515
 end
-arch mountain
+arch grass
 x 42
 y 26
 elevation 6392
 end
-arch mountain2
+arch grass
 x 42
 y 27
 elevation 9132
 end
-arch mountain2
+arch grass
 x 42
 y 28
 elevation 9720
 end
-arch mountain2
+arch grass
 x 42
 y 29
 elevation 9979
 end
-arch mountain2
+arch grass
 x 42
 y 30
 elevation 10260
@@ -11068,156 +11096,156 @@ x 42
 y 49
 elevation 4119
 end
-arch mountain
+arch rockdesert
 x 43
 elevation 8509
 end
-arch mountain2
+arch rockdesert
 x 43
 y 1
 elevation 9613
 end
-arch mountain2
+arch rockdesert
 x 43
 y 2
 elevation 9839
 end
-arch mountain2
+arch grass
 x 43
 y 3
 elevation 9554
 end
-arch mountain
+arch grass
 x 43
 y 4
 elevation 8958
 end
-arch mountain
+arch rockdesert
 x 43
 y 5
 elevation 6564
 end
-arch mountain
+arch rockdesert
 x 43
 y 6
 elevation 6858
 end
-arch mountain2
+arch rockdesert
 x 43
 y 7
 elevation 9821
 end
-arch mountain2
+arch grass
 x 43
 y 8
 elevation 10811
 end
-arch mountain2
+arch rockdesert
 x 43
 y 9
 elevation 11059
 end
-arch mountain2
+arch rockdesert
 x 43
 y 10
 elevation 10691
 end
-arch mountain2
+arch rockdesert
 x 43
 y 11
 elevation 9235
 end
-arch mountain
+arch rockdesert
 x 43
 y 12
 elevation 5933
 end
-arch mountain
+arch rockdesert
 x 43
 y 13
 elevation 6616
 end
-arch mountain
+arch rockdesert
 x 43
 y 14
 elevation 6331
 end
-arch mountain
+arch rockdesert
 x 43
 y 15
 elevation 8828
 end
-arch mountain2
+arch rockdesert
 x 43
 y 16
 elevation 11180
 end
-arch mountain4
+arch rockdesert
 x 43
 y 17
 elevation 13120
 end
-arch mountain4
+arch rockdesert
 x 43
 y 18
 elevation 14066
 end
-arch mountain4
+arch rockdesert
 x 43
 y 19
 elevation 13922
 end
-arch mountain4
+arch rockdesert
 x 43
 y 20
 elevation 13195
 end
-arch mountain4
+arch rockdesert
 x 43
 y 21
 elevation 12189
 end
-arch mountain2
+arch rockdesert
 x 43
 y 22
 elevation 11538
 end
-arch mountain2
+arch rockdesert
 x 43
 y 23
 elevation 11627
 end
-arch mountain2
+arch rockdesert
 x 43
 y 24
 elevation 11635
 end
-arch mountain2
+arch grass
 x 43
 y 25
 elevation 10716
 end
-arch mountain2
+arch grass
 x 43
 y 26
 elevation 9874
 end
-arch mountain2
+arch grass
 x 43
 y 27
 elevation 9613
 end
-arch mountain2
+arch grass
 x 43
 y 28
 elevation 9933
 end
-arch mountain
+arch grass
 x 43
 y 29
 elevation 8765
 end
-arch mountain2
+arch grass
 x 43
 y 30
 elevation 9363
@@ -11317,151 +11345,151 @@ x 43
 y 49
 elevation 4025
 end
-arch mountain
+arch rockdesert
 x 44
 elevation 7539
 end
-arch mountain
+arch rockdesert
 x 44
 y 1
 elevation 8164
 end
-arch mountain2
+arch grass
 x 44
 y 2
 elevation 9104
 end
-arch mountain
+arch grass
 x 44
 y 3
 elevation 7734
 end
-arch mountain
+arch rockdesert
 x 44
 y 4
 elevation 8678
 end
-arch mountain2
+arch rockdesert
 x 44
 y 5
 elevation 9139
 end
-arch mountain2
+arch rockdesert
 x 44
 y 6
 elevation 10086
 end
-arch mountain2
+arch rockdesert
 x 44
 y 7
 elevation 11339
 end
-arch mountain4
+arch grass
 x 44
 y 8
 elevation 12262
 end
-arch mountain4
+arch grass
 x 44
 y 9
 elevation 12136
 end
-arch mountain2
+arch rockdesert
 x 44
 y 10
 elevation 10951
 end
-arch mountain2
+arch rockdesert
 x 44
 y 11
 elevation 9054
 end
-arch mountain
+arch rockdesert
 x 44
 y 12
 elevation 7649
 end
-arch mountain
+arch rockdesert
 x 44
 y 13
 elevation 6722
 end
-arch mountain
+arch rockdesert
 x 44
 y 14
 elevation 6049
 end
-arch mountain
+arch rockdesert
 x 44
 y 15
 elevation 5578
 end
-arch mountain2
+arch rockdesert
 x 44
 y 16
 elevation 9124
 end
-arch mountain2
+arch rockdesert
 x 44
 y 17
 elevation 11720
 end
-arch mountain4
+arch grass
 x 44
 y 18
 elevation 13368
 end
-arch mountain4
+arch rockdesert
 x 44
 y 19
 elevation 13438
 end
-arch mountain4
+arch rockdesert
 x 44
 y 20
 elevation 12899
 end
-arch mountain4
+arch rockdesert
 x 44
 y 21
 elevation 12362
 end
-arch mountain4
+arch rockdesert
 x 44
 y 22
 elevation 12297
 end
-arch mountain4
+arch rockdesert
 x 44
 y 23
 elevation 12380
 end
-arch mountain4
+arch grass
 x 44
 y 24
 elevation 12172
 end
-arch mountain2
+arch grass
 x 44
 y 25
 elevation 11263
 end
-arch mountain2
+arch grass
 x 44
 y 26
 elevation 9512
 end
-arch mountain2
+arch grass
 x 44
 y 27
 elevation 10043
 end
-arch mountain2
+arch grass
 x 44
 y 28
 elevation 9736
 end
-arch mountain2
+arch grass
 x 44
 y 29
 elevation 9417
@@ -11566,156 +11594,156 @@ x 44
 y 49
 elevation 4546
 end
-arch mountain2
+arch rockdesert
 x 45
 elevation 10503
 end
-arch mountain2
+arch rockdesert
 x 45
 y 1
 elevation 9554
 end
-arch mountain2
+arch grass
 x 45
 y 2
 elevation 9030
 end
-arch mountain
+arch grass
 x 45
 y 3
 elevation 8200
 end
-arch mountain
+arch grass
 x 45
 y 4
 elevation 8255
 end
-arch mountain2
+arch grass
 x 45
 y 5
 elevation 10786
 end
-arch mountain2
+arch grass
 x 45
 y 6
 elevation 11795
 end
-arch mountain4
+arch grass
 x 45
 y 7
 elevation 12335
 end
-arch mountain4
+arch grass
 x 45
 y 8
 elevation 12577
 end
-arch mountain2
+arch grass
 x 45
 y 9
 elevation 11872
 end
-arch mountain2
+arch grass
 x 45
 y 10
 elevation 10409
 end
-arch mountain
+arch grass
 x 45
 y 11
 elevation 8588
 end
-arch mountain
+arch grass
 x 45
 y 12
 elevation 5983
 end
-arch mountain
+arch grass
 x 45
 y 13
 elevation 6834
 end
-arch mountain
+arch grass
 x 45
 y 14
 elevation 6348
 end
-arch mountain
+arch grass
 x 45
 y 15
 elevation 6552
 end
-arch mountain
+arch grass
 x 45
 y 16
 elevation 8023
 end
-arch mountain2
+arch grass
 x 45
 y 17
 elevation 10287
 end
-arch mountain2
+arch grass
 x 45
 y 18
 elevation 11853
 end
-arch mountain4
+arch grass
 x 45
 y 19
 elevation 12081
 end
-arch mountain2
+arch grass
 x 45
 y 20
 elevation 10304
 end
-arch mountain2
+arch grass
 x 45
 y 21
 elevation 10951
 end
-arch mountain2
+arch rockdesert
 x 45
 y 22
 elevation 10935
 end
-arch mountain2
+arch rockdesert
 x 45
 y 23
 elevation 11556
 end
-arch mountain2
+arch grass
 x 45
 y 24
 elevation 11438
 end
-arch mountain2
+arch grass
 x 45
 y 25
 elevation 10380
 end
-arch mountain2
+arch grass
 x 45
 y 26
 elevation 10146
 end
-arch mountain2
+arch grass
 x 45
 y 27
 elevation 9907
 end
-arch mountain2
+arch grass
 x 45
 y 28
 elevation 9546
 end
-arch mountain2
+arch grass
 x 45
 y 29
 elevation 9025
 end
-arch mountain
+arch grass
 x 45
 y 30
 elevation 7993
@@ -11815,76 +11843,76 @@ x 45
 y 49
 elevation 4928
 end
-arch mountain2
+arch grass
 x 46
 elevation 11567
 end
-arch mountain
+arch grass
 x 46
 y 1
 elevation 8754
 end
-arch mountain2
+arch grass
 x 46
 y 2
 elevation 9268
 end
-arch mountain2
+arch grass
 x 46
 y 3
 elevation 9974
 end
-arch mountain2
+arch grass
 x 46
 y 4
 elevation 11009
 end
-arch mountain4
+arch grass
 x 46
 y 5
 elevation 12194
 end
-arch mountain4
+arch grass
 x 46
 y 6
 elevation 12842
 end
-arch mountain4
+arch grass
 x 46
 y 7
 elevation 12316
 end
-arch mountain2
+arch grass
 x 46
 y 8
 elevation 11907
 end
-arch mountain2
+arch grass
 x 46
 y 9
 elevation 10709
 end
-arch mountain
+arch grass
 x 46
 y 10
 elevation 8069
 end
-arch mountain
+arch grass
 x 46
 y 11
 elevation 7953
 end
-arch mountain
+arch grass
 x 46
 y 12
 elevation 7366
 end
-arch mountain
+arch grass
 x 46
 y 13
 elevation 6632
 end
-arch mountain
+arch grass
 x 46
 y 14
 elevation 5984
@@ -11894,77 +11922,77 @@ x 46
 y 15
 elevation 4981
 end
-arch mountain
+arch grass
 x 46
 y 16
 elevation 6459
 end
-arch mountain
+arch grass
 x 46
 y 17
 elevation 8343
 end
-arch mountain2
+arch grass
 x 46
 y 18
 elevation 9994
 end
-arch mountain2
+arch grass
 x 46
 y 19
 elevation 10354
 end
-arch mountain2
+arch grass
 x 46
 y 20
 elevation 9741
 end
-arch mountain
+arch grass
 x 46
 y 21
 elevation 7652
 end
-arch mountain
+arch grass
 x 46
 y 22
 elevation 8999
 end
-arch mountain2
+arch grass
 x 46
 y 23
 elevation 9874
 end
-arch mountain2
+arch grass
 x 46
 y 24
 elevation 9916
 end
-arch mountain2
+arch grass
 x 46
 y 25
 elevation 9556
 end
-arch mountain2
+arch grass
 x 46
 y 26
 elevation 9500
 end
-arch mountain2
+arch grass
 x 46
 y 27
 elevation 9401
 end
-arch mountain2
+arch grass
 x 46
 y 28
 elevation 9008
 end
-arch mountain
+arch grass
 x 46
 y 29
 elevation 7991
 end
-arch mountain
+arch grass
 x 46
 y 30
 elevation 7192
@@ -12064,76 +12092,76 @@ x 46
 y 49
 elevation 4975
 end
-arch mountain4
+arch grass
 x 47
 elevation 12102
 end
-arch mountain
+arch grass
 x 47
 y 1
 elevation 8234
 end
-arch mountain2
+arch grass
 x 47
 y 2
 elevation 9659
 end
-arch mountain2
+arch grass
 x 47
 y 3
 elevation 10517
 end
-arch mountain2
+arch grass
 x 47
 y 4
 elevation 11727
 end
-arch mountain4
+arch grass
 x 47
 y 5
 elevation 13083
 end
-arch mountain4
+arch grass
 x 47
 y 6
 elevation 13481
 end
-arch mountain4
+arch grass
 x 47
 y 7
 elevation 12281
 end
-arch mountain2
+arch grass
 x 47
 y 8
 elevation 9617
 end
-arch mountain2
+arch grass
 x 47
 y 9
 elevation 9981
 end
-arch mountain
+arch grass
 x 47
 y 10
 elevation 7318
 end
-arch mountain
+arch grass
 x 47
 y 11
 elevation 7730
 end
-arch mountain
+arch grass
 x 47
 y 12
 elevation 7659
 end
-arch mountain
+arch grass
 x 47
 y 13
 elevation 6459
 end
-arch mountain
+arch grass
 x 47
 y 14
 elevation 5497
@@ -12148,77 +12176,77 @@ x 47
 y 16
 elevation 2955
 end
-arch mountain
+arch grass
 x 47
 y 17
 elevation 6025
 end
-arch mountain
+arch grass
 x 47
 y 18
 elevation 7748
 end
-arch mountain
+arch grass
 x 47
 y 19
 elevation 8514
 end
-arch mountain
+arch grass
 x 47
 y 20
 elevation 8314
 end
-arch mountain
+arch grass
 x 47
 y 21
 elevation 7904
 end
-arch mountain
+arch grass
 x 47
 y 22
 elevation 7594
 end
-arch mountain
+arch grass
 x 47
 y 23
 elevation 7815
 end
-arch mountain
+arch grass
 x 47
 y 24
 elevation 8087
 end
-arch mountain
+arch grass
 x 47
 y 25
 elevation 8355
 end
-arch mountain
+arch grass
 x 47
 y 26
 elevation 8225
 end
-arch mountain
+arch grass
 x 47
 y 27
 elevation 8554
 end
-arch mountain
+arch grass
 x 47
 y 28
 elevation 8132
 end
-arch mountain
+arch grass
 x 47
 y 29
 elevation 7264
 end
-arch mountain
+arch grass
 x 47
 y 30
 elevation 6434
 end
-arch mountain
+arch grass
 x 47
 y 31
 elevation 5977
@@ -12313,76 +12341,76 @@ x 47
 y 49
 elevation 4592
 end
-arch mountain4
+arch grass
 x 48
 elevation 12183
 end
-arch mountain2
+arch grass
 x 48
 y 1
 elevation 10407
 end
-arch mountain2
+arch grass
 x 48
 y 2
 elevation 9482
 end
-arch mountain
+arch grass
 x 48
 y 3
 elevation 8946
 end
-arch mountain2
+arch grass
 x 48
 y 4
 elevation 11301
 end
-arch mountain4
+arch grass
 x 48
 y 5
 elevation 12766
 end
-arch mountain4
+arch grass
 x 48
 y 6
 elevation 13395
 end
-arch mountain4
+arch grass
 x 48
 y 7
 elevation 12793
 end
-arch mountain2
+arch grass
 x 48
 y 8
 elevation 10596
 end
-arch mountain2
+arch grass
 x 48
 y 9
 elevation 10474
 end
-arch mountain2
+arch grass
 x 48
 y 10
 elevation 9781
 end
-arch mountain
+arch grass
 x 48
 y 11
 elevation 8819
 end
-arch mountain
+arch grass
 x 48
 y 12
 elevation 8166
 end
-arch mountain
+arch grass
 x 48
 y 13
 elevation 6928
 end
-arch mountain
+arch grass
 x 48
 y 14
 elevation 5415
@@ -12402,27 +12430,27 @@ x 48
 y 17
 elevation 3203
 end
-arch mountain
+arch grass
 x 48
 y 18
 elevation 5536
 end
-arch mountain
+arch grass
 x 48
 y 19
 elevation 6372
 end
-arch mountain
+arch grass
 x 48
 y 20
 elevation 6154
 end
-arch mountain
+arch grass
 x 48
 y 21
 elevation 6544
 end
-arch mountain
+arch grass
 x 48
 y 22
 elevation 6174
@@ -12432,47 +12460,47 @@ x 48
 y 23
 elevation 4127
 end
-arch mountain
+arch grass
 x 48
 y 24
 elevation 6183
 end
-arch mountain
+arch grass
 x 48
 y 25
 elevation 7048
 end
-arch mountain
+arch grass
 x 48
 y 26
 elevation 7492
 end
-arch mountain
+arch grass
 x 48
 y 27
 elevation 7677
 end
-arch mountain
+arch grass
 x 48
 y 28
 elevation 6939
 end
-arch mountain
+arch grass
 x 48
 y 29
 elevation 6254
 end
-arch mountain
+arch grass
 x 48
 y 30
 elevation 5425
 end
-arch mountain
+arch grass
 x 48
 y 31
 elevation 5864
 end
-arch mountain
+arch grass
 x 48
 y 32
 elevation 5964
@@ -12562,76 +12590,76 @@ x 48
 y 49
 elevation 5001
 end
-arch mountain4
+arch grass
 x 49
 elevation 12002
 end
-arch mountain
+arch grass
 x 49
 y 1
 elevation 7953
 end
-arch mountain2
+arch grass
 x 49
 y 2
 elevation 9304
 end
-arch mountain2
+arch grass
 x 49
 y 3
 elevation 9182
 end
-arch mountain2
+arch grass
 x 49
 y 4
 elevation 9434
 end
-arch mountain2
+arch grass
 x 49
 y 5
 elevation 10678
 end
-arch mountain4
+arch grass
 x 49
 y 6
 elevation 12062
 end
-arch mountain4
+arch grass
 x 49
 y 7
 elevation 12840
 end
-arch mountain4
+arch grass
 x 49
 y 8
 elevation 12699
 end
-arch mountain4
+arch grass
 x 49
 y 9
 elevation 12061
 end
-arch mountain2
+arch grass
 x 49
 y 10
 elevation 10852
 end
-arch mountain2
+arch grass
 x 49
 y 11
 elevation 9800
 end
-arch mountain
+arch grass
 x 49
 y 12
 elevation 8673
 end
-arch mountain
+arch grass
 x 49
 y 13
 elevation 7510
 end
-arch mountain
+arch grass
 x 49
 y 14
 elevation 5655
@@ -12666,12 +12694,12 @@ x 49
 y 20
 elevation 3508
 end
-arch mountain
+arch grass
 x 49
 y 21
 elevation 5538
 end
-arch mountain
+arch grass
 x 49
 y 22
 elevation 5440
@@ -12691,22 +12719,22 @@ x 49
 y 25
 elevation 4816
 end
-arch mountain
+arch grass
 x 49
 y 26
 elevation 6893
 end
-arch mountain
+arch grass
 x 49
 y 27
 elevation 6940
 end
-arch mountain
+arch grass
 x 49
 y 28
 elevation 6444
 end
-arch mountain
+arch grass
 x 49
 y 29
 elevation 5581
@@ -12716,17 +12744,17 @@ x 49
 y 30
 elevation 3042
 end
-arch mountain
+arch grass
 x 49
 y 31
 elevation 5555
 end
-arch mountain
+arch grass
 x 49
 y 32
 elevation 5966
 end
-arch mountain
+arch grass
 x 49
 y 33
 elevation 5472
