@@ -1,14 +1,10 @@
 WHAT IS WOGRALD?
 
-  This is a multiplayer graphical arcade and adventure game made for
-  the X-Windows environment. But soon we hope to have a
-  Java client ready to run on all the major platforms that
-  support Java.  It runs on a client/server model.
-  The client runs with X11, has a broke GTK version that was never updated,
- or another never been modified for wograld SDL within a gtk window.  
- A java client is under development.
-
-  Right now it has certain flavours from other games, especially Gauntlet (TM)
+  This is a multiplayer graphical arcade and adventure game made for Java. But
+  we have an old depreciated gtk and x11 clients.  The Java client should
+  run on all platforms that support Java.
+  
+Right now it has certain flavours from other games, especially Gauntlet (TM)
   and Nethack/Moria.  Really, we want it to resemble games such as Ultima
 Online and Runescape more closely since thesse are more popular games that
 ordinary users will love. 
@@ -20,9 +16,8 @@ ordinary users will love.
 REQUIREMENTS
 
   For UNIX, X-windows and an ANSI C compiler to compile this game.
-  A window system is not needed if you don't want to compile the
-  map editor.
-
+  A window system is not needed to compile the server.
+  
   For Windows 9x, you need Visual C++ (or some other ANSI C
   compiler that can read ".dsw"-files). (no idea if this works with wograld)
   
@@ -45,12 +40,8 @@ Fresh Install
 
 for the server:
 1)  Create a source directory under "home".  
-    Drop all files from the server CVS folder, or the
-    zip file, into here. "/home/wograld" or whatever you want
+    Drop all files from git clone https://git.code.sf.net/p/wograld/gitcode wograld-gitcode, or .tgz file, into here. "/home/wograld" or whatever you want
  
-2)  You should use the new arches from CVS.  "arch"  arch has a subfolder "arch" in it.
-Put this subfolder and its contents into the server/lib directory. See that there is a long list of ".png" and ".arc"
-    in several subfolders under /lib/arch.  (the pre-alph 0.0.1 release already has this step done)
 
 3) Make sure you are in the directory "/home/wograld"/server 
    At the command prompt on your terminal type
@@ -71,17 +62,14 @@ Put this subfolder and its contents into the server/lib directory. See that ther
     if there isn't a "maps" subfolder, it needs to be
     created.
 
-6)  The maps can be downloaded from 
-    http://sourceforge.net/project/showfiles.php?group_id=13833
-    "maps" if you do not have them. (crossfire version 1.9.1)
-
-7)  Put these files into /usr/games/wograld/share/wograld/maps
+6)  The maps subfolder is part of the project. Put these files 
+into /usr/games/wograld/share/wograld/maps
 
 
-8) if wograld.2 is missing copy it from the server/lib folder into the /usr/games/wograld/share/wograld
+7) if wograld.2 is missing copy it from the server/lib folder into the /usr/games/wograld/share/wograld
 folder.
 
-9) go to the "/home/wograld"/server/lib/arch folder, and copy the treasures file into /usr/games/wograld/share/wograld folder 
+8) go to the "/home/wograld"/server/lib/arch folder, and copy the treasures file into /usr/games/wograld/share/wograld folder 
 
 10) Go to "/usr/games/wograld/bin".  Type "./wograld"
     or "./wograld" to start the server.
@@ -91,30 +79,19 @@ I will figure out what premissions need to be changed later. (TODO)
 
 Getting the client
 
-1)You will want to have a working client, preferably the new one.
-    Get the client source from CVS "client"
+1)You will want to have a working client, preferably the latest from the git repository 
+(releases are usually pretty dated)
+    Get the client source from wograld-gitcode/javaclient/javaclient/trunk/
 
-2) Put it into a "home/wograld-client" folder.
-    Make sure you are in the "home/wograld"/client directory
-     ./configure
-    Now set your directory to "home/wograld"/client/x11 
-      make
-      Make yourself a super user then type:	 
-      make install
+2)type ant at the command line. The other two clients are depreciated.
 
-3) Sound effects also need to be downloaded separately.
-    The game is playable without it, but it may print an error
-    message. Get them at 
-    http://sourceforge.net/project/showfiles.php?group_id=13833
-   under crossfire client sounds 1.9.1 
+3)type java -jar jxclient.jar from the command line.  Make sure the java program is set
+to be an executeable. If you try to run it from the gui, music may not work
+(should be fixxed in future versions TODO)
 
-4) Go to the "home/wograld-client" folder.  There should be
-    a folder called "sound-src".  Put the "sounds" from this
-    download into it.
+4)we currently have music with the java client, but not sounds (should be fixxed in
+future versions (TODO)
 
-5) Go to "home/wograld-client/x11" and run "./wogclnt"
-    This client should be working. I do not have the other
-    client up to date yet:  "home/wograld-client/gtk/gwogclnt" 
 
     
 Administration Instructions
@@ -122,12 +99,11 @@ Administration Instructions
 Changing the artwork
 
 to add new graphics, 
-1)  You should use the new arches from CVS.  "arch"
-2)  Put the files into "/home/wograld"/lib/arch/.
+1)  You should use the new arches from git  server/lib/arch
+2)  Put the files into "/home/wograld"server/lib/arch/.
 3) Go to "/home/wograld"/lib/ and type "make collect".
     This does some parsing of ".png" and ".arc" to create
     files for monsters and other objects.
-
 
 4) Go to "/usr/games/wograld/share/wograld" and back up the
     files for animations,archetypes,bmaps,bmaps.paths,wograld.0,
@@ -216,17 +192,17 @@ MAILING LIST
   https://lists.sourceforge.net/lists/listinfo/wograld-discuss
 
   Message forum can be found here:
-  http://wograld.8.forumer.com/
+https://www.reddit.com/r/Wograld/
 
 FTP SITES
 
   FTP-sites where you can look for the latest versions are currently non-existant.
 
-  Changes made since the latest release can be found at the CVS
-  repository.  Information on anonymous CVS access as 
-  the download CVS snapshots and browsing the repository can be 
+  Changes made since the latest release can be found at the Gitcode
+  repository.  Information on anonymous git access as 
+  the download git snapshots and browsing the repository can be 
   found at:
-	http://sourceforge.net/scm/?type=cvs&group_id=184075
+	https://sourceforge.net/p/wograld/gitcode/ci/master/tree/
 
 
 WEB SITES:

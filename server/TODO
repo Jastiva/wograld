@@ -1,7 +1,3 @@
-TODO in general:
-
-port files to Git, have tidy folders
-
 TODO on server:
 heads data for multi-tile graphics that are on the non ground floor
 ensure that monsters who do not fly, will drop off cliffs or stop before falling
@@ -71,8 +67,6 @@ limit spell effects per square at a time
 limit number of active instances of a replicating monster or generator
 limit number of items that can be piled on a square, overflow them to other squares
 do not burn items that rest on the ground (breaks pup land)
-remove starvation
-remove overburdening
 remove terrain slowing
 remove bracing, fire on/stop, and auto flee code
 remove capability for some things to operate in no-magic zones (breaks pup land)

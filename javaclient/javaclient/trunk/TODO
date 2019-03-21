@@ -1,0 +1,50 @@
+Things to do in no particular order:
+
+1. Fix music code so it plays regardless of if you open the client from the gui or command line.
+2. Add an actual playlist, toggle, so that the user can manually start/stop the music.
+3. Have some kind of music playing on the title screen
+4. Make the server login list look "cooler"
+5. Add some kind of macro tab where you can keep track of all the macros you have
+set up for your character.
+6. Fix the bug showing the wrong spell icons in the display.
+7. Replace the crappy looking spell icons.
+8. Add a 'paper doll' display which shows what is equipped and where.
+
+Depreciated feature requests:
+
+Have containers present number of objects/number of different objects in
+ name.
+
+Add a damfactor display to the client (this would be weapon speed *
+damage of the weapon)
+
+Allow the seperation character for keybinding to be set to things other
+than semicolon - changes for this would really be to fix up the strtok
+in extended_command (common/player.c) to pass in the appropriate string,
+and some option in the config pane or someplace to change it - note that
+if it is changed by the player, then that function would have to go through
+all the keybindings updating the current set of complex keybindings for the
+new characters.  MSW 2003-02-19
+
+Have inventory/look/container display mechanism which only show icons and
+numbers, and not full names - in a sense, a much condensed view of things.
+
+Add a seperate container view (when one is open) in addition to the ground
+one, so it is easier to move things here and there (perhaps support drag and
+drop operations for this)
+
+
+
+Depreciated clients:
+
+gnome client: Make it work.  IT compiles, but there is something in the
+  map code (or someplace else) causing stack overflows.  What really needs
+  to get done is for it to share much more of the code with the gtk client.
+
+x11: 
+Modify to support variable sized images.  This probably isn't too much work -
+   just some modifications in the gen_draw_face/display_mapcell_pixmap functions
+   to only copy to relevant portion.
+
+   create_status_icons needs to be redone to load png files instead of Xpm's
+   (since we no longer check for Xpm.

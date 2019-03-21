@@ -2439,6 +2439,82 @@ end
 face bighorn_he.111
 magicmap grey
 end
+face bigtr3.111
+color_fg green
+is_floor 1
+end
+face bigtr3.211
+color_fg green
+is_floor 1
+end
+face bigtr3.311
+color_fg green
+is_floor 1
+end
+face bigtr3.411
+color_fg green
+is_floor 1
+end
+face bigtr3.511
+color_fg green
+is_floor 1
+end
+face bigtr3.611
+color_fg green
+is_floor 1
+end
+face bigtr3.711
+color_fg green
+is_floor 1
+end
+face bigtr3.811
+color_fg green
+is_floor 1
+end
+face bigtr3.911
+color_fg green
+is_floor 1
+end
+face bigtr3b.111
+color_fg green
+is_floor 1
+end
+face bigtr4.111
+color_fg green
+is_floor 1
+end
+face bigtr4.211
+color_fg green
+is_floor 1
+end
+face bigtr4.311
+color_fg green
+is_floor 1
+end
+face bigtr4.411
+color_fg green
+is_floor 1
+end
+face bigtr4.511
+color_fg green
+is_floor 1
+end
+face bigtr4.611
+color_fg green
+is_floor 1
+end
+face bigtr4.711
+color_fg green
+is_floor 1
+end
+face bigtr4.811
+color_fg green
+is_floor 1
+end
+face bigtr4.911
+color_fg green
+is_floor 1
+end
 face bigtree4.111
 color_fg green
 is_floor 1
@@ -6980,6 +7056,18 @@ end
 face dirtroad_F.111
 visibility 100
 magicmap grey
+end
+face disenchanter.131
+color_fg blue
+end
+face disenchanter.132
+color_fg blue
+end
+face disenchanter.171
+color_fg blue
+end
+face disenchanter.172
+color_fg blue
 end
 face dkbluemarblewall_1.111
 color_fg blue
@@ -12849,6 +12937,9 @@ end
 face logs2.111
 magicmap brown
 end
+face logs3.111
+magicmap brown
+end
 face lokanth.131
 color_fg green
 end
@@ -14195,6 +14286,18 @@ magicmap yellow
 end
 face moss.111
 color_fg green
+is_floor 1
+end
+face mosscliff1.111
+is_floor 1
+end
+face mosscliff2.111
+is_floor 1
+end
+face mosscliff3.111
+is_floor 1
+end
+face mosscliff4.111
 is_floor 1
 end
 face moun_cave1.111
@@ -16656,6 +16759,9 @@ face rockdesert.111
 color_fg brown
 is_floor 1
 end
+face rockpile1.111
+is_floor 1
+end
 face rod_heavy.111
 color_fg black
 color_bg khaki
@@ -18265,6 +18371,15 @@ end
 face snowball.181
 color_fg white
 color_bg light_blue
+end
+face snowcliff1.111
+is_floor 1
+end
+face snowcliff2.111
+is_floor 1
+end
+face snowcliff3.111
+is_floor 1
 end
 face snozzcumber.111
 color_fg green
@@ -20111,7 +20226,10 @@ magicmap grey
 is_floor 1
 end
 face tree_2.111
-color_fg green
+color_fg grey
+color_bg grey
+visibility 100
+magicmap grey
 is_floor 1
 end
 face tree_3.111

@@ -533,12 +533,12 @@ s,@INSTALL_DATA@,${INSTALL} -m 644,;t t
 s,@CYGPATH_W@,echo,;t t
 s,@PACKAGE@,wograld,;t t
 s,@VERSION@,1.9.1,;t t
-s,@ACLOCAL@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run aclocal-1.9,;t t
-s,@AUTOCONF@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run autoconf,;t t
-s,@AUTOMAKE@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run automake-1.9,;t t
-s,@AUTOHEADER@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run autoheader,;t t
-s,@MAKEINFO@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run makeinfo,;t t
-s,@install_sh@,/home/lori/Wogralddev/workingcvs/wogtesta/server/utils/install-sh,;t t
+s,@ACLOCAL@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run aclocal-1.9,;t t
+s,@AUTOCONF@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run autoconf,;t t
+s,@AUTOMAKE@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run automake-1.9,;t t
+s,@AUTOHEADER@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run autoheader,;t t
+s,@MAKEINFO@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run makeinfo,;t t
+s,@install_sh@,/home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/install-sh,;t t
 s,@STRIP@,strip,;t t
 s,@ac_ct_STRIP@,strip,;t t
 s,@INSTALL_STRIP_PROGRAM@,${SHELL} $(install_sh) -c -s,;t t
@@ -546,7 +546,7 @@ s,@mkdir_p@,mkdir -p --,;t t
 s,@AWK@,gawk,;t t
 s,@SET_MAKE@,,;t t
 s,@am__leading_dot@,.,;t t
-s,@AMTAR@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run tar,;t t
+s,@AMTAR@,${SHELL} /home/lori/Wogralddev/wograldgit/gitdec2018/wograld-gitcode/server/utils/missing --run tar,;t t
 s,@am__tar@,${AMTAR} chof - "$$tardir",;t t
 s,@am__untar@,${AMTAR} xf -,;t t
 s,@MAINTAINER_MODE_TRUE@,#,;t t
@@ -595,9 +595,9 @@ s,@F77@,,;t t
 s,@FFLAGS@,,;t t
 s,@ac_ct_F77@,,;t t
 s,@LIBTOOL@,$(SHELL) $(top_builddir)/libtool,;t t
-s,@LEX@,${SHELL} /home/lori/Wogralddev/workingcvs/wogtesta/server/utils/missing --run flex,;t t
-s,@LEXLIB@,,;t t
-s,@LEX_OUTPUT_ROOT@,,;t t
+s,@LEX@,flex,;t t
+s,@LEXLIB@,-ll,;t t
+s,@LEX_OUTPUT_ROOT@,lex.yy,;t t
 s,@LATEX@,/usr/bin/latex,;t t
 s,@GZIP@,/bin/gzip,;t t
 s,@GUNZIP@,/bin/gunzip,;t t
@@ -635,11 +635,11 @@ s,@CHECK_LIBS@,,;t t
 s,@HAVE_CHECK_TRUE@,#,;t t
 s,@HAVE_CHECK_FALSE@,,;t t
 s,@check_xslt_forcedprogfound@,,;t t
-s,@check_xslt_xsltprocfound@,notfound,;t t
+s,@check_xslt_xsltprocfound@,/usr/bin/xsltproc,;t t
 s,@check_xslt_sablotronfound@,notfound,;t t
 s,@PROCESS_XSLT_TRUE@,#,;t t
 s,@PROCESS_XSLT_FALSE@,,;t t
-s,@XSLTENGINE@,,;t t
+s,@XSLTENGINE@,/usr/bin/xsltproc -o %3 %2 %1,;t t
 s,@LTLIBOBJS@,,;t t
 CEOF
 
@@ -967,6 +967,7 @@ ${ac_dA}HAVE_INTTYPES_H${ac_dB}HAVE_INTTYPES_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_STDINT_H${ac_dB}HAVE_STDINT_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_DLFCN_H${ac_dB}HAVE_DLFCN_H${ac_dC}1${ac_dD}
+${ac_dA}YYTEXT_POINTER${ac_dB}YYTEXT_POINTER${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_LIBNSL${ac_dB}HAVE_LIBNSL${ac_dC}1${ac_dD}
 ${ac_dA}X_DISPLAY_MISSING${ac_dB}X_DISPLAY_MISSING${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_LIBX11${ac_dB}HAVE_LIBX11${ac_dC}${ac_dD}
@@ -986,7 +987,6 @@ ${ac_dA}HAVE_LIMITS_H${ac_dB}HAVE_LIMITS_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_MALLOC_H${ac_dB}HAVE_MALLOC_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_STRINGS_H${ac_dB}HAVE_STRINGS_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYS_FILE_H${ac_dB}HAVE_SYS_FILE_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_SYS_IOCTL_H${ac_dB}HAVE_SYS_IOCTL_H${ac_dC}1${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -996,6 +996,7 @@ CEOF
 /^[	 ]*#[	 ]*define/!b
 t clr
 : clr
+${ac_dA}HAVE_SYS_IOCTL_H${ac_dB}HAVE_SYS_IOCTL_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYS_TIME_H${ac_dB}HAVE_SYS_TIME_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_TIME_H${ac_dB}HAVE_TIME_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
@@ -1033,7 +1034,6 @@ ${ac_dA}HAVE_SRAND48${ac_dB}HAVE_SRAND48${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SRAND${ac_dB}HAVE_SRAND${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYSCONF${ac_dB}HAVE_SYSCONF${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SCANDIR${ac_dB}HAVE_SCANDIR${ac_dC}1${ac_dD}
-${ac_dA}HAVE_ALPHASORT${ac_dB}HAVE_ALPHASORT${ac_dC}1${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1043,6 +1043,7 @@ CEOF
 /^[	 ]*#[	 ]*define/!b
 t clr
 : clr
+${ac_dA}HAVE_ALPHASORT${ac_dB}HAVE_ALPHASORT${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_GETTIMEOFDAY${ac_dB}HAVE_GETTIMEOFDAY${ac_dC}${ac_dD}
 ${ac_dA}GETTIMEOFDAY_TWO_ARGS${ac_dB}GETTIMEOFDAY_TWO_ARGS${ac_dC}${ac_dD}
 ${ac_dA}COMPRESS${ac_dB}COMPRESS${ac_dC}""${ac_dD}
@@ -1081,6 +1082,7 @@ ${ac_uA}HAVE_INTTYPES_H${ac_uB}HAVE_INTTYPES_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_STDINT_H${ac_uB}HAVE_STDINT_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_DLFCN_H${ac_uB}HAVE_DLFCN_H${ac_uC}1${ac_uD}
+${ac_uA}YYTEXT_POINTER${ac_uB}YYTEXT_POINTER${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_LIBNSL${ac_uB}HAVE_LIBNSL${ac_uC}1${ac_uD}
 ${ac_uA}X_DISPLAY_MISSING${ac_uB}X_DISPLAY_MISSING${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_LIBX11${ac_uB}HAVE_LIBX11${ac_uC}${ac_uD}
@@ -1100,7 +1102,6 @@ ${ac_uA}HAVE_LIMITS_H${ac_uB}HAVE_LIMITS_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_MALLOC_H${ac_uB}HAVE_MALLOC_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_STRINGS_H${ac_uB}HAVE_STRINGS_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYS_FILE_H${ac_uB}HAVE_SYS_FILE_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_SYS_IOCTL_H${ac_uB}HAVE_SYS_IOCTL_H${ac_uC}1${ac_uD}
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1110,6 +1111,7 @@ CEOF
 /^[	 ]*#[	 ]*undef/!b
 t clr
 : clr
+${ac_uA}HAVE_SYS_IOCTL_H${ac_uB}HAVE_SYS_IOCTL_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYS_TIME_H${ac_uB}HAVE_SYS_TIME_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_TIME_H${ac_uB}HAVE_TIME_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
@@ -1147,7 +1149,6 @@ ${ac_uA}HAVE_SRAND48${ac_uB}HAVE_SRAND48${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SRAND${ac_uB}HAVE_SRAND${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYSCONF${ac_uB}HAVE_SYSCONF${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SCANDIR${ac_uB}HAVE_SCANDIR${ac_uC}1${ac_uD}
-${ac_uA}HAVE_ALPHASORT${ac_uB}HAVE_ALPHASORT${ac_uC}1${ac_uD}
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1157,6 +1158,7 @@ CEOF
 /^[	 ]*#[	 ]*undef/!b
 t clr
 : clr
+${ac_uA}HAVE_ALPHASORT${ac_uB}HAVE_ALPHASORT${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_GETTIMEOFDAY${ac_uB}HAVE_GETTIMEOFDAY${ac_uC}${ac_uD}
 ${ac_uA}GETTIMEOFDAY_TWO_ARGS${ac_uB}GETTIMEOFDAY_TWO_ARGS${ac_uC}${ac_uD}
 ${ac_uA}COMPRESS${ac_uB}COMPRESS${ac_uC}""${ac_uD}
