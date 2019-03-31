@@ -1,7 +1,7 @@
 Object dwarf_wiz
 race dwarf
 randomitems random_books
-name dwarf wizard
+name dark elf enchantress
 anim
 dwarf_wiz.111
 dwarf_wiz.112

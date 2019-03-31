@@ -1,7 +1,7 @@
 Object dwarf_priest
 race dwarf
 randomitems prayer_book
-name dwarf priest
+name dark elf priestess
 anim
 dwarf_pr.111
 dwarf_pr.112
