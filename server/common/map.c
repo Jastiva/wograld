@@ -1144,7 +1144,7 @@ static int load_map_header(FILE *fp, mapstruct *m)
     {
         m->tracknum=41;
     }
-    else if(!strncmp(value,"borcs",5))
+    else if(!strncmp(value,"borcs1",6))
     {
         m->tracknum=42;
     }
