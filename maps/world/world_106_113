@@ -3,87 +3,132 @@ name world_106_113
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-03-29 lori
 endmsg
 outdoor 1
 tile_path_1 world_106_112
 tile_path_2 world_107_113
 tile_path_3 world_106_114
 tile_path_4 world_105_113
+background_music beach02
 end
-arch mountain
+arch beigemarble
 elevation 6699
 end
-arch mountain
+arch dkbluemarblewall_4
+end
+arch beigemarble
 y 1
 elevation 5354
 end
-arch hills_rocky
+arch dkbluemarblewall_4
+y 1
+end
+arch beigemarble
 y 2
 elevation 4484
 end
-arch mountain
+arch dkbluemarblewall_4
+y 2
+end
+arch cyan-beige-c-marble_113
 y 3
 elevation 5132
 end
-arch mountain
+arch dkbluemarblewall_4
+y 3
+end
+arch cyan-beige-c-marble_114
 y 4
 elevation 6817
 end
-arch mountain
+arch dkbluemarblewall_4
+y 4
+end
+arch cyan-beige-c-marble_113
 y 5
 elevation 7310
 end
-arch mountain
+arch dkbluemarblewall_4
+y 5
+end
+arch cyan-beige-c-marble_114
 y 6
 elevation 7134
 end
-arch mountain
+arch dkbluemarblewall_4
+y 6
+end
+arch cyan-beige-c-marble_113
 y 7
 elevation 6830
 end
-arch mountain
+arch dkbluemarblewall_4
+y 7
+end
+arch cyan-beige-c-marble_114
 y 8
 elevation 7261
 end
-arch mountain
+arch dkbluemarblewall_4
+y 8
+end
+arch cyan-beige-c-marble_113
 y 9
 elevation 8897
 end
-arch mountain2
+arch dkbluemarblewall_4
+y 9
+end
+arch cyan-beige-c-marble_114
 y 10
 elevation 10009
 end
-arch mountain2
+arch dkbluemarblewall_4
+y 10
+end
+arch cyan-beige-c-marble_113
 y 11
 elevation 10238
 end
-arch mountain2
+arch dkbluemarblewall_4
+y 11
+end
+arch cyan-beige-c-marble_114
 y 12
 elevation 9861
 end
-arch mountain
+arch dkbluemarblewall_4
+y 12
+end
+arch beigemarble
 y 13
 elevation 8148
 end
-arch mountain
+arch dkbluemarblewall_4
+y 13
+end
+arch beigemarble
 y 14
 elevation 5724
 end
-arch hills_rocky
+arch dkbluemarblewall_4
+y 14
+end
+arch beigemarble
 y 15
 elevation 3732
 end
-arch hills_rocky
+arch dkbluemarblewall_4
+y 15
+end
+arch desert
 y 16
 elevation 2313
 end
-arch grass_only
+arch desert
 y 17
 elevation 1411
-end
-arch tree3
-y 17
 end
 arch grass_only
 y 18
@@ -148,173 +193,176 @@ arch brush
 y 29
 elevation 607
 end
-arch brush
+arch beach
 y 30
 elevation 977
 end
-arch grass_only
+arch beach
 y 31
 elevation 2074
 end
 arch tree3
 y 31
 end
-arch hills_rocky
+arch beach
 y 32
 elevation 3295
 end
-arch hills_rocky
+arch cobblestones3
 y 33
 elevation 4108
 end
-arch hills_rocky
+arch cobblestones3
 y 34
 elevation 4768
 end
-arch hills
+arch beach
 y 35
 elevation 4496
 end
-arch hills
+arch beach
 y 36
 elevation 3561
 end
-arch hills_rocky
+arch beach
 y 37
 elevation 2357
 end
-arch hills_rocky
+arch beach
 y 38
 elevation 2969
 end
-arch hills
+arch beach
 y 39
 elevation 3953
 end
-arch hills
+arch beach
 y 40
 elevation 4804
 end
-arch hills
+arch beach
 y 41
 elevation 4721
 end
-arch hills_rocky
+arch beach
 y 42
 elevation 2330
 end
-arch hills_rocky
+arch beach
 y 43
 elevation 1374
 end
-arch hills_rocky
+arch beach
 y 44
 elevation 1090
 end
-arch grass
+arch beach
 y 45
 elevation 525
 end
-arch woods
+arch beach
 y 46
 elevation 1519
 end
-arch hills_rocky
+arch beach
 y 47
 elevation 1199
 end
-arch hills_rocky
+arch beach
 y 48
 elevation 3156
 end
-arch hills
+arch beach
 y 49
 elevation 3939
 end
-arch mountain
+arch beigemarble
 x 1
 elevation 6720
 end
-arch mountain
+arch dkbluemarblewall_4
+x 1
+end
+arch beigemarble
 x 1
 y 1
 elevation 5843
 end
-arch mountain
+arch beigemarble
 x 1
 y 2
 elevation 5602
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 1
 y 3
 elevation 5849
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 1
 y 4
 elevation 6712
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 1
 y 5
 elevation 6739
 end
-arch hills
+arch cyan-beige-c-marble_111
 x 1
 y 6
 elevation 4517
 end
-arch hills
+arch cyan-beige-c-marble_112
 x 1
 y 7
 elevation 3902
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 1
 y 8
 elevation 5568
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 1
 y 9
 elevation 8188
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 1
 y 10
 elevation 8720
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 1
 y 11
 elevation 10132
 end
-arch mountain2
+arch cyan-beige-c-marble_111
 x 1
 y 12
 elevation 10199
 end
-arch mountain
+arch beigemarble
 x 1
 y 13
 elevation 8160
 end
-arch hills
+arch beigemarble
 x 1
 y 14
 elevation 3283
 end
-arch grass_only
+arch beigemarble
 x 1
 y 15
 elevation 1616
 end
-arch tree3
+arch dkbluemarblewall_4
 x 1
 y 15
 end
-arch brush
+arch desert
 x 1
 y 16
 elevation 530
@@ -412,82 +460,82 @@ x 1
 y 29
 elevation 905
 end
-arch hills_rocky
+arch beach
 x 1
 y 30
 elevation 1639
 end
-arch brush
+arch beach
 x 1
 y 31
 elevation 18
 end
-arch hills
+arch beach
 x 1
 y 32
 elevation 4179
 end
-arch mountain
+arch cobblestones3
 x 1
 y 33
 elevation 5802
 end
-arch mountain
+arch cobblestones3
 x 1
 y 34
 elevation 6026
 end
-arch mountain
+arch beach
 x 1
 y 35
 elevation 5078
 end
-arch hills
+arch bosgrass10
 x 1
 y 36
 elevation 3811
 end
-arch hills_rocky
+arch beach
 x 1
 y 37
 elevation 2951
 end
-arch hills_rocky
+arch beach
 x 1
 y 38
 elevation 1910
 end
-arch hills_rocky
+arch beach
 x 1
 y 39
 elevation 2878
 end
-arch hills
+arch beach
 x 1
 y 40
 elevation 4887
 end
-arch hills
+arch beach
 x 1
 y 41
 elevation 4983
 end
-arch hills
+arch bosgrass10
 x 1
 y 42
 elevation 3762
 end
-arch hills_rocky
+arch beach
 x 1
 y 43
 elevation 1689
 end
-arch hills_rocky
+arch beach
 x 1
 y 44
 elevation 1112
 end
-arch grass_only
+arch beach
 x 1
 y 45
 elevation 1314
@@ -496,121 +544,116 @@ arch tree5
 x 1
 y 45
 end
-arch woods
+arch beach
 x 1
 y 46
 elevation 1931
 end
-arch hills_rocky
+arch beach
 x 1
 y 47
 elevation 2655
 end
-arch hills
+arch beach
 x 1
 y 48
 elevation 3314
 end
-arch hills_rocky
+arch beach
 x 1
 y 49
 elevation 3652
 end
-arch mountain
+arch beigemarble
 x 2
 elevation 5964
 end
-arch mountain
+arch dkbluemarblewall_4
+x 2
+end
+arch beigemarble
 x 2
 y 1
 elevation 5741
 end
-arch mountain
+arch beigemarble
 x 2
 y 2
 elevation 5481
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 2
 y 3
 elevation 6011
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 2
 y 4
 elevation 6434
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 2
 y 5
 elevation 6169
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 2
 y 6
 elevation 5286
 end
-arch grass_only
+arch cyan-beige-c-marble_113
 x 2
 y 7
 elevation 2903
 end
-arch tree3
-x 2
-y 7
-end
-arch mountain
+arch cyan-beige-c-marble_114
 x 2
 y 8
 elevation 5418
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 2
 y 9
 elevation 7695
 end
-arch mountain2
+arch cyan-beige-c-marble_114
 x 2
 y 10
 elevation 9617
 end
-arch mountain2
+arch cyan-beige-c-marble_113
 x 2
 y 11
 elevation 10906
 end
-arch mountain2
+arch cyan-beige-c-marble_114
 x 2
 y 12
 elevation 11227
 end
-arch mountain2
+arch beigemarble
 x 2
 y 13
 elevation 9050
 end
-arch steppe
+arch beigemarble
 x 2
 y 14
 elevation 3612
 end
-arch grass_only
+arch beigemarble
 x 2
 y 15
 elevation 2281
 end
-arch evergreens2
+arch dkbluemarblewall_4
 x 2
 y 15
 end
-arch grass_only
+arch desert
 x 2
 y 16
 elevation 1203
-end
-arch tree3
-x 2
-y 16
 end
 arch brush
 x 2
@@ -692,7 +735,7 @@ x 2
 y 28
 elevation 2202
 end
-arch grass_only
+arch beach
 x 2
 y 29
 elevation 2617
@@ -701,82 +744,86 @@ arch evergreens2
 x 2
 y 29
 end
-arch hills_rocky
+arch beach
 x 2
 y 30
 elevation 2910
 end
-arch hills_rocky
+arch beach
 x 2
 y 31
 elevation 3224
 end
-arch mountain
+arch beach
 x 2
 y 32
 elevation 5355
 end
-arch mountain
+arch cobblestones3
 x 2
 y 33
 elevation 7018
 end
-arch mountain
+arch cobblestones3
 x 2
 y 34
 elevation 7086
 end
-arch mountain
+arch beach
 x 2
 y 35
 elevation 5477
 end
-arch hills_rocky
+arch beach
 x 2
 y 36
 elevation 1833
 end
-arch hills_rocky
+arch beach
 x 2
 y 37
 elevation 2831
 end
-arch hills
+arch beach
 x 2
 y 38
 elevation 3215
 end
-arch hills
+arch beach
 x 2
 y 39
 elevation 3245
 end
-arch hills
+arch palm
+x 2
+y 39
+end
+arch beach
 x 2
 y 40
 elevation 4781
 end
-arch mountain
+arch beach
 x 2
 y 41
 elevation 5319
 end
-arch hills
+arch beach
 x 2
 y 42
 elevation 4505
 end
-arch hills_rocky
+arch beach
 x 2
 y 43
 elevation 2398
 end
-arch hills_rocky
+arch beach
 x 2
 y 44
 elevation 2074
 end
-arch grass_only
+arch beach
 x 2
 y 45
 elevation 2007
@@ -785,106 +832,161 @@ arch tree5
 x 2
 y 45
 end
-arch woods_3
+arch beach
 x 2
 y 46
 elevation 2469
 end
-arch hills
+arch beach
 x 2
 y 47
 elevation 3071
 end
-arch steppe
+arch bosgrass10
 x 2
 y 48
 elevation 3492
 end
-arch hills
+arch beach
 x 2
 y 49
 elevation 3182
 end
-arch steppe
+arch beigemarble
 x 3
 elevation 4355
 end
-arch mountain
+arch dkbluemarblewall_4
+x 3
+end
+arch beigemarble
 x 3
 y 1
 elevation 6112
 end
-arch mountain
+arch bench_1_1
+x 3
+y 1
+end
+arch beigemarble
 x 3
 y 2
 elevation 5071
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 2
+end
+arch cyan-beige-c-marble_112
 x 3
 y 3
 elevation 5710
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 3
+end
+arch cyan-beige-c-marble_111
 x 3
 y 4
 elevation 6087
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 4
+end
+arch cyan-beige-c-marble_112
 x 3
 y 5
 elevation 6003
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 5
+end
+arch cyan-beige-c-marble_111
 x 3
 y 6
 elevation 5531
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 6
+end
+arch cyan-beige-c-marble_112
 x 3
 y 7
 elevation 5326
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 7
+end
+arch cyan-beige-c-marble_111
 x 3
 y 8
 elevation 5651
 end
-arch mountain
+arch bench_2_1_1
+x 3
+y 8
+end
+arch cyan-beige-c-marble_112
 x 3
 y 9
 elevation 6883
 end
-arch mountain2
+arch bench_2_1_1
+x 3
+y 9
+end
+arch cyan-beige-c-marble_111
 x 3
 y 10
 elevation 9811
 end
-arch mountain4
+arch bench_2_1_1
+x 3
+y 10
+end
+arch cyan-beige-c-marble_112
 x 3
 y 11
 elevation 12089
 end
-arch mountain4
+arch bench_2_1_1
+x 3
+y 11
+end
+arch cyan-beige-c-marble_111
 x 3
 y 12
 elevation 12424
 end
-arch mountain2
+arch bench_1_2
+x 3
+y 12
+end
+arch beigemarble
 x 3
 y 13
 elevation 10607
 end
-arch mountain
+arch beigemarble
 x 3
 y 14
 elevation 7604
 end
-arch mountain
+arch beigemarble
 x 3
 y 15
 elevation 5110
 end
-arch steppe
+arch dkbluemarblewall_4
+x 3
+y 15
+end
+arch desert
 x 3
 y 16
 elevation 3378
@@ -981,191 +1083,198 @@ x 3
 y 28
 elevation 3115
 end
-arch hills
+arch beach
 x 3
 y 29
 elevation 3571
 end
-arch hills
+arch beach
 x 3
 y 30
 elevation 4110
 end
-arch hills
+arch beach
 x 3
 y 31
 elevation 4924
 end
-arch mountain
+arch beach
 x 3
 y 32
 elevation 6142
 end
-arch mountain
+arch cobblestones3
 x 3
 y 33
 elevation 7386
 end
-arch mountain
+arch cobblestones3
 x 3
 y 34
 elevation 7412
 end
-arch mountain
+arch beach
 x 3
 y 35
 elevation 6110
 end
-arch hills
+arch beach
 x 3
 y 36
 elevation 4841
 end
-arch hills
+arch beach
 x 3
 y 37
 elevation 4000
 end
-arch hills
+arch beach
 x 3
 y 38
 elevation 3439
 end
-arch hills
+arch beach
 x 3
 y 39
 elevation 3821
 end
-arch hills
+arch beach
 x 3
 y 40
 elevation 4478
 end
-arch mountain
+arch bosgrass10
 x 3
 y 41
 elevation 5139
 end
-arch hills
+arch beach
 x 3
 y 42
 elevation 4823
 end
-arch hills
+arch beach
 x 3
 y 43
 elevation 3698
 end
-arch hills_rocky
+arch bosgrass10
 x 3
 y 44
 elevation 2398
 end
-arch desert
+arch beach
 x 3
 y 45
 elevation 739
 end
-arch hills_rocky
+arch beach
 x 3
 y 46
 elevation 2789
 end
-arch hills
+arch bosgrass10
 x 3
 y 47
 elevation 3835
 end
-arch steppe
+arch bosgrass10
 x 3
 y 48
 elevation 4001
 end
-arch hills_rocky
+arch beach
 x 3
 y 49
 elevation 2876
 end
-arch mountain2
+arch beigemarble
 x 4
 elevation 9575
 end
-arch mountain
+arch dkbluemarblewall_4
+x 4
+end
+arch beigemarble
 x 4
 y 1
 elevation 8110
 end
-arch mountain
+arch beigemarble
 x 4
 y 2
 elevation 7184
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 4
 y 3
 elevation 6263
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 4
 y 4
 elevation 5738
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 4
 y 5
 elevation 5517
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 4
 y 6
 elevation 5666
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 4
 y 7
 elevation 5747
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 4
 y 8
 elevation 5366
 end
-arch steppe
+arch cyan-beige-c-marble_113
 x 4
 y 9
 elevation 4758
 end
-arch mountain2
+arch cyan-beige-c-marble_114
 x 4
 y 10
 elevation 10085
 end
-arch mountain4
+arch cyan-beige-c-marble_113
 x 4
 y 11
 elevation 12588
 end
-arch mountain4
+arch cyan-beige-c-marble_114
 x 4
 y 12
 elevation 13012
 end
-arch mountain2
+arch beigemarble
 x 4
 y 13
 elevation 11870
 end
-arch mountain2
+arch beigemarble
 x 4
 y 14
 elevation 9813
 end
-arch mountain
+arch beigemarble
 x 4
 y 15
 elevation 7253
 end
-arch hills_rocky
+arch dkbluemarblewall_4
+x 4
+y 15
+end
+arch desert
 x 4
 y 16
 elevation 4245
@@ -1267,186 +1376,193 @@ x 4
 y 29
 elevation 4517
 end
-arch hills
+arch beach
 x 4
 y 30
 elevation 4751
 end
-arch hills
+arch beach
 x 4
 y 31
 elevation 3618
 end
-arch mountain
+arch beach
 x 4
 y 32
 elevation 6008
 end
-arch mountain
+arch cobblestones3
 x 4
 y 33
 elevation 7090
 end
-arch mountain
+arch cobblestones3
 x 4
 y 34
 elevation 6950
 end
-arch mountain
+arch beach
 x 4
 y 35
 elevation 6285
 end
-arch mountain
+arch beach
 x 4
 y 36
 elevation 5650
 end
-arch hills
+arch bosgrass10
 x 4
 y 37
 elevation 4839
 end
-arch hills
+arch bosgrass10
 x 4
 y 38
 elevation 3834
 end
-arch hills_rocky
+arch bosgrass10
 x 4
 y 39
 elevation 2851
 end
-arch hills
+arch bosgrass10
 x 4
 y 40
 elevation 3810
 end
-arch hills
+arch bosgrass10
 x 4
 y 41
 elevation 4062
 end
-arch hills
+arch bosgrass10
 x 4
 y 42
 elevation 4391
 end
-arch hills
+arch beach
 x 4
 y 43
 elevation 3977
 end
-arch hills_rocky
+arch beach
 x 4
 y 44
 elevation 1776
 end
-arch brush
+arch bosgrass10
 x 4
 y 45
 elevation 763
 end
-arch hills
+arch beach
 x 4
 y 46
 elevation 3291
 end
-arch hills_rocky
+arch beach
 x 4
 y 47
 elevation 4893
 end
-arch hills
+arch beach
 x 4
 y 48
 elevation 4967
 end
-arch steppe
+arch beach
 x 4
 y 49
 elevation 4154
 end
-arch mountain2
+arch beigemarble
 x 5
 elevation 11306
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 5
+end
+arch beigemarble
 x 5
 y 1
 elevation 10200
 end
-arch mountain
+arch beigemarble
 x 5
 y 2
 elevation 8489
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 5
 y 3
 elevation 6045
 end
-arch steppe
+arch cyan-beige-c-marble_111
 x 5
 y 4
 elevation 4551
 end
-arch steppe
+arch cyan-beige-c-marble_112
 x 5
 y 5
 elevation 4660
 end
-arch hills
+arch cyan-beige-c-marble_111
 x 5
 y 6
 elevation 4894
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 5
 y 7
 elevation 5627
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 5
 y 8
 elevation 5752
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 5
 y 9
 elevation 7597
 end
-arch mountain2
+arch cyan-beige-c-marble_111
 x 5
 y 10
 elevation 10080
 end
-arch mountain4
+arch cyan-beige-c-marble_112
 x 5
 y 11
 elevation 12127
 end
-arch mountain4
+arch cyan-beige-c-marble_111
 x 5
 y 12
 elevation 12717
 end
-arch mountain4
+arch beigemarble
 x 5
 y 13
 elevation 12155
 end
-arch mountain2
+arch beigemarble
 x 5
 y 14
 elevation 10705
 end
-arch mountain
+arch beigemarble
 x 5
 y 15
 elevation 8180
 end
-arch mountain
+arch dkbluemarblewall_4
+x 5
+y 15
+end
+arch desert
 x 5
 y 16
 elevation 5527
@@ -1539,7 +1655,7 @@ x 5
 y 28
 elevation 4405
 end
-arch mountain
+arch desert
 x 5
 y 29
 elevation 5078
@@ -1554,27 +1670,27 @@ x 5
 y 31
 elevation 4753
 end
-arch mountain
+arch beach
 x 5
 y 32
 elevation 5297
 end
-arch mountain
+arch cobblestones3
 x 5
 y 33
 elevation 6270
 end
-arch mountain
+arch cobblestones3
 x 5
 y 34
 elevation 6399
 end
-arch mountain
+arch beach
 x 5
 y 35
 elevation 6019
 end
-arch mountain
+arch beach
 x 5
 y 36
 elevation 5620
@@ -1589,141 +1705,200 @@ x 5
 y 38
 elevation 4291
 end
-arch hills
+arch bosgrass10
 x 5
 y 39
 elevation 3587
 end
-arch hills_rocky
+arch bosgrass10
 x 5
 y 40
 elevation 1270
 end
-arch hills
+arch bosgrass10
 x 5
 y 41
 elevation 3507
 end
-arch hills_rocky
+arch beach
 x 5
 y 42
 elevation 1521
 end
-arch hills
+arch beach
 x 5
 y 43
 elevation 4438
 end
-arch hills
+arch beach
 x 5
 y 44
 elevation 4951
 end
-arch mountain
+arch beach
 x 5
 y 45
 elevation 5222
 end
-arch mountain
+arch beach
 x 5
 y 46
 elevation 5710
 end
-arch mountain
+arch beach
 x 5
 y 47
 elevation 6321
 end
-arch mountain
+arch beach
 x 5
 y 48
 elevation 6247
 end
-arch mountain
+arch beach
 x 5
 y 49
 elevation 5518
 end
-arch mountain2
+arch beigemarble
 x 6
 elevation 11898
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 6
+end
+arch beigemarble
 x 6
 y 1
 elevation 11316
 end
-arch mountain2
+arch beigemarble
 x 6
 y 2
 elevation 9428
 end
-arch mountain
+arch chair_bc_2.1
+x 6
+y 2
+end
+arch princess
+x 6
+y 2
+end
+arch cyan-beige-c-marble_113
 x 6
 y 3
 elevation 7124
 end
-arch mountain
+arch table_2
+x 6
+y 3
+end
+arch cyan-beige-c-marble_114
 x 6
 y 4
 elevation 5558
 end
-arch steppe
+arch table_2
+x 6
+y 4
+end
+arch cyan-beige-c-marble_113
 x 6
 y 5
 elevation 4963
 end
-arch steppe
+arch chair_bc_2.3
+x 6
+y 5
+end
+arch cyan-beige-c-marble_114
 x 6
 y 6
 elevation 4282
 end
-arch mountain
+arch chair_bc_2.1
+x 6
+y 6
+end
+arch cyan-beige-c-marble_113
 x 6
 y 7
 elevation 5144
 end
-arch mountain
+arch table_2
+x 6
+y 7
+end
+arch cyan-beige-c-marble_114
 x 6
 y 8
 elevation 5719
 end
-arch mountain
+arch table_2
+x 6
+y 8
+end
+arch cyan-beige-c-marble_113
 x 6
 y 9
 elevation 7077
 end
-arch mountain2
+arch chair_bc_2.3
+x 6
+y 9
+end
+arch cyan-beige-c-marble_114
 x 6
 y 10
 elevation 9166
 end
-arch mountain2
+arch chair_bc_2.1
+x 6
+y 10
+end
+arch cyan-beige-c-marble_113
 x 6
 y 11
 elevation 10763
 end
-arch mountain2
+arch table_2
+x 6
+y 11
+end
+arch cyan-beige-c-marble_114
 x 6
 y 12
 elevation 11356
 end
-arch mountain2
+arch table_2
+x 6
+y 12
+end
+arch beigemarble
 x 6
 y 13
 elevation 11353
 end
-arch mountain2
+arch chair_bc_2.3
+x 6
+y 13
+end
+arch beigemarble
 x 6
 y 14
 elevation 10356
 end
-arch mountain
+arch beigemarble
 x 6
 y 15
 elevation 8040
 end
-arch steppe
+arch graveyard_fence2
+x 6
+y 15
+end
+arch desert
 x 6
 y 16
 elevation 4475
@@ -1803,17 +1978,17 @@ x 6
 y 27
 elevation 3044
 end
-arch mountain
+arch desert
 x 6
 y 28
 elevation 5064
 end
-arch mountain
+arch desert
 x 6
 y 29
 elevation 5449
 end
-arch mountain
+arch desert
 x 6
 y 30
 elevation 5044
@@ -1828,27 +2003,27 @@ x 6
 y 32
 elevation 3598
 end
-arch mountain
+arch cobblestones3
 x 6
 y 33
 elevation 5330
 end
-arch mountain
+arch cobblestones3
 x 6
 y 34
 elevation 5707
 end
-arch hills
+arch beach
 x 6
 y 35
 elevation 4933
 end
-arch mountain
+arch beach
 x 6
 y 36
 elevation 5448
 end
-arch mountain
+arch beach
 x 6
 y 37
 elevation 5168
@@ -1863,151 +2038,210 @@ x 6
 y 39
 elevation 4446
 end
-arch hills
+arch bosgrass10
 x 6
 y 40
 elevation 3853
 end
-arch hills
+arch beach
 x 6
 y 41
 elevation 3568
 end
-arch hills
+arch beach
 x 6
 y 42
 elevation 3873
 end
-arch hills
+arch beach
 x 6
 y 43
 elevation 4884
 end
-arch mountain
+arch beach
 x 6
 y 44
 elevation 6447
 end
-arch mountain
+arch beach
 x 6
 y 45
 elevation 7355
 end
-arch mountain
+arch beach
 x 6
 y 46
 elevation 7738
 end
-arch mountain
+arch beach
 x 6
 y 47
 elevation 7771
 end
-arch mountain
+arch beach
 x 6
 y 48
 elevation 7390
 end
-arch mountain
+arch beach
 x 6
 y 49
 elevation 6567
 end
-arch mountain4
+arch beigemarble
 x 7
 elevation 12124
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 7
+end
+arch beigemarble
 x 7
 y 1
 elevation 11623
 end
-arch mountain2
+arch beigemarble
 x 7
 y 2
 elevation 9903
 end
-arch mountain
+arch chair_bc_2.1
+x 7
+y 2
+end
+arch a_priest
+x 7
+y 2
+end
+arch cyan-beige-c-marble_112
 x 7
 y 3
 elevation 6242
 end
-arch hills
+arch table_2
+x 7
+y 3
+end
+arch cyan-beige-c-marble_111
 x 7
 y 4
 elevation 4284
 end
-arch mountain
+arch table_2
+x 7
+y 4
+end
+arch cyan-beige-c-marble_112
 x 7
 y 5
 elevation 5360
 end
-arch mountain
+arch chair_bc_2.3
+x 7
+y 5
+end
+arch cyan-beige-c-marble_111
 x 7
 y 6
 elevation 5118
 end
-arch mountain
+arch chair_bc_2.1
+x 7
+y 6
+end
+arch cyan-beige-c-marble_112
 x 7
 y 7
 elevation 5098
 end
-arch steppe
+arch table_2
+x 7
+y 7
+end
+arch cyan-beige-c-marble_111
 x 7
 y 8
 elevation 3079
 end
-arch hills
+arch table_2
+x 7
+y 8
+end
+arch cyan-beige-c-marble_112
 x 7
 y 9
 elevation 4234
 end
-arch mountain
+arch chair_bc_2.3
+x 7
+y 9
+end
+arch cyan-beige-c-marble_111
 x 7
 y 10
 elevation 7702
 end
-arch mountain
+arch chair_bc_2.1
+x 7
+y 10
+end
+arch cyan-beige-c-marble_112
 x 7
 y 11
 elevation 8191
 end
-arch mountain
+arch table_2
+x 7
+y 11
+end
+arch cyan-beige-c-marble_111
 x 7
 y 12
 elevation 8787
 end
-arch mountain2
+arch table_2
+x 7
+y 12
+end
+arch beigemarble
 x 7
 y 13
 elevation 9579
 end
-arch mountain2
+arch chair_bc_2.3
+x 7
+y 13
+end
+arch beigemarble
 x 7
 y 14
 elevation 9067
 end
-arch mountain
+arch beigemarble
 x 7
 y 15
 elevation 7293
 end
-arch hills
+arch dkbluemarblewall_4
+x 7
+y 15
+end
+arch desert
 x 7
 y 16
 elevation 4055
 end
-arch steppe
+arch desert
 x 7
 y 17
 elevation 4952
 end
-arch hills
+arch desert
 x 7
 y 18
 elevation 4339
 end
-arch hills_rocky
+arch desert
 x 7
 y 19
 elevation 3320
@@ -2054,27 +2288,27 @@ x 7
 y 25
 elevation 4591
 end
-arch mountain
+arch desert
 x 7
 y 26
 elevation 5141
 end
-arch mountain
+arch desert
 x 7
 y 27
 elevation 5544
 end
-arch mountain
+arch desert
 x 7
 y 28
 elevation 5599
 end
-arch mountain
+arch desert
 x 7
 y 29
 elevation 5617
 end
-arch hills
+arch desert
 x 7
 y 30
 elevation 4848
@@ -2089,22 +2323,22 @@ x 7
 y 32
 elevation 3476
 end
-arch hills
+arch cobblestones3
 x 7
 y 33
 elevation 4027
 end
-arch mountain
+arch cobblestones3
 x 7
 y 34
 elevation 5141
 end
-arch mountain
+arch beach
 x 7
 y 35
 elevation 5396
 end
-arch mountain
+arch beach
 x 7
 y 36
 elevation 5860
@@ -2114,161 +2348,180 @@ x 7
 y 37
 elevation 4868
 end
-arch mountain
+arch bosgrass10
 x 7
 y 38
 elevation 6006
 end
-arch mountain
+arch bosgrass10
 x 7
 y 39
 elevation 5946
 end
-arch mountain
+arch desert
 x 7
 y 40
 elevation 5202
 end
-arch hills
+arch beach
 x 7
 y 41
 elevation 4290
 end
-arch hills
+arch beach
 x 7
 y 42
 elevation 3165
 end
-arch hills
+arch beach
 x 7
 y 43
 elevation 4701
 end
-arch mountain
+arch bosgrass10
 x 7
 y 44
 elevation 6116
 end
-arch mountain
+arch bosgrass10
 x 7
 y 45
 elevation 7511
 end
-arch mountain
+arch bosgrass10
 x 7
 y 46
 elevation 8326
 end
-arch mountain
+arch bosgrass16
 x 7
 y 47
 elevation 8313
 end
-arch mountain
+arch bosgrass10
 x 7
 y 48
 elevation 7775
 end
-arch mountain
+arch bosgrass10
 x 7
 y 49
 elevation 7098
 end
-arch mountain2
+arch beigemarble
 x 8
 elevation 11743
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 8
+end
+arch beigemarble
 x 8
 y 1
 elevation 11191
 end
-arch mountain2
+arch beigemarble
 x 8
 y 2
 elevation 9407
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 8
 y 3
 elevation 7466
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 8
 y 4
 elevation 6334
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 8
 y 5
 elevation 6067
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 8
 y 6
 elevation 5227
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 8
 y 7
 elevation 5636
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 8
 y 8
 elevation 5456
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 8
 y 9
 elevation 5670
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 8
 y 10
 elevation 6330
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 8
 y 11
 elevation 6801
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 8
 y 12
 elevation 7219
 end
-arch mountain
+arch beigemarble
 x 8
 y 13
 elevation 7727
 end
-arch mountain
+arch beigemarble
 x 8
 y 14
 elevation 7736
 end
-arch mountain
+arch beigemarble
 x 8
 y 15
 elevation 5963
 end
-arch mountain
+arch dkbluemarblewall_4
+x 8
+y 15
+end
+arch beigemarble
 x 8
 y 16
 elevation 5968
 end
-arch mountain
+arch dkbluemarblewall_4
+x 8
+y 16
+end
+arch beigemarble
 x 8
 y 17
 elevation 5676
 end
-arch mountain
+arch dkbluemarblewall_4
+x 8
+y 17
+end
+arch beigemarble
 x 8
 y 18
 elevation 5380
 end
-arch hills
+arch dkbluemarblewall_4
+x 8
+y 18
+end
+arch desert
 x 8
 y 19
 elevation 4466
@@ -2307,22 +2560,22 @@ x 8
 y 25
 elevation 5407
 end
-arch mountain
+arch desert
 x 8
 y 26
 elevation 6126
 end
-arch mountain
+arch desert
 x 8
 y 27
 elevation 6722
 end
-arch mountain
+arch desert
 x 8
 y 28
 elevation 6598
 end
-arch mountain
+arch desert
 x 8
 y 29
 elevation 5163
@@ -2346,191 +2599,202 @@ arch evergreens2
 x 8
 y 32
 end
-arch hills_rocky
+arch cobblestones3
 x 8
 y 33
 elevation 3076
 end
-arch mountain
+arch cobblestones3
 x 8
 y 34
 elevation 5288
 end
-arch mountain
+arch beach
 x 8
 y 35
 elevation 6013
 end
-arch mountain
+arch beach
 x 8
 y 36
 elevation 6976
 end
-arch mountain
+arch palm
+x 8
+y 36
+end
+arch beach
 x 8
 y 37
 elevation 7498
 end
-arch mountain
+arch beach
 x 8
 y 38
 elevation 7659
 end
-arch mountain
+arch beach
 x 8
 y 39
 elevation 7292
 end
-arch mountain
+arch bosgrass10
 x 8
 y 40
 elevation 5970
 end
-arch hills_rocky
+arch beach
 x 8
 y 41
 elevation 2812
 end
-arch hills
+arch beach
 x 8
 y 42
 elevation 3868
 end
-arch hills
+arch beach
 x 8
 y 43
 elevation 3196
 end
-arch hills
+arch beach
 x 8
 y 44
 elevation 3580
 end
-arch mountain
+arch beach
 x 8
 y 45
 elevation 6288
 end
-arch mountain
+arch beach
 x 8
 y 46
 elevation 7523
 end
-arch mountain
+arch beach
 x 8
 y 47
 elevation 7657
 end
-arch mountain
+arch bosgrass16
 x 8
 y 48
 elevation 6986
 end
-arch mountain
+arch bosgrass16
 x 8
 y 49
 elevation 7039
 end
-arch mountain2
+arch beigemarble
 x 9
 elevation 10475
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 9
+end
+arch beigemarble
 x 9
 y 1
 elevation 10730
 end
-arch mountain
+arch beigemarble
 x 9
 y 2
 elevation 8310
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 9
 y 3
 elevation 5547
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 9
 y 4
 elevation 7562
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 9
 y 5
 elevation 7089
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 9
 y 6
 elevation 6676
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 9
 y 7
 elevation 6568
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 9
 y 8
 elevation 6181
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 9
 y 9
 elevation 5432
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 9
 y 10
 elevation 5331
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 9
 y 11
 elevation 5149
 end
-arch steppe
+arch cyan-beige-c-marble_111
 x 9
 y 12
 elevation 3849
 end
-arch mountain
+arch beigemarble
 x 9
 y 13
 elevation 6172
 end
-arch mountain
+arch beigemarble
 x 9
 y 14
 elevation 6844
 end
-arch mountain
+arch beigemarble
 x 9
 y 15
 elevation 6585
 end
-arch mountain
+arch beigemarble
 x 9
 y 16
 elevation 5450
 end
-arch mountain
+arch beigemarble
 x 9
 y 17
 elevation 5839
 end
-arch mountain
+arch beigemarble
 x 9
 y 18
 elevation 5766
 end
-arch mountain
+arch dkbluemarblewall_4
+x 9
+y 18
+end
+arch desert
 x 9
 y 19
 elevation 5084
 end
-arch hills
+arch desert
 x 9
 y 20
 elevation 3681
@@ -2549,42 +2813,42 @@ x 9
 y 22
 elevation 4527
 end
-arch mountain
+arch desert
 x 9
 y 23
 elevation 5129
 end
-arch mountain
+arch desert
 x 9
 y 24
 elevation 5125
 end
-arch mountain
+arch desert
 x 9
 y 25
 elevation 5134
 end
-arch mountain
+arch desert
 x 9
 y 26
 elevation 6069
 end
-arch mountain
+arch desert
 x 9
 y 27
 elevation 7233
 end
-arch mountain
+arch desert
 x 9
 y 28
 elevation 7591
 end
-arch mountain
+arch desert
 x 9
 y 29
 elevation 6953
 end
-arch mountain
+arch desert
 x 9
 y 30
 elevation 5375
@@ -2599,194 +2863,210 @@ x 9
 y 32
 elevation 4686
 end
-arch mountain
+arch cobblestones3
 x 9
 y 33
 elevation 5089
 end
-arch mountain
+arch cobblestones3
 x 9
 y 34
 elevation 5904
 end
-arch mountain
+arch beach
 x 9
 y 35
 elevation 7272
 end
-arch mountain
+arch beach
 x 9
 y 36
 elevation 8312
 end
-arch mountain2
+arch beach
 x 9
 y 37
 elevation 9109
 end
-arch mountain2
+arch beach
 x 9
 y 38
 elevation 9096
 end
-arch mountain
+arch beach
 x 9
 y 39
 elevation 7317
 end
-arch mountain
+arch palm
+x 9
+y 39
+end
+arch beach
 x 9
 y 40
 elevation 6673
 end
-arch mountain
+arch bosgrass10
 x 9
 y 41
 elevation 5511
 end
-arch hills
+arch beach
 x 9
 y 42
 elevation 4271
 end
-arch woods_3
+arch beach
 x 9
 y 43
 elevation 1834
 end
-arch hills_rocky
+arch beach
 x 9
 y 44
 elevation 2665
 end
-arch hills_rocky
+arch beach
 x 9
 y 45
 elevation 4904
 end
-arch mountain
+arch beach
 x 9
 y 46
 elevation 5869
 end
-arch mountain
+arch beach
 x 9
 y 47
 elevation 6221
 end
-arch mountain
+arch bosgrass16
 x 9
 y 48
 elevation 6409
 end
-arch mountain
+arch bosgrass16
 x 9
 y 49
 elevation 6501
 end
-arch mountain2
+arch beigemarble
 x 10
 elevation 9123
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 10
+end
+arch beigemarble
 x 10
 y 1
 elevation 10441
 end
-arch mountain2
+arch chair_bc_2.4
+x 10
+y 1
+end
+arch a_townsman3
+name Saran
+x 10
+y 1
+end
+arch beigemarble
 x 10
 y 2
 elevation 10421
 end
-arch mountain2
+arch beigemarble
 x 10
 y 3
 elevation 9742
 end
-arch mountain
+arch beigemarble
 x 10
 y 4
 elevation 8686
 end
-arch mountain
+arch beigemarble
 x 10
 y 5
 elevation 7666
 end
-arch mountain
+arch beigemarble
 x 10
 y 6
 elevation 7079
 end
-arch mountain
+arch beigemarble
 x 10
 y 7
 elevation 6864
 end
-arch mountain
+arch beigemarble
 x 10
 y 8
 elevation 6352
 end
-arch hills
+arch beigemarble
 x 10
 y 9
 elevation 4190
 end
-arch hills
+arch beigemarble
 x 10
 y 10
 elevation 4575
 end
-arch grass_only
+arch beigemarble
 x 10
 y 11
 elevation 2967
 end
-arch tree3
-x 10
-y 11
-end
-arch grass_only
+arch beigemarble
 x 10
 y 12
 elevation 2649
 end
-arch tree3
-x 10
-y 12
-end
-arch hills
+arch beigemarble
 x 10
 y 13
 elevation 3967
 end
-arch mountain
+arch beigemarble
 x 10
 y 14
 elevation 6828
 end
-arch mountain
+arch beigemarble
 x 10
 y 15
 elevation 6697
 end
-arch hills
+arch beigemarble
 x 10
 y 16
 elevation 4862
 end
-arch mountain
+arch beigemarble
 x 10
 y 17
 elevation 5397
 end
-arch mountain
+arch chair_bc_2.4
+x 10
+y 17
+end
+arch beigemarble
 x 10
 y 18
 elevation 5507
 end
-arch mountain
+arch dkbluemarblewall_4
+x 10
+y 18
+end
+arch desert
 x 10
 y 19
 elevation 5260
@@ -2796,17 +3076,17 @@ x 10
 y 20
 elevation 4886
 end
-arch mountain
+arch desert
 x 10
 y 21
 elevation 5029
 end
-arch mountain
+arch desert
 x 10
 y 22
 elevation 5221
 end
-arch mountain
+arch desert
 x 10
 y 23
 elevation 5081
@@ -2821,468 +3101,535 @@ x 10
 y 25
 elevation 3470
 end
-arch mountain
+arch lostlabdesert4
 x 10
 y 26
 elevation 5312
 end
-arch mountain
+arch desert
 x 10
 y 27
 elevation 6950
 end
-arch mountain
+arch desert
 x 10
 y 28
 elevation 8195
 end
-arch mountain
+arch desert
 x 10
 y 29
 elevation 8008
 end
-arch mountain
+arch desert
 x 10
 y 30
 elevation 7083
 end
-arch mountain
+arch desert
 x 10
 y 31
 elevation 5971
 end
-arch mountain
+arch desert
 x 10
 y 32
 elevation 5943
 end
-arch mountain
+arch cobblestones3
 x 10
 y 33
 elevation 6343
 end
-arch mountain
+arch cobblestones3
 x 10
 y 34
 elevation 7261
 end
-arch mountain
+arch beach
 x 10
 y 35
 elevation 8330
 end
-arch mountain2
+arch beach
 x 10
 y 36
 elevation 9020
 end
-arch mountain2
+arch beach
 x 10
 y 37
 elevation 10148
 end
-arch mountain2
+arch beach
 x 10
 y 38
 elevation 9802
 end
-arch mountain
+arch beach
 x 10
 y 39
 elevation 8526
 end
-arch mountain
+arch beach
 x 10
 y 40
 elevation 7104
 end
-arch mountain
+arch beach
 x 10
 y 41
 elevation 6002
 end
-arch hills_rocky
+arch beach
 x 10
 y 42
 elevation 4943
 end
-arch hills_rocky
+arch beach
 x 10
 y 43
 elevation 4133
 end
-arch hills
+arch beach
 x 10
 y 44
 elevation 3818
 end
-arch hills
+arch beach
 x 10
 y 45
 elevation 3218
 end
-arch hills
+arch beach
 x 10
 y 46
 elevation 4310
 end
-arch steppe
+arch beach
 x 10
 y 47
 elevation 4149
 end
-arch hills_rocky
+arch beach
 x 10
 y 48
 elevation 4807
 end
-arch mountain
+arch beach
 x 10
 y 49
 elevation 6222
 end
-arch mountain
+arch beigemarble
 x 11
 elevation 7989
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 11
+end
+arch beigemarble
 x 11
 y 1
 elevation 10107
 end
-arch mountain2
+arch table_2
+x 11
+y 1
+end
+arch beigemarble
 x 11
 y 2
 elevation 11350
 end
-arch mountain2
+arch beigemarble
 x 11
 y 3
 elevation 11133
 end
-arch mountain2
+arch beigemarble
 x 11
 y 4
 elevation 9809
 end
-arch mountain
+arch beigemarble
 x 11
 y 5
 elevation 7730
 end
-arch hills
+arch beigemarble
 x 11
 y 6
 elevation 4991
 end
-arch mountain
+arch beigemarble
 x 11
 y 7
 elevation 7016
 end
-arch mountain
+arch beigemarble
 x 11
 y 8
 elevation 6687
 end
-arch hills
+arch beigemarble
 x 11
 y 9
 elevation 4600
 end
-arch hills
+arch beigemarble
 x 11
 y 10
 elevation 4546
 end
-arch hills
+arch chair_bc_2.1
+x 11
+y 10
+end
+arch beigemarble
 x 11
 y 11
 elevation 3592
 end
-arch hills
+arch table_2
+x 11
+y 11
+end
+arch beigemarble
 x 11
 y 12
 elevation 4665
 end
-arch mountain
+arch table_2
+x 11
+y 12
+end
+arch beigemarble
 x 11
 y 13
 elevation 6147
 end
-arch mountain
+arch chair_bc_2.3
+x 11
+y 13
+end
+arch beigemarble
 x 11
 y 14
 elevation 7364
 end
-arch mountain
+arch beigemarble
 x 11
 y 15
 elevation 7104
 end
-arch mountain
+arch beigemarble
 x 11
 y 16
 elevation 5124
 end
-arch hills
+arch beigemarble
 x 11
 y 17
 elevation 4878
 end
-arch hills
+arch table_2
+x 11
+y 17
+end
+arch beigemarble
 x 11
 y 18
 elevation 4509
 end
-arch mountain
+arch dkbluemarblewall_4
+x 11
+y 18
+end
+arch desert
 x 11
 y 19
 elevation 5229
 end
-arch mountain
+arch desert
 x 11
 y 20
 elevation 5352
 end
-arch mountain
+arch desert
 x 11
 y 21
 elevation 5180
 end
-arch mountain
+arch desert
 x 11
 y 22
 elevation 5018
 end
-arch hills_rocky
+arch cobblestones3
 x 11
 y 23
 elevation 4789
 end
-arch hills
+arch cobblestones3
 x 11
 y 24
 elevation 4762
 end
-arch hills
+arch cobblestones3
 x 11
 y 25
 elevation 4570
 end
-arch hills
+arch cobblestones3
 x 11
 y 26
 elevation 3685
 end
-arch mountain
+arch desert
 x 11
 y 27
 elevation 5535
 end
-arch mountain
+arch desert
 x 11
 y 28
 elevation 8314
 end
-arch mountain
+arch desert
 x 11
 y 29
 elevation 8847
 end
-arch mountain
+arch desert
 x 11
 y 30
 elevation 8150
 end
-arch mountain
+arch desert
 x 11
 y 31
 elevation 7229
 end
-arch mountain
+arch desert
 x 11
 y 32
 elevation 6380
 end
-arch mountain
+arch cobblestones3
 x 11
 y 33
 elevation 5804
 end
-arch mountain
+arch cobblestones3
 x 11
 y 34
 elevation 7759
 end
-arch mountain2
+arch beach
 x 11
 y 35
 elevation 9174
 end
-arch mountain2
+arch beach
 x 11
 y 36
 elevation 10074
 end
-arch mountain2
+arch beach
 x 11
 y 37
 elevation 10196
 end
-arch mountain2
+arch beach
 x 11
 y 38
 elevation 9631
 end
-arch mountain
+arch beach
 x 11
 y 39
 elevation 8075
 end
-arch mountain
+arch beach
 x 11
 y 40
 elevation 6545
 end
-arch mountain
+arch beach
 x 11
 y 41
 elevation 5940
 end
-arch hills_rocky
+arch beach
 x 11
 y 42
 elevation 4524
 end
-arch hills_rocky
+arch beach
 x 11
 y 43
 elevation 4764
 end
-arch hills_rocky
+arch beach
 x 11
 y 44
 elevation 4401
 end
-arch hills
+arch beach
 x 11
 y 45
 elevation 3519
 end
-arch hills_rocky
+arch beach
 x 11
 y 46
 elevation 3562
 end
-arch steppe
+arch beach
 x 11
 y 47
 elevation 4649
 end
-arch mountain
+arch beach
 x 11
 y 48
 elevation 5386
 end
-arch mountain
+arch beach
 x 11
 y 49
 elevation 6059
 end
-arch mountain
+arch beigemarble
 x 12
 elevation 6432
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 12
+end
+arch beigemarble
 x 12
 y 1
 elevation 9273
 end
-arch mountain2
+arch table_2
+x 12
+y 1
+end
+arch beigemarble
 x 12
 y 2
 elevation 11019
 end
-arch mountain2
+arch beigemarble
 x 12
 y 3
 elevation 11133
 end
-arch mountain2
+arch beigemarble
 x 12
 y 4
 elevation 10044
 end
-arch mountain
+arch beigemarble
 x 12
 y 5
 elevation 8290
 end
-arch mountain
+arch beigemarble
 x 12
 y 6
 elevation 6212
 end
-arch mountain
+arch dancing_girl
+name Raine
+x 12
+y 6
+end
+arch beigemarble
 x 12
 y 7
 elevation 7469
 end
-arch mountain
+arch beigemarble
 x 12
 y 8
 elevation 7451
 end
-arch mountain
+arch beigemarble
 x 12
 y 9
 elevation 5932
 end
-arch mountain
+arch beigemarble
 x 12
 y 10
 elevation 5513
 end
-arch hills
+arch chair_bc_2.1
+x 12
+y 10
+end
+arch beigemarble
 x 12
 y 11
 elevation 4393
 end
-arch mountain
+arch table_2
+x 12
+y 11
+end
+arch beigemarble
 x 12
 y 12
 elevation 5832
 end
-arch mountain
+arch table_2
+x 12
+y 12
+end
+arch beigemarble
 x 12
 y 13
 elevation 7260
 end
-arch mountain
+arch chair_bc_2.3
+x 12
+y 13
+end
+arch beigemarble
 x 12
 y 14
 elevation 8145
 end
-arch mountain
+arch beigemarble
 x 12
 y 15
 elevation 7662
 end
-arch mountain
+arch beigemarble
 x 12
 y 16
 elevation 5934
 end
-arch hills
+arch beigemarble
 x 12
 y 17
 elevation 4727
 end
-arch hills
+arch table_2
+x 12
+y 17
+end
+arch beigemarble
 x 12
 y 18
 elevation 4706
+end
+arch dkbluemarblewall_4
+x 12
+y 18
 end
 arch hills
 x 12
@@ -3308,234 +3655,254 @@ arch tree3
 x 12
 y 22
 end
-arch hills
+arch cobblestones3
 x 12
 y 23
 elevation 4452
 end
-arch hills
+arch cobblestones3
 x 12
 y 24
 elevation 4610
 end
-arch hills_rocky
+arch cobblestones3
 x 12
 y 25
 elevation 4538
 end
-arch hills
+arch cobblestones3
 x 12
 y 26
 elevation 4985
 end
-arch mountain
+arch cobblestones3
 x 12
 y 27
 elevation 6319
 end
-arch mountain
+arch cobblestones3
 x 12
 y 28
 elevation 8290
 end
-arch mountain2
+arch cobblestones3
 x 12
 y 29
 elevation 9335
 end
-arch mountain
+arch cobblestones3
 x 12
 y 30
 elevation 8842
 end
-arch mountain
+arch cobblestones3
 x 12
 y 31
 elevation 7277
 end
-arch mountain
+arch cobblestones3
 x 12
 y 32
 elevation 6709
 end
-arch mountain
+arch cobblestones3
 x 12
 y 33
 elevation 5084
 end
-arch mountain
+arch cobblestones3
 x 12
 y 34
 elevation 7625
 end
-arch mountain2
+arch cobblestones3
 x 12
 y 35
 elevation 9153
 end
-arch mountain2
+arch cobblestones3
 x 12
 y 36
 elevation 9780
 end
-arch mountain2
+arch cobblestones3
 x 12
 y 37
 elevation 9710
 end
-arch mountain
+arch cobblestones3
 x 12
 y 38
 elevation 7318
 end
-arch mountain
+arch cobblestones3
 x 12
 y 39
 elevation 7687
 end
-arch mountain
+arch cobblestones3
 x 12
 y 40
 elevation 5198
 end
-arch mountain
+arch cobblestones3
 x 12
 y 41
 elevation 5804
 end
-arch mountain
+arch cobblestones3
 x 12
 y 42
 elevation 5360
 end
-arch hills_rocky
+arch cobblestones3
 x 12
 y 43
 elevation 4580
 end
-arch hills_rocky
+arch beach
 x 12
 y 44
 elevation 4793
 end
-arch steppe
+arch beach
 x 12
 y 45
 elevation 4675
 end
-arch hills_rocky
+arch beach
 x 12
 y 46
 elevation 3956
 end
-arch steppe
+arch beach
 x 12
 y 47
 elevation 4762
 end
-arch mountain
+arch beach
 x 12
 y 48
 elevation 5314
 end
-arch mountain
+arch beach
 x 12
 y 49
 elevation 5776
 end
-arch steppe
+arch beigemarble
 x 13
 elevation 4792
 end
-arch mountain
+arch dkbluemarblewall_4
+x 13
+end
+arch beigemarble
 x 13
 y 1
 elevation 8340
 end
-arch mountain2
+arch chair_bc_2.2
+x 13
+y 1
+end
+arch veiled_woman
+name Xoe
+x 13
+y 1
+end
+arch beigemarble
 x 13
 y 2
 elevation 10523
 end
-arch mountain2
+arch beigemarble
 x 13
 y 3
 elevation 10516
 end
-arch mountain2
+arch beigemarble
 x 13
 y 4
 elevation 9531
 end
-arch mountain
+arch beigemarble
 x 13
 y 5
 elevation 8269
 end
-arch mountain
+arch beigemarble
 x 13
 y 6
 elevation 7668
 end
-arch mountain
+arch beigemarble
 x 13
 y 7
 elevation 7969
 end
-arch mountain
+arch beigemarble
 x 13
 y 8
 elevation 7950
 end
-arch mountain
+arch beigemarble
 x 13
 y 9
 elevation 7274
 end
-arch mountain
+arch beigemarble
 x 13
 y 10
 elevation 6312
 end
-arch mountain
+arch beigemarble
 x 13
 y 11
 elevation 5611
 end
-arch mountain
+arch beigemarble
 x 13
 y 12
 elevation 5151
 end
-arch mountain
+arch beigemarble
 x 13
 y 13
 elevation 7310
 end
-arch mountain
+arch beigemarble
 x 13
 y 14
 elevation 8265
 end
-arch mountain
+arch beigemarble
 x 13
 y 15
 elevation 7826
 end
-arch mountain
+arch beigemarble
 x 13
 y 16
 elevation 6949
 end
-arch mountain
+arch beigemarble
 x 13
 y 17
 elevation 6209
 end
-arch mountain
+arch chair_bc_2.2
+x 13
+y 17
+end
+arch beigemarble
 x 13
 y 18
 elevation 5742
+end
+arch dkbluemarblewall_4
+x 13
+y 18
 end
 arch mountain
 x 13
@@ -3561,234 +3928,285 @@ x 13
 y 22
 elevation 4528
 end
-arch steppe
+arch cobblestones3
 x 13
 y 23
 elevation 4397
 end
-arch hills_rocky
+arch cobblestones3
 x 13
 y 24
 elevation 3601
 end
-arch hills_rocky
+arch cobblestones3
 x 13
 y 25
 elevation 4722
 end
-arch hills
+arch cobblestones3
 x 13
 y 26
 elevation 4960
 end
-arch mountain
+arch cobblestones3
 x 13
 y 27
 elevation 6376
 end
-arch mountain
+arch cobblestones3
 x 13
 y 28
 elevation 8817
 end
-arch mountain2
+arch cobblestones3
 x 13
 y 29
 elevation 10040
 end
-arch mountain2
+arch cobblestones3
 x 13
 y 30
 elevation 9700
 end
-arch mountain
+arch cobblestones3
 x 13
 y 31
 elevation 6923
 end
-arch mountain
+arch cobblestones3
 x 13
 y 32
 elevation 8275
 end
-arch mountain
+arch cobblestones3
 x 13
 y 33
 elevation 6377
 end
-arch mountain
+arch cobblestones3
 x 13
 y 34
 elevation 8155
 end
-arch mountain
+arch cobblestones3
 x 13
 y 35
 elevation 6995
 end
-arch mountain2
+arch cobblestones3
 x 13
 y 36
 elevation 9062
 end
-arch mountain2
+arch cobblestones3
 x 13
 y 37
 elevation 9229
 end
-arch mountain
+arch cobblestones3
 x 13
 y 38
 elevation 8710
 end
-arch mountain
+arch cobblestones3
 x 13
 y 39
 elevation 7674
 end
-arch mountain
+arch cobblestones3
 x 13
 y 40
 elevation 5734
 end
-arch mountain
+arch cobblestones3
 x 13
 y 41
 elevation 5497
 end
-arch mountain
+arch cobblestones3
 x 13
 y 42
 elevation 6661
 end
-arch mountain
+arch cobblestones3
 x 13
 y 43
 elevation 6433
 end
-arch mountain
+arch beach
 x 13
 y 44
 elevation 5681
 end
-arch hills_rocky
+arch beach
 x 13
 y 45
 elevation 4787
 end
-arch hills_rocky
+arch beach
 x 13
 y 46
 elevation 4365
 end
-arch hills
+arch beach
 x 13
 y 47
 elevation 4402
 end
-arch hills_rocky
+arch beach
 x 13
 y 48
 elevation 4701
 end
-arch hills_rocky
+arch beach
 x 13
 y 49
 elevation 4729
 end
-arch steppe
+arch beigemarble
 x 14
 elevation 4667
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+end
+arch beigemarble
 x 14
 y 1
 elevation 8292
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 14
+y 1
+end
+arch beigemarble
 x 14
 y 2
 elevation 10200
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 14
+y 2
+end
+arch beigemarble
 x 14
 y 3
 elevation 10162
 end
-arch mountain
+arch graveyard_fence1
+x 14
+y 3
+end
+arch beigemarble
 x 14
 y 4
 elevation 6487
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 4
+end
+arch beigemarble
 x 14
 y 5
 elevation 8031
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 5
+end
+arch beigemarble
 x 14
 y 6
 elevation 7711
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 6
+end
+arch beigemarble
 x 14
 y 7
 elevation 7510
 end
-arch mountain
+arch beigemarble
 x 14
 y 8
 elevation 7283
 end
-arch mountain
+arch beigemarble
 x 14
 y 9
 elevation 6793
 end
-arch mountain
+arch beigemarble
 x 14
 y 10
 elevation 6182
 end
-arch mountain
+arch beigemarble
 x 14
 y 11
 elevation 5587
 end
-arch hills
+arch beigemarble
 x 14
 y 12
 elevation 4001
 end
-arch mountain
+arch beigemarble
 x 14
 y 13
 elevation 6798
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 13
+end
+arch beigemarble
 x 14
 y 14
 elevation 7810
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 14
+end
+arch beigemarble
 x 14
 y 15
 elevation 7668
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 15
+end
+arch beigemarble
 x 14
 y 16
 elevation 6939
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 16
+end
+arch beigemarble
 x 14
 y 17
 elevation 6517
 end
-arch mountain
+arch dkbluemarblewall_4
+x 14
+y 17
+end
+arch beigemarble
 x 14
 y 18
 elevation 6067
+end
+arch dkbluemarblewall_4
+x 14
+y 18
 end
 arch mountain
 x 14
@@ -3805,630 +4223,666 @@ x 14
 y 21
 elevation 4347
 end
-arch mountain
+arch desert
 x 14
 y 22
 elevation 5254
 end
-arch mountain
+arch cobblestones3
 x 14
 y 23
 elevation 5119
 end
-arch hills
+arch cobblestones3
 x 14
 y 24
 elevation 4121
 end
-arch hills
+arch cobblestones3
 x 14
 y 25
 elevation 4482
 end
-arch mountain
+arch cobblestones3
 x 14
 y 26
 elevation 7169
 end
-arch mountain
+arch bosgrass10
 x 14
 y 27
 elevation 8988
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 28
 elevation 10570
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 29
 elevation 11342
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 30
 elevation 9678
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 31
 elevation 10861
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 32
 elevation 10380
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 33
 elevation 10083
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 34
 elevation 9827
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 35
 elevation 10085
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 36
 elevation 9928
 end
-arch mountain2
+arch bosgrass10
 x 14
 y 37
 elevation 9332
 end
-arch mountain
+arch bosgrass10
 x 14
 y 38
 elevation 7828
 end
-arch mountain
+arch cobblestones3
 x 14
 y 39
 elevation 8165
 end
-arch mountain
+arch cobblestones3
 x 14
 y 40
 elevation 7922
 end
-arch mountain
+arch cobblestones3
 x 14
 y 41
 elevation 7716
 end
-arch mountain
+arch cobblestones3
 x 14
 y 42
 elevation 7637
 end
-arch mountain
+arch cobblestones3
 x 14
 y 43
 elevation 7219
 end
-arch mountain
+arch beach
 x 14
 y 44
 elevation 5790
 end
-arch steppe
+arch beach
 x 14
 y 45
 elevation 3829
 end
-arch hills_rocky
+arch bosgrass16
 x 14
 y 46
 elevation 2431
 end
-arch steppe
+arch beach
 x 14
 y 47
 elevation 3702
 end
-arch steppe
+arch beach
 x 14
 y 48
 elevation 3961
 end
-arch steppe
+arch beach
 x 14
 y 49
 elevation 3662
 end
-arch mountain
+arch desert
 x 15
 elevation 6512
 end
-arch mountain
+arch desert
 x 15
 y 1
 elevation 8281
 end
-arch mountain2
+arch desert
 x 15
 y 2
 elevation 9644
 end
-arch mountain2
+arch desert
 x 15
 y 3
 elevation 9562
 end
-arch mountain
+arch desert
 x 15
 y 4
 elevation 8965
 end
-arch mountain
+arch desert
 x 15
 y 5
 elevation 7733
 end
-arch mountain
+arch beigemarble
 x 15
 y 6
 elevation 5660
 end
-arch mountain
+arch dkbluemarblewall_4
+x 15
+y 6
+end
+arch beigemarble
 x 15
 y 7
 elevation 6339
 end
-arch mountain
+arch beigemarble
 x 15
 y 8
 elevation 5761
 end
-arch hills
+arch beigemarble
 x 15
 y 9
 elevation 4197
 end
-arch mountain
+arch beigemarble
 x 15
 y 10
 elevation 5730
 end
-arch hills
+arch beigemarble
 x 15
 y 11
 elevation 4995
 end
-arch mountain
+arch beigemarble
 x 15
 y 12
 elevation 5492
 end
-arch mountain
+arch beigemarble
 x 15
 y 13
 elevation 6346
 end
-arch mountain
+arch dkbluemarblewall_4
+x 15
+y 13
+end
+arch desert
 x 15
 y 14
 elevation 7098
 end
-arch mountain
+arch desert
 x 15
 y 15
 elevation 7071
 end
-arch mountain
+arch desert
 x 15
 y 16
 elevation 6687
 end
-arch mountain
+arch desert
 x 15
 y 17
 elevation 5404
 end
-arch mountain
+arch desert
 x 15
 y 18
 elevation 6018
 end
-arch mountain
+arch desert
 x 15
 y 19
 elevation 5776
 end
-arch mountain
+arch desert
 x 15
 y 20
 elevation 5517
 end
-arch mountain
+arch desert
 x 15
 y 21
 elevation 5702
 end
-arch mountain
+arch desert
 x 15
 y 22
 elevation 6022
 end
-arch mountain
+arch cobblestones3
 x 15
 y 23
 elevation 5796
 end
-arch mountain
+arch cobblestones3
 x 15
 y 24
 elevation 5594
 end
-arch mountain
+arch desert
 x 15
 y 25
 elevation 6498
 end
-arch mountain
+arch bosgrass10
 x 15
 y 26
 elevation 8389
 end
-arch mountain2
+arch beach
 x 15
 y 27
 elevation 10288
 end
-arch mountain2
+arch beach
 x 15
 y 28
 elevation 11780
 end
-arch mountain4
+arch beach
 x 15
 y 29
 elevation 12522
 end
-arch mountain4
+arch palm
+x 15
+y 29
+end
+arch beach
 x 15
 y 30
 elevation 12858
 end
-arch mountain4
+arch beach
 x 15
 y 31
 elevation 12625
 end
-arch mountain4
+arch palm
+x 15
+y 31
+end
+arch beach
 x 15
 y 32
 elevation 12072
 end
-arch mountain2
+arch beach
 x 15
 y 33
 elevation 11364
 end
-arch mountain2
+arch palm
+x 15
+y 33
+end
+arch beach
 x 15
 y 34
 elevation 11335
 end
-arch mountain2
+arch beach
 x 15
 y 35
 elevation 11450
 end
-arch mountain2
+arch palm
+x 15
+y 35
+end
+arch beach
 x 15
 y 36
 elevation 10913
 end
-arch mountain2
+arch beach
 x 15
 y 37
 elevation 9586
 end
-arch mountain
+arch palm
+x 15
+y 37
+end
+arch bosgrass10
 x 15
 y 38
 elevation 7502
 end
-arch mountain
+arch cobblestones3
 x 15
 y 39
 elevation 8375
 end
-arch mountain
+arch cobblestones3
 x 15
 y 40
 elevation 8431
 end
-arch mountain
+arch cobblestones3
 x 15
 y 41
 elevation 8142
 end
-arch mountain
+arch cobblestones3
 x 15
 y 42
 elevation 7789
 end
-arch mountain
+arch cobblestones3
 x 15
 y 43
 elevation 7117
 end
-arch mountain
+arch beach
 x 15
 y 44
 elevation 5720
 end
-arch jungle_1
+arch beach
 x 15
 y 45
 elevation 1545
 end
-arch jungle_1
+arch beach
 x 15
 y 46
 elevation 2872
 end
-arch hills
+arch beach
 x 15
 y 47
 elevation 3372
 end
-arch woods_3
+arch beach
 x 15
 y 48
 elevation 1941
 end
-arch hills_rocky
+arch beach
 x 15
 y 49
 elevation 3079
 end
-arch mountain
+arch desert
 x 16
 elevation 7969
 end
-arch mountain
+arch desert
 x 16
 y 1
 elevation 8958
 end
-arch mountain
+arch desert
 x 16
 y 2
 elevation 7805
 end
-arch mountain
+arch desert
 x 16
 y 3
 elevation 8974
 end
-arch mountain
+arch desert
 x 16
 y 4
 elevation 8421
 end
-arch mountain
+arch desert
 x 16
 y 5
 elevation 7401
 end
-arch mountain
+arch beigemarble
 x 16
 y 6
 elevation 5941
 end
-arch hills
+arch dkbluemarblewall_4
+x 16
+y 6
+end
+arch beigemarble
 x 16
 y 7
 elevation 4134
 end
-arch hills
+arch beigemarble
 x 16
 y 8
 elevation 4931
 end
-arch hills
+arch beigemarble
 x 16
 y 9
 elevation 4918
 end
-arch mountain
+arch beigemarble
 x 16
 y 10
 elevation 5803
 end
-arch mountain
+arch beigemarble
 x 16
 y 11
 elevation 6461
 end
-arch mountain
+arch beigemarble
 x 16
 y 12
 elevation 6911
 end
-arch mountain
+arch beigemarble
 x 16
 y 13
 elevation 6816
 end
-arch mountain
+arch dkbluemarblewall_4
+x 16
+y 13
+end
+arch desert
 x 16
 y 14
 elevation 5169
 end
-arch mountain
+arch desert
 x 16
 y 15
 elevation 6614
 end
-arch mountain
+arch desert
 x 16
 y 16
 elevation 6655
 end
-arch mountain
+arch desert
 x 16
 y 17
 elevation 6008
 end
-arch mountain
+arch desert
 x 16
 y 18
 elevation 5552
 end
-arch mountain
+arch desert
 x 16
 y 19
 elevation 5918
 end
-arch mountain
+arch desert
 x 16
 y 20
 elevation 5478
 end
-arch mountain
+arch desert
 x 16
 y 21
 elevation 6119
 end
-arch mountain
+arch lostlabdesert3
 x 16
 y 22
 elevation 6586
 end
-arch mountain
+arch cobblestones3
 x 16
 y 23
 elevation 6428
 end
-arch hills_rocky
+arch cobblestones3
 x 16
 y 24
 elevation 4758
 end
-arch mountain
+arch desert
 x 16
 y 25
 elevation 5869
 end
-arch mountain
+arch bosgrass10
 x 16
 y 26
 elevation 8933
 end
-arch mountain2
+arch bosgrass10
 x 16
 y 27
 elevation 10541
 end
-arch mountain2
+arch bosgrass10
 x 16
 y 28
 elevation 10941
 end
-arch mountain4
+arch bosgrass10
 x 16
 y 29
 elevation 12986
 end
-arch mountain4
+arch beach
 x 16
 y 30
 elevation 13620
 end
-arch mountain4
+arch beach
 x 16
 y 31
 elevation 13179
 end
-arch mountain4
+arch bosgrass10
 x 16
 y 32
 elevation 12343
 end
-arch mountain2
+arch bosgrass10
 x 16
 y 33
 elevation 10694
 end
-arch mountain2
+arch bosgrass10
 x 16
 y 34
 elevation 11746
 end
-arch mountain2
+arch beach
 x 16
 y 35
 elevation 11775
 end
-arch mountain2
+arch beach
 x 16
 y 36
 elevation 11086
 end
-arch mountain2
+arch beach
 x 16
 y 37
 elevation 9809
 end
-arch mountain
+arch bosgrass10
 x 16
 y 38
 elevation 8622
 end
-arch mountain
+arch cobblestones3
 x 16
 y 39
 elevation 7792
 end
-arch mountain
+arch cobblestones3
 x 16
 y 40
 elevation 7605
 end
-arch mountain
+arch cobblestones3
 x 16
 y 41
 elevation 7459
 end
-arch mountain
+arch cobblestones3
 x 16
 y 42
 elevation 7331
 end
-arch mountain
+arch cobblestones3
 x 16
 y 43
 elevation 6627
 end
-arch mountain
+arch beach
 x 16
 y 44
 elevation 5731
 end
-arch mountain
+arch beach
 x 16
 y 45
 elevation 5104
 end
-arch steppe
+arch beach
 x 16
 y 46
 elevation 4936
 end
-arch hills_rocky
+arch beach
 x 16
 y 47
 elevation 4402
@@ -4438,604 +4892,648 @@ x 16
 y 48
 elevation 1390
 end
-arch steppe
+arch beach
 x 16
 y 49
 elevation 3643
 end
-arch mountain2
+arch desert
 x 17
 elevation 9360
 end
-arch mountain2
+arch desert
 x 17
 y 1
 elevation 10100
 end
-arch mountain2
+arch desert
 x 17
 y 2
 elevation 9878
 end
-arch mountain
+arch desert
 x 17
 y 3
 elevation 7867
 end
-arch mountain
+arch desert
 x 17
 y 4
 elevation 5658
 end
-arch mountain
+arch desert
 x 17
 y 5
 elevation 7177
 end
-arch mountain
+arch beigemarble
 x 17
 y 6
 elevation 6542
 end
-arch mountain
+arch dkbluemarblewall_4
+x 17
+y 6
+end
+arch beigemarble
 x 17
 y 7
 elevation 5448
 end
-arch mountain
+arch beigemarble
 x 17
 y 8
 elevation 5783
 end
-arch mountain
+arch beigemarble
 x 17
 y 9
 elevation 5994
 end
-arch mountain
+arch beigemarble
 x 17
 y 10
 elevation 6277
 end
-arch mountain
+arch beigemarble
 x 17
 y 11
 elevation 7133
 end
-arch mountain
+arch beigemarble
 x 17
 y 12
 elevation 7727
 end
-arch mountain
+arch beigemarble
 x 17
 y 13
 elevation 7495
 end
-arch mountain
+arch dkbluemarblewall_4
+x 17
+y 13
+end
+arch desert
 x 17
 y 14
 elevation 5624
 end
-arch mountain
+arch desert
 x 17
 y 15
 elevation 6184
 end
-arch mountain
+arch desert
 x 17
 y 16
 elevation 7079
 end
-arch mountain
+arch desert
 x 17
 y 17
 elevation 7103
 end
-arch mountain
+arch desert
 x 17
 y 18
 elevation 6600
 end
-arch mountain
+arch desert
 x 17
 y 19
 elevation 6109
 end
-arch mountain
+arch desert
 x 17
 y 20
 elevation 5241
 end
-arch mountain
+arch lostlabdesert4
 x 17
 y 21
 elevation 6300
 end
-arch mountain
+arch lostlabdesert3
 x 17
 y 22
 elevation 5978
 end
-arch mountain
+arch cobblestones3
 x 17
 y 23
 elevation 6956
 end
-arch mountain
+arch cobblestones3
 x 17
 y 24
 elevation 6886
 end
-arch mountain
+arch desert
 x 17
 y 25
 elevation 7009
 end
-arch mountain
+arch desert
 x 17
 y 26
 elevation 8376
 end
-arch mountain2
+arch bosgrass10
 x 17
 y 27
 elevation 9775
 end
-arch mountain2
+arch bosgrass10
 x 17
 y 28
 elevation 10779
 end
-arch mountain4
+arch beach
 x 17
 y 29
 elevation 12351
 end
-arch mountain4
+arch bosgrass10
 x 17
 y 30
 elevation 12997
 end
-arch mountain4
+arch palm
+x 17
+y 30
+end
+arch bosgrass10
 x 17
 y 31
 elevation 12504
 end
-arch mountain2
+arch bosgrass10
 x 17
 y 32
 elevation 11650
 end
-arch mountain2
+arch palm
+x 17
+y 32
+end
+arch bosgrass10
 x 17
 y 33
 elevation 11531
 end
-arch mountain2
+arch beach
 x 17
 y 34
 elevation 11575
 end
-arch mountain2
+arch palm
+x 17
+y 34
+end
+arch beach
 x 17
 y 35
 elevation 10852
 end
-arch mountain2
+arch beach
 x 17
 y 36
 elevation 10512
 end
-arch mountain2
+arch palm
+x 17
+y 36
+end
+arch bosgrass10
 x 17
 y 37
 elevation 9210
 end
-arch mountain
+arch bosgrass10
 x 17
 y 38
 elevation 7931
 end
-arch mountain
+arch cobblestones3
 x 17
 y 39
 elevation 6787
 end
-arch steppe
+arch button_handle
+x 17
+y 39
+end
+arch cobblestones3
 x 17
 y 40
 elevation 4783
 end
-arch mountain
+arch cobblestones3
 x 17
 y 41
 elevation 6227
 end
-arch mountain
+arch cobblestones3
 x 17
 y 42
 elevation 6550
 end
-arch mountain
+arch cobblestones3
 x 17
 y 43
 elevation 6223
 end
-arch steppe
+arch beach
 x 17
 y 44
 elevation 4353
 end
-arch mountain
+arch beach
 x 17
 y 45
 elevation 7384
 end
-arch mountain
+arch beach
 x 17
 y 46
 elevation 7652
 end
-arch mountain
+arch beach
 x 17
 y 47
 elevation 6842
 end
-arch mountain
+arch beach
 x 17
 y 48
 elevation 5075
 end
-arch mountain
+arch beach
 x 17
 y 49
 elevation 5437
 end
-arch mountain2
+arch desert
 x 18
 elevation 9645
 end
-arch mountain2
+arch desert
 x 18
 y 1
 elevation 10762
 end
-arch mountain2
+arch desert
 x 18
 y 2
 elevation 10724
 end
-arch mountain2
+arch desert
 x 18
 y 3
 elevation 9343
 end
-arch mountain
+arch desert
 x 18
 y 4
 elevation 7367
 end
-arch mountain
+arch desert
 x 18
 y 5
 elevation 7382
 end
-arch mountain
+arch beigemarble
 x 18
 y 6
 elevation 6933
 end
-arch mountain
+arch dkbluemarblewall_4
+x 18
+y 6
+end
+arch beigemarble
 x 18
 y 7
 elevation 6224
 end
-arch mountain
+arch beigemarble
 x 18
 y 8
 elevation 6185
 end
-arch mountain
+arch beigemarble
 x 18
 y 9
 elevation 6108
 end
-arch mountain
+arch beigemarble
 x 18
 y 10
 elevation 6347
 end
-arch mountain
+arch beigemarble
 x 18
 y 11
 elevation 7224
 end
-arch mountain
+arch beigemarble
 x 18
 y 12
 elevation 8128
 end
-arch mountain
+arch beigemarble
 x 18
 y 13
 elevation 8263
 end
-arch mountain
+arch dkbluemarblewall_4
+x 18
+y 13
+end
+arch desert
 x 18
 y 14
 elevation 7875
 end
-arch mountain
+arch desert
 x 18
 y 15
 elevation 6502
 end
-arch mountain
+arch desert
 x 18
 y 16
 elevation 7855
 end
-arch mountain
+arch lostlabdesert4
 x 18
 y 17
 elevation 7886
 end
-arch mountain
+arch lostlabdesert3
 x 18
 y 18
 elevation 7089
 end
-arch mountain
+arch lostlabdesert3
 x 18
 y 19
 elevation 6099
 end
-arch mountain
+arch lostlabdesert3
 x 18
 y 20
 elevation 5685
 end
-arch mountain
+arch lostlabdesert3
 x 18
 y 21
 elevation 6138
 end
-arch mountain
+arch lostlabdesert3
 x 18
 y 22
 elevation 7170
 end
-arch mountain
+arch cobblestones3
 x 18
 y 23
 elevation 7754
 end
-arch mountain
+arch cobblestones3
 x 18
 y 24
 elevation 6965
 end
-arch mountain
+arch desert
 x 18
 y 25
 elevation 6977
 end
-arch mountain
+arch desert
 x 18
 y 26
 elevation 5431
 end
-arch mountain2
+arch desert
 x 18
 y 27
 elevation 9641
 end
-arch mountain2
+arch desert
 x 18
 y 28
 elevation 10419
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 29
 elevation 11641
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 30
 elevation 11894
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 31
 elevation 11096
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 32
 elevation 10419
 end
-arch mountain2
+arch beach
 x 18
 y 33
 elevation 11136
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 34
 elevation 11199
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 35
 elevation 10706
 end
-arch mountain2
+arch bosgrass10
 x 18
 y 36
 elevation 9842
 end
-arch mountain
+arch bosgrass10
 x 18
 y 37
 elevation 8308
 end
-arch steppe
+arch bosgrass10
 x 18
 y 38
 elevation 4183
 end
-arch mountain
+arch cobblestones3
 x 18
 y 39
 elevation 5791
 end
-arch mountain
+arch cobblestones3
 x 18
 y 40
 elevation 5257
 end
-arch mountain
+arch cobblestones3
 x 18
 y 41
 elevation 6533
 end
-arch mountain
+arch cobblestones3
 x 18
 y 42
 elevation 7329
 end
-arch mountain
+arch cobblestones3
 x 18
 y 43
 elevation 7614
 end
-arch mountain
+arch beach
 x 18
 y 44
 elevation 8567
 end
-arch mountain2
+arch beach
 x 18
 y 45
 elevation 9644
 end
-arch mountain2
+arch beach
 x 18
 y 46
 elevation 10152
 end
-arch mountain2
+arch beach
 x 18
 y 47
 elevation 9614
 end
-arch mountain
+arch beach
 x 18
 y 48
 elevation 8706
 end
-arch mountain
+arch beach
 x 18
 y 49
 elevation 7544
 end
-arch mountain
+arch desert
 x 19
 elevation 8349
 end
-arch mountain2
+arch desert
 x 19
 y 1
 elevation 10030
 end
-arch mountain2
+arch desert
 x 19
 y 2
 elevation 10687
 end
-arch mountain2
+arch desert
 x 19
 y 3
 elevation 9993
 end
-arch mountain
+arch desert
 x 19
 y 4
 elevation 8834
 end
-arch mountain
+arch desert
 x 19
 y 5
 elevation 7817
 end
-arch mountain
+arch beigemarble
 x 19
 y 6
 elevation 6958
 end
-arch mountain
+arch dkbluemarblewall_4
+x 19
+y 6
+end
+arch beigemarble
 x 19
 y 7
 elevation 6080
 end
-arch mountain
+arch beigemarble
 x 19
 y 8
 elevation 5374
 end
-arch mountain
+arch beigemarble
 x 19
 y 9
 elevation 5054
 end
-arch mountain
+arch beigemarble
 x 19
 y 10
 elevation 5298
 end
-arch mountain
+arch beigemarble
 x 19
 y 11
 elevation 6723
 end
-arch mountain
+arch beigemarble
 x 19
 y 12
 elevation 8130
 end
-arch mountain
+arch beigemarble
 x 19
 y 13
 elevation 8955
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 13
+end
+arch desert
 x 19
 y 14
 elevation 9076
 end
-arch mountain
+arch desert
 x 19
 y 15
 elevation 8894
 end
-arch mountain
+arch desert
 x 19
 y 16
 elevation 8582
 end
-arch mountain
+arch lostlabdesert3
 x 19
 y 17
 elevation 8121
 end
-arch mountain
+arch lostlabdesert3
 x 19
 y 18
 elevation 6993
 end
-arch mountain
+arch lostlabdesert4
 x 19
 y 19
 elevation 5267
@@ -5050,1172 +5548,1340 @@ x 19
 y 21
 elevation 4704
 end
-arch mountain
+arch lostlabdesert3
 x 19
 y 22
 elevation 7579
 end
-arch mountain
+arch cobblestones3
 x 19
 y 23
 elevation 8460
 end
-arch mountain
+arch cobblestones3
 x 19
 y 24
 elevation 8553
 end
-arch mountain
+arch desert
 x 19
 y 25
 elevation 8461
 end
-arch mountain2
+arch desert
 x 19
 y 26
 elevation 9055
 end
-arch mountain2
+arch desert
 x 19
 y 27
 elevation 9874
 end
-arch mountain2
+arch desert
 x 19
 y 28
 elevation 10860
 end
-arch mountain2
+arch fcross-white
 x 19
 y 29
 elevation 11162
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 29
+end
+arch fcross-white
 x 19
 y 30
 elevation 11249
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 30
+end
+arch fcross-white
 x 19
 y 31
 elevation 10836
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 31
+end
+arch fcross-white
 x 19
 y 32
 elevation 9798
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 32
+end
+arch fcross-white
 x 19
 y 33
 elevation 10364
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 33
+end
+arch fcross-white
 x 19
 y 34
 elevation 10347
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 34
+end
+arch fcross-white
 x 19
 y 35
 elevation 9906
 end
-arch mountain
+arch dkbluemarblewall_4
+x 19
+y 35
+end
+arch fcross-white
 x 19
 y 36
 elevation 8937
 end
-arch mountain
+arch dkbluemarblewall_4
+x 19
+y 36
+end
+arch fcross-white
 x 19
 y 37
 elevation 7274
 end
-arch mountain
+arch dkbluemarblewall_4
+x 19
+y 37
+end
+arch fcross-white
 x 19
 y 38
 elevation 5592
 end
-arch hills_rocky
+arch dkbluemarblewall_4
+x 19
+y 38
+end
+arch cobblestones3
 x 19
 y 39
 elevation 4831
 end
-arch mountain
+arch grate_closed_2
+x 19
+y 39
+end
+arch cobblestones3
 x 19
 y 40
 elevation 5515
 end
-arch mountain
+arch grate_closed_2
+x 19
+y 40
+end
+arch cobblestones3
 x 19
 y 41
 elevation 6805
 end
-arch mountain
+arch grate_closed_2
+x 19
+y 41
+end
+arch cobblestones3
 x 19
 y 42
 elevation 7748
 end
-arch mountain
+arch grate_closed_2
+x 19
+y 42
+end
+arch cobblestones3
 x 19
 y 43
 elevation 8515
 end
-arch mountain2
+arch grate_closed_2
+x 19
+y 43
+end
+arch fcross-white
 x 19
 y 44
 elevation 9731
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 44
+end
+arch fcross-white
 x 19
 y 45
 elevation 11335
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 19
+y 45
+end
+arch fcross-white
 x 19
 y 46
 elevation 12047
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 19
+y 46
+end
+arch beach
 x 19
 y 47
 elevation 10973
 end
-arch mountain2
+arch beach
 x 19
 y 48
 elevation 9735
 end
-arch mountain
+arch beach
 x 19
 y 49
 elevation 8627
 end
-arch mountain
+arch desert
 x 20
 elevation 6931
 end
-arch mountain
+arch desert
 x 20
 y 1
 elevation 8619
 end
-arch mountain2
+arch desert
 x 20
 y 2
 elevation 9511
 end
-arch mountain2
+arch desert
 x 20
 y 3
 elevation 9309
 end
-arch mountain
+arch desert
 x 20
 y 4
 elevation 8571
 end
-arch mountain
+arch desert
 x 20
 y 5
 elevation 7674
 end
-arch mountain
+arch beigemarble
 x 20
 y 6
 elevation 6631
 end
-arch mountain
+arch beigemarble
 x 20
 y 7
 elevation 5279
 end
-arch grass_only
+arch beigemarble
 x 20
 y 8
 elevation 2702
 end
-arch tree3
-x 20
-y 8
-end
-arch grass_only
+arch beigemarble
 x 20
 y 9
 elevation 2726
 end
-arch tree3
-x 20
-y 9
-end
-arch hills
+arch beigemarble
 x 20
 y 10
 elevation 3794
 end
-arch mountain
+arch beigemarble
 x 20
 y 11
 elevation 6089
 end
-arch mountain
+arch beigemarble
 x 20
 y 12
 elevation 7457
 end
-arch mountain2
+arch beigemarble
 x 20
 y 13
 elevation 9372
 end
-arch mountain2
+arch cobblestones3
 x 20
 y 14
 elevation 9963
 end
-arch mountain2
+arch cobblestones3
 x 20
 y 15
 elevation 9811
 end
-arch mountain2
+arch cobblestones3
 x 20
 y 16
 elevation 9153
 end
-arch mountain
+arch cobblestones3
 x 20
 y 17
 elevation 7942
 end
-arch mountain
+arch cobblestones3
 x 20
 y 18
 elevation 5560
 end
-arch mountain
+arch cobblestones3
 x 20
 y 19
 elevation 5571
 end
-arch mountain
+arch cobblestones3
 x 20
 y 20
 elevation 5661
 end
-arch mountain
+arch cobblestones3
 x 20
 y 21
 elevation 6416
 end
-arch mountain
+arch cobblestones3
 x 20
 y 22
 elevation 7894
 end
-arch mountain
+arch cobblestones3
 x 20
 y 23
 elevation 8762
 end
-arch mountain2
+arch cobblestones3
 x 20
 y 24
 elevation 9004
 end
-arch mountain2
+arch desert
 x 20
 y 25
 elevation 9160
 end
-arch mountain2
+arch desert
 x 20
 y 26
 elevation 9500
 end
-arch mountain2
+arch desert
 x 20
 y 27
 elevation 9981
 end
-arch mountain2
+arch desert
 x 20
 y 28
 elevation 10470
 end
-arch mountain2
+arch fcross-white
 x 20
 y 29
 elevation 10735
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 20
+y 29
+end
+arch fcross-white
 x 20
 y 30
 elevation 10090
 end
-arch mountain2
+arch fcross-white
 x 20
 y 31
 elevation 10517
 end
-arch mountain2
+arch dwall_s_2_1_2
+x 20
+y 31
+end
+arch fcross-white
 x 20
 y 32
 elevation 9903
 end
-arch mountain2
+arch fcross-white
 x 20
 y 33
 elevation 9441
 end
-arch mountain
+arch fcross-white
 x 20
 y 34
 elevation 8867
 end
-arch mountain
+arch fcross-white
 x 20
 y 35
 elevation 8107
 end
-arch mountain
+arch fcross-white
 x 20
 y 36
 elevation 7343
 end
-arch mountain
+arch fcross-white
 x 20
 y 37
 elevation 6421
 end
-arch mountain
+arch fcross-white
 x 20
 y 38
 elevation 5021
 end
-arch woods_3
+arch marble
 x 20
 y 39
 elevation 1507
 end
-arch steppe
+arch marble
 x 20
 y 40
 elevation 4889
 end
-arch mountain
+arch marble
 x 20
 y 41
 elevation 6483
 end
-arch mountain
+arch marble
 x 20
 y 42
 elevation 7240
 end
-arch mountain
+arch marble
 x 20
 y 43
 elevation 7037
 end
-arch mountain
+arch marble
 x 20
 y 44
 elevation 8576
 end
-arch mountain2
+arch marble
 x 20
 y 45
 elevation 10841
 end
-arch mountain4
+arch fcross-white
 x 20
 y 46
 elevation 12452
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 20
+y 46
+end
+arch beach
 x 20
 y 47
 elevation 11920
 end
-arch mountain
+arch beach
 x 20
 y 48
 elevation 5446
 end
-arch mountain2
+arch beach
 x 20
 y 49
 elevation 9062
 end
-arch mountain
+arch desert
 x 21
 elevation 5453
 end
-arch mountain
+arch desert
 x 21
 y 1
 elevation 7188
 end
-arch mountain
+arch desert
 x 21
 y 2
 elevation 8126
 end
-arch mountain
+arch desert
 x 21
 y 3
 elevation 7475
 end
-arch mountain
+arch desert
 x 21
 y 4
 elevation 7071
 end
-arch mountain
+arch desert
 x 21
 y 5
 elevation 7477
 end
-arch mountain
+arch beigemarble
 x 21
 y 6
 elevation 6503
 end
-arch hills
+arch beigemarble
 x 21
 y 7
 elevation 3958
 end
-arch hills
+arch beigemarble
 x 21
 y 8
 elevation 3299
 end
-arch grass_only
+arch beigemarble
 x 21
 y 9
 elevation 2902
 end
-arch tree3
-x 21
-y 9
-end
-arch hills
+arch beigemarble
 x 21
 y 10
 elevation 3695
 end
-arch mountain
+arch beigemarble
 x 21
 y 11
 elevation 5375
 end
-arch mountain
+arch beigemarble
 x 21
 y 12
 elevation 7430
 end
-arch mountain2
+arch beigemarble
 x 21
 y 13
 elevation 9411
 end
-arch mountain2
+arch cobblestones3
 x 21
 y 14
 elevation 10434
 end
-arch mountain2
+arch cobblestones3
 x 21
 y 15
 elevation 10134
 end
-arch mountain
+arch cobblestones3
 x 21
 y 16
 elevation 8873
 end
-arch mountain
+arch cobblestones3
 x 21
 y 17
 elevation 7192
 end
-arch mountain
+arch cobblestones3
 x 21
 y 18
 elevation 5929
 end
-arch mountain
+arch cobblestones3
 x 21
 y 19
 elevation 5198
 end
-arch mountain
+arch cobblestones3
 x 21
 y 20
 elevation 5169
 end
-arch mountain
+arch cobblestones3
 x 21
 y 21
 elevation 7584
 end
-arch mountain
+arch cobblestones3
 x 21
 y 22
 elevation 8571
 end
-arch mountain
+arch cobblestones3
 x 21
 y 23
 elevation 8335
 end
-arch mountain
+arch cobblestones3
 x 21
 y 24
 elevation 8451
 end
-arch mountain
+arch desert
 x 21
 y 25
 elevation 8356
 end
-arch mountain
+arch desert
 x 21
 y 26
 elevation 8107
 end
-arch mountain
+arch desert
 x 21
 y 27
 elevation 8635
 end
-arch mountain2
+arch desert
 x 21
 y 28
 elevation 9120
 end
-arch mountain2
+arch fcross-white
 x 21
 y 29
 elevation 9559
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 21
+y 29
+end
+arch fcross-white
 x 21
 y 30
 elevation 10041
 end
-arch mountain2
+arch stair_down
+slaying ../euthville/generalmall
+hp 14
+sp 14
+x 21
+y 30
+end
+arch fcross-white
 x 21
 y 31
 elevation 9924
 end
-arch mountain2
+arch dwall_s_2_1_2
+x 21
+y 31
+end
+arch fcross-white
 x 21
 y 32
 elevation 9388
 end
-arch mountain
+arch fcross-white
 x 21
 y 33
 elevation 8252
 end
-arch mountain
+arch fcross-white
 x 21
 y 34
 elevation 7045
 end
-arch mountain
+arch fcross-white
 x 21
 y 35
 elevation 5381
 end
-arch hills_rocky
+arch fcross-white
 x 21
 y 36
 elevation 4959
 end
-arch mountain
+arch fcross-white
 x 21
 y 37
 elevation 5558
 end
-arch hills_rocky
+arch fcross-white
 x 21
 y 38
 elevation 4904
 end
-arch jungle_1
+arch button_handle
+x 21
+y 38
+end
+arch marble
 x 21
 y 39
 elevation 2665
 end
-arch steppe
+arch marble
 x 21
 y 40
 elevation 3272
 end
-arch mountain
+arch marble
 x 21
 y 41
 elevation 6216
 end
-arch mountain
+arch marble
 x 21
 y 42
 elevation 6300
 end
-arch hills
+arch marble
 x 21
 y 43
 elevation 4728
 end
-arch mountain
+arch marble
 x 21
 y 44
 elevation 5313
 end
-arch mountain
+arch marble
 x 21
 y 45
 elevation 7273
 end
-arch mountain4
+arch fcross-white
 x 21
 y 46
 elevation 12639
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 21
+y 46
+end
+arch beach
 x 21
 y 47
 elevation 12847
 end
-arch mountain2
+arch beach
 x 21
 y 48
 elevation 11533
 end
-arch mountain2
+arch bosgrass16
 x 21
 y 49
 elevation 10103
 end
-arch hills_rocky
+arch desert
 x 22
 elevation 4495
 end
-arch mountain
+arch desert
 x 22
 y 1
 elevation 6353
 end
-arch mountain
+arch desert
 x 22
 y 2
 elevation 6799
 end
-arch mountain
+arch desert
 x 22
 y 3
 elevation 7680
 end
-arch mountain
+arch desert
 x 22
 y 4
 elevation 7797
 end
-arch mountain
+arch desert
 x 22
 y 5
 elevation 7664
 end
-arch mountain
+arch beigemarble
 x 22
 y 6
 elevation 6840
 end
-arch mountain
+arch beigemarble
 x 22
 y 7
 elevation 5494
 end
-arch hills
+arch beigemarble
 x 22
 y 8
 elevation 3010
 end
-arch grass_only
+arch beigemarble
 x 22
 y 9
 elevation 2856
 end
-arch tree3
-x 22
-y 9
-end
-arch hills
+arch beigemarble
 x 22
 y 10
 elevation 3777
 end
-arch hills
+arch beigemarble
 x 22
 y 11
 elevation 4038
 end
-arch mountain
+arch beigemarble
 x 22
 y 12
 elevation 6382
 end
-arch mountain2
+arch beigemarble
 x 22
 y 13
 elevation 9473
 end
-arch mountain2
+arch desert
 x 22
 y 14
 elevation 10432
 end
-arch mountain2
+arch desert
 x 22
 y 15
 elevation 9883
 end
-arch mountain
+arch desert
 x 22
 y 16
 elevation 8291
 end
-arch mountain
+arch desert
 x 22
 y 17
 elevation 5139
 end
-arch mountain
+arch desert
 x 22
 y 18
 elevation 5134
 end
-arch mountain
+arch desert
 x 22
 y 19
 elevation 5046
 end
-arch mountain
+arch desert
 x 22
 y 20
 elevation 6244
 end
-arch mountain
+arch desert
 x 22
 y 21
 elevation 8518
 end
-arch mountain2
+arch desert
 x 22
 y 22
 elevation 9218
 end
-arch mountain
+arch cobblestones3
 x 22
 y 23
 elevation 8734
 end
-arch mountain
+arch cobblestones3
 x 22
 y 24
 elevation 6481
 end
-arch mountain
+arch desert
 x 22
 y 25
 elevation 6992
 end
-arch mountain
+arch desert
 x 22
 y 26
 elevation 6712
 end
-arch mountain
+arch desert
 x 22
 y 27
 elevation 6724
 end
-arch mountain
+arch desert
 x 22
 y 28
 elevation 5978
 end
-arch mountain
+arch fcross-white
 x 22
 y 29
 elevation 8132
 end
-arch mountain
+arch dkbluemarblewall_4
+x 22
+y 29
+end
+arch fcross-white
 x 22
 y 30
 elevation 8748
 end
-arch mountain
+arch fcross-white
 x 22
 y 31
 elevation 8730
 end
-arch mountain
+arch dwall_s_2_1_2
+x 22
+y 31
+end
+arch fcross-white
 x 22
 y 32
 elevation 7989
 end
-arch mountain
+arch fcross-white
 x 22
 y 33
 elevation 7353
 end
-arch mountain
+arch fcross-white
 x 22
 y 34
 elevation 6724
 end
-arch mountain
+arch fcross-white
 x 22
 y 35
 elevation 5814
 end
-arch jungle_1
+arch fcross-white
 x 22
 y 36
 elevation 2721
 end
-arch mountain
+arch fcross-white
 x 22
 y 37
 elevation 5556
 end
-arch mountain
+arch fcross-white
 x 22
 y 38
 elevation 6275
 end
-arch mountain
+arch marble
 x 22
 y 39
 elevation 5549
 end
-arch mountain
+arch marble
 x 22
 y 40
 elevation 6150
 end
-arch mountain
+arch marble
 x 22
 y 41
 elevation 6681
 end
-arch mountain
+arch marble
 x 22
 y 42
 elevation 5669
 end
-arch jungle_1
+arch marble
 x 22
 y 43
 elevation 2807
 end
-arch mountain
+arch marble
 x 22
 y 44
 elevation 5851
 end
-arch mountain2
+arch marble
 x 22
 y 45
 elevation 10217
 end
-arch mountain4
+arch fcross-white
 x 22
 y 46
 elevation 13280
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 22
+y 46
+end
+arch beach
 x 22
 y 47
 elevation 14398
 end
-arch mountain4
+arch beach
 x 22
 y 48
 elevation 13477
 end
-arch mountain2
+arch beach
 x 22
 y 49
 elevation 11168
 end
-arch mountain
+arch desert
 x 23
 elevation 5904
 end
-arch mountain
+arch desert
 x 23
 y 1
 elevation 6225
 end
-arch mountain
+arch desert
 x 23
 y 2
 elevation 7223
 end
-arch mountain
+arch desert
 x 23
 y 3
 elevation 7480
 end
-arch mountain
+arch cyanmarble
 x 23
 y 4
 elevation 7735
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 4
+end
+arch cyanmarble
 x 23
 y 5
 elevation 8014
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 5
+end
+arch cyanmarble
 x 23
 y 6
 elevation 7637
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 6
+end
+arch cyanmarble
 x 23
 y 7
 elevation 6680
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 7
+end
+arch cyanmarble
 x 23
 y 8
 elevation 5679
 end
-arch hills
+arch dkbluemarblewall_4
+x 23
+y 8
+end
+arch cyanmarble
 x 23
 y 9
 elevation 4926
 end
-arch hills
+arch dkbluemarblewall_4
+x 23
+y 9
+end
+arch cyanmarble
 x 23
 y 10
 elevation 4491
 end
-arch hills
+arch dkbluemarblewall_4
+x 23
+y 10
+end
+arch cyanmarble
 x 23
 y 11
 elevation 4232
 end
-arch mountain
+arch cyanmarble
 x 23
 y 12
 elevation 7424
 end
-arch mountain2
+arch cyanmarble
 x 23
 y 13
 elevation 9284
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 23
+y 13
+end
+arch cyanmarble
 x 23
 y 14
 elevation 9739
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 23
+y 14
+end
+arch cyanmarble
 x 23
 y 15
 elevation 9017
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 15
+end
+arch cyanmarble
 x 23
 y 16
 elevation 7459
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 16
+end
+arch cyanmarble
 x 23
 y 17
 elevation 5905
 end
-arch grass_only
+arch dkbluemarblewall_4
+x 23
+y 17
+end
+arch cyanmarble
 x 23
 y 18
 elevation 2853
 end
-arch tree3
+arch dkbluemarblewall_4
 x 23
 y 18
 end
-arch mountain
+arch cyanmarble
 x 23
 y 19
 elevation 6250
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 19
+end
+arch desert
 x 23
 y 20
 elevation 7945
 end
-arch mountain2
+arch desert
 x 23
 y 21
 elevation 9344
 end
-arch mountain2
+arch desert
 x 23
 y 22
 elevation 9901
 end
-arch mountain2
+arch cobblestones3
 x 23
 y 23
 elevation 9434
 end
-arch mountain
+arch cobblestones3
 x 23
 y 24
 elevation 8158
 end
-arch mountain
+arch desert
 x 23
 y 25
 elevation 8116
 end
-arch mountain
+arch desert
 x 23
 y 26
 elevation 6648
 end
-arch mountain
+arch desert
 x 23
 y 27
 elevation 7380
 end
-arch mountain
+arch desert
 x 23
 y 28
 elevation 7167
 end
-arch mountain
+arch fcross-white
 x 23
 y 29
 elevation 5521
 end
-arch mountain
+arch dkbluemarblewall_4
+x 23
+y 29
+end
+arch marble
 x 23
 y 30
 elevation 7242
 end
-arch mountain
+arch marble
 x 23
 y 31
 elevation 7678
 end
-arch mountain
+arch marble
 x 23
 y 32
 elevation 5320
 end
-arch mountain
+arch marble
 x 23
 y 33
 elevation 6398
 end
-arch mountain
+arch statue2
+face statue2_bronze.111
+x 23
+y 33
+end
+arch marble
 x 23
 y 34
 elevation 6346
 end
-arch mountain
+arch marble
 x 23
 y 35
 elevation 6008
 end
-arch mountain
+arch marble
 x 23
 y 36
 elevation 6334
 end
-arch mountain
+arch marble
 x 23
 y 37
 elevation 6987
 end
-arch mountain
+arch marble
 x 23
 y 38
 elevation 8322
 end
-arch mountain
+arch marble
 x 23
 y 39
 elevation 8894
 end
-arch mountain2
+arch marble
 x 23
 y 40
 elevation 9056
 end
-arch mountain
+arch marble
 x 23
 y 41
 elevation 8470
 end
-arch hills_rocky
+arch marble
 x 23
 y 42
 elevation 4896
 end
-arch jungle_1
+arch marble
 x 23
 y 43
 elevation 2341
 end
-arch mountain
+arch marble
 x 23
 y 44
 elevation 8160
 end
-arch mountain2
+arch marble
 x 23
 y 45
 elevation 11641
 end
-arch mountain4
+arch fcross-white
 x 23
 y 46
 elevation 14487
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 23
+y 46
+end
+arch beach
 x 23
 y 47
 elevation 15450
 end
-arch mountain4
+arch beach
 x 23
 y 48
 elevation 13486
 end
-arch mountain4
+arch beach
 x 23
 y 49
 elevation 13236
 end
-arch mountain
+arch desert
 x 24
 elevation 7814
 end
-arch mountain
+arch desert
 x 24
 y 1
 elevation 7738
 end
-arch mountain
+arch desert
 x 24
 y 2
 elevation 7569
@@ -6225,1869 +6891,2127 @@ x 24
 y 3
 elevation 5654
 end
-arch mountain
+arch cyanmarble
 x 24
 y 4
 elevation 7148
 end
-arch mountain
+arch dkbluemarblewall_4
+x 24
+y 4
+end
+arch cyanmarble
 x 24
 y 5
 elevation 7997
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 24
 y 6
 elevation 8050
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 24
 y 7
 elevation 7606
 end
-arch mountain
+arch cyanmarble
 x 24
 y 8
 elevation 6810
 end
-arch mountain
+arch cyanmarble
 x 24
 y 9
 elevation 5973
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 24
+y 9
+end
+arch cyanmarble
 x 24
 y 10
 elevation 5593
 end
-arch mountain
+arch cyanmarble
 x 24
 y 11
 elevation 5903
 end
-arch mountain
+arch cyanmarble
 x 24
 y 12
 elevation 7952
 end
-arch mountain2
+arch cyanmarble
 x 24
 y 13
 elevation 9138
 end
-arch mountain
+arch cyanmarble
 x 24
 y 14
 elevation 8434
 end
-arch mountain
+arch dkbluemarblewall_4
+x 24
+y 14
+end
+arch cyanmarble
 x 24
 y 15
 elevation 6422
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 24
 y 16
 elevation 7466
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 24
 y 17
 elevation 6891
 end
-arch mountain
+arch cyanmarble
 x 24
 y 18
 elevation 6320
 end
-arch mountain
+arch cyanmarble
 x 24
 y 19
 elevation 6617
 end
-arch mountain
+arch dkbluemarblewall_4
+x 24
+y 19
+end
+arch desert
 x 24
 y 20
 elevation 8185
 end
-arch mountain2
+arch desert
 x 24
 y 21
 elevation 9730
 end
-arch mountain2
+arch desert
 x 24
 y 22
 elevation 10576
 end
-arch mountain2
+arch cobblestones3
 x 24
 y 23
 elevation 10488
 end
-arch mountain2
+arch cobblestones3
 x 24
 y 24
 elevation 10180
 end
-arch mountain2
+arch desert
 x 24
 y 25
 elevation 9623
 end
-arch mountain
+arch desert
 x 24
 y 26
 elevation 8769
 end
-arch mountain
+arch desert
 x 24
 y 27
 elevation 8518
 end
-arch mountain
+arch desert
 x 24
 y 28
 elevation 8004
 end
-arch mountain
+arch fcross-white
 x 24
 y 29
 elevation 6183
 end
-arch mountain
+arch dkbluemarblewall_4
+x 24
+y 29
+end
+arch marble
 x 24
 y 30
 elevation 7683
 end
-arch mountain
+arch statue2
+face statue2_gold.111
+x 24
+y 30
+end
+arch marble
 x 24
 y 31
 elevation 7431
 end
-arch mountain
+arch marble
 x 24
 y 32
 elevation 5988
 end
-arch mountain
+arch marble
 x 24
 y 33
 elevation 5867
 end
-arch mountain
+arch marble
 x 24
 y 34
 elevation 5159
 end
-arch mountain
+arch marble
 x 24
 y 35
 elevation 5825
 end
-arch mountain
+arch marble
 x 24
 y 36
 elevation 7030
 end
-arch mountain
+arch marble
 x 24
 y 37
 elevation 8603
 end
-arch mountain2
+arch marble
 x 24
 y 38
 elevation 10309
 end
-arch mountain2
+arch marble
 x 24
 y 39
 elevation 11376
 end
-arch mountain2
+arch marble
 x 24
 y 40
 elevation 11481
 end
-arch mountain2
+arch marble
 x 24
 y 41
 elevation 10678
 end
-arch mountain2
+arch marble
 x 24
 y 42
 elevation 9440
 end
-arch mountain2
+arch marble
 x 24
 y 43
 elevation 9016
 end
-arch mountain2
+arch marble
 x 24
 y 44
 elevation 9156
 end
-arch mountain4
+arch marble
 x 24
 y 45
 elevation 12829
 end
-arch mountain4
+arch fcross-white
 x 24
 y 46
 elevation 15354
 end
-arch mountain5
+arch dkbluemarblewall_4
+x 24
+y 46
+end
+arch beach
 x 24
 y 47
 elevation 16326
 end
-arch mountain5
+arch beach
 x 24
 y 48
 elevation 16219
 end
-arch mountain5
+arch beach
 x 24
 y 49
 elevation 16073
 end
-arch mountain
+arch desert
 x 25
 elevation 8822
 end
-arch mountain
+arch desert
 x 25
 y 1
 elevation 8506
 end
-arch mountain
+arch desert
 x 25
 y 2
 elevation 7635
 end
-arch mountain
+arch desert
 x 25
 y 3
 elevation 7005
 end
-arch mountain
+arch cyanmarble
 x 25
 y 4
 elevation 6884
 end
-arch mountain
+arch graveyard_fence2
+x 25
+y 4
+end
+arch cyanmarble
 x 25
 y 5
 elevation 7974
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 25
 y 6
 elevation 8327
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 25
 y 7
 elevation 7939
 end
-arch mountain
+arch cyanmarble
 x 25
 y 8
 elevation 7141
 end
-arch mountain
+arch cyanmarble
 x 25
 y 9
 elevation 5551
 end
-arch mountain
+arch cyanmarble
 x 25
 y 10
 elevation 5861
 end
-arch mountain
+arch cyanmarble
 x 25
 y 11
 elevation 7102
 end
-arch mountain
+arch cyanmarble
 x 25
 y 12
 elevation 8182
 end
-arch mountain
+arch cyanmarble
 x 25
 y 13
 elevation 8885
 end
-arch mountain
+arch cyanmarble
 x 25
 y 14
 elevation 8432
 end
-arch mountain
+arch dkbluemarblewall_4
+x 25
+y 14
+end
+arch cyanmarble
 x 25
 y 15
 elevation 5715
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 25
 y 16
 elevation 7996
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 25
 y 17
 elevation 7550
 end
-arch mountain
+arch cyanmarble
 x 25
 y 18
 elevation 6314
 end
-arch mountain
+arch cyanmarble
 x 25
 y 19
 elevation 5717
 end
-arch mountain
+arch dkbluemarblewall_4
+x 25
+y 19
+end
+arch desert
 x 25
 y 20
 elevation 6997
 end
-arch mountain2
+arch desert
 x 25
 y 21
 elevation 9207
 end
-arch mountain2
+arch desert
 x 25
 y 22
 elevation 10824
 end
-arch mountain2
+arch cobblestones3
 x 25
 y 23
 elevation 11278
 end
-arch mountain2
+arch cobblestones3
 x 25
 y 24
 elevation 10951
 end
-arch mountain2
+arch desert
 x 25
 y 25
 elevation 10528
 end
-arch mountain2
+arch desert
 x 25
 y 26
 elevation 10029
 end
-arch mountain2
+arch desert
 x 25
 y 27
 elevation 9362
 end
-arch mountain2
+arch desert
 x 25
 y 28
 elevation 9437
 end
-arch mountain
+arch fcross-white
 x 25
 y 29
 elevation 8713
 end
-arch mountain
+arch dkbluemarblewall_4
+x 25
+y 29
+end
+arch marble
 x 25
 y 30
 elevation 8026
 end
-arch mountain
+arch marble
 x 25
 y 31
 elevation 7512
 end
-arch mountain
+arch marble
 x 25
 y 32
 elevation 6839
 end
-arch mountain
+arch marble
 x 25
 y 33
 elevation 5405
 end
-arch hills
+arch marble
 x 25
 y 34
 elevation 3823
 end
-arch steppe
+arch marble
 x 25
 y 35
 elevation 4867
 end
-arch mountain
+arch marble
 x 25
 y 36
 elevation 5640
 end
-arch mountain2
+arch marble
 x 25
 y 37
 elevation 9300
 end
-arch mountain2
+arch marble
 x 25
 y 38
 elevation 11433
 end
-arch mountain4
+arch marble
 x 25
 y 39
 elevation 12849
 end
-arch mountain4
+arch marble
 x 25
 y 40
 elevation 13236
 end
-arch mountain4
+arch marble
 x 25
 y 41
 elevation 12343
 end
-arch mountain2
+arch marble
 x 25
 y 42
 elevation 11384
 end
-arch mountain2
+arch marble
 x 25
 y 43
 elevation 11099
 end
-arch mountain4
+arch marble
 x 25
 y 44
 elevation 12414
 end
-arch mountain4
+arch marble
 x 25
 y 45
 elevation 14340
 end
-arch mountain5
+arch fcross-white
 x 25
 y 46
 elevation 16434
 end
-arch mountain5
+arch dkbluemarblewall_4
+x 25
+y 46
+end
+arch beach
 x 25
 y 47
 elevation 17064
 end
-arch mountain5
+arch beach
 x 25
 y 48
 elevation 16143
 end
-arch mountain5
+arch beach
 x 25
 y 49
 elevation 16354
 end
-arch mountain2
+arch desert
 x 26
 elevation 9331
 end
-arch mountain
+arch desert
 x 26
 y 1
 elevation 8691
 end
-arch mountain
+arch desert
 x 26
 y 2
 elevation 7956
 end
-arch mountain
+arch desert
 x 26
 y 3
 elevation 5093
 end
-arch mountain
+arch cyanmarble
 x 26
 y 4
 elevation 6623
 end
-arch mountain
+arch dkbluemarblewall_4
+x 26
+y 4
+end
+arch cyanmarble
 x 26
 y 5
 elevation 8473
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 26
 y 6
 elevation 8959
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 26
 y 7
 elevation 8398
 end
-arch mountain
+arch cyanmarble
 x 26
 y 8
 elevation 6777
 end
-arch mountain
+arch cyanmarble
 x 26
 y 9
 elevation 6413
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 26
+y 9
+end
+arch cyanmarble
 x 26
 y 10
 elevation 6755
 end
-arch mountain
+arch cyanmarble
 x 26
 y 11
 elevation 7531
 end
-arch mountain
+arch cyanmarble
 x 26
 y 12
 elevation 8335
 end
-arch mountain
+arch cyanmarble
 x 26
 y 13
 elevation 8120
 end
-arch mountain
+arch cyanmarble
 x 26
 y 14
 elevation 8911
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 26
+y 14
+end
+arch cyanmarble
 x 26
 y 15
 elevation 9158
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 26
 y 16
 elevation 8915
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 26
 y 17
 elevation 7923
 end
-arch hills
+arch cyanmarble
 x 26
 y 18
 elevation 4200
 end
-arch grass_only
+arch cyanmarble
 x 26
 y 19
 elevation 2551
 end
-arch tree3
+arch graveyard_fence2
 x 26
 y 19
 end
-arch hills
+arch desert
 x 26
 y 20
 elevation 3904
 end
-arch mountain
+arch desert
 x 26
 y 21
 elevation 8544
 end
-arch mountain2
+arch desert
 x 26
 y 22
 elevation 10910
 end
-arch mountain2
+arch cobblestones3
 x 26
 y 23
 elevation 11394
 end
-arch mountain2
+arch cobblestones3
 x 26
 y 24
 elevation 10831
 end
-arch mountain2
+arch desert
 x 26
 y 25
 elevation 9846
 end
-arch mountain2
+arch desert
 x 26
 y 26
 elevation 10190
 end
-arch mountain2
+arch desert
 x 26
 y 27
 elevation 10547
 end
-arch mountain2
+arch desert
 x 26
 y 28
 elevation 10783
 end
-arch mountain2
+arch fcross-white
 x 26
 y 29
 elevation 9793
 end
-arch mountain
+arch dkbluemarblewall_4
+x 26
+y 29
+end
+arch marble
 x 26
 y 30
 elevation 5735
 end
-arch mountain
+arch marble
 x 26
 y 31
 elevation 7483
 end
-arch mountain
+arch marble
 x 26
 y 32
 elevation 6594
 end
-arch steppe
+arch marble
 x 26
 y 33
 elevation 4845
 end
-arch hills
+arch marble
 x 26
 y 34
 elevation 2116
 end
-arch steppe
+arch marble
 x 26
 y 35
 elevation 4442
 end
-arch mountain
+arch marble
 x 26
 y 36
 elevation 6684
 end
-arch mountain
+arch marble
 x 26
 y 37
 elevation 8835
 end
-arch mountain2
+arch fountain
+x 26
+y 37
+end
+arch marble
 x 26
 y 38
 elevation 11109
 end
-arch mountain4
+arch marble
 x 26
 y 39
 elevation 12765
 end
-arch mountain4
+arch fountain
+x 26
+y 39
+end
+arch marble
 x 26
 y 40
 elevation 13456
 end
-arch mountain4
+arch marble
 x 26
 y 41
 elevation 12384
 end
-arch mountain
+arch marble
 x 26
 y 42
 elevation 8204
 end
-arch mountain2
+arch marble
 x 26
 y 43
 elevation 11466
 end
-arch mountain4
+arch marble
 x 26
 y 44
 elevation 13033
 end
-arch mountain4
+arch marble
 x 26
 y 45
 elevation 14817
 end
-arch mountain5
+arch fcross-white
 x 26
 y 46
 elevation 16273
 end
-arch mountain5
+arch dkbluemarblewall_4
+x 26
+y 46
+end
+arch beach
 x 26
 y 47
 elevation 16416
 end
-arch mountain4
+arch beach
 x 26
 y 48
 elevation 15324
 end
-arch mountain4
+arch beach
 x 26
 y 49
 elevation 14268
 end
-arch mountain2
+arch desert
 x 27
 elevation 9411
 end
-arch mountain
+arch desert
 x 27
 y 1
 elevation 8876
 end
-arch mountain
+arch desert
 x 27
 y 2
 elevation 8183
 end
-arch mountain
+arch desert
 x 27
 y 3
 elevation 8148
 end
-arch mountain
+arch cyanmarble
 x 27
 y 4
 elevation 8222
 end
-arch mountain
+arch dkbluemarblewall_4
+x 27
+y 4
+end
+arch cyanmarble
 x 27
 y 5
 elevation 8772
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 27
 y 6
 elevation 9070
 end
-arch mountain
+arch bed_save
+x 27
+y 6
+end
+arch cyan-beige-c-marble_111
 x 27
 y 7
 elevation 8664
 end
-arch mountain
+arch chair_bc_2.2
+x 27
+y 7
+end
+arch cyanmarble
 x 27
 y 8
 elevation 7626
 end
-arch mountain
+arch cyanmarble
 x 27
 y 9
 elevation 6953
 end
-arch mountain
+arch dkbluemarblewall_4
+x 27
+y 9
+end
+arch cyanmarble
 x 27
 y 10
 elevation 5917
 end
-arch mountain
+arch cyanmarble
 x 27
 y 11
 elevation 7931
 end
-arch mountain
+arch cyanmarble
 x 27
 y 12
 elevation 8436
 end
-arch mountain
+arch cyanmarble
 x 27
 y 13
 elevation 8707
 end
-arch mountain2
+arch cyanmarble
 x 27
 y 14
 elevation 9305
 end
-arch mountain2
+arch cyanmarble
 x 27
 y 15
 elevation 10013
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 27
 y 16
 elevation 10025
 end
-arch mountain2
+arch bed_save
+x 27
+y 16
+end
+arch cyan-beige-c-marble_111
 x 27
 y 17
 elevation 9023
 end
-arch mountain
+arch cyanmarble
 x 27
 y 18
 elevation 6053
 end
-arch mountain
+arch cyanmarble
 x 27
 y 19
 elevation 7280
 end
-arch mountain
+arch dkbluemarblewall_4
+x 27
+y 19
+end
+arch desert
 x 27
 y 20
 elevation 8340
 end
-arch mountain2
+arch desert
 x 27
 y 21
 elevation 9721
 end
-arch mountain2
+arch desert
 x 27
 y 22
 elevation 10874
 end
-arch mountain2
+arch cobblestones3
 x 27
 y 23
 elevation 10940
 end
-arch mountain2
+arch cobblestones3
 x 27
 y 24
 elevation 10110
 end
-arch mountain
+arch desert
 x 27
 y 25
 elevation 8394
 end
-arch mountain2
+arch desert
 x 27
 y 26
 elevation 9088
 end
-arch mountain2
+arch desert
 x 27
 y 27
 elevation 11249
 end
-arch mountain2
+arch desert
 x 27
 y 28
 elevation 11695
 end
-arch mountain2
+arch fcross-white
 x 27
 y 29
 elevation 10578
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 27
+y 29
+end
+arch marble
 x 27
 y 30
 elevation 9106
 end
-arch mountain
+arch statue
+x 27
+y 30
+end
+arch marble
 x 27
 y 31
 elevation 6248
 end
-arch mountain
+arch marble
 x 27
 y 32
 elevation 6690
 end
-arch hills
+arch marble
 x 27
 y 33
 elevation 4040
 end
-arch hills
+arch statue2
+face statue2_bronze.111
+x 27
+y 33
+end
+arch marble
 x 27
 y 34
 elevation 1209
 end
-arch hills
+arch marble
 x 27
 y 35
 elevation 4324
 end
-arch mountain
+arch marble
 x 27
 y 36
 elevation 6130
 end
-arch mountain
+arch marble
 x 27
 y 37
 elevation 7883
 end
-arch mountain
+arch marble
 x 27
 y 38
 elevation 8293
 end
-arch mountain2
+arch marble
 x 27
 y 39
 elevation 11484
 end
-arch mountain4
+arch marble
 x 27
 y 40
 elevation 12120
 end
-arch mountain2
+arch marble
 x 27
 y 41
 elevation 10968
 end
-arch mountain2
+arch marble
 x 27
 y 42
 elevation 9651
 end
-arch mountain2
+arch marble
 x 27
 y 43
 elevation 10439
 end
-arch mountain4
+arch marble
 x 27
 y 44
 elevation 12130
 end
-arch mountain4
+arch marble
 x 27
 y 45
 elevation 13410
 end
-arch mountain4
+arch fcross-white
 x 27
 y 46
 elevation 14383
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 27
+y 46
+end
+arch beach
 x 27
 y 47
 elevation 14538
 end
-arch mountain4
+arch beach
 x 27
 y 48
 elevation 13369
 end
-arch mountain2
+arch beach
 x 27
 y 49
 elevation 9847
 end
-arch mountain2
+arch desert
 x 28
 elevation 10692
 end
-arch mountain2
+arch desert
 x 28
 y 1
 elevation 9922
 end
-arch mountain
+arch desert
 x 28
 y 2
 elevation 8787
 end
-arch mountain2
+arch desert
 x 28
 y 3
 elevation 9312
 end
-arch mountain2
+arch cyanmarble
 x 28
 y 4
 elevation 9170
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 4
+end
+arch cyanmarble
 x 28
 y 5
 elevation 7251
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 5
+end
+arch cyan-beige-c-marble_113
 x 28
 y 6
 elevation 8842
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 6
+end
+arch cyan-beige-c-marble_114
 x 28
 y 7
 elevation 8431
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 7
+end
+arch cyanmarble
 x 28
 y 8
 elevation 7769
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 8
+end
+arch cyanmarble
 x 28
 y 9
 elevation 6366
 end
-arch mountain
+arch dkbluemarblewall_4
+x 28
+y 9
+end
+arch cyanmarble
 x 28
 y 10
 elevation 7624
 end
-arch mountain
+arch cyanmarble
 x 28
 y 11
 elevation 8215
 end
-arch mountain
+arch cyanmarble
 x 28
 y 12
 elevation 8411
 end
-arch mountain
+arch cyanmarble
 x 28
 y 13
 elevation 8343
 end
-arch mountain
+arch cyanmarble
 x 28
 y 14
 elevation 8777
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 14
+end
+arch cyanmarble
 x 28
 y 15
 elevation 10317
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 15
+end
+arch cyan-beige-c-marble_113
 x 28
 y 16
 elevation 11038
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 16
+end
+arch cyan-beige-c-marble_114
 x 28
 y 17
 elevation 10855
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 17
+end
+arch cyanmarble
 x 28
 y 18
 elevation 10368
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 18
+end
+arch cyanmarble
 x 28
 y 19
 elevation 10375
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 19
+end
+arch desert
 x 28
 y 20
 elevation 10585
 end
-arch mountain2
+arch desert
 x 28
 y 21
 elevation 10330
 end
-arch mountain2
+arch desert
 x 28
 y 22
 elevation 10200
 end
-arch mountain2
+arch cobblestones3
 x 28
 y 23
 elevation 9914
 end
-arch mountain2
+arch cobblestones3
 x 28
 y 24
 elevation 9043
 end
-arch mountain
+arch desert
 x 28
 y 25
 elevation 8000
 end
-arch mountain2
+arch desert
 x 28
 y 26
 elevation 9805
 end
-arch mountain2
+arch desert
 x 28
 y 27
 elevation 11335
 end
-arch mountain2
+arch desert
 x 28
 y 28
 elevation 11837
 end
-arch mountain2
+arch fcross-white
 x 28
 y 29
 elevation 11303
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 28
+y 29
+end
+arch marble
 x 28
 y 30
 elevation 10156
 end
-arch mountain
+arch marble
 x 28
 y 31
 elevation 8755
 end
-arch mountain
+arch marble
 x 28
 y 32
 elevation 7326
 end
-arch mountain
+arch marble
 x 28
 y 33
 elevation 5852
 end
-arch steppe
+arch marble
 x 28
 y 34
 elevation 4648
 end
-arch hills_rocky
+arch marble
 x 28
 y 35
 elevation 3387
 end
-arch mountain
+arch marble
 x 28
 y 36
 elevation 5486
 end
-arch mountain
+arch marble
 x 28
 y 37
 elevation 6543
 end
-arch mountain
+arch fountain
+x 28
+y 37
+end
+arch marble
 x 28
 y 38
 elevation 7876
 end
-arch mountain2
+arch marble
 x 28
 y 39
 elevation 9409
 end
-arch mountain2
+arch fountain
+x 28
+y 39
+end
+arch marble
 x 28
 y 40
 elevation 10230
 end
-arch mountain2
+arch marble
 x 28
 y 41
 elevation 9824
 end
-arch mountain
+arch marble
 x 28
 y 42
 elevation 7670
 end
-arch mountain2
+arch marble
 x 28
 y 43
 elevation 9522
 end
-arch mountain2
+arch marble
 x 28
 y 44
 elevation 9930
 end
-arch mountain2
+arch marble
 x 28
 y 45
 elevation 10463
 end
-arch mountain2
+arch fcross-white
 x 28
 y 46
 elevation 11362
 end
-arch mountain4
+arch dkbluemarblewall_4
+x 28
+y 46
+end
+arch beach
 x 28
 y 47
 elevation 12112
 end
-arch mountain2
+arch beach
 x 28
 y 48
 elevation 11685
 end
-arch mountain2
+arch beach
 x 28
 y 49
 elevation 9525
 end
-arch mountain2
+arch desert
 x 29
 elevation 11462
 end
-arch mountain2
+arch desert
 x 29
 y 1
 elevation 10720
 end
-arch mountain2
+arch desert
 x 29
 y 2
 elevation 10257
 end
-arch mountain2
+arch desert
 x 29
 y 3
 elevation 10031
 end
-arch mountain2
+arch cyanmarble
 x 29
 y 4
 elevation 9485
 end
-arch mountain
+arch dkbluemarblewall_4
+x 29
+y 4
+end
+arch cyanmarble
 x 29
 y 5
 elevation 8922
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 29
 y 6
 elevation 8426
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 29
 y 7
 elevation 8048
 end
-arch mountain
+arch cyanmarble
 x 29
 y 8
 elevation 7454
 end
-arch mountain
+arch cyanmarble
 x 29
 y 9
 elevation 7353
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 29
+y 9
+end
+arch cyanmarble
 x 29
 y 10
 elevation 7679
 end
-arch mountain
+arch cyanmarble
 x 29
 y 11
 elevation 8270
 end
-arch mountain
+arch cyanmarble
 x 29
 y 12
 elevation 8369
 end
-arch mountain
+arch cyanmarble
 x 29
 y 13
 elevation 8632
 end
-arch mountain2
+arch cyanmarble
 x 29
 y 14
 elevation 9261
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 29
+y 14
+end
+arch cyanmarble
 x 29
 y 15
 elevation 10320
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 29
 y 16
 elevation 11459
 end
-arch mountain4
+arch cyan-beige-c-marble_111
 x 29
 y 17
 elevation 12125
 end
-arch mountain4
+arch cyanmarble
 x 29
 y 18
 elevation 12230
 end
-arch mountain2
+arch cyanmarble
 x 29
 y 19
 elevation 11814
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 29
+y 19
+end
+arch desert
 x 29
 y 20
 elevation 11065
 end
-arch mountain2
+arch desert
 x 29
 y 21
 elevation 9861
 end
-arch mountain
+arch desert
 x 29
 y 22
 elevation 6884
 end
-arch mountain
+arch cobblestones3
 x 29
 y 23
 elevation 8745
 end
-arch mountain
+arch cobblestones3
 x 29
 y 24
 elevation 8535
 end
-arch mountain
+arch desert
 x 29
 y 25
 elevation 7416
 end
-arch mountain2
+arch desert
 x 29
 y 26
 elevation 9830
 end
-arch mountain2
+arch desert
 x 29
 y 27
 elevation 11006
 end
-arch mountain2
+arch desert
 x 29
 y 28
 elevation 10368
 end
-arch mountain2
+arch fcross-white
 x 29
 y 29
 elevation 11105
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 29
+y 29
+end
+arch marble
 x 29
 y 30
 elevation 10542
 end
-arch mountain2
+arch marble
 x 29
 y 31
 elevation 9482
 end
-arch mountain
+arch marble
 x 29
 y 32
 elevation 8159
 end
-arch mountain
+arch marble
 x 29
 y 33
 elevation 6698
 end
-arch mountain
+arch marble
 x 29
 y 34
 elevation 5237
 end
-arch hills_rocky
+arch marble
 x 29
 y 35
 elevation 4810
 end
-arch hills
+arch marble
 x 29
 y 36
 elevation 4878
 end
-arch hills
+arch marble
 x 29
 y 37
 elevation 3984
 end
-arch mountain
+arch marble
 x 29
 y 38
 elevation 5864
 end
-arch mountain
+arch marble
 x 29
 y 39
 elevation 6881
 end
-arch mountain
+arch marble
 x 29
 y 40
 elevation 7830
 end
-arch mountain
+arch marble
 x 29
 y 41
 elevation 8383
 end
-arch mountain
+arch marble
 x 29
 y 42
 elevation 8723
 end
-arch mountain
+arch marble
 x 29
 y 43
 elevation 8457
 end
-arch mountain
+arch marble
 x 29
 y 44
 elevation 5963
 end
-arch mountain
+arch marble
 x 29
 y 45
 elevation 5783
 end
-arch mountain
+arch fcross-white
 x 29
 y 46
 elevation 7943
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 29
+y 46
+end
+arch beach
 x 29
 y 47
 elevation 10113
 end
-arch mountain2
+arch beach
 x 29
 y 48
 elevation 10829
 end
-arch mountain2
+arch beach
 x 29
 y 49
 elevation 10518
 end
-arch mountain2
+arch desert
 x 30
 elevation 11441
 end
-arch mountain2
+arch desert
 x 30
 y 1
 elevation 10753
 end
-arch mountain2
+arch desert
 x 30
 y 2
 elevation 10508
 end
-arch mountain2
+arch desert
 x 30
 y 3
 elevation 10311
 end
-arch mountain2
+arch cyanmarble
 x 30
 y 4
 elevation 9883
 end
-arch mountain
+arch graveyard_fence2
+x 30
+y 4
+end
+arch cyanmarble
 x 30
 y 5
 elevation 8483
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 30
 y 6
 elevation 7711
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 30
 y 7
 elevation 7963
 end
-arch mountain
+arch cyanmarble
 x 30
 y 8
 elevation 7295
 end
-arch mountain
+arch cyanmarble
 x 30
 y 9
 elevation 5844
 end
-arch mountain
+arch cyanmarble
 x 30
 y 10
 elevation 7043
 end
-arch mountain
+arch cyanmarble
 x 30
 y 11
 elevation 7554
 end
-arch mountain
+arch cyanmarble
 x 30
 y 12
 elevation 7660
 end
-arch mountain
+arch cyanmarble
 x 30
 y 13
 elevation 7629
 end
-arch mountain2
+arch cyanmarble
 x 30
 y 14
 elevation 9364
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 30
+y 14
+end
+arch cyanmarble
 x 30
 y 15
 elevation 9663
 end
-arch mountain2
+arch cyan-beige-c-marble_113
 x 30
 y 16
 elevation 10530
 end
-arch mountain4
+arch cyan-beige-c-marble_114
 x 30
 y 17
 elevation 12337
 end
-arch mountain4
+arch cyanmarble
 x 30
 y 18
 elevation 12184
 end
-arch mountain2
+arch cyanmarble
 x 30
 y 19
 elevation 11449
 end
-arch mountain2
+arch graveyard_fence2
+x 30
+y 19
+end
+arch desert
 x 30
 y 20
 elevation 10457
 end
-arch mountain
+arch desert
 x 30
 y 21
 elevation 8859
 end
-arch mountain
+arch desert
 x 30
 y 22
 elevation 7329
 end
-arch mountain
+arch cobblestones3
 x 30
 y 23
 elevation 7395
 end
-arch mountain
+arch cobblestones3
 x 30
 y 24
 elevation 7549
 end
-arch mountain
+arch desert
 x 30
 y 25
 elevation 7915
 end
-arch mountain
+arch desert
 x 30
 y 26
 elevation 8680
 end
-arch mountain2
+arch desert
 x 30
 y 27
 elevation 9564
 end
-arch mountain2
+arch desert
 x 30
 y 28
 elevation 9809
 end
-arch mountain2
+arch fcross-white
 x 30
 y 29
 elevation 9590
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 30
+y 29
+end
+arch marble
 x 30
 y 30
 elevation 9911
 end
-arch mountain2
+arch jar
+x 30
+y 30
+end
+arch marble
 x 30
 y 31
 elevation 9097
 end
-arch mountain
+arch marble
 x 30
 y 32
 elevation 7759
 end
-arch mountain
+arch marble
 x 30
 y 33
 elevation 6306
 end
-arch hills
+arch marble
 x 30
 y 34
 elevation 4840
 end
-arch steppe
+arch marble
 x 30
 y 35
 elevation 3220
 end
-arch hills
+arch marble
 x 30
 y 36
 elevation 4844
 end
-arch hills
+arch marble
 x 30
 y 37
 elevation 4412
 end
-arch hills
+arch marble
 x 30
 y 38
 elevation 2878
 end
-arch jungle_1
+arch marble
 x 30
 y 39
 elevation 2892
 end
-arch mountain
+arch marble
 x 30
 y 40
 elevation 5329
 end
-arch mountain
+arch marble
 x 30
 y 41
 elevation 6881
 end
-arch mountain
+arch marble
 x 30
 y 42
 elevation 7688
 end
-arch mountain
+arch marble
 x 30
 y 43
 elevation 7366
 end
-arch mountain
+arch marble
 x 30
 y 44
 elevation 6551
 end
-arch mountain
+arch marble
 x 30
 y 45
 elevation 5947
 end
-arch mountain
+arch fcross-white
 x 30
 y 46
 elevation 6441
 end
-arch mountain
+arch dkbluemarblewall_4
+x 30
+y 46
+end
+arch beach
 x 30
 y 47
 elevation 8180
 end
-arch mountain2
+arch beach
 x 30
 y 48
 elevation 9366
 end
-arch mountain2
+arch beach
 x 30
 y 49
 elevation 9440
 end
-arch mountain2
+arch desert
 x 31
 elevation 10106
 end
-arch mountain2
+arch desert
 x 31
 y 1
 elevation 9845
 end
-arch mountain2
+arch desert
 x 31
 y 2
 elevation 10072
 end
-arch mountain2
+arch desert
 x 31
 y 3
 elevation 10161
 end
-arch mountain2
+arch cyanmarble
 x 31
 y 4
 elevation 10115
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 31
+y 4
+end
+arch cyanmarble
 x 31
 y 5
 elevation 9353
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 31
 y 6
 elevation 8369
 end
-arch mountain
+arch bed_save
+x 31
+y 6
+end
+arch cyan-beige-c-marble_111
 x 31
 y 7
 elevation 7858
 end
-arch mountain
+arch chair_bc_2.2
+x 31
+y 7
+end
+arch cyanmarble
 x 31
 y 8
 elevation 7385
 end
-arch mountain
+arch cyanmarble
 x 31
 y 9
 elevation 5321
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 31
+y 9
+end
+arch cyanmarble
 x 31
 y 10
 elevation 6772
 end
-arch mountain
+arch cyanmarble
 x 31
 y 11
 elevation 5408
 end
-arch mountain
+arch cyanmarble
 x 31
 y 12
 elevation 6396
 end
-arch mountain
+arch cyanmarble
 x 31
 y 13
 elevation 7117
 end
-arch mountain2
+arch cyanmarble
 x 31
 y 14
 elevation 9706
 end
-arch mountain2
+arch cyanmarble
 x 31
 y 15
 elevation 11005
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 31
 y 16
 elevation 11710
 end
-arch mountain2
+arch bed_save
+x 31
+y 16
+end
+arch cyan-beige-c-marble_111
 x 31
 y 17
 elevation 11737
 end
-arch mountain2
+arch chair_bc_2.2
+x 31
+y 17
+end
+arch cyanmarble
 x 31
 y 18
 elevation 11048
 end
-arch mountain2
+arch cyanmarble
 x 31
 y 19
 elevation 9286
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 31
+y 19
+end
+arch desert
 x 31
 y 20
 elevation 9377
 end
-arch mountain
+arch desert
 x 31
 y 21
 elevation 8706
 end
-arch mountain
+arch desert
 x 31
 y 22
 elevation 7842
 end
-arch mountain
+arch cobblestones3
 x 31
 y 23
 elevation 7014
 end
-arch mountain
+arch cobblestones3
 x 31
 y 24
 elevation 6428
 end
-arch mountain
+arch desert
 x 31
 y 25
 elevation 5347
 end
-arch mountain
+arch desert
 x 31
 y 26
 elevation 6878
 end
-arch mountain
+arch desert
 x 31
 y 27
 elevation 6243
@@ -8097,231 +9021,291 @@ x 31
 y 28
 elevation 7616
 end
-arch mountain
+arch fcross-white
 x 31
 y 29
 elevation 8019
 end
-arch mountain
+arch dkbluemarblewall_4
+x 31
+y 29
+end
+arch marble
 x 31
 y 30
 elevation 8149
 end
-arch mountain
+arch marble
 x 31
 y 31
 elevation 7491
 end
-arch mountain
+arch marble
 x 31
 y 32
 elevation 5808
 end
-arch mountain
+arch marble
 x 31
 y 33
 elevation 5263
 end
-arch hills
+arch marble
 x 31
 y 34
 elevation 4711
 end
-arch hills
+arch marble
 x 31
 y 35
 elevation 4785
 end
-arch steppe
+arch marble
 x 31
 y 36
 elevation 4826
 end
-arch hills_rocky
+arch marble
 x 31
 y 37
 elevation 4388
 end
-arch hills_rocky
+arch marble
 x 31
 y 38
 elevation 3486
 end
-arch jungle_1
+arch marble
 x 31
 y 39
 elevation 2410
 end
-arch jungle_1
+arch marble
 x 31
 y 40
 elevation 2364
 end
-arch mountain
+arch marble
 x 31
 y 41
 elevation 5278
 end
-arch mountain
+arch marble
 x 31
 y 42
 elevation 6501
 end
-arch mountain
+arch marble
 x 31
 y 43
 elevation 5876
 end
-arch mountain
+arch marble
 x 31
 y 44
 elevation 6295
 end
-arch steppe
+arch jar_b
+x 31
+y 44
+end
+arch marble
 x 31
 y 45
 elevation 4183
 end
-arch steppe
+arch fcross-white
 x 31
 y 46
 elevation 3307
 end
-arch mountain
+arch dkbluemarblewall_4
+x 31
+y 46
+end
+arch beach
 x 31
 y 47
 elevation 6556
 end
-arch mountain
+arch beach
 x 31
 y 48
 elevation 7211
 end
-arch mountain
+arch beach
 x 31
 y 49
 elevation 6027
 end
-arch mountain
+arch desert
 x 32
 elevation 7547
 end
-arch mountain
+arch desert
 x 32
 y 1
 elevation 7396
 end
-arch mountain2
+arch desert
 x 32
 y 2
 elevation 9667
 end
-arch mountain2
+arch desert
 x 32
 y 3
 elevation 10391
 end
-arch mountain2
+arch cyanmarble
 x 32
 y 4
 elevation 10257
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 32
+y 4
+end
+arch cyanmarble
 x 32
 y 5
 elevation 9413
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 5
+end
+arch cyan-beige-c-marble_113
 x 32
 y 6
 elevation 8348
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 6
+end
+arch cyan-beige-c-marble_114
 x 32
 y 7
 elevation 6917
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 7
+end
+arch cyanmarble
 x 32
 y 8
 elevation 8009
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 8
+end
+arch cyanmarble
 x 32
 y 9
 elevation 8131
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 9
+end
+arch cyanmarble
 x 32
 y 10
 elevation 8030
 end
-arch mountain
+arch cyanmarble
 x 32
 y 11
 elevation 7935
 end
-arch mountain
+arch cyanmarble
 x 32
 y 12
 elevation 7196
 end
-arch mountain2
+arch cyanmarble
 x 32
 y 13
 elevation 9193
 end
-arch mountain2
+arch cyanmarble
 x 32
 y 14
 elevation 10441
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 32
+y 14
+end
+arch cyanmarble
 x 32
 y 15
 elevation 11533
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 32
+y 15
+end
+arch cyan-beige-c-marble_113
 x 32
 y 16
 elevation 11799
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 32
+y 16
+end
+arch cyan-beige-c-marble_114
 x 32
 y 17
 elevation 10802
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 32
+y 17
+end
+arch cyanmarble
 x 32
 y 18
 elevation 9353
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 18
+end
+arch cyanmarble
 x 32
 y 19
 elevation 7979
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 19
+end
+arch desert
 x 32
 y 20
 elevation 8043
 end
-arch mountain
+arch desert
 x 32
 y 21
 elevation 7956
 end
-arch mountain
+arch desert
 x 32
 y 22
 elevation 7509
 end
-arch mountain
+arch cobblestones3
 x 32
 y 23
 elevation 6520
 end
-arch mountain
+arch cobblestones3
 x 32
 y 24
 elevation 5585
@@ -8331,251 +9315,287 @@ x 32
 y 25
 elevation 3438
 end
-arch mountain
+arch desert
 x 32
 y 26
 elevation 5109
 end
-arch mountain
+arch desert
 x 32
 y 27
 elevation 5437
 end
-arch hills
+arch desert
 x 32
 y 28
 elevation 4282
 end
-arch mountain
+arch fcross-white
 x 32
 y 29
 elevation 5110
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 29
+end
+arch marble
 x 32
 y 30
 elevation 5572
 end
-arch hills
+arch jar_plant
+x 32
+y 30
+end
+arch marble
 x 32
 y 31
 elevation 4961
 end
-arch steppe
+arch jar_b
+x 32
+y 31
+end
+arch marble
 x 32
 y 32
 elevation 4423
 end
-arch steppe
+arch marble
 x 32
 y 33
 elevation 3662
 end
-arch steppe
+arch marble
 x 32
 y 34
 elevation 3471
 end
-arch hills_rocky
+arch marble
 x 32
 y 35
 elevation 4516
 end
-arch steppe
+arch marble
 x 32
 y 36
 elevation 4427
 end
-arch hills_rocky
+arch marble
 x 32
 y 37
 elevation 3429
 end
-arch hills
+arch marble
 x 32
 y 38
 elevation 3303
 end
-arch woods_3
+arch marble
 x 32
 y 39
 elevation 2597
 end
-arch jungle_1
+arch marble
 x 32
 y 40
 elevation 2189
 end
-arch steppe
+arch marble
 x 32
 y 41
 elevation 4405
 end
-arch mountain
+arch marble
 x 32
 y 42
 elevation 5882
 end
-arch mountain
+arch marble
 x 32
 y 43
 elevation 6239
 end
-arch mountain
+arch marble
 x 32
 y 44
 elevation 6022
 end
-arch mountain
+arch jar_b
+x 32
+y 44
+end
+arch marble
 x 32
 y 45
 elevation 5529
 end
-arch mountain
+arch jar_plant
+x 32
+y 45
+end
+arch fcross-white
 x 32
 y 46
 elevation 5214
 end
-arch mountain
+arch dkbluemarblewall_4
+x 32
+y 46
+end
+arch beach
 x 32
 y 47
 elevation 5034
 end
-arch steppe
+arch beach
 x 32
 y 48
 elevation 4525
 end
-arch mountain
+arch beach
 x 32
 y 49
 elevation 5061
 end
-arch mountain
+arch desert
 x 33
 elevation 7073
 end
-arch mountain
+arch desert
 x 33
 y 1
 elevation 8434
 end
-arch mountain2
+arch desert
 x 33
 y 2
 elevation 9408
 end
-arch mountain2
+arch desert
 x 33
 y 3
 elevation 10044
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 4
 elevation 9773
 end
-arch mountain
+arch dkbluemarblewall_4
+x 33
+y 4
+end
+arch cyanmarble
 x 33
 y 5
 elevation 8709
 end
-arch mountain
+arch cyan-beige-c-marble_112
 x 33
 y 6
 elevation 7325
 end
-arch mountain
+arch cyan-beige-c-marble_111
 x 33
 y 7
 elevation 7666
 end
-arch mountain
+arch cyanmarble
 x 33
 y 8
 elevation 8323
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 9
 elevation 9041
 end
-arch mountain2
+arch dkbluemarblewall_1_4
+x 33
+y 9
+end
+arch cyanmarble
 x 33
 y 10
 elevation 9315
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 11
 elevation 9208
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 12
 elevation 9248
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 13
 elevation 10429
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 14
 elevation 11212
 end
-arch mountain2
+arch cyanmarble
 x 33
 y 15
 elevation 11379
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 33
 y 16
 elevation 11146
 end
-arch mountain2
+arch cyan-beige-c-marble_111
 x 33
 y 17
 elevation 9926
 end
-arch mountain
+arch cyanmarble
 x 33
 y 18
 elevation 6067
 end
-arch mountain
+arch cyanmarble
 x 33
 y 19
 elevation 6422
 end
-arch mountain
+arch dkbluemarblewall_4
+x 33
+y 19
+end
+arch desert
 x 33
 y 20
 elevation 6246
 end
-arch mountain
+arch desert
 x 33
 y 21
 elevation 6858
 end
-arch mountain
+arch desert
 x 33
 y 22
 elevation 6747
 end
-arch mountain
+arch cobblestones3
 x 33
 y 23
 elevation 6622
 end
-arch mountain
+arch cobblestones3
 x 33
 y 24
 elevation 6137
 end
-arch mountain
+arch desert
 x 33
 y 25
 elevation 5188
@@ -8599,231 +9619,267 @@ x 33
 y 28
 elevation 4788
 end
-arch hills
+arch fcross-white
 x 33
 y 29
 elevation 2924
 end
-arch jungle_1
+arch dkbluemarblewall_4
+x 33
+y 29
+end
+arch marble
 x 33
 y 30
 elevation 2831
 end
-arch jungle_1
+arch jar_plant
+x 33
+y 30
+end
+arch marble
 x 33
 y 31
 elevation 2124
 end
-arch woods_3
+arch jar_plant
+x 33
+y 31
+end
+arch marble
 x 33
 y 32
 elevation 2129
 end
-arch hills_rocky
+arch marble
 x 33
 y 33
 elevation 3185
 end
-arch steppe
+arch marble
 x 33
 y 34
 elevation 3627
 end
-arch hills_rocky
+arch marble
 x 33
 y 35
 elevation 3853
 end
-arch hills_rocky
+arch marble
 x 33
 y 36
 elevation 3116
 end
-arch hills
+arch marble
 x 33
 y 37
 elevation 2650
 end
-arch steppe
+arch marble
 x 33
 y 38
 elevation 3111
 end
-arch woods_3
+arch marble
 x 33
 y 39
 elevation 2220
 end
-arch jungle_1
+arch marble
 x 33
 y 40
 elevation 1202
 end
-arch steppe
+arch marble
 x 33
 y 41
 elevation 4583
 end
-arch mountain
+arch marble
 x 33
 y 42
 elevation 5957
 end
-arch mountain
+arch marble
 x 33
 y 43
 elevation 6470
 end
-arch steppe
+arch marble
 x 33
 y 44
 elevation 4829
 end
-arch mountain
+arch jar_plant
+x 33
+y 44
+end
+arch marble
 x 33
 y 45
 elevation 5981
 end
-arch mountain
+arch jar_plant
+x 33
+y 45
+end
+arch fcross-white
 x 33
 y 46
 elevation 5226
+end
+arch dkbluemarblewall_4
+x 33
+y 46
 end
 arch jungle_1
 x 33
 y 47
 elevation 2844
 end
-arch steppe
+arch beach
 x 33
 y 48
 elevation 3396
 end
-arch steppe
+arch beach
 x 33
 y 49
 elevation 4646
 end
-arch mountain
+arch desert
 x 34
 elevation 7730
 end
-arch mountain
+arch desert
 x 34
 y 1
 elevation 8182
 end
-arch mountain
+arch desert
 x 34
 y 2
 elevation 8845
 end
-arch mountain
+arch desert
 x 34
 y 3
 elevation 8996
 end
-arch mountain
+arch cyanmarble
 x 34
 y 4
 elevation 8470
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 4
+end
+arch cyanmarble
 x 34
 y 5
 elevation 7556
 end
-arch mountain
+arch cyan-beige-c-marble_113
 x 34
 y 6
 elevation 6077
 end
-arch mountain
+arch cyan-beige-c-marble_114
 x 34
 y 7
 elevation 6903
 end
-arch mountain
+arch cyanmarble
 x 34
 y 8
 elevation 7618
 end
-arch mountain
+arch cyanmarble
 x 34
 y 9
 elevation 8615
 end
-arch mountain2
+arch cyanmarble
 x 34
 y 10
 elevation 9159
 end
-arch mountain2
+arch cyanmarble
 x 34
 y 11
 elevation 9505
 end
-arch mountain2
+arch cyanmarble
 x 34
 y 12
 elevation 10235
 end
-arch mountain2
+arch cyanmarble
 x 34
 y 13
 elevation 11029
 end
-arch mountain2
+arch cyanmarble
 x 34
 y 14
 elevation 11360
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 34
+y 14
+end
+arch cyanmarble
 x 34
 y 15
 elevation 10828
 end
-arch mountain2
+arch cyan-beige-c-marble_113
 x 34
 y 16
 elevation 10364
 end
-arch mountain2
+arch cyan-beige-c-marble_114
 x 34
 y 17
 elevation 9270
 end
-arch mountain
+arch cyanmarble
 x 34
 y 18
 elevation 8107
 end
-arch mountain
+arch cyanmarble
 x 34
 y 19
 elevation 7289
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 19
+end
+arch desert
 x 34
 y 20
 elevation 6780
 end
-arch mountain
+arch desert
 x 34
 y 21
 elevation 5288
 end
-arch mountain
+arch desert
 x 34
 y 22
 elevation 5121
 end
-arch mountain
+arch cobblestones3
 x 34
 y 23
 elevation 6541
 end
-arch mountain
+arch cobblestones3
 x 34
 y 24
 elevation 6668
@@ -8848,266 +9904,362 @@ x 34
 y 28
 elevation 5137
 end
-arch hills_rocky
+arch fcross-white
 x 34
 y 29
 elevation 4706
 end
-arch hills
+arch dkbluemarblewall_4
+x 34
+y 29
+end
+arch fcross-white
 x 34
 y 30
 elevation 3915
 end
-arch hills
+arch dkbluemarblewall_4
+x 34
+y 30
+end
+arch fcross-white
 x 34
 y 31
 elevation 3094
 end
-arch woods_3
+arch dkbluemarblewall_4
+x 34
+y 31
+end
+arch fcross-white
 x 34
 y 32
 elevation 2090
 end
-arch hills
+arch dkbluemarblewall_4
+x 34
+y 32
+end
+arch fcross-white
 x 34
 y 33
 elevation 2587
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 33
+end
+arch fcross-white
 x 34
 y 34
 elevation 3247
 end
-arch hills
+arch dkbluemarblewall_4
+x 34
+y 34
+end
+arch fcross-white
 x 34
 y 35
 elevation 3635
 end
-arch hills
+arch dkbluemarblewall_4
+x 34
+y 35
+end
+arch fcross-white
 x 34
 y 36
 elevation 3237
 end
-arch jungle_1
+arch dkbluemarblewall_4
+x 34
+y 36
+end
+arch fcross-white
 x 34
 y 37
 elevation 2400
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 37
+end
+arch fcross-white
 x 34
 y 38
 elevation 3429
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 38
+end
+arch fcross-white
 x 34
 y 39
 elevation 3765
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 39
+end
+arch fcross-white
 x 34
 y 40
 elevation 3162
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 40
+end
+arch fcross-white
 x 34
 y 41
 elevation 5736
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 41
+end
+arch fcross-white
 x 34
 y 42
 elevation 6791
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 42
+end
+arch fcross-white
 x 34
 y 43
 elevation 7159
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 43
+end
+arch fcross-white
 x 34
 y 44
 elevation 6661
 end
-arch mountain
+arch dkbluemarblewall_4
+x 34
+y 44
+end
+arch fcross-white
 x 34
 y 45
 elevation 5671
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 45
+end
+arch fcross-white
 x 34
 y 46
 elevation 4435
 end
-arch steppe
+arch dkbluemarblewall_4
+x 34
+y 46
+end
+arch beach
 x 34
 y 47
 elevation 3723
 end
-arch steppe
+arch beach
 x 34
 y 48
 elevation 3983
 end
-arch steppe
+arch beach
 x 34
 y 49
 elevation 4473
 end
-arch mountain
+arch desert
 x 35
 elevation 6821
 end
-arch mountain
+arch desert
 x 35
 y 1
 elevation 7412
 end
-arch mountain
+arch desert
 x 35
 y 2
 elevation 7417
 end
-arch mountain
+arch desert
 x 35
 y 3
 elevation 7365
 end
-arch mountain
+arch cyanmarble
 x 35
 y 4
 elevation 7084
 end
-arch mountain
+arch dkbluemarblewall_4
+x 35
+y 4
+end
+arch cyanmarble
 x 35
 y 5
 elevation 6222
 end
-arch hills
+arch cyan-beige-c-marble_112
 x 35
 y 6
 elevation 4580
 end
-arch mountain
+arch bed_save
+x 35
+y 6
+end
+arch cyan-beige-c-marble_111
 x 35
 y 7
 elevation 5705
 end
-arch mountain
+arch cyanmarble
 x 35
 y 8
 elevation 6707
 end
-arch mountain
+arch cyanmarble
 x 35
 y 9
 elevation 7621
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 35
+y 9
+end
+arch cyanmarble
 x 35
 y 10
 elevation 7335
 end
-arch mountain
+arch cyanmarble
 x 35
 y 11
 elevation 8952
 end
-arch mountain2
+arch cyanmarble
 x 35
 y 12
 elevation 9864
 end
-arch mountain2
+arch cyanmarble
 x 35
 y 13
 elevation 10584
 end
-arch mountain2
+arch cyanmarble
 x 35
 y 14
 elevation 10724
 end
-arch mountain2
+arch dkbluemarblewall_4
+x 35
+y 14
+end
+arch cyanmarble
 x 35
 y 15
 elevation 10110
 end
-arch mountain2
+arch cyan-beige-c-marble_112
 x 35
 y 16
 elevation 9167
 end
-arch mountain
+arch bed_save
+x 35
+y 16
+end
+arch cyan-beige-c-marble_111
 x 35
 y 17
 elevation 8501
 end
-arch mountain
+arch cyanmarble
 x 35
 y 18
 elevation 8128
 end
-arch mountain
+arch cyanmarble
 x 35
 y 19
 elevation 7475
 end
-arch mountain
+arch graveyard_fence2
+x 35
+y 19
+end
+arch desert
 x 35
 y 20
 elevation 6722
 end
-arch mountain
+arch desert
 x 35
 y 21
 elevation 6088
 end
-arch mountain
+arch desert
 x 35
 y 22
 elevation 5558
 end
-arch mountain
+arch cobblestones3
 x 35
 y 23
 elevation 5736
 end
-arch mountain
+arch cobblestones3
 x 35
 y 24
 elevation 6746
 end
-arch mountain
+arch desert
 x 35
 y 25
 elevation 6387
 end
-arch mountain
+arch desert
 x 35
 y 26
 elevation 5813
 end
-arch mountain
+arch desert
 x 35
 y 27
 elevation 5646
 end
-arch mountain
+arch desert
 x 35
 y 28
 elevation 5759
 end
-arch mountain
+arch desert
 x 35
 y 29
 elevation 5510
 end
-arch hills
+arch desert
 x 35
 y 30
 elevation 4822
 end
-arch steppe
+arch desert
 x 35
 y 31
 elevation 3823
@@ -9137,47 +10289,47 @@ x 35
 y 36
 elevation 2708
 end
-arch jungle_1
+arch desert
 x 35
 y 37
 elevation 2891
 end
-arch hills
+arch desert
 x 35
 y 38
 elevation 4394
 end
-arch mountain
+arch desert
 x 35
 y 39
 elevation 5480
 end
-arch mountain
+arch desert
 x 35
 y 40
 elevation 6317
 end
-arch mountain
+arch desert
 x 35
 y 41
 elevation 7243
 end
-arch mountain
+arch desert
 x 35
 y 42
 elevation 7960
 end
-arch mountain
+arch desert
 x 35
 y 43
 elevation 7862
 end
-arch mountain
+arch beach
 x 35
 y 44
 elevation 6937
 end
-arch steppe
+arch beach
 x 35
 y 45
 elevation 4798
@@ -9192,165 +10344,177 @@ x 35
 y 47
 elevation 1879
 end
-arch steppe
+arch beach
 x 35
 y 48
 elevation 3671
 end
-arch steppe
+arch beach
 x 35
 y 49
 elevation 4397
 end
-arch mountain
+arch desert
 x 36
 elevation 6489
 end
-arch mountain
+arch desert
 x 36
 y 1
 elevation 6256
 end
-arch mountain
+arch desert
 x 36
 y 2
 elevation 5679
 end
-arch hills
+arch desert
 x 36
 y 3
 elevation 4282
 end
-arch mountain
+arch cyanmarble
 x 36
 y 4
 elevation 5867
 end
-arch mountain
+arch dkbluemarblewall_4
+x 36
+y 4
+end
+arch cyanmarble
 x 36
 y 5
 elevation 5609
 end
-arch grass_only
+arch cyanmarble
 x 36
 y 6
 elevation 2893
 end
-arch tree3
-x 36
-y 6
-end
-arch hills
+arch cyanmarble
 x 36
 y 7
 elevation 4401
 end
-arch mountain
+arch cyanmarble
 x 36
 y 8
 elevation 5767
 end
-arch mountain
+arch cyanmarble
 x 36
 y 9
 elevation 6452
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 36
+y 9
+end
+arch cyanmarble
 x 36
 y 10
 elevation 7220
 end
-arch mountain
+arch cyanmarble
 x 36
 y 11
 elevation 8165
 end
-arch mountain
+arch cyanmarble
 x 36
 y 12
 elevation 8983
 end
-arch mountain
+arch cyanmarble
 x 36
 y 13
 elevation 8542
 end
-arch mountain2
+arch cyanmarble
 x 36
 y 14
 elevation 9503
 end
-arch mountain
+arch dkbluemarblewall_4
+x 36
+y 14
+end
+arch cyanmarble
 x 36
 y 15
 elevation 8588
 end
-arch mountain
+arch cyanmarble
 x 36
 y 16
 elevation 5888
 end
-arch mountain
+arch cyanmarble
 x 36
 y 17
 elevation 6854
 end
-arch mountain
+arch cyanmarble
 x 36
 y 18
 elevation 6973
 end
-arch mountain
+arch cyanmarble
 x 36
 y 19
 elevation 6604
 end
-arch mountain
+arch dkbluemarblewall_4
+x 36
+y 19
+end
+arch desert
 x 36
 y 20
 elevation 5653
 end
-arch mountain
+arch desert
 x 36
 y 21
 elevation 5899
 end
-arch mountain
+arch desert
 x 36
 y 22
 elevation 6139
 end
-arch mountain
+arch cobblestones3
 x 36
 y 23
 elevation 6183
 end
-arch mountain
+arch cobblestones3
 x 36
 y 24
 elevation 6303
 end
-arch mountain
+arch desert
 x 36
 y 25
 elevation 6134
 end
-arch mountain
+arch desert
 x 36
 y 26
 elevation 5555
 end
-arch mountain
+arch desert
 x 36
 y 27
 elevation 6013
 end
-arch mountain
+arch desert
 x 36
 y 28
 elevation 6080
 end
-arch mountain
+arch desert
 x 36
 y 29
 elevation 5661
@@ -9365,77 +10529,77 @@ x 36
 y 31
 elevation 4350
 end
-arch hills
+arch desert
 x 36
 y 32
 elevation 3277
 end
-arch mountain
+arch desert
 x 36
 y 33
 elevation 5016
 end
-arch mountain
+arch desert
 x 36
 y 34
 elevation 5537
 end
-arch mountain
+arch desert
 x 36
 y 35
 elevation 6417
 end
-arch mountain
+arch desert
 x 36
 y 36
 elevation 5762
 end
-arch mountain
+arch desert
 x 36
 y 37
 elevation 6073
 end
-arch mountain
+arch desert
 x 36
 y 38
 elevation 6402
 end
-arch mountain
+arch desert
 x 36
 y 39
 elevation 6907
 end
-arch mountain
+arch desert
 x 36
 y 40
 elevation 7572
 end
-arch mountain
+arch desert
 x 36
 y 41
 elevation 8111
 end
-arch mountain
+arch desert
 x 36
 y 42
 elevation 8186
 end
-arch mountain
+arch desert
 x 36
 y 43
 elevation 7568
 end
-arch mountain
+arch beach
 x 36
 y 44
 elevation 6544
 end
-arch steppe
+arch beach
 x 36
 y 45
 elevation 4974
 end
-arch steppe
+arch beach
 x 36
 y 46
 elevation 3091
@@ -9445,7 +10609,7 @@ x 36
 y 47
 elevation 1749
 end
-arch steppe
+arch beach
 x 36
 y 48
 elevation 3228
@@ -9455,155 +10619,183 @@ x 36
 y 49
 elevation 2814
 end
-arch mountain
+arch desert
 x 37
 elevation 5225
 end
-arch mountain
+arch desert
 x 37
 y 1
 elevation 5083
 end
-arch hills
+arch desert
 x 37
 y 2
 elevation 4948
 end
-arch hills_rocky
+arch desert
 x 37
 y 3
 elevation 3892
 end
-arch mountain
+arch cyanmarble
 x 37
 y 4
 elevation 5112
 end
-arch mountain
+arch graveyard_fence2
+x 37
+y 4
+end
+arch cyanmarble
 x 37
 y 5
 elevation 5635
 end
-arch mountain
+arch cyanmarble
 x 37
 y 6
 elevation 5438
 end
-arch hills
+arch table_cw_3
+x 37
+y 6
+end
+arch cyanmarble
 x 37
 y 7
 elevation 4516
 end
-arch mountain
+arch table_cw_3
+x 37
+y 7
+end
+arch cyanmarble
 x 37
 y 8
 elevation 5372
 end
-arch hills
+arch cyanmarble
 x 37
 y 9
 elevation 4226
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 37
+y 9
+end
+arch cyanmarble
 x 37
 y 10
 elevation 6024
 end
-arch mountain
+arch cyanmarble
 x 37
 y 11
 elevation 7458
 end
-arch mountain
+arch cyanmarble
 x 37
 y 12
 elevation 7925
 end
-arch mountain
+arch cyanmarble
 x 37
 y 13
 elevation 8170
 end
-arch mountain
+arch cyanmarble
 x 37
 y 14
 elevation 7763
 end
-arch mountain
+arch dkbluemarblewall_4
+x 37
+y 14
+end
+arch cyanmarble
 x 37
 y 15
 elevation 6702
 end
-arch hills
+arch cyanmarble
 x 37
 y 16
 elevation 4841
 end
-arch grass_only
+arch table_cw_3
+x 37
+y 16
+end
+arch cyanmarble
 x 37
 y 17
 elevation 2763
 end
-arch tree3
+arch table_cw_3
 x 37
 y 17
 end
-arch mountain
+arch cyanmarble
 x 37
 y 18
 elevation 5801
 end
-arch mountain
+arch cyanmarble
 x 37
 y 19
 elevation 5663
+end
+arch dkbluemarblewall_4
+x 37
+y 19
 end
 arch hills
 x 37
 y 20
 elevation 3312
 end
-arch mountain
+arch desert
 x 37
 y 21
 elevation 5788
 end
-arch mountain
+arch desert
 x 37
 y 22
 elevation 6081
 end
-arch mountain
+arch cobblestones3
 x 37
 y 23
 elevation 5604
 end
-arch mountain
+arch cobblestones3
 x 37
 y 24
 elevation 5240
 end
-arch mountain
+arch desert
 x 37
 y 25
 elevation 5451
 end
-arch mountain
+arch desert
 x 37
 y 26
 elevation 6030
 end
-arch mountain
+arch desert
 x 37
 y 27
 elevation 6430
 end
-arch mountain
+arch desert
 x 37
 y 28
 elevation 6356
 end
-arch hills
+arch desert
 x 37
 y 29
 elevation 4793
@@ -9613,87 +10805,87 @@ x 37
 y 30
 elevation 4223
 end
-arch hills
+arch desert
 x 37
 y 31
 elevation 4550
 end
-arch mountain
+arch desert
 x 37
 y 32
 elevation 5249
 end
-arch mountain
+arch desert
 x 37
 y 33
 elevation 6249
 end
-arch mountain
+arch desert
 x 37
 y 34
 elevation 7719
 end
-arch mountain
+arch desert
 x 37
 y 35
 elevation 8900
 end
-arch mountain
+arch desert
 x 37
 y 36
 elevation 8918
 end
-arch mountain
+arch desert
 x 37
 y 37
 elevation 8095
 end
-arch mountain
+arch desert
 x 37
 y 38
 elevation 7303
 end
-arch mountain
+arch desert
 x 37
 y 39
 elevation 7139
 end
-arch mountain
+arch desert
 x 37
 y 40
 elevation 7453
 end
-arch mountain
+arch desert
 x 37
 y 41
 elevation 8450
 end
-arch mountain
+arch desert
 x 37
 y 42
 elevation 7586
 end
-arch mountain
+arch desert
 x 37
 y 43
 elevation 6914
 end
-arch mountain
+arch beach
 x 37
 y 44
 elevation 5534
 end
-arch steppe
+arch beach
 x 37
 y 45
 elevation 4894
 end
-arch steppe
+arch beach
 x 37
 y 46
 elevation 3514
 end
-arch jungle_1
+arch beach
 x 37
 y 47
 elevation 2895
@@ -9703,156 +10895,188 @@ x 37
 y 48
 elevation 2499
 end
-arch steppe
+arch beach
 x 37
 y 49
 elevation 4369
 end
-arch mountain
+arch desert
 x 38
 elevation 6404
 end
-arch mountain
+arch desert
 x 38
 y 1
 elevation 5629
 end
-arch mountain
+arch desert
 x 38
 y 2
 elevation 5189
 end
-arch mountain
+arch desert
 x 38
 y 3
 elevation 5475
 end
-arch mountain
+arch cyanmarble
 x 38
 y 4
 elevation 5476
 end
-arch mountain
+arch dkbluemarblewall_4
+x 38
+y 4
+end
+arch cyanmarble
 x 38
 y 5
 elevation 6441
 end
-arch mountain
+arch cyanmarble
 x 38
 y 6
 elevation 6299
 end
-arch mountain
+arch chair_bc_2.2
+x 38
+y 6
+end
+arch cyanmarble
 x 38
 y 7
 elevation 5995
 end
-arch mountain
+arch chair_bc_2.2
+x 38
+y 7
+end
+arch cyanmarble
 x 38
 y 8
 elevation 5248
 end
-arch mountain
+arch cyanmarble
 x 38
 y 9
 elevation 5002
 end
-arch mountain
+arch dkbluemarblewall_1_4
+x 38
+y 9
+end
+arch cyanmarble
 x 38
 y 10
 elevation 5391
 end
-arch mountain
+arch cyanmarble
 x 38
 y 11
 elevation 6502
 end
-arch mountain
+arch cyanmarble
 x 38
 y 12
 elevation 7205
 end
-arch mountain
+arch cyanmarble
 x 38
 y 13
 elevation 6981
 end
-arch mountain
+arch cyanmarble
 x 38
 y 14
 elevation 5638
 end
-arch mountain
+arch dkbluemarblewall_4
+x 38
+y 14
+end
+arch cyanmarble
 x 38
 y 15
 elevation 5021
 end
-arch hills
+arch cyanmarble
 x 38
 y 16
 elevation 4307
 end
-arch hills
+arch chair_bc_2.2
+x 38
+y 16
+end
+arch cyanmarble
 x 38
 y 17
 elevation 4010
 end
-arch hills
+arch chair_bc_2.2
+x 38
+y 17
+end
+arch cyanmarble
 x 38
 y 18
 elevation 4897
 end
-arch hills
+arch cyanmarble
 x 38
 y 19
 elevation 4929
 end
-arch mountain
+arch dkbluemarblewall_4
+x 38
+y 19
+end
+arch desert
 x 38
 y 20
 elevation 5019
 end
-arch mountain
+arch desert
 x 38
 y 21
 elevation 6084
 end
-arch mountain
+arch desert
 x 38
 y 22
 elevation 6164
 end
-arch hills
+arch cobblestones3
 x 38
 y 23
 elevation 3819
 end
-arch hills
+arch cobblestones3
 x 38
 y 24
 elevation 2370
 end
-arch hills
+arch desert
 x 38
 y 25
 elevation 4512
 end
-arch mountain
+arch desert
 x 38
 y 26
 elevation 5882
 end
-arch mountain
+arch desert
 x 38
 y 27
 elevation 6613
 end
-arch mountain
+arch desert
 x 38
 y 28
 elevation 6589
 end
-arch mountain
+arch desert
 x 38
 y 29
 elevation 5990
@@ -9862,42 +11086,42 @@ x 38
 y 30
 elevation 4952
 end
-arch mountain
+arch desert
 x 38
 y 31
 elevation 5315
 end
-arch mountain
+arch desert
 x 38
 y 32
 elevation 6243
 end
-arch mountain
+arch desert
 x 38
 y 33
 elevation 5986
 end
-arch mountain
+arch desert
 x 38
 y 34
 elevation 8998
 end
-arch mountain2
+arch desert
 x 38
 y 35
 elevation 10344
 end
-arch mountain2
+arch desert
 x 38
 y 36
 elevation 10329
 end
-arch mountain2
+arch desert
 x 38
 y 37
 elevation 9187
 end
-arch mountain
+arch desert
 x 38
 y 38
 elevation 6729
@@ -9907,61 +11131,61 @@ x 38
 y 39
 elevation 4030
 end
-arch mountain
+arch desert
 x 38
 y 40
 elevation 7458
 end
-arch mountain
+arch desert
 x 38
 y 41
 elevation 8455
 end
-arch mountain
+arch desert
 x 38
 y 42
 elevation 8410
 end
-arch mountain
+arch desert
 x 38
 y 43
 elevation 7250
 end
-arch mountain
+arch desert
 x 38
 y 44
 elevation 5639
 end
-arch steppe
+arch beach
 x 38
 y 45
 elevation 4159
 end
-arch steppe
+arch beach
 x 38
 y 46
 elevation 3670
 end
-arch steppe
+arch beach
 x 38
 y 47
 elevation 4014
 end
-arch steppe
+arch beach
 x 38
 y 48
 elevation 4865
 end
-arch mountain
+arch beach
 x 38
 y 49
 elevation 5516
 end
-arch mountain
+arch desert
 x 39
 elevation 7437
 end
-arch hills
+arch desert
 x 39
 y 1
 elevation 4159
@@ -9971,116 +11195,176 @@ x 39
 y 2
 elevation 4972
 end
-arch mountain
+arch desert
 x 39
 y 3
 elevation 6267
 end
-arch mountain
+arch cyanmarble
 x 39
 y 4
 elevation 6857
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 4
+end
+arch cyanmarble
 x 39
 y 5
 elevation 7190
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 5
+end
+arch cyanmarble
 x 39
 y 6
 elevation 7096
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 6
+end
+arch cyanmarble
 x 39
 y 7
 elevation 6382
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 7
+end
+arch cyanmarble
 x 39
 y 8
 elevation 5266
 end
-arch hills
+arch dkbluemarblewall_4
+x 39
+y 8
+end
+arch cyanmarble
 x 39
 y 9
 elevation 3396
 end
-arch hills
+arch dkbluemarblewall_4
+x 39
+y 9
+end
+arch cyanmarble
 x 39
 y 10
 elevation 4025
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 10
+end
+arch cyanmarble
 x 39
 y 11
 elevation 5190
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 11
+end
+arch cyanmarble
 x 39
 y 12
 elevation 6019
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 12
+end
+arch cyanmarble
 x 39
 y 13
 elevation 5687
 end
-arch hills
+arch dkbluemarblewall_4
+x 39
+y 13
+end
+arch cyanmarble
 x 39
 y 14
 elevation 4340
 end
-arch steppe
+arch dkbluemarblewall_4
+x 39
+y 14
+end
+arch cyanmarble
 x 39
 y 15
 elevation 3847
 end
-arch grass_only
+arch dkbluemarblewall_4
+x 39
+y 15
+end
+arch cyanmarble
 x 39
 y 16
 elevation 2813
 end
-arch tree3
+arch dkbluemarblewall_4
 x 39
 y 16
 end
-arch hills
+arch cyanmarble
 x 39
 y 17
 elevation 3861
 end
-arch steppe
+arch dkbluemarblewall_4
+x 39
+y 17
+end
+arch cyanmarble
 x 39
 y 18
 elevation 4239
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 18
+end
+arch cyanmarble
 x 39
 y 19
 elevation 5551
 end
-arch mountain
+arch dkbluemarblewall_4
+x 39
+y 19
+end
+arch desert
 x 39
 y 20
 elevation 6141
 end
-arch mountain
+arch desert
 x 39
 y 21
 elevation 6580
 end
-arch mountain
+arch desert
 x 39
 y 22
 elevation 6420
 end
-arch mountain
+arch cobblestones3
 x 39
 y 23
 elevation 5640
 end
-arch hills
+arch cobblestones3
 x 39
 y 24
 elevation 4839
@@ -10090,97 +11374,97 @@ x 39
 y 25
 elevation 4534
 end
-arch mountain
+arch desert
 x 39
 y 26
 elevation 5223
 end
-arch mountain
+arch desert
 x 39
 y 27
 elevation 6102
 end
-arch mountain
+arch desert
 x 39
 y 28
 elevation 6609
 end
-arch mountain
+arch desert
 x 39
 y 29
 elevation 6445
 end
-arch mountain
+arch desert
 x 39
 y 30
 elevation 6339
 end
-arch mountain
+arch desert
 x 39
 y 31
 elevation 6516
 end
-arch mountain
+arch desert
 x 39
 y 32
 elevation 6890
 end
-arch mountain
+arch desert
 x 39
 y 33
 elevation 7884
 end
-arch mountain2
+arch desert
 x 39
 y 34
 elevation 9086
 end
-arch mountain2
+arch desert
 x 39
 y 35
 elevation 9906
 end
-arch mountain2
+arch desert
 x 39
 y 36
 elevation 10308
 end
-arch mountain
+arch desert
 x 39
 y 37
 elevation 8997
 end
-arch mountain
+arch desert
 x 39
 y 38
 elevation 6646
 end
-arch mountain
+arch desert
 x 39
 y 39
 elevation 5350
 end
-arch mountain
+arch desert
 x 39
 y 40
 elevation 6543
 end
-arch mountain
+arch desert
 x 39
 y 41
 elevation 7937
 end
-arch mountain
+arch desert
 x 39
 y 42
 elevation 7799
 end
-arch mountain
+arch beach
 x 39
 y 43
 elevation 6541
 end
-arch steppe
+arch beach
 x 39
 y 44
 elevation 4652
@@ -10195,56 +11479,56 @@ x 39
 y 46
 elevation 1611
 end
-arch steppe
+arch beach
 x 39
 y 47
 elevation 4702
 end
-arch mountain
+arch beach
 x 39
 y 48
 elevation 6207
 end
-arch mountain
+arch beach
 x 39
 y 49
 elevation 6651
 end
-arch mountain
+arch desert
 x 40
 elevation 8169
 end
-arch mountain
+arch desert
 x 40
 y 1
 elevation 7344
 end
-arch mountain
+arch desert
 x 40
 y 2
 elevation 6476
 end
-arch mountain
+arch desert
 x 40
 y 3
 elevation 6518
 end
-arch mountain
+arch desert
 x 40
 y 4
 elevation 6958
 end
-arch mountain
+arch desert
 x 40
 y 5
 elevation 7346
 end
-arch mountain
+arch desert
 x 40
 y 6
 elevation 7125
 end
-arch mountain
+arch desert
 x 40
 y 7
 elevation 6199
@@ -10304,32 +11588,32 @@ x 40
 y 18
 elevation 4893
 end
-arch mountain
+arch desert
 x 40
 y 19
 elevation 5735
 end
-arch mountain
+arch desert
 x 40
 y 20
 elevation 6092
 end
-arch mountain
+arch desert
 x 40
 y 21
 elevation 6337
 end
-arch mountain
+arch desert
 x 40
 y 22
 elevation 6518
 end
-arch mountain
+arch cobblestones3
 x 40
 y 23
 elevation 6430
 end
-arch mountain
+arch cobblestones3
 x 40
 y 24
 elevation 5761
@@ -10349,52 +11633,52 @@ x 40
 y 27
 elevation 4667
 end
-arch mountain
+arch desert
 x 40
 y 28
 elevation 6380
 end
-arch mountain
+arch desert
 x 40
 y 29
 elevation 6750
 end
-arch mountain
+arch desert
 x 40
 y 30
 elevation 6603
 end
-arch mountain
+arch desert
 x 40
 y 31
 elevation 6438
 end
-arch mountain
+arch desert
 x 40
 y 32
 elevation 6573
 end
-arch mountain
+arch desert
 x 40
 y 33
 elevation 7255
 end
-arch mountain
+arch desert
 x 40
 y 34
 elevation 8176
 end
-arch mountain2
+arch desert
 x 40
 y 35
 elevation 9109
 end
-arch mountain2
+arch desert
 x 40
 y 36
 elevation 9750
 end
-arch mountain
+arch desert
 x 40
 y 37
 elevation 8598
@@ -10409,27 +11693,27 @@ x 40
 y 39
 elevation 3513
 end
-arch mountain
+arch desert
 x 40
 y 40
 elevation 5301
 end
-arch mountain
+arch desert
 x 40
 y 41
 elevation 6885
 end
-arch mountain
+arch beach
 x 40
 y 42
 elevation 6434
 end
-arch steppe
+arch beach
 x 40
 y 43
 elevation 3170
 end
-arch steppe
+arch beach
 x 40
 y 44
 elevation 3717
@@ -10444,71 +11728,71 @@ x 40
 y 46
 elevation 2715
 end
-arch mountain
+arch beach
 x 40
 y 47
 elevation 5339
 end
-arch mountain
+arch beach
 x 40
 y 48
 elevation 6764
 end
-arch mountain
+arch beach
 x 40
 y 49
 elevation 7122
 end
-arch mountain
+arch desert
 x 41
 elevation 8075
 end
-arch mountain
+arch desert
 x 41
 y 1
 elevation 7817
 end
-arch mountain
+arch desert
 x 41
 y 2
 elevation 7432
 end
-arch hills_rocky
+arch desert
 x 41
 y 3
 elevation 4884
 end
-arch mountain
+arch desert
 x 41
 y 4
 elevation 6156
 end
-arch mountain
+arch desert
 x 41
 y 5
 elevation 7018
 end
-arch mountain
+arch desert
 x 41
 y 6
 elevation 6520
 end
-arch mountain
+arch desert
 x 41
 y 7
 elevation 5712
 end
-arch steppe
+arch desert
 x 41
 y 8
 elevation 4418
 end
-arch hills
+arch desert
 x 41
 y 9
 elevation 2879
 end
-arch woods_3
+arch desert
 x 41
 y 10
 elevation 1247
@@ -10553,12 +11837,12 @@ x 41
 y 18
 elevation 4521
 end
-arch mountain
+arch desert
 x 41
 y 19
 elevation 5451
 end
-arch mountain
+arch desert
 x 41
 y 20
 elevation 5466
@@ -10568,57 +11852,57 @@ x 41
 y 21
 elevation 4366
 end
-arch mountain
+arch desert
 x 41
 y 22
 elevation 6058
 end
-arch mountain
+arch cobblestones3
 x 41
 y 23
 elevation 6611
 end
-arch mountain
+arch cobblestones3
 x 41
 y 24
 elevation 6112
 end
-arch mountain
+arch desert
 x 41
 y 25
 elevation 5038
 end
-arch mountain
+arch desert
 x 41
 y 26
 elevation 5025
 end
-arch mountain
+arch desert
 x 41
 y 27
 elevation 5166
 end
-arch mountain
+arch desert
 x 41
 y 28
 elevation 6314
 end
-arch mountain
+arch desert
 x 41
 y 29
 elevation 6488
 end
-arch mountain
+arch desert
 x 41
 y 30
 elevation 5902
 end
-arch mountain
+arch desert
 x 41
 y 31
 elevation 5423
 end
-arch mountain
+arch desert
 x 41
 y 32
 elevation 5154
@@ -10628,151 +11912,151 @@ x 41
 y 33
 elevation 3147
 end
-arch mountain
+arch desert
 x 41
 y 34
 elevation 7003
 end
-arch mountain
+arch desert
 x 41
 y 35
 elevation 8649
 end
-arch mountain2
+arch desert
 x 41
 y 36
 elevation 9142
 end
-arch mountain
+arch desert
 x 41
 y 37
 elevation 8123
 end
-arch mountain
+arch desert
 x 41
 y 38
 elevation 6455
 end
-arch mountain
+arch desert
 x 41
 y 39
 elevation 5404
 end
-arch mountain
+arch desert
 x 41
 y 40
 elevation 5437
 end
-arch mountain
+arch desert
 x 41
 y 41
 elevation 5608
 end
-arch steppe
+arch beach
 x 41
 y 42
 elevation 4877
 end
-arch steppe
+arch beach
 x 41
 y 43
 elevation 3646
 end
-arch steppe
+arch beach
 x 41
 y 44
 elevation 3650
 end
-arch steppe
+arch beach
 x 41
 y 45
 elevation 3673
 end
-arch steppe
+arch beach
 x 41
 y 46
 elevation 4805
 end
-arch mountain
+arch beach
 x 41
 y 47
 elevation 5897
 end
-arch mountain
+arch beach
 x 41
 y 48
 elevation 6564
 end
-arch mountain
+arch beach
 x 41
 y 49
 elevation 6737
 end
-arch mountain
+arch desert
 x 42
 elevation 5593
 end
-arch mountain
+arch desert
 x 42
 y 1
 elevation 7636
 end
-arch mountain
+arch desert
 x 42
 y 2
 elevation 7942
 end
-arch mountain
+arch desert
 x 42
 y 3
 elevation 7776
 end
-arch mountain
+arch desert
 x 42
 y 4
 elevation 7386
 end
-arch mountain
+arch desert
 x 42
 y 5
 elevation 6816
 end
-arch mountain
+arch desert
 x 42
 y 6
 elevation 5461
 end
-arch mountain
+arch desert
 x 42
 y 7
 elevation 5615
 end
-arch steppe
+arch desert
 x 42
 y 8
 elevation 4787
 end
-arch woods_3
+arch desert
 x 42
 y 9
 elevation 2969
 end
-arch hills
+arch desert
 x 42
 y 10
 elevation 2754
 end
-arch woods_3
+arch desert
 x 42
 y 11
 elevation 2651
 end
-arch hills
+arch desert
 x 42
 y 12
 elevation 2560
 end
-arch woods_3
+arch desert
 x 42
 y 13
 elevation 1781
@@ -10782,7 +12066,7 @@ x 42
 y 14
 elevation 1390
 end
-arch woods_3
+arch desert
 x 42
 y 15
 elevation 1089
@@ -10817,17 +12101,17 @@ x 42
 y 21
 elevation 3476
 end
-arch mountain
+arch desert
 x 42
 y 22
 elevation 5748
 end
-arch mountain
+arch cobblestones3
 x 42
 y 23
 elevation 6791
 end
-arch mountain
+arch cobblestones3
 x 42
 y 24
 elevation 6632
@@ -10837,22 +12121,22 @@ x 42
 y 25
 elevation 4635
 end
-arch mountain
+arch desert
 x 42
 y 26
 elevation 5343
 end
-arch mountain
+arch desert
 x 42
 y 27
 elevation 6420
 end
-arch mountain
+arch desert
 x 42
 y 28
 elevation 6397
 end
-arch mountain
+arch desert
 x 42
 y 29
 elevation 6221
@@ -10877,27 +12161,27 @@ x 42
 y 33
 elevation 3867
 end
-arch mountain
+arch desert
 x 42
 y 34
 elevation 5568
 end
-arch mountain
+arch desert
 x 42
 y 35
 elevation 7772
 end
-arch mountain
+arch desert
 x 42
 y 36
 elevation 8543
 end
-arch mountain
+arch desert
 x 42
 y 37
 elevation 7679
 end
-arch mountain
+arch desert
 x 42
 y 38
 elevation 6295
@@ -10922,81 +12206,81 @@ x 42
 y 42
 elevation 3704
 end
-arch steppe
+arch beach
 x 42
 y 43
 elevation 3166
 end
-arch steppe
+arch beach
 x 42
 y 44
 elevation 4130
 end
-arch mountain
+arch beach
 x 42
 y 45
 elevation 5041
 end
-arch mountain
+arch beach
 x 42
 y 46
 elevation 5668
 end
-arch mountain
+arch beach
 x 42
 y 47
 elevation 5814
 end
-arch mountain
+arch beach
 x 42
 y 48
 elevation 5515
 end
-arch mountain
+arch beach
 x 42
 y 49
 elevation 5402
 end
-arch mountain
+arch desert
 x 43
 elevation 6586
 end
-arch mountain
+arch desert
 x 43
 y 1
 elevation 7742
 end
-arch mountain
+arch desert
 x 43
 y 2
 elevation 8555
 end
-arch mountain
+arch desert
 x 43
 y 3
 elevation 8739
 end
-arch mountain
+arch desert
 x 43
 y 4
 elevation 8356
 end
-arch mountain
+arch desert
 x 43
 y 5
 elevation 7277
 end
-arch mountain
+arch desert
 x 43
 y 6
 elevation 5211
 end
-arch mountain
+arch desert
 x 43
 y 7
 elevation 5917
 end
-arch mountain
+arch desert
 x 43
 y 8
 elevation 5111
@@ -11006,22 +12290,22 @@ x 43
 y 9
 elevation 3970
 end
-arch hills
+arch desert
 x 43
 y 10
 elevation 3138
 end
-arch hills
+arch desert
 x 43
 y 11
 elevation 1452
 end
-arch woods_3
+arch desert
 x 43
 y 12
 elevation 2091
 end
-arch hills
+arch desert
 x 43
 y 13
 elevation 1505
@@ -11061,52 +12345,52 @@ x 43
 y 20
 elevation 4339
 end
-arch mountain
+arch desert
 x 43
 y 21
 elevation 5469
 end
-arch mountain
+arch desert
 x 43
 y 22
 elevation 6617
 end
-arch mountain
+arch cobblestones3
 x 43
 y 23
 elevation 7329
 end
-arch mountain
+arch cobblestones3
 x 43
 y 24
 elevation 7027
 end
-arch mountain
+arch desert
 x 43
 y 25
 elevation 7458
 end
-arch mountain
+arch desert
 x 43
 y 26
 elevation 7433
 end
-arch mountain
+arch desert
 x 43
 y 27
 elevation 7231
 end
-arch mountain
+arch desert
 x 43
 y 28
 elevation 6802
 end
-arch mountain
+arch desert
 x 43
 y 29
 elevation 6127
 end
-arch steppe
+arch desert
 x 43
 y 30
 elevation 4843
@@ -11131,22 +12415,22 @@ x 43
 y 34
 elevation 4339
 end
-arch mountain
+arch desert
 x 43
 y 35
 elevation 6535
 end
-arch mountain
+arch desert
 x 43
 y 36
 elevation 7663
 end
-arch mountain
+arch desert
 x 43
 y 37
 elevation 7237
 end
-arch mountain
+arch desert
 x 43
 y 38
 elevation 5129
@@ -11176,76 +12460,76 @@ x 43
 y 43
 elevation 3383
 end
-arch hills_rocky
+arch beach
 x 43
 y 44
 elevation 4111
 end
-arch mountain
+arch beach
 x 43
 y 45
 elevation 5218
 end
-arch mountain
+arch beach
 x 43
 y 46
 elevation 5880
 end
-arch hills_rocky
+arch beach
 x 43
 y 47
 elevation 4170
 end
-arch hills_rocky
+arch beach
 x 43
 y 48
 elevation 3831
 end
-arch steppe
+arch beach
 x 43
 y 49
 elevation 4874
 end
-arch mountain
+arch desert
 x 44
 elevation 7690
 end
-arch mountain
+arch desert
 x 44
 y 1
 elevation 8113
 end
-arch mountain
+arch desert
 x 44
 y 2
 elevation 8662
 end
-arch mountain2
+arch desert
 x 44
 y 3
 elevation 9061
 end
-arch mountain
+arch desert
 x 44
 y 4
 elevation 8942
 end
-arch mountain
+arch desert
 x 44
 y 5
 elevation 8065
 end
-arch mountain
+arch desert
 x 44
 y 6
 elevation 7003
 end
-arch mountain
+arch desert
 x 44
 y 7
 elevation 6166
 end
-arch mountain
+arch desert
 x 44
 y 8
 elevation 5236
@@ -11270,7 +12554,7 @@ x 44
 y 12
 elevation 3235
 end
-arch steppe
+arch desert
 x 44
 y 13
 elevation 3094
@@ -11310,52 +12594,52 @@ x 44
 y 20
 elevation 3887
 end
-arch mountain
+arch desert
 x 44
 y 21
 elevation 5657
 end
-arch mountain
+arch desert
 x 44
 y 22
 elevation 7145
 end
-arch mountain
+arch cobblestones3
 x 44
 y 23
 elevation 7944
 end
-arch mountain
+arch cobblestones3
 x 44
 y 24
 elevation 8205
 end
-arch mountain
+arch desert
 x 44
 y 25
 elevation 8248
 end
-arch mountain
+arch desert
 x 44
 y 26
 elevation 8091
 end
-arch mountain
+arch desert
 x 44
 y 27
 elevation 7415
 end
-arch mountain
+arch desert
 x 44
 y 28
 elevation 6608
 end
-arch mountain
+arch desert
 x 44
 y 29
 elevation 5902
 end
-arch mountain
+arch desert
 x 44
 y 30
 elevation 5015
@@ -11385,17 +12669,17 @@ x 44
 y 35
 elevation 4597
 end
-arch mountain
+arch desert
 x 44
 y 36
 elevation 6928
 end
-arch mountain
+arch desert
 x 44
 y 37
 elevation 6544
 end
-arch mountain
+arch desert
 x 44
 y 38
 elevation 5233
@@ -11430,66 +12714,66 @@ x 44
 y 44
 elevation 2755
 end
-arch hills_rocky
+arch beach
 x 44
 y 45
 elevation 4998
 end
-arch mountain
+arch beach
 x 44
 y 46
 elevation 5481
 end
-arch steppe
+arch beach
 x 44
 y 47
 elevation 4895
 end
-arch steppe
+arch beach
 x 44
 y 48
 elevation 4754
 end
-arch mountain
+arch beach
 x 44
 y 49
 elevation 5132
 end
-arch mountain
+arch desert
 x 45
 elevation 7987
 end
-arch mountain
+arch desert
 x 45
 y 1
 elevation 7935
 end
-arch mountain
+arch desert
 x 45
 y 2
 elevation 8086
 end
-arch mountain
+arch desert
 x 45
 y 3
 elevation 8658
 end
-arch mountain2
+arch desert
 x 45
 y 4
 elevation 9053
 end
-arch mountain
+arch desert
 x 45
 y 5
 elevation 8534
 end
-arch mountain
+arch desert
 x 45
 y 6
 elevation 7396
 end
-arch mountain
+arch desert
 x 45
 y 7
 elevation 5989
@@ -11519,7 +12803,7 @@ x 45
 y 12
 elevation 4789
 end
-arch hills
+arch desert
 x 45
 y 13
 elevation 3733
@@ -11559,42 +12843,42 @@ x 45
 y 20
 elevation 3683
 end
-arch mountain
+arch desert
 x 45
 y 21
 elevation 5323
 end
-arch mountain
+arch desert
 x 45
 y 22
 elevation 6788
 end
-arch mountain
+arch cobblestones3
 x 45
 y 23
 elevation 7794
 end
-arch mountain
+arch cobblestones3
 x 45
 y 24
 elevation 7948
 end
-arch mountain
+arch desert
 x 45
 y 25
 elevation 7430
 end
-arch mountain
+arch desert
 x 45
 y 26
 elevation 6785
 end
-arch mountain
+arch desert
 x 45
 y 27
 elevation 6059
 end
-arch mountain
+arch desert
 x 45
 y 28
 elevation 5544
@@ -11629,17 +12913,17 @@ x 45
 y 34
 elevation 3468
 end
-arch mountain
+arch desert
 x 45
 y 35
 elevation 5219
 end
-arch mountain
+arch desert
 x 45
 y 36
 elevation 6227
 end
-arch mountain
+arch desert
 x 45
 y 37
 elevation 5932
@@ -11679,7 +12963,7 @@ x 45
 y 44
 elevation 3561
 end
-arch steppe
+arch beach
 x 45
 y 45
 elevation 4505
@@ -11689,56 +12973,56 @@ x 45
 y 46
 elevation 4428
 end
-arch hills_rocky
+arch beach
 x 45
 y 47
 elevation 4077
 end
-arch steppe
+arch beach
 x 45
 y 48
 elevation 4188
 end
-arch hills_rocky
+arch beach
 x 45
 y 49
 elevation 4823
 end
-arch mountain
+arch desert
 x 46
 elevation 7889
 end
-arch mountain
+arch desert
 x 46
 y 1
 elevation 6996
 end
-arch mountain
+arch desert
 x 46
 y 2
 elevation 6302
 end
-arch mountain
+arch desert
 x 46
 y 3
 elevation 7539
 end
-arch mountain
+arch desert
 x 46
 y 4
 elevation 8506
 end
-arch mountain
+arch desert
 x 46
 y 5
 elevation 8311
 end
-arch mountain
+arch desert
 x 46
 y 6
 elevation 7160
 end
-arch mountain
+arch desert
 x 46
 y 7
 elevation 5547
@@ -11753,27 +13037,27 @@ x 46
 y 9
 elevation 2292
 end
-arch mountain
+arch desert
 x 46
 y 10
 elevation 5047
 end
-arch mountain
+arch desert
 x 46
 y 11
 elevation 5840
 end
-arch mountain
+arch desert
 x 46
 y 12
 elevation 6024
 end
-arch mountain
+arch desert
 x 46
 y 13
 elevation 5840
 end
-arch mountain
+arch desert
 x 46
 y 14
 elevation 5289
@@ -11813,22 +13097,22 @@ x 46
 y 21
 elevation 4266
 end
-arch mountain
+arch desert
 x 46
 y 22
 elevation 5726
 end
-arch mountain
+arch cobblestones3
 x 46
 y 23
 elevation 6905
 end
-arch mountain
+arch cobblestones3
 x 46
 y 24
 elevation 7007
 end
-arch mountain
+arch desert
 x 46
 y 25
 elevation 5003
@@ -11883,12 +13167,12 @@ x 46
 y 35
 elevation 4960
 end
-arch mountain
+arch desert
 x 46
 y 36
 elevation 5395
 end
-arch mountain
+arch desert
 x 46
 y 37
 elevation 5034
@@ -11928,7 +13212,7 @@ x 46
 y 44
 elevation 4159
 end
-arch steppe
+arch beach
 x 46
 y 45
 elevation 4611
@@ -11943,51 +13227,51 @@ x 46
 y 47
 elevation 239
 end
-arch hills_rocky
+arch beach
 x 46
 y 48
 elevation 3109
 end
-arch hills_rocky
+arch beach
 x 46
 y 49
 elevation 3581
 end
-arch mountain
+arch desert
 x 47
 elevation 7456
 end
-arch mountain
+arch desert
 x 47
 y 1
 elevation 6388
 end
-arch mountain
+arch desert
 x 47
 y 2
 elevation 6074
 end
-arch mountain
+arch desert
 x 47
 y 3
 elevation 6528
 end
-arch mountain
+arch desert
 x 47
 y 4
 elevation 7270
 end
-arch mountain
+arch desert
 x 47
 y 5
 elevation 7302
 end
-arch mountain
+arch desert
 x 47
 y 6
 elevation 6502
 end
-arch mountain
+arch desert
 x 47
 y 7
 elevation 5373
@@ -12002,37 +13286,37 @@ x 47
 y 9
 elevation 4806
 end
-arch mountain
+arch desert
 x 47
 y 10
 elevation 5527
 end
-arch mountain
+arch desert
 x 47
 y 11
 elevation 6321
 end
-arch mountain
+arch desert
 x 47
 y 12
 elevation 6774
 end
-arch mountain
+arch desert
 x 47
 y 13
 elevation 6490
 end
-arch mountain
+arch desert
 x 47
 y 14
 elevation 5689
 end
-arch mountain
+arch desert
 x 47
 y 15
 elevation 5212
 end
-arch mountain
+arch desert
 x 47
 y 16
 elevation 5020
@@ -12067,17 +13351,17 @@ x 47
 y 22
 elevation 4488
 end
-arch mountain
+arch cobblestones3
 x 47
 y 23
 elevation 5970
 end
-arch mountain
+arch cobblestones3
 x 47
 y 24
 elevation 6545
 end
-arch mountain
+arch desert
 x 47
 y 25
 elevation 5119
@@ -12177,17 +13461,17 @@ x 47
 y 44
 elevation 4977
 end
-arch mountain
+arch beach
 x 47
 y 45
 elevation 5095
 end
-arch hills_rocky
+arch beach
 x 47
 y 46
 elevation 4312
 end
-arch steppe
+arch beach
 x 47
 y 47
 elevation 3197
@@ -12202,31 +13486,31 @@ x 47
 y 49
 elevation 1243
 end
-arch mountain
+arch desert
 x 48
 elevation 6324
 end
-arch mountain
+arch desert
 x 48
 y 1
 elevation 5433
 end
-arch steppe
+arch desert
 x 48
 y 2
 elevation 4540
 end
-arch hills_rocky
+arch desert
 x 48
 y 3
 elevation 4250
 end
-arch mountain
+arch desert
 x 48
 y 4
 elevation 5860
 end
-arch mountain
+arch desert
 x 48
 y 5
 elevation 6075
@@ -12246,32 +13530,32 @@ x 48
 y 8
 elevation 4897
 end
-arch mountain
+arch desert
 x 48
 y 9
 elevation 5301
 end
-arch mountain
+arch desert
 x 48
 y 10
 elevation 5666
 end
-arch mountain
+arch desert
 x 48
 y 11
 elevation 6065
 end
-arch mountain
+arch desert
 x 48
 y 12
 elevation 6450
 end
-arch mountain
+arch desert
 x 48
 y 13
 elevation 6377
 end
-arch steppe
+arch desert
 x 48
 y 14
 elevation 4887
@@ -12316,27 +13600,27 @@ x 48
 y 22
 elevation 2238
 end
-arch mountain
+arch cobblestones3
 x 48
 y 23
 elevation 5557
 end
-arch mountain
+arch cobblestones3
 x 48
 y 24
 elevation 6784
 end
-arch mountain
+arch desert
 x 48
 y 25
 elevation 6944
 end
-arch mountain
+arch desert
 x 48
 y 26
 elevation 6473
 end
-arch mountain
+arch desert
 x 48
 y 27
 elevation 5666
@@ -12426,17 +13710,17 @@ x 48
 y 44
 elevation 4941
 end
-arch mountain
+arch beach
 x 48
 y 45
 elevation 5522
 end
-arch mountain
+arch beach
 x 48
 y 46
 elevation 5237
 end
-arch hills_rocky
+arch beach
 x 48
 y 47
 elevation 4015
@@ -12470,12 +13754,12 @@ x 49
 y 3
 elevation 4627
 end
-arch mountain
+arch desert
 x 49
 y 4
 elevation 5109
 end
-arch mountain
+arch desert
 x 49
 y 5
 elevation 5017
@@ -12510,27 +13794,27 @@ x 49
 y 11
 elevation 4544
 end
-arch mountain
+arch desert
 x 49
 y 12
 elevation 5150
 end
-arch mountain
+arch desert
 x 49
 y 13
 elevation 5972
 end
-arch mountain
+arch desert
 x 49
 y 14
 elevation 6031
 end
-arch mountain
+arch desert
 x 49
 y 15
 elevation 5707
 end
-arch mountain
+arch desert
 x 49
 y 16
 elevation 5055
@@ -12565,32 +13849,32 @@ x 49
 y 22
 elevation 3835
 end
-arch mountain
+arch cobblestones3
 x 49
 y 23
 elevation 5166
 end
-arch mountain
+arch cobblestones3
 x 49
 y 24
 elevation 6798
 end
-arch mountain
+arch desert
 x 49
 y 25
 elevation 7567
 end
-arch mountain
+arch desert
 x 49
 y 26
 elevation 7567
 end
-arch mountain
+arch desert
 x 49
 y 27
 elevation 6827
 end
-arch mountain
+arch desert
 x 49
 y 28
 elevation 5375
@@ -12675,17 +13959,17 @@ x 49
 y 44
 elevation 4115
 end
-arch mountain
+arch beach
 x 49
 y 45
 elevation 5065
 end
-arch mountain
+arch beach
 x 49
 y 46
 elevation 5088
 end
-arch steppe
+arch beach
 x 49
 y 47
 elevation 4048
