@@ -1,4 +1,5 @@
 Object woods
+name flowers
 face woods_1.111
 color_fg green
 type 67

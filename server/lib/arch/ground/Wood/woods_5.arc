@@ -1,5 +1,5 @@
 Object woods5
-name woods
+name flowers
 face woods_5.111
 type 67
 race /terrain/forest

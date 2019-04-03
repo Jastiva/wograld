@@ -1,5 +1,5 @@
 Object woods4
-name woods4
+name flowers
 face woods_4.111
 color_fg green
 type 67
