@@ -1,5 +1,6 @@
 Object cforest4
 face cforest4.111
+name pine sapling
 color_fg green
 type 67
 race /terrain/forest

@@ -1,5 +1,6 @@
 Object forestsparse
 face forestsparse.111
+name fern
 type 67
 race /terrain/forest
 walk_on 1

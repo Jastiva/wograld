@@ -1,5 +1,6 @@
 Object fernsdense
 face fernsdense.111
+name fiddleheads
 type 67
 race /terrain/forest
 walk_on 1
