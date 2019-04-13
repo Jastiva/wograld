@@ -3,7 +3,7 @@ name world_113_112
 width 50
 height 50
 msg
-Modified: 2019-01-15 lori
+Modified: 2019-04-03 lori
 endmsg
 outdoor 1
 tile_path_1 world_113_111
@@ -67,7 +67,7 @@ arch mountain4
 y 13
 elevation 14814
 end
-arch mountain4
+arch snowcliff1
 y 14
 elevation 13331
 end
@@ -83,11 +83,11 @@ arch mountain4
 y 17
 elevation 12996
 end
-arch mountain2
+arch snow
 y 18
 elevation 9926
 end
-arch mountain2
+arch snow
 y 19
 elevation 11915
 end
@@ -99,15 +99,15 @@ arch snow
 y 21
 elevation 11523
 end
-arch snow
+arch snow2
 y 22
 elevation 11687
 end
-arch snow
+arch snow2
 y 23
 elevation 12868
 end
-arch mountain4
+arch snow2
 y 24
 elevation 13443
 end
@@ -123,7 +123,7 @@ arch snow
 y 27
 elevation 11268
 end
-arch snow
+arch snow2
 y 28
 elevation 8490
 end
@@ -280,7 +280,7 @@ x 1
 y 13
 elevation 13899
 end
-arch mountain4
+arch snowcliff1
 x 1
 y 14
 elevation 12992
@@ -300,17 +300,17 @@ x 1
 y 17
 elevation 12081
 end
-arch mountain4
+arch snow
 x 1
 y 18
 elevation 12160
 end
-arch mountain2
+arch snow
 x 1
 y 19
 elevation 11946
 end
-arch mountain2
+arch snow2
 x 1
 y 20
 elevation 9660
@@ -320,12 +320,12 @@ x 1
 y 21
 elevation 11459
 end
-arch mountain4
+arch snow2
 x 1
 y 22
 elevation 13089
 end
-arch mountain4
+arch snow2
 x 1
 y 23
 elevation 13899
@@ -350,12 +350,12 @@ x 1
 y 27
 elevation 12298
 end
-arch mountain2
+arch snow2
 x 1
 y 28
 elevation 9985
 end
-arch snow
+arch snow2
 x 1
 y 29
 elevation 7715
@@ -529,47 +529,47 @@ x 2
 y 13
 elevation 12032
 end
-arch mountain2
+arch snowcliff1
 x 2
 y 14
 elevation 11234
 end
-arch mountain2
+arch snow
 x 2
 y 15
 elevation 10836
 end
-arch mountain2
+arch snow
 x 2
 y 16
 elevation 10470
 end
-arch mountain2
+arch snow
 x 2
 y 17
 elevation 10914
 end
-arch mountain4
+arch snow
 x 2
 y 18
 elevation 12339
 end
-arch mountain4
+arch snow2
 x 2
 y 19
 elevation 12514
 end
-arch mountain4
+arch snow2
 x 2
 y 20
 elevation 12614
 end
-arch mountain4
+arch snow2
 x 2
 y 21
 elevation 12719
 end
-arch mountain4
+arch snow2
 x 2
 y 22
 elevation 13416
@@ -594,12 +594,12 @@ x 2
 y 26
 elevation 13861
 end
-arch mountain4
+arch snow2
 x 2
 y 27
 elevation 12228
 end
-arch mountain2
+arch snow2
 x 2
 y 28
 elevation 10306
@@ -609,7 +609,7 @@ x 2
 y 29
 elevation 8456
 end
-arch mountain
+arch snow2
 x 2
 y 30
 elevation 6211
@@ -778,47 +778,47 @@ x 3
 y 13
 elevation 10922
 end
-arch mountain
+arch snowcliff1
 x 3
 y 14
 elevation 7754
 end
-arch mountain
+arch snow
 x 3
 y 15
 elevation 7692
 end
-arch mountain2
+arch snow
 x 3
 y 16
 elevation 10285
 end
-arch mountain2
+arch snow
 x 3
 y 17
 elevation 11727
 end
-arch mountain4
+arch snow
 x 3
 y 18
 elevation 12451
 end
-arch mountain4
+arch snow
 x 3
 y 19
 elevation 12985
 end
-arch mountain4
+arch snow2
 x 3
 y 20
 elevation 13102
 end
-arch mountain4
+arch snow2
 x 3
 y 21
 elevation 13045
 end
-arch mountain2
+arch snow2
 x 3
 y 22
 elevation 11899
@@ -843,12 +843,12 @@ x 3
 y 26
 elevation 12325
 end
-arch mountain2
+arch snow2
 x 3
 y 27
 elevation 10732
 end
-arch mountain2
+arch snow2
 x 3
 y 28
 elevation 9978
@@ -1027,17 +1027,17 @@ x 4
 y 13
 elevation 11009
 end
-arch mountain
+arch snowcliff1
 x 4
 y 14
 elevation 8074
 end
-arch mountain
+arch snow
 x 4
 y 15
 elevation 6886
 end
-arch mountain2
+arch snow
 x 4
 y 16
 elevation 10598
@@ -1057,22 +1057,22 @@ x 4
 y 19
 elevation 12919
 end
-arch mountain4
+arch snow2
 x 4
 y 20
 elevation 13491
 end
-arch mountain2
+arch snow2
 x 4
 y 21
 elevation 11205
 end
-arch mountain4
+arch snow2
 x 4
 y 22
 elevation 13027
 end
-arch mountain4
+arch snow2
 x 4
 y 23
 elevation 13212
@@ -1082,12 +1082,12 @@ x 4
 y 24
 elevation 12387
 end
-arch mountain
+arch snow2
 x 4
 y 25
 elevation 7948
 end
-arch snow
+arch snow2
 x 4
 y 26
 elevation 11257
@@ -1097,7 +1097,7 @@ x 4
 y 27
 elevation 10773
 end
-arch mountain
+arch snow2
 x 4
 y 28
 elevation 8308
@@ -1276,17 +1276,17 @@ x 5
 y 13
 elevation 10730
 end
-arch mountain2
+arch snowcliff1
 x 5
 y 14
 elevation 9486
 end
-arch mountain2
+arch snowcliff1
 x 5
 y 15
 elevation 10866
 end
-arch mountain2
+arch snowcliff1
 x 5
 y 16
 elevation 11190
@@ -1306,42 +1306,42 @@ x 5
 y 19
 elevation 14697
 end
-arch mountain4
+arch snow2
 x 5
 y 20
 elevation 14856
 end
-arch mountain4
+arch snow2
 x 5
 y 21
 elevation 13876
 end
-arch mountain4
+arch snow2
 x 5
 y 22
 elevation 13732
 end
-arch mountain4
+arch snow2
 x 5
 y 23
 elevation 14030
 end
-arch mountain2
+arch snow2
 x 5
 y 24
 elevation 11177
 end
-arch mountain2
+arch snow2
 x 5
 y 25
 elevation 10634
 end
-arch mountain2
+arch snow2
 x 5
 y 26
 elevation 11322
 end
-arch mountain2
+arch snow2
 x 5
 y 27
 elevation 10817
@@ -1351,7 +1351,7 @@ x 5
 y 28
 elevation 9340
 end
-arch mountain
+arch snow2
 x 5
 y 29
 elevation 8893
@@ -1525,22 +1525,22 @@ x 6
 y 13
 elevation 15203
 end
-arch mountain4
+arch snowcliff1
 x 6
 y 14
 elevation 13896
 end
-arch mountain4
+arch snowcliff1
 x 6
 y 15
 elevation 13016
 end
-arch mountain2
+arch snowcliff1
 x 6
 y 16
 elevation 11484
 end
-arch mountain2
+arch snowcliff1
 x 6
 y 17
 elevation 10146
@@ -1555,12 +1555,12 @@ x 6
 y 19
 elevation 15785
 end
-arch mountain5
+arch snow2
 x 6
 y 20
 elevation 16830
 end
-arch mountain5
+arch snow2
 x 6
 y 21
 elevation 16919
@@ -1570,37 +1570,37 @@ x 6
 y 22
 elevation 16472
 end
-arch mountain4
+arch snow2
 x 6
 y 23
 elevation 15448
 end
-arch mountain4
+arch snow2
 x 6
 y 24
 elevation 13816
 end
-arch mountain4
+arch snow2
 x 6
 y 25
 elevation 12598
 end
-arch mountain2
+arch snow2
 x 6
 y 26
 elevation 11847
 end
-arch mountain2
+arch snow2
 x 6
 y 27
 elevation 11193
 end
-arch mountain2
+arch snow2
 x 6
 y 28
 elevation 9350
 end
-arch mountain
+arch snow2
 x 6
 y 29
 elevation 8918
@@ -1779,7 +1779,7 @@ x 7
 y 14
 elevation 15754
 end
-arch mountain4
+arch snowcliff1
 x 7
 y 15
 elevation 14516
@@ -1799,17 +1799,17 @@ x 7
 y 18
 elevation 14323
 end
-arch mountain5
+arch snow2
 x 7
 y 19
 elevation 16431
 end
-arch mountain5
+arch snow2
 x 7
 y 20
 elevation 17906
 end
-arch mountain5
+arch snow2
 x 7
 y 21
 elevation 18259
@@ -1844,12 +1844,12 @@ x 7
 y 27
 elevation 11018
 end
-arch mountain2
+arch snow2
 x 7
 y 28
 elevation 9138
 end
-arch mountain
+arch snow2
 x 7
 y 29
 elevation 7744
@@ -2028,7 +2028,7 @@ x 8
 y 14
 elevation 15289
 end
-arch mountain4
+arch snowcliff1
 x 8
 y 15
 elevation 14713
@@ -2048,7 +2048,7 @@ x 8
 y 18
 elevation 14806
 end
-arch mountain5
+arch snow2
 x 8
 y 19
 elevation 16534
@@ -2058,12 +2058,12 @@ x 8
 y 20
 elevation 18026
 end
-arch mountain5
+arch snow2
 x 8
 y 21
 elevation 18130
 end
-arch mountain5
+arch snow2
 x 8
 y 22
 elevation 17684
@@ -2083,22 +2083,22 @@ x 8
 y 25
 elevation 13340
 end
-arch mountain2
+arch snow2
 x 8
 y 26
 elevation 11891
 end
-arch mountain2
+arch snow2
 x 8
 y 27
 elevation 10110
 end
-arch mountain
+arch snow2
 x 8
 y 28
 elevation 7523
 end
-arch hills
+arch snow2
 x 8
 y 29
 elevation 4123
@@ -2272,12 +2272,12 @@ x 9
 y 13
 elevation 14500
 end
-arch mountain2
+arch snowcliff1
 x 9
 y 14
 elevation 11884
 end
-arch mountain4
+arch snowcliff1
 x 9
 y 15
 elevation 13875
@@ -2297,27 +2297,27 @@ x 9
 y 18
 elevation 15348
 end
-arch mountain5
+arch snow2
 x 9
 y 19
 elevation 16364
 end
-arch mountain5
+arch snow2
 x 9
 y 20
 elevation 17823
 end
-arch mountain5
+arch snow2
 x 9
 y 21
 elevation 18196
 end
-arch mountain5
+arch snow2
 x 9
 y 22
 elevation 17541
 end
-arch mountain5
+arch snow2
 x 9
 y 23
 elevation 16011
@@ -2332,12 +2332,12 @@ x 9
 y 25
 elevation 13672
 end
-arch mountain2
+arch snow2
 x 9
 y 26
 elevation 11964
 end
-arch snow
+arch snow2
 x 9
 y 27
 elevation 6925
@@ -2347,17 +2347,17 @@ x 9
 y 28
 elevation 5967
 end
-arch jungle_1
+arch snow2
 x 9
 y 29
 elevation 2840
 end
-arch hills
+arch snow2
 x 9
 y 30
 elevation 3978
 end
-arch hills
+arch snow2
 x 9
 y 31
 elevation 3434
@@ -2382,7 +2382,7 @@ x 9
 y 35
 elevation 9765
 end
-arch snow
+arch snowcliff3
 x 9
 y 36
 elevation 11271
@@ -2407,12 +2407,12 @@ x 9
 y 40
 elevation 10097
 end
-arch mountain
+arch snowcliff3
 x 9
 y 41
 elevation 8810
 end
-arch mountain
+arch snowcliff3
 x 9
 y 42
 elevation 7359
@@ -2521,12 +2521,12 @@ x 10
 y 13
 elevation 13121
 end
-arch mountain2
+arch snowcliff1
 x 10
 y 14
 elevation 9281
 end
-arch mountain4
+arch snowcliff1
 x 10
 y 15
 elevation 12682
@@ -2546,7 +2546,7 @@ x 10
 y 18
 elevation 15431
 end
-arch mountain5
+arch snow2
 x 10
 y 19
 elevation 16959
@@ -2556,22 +2556,22 @@ x 10
 y 20
 elevation 16830
 end
-arch mountain5
+arch snow2
 x 10
 y 21
 elevation 17943
 end
-arch mountain5
+arch snow2
 x 10
 y 22
 elevation 17114
 end
-arch mountain4
+arch snow2
 x 10
 y 23
 elevation 14755
 end
-arch mountain4
+arch snow2
 x 10
 y 24
 elevation 13461
@@ -2586,27 +2586,27 @@ x 10
 y 26
 elevation 11999
 end
-arch snow
+arch snow2
 x 10
 y 27
 elevation 8293
 end
-arch mountain
+arch snow2
 x 10
 y 28
 elevation 5157
 end
-arch jungle_1
+arch snow2
 x 10
 y 29
 elevation 1803
 end
-arch hills
+arch snow2
 x 10
 y 30
 elevation 4215
 end
-arch hills
+arch snow2
 x 10
 y 31
 elevation 4111
@@ -2621,22 +2621,22 @@ x 10
 y 33
 elevation 6516
 end
-arch mountain
+arch snow2
 x 10
 y 34
 elevation 8507
 end
-arch mountain2
+arch snow2
 x 10
 y 35
 elevation 9738
 end
-arch mountain2
+arch snowcliff3
 x 10
 y 36
 elevation 11393
 end
-arch mountain2
+arch snowcliff3
 x 10
 y 37
 elevation 11916
@@ -2661,7 +2661,7 @@ x 10
 y 41
 elevation 8136
 end
-arch mountain
+arch snowcliff3
 x 10
 y 42
 elevation 6365
@@ -2770,12 +2770,12 @@ x 11
 y 13
 elevation 10977
 end
-arch mountain2
+arch snowcliff1
 x 11
 y 14
 elevation 10998
 end
-arch mountain2
+arch snowcliff1
 x 11
 y 15
 elevation 11351
@@ -2795,32 +2795,32 @@ x 11
 y 18
 elevation 14795
 end
-arch mountain5
+arch snow2
 x 11
 y 19
 elevation 16474
 end
-arch mountain5
+arch snow2
 x 11
 y 20
 elevation 17379
 end
-arch mountain5
+arch snow2
 x 11
 y 21
 elevation 17451
 end
-arch mountain5
+arch snow2
 x 11
 y 22
 elevation 16442
 end
-arch mountain4
+arch snow2
 x 11
 y 23
 elevation 13476
 end
-arch mountain
+arch snow2
 x 11
 y 24
 elevation 8026
@@ -2835,22 +2835,22 @@ x 11
 y 26
 elevation 12725
 end
-arch snow
+arch snow2
 x 11
 y 27
 elevation 10393
 end
-arch snow
+arch snow2
 x 11
 y 28
 elevation 7810
 end
-arch mountain
+arch snow2
 x 11
 y 29
 elevation 5681
 end
-arch mountain
+arch snow2
 x 11
 y 30
 elevation 5785
@@ -2865,32 +2865,32 @@ x 11
 y 32
 elevation 5402
 end
-arch mountain
+arch snow2
 x 11
 y 33
 elevation 6815
 end
-arch mountain2
+arch snow2
 x 11
 y 34
 elevation 9056
 end
-arch mountain2
+arch snow2
 x 11
 y 35
 elevation 10248
 end
-arch mountain2
+arch snowcliff3
 x 11
 y 36
 elevation 10924
 end
-arch mountain2
+arch snowcliff3
 x 11
 y 37
 elevation 11065
 end
-arch mountain2
+arch snowcliff3
 x 11
 y 38
 elevation 10605
@@ -2915,7 +2915,7 @@ x 11
 y 42
 elevation 6388
 end
-arch mountain
+arch snowcliff3
 x 11
 y 43
 elevation 6105
@@ -3019,12 +3019,12 @@ x 12
 y 13
 elevation 15645
 end
-arch mountain4
+arch snowcliff1
 x 12
 y 14
 elevation 13522
 end
-arch mountain2
+arch snowcliff1
 x 12
 y 15
 elevation 10852
@@ -3044,32 +3044,32 @@ x 12
 y 18
 elevation 13537
 end
-arch mountain4
+arch snow2
 x 12
 y 19
 elevation 14703
 end
-arch mountain5
+arch snow2
 x 12
 y 20
 elevation 16527
 end
-arch mountain5
+arch snow2
 x 12
 y 21
 elevation 16952
 end
-arch mountain4
+arch snow2
 x 12
 y 22
 elevation 15774
 end
-arch mountain4
+arch snow2
 x 12
 y 23
 elevation 13459
 end
-arch mountain2
+arch snow2
 x 12
 y 24
 elevation 11795
@@ -3094,7 +3094,7 @@ x 12
 y 28
 elevation 10672
 end
-arch mountain2
+arch snow2
 x 12
 y 29
 elevation 9726
@@ -3109,12 +3109,12 @@ x 12
 y 31
 elevation 5650
 end
-arch mountain
+arch snow2
 x 12
 y 32
 elevation 7363
 end
-arch snow
+arch snow2
 x 12
 y 33
 elevation 8831
@@ -3134,17 +3134,17 @@ x 12
 y 36
 elevation 9799
 end
-arch mountain2
+arch snowcliff3
 x 12
 y 37
 elevation 9549
 end
-arch mountain2
+arch snowcliff3
 x 12
 y 38
 elevation 9295
 end
-arch mountain
+arch snowcliff3
 x 12
 y 39
 elevation 8652
@@ -3268,7 +3268,7 @@ x 13
 y 13
 elevation 18159
 end
-arch mountain4
+arch snowcliff1
 x 13
 y 14
 elevation 15641
@@ -3278,7 +3278,7 @@ x 13
 y 15
 elevation 12259
 end
-arch mountain2
+arch snowcliff1
 x 13
 y 16
 elevation 11218
@@ -3293,32 +3293,32 @@ x 13
 y 18
 elevation 12374
 end
-arch mountain4
+arch snow2
 x 13
 y 19
 elevation 14422
 end
-arch mountain4
+arch snow2
 x 13
 y 20
 elevation 15688
 end
-arch mountain5
+arch snow2
 x 13
 y 21
 elevation 16191
 end
-arch mountain4
+arch snow2
 x 13
 y 22
 elevation 15354
 end
-arch mountain4
+arch snow2
 x 13
 y 23
 elevation 12988
 end
-arch mountain4
+arch snow2
 x 13
 y 24
 elevation 12028
@@ -3353,12 +3353,12 @@ x 13
 y 30
 elevation 10173
 end
-arch mountain
+arch snow2
 x 13
 y 31
 elevation 5653
 end
-arch snow
+arch snow2
 x 13
 y 32
 elevation 8633
@@ -3383,22 +3383,22 @@ x 13
 y 36
 elevation 5658
 end
-arch snow
+arch snowcliff3
 x 13
 y 37
 elevation 8664
 end
-arch mountain
+arch snowcliff3
 x 13
 y 38
 elevation 7926
 end
-arch mountain
+arch snowcliff3
 x 13
 y 39
 elevation 6656
 end
-arch mountain
+arch snowcliff3
 x 13
 y 40
 elevation 7664
@@ -3517,7 +3517,7 @@ x 14
 y 13
 elevation 19645
 end
-arch mountain5
+arch snowcliff1
 x 14
 y 14
 elevation 17532
@@ -3527,7 +3527,7 @@ x 14
 y 15
 elevation 13734
 end
-arch mountain2
+arch snowcliff1
 x 14
 y 16
 elevation 10861
@@ -3537,42 +3537,42 @@ x 14
 y 17
 elevation 6673
 end
-arch mountain2
+arch snow2
 x 14
 y 18
 elevation 11680
 end
-arch mountain4
+arch snow2
 x 14
 y 19
 elevation 13491
 end
-arch mountain4
+arch snow2
 x 14
 y 20
 elevation 14594
 end
-arch mountain4
+arch snow2
 x 14
 y 21
 elevation 15098
 end
-arch mountain4
+arch snow2
 x 14
 y 22
 elevation 14873
 end
-arch mountain4
+arch snow2
 x 14
 y 23
 elevation 14336
 end
-arch mountain4
+arch snow2
 x 14
 y 24
 elevation 13394
 end
-arch mountain4
+arch snow2
 x 14
 y 25
 elevation 15493
@@ -3617,42 +3617,42 @@ x 14
 y 33
 elevation 9501
 end
-arch mountain
+arch snowcliff2
 x 14
 y 34
 elevation 7838
 end
-arch mountain
+arch snowcliff2
 x 14
 y 35
 elevation 8992
 end
-arch mountain2
+arch snowcliff2
 x 14
 y 36
 elevation 9186
 end
-arch mountain2
+arch snowcliff2
 x 14
 y 37
 elevation 9003
 end
-arch mountain
+arch snowcliff3
 x 14
 y 38
 elevation 8466
 end
-arch mountain
+arch snowcliff3
 x 14
 y 39
 elevation 6670
 end
-arch mountain
+arch snowcliff3
 x 14
 y 40
 elevation 7755
 end
-arch mountain
+arch snowcliff3
 x 14
 y 41
 elevation 8273
@@ -3776,7 +3776,7 @@ x 15
 y 15
 elevation 16305
 end
-arch mountain4
+arch snowcliff1
 x 15
 y 16
 elevation 13458
@@ -3786,37 +3786,37 @@ x 15
 y 17
 elevation 11180
 end
-arch mountain2
+arch snow2
 x 15
 y 18
 elevation 11266
 end
-arch mountain2
+arch snow2
 x 15
 y 19
 elevation 11894
 end
-arch mountain4
+arch snow2
 x 15
 y 20
 elevation 12635
 end
-arch mountain4
+arch snow2
 x 15
 y 21
 elevation 13353
 end
-arch mountain4
+arch snow2
 x 15
 y 22
 elevation 13989
 end
-arch mountain4
+arch snow2
 x 15
 y 23
 elevation 14423
 end
-arch mountain4
+arch snow2
 x 15
 y 24
 elevation 15340
@@ -3846,67 +3846,67 @@ x 15
 y 29
 elevation 15053
 end
-arch mountain4
+arch snowcliff3
 x 15
 y 30
 elevation 12844
 end
-arch mountain2
+arch snowcliff2
 x 15
 y 31
 elevation 10351
 end
-arch mountain2
+arch snowcliff2
 x 15
 y 32
 elevation 9366
 end
-arch mountain
+arch snowcliff2
 x 15
 y 33
 elevation 8657
 end
-arch mountain
+arch snowcliff2
 x 15
 y 34
 elevation 8581
 end
-arch mountain2
+arch snowcliff2
 x 15
 y 35
 elevation 9082
 end
-arch mountain2
+arch snowcliff2
 x 15
 y 36
 elevation 9709
 end
-arch snow
+arch snowcliff2
 x 15
 y 37
 elevation 9859
 end
-arch snow
+arch snowcliff2
 x 15
 y 38
 elevation 9226
 end
-arch mountain
+arch snowcliff3
 x 15
 y 39
 elevation 7027
 end
-arch mountain
+arch snowcliff3
 x 15
 y 40
 elevation 8177
 end
-arch mountain
+arch snowcliff3
 x 15
 y 41
 elevation 8590
 end
-arch mountain
+arch snowcliff3
 x 15
 y 42
 elevation 8530
@@ -4020,12 +4020,12 @@ x 16
 y 14
 elevation 18938
 end
-arch mountain5
+arch snowcliff1
 x 16
 y 15
 elevation 17611
 end
-arch mountain4
+arch snowcliff1
 x 16
 y 16
 elevation 15524
@@ -4035,42 +4035,42 @@ x 16
 y 17
 elevation 13172
 end
-arch mountain2
+arch snow2
 x 16
 y 18
 elevation 10864
 end
-arch mountain2
+arch snow2
 x 16
 y 19
 elevation 9522
 end
-arch mountain
+arch snow2
 x 16
 y 20
 elevation 8947
 end
-arch mountain2
+arch snow2
 x 16
 y 21
 elevation 11951
 end
-arch mountain4
+arch snow2
 x 16
 y 22
 elevation 12177
 end
-arch mountain4
+arch snow2
 x 16
 y 23
 elevation 13504
 end
-arch mountain4
+arch snow2
 x 16
 y 24
 elevation 14557
 end
-arch mountain4
+arch snow2
 x 16
 y 25
 elevation 15423
@@ -4095,72 +4095,72 @@ x 16
 y 29
 elevation 14644
 end
-arch mountain4
+arch snowcliff2
 x 16
 y 30
 elevation 12768
 end
-arch mountain2
+arch snowcliff2
 x 16
 y 31
 elevation 10757
 end
-arch mountain
+arch snowcliff2
 x 16
 y 32
 elevation 8589
 end
-arch mountain
+arch snowcliff2
 x 16
 y 33
 elevation 6032
 end
-arch mountain
+arch snowcliff2
 x 16
 y 34
 elevation 7911
 end
-arch mountain
+arch snowcliff2
 x 16
 y 35
 elevation 8568
 end
-arch mountain2
+arch snowcliff2
 x 16
 y 36
 elevation 9196
 end
-arch mountain2
+arch snowcliff2
 x 16
 y 37
 elevation 9798
 end
-arch mountain2
+arch snowcliff2
 x 16
 y 38
 elevation 9508
 end
-arch mountain2
+arch snowcliff3
 x 16
 y 39
 elevation 9054
 end
-arch mountain
+arch snowcliff3
 x 16
 y 40
 elevation 8640
 end
-arch mountain
+arch snowcliff3
 x 16
 y 41
 elevation 8103
 end
-arch mountain
+arch snowcliff3
 x 16
 y 42
 elevation 8625
 end
-arch mountain
+arch snowcliff3
 x 16
 y 43
 elevation 7670
@@ -4269,17 +4269,17 @@ x 17
 y 14
 elevation 18483
 end
-arch mountain5
+arch snowcliff1
 x 17
 y 15
 elevation 17767
 end
-arch mountain5
+arch snowcliff1
 x 17
 y 16
 elevation 16167
 end
-arch mountain4
+arch snowcliff1
 x 17
 y 17
 elevation 13988
@@ -4289,32 +4289,32 @@ x 17
 y 18
 elevation 10678
 end
-arch mountain4
+arch snow2
 x 17
 y 19
 elevation 12214
 end
-arch mountain4
+arch snow2
 x 17
 y 20
 elevation 12368
 end
-arch mountain2
+arch snow2
 x 17
 y 21
 elevation 10678
 end
-arch mountain2
+arch snow2
 x 17
 y 22
 elevation 10562
 end
-arch mountain2
+arch snow2
 x 17
 y 23
 elevation 11674
 end
-arch mountain4
+arch snow2
 x 17
 y 24
 elevation 12338
@@ -4339,7 +4339,7 @@ x 17
 y 28
 elevation 14307
 end
-arch mountain4
+arch snowcliff3
 x 17
 y 29
 elevation 13345
@@ -4349,7 +4349,7 @@ x 17
 y 30
 elevation 11586
 end
-arch mountain2
+arch snowcliff2
 x 17
 y 31
 elevation 10552
@@ -4384,7 +4384,7 @@ x 17
 y 37
 elevation 9190
 end
-arch mountain2
+arch snowcliff2
 x 17
 y 38
 elevation 9192
@@ -4394,22 +4394,22 @@ x 17
 y 39
 elevation 9010
 end
-arch mountain
+arch snowcliff3
 x 17
 y 40
 elevation 8814
 end
-arch mountain
+arch snowcliff3
 x 17
 y 41
 elevation 8425
 end
-arch mountain2
+arch snowcliff3
 x 17
 y 42
 elevation 9098
 end
-arch mountain2
+arch snowcliff3
 x 17
 y 43
 elevation 9107
@@ -4518,12 +4518,12 @@ x 18
 y 14
 elevation 17602
 end
-arch mountain5
+arch snowcliff1
 x 18
 y 15
 elevation 16795
 end
-arch mountain4
+arch snowcliff1
 x 18
 y 16
 elevation 15807
@@ -4543,32 +4543,32 @@ x 18
 y 19
 elevation 15166
 end
-arch mountain4
+arch snow2
 x 18
 y 20
 elevation 15669
 end
-arch mountain4
+arch snow2
 x 18
 y 21
 elevation 15277
 end
-arch mountain4
+arch snow2
 x 18
 y 22
 elevation 14407
 end
-arch mountain4
+arch snow2
 x 18
 y 23
 elevation 13314
 end
-arch mountain2
+arch snow2
 x 18
 y 24
 elevation 10961
 end
-arch mountain2
+arch snow2
 x 18
 y 25
 elevation 9753
@@ -4583,12 +4583,12 @@ x 18
 y 27
 elevation 13254
 end
-arch mountain4
+arch snowcliff3
 x 18
 y 28
 elevation 12775
 end
-arch mountain2
+arch snowcliff3
 x 18
 y 29
 elevation 10024
@@ -4643,22 +4643,22 @@ x 18
 y 39
 elevation 6866
 end
-arch mountain2
+arch snowcliff3
 x 18
 y 40
 elevation 9121
 end
-arch mountain2
+arch snowcliff3
 x 18
 y 41
 elevation 9505
 end
-arch mountain2
+arch snowcliff3
 x 18
 y 42
 elevation 9614
 end
-arch mountain2
+arch snowcliff3
 x 18
 y 43
 elevation 9575
@@ -4767,7 +4767,7 @@ x 19
 y 14
 elevation 16685
 end
-arch mountain4
+arch snowcliff1
 x 19
 y 15
 elevation 15281
@@ -4807,32 +4807,32 @@ x 19
 y 22
 elevation 16366
 end
-arch mountain4
+arch snow2
 x 19
 y 23
 elevation 14769
 end
-arch mountain4
+arch snow2
 x 19
 y 24
 elevation 12921
 end
-arch mountain2
+arch snow2
 x 19
 y 25
 elevation 11347
 end
-arch mountain2
+arch snow2
 x 19
 y 26
 elevation 11872
 end
-arch mountain2
+arch snowcliff3
 x 19
 y 27
 elevation 11744
 end
-arch mountain4
+arch snowcliff3
 x 19
 y 28
 elevation 12855
@@ -4892,22 +4892,22 @@ x 19
 y 39
 elevation 9705
 end
-arch mountain2
+arch snowcliff3
 x 19
 y 40
 elevation 9491
 end
-arch mountain2
+arch snowcliff3
 x 19
 y 41
 elevation 9629
 end
-arch mountain2
+arch snowcliff3
 x 19
 y 42
 elevation 9748
 end
-arch mountain2
+arch snowcliff3
 x 19
 y 43
 elevation 9772
@@ -5016,12 +5016,12 @@ x 20
 y 14
 elevation 16563
 end
-arch mountain4
+arch snowcliff1
 x 20
 y 15
 elevation 13261
 end
-arch mountain2
+arch snowcliff1
 x 20
 y 16
 elevation 10267
@@ -5056,27 +5056,27 @@ x 20
 y 22
 elevation 16326
 end
-arch mountain4
+arch snow2
 x 20
 y 23
 elevation 15269
 end
-arch mountain4
+arch snow2
 x 20
 y 24
 elevation 13831
 end
-arch mountain4
+arch snow2
 x 20
 y 25
 elevation 12176
 end
-arch mountain2
+arch snow2
 x 20
 y 26
 elevation 11501
 end
-arch mountain4
+arch snowcliff3
 x 20
 y 27
 elevation 12252
@@ -5141,27 +5141,27 @@ x 20
 y 39
 elevation 11004
 end
-arch mountain2
+arch snowcliff3
 x 20
 y 40
 elevation 10035
 end
-arch mountain
+arch snowcliff3
 x 20
 y 41
 elevation 8199
 end
-arch mountain2
+arch snowcliff3
 x 20
 y 42
 elevation 9448
 end
-arch mountain2
+arch snowcliff3
 x 20
 y 43
 elevation 9618
 end
-arch mountain
+arch snowcliff3
 x 20
 y 44
 elevation 8578
@@ -5270,7 +5270,7 @@ x 21
 y 15
 elevation 15409
 end
-arch mountain4
+arch snowcliff1
 x 21
 y 16
 elevation 14824
@@ -5300,12 +5300,12 @@ x 21
 y 21
 elevation 15964
 end
-arch mountain4
+arch snow2
 x 21
 y 22
 elevation 15144
 end
-arch mountain4
+arch snow2
 x 21
 y 23
 elevation 14602
@@ -5315,17 +5315,17 @@ x 21
 y 24
 elevation 13715
 end
-arch mountain4
+arch snow2
 x 21
 y 25
 elevation 12865
 end
-arch mountain4
+arch snow2
 x 21
 y 26
 elevation 12073
 end
-arch mountain4
+arch snowcliff3
 x 21
 y 27
 elevation 12028
@@ -5395,27 +5395,27 @@ x 21
 y 40
 elevation 10517
 end
-arch mountain
+arch snowcliff3
 x 21
 y 41
 elevation 7424
 end
-arch mountain2
+arch snowcliff3
 x 21
 y 42
 elevation 9499
 end
-arch mountain2
+arch snowcliff3
 x 21
 y 43
 elevation 9639
 end
-arch mountain
+arch snowcliff3
 x 21
 y 44
 elevation 8777
 end
-arch mountain
+arch snowcliff3
 x 21
 y 45
 elevation 8240
@@ -5519,7 +5519,7 @@ x 22
 y 15
 elevation 15849
 end
-arch mountain4
+arch snowcliff1
 x 22
 y 16
 elevation 15270
@@ -5554,37 +5554,37 @@ x 22
 y 22
 elevation 13389
 end
-arch mountain4
+arch snow2
 x 22
 y 23
 elevation 13335
 end
-arch mountain4
+arch snow2
 x 22
 y 24
 elevation 13116
 end
-arch mountain4
+arch snow2
 x 22
 y 25
 elevation 12433
 end
-arch mountain2
+arch snow2
 x 22
 y 26
 elevation 11324
 end
-arch mountain2
+arch snowcliff3
 x 22
 y 27
 elevation 9174
 end
-arch mountain2
+arch snowcliff1
 x 22
 y 28
 elevation 10730
 end
-arch mountain2
+arch snowcliff1
 x 22
 y 29
 elevation 11590
@@ -5644,17 +5644,17 @@ x 22
 y 40
 elevation 10798
 end
-arch mountain2
+arch snowcliff3
 x 22
 y 41
 elevation 9993
 end
-arch mountain2
+arch snowcliff3
 x 22
 y 42
 elevation 9653
 end
-arch mountain2
+arch snowcliff3
 x 22
 y 43
 elevation 9785
@@ -5664,7 +5664,7 @@ x 22
 y 44
 elevation 9528
 end
-arch mountain2
+arch snowcliff3
 x 22
 y 45
 elevation 9095
@@ -5768,7 +5768,7 @@ x 23
 y 15
 elevation 14466
 end
-arch mountain4
+arch snowcliff1
 x 23
 y 16
 elevation 13912
@@ -5823,22 +5823,22 @@ x 23
 y 26
 elevation 9500
 end
-arch mountain
+arch snowcliff3
 x 23
 y 27
 elevation 8000
 end
-arch mountain
+arch snowcliff1
 x 23
 y 28
 elevation 7854
 end
-arch mountain
+arch snowcliff1
 x 23
 y 29
 elevation 7185
 end
-arch mountain2
+arch snowcliff1
 x 23
 y 30
 elevation 10978
@@ -5898,7 +5898,7 @@ x 23
 y 41
 elevation 8739
 end
-arch mountain2
+arch snowcliff3
 x 23
 y 42
 elevation 9592
@@ -5908,12 +5908,12 @@ x 23
 y 43
 elevation 9658
 end
-arch mountain2
+arch snowcliff3
 x 23
 y 44
 elevation 9327
 end
-arch mountain2
+arch snowcliff3
 x 23
 y 45
 elevation 10371
@@ -5923,17 +5923,17 @@ x 23
 y 46
 elevation 12217
 end
-arch mountain4
+arch snow2
 x 23
 y 47
 elevation 13792
 end
-arch mountain4
+arch snow2
 x 23
 y 48
 elevation 14697
 end
-arch mountain4
+arch snow2
 x 23
 y 49
 elevation 15930
@@ -6017,12 +6017,12 @@ x 24
 y 15
 elevation 12747
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 16
 elevation 10394
 end
-arch mountain2
+arch snow2
 x 24
 y 17
 elevation 11574
@@ -6077,57 +6077,57 @@ x 24
 y 27
 elevation 6882
 end
-arch mountain
+arch snowcliff3
 x 24
 y 28
 elevation 7525
 end
-arch mountain
+arch snowcliff1
 x 24
 y 29
 elevation 8227
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 30
 elevation 9494
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 31
 elevation 10741
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 32
 elevation 11159
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 33
 elevation 10219
 end
-arch mountain
+arch snowcliff1
 x 24
 y 34
 elevation 8553
 end
-arch mountain
+arch snowcliff1
 x 24
 y 35
 elevation 5970
 end
-arch mountain
+arch snowcliff1
 x 24
 y 36
 elevation 7958
 end
-arch mountain
+arch snowcliff1
 x 24
 y 37
 elevation 8611
 end
-arch mountain2
+arch snowcliff1
 x 24
 y 38
 elevation 9533
@@ -6152,37 +6152,37 @@ x 24
 y 42
 elevation 8333
 end
-arch mountain
+arch snowcliff3
 x 24
 y 43
 elevation 8750
 end
-arch mountain2
+arch snowcliff3
 x 24
 y 44
 elevation 9282
 end
-arch mountain2
+arch snowcliff3
 x 24
 y 45
 elevation 10453
 end
-arch mountain2
+arch snowcliff3
 x 24
 y 46
 elevation 11653
 end
-arch mountain2
+arch snowcliff3
 x 24
 y 47
 elevation 11640
 end
-arch mountain4
+arch snow2
 x 24
 y 48
 elevation 13530
 end
-arch mountain4
+arch snow2
 x 24
 y 49
 elevation 13968
@@ -6261,32 +6261,32 @@ x 25
 y 14
 elevation 10246
 end
-arch mountain2
+arch snowcliff1
 x 25
 y 15
 elevation 10805
 end
-arch mountain2
+arch snowcliff1
 x 25
 y 16
 elevation 10682
 end
-arch mountain2
+arch snow2
 x 25
 y 17
 elevation 11137
 end
-arch mountain2
+arch snow2
 x 25
 y 18
 elevation 11613
 end
-arch mountain2
+arch snow2
 x 25
 y 19
 elevation 11581
 end
-arch snow
+arch snow2
 x 25
 y 20
 elevation 11104
@@ -6326,7 +6326,7 @@ x 25
 y 27
 elevation 7038
 end
-arch mountain
+arch snowcliff3
 x 25
 y 28
 elevation 6918
@@ -6336,17 +6336,17 @@ x 25
 y 29
 elevation 7583
 end
-arch mountain
+arch snowcliff1
 x 25
 y 30
 elevation 7077
 end
-arch mountain2
+arch snowcliff1
 x 25
 y 31
 elevation 9041
 end
-arch mountain
+arch snowcliff1
 x 25
 y 32
 elevation 8951
@@ -6356,7 +6356,7 @@ x 25
 y 33
 elevation 9356
 end
-arch mountain
+arch snowcliff1
 x 25
 y 34
 elevation 8247
@@ -6411,27 +6411,27 @@ x 25
 y 44
 elevation 6821
 end
-arch mountain2
+arch snowcliff3
 x 25
 y 45
 elevation 10005
 end
-arch mountain2
+arch snowcliff3
 x 25
 y 46
 elevation 10196
 end
-arch mountain2
+arch snowcliff3
 x 25
 y 47
 elevation 10321
 end
-arch mountain2
+arch snow2
 x 25
 y 48
 elevation 11758
 end
-arch mountain4
+arch snow2
 x 25
 y 49
 elevation 14035
@@ -6515,22 +6515,22 @@ x 26
 y 15
 elevation 6909
 end
-arch mountain2
+arch snowcliff1
 x 26
 y 16
 elevation 9701
 end
-arch mountain2
+arch snow2
 x 26
 y 17
 elevation 9204
 end
-arch mountain2
+arch snow2
 x 26
 y 18
 elevation 11151
 end
-arch mountain2
+arch snow2
 x 26
 y 19
 elevation 11161
@@ -6575,32 +6575,32 @@ x 26
 y 27
 elevation 7308
 end
-arch mountain
+arch snowcliff3
 x 26
 y 28
 elevation 7454
 end
-arch mountain
+arch snowcliff3
 x 26
 y 29
 elevation 6706
 end
-arch mountain
+arch snowcliff1
 x 26
 y 30
 elevation 6240
 end
-arch mountain
+arch snowcliff3
 x 26
 y 31
 elevation 7969
 end
-arch mountain
+arch snowcliff1
 x 26
 y 32
 elevation 8441
 end
-arch mountain
+arch snowcliff1
 x 26
 y 33
 elevation 8488
@@ -6655,12 +6655,12 @@ x 26
 y 43
 elevation 9068
 end
-arch mountain2
+arch snowcliff3
 x 26
 y 44
 elevation 9511
 end
-arch mountain2
+arch snowcliff3
 x 26
 y 45
 elevation 9776
@@ -6670,17 +6670,17 @@ x 26
 y 46
 elevation 8523
 end
-arch mountain
+arch snowcliff1
 x 26
 y 47
 elevation 6374
 end
-arch mountain2
+arch snowcliff3
 x 26
 y 48
 elevation 10606
 end
-arch mountain4
+arch snow2
 x 26
 y 49
 elevation 12217
@@ -6764,22 +6764,22 @@ x 27
 y 15
 elevation 6115
 end
-arch mountain2
+arch snowcliff1
 x 27
 y 16
 elevation 9614
 end
-arch mountain2
+arch snow2
 x 27
 y 17
 elevation 10638
 end
-arch mountain2
+arch snow2
 x 27
 y 18
 elevation 10688
 end
-arch mountain2
+arch snow2
 x 27
 y 19
 elevation 10599
@@ -6819,37 +6819,37 @@ x 27
 y 26
 elevation 9423
 end
-arch mountain
+arch snowcliff3
 x 27
 y 27
 elevation 8418
 end
-arch mountain
+arch snowcliff3
 x 27
 y 28
 elevation 7737
 end
-arch mountain
+arch snowcliff3
 x 27
 y 29
 elevation 7328
 end
-arch mountain
+arch snowcliff3
 x 27
 y 30
 elevation 7559
 end
-arch mountain
+arch snowcliff3
 x 27
 y 31
 elevation 7764
 end
-arch mountain
+arch snowcliff3
 x 27
 y 32
 elevation 7514
 end
-arch mountain
+arch snowcliff3
 x 27
 y 33
 elevation 7766
@@ -6859,12 +6859,12 @@ x 27
 y 34
 elevation 7317
 end
-arch mountain
+arch snowcliff3
 x 27
 y 35
 elevation 6810
 end
-arch mountain
+arch snowcliff3
 x 27
 y 36
 elevation 7156
@@ -6874,12 +6874,12 @@ x 27
 y 37
 elevation 7675
 end
-arch mountain
+arch snowcliff3
 x 27
 y 38
 elevation 8800
 end
-arch mountain2
+arch snowcliff3
 x 27
 y 39
 elevation 9795
@@ -6899,37 +6899,37 @@ x 27
 y 42
 elevation 10018
 end
-arch mountain2
+arch snowcliff3
 x 27
 y 43
 elevation 10467
 end
-arch mountain2
+arch snowcliff3
 x 27
 y 44
 elevation 10777
 end
-arch mountain2
+arch snowcliff1
 x 27
 y 45
 elevation 10396
 end
-arch mountain2
+arch snowcliff1
 x 27
 y 46
 elevation 9382
 end
-arch mountain2
+arch snowcliff1
 x 27
 y 47
 elevation 10182
 end
-arch mountain2
+arch snowcliff1
 x 27
 y 48
 elevation 10344
 end
-arch mountain
+arch snowcliff1
 x 27
 y 49
 elevation 8264
@@ -7013,22 +7013,22 @@ x 28
 y 15
 elevation 10086
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 16
 elevation 10516
 end
-arch mountain2
+arch snow2
 x 28
 y 17
 elevation 10711
 end
-arch mountain2
+arch snow2
 x 28
 y 18
 elevation 10027
 end
-arch mountain2
+arch snow2
 x 28
 y 19
 elevation 9423
@@ -7063,57 +7063,57 @@ x 28
 y 25
 elevation 10335
 end
-arch snow
+arch snow2
 x 28
 y 26
 elevation 9846
 end
-arch mountain
+arch snow2
 x 28
 y 27
 elevation 8652
 end
-arch mountain
+arch snow2
 x 28
 y 28
 elevation 7634
 end
-arch mountain
+arch snowcliff3
 x 28
 y 29
 elevation 7248
 end
-arch mountain
+arch snow2
 x 28
 y 30
 elevation 7822
 end
-arch mountain
+arch snow2
 x 28
 y 31
 elevation 7815
 end
-arch mountain
+arch snow2
 x 28
 y 32
 elevation 7257
 end
-arch mountain
+arch snowcliff3
 x 28
 y 33
 elevation 6259
 end
-arch mountain
+arch snowcliff3
 x 28
 y 34
 elevation 7263
 end
-arch mountain
+arch snowcliff3
 x 28
 y 35
 elevation 7174
 end
-arch mountain
+arch snowcliff3
 x 28
 y 36
 elevation 7390
@@ -7123,12 +7123,12 @@ x 28
 y 37
 elevation 7884
 end
-arch mountain
+arch snowcliff3
 x 28
 y 38
 elevation 8813
 end
-arch mountain2
+arch snowcliff3
 x 28
 y 39
 elevation 9885
@@ -7148,17 +7148,17 @@ x 28
 y 42
 elevation 10218
 end
-arch mountain2
+arch snowcliff3
 x 28
 y 43
 elevation 10939
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 44
 elevation 11313
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 45
 elevation 11506
@@ -7168,17 +7168,17 @@ x 28
 y 46
 elevation 11707
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 47
 elevation 11674
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 48
 elevation 11215
 end
-arch mountain2
+arch snowcliff1
 x 28
 y 49
 elevation 10256
@@ -7262,27 +7262,27 @@ x 29
 y 15
 elevation 10862
 end
-arch mountain2
+arch snowcliff1
 x 29
 y 16
 elevation 10906
 end
-arch mountain2
+arch istone
 x 29
 y 17
 elevation 9888
 end
-arch mountain2
+arch istone
 x 29
 y 18
 elevation 9397
 end
-arch mountain
+arch snow2
 x 29
 y 19
 elevation 6363
 end
-arch mountain
+arch snow2
 x 29
 y 20
 elevation 8303
@@ -7307,127 +7307,127 @@ x 29
 y 24
 elevation 10021
 end
-arch snow
+arch snow2
 x 29
 y 25
 elevation 10752
 end
-arch mountain2
+arch snow2
 x 29
 y 26
 elevation 9878
 end
-arch mountain
+arch snow2
 x 29
 y 27
 elevation 7791
 end
-arch mountain
+arch snow2
 x 29
 y 28
 elevation 6145
 end
-arch mountain
+arch snow2
 x 29
 y 29
 elevation 6979
 end
-arch mountain
+arch snow2
 x 29
 y 30
 elevation 8040
 end
-arch mountain
+arch snow2
 x 29
 y 31
 elevation 7802
 end
-arch mountain
+arch snow2
 x 29
 y 32
 elevation 6683
 end
-arch mountain
+arch snow2
 x 29
 y 33
 elevation 5627
 end
-arch mountain
+arch snow2
 x 29
 y 34
 elevation 7543
 end
-arch mountain
+arch snow2
 x 29
 y 35
 elevation 7852
 end
-arch mountain
+arch snow2
 x 29
 y 36
 elevation 6697
 end
-arch mountain
+arch snow2
 x 29
 y 37
 elevation 7667
 end
-arch mountain
+arch snow2
 x 29
 y 38
 elevation 8542
 end
-arch mountain2
+arch snowcliff3
 x 29
 y 39
 elevation 9237
 end
-arch mountain2
+arch snowcliff3
 x 29
 y 40
 elevation 11232
 end
-arch mountain2
+arch snowcliff3
 x 29
 y 41
 elevation 10110
 end
-arch mountain2
+arch snowcliff3
 x 29
 y 42
 elevation 11153
 end
-arch mountain2
+arch snowcliff3
 x 29
 y 43
 elevation 10407
 end
-arch mountain2
+arch snowcliff1
 x 29
 y 44
 elevation 10288
 end
-arch mountain4
+arch snow2
 x 29
 y 45
 elevation 12184
 end
-arch mountain4
+arch snow2
 x 29
 y 46
 elevation 12606
 end
-arch mountain4
+arch snow
 x 29
 y 47
 elevation 12427
 end
-arch mountain2
+arch snow
 x 29
 y 48
 elevation 11904
 end
-arch mountain2
+arch snowcliff1
 x 29
 y 49
 elevation 11379
@@ -7511,42 +7511,42 @@ x 30
 y 15
 elevation 10253
 end
-arch mountain2
+arch snowcliff1
 x 30
 y 16
 elevation 10155
 end
-arch mountain2
+arch istone
 x 30
 y 17
 elevation 9704
 end
-arch mountain
+arch istone
 x 30
 y 18
 elevation 8784
 end
-arch mountain
+arch istone
 x 30
 y 19
 elevation 7973
 end
-arch mountain
+arch snow2
 x 30
 y 20
 elevation 7938
 end
-arch mountain
+arch snow2
 x 30
 y 21
 elevation 7674
 end
-arch snow
+arch ipond
 x 30
 y 22
 elevation 6991
 end
-arch snow
+arch ipond
 x 30
 y 23
 elevation 8575
@@ -7561,122 +7561,122 @@ x 30
 y 25
 elevation 10758
 end
-arch mountain2
+arch snow2
 x 30
 y 26
 elevation 9837
 end
-arch mountain
+arch snow2
 x 30
 y 27
 elevation 7107
 end
-arch mountain
+arch snow2
 x 30
 y 28
 elevation 7859
 end
-arch mountain
+arch snow2
 x 30
 y 29
 elevation 7983
 end
-arch mountain
+arch snow2
 x 30
 y 30
 elevation 8341
 end
-arch mountain
+arch snow2
 x 30
 y 31
 elevation 8202
 end
-arch mountain
+arch snow2
 x 30
 y 32
 elevation 7496
 end
-arch mountain
+arch snow2
 x 30
 y 33
 elevation 7567
 end
-arch mountain
+arch snow2
 x 30
 y 34
 elevation 7828
 end
-arch mountain
+arch snow2
 x 30
 y 35
 elevation 8179
 end
-arch mountain
+arch snow2
 x 30
 y 36
 elevation 8551
 end
-arch mountain2
+arch snow2
 x 30
 y 37
 elevation 9188
 end
-arch mountain2
+arch snow2
 x 30
 y 38
 elevation 11003
 end
-arch mountain4
+arch snow2
 x 30
 y 39
 elevation 12315
 end
-arch mountain4
+arch snow2
 x 30
 y 40
 elevation 12678
 end
-arch mountain4
+arch snow2
 x 30
 y 41
 elevation 12628
 end
-arch mountain4
+arch snow2
 x 30
 y 42
 elevation 12221
 end
-arch mountain2
+arch snow2
 x 30
 y 43
 elevation 11510
 end
-arch mountain2
+arch snow2
 x 30
 y 44
 elevation 11261
 end
-arch mountain4
+arch snow2
 x 30
 y 45
 elevation 12006
 end
-arch mountain4
+arch snow2
 x 30
 y 46
 elevation 12149
 end
-arch mountain2
+arch snow2
 x 30
 y 47
 elevation 11487
 end
-arch mountain2
+arch snow
 x 30
 y 48
 elevation 11018
 end
-arch mountain2
+arch snowcliff3
 x 30
 y 49
 elevation 10803
@@ -7760,27 +7760,27 @@ x 31
 y 15
 elevation 9212
 end
-arch mountain
+arch snowcliff1
 x 31
 y 16
 elevation 8467
 end
-arch mountain
+arch istone
 x 31
 y 17
 elevation 8465
 end
-arch mountain
+arch istone
 x 31
 y 18
 elevation 8989
 end
-arch mountain
+arch istone
 x 31
 y 19
 elevation 7930
 end
-arch mountain
+arch snow2
 x 31
 y 20
 elevation 8199
@@ -7790,142 +7790,142 @@ x 31
 y 21
 elevation 7614
 end
-arch hills_rocky
+arch ipond
 x 31
 y 22
 elevation 4870
 end
-arch mountain
+arch istone
 x 31
 y 23
 elevation 7799
 end
-arch mountain2
+arch istone
 x 31
 y 24
 elevation 9296
 end
-arch mountain2
+arch istone
 x 31
 y 25
 elevation 10081
 end
-arch mountain2
+arch ipond
 x 31
 y 26
 elevation 9924
 end
-arch mountain2
+arch snow2
 x 31
 y 27
 elevation 9147
 end
-arch mountain
+arch snow2
 x 31
 y 28
 elevation 8596
 end
-arch mountain
+arch snow2
 x 31
 y 29
 elevation 8474
 end
-arch mountain
+arch snow2
 x 31
 y 30
 elevation 8394
 end
-arch mountain
+arch snow2
 x 31
 y 31
 elevation 8283
 end
-arch mountain
+arch snow2
 x 31
 y 32
 elevation 8074
 end
-arch mountain
+arch snow2
 x 31
 y 33
 elevation 7660
 end
-arch mountain
+arch snow2
 x 31
 y 34
 elevation 7060
 end
-arch mountain
+arch snow2
 x 31
 y 35
 elevation 7458
 end
-arch mountain
+arch snow2
 x 31
 y 36
 elevation 8580
 end
-arch mountain2
+arch snow2
 x 31
 y 37
 elevation 10413
 end
-arch mountain4
+arch snow2
 x 31
 y 38
 elevation 12271
 end
-arch mountain4
+arch snow2
 x 31
 y 39
 elevation 13373
 end
-arch mountain4
+arch snow2
 x 31
 y 40
 elevation 13547
 end
-arch mountain4
+arch snow2
 x 31
 y 41
 elevation 13356
 end
-arch mountain4
+arch snow2
 x 31
 y 42
 elevation 13037
 end
-arch mountain4
+arch snow2
 x 31
 y 43
 elevation 12452
 end
-arch mountain2
+arch snow2
 x 31
 y 44
 elevation 11772
 end
-arch mountain2
+arch snow2
 x 31
 y 45
 elevation 11093
 end
-arch mountain2
+arch snow2
 x 31
 y 46
 elevation 10633
 end
-arch mountain2
+arch snow2
 x 31
 y 47
 elevation 9191
 end
-arch mountain
+arch snow2
 x 31
 y 48
 elevation 6617
 end
-arch mountain2
+arch snow2
 x 31
 y 49
 elevation 10420
@@ -8009,172 +8009,172 @@ x 32
 y 15
 elevation 8157
 end
-arch mountain
+arch snowcliff1
 x 32
 y 16
 elevation 8779
 end
-arch mountain2
+arch istone
 x 32
 y 17
 elevation 9104
 end
-arch mountain2
+arch istone
 x 32
 y 18
 elevation 9114
 end
-arch mountain
+arch istone
 x 32
 y 19
 elevation 8744
 end
-arch mountain
+arch snow2
 x 32
 y 20
 elevation 8269
 end
-arch mountain
+arch istone
 x 32
 y 21
 elevation 7425
 end
-arch mountain
+arch istone
 x 32
 y 22
 elevation 7077
 end
-arch mountain
+arch istone
 x 32
 y 23
 elevation 7242
 end
-arch mountain
+arch istone
 x 32
 y 24
 elevation 5825
 end
-arch mountain2
+arch istone
 x 32
 y 25
 elevation 9540
 end
-arch mountain2
+arch istone
 x 32
 y 26
 elevation 10226
 end
-arch mountain2
+arch snow2
 x 32
 y 27
 elevation 9772
 end
-arch mountain
+arch snow2
 x 32
 y 28
 elevation 8963
 end
-arch mountain
+arch snow2
 x 32
 y 29
 elevation 8265
 end
-arch mountain
+arch snow2
 x 32
 y 30
 elevation 7772
 end
-arch mountain
+arch snowcliff1
 x 32
 y 31
 elevation 7711
 end
-arch mountain
+arch snowcliff1
 x 32
 y 32
 elevation 7558
 end
-arch mountain
+arch snowcliff1
 x 32
 y 33
 elevation 6862
 end
-arch mountain
+arch snow2
 x 32
 y 34
 elevation 5305
 end
-arch hills_rocky
+arch snow2
 x 32
 y 35
 elevation 3515
 end
-arch mountain
+arch snow2
 x 32
 y 36
 elevation 7671
 end
-arch mountain2
+arch snow2
 x 32
 y 37
 elevation 10166
 end
-arch mountain2
+arch snow2
 x 32
 y 38
 elevation 11768
 end
-arch mountain4
+arch snow2
 x 32
 y 39
 elevation 12389
 end
-arch mountain4
+arch snow2
 x 32
 y 40
 elevation 12862
 end
-arch mountain4
+arch snow2
 x 32
 y 41
 elevation 12924
 end
-arch mountain4
+arch snow2
 x 32
 y 42
 elevation 12476
 end
-arch mountain4
+arch snow2
 x 32
 y 43
 elevation 12027
 end
-arch mountain2
+arch snow2
 x 32
 y 44
 elevation 11331
 end
-arch mountain2
+arch snow2
 x 32
 y 45
 elevation 10161
 end
-arch mountain
+arch snow2
 x 32
 y 46
 elevation 6533
 end
-arch mountain
+arch snow2
 x 32
 y 47
 elevation 8935
 end
-arch mountain2
+arch snow2
 x 32
 y 48
 elevation 9121
 end
-arch mountain2
+arch snow2
 x 32
 y 49
 elevation 10009
@@ -8253,87 +8253,87 @@ x 33
 y 14
 elevation 6512
 end
-arch mountain
+arch snowcliff1
 x 33
 y 15
 elevation 7404
 end
-arch mountain
+arch snowcliff1
 x 33
 y 16
 elevation 8222
 end
-arch mountain
+arch istone
 x 33
 y 17
 elevation 8616
 end
-arch mountain
+arch istone
 x 33
 y 18
 elevation 8761
 end
-arch mountain
+arch istone
 x 33
 y 19
 elevation 8609
 end
-arch mountain
+arch istone
 x 33
 y 20
 elevation 7743
 end
-arch mountain
+arch istone
 x 33
 y 21
 elevation 6698
 end
-arch mountain
+arch istone
 x 33
 y 22
 elevation 5402
 end
-arch mountain
+arch istone
 x 33
 y 23
 elevation 6992
 end
-arch mountain
+arch istone
 x 33
 y 24
 elevation 8454
 end
-arch mountain2
+arch istone
 x 33
 y 25
 elevation 9501
 end
-arch mountain2
+arch istone
 x 33
 y 26
 elevation 9938
 end
-arch mountain2
+arch snow2
 x 33
 y 27
 elevation 9346
 end
-arch mountain
+arch snow2
 x 33
 y 28
 elevation 8420
 end
-arch mountain
+arch snow2
 x 33
 y 29
 elevation 7748
 end
-arch mountain
+arch snow2
 x 33
 y 30
 elevation 7227
 end
-arch mountain
+arch snowcliff1
 x 33
 y 31
 elevation 6533
@@ -8343,87 +8343,87 @@ x 33
 y 32
 elevation 6309
 end
-arch mountain
+arch snowcliff1
 x 33
 y 33
 elevation 5296
 end
-arch hills_rocky
+arch snowcliff1
 x 33
 y 34
 elevation 4148
 end
-arch hills_rocky
+arch snowcliff1
 x 33
 y 35
 elevation 4350
 end
-arch mountain
+arch snowcliff1
 x 33
 y 36
 elevation 6134
 end
-arch mountain
+arch snowcliff1
 x 33
 y 37
 elevation 8642
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 38
 elevation 10095
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 39
 elevation 10069
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 40
 elevation 11496
 end
-arch mountain4
+arch snowcliff1
 x 33
 y 41
 elevation 12024
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 42
 elevation 10925
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 43
 elevation 9419
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 44
 elevation 11306
 end
-arch mountain2
+arch snowcliff1
 x 33
 y 45
 elevation 9693
 end
-arch mountain2
+arch snow2
 x 33
 y 46
 elevation 10559
 end
-arch mountain2
+arch snow2
 x 33
 y 47
 elevation 9885
 end
-arch mountain
+arch snow2
 x 33
 y 48
 elevation 7789
 end
-arch mountain2
+arch snow2
 x 33
 y 49
 elevation 9281
@@ -8502,117 +8502,117 @@ x 34
 y 14
 elevation 7441
 end
-arch mountain
+arch snowcliff1
 x 34
 y 15
 elevation 7299
 end
-arch mountain
+arch snowcliff1
 x 34
 y 16
 elevation 7042
 end
-arch mountain
+arch istone
 x 34
 y 17
 elevation 6090
 end
-arch mountain
+arch istone
 x 34
 y 18
 elevation 7278
 end
-arch mountain
+arch snow2
 x 34
 y 19
 elevation 7443
 end
-arch mountain
+arch istone
 x 34
 y 20
 elevation 6627
 end
-arch steppe
+arch ipond
 x 34
 y 21
 elevation 4717
 end
-arch hills_rocky
+arch ipond
 x 34
 y 22
 elevation 3840
 end
-arch mountain
+arch istone
 x 34
 y 23
 elevation 6809
 end
-arch mountain
+arch istone
 x 34
 y 24
 elevation 8723
 end
-arch mountain2
+arch istone
 x 34
 y 25
 elevation 9582
 end
-arch mountain2
+arch snow2
 x 34
 y 26
 elevation 9068
 end
-arch mountain
+arch snow2
 x 34
 y 27
 elevation 7568
 end
-arch mountain
+arch snow2
 x 34
 y 28
 elevation 7098
 end
-arch mountain
+arch snow2
 x 34
 y 29
 elevation 6638
 end
-arch mountain
+arch snow2
 x 34
 y 30
 elevation 6110
 end
-arch mountain
+arch snowcliff1
 x 34
 y 31
 elevation 5578
 end
-arch hills_rocky
+arch snowcliff3
 x 34
 y 32
 elevation 4675
 end
-arch hills_rocky
+arch snowcliff3
 x 34
 y 33
 elevation 3318
 end
-arch hills
+arch snowcliff3
 x 34
 y 34
 elevation 1856
 end
-arch hills
+arch snowcliff3
 x 34
 y 35
 elevation 1804
 end
-arch hills_rocky
+arch snowcliff3
 x 34
 y 36
 elevation 3669
 end
-arch mountain
+arch snowcliff3
 x 34
 y 37
 elevation 7004
@@ -8622,22 +8622,22 @@ x 34
 y 38
 elevation 8331
 end
-arch mountain
+arch snowcliff3
 x 34
 y 39
 elevation 8041
 end
-arch mountain2
+arch snowcliff3
 x 34
 y 40
 elevation 10323
 end
-arch mountain2
+arch snowcliff3
 x 34
 y 41
 elevation 11462
 end
-arch mountain4
+arch snowcliff3
 x 34
 y 42
 elevation 12070
@@ -8652,27 +8652,27 @@ x 34
 y 44
 elevation 12791
 end
-arch mountain4
+arch snowcliff1
 x 34
 y 45
 elevation 12896
 end
-arch mountain4
+arch snowcliff1
 x 34
 y 46
 elevation 12454
 end
-arch mountain2
+arch snow2
 x 34
 y 47
 elevation 11771
 end
-arch mountain2
+arch snow2
 x 34
 y 48
 elevation 11320
 end
-arch mountain2
+arch snow2
 x 34
 y 49
 elevation 11327
@@ -8751,137 +8751,137 @@ x 35
 y 14
 elevation 6681
 end
-arch mountain
+arch snowcliff1
 x 35
 y 15
 elevation 6275
 end
-arch mountain
+arch istone
 x 35
 y 16
 elevation 5627
 end
-arch hills_rocky
+arch istone
 x 35
 y 17
 elevation 3897
 end
-arch mountain
+arch snow2
 x 35
 y 18
 elevation 5546
 end
-arch hills_rocky
+arch ipond
 x 35
 y 19
 elevation 4988
 end
-arch mountain
+arch ipond
 x 35
 y 20
 elevation 5597
 end
-arch steppe
+arch ipond
 x 35
 y 21
 elevation 4752
 end
-arch hills_rocky
+arch istone
 x 35
 y 22
 elevation 4034
 end
-arch mountain
+arch istone
 x 35
 y 23
 elevation 6212
 end
-arch mountain
+arch istone
 x 35
 y 24
 elevation 8309
 end
-arch mountain
+arch istone
 x 35
 y 25
 elevation 8908
 end
-arch mountain
+arch snow2
 x 35
 y 26
 elevation 8030
 end
-arch mountain
+arch snow2
 x 35
 y 27
 elevation 5657
 end
-arch mountain
+arch snow2
 x 35
 y 28
 elevation 6222
 end
-arch hills_rocky
+arch snow2
 x 35
 y 29
 elevation 4764
 end
-arch hills_rocky
+arch snowcliff1
 x 35
 y 30
 elevation 4111
 end
-arch hills_rocky
+arch snowcliff3
 x 35
 y 31
 elevation 4243
 end
-arch hills_rocky
+arch snowcliff3
 x 35
 y 32
 elevation 3304
 end
-arch desert
+arch snowcliff3
 x 35
 y 33
 elevation 999
 end
-arch hills
+arch snowcliff3
 x 35
 y 34
 elevation 1996
 end
-arch hills
+arch snowcliff3
 x 35
 y 35
 elevation 2344
 end
-arch hills_rocky
+arch snowcliff3
 x 35
 y 36
 elevation 3839
 end
-arch mountain
+arch snowcliff3
 x 35
 y 37
 elevation 5777
 end
-arch mountain
+arch snowcliff3
 x 35
 y 38
 elevation 6975
 end
-arch mountain
+arch snowcliff3
 x 35
 y 39
 elevation 7733
 end
-arch mountain2
+arch snowcliff3
 x 35
 y 40
 elevation 9273
 end
-arch mountain2
+arch snowcliff3
 x 35
 y 41
 elevation 10665
@@ -8891,7 +8891,7 @@ x 35
 y 42
 elevation 12414
 end
-arch mountain4
+arch snowcliff3
 x 35
 y 43
 elevation 13886
@@ -8901,7 +8901,7 @@ x 35
 y 44
 elevation 14279
 end
-arch mountain4
+arch snowcliff3
 x 35
 y 45
 elevation 13886
@@ -8911,17 +8911,17 @@ x 35
 y 46
 elevation 13310
 end
-arch mountain4
+arch snowcliff1
 x 35
 y 47
 elevation 13214
 end
-arch mountain4
+arch snow2
 x 35
 y 48
 elevation 12939
 end
-arch mountain4
+arch snow2
 x 35
 y 49
 elevation 12807
@@ -9000,162 +9000,162 @@ x 36
 y 14
 elevation 4435
 end
-arch hills_rocky
+arch snowcliff1
 x 36
 y 15
 elevation 4890
 end
-arch hills_rocky
+arch istone
 x 36
 y 16
 elevation 3929
 end
-arch steppe
+arch istone
 x 36
 y 17
 elevation 3502
 end
-arch hills_rocky
+arch snow2
 x 36
 y 18
 elevation 4908
 end
-arch hills_rocky
+arch ipond
 x 36
 y 19
 elevation 3952
 end
-arch mountain
+arch ipond
 x 36
 y 20
 elevation 5249
 end
-arch mountain
+arch istone
 x 36
 y 21
 elevation 5505
 end
-arch mountain
+arch istone
 x 36
 y 22
 elevation 5507
 end
-arch mountain
+arch istone
 x 36
 y 23
 elevation 6811
 end
-arch mountain
+arch istone
 x 36
 y 24
 elevation 7927
 end
-arch mountain
+arch istone
 x 36
 y 25
 elevation 8118
 end
-arch mountain
+arch snow2
 x 36
 y 26
 elevation 7219
 end
-arch mountain
+arch snow2
 x 36
 y 27
 elevation 5657
 end
-arch mountain
+arch snow2
 x 36
 y 28
 elevation 5951
 end
-arch mountain
+arch snow2
 x 36
 y 29
 elevation 5447
 end
-arch hills_rocky
+arch snowcliff1
 x 36
 y 30
 elevation 3633
 end
-arch hills
+arch snowcliff1
 x 36
 y 31
 elevation 2211
 end
-arch hills
+arch snowcliff3
 x 36
 y 32
 elevation 2825
 end
-arch hills
+arch snowcliff3
 x 36
 y 33
 elevation 1559
 end
-arch hills
+arch snowcliff3
 x 36
 y 34
 elevation 2351
 end
-arch hills
+arch snowcliff3
 x 36
 y 35
 elevation 1427
 end
-arch hills_rocky
+arch snowcliff3
 x 36
 y 36
 elevation 3780
 end
-arch hills_rocky
+arch snowcliff3
 x 36
 y 37
 elevation 3854
 end
-arch mountain
+arch snowcliff3
 x 36
 y 38
 elevation 7037
 end
-arch mountain
+arch snowcliff3
 x 36
 y 39
 elevation 8397
 end
-arch mountain
+arch snowcliff3
 x 36
 y 40
 elevation 7360
 end
-arch mountain
+arch snowcliff3
 x 36
 y 41
 elevation 8422
 end
-arch mountain2
+arch snowcliff3
 x 36
 y 42
 elevation 11122
 end
-arch mountain4
+arch snowcliff3
 x 36
 y 43
 elevation 14775
 end
-arch mountain4
+arch snowcliff3
 x 36
 y 44
 elevation 15042
 end
-arch mountain2
+arch snowcliff3
 x 36
 y 45
 elevation 11953
 end
-arch mountain4
+arch snowcliff3
 x 36
 y 46
 elevation 13050
@@ -9165,12 +9165,12 @@ x 36
 y 47
 elevation 13447
 end
-arch mountain4
+arch snowcliff1
 x 36
 y 48
 elevation 14021
 end
-arch mountain4
+arch snowcliff1
 x 36
 y 49
 elevation 13394
@@ -9249,152 +9249,152 @@ x 37
 y 14
 elevation 4083
 end
-arch hills_rocky
+arch snowcliff1
 x 37
 y 15
 elevation 4015
 end
-arch steppe
+arch istone
 x 37
 y 16
 elevation 3584
 end
-arch hills_rocky
+arch istone
 x 37
 y 17
 elevation 4778
 end
-arch mountain
+arch snow2
 x 37
 y 18
 elevation 5164
 end
-arch mountain
+arch ipond
 x 37
 y 19
 elevation 5349
 end
-arch hills_rocky
+arch istone
 x 37
 y 20
 elevation 4854
 end
-arch mountain
+arch istone
 x 37
 y 21
 elevation 5896
 end
-arch mountain
+arch istone
 x 37
 y 22
 elevation 6599
 end
-arch mountain
+arch istone
 x 37
 y 23
 elevation 7240
 end
-arch mountain
+arch istone
 x 37
 y 24
 elevation 7632
 end
-arch mountain
+arch snow2
 x 37
 y 25
 elevation 7398
 end
-arch mountain
+arch snow2
 x 37
 y 26
 elevation 6626
 end
-arch mountain
+arch snow2
 x 37
 y 27
 elevation 5761
 end
-arch mountain
+arch snow2
 x 37
 y 28
 elevation 6107
 end
-arch mountain
+arch snow2
 x 37
 y 29
 elevation 5658
 end
-arch hills_rocky
+arch snowcliff1
 x 37
 y 30
 elevation 4568
 end
-arch hills
+arch snowcliff3
 x 37
 y 31
 elevation 2401
 end
-arch hills_rocky
+arch snowcliff3
 x 37
 y 32
 elevation 3475
 end
-arch hills_rocky
+arch snowcliff3
 x 37
 y 33
 elevation 3825
 end
-arch hills_rocky
+arch snowcliff3
 x 37
 y 34
 elevation 3543
 end
-arch hills
+arch snowcliff3
 x 37
 y 35
 elevation 2438
 end
-arch hills_rocky
+arch snowcliff3
 x 37
 y 36
 elevation 4185
 end
-arch mountain
+arch snowcliff3
 x 37
 y 37
 elevation 5414
 end
-arch mountain
+arch snowcliff3
 x 37
 y 38
 elevation 7146
 end
-arch mountain2
+arch snowcliff3
 x 37
 y 39
 elevation 9268
 end
-arch mountain2
+arch snowcliff3
 x 37
 y 40
 elevation 10816
 end
-arch mountain2
+arch snowcliff3
 x 37
 y 41
 elevation 11917
 end
-arch mountain4
+arch snowcliff3
 x 37
 y 42
 elevation 13634
 end
-arch mountain4
+arch snowcliff3
 x 37
 y 43
 elevation 15325
 end
-arch mountain4
+arch snowcliff3
 x 37
 y 44
 elevation 15563
@@ -9404,7 +9404,7 @@ x 37
 y 45
 elevation 13579
 end
-arch mountain2
+arch snowcliff3
 x 37
 y 46
 elevation 10639
@@ -9419,7 +9419,7 @@ x 37
 y 48
 elevation 14766
 end
-arch mountain4
+arch snowcliff1
 x 37
 y 49
 elevation 14802
@@ -9498,37 +9498,37 @@ x 38
 y 14
 elevation 2704
 end
-arch hills_rocky
+arch snowcliff1
 x 38
 y 15
 elevation 3840
 end
-arch steppe
+arch snow2
 x 38
 y 16
 elevation 4523
 end
-arch mountain
+arch snow2
 x 38
 y 17
 elevation 5304
 end
-arch mountain
+arch snow2
 x 38
 y 18
 elevation 5583
 end
-arch mountain
+arch snow2
 x 38
 y 19
 elevation 5244
 end
-arch mountain
+arch snow2
 x 38
 y 20
 elevation 5129
 end
-arch mountain
+arch snow2
 x 38
 y 21
 elevation 5624
@@ -9548,77 +9548,77 @@ x 38
 y 24
 elevation 6641
 end
-arch mountain
+arch snow2
 x 38
 y 25
 elevation 6656
 end
-arch mountain
+arch snow2
 x 38
 y 26
 elevation 6031
 end
-arch mountain
+arch snow2
 x 38
 y 27
 elevation 5640
 end
-arch mountain
+arch snow2
 x 38
 y 28
 elevation 5737
 end
-arch mountain
+arch snow2
 x 38
 y 29
 elevation 5771
 end
-arch hills_rocky
+arch snowcliff1
 x 38
 y 30
 elevation 4884
 end
-arch mountain
+arch snowcliff3
 x 38
 y 31
 elevation 5145
 end
-arch mountain
+arch snowcliff3
 x 38
 y 32
 elevation 5275
 end
-arch mountain
+arch snowcliff3
 x 38
 y 33
 elevation 5395
 end
-arch mountain
+arch snowcliff3
 x 38
 y 34
 elevation 5099
 end
-arch mountain
+arch snowcliff3
 x 38
 y 35
 elevation 5093
 end
-arch mountain
+arch snowcliff3
 x 38
 y 36
 elevation 5270
 end
-arch hills_rocky
+arch snowcliff3
 x 38
 y 37
 elevation 4201
 end
-arch mountain
+arch snowcliff3
 x 38
 y 38
 elevation 6169
 end
-arch mountain2
+arch snowcliff3
 x 38
 y 39
 elevation 11115
@@ -9638,7 +9638,7 @@ x 38
 y 42
 elevation 14363
 end
-arch mountain4
+arch snowcliff3
 x 38
 y 43
 elevation 15513
@@ -9653,7 +9653,7 @@ x 38
 y 45
 elevation 15277
 end
-arch mountain4
+arch snowcliff3
 x 38
 y 46
 elevation 14864
@@ -9747,127 +9747,127 @@ x 39
 y 14
 elevation 5272
 end
-arch hills_rocky
+arch snowcliff1
 x 39
 y 15
 elevation 4995
 end
-arch mountain
+arch snowcliff1
 x 39
 y 16
 elevation 5202
 end
-arch mountain
+arch snowcliff1
 x 39
 y 17
 elevation 5529
 end
-arch mountain
+arch snow2
 x 39
 y 18
 elevation 5550
 end
-arch hills_rocky
+arch snow2
 x 39
 y 19
 elevation 4228
 end
-arch hills
+arch snow2
 x 39
 y 20
 elevation 2949
 end
-arch mountain
+arch ipond
 x 39
 y 21
 elevation 5260
 end
-arch mountain
+arch snow2
 x 39
 y 22
 elevation 6729
 end
-arch mountain
+arch snow2
 x 39
 y 23
 elevation 6926
 end
-arch mountain
+arch snow2
 x 39
 y 24
 elevation 6282
 end
-arch mountain
+arch snow2
 x 39
 y 25
 elevation 6043
 end
-arch mountain
+arch snow2
 x 39
 y 26
 elevation 5234
 end
-arch hills_rocky
+arch snow2
 x 39
 y 27
 elevation 3890
 end
-arch hills_rocky
+arch snow2
 x 39
 y 28
 elevation 4544
 end
-arch mountain
+arch snowcliff1
 x 39
 y 29
 elevation 6475
 end
-arch mountain
+arch snowcliff3
 x 39
 y 30
 elevation 6431
 end
-arch mountain
+arch snowcliff3
 x 39
 y 31
 elevation 6159
 end
-arch mountain
+arch snowcliff3
 x 39
 y 32
 elevation 6957
 end
-arch mountain
+arch snowcliff3
 x 39
 y 33
 elevation 7095
 end
-arch mountain
+arch snowcliff3
 x 39
 y 34
 elevation 6036
 end
-arch mountain
+arch snowcliff3
 x 39
 y 35
 elevation 6382
 end
-arch mountain
+arch snowcliff3
 x 39
 y 36
 elevation 6015
 end
-arch mountain
+arch snowcliff3
 x 39
 y 37
 elevation 6520
 end
-arch mountain2
+arch snowcliff3
 x 39
 y 38
 elevation 10185
 end
-arch mountain4
+arch snowcliff3
 x 39
 y 39
 elevation 13692
@@ -9882,7 +9882,7 @@ x 39
 y 41
 elevation 14999
 end
-arch mountain2
+arch snowcliff3
 x 39
 y 42
 elevation 11464
@@ -10001,112 +10001,112 @@ x 40
 y 15
 elevation 6046
 end
-arch mountain
+arch snowcliff1
 x 40
 y 16
 elevation 5706
 end
-arch hills_rocky
+arch snowcliff1
 x 40
 y 17
 elevation 4691
 end
-arch mountain
+arch snowcliff1
 x 40
 y 18
 elevation 5408
 end
-arch mountain
+arch snow2
 x 40
 y 19
 elevation 5367
 end
-arch mountain
+arch snow2
 x 40
 y 20
 elevation 5393
 end
-arch mountain
+arch snow2
 x 40
 y 21
 elevation 5956
 end
-arch mountain
+arch snow2
 x 40
 y 22
 elevation 6745
 end
-arch mountain
+arch snow2
 x 40
 y 23
 elevation 6959
 end
-arch mountain
+arch snow2
 x 40
 y 24
 elevation 6133
 end
-arch mountain
+arch snow2
 x 40
 y 25
 elevation 5720
 end
-arch mountain
+arch snow2
 x 40
 y 26
 elevation 5403
 end
-arch mountain
+arch snow2
 x 40
 y 27
 elevation 5666
 end
-arch mountain
+arch snowcliff1
 x 40
 y 28
 elevation 6755
 end
-arch mountain
+arch snowcliff1
 x 40
 y 29
 elevation 7689
 end
-arch mountain
+arch snowcliff3
 x 40
 y 30
 elevation 7875
 end
-arch mountain
+arch snowcliff3
 x 40
 y 31
 elevation 7094
 end
-arch mountain
+arch snowcliff3
 x 40
 y 32
 elevation 8267
 end
-arch mountain
+arch snowcliff3
 x 40
 y 33
 elevation 8402
 end
-arch mountain
+arch snowcliff3
 x 40
 y 34
 elevation 7929
 end
-arch mountain
+arch snowcliff3
 x 40
 y 35
 elevation 6872
 end
-arch mountain
+arch snowcliff3
 x 40
 y 36
 elevation 7350
 end
-arch mountain
+arch snowcliff3
 x 40
 y 37
 elevation 7208
@@ -10255,107 +10255,107 @@ x 41
 y 16
 elevation 6536
 end
-arch steppe
+arch snowcliff1
 x 41
 y 17
 elevation 4896
 end
-arch mountain
+arch snowcliff1
 x 41
 y 18
 elevation 5082
 end
-arch mountain
+arch snow2
 x 41
 y 19
 elevation 6094
 end
-arch mountain
+arch snow2
 x 41
 y 20
 elevation 6301
 end
-arch mountain
+arch snow2
 x 41
 y 21
 elevation 5714
 end
-arch mountain
+arch snow2
 x 41
 y 22
 elevation 7024
 end
-arch mountain
+arch snow2
 x 41
 y 23
 elevation 7019
 end
-arch mountain
+arch snow2
 x 41
 y 24
 elevation 6383
 end
-arch mountain
+arch snow2
 x 41
 y 25
 elevation 5030
 end
-arch hills_rocky
+arch snow2
 x 41
 y 26
 elevation 4592
 end
-arch mountain
+arch snow2
 x 41
 y 27
 elevation 6271
 end
-arch mountain
+arch snowcliff1
 x 41
 y 28
 elevation 7622
 end
-arch mountain
+arch snowcliff1
 x 41
 y 29
 elevation 8581
 end
-arch mountain
+arch snowcliff1
 x 41
 y 30
 elevation 8680
 end
-arch mountain
+arch snowcliff3
 x 41
 y 31
 elevation 8563
 end
-arch mountain
+arch snowcliff3
 x 41
 y 32
 elevation 8800
 end
-arch mountain2
+arch snowcliff3
 x 41
 y 33
 elevation 9128
 end
-arch mountain
+arch snowcliff3
 x 41
 y 34
 elevation 8858
 end
-arch mountain
+arch snowcliff3
 x 41
 y 35
 elevation 8056
 end
-arch mountain
+arch snowcliff3
 x 41
 y 36
 elevation 8829
 end
-arch mountain2
+arch snowcliff3
 x 41
 y 37
 elevation 9340
@@ -10504,107 +10504,107 @@ x 42
 y 16
 elevation 7758
 end
-arch mountain
+arch snowcliff1
 x 42
 y 17
 elevation 7365
 end
-arch mountain
+arch snowcliff1
 x 42
 y 18
 elevation 6086
 end
-arch mountain
+arch snow2
 x 42
 y 19
 elevation 7154
 end
-arch mountain
+arch snow2
 x 42
 y 20
 elevation 6603
 end
-arch mountain
+arch snow2
 x 42
 y 21
 elevation 7656
 end
-arch mountain
+arch snow2
 x 42
 y 22
 elevation 7591
 end
-arch mountain
+arch snow2
 x 42
 y 23
 elevation 6581
 end
-arch mountain
+arch snow2
 x 42
 y 24
 elevation 6647
 end
-arch mountain
+arch snow2
 x 42
 y 25
 elevation 5720
 end
-arch mountain
+arch snowcliff1
 x 42
 y 26
 elevation 5120
 end
-arch mountain
+arch snowcliff1
 x 42
 y 27
 elevation 6241
 end
-arch mountain
+arch snowcliff1
 x 42
 y 28
 elevation 7291
 end
-arch mountain
+arch snowcliff1
 x 42
 y 29
 elevation 8082
 end
-arch mountain
+arch snowcliff1
 x 42
 y 30
 elevation 8019
 end
-arch mountain
+arch snowcliff3
 x 42
 y 31
 elevation 7657
 end
-arch mountain
+arch snowcliff3
 x 42
 y 32
 elevation 8147
 end
-arch mountain
+arch snowcliff3
 x 42
 y 33
 elevation 8997
 end
-arch mountain2
+arch snowcliff3
 x 42
 y 34
 elevation 9689
 end
-arch mountain2
+arch snowcliff3
 x 42
 y 35
 elevation 9479
 end
-arch mountain2
+arch snowcliff3
 x 42
 y 36
 elevation 11431
 end
-arch mountain4
+arch snowcliff3
 x 42
 y 37
 elevation 13787
@@ -10758,37 +10758,37 @@ x 43
 y 17
 elevation 8637
 end
-arch mountain
+arch snowcliff1
 x 43
 y 18
 elevation 8282
 end
-arch mountain
+arch snow2
 x 43
 y 19
 elevation 8285
 end
-arch mountain
+arch snow2
 x 43
 y 20
 elevation 8803
 end
-arch mountain
+arch snow2
 x 43
 y 21
 elevation 8816
 end
-arch mountain
+arch snow2
 x 43
 y 22
 elevation 8202
 end
-arch mountain
+arch snow2
 x 43
 y 23
 elevation 7559
 end
-arch mountain
+arch snow2
 x 43
 y 24
 elevation 6991
@@ -10798,52 +10798,52 @@ x 43
 y 25
 elevation 6731
 end
-arch mountain
+arch snowcliff1
 x 43
 y 26
 elevation 6298
 end
-arch hills_rocky
+arch snowcliff1
 x 43
 y 27
 elevation 4920
 end
-arch mountain
+arch snowcliff1
 x 43
 y 28
 elevation 6256
 end
-arch mountain
+arch snowcliff1
 x 43
 y 29
 elevation 6612
 end
-arch mountain
+arch snowcliff1
 x 43
 y 30
 elevation 6123
 end
-arch hills_rocky
+arch snowcliff3
 x 43
 y 31
 elevation 4811
 end
-arch mountain
+arch snowcliff3
 x 43
 y 32
 elevation 5669
 end
-arch mountain
+arch snowcliff3
 x 43
 y 33
 elevation 8866
 end
-arch mountain2
+arch snowcliff3
 x 43
 y 34
 elevation 10467
 end
-arch mountain2
+arch snowcliff3
 x 43
 y 35
 elevation 11855
@@ -11007,37 +11007,37 @@ x 44
 y 17
 elevation 9303
 end
-arch mountain
+arch snowcliff1
 x 44
 y 18
 elevation 8141
 end
-arch mountain2
+arch snow2
 x 44
 y 19
 elevation 9103
 end
-arch mountain2
+arch snow2
 x 44
 y 20
 elevation 9600
 end
-arch mountain2
+arch snow2
 x 44
 y 21
 elevation 9573
 end
-arch mountain
+arch snow2
 x 44
 y 22
 elevation 8960
 end
-arch mountain
+arch snow2
 x 44
 y 23
 elevation 6442
 end
-arch mountain
+arch snow2
 x 44
 y 24
 elevation 7638
@@ -11047,37 +11047,37 @@ x 44
 y 25
 elevation 7576
 end
-arch mountain
+arch snowcliff1
 x 44
 y 26
 elevation 6938
 end
-arch mountain
+arch snowcliff1
 x 44
 y 27
 elevation 6313
 end
-arch mountain
+arch snowcliff1
 x 44
 y 28
 elevation 5700
 end
-arch hills_rocky
+arch snowcliff1
 x 44
 y 29
 elevation 3649
 end
-arch hills_rocky
+arch snowcliff1
 x 44
 y 30
 elevation 4885
 end
-arch hills
+arch snowcliff3
 x 44
 y 31
 elevation 2882
 end
-arch mountain
+arch snowcliff3
 x 44
 y 32
 elevation 6132
@@ -11087,12 +11087,12 @@ x 44
 y 33
 elevation 9154
 end
-arch mountain2
+arch snowcliff3
 x 44
 y 34
 elevation 10963
 end
-arch mountain4
+arch snowcliff3
 x 44
 y 35
 elevation 12701
@@ -11256,92 +11256,92 @@ x 45
 y 17
 elevation 9870
 end
-arch mountain2
+arch snowcliff1
 x 45
 y 18
 elevation 9020
 end
-arch mountain2
+arch snow2
 x 45
 y 19
 elevation 9023
 end
-arch mountain2
+arch snow2
 x 45
 y 20
 elevation 9529
 end
-arch mountain2
+arch snow2
 x 45
 y 21
 elevation 9980
 end
-arch mountain2
+arch snow2
 x 45
 y 22
 elevation 9620
 end
-arch mountain2
+arch snow2
 x 45
 y 23
 elevation 9328
 end
-arch mountain
+arch snowcliff3
 x 45
 y 24
 elevation 8855
 end
-arch mountain
+arch snowcliff1
 x 45
 y 25
 elevation 8237
 end
-arch mountain
+arch snowcliff1
 x 45
 y 26
 elevation 7432
 end
-arch mountain
+arch snowcliff1
 x 45
 y 27
 elevation 6577
 end
-arch mountain
+arch snowcliff1
 x 45
 y 28
 elevation 5459
 end
-arch hills_rocky
+arch snowcliff1
 x 45
 y 29
 elevation 4891
 end
-arch mountain
+arch snowcliff1
 x 45
 y 30
 elevation 5777
 end
-arch mountain
+arch snowcliff3
 x 45
 y 31
 elevation 6802
 end
-arch mountain
+arch snowcliff3
 x 45
 y 32
 elevation 8374
 end
-arch mountain2
+arch snowcliff3
 x 45
 y 33
 elevation 10003
 end
-arch mountain2
+arch snowcliff3
 x 45
 y 34
 elevation 10476
 end
-arch mountain4
+arch snowcliff3
 x 45
 y 35
 elevation 13163
@@ -11356,22 +11356,22 @@ x 45
 y 37
 elevation 15169
 end
-arch mountain4
+arch snowcliff3
 x 45
 y 38
 elevation 15261
 end
-arch mountain4
+arch snowcliff3
 x 45
 y 39
 elevation 14533
 end
-arch mountain2
+arch snowcliff3
 x 45
 y 40
 elevation 11201
 end
-arch mountain
+arch snowcliff3
 x 45
 y 41
 elevation 8479
@@ -11411,7 +11411,7 @@ x 45
 y 48
 elevation 11415
 end
-arch mountain2
+arch snowcliff3
 x 45
 y 49
 elevation 11207
@@ -11505,37 +11505,37 @@ x 46
 y 17
 elevation 10512
 end
-arch mountain
+arch snowcliff1
 x 46
 y 18
 elevation 8236
 end
-arch mountain
+arch snow2
 x 46
 y 19
 elevation 7056
 end
-arch mountain2
+arch snow2
 x 46
 y 20
 elevation 9821
 end
-arch mountain2
+arch ipond
 x 46
 y 21
 elevation 9481
 end
-arch mountain2
+arch snow2
 x 46
 y 22
 elevation 10874
 end
-arch mountain2
+arch snow2
 x 46
 y 23
 elevation 10670
 end
-arch mountain2
+arch snow2
 x 46
 y 24
 elevation 10127
@@ -11545,42 +11545,42 @@ x 46
 y 25
 elevation 9116
 end
-arch mountain
+arch snowcliff1
 x 46
 y 26
 elevation 6369
 end
-arch mountain
+arch snowcliff1
 x 46
 y 27
 elevation 7608
 end
-arch mountain
+arch snowcliff1
 x 46
 y 28
 elevation 5967
 end
-arch mountain
+arch snowcliff1
 x 46
 y 29
 elevation 7125
 end
-arch mountain
+arch snowcliff1
 x 46
 y 30
 elevation 5759
 end
-arch mountain
+arch snowcliff3
 x 46
 y 31
 elevation 8576
 end
-arch mountain2
+arch snowcliff3
 x 46
 y 32
 elevation 9848
 end
-arch mountain2
+arch snowcliff3
 x 46
 y 33
 elevation 10690
@@ -11610,7 +11610,7 @@ x 46
 y 38
 elevation 12603
 end
-arch mountain4
+arch snowcliff3
 x 46
 y 39
 elevation 12940
@@ -11749,87 +11749,87 @@ x 47
 y 16
 elevation 12118
 end
-arch mountain2
+arch snowcliff1
 x 47
 y 17
 elevation 11285
 end
-arch mountain2
+arch snowcliff1
 x 47
 y 18
 elevation 9078
 end
-arch mountain2
+arch snow2
 x 47
 y 19
 elevation 9842
 end
-arch mountain2
+arch snow2
 x 47
 y 20
 elevation 10388
 end
-arch mountain2
+arch ipond
 x 47
 y 21
 elevation 11425
 end
-arch mountain4
+arch snow2
 x 47
 y 22
 elevation 12031
 end
-arch mountain4
+arch snow2
 x 47
 y 23
 elevation 12054
 end
-arch mountain2
+arch snow2
 x 47
 y 24
 elevation 9779
 end
-arch mountain2
+arch snow2
 x 47
 y 25
 elevation 10404
 end
-arch mountain2
+arch snowcliff1
 x 47
 y 26
 elevation 9722
 end
-arch mountain
+arch snowcliff1
 x 47
 y 27
 elevation 8983
 end
-arch mountain
+arch snowcliff1
 x 47
 y 28
 elevation 8886
 end
-arch mountain2
+arch snowcliff1
 x 47
 y 29
 elevation 9015
 end
-arch mountain2
+arch snowcliff3
 x 47
 y 30
 elevation 9607
 end
-arch mountain2
+arch snowcliff3
 x 47
 y 31
 elevation 10134
 end
-arch mountain2
+arch snowcliff3
 x 47
 y 32
 elevation 10346
 end
-arch mountain2
+arch snowcliff3
 x 47
 y 33
 elevation 11868
@@ -11839,7 +11839,7 @@ x 47
 y 34
 elevation 12838
 end
-arch mountain4
+arch snowcliff3
 x 47
 y 35
 elevation 14119
@@ -11849,12 +11849,12 @@ x 47
 y 36
 elevation 14563
 end
-arch mountain4
+arch snowcliff3
 x 47
 y 37
 elevation 12911
 end
-arch mountain2
+arch snowcliff3
 x 47
 y 38
 elevation 9615
@@ -11864,7 +11864,7 @@ x 47
 y 39
 elevation 11606
 end
-arch mountain4
+arch snowcliff3
 x 47
 y 40
 elevation 14296
@@ -11998,32 +11998,32 @@ x 48
 y 16
 elevation 12095
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 17
 elevation 11889
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 18
 elevation 11196
 end
-arch mountain2
+arch snow2
 x 48
 y 19
 elevation 10519
 end
-arch mountain2
+arch snow2
 x 48
 y 20
 elevation 11257
 end
-arch mountain4
+arch snow2
 x 48
 y 21
 elevation 12033
 end
-arch mountain4
+arch snow2
 x 48
 y 22
 elevation 12858
@@ -12033,62 +12033,62 @@ x 48
 y 23
 elevation 13173
 end
-arch mountain4
+arch snow2
 x 48
 y 24
 elevation 12946
 end
-arch mountain2
+arch snow2
 x 48
 y 25
 elevation 11723
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 26
 elevation 10904
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 27
 elevation 9898
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 28
 elevation 9698
 end
-arch mountain2
+arch snowcliff1
 x 48
 y 29
 elevation 10606
 end
-arch mountain2
+arch snowcliff3
 x 48
 y 30
 elevation 11524
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 31
 elevation 12024
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 32
 elevation 12111
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 33
 elevation 13043
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 34
 elevation 13170
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 35
 elevation 14834
@@ -12103,17 +12103,17 @@ x 48
 y 37
 elevation 14749
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 38
 elevation 14233
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 39
 elevation 14597
 end
-arch mountain4
+arch snowcliff3
 x 48
 y 40
 elevation 15751
@@ -12247,47 +12247,47 @@ x 49
 y 16
 elevation 11190
 end
-arch mountain2
+arch snowcliff1
 x 49
 y 17
 elevation 11637
 end
-arch mountain2
+arch snowcliff3
 x 49
 y 18
 elevation 11749
 end
-arch mountain2
+arch snowcliff3
 x 49
 y 19
 elevation 10685
 end
-arch mountain2
+arch snow2
 x 49
 y 20
 elevation 11590
 end
-arch mountain4
+arch snow2
 x 49
 y 21
 elevation 12103
 end
-arch mountain4
+arch snow2
 x 49
 y 22
 elevation 12126
 end
-arch mountain4
+arch snow2
 x 49
 y 23
 elevation 14097
 end
-arch mountain4
+arch snow2
 x 49
 y 24
 elevation 14663
 end
-arch mountain4
+arch snow2
 x 49
 y 25
 elevation 13706
@@ -12297,67 +12297,67 @@ x 49
 y 26
 elevation 11429
 end
-arch mountain
+arch snowcliff1
 x 49
 y 27
 elevation 7698
 end
-arch mountain
+arch snowcliff1
 x 49
 y 28
 elevation 8945
 end
-arch mountain2
+arch snowcliff3
 x 49
 y 29
 elevation 11151
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 30
 elevation 12993
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 31
 elevation 14234
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 32
 elevation 13426
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 33
 elevation 14889
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 34
 elevation 14966
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 35
 elevation 15546
 end
-arch mountain5
+arch snowcliff3
 x 49
 y 36
 elevation 16505
 end
-arch mountain5
+arch snowcliff3
 x 49
 y 37
 elevation 16461
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 38
 elevation 15734
 end
-arch mountain4
+arch snowcliff3
 x 49
 y 39
 elevation 15764

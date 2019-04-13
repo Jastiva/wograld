@@ -3,7 +3,7 @@ name world_122_114
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-04-12 lori
 endmsg
 outdoor 1
 tile_path_1 world_122_113
@@ -53,7 +53,7 @@ arch hills
 y 9
 elevation 2718
 end
-arch woods_2
+arch pine_needles
 y 10
 elevation 2176
 end
@@ -100,15 +100,15 @@ end
 arch dirtroad_1_3
 y 20
 end
-arch woods_2
+arch grassmedium
 y 21
 elevation 1026
 end
-arch woods_2
+arch grassmedium
 y 22
 elevation 1222
 end
-arch woods_2
+arch grassmedium
 y 23
 elevation 1130
 end
@@ -120,43 +120,43 @@ arch brush
 y 25
 elevation 189
 end
-arch woods_2
+arch grassmedium
 y 26
 elevation 1322
 end
-arch woods_2
+arch grassmedium
 y 27
 elevation 1772
 end
-arch woods_2
+arch grassmedium
 y 28
 elevation 1863
 end
-arch woods_2
+arch grassmedium
 y 29
 elevation 1737
 end
-arch woods_2
+arch grassmedium
 y 30
 elevation 1550
 end
-arch woods_2
+arch grassmedium
 y 31
 elevation 1250
 end
-arch woods_2
+arch grassmedium
 y 32
 elevation 1649
 end
-arch woods_2
+arch grassmedium
 y 33
 elevation 1995
 end
-arch woods_2
+arch grassmedium
 y 34
 elevation 2337
 end
-arch woods_2
+arch grassmedium
 y 35
 elevation 2161
 end
@@ -176,11 +176,11 @@ arch woods_2
 y 39
 elevation 1806
 end
-arch woods_2
+arch grassmedium
 y 40
 elevation 1853
 end
-arch woods_2
+arch grassmedium
 y 41
 elevation 1175
 end
@@ -272,12 +272,12 @@ x 1
 y 8
 elevation 1571
 end
-arch woods_2
+arch pine_needles
 x 1
 y 9
 elevation 1364
 end
-arch woods_2
+arch pine_needles
 x 1
 y 10
 elevation 1152
@@ -336,17 +336,17 @@ arch dirtroad_1_3
 x 1
 y 20
 end
-arch woods_2
+arch grassmedium
 x 1
 y 21
 elevation 1258
 end
-arch woods_2
+arch grassmedium
 x 1
 y 22
 elevation 1538
 end
-arch woods_2
+arch grassmedium
 x 1
 y 23
 elevation 1302
@@ -361,22 +361,30 @@ x 1
 y 25
 elevation 478
 end
-arch woods_2
+arch grassmedium
 x 1
 y 26
 elevation 1301
 end
-arch woods_2
+arch grassmedium
 x 1
 y 27
 elevation 1807
 end
-arch woods_2
+arch lumber_oak
+x 1
+y 27
+end
+arch grassmedium
 x 1
 y 28
 elevation 1800
 end
-arch brush
+arch lumber_oak
+x 1
+y 28
+end
+arch grassmedium
 x 1
 y 29
 elevation 755
@@ -396,47 +404,47 @@ x 1
 y 32
 elevation 365
 end
-arch woods_2
+arch grassmedium
 x 1
 y 33
 elevation 1610
 end
-arch woods_2
+arch grassmedium
 x 1
 y 34
 elevation 2185
 end
-arch woods_2
+arch grassmedium
 x 1
 y 35
 elevation 2331
 end
-arch woods_2
+arch grassmedium
 x 1
 y 36
 elevation 2118
 end
-arch woods_2
+arch grassmedium
 x 1
 y 37
 elevation 1960
 end
-arch woods_2
+arch grassmedium
 x 1
 y 38
 elevation 1112
 end
-arch woods_2
+arch grassmedium
 x 1
 y 39
 elevation 2306
 end
-arch woods_2
+arch grassmedium
 x 1
 y 40
 elevation 2352
 end
-arch woods_2
+arch grassmedium
 x 1
 y 41
 elevation 1316
@@ -527,7 +535,7 @@ arch evergreens2
 x 2
 y 6
 end
-arch woods_2
+arch pine_needles
 x 2
 y 7
 elevation 1014
@@ -592,7 +600,7 @@ x 2
 y 19
 elevation 584
 end
-arch hills
+arch grassmedium
 x 2
 y 20
 elevation 1378
@@ -601,17 +609,17 @@ arch dirtroad_1_3
 x 2
 y 20
 end
-arch woods_2
+arch grassmedium
 x 2
 y 21
 elevation 1770
 end
-arch woods_2
+arch grassmedium
 x 2
 y 22
 elevation 1859
 end
-arch woods_2
+arch grassmedium
 x 2
 y 23
 elevation 1406
@@ -626,82 +634,126 @@ x 2
 y 25
 elevation 776
 end
-arch woods_2
+arch grassmedium
 x 2
 y 26
 elevation 1222
 end
-arch woods_2
+arch grassmedium
 x 2
 y 27
 elevation 1629
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 27
+end
+arch grassmedium
 x 2
 y 28
 elevation 1668
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 28
+end
+arch grassmedium
 x 2
 y 29
 elevation 1473
 end
-arch woods_2
+arch grassmedium
 x 2
 y 30
 elevation 1201
+end
+arch lumber_oak
+x 2
+y 30
 end
 arch brush
 x 2
 y 31
 elevation 945
 end
+arch lumber_oak
+x 2
+y 31
+end
 arch brush
 x 2
 y 32
 elevation 400
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 32
+end
+arch grassmedium
 x 2
 y 33
 elevation 1561
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 33
+end
+arch grassmedium
 x 2
 y 34
 elevation 1301
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 34
+end
+arch grassmedium
 x 2
 y 35
 elevation 2605
+end
+arch lumber_oak
+x 2
+y 35
 end
 arch hills_rocky
 x 2
 y 36
 elevation 3480
 end
-arch hills
+arch lumber_oak
+x 2
+y 36
+end
+arch grassmedium
 x 2
 y 37
 elevation 3626
 end
-arch woods_2
+arch lumber_oak
+x 2
+y 37
+end
+arch grassmedium
 x 2
 y 38
 elevation 2755
+end
+arch lumber_oak
+x 2
+y 38
 end
 arch hills
 x 2
 y 39
 elevation 3533
 end
-arch woods_2
+arch grassmedium
 x 2
 y 40
 elevation 2938
 end
-arch woods_2
+arch grassmedium
 x 2
 y 41
 elevation 1571
@@ -755,7 +807,7 @@ x 3
 y 1
 elevation 648
 end
-arch woods_2
+arch pine_needles
 x 3
 y 2
 elevation 1433
@@ -775,7 +827,7 @@ x 3
 y 5
 elevation 789
 end
-arch woods_2
+arch pine_needles
 x 3
 y 6
 elevation 1551
@@ -854,17 +906,17 @@ arch dirtroad_1_3
 x 3
 y 20
 end
-arch woods_2
+arch grassmedium
 x 3
 y 21
 elevation 1970
 end
-arch woods_2
+arch grassmedium
 x 3
 y 22
 elevation 1872
 end
-arch woods_2
+arch grassmedium
 x 3
 y 23
 elevation 1342
@@ -879,92 +931,136 @@ x 3
 y 25
 elevation 757
 end
-arch woods_2
+arch grassmedium
 x 3
 y 26
 elevation 1043
 end
-arch woods_2
+arch grassmedium
 x 3
 y 27
 elevation 1207
 end
-arch woods_2
+arch lumber_oak
+x 3
+y 27
+end
+arch grassmedium
 x 3
 y 28
 elevation 1722
 end
-arch woods_2
+arch lumber_oak
+x 3
+y 28
+end
+arch grassmedium
 x 3
 y 29
 elevation 1912
 end
-arch woods_2
+arch grassmedium
 x 3
 y 30
 elevation 1925
 end
-arch woods_2
+arch lumber_oak
+x 3
+y 30
+end
+arch grassmedium
 x 3
 y 31
 elevation 1825
 end
-arch woods_2
+arch lumber_oak
+x 3
+y 31
+end
+arch grassmedium
 x 3
 y 32
 elevation 1253
 end
-arch woods_2
+arch lumber_oak
+x 3
+y 32
+end
+arch grassmedium
 x 3
 y 33
 elevation 2646
 end
-arch hills_rocky
+arch lumber_oak
+x 3
+y 33
+end
+arch grassmedium
 x 3
 y 34
 elevation 3256
 end
-arch hills_rocky
+arch lumber_oak
+x 3
+y 34
+end
+arch grassmedium
 x 3
 y 35
 elevation 3624
 end
-arch hills
+arch lumber_oak
+x 3
+y 35
+end
+arch grassmedium
 x 3
 y 36
 elevation 4445
 end
-arch mountain
+arch lumber_oak
+x 3
+y 36
+end
+arch grassmedium
 x 3
 y 37
 elevation 5016
 end
-arch mountain
+arch lumber_oak
+x 3
+y 37
+end
+arch grassmedium
 x 3
 y 38
 elevation 5230
+end
+arch lumber_oak
+x 3
+y 38
 end
 arch hills
 x 3
 y 39
 elevation 4668
 end
-arch hills
+arch grassmedium
 x 3
 y 40
 elevation 3385
 end
-arch woods_3
+arch grassmedium
 x 3
 y 41
 elevation 2035
 end
-arch woods_2
+arch grassmedium
 x 3
 y 42
 elevation 1232
 end
-arch woods_2
+arch grassmedium
 x 3
 y 43
 elevation 1011
@@ -999,16 +1095,16 @@ x 3
 y 49
 elevation 57
 end
-arch woods_2
+arch pine_needles
 x 4
 elevation 2047
 end
-arch hills
+arch pine_needles
 x 4
 y 1
 elevation 1594
 end
-arch woods_2
+arch pine_needles
 x 4
 y 2
 elevation 2653
@@ -1097,7 +1193,7 @@ x 4
 y 18
 elevation 981
 end
-arch woods_2
+arch pine_needles
 x 4
 y 19
 elevation 1462
@@ -1116,7 +1212,7 @@ x 4
 y 21
 elevation 1609
 end
-arch woods_2
+arch grassmedium
 x 4
 y 22
 elevation 1438
@@ -1141,82 +1237,118 @@ x 4
 y 26
 elevation 698
 end
-arch woods_2
+arch grassmedium
 x 4
 y 27
 elevation 1163
 end
-arch woods_2
+arch grassmedium
 x 4
 y 28
 elevation 1599
 end
-arch woods_2
+arch grassmedium
 x 4
 y 29
 elevation 1896
 end
-arch woods_2
+arch grassmedium
 x 4
 y 30
 elevation 2034
 end
-arch woods_2
+arch lumber_oak
+x 4
+y 30
+end
+arch grassmedium
 x 4
 y 31
 elevation 2342
+end
+arch lumber_oak
+x 4
+y 31
 end
 arch hills_rocky
 x 4
 y 32
 elevation 3048
 end
+arch lumber_oak
+x 4
+y 32
+end
 arch hills_rocky
 x 4
 y 33
 elevation 3920
+end
+arch lumber_oak
+x 4
+y 33
 end
 arch hills
 x 4
 y 34
 elevation 4429
 end
+arch lumber_oak
+x 4
+y 34
+end
 arch hills_rocky
 x 4
 y 35
 elevation 4436
+end
+arch lumber_oak
+x 4
+y 35
 end
 arch hills_rocky
 x 4
 y 36
 elevation 4957
 end
-arch mountain
+arch lumber_oak
+x 4
+y 36
+end
+arch grassmedium
 x 4
 y 37
 elevation 5622
 end
-arch mountain
+arch lumber_oak
+x 4
+y 37
+end
+arch grassmedium
 x 4
 y 38
 elevation 5840
+end
+arch lumber_oak
+x 4
+y 38
 end
 arch hills
 x 4
 y 39
 elevation 4792
 end
-arch steppe
+arch grassmedium
 x 4
 y 40
 elevation 3060
 end
-arch woods_2
+arch grassmedium
 x 4
 y 41
 elevation 1056
 end
-arch woods_2
+arch grassmedium
 x 4
 y 42
 elevation 1172
@@ -1256,7 +1388,7 @@ x 4
 y 49
 elevation 153
 end
-arch steppe
+arch pine_needles
 x 5
 elevation 3570
 end
@@ -1404,17 +1536,21 @@ x 5
 y 28
 elevation 960
 end
-arch woods_2
+arch grassmedium
 x 5
 y 29
 elevation 1354
 end
-arch woods_2
+arch grassmedium
 x 5
 y 30
 elevation 1652
 end
-arch woods_2
+arch lumber_oak
+x 5
+y 30
+end
+arch grassmedium
 x 5
 y 31
 elevation 1507
@@ -1424,35 +1560,63 @@ x 5
 y 32
 elevation 3555
 end
+arch lumber_oak
+x 5
+y 32
+end
 arch hills_rocky
 x 5
 y 33
 elevation 4507
+end
+arch lumber_oak
+x 5
+y 33
 end
 arch hills_rocky
 x 5
 y 34
 elevation 4745
 end
+arch lumber_oak
+x 5
+y 34
+end
 arch hills_rocky
 x 5
 y 35
 elevation 4521
 end
-arch hills
+arch lumber_oak
+x 5
+y 35
+end
+arch grassmedium
 x 5
 y 36
 elevation 4493
 end
-arch mountain
+arch lumber_oak
+x 5
+y 36
+end
+arch grassmedium
 x 5
 y 37
 elevation 5244
 end
-arch mountain
+arch lumber_oak
+x 5
+y 37
+end
+arch grassmedium
 x 5
 y 38
 elevation 5233
+end
+arch lumber_oak
+x 5
+y 38
 end
 arch hills
 x 5
@@ -1464,7 +1628,7 @@ x 5
 y 40
 elevation 884
 end
-arch woods_2
+arch grassmedium
 x 5
 y 41
 elevation 1139
@@ -1509,7 +1673,7 @@ x 5
 y 49
 elevation 518
 end
-arch hills_rocky
+arch pine_needles
 x 6
 elevation 4383
 end
@@ -1622,12 +1786,12 @@ x 6
 y 21
 elevation 932
 end
-arch woods_2
+arch pine_needles
 x 6
 y 22
 elevation 1081
 end
-arch hills
+arch pine_needles
 x 6
 y 23
 elevation 1125
@@ -1667,7 +1831,7 @@ x 6
 y 30
 elevation 181
 end
-arch woods_2
+arch grassmedium
 x 6
 y 31
 elevation 2006
@@ -1687,22 +1851,22 @@ x 6
 y 34
 elevation 3019
 end
-arch hills_rocky
+arch grassmedium
 x 6
 y 35
 elevation 3995
 end
-arch hills_rocky
+arch grassmedium
 x 6
 y 36
 elevation 3745
 end
-arch hills
+arch grassmedium
 x 6
 y 37
 elevation 4101
 end
-arch hills
+arch grassmedium
 x 6
 y 38
 elevation 3776
@@ -1762,11 +1926,11 @@ x 6
 y 49
 elevation 190
 end
-arch steppe
+arch pine_needles
 x 7
 elevation 3123
 end
-arch hills_rocky
+arch pine_needles
 x 7
 y 1
 elevation 4143
@@ -1875,12 +2039,12 @@ x 7
 y 21
 elevation 772
 end
-arch woods_2
+arch pine_needles
 x 7
 y 22
 elevation 1045
 end
-arch woods_2
+arch pine_needles
 x 7
 y 23
 elevation 1074
@@ -1920,66 +2084,62 @@ x 7
 y 30
 elevation 223
 end
-arch woods_2
+arch grassmedium
 x 7
 y 31
 elevation 2293
 end
-arch steppe
+arch grassmedium
 x 7
 y 32
 elevation 3679
 end
-arch hills
+arch grassmedium
 x 7
 y 33
 elevation 3935
 end
-arch hills
+arch grassmedium
 x 7
 y 34
 elevation 3588
 end
-arch hills
+arch grassmedium
 x 7
 y 35
 elevation 3107
 end
-arch woods_2
+arch grassmedium
 x 7
 y 36
 elevation 2962
 end
-arch woods_2
+arch grassmedium
 x 7
 y 37
 elevation 2597
 end
-arch woods_3
+arch grassmedium
 x 7
 y 38
 elevation 1571
 end
-arch grass_only
+arch grassmedium
 x 7
 y 39
 elevation 1489
-end
-arch tree3
-x 7
-y 39
 end
 arch brush
 x 7
 y 40
 elevation 459
 end
-arch brush
+arch grassmedium
 x 7
 y 41
 elevation 712
 end
-arch woods_2
+arch grassmedium
 x 7
 y 42
 elevation 1067
@@ -2019,7 +2179,7 @@ x 7
 y 49
 elevation 12
 end
-arch woods_2
+arch pine_needles
 x 8
 elevation 2802
 end
@@ -2188,7 +2348,7 @@ x 8
 y 29
 elevation 420
 end
-arch grass_only
+arch grassmedium
 x 8
 y 30
 elevation 1326
@@ -2197,22 +2357,22 @@ arch tree3
 x 8
 y 30
 end
-arch woods_2
+arch grassmedium
 x 8
 y 31
 elevation 2206
 end
-arch steppe
+arch grassmedium
 x 8
 y 32
 elevation 3003
 end
-arch hills_rocky
+arch grassmedium
 x 8
 y 33
 elevation 3116
 end
-arch grass_only
+arch grassmedium
 x 8
 y 34
 elevation 2758
@@ -2221,51 +2381,71 @@ arch tree3
 x 8
 y 34
 end
-arch woods_2
+arch grassmedium
 x 8
 y 35
 elevation 2216
 end
-arch woods_2
+arch lumber_oak
+x 8
+y 35
+end
+arch grassmedium
 x 8
 y 36
 elevation 1292
 end
-arch woods_3
+arch lumber_oak
+x 8
+y 36
+end
+arch grassmedium
 x 8
 y 37
 elevation 1002
+end
+arch lumber_oak
+x 8
+y 37
 end
 arch brush
 x 8
 y 38
 elevation 477
 end
+arch lumber_oak
+x 8
+y 38
+end
 arch brush
 x 8
 y 39
 elevation 903
+end
+arch lumber_oak
+x 8
+y 39
 end
 arch brush
 x 8
 y 40
 elevation 459
 end
-arch grass_only
+arch lumber_oak
+x 8
+y 40
+end
+arch grassmedium
 x 8
 y 41
 elevation 1336
 end
-arch tree3
-x 8
-y 41
-end
-arch woods_2
+arch grassmedium
 x 8
 y 42
 elevation 1512
 end
-arch woods_2
+arch grassmedium
 x 8
 y 43
 elevation 1220
@@ -2477,7 +2657,7 @@ x 9
 y 29
 elevation 814
 end
-arch grass_only
+arch grassmedium
 x 9
 y 30
 elevation 1318
@@ -2486,12 +2666,12 @@ arch tree3
 x 9
 y 30
 end
-arch woods_2
+arch grassmedium
 x 9
 y 31
 elevation 1686
 end
-arch grass_only
+arch grassmedium
 x 9
 y 32
 elevation 1877
@@ -2500,17 +2680,17 @@ arch tree3
 x 9
 y 32
 end
-arch woods_2
+arch grassmedium
 x 9
 y 33
 elevation 1788
 end
-arch woods_2
+arch grassmedium
 x 9
 y 34
 elevation 1207
 end
-arch grass_only
+arch grassmedium
 x 9
 y 35
 elevation 1117
@@ -2534,12 +2714,12 @@ x 9
 y 38
 elevation 459
 end
-arch grass
+arch grassmedium
 x 9
 y 39
 elevation 663
 end
-arch grass_only
+arch grassmedium
 x 9
 y 40
 elevation 1137
@@ -2548,7 +2728,7 @@ arch tree3
 x 9
 y 40
 end
-arch grass_only
+arch grassmedium
 x 9
 y 41
 elevation 1638
@@ -2562,7 +2742,7 @@ x 9
 y 42
 elevation 1743
 end
-arch woods_2
+arch grassmedium
 x 9
 y 43
 elevation 1281
@@ -2807,12 +2987,12 @@ x 10
 y 38
 elevation 41
 end
-arch brush
+arch grassmedium
 x 10
 y 39
 elevation 268
 end
-arch grass_only
+arch grassmedium
 x 10
 y 40
 elevation 1030
@@ -2821,12 +3001,12 @@ arch tree3
 x 10
 y 40
 end
-arch woods_2
+arch grassmedium
 x 10
 y 41
 elevation 1464
 end
-arch grass_only
+arch grassmedium
 x 10
 y 42
 elevation 1466
@@ -2865,7 +3045,7 @@ x 10
 y 48
 elevation 692
 end
-arch woods_2
+arch grassmedium
 x 10
 y 49
 elevation 1037
@@ -3073,7 +3253,7 @@ x 11
 y 39
 elevation 115
 end
-arch brush
+arch grassmedium
 x 11
 y 40
 elevation 459
@@ -3113,12 +3293,12 @@ x 11
 y 47
 elevation 788
 end
-arch woods_2
+arch grassmedium
 x 11
 y 48
 elevation 1068
 end
-arch woods_2
+arch grassmedium
 x 11
 y 49
 elevation 1313
@@ -3383,7 +3563,7 @@ x 12
 y 48
 elevation 953
 end
-arch woods_2
+arch grassmedium
 x 12
 y 49
 elevation 1198
@@ -3687,12 +3867,12 @@ x 14
 y 4
 elevation 3319
 end
-arch hills_rocky
+arch pine_needles
 x 14
 y 5
 elevation 3105
 end
-arch hills
+arch pine_needles
 x 14
 y 6
 elevation 2584
@@ -3702,12 +3882,12 @@ x 14
 y 7
 elevation 1220
 end
-arch hills
+arch pine_needles
 x 14
 y 8
 elevation 1926
 end
-arch hills_rocky
+arch pine_needles
 x 14
 y 9
 elevation 4354
@@ -3727,12 +3907,12 @@ x 14
 y 12
 elevation 4824
 end
-arch steppe
+arch pine_needles
 x 14
 y 13
 elevation 3238
 end
-arch woods_2
+arch pine_needles
 x 14
 y 14
 elevation 1883
@@ -3989,22 +4169,22 @@ x 15
 y 10
 elevation 6267
 end
-arch mountain
+arch pine_needles
 x 15
 y 11
 elevation 6247
 end
-arch mountain
+arch pine_needles
 x 15
 y 12
 elevation 5150
 end
-arch steppe
+arch pine_needles
 x 15
 y 13
 elevation 3453
 end
-arch grass_only
+arch pine_needles
 x 15
 y 14
 elevation 1243
@@ -4280,12 +4460,12 @@ x 16
 y 12
 elevation 4972
 end
-arch steppe
+arch pine_needles
 x 16
 y 13
 elevation 3712
 end
-arch grass_only
+arch pine_needles
 x 16
 y 14
 elevation 2616
@@ -4546,12 +4726,12 @@ x 17
 y 13
 elevation 2807
 end
-arch hills
+arch pine_needles
 x 17
 y 14
 elevation 2998
 end
-arch grass_only
+arch pine_needles
 x 17
 y 15
 elevation 2930
@@ -4790,37 +4970,37 @@ x 18
 y 8
 elevation 4038
 end
-arch mountain
+arch pine_needles
 x 18
 y 9
 elevation 5244
 end
-arch mountain
+arch pine_needles
 x 18
 y 10
 elevation 5600
 end
-arch mountain
+arch pine_needles
 x 18
 y 11
 elevation 5330
 end
-arch hills_rocky
+arch pine_needles
 x 18
 y 12
 elevation 4500
 end
-arch steppe
+arch pine_needles
 x 18
 y 13
 elevation 3306
 end
-arch woods_2
+arch pine_needles
 x 18
 y 14
 elevation 2902
 end
-arch woods_2
+arch pine_needles
 x 18
 y 15
 elevation 2676
@@ -5001,12 +5181,12 @@ x 18
 y 47
 elevation 860
 end
-arch woods_2
+arch grassmedium
 x 18
 y 48
 elevation 1045
 end
-arch woods_2
+arch grassmedium
 x 18
 y 49
 elevation 1104
@@ -5275,7 +5455,7 @@ x 19
 y 48
 elevation 844
 end
-arch grass
+arch grassmedium
 x 19
 y 49
 elevation 481
@@ -5527,12 +5707,12 @@ x 20
 y 47
 elevation 845
 end
-arch brush
+arch grassmedium
 x 20
 y 48
 elevation 459
 end
-arch brush
+arch grassmedium
 x 20
 y 49
 elevation 170
@@ -5610,7 +5790,7 @@ x 21
 y 13
 elevation 2930
 end
-arch grass_only
+arch pine_needles
 x 21
 y 14
 elevation 1580
@@ -5619,7 +5799,7 @@ arch tree3
 x 21
 y 14
 end
-arch woods_2
+arch pine_needles
 x 21
 y 15
 elevation 1061
@@ -5778,17 +5958,17 @@ x 21
 y 45
 elevation 480
 end
-arch brush
+arch grassmedium
 x 21
 y 46
 elevation 953
 end
-arch woods_2
+arch grassmedium
 x 21
 y 47
 elevation 1123
 end
-arch brush
+arch grassmedium
 x 21
 y 48
 elevation 999
@@ -5875,7 +6055,7 @@ x 22
 y 13
 elevation 2569
 end
-arch grass_only
+arch pine_needles
 x 22
 y 14
 elevation 1885
@@ -5884,7 +6064,7 @@ arch tree3
 x 22
 y 14
 end
-arch woods_2
+arch pine_needles
 x 22
 y 15
 elevation 1008
@@ -6047,7 +6227,7 @@ x 22
 y 45
 elevation 702
 end
-arch woods_2
+arch grassmedium
 x 22
 y 46
 elevation 1220
@@ -6148,7 +6328,7 @@ x 23
 y 13
 elevation 2023
 end
-arch grass_only
+arch pine_needles
 x 23
 y 14
 elevation 1434
@@ -6157,7 +6337,7 @@ arch tree3
 x 23
 y 14
 end
-arch grass_only
+arch pine_needles
 x 23
 y 15
 elevation 1051
@@ -6433,32 +6613,32 @@ x 24
 y 9
 elevation 3143
 end
-arch woods_2
+arch pine_needles
 x 24
 y 10
 elevation 1528
 end
-arch woods_3
+arch pine_needles
 x 24
 y 11
 elevation 2275
 end
-arch hills
+arch pine_needles
 x 24
 y 12
 elevation 2045
 end
-arch brush
+arch pine_needles
 x 24
 y 13
 elevation 787
 end
-arch desert
+arch pine_needles
 x 24
 y 14
 elevation 420
 end
-arch brush
+arch pine_needles
 x 24
 y 15
 elevation 698
@@ -6705,6 +6885,10 @@ x 25
 y 4
 elevation 5509
 end
+arch lumber_pine
+x 25
+y 4
+end
 arch mountain
 x 25
 y 5
@@ -6714,6 +6898,10 @@ arch mountain
 x 25
 y 6
 elevation 5355
+end
+arch lumber_pine
+x 25
+y 6
 end
 arch mountain
 x 25
@@ -6740,22 +6928,22 @@ x 25
 y 11
 elevation 2864
 end
-arch woods_2
+arch pine_needles
 x 25
 y 12
 elevation 2221
 end
-arch grass
+arch pine_needles
 x 25
 y 13
 elevation 633
 end
-arch brush
+arch pine_needles
 x 25
 y 14
 elevation 808
 end
-arch grass_only
+arch pine_needles
 x 25
 y 15
 elevation 1226
@@ -7045,7 +7233,7 @@ x 26
 y 11
 elevation 3453
 end
-arch grass_only
+arch pine_needles
 x 26
 y 12
 elevation 2672
@@ -7054,7 +7242,7 @@ arch evergreens2
 x 26
 y 12
 end
-arch grass_only
+arch pine_needles
 x 26
 y 13
 elevation 2014
@@ -7072,7 +7260,7 @@ arch evergreens2
 x 26
 y 14
 end
-arch grass_only
+arch pine_needles
 x 26
 y 15
 elevation 1545
@@ -7094,27 +7282,27 @@ arch dirtroad_1_3
 x 26
 y 16
 end
-arch desert
+arch pine_needles
 x 26
 y 17
 elevation 930
 end
-arch brush
+arch pine_needles
 x 26
 y 18
 elevation 706
 end
-arch brush
+arch pine_needles
 x 26
 y 19
 elevation 563
 end
-arch desert
+arch pine_needles
 x 26
 y 20
 elevation 127
 end
-arch brush
+arch pine_needles
 x 26
 y 21
 elevation 100
@@ -7363,12 +7551,12 @@ arch evergreens2
 x 27
 y 12
 end
-arch woods_2
+arch pine_needles
 x 27
 y 13
 elevation 2114
 end
-arch grass_only
+arch pine_needles
 x 27
 y 14
 elevation 2011
@@ -7377,7 +7565,7 @@ arch tree3
 x 27
 y 14
 end
-arch hills
+arch pine_needles
 x 27
 y 15
 elevation 1635
@@ -7406,12 +7594,12 @@ x 27
 y 19
 elevation 665
 end
-arch brush
+arch pine_needles
 x 27
 y 20
 elevation 607
 end
-arch brush
+arch pine_needles
 x 27
 y 21
 elevation 569
@@ -7601,7 +7789,7 @@ x 28
 y 1
 elevation 291
 end
-arch desert
+arch pine_needles
 x 28
 y 2
 elevation 246
@@ -7616,12 +7804,12 @@ x 28
 y 4
 elevation 1653
 end
-arch brush
+arch pine_needles
 x 28
 y 5
 elevation 213
 end
-arch grass_only
+arch pine_needles
 x 28
 y 6
 elevation 1615
@@ -7630,12 +7818,12 @@ arch evergreens2
 x 28
 y 6
 end
-arch woods_3
+arch pine_needles
 x 28
 y 7
 elevation 1300
 end
-arch woods_3
+arch pine_needles
 x 28
 y 8
 elevation 2563
@@ -7669,12 +7857,12 @@ arch evergreens2
 x 28
 y 13
 end
-arch hills
+arch pine_needles
 x 28
 y 14
 elevation 1615
 end
-arch grass_only
+arch pine_needles
 x 28
 y 15
 elevation 1581
@@ -7683,7 +7871,7 @@ arch tree3
 x 28
 y 15
 end
-arch grass_only
+arch pine_needles
 x 28
 y 16
 elevation 1036
@@ -7711,12 +7899,12 @@ x 28
 y 19
 elevation 658
 end
-arch brush
+arch pine_needles
 x 28
 y 20
 elevation 680
 end
-arch brush
+arch pine_needles
 x 28
 y 21
 elevation 720
@@ -7907,32 +8095,32 @@ x 29
 y 2
 elevation 177
 end
-arch desert
+arch pine_needles
 x 29
 y 3
 elevation 172
 end
-arch grass
+arch pine_needles
 x 29
 y 4
 elevation 15
 end
-arch desert
+arch pine_needles
 x 29
 y 5
 elevation 172
 end
-arch grass
+arch pine_needles
 x 29
 y 6
 elevation 667
 end
-arch desert
+arch pine_needles
 x 29
 y 7
 elevation 766
 end
-arch woods_3
+arch pine_needles
 x 29
 y 8
 elevation 2570
@@ -7957,12 +8145,12 @@ x 29
 y 12
 elevation 3566
 end
-arch woods_2
+arch pine_needles
 x 29
 y 13
 elevation 2438
 end
-arch grass_only
+arch pine_needles
 x 29
 y 14
 elevation 1906
@@ -7971,7 +8159,7 @@ arch tree3
 x 29
 y 14
 end
-arch grass_only
+arch pine_needles
 x 29
 y 15
 elevation 1415
@@ -7980,7 +8168,7 @@ arch tree3
 x 29
 y 15
 end
-arch desert
+arch pine_needles
 x 29
 y 16
 elevation 960
@@ -7999,17 +8187,17 @@ x 29
 y 18
 elevation 533
 end
-arch brush
+arch pine_needles
 x 29
 y 19
 elevation 534
 end
-arch brush
+arch pine_needles
 x 29
 y 20
 elevation 746
 end
-arch brush
+arch pine_needles
 x 29
 y 21
 elevation 248
@@ -8206,7 +8394,7 @@ arch tree3
 x 29
 y 49
 end
-arch mountain
+arch pine_needles
 x 30
 elevation 5271
 end
@@ -8274,7 +8462,7 @@ x 30
 y 12
 elevation 3103
 end
-arch grass_only
+arch pine_needles
 x 30
 y 13
 elevation 1873
@@ -8283,7 +8471,7 @@ arch evergreens2
 x 30
 y 13
 end
-arch grass_only
+arch pine_needles
 x 30
 y 14
 elevation 1758
@@ -8292,12 +8480,12 @@ arch tree3
 x 30
 y 14
 end
-arch woods_2
+arch pine_needles
 x 30
 y 15
 elevation 1343
 end
-arch desert
+arch pine_needles
 x 30
 y 16
 elevation 831
@@ -8316,7 +8504,7 @@ x 30
 y 18
 elevation 485
 end
-arch desert
+arch pine_needles
 x 30
 y 19
 elevation 754
@@ -8326,12 +8514,12 @@ x 30
 y 20
 elevation 862
 end
-arch brush
+arch pine_needles
 x 30
 y 21
 elevation 793
 end
-arch grass_only
+arch pine_needles
 x 30
 y 22
 elevation 1045
@@ -8340,7 +8528,7 @@ arch tree3
 x 30
 y 22
 end
-arch hills
+arch pine_needles
 x 30
 y 23
 elevation 1161
@@ -8535,7 +8723,7 @@ arch tree5
 x 30
 y 49
 end
-arch mountain
+arch pine_needles
 x 31
 elevation 7458
 end
@@ -8612,7 +8800,7 @@ arch evergreens2
 x 31
 y 13
 end
-arch grass_only
+arch pine_needles
 x 31
 y 14
 elevation 1505
@@ -8621,7 +8809,7 @@ arch evergreens2
 x 31
 y 14
 end
-arch woods_2
+arch pine_needles
 x 31
 y 15
 elevation 1121
@@ -8645,7 +8833,7 @@ x 31
 y 18
 elevation 250
 end
-arch brush
+arch pine_needles
 x 31
 y 19
 elevation 756
@@ -8856,16 +9044,19 @@ x 31
 y 49
 elevation 824
 end
-arch mountain2
+arch pine_needles
 x 32
 elevation 9445
 end
-arch mountain
+arch lumber_pine
+x 32
+end
+arch pine_needles
 x 32
 y 1
 elevation 7503
 end
-arch mountain
+arch pine_needles
 x 32
 y 2
 elevation 5576
@@ -8904,17 +9095,17 @@ arch evergreens2
 x 32
 y 8
 end
-arch woods_3
+arch pine_needles
 x 32
 y 9
 elevation 2657
 end
-arch woods_2
+arch pine_needles
 x 32
 y 10
 elevation 2184
 end
-arch hills
+arch pine_needles
 x 32
 y 11
 elevation 2126
@@ -8928,7 +9119,7 @@ arch evergreens2
 x 32
 y 12
 end
-arch grass_only
+arch pine_needles
 x 32
 y 13
 elevation 1727
@@ -8937,7 +9128,7 @@ arch evergreens2
 x 32
 y 13
 end
-arch grass_only
+arch pine_needles
 x 32
 y 14
 elevation 1341
@@ -8970,12 +9161,12 @@ x 32
 y 18
 elevation 250
 end
-arch desert
+arch pine_needles
 x 32
 y 19
 elevation 634
 end
-arch brush
+arch pine_needles
 x 32
 y 20
 elevation 917
@@ -9181,21 +9372,25 @@ x 32
 y 49
 elevation 334
 end
-arch mountain2
+arch pine_needles
 x 33
 elevation 10316
 end
-arch mountain2
+arch pine_needles
 x 33
 y 1
 elevation 9066
 end
-arch mountain
+arch lumber_pine
+x 33
+y 1
+end
+arch pine_needles
 x 33
 y 2
 elevation 7566
 end
-arch mountain
+arch pine_needles
 x 33
 y 3
 elevation 5692
@@ -9215,7 +9410,7 @@ x 33
 y 6
 elevation 4822
 end
-arch steppe
+arch pine_needles
 x 33
 y 7
 elevation 4300
@@ -9225,7 +9420,7 @@ x 33
 y 8
 elevation 3348
 end
-arch hills
+arch pine_needles
 x 33
 y 9
 elevation 2748
@@ -9240,7 +9435,7 @@ x 33
 y 11
 elevation 1257
 end
-arch woods_2
+arch pine_needles
 x 33
 y 12
 elevation 1542
@@ -9254,7 +9449,7 @@ arch evergreens2
 x 33
 y 13
 end
-arch grass_only
+arch pine_needles
 x 33
 y 14
 elevation 1274
@@ -9291,17 +9486,17 @@ x 33
 y 18
 elevation 425
 end
-arch brush
+arch pine_needles
 x 33
 y 19
 elevation 639
 end
-arch brush
+arch pine_needles
 x 33
 y 20
 elevation 56
 end
-arch grass_only
+arch pine_needles
 x 33
 y 21
 elevation 1008
@@ -9498,51 +9693,58 @@ x 33
 y 49
 elevation 83
 end
-arch mountain2
+arch pine_needles
 x 34
 elevation 10183
 end
-arch mountain
+arch lumber_pine
+x 34
+end
+arch pine_needles
 x 34
 y 1
 elevation 8797
 end
-arch mountain2
+arch pine_needles
 x 34
 y 2
 elevation 9020
 end
-arch mountain
+arch lumber_pine
+x 34
+y 2
+end
+arch pine_needles
 x 34
 y 3
 elevation 7844
 end
-arch mountain
+arch pine_needles
 x 34
 y 4
 elevation 7556
 end
-arch mountain
+arch pine_needles
 x 34
 y 5
 elevation 7311
 end
-arch mountain
+arch pine_needles
 x 34
 y 6
 elevation 6725
 end
-arch mountain
+arch pine_needles
 x 34
 y 7
 elevation 5678
 end
-arch steppe
+arch pine_needles
 x 34
 y 8
 elevation 4488
 end
-arch hills_rocky
+arch pine_needles
 x 34
 y 9
 elevation 3044
@@ -9557,7 +9759,7 @@ x 34
 y 11
 elevation 664
 end
-arch hills
+arch pine_needles
 x 34
 y 12
 elevation 1121
@@ -9571,7 +9773,7 @@ arch evergreens2
 x 34
 y 13
 end
-arch grass_only
+arch pine_needles
 x 34
 y 14
 elevation 1076
@@ -9580,7 +9782,7 @@ arch tree3
 x 34
 y 14
 end
-arch grass_only
+arch pine_needles
 x 34
 y 15
 elevation 1014
@@ -9612,22 +9814,22 @@ x 34
 y 18
 elevation 517
 end
-arch brush
+arch pine_needles
 x 34
 y 19
 elevation 903
 end
-arch grass
+arch pine_needles
 x 34
 y 20
 elevation 937
 end
-arch brush
+arch pine_needles
 x 34
 y 21
 elevation 994
 end
-arch hills_rocky
+arch pine_needles
 x 34
 y 22
 elevation 1043
@@ -9811,56 +10013,76 @@ x 34
 y 49
 elevation 262
 end
-arch mountain
+arch pine_needles
 x 35
 elevation 8104
 end
-arch mountain2
+arch pine_needles
 x 35
 y 1
 elevation 10330
 end
-arch mountain2
+arch lumber_pine
+x 35
+y 1
+end
+arch pine_needles
 x 35
 y 2
 elevation 10427
 end
-arch mountain2
+arch pine_needles
 x 35
 y 3
 elevation 9770
 end
-arch mountain2
+arch lumber_pine
+x 35
+y 3
+end
+arch pine_needles
 x 35
 y 4
 elevation 9109
 end
-arch mountain
+arch pine_needles
 x 35
 y 5
 elevation 8728
 end
-arch mountain
+arch pine_needles
 x 35
 y 6
 elevation 7601
 end
-arch mountain
+arch lumber_pine
+x 35
+y 6
+end
+arch pine_needles
 x 35
 y 7
 elevation 6045
 end
-arch steppe
+arch pine_needles
 x 35
 y 8
 elevation 4819
 end
-arch steppe
+arch lumber_pine
+x 35
+y 8
+end
+arch pine_needles
 x 35
 y 9
 elevation 3389
 end
-arch woods_3
+arch lumber_pine
+x 35
+y 9
+end
+arch pine_needles
 x 35
 y 10
 elevation 1182
@@ -9870,7 +10092,7 @@ x 35
 y 11
 elevation 744
 end
-arch grass
+arch pine_needles
 x 35
 y 12
 elevation 933
@@ -9880,12 +10102,12 @@ x 35
 y 13
 elevation 598
 end
-arch grass
+arch pine_needles
 x 35
 y 14
 elevation 511
 end
-arch grass
+arch pine_needles
 x 35
 y 15
 elevation 686
@@ -9921,26 +10143,22 @@ arch tree3
 x 35
 y 18
 end
-arch woods_2
+arch pine_needles
 x 35
 y 19
 elevation 1438
 end
-arch brush
+arch pine_needles
 x 35
 y 20
 elevation 988
 end
-arch grass_only
+arch pine_needles
 x 35
 y 21
 elevation 1111
 end
-arch tree5
-x 35
-y 21
-end
-arch grass_only
+arch pine_needles
 x 35
 y 22
 elevation 1156
@@ -10140,56 +10358,64 @@ x 35
 y 49
 elevation 300
 end
-arch mountain2
+arch pine_needles
 x 36
 elevation 10749
 end
-arch mountain2
+arch pine_needles
 x 36
 y 1
 elevation 11420
 end
-arch mountain2
+arch pine_needles
 x 36
 y 2
 elevation 11474
 end
-arch mountain2
+arch pine_needles
 x 36
 y 3
 elevation 9809
 end
-arch mountain2
+arch lumber_pine
+x 36
+y 3
+end
+arch pine_needles
 x 36
 y 4
 elevation 9625
 end
-arch mountain2
+arch pine_needles
 x 36
 y 5
 elevation 9051
 end
-arch mountain
+arch pine_needles
 x 36
 y 6
 elevation 7942
 end
-arch mountain
+arch lumber_pine
+x 36
+y 6
+end
+arch pine_needles
 x 36
 y 7
 elevation 5856
 end
-arch steppe
+arch pine_needles
 x 36
 y 8
 elevation 4884
 end
-arch steppe
+arch pine_needles
 x 36
 y 9
 elevation 3553
 end
-arch grass_only
+arch pine_needles
 x 36
 y 10
 elevation 2512
@@ -10203,7 +10429,7 @@ x 36
 y 11
 elevation 1450
 end
-arch desert
+arch pine_needles
 x 36
 y 12
 elevation 508
@@ -10213,14 +10439,10 @@ x 36
 y 13
 elevation 860
 end
-arch grass_only
+arch pine_needles
 x 36
 y 14
 elevation 1113
-end
-arch tree5
-x 36
-y 14
 end
 arch grass_only
 x 36
@@ -10469,66 +10691,82 @@ x 36
 y 49
 elevation 249
 end
-arch mountain2
+arch pine_needles
 x 37
 elevation 10713
 end
-arch mountain2
+arch pine_needles
 x 37
 y 1
 elevation 11174
 end
-arch mountain2
+arch lumber_pine
+x 37
+y 1
+end
+arch pine_needles
 x 37
 y 2
 elevation 11027
 end
-arch mountain2
+arch pine_needles
 x 37
 y 3
 elevation 10017
 end
-arch mountain
+arch lumber_pine
+x 37
+y 3
+end
+arch pine_needles
 x 37
 y 4
 elevation 8929
 end
-arch mountain
+arch pine_needles
 x 37
 y 5
 elevation 8372
 end
-arch mountain
+arch pine_needles
 x 37
 y 6
 elevation 7550
 end
-arch mountain
+arch lumber_pine
+x 37
+y 6
+end
+arch pine_needles
 x 37
 y 7
 elevation 6765
 end
-arch mountain
+arch pine_needles
 x 37
 y 8
 elevation 5742
 end
-arch steppe
+arch lumber_pine
+x 37
+y 8
+end
+arch pine_needles
 x 37
 y 9
 elevation 4505
 end
-arch steppe
+arch pine_needles
 x 37
 y 10
 elevation 3043
 end
-arch woods_2
+arch pine_needles
 x 37
 y 11
 elevation 1616
 end
-arch grass
+arch pine_needles
 x 37
 y 12
 elevation 830
@@ -10542,7 +10780,7 @@ arch evergreens2
 x 37
 y 13
 end
-arch brush
+arch pine_needles
 x 37
 y 14
 elevation 711
@@ -10766,66 +11004,90 @@ x 37
 y 49
 elevation 151
 end
-arch mountain
+arch pine_needles
 x 38
 elevation 7572
 end
-arch mountain2
+arch pine_needles
 x 38
 y 1
 elevation 10085
 end
-arch mountain2
+arch pine_needles
 x 38
 y 2
 elevation 9561
 end
-arch mountain
+arch lumber_pine
+x 38
+y 2
+end
+arch pine_needles
 x 38
 y 3
 elevation 7837
 end
-arch mountain
+arch lumber_pine
+x 38
+y 3
+end
+arch pine_needles
 x 38
 y 4
 elevation 7846
 end
-arch mountain
+arch pine_needles
 x 38
 y 5
 elevation 5797
 end
-arch mountain
+arch pine_needles
 x 38
 y 6
 elevation 6708
 end
-arch mountain
+arch lumber_pine
+x 38
+y 6
+end
+arch pine_needles
 x 38
 y 7
 elevation 6849
 end
-arch mountain
+arch pine_needles
 x 38
 y 8
 elevation 6327
 end
-arch mountain
+arch lumber_pine
+x 38
+y 8
+end
+arch pine_needles
 x 38
 y 9
 elevation 5362
 end
-arch steppe
+arch pine_needles
 x 38
 y 10
 elevation 3299
 end
-arch woods_3
+arch lumber_pine
+x 38
+y 10
+end
+arch pine_needles
 x 38
 y 11
 elevation 2696
 end
-arch woods_2
+arch lumber_pine
+x 38
+y 11
+end
+arch pine_needles
 x 38
 y 12
 elevation 1659
@@ -10839,7 +11101,7 @@ arch evergreens2
 x 38
 y 13
 end
-arch grass_only
+arch pine_needles
 x 38
 y 14
 elevation 2524
@@ -11043,66 +11305,86 @@ x 38
 y 49
 elevation 101
 end
-arch mountain2
+arch pine_needles
 x 39
 elevation 9235
 end
-arch mountain
+arch pine_needles
 x 39
 y 1
 elevation 8947
 end
-arch mountain
+arch lumber_pine
+x 39
+y 1
+end
+arch pine_needles
 x 39
 y 2
 elevation 8380
 end
-arch mountain
+arch pine_needles
 x 39
 y 3
 elevation 5268
 end
-arch mountain
+arch lumber_pine
+x 39
+y 3
+end
+arch pine_needles
 x 39
 y 4
 elevation 7370
 end
-arch mountain
+arch pine_needles
 x 39
 y 5
 elevation 6877
 end
-arch mountain
+arch pine_needles
 x 39
 y 6
 elevation 6704
 end
-arch mountain
+arch lumber_pine
+x 39
+y 6
+end
+arch pine_needles
 x 39
 y 7
 elevation 6544
 end
-arch mountain
+arch pine_needles
 x 39
 y 8
 elevation 6327
 end
-arch mountain
+arch lumber_pine
+x 39
+y 8
+end
+arch pine_needles
 x 39
 y 9
 elevation 5938
 end
-arch mountain
+arch pine_needles
 x 39
 y 10
 elevation 5143
 end
-arch steppe
+arch lumber_pine
+x 39
+y 10
+end
+arch pine_needles
 x 39
 y 11
 elevation 4120
 end
-arch steppe
+arch pine_needles
 x 39
 y 12
 elevation 3502
@@ -11112,7 +11394,7 @@ x 39
 y 13
 elevation 3081
 end
-arch grass_only
+arch pine_needles
 x 39
 y 14
 elevation 2344
@@ -11121,7 +11403,7 @@ arch evergreens2
 x 39
 y 14
 end
-arch steppe
+arch pine_needles
 x 39
 y 15
 elevation 3156
@@ -11312,66 +11594,86 @@ x 39
 y 49
 elevation 71
 end
-arch mountain2
+arch pine_needles
 x 40
 elevation 9168
 end
-arch mountain
+arch pine_needles
 x 40
 y 1
 elevation 7440
 end
-arch mountain
+arch pine_needles
 x 40
 y 2
 elevation 8103
 end
-arch mountain
+arch lumber_pine
+x 40
+y 2
+end
+arch pine_needles
 x 40
 y 3
 elevation 8038
 end
-arch mountain
+arch lumber_pine
+x 40
+y 3
+end
+arch pine_needles
 x 40
 y 4
 elevation 7783
 end
-arch mountain
+arch pine_needles
 x 40
 y 5
 elevation 7491
 end
-arch mountain
+arch pine_needles
 x 40
 y 6
 elevation 6678
 end
-arch mountain
+arch lumber_pine
+x 40
+y 6
+end
+arch pine_needles
 x 40
 y 7
 elevation 5194
 end
-arch mountain
+arch pine_needles
 x 40
 y 8
 elevation 5736
 end
-arch mountain
+arch lumber_pine
+x 40
+y 8
+end
+arch pine_needles
 x 40
 y 9
 elevation 6155
 end
-arch mountain
+arch pine_needles
 x 40
 y 10
 elevation 5753
 end
-arch steppe
+arch pine_needles
 x 40
 y 11
 elevation 4843
 end
-arch hills_rocky
+arch lumber_pine
+x 40
+y 11
+end
+arch pine_needles
 x 40
 y 12
 elevation 4237
@@ -11381,12 +11683,12 @@ x 40
 y 13
 elevation 3709
 end
-arch steppe
+arch pine_needles
 x 40
 y 14
 elevation 3283
 end
-arch woods
+arch pine_needles
 x 40
 y 15
 elevation 2466
@@ -11581,76 +11883,96 @@ x 40
 y 49
 elevation -6
 end
-arch mountain
+arch pine_needles
 x 41
 elevation 8990
 end
-arch mountain
+arch pine_needles
 x 41
 y 1
 elevation 8432
 end
-arch mountain
+arch lumber_pine
+x 41
+y 1
+end
+arch pine_needles
 x 41
 y 2
 elevation 8185
 end
-arch mountain
+arch lumber_pine
+x 41
+y 2
+end
+arch pine_needles
 x 41
 y 3
 elevation 8284
 end
-arch mountain
+arch pine_needles
 x 41
 y 4
 elevation 7868
 end
-arch mountain
+arch pine_needles
 x 41
 y 5
 elevation 7096
 end
-arch mountain
+arch pine_needles
 x 41
 y 6
 elevation 6298
 end
-arch mountain
+arch lumber_pine
+x 41
+y 6
+end
+arch pine_needles
 x 41
 y 7
 elevation 5168
 end
-arch mountain
+arch pine_needles
 x 41
 y 8
 elevation 6253
 end
-arch mountain
+arch lumber_pine
+x 41
+y 8
+end
+arch pine_needles
 x 41
 y 9
 elevation 6390
 end
-arch steppe
+arch pine_needles
 x 41
 y 10
 elevation 4050
 end
-arch mountain
+arch lumber_pine
+x 41
+y 10
+end
+arch pine_needles
 x 41
 y 11
 elevation 5227
 end
-arch hills_rocky
+arch pine_needles
 x 41
 y 12
 elevation 3647
 end
-arch steppe
+arch pine_needles
 x 41
 y 13
 elevation 3787
 end
-arch hills_rocky
+arch pine_needles
 x 41
 y 14
 elevation 4097
@@ -11866,81 +12188,101 @@ x 41
 y 49
 elevation -10
 end
-arch mountain
+arch pine_needles
 x 42
 elevation 8550
 end
-arch mountain
+arch pine_needles
 x 42
 y 1
 elevation 7954
 end
-arch mountain
+arch pine_needles
 x 42
 y 2
 elevation 7760
 end
-arch mountain
+arch pine_needles
 x 42
 y 3
 elevation 7621
 end
-arch mountain
+arch lumber_pine
+x 42
+y 3
+end
+arch pine_needles
 x 42
 y 4
 elevation 6680
 end
-arch mountain
+arch pine_needles
 x 42
 y 5
 elevation 5296
 end
-arch mountain
+arch lumber_pine
+x 42
+y 5
+end
+arch pine_needles
 x 42
 y 6
 elevation 5918
 end
-arch mountain
+arch pine_needles
 x 42
 y 7
 elevation 5937
 end
-arch mountain
+arch pine_needles
 x 42
 y 8
 elevation 6707
 end
-arch mountain
+arch lumber_pine
+x 42
+y 8
+end
+arch pine_needles
 x 42
 y 9
 elevation 6758
 end
-arch mountain
+arch pine_needles
 x 42
 y 10
 elevation 6084
 end
-arch mountain
+arch pine_needles
 x 42
 y 11
 elevation 5334
 end
-arch mountain
+arch pine_needles
 x 42
 y 12
 elevation 5189
 end
-arch mountain
+arch lumber_pine
+x 42
+y 12
+end
+arch pine_needles
 x 42
 y 13
 elevation 5375
 end
-arch mountain
+arch lumber_pine
+x 42
+y 13
+end
+arch pine_needles
 x 42
 y 14
 elevation 5097
 end
-arch steppe
+arch pine_needles
 x 42
 y 15
 elevation 4015
@@ -12135,84 +12477,116 @@ x 42
 y 49
 elevation -22
 end
-arch mountain
+arch pine_needles
 x 43
 elevation 7165
 end
-arch mountain
+arch pine_needles
 x 43
 y 1
 elevation 6451
 end
-arch mountain
+arch lumber_pine
+x 43
+y 1
+end
+arch pine_needles
 x 43
 y 2
 elevation 6289
 end
-arch mountain
+arch lumber_pine
+x 43
+y 2
+end
+arch pine_needles
 x 43
 y 3
 elevation 6625
 end
-arch mountain
+arch pine_needles
 x 43
 y 4
 elevation 6164
 end
-arch mountain
+arch pine_needles
 x 43
 y 5
 elevation 6906
 end
-arch mountain
+arch lumber_pine
+x 43
+y 5
+end
+arch pine_needles
 x 43
 y 6
 elevation 6684
 end
-arch mountain
+arch pine_needles
 x 43
 y 7
 elevation 6598
 end
-arch mountain
+arch pine_needles
 x 43
 y 8
 elevation 6784
 end
-arch mountain
+arch lumber_pine
+x 43
+y 8
+end
+arch pine_needles
 x 43
 y 9
 elevation 6973
 end
-arch mountain
+arch pine_needles
 x 43
 y 10
 elevation 6312
 end
-arch steppe
+arch pine_needles
 x 43
 y 11
 elevation 4337
 end
-arch mountain
+arch lumber_pine
+x 43
+y 11
+end
+arch pine_needles
 x 43
 y 12
 elevation 5916
 end
-arch mountain
+arch pine_needles
 x 43
 y 13
 elevation 5996
 end
-arch mountain
+arch lumber_pine
+x 43
+y 13
+end
+arch pine_needles
 x 43
 y 14
 elevation 5725
 end
-arch steppe
+arch lumber_pine
+x 43
+y 14
+end
+arch pine_needles
 x 43
 y 15
 elevation 4874
+end
+arch lumber_pine
+x 43
+y 15
 end
 arch hills_rocky
 x 43
@@ -12408,84 +12782,120 @@ x 43
 y 49
 elevation -40
 end
-arch mountain
+arch pine_needles
 x 44
 elevation 5611
 end
-arch hills
+arch pine_needles
 x 44
 y 1
 elevation 3102
 end
-arch steppe
+arch lumber_pine
+x 44
+y 1
+end
+arch pine_needles
 x 44
 y 2
 elevation 3692
 end
-arch mountain
+arch lumber_pine
+x 44
+y 2
+end
+arch pine_needles
 x 44
 y 3
 elevation 5594
 end
-arch mountain
+arch lumber_pine
+x 44
+y 3
+end
+arch pine_needles
 x 44
 y 4
 elevation 6721
 end
-arch mountain
+arch pine_needles
 x 44
 y 5
 elevation 7163
 end
-arch mountain
+arch lumber_pine
+x 44
+y 5
+end
+arch pine_needles
 x 44
 y 6
 elevation 6965
 end
-arch mountain
+arch pine_needles
 x 44
 y 7
 elevation 6249
 end
-arch mountain
+arch pine_needles
 x 44
 y 8
 elevation 6540
 end
-arch mountain
+arch lumber_pine
+x 44
+y 8
+end
+arch pine_needles
 x 44
 y 9
 elevation 6476
 end
-arch mountain
+arch pine_needles
 x 44
 y 10
 elevation 6021
 end
-arch mountain
+arch pine_needles
 x 44
 y 11
 elevation 5442
 end
-arch mountain
+arch lumber_pine
+x 44
+y 11
+end
+arch pine_needles
 x 44
 y 12
 elevation 6351
 end
-arch mountain
+arch pine_needles
 x 44
 y 13
 elevation 6479
 end
-arch steppe
+arch lumber_pine
+x 44
+y 13
+end
+arch pine_needles
 x 44
 y 14
 elevation 3291
 end
-arch mountain
+arch lumber_pine
+x 44
+y 14
+end
+arch pine_needles
 x 44
 y 15
 elevation 5512
+end
+arch lumber_pine
+x 44
+y 15
 end
 arch hills
 x 44
@@ -12669,84 +13079,112 @@ x 44
 y 49
 elevation -63
 end
-arch steppe
+arch pine_needles
 x 45
 elevation 4715
 end
-arch steppe
+arch pine_needles
 x 45
 y 1
 elevation 3735
 end
-arch woods_3
+arch lumber_pine
+x 45
+y 1
+end
+arch pine_needles
 x 45
 y 2
 elevation 2502
 end
-arch steppe
+arch lumber_pine
+x 45
+y 2
+end
+arch pine_needles
 x 45
 y 3
 elevation 4259
 end
-arch mountain
+arch pine_needles
 x 45
 y 4
 elevation 5522
 end
-arch mountain
+arch pine_needles
 x 45
 y 5
 elevation 6173
 end
-arch mountain
+arch lumber_pine
+x 45
+y 5
+end
+arch pine_needles
 x 45
 y 6
 elevation 6023
 end
-arch mountain
+arch pine_needles
 x 45
 y 7
 elevation 5811
 end
-arch mountain
+arch pine_needles
 x 45
 y 8
 elevation 5496
 end
-arch mountain
+arch lumber_pine
+x 45
+y 8
+end
+arch pine_needles
 x 45
 y 9
 elevation 5553
 end
-arch mountain
+arch pine_needles
 x 45
 y 10
 elevation 5433
 end
-arch mountain
+arch pine_needles
 x 45
 y 11
 elevation 6011
 end
-arch mountain
+arch lumber_pine
+x 45
+y 11
+end
+arch pine_needles
 x 45
 y 12
 elevation 6581
 end
-arch mountain
+arch pine_needles
 x 45
 y 13
 elevation 6758
 end
-arch mountain
+arch lumber_pine
+x 45
+y 13
+end
+arch pine_needles
 x 45
 y 14
 elevation 6354
 end
-arch mountain
+arch pine_needles
 x 45
 y 15
 elevation 5244
+end
+arch lumber_pine
+x 45
+y 15
 end
 arch steppe
 x 45
@@ -12942,81 +13380,117 @@ x 45
 y 49
 elevation -89
 end
-arch steppe
+arch pine_needles
 x 46
 elevation 4371
 end
-arch steppe
+arch pine_needles
 x 46
 y 1
 elevation 3370
 end
-arch woods_3
+arch lumber_pine
+x 46
+y 1
+end
+arch pine_needles
 x 46
 y 2
 elevation 1761
 end
-arch woods_2
+arch lumber_pine
+x 46
+y 2
+end
+arch pine_needles
 x 46
 y 3
 elevation 2208
 end
-arch hills_rocky
+arch lumber_pine
+x 46
+y 3
+end
+arch pine_needles
 x 46
 y 4
 elevation 3522
 end
-arch steppe
+arch lumber_pine
+x 46
+y 4
+end
+arch pine_needles
 x 46
 y 5
 elevation 3829
 end
-arch mountain
+arch lumber_pine
+x 46
+y 5
+end
+arch pine_needles
 x 46
 y 6
 elevation 5037
 end
-arch steppe
+arch pine_needles
 x 46
 y 7
 elevation 3863
 end
-arch steppe
+arch pine_needles
 x 46
 y 8
 elevation 4269
 end
-arch steppe
+arch lumber_pine
+x 46
+y 8
+end
+arch pine_needles
 x 46
 y 9
 elevation 3101
 end
-arch mountain
+arch pine_needles
 x 46
 y 10
 elevation 5372
 end
-arch mountain
+arch pine_needles
 x 46
 y 11
 elevation 5651
 end
-arch mountain
+arch lumber_pine
+x 46
+y 11
+end
+arch pine_needles
 x 46
 y 12
 elevation 5845
 end
-arch mountain
+arch pine_needles
 x 46
 y 13
 elevation 7399
 end
-arch mountain
+arch lumber_pine
+x 46
+y 13
+end
+arch pine_needles
 x 46
 y 14
 elevation 6255
 end
-arch steppe
+arch lumber_pine
+x 46
+y 14
+end
+arch pine_needles
 x 46
 y 15
 elevation 3107
@@ -13211,81 +13685,113 @@ x 46
 y 49
 elevation -117
 end
-arch hills
+arch pine_needles
 x 47
 elevation 4226
 end
-arch hills
+arch pine_needles
 x 47
 y 1
 elevation 3688
 end
-arch steppe
+arch lumber_pine
+x 47
+y 1
+end
+arch pine_needles
 x 47
 y 2
 elevation 3307
 end
-arch steppe
+arch lumber_pine
+x 47
+y 2
+end
+arch pine_needles
 x 47
 y 3
 elevation 3651
 end
-arch steppe
+arch pine_needles
 x 47
 y 4
 elevation 4275
 end
-arch mountain
+arch lumber_pine
+x 47
+y 4
+end
+arch pine_needles
 x 47
 y 5
 elevation 5061
 end
-arch mountain
+arch lumber_pine
+x 47
+y 5
+end
+arch pine_needles
 x 47
 y 6
 elevation 5148
 end
-arch steppe
+arch pine_needles
 x 47
 y 7
 elevation 4452
 end
-arch woods
+arch pine_needles
 x 47
 y 8
 elevation 2077
 end
-arch woods
+arch lumber_pine
+x 47
+y 8
+end
+arch pine_needles
 x 47
 y 9
 elevation 2772
 end
-arch mountain
+arch pine_needles
 x 47
 y 10
 elevation 5246
 end
-arch mountain
+arch pine_needles
 x 47
 y 11
 elevation 7190
 end
-arch mountain
+arch lumber_pine
+x 47
+y 11
+end
+arch pine_needles
 x 47
 y 12
 elevation 7976
 end
-arch mountain
+arch pine_needles
 x 47
 y 13
 elevation 7285
 end
-arch mountain
+arch lumber_pine
+x 47
+y 13
+end
+arch pine_needles
 x 47
 y 14
 elevation 5027
 end
-arch grass_only
+arch lumber_pine
+x 47
+y 14
+end
+arch pine_needles
 x 47
 y 15
 elevation 2433
@@ -13472,81 +13978,113 @@ x 47
 y 49
 elevation -148
 end
-arch steppe
+arch pine_needles
 x 48
 elevation 4466
 end
-arch woods_3
+arch pine_needles
 x 48
 y 1
 elevation 2800
 end
-arch steppe
+arch lumber_pine
+x 48
+y 1
+end
+arch pine_needles
 x 48
 y 2
 elevation 4137
 end
-arch steppe
+arch lumber_pine
+x 48
+y 2
+end
+arch pine_needles
 x 48
 y 3
 elevation 4508
 end
-arch hills_rocky
+arch lumber_pine
+x 48
+y 3
+end
+arch pine_needles
 x 48
 y 4
 elevation 4924
 end
-arch mountain
+arch pine_needles
 x 48
 y 5
 elevation 5549
 end
-arch mountain
+arch lumber_pine
+x 48
+y 5
+end
+arch pine_needles
 x 48
 y 6
 elevation 5773
 end
-arch steppe
+arch pine_needles
 x 48
 y 7
 elevation 4961
 end
-arch steppe
+arch lumber_pine
+x 48
+y 7
+end
+arch pine_needles
 x 48
 y 8
 elevation 3689
 end
-arch woods
+arch lumber_pine
+x 48
+y 8
+end
+arch pine_needles
 x 48
 y 9
 elevation 2068
 end
-arch mountain
+arch pine_needles
 x 48
 y 10
 elevation 5148
 end
-arch mountain
+arch pine_needles
 x 48
 y 11
 elevation 7179
 end
-arch mountain
+arch lumber_pine
+x 48
+y 11
+end
+arch pine_needles
 x 48
 y 12
 elevation 7801
 end
-arch mountain
+arch pine_needles
 x 48
 y 13
 elevation 6681
 end
-arch hills
+arch lumber_pine
+x 48
+y 13
+end
+arch pine_needles
 x 48
 y 14
 elevation 4436
 end
-arch grass_only
+arch pine_needles
 x 48
 y 15
 elevation 1337
@@ -13733,81 +14271,89 @@ x 48
 y 49
 elevation -180
 end
-arch steppe
+arch pine_needles
 x 49
 elevation 4827
 end
-arch hills
+arch pine_needles
 x 49
 y 1
 elevation 3815
 end
-arch steppe
+arch pine_needles
 x 49
 y 2
 elevation 4745
 end
-arch steppe
+arch pine_needles
 x 49
 y 3
 elevation 4946
 end
-arch steppe
+arch lumber_pine
+x 49
+y 3
+end
+arch pine_needles
 x 49
 y 4
 elevation 4246
 end
-arch mountain
+arch pine_needles
 x 49
 y 5
 elevation 5607
 end
-arch mountain
+arch pine_needles
 x 49
 y 6
 elevation 6040
 end
-arch mountain
+arch pine_needles
 x 49
 y 7
 elevation 5650
 end
-arch steppe
+arch pine_needles
 x 49
 y 8
 elevation 4607
 end
-arch jungle_1
+arch lumber_pine
+x 49
+y 8
+end
+arch pine_needles
 x 49
 y 9
 elevation 2950
 end
-arch hills
+arch pine_needles
 x 49
 y 10
 elevation 4647
 end
-arch mountain
+arch pine_needles
 x 49
 y 11
 elevation 5814
 end
-arch mountain
+arch pine_needles
 x 49
 y 12
 elevation 6151
 end
-arch mountain
+arch pine_needles
 x 49
 y 13
 elevation 5370
 end
-arch hills
+arch pine_needles
 x 49
 y 14
 elevation 3166
 end
-arch woods
+arch pine_needles
 x 49
 y 15
 elevation 1656

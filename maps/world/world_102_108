@@ -9,13 +9,14 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-02-19
-Modified: 2018-11-10 lx
+Modified: 2019-04-13 lori
 endmsg
 outdoor 1
 tile_path_1 world_102_107
 tile_path_2 world_103_108
 tile_path_3 world_102_109
 tile_path_4 world_101_108
+background_music swamp01
 end
 arch sea
 end
@@ -2788,7 +2789,7 @@ arch cwall_2_1_1
 x 10
 y 23
 end
-arch woods_2
+arch swamp
 x 10
 y 24
 end
@@ -3376,7 +3377,7 @@ arch woods_2
 x 12
 y 23
 end
-arch woods_2
+arch swamp
 x 12
 y 24
 end
@@ -3669,7 +3670,7 @@ arch woods_2
 x 13
 y 23
 end
-arch woods_2
+arch swamp
 x 13
 y 24
 end
@@ -3951,7 +3952,7 @@ arch woods_2
 x 14
 y 23
 end
-arch woods_2
+arch swamp
 x 14
 y 24
 end
@@ -4250,7 +4251,7 @@ arch woods_2
 x 15
 y 23
 end
-arch woods_2
+arch swamp
 x 15
 y 24
 end
@@ -4550,7 +4551,7 @@ arch woods_2
 x 16
 y 23
 end
-arch woods_2
+arch swamp
 x 16
 y 24
 end
@@ -4849,15 +4850,15 @@ arch grass
 x 17
 y 21
 end
-arch woods_2
+arch swamp
 x 17
 y 22
 end
-arch woods_2
+arch swamp
 x 17
 y 23
 end
-arch woods_2
+arch swamp
 x 17
 y 24
 end
@@ -5145,19 +5146,19 @@ arch grass_only
 x 18
 y 20
 end
-arch woods_2
+arch swamp
 x 18
 y 21
 end
-arch woods_2
+arch swamp
 x 18
 y 22
 end
-arch woods_2
+arch swamp
 x 18
 y 23
 end
-arch woods_2
+arch swamp
 x 18
 y 24
 end
@@ -5458,19 +5459,15 @@ arch grass_only
 x 19
 y 21
 end
-arch tree3
-x 19
-y 21
-end
 arch grass
 x 19
 y 22
 end
-arch woods_2
+arch swamp
 x 19
 y 23
 end
-arch woods_2
+arch swamp
 x 19
 y 24
 end
@@ -6057,7 +6054,7 @@ arch grass
 x 21
 y 22
 end
-arch woods_2
+arch swamp
 x 21
 y 23
 end
@@ -7213,15 +7210,15 @@ arch grass_only
 x 25
 y 16
 end
-arch store_weapons
+arch grass_only
+x 25
+y 17
+end
+arch keep_sym_noflag_greco
 name Erash Sharp Blades
-slaying /santo_dominion/shops/erash
+slaying ../santo_dominion/shops/erash
 hp 10
 sp 1
-x 25
-y 16
-end
-arch grass_only
 x 25
 y 17
 end
@@ -7237,9 +7234,9 @@ arch brush
 x 25
 y 20
 end
-arch store_magic
+arch tower_tob
 name Nosferatu - Specialist
-slaying /santo_dominion/shops/nosferatu
+slaying ../santo_dominion/shops/nosferatu
 hp 1
 sp 14
 x 25
@@ -8785,7 +8782,7 @@ arch hills
 x 30
 y 47
 end
-arch woods_2
+arch swamp
 x 30
 y 48
 end
@@ -8824,11 +8821,11 @@ arch steppe
 x 31
 y 7
 end
-arch woods_2
+arch swamp
 x 31
 y 8
 end
-arch woods_2
+arch swamp
 x 31
 y 9
 end
@@ -9020,7 +9017,7 @@ arch tree3
 x 31
 y 44
 end
-arch woods_2
+arch swamp
 x 31
 y 45
 end
@@ -9091,7 +9088,7 @@ arch evergreens2
 x 32
 y 9
 end
-arch woods_2
+arch swamp
 x 32
 y 10
 end
@@ -9556,7 +9553,7 @@ arch steppe
 x 34
 y 9
 end
-arch woods_2
+arch swamp
 x 34
 y 10
 end
@@ -9796,7 +9793,7 @@ arch hills_rocky
 x 34
 y 47
 end
-arch mountain
+arch swamp
 x 34
 y 48
 end
@@ -9843,7 +9840,7 @@ arch steppe
 x 35
 y 9
 end
-arch woods_2
+arch swamp
 x 35
 y 10
 end
@@ -9931,10 +9928,6 @@ arch brush
 x 35
 y 24
 end
-arch farmhouse
-x 35
-y 24
-end
 arch brush
 x 35
 y 25
@@ -9963,7 +9956,7 @@ arch hills
 x 35
 y 30
 end
-arch mountain
+arch swamp
 x 35
 y 31
 end
@@ -10214,15 +10207,15 @@ arch hills
 x 36
 y 29
 end
-arch mountain
+arch swamp
 x 36
 y 30
 end
-arch mountain
+arch swamp
 x 36
 y 31
 end
-arch mountain
+arch swamp
 x 36
 y 32
 end
@@ -10473,19 +10466,19 @@ arch hills
 x 37
 y 29
 end
-arch mountain
+arch swamp
 x 37
 y 30
 end
-arch mountain
+arch swamp
 x 37
 y 31
 end
-arch mountain
+arch swamp
 x 37
 y 32
 end
-arch mountain
+arch swamp
 x 37
 y 33
 end
@@ -10553,19 +10546,19 @@ arch tree3
 x 37
 y 42
 end
-arch hills
+arch swamp
 x 37
 y 43
 end
-arch hills
+arch swamp
 x 37
 y 44
 end
-arch woods_2
+arch swamp
 x 37
 y 45
 end
-arch woods_2
+arch swamp
 x 37
 y 46
 end
@@ -10616,11 +10609,11 @@ arch mountain
 x 38
 y 7
 end
-arch mountain
+arch swamp
 x 38
 y 8
 end
-arch mountain
+arch swamp
 x 38
 y 9
 end
@@ -10728,23 +10721,23 @@ arch hills
 x 38
 y 28
 end
-arch mountain
+arch swamp
 x 38
 y 29
 end
-arch mountain
+arch swamp
 x 38
 y 30
 end
-arch mountain
+arch swamp
 x 38
 y 31
 end
-arch mountain
+arch swamp
 x 38
 y 32
 end
-arch mountain
+arch swamp
 x 38
 y 33
 end
@@ -10867,11 +10860,11 @@ arch mountain
 x 39
 y 7
 end
-arch mountain
+arch swamp
 x 39
 y 8
 end
-arch mountain
+arch swamp
 x 39
 y 9
 end
@@ -10975,27 +10968,27 @@ arch hills
 x 39
 y 28
 end
-arch mountain
+arch swamp
 x 39
 y 29
 end
-arch mountain
+arch swamp
 x 39
 y 30
 end
-arch mountain
+arch swamp
 x 39
 y 31
 end
-arch mountain
+arch swamp
 x 39
 y 32
 end
-arch mountain
+arch swamp
 x 39
 y 33
 end
-arch mountain
+arch swamp
 x 39
 y 34
 end
@@ -11023,23 +11016,23 @@ arch hills
 x 39
 y 39
 end
-arch hills
+arch swamp
 x 39
 y 40
 end
-arch mountain
+arch swamp
 x 39
 y 41
 end
-arch mountain
+arch swamp
 x 39
 y 42
 end
-arch mountain
+arch swamp
 x 39
 y 43
 end
-arch mountain
+arch swamp
 x 39
 y 44
 end
@@ -11055,15 +11048,15 @@ arch woods
 x 39
 y 47
 end
-arch woods_2
+arch swamp
 x 39
 y 48
 end
-arch woods_2
+arch swamp
 x 39
 y 49
 end
-arch mountain2
+arch swamp
 x 40
 end
 arch mountain2
@@ -11090,15 +11083,15 @@ arch mountain2
 x 40
 y 6
 end
-arch mountain2
+arch swamp
 x 40
 y 7
 end
-arch mountain
+arch swamp
 x 40
 y 8
 end
-arch mountain
+arch swamp
 x 40
 y 9
 end
@@ -11202,31 +11195,31 @@ arch hills
 x 40
 y 28
 end
-arch mountain
+arch swamp
 x 40
 y 29
 end
-arch mountain
+arch swamp
 x 40
 y 30
 end
-arch mountain
+arch swamp
 x 40
 y 31
 end
-arch mountain
+arch swamp
 x 40
 y 32
 end
-arch mountain
+arch swamp
 x 40
 y 33
 end
-arch mountain
+arch swamp
 x 40
 y 34
 end
-arch mountain
+arch swamp
 x 40
 y 35
 end
@@ -11246,27 +11239,27 @@ arch hills
 x 40
 y 39
 end
-arch mountain
+arch swamp
 x 40
 y 40
 end
-arch mountain
+arch swamp
 x 40
 y 41
 end
-arch mountain
+arch swamp
 x 40
 y 42
 end
-arch mountain
+arch swamp
 x 40
 y 43
 end
-arch mountain
+arch swamp
 x 40
 y 44
 end
-arch mountain
+arch swamp
 x 40
 y 45
 end
@@ -11282,7 +11275,7 @@ arch tree3
 x 40
 y 47
 end
-arch woods_2
+arch swamp
 x 40
 y 48
 end
@@ -11321,19 +11314,19 @@ arch mountain2
 x 41
 y 6
 end
-arch mountain2
+arch swamp
 x 41
 y 7
 end
-arch mountain
+arch swamp
 x 41
 y 8
 end
-arch mountain
+arch swamp
 x 41
 y 9
 end
-arch mountain
+arch swamp
 x 41
 y 10
 end
@@ -11477,7 +11470,7 @@ arch hills
 x 41
 y 31
 end
-arch mountain
+arch swamp
 x 41
 y 32
 end
@@ -11485,19 +11478,19 @@ arch hills
 x 41
 y 33
 end
-arch mountain
+arch swamp
 x 41
 y 34
 end
-arch mountain
+arch swamp
 x 41
 y 35
 end
-arch mountain
+arch swamp
 x 41
 y 36
 end
-arch mountain
+arch swamp
 x 41
 y 37
 end
@@ -11505,27 +11498,27 @@ arch hills
 x 41
 y 38
 end
-arch mountain
+arch swamp
 x 41
 y 39
 end
-arch mountain
+arch swamp
 x 41
 y 40
 end
-arch mountain
+arch swamp
 x 41
 y 41
 end
-arch mountain
+arch swamp
 x 41
 y 42
 end
-arch mountain
+arch swamp
 x 41
 y 43
 end
-arch mountain
+arch swamp
 x 41
 y 44
 end
@@ -11541,7 +11534,7 @@ arch jungle_1
 x 41
 y 47
 end
-arch woods_2
+arch swamp
 x 41
 y 48
 end
@@ -11553,10 +11546,10 @@ arch tree3
 x 41
 y 49
 end
-arch mountain2
+arch swamp
 x 42
 end
-arch mountain2
+arch swamp
 x 42
 y 1
 end
@@ -11580,19 +11573,19 @@ arch mountain5
 x 42
 y 6
 end
-arch mountain5
+arch swamp
 x 42
 y 7
 end
-arch mountain2
+arch swamp
 x 42
 y 8
 end
-arch mountain
+arch swamp
 x 42
 y 9
 end
-arch mountain
+arch swamp
 x 42
 y 10
 end
@@ -11724,15 +11717,15 @@ arch hills
 x 42
 y 34
 end
-arch mountain
+arch swamp
 x 42
 y 35
 end
-arch mountain
+arch swamp
 x 42
 y 36
 end
-arch mountain
+arch swamp
 x 42
 y 37
 end
@@ -11744,19 +11737,19 @@ arch hills
 x 42
 y 39
 end
-arch mountain
+arch swamp
 x 42
 y 40
 end
-arch mountain
+arch swamp
 x 42
 y 41
 end
-arch mountain
+arch swamp
 x 42
 y 42
 end
-arch mountain
+arch swamp
 x 42
 y 43
 end
@@ -11768,11 +11761,11 @@ arch hills
 x 42
 y 45
 end
-arch woods_2
+arch swamp
 x 42
 y 46
 end
-arch woods_2
+arch swamp
 x 42
 y 47
 end
@@ -11792,22 +11785,22 @@ arch tree3
 x 42
 y 49
 end
-arch mountain2
+arch swamp
 x 43
 end
 arch mountain2
 x 43
 y 1
 end
-arch mountain2
+arch swamp
 x 43
 y 2
 end
-arch mountain2
+arch swamp
 x 43
 y 3
 end
-arch mountain5
+arch swamp
 x 43
 y 4
 end
@@ -11815,7 +11808,7 @@ arch mountain5
 x 43
 y 5
 end
-arch mountain5
+arch swamp
 x 43
 y 5
 end
@@ -11823,23 +11816,23 @@ arch mountain5
 x 43
 y 6
 end
-arch mountain5
+arch swamp
 x 43
 y 7
 end
-arch mountain5
+arch swamp
 x 43
 y 8
 end
-arch mountain2
+arch swamp
 x 43
 y 9
 end
-arch mountain
+arch swamp
 x 43
 y 10
 end
-arch mountain
+arch swamp
 x 43
 y 11
 end
@@ -11979,7 +11972,7 @@ arch hills
 x 43
 y 35
 end
-arch mountain
+arch swamp
 x 43
 y 36
 end
@@ -12019,7 +12012,7 @@ arch hills
 x 43
 y 45
 end
-arch woods_2
+arch swamp
 x 43
 y 46
 end
@@ -12031,7 +12024,7 @@ arch tree3
 x 43
 y 47
 end
-arch woods_2
+arch swamp
 x 43
 y 48
 end
@@ -12039,50 +12032,50 @@ arch woods_2
 x 43
 y 49
 end
-arch mountain
+arch swamp
 x 44
 end
 arch mountain2
 x 44
 y 1
 end
-arch mountain2
+arch swamp
 x 44
 y 2
 end
-arch mountain2
+arch swamp
 x 44
 y 3
 end
-arch mountain2
+arch swamp
 x 44
 y 4
 end
-arch mountain2
+arch swamp
 x 44
 y 5
 end
-arch mountain2
+arch swamp
 x 44
 y 6
 end
-arch mountain2
+arch swamp
 x 44
 y 7
 end
-arch mountain2
+arch swamp
 x 44
 y 8
 end
-arch mountain5
+arch swamp
 x 44
 y 9
 end
-arch mountain2
+arch swamp
 x 44
 y 10
 end
-arch mountain
+arch swamp
 x 44
 y 11
 end
@@ -12182,7 +12175,7 @@ arch hills
 x 44
 y 27
 end
-arch mountain
+arch swamp
 x 44
 y 28
 end
@@ -12282,7 +12275,7 @@ arch tree3
 x 44
 y 47
 end
-arch woods_2
+arch swamp
 x 44
 y 48
 end
@@ -12290,54 +12283,54 @@ arch woods_2
 x 44
 y 49
 end
-arch mountain2
+arch swamp
 x 45
 end
-arch mountain2
+arch swamp
 x 45
 y 1
 end
-arch mountain2
+arch swamp
 x 45
 y 2
 end
-arch mountain2
+arch swamp
 x 45
 y 3
 end
-arch mountain2
+arch swamp
 x 45
 y 4
 end
-arch mountain
+arch swamp
 x 45
 y 5
 end
-arch mountain
+arch swamp
 x 45
 y 6
 end
-arch mountain2
+arch swamp
 x 45
 y 7
 end
-arch mountain2
+arch swamp
 x 45
 y 8
 end
-arch mountain2
+arch swamp
 x 45
 y 9
 end
-arch mountain2
+arch swamp
 x 45
 y 10
 end
-arch mountain
+arch swamp
 x 45
 y 11
 end
-arch mountain
+arch swamp
 x 45
 y 12
 end
@@ -12413,15 +12406,15 @@ arch hills
 x 45
 y 25
 end
-arch mountain
+arch swamp
 x 45
 y 26
 end
-arch mountain
+arch swamp
 x 45
 y 27
 end
-arch mountain
+arch swamp
 x 45
 y 28
 end
@@ -12537,66 +12530,66 @@ arch woods_2
 x 45
 y 49
 end
-arch mountain2
+arch swamp
 x 46
 end
-arch mountain
+arch swamp
 x 46
 y 1
 end
-arch mountain
+arch swamp
 x 46
 y 2
 end
-arch mountain
+arch swamp
 x 46
 y 3
 end
-arch mountain
+arch swamp
 x 46
 y 4
 end
-arch steppe
+arch swamp
 x 46
 y 5
 end
-arch mountain
+arch swamp
 x 46
 y 6
 end
-arch mountain
+arch swamp
 x 46
 y 7
 end
-arch mountain
+arch swamp
 x 46
 y 8
 end
-arch mountain
+arch swamp
 x 46
 y 9
 end
-arch mountain
+arch swamp
 x 46
 y 10
 end
-arch mountain2
+arch swamp
 x 46
 y 11
 end
-arch mountain
+arch swamp
 x 46
 y 12
 end
-arch mountain
+arch swamp
 x 46
 y 13
 end
-arch mountain
+arch swamp
 x 46
 y 14
 end
-arch mountain
+arch swamp
 x 46
 y 15
 end
@@ -12636,23 +12629,23 @@ arch hills
 x 46
 y 24
 end
-arch mountain
+arch swamp
 x 46
 y 25
 end
-arch mountain
+arch swamp
 x 46
 y 26
 end
-arch mountain
+arch swamp
 x 46
 y 27
 end
-arch mountain
+arch swamp
 x 46
 y 28
 end
-arch mountain
+arch swamp
 x 46
 y 29
 end
@@ -12764,86 +12757,86 @@ arch woods_2
 x 46
 y 49
 end
-arch mountain
+arch swamp
 x 47
 end
-arch mountain
+arch swamp
 x 47
 y 1
 end
-arch mountain
+arch swamp
 x 47
 y 2
 end
-arch mountain
+arch swamp
 x 47
 y 3
 end
-arch mountain
+arch swamp
 x 47
 y 4
 end
-arch steppe
+arch swamp
 x 47
 y 5
 end
-arch mountain
+arch swamp
 x 47
 y 6
 end
-arch mountain
+arch swamp
 x 47
 y 7
 end
-arch mountain
+arch swamp
 x 47
 y 8
 end
-arch mountain
+arch swamp
 x 47
 y 9
 end
-arch mountain
+arch swamp
 x 47
 y 10
 end
-arch mountain
+arch swamp
 x 47
 y 11
 end
-arch mountain
+arch swamp
 x 47
 y 12
 end
-arch mountain
+arch swamp
 x 47
 y 13
 end
-arch mountain
+arch swamp
 x 47
 y 14
 end
-arch mountain
+arch swamp
 x 47
 y 15
 end
-arch mountain
+arch swamp
 x 47
 y 16
 end
-arch mountain
+arch swamp
 x 47
 y 17
 end
-arch mountain
+arch swamp
 x 47
 y 18
 end
-arch mountain
+arch swamp
 x 47
 y 19
 end
-arch mountain
+arch swamp
 x 47
 y 20
 end
@@ -12855,31 +12848,31 @@ arch hills
 x 47
 y 22
 end
-arch mountain
+arch swamp
 x 47
 y 23
 end
-arch mountain
+arch swamp
 x 47
 y 24
 end
-arch mountain
+arch swamp
 x 47
 y 25
 end
-arch mountain
+arch swamp
 x 47
 y 26
 end
-arch mountain
+arch swamp
 x 47
 y 27
 end
-arch mountain
+arch swamp
 x 47
 y 28
 end
-arch mountain
+arch swamp
 x 47
 y 29
 end
@@ -12895,7 +12888,7 @@ arch hills
 x 47
 y 32
 end
-arch mountain
+arch swamp
 x 47
 y 33
 end
@@ -12923,7 +12916,7 @@ arch woods
 x 47
 y 38
 end
-arch jungle_1
+arch swamp
 x 47
 y 39
 end
@@ -12991,114 +12984,114 @@ arch tree3
 x 47
 y 49
 end
-arch mountain
+arch swamp
 x 48
 end
-arch mountain
+arch swamp
 x 48
 y 1
 end
-arch mountain
+arch swamp
 x 48
 y 2
 end
-arch mountain
+arch swamp
 x 48
 y 3
 end
-arch mountain
+arch swamp
 x 48
 y 4
 end
-arch mountain
+arch swamp
 x 48
 y 5
 end
-arch mountain
+arch swamp
 x 48
 y 6
 end
-arch mountain
+arch swamp
 x 48
 y 7
 end
-arch mountain
+arch swamp
 x 48
 y 8
 end
-arch mountain
+arch swamp
 x 48
 y 9
 end
-arch mountain
+arch swamp
 x 48
 y 10
 end
-arch mountain
+arch swamp
 x 48
 y 11
 end
-arch mountain
+arch swamp
 x 48
 y 12
 end
-arch mountain
+arch swamp
 x 48
 y 13
 end
-arch mountain
+arch swamp
 x 48
 y 14
 end
-arch mountain
+arch swamp
 x 48
 y 15
 end
-arch mountain
+arch swamp
 x 48
 y 16
 end
-arch mountain
+arch swamp
 x 48
 y 17
 end
-arch mountain
+arch swamp
 x 48
 y 18
 end
-arch mountain
+arch swamp
 x 48
 y 19
 end
-arch mountain
+arch swamp
 x 48
 y 20
 end
-arch mountain
+arch swamp
 x 48
 y 21
 end
-arch mountain
+arch swamp
 x 48
 y 22
 end
-arch mountain
+arch swamp
 x 48
 y 23
 end
-arch mountain
+arch swamp
 x 48
 y 24
 end
-arch mountain
+arch swamp
 x 48
 y 25
 end
-arch mountain
+arch swamp
 x 48
 y 26
 end
-arch mountain
+arch swamp
 x 48
 y 27
 end
@@ -13150,7 +13143,7 @@ arch tree3
 x 48
 y 38
 end
-arch desert
+arch swamp
 x 48
 y 39
 end
@@ -13222,114 +13215,114 @@ arch woods_2
 x 48
 y 49
 end
-arch mountain
+arch swamp
 x 49
 end
-arch mountain
+arch swamp
 x 49
 y 1
 end
-arch mountain
+arch swamp
 x 49
 y 2
 end
-arch mountain
+arch swamp
 x 49
 y 3
 end
-arch mountain
+arch swamp
 x 49
 y 4
 end
-arch mountain
+arch swamp
 x 49
 y 5
 end
-arch mountain
+arch swamp
 x 49
 y 6
 end
-arch mountain
+arch swamp
 x 49
 y 7
 end
-arch mountain
+arch swamp
 x 49
 y 8
 end
-arch mountain
+arch swamp
 x 49
 y 9
 end
-arch mountain
+arch swamp
 x 49
 y 10
 end
-arch steppe
+arch swamp
 x 49
 y 11
 end
-arch mountain
+arch swamp
 x 49
 y 12
 end
-arch mountain
+arch swamp
 x 49
 y 13
 end
-arch mountain
+arch swamp
 x 49
 y 14
 end
-arch mountain
+arch swamp
 x 49
 y 15
 end
-arch mountain
+arch swamp
 x 49
 y 16
 end
-arch mountain
+arch swamp
 x 49
 y 17
 end
-arch mountain
+arch swamp
 x 49
 y 18
 end
-arch mountain
+arch swamp
 x 49
 y 19
 end
-arch mountain
+arch swamp
 x 49
 y 20
 end
-arch mountain
+arch swamp
 x 49
 y 21
 end
-arch mountain
+arch swamp
 x 49
 y 22
 end
-arch mountain
+arch swamp
 x 49
 y 23
 end
-arch mountain
+arch swamp
 x 49
 y 24
 end
-arch mountain
+arch swamp
 x 49
 y 25
 end
-arch mountain
+arch swamp
 x 49
 y 26
 end
-arch mountain
+arch swamp
 x 49
 y 27
 end
@@ -13385,7 +13378,7 @@ arch tree3
 x 49
 y 38
 end
-arch woods
+arch swamp
 x 49
 y 39
 end
