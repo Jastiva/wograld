@@ -4,7 +4,7 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2019-04-13 lori
+Modified: 2019-04-15 lori
 endmsg
 outdoor 1
 tile_path_1 world_103_109
@@ -39,23 +39,26 @@ arch cobblestones
 y 6
 elevation 3339
 end
-arch steppe
+arch woods_3
 y 7
 elevation 4688
 end
-arch mountain
+arch woods_3
 y 8
 elevation 6096
 end
-arch mountain
+arch woods_3
 y 9
 elevation 7338
 end
-arch mountain
+arch shrub02
+y 9
+end
+arch woods_3
 y 10
 elevation 7576
 end
-arch mountain
+arch woods_3
 y 11
 elevation 5813
 end
@@ -245,32 +248,32 @@ x 1
 y 6
 elevation 2447
 end
-arch steppe
+arch woods_3
 x 1
 y 7
 elevation 4012
 end
-arch mountain
+arch woods_3
 x 1
 y 8
 elevation 5674
 end
-arch mountain
+arch woods_3
 x 1
 y 9
 elevation 7110
 end
-arch mountain
+arch woods_3
 x 1
 y 10
 elevation 7680
 end
-arch mountain
+arch woods_3
 x 1
 y 11
 elevation 6373
 end
-arch steppe
+arch treed_hills
 x 1
 y 12
 elevation 4253
@@ -290,12 +293,12 @@ x 1
 y 15
 elevation 2270
 end
-arch woods_2
+arch treed_hills
 x 1
 y 16
 elevation 1787
 end
-arch hills
+arch treed_hills
 x 1
 y 17
 elevation 1260
@@ -504,27 +507,35 @@ x 2
 y 8
 elevation 2852
 end
-arch mountain
+arch shrub02
+x 2
+y 8
+end
+arch woods_3
 x 2
 y 9
 elevation 5925
 end
-arch mountain
+arch woods_3
 x 2
 y 10
 elevation 6669
 end
-arch mountain
+arch woods_3
 x 2
 y 11
 elevation 5718
 end
-arch steppe
+arch shrub02
+x 2
+y 11
+end
+arch treed_hills
 x 2
 y 12
 elevation 4081
 end
-arch steppe
+arch treed_hills
 x 2
 y 13
 elevation 3065
@@ -534,12 +545,12 @@ x 2
 y 14
 elevation 3192
 end
-arch hills_rocky
+arch marsh
 x 2
 y 15
 elevation 3458
 end
-arch steppe
+arch marsh
 x 2
 y 16
 elevation 3280
@@ -564,7 +575,7 @@ x 2
 y 20
 elevation 3364
 end
-arch steppe
+arch marsh
 x 2
 y 21
 elevation 3440
@@ -783,17 +794,17 @@ x 3
 y 14
 elevation 2985
 end
-arch steppe
+arch marsh
 x 3
 y 15
 elevation 3492
 end
-arch hills_rocky
+arch marsh
 x 3
 y 16
 elevation 3465
 end
-arch steppe
+arch marsh
 x 3
 y 17
 elevation 3011
@@ -813,7 +824,7 @@ x 3
 y 20
 elevation 4185
 end
-arch steppe
+arch marsh
 x 3
 y 21
 elevation 4423
@@ -1047,7 +1058,7 @@ x 4
 y 17
 elevation 2655
 end
-arch steppe
+arch marsh
 x 4
 y 18
 elevation 3157
@@ -1057,12 +1068,12 @@ x 4
 y 19
 elevation 3502
 end
-arch steppe
+arch marsh
 x 4
 y 20
 elevation 3778
 end
-arch steppe
+arch marsh
 x 4
 y 21
 elevation 4706
@@ -1231,7 +1242,7 @@ x 5
 y 4
 elevation 337
 end
-arch desert
+arch marsh
 x 5
 y 5
 elevation 508
@@ -1320,7 +1331,7 @@ x 5
 y 21
 elevation 4287
 end
-arch mountain
+arch marsh
 x 5
 y 22
 elevation 5115
@@ -1568,7 +1579,7 @@ x 6
 y 20
 elevation 1666
 end
-arch steppe
+arch marsh
 x 6
 y 21
 elevation 3542
@@ -1588,7 +1599,7 @@ x 6
 y 24
 elevation 3348
 end
-arch desert
+arch treed_hills
 x 6
 y 25
 elevation 831
@@ -1742,7 +1753,7 @@ x 7
 y 5
 elevation 2352
 end
-arch desert
+arch marsh
 x 7
 y 6
 elevation 848
@@ -2488,12 +2499,12 @@ x 10
 y 4
 elevation 2257
 end
-arch steppe
+arch marsh
 x 10
 y 5
 elevation 4509
 end
-arch steppe
+arch marsh
 x 10
 y 6
 elevation 3867
@@ -2745,7 +2756,7 @@ x 11
 y 4
 elevation 4224
 end
-arch mountain
+arch marsh
 x 11
 y 5
 elevation 5295
@@ -2994,7 +3005,7 @@ x 12
 y 4
 elevation 4928
 end
-arch mountain
+arch marsh
 x 12
 y 5
 elevation 5647
@@ -4362,7 +4373,7 @@ x 17
 y 20
 elevation 7
 end
-arch desert
+arch marsh
 x 17
 y 21
 elevation 271

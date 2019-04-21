@@ -3,13 +3,14 @@ name world_120_106
 width 50
 height 50
 msg
-Modified: 2019-02-19 lori
+Modified: 2019-04-15 lori
 endmsg
 outdoor 1
 tile_path_1 world_120_105
 tile_path_2 world_121_106
 tile_path_3 world_120_107
 tile_path_4 world_119_106
+background_music darkforest01
 end
 arch evergreen
 elevation 2057
@@ -45,7 +46,7 @@ end
 arch cobblestones
 y 8
 end
-arch tree
+arch darkforest
 y 9
 elevation 2172
 end
@@ -69,143 +70,152 @@ arch hills
 y 14
 elevation 3025
 end
-arch tree
+arch darkforest
 y 15
 elevation 2948
 end
-arch tree
+arch darkforest
 y 16
 elevation 2740
 end
-arch tree
+arch darkforest
 y 17
 elevation 2588
 end
-arch evergreen
+arch darkforest
 y 18
 elevation 2425
 end
-arch hills
+arch darkforest
 y 19
 elevation 1555
 end
-arch evergreen
+arch darkforest
 y 20
 elevation 1528
 end
-arch grass
+arch darkforest
 y 21
 elevation 879
 end
-arch desert
+arch darkforest
 y 22
 elevation 618
 end
-arch hills
+arch darkforest
 y 23
 elevation 1382
 end
-arch hills
+arch darkforest
 y 24
 elevation 2026
 end
-arch hills_rocky
+arch darkforest
 y 25
 elevation 1973
 end
-arch hills
+arch darkforest
 y 26
 elevation 1181
 end
-arch hills
+arch darkforest
 y 27
 elevation 1399
 end
-arch evergreens
+arch darkforest
 y 28
 elevation 1556
 end
-arch hills
+arch darkforest
 y 29
 elevation 2830
 end
-arch hills
+arch darkforest
 y 30
 elevation 3232
 end
-arch hills
+arch darkforest
 y 31
 elevation 2726
 end
-arch grass
+arch darkforest
 y 32
 elevation 801
 end
-arch hills
+arch darkforest
 y 33
 elevation 1310
 end
-arch hills
+arch darkforest
 y 34
 elevation 3804
 end
-arch mountain
+arch darkforest
 y 35
 elevation 5360
 end
-arch mountain
+arch darkforest
 y 36
 elevation 6416
 end
-arch mountain
+arch darkforest
 y 37
 elevation 6792
 end
-arch mountain
+arch darkforest
 y 38
 elevation 6723
 end
-arch mountain
+arch tree3cherry3
+y 38
+end
+arch darkforest
 y 39
 elevation 6744
 end
-arch mountain
+arch darkforest
 y 40
 elevation 7190
 end
-arch mountain
+arch darkforest
 y 41
 elevation 7238
 end
-arch mountain
+arch darkforest
 y 42
 elevation 8668
 end
-arch mountain2
+arch darkforest
 y 43
 elevation 9091
 end
-arch mountain
+arch darkforest
 y 44
 elevation 8476
 end
-arch mountain
+arch tree3birch1
+y 44
+end
+arch darkforest
 y 45
 elevation 7958
 end
-arch mountain2
+arch darkforest
 y 46
 elevation 11803
 end
-arch mountain4
+arch fern_giant
+y 46
+end
+arch darkforest
 y 47
 elevation 14115
 end
-arch mountain4
+arch darkforest
 y 48
 elevation 15284
 end
-arch mountain4
+arch darkforest
 y 49
 elevation 14291
 end
@@ -252,7 +262,7 @@ arch cobblestones
 x 1
 y 8
 end
-arch tree
+arch darkforest
 x 1
 y 9
 elevation 2137
@@ -317,142 +327,182 @@ x 1
 y 21
 elevation 243
 end
-arch grass
+arch darkforest
 x 1
 y 22
 elevation 55
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 23
 elevation 1029
 end
-arch evergreen
+arch darkforest
 x 1
 y 24
 elevation 1624
 end
-arch hills
+arch darkforest
 x 1
 y 25
 elevation 1795
 end
-arch evergreen
+arch darkforest
 x 1
 y 26
 elevation 1332
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 27
 elevation 2131
 end
-arch evergreen
+arch darkforest
 x 1
 y 28
 elevation 2560
 end
-arch evergreen
+arch darkforest
 x 1
 y 29
 elevation 1787
 end
-arch hills
+arch darkforest
 x 1
 y 30
 elevation 2923
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 31
 elevation 2254
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 32
 elevation 1572
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 33
 elevation 2384
 end
-arch hills_rocky
+arch darkforest
 x 1
 y 34
 elevation 3492
 end
-arch hills
+arch darkforest
 x 1
 y 35
 elevation 4864
 end
-arch mountain
+arch darkforest
 x 1
 y 36
 elevation 5738
 end
-arch mountain
+arch darkforest
 x 1
 y 37
 elevation 6006
 end
-arch hills
+arch tree3fall1
+x 1
+y 37
+end
+arch darkforest
 x 1
 y 38
 elevation 4677
 end
-arch hills
+arch darkforest
 x 1
 y 39
 elevation 4770
 end
-arch mountain
+arch tree3fall1
+x 1
+y 39
+end
+arch darkforest
 x 1
 y 40
 elevation 5806
 end
-arch mountain
+arch tree3fall1
+x 1
+y 40
+end
+arch darkforest
 x 1
 y 41
 elevation 7606
 end
-arch mountain
+arch darkforest
 x 1
 y 42
 elevation 8563
 end
-arch mountain2
+arch tree3birch1
+x 1
+y 42
+end
+arch tree3cherry3
+x 1
+y 42
+end
+arch darkforest
 x 1
 y 43
 elevation 9271
 end
-arch mountain
+arch tree3birch1
+x 1
+y 43
+end
+arch darkforest
 x 1
 y 44
 elevation 7687
 end
-arch mountain
+arch tree3birch1
+x 1
+y 44
+end
+arch darkforest
 x 1
 y 45
 elevation 8790
 end
-arch mountain2
+arch tree3birch1
+x 1
+y 45
+end
+arch darkforest
 x 1
 y 46
 elevation 10439
 end
-arch mountain4
+arch darkforest
 x 1
 y 47
 elevation 13301
 end
-arch mountain4
+arch woods4
+x 1
+y 47
+end
+arch darkforest
 x 1
 y 48
 elevation 15283
 end
-arch mountain4
+arch tree6_budding
+x 1
+y 48
+end
+arch darkforest
 x 1
 y 49
 elevation 14860
@@ -500,7 +550,7 @@ arch cobblestones
 x 2
 y 8
 end
-arch tree
+arch darkforest
 x 2
 y 9
 elevation 1651
@@ -585,27 +635,27 @@ x 2
 y 25
 elevation 1508
 end
-arch evergreens
+arch darkforest
 x 2
 y 26
 elevation 1866
 end
-arch evergreen
+arch darkforest
 x 2
 y 27
 elevation 2387
 end
-arch evergreens
+arch darkforest
 x 2
 y 28
 elevation 2950
 end
-arch hills
+arch darkforest
 x 2
 y 29
 elevation 3473
 end
-arch hills
+arch darkforest
 x 2
 y 30
 elevation 3406
@@ -615,92 +665,108 @@ x 2
 y 31
 elevation 2839
 end
-arch hills_rocky
+arch grassdark
 x 2
 y 32
 elevation 2717
 end
-arch hills
+arch grassdark
 x 2
 y 33
 elevation 2452
 end
-arch hills_rocky
+arch grassdark
 x 2
 y 34
 elevation 2137
 end
-arch hills_rocky
+arch grassdark
 x 2
 y 35
 elevation 3417
 end
-arch mountain
+arch darkforest
 x 2
 y 36
 elevation 5080
 end
-arch hills
+arch darkforest
 x 2
 y 37
 elevation 4335
 end
-arch mountain
+arch darkforest
 x 2
 y 38
 elevation 5897
 end
-arch mountain
+arch darkforest
 x 2
 y 39
 elevation 6356
 end
-arch mountain
+arch tree3fall1
+x 2
+y 39
+end
+arch darkforest
 x 2
 y 40
 elevation 6660
 end
-arch mountain
+arch darkforest
 x 2
 y 41
 elevation 7399
 end
-arch mountain
+arch darkforest
 x 2
 y 42
 elevation 8826
 end
-arch mountain2
+arch darkforest
 x 2
 y 43
 elevation 10033
 end
-arch mountain2
+arch tree3birch1
+x 2
+y 43
+end
+arch darkforest
 x 2
 y 44
 elevation 10366
 end
-arch mountain2
+arch darkforest
 x 2
 y 45
 elevation 10178
 end
-arch mountain2
+arch darkforest
 x 2
 y 46
 elevation 9335
 end
-arch mountain4
+arch darkforest
 x 2
 y 47
 elevation 12635
 end
-arch mountain4
+arch tree3birch1
+x 2
+y 47
+end
+arch darkforest
 x 2
 y 48
 elevation 14789
 end
-arch mountain4
+arch woods5
+x 2
+y 48
+end
+arch darkforest
 x 2
 y 49
 elevation 14936
@@ -748,7 +814,7 @@ arch cobblestones
 x 3
 y 8
 end
-arch desert
+arch darkforest
 x 3
 y 9
 elevation 125
@@ -843,7 +909,7 @@ x 3
 y 27
 elevation 1163
 end
-arch hills
+arch darkforest
 x 3
 y 28
 elevation 3217
@@ -853,22 +919,22 @@ x 3
 y 29
 elevation 4157
 end
-arch hills
+arch grassdark
 x 3
 y 30
 elevation 4280
 end
-arch hills
+arch grassdark
 x 3
 y 31
 elevation 3610
 end
-arch hills
+arch grassdark
 x 3
 y 32
 elevation 3455
 end
-arch hills
+arch grassdark
 x 3
 y 33
 elevation 2822
@@ -878,77 +944,105 @@ x 3
 y 34
 elevation 2584
 end
-arch hills
+arch grassdark
 x 3
 y 35
 elevation 2294
 end
-arch mountain
+arch darkforest
 x 3
 y 36
 elevation 5467
 end
-arch mountain
+arch darkforest
 x 3
 y 37
 elevation 6842
 end
-arch mountain
+arch tree3fall1
+x 3
+y 37
+end
+arch darkforest
 x 3
 y 38
 elevation 7408
 end
-arch mountain
+arch darkforest
 x 3
 y 39
 elevation 7615
 end
-arch mountain
+arch tree3fall1
+x 3
+y 39
+end
+arch darkforest
 x 3
 y 40
 elevation 7268
 end
-arch mountain
+arch darkforest
 x 3
 y 41
 elevation 5824
 end
-arch mountain
+arch tree3birch1
+x 3
+y 41
+end
+arch darkforest
 x 3
 y 42
 elevation 7197
 end
-arch mountain2
+arch tree3birch1
+x 3
+y 42
+end
+arch darkforest
 x 3
 y 43
 elevation 11373
 end
-arch mountain4
+arch darkforest
 x 3
 y 44
 elevation 12937
 end
-arch mountain4
+arch tree3cherry3
+x 3
+y 44
+end
+arch darkforest
 x 3
 y 45
 elevation 12577
 end
-arch mountain
+arch fern_giant
+x 3
+y 45
+end
+arch darkforest
 x 3
 y 46
 elevation 8021
 end
-arch mountain4
+arch darkforest
 x 3
 y 47
 elevation 12688
 end
-arch mountain4
+arch woods4
+x 3
+y 47
+end
+arch darkforest
 x 3
 y 48
 elevation 14123
 end
-arch mountain4
+arch darkforest
 x 3
 y 49
 elevation 14230
@@ -996,7 +1090,7 @@ arch cobblestones
 x 4
 y 8
 end
-arch evergreen
+arch darkforest
 x 4
 y 9
 elevation 1094
@@ -1076,7 +1170,7 @@ x 4
 y 24
 elevation 71
 end
-arch desert
+arch darkforest
 x 4
 y 25
 elevation 107
@@ -1101,105 +1195,129 @@ x 4
 y 29
 elevation 4617
 end
-arch mountain
+arch grassdark
 x 4
 y 30
 elevation 5131
 end
-arch hills
+arch grassdark
 x 4
 y 31
 elevation 4540
 end
-arch hills
+arch grassdark
 x 4
 y 32
 elevation 3487
 end
-arch steppe
+arch grassdark
 x 4
 y 33
 elevation 4391
 end
-arch steppe
+arch grassdark
 x 4
 y 34
 elevation 4506
 end
-arch hills
+arch grassdark
 x 4
 y 35
 elevation 4921
 end
-arch mountain
+arch darkforest
 x 4
 y 36
 elevation 6664
 end
-arch mountain
+arch darkforest
 x 4
 y 37
 elevation 7993
 end
-arch mountain
+arch darkforest
 x 4
 y 38
 elevation 8620
 end
-arch mountain
+arch darkforest
 x 4
 y 39
 elevation 8811
 end
-arch mountain
+arch tree3fall1
+x 4
+y 39
+end
+arch darkforest
 x 4
 y 40
 elevation 8420
 end
-arch mountain
+arch darkforest
 x 4
 y 41
 elevation 6702
 end
-arch mountain2
+arch darkforest
 x 4
 y 42
 elevation 9360
 end
-arch mountain4
+arch darkforest
 x 4
 y 43
 elevation 12552
 end
-arch mountain4
+arch tree3cherry3
+x 4
+y 43
+end
+arch darkforest
 x 4
 y 44
 elevation 15284
 end
-arch mountain4
+arch darkforest
 x 4
 y 45
 elevation 15586
 end
-arch mountain4
+arch tree3birch1
+x 4
+y 45
+end
+arch darkforest
 x 4
 y 46
 elevation 14849
 end
-arch mountain4
+arch tree6_budding
+x 4
+y 46
+end
+arch darkforest
 x 4
 y 47
 elevation 12349
 end
-arch mountain4
+arch darkforest
 x 4
 y 48
 elevation 13780
 end
-arch mountain4
+arch fern_giant
+x 4
+y 48
+end
+arch darkforest
 x 4
 y 49
 elevation 12850
+end
+arch tree3birch1
+x 4
+y 49
 end
 arch tree
 x 5
@@ -1244,7 +1362,7 @@ arch cobblestones
 x 5
 y 8
 end
-arch evergreen
+arch darkforest
 x 5
 y 9
 elevation 1238
@@ -1344,107 +1462,139 @@ x 5
 y 28
 elevation 2894
 end
-arch mountain
+arch darkforest
 x 5
 y 29
 elevation 5328
 end
-arch mountain
+arch darkforest
 x 5
 y 30
 elevation 6167
 end
-arch mountain
+arch darkforest
 x 5
 y 31
 elevation 6023
 end
-arch mountain
+arch tree3fall1
+x 5
+y 31
+end
+arch darkforest
 x 5
 y 32
 elevation 5775
 end
-arch mountain
+arch darkforest
 x 5
 y 33
 elevation 5513
 end
-arch mountain
+arch tree3fall1
+x 5
+y 33
+end
+arch darkforest
 x 5
 y 34
 elevation 5525
 end
-arch mountain
+arch tree3cherry3
+x 5
+y 34
+end
+arch darkforest
 x 5
 y 35
 elevation 6366
 end
-arch mountain
+arch darkforest
 x 5
 y 36
 elevation 7489
 end
-arch mountain
+arch darkforest
 x 5
 y 37
 elevation 8098
 end
-arch mountain
+arch tree3fall1
+x 5
+y 37
+end
+arch darkforest
 x 5
 y 38
 elevation 8673
 end
-arch mountain2
+arch darkforest
 x 5
 y 39
 elevation 9413
 end
-arch mountain2
+arch darkforest
 x 5
 y 40
 elevation 10092
 end
-arch mountain2
+arch tree3fall1
+x 5
+y 40
+end
+arch darkforest
 x 5
 y 41
 elevation 9858
 end
-arch mountain
+arch darkforest
 x 5
 y 42
 elevation 8682
 end
-arch mountain4
+arch darkforest
 x 5
 y 43
 elevation 14545
 end
-arch mountain5
+arch tree3cherry3
+x 5
+y 43
+end
+arch darkforest
 x 5
 y 44
 elevation 17049
 end
-arch mountain5
+arch darkforest
 x 5
 y 45
 elevation 18218
 end
-arch mountain5
+arch darkforest
 x 5
 y 46
 elevation 17373
 end
-arch mountain4
+arch darkforest
 x 5
 y 47
 elevation 15557
 end
-arch mountain4
+arch tree3cherry3
+x 5
+y 47
+end
+arch tree3birch1
+x 5
+y 47
+end
+arch darkforest
 x 5
 y 48
 elevation 13480
 end
-arch mountain2
+arch darkforest
 x 5
 y 49
 elevation 10899
@@ -1492,47 +1642,47 @@ arch cobblestones
 x 6
 y 8
 end
-arch hills
+arch darkforest
 x 6
 y 9
 elevation 1255
 end
-arch tree
+arch darkforest
 x 6
 y 10
 elevation 1626
 end
-arch desert
+arch darkforest
 x 6
 y 11
 elevation 706
 end
-arch brush
+arch darkforest
 x 6
 y 12
 elevation 211
 end
-arch evergreen
+arch darkforest
 x 6
 y 13
 elevation 1761
 end
-arch tree
+arch darkforest
 x 6
 y 14
 elevation 1799
 end
-arch hills
+arch darkforest
 x 6
 y 15
 elevation 1151
 end
-arch brush
+arch darkforest
 x 6
 y 16
 elevation 293
 end
-arch desert
+arch darkforest
 x 6
 y 17
 elevation 43
@@ -1542,12 +1692,12 @@ x 6
 y 18
 elevation 458
 end
-arch desert
+arch darkforest
 x 6
 y 19
 elevation 844
 end
-arch desert
+arch darkforest
 x 6
 y 20
 elevation 926
@@ -1582,117 +1732,149 @@ x 6
 y 26
 elevation 2992
 end
-arch hills
+arch darkforest
 x 6
 y 27
 elevation 3249
 end
-arch hills
+arch darkforest
 x 6
 y 28
 elevation 4828
 end
-arch mountain
+arch darkforest
 x 6
 y 29
 elevation 6268
 end
-arch mountain
+arch darkforest
 x 6
 y 30
 elevation 7229
 end
-arch mountain
+arch darkforest
 x 6
 y 31
 elevation 7407
 end
-arch mountain
+arch darkforest
 x 6
 y 32
 elevation 7074
 end
-arch hills
+arch darkforest
 x 6
 y 33
 elevation 4893
 end
-arch mountain
+arch darkforest
 x 6
 y 34
 elevation 5060
 end
-arch mountain
+arch darkforest
 x 6
 y 35
 elevation 6549
 end
-arch mountain
+arch darkforest
 x 6
 y 36
 elevation 7798
 end
-arch mountain
+arch darkforest
 x 6
 y 37
 elevation 7589
 end
-arch mountain
+arch darkforest
 x 6
 y 38
 elevation 5699
 end
-arch mountain2
+arch tree3cherry3
+x 6
+y 38
+end
+arch darkforest
 x 6
 y 39
 elevation 9630
 end
-arch mountain2
+arch tree3fall1
+x 6
+y 39
+end
+arch darkforest
 x 6
 y 40
 elevation 11814
 end
-arch mountain4
+arch darkforest
 x 6
 y 41
 elevation 13125
 end
-arch mountain4
+arch tree3cherry3
+x 6
+y 41
+end
+arch darkforest
 x 6
 y 42
 elevation 14752
 end
-arch mountain5
+arch blackforest2
 x 6
 y 43
 elevation 16379
 end
-arch mountain5
+arch tree3cherry3
+x 6
+y 43
+end
+arch blackforest2
 x 6
 y 44
 elevation 17875
 end
-arch mountain5
+arch tree6_budding
+x 6
+y 44
+end
+arch blackforest2
 x 6
 y 45
 elevation 18927
 end
-arch mountain5
+arch blackforest2
 x 6
 y 46
 elevation 18148
 end
-arch mountain5
+arch tree3cherry3
+x 6
+y 46
+end
+arch blackforest2
 x 6
 y 47
 elevation 16015
 end
-arch mountain4
+arch tree3cherry3
+x 6
+y 47
+end
+arch darkforest
 x 6
 y 48
 elevation 13197
 end
-arch mountain2
+arch tree3cherry3
+x 6
+y 48
+end
+arch darkforest
 x 6
 y 49
 elevation 10499
@@ -1740,12 +1922,12 @@ arch cobblestones
 x 7
 y 8
 end
-arch tree
+arch darkforest
 x 7
 y 9
 elevation 1289
 end
-arch tree
+arch darkforest
 x 7
 y 10
 elevation 1729
@@ -1755,37 +1937,37 @@ x 7
 y 11
 elevation 1759
 end
-arch tree
+arch darkforest
 x 7
 y 12
 elevation 1881
 end
-arch tree
+arch darkforest
 x 7
 y 13
 elevation 2218
 end
-arch tree
+arch darkforest
 x 7
 y 14
 elevation 2189
 end
-arch tree
+arch darkforest
 x 7
 y 15
 elevation 1441
 end
-arch desert
+arch darkforest
 x 7
 y 16
 elevation 349
 end
-arch desert
+arch darkforest
 x 7
 y 17
 elevation 102
 end
-arch desert
+arch darkforest
 x 7
 y 18
 elevation 367
@@ -1830,117 +2012,129 @@ x 7
 y 26
 elevation 4081
 end
-arch mountain
+arch purplebrick
 x 7
 y 27
 elevation 5168
 end
-arch mountain
+arch purplebrick
 x 7
 y 28
 elevation 5800
 end
-arch mountain
+arch purplebrick
 x 7
 y 29
 elevation 7383
 end
-arch mountain
+arch purplebrick
 x 7
 y 30
 elevation 7898
 end
-arch mountain
+arch purplebrick
 x 7
 y 31
 elevation 8054
 end
-arch mountain
+arch purplebrick
 x 7
 y 32
 elevation 7692
 end
-arch mountain
+arch purplebrick
 x 7
 y 33
 elevation 7324
 end
-arch mountain
+arch purplebrick
 x 7
 y 34
 elevation 7202
 end
-arch mountain
+arch purplebrick
 x 7
 y 35
 elevation 7722
 end
-arch mountain
+arch purplebrick
 x 7
 y 36
 elevation 8149
 end
-arch mountain
+arch purplebrick
 x 7
 y 37
 elevation 6817
 end
-arch mountain
+arch purplebrick
 x 7
 y 38
 elevation 5347
 end
-arch mountain2
+arch darkforest
 x 7
 y 39
 elevation 10190
 end
-arch mountain4
+arch darkforest
 x 7
 y 40
 elevation 13216
 end
-arch mountain4
+arch blackforest2
 x 7
 y 41
 elevation 15647
 end
-arch mountain5
+arch tree3cherry3
+x 7
+y 41
+end
+arch darkforest
 x 7
 y 42
 elevation 17078
 end
-arch mountain5
+arch darkforest
 x 7
 y 43
 elevation 17948
 end
-arch mountain5
+arch darkforest
 x 7
 y 44
 elevation 18173
 end
-arch mountain5
+arch blackforest2
 x 7
 y 45
 elevation 17911
 end
-arch mountain5
+arch tree3cherry3
+x 7
+y 45
+end
+arch blackforest2
 x 7
 y 46
 elevation 17237
 end
-arch mountain4
+arch darkforest
 x 7
 y 47
 elevation 15917
 end
-arch mountain4
+arch darkforest
 x 7
 y 48
 elevation 14514
 end
-arch mountain4
+arch tree3cherry3
+x 7
+y 48
+end
+arch darkforest
 x 7
 y 49
 elevation 13410
@@ -1992,7 +2186,7 @@ arch cobblestones
 x 8
 y 9
 end
-arch evergreen
+arch darkforest
 x 8
 y 10
 elevation 1991
@@ -2027,22 +2221,22 @@ x 8
 y 16
 elevation 1171
 end
-arch desert
+arch darkforest
 x 8
 y 17
 elevation 809
 end
-arch desert
+arch darkforest
 x 8
 y 18
 elevation 831
 end
-arch desert
+arch darkforest
 x 8
 y 19
 elevation 976
 end
-arch desert
+arch darkforest
 x 8
 y 20
 elevation 983
@@ -2077,120 +2271,140 @@ x 8
 y 26
 elevation 4631
 end
-arch mountain
+arch purplebrick
 x 8
 y 27
 elevation 5880
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 28
 elevation 7085
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 29
 elevation 8051
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 30
 elevation 8335
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 31
 elevation 7468
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 32
 elevation 8205
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 33
 elevation 8142
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 34
 elevation 7875
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 35
 elevation 8314
 end
-arch mountain
+arch magentamarblemedium
 x 8
 y 36
 elevation 8809
 end
-arch mountain2
+arch magentamarblemedium
 x 8
 y 37
 elevation 9233
 end
-arch mountain2
+arch purplebrick
 x 8
 y 38
 elevation 10108
 end
-arch mountain2
+arch woods
 x 8
 y 39
 elevation 11910
 end
-arch mountain4
+arch blackforest2
 x 8
 y 40
 elevation 12565
 end
-arch mountain5
+arch darkforest
 x 8
 y 41
 elevation 17857
 end
-arch mountain5
+arch darkforest
 x 8
 y 42
 elevation 18877
 end
-arch mountain5
+arch tree3birch1
+x 8
+y 42
+end
+arch darkforest
 x 8
 y 43
 elevation 17766
 end
-arch mountain5
+arch darkforest
 x 8
 y 44
 elevation 16553
 end
-arch mountain4
+arch tree3cherry3
+x 8
+y 44
+end
+arch blackforest2
 x 8
 y 45
 elevation 15699
 end
-arch mountain4
+arch darkforest
 x 8
 y 46
 elevation 15368
 end
-arch mountain4
+arch woods4
+x 8
+y 46
+end
+arch darkforest
 x 8
 y 47
 elevation 15116
 end
-arch mountain4
+arch darkforest
 x 8
 y 48
 elevation 15034
 end
-arch mountain4
+arch tree3cherry3
+x 8
+y 48
+end
+arch darkforest
 x 8
 y 49
 elevation 14931
+end
+arch tree3birch1
+x 8
+y 49
 end
 arch evergreen
 x 9
@@ -2244,7 +2458,7 @@ arch cobblestones
 x 9
 y 10
 end
-arch hills
+arch darkforest
 x 9
 y 11
 elevation 1987
@@ -2279,22 +2493,22 @@ x 9
 y 17
 elevation 1246
 end
-arch desert
+arch darkforest
 x 9
 y 18
 elevation 801
 end
-arch desert
+arch darkforest
 x 9
 y 19
 elevation 579
 end
-arch desert
+arch darkforest
 x 9
 y 20
 elevation 815
 end
-arch desert
+arch darkforest
 x 9
 y 21
 elevation 494
@@ -2324,117 +2538,137 @@ x 9
 y 26
 elevation 4216
 end
-arch hills
+arch purplebrick
 x 9
 y 27
 elevation 4992
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 28
 elevation 6339
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 29
 elevation 7969
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 30
 elevation 8996
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 31
 elevation 7781
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 32
 elevation 8525
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 33
 elevation 8023
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 34
 elevation 7757
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 35
 elevation 8397
 end
-arch mountain
+arch magentamarblemedium
 x 9
 y 36
 elevation 8906
 end
-arch mountain2
+arch magentamarblemedium
 x 9
 y 37
 elevation 11286
 end
-arch mountain4
+arch purplebrick
 x 9
 y 38
 elevation 13362
 end
-arch mountain4
+arch woods
 x 9
 y 39
 elevation 15321
 end
-arch mountain5
+arch woods
 x 9
 y 40
 elevation 17937
 end
-arch mountain5
+arch blackforest2
 x 9
 y 41
 elevation 19674
 end
-arch mountain5
+arch darkforest
 x 9
 y 42
 elevation 19225
 end
-arch mountain5
+arch blackforest2
 x 9
 y 43
 elevation 16599
 end
-arch mountain2
+arch darkforest
 x 9
 y 44
 elevation 11570
 end
-arch mountain4
+arch tree3cherry3
+x 9
+y 44
+end
+arch blackforest2
 x 9
 y 45
 elevation 13187
 end
-arch mountain4
+arch tree3cherry3
+x 9
+y 45
+end
+arch tree3cherry3
+x 9
+y 45
+end
+arch darkforest
 x 9
 y 46
 elevation 12155
 end
-arch mountain4
+arch tree3cherry3
+x 9
+y 46
+end
+arch darkforest
 x 9
 y 47
 elevation 13094
 end
-arch mountain4
+arch darkforest
 x 9
 y 48
 elevation 15164
 end
-arch mountain4
+arch tree3cherry3
+x 9
+y 48
+end
+arch darkforest
 x 9
 y 49
 elevation 15275
@@ -2496,12 +2730,12 @@ arch cobblestones
 x 10
 y 11
 end
-arch desert
+arch darkforest
 x 10
 y 12
 elevation 143
 end
-arch hills
+arch darkforest
 x 10
 y 13
 elevation 1403
@@ -2511,7 +2745,7 @@ x 10
 y 14
 elevation 1709
 end
-arch hills
+arch darkforest
 x 10
 y 15
 elevation 1652
@@ -2541,7 +2775,7 @@ x 10
 y 20
 elevation 1120
 end
-arch desert
+arch darkforest
 x 10
 y 21
 elevation 258
@@ -2571,120 +2805,140 @@ x 10
 y 26
 elevation 3568
 end
-arch hills
+arch purplebrick
 x 10
 y 27
 elevation 1877
 end
-arch hills
+arch magentamarblemedium
 x 10
 y 28
 elevation 2520
 end
-arch mountain
+arch magentamarblemedium
 x 10
 y 29
 elevation 7893
 end
-arch mountain2
+arch magentamarblemedium
 x 10
 y 30
 elevation 9699
 end
-arch mountain2
+arch magentamarblemedium
 x 10
 y 31
 elevation 9974
 end
-arch mountain
+arch magentamarblemedium
 x 10
 y 32
 elevation 8981
 end
-arch mountain
+arch magentamarblemedium
 x 10
 y 33
 elevation 5576
 end
-arch mountain
+arch magentamarblemedium
 x 10
 y 34
 elevation 6705
 end
-arch mountain
+arch magentamarblemedium
 x 10
 y 35
 elevation 8134
 end
-arch mountain2
+arch magentamarblemedium
 x 10
 y 36
 elevation 9771
 end
-arch mountain4
+arch magentamarblemedium
 x 10
 y 37
 elevation 12154
 end
-arch mountain4
+arch purplebrick
 x 10
 y 38
 elevation 14977
 end
-arch mountain5
+arch woods
 x 10
 y 39
 elevation 17432
 end
-arch mountain5
+arch woods
 x 10
 y 40
 elevation 19595
 end
-arch mountain5
+arch woods
 x 10
 y 41
 elevation 20278
 end
-arch mountain5
+arch darkforest
 x 10
 y 42
 elevation 18408
 end
-arch mountain4
+arch blackforest2
 x 10
 y 43
 elevation 13798
 end
-arch mountain4
+arch blackforest2
 x 10
 y 44
 elevation 12383
 end
-arch mountain4
+arch tree3cherry3
+x 10
+y 44
+end
+arch blackforest2
 x 10
 y 45
 elevation 13875
 end
-arch mountain4
+arch tree3cherry3
+x 10
+y 45
+end
+arch darkforest
 x 10
 y 46
 elevation 14604
 end
-arch mountain4
+arch tree3cherry3
+x 10
+y 46
+end
+arch darkforest
 x 10
 y 47
 elevation 14243
 end
-arch mountain4
+arch darkforest
 x 10
 y 48
 elevation 14924
 end
-arch mountain4
+arch tree3cherry3
+x 10
+y 48
+end
+arch darkforest
 x 10
 y 49
 elevation 15051
+end
+arch tree3cherry3
+x 10
+y 49
 end
 arch grass
 x 11
@@ -2748,7 +3002,7 @@ arch cobblestones
 x 11
 y 12
 end
-arch desert
+arch grassmedium
 x 11
 y 13
 elevation 340
@@ -2763,37 +3017,37 @@ x 11
 y 15
 elevation 1028
 end
-arch hills
+arch grassmedium
 x 11
 y 16
 elevation 1155
 end
-arch desert
+arch grassmedium
 x 11
 y 17
 elevation 966
 end
-arch hills
+arch grassmedium
 x 11
 y 18
 elevation 1773
 end
-arch hills
+arch grassmedium
 x 11
 y 19
 elevation 1927
 end
-arch hills
+arch grassmedium
 x 11
 y 20
 elevation 1620
 end
-arch hills
+arch grassmedium
 x 11
 y 21
 elevation 1137
 end
-arch desert
+arch grassmedium
 x 11
 y 22
 elevation 938
@@ -2818,117 +3072,137 @@ x 11
 y 26
 elevation 3034
 end
-arch hills
+arch purplebrick
 x 11
 y 27
 elevation 3545
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 28
 elevation 5206
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 29
 elevation 7703
 end
-arch mountain2
+arch magentamarblemedium
 x 11
 y 30
 elevation 9584
 end
-arch mountain2
+arch magentamarblemedium
 x 11
 y 31
 elevation 9917
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 32
 elevation 8996
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 33
 elevation 8054
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 34
 elevation 7582
 end
-arch mountain
+arch magentamarblemedium
 x 11
 y 35
 elevation 7584
 end
-arch mountain2
+arch magentamarblemedium
 x 11
 y 36
 elevation 9062
 end
-arch mountain2
+arch magentamarblemedium
 x 11
 y 37
 elevation 11284
 end
-arch mountain4
+arch purplebrick
 x 11
 y 38
 elevation 14211
 end
-arch mountain5
+arch woods
 x 11
 y 39
 elevation 17166
 end
-arch mountain5
+arch woods
 x 11
 y 40
 elevation 19036
 end
-arch mountain5
+arch woods
 x 11
 y 41
 elevation 18981
 end
-arch mountain5
+arch darkforest
 x 11
 y 42
 elevation 17627
 end
-arch mountain4
+arch blackforest2
 x 11
 y 43
 elevation 13597
 end
-arch mountain4
+arch blackforest2
 x 11
 y 44
 elevation 15591
 end
-arch mountain5
+arch tree3cherry3
+x 11
+y 44
+end
+arch blackforest2
 x 11
 y 45
 elevation 16078
 end
-arch mountain4
+arch tree3cherry3
+x 11
+y 45
+end
+arch darkforest
 x 11
 y 46
 elevation 15952
 end
-arch mountain4
+arch tree3cherry3
+x 11
+y 46
+end
+arch darkforest
 x 11
 y 47
 elevation 15291
 end
-arch mountain4
+arch tree3cherry3
+x 11
+y 47
+end
+arch darkforest
 x 11
 y 48
 elevation 13986
 end
-arch mountain4
+arch tree3cherry3
+x 11
+y 48
+end
+arch darkforest
 x 11
 y 49
 elevation 13987
@@ -2982,12 +3256,12 @@ x 12
 y 9
 elevation 1079
 end
-arch desert
+arch darkforest
 x 12
 y 10
 elevation 819
 end
-arch desert
+arch darkforest
 x 12
 y 11
 elevation 778
@@ -3000,47 +3274,55 @@ arch cobblestones
 x 12
 y 13
 end
-arch desert
+arch grassmedium
 x 12
 y 14
 elevation 641
 end
-arch desert
+arch grassmedium
 x 12
 y 15
 elevation 912
 end
-arch desert
+arch grassmedium
 x 12
 y 16
 elevation 749
 end
-arch hills
+arch grassdark
 x 12
 y 17
 elevation 1368
 end
-arch hills
+arch tree3cherry2
+x 12
+y 17
+end
+arch grassdark
 x 12
 y 18
 elevation 1768
 end
-arch hills
+arch grassdark
 x 12
 y 19
 elevation 1905
 end
-arch hills
+arch grassdark
 x 12
 y 20
 elevation 1678
 end
-arch hills
+arch grassdark
 x 12
 y 21
 elevation 1412
 end
-arch hills
+arch tree3cherry2
+x 12
+y 21
+end
+arch grassdark
 x 12
 y 22
 elevation 1573
@@ -3065,117 +3347,125 @@ x 12
 y 26
 elevation 2900
 end
-arch hills
+arch purplebrick
 x 12
 y 27
 elevation 2446
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 28
 elevation 5589
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 29
 elevation 6920
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 30
 elevation 7799
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 31
 elevation 8265
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 32
 elevation 8367
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 33
 elevation 8056
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 34
 elevation 7898
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 35
 elevation 7694
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 36
 elevation 7860
 end
-arch mountain
+arch magentamarblemedium
 x 12
 y 37
 elevation 8232
 end
-arch mountain2
+arch purplebrick
 x 12
 y 38
 elevation 10876
 end
-arch mountain4
+arch woods
 x 12
 y 39
 elevation 15095
 end
-arch mountain5
+arch woods
 x 12
 y 40
 elevation 16890
 end
-arch mountain5
+arch blackforest2
 x 12
 y 41
 elevation 17255
 end
-arch mountain5
+arch blackforest2
 x 12
 y 42
 elevation 16861
 end
-arch mountain5
+arch blackforest2
 x 12
 y 43
 elevation 16716
 end
-arch mountain5
+arch tree3birch1
+x 12
+y 43
+end
+arch blackforest2
 x 12
 y 44
 elevation 17488
 end
-arch mountain5
+arch blackforest2
 x 12
 y 45
 elevation 17506
 end
-arch mountain5
+arch darkforest
 x 12
 y 46
 elevation 16493
 end
-arch mountain4
+arch darkforest
 x 12
 y 47
 elevation 14657
 end
-arch mountain4
+arch tree3cherry3
+x 12
+y 47
+end
+arch darkforest
 x 12
 y 48
 elevation 13239
 end
-arch mountain2
+arch darkforest
 x 12
 y 49
 elevation 10789
@@ -3199,17 +3489,17 @@ x 13
 y 3
 elevation 200
 end
-arch desert
+arch darkforest
 x 13
 y 4
 elevation 783
 end
-arch hills
+arch darkforest
 x 13
 y 5
 elevation 1206
 end
-arch evergreen
+arch darkforest
 x 13
 y 6
 elevation 1483
@@ -3219,12 +3509,12 @@ x 13
 y 7
 elevation 1313
 end
-arch desert
+arch darkforest
 x 13
 y 8
 elevation 704
 end
-arch desert
+arch darkforest
 x 13
 y 9
 elevation 595
@@ -3234,12 +3524,16 @@ x 13
 y 10
 elevation 541
 end
+arch tree3cherry3
+x 13
+y 10
+end
 arch grass
 x 13
 y 11
 elevation 686
 end
-arch desert
+arch darkforest
 x 13
 y 12
 elevation 467
@@ -3252,42 +3546,46 @@ arch cobblestones
 x 13
 y 14
 end
-arch desert
+arch grassdark
 x 13
 y 15
 elevation 821
 end
-arch desert
+arch grassdark
 x 13
 y 16
 elevation 967
 end
-arch hills
+arch grassdark
 x 13
 y 17
 elevation 1161
 end
-arch hills
+arch grassdark
 x 13
 y 18
 elevation 1389
 end
-arch hills
+arch tree3cherry2
+x 13
+y 18
+end
+arch grassdark
 x 13
 y 19
 elevation 1320
 end
-arch desert
+arch grassdark
 x 13
 y 20
 elevation 787
 end
-arch desert
+arch grassmedium
 x 13
 y 21
 elevation 791
 end
-arch hills
+arch grassdark
 x 13
 y 22
 elevation 1340
@@ -3312,117 +3610,117 @@ x 13
 y 26
 elevation 4042
 end
-arch hills
+arch purplebrick
 x 13
 y 27
 elevation 4368
 end
-arch hills
+arch magentamarblemedium
 x 13
 y 28
 elevation 4477
 end
-arch hills
+arch magentamarblemedium
 x 13
 y 29
 elevation 4556
 end
-arch hills
+arch magentamarblemedium
 x 13
 y 30
 elevation 3961
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 31
 elevation 5620
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 32
 elevation 6982
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 33
 elevation 7674
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 34
 elevation 7461
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 35
 elevation 6772
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 36
 elevation 6271
 end
-arch mountain
+arch magentamarblemedium
 x 13
 y 37
 elevation 5506
 end
-arch mountain2
+arch purplebrick
 x 13
 y 38
 elevation 9631
 end
-arch mountain4
+arch woods
 x 13
 y 39
 elevation 12163
 end
-arch mountain4
+arch woods
 x 13
 y 40
 elevation 13664
 end
-arch mountain4
+arch blackforest2
 x 13
 y 41
 elevation 14634
 end
-arch mountain4
+arch blackforest2
 x 13
 y 42
 elevation 15359
 end
-arch mountain5
+arch blackforest2
 x 13
 y 43
 elevation 17143
 end
-arch mountain5
+arch blackforest2
 x 13
 y 44
 elevation 18397
 end
-arch mountain5
+arch blackforest2
 x 13
 y 45
 elevation 17842
 end
-arch mountain4
+arch darkforest
 x 13
 y 46
 elevation 15464
 end
-arch mountain4
+arch darkforest
 x 13
 y 47
 elevation 13226
 end
-arch mountain2
+arch darkforest
 x 13
 y 48
 elevation 11370
 end
-arch mountain2
+arch darkforest
 x 13
 y 49
 elevation 10503
@@ -3446,17 +3744,17 @@ x 14
 y 3
 elevation 155
 end
-arch desert
+arch darkforest
 x 14
 y 4
 elevation 891
 end
-arch evergreen
+arch darkforest
 x 14
 y 5
 elevation 1463
 end
-arch hills
+arch darkforest
 x 14
 y 6
 elevation 1684
@@ -3481,15 +3779,23 @@ x 14
 y 10
 elevation 683
 end
-arch desert
+arch darkforest
 x 14
 y 11
 elevation 670
+end
+arch tree3cherry3
+x 14
+y 11
 end
 arch grass
 x 14
 y 12
 elevation 604
+end
+arch tree3cherry2
+x 14
+y 12
 end
 arch grass
 x 14
@@ -3504,40 +3810,48 @@ arch cobblestones
 x 14
 y 15
 end
-arch desert
+arch grassdark
 x 14
 y 16
 elevation 911
 end
-arch desert
+arch grassmedium
 x 14
 y 17
 elevation 639
 end
-arch desert
+arch grassmedium
 x 14
 y 18
 elevation 504
 end
-arch desert
+arch grassmedium
 x 14
 y 19
 elevation 743
 end
-arch desert
+arch tree3cherry2
+x 14
+y 19
+end
+arch grassmedium
 x 14
 y 20
 elevation 37
 end
-arch desert
+arch grassmedium
 x 14
 y 21
 elevation 81
 end
-arch desert
+arch grassdark
 x 14
 y 22
 elevation 362
+end
+arch tree3cherry2
+x 14
+y 22
 end
 arch hills
 x 14
@@ -3559,117 +3873,125 @@ x 14
 y 26
 elevation 4162
 end
-arch hills
+arch purplebrick
 x 14
 y 27
 elevation 3598
 end
-arch hills
+arch magentamarblemedium
 x 14
 y 28
 elevation 2661
 end
-arch desert
+arch magentamarblemedium
 x 14
 y 29
 elevation 478
 end
-arch hills
+arch magentamarblemedium
 x 14
 y 30
 elevation 1040
 end
-arch hills
+arch magentamarblemedium
 x 14
 y 31
 elevation 4157
 end
-arch mountain
+arch magentamarblemedium
 x 14
 y 32
 elevation 5708
 end
-arch mountain
+arch magentamarblemedium
 x 14
 y 33
 elevation 6542
 end
-arch mountain
+arch magentamarblemedium
 x 14
 y 34
 elevation 6499
 end
-arch mountain
+arch magentamarblemedium
 x 14
 y 35
 elevation 5063
 end
-arch hills
+arch magentamarblemedium
 x 14
 y 36
 elevation 3619
 end
-arch hills
+arch magentamarblemedium
 x 14
 y 37
 elevation 4990
 end
-arch mountain
+arch purplebrick
 x 14
 y 38
 elevation 7783
 end
-arch mountain2
+arch woods
 x 14
 y 39
 elevation 9128
 end
-arch mountain2
+arch blackforest2
 x 14
 y 40
 elevation 9797
 end
-arch mountain2
+arch woods
 x 14
 y 41
 elevation 11085
 end
-arch mountain4
+arch blackforest2
 x 14
 y 42
 elevation 13146
 end
-arch mountain4
+arch blackforest2
 x 14
 y 43
 elevation 15410
 end
-arch mountain5
+arch blackforest2
 x 14
 y 44
 elevation 16934
 end
-arch mountain5
+arch blackforest2
 x 14
 y 45
 elevation 16073
 end
-arch mountain4
+arch tree3birch1
+x 14
+y 45
+end
+arch darkforest
 x 14
 y 46
 elevation 13104
 end
-arch mountain
+arch darkforest
 x 14
 y 47
 elevation 8700
 end
-arch mountain2
+arch darkforest
 x 14
 y 48
 elevation 9418
 end
-arch mountain
+arch tree3birch1
+x 14
+y 48
+end
+arch darkforest
 x 14
 y 49
 elevation 8196
@@ -3693,17 +4015,17 @@ x 15
 y 3
 elevation 212
 end
-arch evergreen
+arch darkforest
 x 15
 y 4
 elevation 1092
 end
-arch hills
+arch darkforest
 x 15
 y 5
 elevation 1652
 end
-arch evergreen
+arch darkforest
 x 15
 y 6
 elevation 1786
@@ -3728,7 +4050,7 @@ x 15
 y 10
 elevation 456
 end
-arch desert
+arch darkforest
 x 15
 y 11
 elevation 581
@@ -3738,12 +4060,20 @@ x 15
 y 12
 elevation 744
 end
-arch desert
+arch tree3cherry3
+x 15
+y 12
+end
+arch darkforest
 x 15
 y 13
 elevation 628
 end
-arch desert
+arch tree3cherry2
+x 15
+y 13
+end
+arch grassdark
 x 15
 y 14
 elevation 577
@@ -3756,27 +4086,31 @@ arch cobblestones
 x 15
 y 16
 end
-arch desert
+arch grassmedium
 x 15
 y 17
 elevation 697
 end
-arch desert
+arch grassmedium
 x 15
 y 18
 elevation 598
 end
-arch desert
+arch grassmedium
 x 15
 y 19
 elevation 440
 end
-arch desert
+arch grassmedium
 x 15
 y 20
 elevation 95
 end
-arch desert
+arch tree3cherry2
+x 15
+y 20
+end
+arch grassmedium
 x 15
 y 21
 elevation 142
@@ -3796,6 +4130,10 @@ x 15
 y 24
 elevation 3668
 end
+arch tree3cherry2
+x 15
+y 24
+end
 arch hills
 x 15
 y 25
@@ -3806,67 +4144,67 @@ x 15
 y 26
 elevation 3449
 end
-arch desert
+arch purplebrick
 x 15
 y 27
 elevation 482
 end
-arch desert
+arch magentamarblemedium
 x 15
 y 28
 elevation 167
 end
-arch desert
+arch magentamarblemedium
 x 15
 y 29
 elevation 576
 end
-arch hills
+arch magentamarblemedium
 x 15
 y 30
 elevation 1759
 end
-arch hills
+arch magentamarblemedium
 x 15
 y 31
 elevation 3338
 end
-arch hills
+arch magentamarblemedium
 x 15
 y 32
 elevation 3957
 end
-arch mountain
+arch magentamarblemedium
 x 15
 y 33
 elevation 5026
 end
-arch mountain
+arch magentamarblemedium
 x 15
 y 34
 elevation 5156
 end
-arch hills
+arch magentamarblemedium
 x 15
 y 35
 elevation 4625
 end
-arch hills
+arch magentamarblemedium
 x 15
 y 36
 elevation 3856
 end
-arch mountain
+arch magentamarblemedium
 x 15
 y 37
 elevation 5018
 end
-arch mountain
+arch purplebrick
 x 15
 y 38
 elevation 6890
 end
-arch mountain
+arch woods
 x 15
 y 39
 elevation 6009
@@ -3876,47 +4214,59 @@ x 15
 y 40
 elevation 4648
 end
-arch mountain
+arch woods
 x 15
 y 41
 elevation 7242
 end
-arch mountain2
+arch blackforest2
 x 15
 y 42
 elevation 9572
 end
-arch mountain2
+arch woods5
+x 15
+y 42
+end
+arch blackforest2
 x 15
 y 43
 elevation 11633
 end
-arch mountain4
+arch blackforest2
 x 15
 y 44
 elevation 12938
 end
-arch mountain4
+arch blackforest2
 x 15
 y 45
 elevation 12027
 end
-arch mountain2
+arch darkforest
 x 15
 y 46
 elevation 9239
 end
-arch mountain
+arch tree3birch1
+x 15
+y 46
+end
+arch darkforest
 x 15
 y 47
 elevation 6829
 end
-arch mountain
+arch woods5
+x 15
+y 47
+end
+arch darkforest
 x 15
 y 48
 elevation 6757
 end
-arch mountain
+arch darkforest
 x 15
 y 49
 elevation 8059
@@ -3940,7 +4290,7 @@ x 16
 y 3
 elevation 773
 end
-arch hills
+arch darkforest
 x 16
 y 4
 elevation 1367
@@ -3950,7 +4300,7 @@ x 16
 y 5
 elevation 1734
 end
-arch hills
+arch darkforest
 x 16
 y 6
 elevation 1687
@@ -3960,20 +4310,24 @@ x 16
 y 7
 elevation 1317
 end
-arch grass
+arch darkforest
 x 16
 y 8
 elevation 528
 end
-arch desert
+arch darkforest
 x 16
 y 9
 elevation 517
 end
-arch desert
+arch darkforest
 x 16
 y 10
 elevation 137
+end
+arch tree3cherry3
+x 16
+y 10
 end
 arch grass
 x 16
@@ -3990,12 +4344,20 @@ x 16
 y 13
 elevation 530
 end
-arch desert
+arch tree3cherry3
+x 16
+y 13
+end
+arch grassdark
 x 16
 y 14
 elevation 223
 end
-arch desert
+arch tree3cherry2
+x 16
+y 14
+end
+arch grassdark
 x 16
 y 15
 elevation 372
@@ -4008,22 +4370,22 @@ arch cobblestones
 x 16
 y 17
 end
-arch desert
+arch grassmedium
 x 16
 y 18
 elevation 490
 end
-arch desert
+arch grassmedium
 x 16
 y 19
 elevation 371
 end
-arch desert
+arch grassmedium
 x 16
 y 20
 elevation 265
 end
-arch desert
+arch grassmedium
 x 16
 y 21
 elevation 671
@@ -4053,117 +4415,133 @@ x 16
 y 26
 elevation 2350
 end
-arch desert
+arch purplebrick
 x 16
 y 27
 elevation 356
 end
-arch desert
+arch magentamarblemedium
 x 16
 y 28
 elevation 370
 end
-arch desert
+arch magentamarblemedium
 x 16
 y 29
 elevation 899
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 30
 elevation 2547
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 31
 elevation 3343
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 32
 elevation 2537
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 33
 elevation 3931
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 34
 elevation 3020
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 35
 elevation 3930
 end
-arch hills
+arch magentamarblemedium
 x 16
 y 36
 elevation 4571
 end
-arch mountain
+arch magentamarblemedium
 x 16
 y 37
 elevation 5810
 end
-arch mountain
+arch purplebrick
 x 16
 y 38
 elevation 6808
 end
-arch mountain
+arch woods
 x 16
 y 39
 elevation 7061
 end
-arch mountain
+arch blackforest2
 x 16
 y 40
 elevation 6969
 end
-arch mountain
+arch woods5
+x 16
+y 40
+end
+arch blackforest2
 x 16
 y 41
 elevation 6113
 end
-arch mountain
+arch woods5
+x 16
+y 41
+end
+arch woods
 x 16
 y 42
 elevation 5007
 end
-arch mountain
+arch blackforest2
 x 16
 y 43
 elevation 5778
 end
-arch mountain
+arch woods5
+x 16
+y 43
+end
+arch blackforest2
 x 16
 y 44
 elevation 8331
 end
-arch mountain
+arch woods5
+x 16
+y 44
+end
+arch blackforest2
 x 16
 y 45
 elevation 7628
 end
-arch hills
+arch blackforest2
 x 16
 y 46
 elevation 3314
 end
-arch hills_rocky
+arch darkforest
 x 16
 y 47
 elevation 2023
 end
-arch steppe
+arch darkforest
 x 16
 y 48
 elevation 3531
 end
-arch mountain
+arch darkforest
 x 16
 y 49
 elevation 6083
@@ -4197,27 +4575,27 @@ x 17
 y 5
 elevation 1649
 end
-arch woods
+arch darkforest
 x 17
 y 6
 elevation 1409
 end
-arch evergreen
+arch darkforest
 x 17
 y 7
 elevation 1016
 end
-arch desert
+arch darkforest
 x 17
 y 8
 elevation 594
 end
-arch desert
+arch darkforest
 x 17
 y 9
 elevation 260
 end
-arch desert
+arch darkforest
 x 17
 y 10
 elevation 354
@@ -4232,22 +4610,34 @@ x 17
 y 12
 elevation 1184
 end
+arch tree3cherry3
+x 17
+y 12
+end
 arch grass
 x 17
 y 13
 elevation 917
 end
-arch desert
+arch grassdark
 x 17
 y 14
 elevation 701
 end
-arch desert
+arch tree3cherry3
+x 17
+y 14
+end
+arch grassdark
 x 17
 y 15
 elevation 590
 end
-arch desert
+arch tree3cherry3
+x 17
+y 15
+end
+arch grassdark
 x 17
 y 16
 elevation 307
@@ -4260,20 +4650,24 @@ arch cobblestones
 x 17
 y 18
 end
-arch desert
+arch grassmedium
 x 17
 y 19
 elevation 799
 end
-arch desert
+arch grassmedium
 x 17
 y 20
 elevation 985
 end
-arch hills
+arch grassmedium
 x 17
 y 21
 elevation 1169
+end
+arch tree3cherry2
+x 17
+y 21
 end
 arch hills
 x 17
@@ -4300,95 +4694,119 @@ x 17
 y 26
 elevation 1329
 end
-arch desert
+arch purplebrick
 x 17
 y 27
 elevation 221
 end
-arch hills
+arch purplebrick
 x 17
 y 28
 elevation 1232
 end
-arch hills
+arch purplebrick
 x 17
 y 29
 elevation 2014
 end
-arch hills
+arch purplebrick
 x 17
 y 30
 elevation 2928
 end
-arch hills
+arch purplebrick
 x 17
 y 31
 elevation 3562
 end
-arch hills
+arch purplebrick
 x 17
 y 32
 elevation 3709
 end
-arch hills
+arch magentamarblemedium
 x 17
 y 33
 elevation 3320
 end
-arch hills
+arch door_look_2
+x 17
+y 33
+end
+arch purplebrick
 x 17
 y 34
 elevation 2982
 end
-arch hills
+arch purplebrick
 x 17
 y 35
 elevation 2374
 end
-arch hills
+arch purplebrick
 x 17
 y 36
 elevation 3912
 end
-arch mountain
+arch purplebrick
 x 17
 y 37
 elevation 5423
 end
-arch mountain
+arch purplebrick
 x 17
 y 38
 elevation 6777
 end
-arch mountain
+arch woods
 x 17
 y 39
 elevation 7614
 end
-arch mountain
+arch blackforest2
 x 17
 y 40
 elevation 7689
 end
-arch mountain
+arch woods5
+x 17
+y 40
+end
+arch blackforest2
 x 17
 y 41
 elevation 7318
 end
-arch mountain
+arch tree3birch1
+x 17
+y 41
+end
+arch blackforest2
 x 17
 y 42
 elevation 6252
 end
-arch hills
+arch woods5
+x 17
+y 42
+end
+arch blackforest2
 x 17
 y 43
 elevation 3932
 end
-arch mountain
+arch woods5
+x 17
+y 43
+end
+arch blackforest2
 x 17
 y 44
 elevation 5079
+end
+arch woods5
+x 17
+y 44
 end
 arch hills
 x 17
@@ -4405,12 +4823,12 @@ x 17
 y 47
 elevation 855
 end
-arch brush
+arch darkforest
 x 17
 y 48
 elevation 163
 end
-arch hills
+arch darkforest
 x 17
 y 49
 elevation 3607
@@ -4424,7 +4842,7 @@ x 18
 y 1
 elevation 514
 end
-arch desert
+arch darkforest
 x 18
 y 2
 elevation 429
@@ -4444,37 +4862,41 @@ x 18
 y 5
 elevation 1427
 end
-arch evergreen
+arch darkforest
 x 18
 y 6
 elevation 1115
 end
-arch grass
+arch darkforest
 x 18
 y 7
 elevation 251
 end
-arch desert
+arch darkforest
 x 18
 y 8
 elevation 390
 end
-arch grass
+arch darkforest
 x 18
 y 9
 elevation 173
 end
-arch desert
+arch tree3cherry3
+x 18
+y 9
+end
+arch darkforest
 x 18
 y 10
 elevation 733
 end
-arch evergreen
+arch darkforest
 x 18
 y 11
 elevation 1149
 end
-arch evergreen
+arch darkforest
 x 18
 y 12
 elevation 1199
@@ -4484,22 +4906,26 @@ x 18
 y 13
 elevation 603
 end
-arch desert
+arch grassdark
 x 18
 y 14
 elevation 882
 end
-arch desert
+arch tree3cherry3
+x 18
+y 14
+end
+arch grassdark
 x 18
 y 15
 elevation 761
 end
-arch desert
+arch grassdark
 x 18
 y 16
 elevation 393
 end
-arch desert
+arch blacklostlabfloor8
 x 18
 y 17
 elevation 444
@@ -4522,27 +4948,27 @@ x 18
 y 21
 elevation 1206
 end
-arch desert
+arch cyanbrush
 x 18
 y 22
 elevation 300
 end
-arch desert
+arch cyanbrush
 x 18
 y 23
 elevation 543
 end
-arch desert
+arch cyanbrush
 x 18
 y 24
 elevation 101
 end
-arch desert
+arch cyanbrush
 x 18
 y 25
 elevation 89
 end
-arch desert
+arch cyanbrush
 x 18
 y 26
 elevation 153
@@ -4577,55 +5003,67 @@ x 18
 y 32
 elevation 3955
 end
-arch hills
+arch blacklostlabfloor8
 x 18
 y 33
 elevation 2753
 end
-arch hills
+arch darkforest
 x 18
 y 34
 elevation 2225
 end
-arch hills
+arch darkforest
 x 18
 y 35
 elevation 1641
 end
-arch hills_rocky
+arch darkforest
 x 18
 y 36
 elevation 1936
 end
-arch hills
+arch darkforest
 x 18
 y 37
 elevation 4033
 end
-arch mountain
+arch darkforest
 x 18
 y 38
 elevation 6210
 end
-arch mountain
+arch woods5
+x 18
+y 38
+end
+arch woods
 x 18
 y 39
 elevation 6643
 end
-arch mountain
+arch blackforest2
 x 18
 y 40
 elevation 8155
 end
-arch mountain
+arch blackforest2
 x 18
 y 41
 elevation 8445
 end
-arch mountain
+arch woods5
+x 18
+y 41
+end
+arch blackforest2
 x 18
 y 42
 elevation 7172
+end
+arch woods5
+x 18
+y 42
 end
 arch hills
 x 18
@@ -4652,12 +5090,12 @@ x 18
 y 47
 elevation 875
 end
-arch hills
+arch darkforest
 x 18
 y 48
 elevation 3103
 end
-arch hills
+arch darkforest
 x 18
 y 49
 elevation 4892
@@ -4671,7 +5109,7 @@ x 19
 y 1
 elevation 1217
 end
-arch hills_rocky
+arch darkforest
 x 19
 y 2
 elevation 1387
@@ -4691,37 +5129,45 @@ x 19
 y 5
 elevation 1275
 end
-arch desert
+arch darkforest
 x 19
 y 6
 elevation 840
 end
-arch grass
+arch darkforest
 x 19
 y 7
 elevation 198
 end
-arch desert
+arch tree3cherry3
+x 19
+y 7
+end
+arch darkforest
 x 19
 y 8
 elevation 188
 end
-arch grass
+arch darkforest
 x 19
 y 9
 elevation 221
 end
-arch desert
+arch darkforest
 x 19
 y 10
 elevation 550
 end
-arch desert
+arch darkforest
 x 19
 y 11
 elevation 976
 end
-arch desert
+arch tree3cherry3
+x 19
+y 11
+end
+arch darkforest
 x 19
 y 12
 elevation 911
@@ -4731,27 +5177,31 @@ x 19
 y 13
 elevation 787
 end
-arch desert
+arch grassdark
 x 19
 y 14
 elevation 765
 end
-arch desert
+arch grassdark
 x 19
 y 15
 elevation 807
 end
-arch desert
+arch tree3cherry3
+x 19
+y 15
+end
+arch grassdark
 x 19
 y 16
 elevation 612
 end
-arch desert
+arch blacklostlabfloor8
 x 19
 y 17
 elevation 109
 end
-arch desert
+arch blacklostlabfloor8
 x 19
 y 18
 elevation 130
@@ -4769,27 +5219,27 @@ x 19
 y 21
 elevation 1182
 end
-arch desert
+arch cyanbrush
 x 19
 y 22
 elevation 659
 end
-arch desert
+arch cyanbrush
 x 19
 y 23
 elevation 310
 end
-arch desert
+arch cyanbrush
 x 19
 y 24
 elevation 224
 end
-arch desert
+arch cyanbrush
 x 19
 y 25
 elevation 158
 end
-arch desert
+arch cyanbrush
 x 19
 y 26
 elevation 904
@@ -4814,6 +5264,10 @@ x 19
 y 30
 elevation 1425
 end
+arch fern_giant
+x 19
+y 30
+end
 arch hills
 x 19
 y 31
@@ -4824,12 +5278,12 @@ x 19
 y 32
 elevation 4410
 end
-arch hills
+arch blacklostlabfloor8
 x 19
 y 33
 elevation 4289
 end
-arch hills
+arch darkforest
 x 19
 y 34
 elevation 3709
@@ -4849,35 +5303,55 @@ x 19
 y 37
 elevation 4006
 end
-arch mountain
+arch darkforest
 x 19
 y 38
 elevation 6244
 end
-arch mountain
+arch woods5
+x 19
+y 38
+end
+arch woods
 x 19
 y 39
 elevation 6213
 end
-arch mountain
+arch blackforest2
 x 19
 y 40
 elevation 8825
 end
-arch mountain2
+arch woods5
+x 19
+y 40
+end
+arch blackforest2
 x 19
 y 41
 elevation 9071
 end
-arch mountain
+arch tree3birch1
+x 19
+y 41
+end
+arch blackforest2
 x 19
 y 42
 elevation 7825
 end
-arch mountain
+arch woods5
+x 19
+y 42
+end
+arch blackforest2
 x 19
 y 43
 elevation 5825
+end
+arch tree3birch1
+x 19
+y 43
 end
 arch hills
 x 19
@@ -4899,12 +5373,12 @@ x 19
 y 47
 elevation 1586
 end
-arch hills
+arch darkforest
 x 19
 y 48
 elevation 4755
 end
-arch mountain
+arch darkforest
 x 19
 y 49
 elevation 6671
@@ -4918,92 +5392,96 @@ x 20
 y 1
 elevation 1556
 end
-arch evergreen
+arch darkforest
 x 20
 y 2
 elevation 1810
 end
-arch tree
+arch darkforest
 x 20
 y 3
 elevation 1727
 end
-arch hills
+arch darkforest
 x 20
 y 4
 elevation 1520
 end
-arch hills
+arch darkforest
 x 20
 y 5
 elevation 1165
 end
-arch grass
+arch darkforest
 x 20
 y 6
 elevation 688
 end
-arch desert
+arch darkforest
 x 20
 y 7
 elevation 59
 end
-arch desert
+arch darkforest
 x 20
 y 8
 elevation 168
 end
-arch desert
+arch darkforest
 x 20
 y 9
 elevation 501
 end
-arch grass
+arch darkforest
 x 20
 y 10
 elevation 691
 end
-arch desert
+arch darkforest
 x 20
 y 11
 elevation 735
 end
-arch desert
+arch darkforest
 x 20
 y 12
 elevation 619
 end
-arch desert
+arch darkforest
 x 20
 y 13
 elevation 41
 end
-arch desert
+arch grassdark
 x 20
 y 14
 elevation 577
 end
-arch desert
+arch tree3cherry3
+x 20
+y 14
+end
+arch grassdark
 x 20
 y 15
 elevation 765
 end
-arch desert
+arch grassdark
 x 20
 y 16
 elevation 803
 end
-arch desert
+arch blacklostlabfloor8
 x 20
 y 17
 elevation 480
 end
-arch desert
+arch blacklostlabfloor8
 x 20
 y 18
 elevation 67
 end
-arch desert
+arch cyanbrush
 x 20
 y 19
 elevation 51
@@ -5021,17 +5499,17 @@ x 20
 y 22
 elevation 1304
 end
-arch desert
+arch cyanbrush
 x 20
 y 23
 elevation 982
 end
-arch desert
+arch cyanbrush
 x 20
 y 24
 elevation 541
 end
-arch desert
+arch cyanbrush
 x 20
 y 25
 elevation 300
@@ -5061,17 +5539,25 @@ x 20
 y 30
 elevation 3127
 end
-arch hills
+arch darkforest
 x 20
 y 31
 elevation 4415
 end
-arch mountain
+arch tree3fall1
+x 20
+y 31
+end
+arch darkforest
 x 20
 y 32
 elevation 5210
 end
-arch mountain
+arch tree3fall1
+x 20
+y 32
+end
+arch blacklostlabfloor8
 x 20
 y 33
 elevation 5216
@@ -5086,45 +5572,65 @@ x 20
 y 35
 elevation 3909
 end
+arch tree3fall1
+x 20
+y 35
+end
 arch hills
 x 20
 y 36
 elevation 3094
 end
-arch hills
+arch darkforest
 x 20
 y 37
 elevation 4809
 end
-arch mountain
+arch woods5
+x 20
+y 37
+end
+arch darkforest
 x 20
 y 38
 elevation 7185
 end
-arch mountain
+arch woods5
+x 20
+y 38
+end
+arch woods
 x 20
 y 39
 elevation 8848
 end
-arch mountain2
+arch blackforest2
 x 20
 y 40
 elevation 9524
 end
-arch mountain2
+arch blackforest2
 x 20
 y 41
 elevation 9208
 end
-arch mountain
+arch tree3birch1
+x 20
+y 41
+end
+arch blackforest2
 x 20
 y 42
 elevation 7282
 end
-arch mountain
+arch blackforest2
 x 20
 y 43
 elevation 6327
+end
+arch woods5
+x 20
+y 43
 end
 arch hills
 x 20
@@ -5141,17 +5647,17 @@ x 20
 y 46
 elevation 3458
 end
-arch hills
+arch darkforest
 x 20
 y 47
 elevation 4455
 end
-arch mountain
+arch darkforest
 x 20
 y 48
 elevation 6381
 end
-arch mountain
+arch darkforest
 x 20
 y 49
 elevation 8180
@@ -5185,77 +5691,113 @@ x 21
 y 5
 elevation 1055
 end
-arch desert
+arch magentamarblemedium
 x 21
 y 6
 elevation 529
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 6
+end
+arch magentamarblemedium
 x 21
 y 7
 elevation 84
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 7
+end
+arch magentamarblemedium
 x 21
 y 8
 elevation 137
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 8
+end
+arch magentamarblemedium
 x 21
 y 9
 elevation 601
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 9
+end
+arch magentamarblemedium
 x 21
 y 10
 elevation 656
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 10
+end
+arch magentamarblemedium
 x 21
 y 11
 elevation 455
 end
-arch grass
+arch ltmagentamarblewall_4
+x 21
+y 11
+end
+arch magentamarblemedium
 x 21
 y 12
 elevation 395
 end
-arch grass
+arch ltmagentamarblewall_4
+x 21
+y 12
+end
+arch magentamarblemedium
 x 21
 y 13
 elevation 144
 end
-arch desert
+arch ltmagentamarblewall_4
+x 21
+y 13
+end
+arch grassdark
 x 21
 y 14
 elevation 103
 end
-arch desert
+arch grassdark
 x 21
 y 15
 elevation 737
 end
-arch hills
+arch tree3cherry3
+x 21
+y 15
+end
+arch grassdark
 x 21
 y 16
 elevation 1145
 end
-arch hills
+arch blacklostlabfloor8
 x 21
 y 17
 elevation 1240
 end
-arch desert
+arch blacklostlabfloor8
 x 21
 y 18
 elevation 572
 end
-arch desert
+arch cyanbrush
 x 21
 y 19
 elevation 41
 end
-arch desert
+arch cyanbrush
 x 21
 y 20
 elevation 373
@@ -5273,17 +5815,17 @@ x 21
 y 23
 elevation 1311
 end
-arch desert
+arch cyanbrush
 x 21
 y 24
 elevation 972
 end
-arch desert
+arch cyanbrush
 x 21
 y 25
 elevation 289
 end
-arch desert
+arch cyanbrush
 x 21
 y 26
 elevation 844
@@ -5303,32 +5845,36 @@ x 21
 y 29
 elevation 3665
 end
+arch fern_giant
+x 21
+y 29
+end
 arch hills
 x 21
 y 30
 elevation 4460
 end
-arch mountain
+arch darkforest
 x 21
 y 31
 elevation 5354
 end
-arch mountain
+arch darkforest
 x 21
 y 32
 elevation 5940
 end
-arch mountain
+arch blacklostlabfloor8
 x 21
 y 33
 elevation 5695
 end
-arch hills
+arch darkforest
 x 21
 y 34
 elevation 4807
 end
-arch hills
+arch darkforest
 x 21
 y 35
 elevation 4061
@@ -5338,42 +5884,46 @@ x 21
 y 36
 elevation 3839
 end
-arch mountain
+arch darkforest
 x 21
 y 37
 elevation 5871
 end
-arch mountain
+arch woods5
+x 21
+y 37
+end
+arch woods
 x 21
 y 38
 elevation 8122
 end
-arch mountain2
+arch woods
 x 21
 y 39
 elevation 9682
 end
-arch mountain2
+arch woods
 x 21
 y 40
 elevation 9887
 end
-arch mountain2
+arch woods
 x 21
 y 41
 elevation 9194
 end
-arch mountain
+arch woods
 x 21
 y 42
 elevation 7850
 end
-arch mountain
+arch woods
 x 21
 y 43
 elevation 6311
 end
-arch mountain
+arch woods
 x 21
 y 44
 elevation 5312
@@ -5388,17 +5938,17 @@ x 21
 y 46
 elevation 4721
 end
-arch mountain
+arch darkforest
 x 21
 y 47
 elevation 5986
 end
-arch mountain
+arch darkforest
 x 21
 y 48
 elevation 7479
 end
-arch mountain
+arch darkforest
 x 21
 y 49
 elevation 8779
@@ -5432,82 +5982,90 @@ x 22
 y 5
 elevation 560
 end
-arch desert
+arch magentamarblemedium
 x 22
 y 6
 elevation 691
 end
-arch desert
+arch ltmagentamarblewall_4
+x 22
+y 6
+end
+arch magentamarblemedium
 x 22
 y 7
 elevation 519
 end
-arch grass
+arch magentamarblemedium
 x 22
 y 8
 elevation 409
 end
-arch grass
+arch magentamarblemedium
 x 22
 y 9
 elevation 643
 end
-arch grass
+arch magentamarblemedium
 x 22
 y 10
 elevation 633
 end
-arch grass
+arch magentamarblemedium
 x 22
 y 11
 elevation 205
 end
-arch grass
+arch magentamarblemedium
 x 22
 y 12
 elevation 599
 end
-arch desert
+arch magentamarblemedium
 x 22
 y 13
 elevation 160
 end
-arch desert
+arch ltmagentamarblewall_4
+x 22
+y 13
+end
+arch grassdark
 x 22
 y 14
 elevation 191
 end
-arch desert
+arch grassdark
 x 22
 y 15
 elevation 180
 end
-arch hills
+arch grassdark
 x 22
 y 16
 elevation 1739
 end
-arch hills
+arch blacklostlabfloor8
 x 22
 y 17
 elevation 2162
 end
-arch hills
+arch blacklostlabfloor8
 x 22
 y 18
 elevation 1800
 end
-arch desert
+arch cyanbrush
 x 22
 y 19
 elevation 294
 end
-arch desert
+arch cyanbrush
 x 22
 y 20
 elevation 286
 end
-arch desert
+arch cyanbrush
 x 22
 y 21
 elevation 239
@@ -5530,12 +6088,12 @@ x 22
 y 25
 elevation 1415
 end
-arch desert
+arch cyanbrush
 x 22
 y 26
 elevation 65
 end
-arch desert
+arch cyanbrush
 x 22
 y 27
 elevation 224
@@ -5555,67 +6113,83 @@ x 22
 y 30
 elevation 4882
 end
-arch mountain
+arch darkforest
 x 22
 y 31
 elevation 5940
 end
-arch mountain
+arch tree3fall1
+x 22
+y 31
+end
+arch darkforest
 x 22
 y 32
 elevation 6436
 end
-arch mountain
+arch blacklostlabfloor8
 x 22
 y 33
 elevation 5890
 end
-arch hills
+arch darkforest
 x 22
 y 34
 elevation 4424
 end
-arch hills_rocky
+arch woods5
+x 22
+y 34
+end
+arch darkforest
 x 22
 y 35
 elevation 2243
 end
-arch hills
+arch tree3fall1
+x 22
+y 35
+end
+arch darkforest
 x 22
 y 36
 elevation 3980
 end
-arch mountain
+arch darkforest
 x 22
 y 37
 elevation 6199
 end
-arch mountain
+arch darkforest
 x 22
 y 38
 elevation 8032
 end
-arch mountain2
+arch tree3fall1
+x 22
+y 38
+end
+arch darkforest
 x 22
 y 39
 elevation 9316
 end
-arch mountain2
+arch darkforest
 x 22
 y 40
 elevation 9524
 end
-arch mountain
+arch darkforest
 x 22
 y 41
 elevation 8537
 end
-arch mountain
+arch darkforest
 x 22
 y 42
 elevation 7173
 end
-arch mountain
+arch woods
 x 22
 y 43
 elevation 5870
@@ -5625,7 +6199,7 @@ x 22
 y 44
 elevation 4941
 end
-arch mountain
+arch woods
 x 22
 y 45
 elevation 5494
@@ -5635,17 +6209,17 @@ x 22
 y 46
 elevation 4303
 end
-arch mountain
+arch cyanbrush
 x 22
 y 47
 elevation 6987
 end
-arch mountain
+arch cyanbrush
 x 22
 y 48
 elevation 7946
 end
-arch mountain
+arch darkforest
 x 22
 y 49
 elevation 7722
@@ -5679,67 +6253,79 @@ x 23
 y 5
 elevation 699
 end
-arch desert
+arch magentamarblemedium
 x 23
 y 6
 elevation 914
 end
-arch desert
+arch ltmagentamarblewall_4
+x 23
+y 6
+end
+arch magentamarblemedium
 x 23
 y 7
 elevation 831
 end
-arch desert
+arch magentamarblemedium
 x 23
 y 8
 elevation 324
 end
-arch desert
+arch magentamarblemedium
 x 23
 y 9
 elevation 947
 end
-arch evergreen
+arch magentamarblemedium
 x 23
 y 10
 elevation 1029
 end
-arch desert
+arch magentamarblemedium
 x 23
 y 11
 elevation 725
 end
-arch hills
+arch magentamarblemedium
 x 23
 y 12
 elevation 1176
 end
-arch woods
+arch magentamarblemedium
 x 23
 y 13
 elevation 1293
 end
-arch desert
+arch ltmagentamarblewall_4
+x 23
+y 13
+end
+arch grassdark
 x 23
 y 14
 elevation 773
 end
-arch hills
+arch grassdark
 x 23
 y 15
 elevation 1536
 end
-arch hills
+arch tree3cherry3
+x 23
+y 15
+end
+arch grassdark
 x 23
 y 16
 elevation 2570
 end
-arch hills
+arch blacklostlabfloor8
 x 23
 y 17
 elevation 3117
 end
-arch hills
+arch blacklostlabfloor8
 x 23
 y 18
 elevation 2897
@@ -5749,12 +6335,12 @@ x 23
 y 19
 elevation 1928
 end
-arch desert
+arch cyanbrush
 x 23
 y 20
 elevation 576
 end
-arch desert
+arch cyanbrush
 x 23
 y 21
 elevation 570
@@ -5787,6 +6373,10 @@ x 23
 y 27
 elevation 2204
 end
+arch fern_giant
+x 23
+y 27
+end
 arch hills
 x 23
 y 28
@@ -5797,32 +6387,40 @@ x 23
 y 29
 elevation 1854
 end
-arch hills
+arch darkforest
 x 23
 y 30
 elevation 3633
 end
-arch mountain
+arch tree3fall1
+x 23
+y 30
+end
+arch darkforest
 x 23
 y 31
 elevation 6177
 end
-arch mountain
+arch fern_giant
+x 23
+y 31
+end
+arch darkforest
 x 23
 y 32
 elevation 6599
 end
-arch mountain
+arch blacklostlabfloor8
 x 23
 y 33
 elevation 5937
 end
-arch hills
+arch darkforest
 x 23
 y 34
 elevation 4845
 end
-arch hills
+arch darkforest
 x 23
 y 35
 elevation 4369
@@ -5832,67 +6430,79 @@ x 23
 y 36
 elevation 4783
 end
-arch mountain
+arch darkforest
 x 23
 y 37
 elevation 6004
 end
-arch mountain
+arch darkforest
 x 23
 y 38
 elevation 6808
 end
-arch mountain
+arch darkforest
 x 23
 y 39
 elevation 8038
 end
-arch mountain
+arch tree3fall1
+x 23
+y 39
+end
+arch darkforest
 x 23
 y 40
 elevation 8212
 end
-arch mountain
+arch tree3birch1
+x 23
+y 40
+end
+arch darkforest
 x 23
 y 41
 elevation 7183
 end
-arch hills
+arch darkforest
 x 23
 y 42
 elevation 4524
 end
-arch hills
+arch darkforest
 x 23
 y 43
 elevation 4852
 end
-arch hills
+arch darkforest
 x 23
 y 44
 elevation 4960
 end
-arch mountain
+arch darkforest
 x 23
 y 45
 elevation 5911
 end
-arch mountain
+arch darkforest
 x 23
 y 46
 elevation 6945
 end
-arch mountain
+arch cyanbrush
 x 23
 y 47
 elevation 7501
 end
-arch mountain
+arch darkforest
 x 23
 y 48
 elevation 7709
 end
-arch mountain
+arch tree3cherry2
+x 23
+y 48
+end
+arch darkforest
 x 23
 y 49
 elevation 7721
@@ -5926,85 +6536,125 @@ x 24
 y 5
 elevation 1327
 end
-arch desert
+arch magentamarblemedium
 x 24
 y 6
 elevation 936
 end
-arch hills
+arch ltmagentamarblewall_4
+x 24
+y 6
+end
+arch magentamarblemedium
 x 24
 y 7
 elevation 1281
 end
-arch hills
+arch magentamarblemedium
 x 24
 y 8
 elevation 1140
 end
-arch hills
+arch magentamarblemedium
 x 24
 y 9
 elevation 1510
 end
-arch hills
+arch magentamarblemedium
 x 24
 y 10
 elevation 1444
 end
-arch evergreens
+arch magentamarblemedium
 x 24
 y 11
 elevation 1665
 end
-arch evergreens
+arch magentamarblemedium
 x 24
 y 12
 elevation 1945
 end
-arch hills
+arch magentamarblemedium
 x 24
 y 13
 elevation 2211
 end
-arch hills
+arch ltmagentamarblewall_4
+x 24
+y 13
+end
+arch magentamarblemedium
 x 24
 y 14
 elevation 2494
 end
-arch hills
+arch ltmagentamarblewall_4
+x 24
+y 14
+end
+arch magentamarblemedium
 x 24
 y 15
 elevation 2919
 end
-arch hills
+arch ltmagentamarblewall_4
+x 24
+y 15
+end
+arch magentamarblemedium
 x 24
 y 16
 elevation 3403
 end
-arch hills
+arch ltmagentamarblewall_4
+x 24
+y 16
+end
+arch magentamarblemedium
 x 24
 y 17
 elevation 3779
 end
-arch hills
+arch door_look_2
+x 24
+y 17
+end
+arch magentamarblemedium
 x 24
 y 18
 elevation 3648
 end
-arch hills
+arch door_look_2
+x 24
+y 18
+end
+arch magentamarblemedium
 x 24
 y 19
 elevation 2753
 end
-arch desert
+arch ltmagentamarblewall_4
+x 24
+y 19
+end
+arch magentamarblemedium
 x 24
 y 20
 elevation 854
 end
-arch desert
+arch ltmagentamarblewall_4
+x 24
+y 20
+end
+arch magentamarblemedium
 x 24
 y 21
 elevation 884
+end
+arch ltmagentamarblewall_4
+x 24
+y 21
 end
 arch hills
 x 24
@@ -6039,32 +6689,36 @@ x 24
 y 28
 elevation 2931
 end
-arch hills
+arch darkforest
 x 24
 y 29
 elevation 3598
 end
-arch hills
+arch darkforest
 x 24
 y 30
 elevation 4691
 end
-arch mountain
+arch darkforest
 x 24
 y 31
 elevation 5764
 end
-arch mountain
+arch darkforest
 x 24
 y 32
 elevation 6149
 end
-arch mountain
+arch tree3birch1
+x 24
+y 32
+end
+arch blacklostlabfloor8
 x 24
 y 33
 elevation 5611
 end
-arch mountain
+arch darkforest
 x 24
 y 34
 elevation 5104
@@ -6079,70 +6733,98 @@ x 24
 y 36
 elevation 4315
 end
-arch mountain
+arch tree3birch1
+x 24
+y 36
+end
+arch darkforest
 x 24
 y 37
 elevation 5476
 end
-arch mountain
+arch darkforest
 x 24
 y 38
 elevation 6242
 end
-arch mountain
+arch darkforest
 x 24
 y 39
 elevation 6642
 end
-arch mountain
+arch tree3fall1
+x 24
+y 39
+end
+arch darkforest
 x 24
 y 40
 elevation 6201
 end
-arch mountain
+arch darkforest
 x 24
 y 41
 elevation 5738
 end
-arch hills
+arch darkforest
 x 24
 y 42
 elevation 4079
 end
-arch hills
+arch darkforest
 x 24
 y 43
 elevation 4567
 end
-arch hills
+arch darkforest
 x 24
 y 44
 elevation 4032
 end
-arch mountain
+arch darkforest
 x 24
 y 45
 elevation 5616
 end
-arch mountain
+arch tree3cherry3
+x 24
+y 45
+end
+arch darkforest
 x 24
 y 46
 elevation 6607
 end
-arch mountain
+arch tree3cherry2
+x 24
+y 46
+end
+arch darkforest
 x 24
 y 47
 elevation 6625
 end
-arch mountain
+arch tree3cherry2
+x 24
+y 47
+end
+arch darkforest
 x 24
 y 48
 elevation 6532
 end
-arch mountain
+arch tree3cherry2
+x 24
+y 48
+end
+arch darkforest
 x 24
 y 49
 elevation 6358
+end
+arch tree3cherry2
+x 24
+y 49
 end
 arch grass
 x 25
@@ -6173,47 +6855,51 @@ x 25
 y 5
 elevation 1382
 end
-arch evergreens
+arch magentamarblemedium
 x 25
 y 6
 elevation 1708
 end
-arch hills
+arch ltmagentamarblewall_4
+x 25
+y 6
+end
+arch magentamarblemedium
 x 25
 y 7
 elevation 1847
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 8
 elevation 1916
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 9
 elevation 2181
 end
-arch evergreens
+arch magentamarblemedium
 x 25
 y 10
 elevation 2172
 end
-arch woods
+arch magentamarblemedium
 x 25
 y 11
 elevation 2123
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 12
 elevation 2574
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 13
 elevation 2787
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 14
 elevation 3027
@@ -6223,35 +6909,39 @@ x 25
 y 15
 elevation 3323
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 16
 elevation 3660
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 17
 elevation 3834
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 18
 elevation 3707
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 19
 elevation 3042
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 20
 elevation 2351
 end
-arch hills
+arch magentamarblemedium
 x 25
 y 21
 elevation 1935
+end
+arch ltmagentamarblewall_4
+x 25
+y 21
 end
 arch hills
 x 25
@@ -6281,40 +6971,52 @@ x 25
 y 27
 elevation 3174
 end
-arch hills
+arch darkforest
 x 25
 y 28
 elevation 2149
 end
-arch hills
+arch darkforest
 x 25
 y 29
 elevation 3692
 end
-arch hills
+arch fern_giant
+x 25
+y 29
+end
+arch darkforest
 x 25
 y 30
 elevation 4531
 end
-arch hills
+arch darkforest
 x 25
 y 31
 elevation 4954
 end
-arch hills
+arch fern_giant
+x 25
+y 31
+end
+arch darkforest
 x 25
 y 32
 elevation 4955
 end
-arch hills
+arch blacklostlabfloor8
 x 25
 y 33
 elevation 4886
 end
-arch hills
+arch darkforest
 x 25
 y 34
 elevation 4679
+end
+arch woods5
+x 25
+y 34
 end
 arch hills
 x 25
@@ -6326,67 +7028,79 @@ x 25
 y 36
 elevation 3285
 end
+arch tree3birch1
+x 25
+y 36
+end
 arch hills
 x 25
 y 37
 elevation 4776
 end
-arch mountain
+arch darkforest
 x 25
 y 38
 elevation 5281
 end
-arch hills
+arch treed_hills
 x 25
 y 39
 elevation 4157
 end
-arch mountain
+arch darkforest
 x 25
 y 40
 elevation 5883
 end
-arch mountain
+arch darkforest
 x 25
 y 41
 elevation 5780
 end
-arch mountain
+arch darkforest
 x 25
 y 42
 elevation 5227
 end
-arch hills
+arch tree3cherry3
+x 25
+y 42
+end
+arch darkforest
 x 25
 y 43
 elevation 4250
 end
-arch hills
+arch darkforest
 x 25
 y 44
 elevation 4085
 end
-arch hills
+arch darkforest
 x 25
 y 45
 elevation 4996
 end
-arch hills_rocky
+arch darkforest
 x 25
 y 46
 elevation 2616
 end
-arch mountain
+arch darkforest
 x 25
 y 47
 elevation 5371
 end
-arch hills
+arch darkforest
 x 25
 y 48
 elevation 3477
 end
-arch hills
+arch tree3cherry3
+x 25
+y 48
+end
+arch darkforest
 x 25
 y 49
 elevation 3802
@@ -6420,85 +7134,93 @@ x 26
 y 5
 elevation 1674
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 6
 elevation 1964
 end
-arch hills
+arch ltmagentamarblewall_4
+x 26
+y 6
+end
+arch magentamarblemedium
 x 26
 y 7
 elevation 2201
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 8
 elevation 2328
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 9
 elevation 2344
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 10
 elevation 2365
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 11
 elevation 2538
 end
-arch hills_rocky
+arch magentamarblemedium
 x 26
 y 12
 elevation 2891
 end
-arch hills_rocky
+arch magentamarblemedium
 x 26
 y 13
 elevation 3005
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 14
 elevation 2030
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 15
 elevation 3030
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 16
 elevation 3346
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 17
 elevation 3357
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 18
 elevation 3844
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 19
 elevation 3387
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 20
 elevation 1233
 end
-arch hills
+arch magentamarblemedium
 x 26
 y 21
 elevation 2504
+end
+arch ltmagentamarblewall_4
+x 26
+y 21
 end
 arch hills
 x 26
@@ -6509,6 +7231,10 @@ arch hills
 x 26
 y 23
 elevation 1386
+end
+arch tree3cherry3
+x 26
+y 23
 end
 arch hills
 x 26
@@ -6528,37 +7254,49 @@ arch cobblestones
 x 26
 y 27
 end
-arch hills
+arch darkforest
 x 26
 y 28
 elevation 2741
 end
-arch hills
+arch tree3fall1
+x 26
+y 28
+end
+arch darkforest
 x 26
 y 29
 elevation 3416
 end
-arch hills
+arch darkforest
 x 26
 y 30
 elevation 3626
 end
-arch hills
+arch tree3fall1
+x 26
+y 30
+end
+arch darkforest
 x 26
 y 31
 elevation 3480
 end
-arch hills
+arch darkforest
 x 26
 y 32
 elevation 3381
 end
-arch hills
+arch tree3fall1
+x 26
+y 32
+end
+arch blacklostlabfloor8
 x 26
 y 33
 elevation 2948
 end
-arch hills
+arch darkforest
 x 26
 y 34
 elevation 4171
@@ -6578,62 +7316,94 @@ x 26
 y 37
 elevation 3880
 end
+arch tree3fall1
+x 26
+y 37
+end
 arch hills
 x 26
 y 38
 elevation 4129
 end
-arch hills
+arch treed_hills
 x 26
 y 39
 elevation 4778
 end
-arch mountain
+arch darkforest
 x 26
 y 40
 elevation 5367
 end
-arch mountain
+arch tree3fall1
+x 26
+y 40
+end
+arch darkforest
 x 26
 y 41
 elevation 5599
 end
-arch hills
+arch darkforest
 x 26
 y 42
 elevation 4939
 end
-arch hills
+arch darkforest
 x 26
 y 43
 elevation 4295
 end
-arch hills
+arch tree3cherry2
+x 26
+y 43
+end
+arch darkforest
 x 26
 y 44
 elevation 4327
 end
-arch hills
+arch tree3cherry2
+x 26
+y 44
+end
+arch darkforest
 x 26
 y 45
 elevation 4612
 end
-arch hills
+arch tree3cherry2
+x 26
+y 45
+end
+arch darkforest
 x 26
 y 46
 elevation 4824
 end
-arch hills
+arch tree3cherry2
+x 26
+y 46
+end
+arch darkforest
 x 26
 y 47
 elevation 4459
 end
-arch hills
+arch tree3cherry2
+x 26
+y 47
+end
+arch darkforest
 x 26
 y 48
 elevation 3825
 end
-arch hills_rocky
+arch tree3cherry2
+x 26
+y 48
+end
+arch darkforest
 x 26
 y 49
 elevation 1295
@@ -6667,85 +7437,93 @@ x 27
 y 5
 elevation 1372
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 6
 elevation 1948
 end
-arch woods
+arch ltmagentamarblewall_4
+x 27
+y 6
+end
+arch magentamarblemedium
 x 27
 y 7
 elevation 2181
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 8
 elevation 2023
 end
-arch hills_rocky
+arch magentamarblemedium
 x 27
 y 9
 elevation 1954
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 10
 elevation 1614
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 11
 elevation 2298
 end
-arch woods
+arch magentamarblemedium
 x 27
 y 12
 elevation 2921
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 13
 elevation 3027
 end
-arch hills_rocky
+arch magentamarblemedium
 x 27
 y 14
 elevation 2738
 end
-arch hills_rocky
+arch magentamarblemedium
 x 27
 y 15
 elevation 1544
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 16
 elevation 2910
 end
-arch hills_rocky
+arch magentamarblemedium
 x 27
 y 17
 elevation 3580
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 18
 elevation 3945
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 19
 elevation 3910
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 20
 elevation 3618
 end
-arch hills
+arch magentamarblemedium
 x 27
 y 21
 elevation 2950
+end
+arch ltmagentamarblewall_4
+x 27
+y 21
 end
 arch hills_rocky
 x 27
@@ -6761,6 +7539,10 @@ arch hills
 x 27
 y 24
 elevation 3185
+end
+arch tree3cherry3
+x 27
+y 24
 end
 arch hills
 x 27
@@ -6780,107 +7562,111 @@ arch cobblestones
 x 27
 y 28
 end
-arch hills
+arch darkforest
 x 27
 y 29
 elevation 3350
 end
-arch hills
+arch darkforest
 x 27
 y 30
 elevation 2337
 end
-arch hills_rocky
+arch darkforest
 x 27
 y 31
 elevation 2005
 end
-arch hills
+arch darkforest
 x 27
 y 32
 elevation 2711
 end
-arch hills_rocky
+arch blacklostlabfloor8
 x 27
 y 33
 elevation 2961
 end
-arch hills
+arch darkforest
 x 27
 y 34
 elevation 3292
 end
-arch hills
+arch treed_hills
 x 27
 y 35
 elevation 3627
 end
-arch hills
+arch treed_hills
 x 27
 y 36
 elevation 3309
 end
-arch hills
+arch treed_hills
 x 27
 y 37
 elevation 3052
 end
-arch hills
+arch treed_hills
 x 27
 y 38
 elevation 3080
 end
-arch hills
+arch treed_hills
 x 27
 y 39
 elevation 3830
 end
-arch hills
+arch darkforest
 x 27
 y 40
 elevation 4512
 end
-arch hills
+arch darkforest
 x 27
 y 41
 elevation 4666
 end
-arch hills
+arch darkforest
 x 27
 y 42
 elevation 3992
 end
-arch hills
+arch darkforest
 x 27
 y 43
 elevation 2502
 end
-arch hills
+arch darkforest
 x 27
 y 44
 elevation 3681
 end
-arch hills
+arch darkforest
 x 27
 y 45
 elevation 4455
 end
-arch hills
+arch darkforest
 x 27
 y 46
 elevation 4719
 end
-arch hills
+arch darkforest
 x 27
 y 47
 elevation 4358
 end
-arch hills
+arch tree3cherry2
+x 27
+y 47
+end
+arch darkforest
 x 27
 y 48
 elevation 3240
 end
-arch hills_rocky
+arch darkforest
 x 27
 y 49
 elevation 2271
@@ -6914,85 +7700,93 @@ x 28
 y 5
 elevation 1257
 end
-arch woods
+arch magentamarblemedium
 x 28
 y 6
 elevation 1909
 end
-arch woods
+arch ltmagentamarblewall_4
+x 28
+y 6
+end
+arch magentamarblemedium
 x 28
 y 7
 elevation 1962
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 8
 elevation 1779
 end
-arch woods
+arch magentamarblemedium
 x 28
 y 9
 elevation 1374
 end
-arch desert
+arch magentamarblemedium
 x 28
 y 10
 elevation 571
 end
-arch jungle_1
+arch magentamarblemedium
 x 28
 y 11
 elevation 2006
 end
-arch woods
+arch magentamarblemedium
 x 28
 y 12
 elevation 2767
 end
-arch hills_rocky
+arch magentamarblemedium
 x 28
 y 13
 elevation 3102
 end
-arch hills_rocky
+arch magentamarblemedium
 x 28
 y 14
 elevation 2762
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 15
 elevation 1813
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 16
 elevation 2372
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 17
 elevation 2900
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 18
 elevation 3546
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 19
 elevation 4264
 end
-arch steppe
+arch magentamarblemedium
 x 28
 y 20
 elevation 4433
 end
-arch hills
+arch magentamarblemedium
 x 28
 y 21
 elevation 3887
+end
+arch ltmagentamarblewall_4
+x 28
+y 21
 end
 arch hills_rocky
 x 28
@@ -7018,6 +7812,10 @@ arch hills
 x 28
 y 26
 elevation 3635
+end
+arch tree3cherry3
+x 28
+y 26
 end
 arch hills
 x 28
@@ -7141,85 +7939,93 @@ x 29
 y 5
 elevation 1670
 end
-arch woods
+arch magentamarblemedium
 x 29
 y 6
 elevation 1952
 end
-arch hills
+arch ltmagentamarblewall_4
+x 29
+y 6
+end
+arch magentamarblemedium
 x 29
 y 7
 elevation 1856
 end
-arch desert
+arch magentamarblemedium
 x 29
 y 8
 elevation 896
 end
-arch tree
+arch magentamarblemedium
 x 29
 y 9
 elevation 1191
 end
-arch desert
+arch magentamarblemedium
 x 29
 y 10
 elevation 420
 end
-arch woods
+arch magentamarblemedium
 x 29
 y 11
 elevation 1894
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 12
 elevation 2701
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 13
 elevation 2959
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 14
 elevation 2753
 end
-arch hills_rocky
+arch magentamarblemedium
 x 29
 y 15
 elevation 2478
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 16
 elevation 2129
 end
-arch desert
+arch magentamarblemedium
 x 29
 y 17
 elevation 408
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 18
 elevation 2234
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 19
 elevation 4136
 end
-arch hills
+arch magentamarblemedium
 x 29
 y 20
 elevation 4697
 end
-arch steppe
+arch magentamarblemedium
 x 29
 y 21
 elevation 4410
+end
+arch ltmagentamarblewall_4
+x 29
+y 21
 end
 arch hills
 x 29
@@ -7231,6 +8037,10 @@ x 29
 y 23
 elevation 3656
 end
+arch tree3cherry3
+x 29
+y 23
+end
 arch hills
 x 29
 y 24
@@ -7240,6 +8050,10 @@ arch hills
 x 29
 y 25
 elevation 1919
+end
+arch tree3cherry3
+x 29
+y 25
 end
 arch hills
 x 29
@@ -7261,30 +8075,38 @@ x 29
 y 29
 elevation 2963
 end
-arch hills
+arch blackforest2
 x 29
 y 30
 elevation 2192
 end
-arch hills_rocky
+arch tree3birch1
+x 29
+y 30
+end
+arch blackforest2
 x 29
 y 31
 elevation 2548
 end
-arch hills
+arch blackforest2
 x 29
 y 32
 elevation 1905
 end
-arch desert
+arch blackforest2
 x 29
 y 33
 elevation 572
 end
-arch desert
+arch blackforest2
 x 29
 y 34
 elevation 34
+end
+arch tree3birch1
+x 29
+y 34
 end
 arch hills_rocky
 x 29
@@ -7346,17 +8168,21 @@ x 29
 y 46
 elevation 3080
 end
-arch hills_rocky
+arch tree3cherry2
+x 29
+y 46
+end
+arch darkforest
 x 29
 y 47
 elevation 2766
 end
-arch brush
+arch darkforest
 x 29
 y 48
 elevation 831
 end
-arch brush
+arch darkforest
 x 29
 y 49
 elevation 940
@@ -7390,85 +8216,93 @@ x 30
 y 5
 elevation 1876
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 6
 elevation 1907
 end
-arch hills
+arch ltmagentamarblewall_4
+x 30
+y 6
+end
+arch magentamarblemedium
 x 30
 y 7
 elevation 1745
 end
-arch woods
+arch magentamarblemedium
 x 30
 y 8
 elevation 1543
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 9
 elevation 1245
 end
-arch jungle_1
+arch magentamarblemedium
 x 30
 y 10
 elevation 1148
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 11
 elevation 1858
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 12
 elevation 2460
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 13
 elevation 2691
 end
-arch hills_rocky
+arch magentamarblemedium
 x 30
 y 14
 elevation 2607
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 15
 elevation 2458
 end
-arch hills_rocky
+arch magentamarblemedium
 x 30
 y 16
 elevation 2049
 end
-arch woods
+arch magentamarblemedium
 x 30
 y 17
 elevation 1889
 end
-arch hills_rocky
+arch magentamarblemedium
 x 30
 y 18
 elevation 2565
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 19
 elevation 3680
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 20
 elevation 4515
 end
-arch hills
+arch magentamarblemedium
 x 30
 y 21
 elevation 4555
+end
+arch ltmagentamarblewall_4
+x 30
+y 21
 end
 arch hills
 x 30
@@ -7500,6 +8334,10 @@ x 30
 y 27
 elevation 2084
 end
+arch tree3cherry3
+x 30
+y 27
+end
 arch hills
 x 30
 y 28
@@ -7510,17 +8348,21 @@ x 30
 y 29
 elevation 2698
 end
-arch hills_rocky
+arch blackforest2
 x 30
 y 30
 elevation 2599
 end
-arch hills_rocky
+arch blackforest2
 x 30
 y 31
 elevation 2242
 end
-arch hills_rocky
+arch tree3birch1
+x 30
+y 31
+end
+arch blackforest2
 x 30
 y 32
 elevation 1409
@@ -7530,12 +8372,12 @@ x 30
 y 33
 elevation 151
 end
-arch brush
+arch blackforest2
 x 30
 y 34
 elevation 342
 end
-arch hills
+arch blackforest2
 x 30
 y 35
 elevation 1614
@@ -7565,47 +8407,79 @@ x 30
 y 40
 elevation 2537
 end
+arch tree3cherry3
+x 30
+y 40
+end
 arch hills
 x 30
 y 41
 elevation 1674
+end
+arch tree3cherry2
+x 30
+y 41
 end
 arch hills
 x 30
 y 42
 elevation 2174
 end
+arch tree3cherry2
+x 30
+y 42
+end
 arch hills
 x 30
 y 43
 elevation 1959
 end
-arch hills_rocky
+arch tree3cherry2
+x 30
+y 43
+end
+arch darkforest
 x 30
 y 44
 elevation 2251
 end
-arch hills_rocky
+arch tree3cherry2
+x 30
+y 44
+end
+arch darkforest
 x 30
 y 45
 elevation 1977
 end
-arch hills_rocky
+arch tree3cherry2
+x 30
+y 45
+end
+arch darkforest
 x 30
 y 46
 elevation 2348
 end
-arch hills
+arch tree3cherry2
+x 30
+y 46
+end
+arch darkforest
 x 30
 y 47
 elevation 2174
 end
-arch hills_rocky
+arch tree3cherry2
+x 30
+y 47
+end
+arch darkforest
 x 30
 y 48
 elevation 1836
 end
-arch hills_rocky
+arch darkforest
 x 30
 y 49
 elevation 1732
@@ -7639,85 +8513,93 @@ x 31
 y 5
 elevation 1376
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 6
 elevation 1827
 end
-arch jungle_1
+arch ltmagentamarblewall_4
+x 31
+y 6
+end
+arch magentamarblemedium
 x 31
 y 7
 elevation 1833
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 8
 elevation 1497
 end
-arch tree
+arch magentamarblemedium
 x 31
 y 9
 elevation 1360
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 10
 elevation 1399
 end
-arch jungle_1
+arch magentamarblemedium
 x 31
 y 11
 elevation 1534
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 12
 elevation 1964
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 13
 elevation 2219
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 14
 elevation 2457
 end
-arch woods
+arch magentamarblemedium
 x 31
 y 15
 elevation 2331
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 16
 elevation 2146
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 17
 elevation 2027
 end
-arch hills_rocky
+arch magentamarblemedium
 x 31
 y 18
 elevation 1810
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 19
 elevation 3012
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 20
 elevation 3768
 end
-arch hills
+arch magentamarblemedium
 x 31
 y 21
 elevation 4077
+end
+arch ltmagentamarblewall_4
+x 31
+y 21
 end
 arch hills
 x 31
@@ -7729,45 +8611,53 @@ x 31
 y 23
 elevation 2745
 end
+arch tree3cherry3
+x 31
+y 23
+end
 arch hills
 x 31
 y 24
 elevation 2570
 end
-arch hills_rocky
+arch blackforest2
 x 31
 y 25
 elevation 2132
 end
-arch hills
+arch blackforest2
 x 31
 y 26
 elevation 1991
 end
-arch hills
+arch blackforest2
 x 31
 y 27
 elevation 2245
 end
-arch hills_rocky
+arch blackforest2
 x 31
 y 28
 elevation 2405
 end
-arch hills
+arch blackforest2
 x 31
 y 29
 elevation 2466
 end
-arch hills
+arch blackforest2
 x 31
 y 30
 elevation 2174
 end
-arch hills_rocky
+arch blackforest2
 x 31
 y 31
 elevation 1677
+end
+arch tree3birch1
+x 31
+y 31
 end
 arch blackforest2
 x 31
@@ -7824,6 +8714,10 @@ x 31
 y 42
 elevation 2650
 end
+arch tree3cherry2
+x 31
+y 42
+end
 arch hills
 x 31
 y 43
@@ -7834,27 +8728,31 @@ x 31
 y 44
 elevation 2269
 end
-arch evergreens
+arch darkforest
 x 31
 y 45
 elevation 1429
 end
-arch hills
+arch darkforest
 x 31
 y 46
 elevation 1448
 end
-arch evergreens
+arch darkforest
 x 31
 y 47
 elevation 2016
 end
-arch hills_rocky
+arch darkforest
 x 31
 y 48
 elevation 1869
 end
-arch hills
+arch tree3cherry3
+x 31
+y 48
+end
+arch darkforest
 x 31
 y 49
 elevation 1321
@@ -7888,85 +8786,149 @@ x 32
 y 5
 elevation 1338
 end
-arch tree
+arch magentamarblemedium
 x 32
 y 6
 elevation 1794
 end
-arch woods
+arch ltmagentamarblewall_4
+x 32
+y 6
+end
+arch magentamarblemedium
 x 32
 y 7
 elevation 1787
 end
-arch hills_rocky
+arch ltmagentamarblewall_4
+x 32
+y 7
+end
+arch magentamarblemedium
 x 32
 y 8
 elevation 1661
 end
-arch jungle_1
+arch ltmagentamarblewall_4
+x 32
+y 8
+end
+arch magentamarblemedium
 x 32
 y 9
 elevation 1407
 end
-arch desert
+arch ltmagentamarblewall_4
+x 32
+y 9
+end
+arch magentamarblemedium
 x 32
 y 10
 elevation 308
 end
-arch woods
+arch ltmagentamarblewall_4
+x 32
+y 10
+end
+arch magentamarblemedium
 x 32
 y 11
 elevation 1423
 end
-arch desert
+arch ltmagentamarblewall_4
+x 32
+y 11
+end
+arch magentamarblemedium
 x 32
 y 12
 elevation 530
 end
-arch hills
+arch ltmagentamarblewall_4
+x 32
+y 12
+end
+arch magentamarblemedium
 x 32
 y 13
 elevation 1821
 end
-arch jungle_1
+arch ltmagentamarblewall_4
+x 32
+y 13
+end
+arch magentamarblemedium
 x 32
 y 14
 elevation 2429
 end
-arch hills_rocky
+arch ltmagentamarblewall_4
+x 32
+y 14
+end
+arch magentamarblemedium
 x 32
 y 15
 elevation 2508
 end
-arch hills
+arch ltmagentamarblewall_4
+x 32
+y 15
+end
+arch magentamarblemedium
 x 32
 y 16
 elevation 2092
 end
-arch jungle_1
+arch magentacwall_2_2_3
+x 32
+y 16
+end
+arch magentamarblemedium
 x 32
 y 17
 elevation 1809
 end
-arch hills
+arch magentacwall_2_1_1
+x 32
+y 17
+end
+arch magentamarblemedium
 x 32
 y 18
 elevation 1480
 end
-arch brush
+arch magentacwall_2_1_1
+x 32
+y 18
+end
+arch magentamarblemedium
 x 32
 y 19
 elevation 987
 end
-arch hills
+arch magentacwall_2_1_1
+x 32
+y 19
+end
+arch magentamarblemedium
 x 32
 y 20
 elevation 3003
 end
-arch hills
+arch magentacwall_2_1_1
+x 32
+y 20
+end
+arch magentamarblemedium
 x 32
 y 21
 elevation 2839
+end
+arch magentacwall_2_2_4
+x 32
+y 21
 end
 arch hills
 x 32
@@ -7978,37 +8940,45 @@ x 32
 y 23
 elevation 2666
 end
-arch hills_rocky
+arch blackforest2
 x 32
 y 24
 elevation 1931
 end
-arch hills_rocky
+arch tree3cherry3
+x 32
+y 24
+end
+arch blackforest2
 x 32
 y 25
 elevation 1515
 end
-arch hills_rocky
+arch blackforest2
 x 32
 y 26
 elevation 1640
 end
-arch hills
+arch blackforest2
 x 32
 y 27
 elevation 2004
 end
-arch hills
+arch tree3cherry3
+x 32
+y 27
+end
+arch blackforest2
 x 32
 y 28
 elevation 2228
 end
-arch hills_rocky
+arch blackforest2
 x 32
 y 29
 elevation 1693
 end
-arch hills
+arch blackforest2
 x 32
 y 30
 elevation 1772
@@ -8028,6 +8998,10 @@ x 32
 y 33
 elevation 121
 end
+arch tree3birch1
+x 32
+y 33
+end
 arch blackforest2
 x 32
 y 34
@@ -8037,6 +9011,10 @@ arch blackforest2
 x 32
 y 35
 elevation 2457
+end
+arch tree3birch1
+x 32
+y 35
 end
 arch blackforest2
 x 32
@@ -8093,17 +9071,21 @@ x 32
 y 46
 elevation 2064
 end
-arch hills
+arch darkforest
 x 32
 y 47
 elevation 1941
 end
-arch hills_rocky
+arch darkforest
 x 32
 y 48
 elevation 1251
 end
-arch hills_rocky
+arch tree3cherry3
+x 32
+y 48
+end
+arch darkforest
 x 32
 y 49
 elevation 1822
@@ -8222,42 +9204,46 @@ x 33
 y 22
 elevation 2692
 end
-arch hills_rocky
+arch blackforest2
 x 33
 y 23
 elevation 2053
 end
-arch desert
+arch blackforest2
 x 33
 y 24
 elevation 667
 end
-arch desert
+arch blackforest2
 x 33
 y 25
 elevation 318
 end
-arch desert
+arch woods5
+x 33
+y 25
+end
+arch blackforest2
 x 33
 y 26
 elevation 223
 end
-arch hills_rocky
+arch treed_hills
 x 33
 y 27
 elevation 1658
 end
-arch hills_rocky
+arch treed_hills
 x 33
 y 28
 elevation 2131
 end
-arch hills_rocky
+arch treed_hills
 x 33
 y 29
 elevation 2049
 end
-arch hills_rocky
+arch treed_hills
 x 33
 y 30
 elevation 1628
@@ -8292,6 +9278,10 @@ x 33
 y 36
 elevation 3442
 end
+arch tree3birch1
+x 33
+y 36
+end
 arch blackforest2
 x 33
 y 37
@@ -8317,6 +9307,10 @@ x 33
 y 41
 elevation 2655
 end
+arch tree3cherry3
+x 33
+y 41
+end
 arch hills_rocky
 x 33
 y 42
@@ -8326,6 +9320,10 @@ arch hills
 x 33
 y 43
 elevation 3070
+end
+arch tree3cherry3
+x 33
+y 43
 end
 arch hills
 x 33
@@ -8342,17 +9340,21 @@ x 33
 y 46
 elevation 1839
 end
-arch hills_rocky
+arch darkforest
 x 33
 y 47
 elevation 2308
 end
-arch evergreens
+arch darkforest
 x 33
 y 48
 elevation 2016
 end
-arch hills_rocky
+arch tree3cherry3
+x 33
+y 48
+end
+arch darkforest
 x 33
 y 49
 elevation 2533
@@ -8466,52 +9468,52 @@ x 34
 y 21
 elevation 3030
 end
-arch hills
+arch blackforest2
 x 34
 y 22
 elevation 2324
 end
-arch desert
+arch blackforest2
 x 34
 y 23
 elevation 919
 end
-arch brush
+arch blackforest2
 x 34
 y 24
 elevation 696
 end
-arch desert
+arch blackforest2
 x 34
 y 25
 elevation 68
 end
-arch brush
+arch blackforest2
 x 34
 y 26
 elevation 197
 end
-arch hills
+arch treed_hills
 x 34
 y 27
 elevation 1218
 end
-arch hills
+arch treed_hills
 x 34
 y 28
 elevation 1920
 end
-arch hills
+arch treed_hills
 x 34
 y 29
 elevation 2138
 end
-arch hills_rocky
+arch treed_hills
 x 34
 y 30
 elevation 1484
 end
-arch hills_rocky
+arch treed_hills
 x 34
 y 31
 elevation 1823
@@ -8531,6 +9533,10 @@ x 34
 y 34
 elevation 2675
 end
+arch tree3cherry3
+x 34
+y 34
+end
 arch blackforest2
 x 34
 y 35
@@ -8545,6 +9551,10 @@ arch blackforest2
 x 34
 y 37
 elevation 3152
+end
+arch tree3cherry2
+x 34
+y 37
 end
 arch blackforest2
 x 34
@@ -8576,7 +9586,7 @@ x 34
 y 43
 elevation 3591
 end
-arch hills
+arch darkforest
 x 34
 y 44
 elevation 4121
@@ -8586,22 +9596,38 @@ x 34
 y 45
 elevation 3833
 end
+arch tree3cherry3
+x 34
+y 45
+end
 arch hills
 x 34
 y 46
 elevation 3272
 end
-arch hills
+arch tree3cherry3
+x 34
+y 46
+end
+arch darkforest
 x 34
 y 47
 elevation 2685
 end
-arch evergreens
+arch tree3cherry3
+x 34
+y 47
+end
+arch darkforest
 x 34
 y 48
 elevation 2592
 end
-arch hills_rocky
+arch tree3cherry3
+x 34
+y 48
+end
+arch darkforest
 x 34
 y 49
 elevation 2822
@@ -8710,22 +9736,22 @@ x 35
 y 20
 elevation 3485
 end
-arch hills_rocky
+arch blackforest2
 x 35
 y 21
 elevation 2737
 end
-arch jungle_1
+arch blackforest2
 x 35
 y 22
 elevation 1867
 end
-arch desert
+arch blackforest2
 x 35
 y 23
 elevation 986
 end
-arch desert
+arch blackforest2
 x 35
 y 24
 elevation 769
@@ -8760,12 +9786,12 @@ x 35
 y 30
 elevation 2255
 end
-arch hills_rocky
+arch treed_hills
 x 35
 y 31
 elevation 2379
 end
-arch hills
+arch treed_hills
 x 35
 y 32
 elevation 2277
@@ -8780,10 +9806,18 @@ x 35
 y 34
 elevation 3084
 end
+arch tree3cherry3
+x 35
+y 34
+end
 arch blackforest2
 x 35
 y 35
 elevation 3847
+end
+arch tree3birch1
+x 35
+y 35
 end
 arch blackforest2
 x 35
@@ -8805,6 +9839,10 @@ x 35
 y 39
 elevation 2623
 end
+arch tree3cherry2
+x 35
+y 39
+end
 arch hills
 x 35
 y 40
@@ -8820,37 +9858,57 @@ x 35
 y 42
 elevation 3604
 end
-arch hills
+arch darkforest
 x 35
 y 43
 elevation 3766
 end
-arch hills
+arch tree3cherry2
+x 35
+y 43
+end
+arch darkforest
 x 35
 y 44
 elevation 3968
 end
-arch hills
+arch tree3cherry3
+x 35
+y 44
+end
+arch darkforest
 x 35
 y 45
 elevation 3664
 end
-arch hills
+arch tree3cherry3
+x 35
+y 45
+end
+arch darkforest
 x 35
 y 46
 elevation 3185
 end
-arch hills_rocky
+arch tree3cherry3
+x 35
+y 46
+end
+arch darkforest
 x 35
 y 47
 elevation 2573
 end
-arch hills_rocky
+arch tree3cherry3
+x 35
+y 47
+end
+arch darkforest
 x 35
 y 48
 elevation 2326
 end
-arch hills
+arch darkforest
 x 35
 y 49
 elevation 2429
@@ -8934,7 +9992,7 @@ x 36
 y 15
 elevation 1672
 end
-arch hills_rocky
+arch blackforest2
 x 36
 y 16
 elevation 1866
@@ -8944,22 +10002,22 @@ x 36
 y 17
 elevation 2232
 end
-arch hills_rocky
+arch blackforest2
 x 36
 y 18
 elevation 2557
 end
-arch hills_rocky
+arch blackforest2
 x 36
 y 19
 elevation 2879
 end
-arch hills_rocky
+arch blackforest2
 x 36
 y 20
 elevation 2733
 end
-arch hills_rocky
+arch blackforest2
 x 36
 y 21
 elevation 2030
@@ -9004,17 +10062,17 @@ x 36
 y 29
 elevation 1533
 end
-arch hills_rocky
+arch treed_hills
 x 36
 y 30
 elevation 2182
 end
-arch hills_rocky
+arch treed_hills
 x 36
 y 31
 elevation 2579
 end
-arch hills_rocky
+arch treed_hills
 x 36
 y 32
 elevation 2711
@@ -9039,6 +10097,10 @@ x 36
 y 36
 elevation 3484
 end
+arch tree3cherry3
+x 36
+y 36
+end
 arch blackforest2
 x 36
 y 37
@@ -9048,6 +10110,10 @@ arch blackforest2
 x 36
 y 38
 elevation 2400
+end
+arch tree3cherry3
+x 36
+y 38
 end
 arch hills_rocky
 x 36
@@ -9069,15 +10135,19 @@ x 36
 y 42
 elevation 3839
 end
-arch hills
+arch darkforest
 x 36
 y 43
 elevation 3591
 end
-arch hills_rocky
+arch darkforest
 x 36
 y 44
 elevation 2169
+end
+arch tree3cherry3
+x 36
+y 44
 end
 arch evergreens
 x 36
@@ -9089,17 +10159,17 @@ x 36
 y 46
 elevation 2100
 end
-arch hills_rocky
+arch darkforest
 x 36
 y 47
 elevation 1877
 end
-arch hills_rocky
+arch darkforest
 x 36
 y 48
 elevation 1534
 end
-arch hills
+arch darkforest
 x 36
 y 49
 elevation 1273
@@ -9178,22 +10248,22 @@ x 37
 y 14
 elevation 1853
 end
-arch hills_rocky
+arch blackforest2
 x 37
 y 15
 elevation 2114
 end
-arch hills_rocky
+arch blackforest2
 x 37
 y 16
 elevation 2249
 end
-arch hills_rocky
+arch blackforest2
 x 37
 y 17
 elevation 1866
 end
-arch hills_rocky
+arch blackforest2
 x 37
 y 18
 elevation 1808
@@ -9253,7 +10323,7 @@ x 37
 y 29
 elevation 506
 end
-arch hills_rocky
+arch treed_hills
 x 37
 y 30
 elevation 1958
@@ -9263,7 +10333,11 @@ x 37
 y 31
 elevation 2639
 end
-arch blackforest2
+arch tree3cherry3
+x 37
+y 31
+end
+arch treed_hills
 x 37
 y 32
 elevation 2428
@@ -9303,6 +10377,10 @@ x 37
 y 39
 elevation 2364
 end
+arch tree3cherry3
+x 37
+y 39
+end
 arch hills_rocky
 x 37
 y 40
@@ -9313,42 +10391,62 @@ x 37
 y 41
 elevation 3439
 end
+arch tree3cherry2
+x 37
+y 41
+end
 arch hills
 x 37
 y 42
 elevation 3556
 end
-arch hills
+arch darkforest
 x 37
 y 43
 elevation 3112
 end
-arch hills_rocky
+arch darkforest
 x 37
 y 44
 elevation 2322
 end
-arch hills_rocky
+arch tree3cherry3
+x 37
+y 44
+end
+arch darkforest
 x 37
 y 45
 elevation 1919
 end
-arch hills_rocky
+arch tree3cherry3
+x 37
+y 45
+end
+arch darkforest
 x 37
 y 46
 elevation 1256
 end
-arch evergreens
+arch tree3cherry3
+x 37
+y 46
+end
+arch darkforest
 x 37
 y 47
 elevation 1191
+end
+arch tree3cherry3
+x 37
+y 47
 end
 arch evergreens
 x 37
 y 48
 elevation 1918
 end
-arch hills_rocky
+arch darkforest
 x 37
 y 49
 elevation 2002
@@ -9417,7 +10515,7 @@ x 38
 y 12
 elevation 1419
 end
-arch desert
+arch blackforest2
 x 38
 y 13
 elevation 745
@@ -9427,12 +10525,12 @@ x 38
 y 14
 elevation 1725
 end
-arch hills_rocky
+arch blackforest2
 x 38
 y 15
 elevation 2189
 end
-arch hills_rocky
+arch blackforest2
 x 38
 y 16
 elevation 2438
@@ -9492,17 +10590,17 @@ x 38
 y 27
 elevation 2952
 end
-arch hills_rocky
+arch treed_hills
 x 38
 y 28
 elevation 2669
 end
-arch hills_rocky
+arch treed_hills
 x 38
 y 29
 elevation 1897
 end
-arch hills_rocky
+arch treed_hills
 x 38
 y 30
 elevation 2858
@@ -9521,6 +10619,10 @@ arch darkforest
 x 38
 y 33
 elevation 3828
+end
+arch tree3cherry3
+x 38
+y 33
 end
 arch darkforest
 x 38
@@ -9557,22 +10659,22 @@ x 38
 y 40
 elevation 2238
 end
-arch hills
+arch darkforest
 x 38
 y 41
 elevation 3111
 end
-arch hills_rocky
+arch darkforest
 x 38
 y 42
 elevation 2691
 end
-arch blackforest2
+arch darkforest
 x 38
 y 43
 elevation 2841
 end
-arch hills_rocky
+arch darkforest
 x 38
 y 44
 elevation 2619
@@ -9582,22 +10684,34 @@ x 38
 y 45
 elevation 2241
 end
-arch hills
+arch darkforest
 x 38
 y 46
 elevation 2049
 end
-arch hills_rocky
+arch tree3cherry3
+x 38
+y 46
+end
+arch darkforest
 x 38
 y 47
 elevation 2078
 end
-arch hills_rocky
+arch tree3cherry3
+x 38
+y 47
+end
+arch darkforest
 x 38
 y 48
 elevation 2128
 end
-arch hills_rocky
+arch tree3cherry3
+x 38
+y 48
+end
+arch darkforest
 x 38
 y 49
 elevation 2112
@@ -9636,6 +10750,10 @@ x 39
 y 6
 elevation 2745
 end
+arch tree3birch1
+x 39
+y 6
+end
 arch jungle_1
 x 39
 y 7
@@ -9661,27 +10779,27 @@ x 39
 y 11
 elevation 1361
 end
-arch desert
+arch blackforest2
 x 39
 y 12
 elevation 851
 end
-arch desert
+arch blackforest2
 x 39
 y 13
 elevation 790
 end
-arch jungle_1
+arch blackforest2
 x 39
 y 14
 elevation 1331
 end
-arch hills_rocky
+arch blackforest2
 x 39
 y 15
 elevation 1929
 end
-arch hills_rocky
+arch blackforest2
 x 39
 y 16
 elevation 2480
@@ -9731,17 +10849,17 @@ x 39
 y 25
 elevation 2512
 end
-arch hills
+arch treed_hills
 x 39
 y 26
 elevation 3207
 end
-arch hills
+arch treed_hills
 x 39
 y 27
 elevation 3419
 end
-arch hills
+arch treed_hills
 x 39
 y 28
 elevation 3505
@@ -9826,7 +10944,7 @@ x 39
 y 40
 elevation 2404
 end
-arch hills_rocky
+arch darkforest
 x 39
 y 41
 elevation 2789
@@ -9846,12 +10964,12 @@ x 39
 y 44
 elevation 2503
 end
-arch hills_rocky
+arch darkforest
 x 39
 y 45
 elevation 2394
 end
-arch hills_rocky
+arch darkforest
 x 39
 y 46
 elevation 2325
@@ -9861,12 +10979,16 @@ x 39
 y 47
 elevation 2215
 end
-arch evergreens
+arch darkforest
 x 39
 y 48
 elevation 2209
 end
-arch evergreens
+arch tree3cherry3
+x 39
+y 48
+end
+arch darkforest
 x 39
 y 49
 elevation 1675
@@ -9905,6 +11027,10 @@ x 40
 y 6
 elevation 3069
 end
+arch tree3birch1
+x 40
+y 6
+end
 arch jungle_1
 x 40
 y 7
@@ -9935,12 +11061,12 @@ x 40
 y 12
 elevation 1202
 end
-arch desert
+arch blackforest2
 x 40
 y 13
 elevation 857
 end
-arch brush
+arch blackforest2
 x 40
 y 14
 elevation 380
@@ -9995,12 +11121,12 @@ x 40
 y 24
 elevation 1099
 end
-arch hills_rocky
+arch treed_hills
 x 40
 y 25
 elevation 2964
 end
-arch hills_rocky
+arch treed_hills
 x 40
 y 26
 elevation 2888
@@ -10091,7 +11217,7 @@ x 40
 y 40
 elevation 2095
 end
-arch hills_rocky
+arch darkforest
 x 40
 y 41
 elevation 2621
@@ -10106,7 +11232,11 @@ x 40
 y 43
 elevation 2423
 end
-arch hills_rocky
+arch tree3cherry3
+x 40
+y 43
+end
+arch darkforest
 x 40
 y 44
 elevation 1237
@@ -10116,7 +11246,7 @@ x 40
 y 45
 elevation 2380
 end
-arch evergreens
+arch darkforest
 x 40
 y 46
 elevation 2521
@@ -10126,15 +11256,19 @@ x 40
 y 47
 elevation 1504
 end
-arch evergreens
+arch darkforest
 x 40
 y 48
 elevation 2271
 end
-arch hills
+arch darkforest
 x 40
 y 49
 elevation 2614
+end
+arch tree3cherry3
+x 40
+y 49
 end
 arch mountain
 x 41
@@ -10165,10 +11299,18 @@ x 41
 y 5
 elevation 4004
 end
+arch tree3birch1
+x 41
+y 5
+end
 arch blackforest2
 x 41
 y 6
 elevation 3146
+end
+arch tree3birch1
+x 41
+y 6
 end
 arch jungle_1
 x 41
@@ -10235,6 +11377,10 @@ x 41
 y 19
 elevation 3047
 end
+arch tree3cherry3
+x 41
+y 19
+end
 arch hills_rocky
 x 41
 y 20
@@ -10245,22 +11391,22 @@ x 41
 y 21
 elevation 1000
 end
-arch hills
+arch treed_hills
 x 41
 y 22
 elevation 1806
 end
-arch hills
+arch treed_hills
 x 41
 y 23
 elevation 3104
 end
-arch hills
+arch treed_hills
 x 41
 y 24
 elevation 3461
 end
-arch hills
+arch treed_hills
 x 41
 y 25
 elevation 3609
@@ -10352,6 +11498,10 @@ x 41
 y 40
 elevation 1365
 end
+arch tree3cherry3
+x 41
+y 40
+end
 arch blackforest2
 x 41
 y 41
@@ -10361,6 +11511,10 @@ arch blackforest2
 x 41
 y 42
 elevation 2816
+end
+arch tree3cherry3
+x 41
+y 42
 end
 arch blackforest2
 x 41
@@ -10377,25 +11531,33 @@ x 41
 y 45
 elevation 2704
 end
-arch hills_rocky
+arch darkforest
 x 41
 y 46
 elevation 2859
 end
-arch hills
+arch darkforest
 x 41
 y 47
 elevation 2475
 end
-arch hills
+arch darkforest
 x 41
 y 48
 elevation 2490
 end
-arch hills_rocky
+arch tree3cherry3
+x 41
+y 48
+end
+arch darkforest
 x 41
 y 49
 elevation 2961
+end
+arch tree3cherry3
+x 41
+y 49
 end
 arch mountain
 x 42
@@ -10426,10 +11588,18 @@ x 42
 y 5
 elevation 3198
 end
+arch tree3birch1
+x 42
+y 5
+end
 arch blackforest2
 x 42
 y 6
 elevation 3105
+end
+arch tree3birch1
+x 42
+y 6
 end
 arch jungle_1
 x 42
@@ -10450,6 +11620,10 @@ arch blackforest2
 x 42
 y 10
 elevation 917
+end
+arch tree3birch1
+x 42
+y 10
 end
 arch blackforest2
 x 42
@@ -10637,27 +11811,35 @@ x 42
 y 44
 elevation 3288
 end
-arch hills
+arch darkforest
 x 42
 y 45
 elevation 3355
 end
-arch hills
+arch darkforest
 x 42
 y 46
 elevation 3259
 end
-arch evergreens
+arch darkforest
 x 42
 y 47
 elevation 2292
 end
-arch evergreens
+arch tree3cherry3
+x 42
+y 47
+end
+arch darkforest
 x 42
 y 48
 elevation 1281
 end
-arch hills
+arch tree3cherry3
+x 42
+y 48
+end
+arch darkforest
 x 42
 y 49
 elevation 3246
@@ -10686,6 +11868,10 @@ x 43
 y 4
 elevation 4751
 end
+arch tree3birch1
+x 43
+y 4
+end
 arch blackforest2
 x 43
 y 5
@@ -10695,6 +11881,10 @@ arch blackforest2
 x 43
 y 6
 elevation 3726
+end
+arch tree3birch1
+x 43
+y 6
 end
 arch blackforest2
 x 43
@@ -10906,27 +12096,35 @@ x 43
 y 44
 elevation 4399
 end
+arch tree3cherry3
+x 43
+y 44
+end
 arch blackforest2
 x 43
 y 45
 elevation 4005
 end
-arch hills
+arch darkforest
 x 43
 y 46
 elevation 3038
 end
-arch hills
+arch darkforest
 x 43
 y 47
 elevation 3137
 end
-arch hills
+arch tree3cherry3
+x 43
+y 47
+end
+arch darkforest
 x 43
 y 48
 elevation 3287
 end
-arch steppe
+arch darkforest
 x 43
 y 49
 elevation 3554
@@ -10955,6 +12153,10 @@ x 44
 y 4
 elevation 5026
 end
+arch tree3cherry3
+x 44
+y 4
+end
 arch blackforest2
 x 44
 y 5
@@ -10980,6 +12182,10 @@ x 44
 y 9
 elevation 1695
 end
+arch tree3birch1
+x 44
+y 9
+end
 arch blackforest2
 x 44
 y 10
@@ -10999,6 +12205,10 @@ arch blackforest2
 x 44
 y 13
 elevation 770
+end
+arch tree3birch1
+x 44
+y 13
 end
 arch darkforest
 x 44
@@ -11141,6 +12351,10 @@ x 44
 y 38
 elevation 4613
 end
+arch tree3cherry3
+x 44
+y 38
+end
 arch darkforest
 x 44
 y 39
@@ -11155,6 +12369,10 @@ arch darkforest
 x 44
 y 41
 elevation 4219
+end
+arch tree3cherry3
+x 44
+y 41
 end
 arch darkforest
 x 44
@@ -11186,12 +12404,16 @@ x 44
 y 47
 elevation 3993
 end
+arch tree3cherry3
+x 44
+y 47
+end
 arch blackforest2
 x 44
 y 48
 elevation 3816
 end
-arch steppe
+arch darkforest
 x 44
 y 49
 elevation 3700
@@ -11210,25 +12432,45 @@ x 45
 y 2
 elevation 5592
 end
+arch tree3cherry3
+x 45
+y 2
+end
 arch blackforest2
 x 45
 y 3
 elevation 4335
+end
+arch tree3cherry3
+x 45
+y 3
 end
 arch blackforest2
 x 45
 y 4
 elevation 5043
 end
+arch tree3cherry3
+x 45
+y 4
+end
 arch blackforest2
 x 45
 y 5
 elevation 5107
 end
+arch tree3cherry3
+x 45
+y 5
+end
 arch blackforest2
 x 45
 y 6
 elevation 4548
+end
+arch tree3birch1
+x 45
+y 6
 end
 arch blackforest2
 x 45
@@ -11249,6 +12491,10 @@ arch blackforest2
 x 45
 y 10
 elevation 314
+end
+arch tree3cherry3
+x 45
+y 10
 end
 arch blackforest2
 x 45
@@ -11467,6 +12713,10 @@ x 45
 y 47
 elevation 4656
 end
+arch tree3cherry3
+x 45
+y 47
+end
 arch blackforest2
 x 45
 y 48
@@ -11477,6 +12727,10 @@ x 45
 y 49
 elevation 1983
 end
+arch tree3cherry3
+x 45
+y 49
+end
 arch blackforest2
 x 46
 elevation 7720
@@ -11486,20 +12740,36 @@ x 46
 y 1
 elevation 6639
 end
+arch tree3birch1
+x 46
+y 1
+end
 arch blackforest2
 x 46
 y 2
 elevation 4822
+end
+arch tree3birch1
+x 46
+y 2
 end
 arch blackforest2
 x 46
 y 3
 elevation 4923
 end
+arch tree3birch1
+x 46
+y 3
+end
 arch blackforest2
 x 46
 y 4
 elevation 5051
+end
+arch tree3birch1
+x 46
+y 4
 end
 arch blackforest2
 x 46
@@ -11520,6 +12790,10 @@ arch blackforest2
 x 46
 y 8
 elevation 4397
+end
+arch tree3cherry3
+x 46
+y 8
 end
 arch blackforest2
 x 46
@@ -11822,6 +13096,10 @@ x 47
 y 8
 elevation 4889
 end
+arch tree3birch1
+x 47
+y 8
+end
 arch blackforest2
 x 47
 y 9
@@ -12081,6 +13359,10 @@ x 48
 y 2
 elevation 6144
 end
+arch tree3birch1
+x 48
+y 2
+end
 arch blackforest2
 x 48
 y 3
@@ -12095,6 +13377,10 @@ arch blackforest2
 x 48
 y 5
 elevation 4473
+end
+arch tree3birch1
+x 48
+y 5
 end
 arch blackforest2
 x 48
@@ -12307,6 +13593,10 @@ arch darkforest
 x 48
 y 41
 elevation 8399
+end
+arch tree3cherry3
+x 48
+y 41
 end
 arch darkforest
 x 48

@@ -4,13 +4,14 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2007-12-24 tchize
+Modified: 2019-04-15 lori
 endmsg
 outdoor 1
 tile_path_1 world_102_109
 tile_path_2 world_103_110
 tile_path_3 world_102_111
 tile_path_4 world_101_110
+background_music swamp01
 end
 arch mountain
 end
@@ -2112,7 +2113,7 @@ x 8
 y 31
 elevation 1674
 end
-arch desert
+arch woods_3
 x 8
 y 32
 elevation 474
@@ -2364,7 +2365,7 @@ arch evergreens2
 x 9
 y 30
 end
-arch desert
+arch woods_3
 x 9
 y 31
 elevation 364
@@ -2374,7 +2375,7 @@ x 9
 y 32
 elevation 77
 end
-arch desert
+arch woods_3
 x 9
 y 33
 elevation 176
@@ -2616,7 +2617,7 @@ x 10
 y 29
 elevation 1300
 end
-arch desert
+arch woods_3
 x 10
 y 30
 elevation 674
@@ -2631,7 +2632,7 @@ x 10
 y 32
 elevation 77
 end
-arch desert
+arch woods_3
 x 10
 y 33
 elevation 35
@@ -2887,12 +2888,12 @@ x 11
 y 31
 elevation 1021
 end
-arch desert
+arch woods_3
 x 11
 y 32
 elevation 78
 end
-arch desert
+arch woods_3
 x 11
 y 33
 elevation 376
@@ -3675,12 +3676,12 @@ x 14
 y 36
 elevation 6270
 end
-arch mountain
+arch woods_3
 x 14
 y 37
 elevation 6010
 end
-arch mountain
+arch woods_3
 x 14
 y 38
 elevation 5487
@@ -3897,22 +3898,22 @@ x 15
 y 29
 elevation 4935
 end
-arch mountain
+arch woods_3
 x 15
 y 30
 elevation 5548
 end
-arch mountain
+arch woods_3
 x 15
 y 31
 elevation 5734
 end
-arch mountain
+arch woods_3
 x 15
 y 32
 elevation 6002
 end
-arch mountain
+arch woods_3
 x 15
 y 33
 elevation 6737
@@ -3932,27 +3933,27 @@ x 15
 y 36
 elevation 6407
 end
-arch mountain
+arch woods_3
 x 15
 y 37
 elevation 6455
 end
-arch mountain
+arch woods_3
 x 15
 y 38
 elevation 7345
 end
-arch mountain
+arch marsh
 x 15
 y 39
 elevation 7745
 end
-arch mountain
+arch marsh
 x 15
 y 40
 elevation 7772
 end
-arch mountain2
+arch marsh
 x 15
 y 41
 elevation 10264
@@ -4158,67 +4159,67 @@ x 16
 y 29
 elevation 4916
 end
-arch mountain
+arch woods_3
 x 16
 y 30
 elevation 5758
 end
-arch mountain
+arch woods_3
 x 16
 y 31
 elevation 6060
 end
-arch mountain
+arch woods_3
 x 16
 y 32
 elevation 5353
 end
-arch mountain
+arch woods_3
 x 16
 y 33
 elevation 6807
 end
-arch mountain
+arch woods_3
 x 16
 y 34
 elevation 7090
 end
-arch mountain
+arch woods_3
 x 16
 y 35
 elevation 6883
 end
-arch mountain
+arch woods_3
 x 16
 y 36
 elevation 5969
 end
-arch mountain
+arch woods_3
 x 16
 y 37
 elevation 7968
 end
-arch mountain
+arch marsh
 x 16
 y 38
 elevation 8987
 end
-arch mountain2
+arch marsh
 x 16
 y 39
 elevation 9197
 end
-arch mountain2
+arch marsh
 x 16
 y 40
 elevation 9502
 end
-arch mountain2
+arch marsh
 x 16
 y 41
 elevation 10155
 end
-arch mountain2
+arch marsh
 x 16
 y 42
 elevation 11233
@@ -4410,17 +4411,17 @@ x 17
 y 29
 elevation 4069
 end
-arch mountain
+arch woods_3
 x 17
 y 30
 elevation 5120
 end
-arch mountain
+arch woods_3
 x 17
 y 31
 elevation 5728
 end
-arch mountain
+arch woods_3
 x 17
 y 32
 elevation 6396
@@ -4445,32 +4446,32 @@ x 17
 y 36
 elevation 7672
 end
-arch mountain2
+arch marsh
 x 17
 y 37
 elevation 9014
 end
-arch mountain2
+arch marsh
 x 17
 y 38
 elevation 10101
 end
-arch mountain2
+arch woods_3
 x 17
 y 39
 elevation 10245
 end
-arch mountain
+arch woods_3
 x 17
 y 40
 elevation 8153
 end
-arch mountain2
+arch woods_3
 x 17
 y 41
 elevation 10051
 end
-arch mountain2
+arch marsh
 x 17
 y 42
 elevation 9602
@@ -4710,12 +4711,12 @@ x 18
 y 36
 elevation 8343
 end
-arch mountain2
+arch marsh
 x 18
 y 37
 elevation 9542
 end
-arch mountain2
+arch marsh
 x 18
 y 38
 elevation 10522
@@ -4740,17 +4741,17 @@ x 18
 y 42
 elevation 8839
 end
-arch mountain2
+arch marsh
 x 18
 y 43
 elevation 9262
 end
-arch mountain
+arch marsh
 x 18
 y 44
 elevation 8886
 end
-arch mountain
+arch marsh
 x 18
 y 45
 elevation 8448
@@ -4974,17 +4975,17 @@ x 19
 y 35
 elevation 8665
 end
-arch mountain
+arch marsh
 x 19
 y 36
 elevation 8893
 end
-arch mountain
+arch marsh
 x 19
 y 37
 elevation 8421
 end
-arch mountain2
+arch marsh
 x 19
 y 38
 elevation 10557
@@ -5014,17 +5015,17 @@ x 19
 y 43
 elevation 8363
 end
-arch mountain
+arch marsh
 x 19
 y 44
 elevation 6583
 end
-arch mountain
+arch marsh
 x 19
 y 45
 elevation 7856
 end
-arch mountain
+arch marsh
 x 19
 y 46
 elevation 8124
@@ -5231,12 +5232,12 @@ x 20
 y 35
 elevation 8518
 end
-arch mountain2
+arch marsh
 x 20
 y 36
 elevation 9089
 end
-arch mountain2
+arch marsh
 x 20
 y 37
 elevation 9515
@@ -5281,7 +5282,7 @@ x 20
 y 45
 elevation 6851
 end
-arch mountain
+arch marsh
 x 20
 y 46
 elevation 6761
@@ -5457,7 +5458,7 @@ x 21
 y 28
 elevation 4650
 end
-arch mountain
+arch swamp
 x 21
 y 29
 elevation 5210
@@ -5467,12 +5468,12 @@ x 21
 y 30
 elevation 5899
 end
-arch mountain
+arch swamp
 x 21
 y 31
 elevation 6661
 end
-arch mountain
+arch swamp
 x 21
 y 32
 elevation 6904
@@ -5497,7 +5498,7 @@ x 21
 y 36
 elevation 8956
 end
-arch mountain
+arch marsh
 x 21
 y 37
 elevation 8603
@@ -5547,7 +5548,7 @@ x 21
 y 46
 elevation 5264
 end
-arch mountain
+arch marsh
 x 21
 y 47
 elevation 7114
@@ -5753,17 +5754,17 @@ x 22
 y 35
 elevation 8667
 end
-arch mountain
+arch marsh
 x 22
 y 36
 elevation 8581
 end
-arch mountain
+arch marsh
 x 22
 y 37
 elevation 7416
 end
-arch mountain
+arch marsh
 x 22
 y 38
 elevation 7585
@@ -5808,12 +5809,12 @@ x 22
 y 46
 elevation 6718
 end
-arch mountain
+arch marsh
 x 22
 y 47
 elevation 6868
 end
-arch mountain
+arch marsh
 x 22
 y 48
 elevation 7177
@@ -6043,12 +6044,12 @@ x 23
 y 36
 elevation 7968
 end
-arch mountain
+arch marsh
 x 23
 y 37
 elevation 8111
 end
-arch mountain
+arch marsh
 x 23
 y 38
 elevation 7134
@@ -6093,7 +6094,7 @@ x 23
 y 46
 elevation 6007
 end
-arch mountain
+arch marsh
 x 23
 y 47
 elevation 6574
@@ -6328,12 +6329,12 @@ x 24
 y 36
 elevation 7066
 end
-arch mountain
+arch marsh
 x 24
 y 37
 elevation 7583
 end
-arch mountain
+arch marsh
 x 24
 y 38
 elevation 6968
@@ -6343,12 +6344,12 @@ x 24
 y 39
 elevation 4367
 end
-arch mountain
+arch marsh
 x 24
 y 40
 elevation 5531
 end
-arch mountain
+arch marsh
 x 24
 y 41
 elevation 8364
@@ -6368,17 +6369,17 @@ x 24
 y 44
 elevation 9657
 end
-arch mountain
+arch marsh
 x 24
 y 45
 elevation 8604
 end
-arch mountain
+arch marsh
 x 24
 y 46
 elevation 7358
 end
-arch mountain
+arch marsh
 x 24
 y 47
 elevation 5657
@@ -6551,7 +6552,7 @@ x 25
 y 26
 elevation 3008
 end
-arch desert
+arch woods_3
 x 25
 y 27
 elevation 714
@@ -6604,22 +6605,22 @@ x 25
 y 35
 elevation 4275
 end
-arch mountain
+arch swamp
 x 25
 y 36
 elevation 5443
 end
-arch mountain
+arch marsh
 x 25
 y 37
 elevation 6149
 end
-arch mountain
+arch swamp
 x 25
 y 38
 elevation 6048
 end
-arch mountain
+arch swamp
 x 25
 y 39
 elevation 5496
@@ -6629,32 +6630,32 @@ x 25
 y 40
 elevation 4292
 end
-arch mountain
+arch marsh
 x 25
 y 41
 elevation 8151
 end
-arch mountain2
+arch marsh
 x 25
 y 42
 elevation 9559
 end
-arch mountain2
+arch marsh
 x 25
 y 43
 elevation 9953
 end
-arch mountain2
+arch marsh
 x 25
 y 44
 elevation 9689
 end
-arch mountain2
+arch marsh
 x 25
 y 45
 elevation 9343
 end
-arch mountain
+arch marsh
 x 25
 y 46
 elevation 8055
@@ -6912,42 +6913,42 @@ x 26
 y 38
 elevation 4469
 end
-arch mountain
+arch swamp
 x 26
 y 39
 elevation 5467
 end
-arch mountain
+arch swamp
 x 26
 y 40
 elevation 6632
 end
-arch mountain
+arch swamp
 x 26
 y 41
 elevation 8051
 end
-arch mountain2
+arch swamp
 x 26
 y 42
 elevation 9431
 end
-arch mountain
+arch swamp
 x 26
 y 43
 elevation 8003
 end
-arch mountain2
+arch swamp
 x 26
 y 44
 elevation 10056
 end
-arch mountain2
+arch swamp
 x 26
 y 45
 elevation 9892
 end
-arch mountain
+arch swamp
 x 26
 y 46
 elevation 8583
@@ -7220,47 +7221,47 @@ x 27
 y 37
 elevation 3565
 end
-arch woods_2
+arch marsh
 x 27
 y 38
 elevation 2681
 end
-arch mountain
+arch swamp
 x 27
 y 39
 elevation 5597
 end
-arch mountain
+arch marsh
 x 27
 y 40
 elevation 7058
 end
-arch mountain
+arch marsh
 x 27
 y 41
 elevation 7432
 end
-arch mountain2
+arch marsh
 x 27
 y 42
 elevation 9532
 end
-arch mountain2
+arch marsh
 x 27
 y 43
 elevation 10694
 end
-arch mountain2
+arch marsh
 x 27
 y 44
 elevation 10735
 end
-arch mountain2
+arch marsh
 x 27
 y 45
 elevation 10092
 end
-arch mountain
+arch swamp
 x 27
 y 46
 elevation 8599
@@ -7486,7 +7487,7 @@ arch tree5
 x 28
 y 34
 end
-arch woods_2
+arch marsh
 x 28
 y 35
 elevation 1015
@@ -7501,47 +7502,47 @@ x 28
 y 37
 elevation 4193
 end
-arch hills
+arch marsh
 x 28
 y 38
 elevation 4723
 end
-arch mountain
+arch swamp
 x 28
 y 39
 elevation 7190
 end
-arch mountain
+arch marsh
 x 28
 y 40
 elevation 8123
 end
-arch mountain
+arch marsh
 x 28
 y 41
 elevation 6406
 end
-arch mountain2
+arch marsh
 x 28
 y 42
 elevation 9924
 end
-arch mountain2
+arch marsh
 x 28
 y 43
 elevation 10889
 end
-arch mountain2
+arch marsh
 x 28
 y 44
 elevation 10682
 end
-arch mountain2
+arch swamp
 x 28
 y 45
 elevation 9699
 end
-arch mountain
+arch swamp
 x 28
 y 46
 elevation 8114
@@ -7775,62 +7776,62 @@ arch tree5
 x 29
 y 34
 end
-arch hills
+arch marsh
 x 29
 y 35
 elevation 3016
 end
-arch mountain
+arch swamp
 x 29
 y 36
 elevation 5242
 end
-arch mountain
+arch swamp
 x 29
 y 37
 elevation 6597
 end
-arch mountain
+arch swamp
 x 29
 y 38
 elevation 7932
 end
-arch mountain2
+arch swamp
 x 29
 y 39
 elevation 9056
 end
-arch mountain2
+arch swamp
 x 29
 y 40
 elevation 9522
 end
-arch mountain2
+arch swamp
 x 29
 y 41
 elevation 9737
 end
-arch mountain2
+arch swamp
 x 29
 y 42
 elevation 9735
 end
-arch mountain2
+arch swamp
 x 29
 y 43
 elevation 9991
 end
-arch mountain2
+arch swamp
 x 29
 y 44
 elevation 9685
 end
-arch mountain
+arch swamp
 x 29
 y 45
 elevation 7873
 end
-arch mountain
+arch swamp
 x 29
 y 46
 elevation 7871
@@ -8035,12 +8036,12 @@ x 30
 y 33
 elevation 4798
 end
-arch mountain
+arch marsh
 x 30
 y 34
 elevation 5648
 end
-arch mountain
+arch marsh
 x 30
 y 35
 elevation 6456
@@ -8080,37 +8081,37 @@ x 30
 y 42
 elevation 9387
 end
-arch mountain
+arch marsh
 x 30
 y 43
 elevation 8866
 end
-arch mountain
+arch marsh
 x 30
 y 44
 elevation 8382
 end
-arch mountain
+arch marsh
 x 30
 y 45
 elevation 7729
 end
-arch mountain
+arch marsh
 x 30
 y 46
 elevation 7006
 end
-arch mountain
+arch swamp
 x 30
 y 47
 elevation 6555
 end
-arch mountain
+arch swamp
 x 30
 y 48
 elevation 6271
 end
-arch mountain
+arch swamp
 x 30
 y 49
 elevation 6074
@@ -8278,17 +8279,17 @@ x 31
 y 31
 elevation 4443
 end
-arch mountain
+arch marsh
 x 31
 y 32
 elevation 5420
 end
-arch mountain
+arch marsh
 x 31
 y 33
 elevation 6517
 end
-arch mountain
+arch marsh
 x 31
 y 34
 elevation 7813
@@ -8333,17 +8334,17 @@ x 31
 y 42
 elevation 8300
 end
-arch mountain
+arch marsh
 x 31
 y 43
 elevation 6732
 end
-arch mountain
+arch marsh
 x 31
 y 44
 elevation 8213
 end
-arch mountain
+arch marsh
 x 31
 y 45
 elevation 6889
@@ -8353,17 +8354,17 @@ x 31
 y 46
 elevation 4642
 end
-arch mountain
+arch marsh
 x 31
 y 47
 elevation 5733
 end
-arch mountain
+arch marsh
 x 31
 y 48
 elevation 5882
 end
-arch mountain
+arch swamp
 x 31
 y 49
 elevation 5495
@@ -8423,7 +8424,7 @@ arch evergreens2
 x 32
 y 7
 end
-arch steppe
+arch woods_3
 x 32
 y 8
 elevation 3010
@@ -8563,7 +8564,7 @@ x 32
 y 31
 elevation 4766
 end
-arch mountain
+arch marsh
 x 32
 y 32
 elevation 5823
@@ -8618,37 +8619,37 @@ x 32
 y 42
 elevation 8246
 end
-arch mountain
+arch marsh
 x 32
 y 43
 elevation 8210
 end
-arch mountain
+arch marsh
 x 32
 y 44
 elevation 8549
 end
-arch mountain
+arch marsh
 x 32
 y 45
 elevation 8595
 end
-arch mountain
+arch marsh
 x 32
 y 46
 elevation 8189
 end
-arch mountain
+arch marsh
 x 32
 y 47
 elevation 7724
 end
-arch mountain
+arch marsh
 x 32
 y 48
 elevation 7331
 end
-arch mountain
+arch swamp
 x 32
 y 49
 elevation 6675
@@ -8662,32 +8663,32 @@ x 33
 y 1
 elevation 570
 end
-arch steppe
+arch woods_3
 x 33
 y 2
 elevation 3436
 end
-arch steppe
+arch woods_3
 x 33
 y 3
 elevation 4203
 end
-arch steppe
+arch woods_3
 x 33
 y 4
 elevation 4293
 end
-arch hills_rocky
+arch woods_3
 x 33
 y 5
 elevation 3952
 end
-arch steppe
+arch woods_3
 x 33
 y 6
 elevation 4067
 end
-arch steppe
+arch woods_3
 x 33
 y 7
 elevation 4214
@@ -8697,7 +8698,7 @@ x 33
 y 8
 elevation 4251
 end
-arch steppe
+arch woods_3
 x 33
 y 9
 elevation 3848
@@ -8824,7 +8825,7 @@ x 33
 y 31
 elevation 4278
 end
-arch mountain
+arch marsh
 x 33
 y 32
 elevation 5091
@@ -8884,32 +8885,32 @@ x 33
 y 43
 elevation 8502
 end
-arch mountain
+arch marsh
 x 33
 y 44
 elevation 8912
 end
-arch mountain2
+arch marsh
 x 33
 y 45
 elevation 9328
 end
-arch mountain2
+arch marsh
 x 33
 y 46
 elevation 9202
 end
-arch mountain
+arch marsh
 x 33
 y 47
 elevation 8391
 end
-arch mountain
+arch swamp
 x 33
 y 48
 elevation 8130
 end
-arch mountain
+arch swamp
 x 33
 y 49
 elevation 7825
@@ -8935,22 +8936,22 @@ x 34
 y 2
 elevation 3532
 end
-arch steppe
+arch woods_3
 x 34
 y 3
 elevation 4941
 end
-arch mountain
+arch moss
 x 34
 y 4
 elevation 5240
 end
-arch steppe
+arch woods_3
 x 34
 y 5
 elevation 4906
 end
-arch steppe
+arch moss
 x 34
 y 6
 elevation 4673
@@ -8960,12 +8961,12 @@ x 34
 y 7
 elevation 4721
 end
-arch steppe
+arch woods_3
 x 34
 y 8
 elevation 4740
 end
-arch steppe
+arch woods_3
 x 34
 y 9
 elevation 4400
@@ -9165,27 +9166,27 @@ x 34
 y 44
 elevation 7613
 end
-arch mountain2
+arch marsh
 x 34
 y 45
 elevation 9094
 end
-arch mountain
+arch marsh
 x 34
 y 46
 elevation 8763
 end
-arch mountain
+arch marsh
 x 34
 y 47
 elevation 7744
 end
-arch mountain
+arch marsh
 x 34
 y 48
 elevation 7408
 end
-arch mountain
+arch swamp
 x 34
 y 49
 elevation 7514
@@ -9194,12 +9195,12 @@ arch hills
 x 35
 elevation 1699
 end
-arch desert
+arch moss
 x 35
 y 1
 elevation 494
 end
-arch steppe
+arch woods_3
 x 35
 y 2
 elevation 3583
@@ -9209,17 +9210,17 @@ x 35
 y 3
 elevation 4882
 end
-arch mountain
+arch moss
 x 35
 y 4
 elevation 5099
 end
-arch steppe
+arch moss
 x 35
 y 5
 elevation 4709
 end
-arch steppe
+arch moss
 x 35
 y 6
 elevation 4403
@@ -9234,7 +9235,11 @@ x 35
 y 8
 elevation 4536
 end
-arch steppe
+arch woods5
+x 35
+y 8
+end
+arch woods_3
 x 35
 y 9
 elevation 3941
@@ -9430,27 +9435,27 @@ x 35
 y 44
 elevation 8766
 end
-arch mountain
+arch marsh
 x 35
 y 45
 elevation 8273
 end
-arch mountain
+arch marsh
 x 35
 y 46
 elevation 7421
 end
-arch mountain
+arch marsh
 x 35
 y 47
 elevation 6160
 end
-arch hills
+arch marsh
 x 35
 y 48
 elevation 4531
 end
-arch mountain
+arch swamp
 x 35
 y 49
 elevation 6030
@@ -9469,12 +9474,12 @@ x 36
 y 2
 elevation 2934
 end
-arch steppe
+arch moss
 x 36
 y 3
 elevation 4199
 end
-arch steppe
+arch moss
 x 36
 y 4
 elevation 4364
@@ -9488,7 +9493,7 @@ arch evergreens2
 x 36
 y 5
 end
-arch steppe
+arch moss
 x 36
 y 6
 elevation 3220
@@ -9631,12 +9636,12 @@ x 36
 y 32
 elevation 4476
 end
-arch mountain
+arch marsh
 x 36
 y 33
 elevation 5004
 end
-arch mountain
+arch marsh
 x 36
 y 34
 elevation 5117
@@ -9691,17 +9696,17 @@ x 36
 y 44
 elevation 9186
 end
-arch mountain
+arch marsh
 x 36
 y 45
 elevation 7938
 end
-arch steppe
+arch marsh
 x 36
 y 46
 elevation 4346
 end
-arch steppe
+arch marsh
 x 36
 y 47
 elevation 4719
@@ -9711,7 +9716,7 @@ x 36
 y 48
 elevation 3770
 end
-arch steppe
+arch swamp
 x 36
 y 49
 elevation 3535
@@ -9740,7 +9745,7 @@ x 37
 y 4
 elevation 3409
 end
-arch steppe
+arch moss
 x 37
 y 5
 elevation 3306
@@ -9750,10 +9755,14 @@ x 37
 y 6
 elevation 3415
 end
-arch steppe
+arch moss
 x 37
 y 7
 elevation 3178
+end
+arch tree5bblack
+x 37
+y 7
 end
 arch hills
 x 37
@@ -9774,6 +9783,10 @@ arch woods_3
 x 37
 y 11
 elevation 1677
+end
+arch shrub4b
+x 37
+y 11
 end
 arch grass
 x 37
@@ -9858,7 +9871,7 @@ arch evergreens2
 x 37
 y 26
 end
-arch desert
+arch woods_3
 x 37
 y 27
 elevation 553
@@ -9887,17 +9900,17 @@ x 37
 y 31
 elevation 4521
 end
-arch mountain
+arch marsh
 x 37
 y 32
 elevation 5391
 end
-arch mountain
+arch marsh
 x 37
 y 33
 elevation 6500
 end
-arch mountain
+arch marsh
 x 37
 y 34
 elevation 6783
@@ -9952,12 +9965,12 @@ x 37
 y 44
 elevation 9641
 end
-arch mountain
+arch marsh
 x 37
 y 45
 elevation 8111
 end
-arch mountain
+arch marsh
 x 37
 y 46
 elevation 5296
@@ -9967,7 +9980,7 @@ x 37
 y 47
 elevation 4687
 end
-arch steppe
+arch marsh
 x 37
 y 48
 elevation 3676
@@ -9977,7 +9990,7 @@ x 37
 y 49
 elevation 1730
 end
-arch steppe
+arch moss
 x 38
 elevation 3034
 end
@@ -9996,6 +10009,10 @@ x 38
 y 3
 elevation 1875
 end
+arch shrub4b
+x 38
+y 3
+end
 arch woods_3
 x 38
 y 4
@@ -10006,12 +10023,12 @@ x 38
 y 5
 elevation 3157
 end
-arch steppe
+arch moss
 x 38
 y 6
 elevation 3060
 end
-arch woods_3
+arch moss
 x 38
 y 7
 elevation 2586
@@ -10140,17 +10157,17 @@ x 38
 y 31
 elevation 3192
 end
-arch mountain
+arch marsh
 x 38
 y 32
 elevation 6290
 end
-arch mountain
+arch marsh
 x 38
 y 33
 elevation 7442
 end
-arch mountain
+arch marsh
 x 38
 y 34
 elevation 7480
@@ -10205,12 +10222,12 @@ x 38
 y 44
 elevation 9735
 end
-arch mountain
+arch marsh
 x 38
 y 45
 elevation 8321
 end
-arch mountain
+arch marsh
 x 38
 y 46
 elevation 6543
@@ -10263,7 +10280,7 @@ x 39
 y 5
 elevation 2414
 end
-arch steppe
+arch moss
 x 39
 y 6
 elevation 3453
@@ -10293,7 +10310,7 @@ x 39
 y 11
 elevation 2791
 end
-arch steppe
+arch woods_3
 x 39
 y 12
 elevation 3223
@@ -10327,6 +10344,10 @@ arch steppe
 x 39
 y 18
 elevation 3765
+end
+arch shrub4b
+x 39
+y 18
 end
 arch hills_rocky
 x 39
@@ -10393,77 +10414,77 @@ x 39
 y 31
 elevation 4538
 end
-arch mountain
+arch marsh
 x 39
 y 32
 elevation 6370
 end
-arch mountain
+arch marsh
 x 39
 y 33
 elevation 7591
 end
-arch mountain
+arch marsh
 x 39
 y 34
 elevation 7685
 end
-arch mountain
+arch marsh
 x 39
 y 35
 elevation 5589
 end
-arch mountain
+arch marsh
 x 39
 y 36
 elevation 8245
 end
-arch mountain
+arch marsh
 x 39
 y 37
 elevation 7562
 end
-arch mountain
+arch marsh
 x 39
 y 38
 elevation 8061
 end
-arch mountain
+arch marsh
 x 39
 y 39
 elevation 8664
 end
-arch mountain
+arch marsh
 x 39
 y 40
 elevation 8377
 end
-arch mountain
+arch marsh
 x 39
 y 41
 elevation 8676
 end
-arch mountain2
+arch marsh
 x 39
 y 42
 elevation 9086
 end
-arch mountain2
+arch marsh
 x 39
 y 43
 elevation 9490
 end
-arch mountain
+arch marsh
 x 39
 y 44
 elevation 8844
 end
-arch mountain
+arch marsh
 x 39
 y 45
 elevation 7499
 end
-arch mountain
+arch marsh
 x 39
 y 46
 elevation 5960
@@ -10507,42 +10528,42 @@ x 40
 y 4
 elevation 2960
 end
-arch steppe
+arch moss
 x 40
 y 5
 elevation 3670
 end
-arch steppe
+arch moss
 x 40
 y 6
 elevation 3917
 end
-arch steppe
+arch swamp
 x 40
 y 7
 elevation 3731
 end
-arch steppe
+arch swamp
 x 40
 y 8
 elevation 3390
 end
-arch steppe
+arch swamp
 x 40
 y 9
 elevation 3179
 end
-arch steppe
+arch swamp
 x 40
 y 10
 elevation 3410
 end
-arch hills_rocky
+arch swamp
 x 40
 y 11
 elevation 4035
 end
-arch steppe
+arch woods_3
 x 40
 y 12
 elevation 4621
@@ -10650,72 +10671,72 @@ x 40
 y 31
 elevation 4818
 end
-arch mountain
+arch marsh
 x 40
 y 32
 elevation 5939
 end
-arch mountain
+arch marsh
 x 40
 y 33
 elevation 6894
 end
-arch mountain
+arch marsh
 x 40
 y 34
 elevation 7551
 end
-arch mountain
+arch marsh
 x 40
 y 35
 elevation 8440
 end
-arch mountain2
+arch marsh
 x 40
 y 36
 elevation 9074
 end
-arch mountain2
+arch marsh
 x 40
 y 37
 elevation 9838
 end
-arch mountain2
+arch marsh
 x 40
 y 38
 elevation 10042
 end
-arch mountain2
+arch marsh
 x 40
 y 39
 elevation 10084
 end
-arch mountain2
+arch marsh
 x 40
 y 40
 elevation 9761
 end
-arch mountain2
+arch marsh
 x 40
 y 41
 elevation 9050
 end
-arch mountain2
+arch marsh
 x 40
 y 42
 elevation 9164
 end
-arch mountain
+arch marsh
 x 40
 y 43
 elevation 8192
 end
-arch mountain
+arch marsh
 x 40
 y 44
 elevation 7411
 end
-arch mountain
+arch marsh
 x 40
 y 45
 elevation 5949
@@ -10759,32 +10780,40 @@ x 41
 y 3
 elevation 2438
 end
-arch steppe
+arch moss
 x 41
 y 4
 elevation 3203
 end
-arch hills_rocky
+arch woods_3
 x 41
 y 5
 elevation 3674
 end
-arch steppe
+arch shrub02
+x 41
+y 5
+end
+arch swamp
 x 41
 y 6
 elevation 3691
 end
-arch steppe
+arch swamp
 x 41
 y 7
 elevation 3669
 end
-arch steppe
+arch tree5bblack
+x 41
+y 7
+end
+arch moss
 x 41
 y 8
 elevation 3820
 end
-arch steppe
+arch moss
 x 41
 y 9
 elevation 3400
@@ -10794,21 +10823,21 @@ x 41
 y 10
 elevation 2169
 end
-arch evergreens2
+arch tree5bblack
 x 41
 y 10
 end
-arch hills_rocky
+arch swamp
 x 41
 y 11
 elevation 4299
 end
-arch mountain
+arch marsh
 x 41
 y 12
 elevation 5560
 end
-arch mountain
+arch marsh
 x 41
 y 13
 elevation 5250
@@ -10923,67 +10952,67 @@ x 41
 y 31
 elevation 4357
 end
-arch mountain
+arch marsh
 x 41
 y 32
 elevation 5301
 end
-arch mountain
+arch marsh
 x 41
 y 33
 elevation 5398
 end
-arch mountain
+arch marsh
 x 41
 y 34
 elevation 6931
 end
-arch mountain
+arch marsh
 x 41
 y 35
 elevation 7681
 end
-arch mountain2
+arch marsh
 x 41
 y 36
 elevation 9760
 end
-arch mountain2
+arch marsh
 x 41
 y 37
 elevation 10981
 end
-arch mountain2
+arch marsh
 x 41
 y 38
 elevation 11221
 end
-arch mountain2
+arch marsh
 x 41
 y 39
 elevation 10585
 end
-arch mountain2
+arch marsh
 x 41
 y 40
 elevation 9910
 end
-arch mountain2
+arch marsh
 x 41
 y 41
 elevation 9325
 end
-arch mountain
+arch marsh
 x 41
 y 42
 elevation 8813
 end
-arch mountain
+arch marsh
 x 41
 y 43
 elevation 7791
 end
-arch mountain
+arch marsh
 x 41
 y 44
 elevation 5926
@@ -11041,7 +11070,7 @@ x 42
 y 4
 elevation 2813
 end
-arch hills
+arch swamp
 x 42
 y 5
 elevation 2923
@@ -11051,17 +11080,17 @@ x 42
 y 6
 elevation 1563
 end
-arch woods_3
+arch swamp
 x 42
 y 7
 elevation 2626
 end
-arch steppe
+arch moss
 x 42
 y 8
 elevation 3240
 end
-arch steppe
+arch moss
 x 42
 y 9
 elevation 3067
@@ -11071,17 +11100,17 @@ x 42
 y 10
 elevation 964
 end
-arch steppe
+arch swamp
 x 42
 y 11
 elevation 4152
 end
-arch mountain
+arch marsh
 x 42
 y 12
 elevation 5883
 end
-arch mountain
+arch marsh
 x 42
 y 13
 elevation 6072
@@ -11186,57 +11215,57 @@ x 42
 y 33
 elevation 4934
 end
-arch mountain
+arch marsh
 x 42
 y 34
 elevation 5594
 end
-arch mountain
+arch marsh
 x 42
 y 35
 elevation 6490
 end
-arch mountain2
+arch marsh
 x 42
 y 36
 elevation 9437
 end
-arch mountain2
+arch marsh
 x 42
 y 37
 elevation 10975
 end
-arch mountain2
+arch marsh
 x 42
 y 38
 elevation 11306
 end
-arch mountain2
+arch marsh
 x 42
 y 39
 elevation 10803
 end
-arch mountain
+arch marsh
 x 42
 y 40
 elevation 7912
 end
-arch mountain2
+arch marsh
 x 42
 y 41
 elevation 9158
 end
-arch mountain
+arch marsh
 x 42
 y 42
 elevation 8318
 end
-arch mountain
+arch marsh
 x 42
 y 43
 elevation 6968
 end
-arch mountain
+arch marsh
 x 42
 y 44
 elevation 5639
@@ -11266,7 +11295,7 @@ x 42
 y 49
 elevation 4740
 end
-arch steppe
+arch moss
 x 43
 elevation 3737
 end
@@ -11310,27 +11339,27 @@ x 43
 y 8
 elevation 2141
 end
-arch steppe
+arch moss
 x 43
 y 9
 elevation 3228
 end
-arch steppe
+arch moss
 x 43
 y 10
 elevation 3397
 end
-arch steppe
+arch swamp
 x 43
 y 11
 elevation 4614
 end
-arch mountain
+arch marsh
 x 43
 y 12
 elevation 5835
 end
-arch mountain
+arch marsh
 x 43
 y 13
 elevation 6246
@@ -11415,67 +11444,67 @@ x 43
 y 29
 elevation 2706
 end
-arch woods_2
+arch marsh
 x 43
 y 30
 elevation 2527
 end
-arch hills
+arch marsh
 x 43
 y 31
 elevation 3707
 end
-arch hills
+arch marsh
 x 43
 y 32
 elevation 4887
 end
-arch mountain
+arch marsh
 x 43
 y 33
 elevation 5869
 end
-arch mountain
+arch marsh
 x 43
 y 34
 elevation 7052
 end
-arch mountain
+arch marsh
 x 43
 y 35
 elevation 7358
 end
-arch mountain2
+arch marsh
 x 43
 y 36
 elevation 9445
 end
-arch mountain
+arch marsh
 x 43
 y 37
 elevation 8464
 end
-arch mountain2
+arch swamp
 x 43
 y 38
 elevation 11197
 end
-arch mountain2
+arch swamp
 x 43
 y 39
 elevation 10898
 end
-arch mountain2
+arch swamp
 x 43
 y 40
 elevation 9837
 end
-arch mountain
+arch swamp
 x 43
 y 41
 elevation 8693
 end
-arch mountain
+arch marsh
 x 43
 y 42
 elevation 7233
@@ -11484,6 +11513,10 @@ arch hills
 x 43
 y 43
 elevation 4946
+end
+arch tree6_budding
+x 43
+y 43
 end
 arch hills
 x 43
@@ -11500,22 +11533,22 @@ x 43
 y 46
 elevation 4009
 end
-arch mountain
+arch swamp
 x 43
 y 47
 elevation 5008
 end
-arch mountain
+arch swamp
 x 43
 y 48
 elevation 5414
 end
-arch mountain
+arch swamp
 x 43
 y 49
 elevation 5659
 end
-arch steppe
+arch moss
 x 44
 elevation 4608
 end
@@ -11549,42 +11582,50 @@ x 44
 y 6
 elevation 2571
 end
-arch steppe
+arch moss
 x 44
 y 7
 elevation 3254
 end
-arch steppe
+arch moss
 x 44
 y 8
 elevation 3996
 end
-arch steppe
+arch moss
 x 44
 y 9
 elevation 3943
 end
-arch steppe
+arch fern_giant
+x 44
+y 9
+end
+arch moss
 x 44
 y 10
 elevation 3052
 end
-arch mountain
+arch woods5
+x 44
+y 10
+end
+arch marsh
 x 44
 y 11
 elevation 5035
 end
-arch mountain
+arch marsh
 x 44
 y 12
 elevation 6038
 end
-arch mountain
+arch marsh
 x 44
 y 13
 elevation 5579
 end
-arch steppe
+arch woods_3
 x 44
 y 14
 elevation 4123
@@ -11668,67 +11709,79 @@ x 44
 y 29
 elevation 3580
 end
+arch shrub02
+x 44
+y 29
+end
 arch hills
 x 44
 y 30
 elevation 3092
 end
-arch hills_rocky
+arch shrub02
+x 44
+y 30
+end
+arch marsh
 x 44
 y 31
 elevation 1737
 end
-arch mountain
+arch marsh
 x 44
 y 32
 elevation 5043
 end
-arch mountain
+arch marsh
 x 44
 y 33
 elevation 6991
 end
-arch mountain
+arch marsh
 x 44
 y 34
 elevation 8364
 end
-arch mountain2
+arch marsh
 x 44
 y 35
 elevation 9325
 end
-arch mountain2
+arch tree6_budding
+x 44
+y 35
+end
+arch marsh
 x 44
 y 36
 elevation 9876
 end
-arch mountain2
+arch swamp
 x 44
 y 37
 elevation 10555
 end
-arch mountain2
+arch swamp
 x 44
 y 38
 elevation 11173
 end
-arch mountain2
+arch swamp
 x 44
 y 39
 elevation 11266
 end
-arch mountain2
+arch swamp
 x 44
 y 40
 elevation 10103
 end
-arch mountain
+arch swamp
 x 44
 y 41
 elevation 7198
 end
-arch mountain
+arch swamp
 x 44
 y 42
 elevation 6550
@@ -11753,34 +11806,42 @@ x 44
 y 46
 elevation 4949
 end
-arch mountain
+arch swamp
 x 44
 y 47
 elevation 5443
 end
-arch mountain
+arch swamp
 x 44
 y 48
 elevation 5122
 end
-arch mountain
+arch swamp
 x 44
 y 49
 elevation 6104
 end
-arch mountain
+arch moss
 x 45
 elevation 5765
 end
-arch steppe
+arch moss
 x 45
 y 1
 elevation 4724
 end
-arch steppe
+arch woods5
+x 45
+y 1
+end
+arch moss
 x 45
 y 2
 elevation 3263
+end
+arch shrub4b
+x 45
+y 2
 end
 arch woods_3
 x 45
@@ -11802,17 +11863,17 @@ x 45
 y 6
 elevation 2669
 end
-arch steppe
+arch moss
 x 45
 y 7
 elevation 4373
 end
-arch mountain
+arch marsh
 x 45
 y 8
 elevation 5323
 end
-arch mountain
+arch marsh
 x 45
 y 9
 elevation 5031
@@ -11822,17 +11883,21 @@ x 45
 y 10
 elevation 2669
 end
-arch mountain
+arch marsh
 x 45
 y 11
 elevation 5242
 end
-arch mountain
+arch marsh
 x 45
 y 12
 elevation 5446
 end
-arch steppe
+arch tree5bblack
+x 45
+y 12
+end
+arch woods_3
 x 45
 y 13
 elevation 4072
@@ -11922,7 +11987,7 @@ x 45
 y 30
 elevation 4107
 end
-arch hills
+arch marsh
 x 45
 y 31
 elevation 2966
@@ -11932,52 +11997,56 @@ x 45
 y 32
 elevation 4534
 end
-arch mountain
+arch marsh
 x 45
 y 33
 elevation 7645
 end
-arch mountain
+arch marsh
 x 45
 y 34
 elevation 8966
 end
-arch mountain2
+arch marsh
 x 45
 y 35
 elevation 9676
 end
-arch mountain2
+arch swamp
 x 45
 y 36
 elevation 10292
 end
-arch mountain2
+arch swamp
 x 45
 y 37
 elevation 10869
 end
-arch mountain2
+arch tree6_budding
+x 45
+y 37
+end
+arch swamp
 x 45
 y 38
 elevation 11218
 end
-arch mountain2
+arch swamp
 x 45
 y 39
 elevation 11114
 end
-arch mountain2
+arch swamp
 x 45
 y 40
 elevation 10081
 end
-arch mountain
+arch swamp
 x 45
 y 41
 elevation 8393
 end
-arch mountain
+arch swamp
 x 45
 y 42
 elevation 6406
@@ -11997,36 +12066,36 @@ x 45
 y 45
 elevation 4056
 end
-arch mountain
+arch swamp
 x 45
 y 46
 elevation 5168
 end
-arch mountain
+arch swamp
 x 45
 y 47
 elevation 5913
 end
-arch mountain
+arch swamp
 x 45
 y 48
 elevation 5757
 end
-arch mountain
+arch swamp
 x 45
 y 49
 elevation 6399
 end
-arch mountain
+arch moss
 x 46
 elevation 7014
 end
-arch mountain
+arch moss
 x 46
 y 1
 elevation 5946
 end
-arch steppe
+arch moss
 x 46
 y 2
 elevation 4131
@@ -12035,6 +12104,10 @@ arch woods_3
 x 46
 y 3
 elevation 2353
+end
+arch woods5
+x 46
+y 3
 end
 arch cobblestones
 x 46
@@ -12051,32 +12124,32 @@ x 46
 y 6
 elevation 1532
 end
-arch steppe
+arch moss
 x 46
 y 7
 elevation 4525
 end
-arch mountain
+arch marsh
 x 46
 y 8
 elevation 5845
 end
-arch mountain
+arch marsh
 x 46
 y 9
 elevation 5801
 end
-arch mountain
+arch marsh
 x 46
 y 10
 elevation 5433
 end
-arch mountain
+arch marsh
 x 46
 y 11
 elevation 5343
 end
-arch steppe
+arch moss
 x 46
 y 12
 elevation 4577
@@ -12171,67 +12244,67 @@ x 46
 y 30
 elevation 4198
 end
-arch mountain
+arch marsh
 x 46
 y 31
 elevation 5031
 end
-arch mountain
+arch marsh
 x 46
 y 32
 elevation 6892
 end
-arch mountain
+arch marsh
 x 46
 y 33
 elevation 8089
 end
-arch mountain
+arch marsh
 x 46
 y 34
 elevation 8624
 end
-arch mountain
+arch swamp
 x 46
 y 35
 elevation 8682
 end
-arch mountain2
+arch swamp
 x 46
 y 36
 elevation 9154
 end
-arch mountain2
+arch swamp
 x 46
 y 37
 elevation 9731
 end
-arch mountain2
+arch swamp
 x 46
 y 38
 elevation 10263
 end
-arch mountain2
+arch swamp
 x 46
 y 39
 elevation 10105
 end
-arch mountain2
+arch swamp
 x 46
 y 40
 elevation 9541
 end
-arch mountain
+arch swamp
 x 46
 y 41
 elevation 8173
 end
-arch mountain
+arch swamp
 x 46
 y 42
 elevation 6125
 end
-arch mountain
+arch swamp
 x 46
 y 43
 elevation 5190
@@ -12246,36 +12319,36 @@ x 46
 y 45
 elevation 3572
 end
-arch mountain
+arch swamp
 x 46
 y 46
 elevation 5078
 end
-arch mountain
+arch swamp
 x 46
 y 47
 elevation 6235
 end
-arch mountain
+arch swamp
 x 46
 y 48
 elevation 7060
 end
-arch mountain
+arch swamp
 x 46
 y 49
 elevation 7995
 end
-arch mountain
+arch moss
 x 47
 elevation 7131
 end
-arch mountain
+arch moss
 x 47
 y 1
 elevation 5373
 end
-arch steppe
+arch moss
 x 47
 y 2
 elevation 3661
@@ -12300,32 +12373,36 @@ x 47
 y 6
 elevation 2083
 end
-arch steppe
+arch moss
 x 47
 y 7
 elevation 4162
 end
-arch mountain
+arch marsh
 x 47
 y 8
 elevation 5354
 end
-arch mountain
+arch marsh
 x 47
 y 9
 elevation 5893
 end
-arch mountain
+arch marsh
 x 47
 y 10
 elevation 5890
 end
-arch mountain
+arch tree5bblack
+x 47
+y 10
+end
+arch marsh
 x 47
 y 11
 elevation 5120
 end
-arch steppe
+arch moss
 x 47
 y 12
 elevation 3506
@@ -12415,72 +12492,72 @@ x 47
 y 29
 elevation 7991
 end
-arch mountain
+arch swamp
 x 47
 y 30
 elevation 7795
 end
-arch mountain
+arch marsh
 x 47
 y 31
 elevation 7820
 end
-arch mountain
+arch marsh
 x 47
 y 32
 elevation 8207
 end
-arch mountain
+arch marsh
 x 47
 y 33
 elevation 8427
 end
-arch mountain
+arch marsh
 x 47
 y 34
 elevation 8148
 end
-arch mountain
+arch swamp
 x 47
 y 35
 elevation 6135
 end
-arch mountain
+arch swamp
 x 47
 y 36
 elevation 5326
 end
-arch mountain
+arch swamp
 x 47
 y 37
 elevation 8585
 end
-arch mountain
+arch swamp
 x 47
 y 38
 elevation 7765
 end
-arch mountain
+arch swamp
 x 47
 y 39
 elevation 8829
 end
-arch mountain
+arch swamp
 x 47
 y 40
 elevation 7986
 end
-arch mountain
+arch swamp
 x 47
 y 41
 elevation 7757
 end
-arch mountain
+arch swamp
 x 47
 y 42
 elevation 6939
 end
-arch mountain
+arch swamp
 x 47
 y 43
 elevation 5672
@@ -12495,31 +12572,31 @@ x 47
 y 45
 elevation 4213
 end
-arch mountain
+arch swamp
 x 47
 y 46
 elevation 5293
 end
-arch mountain
+arch swamp
 x 47
 y 47
 elevation 5394
 end
-arch mountain
+arch swamp
 x 47
 y 48
 elevation 8377
 end
-arch mountain
+arch swamp
 x 47
 y 49
 elevation 8843
 end
-arch mountain
+arch moss
 x 48
 elevation 6264
 end
-arch steppe
+arch moss
 x 48
 y 1
 elevation 3427
@@ -12549,7 +12626,7 @@ x 48
 y 6
 elevation 3739
 end
-arch steppe
+arch moss
 x 48
 y 7
 elevation 4153
@@ -12559,22 +12636,22 @@ x 48
 y 8
 elevation 2609
 end
-arch mountain
+arch marsh
 x 48
 y 9
 elevation 5783
 end
-arch mountain
+arch marsh
 x 48
 y 10
 elevation 6130
 end
-arch steppe
+arch moss
 x 48
 y 11
 elevation 3536
 end
-arch woods_3
+arch moss
 x 48
 y 12
 elevation 2344
@@ -12649,87 +12726,87 @@ x 48
 y 26
 elevation 4961
 end
-arch mountain
+arch swamp
 x 48
 y 27
 elevation 6488
 end
-arch mountain
+arch swamp
 x 48
 y 28
 elevation 7843
 end
-arch mountain
+arch swamp
 x 48
 y 29
 elevation 8608
 end
-arch mountain2
+arch swamp
 x 48
 y 30
 elevation 9008
 end
-arch mountain2
+arch swamp
 x 48
 y 31
 elevation 9388
 end
-arch mountain2
+arch swamp
 x 48
 y 32
 elevation 9235
 end
-arch mountain
+arch swamp
 x 48
 y 33
 elevation 7541
 end
-arch mountain
+arch swamp
 x 48
 y 34
 elevation 7483
 end
-arch mountain
+arch swamp
 x 48
 y 35
 elevation 7726
 end
-arch mountain
+arch swamp
 x 48
 y 36
 elevation 7953
 end
-arch mountain
+arch swamp
 x 48
 y 37
 elevation 7979
 end
-arch mountain
+arch swamp
 x 48
 y 38
 elevation 7479
 end
-arch mountain
+arch swamp
 x 48
 y 39
 elevation 7550
 end
-arch mountain
+arch swamp
 x 48
 y 40
 elevation 7606
 end
-arch mountain
+arch swamp
 x 48
 y 41
 elevation 7576
 end
-arch mountain
+arch swamp
 x 48
 y 42
 elevation 7188
 end
-arch mountain
+arch swamp
 x 48
 y 43
 elevation 5842
@@ -12739,32 +12816,32 @@ x 48
 y 44
 elevation 4829
 end
-arch mountain
+arch swamp
 x 48
 y 45
 elevation 6366
 end
-arch mountain
+arch swamp
 x 48
 y 46
 elevation 7220
 end
-arch mountain
+arch swamp
 x 48
 y 47
 elevation 8258
 end
-arch mountain2
+arch swamp
 x 48
 y 48
 elevation 9299
 end
-arch mountain2
+arch swamp
 x 48
 y 49
 elevation 10472
 end
-arch steppe
+arch moss
 x 49
 elevation 4674
 end
@@ -12798,27 +12875,27 @@ x 49
 y 6
 elevation 3895
 end
-arch steppe
+arch moss
 x 49
 y 7
 elevation 4502
 end
-arch steppe
+arch moss
 x 49
 y 8
 elevation 3856
 end
-arch mountain
+arch marsh
 x 49
 y 9
 elevation 6458
 end
-arch mountain
+arch marsh
 x 49
 y 10
 elevation 6740
 end
-arch steppe
+arch moss
 x 49
 y 11
 elevation 4856
@@ -12898,117 +12975,117 @@ x 49
 y 26
 elevation 4738
 end
-arch mountain
+arch swamp
 x 49
 y 27
 elevation 6408
 end
-arch mountain
+arch swamp
 x 49
 y 28
 elevation 7516
 end
-arch mountain
+arch swamp
 x 49
 y 29
 elevation 7426
 end
-arch mountain
+arch swamp
 x 49
 y 30
 elevation 8727
 end
-arch mountain2
+arch swamp
 x 49
 y 31
 elevation 10343
 end
-arch mountain2
+arch swamp
 x 49
 y 32
 elevation 10195
 end
-arch mountain
+arch swamp
 x 49
 y 33
 elevation 8662
 end
-arch mountain
+arch swamp
 x 49
 y 34
 elevation 7949
 end
-arch mountain
+arch swamp
 x 49
 y 35
 elevation 8157
 end
-arch mountain
+arch swamp
 x 49
 y 36
 elevation 8249
 end
-arch mountain
+arch swamp
 x 49
 y 37
 elevation 8169
 end
-arch mountain
+arch swamp
 x 49
 y 38
 elevation 7599
 end
-arch mountain
+arch swamp
 x 49
 y 39
 elevation 6304
 end
-arch mountain
+arch swamp
 x 49
 y 40
 elevation 5967
 end
-arch mountain
+arch swamp
 x 49
 y 41
 elevation 7425
 end
-arch mountain
+arch swamp
 x 49
 y 42
 elevation 7084
 end
-arch mountain
+arch swamp
 x 49
 y 43
 elevation 6294
 end
-arch mountain
+arch swamp
 x 49
 y 44
 elevation 6412
 end
-arch mountain
+arch swamp
 x 49
 y 45
 elevation 7567
 end
-arch mountain
+arch swamp
 x 49
 y 46
 elevation 8721
 end
-arch mountain2
+arch swamp
 x 49
 y 47
 elevation 9246
 end
-arch mountain2
+arch swamp
 x 49
 y 48
 elevation 9309
 end
-arch mountain2
+arch swamp
 x 49
 y 49
 elevation 9708
