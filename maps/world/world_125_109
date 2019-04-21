@@ -3,7 +3,7 @@ name world_125_109
 width 50
 height 50
 msg
-Modified: 2018-12-29 lx
+Modified: 2019-04-20 lx
 endmsg
 outdoor 1
 tile_path_1 world_125_108
@@ -3517,6 +3517,13 @@ x 14
 y 15
 end
 arch oldwoodfloor
+x 14
+y 16
+end
+arch stair_down
+slaying ../wolfsburg/undquests
+hp 37
+sp 18
 x 14
 y 16
 end
