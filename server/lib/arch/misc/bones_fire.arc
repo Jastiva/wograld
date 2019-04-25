@@ -5,7 +5,7 @@ type 15
 dam 2
 last_sp 19
 weight 2000
-value 0
+value 500
 material 16
 nrof 1
 editable 128
@@ -23,7 +23,7 @@ type 15
 dam 2
 last_sp 19
 weight 1000
-value 0
+value 500
 material 16
 nrof 1
 editable 128
@@ -41,7 +41,7 @@ type 15
 dam 2
 last_sp 19
 weight 11000
-value 0
+value 500
 material 16
 nrof 1
 editable 128
