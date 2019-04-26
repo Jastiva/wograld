@@ -6,7 +6,6 @@ color_fg black
 anim
 ghast.111
 ghast.112
-ghast.113
 mina
 monster 1
 sleep 1

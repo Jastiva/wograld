@@ -3,7 +3,7 @@ name world_104_123
 width 50
 height 50
 msg
-Modified: 2018-12-22 lori
+Modified: 2019-04-25 lori
 endmsg
 outdoor 1
 tile_path_1 world_104_122
@@ -3099,6 +3099,10 @@ x 12
 y 5
 elevation 2784
 end
+arch mbluemarblewall_4
+x 12
+y 5
+end
 arch cyanmarble
 x 12
 y 6
@@ -3199,45 +3203,85 @@ x 12
 y 25
 elevation 3401
 end
+arch mbluemarblewall_4
+x 12
+y 25
+end
+arch mbluemarblewall_4
+x 12
+y 25
+end
 arch marble_blgr
 x 12
 y 26
 elevation 3739
+end
+arch mbluemarblewall_4
+x 12
+y 26
 end
 arch bluemarblemedium
 x 12
 y 27
 elevation 2461
 end
+arch mbluemarblewall_4
+x 12
+y 27
+end
 arch bluemarblemedium
 x 12
 y 28
 elevation 400
+end
+arch mbluemarblewall_4
+x 12
+y 28
 end
 arch bluemarblemedium
 x 12
 y 29
 elevation 48
 end
+arch mbluemarblewall_4
+x 12
+y 29
+end
 arch bluemarblemedium
 x 12
 y 30
 elevation 435
+end
+arch mbluemarblewall_4
+x 12
+y 30
 end
 arch bluemarblemedium
 x 12
 y 31
 elevation 2659
 end
+arch mbluemarblewall_4
+x 12
+y 31
+end
 arch bluemarblemedium
 x 12
 y 32
 elevation 5428
 end
+arch mbluemarblewall_4
+x 12
+y 32
+end
 arch bluemarblemedium
 x 12
 y 33
 elevation 8664
+end
+arch mbluemarblewall_4
+x 12
+y 33
 end
 arch cyan-beige-c-marble_113
 x 12
@@ -3254,40 +3298,72 @@ x 12
 y 36
 elevation 14703
 end
+arch mbluemarblewall_4
+x 12
+y 36
+end
 arch fcross-blue
 x 12
 y 37
 elevation 15335
+end
+arch mbluemarblewall_4
+x 12
+y 37
 end
 arch fcross-blue
 x 12
 y 38
 elevation 15557
 end
+arch mbluemarblewall_4
+x 12
+y 38
+end
 arch fcross-blue
 x 12
 y 39
 elevation 15602
+end
+arch mbluemarblewall_4
+x 12
+y 39
 end
 arch fcross-blue
 x 12
 y 40
 elevation 14652
 end
+arch mbluemarblewall_4
+x 12
+y 40
+end
 arch fcross-blue
 x 12
 y 41
 elevation 11788
+end
+arch mbluemarblewall_4
+x 12
+y 41
 end
 arch fcross-blue
 x 12
 y 42
 elevation 10567
 end
+arch mbluemarblewall_4
+x 12
+y 42
+end
 arch fcross-blue
 x 12
 y 43
 elevation 11357
+end
+arch mbluemarblewall_4
+x 12
+y 43
 end
 arch rockdesert
 x 12
@@ -3347,6 +3423,10 @@ arch cyanmarble
 x 13
 y 5
 elevation 3033
+end
+arch mbluemarblewall_4
+x 13
+y 5
 end
 arch cyanmarble
 x 13
@@ -3538,6 +3618,10 @@ x 13
 y 43
 elevation 10377
 end
+arch mbluemarblewall_4
+x 13
+y 43
+end
 arch rockdesert
 x 13
 y 44
@@ -3596,6 +3680,10 @@ arch cyanmarble
 x 14
 y 5
 elevation 2819
+end
+arch mbluemarblewall_4
+x 14
+y 5
 end
 arch cyanmarble
 x 14
@@ -3787,6 +3875,10 @@ x 14
 y 43
 elevation 10275
 end
+arch mbluemarblewall_4
+x 14
+y 43
+end
 arch rockdesert
 x 14
 y 44
@@ -3845,6 +3937,10 @@ arch cyanmarble
 x 15
 y 5
 elevation 1199
+end
+arch mbluemarblewall_4
+x 15
+y 5
 end
 arch cyanmarble
 x 15
@@ -4036,6 +4132,10 @@ x 15
 y 43
 elevation 11050
 end
+arch mbluemarblewall_4
+x 15
+y 43
+end
 arch rockdesert
 x 15
 y 44
@@ -4094,6 +4194,10 @@ arch cyanmarble
 x 16
 y 5
 elevation 1833
+end
+arch mbluemarblewall_4
+x 16
+y 5
 end
 arch cyanmarble
 x 16
@@ -4344,6 +4448,10 @@ x 17
 y 5
 elevation 194
 end
+arch mbluemarblewall_4
+x 17
+y 5
+end
 arch cyanmarble
 x 17
 y 6
@@ -4593,6 +4701,10 @@ x 18
 y 5
 elevation 2905
 end
+arch mbluemarblewall_4
+x 18
+y 5
+end
 arch cyanmarble
 x 18
 y 6
@@ -4783,6 +4895,10 @@ x 18
 y 43
 elevation 12695
 end
+arch mbluemarblewall_4
+x 18
+y 43
+end
 arch rockdesert
 x 18
 y 44
@@ -4845,6 +4961,10 @@ arch cyanmarble
 x 19
 y 5
 elevation 5067
+end
+arch mbluemarblewall_4
+x 19
+y 5
 end
 arch cyanmarble
 x 19
@@ -5036,6 +5156,10 @@ x 19
 y 43
 elevation 9887
 end
+arch mbluemarblewall_4
+x 19
+y 43
+end
 arch rockdesert
 x 19
 y 44
@@ -5094,6 +5218,10 @@ arch cyanmarble
 x 20
 y 5
 elevation 6947
+end
+arch mbluemarblewall_4
+x 20
+y 5
 end
 arch cyanmarble
 x 20
@@ -5285,6 +5413,10 @@ x 20
 y 43
 elevation 12204
 end
+arch mbluemarblewall_4
+x 20
+y 43
+end
 arch rockdesert
 x 20
 y 44
@@ -5351,6 +5483,10 @@ arch cyanmarble
 x 21
 y 5
 elevation 7844
+end
+arch mbluemarblewall_4
+x 21
+y 5
 end
 arch cyanmarble
 x 21
@@ -5542,6 +5678,10 @@ x 21
 y 43
 elevation 11613
 end
+arch mbluemarblewall_4
+x 21
+y 43
+end
 arch rockdesert
 x 21
 y 44
@@ -5604,6 +5744,10 @@ arch cyanmarble
 x 22
 y 5
 elevation 7968
+end
+arch mbluemarblewall_4
+x 22
+y 5
 end
 arch cyanmarble
 x 22
@@ -5795,6 +5939,10 @@ x 22
 y 43
 elevation 9216
 end
+arch mbluemarblewall_4
+x 22
+y 43
+end
 arch rockdesert
 x 22
 y 44
@@ -5857,6 +6005,10 @@ arch cyanmarble
 x 23
 y 5
 elevation 7382
+end
+arch mbluemarblewall_4
+x 23
+y 5
 end
 arch cyanmarble
 x 23
@@ -6048,6 +6200,10 @@ x 23
 y 43
 elevation 9934
 end
+arch mbluemarblewall_4
+x 23
+y 43
+end
 arch rockdesert
 x 23
 y 44
@@ -6110,6 +6266,10 @@ arch cyanmarble
 x 24
 y 5
 elevation 5910
+end
+arch mbluemarblewall_4
+x 24
+y 5
 end
 arch cyanmarble
 x 24
@@ -6301,6 +6461,10 @@ x 24
 y 43
 elevation 9356
 end
+arch mbluemarblewall_4
+x 24
+y 43
+end
 arch rockdesert
 x 24
 y 44
@@ -6363,6 +6527,10 @@ arch cyanmarble
 x 25
 y 5
 elevation 7804
+end
+arch mbluemarblewall_4
+x 25
+y 5
 end
 arch cyanmarble
 x 25
@@ -6554,6 +6722,10 @@ x 25
 y 43
 elevation 8231
 end
+arch mbluemarblewall_4
+x 25
+y 43
+end
 arch rockdesert
 x 25
 y 44
@@ -6617,10 +6789,18 @@ x 26
 y 5
 elevation 8127
 end
+arch mbluemarblewall_4
+x 26
+y 5
+end
 arch cyanmarble
 x 26
 y 6
 elevation 7899
+end
+arch mbluemarblewall_4
+x 26
+y 6
 end
 arch cyanmarble
 x 26
@@ -6807,6 +6987,10 @@ x 26
 y 43
 elevation 9121
 end
+arch mbluemarblewall_4
+x 26
+y 43
+end
 arch rockdesert
 x 26
 y 44
@@ -6872,6 +7056,10 @@ arch cyanmarble
 x 27
 y 5
 elevation 7344
+end
+arch mbluemarblewall_4
+x 27
+y 5
 end
 arch cyanmarble
 x 27
@@ -6978,6 +7166,10 @@ x 27
 y 26
 elevation 15411
 end
+arch ltmagentamarblewall_4
+x 27
+y 26
+end
 arch bluemarblemedium
 x 27
 y 27
@@ -7063,6 +7255,14 @@ x 27
 y 43
 elevation 9716
 end
+arch mbluemarblewall_4
+x 27
+y 43
+end
+arch mbluemarblewall_4
+x 27
+y 43
+end
 arch rockdesert
 x 27
 y 44
@@ -7124,6 +7324,10 @@ arch cyanmarble
 x 28
 y 5
 elevation 4754
+end
+arch mbluemarblewall_4
+x 28
+y 5
 end
 arch cyanmarble
 x 28
@@ -7230,6 +7434,10 @@ x 28
 y 26
 elevation 15069
 end
+arch ltmagentamarblewall_4
+x 28
+y 26
+end
 arch bluemarblemedium
 x 28
 y 27
@@ -7270,50 +7478,90 @@ x 28
 y 34
 elevation 10609
 end
+arch mbluemarblewall_4
+x 28
+y 34
+end
 arch lostlabfloor14
 x 28
 y 35
 elevation 11726
+end
+arch mbluemarblewall_4
+x 28
+y 35
 end
 arch lostlabfloor14
 x 28
 y 36
 elevation 10891
 end
+arch mbluemarblewall_4
+x 28
+y 36
+end
 arch lostlabfloor14
 x 28
 y 37
 elevation 12291
+end
+arch mbluemarblewall_4
+x 28
+y 37
 end
 arch lostlabfloor14
 x 28
 y 38
 elevation 10292
 end
+arch mbluemarblewall_4
+x 28
+y 38
+end
 arch lostlabfloor14
 x 28
 y 39
 elevation 10171
+end
+arch mbluemarblewall_4
+x 28
+y 39
 end
 arch lostlabfloor14
 x 28
 y 40
 elevation 10339
 end
+arch mbluemarblewall_4
+x 28
+y 40
+end
 arch lostlabfloor14
 x 28
 y 41
 elevation 10965
+end
+arch mbluemarblewall_4
+x 28
+y 41
 end
 arch lostlabfloor14
 x 28
 y 42
 elevation 11440
 end
+arch mbluemarblewall_4
+x 28
+y 42
+end
 arch lostlabfloor14
 x 28
 y 43
 elevation 11271
+end
+arch mbluemarblewall_4
+x 28
+y 43
 end
 arch rockdesert
 x 28
@@ -7385,6 +7633,14 @@ arch cyanmarble
 x 29
 y 5
 elevation 7734
+end
+arch mbluemarblewall_4
+x 29
+y 5
+end
+arch mbluemarblewall_4
+x 29
+y 5
 end
 arch cyanmarble
 x 29
@@ -7491,6 +7747,10 @@ x 29
 y 26
 elevation 14406
 end
+arch ltmagentamarblewall_4
+x 29
+y 26
+end
 arch bluemarblemedium
 x 29
 y 27
@@ -7536,6 +7796,10 @@ x 29
 y 35
 elevation 11814
 end
+arch mbluemarblewall_4
+x 29
+y 35
+end
 arch lostlabfloor14
 x 29
 y 36
@@ -7575,6 +7839,10 @@ arch lostlabfloor14
 x 29
 y 43
 elevation 11594
+end
+arch mbluemarblewall_4
+x 29
+y 43
 end
 arch rockdesert
 x 29
@@ -7638,6 +7906,10 @@ arch cyanmarble
 x 30
 y 5
 elevation 8672
+end
+arch mbluemarblewall_4
+x 30
+y 5
 end
 arch cyanmarble
 x 30
@@ -7744,6 +8016,10 @@ x 30
 y 26
 elevation 12619
 end
+arch ltmagentamarblewall_4
+x 30
+y 26
+end
 arch bluemarblemedium
 x 30
 y 27
@@ -7789,6 +8065,10 @@ x 30
 y 35
 elevation 12274
 end
+arch mbluemarblewall_4
+x 30
+y 35
+end
 arch lostlabfloor14
 x 30
 y 36
@@ -7828,6 +8108,10 @@ arch lostlabfloor14
 x 30
 y 43
 elevation 11364
+end
+arch mbluemarblewall_4
+x 30
+y 43
 end
 arch rockdesert
 x 30
@@ -7891,6 +8175,10 @@ arch blackslate
 x 31
 y 5
 elevation 8834
+end
+arch mbluemarblewall_4
+x 31
+y 5
 end
 arch blackslate
 x 31
@@ -7997,6 +8285,10 @@ x 31
 y 26
 elevation 9671
 end
+arch ltmagentamarblewall_4
+x 31
+y 26
+end
 arch bluemarblemedium
 x 31
 y 27
@@ -8082,6 +8374,10 @@ x 31
 y 43
 elevation 10771
 end
+arch mbluemarblewall_4
+x 31
+y 43
+end
 arch rockdesert
 x 31
 y 44
@@ -8152,6 +8448,10 @@ arch blackslate
 x 32
 y 5
 elevation 7781
+end
+arch mbluemarblewall_4
+x 32
+y 5
 end
 arch blackslate
 x 32
@@ -8303,6 +8603,10 @@ x 32
 y 35
 elevation 11405
 end
+arch mbluemarblewall_4
+x 32
+y 35
+end
 arch lostlabfloor14
 x 32
 y 36
@@ -8342,6 +8646,10 @@ arch lostlabfloor14
 x 32
 y 43
 elevation 10449
+end
+arch mbluemarblewall_4
+x 32
+y 43
 end
 arch rockdesert
 x 32
@@ -8409,6 +8717,10 @@ arch blackslate
 x 33
 y 5
 elevation 5611
+end
+arch mbluemarblewall_4
+x 33
+y 5
 end
 arch blackslate
 x 33
@@ -8515,6 +8827,10 @@ x 33
 y 26
 elevation 8277
 end
+arch ltmagentamarblewall_4
+x 33
+y 26
+end
 arch bluemarblemedium
 x 33
 y 27
@@ -8560,45 +8876,81 @@ x 33
 y 35
 elevation 10980
 end
+arch mbluemarblewall_4
+x 33
+y 35
+end
 arch lostlabfloor14
 x 33
 y 36
 elevation 9513
+end
+arch mbluemarblewall_4
+x 33
+y 36
 end
 arch lostlabfloor14
 x 33
 y 37
 elevation 8711
 end
+arch mbluemarblewall_4
+x 33
+y 37
+end
 arch lostlabfloor9
 x 33
 y 38
 elevation 6406
+end
+arch mbluemarblewall_4
+x 33
+y 38
 end
 arch lostlabfloor14
 x 33
 y 39
 elevation 7688
 end
+arch mbluemarblewall_4
+x 33
+y 39
+end
 arch lostlabfloor9
 x 33
 y 40
 elevation 7474
+end
+arch mbluemarblewall_4
+x 33
+y 40
 end
 arch lostlabfloor14
 x 33
 y 41
 elevation 7473
 end
+arch mbluemarblewall_4
+x 33
+y 41
+end
 arch lostlabfloor14
 x 33
 y 42
 elevation 8709
 end
+arch mbluemarblewall_4
+x 33
+y 42
+end
 arch lostlabfloor14
 x 33
 y 43
 elevation 10075
+end
+arch mbluemarblewall_4
+x 33
+y 43
 end
 arch rockdesert
 x 33
@@ -8662,6 +9014,10 @@ arch blackslate
 x 34
 y 5
 elevation 5678
+end
+arch mbluemarblewall_4
+x 34
+y 5
 end
 arch blackslate
 x 34
@@ -8768,6 +9124,10 @@ x 34
 y 26
 elevation 13356
 end
+arch ltmagentamarblewall_4
+x 34
+y 26
+end
 arch bluemarblemedium
 x 34
 y 27
@@ -8813,6 +9173,10 @@ x 34
 y 35
 elevation 11107
 end
+arch mbluemarblewall_4
+x 34
+y 35
+end
 arch lostlabfloor9
 x 34
 y 36
@@ -8852,6 +9216,10 @@ arch lostlabfloor9
 x 34
 y 43
 elevation 9043
+end
+arch mbluemarblewall_4
+x 34
+y 43
 end
 arch rockdesert
 x 34
@@ -8915,6 +9283,10 @@ arch blackslate
 x 35
 y 5
 elevation 5818
+end
+arch mbluemarblewall_4
+x 35
+y 5
 end
 arch blackslate
 x 35
@@ -9021,6 +9393,10 @@ x 35
 y 26
 elevation 14054
 end
+arch ltmagentamarblewall_4
+x 35
+y 26
+end
 arch bluemarblemedium
 x 35
 y 27
@@ -9106,6 +9482,10 @@ x 35
 y 43
 elevation 5527
 end
+arch mbluemarblewall_4
+x 35
+y 43
+end
 arch rockdesert
 x 35
 y 44
@@ -9172,6 +9552,10 @@ arch blackslate
 x 36
 y 5
 elevation 4465
+end
+arch mbluemarblewall_4
+x 36
+y 5
 end
 arch blackslate
 x 36
@@ -9278,6 +9662,10 @@ x 36
 y 26
 elevation 12926
 end
+arch ltmagentamarblewall_4
+x 36
+y 26
+end
 arch bluemarblemedium
 x 36
 y 27
@@ -9323,6 +9711,10 @@ x 36
 y 35
 elevation 13093
 end
+arch mbluemarblewall_4
+x 36
+y 35
+end
 arch lostlabfloor9
 x 36
 y 36
@@ -9362,6 +9754,10 @@ arch lostlabfloor9
 x 36
 y 43
 elevation 7239
+end
+arch mbluemarblewall_4
+x 36
+y 43
 end
 arch rockdesert
 x 36
@@ -9425,6 +9821,10 @@ arch blackslate
 x 37
 y 5
 elevation 8202
+end
+arch mbluemarblewall_4
+x 37
+y 5
 end
 arch blackslate
 x 37
@@ -9531,6 +9931,10 @@ x 37
 y 26
 elevation 9727
 end
+arch ltmagentamarblewall_4
+x 37
+y 26
+end
 arch bluemarblemedium
 x 37
 y 27
@@ -9576,6 +9980,10 @@ x 37
 y 35
 elevation 15220
 end
+arch mbluemarblewall_4
+x 37
+y 35
+end
 arch lostlabfloor9
 x 37
 y 36
@@ -9615,6 +10023,10 @@ arch lostlabfloor9
 x 37
 y 43
 elevation 6735
+end
+arch mbluemarblewall_4
+x 37
+y 43
 end
 arch rockdesert
 x 37
@@ -9681,6 +10093,10 @@ arch blackslate
 x 38
 y 5
 elevation 9362
+end
+arch mbluemarblewall_4
+x 38
+y 5
 end
 arch blackslate
 x 38
@@ -9787,6 +10203,10 @@ x 38
 y 26
 elevation 12377
 end
+arch ltmagentamarblewall_4
+x 38
+y 26
+end
 arch bluemarblemedium
 x 38
 y 27
@@ -9832,6 +10252,10 @@ x 38
 y 35
 elevation 15083
 end
+arch mbluemarblewall_4
+x 38
+y 35
+end
 arch lostlabfloor9
 x 38
 y 36
@@ -9871,6 +10295,10 @@ arch lostlabfloor9
 x 38
 y 43
 elevation 6022
+end
+arch mbluemarblewall_4
+x 38
+y 43
 end
 arch rockdesert
 x 38
@@ -9934,6 +10362,14 @@ arch blackslate
 x 39
 y 5
 elevation 12025
+end
+arch mbluemarblewall_4
+x 39
+y 5
+end
+arch mbluemarblewall_4
+x 39
+y 5
 end
 arch blackslate
 x 39
@@ -10040,6 +10476,10 @@ x 39
 y 26
 elevation 13398
 end
+arch ltmagentamarblewall_4
+x 39
+y 26
+end
 arch bluemarblemedium
 x 39
 y 27
@@ -10080,50 +10520,90 @@ x 39
 y 34
 elevation 12834
 end
+arch ltmagentamarblewall_4
+x 39
+y 34
+end
 arch lostlabfloor9
 x 39
 y 35
 elevation 12544
+end
+arch mbluemarblewall_4
+x 39
+y 35
 end
 arch lostlabfloor9
 x 39
 y 36
 elevation 12352
 end
+arch mbluemarblewall_4
+x 39
+y 36
+end
 arch lostlabfloor9
 x 39
 y 37
 elevation 12233
+end
+arch mbluemarblewall_4
+x 39
+y 37
 end
 arch lostlabfloor9
 x 39
 y 38
 elevation 11721
 end
+arch mbluemarblewall_4
+x 39
+y 38
+end
 arch lostlabfloor9
 x 39
 y 39
 elevation 10021
+end
+arch mbluemarblewall_4
+x 39
+y 39
 end
 arch lostlabfloor9
 x 39
 y 40
 elevation 7725
 end
+arch mbluemarblewall_4
+x 39
+y 40
+end
 arch lostlabfloor9
 x 39
 y 41
 elevation 3932
+end
+arch mbluemarblewall_4
+x 39
+y 41
 end
 arch lostlabfloor9
 x 39
 y 42
 elevation 4682
 end
+arch mbluemarblewall_4
+x 39
+y 42
+end
 arch lostlabfloor9
 x 39
 y 43
 elevation 5857
+end
+arch mbluemarblewall_4
+x 39
+y 43
 end
 arch rockdesert
 x 39
@@ -10187,6 +10667,10 @@ arch blackslate
 x 40
 y 5
 elevation 13322
+end
+arch mbluemarblewall_4
+x 40
+y 5
 end
 arch blackslate
 x 40
@@ -10293,6 +10777,10 @@ x 40
 y 26
 elevation 12992
 end
+arch ltmagentamarblewall_4
+x 40
+y 26
+end
 arch bluemarblemedium
 x 40
 y 27
@@ -10332,6 +10820,10 @@ arch bluemarblemedium
 x 40
 y 34
 elevation 10434
+end
+arch ltmagentamarblewall_4
+x 40
+y 34
 end
 arch rockdesert
 x 40
@@ -10445,6 +10937,10 @@ x 41
 y 5
 elevation 13693
 end
+arch mbluemarblewall_4
+x 41
+y 5
+end
 arch blackslate
 x 41
 y 6
@@ -10550,6 +11046,10 @@ x 41
 y 26
 elevation 11238
 end
+arch ltmagentamarblewall_4
+x 41
+y 26
+end
 arch bluemarblemedium
 x 41
 y 27
@@ -10589,6 +11089,10 @@ arch bluemarblemedium
 x 41
 y 34
 elevation 9244
+end
+arch ltmagentamarblewall_4
+x 41
+y 34
 end
 arch rockdesert
 x 41
@@ -10693,6 +11197,10 @@ arch blackslate
 x 42
 y 5
 elevation 12957
+end
+arch mbluemarblewall_4
+x 42
+y 5
 end
 arch blackslate
 x 42
@@ -10799,6 +11307,10 @@ x 42
 y 26
 elevation 7754
 end
+arch ltmagentamarblewall_4
+x 42
+y 26
+end
 arch bluemarblemedium
 x 42
 y 27
@@ -10838,6 +11350,10 @@ arch bluemarblemedium
 x 42
 y 34
 elevation 7790
+end
+arch ltmagentamarblewall_4
+x 42
+y 34
 end
 arch rockdesert
 x 42
@@ -10967,6 +11483,10 @@ x 43
 y 5
 elevation 11356
 end
+arch mbluemarblewall_4
+x 43
+y 5
+end
 arch blackslate
 x 43
 y 6
@@ -11072,6 +11592,10 @@ x 43
 y 26
 elevation 9077
 end
+arch ltmagentamarblewall_4
+x 43
+y 26
+end
 arch bluemarblemedium
 x 43
 y 27
@@ -11111,6 +11635,10 @@ arch bluemarblemedium
 x 43
 y 34
 elevation 9991
+end
+arch ltmagentamarblewall_4
+x 43
+y 34
 end
 arch rockdesert
 x 43
@@ -11216,125 +11744,225 @@ x 44
 y 5
 elevation 10302
 end
+arch mbluemarblewall_4
+x 44
+y 5
+end
 arch blackslate
 x 44
 y 6
 elevation 9624
+end
+arch mbluemarblewall_4
+x 44
+y 6
 end
 arch blackslate
 x 44
 y 7
 elevation 7743
 end
+arch mbluemarblewall_4
+x 44
+y 7
+end
 arch blackslate
 x 44
 y 8
 elevation 4470
+end
+arch mbluemarblewall_4
+x 44
+y 8
 end
 arch blackslate
 x 44
 y 9
 elevation 5986
 end
+arch mbluemarblewall_4
+x 44
+y 9
+end
 arch blackslate
 x 44
 y 10
 elevation 5840
+end
+arch mbluemarblewall_4
+x 44
+y 10
 end
 arch blackslate
 x 44
 y 11
 elevation 5580
 end
+arch mbluemarblewall_4
+x 44
+y 11
+end
 arch blackslate
 x 44
 y 12
 elevation 5892
+end
+arch mbluemarblewall_4
+x 44
+y 12
 end
 arch blackslate
 x 44
 y 13
 elevation 6686
 end
+arch mbluemarblewall_4
+x 44
+y 13
+end
 arch blackslate
 x 44
 y 14
 elevation 7661
+end
+arch mbluemarblewall_4
+x 44
+y 14
 end
 arch blackslate
 x 44
 y 15
 elevation 8644
 end
+arch mbluemarblewall_4
+x 44
+y 15
+end
 arch blackslate
 x 44
 y 16
 elevation 9640
+end
+arch mbluemarblewall_4
+x 44
+y 16
 end
 arch blackslate
 x 44
 y 17
 elevation 10474
 end
+arch mbluemarblewall_4
+x 44
+y 17
+end
 arch blackslate
 x 44
 y 18
 elevation 11358
+end
+arch mbluemarblewall_4
+x 44
+y 18
 end
 arch blackslate
 x 44
 y 19
 elevation 12410
 end
+arch mbluemarblewall_4
+x 44
+y 19
+end
 arch blackslate
 x 44
 y 20
 elevation 13124
+end
+arch mbluemarblewall_4
+x 44
+y 20
 end
 arch blackslate
 x 44
 y 21
 elevation 13638
 end
+arch mbluemarblewall_4
+x 44
+y 21
+end
 arch blackslate
 x 44
 y 22
 elevation 14246
+end
+arch mbluemarblewall_4
+x 44
+y 22
 end
 arch blackslate
 x 44
 y 23
 elevation 14357
 end
+arch mbluemarblewall_4
+x 44
+y 23
+end
 arch blackslate
 x 44
 y 24
 elevation 12964
+end
+arch mbluemarblewall_4
+x 44
+y 24
 end
 arch blackslate
 x 44
 y 25
 elevation 9485
 end
+arch mbluemarblewall_4
+x 44
+y 25
+end
 arch blackslate
 x 44
 y 26
 elevation 8692
+end
+arch ltmagentamarblewall_4
+x 44
+y 26
 end
 arch bluemarblemedium
 x 44
 y 27
 elevation 8579
 end
+arch ltmagentamarblewall_4
+x 44
+y 27
+end
 arch bluemarblemedium
 x 44
 y 28
 elevation 8701
 end
+arch ltmagentamarblewall_4
+x 44
+y 28
+end
 arch bluemarblemedium
 x 44
 y 29
 elevation 8626
+end
+arch ltmagentamarblewall_4
+x 44
+y 29
 end
 arch bluemarblemedium
 x 44
@@ -11346,20 +11974,36 @@ x 44
 y 31
 elevation 9321
 end
+arch ltmagentamarblewall_4
+x 44
+y 31
+end
 arch bluemarblemedium
 x 44
 y 32
 elevation 10259
+end
+arch ltmagentamarblewall_4
+x 44
+y 32
 end
 arch bluemarblemedium
 x 44
 y 33
 elevation 10934
 end
+arch ltmagentamarblewall_4
+x 44
+y 33
+end
 arch bluemarblemedium
 x 44
 y 34
 elevation 11708
+end
+arch ltmagentamarblewall_4
+x 44
+y 34
 end
 arch rockdesert
 x 44
