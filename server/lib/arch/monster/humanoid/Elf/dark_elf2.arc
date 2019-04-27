@@ -4,9 +4,13 @@ name dark elf captain
 randomitems dark_elf
 face dark_elf2.131
 anim
-facings 2
+facings 4
+dark_elf2.111
+dark_elf2.112
 dark_elf2.131
 dark_elf2.132
+dark_elf2.151
+dark_elf2.152
 dark_elf2.171
 dark_elf2.172
 mina
