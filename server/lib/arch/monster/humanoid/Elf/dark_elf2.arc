@@ -2,7 +2,7 @@ Object dark_elf2
 race faerie
 name dark elf captain
 randomitems dark_elf
-face dark_elf2.131
+face dark_elf2.151
 anim
 facings 4
 dark_elf2.111

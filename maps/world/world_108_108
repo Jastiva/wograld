@@ -3,13 +3,14 @@ name world_108_108
 width 50
 height 50
 msg
-Modified: 2018-09-23 lori
+Modified: 2019-04-28 lori
 endmsg
 outdoor 1
 tile_path_1 world_108_107
 tile_path_2 world_109_108
 tile_path_3 world_108_109
 tile_path_4 world_107_108
+background_music beach02
 end
 arch jungle_1
 elevation 1161
@@ -114,11 +115,11 @@ arch steppe
 y 25
 elevation 4723
 end
-arch mountain
+arch moss
 y 26
 elevation 5443
 end
-arch mountain
+arch moss
 y 27
 elevation 5091
 end
@@ -339,12 +340,12 @@ x 1
 y 25
 elevation 4774
 end
-arch mountain
+arch moss
 x 1
 y 26
 elevation 5434
 end
-arch mountain
+arch moss
 x 1
 y 27
 elevation 5034
@@ -583,17 +584,17 @@ x 2
 y 24
 elevation 3290
 end
-arch steppe
+arch moss
 x 2
 y 25
 elevation 4607
 end
-arch mountain
+arch moss
 x 2
 y 26
 elevation 5042
 end
-arch steppe
+arch moss
 x 2
 y 27
 elevation 4660
@@ -832,12 +833,12 @@ x 3
 y 24
 elevation 2754
 end
-arch steppe
+arch moss
 x 3
 y 25
 elevation 4017
 end
-arch steppe
+arch moss
 x 3
 y 26
 elevation 4225
@@ -1081,7 +1082,7 @@ x 4
 y 24
 elevation 2006
 end
-arch steppe
+arch moss
 x 4
 y 25
 elevation 3081
@@ -1300,7 +1301,7 @@ x 5
 y 18
 elevation 2724
 end
-arch steppe
+arch moss
 x 5
 y 19
 elevation 3172
@@ -1553,27 +1554,27 @@ x 6
 y 14
 elevation 2235
 end
-arch woods_3
+arch moss
 x 6
 y 15
 elevation 2943
 end
-arch steppe
+arch moss
 x 6
 y 16
 elevation 3544
 end
-arch steppe
+arch moss
 x 6
 y 17
 elevation 3931
 end
-arch steppe
+arch moss
 x 6
 y 18
 elevation 4016
 end
-arch steppe
+arch moss
 x 6
 y 19
 elevation 3738
@@ -1603,7 +1604,7 @@ x 6
 y 24
 elevation 2897
 end
-arch hills_rocky
+arch moss
 x 6
 y 25
 elevation 3039
@@ -1771,12 +1772,12 @@ x 7
 y 3
 elevation 2974
 end
-arch steppe
+arch moss
 x 7
 y 4
 elevation 3157
 end
-arch steppe
+arch moss
 x 7
 y 5
 elevation 3334
@@ -1826,7 +1827,7 @@ x 7
 y 14
 elevation 2824
 end
-arch steppe
+arch moss
 x 7
 y 15
 elevation 3591
@@ -1836,17 +1837,17 @@ x 7
 y 16
 elevation 4463
 end
-arch hills
+arch moss
 x 7
 y 17
 elevation 4940
 end
-arch mountain
+arch moss
 x 7
 y 18
 elevation 5135
 end
-arch steppe
+arch moss
 x 7
 y 19
 elevation 4459
@@ -2037,7 +2038,7 @@ x 8
 y 4
 elevation 3764
 end
-arch steppe
+arch moss
 x 8
 y 5
 elevation 3695
@@ -2097,12 +2098,12 @@ x 8
 y 16
 elevation 4936
 end
-arch mountain
+arch moss
 x 8
 y 17
 elevation 5681
 end
-arch mountain
+arch moss
 x 8
 y 18
 elevation 5768
@@ -2349,17 +2350,17 @@ x 9
 y 15
 elevation 3473
 end
-arch steppe
+arch moss
 x 9
 y 16
 elevation 4541
 end
-arch mountain
+arch moss
 x 9
 y 17
 elevation 5470
 end
-arch mountain
+arch moss
 x 9
 y 18
 elevation 5581
@@ -2550,7 +2551,7 @@ x 10
 y 3
 elevation 3801
 end
-arch steppe
+arch moss
 x 10
 y 4
 elevation 3554
@@ -2610,17 +2611,17 @@ x 10
 y 15
 elevation 2698
 end
-arch hills
+arch moss
 x 10
 y 16
 elevation 3838
 end
-arch steppe
+arch moss
 x 10
 y 17
 elevation 3728
 end
-arch mountain
+arch moss
 x 10
 y 18
 elevation 5142
@@ -2802,12 +2803,12 @@ x 11
 y 2
 elevation 2988
 end
-arch steppe
+arch moss
 x 11
 y 3
 elevation 3436
 end
-arch jungle_1
+arch moss
 x 11
 y 4
 elevation 2942
@@ -2832,12 +2833,12 @@ x 11
 y 8
 elevation 3838
 end
-arch steppe
+arch moss
 x 11
 y 9
 elevation 3752
 end
-arch steppe
+arch moss
 x 11
 y 10
 elevation 3015
@@ -2867,12 +2868,12 @@ x 11
 y 15
 elevation 3955
 end
-arch steppe
+arch moss
 x 11
 y 16
 elevation 4601
 end
-arch mountain
+arch moss
 x 11
 y 17
 elevation 5262
@@ -2892,7 +2893,7 @@ x 11
 y 20
 elevation 758
 end
-arch desert
+arch moss
 x 11
 y 21
 elevation 629
@@ -3089,7 +3090,7 @@ x 12
 y 8
 elevation 4410
 end
-arch steppe
+arch moss
 x 12
 y 9
 elevation 4045
@@ -3114,7 +3115,7 @@ x 12
 y 13
 elevation 2792
 end
-arch steppe
+arch moss
 x 12
 y 14
 elevation 3520
@@ -3124,7 +3125,7 @@ x 12
 y 15
 elevation 4739
 end
-arch mountain
+arch moss
 x 12
 y 16
 elevation 5600
@@ -3336,17 +3337,17 @@ x 13
 y 2
 elevation 1567
 end
-arch steppe
+arch moss
 x 13
 y 3
 elevation 3241
 end
-arch hills
+arch moss
 x 13
 y 4
 elevation 3456
 end
-arch steppe
+arch moss
 x 13
 y 5
 elevation 3441
@@ -3386,17 +3387,17 @@ x 13
 y 12
 elevation 1727
 end
-arch steppe
+arch moss
 x 13
 y 13
 elevation 3227
 end
-arch steppe
+arch moss
 x 13
 y 14
 elevation 4273
 end
-arch mountain
+arch moss
 x 13
 y 15
 elevation 5154
@@ -3623,7 +3624,7 @@ x 14
 y 4
 elevation 3962
 end
-arch steppe
+arch moss
 x 14
 y 5
 elevation 3998
@@ -3885,7 +3886,7 @@ x 15
 y 1
 elevation 2382
 end
-arch steppe
+arch moss
 x 15
 y 2
 elevation 3030
@@ -3900,7 +3901,7 @@ x 15
 y 4
 elevation 3465
 end
-arch steppe
+arch moss
 x 15
 y 5
 elevation 3352
@@ -3915,7 +3916,7 @@ x 15
 y 7
 elevation 2087
 end
-arch steppe
+arch moss
 x 15
 y 8
 elevation 3296
@@ -4091,7 +4092,7 @@ x 15
 y 39
 elevation 2737
 end
-arch woods_3
+arch moss
 x 15
 y 40
 elevation 1199
@@ -4356,27 +4357,27 @@ x 16
 y 39
 elevation 2050
 end
-arch woods_2
+arch moss
 x 16
 y 40
 elevation 1298
 end
-arch woods_2
+arch moss
 x 16
 y 41
 elevation 2437
 end
-arch jungle_1
+arch moss
 x 16
 y 42
 elevation 2942
 end
-arch woods_2
+arch moss
 x 16
 y 43
 elevation 2096
 end
-arch woods_2
+arch moss
 x 16
 y 44
 elevation 2262
@@ -4630,7 +4631,7 @@ x 17
 y 40
 elevation 1169
 end
-arch woods_2
+arch moss
 x 17
 y 41
 elevation 2603
@@ -4645,17 +4646,17 @@ x 17
 y 43
 elevation 3038
 end
-arch woods_2
+arch moss
 x 17
 y 44
 elevation 2573
 end
-arch woods_2
+arch moss
 x 17
 y 45
 elevation 1865
 end
-arch woods_2
+arch moss
 x 17
 y 46
 elevation 2547
@@ -4882,12 +4883,12 @@ x 18
 y 39
 elevation 2898
 end
-arch woods_3
+arch moss
 x 18
 y 40
 elevation 2815
 end
-arch jungle_1
+arch moss
 x 18
 y 41
 elevation 2676
@@ -4912,7 +4913,7 @@ x 18
 y 45
 elevation 1497
 end
-arch woods_2
+arch moss
 x 18
 y 46
 elevation 1090
@@ -4922,7 +4923,7 @@ x 18
 y 47
 elevation 1037
 end
-arch woods_2
+arch moss
 x 18
 y 48
 elevation 2095
@@ -5139,7 +5140,7 @@ x 19
 y 39
 elevation 3047
 end
-arch woods_3
+arch moss
 x 19
 y 40
 elevation 2840
@@ -5169,7 +5170,7 @@ x 19
 y 45
 elevation 2523
 end
-arch woods_2
+arch moss
 x 19
 y 46
 elevation 1652
@@ -5395,17 +5396,17 @@ x 20
 y 38
 elevation 2924
 end
-arch woods_3
+arch moss
 x 20
 y 39
 elevation 2303
 end
-arch woods_2
+arch moss
 x 20
 y 40
 elevation 1744
 end
-arch woods_2
+arch moss
 x 20
 y 41
 elevation 2560
@@ -5425,12 +5426,12 @@ x 20
 y 44
 elevation 3320
 end
-arch woods_2
+arch moss
 x 20
 y 45
 elevation 2504
 end
-arch woods_2
+arch moss
 x 20
 y 46
 elevation 1433
@@ -5445,7 +5446,7 @@ x 20
 y 48
 elevation 277
 end
-arch woods_2
+arch moss
 x 20
 y 49
 elevation 1869
@@ -5652,22 +5653,22 @@ x 21
 y 38
 elevation 1764
 end
-arch woods_2
+arch moss
 x 21
 y 39
 elevation 1488
 end
-arch brush
+arch moss
 x 21
 y 40
 elevation 587
 end
-arch woods_2
+arch moss
 x 21
 y 41
 elevation 2316
 end
-arch woods_2
+arch moss
 x 21
 y 42
 elevation 2981
@@ -5677,12 +5678,12 @@ x 21
 y 43
 elevation 3123
 end
-arch woods_2
+arch moss
 x 21
 y 44
 elevation 2793
 end
-arch woods_2
+arch moss
 x 21
 y 45
 elevation 2079
@@ -5914,32 +5915,32 @@ x 22
 y 39
 elevation 496
 end
-arch woods_2
+arch moss
 x 22
 y 40
 elevation 1615
 end
-arch woods_2
+arch moss
 x 22
 y 41
 elevation 2249
 end
-arch woods_2
+arch moss
 x 22
 y 42
 elevation 2636
 end
-arch woods_2
+arch moss
 x 22
 y 43
 elevation 2461
 end
-arch woods_2
+arch moss
 x 22
 y 44
 elevation 2026
 end
-arch woods_2
+arch moss
 x 22
 y 45
 elevation 1264
@@ -6171,22 +6172,22 @@ x 23
 y 39
 elevation 1252
 end
-arch woods_2
+arch moss
 x 23
 y 40
 elevation 2091
 end
-arch woods_2
+arch moss
 x 23
 y 41
 elevation 2411
 end
-arch woods_2
+arch moss
 x 23
 y 42
 elevation 2373
 end
-arch woods_2
+arch moss
 x 23
 y 43
 elevation 1861
@@ -6364,7 +6365,7 @@ arch redrock2
 x 24
 y 27
 end
-arch mountain
+arch moss
 x 24
 y 28
 elevation 5087
@@ -6424,22 +6425,22 @@ x 24
 y 39
 elevation 2708
 end
-arch woods_2
+arch moss
 x 24
 y 40
 elevation 2613
 end
-arch woods_2
+arch moss
 x 24
 y 41
 elevation 2591
 end
-arch woods_2
+arch moss
 x 24
 y 42
 elevation 2122
 end
-arch woods_2
+arch moss
 x 24
 y 43
 elevation 1456
@@ -6677,27 +6678,27 @@ x 25
 y 39
 elevation 3319
 end
-arch hills
+arch moss
 x 25
 y 40
 elevation 3063
 end
-arch woods_2
+arch moss
 x 25
 y 41
 elevation 2393
 end
-arch woods_2
+arch moss
 x 25
 y 42
 elevation 2604
 end
-arch woods_2
+arch moss
 x 25
 y 43
 elevation 2233
 end
-arch woods_2
+arch moss
 x 25
 y 44
 elevation 1461
@@ -6930,7 +6931,7 @@ x 26
 y 31
 elevation 2110
 end
-arch woods_2
+arch moss
 x 26
 y 32
 elevation 2502
@@ -6965,37 +6966,37 @@ x 26
 y 38
 elevation 3675
 end
-arch steppe
+arch moss
 x 26
 y 39
 elevation 3517
 end
-arch hills
+arch moss
 x 26
 y 40
 elevation 3136
 end
-arch woods_2
+arch moss
 x 26
 y 41
 elevation 2746
 end
-arch woods_2
+arch moss
 x 26
 y 42
 elevation 2541
 end
-arch woods_2
+arch moss
 x 26
 y 43
 elevation 2470
 end
-arch woods_2
+arch moss
 x 26
 y 44
 elevation 1946
 end
-arch woods_2
+arch moss
 x 26
 y 45
 elevation 1123
@@ -7230,37 +7231,37 @@ x 27
 y 38
 elevation 3423
 end
-arch steppe
+arch moss
 x 27
 y 39
 elevation 3336
 end
-arch woods_2
+arch moss
 x 27
 y 40
 elevation 2889
 end
-arch woods_2
+arch moss
 x 27
 y 41
 elevation 2042
 end
-arch woods_2
+arch moss
 x 27
 y 42
 elevation 1850
 end
-arch woods_2
+arch moss
 x 27
 y 43
 elevation 1935
 end
-arch woods_2
+arch moss
 x 27
 y 44
 elevation 1820
 end
-arch woods_2
+arch moss
 x 27
 y 45
 elevation 1445
@@ -7439,12 +7440,12 @@ x 28
 y 30
 elevation 607
 end
-arch desert
+arch moss
 x 28
 y 31
 elevation 822
 end
-arch woods_2
+arch moss
 x 28
 y 32
 elevation 1481
@@ -7464,7 +7465,7 @@ x 28
 y 35
 elevation 3379
 end
-arch woods_2
+arch moss
 x 28
 y 36
 elevation 2770
@@ -7479,7 +7480,7 @@ x 28
 y 38
 elevation 2892
 end
-arch woods_2
+arch moss
 x 28
 y 39
 elevation 2939
@@ -7489,7 +7490,7 @@ x 28
 y 40
 elevation 2504
 end
-arch woods_2
+arch moss
 x 28
 y 41
 elevation 1345
@@ -7514,7 +7515,7 @@ x 28
 y 45
 elevation 1234
 end
-arch woods_2
+arch moss
 x 28
 y 46
 elevation 1047
@@ -7733,7 +7734,7 @@ x 29
 y 39
 elevation 2323
 end
-arch woods_2
+arch moss
 x 29
 y 40
 elevation 2220
@@ -7937,7 +7938,7 @@ x 30
 y 30
 elevation 97
 end
-arch desert
+arch moss
 x 30
 y 31
 elevation 176
@@ -7987,12 +7988,12 @@ x 30
 y 40
 elevation 2155
 end
-arch woods_3
+arch moss
 x 30
 y 41
 elevation 2168
 end
-arch tree
+arch moss
 x 30
 y 42
 elevation 1744
@@ -8246,12 +8247,12 @@ x 31
 y 42
 elevation 1884
 end
-arch woods_2
+arch moss
 x 31
 y 43
 elevation 1384
 end
-arch tree
+arch moss
 x 31
 y 44
 elevation 1131
@@ -8266,7 +8267,7 @@ x 31
 y 46
 elevation 1492
 end
-arch woods_2
+arch moss
 x 31
 y 47
 elevation 1323
@@ -8445,17 +8446,17 @@ x 32
 y 32
 elevation 2844
 end
-arch hills
+arch moss
 x 32
 y 33
 elevation 3228
 end
-arch hills
+arch moss
 x 32
 y 34
 elevation 3010
 end
-arch grass
+arch moss
 x 32
 y 35
 elevation 763
@@ -8500,22 +8501,22 @@ x 32
 y 43
 elevation 1405
 end
-arch hills_rocky
+arch moss
 x 32
 y 44
 elevation 1335
 end
-arch tree
+arch moss
 x 32
 y 45
 elevation 1559
 end
-arch tree
+arch moss
 x 32
 y 46
 elevation 1954
 end
-arch woods_3
+arch moss
 x 32
 y 47
 elevation 1812
@@ -8689,17 +8690,17 @@ x 33
 y 31
 elevation 2790
 end
-arch steppe
+arch moss
 x 33
 y 32
 elevation 3334
 end
-arch steppe
+arch moss
 x 33
 y 33
 elevation 3647
 end
-arch hills
+arch moss
 x 33
 y 34
 elevation 3288
@@ -8759,12 +8760,12 @@ x 33
 y 45
 elevation 762
 end
-arch woods_2
+arch moss
 x 33
 y 46
 elevation 2279
 end
-arch woods_3
+arch moss
 x 33
 y 47
 elevation 2222
@@ -8938,22 +8939,22 @@ x 34
 y 31
 elevation 2699
 end
-arch hills
+arch moss
 x 34
 y 32
 elevation 3087
 end
-arch hills
+arch moss
 x 34
 y 33
 elevation 3295
 end
-arch steppe
+arch moss
 x 34
 y 34
 elevation 3406
 end
-arch hills
+arch moss
 x 34
 y 35
 elevation 3118
@@ -9187,7 +9188,7 @@ x 35
 y 31
 elevation 2468
 end
-arch tree
+arch moss
 x 35
 y 32
 elevation 1276
@@ -9202,7 +9203,7 @@ x 35
 y 34
 elevation 2758
 end
-arch hills
+arch moss
 x 35
 y 35
 elevation 3117
@@ -9685,7 +9686,7 @@ x 37
 y 31
 elevation 1481
 end
-arch tree
+arch moss
 x 37
 y 32
 elevation 1051
@@ -9934,7 +9935,7 @@ x 38
 y 31
 elevation 1005
 end
-arch woods_2
+arch moss
 x 38
 y 32
 elevation 1227
