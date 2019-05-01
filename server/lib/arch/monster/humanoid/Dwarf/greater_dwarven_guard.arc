@@ -1,6 +1,6 @@
 Object greater_dwarven_guard
 race dwarf
-name greater dwarven guard
+name dark elf royal guard
 randomitems gdwar_guard
 face greater_dwarven_guard.111
 anim

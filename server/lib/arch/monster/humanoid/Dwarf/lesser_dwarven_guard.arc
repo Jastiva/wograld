@@ -1,6 +1,6 @@
 Object lesser_dwarven_guard
 race dwarf
-name lesser dwarven guard
+name dark elf guard
 randomitems ldwar_guard
 face lesser_dwarven_guard.111
 anim

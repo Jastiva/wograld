@@ -1,6 +1,6 @@
 Object dwarf
 race dwarf
-name dwarf
+name dark elf pikewoman
 randomitems dwarf
 face dwarf.111
 anim
