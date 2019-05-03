@@ -6,8 +6,6 @@ face fighter.111
 anim
 fighter.111
 fighter.112
-fighter.113
-fighter.112
 mina
 color_fg grey
 maxsp 5

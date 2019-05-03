@@ -6,8 +6,6 @@ face conjurer.111
 anim
 conjurer.111
 conjurer.112
-conjurer.113
-conjurer.112
 mina
 Pow 5
 Int 20

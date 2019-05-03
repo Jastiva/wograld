@@ -6,8 +6,6 @@ face ninja_2.111
 anim
 ninja_2.111
 ninja_2.112
-ninja_2.113
-ninja_2.112
 mina
 sp 7
 maxsp 7
