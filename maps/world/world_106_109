@@ -3,7 +3,7 @@ name world_106_109
 width 50
 height 50
 msg
-Modified: 2019-04-17 lori
+Modified: 2019-05-07 lori
 endmsg
 outdoor 1
 tile_path_1 world_106_108
@@ -12,34 +12,34 @@ tile_path_3 world_106_110
 tile_path_4 world_105_109
 background_music swamp01
 end
-arch mountain2
+arch blackforest2
 elevation 10806
 end
-arch mountain2
+arch blackforest2
 y 1
 elevation 10835
 end
-arch mountain2
+arch blackforest2
 y 2
 elevation 10582
 end
-arch mountain2
+arch blackforest2
 y 3
 elevation 10263
 end
-arch mountain2
+arch blackforest2
 y 4
 elevation 9861
 end
-arch mountain2
+arch blackforest2
 y 5
 elevation 9200
 end
-arch mountain
+arch blackforest2
 y 6
 elevation 8161
 end
-arch mountain
+arch blackforest2
 y 7
 elevation 7036
 end
@@ -214,41 +214,41 @@ arch purple_moss
 y 49
 elevation 3761
 end
-arch mountain2
+arch blackforest2
 x 1
 elevation 10040
 end
-arch mountain2
+arch blackforest2
 x 1
 y 1
 elevation 9420
 end
-arch mountain2
+arch blackforest2
 x 1
 y 2
 elevation 10544
 end
-arch mountain2
+arch mosscliff2
 x 1
 y 3
 elevation 10492
 end
-arch mountain2
+arch mosscliff2
 x 1
 y 4
 elevation 9978
 end
-arch mountain2
+arch blackforest2
 x 1
 y 5
 elevation 9838
 end
-arch mountain
+arch blackforest2
 x 1
 y 6
 elevation 8718
 end
-arch mountain
+arch blackforest2
 x 1
 y 7
 elevation 6042
@@ -467,41 +467,41 @@ x 1
 y 49
 elevation 4138
 end
-arch mountain2
+arch blackforest2
 x 2
 elevation 10433
 end
-arch mountain2
+arch blackforest2
 x 2
 y 1
 elevation 10078
 end
-arch mountain2
+arch blackforest2
 x 2
 y 2
 elevation 9966
 end
-arch mountain2
+arch mosscliff2
 x 2
 y 3
 elevation 10036
 end
-arch mountain2
+arch mosscliff2
 x 2
 y 4
 elevation 10089
 end
-arch mountain2
+arch blackforest2
 x 2
 y 5
 elevation 9703
 end
-arch mountain
+arch blackforest2
 x 2
 y 6
 elevation 8679
 end
-arch mountain
+arch blackforest2
 x 2
 y 7
 elevation 7398
@@ -724,41 +724,41 @@ x 2
 y 49
 elevation 3387
 end
-arch mountain2
+arch blackforest2
 x 3
 elevation 9806
 end
-arch mountain2
+arch blackforest2
 x 3
 y 1
 elevation 9407
 end
-arch mountain
+arch blackforest2
 x 3
 y 2
 elevation 8822
 end
-arch mountain
+arch blackforest2
 x 3
 y 3
 elevation 8033
 end
-arch mountain
+arch blackforest2
 x 3
 y 4
 elevation 8404
 end
-arch mountain
+arch blackforest2
 x 3
 y 5
 elevation 8659
 end
-arch mountain
+arch blackforest2
 x 3
 y 6
 elevation 8290
 end
-arch mountain
+arch blackforest2
 x 3
 y 7
 elevation 7499
@@ -981,41 +981,41 @@ x 3
 y 49
 elevation 3834
 end
-arch mountain
+arch blackforest2
 x 4
 elevation 8192
 end
-arch mountain
+arch blackforest2
 x 4
 y 1
 elevation 8500
 end
-arch mountain
+arch blackforest2
 x 4
 y 2
 elevation 6949
 end
-arch steppe
+arch mosscliff2
 x 4
 y 3
 elevation 4727
 end
-arch hills
+arch mosscliff2
 x 4
 y 4
 elevation 4684
 end
-arch mountain
+arch blackforest2
 x 4
 y 5
 elevation 7629
 end
-arch mountain
+arch blackforest2
 x 4
 y 6
 elevation 7931
 end
-arch mountain
+arch blackforest2
 x 4
 y 7
 elevation 7212
@@ -1238,44 +1238,52 @@ x 4
 y 49
 elevation 3039
 end
-arch mountain2
+arch blackforest2
 x 5
 elevation 9343
 end
-arch mountain
+arch blackforest2
 x 5
 y 1
 elevation 8097
 end
-arch mountain
+arch blackforest2
 x 5
 y 2
 elevation 5855
 end
-arch mountain
+arch mosscliff2
 x 5
 y 3
 elevation 6301
 end
-arch mountain
+arch mosscliff2
 x 5
 y 4
 elevation 6510
 end
-arch mountain
+arch blackforest2
 x 5
 y 5
 elevation 6719
 end
-arch mountain
+arch blackforest2
 x 5
 y 6
 elevation 7633
 end
-arch mountain
+arch woods5
+x 5
+y 6
+end
+arch blackforest2
 x 5
 y 7
 elevation 6960
+end
+arch woods5
+x 5
+y 7
 end
 arch hills
 x 5
@@ -1495,44 +1503,48 @@ x 5
 y 49
 elevation 3543
 end
-arch mountain2
+arch blackforest2
 x 6
 elevation 9416
 end
-arch mountain
+arch blackforest2
 x 6
 y 1
 elevation 8486
 end
-arch mountain
+arch blackforest2
 x 6
 y 2
 elevation 6907
 end
-arch mountain
+arch blackforest2
 x 6
 y 3
 elevation 7140
 end
-arch mountain
+arch blackforest2
 x 6
 y 4
 elevation 6792
 end
-arch mountain
+arch blackforest2
 x 6
 y 5
 elevation 7312
 end
-arch mountain
+arch blackforest2
 x 6
 y 6
 elevation 7479
 end
-arch mountain
+arch blackforest2
 x 6
 y 7
 elevation 6964
+end
+arch woods5
+x 6
+y 7
 end
 arch hills
 x 6
@@ -1564,10 +1576,18 @@ x 6
 y 13
 elevation 3167
 end
+arch woods5
+x 6
+y 13
+end
 arch grassmedium
 x 6
 y 14
 elevation 4251
+end
+arch woods5
+x 6
+y 14
 end
 arch hills
 x 6
@@ -1752,46 +1772,50 @@ x 6
 y 49
 elevation 3558
 end
-arch mountain
+arch blackforest2
 x 7
 elevation 8962
 end
-arch mountain
+arch blackforest2
 x 7
 y 1
 elevation 8669
 end
-arch mountain
+arch blackforest2
 x 7
 y 2
 elevation 8177
 end
-arch mountain
+arch mosscliff2
 x 7
 y 3
 elevation 7690
 end
-arch mountain
+arch mosscliff2
 x 7
 y 4
 elevation 7439
 end
-arch mountain
+arch blackforest2
 x 7
 y 5
 elevation 7257
 end
-arch mountain
+arch blackforest2
 x 7
 y 6
 elevation 7499
 end
-arch mountain
+arch blackforest2
 x 7
 y 7
 elevation 7221
 end
-arch mountain
+arch woods5
+x 7
+y 7
+end
+arch blackforest2
 x 7
 y 8
 elevation 6665
@@ -1820,6 +1844,10 @@ arch hills
 x 7
 y 13
 elevation 3792
+end
+arch woods5
+x 7
+y 13
 end
 arch grassmedium
 x 7
@@ -2005,46 +2033,50 @@ x 7
 y 49
 elevation 5589
 end
-arch mountain
+arch blackforest2
 x 8
 elevation 7614
 end
-arch mountain
+arch blackforest2
 x 8
 y 1
 elevation 7984
 end
-arch mountain
+arch blackforest2
 x 8
 y 2
 elevation 7884
 end
-arch mountain
+arch mosscliff2
 x 8
 y 3
 elevation 7603
 end
-arch mountain
+arch mosscliff2
 x 8
 y 4
 elevation 7413
 end
-arch mountain
+arch blackforest2
 x 8
 y 5
 elevation 7398
 end
-arch mountain
+arch blackforest2
 x 8
 y 6
 elevation 7479
 end
-arch mountain
+arch blackforest2
 x 8
 y 7
 elevation 7034
 end
-arch mountain
+arch woods5
+x 8
+y 7
+end
+arch blackforest2
 x 8
 y 8
 elevation 6405
@@ -2270,41 +2302,41 @@ x 8
 y 49
 elevation 6416
 end
-arch mountain
+arch blackforest2
 x 9
 elevation 6013
 end
-arch mountain
+arch blackforest2
 x 9
 y 1
 elevation 5779
 end
-arch mountain
+arch blackforest2
 x 9
 y 2
 elevation 6857
 end
-arch mountain
+arch blackforest2
 x 9
 y 3
 elevation 6686
 end
-arch mountain
+arch blackforest2
 x 9
 y 4
 elevation 5711
 end
-arch mountain
+arch blackforest2
 x 9
 y 5
 elevation 6489
 end
-arch mountain
+arch blackforest2
 x 9
 y 6
 elevation 6538
 end
-arch mountain
+arch blackforest2
 x 9
 y 7
 elevation 5807
@@ -2527,21 +2559,21 @@ x 9
 y 49
 elevation 6321
 end
-arch steppe
+arch blackforest2
 x 10
 elevation 4569
 end
-arch mountain
+arch blackforest2
 x 10
 y 1
 elevation 5077
 end
-arch mountain
+arch blackforest2
 x 10
 y 2
 elevation 5367
 end
-arch mountain
+arch blackforest2
 x 10
 y 3
 elevation 5326
@@ -2556,12 +2588,12 @@ x 10
 y 5
 elevation 4750
 end
-arch steppe
+arch blackforest2
 x 10
 y 6
 elevation 4614
 end
-arch steppe
+arch blackforest2
 x 10
 y 7
 elevation 3801
@@ -2784,26 +2816,26 @@ x 10
 y 49
 elevation 5758
 end
-arch steppe
+arch blackforest2
 x 11
 elevation 4036
 end
-arch steppe
+arch blackforest2
 x 11
 y 1
 elevation 3353
 end
-arch steppe
+arch blackforest2
 x 11
 y 2
 elevation 3807
 end
-arch hills
+arch blackforest2
 x 11
 y 3
 elevation 4164
 end
-arch steppe
+arch blackforest2
 x 11
 y 4
 elevation 3682
@@ -2827,7 +2859,7 @@ x 11
 y 7
 elevation 1948
 end
-arch desert
+arch blackforest2
 x 11
 y 8
 elevation 638
@@ -3045,21 +3077,21 @@ x 11
 y 49
 elevation 4911
 end
-arch steppe
+arch blackforest2
 x 12
 elevation 4084
 end
-arch steppe
+arch blackforest2
 x 12
 y 1
 elevation 3889
 end
-arch steppe
+arch blackforest2
 x 12
 y 2
 elevation 3601
 end
-arch steppe
+arch blackforest2
 x 12
 y 3
 elevation 3317
@@ -3082,7 +3114,7 @@ arch tree5
 x 12
 y 5
 end
-arch desert
+arch blackforest2
 x 12
 y 6
 elevation 334
@@ -3378,7 +3410,7 @@ arch tree5
 x 13
 y 8
 end
-arch desert
+arch blackforest2
 x 13
 y 9
 elevation 623

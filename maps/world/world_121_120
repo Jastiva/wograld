@@ -3,7 +3,7 @@ name world_121_120
 width 50
 height 50
 msg
-Modified: 2019-04-23 lori
+Modified: 2019-05-07 lori
 endmsg
 outdoor 1
 tile_path_1 world_121_119
@@ -6507,6 +6507,14 @@ arch lostlabdesert
 x 23
 y 46
 elevation 18243
+end
+arch keep_sym_noflag_misc
+name Teleport to Stupidgates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 23
+y 46
 end
 arch lostlabdesert
 x 23

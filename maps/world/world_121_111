@@ -3,7 +3,7 @@ name world_121_111
 width 50
 height 50
 msg
-Modified: 2019-02-10 lori
+Modified: 2019-05-09 lori
 endmsg
 outdoor 1
 tile_path_1 world_121_110
@@ -37,95 +37,101 @@ end
 arch evergreens2
 y 4
 end
-arch hills_rocky
+arch bosgrass
 y 5
 elevation 3264
 end
-arch hills
+arch mosscliff2
 y 6
 elevation 3670
 end
-arch hills_rocky
+arch mosscliff2
 y 7
 elevation 4983
 end
-arch mountain
+arch mosscliff2
 y 8
 elevation 6555
 end
-arch mountain
+arch mosscliff2
 y 9
 elevation 7071
 end
-arch mountain
+arch moss
 y 10
 elevation 6317
 end
-arch mountain
+arch door_1
+y 10
+end
+arch moss
 y 11
 elevation 5152
 end
-arch mountain
+arch door_1
+y 11
+end
+arch mosscliff3
 y 12
 elevation 5543
 end
-arch mountain
+arch mosscliff3
 y 13
 elevation 5615
 end
-arch mountain
+arch mosscliff3
 y 14
 elevation 5118
 end
-arch hills_rocky
+arch mosscliff3
 y 15
 elevation 4214
 end
-arch hills
+arch rockpile1
 y 16
 elevation 3048
 end
-arch woods
+arch rockpile1
 y 17
 elevation 1635
 end
-arch jungle_1
+arch rockpile1
 y 18
 elevation 1874
 end
-arch jungle_1
+arch rockpile1
 y 19
 elevation 2201
 end
-arch steppe
+arch rockpile1
 y 20
 elevation 3130
 end
-arch steppe
+arch rockpile1
 y 21
 elevation 3381
 end
-arch steppe
+arch rockpile1
 y 22
 elevation 3017
 end
-arch woods
+arch rockpile1
 y 23
 elevation 2162
 end
-arch woods
+arch rockpile1
 y 24
 elevation 1276
 end
-arch desert
+arch rockpile1
 y 25
 elevation 985
 end
-arch woods
+arch rockpile1
 y 26
 elevation 2661
 end
-arch hills_rocky
+arch rockpile1
 y 27
 elevation 3348
 end
@@ -133,93 +139,96 @@ arch hills_rocky
 y 28
 elevation 3141
 end
-arch woods
+arch door_look_2
+y 28
+end
+arch rockpile1
 y 29
 elevation 1581
 end
-arch hills_rocky
+arch mosscliff2
 y 30
 elevation 3423
 end
-arch hills_rocky
+arch mosscliff2
 y 31
 elevation 4007
 end
-arch hills_rocky
+arch mosscliff2
 y 32
 elevation 4108
 end
-arch hills_rocky
+arch mosscliff2
 y 33
 elevation 3477
 end
-arch woods
+arch mosscliff2
 y 34
 elevation 2591
 end
-arch woods
+arch mosscliff2
 y 35
 elevation 1639
 end
-arch woods
+arch mosscliff2
 y 36
 elevation 1865
 end
-arch woods
+arch moss
 y 37
 elevation 1289
 end
-arch woods
+arch moss
 y 38
 elevation 1592
 end
-arch grass_only
+arch moss
 y 39
 elevation 1420
 end
 arch tree3
 y 39
 end
-arch woods
+arch moss
 y 40
 elevation 2080
 end
-arch woods
+arch moss
 y 41
 elevation 1242
 end
-arch mountain
+arch moss
 y 42
 elevation 5781
 end
-arch mountain
+arch moss
 y 43
 elevation 8192
 end
-arch mountain2
+arch moss
 y 44
 elevation 9169
 end
-arch mountain
+arch moss
 y 45
 elevation 8233
 end
-arch mountain
+arch moss
 y 46
 elevation 5423
 end
-arch steppe
+arch moss
 y 47
 elevation 3845
 end
-arch grass_only
+arch moss
 y 48
 elevation 2447
 end
 arch tree3
 y 48
 end
-arch grass_only
+arch moss
 y 49
 elevation 2185
 end
@@ -253,62 +262,70 @@ arch evergreens2
 x 1
 y 3
 end
-arch woods_2
+arch moss
 x 1
 y 4
 elevation 2774
 end
-arch hills_rocky
+arch bosgrass
 x 1
 y 5
 elevation 3613
 end
-arch hills_rocky
+arch mosscliff2
 x 1
 y 6
 elevation 4610
 end
-arch mountain
+arch mosscliff2
 x 1
 y 7
 elevation 5724
 end
-arch mountain
+arch mosscliff2
 x 1
 y 8
 elevation 6903
 end
-arch mountain
+arch mosscliff2
 x 1
 y 9
 elevation 7179
 end
-arch hills
+arch moss
 x 1
 y 10
 elevation 4687
 end
-arch mountain
+arch skeleton
+x 1
+y 10
+end
+arch moss
 x 1
 y 11
 elevation 6801
 end
-arch mountain
+arch skeleton
+x 1
+y 11
+end
+arch mosscliff4
 x 1
 y 12
 elevation 6957
 end
-arch mountain
+arch bosgrass2
 x 1
 y 13
 elevation 6642
 end
-arch mountain
+arch bosgrass2
 x 1
 y 14
 elevation 5866
 end
-arch hills
+arch mosscliff3
 x 1
 y 15
 elevation 4759
@@ -328,17 +345,17 @@ x 1
 y 18
 elevation 1553
 end
-arch brush
+arch moss
 x 1
 y 19
 elevation 830
 end
-arch woods_2
+arch moss
 x 1
 y 20
 elevation 1898
 end
-arch woods_2
+arch mosscliff4
 x 1
 y 21
 elevation 2253
@@ -353,7 +370,7 @@ x 1
 y 23
 elevation 1578
 end
-arch woods_2
+arch moss
 x 1
 y 24
 elevation 1038
@@ -363,27 +380,27 @@ x 1
 y 25
 elevation 2316
 end
-arch woods
+arch mosscliff3
 x 1
 y 26
 elevation 2782
 end
-arch woods
+arch mosscliff4
 x 1
 y 27
 elevation 2944
 end
-arch woods
+arch pine_needles
 x 1
 y 28
 elevation 2557
 end
-arch woods
+arch rockpile1
 x 1
 y 29
 elevation 1677
 end
-arch woods
+arch rockpile1
 x 1
 y 30
 elevation 2889
@@ -413,17 +430,17 @@ x 1
 y 35
 elevation 1467
 end
-arch hills_rocky
+arch mosscliff2
 x 1
 y 36
 elevation 3083
 end
-arch steppe
+arch moss
 x 1
 y 37
 elevation 3509
 end
-arch grass_only
+arch moss
 x 1
 y 38
 elevation 2406
@@ -432,7 +449,7 @@ arch tree3
 x 1
 y 38
 end
-arch grass_only
+arch moss
 x 1
 y 39
 elevation 1804
@@ -441,52 +458,52 @@ arch tree3
 x 1
 y 39
 end
-arch hills_rocky
+arch moss
 x 1
 y 40
 elevation 4032
 end
-arch mountain
+arch moss
 x 1
 y 41
 elevation 5121
 end
-arch mountain
+arch moss
 x 1
 y 42
 elevation 6494
 end
-arch mountain
+arch moss
 x 1
 y 43
 elevation 8139
 end
-arch mountain
+arch moss
 x 1
 y 44
 elevation 8424
 end
-arch mountain
+arch moss
 x 1
 y 45
 elevation 7342
 end
-arch mountain
+arch moss
 x 1
 y 46
 elevation 5357
 end
-arch desert
+arch moss
 x 1
 y 47
 elevation 931
 end
-arch brush
+arch moss
 x 1
 y 48
 elevation 137
 end
-arch grass_only
+arch moss
 x 1
 y 49
 elevation 1318
@@ -521,62 +538,78 @@ x 2
 y 3
 elevation 1416
 end
-arch hills_rocky
+arch bosgrass
 x 2
 y 4
 elevation 3349
 end
-arch hills_rocky
+arch bosgrass
 x 2
 y 5
 elevation 4205
 end
-arch hills_rocky
+arch mosscliff2
 x 2
 y 6
 elevation 4562
 end
-arch mountain
+arch bosgrass2
 x 2
 y 7
 elevation 6023
 end
-arch mountain
+arch bosgrass2
 x 2
 y 8
 elevation 7318
 end
-arch mountain
+arch mosscliff2
 x 2
 y 9
 elevation 7667
 end
-arch mountain
+arch moss
 x 2
 y 10
 elevation 7700
 end
-arch mountain
+arch skeleton
+x 2
+y 10
+end
+arch moss
 x 2
 y 11
 elevation 7789
 end
-arch mountain
+arch skeleton
+x 2
+y 11
+end
+arch moss
 x 2
 y 12
 elevation 7649
 end
-arch mountain
+arch odoor_2_fant_brown
+x 2
+y 12
+end
+arch bosgrass2
 x 2
 y 13
 elevation 6668
 end
-arch mountain
+arch banshee
+x 2
+y 13
+end
+arch bosgrass2
 x 2
 y 14
 elevation 5424
 end
-arch hills
+arch mosscliff3
 x 2
 y 15
 elevation 4359
@@ -586,17 +619,21 @@ x 2
 y 16
 elevation 3611
 end
-arch woods_2
+arch pine_needles
 x 2
 y 17
 elevation 2864
 end
-arch jungle_1
+arch pine_needles
 x 2
 y 18
 elevation 2068
 end
-arch desert
+arch skeleton
+x 2
+y 18
+end
+arch moss
 x 2
 y 19
 elevation 811
@@ -606,10 +643,14 @@ x 2
 y 20
 elevation 1359
 end
-arch desert
+arch moss
 x 2
 y 21
 elevation 542
+end
+arch door_look_1
+x 2
+y 21
 end
 arch jungle_1
 x 2
@@ -621,7 +662,7 @@ x 2
 y 23
 elevation 1631
 end
-arch woods_2
+arch moss
 x 2
 y 24
 elevation 2354
@@ -631,22 +672,30 @@ x 2
 y 25
 elevation 2950
 end
-arch woods
+arch mosscliff3
 x 2
 y 26
 elevation 2885
 end
-arch woods
+arch pine_needles
 x 2
 y 27
 elevation 1482
 end
-arch woods
+arch generate_ghost
+x 2
+y 27
+end
+arch pine_needles
 x 2
 y 28
 elevation 2109
 end
-arch woods
+arch ghost
+x 2
+y 28
+end
+arch rockpile1
 x 2
 y 29
 elevation 2003
@@ -686,67 +735,67 @@ x 2
 y 36
 elevation 4824
 end
-arch mountain
+arch moss
 x 2
 y 37
 elevation 5842
 end
-arch mountain
+arch moss
 x 2
 y 38
 elevation 5841
 end
-arch mountain
+arch moss
 x 2
 y 39
 elevation 5849
 end
-arch mountain
+arch moss
 x 2
 y 40
 elevation 6119
 end
-arch mountain
+arch moss
 x 2
 y 41
 elevation 6543
 end
-arch mountain
+arch moss
 x 2
 y 42
 elevation 6690
 end
-arch mountain
+arch moss
 x 2
 y 43
 elevation 6520
 end
-arch mountain
+arch moss
 x 2
 y 44
 elevation 6213
 end
-arch mountain
+arch moss
 x 2
 y 45
 elevation 5316
 end
-arch steppe
+arch moss
 x 2
 y 46
 elevation 4936
 end
-arch steppe
+arch moss
 x 2
 y 47
 elevation 3861
 end
-arch jungle_1
+arch moss
 x 2
 y 48
 elevation 2920
 end
-arch hills_rocky
+arch moss
 x 2
 y 49
 elevation 2586
@@ -780,52 +829,68 @@ x 3
 y 5
 elevation 4360
 end
-arch hills_rocky
+arch mosscliff2
 x 3
 y 6
 elevation 4997
 end
-arch mountain
+arch bosgrass2
 x 3
 y 7
 elevation 6211
 end
-arch mountain
+arch bosgrass2
 x 3
 y 8
 elevation 7534
 end
-arch mountain
+arch skeleton_chief_arc
+x 3
+y 8
+end
+arch bosgrass2
 x 3
 y 9
 elevation 7721
 end
-arch mountain
+arch odoor_2_fant_brown
+x 3
+y 9
+end
+arch moss
 x 3
 y 10
 elevation 8515
 end
-arch mountain
+arch skeleton
+x 3
+y 10
+end
+arch moss
 x 3
 y 11
 elevation 8176
 end
-arch mountain
+arch skeleton
+x 3
+y 11
+end
+arch mosscliff3
 x 3
 y 12
 elevation 7316
 end
-arch mountain
+arch mosscliff2
 x 3
 y 13
 elevation 5820
 end
-arch hills
+arch mosscliff2
 x 3
 y 14
 elevation 3319
 end
-arch woods_2
+arch mosscliff2
 x 3
 y 15
 elevation 2565
@@ -835,12 +900,16 @@ x 3
 y 16
 elevation 3447
 end
-arch steppe
+arch random_treasure
+x 3
+y 16
+end
+arch pine_needles
 x 3
 y 17
 elevation 3439
 end
-arch woods_2
+arch pine_needles
 x 3
 y 18
 elevation 2882
@@ -850,12 +919,12 @@ x 3
 y 19
 elevation 2461
 end
-arch jungle_1
+arch moss
 x 3
 y 20
 elevation 1068
 end
-arch woods_2
+arch mosscliff4
 x 3
 y 21
 elevation 1147
@@ -865,37 +934,45 @@ x 3
 y 22
 elevation 1575
 end
-arch woods
+arch moss
 x 3
 y 23
 elevation 2310
 end
-arch hills_rocky
+arch moss
 x 3
 y 24
 elevation 3176
 end
-arch steppe
+arch ghost
+x 3
+y 24
+end
+arch moss
 x 3
 y 25
 elevation 3531
 end
-arch hills_rocky
+arch mosscliff3
 x 3
 y 26
 elevation 3119
 end
-arch woods
+arch mosscliff4
 x 3
 y 27
 elevation 1532
 end
-arch woods
+arch pine_needles
 x 3
 y 28
 elevation 2172
 end
-arch woods
+arch ghost
+x 3
+y 28
+end
+arch rockpile1
 x 3
 y 29
 elevation 1487
@@ -930,72 +1007,72 @@ x 3
 y 35
 elevation 3925
 end
-arch mountain
+arch moss
 x 3
 y 36
 elevation 5894
 end
-arch mountain
+arch moss
 x 3
 y 37
 elevation 7464
 end
-arch mountain
+arch moss
 x 3
 y 38
 elevation 7965
 end
-arch mountain
+arch moss
 x 3
 y 39
 elevation 7682
 end
-arch mountain
+arch moss
 x 3
 y 40
 elevation 7170
 end
-arch mountain
+arch moss
 x 3
 y 41
 elevation 6684
 end
-arch mountain
+arch moss
 x 3
 y 42
 elevation 5771
 end
-arch steppe
+arch moss
 x 3
 y 43
 elevation 3621
 end
-arch hills_rocky
+arch moss
 x 3
 y 44
 elevation 1920
 end
-arch steppe
+arch moss
 x 3
 y 45
 elevation 4027
 end
-arch mountain
+arch moss
 x 3
 y 46
 elevation 5197
 end
-arch mountain
+arch moss
 x 3
 y 47
 elevation 5246
 end
-arch hills
+arch moss
 x 3
 y 48
 elevation 4388
 end
-arch steppe
+arch moss
 x 3
 y 49
 elevation 3386
@@ -1029,72 +1106,88 @@ x 4
 y 5
 elevation 4132
 end
-arch hills_rocky
+arch rockpile1
 x 4
 y 6
 elevation 4910
 end
-arch mountain
+arch rockpile1
 x 4
 y 7
 elevation 5198
 end
-arch mountain
+arch rockpile1
 x 4
 y 8
 elevation 7561
 end
-arch mountain
+arch rockpile1
 x 4
 y 9
 elevation 8762
 end
-arch mountain
+arch moss
 x 4
 y 10
 elevation 8801
 end
-arch mountain
+arch skeleton
+x 4
+y 10
+end
+arch moss
 x 4
 y 11
 elevation 8026
 end
-arch mountain
+arch skeleton
+x 4
+y 11
+end
+arch mosscliff4
 x 4
 y 12
 elevation 6780
 end
-arch hills
+arch moss
 x 4
 y 13
 elevation 3907
 end
-arch hills_rocky
+arch bosgrass2
 x 4
 y 14
 elevation 2353
 end
-arch jungle_1
+arch mosscliff2
 x 4
 y 15
 elevation 1942
 end
-arch hills_rocky
+arch pine_needles
 x 4
 y 16
 elevation 3167
 end
-arch hills_rocky
+arch pine_needles
 x 4
 y 17
 elevation 3795
 end
-arch steppe
+arch vampire
+x 4
+y 17
+end
+arch pine_needles
 x 4
 y 18
 elevation 3985
 end
-arch steppe
+arch skeleton
+x 4
+y 18
+end
+arch pine_needles
 x 4
 y 19
 elevation 3575
@@ -1104,47 +1197,59 @@ x 4
 y 20
 elevation 2795
 end
-arch jungle_1
+arch mosscliff4
 x 4
 y 21
 elevation 2201
 end
-arch jungle_1
+arch pine_needles
 x 4
 y 22
 elevation 2512
 end
-arch hills_rocky
+arch skeleton
+x 4
+y 22
+end
+arch pine_needles
 x 4
 y 23
 elevation 3057
 end
-arch steppe
+arch pine_needles
 x 4
 y 24
 elevation 3666
 end
-arch hills_rocky
+arch pine_needles
 x 4
 y 25
 elevation 3990
 end
-arch hills_rocky
+arch mosscliff3
 x 4
 y 26
 elevation 3596
 end
-arch hills_rocky
+arch pine_needles
 x 4
 y 27
 elevation 3017
 end
-arch woods
+arch generate_ghost
+x 4
+y 27
+end
+arch pine_needles
 x 4
 y 28
 elevation 2829
 end
-arch woods
+arch ghost
+x 4
+y 28
+end
+arch rockpile1
 x 4
 y 29
 elevation 2774
@@ -1179,32 +1284,32 @@ x 4
 y 35
 elevation 3495
 end
-arch mountain
+arch moss
 x 4
 y 36
 elevation 6160
 end
-arch mountain
+arch moss
 x 4
 y 37
 elevation 7703
 end
-arch mountain
+arch moss
 x 4
 y 38
 elevation 8198
 end
-arch mountain
+arch moss
 x 4
 y 39
 elevation 7494
 end
-arch mountain
+arch moss
 x 4
 y 40
 elevation 6304
 end
-arch mountain
+arch moss
 x 4
 y 41
 elevation 5471
@@ -1214,37 +1319,37 @@ x 4
 y 42
 elevation 4652
 end
-arch hills
+arch moss
 x 4
 y 43
 elevation 4255
 end
-arch hills_rocky
+arch moss
 x 4
 y 44
 elevation 4516
 end
-arch mountain
+arch moss
 x 4
 y 45
 elevation 5522
 end
-arch mountain
+arch moss
 x 4
 y 46
 elevation 6440
 end
-arch mountain
+arch moss
 x 4
 y 47
 elevation 6220
 end
-arch hills
+arch moss
 x 4
 y 48
 elevation 4730
 end
-arch steppe
+arch moss
 x 4
 y 49
 elevation 3820
@@ -1278,52 +1383,68 @@ x 5
 y 5
 elevation 4273
 end
-arch hills_rocky
+arch rockpile1
 x 5
 y 6
 elevation 4620
 end
-arch hills_rocky
+arch bosgrass2
 x 5
 y 7
 elevation 4608
 end
-arch mountain
+arch bosgrass2
 x 5
 y 8
 elevation 7457
 end
-arch mountain
+arch mosscliff2
 x 5
 y 9
 elevation 8970
 end
-arch mountain
+arch moss
 x 5
 y 10
 elevation 8700
 end
-arch mountain
+arch skeleton
+x 5
+y 10
+end
+arch moss
 x 5
 y 11
 elevation 7710
 end
-arch mountain
+arch skeleton
+x 5
+y 11
+end
+arch moss
 x 5
 y 12
 elevation 6071
 end
-arch hills_rocky
+arch odoor_2_fant_brown
+x 5
+y 12
+end
+arch bosgrass2
 x 5
 y 13
 elevation 4369
 end
-arch hills_rocky
+arch wraith
+x 5
+y 13
+end
+arch bosgrass2
 x 5
 y 14
 elevation 2972
 end
-arch grass_only
+arch mosscliff2
 x 5
 y 15
 elevation 2339
@@ -1332,32 +1453,32 @@ arch tree5
 x 5
 y 15
 end
-arch woods_2
+arch pine_needles
 x 5
 y 16
 elevation 2798
 end
-arch steppe
+arch pine_needles
 x 5
 y 17
 elevation 3899
 end
-arch steppe
+arch pine_needles
 x 5
 y 18
 elevation 4737
 end
-arch steppe
+arch pine_needles
 x 5
 y 19
 elevation 4816
 end
-arch steppe
+arch pine_needles
 x 5
 y 20
 elevation 3305
 end
-arch woods
+arch mosscliff4
 x 5
 y 21
 elevation 2615
@@ -1367,37 +1488,45 @@ x 5
 y 22
 elevation 2934
 end
-arch steppe
+arch moss
 x 5
 y 23
 elevation 3196
 end
-arch steppe
+arch moss
 x 5
 y 24
 elevation 3678
 end
-arch steppe
+arch skeleton
+x 5
+y 24
+end
+arch moss
 x 5
 y 25
 elevation 4338
 end
-arch hills_rocky
+arch mosscliff3
 x 5
 y 26
 elevation 4446
 end
-arch hills_rocky
+arch mosscliff4
 x 5
 y 27
 elevation 4077
 end
-arch woods
+arch moss
 x 5
 y 28
 elevation 2982
 end
-arch hills_rocky
+arch ghost
+x 5
+y 28
+end
+arch rockpile1
 x 5
 y 29
 elevation 3425
@@ -1432,27 +1561,27 @@ x 5
 y 35
 elevation 3921
 end
-arch mountain
+arch moss
 x 5
 y 36
 elevation 5412
 end
-arch mountain
+arch moss
 x 5
 y 37
 elevation 6800
 end
-arch mountain
+arch moss
 x 5
 y 38
 elevation 6869
 end
-arch mountain
+arch moss
 x 5
 y 39
 elevation 5166
 end
-arch hills
+arch moss
 x 5
 y 40
 elevation 4488
@@ -1467,37 +1596,37 @@ x 5
 y 42
 elevation 3544
 end
-arch hills
+arch moss
 x 5
 y 43
 elevation 3800
 end
-arch mountain
+arch moss
 x 5
 y 44
 elevation 5076
 end
-arch mountain
+arch moss
 x 5
 y 45
 elevation 6244
 end
-arch mountain
+arch moss
 x 5
 y 46
 elevation 7043
 end
-arch mountain
+arch moss
 x 5
 y 47
 elevation 6536
 end
-arch mountain
+arch moss
 x 5
 y 48
 elevation 5080
 end
-arch steppe
+arch moss
 x 5
 y 49
 elevation 3784
@@ -1531,82 +1660,102 @@ x 6
 y 5
 elevation 4547
 end
-arch hills_rocky
+arch rockpile1
 x 6
 y 6
 elevation 4753
 end
-arch hills_rocky
+arch bosgrass2
 x 6
 y 7
 elevation 3763
 end
-arch mountain
+arch skeletalmage
+x 6
+y 7
+end
+arch bosgrass2
 x 6
 y 8
 elevation 7549
 end
-arch mountain
+arch bosgrass2
 x 6
 y 9
 elevation 8760
 end
-arch mountain
+arch odoor_2_fant_brown
+x 6
+y 9
+end
+arch moss
 x 6
 y 10
 elevation 8246
 end
-arch mountain
+arch skeleton
+x 6
+y 10
+end
+arch moss
 x 6
 y 11
 elevation 6028
 end
-arch mountain
+arch skeleton
+x 6
+y 11
+end
+arch skeleton
+x 6
+y 11
+end
+arch mosscliff4
 x 6
 y 12
 elevation 5556
 end
-arch hills
+arch mosscliff4
 x 6
 y 13
 elevation 3449
 end
-arch jungle_1
+arch mosscliff4
 x 6
 y 14
 elevation 2603
 end
-arch hills_rocky
+arch mosscliff2
 x 6
 y 15
 elevation 2691
 end
-arch hills_rocky
+arch mosscliff4
 x 6
 y 16
 elevation 2380
 end
-arch steppe
+arch mosscliff4
 x 6
 y 17
 elevation 3553
 end
-arch mountain
+arch mosscliff4
 x 6
 y 18
 elevation 5081
 end
-arch mountain
+arch mosscliff4
 x 6
 y 19
 elevation 5776
 end
-arch mountain
+arch mosscliff4
 x 6
 y 20
 elevation 5061
 end
-arch steppe
+arch mosscliff4
 x 6
 y 21
 elevation 3714
@@ -1616,42 +1765,54 @@ x 6
 y 22
 elevation 2365
 end
-arch woods_2
+arch moss
 x 6
 y 23
 elevation 2434
 end
-arch steppe
+arch ghost
+x 6
+y 23
+end
+arch moss
 x 6
 y 24
 elevation 3466
 end
-arch hills_rocky
+arch moss
 x 6
 y 25
 elevation 4390
 end
-arch hills_rocky
+arch mosscliff3
 x 6
 y 26
 elevation 4896
 end
-arch hills_rocky
+arch pine_needles
 x 6
 y 27
 elevation 4681
 end
-arch hills_rocky
+arch generate_ghost
+x 6
+y 27
+end
+arch moss
 x 6
 y 28
 elevation 4234
 end
-arch hills_rocky
+arch ghost
+x 6
+y 28
+end
+arch rockpile1
 x 6
 y 29
 elevation 3790
 end
-arch hills_rocky
+arch rockpile1
 x 6
 y 30
 elevation 3294
@@ -1686,12 +1847,12 @@ x 6
 y 36
 elevation 3819
 end
-arch hills_rocky
+arch moss
 x 6
 y 37
 elevation 4835
 end
-arch steppe
+arch moss
 x 6
 y 38
 elevation 4815
@@ -1728,37 +1889,37 @@ arch tree3
 x 6
 y 42
 end
-arch woods
+arch moss
 x 6
 y 43
 elevation 2577
 end
-arch steppe
+arch moss
 x 6
 y 44
 elevation 4827
 end
-arch mountain
+arch moss
 x 6
 y 45
 elevation 6156
 end
-arch mountain
+arch moss
 x 6
 y 46
 elevation 6605
 end
-arch mountain
+arch moss
 x 6
 y 47
 elevation 6153
 end
-arch steppe
+arch moss
 x 6
 y 48
 elevation 4857
 end
-arch grass_only
+arch moss
 x 6
 y 49
 elevation 1828
@@ -1791,87 +1952,115 @@ x 7
 y 4
 elevation 3338
 end
-arch mountain
+arch bosgrass2
 x 7
 y 5
 elevation 5313
 end
-arch mountain
+arch rockpile1
 x 7
 y 6
 elevation 5951
 end
-arch mountain
+arch rockpile1
 x 7
 y 7
 elevation 6728
 end
-arch mountain
+arch rockpile1
 x 7
 y 8
 elevation 7815
 end
-arch mountain
+arch rockpile1
 x 7
 y 9
 elevation 8287
 end
-arch mountain
+arch moss
 x 7
 y 10
 elevation 7482
 end
-arch mountain
+arch skeleton
+x 7
+y 10
+end
+arch moss
 x 7
 y 11
 elevation 6244
 end
-arch mountain
+arch skeleton
+x 7
+y 11
+end
+arch moss
 x 7
 y 12
 elevation 5364
 end
-arch hills_rocky
+arch skeleton
+x 7
+y 12
+end
+arch moss
 x 7
 y 13
 elevation 3259
 end
-arch hills_rocky
+arch skeleton
+x 7
+y 13
+end
+arch bosgrass2
 x 7
 y 14
 elevation 3577
 end
-arch hills_rocky
+arch generate_zombie
+x 7
+y 14
+end
+arch mosscliff2
 x 7
 y 15
 elevation 3094
 end
-arch jungle_1
+arch bosgrass2
 x 7
 y 16
 elevation 2881
+end
+arch random_treasure
+x 7
+y 16
 end
 arch woods
 x 7
 y 17
 elevation 1482
 end
-arch mountain
+arch moss
 x 7
 y 18
 elevation 5173
 end
-arch mountain
+arch skeleton
+x 7
+y 18
+end
+arch moss
 x 7
 y 19
 elevation 6208
 end
-arch mountain
+arch moss
 x 7
 y 20
 elevation 5589
 end
-arch steppe
+arch mosscliff4
 x 7
 y 21
 elevation 3878
@@ -1886,37 +2075,41 @@ x 7
 y 23
 elevation 1404
 end
-arch woods_2
+arch moss
 x 7
 y 24
 elevation 2320
 end
-arch steppe
+arch moss
 x 7
 y 25
 elevation 4260
 end
-arch hills_rocky
+arch mosscliff3
 x 7
 y 26
 elevation 4848
 end
-arch hills_rocky
+arch mosscliff4
 x 7
 y 27
 elevation 4720
 end
-arch hills_rocky
+arch moss
 x 7
 y 28
 elevation 4167
 end
-arch hills_rocky
+arch ghost
+x 7
+y 28
+end
+arch rockpile1
 x 7
 y 29
 elevation 3702
 end
-arch hills_rocky
+arch rockpile1
 x 7
 y 30
 elevation 3568
@@ -1981,7 +2174,7 @@ x 7
 y 42
 elevation 1745
 end
-arch grass_only
+arch moss
 x 7
 y 43
 elevation 2688
@@ -1990,32 +2183,32 @@ arch tree3
 x 7
 y 43
 end
-arch hills_rocky
+arch moss
 x 7
 y 44
 elevation 3775
 end
-arch steppe
+arch moss
 x 7
 y 45
 elevation 4869
 end
-arch mountain
+arch moss
 x 7
 y 46
 elevation 5340
 end
-arch mountain
+arch moss
 x 7
 y 47
 elevation 5326
 end
-arch steppe
+arch moss
 x 7
 y 48
 elevation 4530
 end
-arch hills
+arch moss
 x 7
 y 49
 elevation 3883
@@ -2039,97 +2232,125 @@ x 8
 y 3
 elevation 3746
 end
-arch mountain
+arch bosgrass2
 x 8
 y 4
 elevation 5148
 end
-arch mountain
+arch bosgrass2
 x 8
 y 5
 elevation 6185
 end
-arch mountain
+arch rockpile1
 x 8
 y 6
 elevation 6830
 end
-arch mountain
+arch bosgrass2
 x 8
 y 7
 elevation 7881
 end
-arch mountain
+arch bosgrass2
 x 8
 y 8
 elevation 8433
 end
-arch mountain
+arch mosscliff2
 x 8
 y 9
 elevation 7723
 end
-arch mountain
+arch moss
 x 8
 y 10
 elevation 6644
 end
-arch mountain
+arch skeleton
+x 8
+y 10
+end
+arch moss
 x 8
 y 11
 elevation 6029
 end
-arch mountain
+arch skeleton
+x 8
+y 11
+end
+arch moss
 x 8
 y 12
 elevation 5962
 end
-arch mountain
+arch skeleton
+x 8
+y 12
+end
+arch moss
 x 8
 y 13
 elevation 5142
 end
-arch hills_rocky
+arch skeleton
+x 8
+y 13
+end
+arch bosgrass2
 x 8
 y 14
 elevation 4162
 end
-arch steppe
+arch skeleton
+x 8
+y 14
+end
+arch mosscliff2
 x 8
 y 15
 elevation 3379
 end
-arch hills_rocky
+arch bosgrass2
 x 8
 y 16
 elevation 2898
 end
-arch steppe
+arch bosgrass2
 x 8
 y 17
 elevation 3517
 end
-arch hills_rocky
+arch skeleton
+x 8
+y 17
+end
+arch moss
 x 8
 y 18
 elevation 4780
 end
-arch mountain
+arch moss
 x 8
 y 19
 elevation 5679
 end
-arch mountain
+arch skeleton
+x 8
+y 19
+end
+arch moss
 x 8
 y 20
 elevation 5138
 end
-arch steppe
+arch mosscliff4
 x 8
 y 21
 elevation 3805
 end
-arch woods_2
+arch moss
 x 8
 y 22
 elevation 2719
@@ -2139,32 +2360,40 @@ x 8
 y 23
 elevation 2372
 end
-arch woods_2
+arch moss
 x 8
 y 24
 elevation 2997
 end
-arch steppe
+arch moss
 x 8
 y 25
 elevation 3843
 end
-arch hills_rocky
+arch mosscliff3
 x 8
 y 26
 elevation 4197
 end
-arch hills_rocky
+arch pine_needles
 x 8
 y 27
 elevation 3850
 end
-arch hills_rocky
+arch generate_ghost
+x 8
+y 27
+end
+arch pine_needles
 x 8
 y 28
 elevation 3252
 end
-arch woods
+arch ghost
+x 8
+y 28
+end
+arch rockpile1
 x 8
 y 29
 elevation 2822
@@ -2253,22 +2482,22 @@ x 8
 y 45
 elevation 2036
 end
-arch hills
+arch moss
 x 8
 y 46
 elevation 3778
 end
-arch hills
+arch moss
 x 8
 y 47
 elevation 4330
 end
-arch hills
+arch moss
 x 8
 y 48
 elevation 4381
 end
-arch hills
+arch moss
 x 8
 y 49
 elevation 3780
@@ -2292,104 +2521,144 @@ x 9
 y 3
 elevation 4226
 end
-arch mountain
+arch bosgrass2
 x 9
 y 4
 elevation 5898
 end
-arch mountain
+arch bosgrass2
 x 9
 y 5
 elevation 7259
 end
-arch mountain
+arch rockpile1
 x 9
 y 6
 elevation 7478
 end
-arch mountain
+arch bosgrass2
 x 9
 y 7
 elevation 8317
 end
-arch mountain2
+arch bosgrass2
 x 9
 y 8
 elevation 9027
 end
-arch mountain
+arch ghast
+x 9
+y 8
+end
+arch moss
 x 9
 y 9
 elevation 8314
 end
-arch mountain
+arch odoor_2_fant_brown
+x 9
+y 9
+end
+arch moss
 x 9
 y 10
 elevation 7383
 end
-arch mountain
+arch skeleton
+x 9
+y 10
+end
+arch moss
 x 9
 y 11
 elevation 6942
 end
-arch mountain
+arch skeleton
+x 9
+y 11
+end
+arch moss
 x 9
 y 12
 elevation 6770
 end
-arch mountain
+arch skeleton
+x 9
+y 12
+end
+arch moss
 x 9
 y 13
 elevation 5761
 end
-arch hills_rocky
+arch skeleton
+x 9
+y 13
+end
+arch bosgrass2
 x 9
 y 14
 elevation 4391
 end
-arch hills_rocky
+arch skeleton
+x 9
+y 14
+end
+arch mosscliff4
 x 9
 y 15
 elevation 3221
 end
-arch grass_only
+arch bosgrass2
 x 9
 y 16
 elevation 2061
 end
-arch tree5
-x 9
-y 16
-end
-arch jungle_1
+arch moss
 x 9
 y 17
 elevation 2976
 end
-arch steppe
+arch wraith
+x 9
+y 17
+end
+arch moss
 x 9
 y 18
 elevation 3889
 end
-arch steppe
+arch moss
 x 9
 y 19
 elevation 4490
 end
-arch hills_rocky
+arch wraith
+x 9
+y 19
+end
+arch moss
 x 9
 y 20
 elevation 4131
 end
-arch steppe
+arch moss
 x 9
 y 21
 elevation 3373
 end
-arch woods_2
+arch door_look_1
+x 9
+y 21
+end
+arch moss
 x 9
 y 22
 elevation 2064
+end
+arch skeleton
+x 9
+y 22
 end
 arch jungle_1
 x 9
@@ -2401,17 +2670,21 @@ x 9
 y 24
 elevation 2576
 end
+arch ghost
+x 9
+y 24
+end
 arch hills_rocky
 x 9
 y 25
 elevation 3006
 end
-arch hills_rocky
+arch mosscliff3
 x 9
 y 26
 elevation 3195
 end
-arch woods
+arch mosscliff4
 x 9
 y 27
 elevation 2474
@@ -2421,7 +2694,11 @@ x 9
 y 28
 elevation 1663
 end
-arch hills_rocky
+arch ghost
+x 9
+y 28
+end
+arch rockpile1
 x 9
 y 29
 elevation 3347
@@ -2501,12 +2778,12 @@ x 9
 y 44
 elevation 1459
 end
-arch hills_rocky
+arch moss
 x 9
 y 45
 elevation 2077
 end
-arch grass_only
+arch moss
 x 9
 y 46
 elevation 2336
@@ -2515,17 +2792,17 @@ arch tree3
 x 9
 y 46
 end
-arch steppe
+arch moss
 x 9
 y 47
 elevation 3908
 end
-arch hills
+arch moss
 x 9
 y 48
 elevation 3076
 end
-arch hills
+arch moss
 x 9
 y 49
 elevation 4188
@@ -2549,72 +2826,80 @@ x 10
 y 3
 elevation 2989
 end
-arch mountain
+arch bosgrass2
 x 10
 y 4
 elevation 6169
 end
-arch mountain
+arch bosgrass2
 x 10
 y 5
 elevation 8145
 end
-arch mountain2
+arch rockpile1
 x 10
 y 6
 elevation 9262
 end
-arch mountain2
+arch rockpile1
 x 10
 y 7
 elevation 9628
 end
-arch mountain2
+arch rockpile1
 x 10
 y 8
 elevation 9645
 end
-arch mountain
+arch rockpile1
 x 10
 y 9
 elevation 8625
 end
-arch mountain
+arch rockpile1
 x 10
 y 10
 elevation 5824
 end
-arch mountain
+arch rockpile1
 x 10
 y 11
 elevation 7285
 end
-arch mountain
+arch rockpile1
 x 10
 y 12
 elevation 7069
 end
-arch mountain
+arch bosgrass2
 x 10
 y 13
 elevation 5865
 end
-arch hills_rocky
+arch skeleton
+x 10
+y 13
+end
+arch bosgrass2
 x 10
 y 14
 elevation 3961
 end
-arch hills_rocky
+arch skeleton
+x 10
+y 14
+end
+arch mosscliff2
 x 10
 y 15
 elevation 3018
 end
-arch hills_rocky
+arch bosgrass2
 x 10
 y 16
 elevation 1624
 end
-arch desert
+arch moss
 x 10
 y 17
 elevation 870
@@ -2624,32 +2909,32 @@ x 10
 y 18
 elevation 2635
 end
-arch steppe
+arch moss
 x 10
 y 19
 elevation 3166
 end
-arch steppe
+arch moss
 x 10
 y 20
 elevation 3138
 end
-arch woods
+arch mosscliff4
 x 10
 y 21
 elevation 2765
 end
-arch jungle_1
+arch moss
 x 10
 y 22
 elevation 2370
 end
-arch jungle_1
+arch moss
 x 10
 y 23
 elevation 1687
 end
-arch desert
+arch pine_needles
 x 10
 y 24
 elevation 753
@@ -2659,22 +2944,30 @@ x 10
 y 25
 elevation 2031
 end
-arch woods
+arch mosscliff3
 x 10
 y 26
 elevation 1965
 end
-arch woods
+arch pine_needles
 x 10
 y 27
 elevation 2177
+end
+arch generate_ghost
+x 10
+y 27
 end
 arch woods
 x 10
 y 28
 elevation 2942
 end
-arch hills_rocky
+arch ghost
+x 10
+y 28
+end
+arch rockpile1
 x 10
 y 29
 elevation 3355
@@ -2704,66 +2997,62 @@ x 10
 y 34
 elevation 1591
 end
-arch desert
+arch moss
 x 10
 y 35
 elevation 560
 end
-arch desert
+arch moss
 x 10
 y 36
 elevation 710
 end
-arch desert
+arch moss
 x 10
 y 37
 elevation 922
 end
-arch desert
+arch moss
 x 10
 y 38
 elevation 933
 end
-arch brush
+arch moss
 x 10
 y 39
 elevation 900
 end
-arch hills_rocky
+arch moss
 x 10
 y 40
 elevation 1110
 end
-arch woods
+arch moss
 x 10
 y 41
 elevation 1866
 end
-arch grass_only
+arch moss
 x 10
 y 42
 elevation 1754
 end
-arch tree3
-x 10
-y 42
-end
-arch desert
+arch moss
 x 10
 y 43
 elevation 152
 end
-arch woods
+arch moss
 x 10
 y 44
 elevation 1103
 end
-arch jungle_1
+arch moss
 x 10
 y 45
 elevation 1650
 end
-arch grass_only
+arch moss
 x 10
 y 46
 elevation 2539
@@ -2772,17 +3061,17 @@ arch tree3
 x 10
 y 46
 end
-arch steppe
+arch moss
 x 10
 y 47
 elevation 3525
 end
-arch steppe
+arch moss
 x 10
 y 48
 elevation 4178
 end
-arch steppe
+arch moss
 x 10
 y 49
 elevation 4092
@@ -2806,107 +3095,131 @@ x 11
 y 3
 elevation 3686
 end
-arch mountain
+arch bosgrass2
 x 11
 y 4
 elevation 6631
 end
-arch mountain
+arch bosgrass2
 x 11
 y 5
 elevation 8762
 end
-arch mountain2
+arch rockpile1
 x 11
 y 6
 elevation 9993
 end
-arch mountain2
+arch moss
 x 11
 y 7
 elevation 10324
 end
-arch mountain2
+arch generate_ghost
+x 11
+y 7
+end
+arch moss
 x 11
 y 8
 elevation 9855
 end
-arch mountain
+arch generate_skeleton
+x 11
+y 8
+end
+arch moss
 x 11
 y 9
 elevation 8598
 end
-arch mountain
+arch skeleton
+x 11
+y 9
+end
+arch moss
 x 11
 y 10
 elevation 6799
 end
-arch mountain
+arch skeleton
+x 11
+y 10
+end
+arch rockpile1
 x 11
 y 11
 elevation 7109
 end
-arch mountain
+arch rockpile1
 x 11
 y 12
 elevation 6718
 end
-arch mountain
+arch rockpile1
 x 11
 y 13
 elevation 5522
 end
-arch steppe
+arch bosgrass2
 x 11
 y 14
 elevation 4231
 end
-arch hills_rocky
+arch door_1
+x 11
+y 14
+end
+arch mosscliff2
 x 11
 y 15
 elevation 3092
 end
-arch jungle_1
+arch mosscliff3
 x 11
 y 16
 elevation 2066
 end
-arch desert
+arch mosscliff3
 x 11
 y 17
 elevation 752
 end
-arch woods
+arch mosscliff3
 x 11
 y 18
 elevation 1446
 end
-arch jungle_1
+arch mosscliff3
 x 11
 y 19
 elevation 2247
 end
-arch woods_2
+arch mosscliff3
 x 11
 y 20
 elevation 1965
 end
-arch woods_2
+arch mosscliff3
 x 11
 y 21
 elevation 1710
 end
-arch woods_2
+arch moss
 x 11
 y 22
 elevation 2347
 end
-arch woods_2
+arch moss
 x 11
 y 23
 elevation 2138
 end
-arch woods_2
+arch skeleton
+x 11
+y 23
+end
+arch moss
 x 11
 y 24
 elevation 1762
@@ -2916,12 +3229,12 @@ x 11
 y 25
 elevation 1194
 end
-arch desert
+arch mosscliff3
 x 11
 y 26
 elevation 801
 end
-arch woods
+arch mosscliff4
 x 11
 y 27
 elevation 2644
@@ -2931,7 +3244,11 @@ x 11
 y 28
 elevation 3461
 end
-arch hills_rocky
+arch ghost
+x 11
+y 28
+end
+arch rockpile1
 x 11
 y 29
 elevation 3636
@@ -2961,61 +3278,57 @@ x 11
 y 34
 elevation 1655
 end
-arch desert
+arch moss
 x 11
 y 35
 elevation 786
 end
-arch desert
+arch moss
 x 11
 y 36
 elevation 362
 end
-arch desert
+arch moss
 x 11
 y 37
 elevation 691
 end
-arch desert
+arch moss
 x 11
 y 38
 elevation 790
 end
-arch brush
+arch moss
 x 11
 y 39
 elevation 649
 end
-arch grass_only
+arch moss
 x 11
 y 40
 elevation 1697
 end
-arch tree3
-x 11
-y 40
-end
-arch woods
+arch moss
 x 11
 y 41
 elevation 2287
 end
-arch woods
+arch moss
 x 11
 y 42
 elevation 2117
 end
-arch woods
+arch moss
 x 11
 y 43
 elevation 1658
 end
-arch woods
+arch moss
 x 11
 y 44
 elevation 1092
 end
-arch woods
+arch moss
 x 11
 y 45
 elevation 1267
@@ -3025,17 +3338,17 @@ x 11
 y 46
 elevation 1092
 end
-arch jungle_1
+arch moss
 x 11
 y 47
 elevation 2964
 end
-arch hills
+arch moss
 x 11
 y 48
 elevation 3514
 end
-arch hills
+arch moss
 x 11
 y 49
 elevation 3356
@@ -3049,86 +3362,114 @@ x 12
 y 1
 elevation 3517
 end
-arch hills_rocky
+arch bosgrass
 x 12
 y 2
 elevation 4766
 end
-arch mountain
+arch bosgrass
 x 12
 y 3
 elevation 6219
 end
-arch mountain
+arch bosgrass2
 x 12
 y 4
 elevation 7556
 end
-arch mountain
+arch bosgrass2
 x 12
 y 5
 elevation 8557
 end
-arch mountain2
+arch rockpile1
 x 12
 y 6
 elevation 9284
 end
-arch mountain2
+arch moss
 x 12
 y 7
 elevation 9502
 end
-arch mountain2
+arch generate_ghost
+x 12
+y 7
+end
+arch moss
 x 12
 y 8
 elevation 9134
 end
-arch mountain
+arch generate_skeleton
+x 12
+y 8
+end
+arch moss
 x 12
 y 9
 elevation 8046
 end
-arch mountain
+arch skeleton
+x 12
+y 9
+end
+arch moss
 x 12
 y 10
 elevation 7283
 end
-arch mountain
+arch skeleton
+x 12
+y 10
+end
+arch moss
 x 12
 y 11
 elevation 6685
 end
-arch mountain
+arch skeleton
+x 12
+y 11
+end
+arch moss
 x 12
 y 12
 elevation 6027
 end
-arch hills
+arch skeleton
+x 12
+y 12
+end
+arch moss
 x 12
 y 13
 elevation 4805
 end
-arch hills
+arch skeleton
+x 12
+y 13
+end
+arch moss
 x 12
 y 14
 elevation 4136
 end
-arch grass_only
+arch skeleton
+x 12
+y 14
+end
+arch mosscliff4
 x 12
 y 15
 elevation 2422
 end
-arch tree5
-x 12
-y 15
-end
-arch hills_rocky
+arch moss
 x 12
 y 16
 elevation 2235
 end
-arch woods_2
+arch moss
 x 12
 y 17
 elevation 1968
@@ -3138,22 +3479,22 @@ x 12
 y 18
 elevation 1832
 end
-arch woods
+arch moss
 x 12
 y 19
 elevation 1312
 end
-arch woods_2
+arch moss
 x 12
 y 20
 elevation 1906
 end
-arch woods_2
+arch mosscliff3
 x 12
 y 21
 elevation 2011
 end
-arch woods
+arch moss
 x 12
 y 22
 elevation 2409
@@ -3162,6 +3503,10 @@ arch jungle_1
 x 12
 y 23
 elevation 2508
+end
+arch ghost
+x 12
+y 23
 end
 arch jungle_1
 x 12
@@ -3173,32 +3518,40 @@ x 12
 y 25
 elevation 1988
 end
-arch woods
+arch mosscliff3
 x 12
 y 26
 elevation 1329
 end
-arch hills_rocky
+arch pine_needles
 x 12
 y 27
 elevation 3193
 end
-arch hills_rocky
+arch generate_ghost
+x 12
+y 27
+end
+arch pine_needles
 x 12
 y 28
 elevation 4080
 end
-arch hills_rocky
+arch ghost
+x 12
+y 28
+end
+arch rockpile1
 x 12
 y 29
 elevation 3885
 end
-arch hills_rocky
+arch rockpile1
 x 12
 y 30
 elevation 3681
 end
-arch hills_rocky
+arch rockpile1
 x 12
 y 31
 elevation 3326
@@ -3218,27 +3571,27 @@ x 12
 y 34
 elevation 1972
 end
-arch desert
+arch moss
 x 12
 y 35
 elevation 820
 end
-arch desert
+arch moss
 x 12
 y 36
 elevation 300
 end
-arch desert
+arch moss
 x 12
 y 37
 elevation 398
 end
-arch desert
+arch moss
 x 12
 y 38
 elevation 915
 end
-arch desert
+arch moss
 x 12
 y 39
 elevation 649
@@ -3253,12 +3606,12 @@ x 12
 y 41
 elevation 2443
 end
-arch woods
+arch moss
 x 12
 y 42
 elevation 2255
 end
-arch woods
+arch moss
 x 12
 y 43
 elevation 1740
@@ -3273,22 +3626,22 @@ x 12
 y 45
 elevation 385
 end
-arch brush
+arch moss
 x 12
 y 46
 elevation 874
 end
-arch hills_rocky
+arch moss
 x 12
 y 47
 elevation 2078
 end
-arch hills_rocky
+arch moss
 x 12
 y 48
 elevation 2433
 end
-arch hills_rocky
+arch moss
 x 12
 y 49
 elevation 1520
@@ -3302,112 +3655,156 @@ x 13
 y 1
 elevation 4026
 end
-arch mountain
+arch bosgrass
 x 13
 y 2
 elevation 6257
 end
-arch mountain
+arch bosgrass
 x 13
 y 3
 elevation 7520
 end
-arch mountain
+arch bosgrass
 x 13
 y 4
 elevation 8194
 end
-arch mountain
+arch bosgrass2
 x 13
 y 5
 elevation 8090
 end
-arch mountain
+arch rockpile1
 x 13
 y 6
 elevation 6256
 end
-arch mountain
+arch rockpile1
 x 13
 y 7
 elevation 7767
 end
-arch mountain
+arch rockpile1
 x 13
 y 8
 elevation 7484
 end
-arch mountain
+arch moss
 x 13
 y 9
 elevation 6810
 end
-arch mountain
+arch skeleton
+x 13
+y 9
+end
+arch moss
 x 13
 y 10
 elevation 6202
 end
-arch mountain
+arch skeleton
+x 13
+y 10
+end
+arch moss
 x 13
 y 11
 elevation 5854
 end
-arch mountain
+arch skeleton
+x 13
+y 11
+end
+arch moss
 x 13
 y 12
 elevation 5239
 end
-arch mountain
+arch skeleton
+x 13
+y 12
+end
+arch moss
 x 13
 y 13
 elevation 5074
 end
-arch hills_rocky
+arch skeleton
+x 13
+y 13
+end
+arch skeleton
+x 13
+y 13
+end
+arch moss
 x 13
 y 14
 elevation 4297
 end
-arch hills_rocky
+arch skeleton
+x 13
+y 14
+end
+arch mosscliff4
 x 13
 y 15
 elevation 2610
 end
-arch jungle_1
+arch moss
 x 13
 y 16
 elevation 2220
 end
-arch woods_2
+arch random_treasure
+x 13
+y 16
+end
+arch moss
 x 13
 y 17
 elevation 2270
+end
+arch wraith
+x 13
+y 17
 end
 arch jungle_1
 x 13
 y 18
 elevation 2581
 end
-arch woods_2
+arch moss
 x 13
 y 19
 elevation 1861
 end
-arch jungle_1
+arch skeleton
+x 13
+y 19
+end
+arch moss
 x 13
 y 20
 elevation 2444
 end
-arch jungle_1
+arch moss
 x 13
 y 21
 elevation 2037
 end
-arch woods_2
+arch door_look_1
+x 13
+y 21
+end
+arch moss
 x 13
 y 22
 elevation 2653
 end
-arch woods_2
+arch moss
 x 13
 y 23
 elevation 2656
@@ -3417,37 +3814,45 @@ x 13
 y 24
 elevation 2550
 end
-arch woods
+arch skeleton
+x 13
+y 24
+end
+arch mosscliff3
 x 13
 y 25
 elevation 2562
 end
-arch hills_rocky
+arch mosscliff3
 x 13
 y 26
 elevation 2681
 end
-arch hills_rocky
+arch mosscliff4
 x 13
 y 27
 elevation 3934
 end
-arch hills_rocky
+arch pine_needles
 x 13
 y 28
 elevation 4645
 end
-arch hills_rocky
+arch ghost
+x 13
+y 28
+end
+arch pine_needles
 x 13
 y 29
 elevation 4466
 end
-arch steppe
+arch rockpile1
 x 13
 y 30
 elevation 4147
 end
-arch hills_rocky
+arch rockpile1
 x 13
 y 31
 elevation 3650
@@ -3472,17 +3877,17 @@ x 13
 y 35
 elevation 1166
 end
-arch desert
+arch moss
 x 13
 y 36
 elevation 759
 end
-arch woods
+arch moss
 x 13
 y 37
 elevation 1112
 end
-arch woods
+arch moss
 x 13
 y 38
 elevation 1271
@@ -3502,16 +3907,12 @@ x 13
 y 41
 elevation 2206
 end
-arch grass_only
+arch moss
 x 13
 y 42
 elevation 1736
 end
-arch tree3
-x 13
-y 42
-end
-arch desert
+arch moss
 x 13
 y 43
 elevation 863
@@ -3531,17 +3932,17 @@ x 13
 y 46
 elevation 871
 end
-arch hills_rocky
+arch moss
 x 13
 y 47
 elevation 1789
 end
-arch hills_rocky
+arch moss
 x 13
 y 48
 elevation 1120
 end
-arch hills_rocky
+arch moss
 x 13
 y 49
 elevation 1272
@@ -3550,120 +3951,156 @@ arch hills_rocky
 x 14
 elevation 4547
 end
-arch mountain
+arch bosgrass
 x 14
 y 1
 elevation 5673
 end
-arch mountain
+arch bosgrass
 x 14
 y 2
 elevation 7096
 end
-arch mountain
+arch bosgrass
 x 14
 y 3
 elevation 8178
 end
-arch mountain
+arch bosgrass
 x 14
 y 4
 elevation 8234
 end
-arch mountain
+arch bosgrass2
 x 14
 y 5
 elevation 7382
 end
-arch mountain
+arch bosgrass2
 x 14
 y 6
 elevation 6334
 end
-arch mountain
+arch bosgrass2
 x 14
 y 7
 elevation 5416
 end
-arch mountain
+arch mosscliff1
 x 14
 y 8
 elevation 5608
 end
-arch steppe
+arch moss
 x 14
 y 9
 elevation 4489
 end
-arch hills_rocky
+arch generate_skeleton
+x 14
+y 9
+end
+arch moss
 x 14
 y 10
 elevation 4218
 end
-arch hills_rocky
+arch skeleton
+x 14
+y 10
+end
+arch moss
 x 14
 y 11
 elevation 4891
 end
-arch mountain
+arch skeleton
+x 14
+y 11
+end
+arch moss
 x 14
 y 12
 elevation 5160
 end
-arch mountain
+arch skeleton
+x 14
+y 12
+end
+arch moss
 x 14
 y 13
 elevation 5004
 end
-arch hills_rocky
+arch skeleton
+x 14
+y 13
+end
+arch moss
 x 14
 y 14
 elevation 4949
 end
-arch steppe
+arch skeleton
+x 14
+y 14
+end
+arch mosscliff4
 x 14
 y 15
 elevation 4269
 end
-arch hills_rocky
+arch moss
 x 14
 y 16
 elevation 4057
 end
-arch steppe
+arch moss
 x 14
 y 17
 elevation 3845
 end
-arch steppe
+arch skeleton
+x 14
+y 17
+end
+arch moss
 x 14
 y 18
 elevation 3562
 end
-arch steppe
+arch moss
 x 14
 y 19
 elevation 3590
 end
-arch steppe
+arch wraith
+x 14
+y 19
+end
+arch moss
 x 14
 y 20
 elevation 3569
 end
-arch steppe
+arch mosscliff4
 x 14
 y 21
 elevation 3371
 end
-arch hills_rocky
+arch moss
 x 14
 y 22
 elevation 2932
 end
-arch woods_2
+arch moss
 x 14
 y 23
 elevation 2417
+end
+arch skeleton
+x 14
+y 23
 end
 arch jungle_1
 x 14
@@ -3675,32 +4112,48 @@ x 14
 y 25
 elevation 2677
 end
-arch steppe
+arch mosscliff3
 x 14
 y 26
 elevation 3542
 end
-arch steppe
+arch pine_needles
 x 14
 y 27
 elevation 4347
 end
-arch steppe
+arch generate_ghost
+x 14
+y 27
+end
+arch pine_needles
 x 14
 y 28
 elevation 4819
 end
-arch steppe
+arch ghost
+x 14
+y 28
+end
+arch pine_needles
 x 14
 y 29
 elevation 4696
 end
-arch hills_rocky
+arch generate_zombie
+x 14
+y 29
+end
+arch pine_needles
 x 14
 y 30
 elevation 3938
 end
-arch hills
+arch generate_zombie
+x 14
+y 30
+end
+arch rockpile1
 x 14
 y 31
 elevation 3226
@@ -3747,17 +4200,17 @@ arch evergreens2
 x 14
 y 37
 end
-arch woods
+arch moss
 x 14
 y 38
 elevation 1678
 end
-arch woods
+arch moss
 x 14
 y 39
 elevation 1909
 end
-arch grass_only
+arch moss
 x 14
 y 40
 elevation 2052
@@ -3766,7 +4219,7 @@ arch evergreens2
 x 14
 y 40
 end
-arch grass_only
+arch moss
 x 14
 y 41
 elevation 1758
@@ -3775,12 +4228,12 @@ arch evergreens2
 x 14
 y 41
 end
-arch grass
+arch moss
 x 14
 y 42
 elevation 618
 end
-arch desert
+arch moss
 x 14
 y 43
 elevation 746
@@ -3799,12 +4252,12 @@ arch evergreens2
 x 14
 y 45
 end
-arch hills_rocky
+arch moss
 x 14
 y 46
 elevation 1546
 end
-arch grass_only
+arch moss
 x 14
 y 47
 elevation 2013
@@ -3813,7 +4266,7 @@ arch evergreens2
 x 14
 y 47
 end
-arch grass_only
+arch moss
 x 14
 y 48
 elevation 2166
@@ -3822,41 +4275,41 @@ arch evergreens2
 x 14
 y 48
 end
-arch hills_rocky
+arch moss
 x 14
 y 49
 elevation 1685
 end
-arch mountain
+arch bosgrass2
 x 15
 elevation 5036
 end
-arch mountain
+arch bosgrass2
 x 15
 y 1
 elevation 5699
 end
-arch mountain
+arch bosgrass2
 x 15
 y 2
 elevation 6875
 end
-arch mountain
+arch bosgrass2
 x 15
 y 3
 elevation 7760
 end
-arch mountain
+arch bosgrass2
 x 15
 y 4
 elevation 7619
 end
-arch mountain
+arch bosgrass2
 x 15
 y 5
 elevation 6830
 end
-arch mountain
+arch bosgrass2
 x 15
 y 6
 elevation 5707
@@ -3866,87 +4319,111 @@ x 15
 y 7
 elevation 4500
 end
-arch hills_rocky
+arch mosscliff1
 x 15
 y 8
 elevation 3325
 end
-arch hills
+arch moss
 x 15
 y 9
 elevation 3700
 end
-arch hills_rocky
+arch generate_zombie
+x 15
+y 9
+end
+arch moss
 x 15
 y 10
 elevation 3640
 end
-arch hills_rocky
+arch skeleton
+x 15
+y 10
+end
+arch moss
 x 15
 y 11
 elevation 4979
 end
-arch mountain
+arch skeleton
+x 15
+y 11
+end
+arch moss
 x 15
 y 12
 elevation 5330
 end
-arch mountain
+arch skeleton
+x 15
+y 12
+end
+arch moss
 x 15
 y 13
 elevation 5468
 end
-arch mountain
+arch skeleton
+x 15
+y 13
+end
+arch moss
 x 15
 y 14
 elevation 5446
 end
-arch mountain
+arch skeleton
+x 15
+y 14
+end
+arch mosscliff4
 x 15
 y 15
 elevation 5381
 end
-arch mountain
+arch mosscliff3
 x 15
 y 16
 elevation 5257
 end
-arch steppe
+arch mosscliff3
 x 15
 y 17
 elevation 4731
 end
-arch steppe
+arch mosscliff3
 x 15
 y 18
 elevation 4346
 end
-arch steppe
+arch mosscliff3
 x 15
 y 19
 elevation 4425
 end
-arch steppe
+arch mosscliff3
 x 15
 y 20
 elevation 4732
 end
-arch steppe
+arch mosscliff3
 x 15
 y 21
 elevation 4341
 end
-arch woods_2
+arch moss
 x 15
 y 22
 elevation 2825
 end
-arch hills
+arch moss
 x 15
 y 23
 elevation 2039
 end
-arch desert
+arch moss
 x 15
 y 24
 elevation 595
@@ -3956,32 +4433,44 @@ x 15
 y 25
 elevation 2524
 end
-arch hills
+arch mosscliff3
 x 15
 y 26
 elevation 3427
 end
-arch steppe
+arch mosscliff4
 x 15
 y 27
 elevation 4085
 end
-arch steppe
+arch pine_needles
 x 15
 y 28
 elevation 4394
 end
-arch hills
+arch ghost
+x 15
+y 28
+end
+arch pine_needles
 x 15
 y 29
 elevation 4055
 end
-arch steppe
+arch generate_zombie
+x 15
+y 29
+end
+arch pine_needles
 x 15
 y 30
 elevation 3076
 end
-arch hills
+arch generate_zombie
+x 15
+y 30
+end
+arch rockpile1
 x 15
 y 31
 elevation 1428
@@ -4035,12 +4524,12 @@ x 15
 y 40
 elevation 1712
 end
-arch hills
+arch moss
 x 15
 y 41
 elevation 1205
 end
-arch desert
+arch moss
 x 15
 y 42
 elevation 397
@@ -4065,12 +4554,12 @@ x 15
 y 46
 elevation 1711
 end
-arch hills_rocky
+arch moss
 x 15
 y 47
 elevation 2632
 end
-arch grass_only
+arch moss
 x 15
 y 48
 elevation 2867
@@ -4079,7 +4568,7 @@ arch evergreens2
 x 15
 y 48
 end
-arch hills_rocky
+arch moss
 x 15
 y 49
 elevation 2302
@@ -4093,22 +4582,22 @@ x 16
 y 1
 elevation 4030
 end
-arch mountain
+arch bosgrass
 x 16
 y 2
 elevation 5573
 end
-arch mountain
+arch bosgrass
 x 16
 y 3
 elevation 6522
 end
-arch mountain
+arch bosgrass
 x 16
 y 4
 elevation 6631
 end
-arch mountain
+arch bosgrass2
 x 16
 y 5
 elevation 5869
@@ -4123,82 +4612,114 @@ x 16
 y 7
 elevation 3567
 end
-arch hills_rocky
+arch mosscliff1
 x 16
 y 8
 elevation 2901
 end
-arch hills
+arch moss
 x 16
 y 9
 elevation 4392
 end
-arch steppe
+arch skeleton
+x 16
+y 9
+end
+arch moss
 x 16
 y 10
 elevation 4828
 end
-arch mountain
+arch skeleton
+x 16
+y 10
+end
+arch moss
 x 16
 y 11
 elevation 5014
 end
-arch mountain
+arch skeleton
+x 16
+y 11
+end
+arch moss
 x 16
 y 12
 elevation 5191
 end
-arch mountain
+arch skeleton
+x 16
+y 12
+end
+arch moss
 x 16
 y 13
 elevation 5409
 end
-arch mountain
+arch skeleton
+x 16
+y 13
+end
+arch moss
 x 16
 y 14
 elevation 5442
 end
-arch mountain
+arch skeleton
+x 16
+y 14
+end
+arch mosscliff4
 x 16
 y 15
 elevation 5547
 end
-arch mountain
+arch moss
 x 16
 y 16
 elevation 5593
 end
-arch mountain
+arch moss
 x 16
 y 17
 elevation 5108
 end
-arch steppe
+arch random_treasure
+x 16
+y 17
+end
+arch moss
 x 16
 y 18
 elevation 3138
 end
-arch steppe
+arch moss
 x 16
 y 19
 elevation 4937
 end
-arch mountain
+arch moss
 x 16
 y 20
 elevation 5396
 end
-arch mountain
+arch moss
 x 16
 y 21
 elevation 5118
 end
-arch steppe
+arch door_look_1
+x 16
+y 21
+end
+arch moss
 x 16
 y 22
 elevation 4277
 end
-arch steppe
+arch pine_needles
 x 16
 y 23
 elevation 3090
@@ -4208,52 +4729,64 @@ x 16
 y 24
 elevation 1531
 end
+arch skeleton
+x 16
+y 24
+end
 arch woods
 x 16
 y 25
 elevation 2495
 end
-arch hills_rocky
+arch mosscliff3
 x 16
 y 26
 elevation 2937
 end
-arch steppe
+arch pine_needles
 x 16
 y 27
 elevation 3198
 end
-arch steppe
+arch generate_ghost
+x 16
+y 27
+end
+arch pine_needles
 x 16
 y 28
 elevation 3545
 end
-arch steppe
+arch ghost
+x 16
+y 28
+end
+arch pine_needles
 x 16
 y 29
 elevation 3062
 end
-arch woods
+arch rockpile1
 x 16
 y 30
 elevation 1491
 end
-arch desert
+arch rockpile1
 x 16
 y 31
 elevation 665
 end
-arch hills
+arch pine_needles
 x 16
 y 32
 elevation 1142
 end
-arch hills
+arch pine_needles
 x 16
 y 33
 elevation 1372
 end
-arch desert
+arch pine_needles
 x 16
 y 34
 elevation 588
@@ -4291,17 +4824,17 @@ arch evergreens2
 x 16
 y 39
 end
-arch grass
+arch moss
 x 16
 y 40
 elevation 770
 end
-arch desert
+arch moss
 x 16
 y 41
 elevation 813
 end
-arch desert
+arch moss
 x 16
 y 42
 elevation 149
@@ -4321,7 +4854,7 @@ x 16
 y 45
 elevation 138
 end
-arch grass_only
+arch moss
 x 16
 y 46
 elevation 1103
@@ -4330,17 +4863,17 @@ arch evergreens2
 x 16
 y 46
 end
-arch hills
+arch moss
 x 16
 y 47
 elevation 3193
 end
-arch hills
+arch moss
 x 16
 y 48
 elevation 3752
 end
-arch grass_only
+arch moss
 x 16
 y 49
 elevation 2243
@@ -4368,7 +4901,7 @@ x 17
 y 3
 elevation 4877
 end
-arch mountain
+arch bosgrass
 x 17
 y 4
 elevation 5278
@@ -4388,102 +4921,130 @@ x 17
 y 7
 elevation 3863
 end
-arch steppe
+arch mosscliff1
 x 17
 y 8
 elevation 4453
 end
-arch mountain
+arch rockpile1
 x 17
 y 9
 elevation 5166
 end
-arch mountain
+arch moss
 x 17
 y 10
 elevation 5446
 end
-arch hills_rocky
+arch door_1
+x 17
+y 10
+end
+arch rockpile1
 x 17
 y 11
 elevation 4086
 end
-arch hills_rocky
+arch rockpile1
 x 17
 y 12
 elevation 4748
 end
-arch hills_rocky
+arch moss
 x 17
 y 13
 elevation 4745
 end
-arch hills_rocky
+arch skeleton
+x 17
+y 13
+end
+arch moss
 x 17
 y 14
 elevation 4711
 end
-arch mountain
+arch skeleton
+x 17
+y 14
+end
+arch mosscliff4
 x 17
 y 15
 elevation 5040
 end
-arch mountain
+arch moss
 x 17
 y 16
 elevation 5325
 end
-arch steppe
+arch moss
 x 17
 y 17
 elevation 4915
 end
-arch steppe
+arch wraith
+x 17
+y 17
+end
+arch moss
 x 17
 y 18
 elevation 4928
 end
-arch mountain
+arch wraith
+x 17
+y 18
+end
+arch moss
 x 17
 y 19
 elevation 5422
 end
-arch mountain
+arch skeleton
+x 17
+y 19
+end
+arch moss
 x 17
 y 20
 elevation 5740
 end
-arch mountain
+arch mosscliff4
 x 17
 y 21
 elevation 5550
 end
-arch steppe
+arch moss
 x 17
 y 22
 elevation 4941
 end
-arch steppe
+arch pine_needles
 x 17
 y 23
 elevation 4152
 end
-arch steppe
+arch pine_needles
 x 17
 y 24
 elevation 3364
+end
+arch ghost
+x 17
+y 24
 end
 arch hills
 x 17
 y 25
 elevation 2827
 end
-arch hills_rocky
+arch mosscliff3
 x 17
 y 26
 elevation 2076
 end
-arch hills_rocky
+arch mosscliff4
 x 17
 y 27
 elevation 2853
@@ -4493,35 +5054,31 @@ x 17
 y 28
 elevation 2937
 end
-arch hills
+arch ghost
+x 17
+y 28
+end
+arch rockpile1
 x 17
 y 29
 elevation 2348
 end
-arch grass_only
+arch rockpile1
 x 17
 y 30
 elevation 1107
-end
-arch evergreens2
-x 17
-y 30
 end
 arch grass_only
 x 17
 y 31
 elevation 1004
 end
-arch evergreens2
-x 17
-y 31
-end
 arch hills
 x 17
 y 32
 elevation 1354
 end
-arch grass_only
+arch pine_needles
 x 17
 y 33
 elevation 1501
@@ -4540,7 +5097,7 @@ x 17
 y 35
 elevation 1757
 end
-arch desert
+arch pine_needles
 x 17
 y 36
 elevation 788
@@ -4560,7 +5117,7 @@ x 17
 y 39
 elevation 1914
 end
-arch desert
+arch moss
 x 17
 y 40
 elevation 751
@@ -4585,12 +5142,12 @@ x 17
 y 44
 elevation 149
 end
-arch grass
+arch moss
 x 17
 y 45
 elevation 352
 end
-arch hills_rocky
+arch moss
 x 17
 y 46
 elevation 1789
@@ -4600,12 +5157,12 @@ x 17
 y 47
 elevation 3322
 end
-arch hills
+arch moss
 x 17
 y 48
 elevation 4188
 end
-arch hills
+arch moss
 x 17
 y 49
 elevation 3990
@@ -4649,87 +5206,115 @@ x 18
 y 7
 elevation 3905
 end
-arch hills_rocky
+arch mosscliff1
 x 18
 y 8
 elevation 4460
 end
-arch mountain
+arch moss
 x 18
 y 9
 elevation 5934
 end
-arch mountain
+arch skeleton
+x 18
+y 9
+end
+arch moss
 x 18
 y 10
 elevation 6132
 end
-arch mountain
+arch skeleton
+x 18
+y 10
+end
+arch moss
 x 18
 y 11
 elevation 5415
 end
-arch hills_rocky
+arch skeleton
+x 18
+y 11
+end
+arch rockpile1
 x 18
 y 12
 elevation 3781
 end
-arch hills_rocky
+arch moss
 x 18
 y 13
 elevation 3287
 end
-arch steppe
+arch skeleton
+x 18
+y 13
+end
+arch moss
 x 18
 y 14
 elevation 4011
 end
-arch hills_rocky
+arch skeleton
+x 18
+y 14
+end
+arch rockpile1
 x 18
 y 15
 elevation 2917
 end
-arch mountain
+arch moss
 x 18
 y 16
 elevation 5354
 end
-arch mountain
+arch moss
 x 18
 y 17
 elevation 5756
 end
-arch mountain
+arch moss
 x 18
 y 18
 elevation 5903
 end
-arch mountain
+arch moss
 x 18
 y 19
 elevation 6116
 end
-arch mountain
+arch moss
 x 18
 y 20
 elevation 6082
 end
-arch steppe
+arch skeleton
+x 18
+y 20
+end
+arch mosscliff4
 x 18
 y 21
 elevation 4906
 end
-arch mountain
+arch moss
 x 18
 y 22
 elevation 5124
 end
-arch steppe
+arch skeleton
+x 18
+y 22
+end
+arch pine_needles
 x 18
 y 23
 elevation 4626
 end
-arch steppe
+arch pine_needles
 x 18
 y 24
 elevation 3822
@@ -4739,22 +5324,30 @@ x 18
 y 25
 elevation 2808
 end
-arch hills
+arch mosscliff3
 x 18
 y 26
 elevation 2333
 end
-arch hills
+arch pine_needles
 x 18
 y 27
 elevation 2415
+end
+arch generate_ghost
+x 18
+y 27
 end
 arch hills
 x 18
 y 28
 elevation 2728
 end
-arch hills_rocky
+arch ghost
+x 18
+y 28
+end
+arch rockpile1
 x 18
 y 29
 elevation 2569
@@ -4763,10 +5356,6 @@ arch grass_only
 x 18
 y 30
 elevation 2284
-end
-arch evergreens2
-x 18
-y 30
 end
 arch hills
 x 18
@@ -4778,7 +5367,7 @@ x 18
 y 32
 elevation 1550
 end
-arch grass_only
+arch pine_needles
 x 18
 y 33
 elevation 1377
@@ -4822,7 +5411,7 @@ x 18
 y 40
 elevation 1399
 end
-arch desert
+arch moss
 x 18
 y 41
 elevation 818
@@ -4866,7 +5455,7 @@ x 18
 y 48
 elevation 3509
 end
-arch hills
+arch moss
 x 18
 y 49
 elevation 3807
@@ -4905,92 +5494,112 @@ x 19
 y 6
 elevation 3036
 end
-arch hills_rocky
+arch mosscliff1
 x 19
 y 7
 elevation 3156
 end
-arch hills
+arch mosscliff1
 x 19
 y 8
 elevation 4969
 end
-arch mountain
+arch moss
 x 19
 y 9
 elevation 6443
 end
-arch mountain
+arch skeleton
+x 19
+y 9
+end
+arch moss
 x 19
 y 10
 elevation 6749
 end
-arch mountain
+arch skeleton
+x 19
+y 10
+end
+arch moss
 x 19
 y 11
 elevation 5816
 end
-arch hills_rocky
+arch skeleton
+x 19
+y 11
+end
+arch rockpile1
 x 19
 y 12
 elevation 4527
 end
-arch steppe
+arch moss
 x 19
 y 13
 elevation 3414
 end
-arch steppe
+arch door_1
+x 19
+y 13
+end
+arch moss
 x 19
 y 14
 elevation 4232
 end
-arch hills
+arch door_1
+x 19
+y 14
+end
+arch rockpile1
 x 19
 y 15
 elevation 4902
 end
-arch mountain
+arch rockpile1
 x 19
 y 16
 elevation 5468
 end
-arch mountain
+arch mosscliff3
 x 19
 y 17
 elevation 5987
 end
-arch mountain
+arch mosscliff3
 x 19
 y 18
 elevation 5788
 end
-arch mountain
+arch mosscliff3
 x 19
 y 19
 elevation 6492
 end
-arch mountain
+arch mosscliff3
 x 19
 y 20
 elevation 6299
 end
-arch mountain
+arch mosscliff3
 x 19
 y 21
 elevation 5659
 end
-arch steppe
+arch moss
 x 19
 y 22
 elevation 4760
 end
-arch steppe
+arch moss
 x 19
 y 23
 elevation 4451
 end
-arch steppe
+arch pine_needles
 x 19
 y 24
 elevation 3417
@@ -5000,26 +5609,26 @@ x 19
 y 25
 elevation 1901
 end
-arch brush
+arch mosscliff3
 x 19
 y 26
 elevation 735
 end
-arch grass_only
+arch mosscliff4
 x 19
 y 27
 elevation 2037
-end
-arch evergreens2
-x 19
-y 27
 end
 arch hills
 x 19
 y 28
 elevation 2616
 end
-arch hills_rocky
+arch ghost
+x 19
+y 28
+end
+arch rockpile1
 x 19
 y 29
 elevation 2821
@@ -5033,37 +5642,37 @@ arch evergreens2
 x 19
 y 30
 end
-arch steppe
+arch pine_needles
 x 19
 y 31
 elevation 3013
 end
-arch hills_rocky
+arch moss
 x 19
 y 32
 elevation 3058
 end
-arch steppe
+arch moss
 x 19
 y 33
 elevation 3045
 end
-arch woods
+arch moss
 x 19
 y 34
 elevation 2856
 end
-arch hills_rocky
+arch moss
 x 19
 y 35
 elevation 3364
 end
-arch steppe
+arch moss
 x 19
 y 36
 elevation 3374
 end
-arch steppe
+arch moss
 x 19
 y 37
 elevation 3129
@@ -5131,7 +5740,7 @@ arch evergreens2
 x 19
 y 48
 end
-arch grass_only
+arch moss
 x 19
 y 49
 elevation 2745
@@ -5174,117 +5783,153 @@ x 20
 y 6
 elevation 3224
 end
-arch hills_rocky
+arch mosscliff1
 x 20
 y 7
 elevation 3593
 end
-arch mountain
+arch moss
 x 20
 y 8
 elevation 5417
 end
-arch mountain
+arch moss
 x 20
 y 9
 elevation 6566
 end
-arch mountain
+arch skeleton
+x 20
+y 9
+end
+arch moss
 x 20
 y 10
 elevation 6749
 end
-arch mountain
+arch skeleton
+x 20
+y 10
+end
+arch moss
 x 20
 y 11
 elevation 5890
 end
-arch steppe
+arch skeleton
+x 20
+y 11
+end
+arch rockpile1
 x 20
 y 12
 elevation 4207
 end
-arch hills_rocky
+arch moss
 x 20
 y 13
 elevation 4502
 end
-arch steppe
+arch ghost
+x 20
+y 13
+end
+arch moss
 x 20
 y 14
 elevation 4537
 end
-arch mountain
+arch skeleton
+x 20
+y 14
+end
+arch moss
 x 20
 y 15
 elevation 5067
 end
-arch mountain
+arch rockpile1
 x 20
 y 16
 elevation 5402
 end
-arch mountain
+arch pine_needles
 x 20
 y 17
 elevation 5119
 end
-arch mountain
+arch skeleton
+x 20
+y 17
+end
+arch pine_needles
 x 20
 y 18
 elevation 6171
 end
-arch mountain
+arch pine_needles
 x 20
 y 19
 elevation 6428
 end
-arch mountain
+arch pine_needles
 x 20
 y 20
 elevation 6127
 end
-arch mountain
+arch mosscliff2
 x 20
 y 21
 elevation 5316
 end
-arch steppe
+arch moss
 x 20
 y 22
 elevation 4514
 end
-arch hills_rocky
+arch moss
 x 20
 y 23
 elevation 3868
+end
+arch ghost
+x 20
+y 23
 end
 arch hills
 x 20
 y 24
 elevation 2814
 end
-arch desert
+arch pine_needles
 x 20
 y 25
 elevation 116
 end
-arch desert
+arch mosscliff3
 x 20
 y 26
 elevation 344
 end
-arch hills
+arch pine_needles
 x 20
 y 27
 elevation 1679
+end
+arch generate_ghost
+x 20
+y 27
 end
 arch hills_rocky
 x 20
 y 28
 elevation 2360
 end
-arch hills
+arch ghost
+x 20
+y 28
+end
+arch rockpile1
 x 20
 y 29
 elevation 2687
@@ -5294,12 +5939,12 @@ x 20
 y 30
 elevation 3059
 end
-arch steppe
+arch moss
 x 20
 y 31
 elevation 3643
 end
-arch steppe
+arch moss
 x 20
 y 32
 elevation 4101
@@ -5309,22 +5954,22 @@ x 20
 y 33
 elevation 4121
 end
-arch steppe
+arch moss
 x 20
 y 34
 elevation 3969
 end
-arch steppe
+arch moss
 x 20
 y 35
 elevation 3766
 end
-arch steppe
+arch moss
 x 20
 y 36
 elevation 3481
 end
-arch steppe
+arch moss
 x 20
 y 37
 elevation 3039
@@ -5431,131 +6076,183 @@ x 21
 y 6
 elevation 3413
 end
-arch hills_rocky
+arch mosscliff1
 x 21
 y 7
 elevation 4023
 end
-arch mountain
+arch moss
 x 21
 y 8
 elevation 5645
 end
-arch mountain
+arch skeleton
+x 21
+y 8
+end
+arch moss
 x 21
 y 9
 elevation 6525
 end
-arch mountain
+arch skeleton
+x 21
+y 9
+end
+arch moss
 x 21
 y 10
 elevation 5705
 end
-arch mountain
+arch skeleton
+x 21
+y 10
+end
+arch moss
 x 21
 y 11
 elevation 5887
 end
-arch steppe
+arch skeleton
+x 21
+y 11
+end
+arch rockpile1
 x 21
 y 12
 elevation 4999
 end
-arch steppe
+arch moss
 x 21
 y 13
 elevation 4549
 end
-arch hills_rocky
+arch skeleton
+x 21
+y 13
+end
+arch moss
 x 21
 y 14
 elevation 4599
 end
-arch steppe
+arch ghost
+x 21
+y 14
+end
+arch moss
 x 21
 y 15
 elevation 3544
 end
-arch mountain
+arch skeleton
+x 21
+y 15
+end
+arch rockpile1
 x 21
 y 16
 elevation 5339
 end
-arch mountain
+arch pine_needles
 x 21
 y 17
 elevation 5268
 end
-arch mountain
+arch random_treasure
+x 21
+y 17
+end
+arch pine_needles
 x 21
 y 18
 elevation 5995
 end
-arch mountain
+arch wraith
+x 21
+y 18
+end
+arch pine_needles
 x 21
 y 19
 elevation 5896
 end
-arch mountain
+arch wraith
+x 21
+y 19
+end
+arch pine_needles
 x 21
 y 20
 elevation 5077
 end
-arch steppe
+arch skeleton
+x 21
+y 20
+end
+arch pine_needles
 x 21
 y 21
 elevation 4201
 end
-arch hills_rocky
+arch door_look_1
+x 21
+y 21
+end
+arch moss
 x 21
 y 22
 elevation 3565
 end
-arch steppe
+arch moss
 x 21
 y 23
 elevation 3110
 end
-arch jungle_1
+arch skeleton
+x 21
+y 23
+end
+arch moss
 x 21
 y 24
 elevation 2440
 end
-arch jungle_1
+arch mosscliff4
 x 21
 y 25
 elevation 1364
 end
-arch hills
+arch mosscliff4
 x 21
 y 26
 elevation 1446
 end
-arch grass_only
+arch mosscliff4
 x 21
 y 27
 elevation 1808
-end
-arch tree3
-x 21
-y 27
 end
 arch hills
 x 21
 y 28
 elevation 1557
 end
-arch hills
+arch door_look_2
+x 21
+y 28
+end
+arch rockpile1
 x 21
 y 29
 elevation 2542
 end
-arch hills
+arch moss
 x 21
 y 30
 elevation 2684
 end
-arch hills
+arch moss
 x 21
 y 31
 elevation 3700
@@ -5575,7 +6272,7 @@ x 21
 y 34
 elevation 3879
 end
-arch steppe
+arch moss
 x 21
 y 35
 elevation 3431
@@ -5683,141 +6380,181 @@ x 22
 y 6
 elevation 3727
 end
-arch hills_rocky
+arch mosscliff1
 x 22
 y 7
 elevation 4472
 end
-arch mountain
+arch moss
 x 22
 y 8
 elevation 5507
 end
-arch mountain
+arch skeleton
+x 22
+y 8
+end
+arch moss
 x 22
 y 9
 elevation 6283
 end
-arch mountain
+arch moss
 x 22
 y 10
 elevation 6453
 end
-arch mountain
+arch skeleton
+x 22
+y 10
+end
+arch moss
 x 22
 y 11
 elevation 5883
 end
-arch hills_rocky
+arch skeleton
+x 22
+y 11
+end
+arch rockpile1
 x 22
 y 12
 elevation 4520
 end
-arch hills
+arch moss
 x 22
 y 13
 elevation 3175
 end
-arch steppe
+arch skeleton
+x 22
+y 13
+end
+arch moss
 x 22
 y 14
 elevation 4702
 end
-arch mountain
+arch skeleton
+x 22
+y 14
+end
+arch moss
 x 22
 y 15
 elevation 5317
 end
-arch mountain
+arch skeleton
+x 22
+y 15
+end
+arch rockpile1
 x 22
 y 16
 elevation 5531
 end
-arch mountain
+arch pine_needles
 x 22
 y 17
 elevation 5828
 end
-arch mountain
+arch rockpile1
 x 22
 y 18
 elevation 5798
 end
-arch mountain
+arch pine_needles
 x 22
 y 19
 elevation 5295
 end
-arch steppe
+arch skeleton
+x 22
+y 19
+end
+arch pine_needles
 x 22
 y 20
 elevation 3355
 end
-arch hills
+arch mosscliff2
 x 22
 y 21
 elevation 1219
 end
-arch grass_only
+arch mosscliff2
 x 22
 y 22
 elevation 2684
 end
-arch evergreens2
-x 22
-y 22
-end
-arch hills_rocky
+arch moss
 x 22
 y 23
 elevation 2508
 end
-arch hills
+arch moss
 x 22
 y 24
 elevation 2411
 end
-arch hills
+arch moss
 x 22
 y 25
 elevation 2192
 end
-arch hills
+arch door_look_1
+x 22
+y 25
+end
+arch moss
 x 22
 y 26
 elevation 1621
 end
-arch hills
+arch ghost
+x 22
+y 26
+end
+arch moss
 x 22
 y 27
 elevation 2209
 end
-arch hills_rocky
+arch ghost
+x 22
+y 27
+end
+arch moss
 x 22
 y 28
 elevation 2485
 end
-arch hills
+arch ghost
+x 22
+y 28
+end
+arch rockpile1
 x 22
 y 29
 elevation 2590
 end
-arch hills_rocky
+arch moss
 x 22
 y 30
 elevation 2886
 end
-arch hills
+arch moss
 x 22
 y 31
 elevation 3241
 end
-arch hills_rocky
+arch moss
 x 22
 y 32
 elevation 3559
 end
-arch steppe
+arch moss
 x 22
 y 33
 elevation 3369
@@ -5946,131 +6683,155 @@ x 23
 y 6
 elevation 4210
 end
-arch hills_rocky
+arch mosscliff1
 x 23
 y 7
 elevation 3706
 end
-arch hills_rocky
+arch moss
 x 23
 y 8
 elevation 4653
 end
-arch mountain
+arch skeleton
+x 23
+y 8
+end
+arch moss
 x 23
 y 9
 elevation 5993
 end
-arch mountain
+arch skeleton
+x 23
+y 9
+end
+arch moss
 x 23
 y 10
 elevation 5951
 end
-arch mountain
+arch skeleton
+x 23
+y 10
+end
+arch moss
 x 23
 y 11
 elevation 5432
 end
-arch hills_rocky
+arch skeleton
+x 23
+y 11
+end
+arch rockpile1
 x 23
 y 12
 elevation 4905
 end
-arch hills_rocky
+arch rockpile1
 x 23
 y 13
 elevation 3906
 end
-arch mountain
+arch moss
 x 23
 y 14
 elevation 5060
 end
-arch mountain
+arch ghost
+x 23
+y 14
+end
+arch moss
 x 23
 y 15
 elevation 5763
 end
-arch mountain
+arch skeleton
+x 23
+y 15
+end
+arch rockpile1
 x 23
 y 16
 elevation 5866
 end
-arch mountain
+arch rockpile1
 x 23
 y 17
 elevation 5739
 end
-arch mountain
+arch rockpile1
 x 23
 y 18
 elevation 5462
 end
-arch steppe
+arch rockpile1
 x 23
 y 19
 elevation 4728
 end
-arch steppe
+arch mosscliff2
 x 23
 y 20
 elevation 3471
 end
-arch jungle_1
+arch rockpile1
 x 23
 y 21
 elevation 2318
 end
-arch hills
+arch rockpile1
 x 23
 y 22
 elevation 2107
 end
-arch hills
+arch rockpile1
 x 23
 y 23
 elevation 1974
 end
-arch hills
+arch rockpile1
 x 23
 y 24
 elevation 2435
 end
-arch hills_rocky
+arch mosscliff4
 x 23
 y 25
 elevation 2411
 end
-arch hills
+arch mosscliff4
 x 23
 y 26
 elevation 2328
 end
-arch hills
+arch moss
 x 23
 y 27
 elevation 2397
 end
-arch jungle_1
+arch ghost
+x 23
+y 27
+end
+arch rockpile1
 x 23
 y 28
 elevation 2547
 end
-arch hills_rocky
+arch rockpile1
 x 23
 y 29
 elevation 2486
 end
-arch grass_only
+arch moss
 x 23
 y 30
 elevation 2333
 end
-arch tree3
-x 23
-y 30
-end
-arch hills
+arch moss
 x 23
 y 31
 elevation 2540
@@ -6146,7 +6907,7 @@ arch cobblestones
 x 23
 y 45
 end
-arch desert
+arch moss
 x 23
 y 46
 elevation 554
@@ -6200,142 +6961,142 @@ x 24
 y 6
 elevation 4848
 end
-arch mountain
+arch mosscliff3
 x 24
 y 7
 elevation 5467
 end
-arch mountain
+arch mosscliff3
 x 24
 y 8
 elevation 5850
 end
-arch mountain
+arch moss
 x 24
 y 9
 elevation 5413
 end
-arch hills_rocky
+arch skeleton
+x 24
+y 9
+end
+arch moss
 x 24
 y 10
 elevation 3164
 end
-arch hills_rocky
+arch skeleton
+x 24
+y 10
+end
+arch moss
 x 24
 y 11
 elevation 4728
 end
-arch mountain
+arch skeleton
+x 24
+y 11
+end
+arch mosscliff2
 x 24
 y 12
 elevation 5008
 end
-arch mountain
+arch rockpile1
 x 24
 y 13
 elevation 5100
 end
-arch mountain
+arch rockpile1
 x 24
 y 14
 elevation 5358
 end
-arch mountain
+arch rockpile1
 x 24
 y 15
 elevation 5555
 end
-arch mountain
+arch rockpile1
 x 24
 y 16
 elevation 5386
 end
-arch mountain
+arch moss
 x 24
 y 17
 elevation 5021
 end
-arch steppe
+arch moss
 x 24
 y 18
 elevation 4721
 end
-arch steppe
+arch moss
 x 24
 y 19
 elevation 3997
 end
-arch steppe
+arch moss
 x 24
 y 20
 elevation 3116
 end
-arch jungle_1
+arch moss
 x 24
 y 21
 elevation 2224
 end
-arch woods_2
+arch rockpile1
 x 24
 y 22
 elevation 1737
 end
-arch hills
+arch rockpile1
 x 24
 y 23
 elevation 2127
 end
-arch hills_rocky
+arch rockpile1
 x 24
 y 24
 elevation 2304
 end
-arch woods
+arch rockpile1
 x 24
 y 25
 elevation 2254
 end
-arch grass_only
+arch rockpile1
 x 24
 y 26
 elevation 2048
 end
-arch tree3
-x 24
-y 26
-end
-arch grass_only
+arch rockpile1
 x 24
 y 27
 elevation 1813
 end
-arch evergreens2
-x 24
-y 27
-end
-arch hills
+arch rockpile1
 x 24
 y 28
 elevation 2153
 end
-arch hills
+arch rockpile1
 x 24
 y 29
 elevation 2052
 end
-arch hills
+arch rockpile1
 x 24
 y 30
 elevation 1375
 end
-arch grass_only
+arch moss
 x 24
 y 31
 elevation 1770
-end
-arch tree3
-x 24
-y 31
 end
 arch grass_only
 x 24
@@ -6365,7 +7126,7 @@ arch tree3
 x 24
 y 35
 end
-arch desert
+arch moss
 x 24
 y 36
 elevation 892
@@ -6375,12 +7136,12 @@ x 24
 y 37
 elevation 590
 end
-arch desert
+arch moss
 x 24
 y 38
 elevation 830
 end
-arch desert
+arch moss
 x 24
 y 39
 elevation 527
@@ -6407,7 +7168,7 @@ arch cobblestones
 x 24
 y 44
 end
-arch desert
+arch moss
 x 24
 y 45
 elevation 554
@@ -6431,7 +7192,7 @@ x 24
 y 48
 elevation 1182
 end
-arch desert
+arch moss
 x 24
 y 49
 elevation 888
@@ -6470,87 +7231,100 @@ x 25
 y 6
 elevation 4956
 end
-arch mountain
+arch moss
 x 25
 y 7
 elevation 5747
 end
-arch mountain
+arch mosscliff3
 x 25
 y 8
 elevation 5962
 end
-arch steppe
+arch mosscliff3
 x 25
 y 9
 elevation 4997
 end
-arch hills_rocky
+arch moss
 x 25
 y 10
 elevation 2490
 end
-arch hills_rocky
+arch door_1
+x 25
+y 10
+end
+arch mosscliff3
 x 25
 y 11
 elevation 4111
 end
-arch steppe
+arch mosscliff1
 x 25
 y 12
 elevation 4469
 end
-arch steppe
+arch moss
 x 25
 y 13
 elevation 4636
 end
-arch steppe
+arch moss
 x 25
 y 14
 elevation 4813
+end
+arch sign
+name Welcome to the Barrows
+msg
+Long dead spirts have been sealed here.  Do not disturb or
+you may join them.
+endmsg
+x 25
+y 14
 end
 arch hills_rocky
 x 25
 y 15
 elevation 4859
 end
-arch hills_rocky
+arch moss
 x 25
 y 16
 elevation 3839
 end
-arch steppe
+arch moss
 x 25
 y 17
 elevation 4107
 end
-arch hills
+arch moss
 x 25
 y 18
 elevation 2897
 end
-arch steppe
+arch moss
 x 25
 y 19
 elevation 3181
 end
-arch hills
+arch moss
 x 25
 y 20
 elevation 1839
 end
-arch hills
+arch rockpile1
 x 25
 y 21
 elevation 1620
 end
-arch hills
+arch rockpile1
 x 25
 y 22
 elevation 1708
 end
-arch hills
+arch rockpile1
 x 25
 y 23
 elevation 1923
@@ -6585,7 +7359,7 @@ x 25
 y 29
 elevation 1750
 end
-arch desert
+arch rockpile1
 x 25
 y 30
 elevation 791
@@ -6610,7 +7384,7 @@ x 25
 y 34
 elevation 770
 end
-arch desert
+arch moss
 x 25
 y 35
 elevation 813
@@ -6620,7 +7394,7 @@ x 25
 y 36
 elevation 774
 end
-arch desert
+arch moss
 x 25
 y 37
 elevation 606
@@ -6630,7 +7404,7 @@ x 25
 y 38
 elevation 814
 end
-arch desert
+arch moss
 x 25
 y 39
 elevation 996
@@ -6652,7 +7426,7 @@ arch cobblestones
 x 25
 y 43
 end
-arch desert
+arch moss
 x 25
 y 44
 elevation 821
@@ -6725,27 +7499,27 @@ x 26
 y 7
 elevation 4865
 end
-arch mountain
+arch moss
 x 26
 y 8
 elevation 5204
 end
-arch steppe
+arch moss
 x 26
 y 9
 elevation 4547
 end
-arch hills
+arch moss
 x 26
 y 10
 elevation 3882
 end
-arch hills
+arch moss
 x 26
 y 11
 elevation 3597
 end
-arch steppe
+arch moss
 x 26
 y 12
 elevation 3552
@@ -6765,12 +7539,12 @@ x 26
 y 15
 elevation 3785
 end
-arch steppe
+arch moss
 x 26
 y 16
 elevation 3556
 end
-arch steppe
+arch moss
 x 26
 y 17
 elevation 3103
@@ -7188,11 +7962,11 @@ arch cobblestones
 x 28
 y 16
 end
-arch cobblestones
+arch moss
 x 28
 y 17
 end
-arch cobblestones
+arch moss
 x 28
 y 18
 end
@@ -7441,17 +8215,17 @@ x 29
 y 14
 elevation 1718
 end
-arch hills
+arch moss
 x 29
 y 15
 elevation 1909
 end
-arch hills
+arch moss
 x 29
 y 16
 elevation 2005
 end
-arch hills
+arch moss
 x 29
 y 17
 elevation 1837
@@ -7691,22 +8465,22 @@ x 30
 y 11
 elevation 1425
 end
-arch desert
+arch moss
 x 30
 y 12
 elevation 987
 end
-arch hills
+arch moss
 x 30
 y 13
 elevation 1314
 end
-arch hills_rocky
+arch moss
 x 30
 y 14
 elevation 1309
 end
-arch hills_rocky
+arch moss
 x 30
 y 15
 elevation 1764
@@ -7721,7 +8495,7 @@ x 30
 y 17
 elevation 1607
 end
-arch desert
+arch moss
 x 30
 y 18
 elevation 413
@@ -7944,12 +8718,12 @@ arch tree5
 x 31
 y 11
 end
-arch hills_rocky
+arch moss
 x 31
 y 12
 elevation 1289
 end
-arch hills_rocky
+arch moss
 x 31
 y 13
 elevation 1321
@@ -7974,7 +8748,15 @@ x 31
 y 17
 elevation 1275
 end
-arch desert
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 31
+y 17
+end
+arch moss
 x 31
 y 18
 elevation 557
@@ -8193,7 +8975,7 @@ x 32
 y 11
 elevation 1053
 end
-arch desert
+arch moss
 x 32
 y 12
 elevation 561
@@ -8208,17 +8990,17 @@ x 32
 y 14
 elevation 1429
 end
-arch desert
+arch moss
 x 32
 y 15
 elevation 904
 end
-arch desert
+arch moss
 x 32
 y 16
 elevation 652
 end
-arch hills
+arch moss
 x 32
 y 17
 elevation 1149

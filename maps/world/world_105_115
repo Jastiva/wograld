@@ -11,13 +11,14 @@ msg
 Creator: Gnat the Gnu
 Email: gnu@foo.bar
 Date: Sun Dec 16 20:53:13 2001
-Modified: 2019-04-01 lori
+Modified: 2019-05-08 lori
 endmsg
 outdoor 1
 tile_path_1 world_105_114
 tile_path_2 world_106_115
 tile_path_3 world_105_116
 tile_path_4 world_104_115
+background_music grassland01
 end
 arch sea
 elevation -2256
@@ -13935,6 +13936,14 @@ arch hills_rocky
 x 39
 y 38
 elevation 3380
+end
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 39
+y 38
 end
 arch cobblestones
 x 39

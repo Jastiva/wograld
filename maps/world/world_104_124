@@ -3,7 +3,7 @@ name world_104_124
 width 50
 height 50
 msg
-Modified: 2019-04-25 lori
+Modified: 2019-05-07 lori
 endmsg
 outdoor 1
 tile_path_1 world_104_123
@@ -11224,6 +11224,14 @@ arch rockdesert
 x 40
 y 47
 elevation 9825
+end
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 40
+y 47
 end
 arch rockdesert
 x 40

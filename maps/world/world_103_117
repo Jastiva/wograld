@@ -3,7 +3,7 @@ name world_103_117
 width 50
 height 50
 msg
-Modified: 2019-01-06 lori
+Modified: 2019-05-09 lori
 endmsg
 outdoor 1
 tile_path_1 world_103_116
@@ -5445,6 +5445,14 @@ arch woods_3
 x 20
 y 30
 elevation 2854
+end
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 20
+y 30
 end
 arch woods_3
 x 20

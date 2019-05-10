@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2019-04-11 lori
+Modified: 2019-05-08 lori
 endmsg
 outdoor 1
 tile_path_1 world_121_116
@@ -3254,6 +3254,14 @@ arch grass
 x 12
 y 26
 elevation 5169
+end
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+slaying ../portals/stupidgates
+hp 15
+sp 15
+x 12
+y 26
 end
 arch cobblestones
 x 12

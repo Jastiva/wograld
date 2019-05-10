@@ -3,7 +3,7 @@ name world_118_106
 width 50
 height 50
 msg
-Modified: 2019-04-03 lori
+Modified: 2019-05-08 lori
 endmsg
 outdoor 1
 tile_path_1 world_118_105
@@ -5288,17 +5288,17 @@ x 20
 y 43
 elevation 10647
 end
-arch snow
+arch lostlabfloor3
 x 20
 y 44
 elevation 8201
 end
-arch snow
+arch lostlabfloor3
 x 20
 y 45
 elevation 11330
 end
-arch snow
+arch lostlabfloor3
 x 20
 y 46
 elevation 11105
@@ -5542,12 +5542,17 @@ x 21
 y 44
 elevation 10946
 end
-arch snow
+arch keep_sym_noflag_misc
+name Teleporter to Stupid Gates
+x 21
+y 44
+end
+arch lostlabfloor3
 x 21
 y 45
 elevation 11242
 end
-arch snow
+arch lostlabfloor3
 x 21
 y 46
 elevation 11211
@@ -5801,7 +5806,7 @@ x 22
 y 46
 elevation 11132
 end
-arch snow
+arch lostlabfloor3
 x 22
 y 47
 elevation 11442
@@ -6063,7 +6068,7 @@ x 23
 y 47
 elevation 11571
 end
-arch snow
+arch lostlabfloor3
 x 23
 y 48
 elevation 10911
@@ -6321,7 +6326,7 @@ x 24
 y 48
 elevation 10044
 end
-arch snow
+arch lostlabfloor3
 x 24
 y 49
 elevation 7686
@@ -6570,7 +6575,7 @@ x 25
 y 48
 elevation 9241
 end
-arch snow
+arch lostlabfloor3
 x 25
 y 49
 elevation 7592
@@ -6818,7 +6823,7 @@ x 26
 y 47
 elevation 10391
 end
-arch snow
+arch lostlabfloor3
 x 26
 y 48
 elevation 8746
@@ -7066,7 +7071,7 @@ x 27
 y 46
 elevation 10499
 end
-arch snow
+arch lostlabfloor3
 x 27
 y 47
 elevation 8739
@@ -7305,12 +7310,12 @@ x 28
 y 44
 elevation 13630
 end
-arch snow
+arch lostlabfloor3
 x 28
 y 45
 elevation 12156
 end
-arch snow
+arch lostlabfloor3
 x 28
 y 46
 elevation 9016
@@ -7549,17 +7554,17 @@ x 29
 y 43
 elevation 15004
 end
-arch snow
+arch lostlabfloor3
 x 29
 y 44
 elevation 13380
 end
-arch snow
+arch lostlabfloor3
 x 29
 y 45
 elevation 11723
 end
-arch snow
+arch lostlabfloor3
 x 29
 y 46
 elevation 9600
