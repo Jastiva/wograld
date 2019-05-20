@@ -4,6 +4,10 @@ name castle guard
 face guard_ligh.111
 color_fg brown
 speed 0.06
+anim
+guard_ligh.111
+guard_ligh.112
+mina
 alive 1
 monster 1
 sleep 1

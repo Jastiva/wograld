@@ -7,9 +7,6 @@ speed 0.1
 anim
 knight_goth.111
 knight_goth.112
-knight_goth.113
-knight_goth.114
-knight_goth.115
 mina
 alive 1
 monster 1

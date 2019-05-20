@@ -7,9 +7,6 @@ speed 0.1
 anim
 knight.111
 knight.112
-knight.113
-knight.114
-knight.115
 mina
 alive 1
 monster 1

@@ -4,6 +4,10 @@ name SchloBschutz
 face guard_hard_goth.111
 color_fg black
 speed 0.06
+anim
+guard_hard_goth.111
+guard_hard_goth.112
+mina
 alive 1
 monster 1
 sleep 1

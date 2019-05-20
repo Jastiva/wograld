@@ -4,6 +4,10 @@ name castle guard
 face guard_med.111
 color_fg grey
 speed 0.06
+anim
+guard_med.111
+guard_med.112
+mina
 alive 1
 monster 1
 sleep 1
