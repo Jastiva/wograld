@@ -6,7 +6,9 @@ width 25
 height 16
 msg
 Created:  1994-02-11
+Modified: 2019-05-11 lori
 endmsg
+background_music openportal01
 end
 arch dirtfloor
 end
@@ -42,7 +44,7 @@ end
 arch bwall_2_1_1
 y 5
 end
-arch dirtfloor
+arch rstone_3
 y 6
 end
 arch bwall_2_1_1
@@ -60,7 +62,7 @@ end
 arch bwall_3_2
 y 8
 end
-arch dirtfloor
+arch whiteslate
 y 9
 end
 arch bwall_2_1_1
@@ -78,25 +80,25 @@ end
 arch bwall_2_1_1
 y 11
 end
-arch dirtfloor
+arch whiteslate
 y 12
 end
 arch bwall_2_1_1
 y 12
 end
-arch dirtfloor
+arch whiteslate
 y 13
 end
 arch bwall_2_1_1
 y 13
 end
-arch dirtfloor
+arch whiteslate
 y 14
 end
 arch bwall_2_1_1
 y 14
 end
-arch dirtfloor
+arch whiteslate
 y 15
 end
 arch bwall_2_2_1
@@ -131,7 +133,7 @@ arch chest
 x 1
 y 3
 end
-arch dirtfloor
+arch rstone_3
 x 1
 y 4
 end
@@ -139,7 +141,7 @@ arch bwall_2_1_2
 x 1
 y 4
 end
-arch dirtfloor
+arch rstone_3
 x 1
 y 5
 end
@@ -147,7 +149,7 @@ arch goblin
 x 1
 y 5
 end
-arch dirtfloor
+arch rstone_3
 x 1
 y 6
 end
@@ -155,7 +157,7 @@ arch goblin
 x 1
 y 6
 end
-arch dirtfloor
+arch rstone_3
 x 1
 y 7
 end
@@ -174,7 +176,7 @@ arch bwall_2_1_2
 x 1
 y 8
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 9
 end
@@ -182,7 +184,7 @@ arch slime
 x 1
 y 9
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 10
 end
@@ -190,7 +192,7 @@ arch slime
 x 1
 y 10
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 11
 end
@@ -198,7 +200,7 @@ arch slime
 x 1
 y 11
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 12
 end
@@ -206,7 +208,7 @@ arch slime
 x 1
 y 12
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 13
 end
@@ -214,7 +216,7 @@ arch slime
 x 1
 y 13
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 14
 end
@@ -222,7 +224,7 @@ arch slime
 x 1
 y 14
 end
-arch dirtfloor
+arch whiteslate
 x 1
 y 15
 end
@@ -268,7 +270,7 @@ arch bwall_2_1_2
 x 2
 y 4
 end
-arch dirtfloor
+arch rstone_3
 x 2
 y 5
 end
@@ -276,7 +278,7 @@ arch goblin
 x 2
 y 5
 end
-arch dirtfloor
+arch rstone_3
 x 2
 y 6
 end
@@ -284,7 +286,7 @@ arch goblin
 x 2
 y 6
 end
-arch dirtfloor
+arch rstone_3
 x 2
 y 7
 end
@@ -292,7 +294,7 @@ arch bwall_1_1
 x 2
 y 7
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 8
 end
@@ -300,7 +302,7 @@ arch bwall_3_1
 x 2
 y 8
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 9
 end
@@ -308,7 +310,7 @@ arch slime
 x 2
 y 9
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 10
 end
@@ -316,7 +318,7 @@ arch slime
 x 2
 y 10
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 11
 end
@@ -324,7 +326,7 @@ arch slime
 x 2
 y 11
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 12
 end
@@ -332,7 +334,7 @@ arch slime
 x 2
 y 12
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 13
 end
@@ -340,7 +342,7 @@ arch slime
 x 2
 y 13
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 14
 end
@@ -348,7 +350,7 @@ arch slime
 x 2
 y 14
 end
-arch dirtfloor
+arch whiteslate
 x 2
 y 15
 end
@@ -386,7 +388,7 @@ arch bwall_2_1_2
 x 3
 y 4
 end
-arch dirtfloor
+arch rstone_3
 x 3
 y 5
 end
@@ -394,7 +396,7 @@ arch goblin
 x 3
 y 5
 end
-arch dirtfloor
+arch rstone_3
 x 3
 y 6
 end
@@ -402,7 +404,7 @@ arch goblin
 x 3
 y 6
 end
-arch dirtfloor
+arch rstone_3
 x 3
 y 7
 end
@@ -418,7 +420,7 @@ arch bwall_2_1_2
 x 3
 y 8
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 9
 end
@@ -426,7 +428,7 @@ arch slime
 x 3
 y 9
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 10
 end
@@ -434,7 +436,7 @@ arch slime
 x 3
 y 10
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 11
 end
@@ -442,7 +444,7 @@ arch slime
 x 3
 y 11
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 12
 end
@@ -450,7 +452,7 @@ arch slime
 x 3
 y 12
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 13
 end
@@ -458,7 +460,7 @@ arch slime
 x 3
 y 13
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 14
 end
@@ -466,7 +468,7 @@ arch slime
 x 3
 y 14
 end
-arch dirtfloor
+arch whiteslate
 x 3
 y 15
 end
@@ -504,15 +506,15 @@ arch bwall_2_1_2
 x 4
 y 4
 end
-arch dirtfloor
+arch rstone_3
 x 4
 y 5
 end
-arch dirtfloor
+arch rstone_3
 x 4
 y 6
 end
-arch dirtfloor
+arch rstone_3
 x 4
 y 7
 end
@@ -528,7 +530,7 @@ arch bwall_2_1_2
 x 4
 y 8
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 9
 end
@@ -536,7 +538,7 @@ arch slime
 x 4
 y 9
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 10
 end
@@ -544,7 +546,7 @@ arch slime
 x 4
 y 10
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 11
 end
@@ -552,7 +554,7 @@ arch slime
 x 4
 y 11
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 12
 end
@@ -560,7 +562,7 @@ arch slime
 x 4
 y 12
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 13
 end
@@ -568,7 +570,7 @@ arch slime
 x 4
 y 13
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 14
 end
@@ -576,7 +578,7 @@ arch slime
 x 4
 y 14
 end
-arch dirtfloor
+arch whiteslate
 x 4
 y 15
 end
@@ -633,15 +635,15 @@ arch bwall_2_1_2
 x 5
 y 4
 end
-arch dirtfloor
+arch rstone_3
 x 5
 y 5
 end
-arch dirtfloor
+arch rstone_3
 x 5
 y 6
 end
-arch dirtfloor
+arch rstone_3
 x 5
 y 7
 end
@@ -657,7 +659,7 @@ arch bwall_2_1_2
 x 5
 y 8
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 9
 end
@@ -665,7 +667,7 @@ arch slime
 x 5
 y 9
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 10
 end
@@ -673,7 +675,7 @@ arch slime
 x 5
 y 10
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 11
 end
@@ -681,7 +683,7 @@ arch slime
 x 5
 y 11
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 12
 end
@@ -689,7 +691,7 @@ arch slime
 x 5
 y 12
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 13
 end
@@ -697,7 +699,7 @@ arch bwall_1_4
 x 5
 y 13
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 14
 end
@@ -708,7 +710,7 @@ sp 14
 x 5
 y 14
 end
-arch dirtfloor
+arch whiteslate
 x 5
 y 15
 end
@@ -848,7 +850,7 @@ end
 arch bwall_2_1_2
 x 7
 end
-arch dirtfloor
+arch afloor_blue_right
 x 7
 y 1
 end
@@ -856,7 +858,7 @@ arch food
 x 7
 y 1
 end
-arch dirtfloor
+arch afloor_blue_right
 x 7
 y 2
 end
@@ -864,7 +866,7 @@ arch slime
 x 7
 y 2
 end
-arch dirtfloor
+arch afloor_blue_right
 x 7
 y 3
 end
@@ -880,7 +882,7 @@ arch bwall_2_1_2
 x 7
 y 4
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 5
 end
@@ -891,7 +893,7 @@ sp 5
 x 7
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 6
 end
@@ -899,7 +901,7 @@ arch mouse
 x 7
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 7
 y 7
 end
@@ -915,7 +917,7 @@ arch bwall_2_1_2
 x 7
 y 8
 end
-arch dirtfloor
+arch grass
 x 7
 y 9
 end
@@ -923,15 +925,15 @@ arch food
 x 7
 y 9
 end
-arch dirtfloor
+arch grass
 x 7
 y 10
 end
-arch dirtfloor
+arch grass
 x 7
 y 11
 end
-arch dirtfloor
+arch grass
 x 7
 y 12
 end
@@ -939,7 +941,7 @@ arch bee
 x 7
 y 12
 end
-arch dirtfloor
+arch grass
 x 7
 y 13
 end
@@ -947,7 +949,7 @@ arch bee
 x 7
 y 13
 end
-arch dirtfloor
+arch grass
 x 7
 y 14
 end
@@ -955,7 +957,7 @@ arch bee
 x 7
 y 14
 end
-arch dirtfloor
+arch grass
 x 7
 y 15
 end
@@ -969,7 +971,7 @@ end
 arch bwall_2_1_2
 x 8
 end
-arch dirtfloor
+arch afloor_blue_right
 x 8
 y 1
 end
@@ -977,7 +979,7 @@ arch chest
 x 8
 y 1
 end
-arch dirtfloor
+arch afloor_blue_right
 x 8
 y 2
 end
@@ -985,7 +987,7 @@ arch slime
 x 8
 y 2
 end
-arch dirtfloor
+arch afloor_blue_right
 x 8
 y 3
 end
@@ -1009,7 +1011,7 @@ arch bwall_1_2
 x 8
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 6
 end
@@ -1017,7 +1019,7 @@ arch mouse
 x 8
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 8
 y 7
 end
@@ -1033,7 +1035,7 @@ arch bwall_2_1_2
 x 8
 y 8
 end
-arch dirtfloor
+arch grass
 x 8
 y 9
 end
@@ -1041,15 +1043,15 @@ arch food
 x 8
 y 9
 end
-arch dirtfloor
+arch grass
 x 8
 y 10
 end
-arch dirtfloor
+arch grass
 x 8
 y 11
 end
-arch dirtfloor
+arch grass
 x 8
 y 12
 end
@@ -1057,7 +1059,7 @@ arch bee
 x 8
 y 12
 end
-arch dirtfloor
+arch grass
 x 8
 y 13
 end
@@ -1065,7 +1067,7 @@ arch bee
 x 8
 y 13
 end
-arch dirtfloor
+arch grass
 x 8
 y 14
 end
@@ -1073,7 +1075,7 @@ arch bee
 x 8
 y 14
 end
-arch dirtfloor
+arch grass
 x 8
 y 15
 end
@@ -1087,7 +1089,7 @@ end
 arch bwall_3_3
 x 9
 end
-arch dirtfloor
+arch afloor_blue_right
 x 9
 y 1
 end
@@ -1095,7 +1097,7 @@ arch bwall_1_2
 x 9
 y 1
 end
-arch dirtfloor
+arch afloor_blue_right
 x 9
 y 2
 end
@@ -1103,7 +1105,7 @@ arch slime
 x 9
 y 2
 end
-arch dirtfloor
+arch afloor_blue_right
 x 9
 y 3
 end
@@ -1119,7 +1121,7 @@ arch bwall_2_1_2
 x 9
 y 4
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 5
 end
@@ -1127,7 +1129,7 @@ arch mouse
 x 9
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 6
 end
@@ -1135,7 +1137,7 @@ arch mouse
 x 9
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 9
 y 7
 end
@@ -1151,7 +1153,7 @@ arch bwall_3_3
 x 9
 y 8
 end
-arch dirtfloor
+arch grass
 x 9
 y 9
 end
@@ -1159,15 +1161,15 @@ arch bwall_1_2
 x 9
 y 9
 end
-arch dirtfloor
+arch grass
 x 9
 y 10
 end
-arch dirtfloor
+arch grass
 x 9
 y 11
 end
-arch dirtfloor
+arch grass
 x 9
 y 12
 end
@@ -1175,7 +1177,7 @@ arch bee
 x 9
 y 12
 end
-arch dirtfloor
+arch grass
 x 9
 y 13
 end
@@ -1183,7 +1185,7 @@ arch bee
 x 9
 y 13
 end
-arch dirtfloor
+arch grass
 x 9
 y 14
 end
@@ -1205,7 +1207,7 @@ end
 arch bwall_2_1_2
 x 10
 end
-arch dirtfloor
+arch afloor_blue_right
 x 10
 y 1
 end
@@ -1216,7 +1218,7 @@ sp 1
 x 10
 y 1
 end
-arch dirtfloor
+arch afloor_blue_right
 x 10
 y 2
 end
@@ -1224,7 +1226,7 @@ arch slime
 x 10
 y 2
 end
-arch dirtfloor
+arch afloor_blue_right
 x 10
 y 3
 end
@@ -1240,7 +1242,7 @@ arch bwall_2_1_2
 x 10
 y 4
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 5
 end
@@ -1248,7 +1250,7 @@ arch mouse
 x 10
 y 5
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 6
 end
@@ -1256,7 +1258,7 @@ arch mouse
 x 10
 y 6
 end
-arch dirtfloor
+arch woodfloor
 x 10
 y 7
 end
@@ -1272,7 +1274,7 @@ arch bwall_2_1_2
 x 10
 y 8
 end
-arch dirtfloor
+arch grass
 x 10
 y 9
 end
@@ -1283,7 +1285,7 @@ sp 9
 x 10
 y 9
 end
-arch dirtfloor
+arch grass
 x 10
 y 10
 end
@@ -1291,7 +1293,7 @@ arch chest
 x 10
 y 10
 end
-arch dirtfloor
+arch grass
 x 10
 y 11
 end
@@ -1299,11 +1301,11 @@ arch chest
 x 10
 y 11
 end
-arch dirtfloor
+arch grass
 x 10
 y 12
 end
-arch dirtfloor
+arch grass
 x 10
 y 13
 end
@@ -1311,7 +1313,7 @@ arch bee
 x 10
 y 13
 end
-arch dirtfloor
+arch grass
 x 10
 y 14
 end
@@ -1459,7 +1461,7 @@ end
 arch bwall_2_1_2
 x 12
 end
-arch dirtfloor
+arch afloor_black_left
 x 12
 y 1
 end
@@ -1467,7 +1469,7 @@ arch food
 x 12
 y 1
 end
-arch dirtfloor
+arch afloor_black_left
 x 12
 y 2
 end
@@ -1475,7 +1477,7 @@ arch ant
 x 12
 y 2
 end
-arch dirtfloor
+arch afloor_black_left
 x 12
 y 3
 end
@@ -1491,7 +1493,7 @@ arch bwall_2_1_2
 x 12
 y 4
 end
-arch dirtfloor
+arch afloor_greco_right
 x 12
 y 5
 end
@@ -1499,7 +1501,7 @@ arch mouse
 x 12
 y 5
 end
-arch dirtfloor
+arch afloor_greco_right
 x 12
 y 6
 end
@@ -1507,7 +1509,7 @@ arch mouse
 x 12
 y 6
 end
-arch dirtfloor
+arch afloor_greco_right
 x 12
 y 7
 end
@@ -1526,7 +1528,7 @@ arch bwall_2_1_2
 x 12
 y 8
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 9
 end
@@ -1534,7 +1536,7 @@ arch bat
 x 12
 y 9
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 10
 end
@@ -1542,7 +1544,7 @@ arch bat
 x 12
 y 10
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 11
 end
@@ -1550,7 +1552,7 @@ arch bat
 x 12
 y 11
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 12
 end
@@ -1558,7 +1560,7 @@ arch bat
 x 12
 y 12
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 13
 end
@@ -1566,7 +1568,7 @@ arch bat
 x 12
 y 13
 end
-arch dirtfloor
+arch lostlabbluesand
 x 12
 y 14
 end
@@ -1588,7 +1590,7 @@ end
 arch bwall_2_1_2
 x 13
 end
-arch dirtfloor
+arch afloor_black_left
 x 13
 y 1
 end
@@ -1596,7 +1598,7 @@ arch ant
 x 13
 y 1
 end
-arch dirtfloor
+arch afloor_black_left
 x 13
 y 2
 end
@@ -1604,7 +1606,7 @@ arch ant
 x 13
 y 2
 end
-arch dirtfloor
+arch afloor_black_left
 x 13
 y 3
 end
@@ -1620,7 +1622,7 @@ arch bwall_2_1_2
 x 13
 y 4
 end
-arch dirtfloor
+arch afloor_greco_right
 x 13
 y 5
 end
@@ -1628,7 +1630,7 @@ arch mouse
 x 13
 y 5
 end
-arch dirtfloor
+arch afloor_greco_right
 x 13
 y 6
 end
@@ -1636,7 +1638,7 @@ arch mouse
 x 13
 y 6
 end
-arch dirtfloor
+arch afloor_greco_right
 x 13
 y 7
 end
@@ -1652,7 +1654,7 @@ arch bwall_3_1
 x 13
 y 8
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 9
 end
@@ -1660,7 +1662,7 @@ arch bat
 x 13
 y 9
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 10
 end
@@ -1668,7 +1670,7 @@ arch bat
 x 13
 y 10
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 11
 end
@@ -1676,7 +1678,7 @@ arch bat
 x 13
 y 11
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 12
 end
@@ -1684,7 +1686,7 @@ arch bat
 x 13
 y 12
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 13
 end
@@ -1692,7 +1694,7 @@ arch bat
 x 13
 y 13
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 14
 end
@@ -1700,7 +1702,7 @@ arch bat
 x 13
 y 14
 end
-arch dirtfloor
+arch lostlabbluesand
 x 13
 y 15
 end
@@ -1714,7 +1716,7 @@ end
 arch bwall_2_1_2
 x 14
 end
-arch dirtfloor
+arch afloor_black_left
 x 14
 y 1
 end
@@ -1722,7 +1724,7 @@ arch ant
 x 14
 y 1
 end
-arch dirtfloor
+arch afloor_black_left
 x 14
 y 2
 end
@@ -1730,7 +1732,7 @@ arch ant
 x 14
 y 2
 end
-arch dirtfloor
+arch afloor_black_left
 x 14
 y 3
 end
@@ -1746,7 +1748,7 @@ arch bwall_3_1
 x 14
 y 4
 end
-arch dirtfloor
+arch afloor_greco_right
 x 14
 y 5
 end
@@ -1754,7 +1756,7 @@ arch mouse
 x 14
 y 5
 end
-arch dirtfloor
+arch afloor_greco_right
 x 14
 y 6
 end
@@ -1762,7 +1764,7 @@ arch mouse
 x 14
 y 6
 end
-arch dirtfloor
+arch afloor_greco_right
 x 14
 y 7
 end
@@ -1778,7 +1780,7 @@ arch bwall_2_1_2
 x 14
 y 8
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 9
 end
@@ -1786,7 +1788,7 @@ arch bat
 x 14
 y 9
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 10
 end
@@ -1794,7 +1796,7 @@ arch bat
 x 14
 y 10
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 11
 end
@@ -1802,7 +1804,7 @@ arch bat
 x 14
 y 11
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 12
 end
@@ -1810,7 +1812,7 @@ arch bat
 x 14
 y 12
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 13
 end
@@ -1818,7 +1820,7 @@ arch bat
 x 14
 y 13
 end
-arch dirtfloor
+arch lostlabbluesand
 x 14
 y 14
 end
@@ -1840,7 +1842,7 @@ end
 arch bwall_2_1_2
 x 15
 end
-arch dirtfloor
+arch afloor_black_left
 x 15
 y 1
 end
@@ -1848,7 +1850,7 @@ arch generate_ant
 x 15
 y 1
 end
-arch dirtfloor
+arch afloor_black_left
 x 15
 y 2
 end
@@ -1856,7 +1858,7 @@ arch generate_ant
 x 15
 y 2
 end
-arch dirtfloor
+arch afloor_black_left
 x 15
 y 3
 end
@@ -1875,7 +1877,7 @@ arch bwall_2_1_2
 x 15
 y 4
 end
-arch dirtfloor
+arch afloor_greco_right
 x 15
 y 5
 end
@@ -1883,7 +1885,7 @@ arch mouse
 x 15
 y 5
 end
-arch dirtfloor
+arch afloor_greco_right
 x 15
 y 6
 end
@@ -1891,7 +1893,7 @@ arch mouse
 x 15
 y 6
 end
-arch dirtfloor
+arch afloor_greco_right
 x 15
 y 7
 end
@@ -1907,7 +1909,7 @@ arch bwall_2_1_2
 x 15
 y 8
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 9
 end
@@ -1915,7 +1917,7 @@ arch bat
 x 15
 y 9
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 10
 end
@@ -1923,7 +1925,7 @@ arch bat
 x 15
 y 10
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 11
 end
@@ -1931,7 +1933,7 @@ arch bat
 x 15
 y 11
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 12
 end
@@ -1939,7 +1941,7 @@ arch bat
 x 15
 y 12
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 13
 end
@@ -1947,7 +1949,7 @@ arch bwall_1_4
 x 15
 y 13
 end
-arch dirtfloor
+arch lostlabbluesand
 x 15
 y 14
 end
@@ -2098,7 +2100,7 @@ end
 arch bwall_2_1_2
 x 17
 end
-arch dirtfloor
+arch rstone_4
 x 17
 y 1
 end
@@ -2106,7 +2108,7 @@ arch food
 x 17
 y 1
 end
-arch dirtfloor
+arch rstone_4
 x 17
 y 2
 end
@@ -2114,7 +2116,7 @@ arch orc
 x 17
 y 2
 end
-arch dirtfloor
+arch rstone_4
 x 17
 y 3
 end
@@ -2130,7 +2132,7 @@ arch bwall_2_1_2
 x 17
 y 4
 end
-arch dirtfloor
+arch lostlabgreysand
 x 17
 y 5
 end
@@ -2141,7 +2143,7 @@ sp 5
 x 17
 y 5
 end
-arch dirtfloor
+arch lostlabgreysand
 x 17
 y 6
 end
@@ -2149,7 +2151,7 @@ arch gnoll
 x 17
 y 6
 end
-arch dirtfloor
+arch lostlabgreysand
 x 17
 y 7
 end
@@ -2165,7 +2167,7 @@ arch bwall_2_1_2
 x 17
 y 8
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 9
 end
@@ -2173,7 +2175,7 @@ arch food
 x 17
 y 9
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 10
 end
@@ -2181,7 +2183,7 @@ arch orc
 x 17
 y 10
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 11
 end
@@ -2189,7 +2191,7 @@ arch orc
 x 17
 y 11
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 12
 end
@@ -2197,7 +2199,7 @@ arch orc
 x 17
 y 12
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 13
 end
@@ -2205,7 +2207,7 @@ arch orc
 x 17
 y 13
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 17
 y 14
 end
@@ -2227,7 +2229,7 @@ end
 arch bwall_2_1_2
 x 18
 end
-arch dirtfloor
+arch rstone_4
 x 18
 y 1
 end
@@ -2235,7 +2237,7 @@ arch chest
 x 18
 y 1
 end
-arch dirtfloor
+arch rstone_4
 x 18
 y 2
 end
@@ -2243,7 +2245,7 @@ arch orc
 x 18
 y 2
 end
-arch dirtfloor
+arch rstone_4
 x 18
 y 3
 end
@@ -2259,7 +2261,7 @@ arch bwall_3_3
 x 18
 y 4
 end
-arch dirtfloor
+arch lostlabgreysand
 x 18
 y 5
 end
@@ -2267,7 +2269,7 @@ arch bwall_1_2
 x 18
 y 5
 end
-arch dirtfloor
+arch lostlabgreysand
 x 18
 y 6
 end
@@ -2275,7 +2277,7 @@ arch gnoll
 x 18
 y 6
 end
-arch dirtfloor
+arch lostlabgreysand
 x 18
 y 7
 end
@@ -2291,7 +2293,7 @@ arch bwall_2_1_2
 x 18
 y 8
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 9
 end
@@ -2299,7 +2301,7 @@ arch food
 x 18
 y 9
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 10
 end
@@ -2307,7 +2309,7 @@ arch orc
 x 18
 y 10
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 11
 end
@@ -2315,7 +2317,7 @@ arch orc
 x 18
 y 11
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 12
 end
@@ -2323,7 +2325,7 @@ arch orc
 x 18
 y 12
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 13
 end
@@ -2331,7 +2333,7 @@ arch orc
 x 18
 y 13
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 14
 end
@@ -2339,7 +2341,7 @@ arch orc
 x 18
 y 14
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 18
 y 15
 end
@@ -2353,7 +2355,7 @@ end
 arch bwall_3_3
 x 19
 end
-arch dirtfloor
+arch rstone_4
 x 19
 y 1
 end
@@ -2369,7 +2371,7 @@ arch orc
 x 19
 y 2
 end
-arch dirtfloor
+arch rstone_4
 x 19
 y 3
 end
@@ -2385,7 +2387,7 @@ arch bwall_2_1_2
 x 19
 y 4
 end
-arch dirtfloor
+arch lostlabgreysand
 x 19
 y 5
 end
@@ -2393,11 +2395,11 @@ arch chest
 x 19
 y 5
 end
-arch dirtfloor
+arch lostlabgreysand
 x 19
 y 6
 end
-arch dirtfloor
+arch lostlabgreysand
 x 19
 y 7
 end
@@ -2413,7 +2415,7 @@ arch bwall_3_3
 x 19
 y 8
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 9
 end
@@ -2421,7 +2423,7 @@ arch bwall_1_2
 x 19
 y 9
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 10
 end
@@ -2429,7 +2431,7 @@ arch orc
 x 19
 y 10
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 11
 end
@@ -2437,7 +2439,7 @@ arch orc
 x 19
 y 11
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 12
 end
@@ -2445,7 +2447,7 @@ arch orc
 x 19
 y 12
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 13
 end
@@ -2453,7 +2455,7 @@ arch orc
 x 19
 y 13
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 14
 end
@@ -2461,7 +2463,7 @@ arch orc
 x 19
 y 14
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 19
 y 15
 end
@@ -2475,7 +2477,7 @@ end
 arch bwall_2_1_2
 x 20
 end
-arch dirtfloor
+arch rstone_4
 x 20
 y 1
 end
@@ -2486,7 +2488,7 @@ sp 1
 x 20
 y 1
 end
-arch dirtfloor
+arch rstone_4
 x 20
 y 2
 end
@@ -2494,7 +2496,7 @@ arch generate_orc
 x 20
 y 2
 end
-arch dirtfloor
+arch rstone_4
 x 20
 y 3
 end
@@ -2510,7 +2512,7 @@ arch bwall_2_1_2
 x 20
 y 4
 end
-arch dirtfloor
+arch lostlabgreysand
 x 20
 y 5
 end
@@ -2518,11 +2520,11 @@ arch chest
 x 20
 y 5
 end
-arch dirtfloor
+arch lostlabgreysand
 x 20
 y 6
 end
-arch dirtfloor
+arch lostlabgreysand
 x 20
 y 7
 end
@@ -2538,7 +2540,7 @@ arch bwall_2_1_2
 x 20
 y 8
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 9
 end
@@ -2549,7 +2551,7 @@ sp 9
 x 20
 y 9
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 10
 end
@@ -2557,7 +2559,7 @@ arch orc
 x 20
 y 10
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 11
 end
@@ -2565,7 +2567,7 @@ arch orc
 x 20
 y 11
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 12
 end
@@ -2573,7 +2575,7 @@ arch orc
 x 20
 y 12
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 13
 end
@@ -2581,7 +2583,7 @@ arch orc
 x 20
 y 13
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 14
 end
@@ -2589,7 +2591,7 @@ arch orc
 x 20
 y 14
 end
-arch dirtfloor
+arch blacklostlabfloor8
 x 20
 y 15
 end
@@ -2729,7 +2731,7 @@ end
 arch bwall_2_1_2
 x 22
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 1
 end
@@ -2737,7 +2739,7 @@ arch generate_bird
 x 22
 y 1
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 2
 end
@@ -2745,7 +2747,7 @@ arch bird
 x 22
 y 2
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 3
 end
@@ -2753,7 +2755,7 @@ arch chest
 x 22
 y 3
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 4
 end
@@ -2761,7 +2763,7 @@ arch food
 x 22
 y 4
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 5
 end
@@ -2769,7 +2771,7 @@ arch food
 x 22
 y 5
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 6
 end
@@ -2777,7 +2779,7 @@ arch bwall_1_3
 x 22
 y 6
 end
-arch dirtfloor
+arch bosgrass17
 x 22
 y 7
 end
@@ -2796,7 +2798,7 @@ arch bwall_2_1_2
 x 22
 y 8
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 9
 end
@@ -2804,15 +2806,15 @@ arch chest
 x 22
 y 9
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 10
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 11
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 12
 end
@@ -2820,15 +2822,15 @@ arch ogre
 x 22
 y 12
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 13
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 14
 end
-arch dirtfloor
+arch cobblestones
 x 22
 y 15
 end
@@ -2842,7 +2844,7 @@ end
 arch bwall_2_1_2
 x 23
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 1
 end
@@ -2850,7 +2852,7 @@ arch bird
 x 23
 y 1
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 2
 end
@@ -2858,7 +2860,7 @@ arch bird
 x 23
 y 2
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 3
 end
@@ -2866,19 +2868,19 @@ arch chest
 x 23
 y 3
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 4
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 5
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 6
 end
-arch dirtfloor
+arch bosgrass17
 x 23
 y 7
 end
@@ -2890,7 +2892,7 @@ arch bwall_2_1_2
 x 23
 y 8
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 9
 end
@@ -2898,11 +2900,11 @@ arch chest
 x 23
 y 9
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 10
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 11
 end
@@ -2910,7 +2912,7 @@ arch chest
 x 23
 y 11
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 12
 end
@@ -2918,7 +2920,7 @@ arch ogre
 x 23
 y 12
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 13
 end
@@ -2926,7 +2928,7 @@ arch bwall_1_4
 x 23
 y 13
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 14
 end
@@ -2937,7 +2939,7 @@ sp 3
 x 23
 y 14
 end
-arch dirtfloor
+arch cobblestones
 x 23
 y 15
 end
@@ -2951,7 +2953,7 @@ end
 arch bwall_2_2_3
 x 24
 end
-arch dirtfloor
+arch bosgrass17
 x 24
 y 1
 end
@@ -2959,7 +2961,7 @@ arch bwall_2_1_1
 x 24
 y 1
 end
-arch dirtfloor
+arch bosgrass17
 x 24
 y 2
 end

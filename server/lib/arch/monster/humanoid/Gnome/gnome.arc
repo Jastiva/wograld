@@ -1,9 +1,10 @@
 Object gnome
 race dwarf
-name cunning gnome
+name Elf
 randomitems gnome
 alive 1
 monster 1
+unaggressive 1
 no_pick 1
 type 120
 face gnome.111

@@ -8,8 +8,9 @@ enter_x 23
 enter_y 19
 msg
 Created:  2000-06-05
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2019-05-11 lori
 endmsg
+background_music undeadlair01
 end
 arch pstone_1
 end
@@ -39,25 +40,25 @@ end
 arch dun_3_2
 y 4
 end
-arch pstone_1
+arch bluemarble
 y 5
 end
 arch dun_2_1_1
 y 5
 end
-arch pstone_1
+arch bluemarble
 y 6
 end
 arch dun_2_1_1
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 y 7
 end
 arch dun_2_1_1
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 y 8
 end
 arch dun_2_1_1
@@ -69,31 +70,31 @@ end
 arch dun_2_1_1
 y 9
 end
-arch pstone_1
+arch bluemarble
 y 10
 end
 arch dun_2_1_1
 y 10
 end
-arch pstone_1
+arch bluemarble
 y 11
 end
 arch dun_2_1_1
 y 11
 end
-arch pstone_1
+arch bluemarble
 y 12
 end
 arch dun_2_1_1
 y 12
 end
-arch pstone_1
+arch bluemarble
 y 13
 end
 arch dun_2_1_1
 y 13
 end
-arch pstone_1
+arch bluemarble
 y 14
 end
 arch dun_2_1_1
@@ -173,19 +174,19 @@ arch dun_2_1_2
 x 1
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 5
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 6
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 7
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 8
 end
@@ -200,31 +201,31 @@ material 0
 value 1000
 end
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 9
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 10
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 11
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 12
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 13
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 1
 y 15
 end
@@ -302,23 +303,23 @@ arch dun_2_1_2
 x 2
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 2
 y 5
 end
-arch pstone_1
+arch bluemarble
 x 2
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 9
 end
@@ -326,11 +327,11 @@ arch generate_skeleton
 x 2
 y 9
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 11
 end
@@ -338,7 +339,7 @@ arch generate_zombie
 x 2
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 12
 end
@@ -346,7 +347,7 @@ arch spider_web
 x 2
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 2
 y 13
 end
@@ -358,11 +359,11 @@ arch wraith
 x 2
 y 13
 end
-arch pstone_1
+arch bluemarble
 x 2
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 2
 y 15
 end
@@ -449,11 +450,11 @@ arch dun_2_1_2
 x 3
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 3
 y 5
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 6
 end
@@ -462,19 +463,19 @@ x 3
 y 6
 no_pass 0
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 9
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 10
 end
@@ -482,15 +483,15 @@ arch generate_ghost
 x 3
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 13
 end
@@ -498,7 +499,7 @@ arch wraith
 x 3
 y 13
 end
-arch pstone_1
+arch lostlabfloor4
 x 3
 y 14
 end
@@ -506,7 +507,7 @@ arch generate_skeleton
 x 3
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 3
 y 15
 end
@@ -592,11 +593,11 @@ arch dun_1_3
 x 4
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 4
 y 5
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 6
 end
@@ -604,7 +605,7 @@ arch wraith
 x 4
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 7
 end
@@ -612,11 +613,11 @@ arch wraith
 x 4
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 9
 end
@@ -625,15 +626,15 @@ x 4
 y 9
 no_pass 0
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 12
 end
@@ -645,7 +646,7 @@ arch wraith
 x 4
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 13
 end
@@ -653,7 +654,7 @@ arch wraith
 x 4
 y 13
 end
-arch pstone_1
+arch lostlabfloor4
 x 4
 y 14
 end
@@ -661,7 +662,7 @@ arch gravestone
 x 4
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 4
 y 15
 end
@@ -736,7 +737,7 @@ arch skeleton
 x 5
 y 3
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 4
 end
@@ -744,11 +745,11 @@ arch locked_door1
 x 5
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 5
 y 5
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 6
 end
@@ -756,7 +757,7 @@ arch wraith
 x 5
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 7
 end
@@ -764,7 +765,7 @@ arch wraith
 x 5
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 8
 end
@@ -772,7 +773,7 @@ arch wraith
 x 5
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 9
 end
@@ -781,11 +782,11 @@ x 5
 y 9
 no_pass 0
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 11
 end
@@ -793,7 +794,7 @@ arch wraith
 x 5
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 12
 end
@@ -805,15 +806,15 @@ arch wraith
 x 5
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 13
 end
-arch pstone_1
+arch lostlabfloor4
 x 5
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 5
 y 15
 end
@@ -895,11 +896,11 @@ arch dun_1_4
 x 6
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 6
 y 5
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 6
 end
@@ -907,7 +908,7 @@ arch spider_web
 x 6
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 7
 end
@@ -915,7 +916,7 @@ arch wraith
 x 6
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 8
 end
@@ -923,7 +924,7 @@ arch wraith
 x 6
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 9
 end
@@ -931,7 +932,7 @@ arch wraith
 x 6
 y 9
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 10
 end
@@ -939,7 +940,7 @@ arch wraith
 x 6
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 11
 end
@@ -947,7 +948,7 @@ arch wraith
 x 6
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 12
 end
@@ -955,7 +956,7 @@ arch wraith
 x 6
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 13
 end
@@ -963,11 +964,11 @@ arch gravestone2
 x 6
 y 13
 end
-arch pstone_1
+arch lostlabfloor4
 x 6
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 6
 y 15
 end
@@ -1054,7 +1055,7 @@ arch dun_2_1_2
 x 7
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 7
 y 5
 end
@@ -1062,15 +1063,15 @@ arch spider_web
 x 7
 y 5
 end
-arch pstone_1
+arch bluemarble
 x 7
 y 6
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 7
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 8
 end
@@ -1092,7 +1093,7 @@ arch wraith
 x 7
 y 8
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 9
 end
@@ -1100,7 +1101,7 @@ arch wraith
 x 7
 y 9
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 10
 end
@@ -1108,7 +1109,7 @@ arch wraith
 x 7
 y 10
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 11
 end
@@ -1116,7 +1117,7 @@ arch generate_ghost
 x 7
 y 11
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 12
 end
@@ -1124,7 +1125,7 @@ arch gravestone
 x 7
 y 12
 end
-arch pstone_1
+arch lostlabfloor4
 x 7
 y 13
 end
@@ -1133,11 +1134,11 @@ x 7
 y 13
 no_pass 0
 end
-arch pstone_1
+arch bluemarble
 x 7
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 7
 y 15
 end
@@ -1219,7 +1220,7 @@ arch dun_2_1_2
 x 8
 y 4
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 5
 end
@@ -1227,39 +1228,39 @@ arch corpse
 x 8
 y 5
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 6
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 7
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 8
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 9
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 10
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 11
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 12
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 13
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 14
 end
@@ -1267,11 +1268,11 @@ arch generate_zombie
 x 8
 y 14
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 15
 end
-arch pstone_1
+arch bluemarble
 x 8
 y 16
 end
@@ -1845,7 +1846,7 @@ arch pstone_1
 x 12
 y 5
 end
-arch dun_2_1_2
+arch dun_1_3
 x 12
 y 5
 end
@@ -1922,7 +1923,7 @@ arch pstone_1
 x 12
 y 15
 end
-arch dun_2_1_2
+arch dun_1_3
 x 12
 y 15
 end
@@ -2016,7 +2017,7 @@ arch pstone_1
 x 13
 y 5
 end
-arch dun_1_3
+arch blackmarblewall_4
 x 13
 y 5
 end
@@ -2088,7 +2089,7 @@ arch pstone_1
 x 13
 y 15
 end
-arch dun_1_3
+arch blackmarblewall_4
 x 13
 y 15
 end
@@ -2343,7 +2344,7 @@ arch pstone_1
 x 15
 y 5
 end
-arch dun_1_4
+arch blackmarblewall_4
 x 15
 y 5
 end
@@ -2423,7 +2424,7 @@ arch pstone_1
 x 15
 y 15
 end
-arch dun_1_4
+arch blackmarblewall_4
 x 15
 y 15
 end
@@ -2525,7 +2526,7 @@ arch pstone_1
 x 16
 y 5
 end
-arch dun_2_1_2
+arch blackmarblewall_4
 x 16
 y 5
 end
@@ -2593,7 +2594,7 @@ arch pstone_1
 x 16
 y 15
 end
-arch dun_2_1_2
+arch dun_1_4
 x 16
 y 15
 end
@@ -2683,7 +2684,7 @@ arch pstone_1
 x 17
 y 5
 end
-arch dun_4
+arch dun_2_2_1
 x 17
 y 5
 end
@@ -2691,7 +2692,7 @@ arch pstone_1
 x 17
 y 6
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 6
 end
@@ -2699,7 +2700,7 @@ arch pstone_1
 x 17
 y 7
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 7
 end
@@ -2707,7 +2708,7 @@ arch pstone_1
 x 17
 y 8
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 8
 end
@@ -2715,7 +2716,7 @@ arch pstone_1
 x 17
 y 9
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 9
 end
@@ -2723,7 +2724,7 @@ arch pstone_1
 x 17
 y 10
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 10
 end
@@ -2731,7 +2732,7 @@ arch pstone_1
 x 17
 y 11
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 11
 end
@@ -2739,7 +2740,7 @@ arch pstone_1
 x 17
 y 12
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 12
 end
@@ -2747,7 +2748,7 @@ arch pstone_1
 x 17
 y 13
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 13
 end
@@ -2755,7 +2756,7 @@ arch pstone_1
 x 17
 y 14
 end
-arch dun_2_1_1
+arch blackmarblewall_4
 x 17
 y 14
 end
@@ -2763,7 +2764,7 @@ arch pstone_1
 x 17
 y 15
 end
-arch dun_4
+arch dun_3_3
 x 17
 y 15
 end
@@ -2861,15 +2862,15 @@ arch dun_2_1_2
 x 18
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 18
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 18
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 18
 y 8
 end
@@ -2905,7 +2906,7 @@ arch zombie
 x 18
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 18
 y 13
 end
@@ -3015,7 +3016,7 @@ arch dun_2_1_2
 x 19
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 6
 end
@@ -3023,15 +3024,15 @@ arch spider_web
 x 19
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 8
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 9
 end
@@ -3039,7 +3040,7 @@ arch generate_ghost
 x 19
 y 9
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 10
 end
@@ -3047,11 +3048,11 @@ arch zombie
 x 19
 y 10
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 11
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 12
 end
@@ -3059,7 +3060,7 @@ arch generate_ghost
 x 19
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 13
 end
@@ -3067,7 +3068,7 @@ arch zombie
 x 19
 y 13
 end
-arch pstone_1
+arch lostlabgreysand
 x 19
 y 14
 end
@@ -3173,11 +3174,11 @@ arch dun_1_3
 x 20
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 7
 end
@@ -3185,7 +3186,7 @@ arch spider_web
 x 20
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 8
 end
@@ -3193,11 +3194,11 @@ arch corpse
 x 20
 y 8
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 9
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 10
 end
@@ -3206,11 +3207,11 @@ x 20
 y 10
 no_pass 0
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 11
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 12
 end
@@ -3218,7 +3219,7 @@ arch skeleton
 x 20
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 13
 end
@@ -3226,7 +3227,7 @@ arch skeleton
 x 20
 y 13
 end
-arch pstone_1
+arch lostlabgreysand
 x 20
 y 14
 end
@@ -3320,7 +3321,7 @@ arch skeleton
 x 21
 y 4
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 5
 end
@@ -3328,19 +3329,19 @@ arch door_2
 x 21
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 8
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 9
 end
@@ -3348,7 +3349,7 @@ arch skeleton
 x 21
 y 9
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 10
 end
@@ -3356,7 +3357,7 @@ arch skeleton
 x 21
 y 10
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 11
 end
@@ -3364,7 +3365,7 @@ arch gravestone2
 x 21
 y 11
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 12
 end
@@ -3372,7 +3373,7 @@ arch skeleton
 x 21
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 13
 end
@@ -3380,7 +3381,7 @@ arch generate_ghost
 x 21
 y 13
 end
-arch pstone_1
+arch lostlabgreysand
 x 21
 y 14
 end
@@ -3478,7 +3479,7 @@ arch skeleton
 x 22
 y 4
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 5
 end
@@ -3486,7 +3487,7 @@ arch dun_1_4
 x 22
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 6
 end
@@ -3494,7 +3495,7 @@ arch gravestone
 x 22
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 7
 end
@@ -3502,15 +3503,15 @@ arch gravestone
 x 22
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 8
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 9
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 10
 end
@@ -3518,7 +3519,7 @@ arch skeleton
 x 22
 y 10
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 11
 end
@@ -3526,7 +3527,7 @@ arch skeleton
 x 22
 y 11
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 12
 end
@@ -3534,11 +3535,11 @@ arch skeleton
 x 22
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 13
 end
-arch pstone_1
+arch lostlabgreysand
 x 22
 y 14
 end
@@ -3640,19 +3641,19 @@ arch dun_2_1_2
 x 23
 y 5
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 6
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 7
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 8
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 9
 end
@@ -3660,15 +3661,15 @@ arch generate_ghost
 x 23
 y 9
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 10
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 11
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 12
 end
@@ -3676,11 +3677,11 @@ arch spider_web
 x 23
 y 12
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 13
 end
-arch pstone_1
+arch lostlabgreysand
 x 23
 y 14
 end

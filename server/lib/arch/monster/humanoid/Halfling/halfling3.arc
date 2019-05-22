@@ -1,6 +1,6 @@
 Object halfling3
 race halfling
-name halfling
+name Elf
 randomitems halfling
 face halfling3.151
 anim
