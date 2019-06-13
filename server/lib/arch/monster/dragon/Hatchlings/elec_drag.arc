@@ -8,8 +8,8 @@ anim
 facings 2
 elec_drag.171
 elec_drag.172
-elec_drag.131
-elec_drag.132
+elec_drag.151
+elec_drag.152
 mina
 level 8
 monster 1

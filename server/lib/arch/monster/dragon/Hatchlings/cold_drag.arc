@@ -8,8 +8,8 @@ anim
 facings 2
 cold_drag.171
 cold_drag.172
-cold_drag.131
-cold_drag.132
+cold_drag.151
+cold_drag.152
 mina
 level 8
 monster 1

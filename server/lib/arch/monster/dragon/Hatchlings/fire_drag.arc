@@ -8,8 +8,8 @@ anim
 facings 2
 fire_drag.171
 fire_drag.172
-fire_drag.131
-fire_drag.132
+fire_drag.151
+fire_drag.152
 mina
 level 8
 monster 1
