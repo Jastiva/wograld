@@ -2,7 +2,14 @@ Object spectre
 race undead
 name Spectre
 randomitems spectre
-face spectre.111
+face spectre.171
+anim
+facings 2
+spectre.171
+spectre.172
+spectre.151
+spectre.152
+mina
 monster 1
 sleep 1
 alive 1

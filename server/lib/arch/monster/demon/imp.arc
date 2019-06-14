@@ -5,7 +5,9 @@ face imp.171
 anim
 facings 2
 imp.171
-imp.131
+imp.172
+imp.151
+imp.152
 mina
 race demon
 monster 1
