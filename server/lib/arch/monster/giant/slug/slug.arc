@@ -1,14 +1,14 @@
 Object slug
 race insect
 name slug
-face slug.131
+face slug.151
 monster 1
 sleep 1
 Wis 15
 anim
 facings 2
-slug.131
-slug.132
+slug.151
+slug.152
 slug.171
 slug.172
 mina
@@ -33,22 +33,4 @@ speed -0.08
 weight 300000
 run_away 5
 editable 1
-end
-More
-Object slug_2
-name slug
-face slug.231
-anim
-facings 2
-slug.231
-slug.232
-slug.271
-slug.272
-mina
-monster 1
-alive 1
-no_pick 1
-color_fg grey
-x 1
-weight 300000
 end
