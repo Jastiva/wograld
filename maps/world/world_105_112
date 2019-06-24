@@ -4,13 +4,14 @@ difficulty 1
 width 50
 height 50
 msg
-Modified: 2019-04-13 lori
+Modified: 2019-06-17 lx
 endmsg
 outdoor 1
 tile_path_1 world_105_111
 tile_path_2 world_106_112
 tile_path_3 world_105_113
 tile_path_4 world_104_112
+tile_path_5 above_105_112
 background_music beach02
 end
 arch lostlabdesert
@@ -2460,42 +2461,108 @@ arch lostlabdesert4
 x 10
 elevation 2017
 end
+arch mountain2
+x 10
+no_pass 1
+end
+arch dun0
+x 10
+end
 arch lostlabdesert3
 x 10
 y 1
 elevation 284
+end
+arch mountain2
+x 10
+y 1
+no_pass 1
+end
+arch dun0
+x 10
+y 1
 end
 arch lostlabdesert3
 x 10
 y 2
 elevation 1470
 end
+arch mountain2
+x 10
+y 2
+no_pass 1
+end
+arch dun0
+x 10
+y 2
+end
 arch lostlabdesert3
 x 10
 y 3
 elevation 1552
+end
+arch mountain2
+x 10
+y 3
+no_pass 1
+end
+arch dun0
+x 10
+y 3
 end
 arch lostlabdesert3
 x 10
 y 4
 elevation 2044
 end
+arch mountain2
+x 10
+y 4
+no_pass 1
+end
+arch dun0
+x 10
+y 4
+end
 arch lostlabdesert
 x 10
 y 5
 elevation 3337
+end
+arch mountain2
+x 10
+y 5
+no_pass 1
+end
+arch dun0
+x 10
+y 5
 end
 arch hills_rocky
 x 10
 y 6
 elevation 4989
 end
+arch mountain2
+x 10
+y 6
+no_pass 1
+end
+arch dun0
+x 10
+y 6
+end
 arch lostlabdesert
 x 10
 y 7
 elevation 7050
 end
-arch cactus1
+arch mountain2
+x 10
+y 7
+no_pass 1
+end
+arch dun0
 x 10
 y 7
 end
@@ -2504,10 +2571,28 @@ x 10
 y 8
 elevation 7891
 end
+arch mountain2
+x 10
+y 8
+no_pass 1
+end
+arch dun0
+x 10
+y 8
+end
 arch grassbrown
 x 10
 y 9
 elevation 9236
+end
+arch mountain2
+x 10
+y 9
+no_pass 1
+end
+arch dun0
+x 10
+y 9
 end
 arch desertcliff3
 x 10
@@ -2516,18 +2601,54 @@ elevation 9519
 end
 arch mountain2
 x 10
+y 10
+no_pass 1
+end
+arch dun0
+x 10
+y 10
+end
+arch mountain2
+x 10
 y 11
 elevation 9110
+end
+arch mountain2
+x 10
+y 11
+no_pass 1
+end
+arch dun0
+x 10
+y 11
 end
 arch mountain
 x 10
 y 12
 elevation 8877
 end
+arch mountain2
+x 10
+y 12
+no_pass 1
+end
+arch dun0
+x 10
+y 12
+end
 arch cobblestones
 x 10
 y 13
 elevation 9185
+end
+arch mountain2
+x 10
+y 13
+no_pass 1
+end
+arch dun0
+x 10
+y 13
 end
 arch cobblestones
 x 10
@@ -2767,6 +2888,15 @@ arch cobblestones
 x 11
 y 13
 end
+arch mountain2
+x 11
+y 13
+no_pass 1
+end
+arch dun0
+x 11
+y 13
+end
 arch cobblestones
 x 11
 y 14
@@ -3008,6 +3138,15 @@ arch cobblestones
 x 12
 y 13
 end
+arch mountain2
+x 12
+y 13
+no_pass 1
+end
+arch dun0
+x 12
+y 13
+end
 arch cobblestones
 x 12
 y 14
@@ -3234,6 +3373,15 @@ arch cobblestones
 x 13
 y 13
 end
+arch mountain2
+x 13
+y 13
+no_pass 1
+end
+arch dun0
+x 13
+y 13
+end
 arch cobblestones
 x 13
 y 14
@@ -3450,11 +3598,38 @@ arch pstone_4
 x 14
 y 11
 end
+arch mountain2
+x 14
+y 11
+no_pass 1
+end
+arch dun0
+x 14
+y 11
+end
 arch pstone_4
 x 14
 y 12
 end
+arch mountain2
+x 14
+y 12
+no_pass 1
+end
+arch dun0
+x 14
+y 12
+end
 arch cobblestones
+x 14
+y 13
+end
+arch mountain2
+x 14
+y 13
+no_pass 1
+end
+arch dun0
 x 14
 y 13
 end
@@ -3687,6 +3862,15 @@ arch pstone_4
 x 15
 y 11
 end
+arch mountain2
+x 15
+y 11
+no_pass 1
+end
+arch dun0
+x 15
+y 11
+end
 arch grass_br_gr
 x 15
 y 12
@@ -3908,6 +4092,15 @@ y 10
 elevation 0
 end
 arch grass_br_gr
+x 16
+y 11
+end
+arch mountain2
+x 16
+y 11
+no_pass 1
+end
+arch dun0
 x 16
 y 11
 end
@@ -4142,6 +4335,15 @@ arch grass_br_gr
 x 17
 y 11
 end
+arch mountain2
+x 17
+y 11
+no_pass 1
+end
+arch dun0
+x 17
+y 11
+end
 arch grass_br_gr
 x 17
 y 12
@@ -4351,6 +4553,15 @@ y 10
 elevation 0
 end
 arch grass_br_gr
+x 18
+y 11
+end
+arch mountain2
+x 18
+y 11
+no_pass 1
+end
+arch dun0
 x 18
 y 11
 end
@@ -4568,11 +4779,38 @@ arch grass_br_gr
 x 19
 y 11
 end
+arch mountain2
+x 19
+y 11
+no_pass 1
+end
+arch dun0
+x 19
+y 11
+end
 arch grass_br_gr
 x 19
 y 12
 end
+arch mountain2
+x 19
+y 12
+no_pass 1
+end
+arch dun0
+x 19
+y 12
+end
 arch grass_br_gr
+x 19
+y 13
+end
+arch mountain2
+x 19
+y 13
+no_pass 1
+end
+arch dun0
 x 19
 y 13
 end
@@ -4791,6 +5029,15 @@ arch grass_br_gr
 x 20
 y 13
 end
+arch mountain2
+x 20
+y 13
+no_pass 1
+end
+arch dun0
+x 20
+y 13
+end
 arch grass_br_gr
 x 20
 y 14
@@ -5008,6 +5255,15 @@ arch pstone_4
 x 21
 y 13
 end
+arch mountain2
+x 21
+y 13
+no_pass 1
+end
+arch dun0
+x 21
+y 13
+end
 arch pstone_4
 x 21
 y 14
@@ -5222,6 +5478,15 @@ arch pstone_4
 x 22
 y 13
 end
+arch mountain2
+x 22
+y 13
+no_pass 1
+end
+arch dun0
+x 22
+y 13
+end
 arch pstone_4
 x 22
 y 14
@@ -5432,6 +5697,15 @@ arch mountain
 x 23
 y 13
 elevation 0
+end
+arch mountain2
+x 23
+y 13
+no_pass 1
+end
+arch dun0
+x 23
+y 13
 end
 arch mountain
 x 23
@@ -5646,6 +5920,15 @@ arch greysandcliff1
 x 24
 y 13
 end
+arch mountain2
+x 24
+y 13
+no_pass 1
+end
+arch dun0
+x 24
+y 13
+end
 arch mountain
 x 24
 y 14
@@ -5863,6 +6146,15 @@ arch greysandcliff1
 x 25
 y 13
 end
+arch mountain2
+x 25
+y 13
+no_pass 1
+end
+arch dun0
+x 25
+y 13
+end
 arch earth
 x 25
 y 14
@@ -6070,6 +6362,15 @@ x 26
 y 12
 end
 arch earth
+x 26
+y 13
+end
+arch mountain2
+x 26
+y 13
+no_pass 1
+end
+arch dun0
 x 26
 y 13
 end
@@ -6281,6 +6582,15 @@ arch earth
 x 27
 y 13
 end
+arch mountain2
+x 27
+y 13
+no_pass 1
+end
+arch dun0
+x 27
+y 13
+end
 arch earth
 x 27
 y 14
@@ -6482,6 +6792,15 @@ x 28
 y 12
 end
 arch earth
+x 28
+y 13
+end
+arch mountain2
+x 28
+y 13
+no_pass 1
+end
+arch dun0
 x 28
 y 13
 end
@@ -6697,6 +7016,15 @@ arch earth
 x 29
 y 13
 end
+arch mountain2
+x 29
+y 13
+no_pass 1
+end
+arch dun0
+x 29
+y 13
+end
 arch earth
 x 29
 y 14
@@ -6906,6 +7234,15 @@ arch bosgrass6
 x 30
 y 13
 end
+arch mountain2
+x 30
+y 13
+no_pass 1
+end
+arch dun0
+x 30
+y 13
+end
 arch bosgrass5
 x 30
 y 14
@@ -7105,6 +7442,15 @@ arch hills_rocky
 x 31
 y 13
 elevation 0
+end
+arch mountain2
+x 31
+y 13
+no_pass 1
+end
+arch dun0
+x 31
+y 13
 end
 arch bosgrass6
 x 31
@@ -7311,6 +7657,15 @@ arch hills_rocky
 x 32
 y 13
 elevation 0
+end
+arch mountain2
+x 32
+y 13
+no_pass 1
+end
+arch dun0
+x 32
+y 13
 end
 arch bosgrass7
 x 32
@@ -7518,6 +7873,15 @@ arch bosgrass8
 x 33
 y 13
 end
+arch mountain2
+x 33
+y 13
+no_pass 1
+end
+arch dun0
+x 33
+y 13
+end
 arch bosgrass8
 x 33
 y 14
@@ -7725,6 +8089,15 @@ x 34
 y 12
 end
 arch earth
+x 34
+y 13
+end
+arch mountain2
+x 34
+y 13
+no_pass 1
+end
+arch dun0
 x 34
 y 13
 end
@@ -7937,6 +8310,15 @@ x 35
 y 12
 end
 arch pine_needles
+x 35
+y 13
+end
+arch mountain2
+x 35
+y 13
+no_pass 1
+end
+arch dun0
 x 35
 y 13
 end
@@ -8157,6 +8539,15 @@ arch pine_needles
 x 36
 y 13
 end
+arch mountain2
+x 36
+y 13
+no_pass 1
+end
+arch dun0
+x 36
+y 13
+end
 arch earth
 x 36
 y 14
@@ -8372,6 +8763,15 @@ x 37
 y 12
 end
 arch earth
+x 37
+y 13
+end
+arch mountain2
+x 37
+y 13
+no_pass 1
+end
+arch dun0
 x 37
 y 13
 end
@@ -8594,7 +8994,12 @@ arch earth
 x 38
 y 13
 end
-arch tree5
+arch mountain2
+x 38
+y 13
+no_pass 1
+end
+arch dun0
 x 38
 y 13
 end
@@ -8819,6 +9224,15 @@ x 39
 y 12
 end
 arch earth
+x 39
+y 13
+end
+arch mountain2
+x 39
+y 13
+no_pass 1
+end
+arch dun0
 x 39
 y 13
 end
@@ -9040,6 +9454,15 @@ x 40
 y 12
 end
 arch earth
+x 40
+y 13
+end
+arch mountain2
+x 40
+y 13
+no_pass 1
+end
+arch dun0
 x 40
 y 13
 end
@@ -9240,7 +9663,25 @@ arch beach
 x 41
 y 7
 end
+arch mountain2
+x 41
+y 7
+no_pass 1
+end
+arch dun0
+x 41
+y 7
+end
 arch beach
+x 41
+y 8
+end
+arch mountain2
+x 41
+y 8
+no_pass 1
+end
+arch dun0
 x 41
 y 8
 end
@@ -9248,7 +9689,25 @@ arch beach
 x 41
 y 9
 end
+arch mountain2
+x 41
+y 9
+no_pass 1
+end
+arch dun0
+x 41
+y 9
+end
 arch beach
+x 41
+y 10
+end
+arch mountain2
+x 41
+y 10
+no_pass 1
+end
+arch dun0
 x 41
 y 10
 end
@@ -9256,11 +9715,38 @@ arch beach
 x 41
 y 11
 end
+arch mountain2
+x 41
+y 11
+no_pass 1
+end
+arch dun0
+x 41
+y 11
+end
 arch earth
 x 41
 y 12
 end
+arch mountain2
+x 41
+y 12
+no_pass 1
+end
+arch dun0
+x 41
+y 12
+end
 arch earth
+x 41
+y 13
+end
+arch mountain2
+x 41
+y 13
+no_pass 1
+end
+arch dun0
 x 41
 y 13
 end
@@ -10328,7 +10814,25 @@ arch beach
 x 46
 y 9
 end
+arch mountain2
+x 46
+y 9
+no_pass 1
+end
+arch dun0
+x 46
+y 9
+end
 arch beach
+x 46
+y 10
+end
+arch mountain2
+x 46
+y 10
+no_pass 1
+end
+arch dun0
 x 46
 y 10
 end
@@ -10336,11 +10840,38 @@ arch beach
 x 46
 y 11
 end
+arch mountain2
+x 46
+y 11
+no_pass 1
+end
+arch dun0
+x 46
+y 11
+end
 arch beach
 x 46
 y 12
 end
+arch mountain2
+x 46
+y 12
+no_pass 1
+end
+arch dun0
+x 46
+y 12
+end
 arch beach
+x 46
+y 13
+end
+arch mountain2
+x 46
+y 13
+no_pass 1
+end
+arch dun0
 x 46
 y 13
 end
@@ -10555,6 +11086,15 @@ arch lostlabdesert
 x 47
 y 13
 end
+arch mountain2
+x 47
+y 13
+no_pass 1
+end
+arch dun0
+x 47
+y 13
+end
 arch hills
 x 47
 y 14
@@ -10762,6 +11302,15 @@ arch lostlabdesert
 x 48
 y 13
 end
+arch mountain2
+x 48
+y 13
+no_pass 1
+end
+arch dun0
+x 48
+y 13
+end
 arch mountain5
 x 48
 y 14
@@ -10965,6 +11514,15 @@ x 49
 y 12
 end
 arch lostlabdesert
+x 49
+y 13
+end
+arch mountain2
+x 49
+y 13
+no_pass 1
+end
+arch dun0
 x 49
 y 13
 end
