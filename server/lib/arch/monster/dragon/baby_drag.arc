@@ -5,11 +5,13 @@ randomitems dragon
 monster 1
 sleep 1
 Wis 20
-face baby_drag.111
+face baby_drag.151
 anim
-baby_drag.111
-baby_drag.112
-baby_drag.113
+facings 2
+baby_drag.151
+baby_drag.152
+baby_drag.171
+baby_drag.172
 mina
 color_fg red
 level 10

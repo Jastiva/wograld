@@ -2,18 +2,14 @@ Object drake
 race dragon
 name drake
 randomitems drake
-face drake.111
+face drake.151
 color_fg red
 anim
 facings 2
-drake.111
-drake.112
-drake.113
-drake.112
-drake.211
-drake.212
-drake.213
-drake.212
+drake.151
+drake.152
+drake.171
+drake.172
 mina
 level 9
 monster 1

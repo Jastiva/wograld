@@ -6,7 +6,7 @@ monster 1
 move_type walk
 sleep 1
 Wis 20
-face shadow_dragon.x31
+face shadow_dragon.151
 animation shadow_dragon
 level 35
 Con 11
@@ -32,61 +32,4 @@ no_pick 1
 speed -0.4
 weight 400000
 run_away 3
-end
-More
-Object shadow_dragon_2
-name shadow dragon
-face shadow_dragon.x31
-animation shadow_dragon
-monster 1
-move_type walk
-alive 1
-x 1
-weight 4000000
-end
-More
-Object shadow_dragon_3
-name shadow dragon
-face shadow_dragon.x31
-animation shadow_dragon
-monster 1
-move_type walk
-alive 1
-x 2
-weight 4000000
-end
-More
-Object shadow_dragon_4
-name shadow dragon
-face shadow_dragon.x31
-animation shadow_dragon
-monster 1
-move_type walk
-alive 1
-y 1
-weight 4000000
-end
-More
-Object shadow_dragon_5
-name shadow dragon
-face shadow_dragon.x31
-animation shadow_dragon
-monster 1
-move_type walk
-alive 1
-x 1
-y 1
-weight 4000000
-end
-More
-Object shadow_dragon_6
-name shadow dragon
-face shadow_dragon.x31
-animation shadow_dragon
-monster 1
-move_type walk
-alive 1
-x 2
-y 1
-weight 4000000
 end

@@ -5,14 +5,13 @@ randomitems white_dr
 monster 1
 sleep 1
 Wis 20
-face white_dr.x11
+face white_dr.151
 anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
+facings 2
+white_dr.151
+white_dr.152
+white_dr.171
+white_dr.172
 mina
 level 35
 Con 11
@@ -39,97 +38,5 @@ speed -0.4
 weight 200000
 editable 1
 run_away 3
-magicmap white
-end
-More
-Object big_white_2
-name white dragon
-face white_dr.x11
-anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-mina
-monster 1
-alive 1
-x 1
-weight 4000000
-magicmap white
-end
-More
-Object big_white_3
-name white dragon
-face white_dr.x11
-anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-mina
-monster 1
-alive 1
-y 1
-weight 4000000
-magicmap white
-end
-More
-Object big_white_4
-name white dragon
-face white_dr.x11
-anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-mina
-monster 1
-alive 1
-x 1
-y 1
-weight 4000000
-magicmap white
-end
-More
-Object big_white_5
-name white dragon
-face white_dr.x11
-anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-mina
-monster 1
-alive 1
-y 2
-weight 4000000
-magicmap white
-end
-More
-Object big_white_6
-name white dragon
-face white_dr.x11
-anim
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-white_dr.x11
-white_dr.x12
-mina
-monster 1
-alive 1
-x 1
-y 2
-weight 4000000
 magicmap white
 end

@@ -5,14 +5,13 @@ randomitems orange_dr
 monster 1
 sleep 1
 Wis 20
-face orange_dr.x11
+face orange_dr.151
 anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
+facings 2
+orange_dr.151
+orange_dr.152
+orange_dr.171
+orange_dr.172
 mina
 level 24
 Con 11
@@ -40,97 +39,5 @@ speed -0.4
 weight 200000
 editable 1
 run_away 3
-magicmap orange
-end
-More
-Object big_orange_2
-name orange dragon
-face orange_dr.x11
-anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-mina
-monster 1
-alive 1
-x 1
-weight 4000000
-magicmap orange
-end
-More
-Object big_orange_3
-name orange dragon
-face orange_dr.x11
-anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-mina
-monster 1
-alive 1
-y 1
-weight 4000000
-magicmap orange
-end
-More
-Object big_orange_4
-name orange dragon
-face orange_dr.x11
-anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-mina
-monster 1
-alive 1
-x 1
-y 1
-weight 4000000
-magicmap orange
-end
-More
-Object big_orange_5
-name orange dragon
-face orange_dr.x11
-anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-mina
-monster 1
-alive 1
-y 2
-weight 4000000
-magicmap orange
-end
-More
-Object big_orange_6
-name orange dragon
-face orange_dr.x11
-anim
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-orange_dr.x11
-orange_dr.x12
-mina
-monster 1
-alive 1
-x 1
-y 2
-weight 4000000
 magicmap orange
 end
