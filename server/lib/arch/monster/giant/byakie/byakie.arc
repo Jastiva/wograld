@@ -1,13 +1,15 @@
 Object byakie
 randomitems byakie
-face byakie.111
+face byakie.151
 race chaos
 monster 1
 sleep 1
 Wis 21
 anim
-byakie.111
-byakie.112
+byakie.151
+byakie.152
+byakie.171
+byakie.172
 mina
 level 25
 Con 20
@@ -46,47 +48,4 @@ can_cast_spell 1
 weight 30000000
 run_away 2
 editable 1
-end
-More
-Object byakie_2
-name byakie
-face byakie.211
-anim
-byakie.211
-byakie.212
-mina
-monster 1
-alive 1
-no_pick 1
-x 1
-weight 30000000
-end
-More
-Object byakie_3
-name byakie
-face byakie.311
-anim
-byakie.311
-byakie.312
-mina
-monster 1
-alive 1
-no_pick 1
-y 1
-weight 30000000
-end
-More
-Object byakie_4
-name byakie
-face byakie.411
-anim
-byakie.411
-byakie.412
-mina
-monster 1
-alive 1
-no_pick 1
-x 1
-y 1
-weight 30000000
 end
