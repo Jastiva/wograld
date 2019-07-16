@@ -1,17 +1,15 @@
 Object ent
 randomitems giant
 race faerie
-face ent.x11
+face ent.111
 color_fg brown
 anim
-ent.x11
-ent.x11
-ent.x11
-ent.x12
-ent.x12
-ent.x13
-ent.x13
-ent.x12
+ent.111
+ent.112
+ent.113
+ent.114
+ent.113
+ent.112
 mina
 msg
 @match *
@@ -40,65 +38,4 @@ run_away 3
 can_use_weapon 1
 editable 1
 body_arm 2
-end
-More
-Object ent_2
-name ent
-face ent.x11
-color_fg brown
-anim
-ent.x11
-ent.x11
-ent.x11
-ent.x12
-ent.x12
-ent.x13
-ent.x13
-ent.x12
-mina
-monster 1
-alive 1
-x 1
-weight 3000000
-end
-More
-Object ent_3
-name ent
-face ent.x11
-color_fg brown
-anim
-ent.x11
-ent.x11
-ent.x11
-ent.x12
-ent.x12
-ent.x13
-ent.x13
-ent.x12
-mina
-monster 1
-alive 1
-y 1
-weight 3000000
-end
-More
-Object ent_4
-name ent
-face ent.x11
-color_fg brown
-anim
-ent.x11
-ent.x11
-ent.x11
-ent.x12
-ent.x12
-ent.x13
-ent.x13
-ent.x12
-mina
-monster 1
-alive 1
-x 1
-y 1
-weight 3000000
 end

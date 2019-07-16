@@ -2,18 +2,18 @@ Object fungus
 other_arch fungus
 name violent fungi
 race slime
-face fungus.111
+face fungus.151
 speed -0.03
 generator 1
 sp 129
 maxsp 20
 no_pick 1
 anim
-fungus.111
-fungus.112
-fungus.113
-fungus.114
-fungus.115
+facings 2
+fungus.151
+fungus.152
+fungus.171
+fungus.172
 mina
 color_fg light_blue
 monster 1

@@ -2,7 +2,7 @@ Object mushman1
 other_arch mushman1
 name Mushroom Man
 race slime
-face mushman1.111
+face mushman1.151
 speed -0.08
 generator 1
 sp 129
