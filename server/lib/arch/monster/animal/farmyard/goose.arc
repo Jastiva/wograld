@@ -1,13 +1,13 @@
 Object goose
 race bird
-face goose.131
+face goose.151
 color_fg brown
 anim
 facings 2
+goose.151
+goose.152
 goose.171
 goose.172
-goose.131
-goose.132
 mina
 monster 1
 Wis 1

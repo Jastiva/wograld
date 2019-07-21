@@ -1,11 +1,13 @@
 Object sheep
 race sheep
-face sheep.131
+face sheep.151
 color_fg white
 anim
-facings 1
-sheep.131
+facings 2
+sheep.151
+sheep.152
 sheep.171
+sheep.172
 mina
 monster 1
 Wis 5

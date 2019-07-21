@@ -1,11 +1,11 @@
 Object chicken
 race bird
-face chicken.131
+face chicken.151
 color_fg brown
 anim
 facings 2
-chicken.131
-chicken.132
+chicken.151
+chicken.152
 chicken.171
 chicken.172
 mina
