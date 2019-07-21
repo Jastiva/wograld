@@ -4,6 +4,7 @@ randomitems chinese
 race dragon
 face bone_drake.171
 anim
+facings 2
 bone_drake.151
 bone_drake.152
 bone_drake.171

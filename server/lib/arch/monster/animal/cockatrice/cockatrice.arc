@@ -5,10 +5,13 @@ randomitems cockatrice
 monster 1
 sleep 1
 Wis 20
-face cockatrice.x77
+face cockatrice.151
 anim
-cockatrice.x33
-cockatrice.x77
+facings 2
+cockatrice.151
+cockatrice.152
+cockatrice.171
+cockatrice.172
 mina
 level 116
 Con 11
@@ -34,82 +37,5 @@ speed -0.4
 weight 200000
 editable 1
 run_away 3
-magicmap blue
-end
-More
-Object cockatrice_2
-name cockatrice
-face cockatrice.x77
-anim
-cockatrice.x33
-cockatrice.x77
-mina
-monster 1
-alive 1
-flying 1
-x 1
-weight 100000
-magicmap blue
-end
-More
-Object cockatrice_3
-name cockatrice
-face cockatrice.x77
-anim
-cockatrice.x33
-cockatrice.x77
-mina
-monster 1
-alive 1
-flying 1
-y 1
-weight 100000
-magicmap blue
-end
-More
-Object cockatrice_4
-name cockatrice
-face cockatrice.x77
-anim
-cockatrice.x33
-cockatrice.x77
-mina
-monster 1
-alive 1
-flying 1
-x 1
-y 1
-weight 100000
-magicmap blue
-end
-More
-Object cockatrice_5
-name cockatrice
-face cockatrice.x77
-anim
-cockatrice.x33
-cockatrice.x77
-mina
-monster 1
-alive 1
-flying 1
-y 2
-weight 100000
-magicmap blue
-end
-More
-Object cockatrice_6
-name cockatrice
-face cockatrice.x77
-anim
-cockatrice.x33
-cockatrice.x77
-mina
-monster 1
-alive 1
-flying 1
-x 1
-y 2
-weight 100000
 magicmap blue
 end

@@ -5,10 +5,13 @@ randomitems cockatrice
 monster 1
 sleep 1
 Wis 20
-face cockatrice_small.111
+face cockatrice_small.151
 anim
-cockatrice_small.111
-cockatrice_small.222
+facings 2
+cockatrice_small.151
+cockatrice_small.152
+cockatrice_small.171
+cockatrice_small.172
 mina
 level 116
 Con 11
