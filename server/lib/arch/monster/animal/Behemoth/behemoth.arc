@@ -1,16 +1,12 @@
 Object behemoth
-face behemoth.x31
+face behemoth.151
 race animal
 anim
 facings 2
-behemoth.x31
-behemoth.x32
-behemoth.x33
-behemoth.x32
-behemoth.x71
-behemoth.x72
-behemoth.x73
-behemoth.x72
+behemoth.151
+behemoth.152
+behemoth.171
+behemoth.172
 mina
 randomitems behemoth
 attacktype 1025
@@ -32,60 +28,5 @@ alive 1
 speed -0.5
 weight 1800000
 editable 1
-color_fg black
-end
-More
-Object behemoth_2
-face behemoth.x31
-anim
-facings 2
-behemoth.x31
-behemoth.x32
-behemoth.x33
-behemoth.x32
-behemoth.x71
-behemoth.x72
-behemoth.x73
-behemoth.x72
-mina
-x 1
-alive 1
-color_fg black
-end
-More
-Object behemoth_3
-face behemoth.x31
-anim
-facings 2
-behemoth.x31
-behemoth.x32
-behemoth.x33
-behemoth.x32
-behemoth.x71
-behemoth.x72
-behemoth.x73
-behemoth.x72
-mina
-y 1
-alive 1
-color_fg black
-end
-More
-Object behemoth_4
-face behemoth.x31
-anim
-facings 2
-behemoth.x31
-behemoth.x32
-behemoth.x33
-behemoth.x32
-behemoth.x71
-behemoth.x72
-behemoth.x73
-behemoth.x72
-mina
-x 1
-y 1
-alive 1
 color_fg black
 end
