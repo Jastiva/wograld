@@ -756,10 +756,6 @@ arch dungeon_floor
 x 5
 y 1
 end
-arch generate_orc
-x 5
-y 1
-end
 arch dungeon_floor
 x 5
 y 2
@@ -768,15 +764,7 @@ arch dungeon_floor
 x 5
 y 3
 end
-arch orc
-x 5
-y 3
-end
 arch dungeon_floor
-x 5
-y 4
-end
-arch orc
 x 5
 y 4
 end
@@ -894,10 +882,6 @@ arch dungeon_floor
 x 6
 y 1
 end
-arch generate_orc
-x 6
-y 1
-end
 arch dungeon_floor
 x 6
 y 2
@@ -906,15 +890,7 @@ arch dungeon_floor
 x 6
 y 3
 end
-arch orc
-x 6
-y 3
-end
 arch dungeon_floor
-x 6
-y 4
-end
-arch orc
 x 6
 y 4
 end
@@ -1045,7 +1021,7 @@ arch dungeon_floor
 x 7
 y 1
 end
-arch generate_orc
+arch director_1
 x 7
 y 1
 end
@@ -1053,11 +1029,15 @@ arch dungeon_floor
 x 7
 y 2
 end
+arch director_8
+x 7
+y 2
+end
 arch dungeon_floor
 x 7
 y 3
 end
-arch orc
+arch director_7
 x 7
 y 3
 end
@@ -1191,7 +1171,7 @@ arch dungeon_floor
 x 8
 y 1
 end
-arch generate_orc
+arch director_2
 x 8
 y 1
 end
@@ -1203,15 +1183,11 @@ arch dungeon_floor
 x 8
 y 3
 end
-arch orc
+arch director_6
 x 8
 y 3
 end
 arch dungeon_floor
-x 8
-y 4
-end
-arch orc
 x 8
 y 4
 end
@@ -1341,7 +1317,7 @@ arch dungeon_floor
 x 9
 y 1
 end
-arch generate_orc
+arch director_3
 x 9
 y 1
 end
@@ -1349,15 +1325,19 @@ arch dungeon_floor
 x 9
 y 2
 end
+arch director_4
+x 9
+y 2
+end
 arch dungeon_floor
 x 9
 y 3
 end
-arch dungeon_floor
+arch director_5
 x 9
-y 4
+y 3
 end
-arch orc
+arch dungeon_floor
 x 9
 y 4
 end
@@ -1480,10 +1460,6 @@ arch dun_2_1_2
 x 10
 end
 arch dungeon_floor
-x 10
-y 1
-end
-arch generate_orc
 x 10
 y 1
 end
