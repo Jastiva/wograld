@@ -1,13 +1,15 @@
 Object yellow_worm
-name Yellow Worm
-face yellow_worm.x31
+name yellow serpent
+face yellow_worm.151
 race animal
 anim
 facings 2
-yellow_worm.x31
-yellow_worm.x32
-yellow_worm.x71
-yellow_worm.x72
+yellow_worm.151
+yellow_worm.152
+yellow_worm.153
+yellow_worm.171
+yellow_worm.172
+yellow_worm.173
 mina
 monster 1
 sleep 1
@@ -46,50 +48,3 @@ see_invisible 1
 editable 1
 color_fg yellow
 end
-More
-Object yellow_worm_2
-name Yellow Worm
-face yellow_worm.x31
-anim
-facings 2
-yellow_worm.x31
-yellow_worm.x32
-yellow_worm.x71
-yellow_worm.x72
-mina
-x 1
-alive 1
-color_fg yellow
-end
-More
-Object yellow_worm_3
-name Yellow Worm
-face yellow_worm.x31
-anim
-facings 2
-yellow_worm.x31
-yellow_worm.x32
-yellow_worm.x71
-yellow_worm.x72
-mina
-y 1
-alive 1
-color_fg yellow
-end
-More
-Object yellow_worm_4
-name Yellow Worm
-face yellow_worm.x31
-anim
-facings 2
-yellow_worm.x31
-yellow_worm.x32
-yellow_worm.x71
-yellow_worm.x72
-mina
-x 1
-y 1
-alive 1
-color_fg yellow
-end
-

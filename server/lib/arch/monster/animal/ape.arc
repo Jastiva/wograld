@@ -2,11 +2,11 @@ Object ape
 name ape
 randomitems ape
 race animal
-face ape.171
+face ape.151
 anim
 facings 2
-ape.131
-ape.132
+ape.151
+ape.152
 ape.171
 ape.172
 mina

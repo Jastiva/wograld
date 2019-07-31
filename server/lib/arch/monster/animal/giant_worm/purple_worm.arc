@@ -1,6 +1,6 @@
 Object purple_worm
-name Purple Worm
-face purple_worm.x31
+name purple serpent
+face purple_worm.151
 animation purple_worm
 race animal
 monster 1
@@ -37,29 +37,4 @@ weight 1800000
 can_cast_spell 1
 can_see_in_dark 1
 see_invisible 1
-end
-More
-Object purple_worm_2
-name Purple Worm
-face purple_worm.x31
-animation purple_worm
-x 1
-alive 1
-end
-More
-Object purple_worm_3
-name Purple Worm
-face purple_worm.x31
-animation purple_worm
-y 1
-alive 1
-end
-More
-Object purple_worm_4
-name Purple Worm
-face purple_worm.x31
-animation purple_worm
-x 1
-y 1
-alive 1
 end

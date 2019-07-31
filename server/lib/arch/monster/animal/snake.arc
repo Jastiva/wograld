@@ -1,17 +1,20 @@
 Object snake
+name yellow snake
 randomitems snake
 race reptile
 other_arch snake
-face snake.111
+face snake.151
 speed -0.1
 generator 1
 sp 134
 maxsp 60
 no_pick 1
 anim
-snake.111
-snake.112
-snake.113
+facings 2
+snake.151
+snake.152
+snake.171
+snake.172
 mina
 color_fg green
 monster 1

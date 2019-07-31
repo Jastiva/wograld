@@ -1,13 +1,15 @@
 Object orange_worm
-name Orange Worm
-face orange_worm.x31
+name orange serpent
+face orange_worm.151
 race animal
 anim
 facings 2
-orange_worm.x31
-orange_worm.x32
-orange_worm.x71
-orange_worm.x72
+orange_worm.151
+orange_worm.152
+orange_worm.153
+orange_worm.171
+orange_worm.172
+orange_worm.173
 mina
 monster 1
 sleep 1
@@ -46,50 +48,3 @@ see_invisible 1
 editable 1
 color_fg orange
 end
-More
-Object orange_worm_2
-name Orange Worm
-face orange_worm.x31
-anim
-facings 2
-orange_worm.x31
-orange_worm.x32
-orange_worm.x71
-orange_worm.x72
-mina
-x 1
-alive 1
-color_fg orange
-end
-More
-Object orange_worm_3
-name Orange Worm
-face orange_worm.x31
-anim
-facings 2
-orange_worm.x31
-orange_worm.x32
-orange_worm.x71
-orange_worm.x72
-mina
-y 1
-alive 1
-color_fg orange
-end
-More
-Object orange_worm_4
-name Orange Worm
-face orange_worm.x31
-anim
-facings 2
-orange_worm.x31
-orange_worm.x32
-orange_worm.x71
-orange_worm.x72
-mina
-x 1
-y 1
-alive 1
-color_fg orange
-end
-
