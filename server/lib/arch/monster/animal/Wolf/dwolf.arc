@@ -1,15 +1,13 @@
 Object dire_wolf
 name dire wolf
-face dwolf.171
+face dwolf.151
 race animal
 randomitems dwolf
 anim
-dwolf.171
+dwolf.151
+dwolf.152
 dwolf.171
 dwolf.172
-dwolf.131
-dwolf.131
-dwolf.132
 facings 2
 mina
 monster 1

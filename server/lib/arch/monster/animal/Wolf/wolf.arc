@@ -1,14 +1,12 @@
 Object wolf
-face wolf.171
+face wolf.151
 race animal
 randomitems wolf
 anim
-wolf.171
+wolf.151
+wolf.152
 wolf.171
 wolf.172
-wolf.131
-wolf.131
-wolf.132
 facings 2
 mina
 monster 1

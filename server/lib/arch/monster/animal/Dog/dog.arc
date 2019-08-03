@@ -1,15 +1,11 @@
 Object dog
-face dog.131
+face dog.151
 race animal
 anim
 facings 2
-dog.131
-dog.132
-dog.133
-dog.132
+dog.151
+dog.152
 dog.171
-dog.172
-dog.173
 dog.172
 mina
 monster 1

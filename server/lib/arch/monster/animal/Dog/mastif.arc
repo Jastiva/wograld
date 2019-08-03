@@ -1,16 +1,12 @@
 Object mastif
 name mastif
-face mastif.131
+face mastif.151
 race animal
 anim
 facings 2
-mastif.131
-mastif.132
-mastif.133
-mastif.132
+mastif.151
+mastif.152
 mastif.171
-mastif.172
-mastif.173
 mastif.172
 mina
 monster 1

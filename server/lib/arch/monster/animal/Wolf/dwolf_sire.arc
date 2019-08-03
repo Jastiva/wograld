@@ -1,15 +1,15 @@
 Object dire_wolf_sire
 name dire wolf sire
-face dwolf.171
+face dwolf.151
 race animal
 randomitems dwolf_sire
 anim
 dwolf.171
 dwolf.171
 dwolf.172
-dwolf.131
-dwolf.131
-dwolf.132
+dwolf.151
+dwolf.151
+dwolf.152
 facings 2
 mina
 monster 1

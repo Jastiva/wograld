@@ -1,18 +1,12 @@
 Object pup
-face pup.131
+face pup.151
 race animal
 anim
 facings 2
-pup.131
-pup.132
-pup.133
-pup.132
-pup.131
+pup.151
+pup.152
 pup.171
 pup.172
-pup.173
-pup.172
-pup.171
 mina
 monster 1
 sleep 1
