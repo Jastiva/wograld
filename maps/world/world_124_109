@@ -2,11 +2,15 @@ arch map
 name world_124_109
 width 50
 height 50
+msg
+Modified: 2019-08-04 lx
+endmsg
 outdoor 1
 tile_path_1 world_124_108
 tile_path_2 world_125_109
 tile_path_3 world_124_110
 tile_path_4 world_123_109
+tile_path_6 below_124_109
 end
 arch mountain2
 elevation 11221
@@ -231,20 +235,17 @@ x 1
 y 4
 elevation 18878
 end
-arch mountain5
+arch grassdark
 x 1
 y 5
-elevation 18334
 end
-arch mountain5
+arch grassdark
 x 1
 y 6
-elevation 16441
 end
-arch mountain4
+arch grassdark
 x 1
 y 7
-elevation 12184
 end
 arch mountain2
 x 1
@@ -480,20 +481,17 @@ x 2
 y 4
 elevation 17882
 end
-arch mountain5
+arch grassdark
 x 2
 y 5
-elevation 16486
 end
-arch mountain4
+arch grassdark
 x 2
 y 6
-elevation 14793
 end
-arch mountain4
+arch grassdark
 x 2
 y 7
-elevation 14604
 end
 arch mountain4
 x 2
@@ -734,10 +732,9 @@ x 3
 y 5
 elevation 11553
 end
-arch mountain4
+arch grassdark
 x 3
 y 6
-elevation 14369
 end
 arch mountain4
 x 3
@@ -983,10 +980,9 @@ x 4
 y 5
 elevation 13133
 end
-arch mountain4
+arch grassdark
 x 4
 y 6
-elevation 12790
 end
 arch mountain4
 x 4
@@ -1232,10 +1228,9 @@ x 5
 y 5
 elevation 12435
 end
-arch mountain2
+arch grassdark
 x 5
 y 6
-elevation 9741
 end
 arch mountain2
 x 5
@@ -1481,10 +1476,9 @@ x 6
 y 5
 elevation 11806
 end
-arch mountain2
+arch grassdark
 x 6
 y 6
-elevation 10455
 end
 arch mountain2
 x 6
@@ -1730,10 +1724,9 @@ x 7
 y 5
 elevation 11281
 end
-arch mountain
+arch grassdark
 x 7
 y 6
-elevation 8589
 end
 arch mountain2
 x 7
@@ -1979,10 +1972,9 @@ x 8
 y 5
 elevation 12225
 end
-arch mountain2
+arch grassdark
 x 8
 y 6
-elevation 10197
 end
 arch mountain2
 x 8
@@ -2213,25 +2205,21 @@ x 9
 y 2
 elevation 14164
 end
-arch mountain4
+arch grassdark
 x 9
 y 3
-elevation 14034
 end
-arch mountain4
+arch grassdark
 x 9
 y 4
-elevation 13773
 end
-arch mountain4
+arch grassdark
 x 9
 y 5
-elevation 12628
 end
-arch mountain2
+arch grassdark
 x 9
 y 6
-elevation 11455
 end
 arch mountain2
 x 9
@@ -2462,25 +2450,17 @@ x 10
 y 2
 elevation 13722
 end
-arch mountain4
+arch grassdark
 x 10
 y 3
-elevation 13876
 end
-arch mountain4
+arch gravestone3
 x 10
-y 4
-elevation 13412
+y 3
 end
-arch mountain4
-x 10
-y 5
-elevation 12495
-end
-arch mountain2
+arch grassdark
 x 10
 y 6
-elevation 9186
 end
 arch mountain2
 x 10
@@ -2711,25 +2691,21 @@ x 11
 y 2
 elevation 14919
 end
-arch mountain2
+arch grassdark
 x 11
 y 3
-elevation 10436
 end
-arch mountain4
+arch grassdark
 x 11
 y 4
-elevation 12050
 end
-arch mountain4
+arch grassdark
 x 11
 y 5
-elevation 13132
 end
-arch mountain4
+arch grassdark
 x 11
 y 6
-elevation 12932
 end
 arch mountain4
 x 11
@@ -2975,10 +2951,9 @@ x 12
 y 5
 elevation 13863
 end
-arch mountain4
+arch grassdark
 x 12
 y 6
-elevation 13652
 end
 arch mountain4
 x 12
@@ -3224,10 +3199,9 @@ x 13
 y 5
 elevation 13154
 end
-arch mountain4
+arch grassdark
 x 13
 y 6
-elevation 13113
 end
 arch mountain4
 x 13
@@ -3473,10 +3447,9 @@ x 14
 y 5
 elevation 10823
 end
-arch mountain2
+arch grassdark
 x 14
 y 6
-elevation 11906
 end
 arch mountain2
 x 14
@@ -3722,10 +3695,9 @@ x 15
 y 5
 elevation 12947
 end
-arch mountain2
+arch grassdark
 x 15
 y 6
-elevation 11251
 end
 arch mountain
 x 15
@@ -3971,10 +3943,9 @@ x 16
 y 5
 elevation 12992
 end
-arch mountain2
+arch grassdark
 x 16
 y 6
-elevation 11422
 end
 arch mountain2
 x 16
@@ -4220,10 +4191,9 @@ x 17
 y 5
 elevation 12049
 end
-arch mountain2
+arch grassdark
 x 17
 y 6
-elevation 10967
 end
 arch mountain2
 x 17
@@ -4469,10 +4439,9 @@ x 18
 y 5
 elevation 10557
 end
-arch mountain
+arch grassdark
 x 18
 y 6
-elevation 7258
 end
 arch mountain2
 x 18
@@ -4718,10 +4687,9 @@ x 19
 y 5
 elevation 9553
 end
-arch mountain
+arch grassdark
 x 19
 y 6
-elevation 8692
 end
 arch mountain
 x 19
@@ -4967,10 +4935,9 @@ x 20
 y 5
 elevation 9203
 end
-arch mountain2
+arch grassdark
 x 20
 y 6
-elevation 9880
 end
 arch mountain
 x 20
@@ -5216,10 +5183,9 @@ x 21
 y 5
 elevation 10298
 end
-arch mountain2
+arch grassdark
 x 21
 y 6
-elevation 11453
 end
 arch mountain2
 x 21
@@ -5465,10 +5431,9 @@ x 22
 y 5
 elevation 11719
 end
-arch mountain4
+arch grassdark
 x 22
 y 6
-elevation 12723
 end
 arch mountain4
 x 22
@@ -5714,10 +5679,9 @@ x 23
 y 5
 elevation 12480
 end
-arch mountain4
+arch grassdark
 x 23
 y 6
-elevation 12338
 end
 arch mountain2
 x 23
@@ -5963,10 +5927,9 @@ x 24
 y 5
 elevation 11558
 end
-arch mountain2
+arch grassdark
 x 24
 y 6
-elevation 10296
 end
 arch mountain
 x 24
@@ -6212,10 +6175,9 @@ x 25
 y 5
 elevation 8861
 end
-arch mountain
+arch grassdark
 x 25
 y 6
-elevation 7956
 end
 arch mountain
 x 25
@@ -6461,10 +6423,9 @@ x 26
 y 5
 elevation 3338
 end
-arch mountain
+arch grassdark
 x 26
 y 6
-elevation 6155
 end
 arch mountain
 x 26
@@ -7950,10 +7911,9 @@ x 32
 y 4
 elevation 6642
 end
-arch mountain
+arch grassdark
 x 32
 y 5
-elevation 7285
 end
 arch mountain
 x 32
@@ -8199,10 +8159,9 @@ x 33
 y 4
 elevation 6219
 end
-arch mountain
+arch grassdark
 x 33
 y 5
-elevation 8148
 end
 arch mountain2
 x 33
@@ -8448,10 +8407,9 @@ x 34
 y 4
 elevation 7857
 end
-arch mountain
+arch grassdark
 x 34
 y 5
-elevation 6636
 end
 arch mountain2
 x 34
@@ -8697,10 +8655,9 @@ x 35
 y 4
 elevation 8443
 end
-arch mountain
+arch grassdark
 x 35
 y 5
-elevation 6195
 end
 arch mountain2
 x 35
@@ -8946,10 +8903,9 @@ x 36
 y 4
 elevation 9705
 end
-arch mountain
+arch grassdark
 x 36
 y 5
-elevation 6509
 end
 arch mountain2
 x 36
@@ -9195,10 +9151,9 @@ x 37
 y 4
 elevation 11144
 end
-arch mountain2
+arch grassdark
 x 37
 y 5
-elevation 11439
 end
 arch mountain2
 x 37
@@ -9444,10 +9399,9 @@ x 38
 y 4
 elevation 13053
 end
-arch mountain4
+arch grassdark
 x 38
 y 5
-elevation 13462
 end
 arch mountain4
 x 38
@@ -9693,10 +9647,9 @@ x 39
 y 4
 elevation 13173
 end
-arch mountain4
+arch grassdark
 x 39
 y 5
-elevation 13728
 end
 arch mountain4
 x 39
@@ -9942,10 +9895,9 @@ x 40
 y 4
 elevation 11176
 end
-arch mountain4
+arch grassdark
 x 40
 y 5
-elevation 12141
 end
 arch mountain4
 x 40
@@ -10191,10 +10143,9 @@ x 41
 y 4
 elevation 8345
 end
-arch mountain2
+arch grassdark
 x 41
 y 5
-elevation 9440
 end
 arch mountain2
 x 41
@@ -10440,10 +10391,9 @@ x 42
 y 4
 elevation 4591
 end
-arch mountain
+arch grassdark
 x 42
 y 5
-elevation 6807
 end
 arch mountain
 x 42
@@ -10689,15 +10639,13 @@ x 43
 y 4
 elevation 4310
 end
-arch mountain
+arch grassdark
 x 43
 y 5
-elevation 6121
 end
-arch mountain
+arch grassdark
 x 43
 y 6
-elevation 7301
 end
 arch mountain
 x 43
@@ -10938,10 +10886,9 @@ x 44
 y 4
 elevation 7616
 end
-arch mountain
+arch grassdark
 x 44
 y 5
-elevation 7669
 end
 arch mountain
 x 44
@@ -11187,10 +11134,9 @@ x 45
 y 4
 elevation 8535
 end
-arch mountain
+arch grassdark
 x 45
 y 5
-elevation 8519
 end
 arch mountain
 x 45
@@ -11436,10 +11382,9 @@ x 46
 y 4
 elevation 8080
 end
-arch mountain
+arch grassdark
 x 46
 y 5
-elevation 8560
 end
 arch mountain
 x 46
@@ -11685,10 +11630,9 @@ x 47
 y 4
 elevation 7798
 end
-arch mountain
+arch grassdark
 x 47
 y 5
-elevation 8315
 end
 arch mountain
 x 47
@@ -11934,10 +11878,9 @@ x 48
 y 4
 elevation 8781
 end
-arch mountain
+arch grassdark
 x 48
 y 5
-elevation 8426
 end
 arch mountain
 x 48
@@ -12183,15 +12126,13 @@ x 49
 y 4
 elevation 8404
 end
-arch mountain
+arch grassdark
 x 49
 y 5
-elevation 8192
 end
-arch mountain
+arch grassdark
 x 49
 y 6
-elevation 7997
 end
 arch mountain
 x 49

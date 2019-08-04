@@ -1,0 +1,110 @@
+arch map
+name below_125_109
+width 50
+height 50
+msg
+Created:  2019-08-03 lx
+Modified: 2019-08-04 lx
+endmsg
+tile_path_5 world_124_109
+tile_path_6 below2_124_109
+end
+arch bwall_0
+y 5
+end
+arch bwall_0
+y 6
+end
+arch bwall_0
+y 7
+end
+arch bwall_0
+x 1
+y 5
+end
+arch small_stones
+x 1
+y 6
+end
+arch stair_down_2
+slaying below2_124_109
+hp 1
+sp 6
+x 1
+y 6
+end
+arch bwall_0
+x 1
+y 7
+end
+arch bwall_0
+x 2
+y 5
+end
+arch small_stones
+x 2
+y 6
+end
+arch stair_up_2
+slaying world_124_109
+hp 14
+sp 14
+x 2
+y 6
+end
+arch bwall_0
+x 2
+y 7
+end
+arch bwall_0
+x 3
+y 5
+end
+arch bwall_0
+x 3
+y 6
+end
+arch bwall_0
+x 3
+y 7
+end
+arch bwall_0
+x 9
+y 3
+end
+arch bwall_0
+x 9
+y 4
+end
+arch bwall_0
+x 9
+y 5
+end
+arch bwall_0
+x 9
+y 6
+end
+arch bwall_0
+x 10
+y 3
+end
+arch bwall_0
+x 10
+y 6
+end
+arch bwall_0
+x 11
+y 3
+end
+arch bwall_0
+x 11
+y 4
+end
+arch bwall_0
+x 11
+y 5
+end
+arch bwall_0
+x 11
+y 6
+end
