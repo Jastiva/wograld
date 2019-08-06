@@ -1,17 +1,13 @@
 Object neko
 race animal
-name neko chan
-face neko.111
+name cat
+face neko.151
 anim
 facings 2
-neko.111
-neko.112
-neko.113
-neko.114
-neko.115
-neko.116
-neko.117
-neko.118
+neko.151
+neko.152
+neko.171
+neko.172
 mina
 monster 1
 sleep 1

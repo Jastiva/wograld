@@ -1,14 +1,12 @@
 Object panther
-face panther.131
+face panther.151
 race animal
 anim
 facings 2
-panther.131
-panther.132
-panther.133
+panther.151
+panther.152
 panther.171
 panther.172
-panther.173
 mina
 monster 1
 sleep 1

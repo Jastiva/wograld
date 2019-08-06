@@ -1,18 +1,18 @@
 Object shadowpup
-name shadowtiger pup
-face panther.131
+name shadowtiger kitten
+face shadowtiger.151
 race animal
 anim
 facings 2
-panther.131
-panther.132
+shadowtiger.151
+panther.151
+shadowtiger.151
+shadowtiger.152
 blank.111
-panther.133
-blank.111
+shadowtiger.171
 panther.171
-panther.172
-blank.111
-panther.173
+shadowtiger.171
+shadowtiger.172
 blank.111
 mina
 monster 1
