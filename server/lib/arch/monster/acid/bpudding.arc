@@ -40,11 +40,6 @@ bpudding_g.111
 bpudding_g.112
 bpudding_g.113
 bpudding_g.114
-bpudding_g.115
-bpudding_g.116
-bpudding_g.117
-bpudding_g.118
-bpudding_g.119
 mina
 changing 1
 food 1
@@ -76,6 +71,9 @@ bpudding_s.111
 bpudding_s.112
 bpudding_s.113
 bpudding_s.114
+bpudding_s.115
+bpudding_s.116
+bpudding_s.117
 mina
 changing 1
 food 2

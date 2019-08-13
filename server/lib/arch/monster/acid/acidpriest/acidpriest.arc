@@ -2,18 +2,14 @@ Object acidpriest
 name Acid priest
 race unnatural
 randomitems acidpriest_big
-face acidpriest.x12
+face acidpriest.151
 color_fg black
 anim
-facings 8
-acidpriest.x11
-acidpriest.x12
-acidpriest.x13
-acidpriest.x14
-acidpriest.x15
-acidpriest.x16
-acidpriest.x17
-acidpriest.x18
+facings 4
+acidpriest.151
+acidpriest.152
+acidpriest.171
+acidpriest.172
 mina
 exp 256000000
 monster 1
@@ -63,69 +59,5 @@ path_repelled 589824
 can_see_in_dark 1
 can_cast_spell 1
 can_use_ring 1
-flying 1
-end
-More
-Object acidpriest_2
-name Acid priest
-face acidpriest.x12
-color_fg black
-x 1
-anim
-facings 8
-acidpriest.x11
-acidpriest.x12
-acidpriest.x13
-acidpriest.x14
-acidpriest.x15
-acidpriest.x16
-acidpriest.x17
-acidpriest.x18
-mina
-alive 1
-no_pick 1
-flying 1
-end
-More
-Object acidpriest_3
-name Acid priest
-face acidpriest.x12
-color_fg black
-y 1
-anim
-facings 8
-acidpriest.x11
-acidpriest.x12
-acidpriest.x13
-acidpriest.x14
-acidpriest.x15
-acidpriest.x16
-acidpriest.x17
-acidpriest.x18
-mina
-alive 1
-no_pick 1
-flying 1
-end
-More
-Object acidpriest_4
-name Acid priest
-face acidpriest.x12
-color_fg black
-x 1
-y 1
-anim
-facings 8
-acidpriest.x11
-acidpriest.x12
-acidpriest.x13
-acidpriest.x14
-acidpriest.x15
-acidpriest.x16
-acidpriest.x17
-acidpriest.x18
-mina
-alive 1
-no_pick 1
 flying 1
 end

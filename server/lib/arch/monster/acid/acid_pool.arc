@@ -9,6 +9,8 @@ face acid_pool.111
 anim
 acid_pool.111
 acid_pool.112
+acid_pool.113
+acid_pool.114
 mina
 other_arch acid_sphere
 hp 100
