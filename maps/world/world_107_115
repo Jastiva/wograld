@@ -7,7 +7,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2019-04-15 lori
+Modified: 2019-08-15 lx
 endmsg
 outdoor 1
 tile_path_1 world_107_114
@@ -6687,6 +6687,17 @@ x 27
 y 8
 elevation 4865
 end
+arch bosgrass2
+x 27
+y 8
+elevation 10689
+end
+arch goblin_head
+name ogdybogdy
+slaying ogdybogdy
+x 27
+y 8
+end
 arch bosgrass
 x 27
 y 9
@@ -6909,35 +6920,81 @@ x 28
 y 3
 elevation 3185
 end
-arch bosgrass
+arch cobblestones2
 x 28
 y 4
-elevation 4038
 end
-arch bosgrass
+arch woodfloor2
+x 28
+y 4
+end
+arch stwall_3_3
+x 28
+y 4
+end
+arch cobblestones2
 x 28
 y 5
-elevation 4822
 end
-arch bosgrass
+arch woodfloor2
+x 28
+y 5
+end
+arch stwall_2_1_1
+x 28
+y 5
+end
+arch cobblestones2
 x 28
 y 6
-elevation 4860
 end
-arch bosgrass
+arch woodfloor2
+x 28
+y 6
+end
+arch stwall_3_2
+x 28
+y 6
+end
+arch cobblestones2
 x 28
 y 7
-elevation 5946
 end
-arch bosgrass
+arch woodfloor2
+x 28
+y 7
+end
+arch stwall_2_1_1
+x 28
+y 7
+end
+arch cobblestones2
 x 28
 y 8
-elevation 6491
 end
-arch bosgrass
+arch woodfloor2
+x 28
+y 8
+end
+arch stwall_2_1_1
+x 28
+y 8
+end
+arch cobblestones2
 x 28
 y 9
-elevation 6431
+end
+arch stwall_1_3
+x 28
+y 9
+end
+arch woodfloor2
+x 28
+y 9
+end
+arch stwall_3_1
+x 28
+y 9
 end
 arch bosgrass
 x 28
@@ -7156,35 +7213,124 @@ x 29
 y 3
 elevation 2497
 end
-arch bosgrass
+arch cobblestones2
 x 29
 y 4
-elevation 2514
 end
-arch bosgrass
+arch woodfloor2
+x 29
+y 4
+end
+arch stwall_2_1_2
+x 29
+y 4
+end
+arch cobblestones2
 x 29
 y 5
-elevation 5831
 end
-arch bosgrass
+arch woodfloor2
+x 29
+y 5
+end
+arch detector
+slaying got_monster_head
+hp 1
+x 29
+y 5
+resist_magic 30
+invisible 1
+connected 2
+end
+arch pentagram
+x 29
+y 5
+end
+arch teleporter
+slaying world_107_115
+hp 31
+sp 7
+x 29
+y 5
+speed 0.000000
+resist_magic 30
+invisible 1
+connected 2
+end
+arch cobblestones2
 x 29
 y 6
-elevation 6531
 end
-arch bosgrass
+arch woodfloor2
+x 29
+y 6
+end
+arch stwall_2_1_2
+x 29
+y 6
+end
+arch cobblestones2
 x 29
 y 7
-elevation 6691
 end
-arch bosgrass
+arch magic_mouth
+msg
+Congratulations on completing your
+quest.  Kneel and receive your
+accolade.....
+You are now a Baronet!
+Also, please take this girdle as
+a reward. May it serve you well!
+endmsg
+x 29
+y 7
+end
+arch woodfloor2
+x 29
+y 7
+end
+arch marker
+name got_monster_head
+slaying got_ogdybogdy
+food 0
+x 29
+y 7
+end
+arch creator
+other_arch girdle_dam
+x 29
+y 7
+resist_physical 30
+resist_magic 30
+connected 3
+lifesave 1
+end
+arch woodfloor2
 x 29
 y 8
-elevation 6839
 end
-arch bosgrass
+arch exit
+slaying world_107_115
+hp 32
+sp 13
+x 29
+y 8
+end
+arch cobblestones2
 x 29
 y 9
-elevation 6540
+end
+arch stwall_1_3
+x 29
+y 9
+end
+arch woodfloor2
+x 29
+y 9
+end
+arch stwall_2_1_2
+x 29
+y 9
 end
 arch bosgrass
 x 29
@@ -7403,35 +7549,88 @@ x 30
 y 3
 elevation 1386
 end
-arch bosgrass
+arch cobblestones2
 x 30
 y 4
-elevation 5295
 end
-arch bosgrass
+arch woodfloor2
+x 30
+y 4
+end
+arch stwall_2_1_2
+x 30
+y 4
+end
+arch cobblestones2
 x 30
 y 5
-elevation 6963
 end
-arch bosgrass
+arch magic_mouth
+msg
+One must have attained Knighthood in
+order to advance to a Baronetcy.
+If you are a Knight, step onto the
+pentagram to learn how you might
+become a Baronet.
+endmsg
+x 30
+y 5
+end
+arch woodfloor2
+x 30
+y 5
+end
+arch cobblestones2
 x 30
 y 6
-elevation 7343
 end
-arch bosgrass
+arch woodfloor2
+x 30
+y 6
+end
+arch stwall_3_3
+x 30
+y 6
+end
+arch cobblestones2
 x 30
 y 7
-elevation 5315
 end
-arch bosgrass
+arch woodfloor2
+x 30
+y 7
+end
+arch stwall_2_1_1
+x 30
+y 7
+end
+arch cobblestones2
 x 30
 y 8
-elevation 6478
 end
-arch bosgrass
+arch woodfloor2
+x 30
+y 8
+end
+arch stwall_2_1_1
+x 30
+y 8
+end
+arch cobblestones2
 x 30
 y 9
-elevation 6329
+end
+arch stwall_1_3
+x 30
+y 9
+end
+arch woodfloor2
+x 30
+y 9
+end
+arch stwall_3_1
+x 30
+y 9
 end
 arch bosgrass
 x 30
@@ -7650,35 +7849,84 @@ x 31
 y 3
 elevation 5360
 end
-arch bosgrass
+arch cobblestones2
 x 31
 y 4
-elevation 6970
 end
-arch bosgrass
+arch woodfloor2
+x 31
+y 4
+end
+arch stwall_1_3
+x 31
+y 4
+end
+arch cobblestones2
 x 31
 y 5
-elevation 8241
 end
-arch bosgrass
+arch woodfloor2
+x 31
+y 5
+end
+arch cobblestones2
 x 31
 y 6
-elevation 7889
 end
-arch bosgrass
+arch woodfloor2
+x 31
+y 6
+end
+arch stwall_2_1_2
+x 31
+y 6
+end
+arch cobblestones2
 x 31
 y 7
-elevation 6371
 end
-arch bosgrass
+arch woodfloor2
+x 31
+y 7
+end
+arch scroll
+msg
+His Majesty, the King of Scorn,
+announces that whomsoever returns
+with the Head of the Ogre Chief
+shall be awarded a Baronetcy.
+Ogres have been stealing sheep from
+the hills east of the city.
+Go and kill the Ogre Chief and return
+with his head.
+endmsg
+x 31
+y 7
+no_pick 1
+end
+arch cobblestones2
 x 31
 y 8
-elevation 5734
 end
-arch bosgrass
+arch woodfloor2
+x 31
+y 8
+end
+arch cobblestones2
 x 31
 y 9
-elevation 4994
+end
+arch stwall_2_1_2
+x 31
+y 9
+end
+arch woodfloor2
+x 31
+y 9
+end
+arch stwall_2_1_2
+x 31
+y 9
 end
 arch bosgrass
 x 31
@@ -7897,35 +8145,110 @@ x 32
 y 3
 elevation 7130
 end
-arch bosgrass
+arch cobblestones2
 x 32
 y 4
-elevation 8246
 end
-arch bosgrass
+arch woodfloor2
+x 32
+y 4
+end
+arch door_look_1
+x 32
+y 4
+alive 0
+no_pass 0
+end
+arch cobblestones2
 x 32
 y 5
-elevation 8695
 end
-arch bosgrass
+arch woodfloor2
+x 32
+y 5
+end
+arch cobblestones2
 x 32
 y 6
-elevation 8337
 end
-arch bosgrass
+arch woodfloor2
+x 32
+y 6
+end
+arch stwall_2_1_2
+x 32
+y 6
+end
+arch cobblestones2
 x 32
 y 7
-elevation 6970
 end
-arch bosgrass
+arch magic_mouth
+msg
+Drop the Head of the Ogre Chief here
+to prove your worthiness of Noble Rank
+of Baronet.
+endmsg
+x 32
+y 7
+end
+arch woodfloor2
+x 32
+y 7
+end
+arch altar_trigger
+slaying ogdybogdy
+food 1
+x 32
+y 7
+resist_physical 30
+resist_magic 30
+invisible 1
+last_sp 1
+connected 3
+end
+arch pentagram
+x 32
+y 7
+end
+arch teleporter
+slaying world_107_115
+hp 29
+sp 7
+x 32
+y 7
+speed 0.000000
+resist_physical 30
+resist_magic 30
+invisible 1
+connected 3
+end
+arch woodfloor2
 x 32
 y 8
-elevation 7068
 end
-arch bosgrass
+arch exit
+slaying world_107_115
+hp 32
+sp 3
+x 32
+y 8
+end
+arch cobblestones2
 x 32
 y 9
-elevation 6741
+end
+arch stwall_2_1_2
+x 32
+y 9
+end
+arch woodfloor2
+x 32
+y 9
+end
+arch stwall_2_1_2
+x 32
+y 9
 end
 arch bosgrass
 x 32
@@ -8145,35 +8468,73 @@ x 33
 y 3
 elevation 7836
 end
-arch bosgrass
+arch cobblestones2
 x 33
 y 4
-elevation 8277
 end
-arch bosgrass
+arch woodfloor2
+x 33
+y 4
+end
+arch stwall_2_1_1
+x 33
+y 4
+end
+arch cobblestones2
 x 33
 y 5
-elevation 8247
 end
-arch bosgrass
+arch woodfloor2
+x 33
+y 5
+end
+arch stwall_2_1_1
+x 33
+y 5
+end
+arch cobblestones2
 x 33
 y 6
-elevation 8458
 end
-arch bosgrass
+arch woodfloor2
+x 33
+y 6
+end
+arch stwall_3_4
+x 33
+y 6
+end
+arch cobblestones2
 x 33
 y 7
-elevation 8568
 end
-arch bosgrass
+arch woodfloor2
+x 33
+y 7
+end
+arch stwall_2_1_1
+x 33
+y 7
+end
+arch cobblestones2
 x 33
 y 8
-elevation 8365
 end
-arch bosgrass
+arch woodfloor2
+x 33
+y 8
+end
+arch stwall_2_1_1
+x 33
+y 8
+end
+arch cobblestones2
 x 33
 y 9
-elevation 7562
+end
+arch stwall_3_4
+x 33
+y 9
 end
 arch bosgrass
 x 33
@@ -8914,6 +9275,12 @@ x 36
 y 8
 elevation 10689
 end
+arch goblin_head
+name monster_head
+slaying monster_head
+x 36
+y 8
+end
 arch bosgrass2
 x 36
 y 9
@@ -9147,25 +9514,89 @@ x 37
 y 5
 elevation 5901
 end
+arch cobblestones2
+x 37
+y 5
+end
+arch stwall_2_1_2
+x 37
+y 5
+end
+arch woodfloor2
+x 37
+y 5
+end
+arch stwall_3_3
+x 37
+y 5
+end
 arch bosgrass2
 x 37
 y 6
 elevation 5534
+end
+arch cobblestones2
+x 37
+y 6
+end
+arch woodfloor2
+x 37
+y 6
+end
+arch stwall_2_1_1
+x 37
+y 6
 end
 arch bosgrass2
 x 37
 y 7
 elevation 7829
 end
+arch cobblestones2
+x 37
+y 7
+end
+arch woodfloor2
+x 37
+y 7
+end
+arch stwall_2_1_1
+x 37
+y 7
+end
 arch bosgrass2
 x 37
 y 8
 elevation 10659
 end
+arch cobblestones2
+x 37
+y 8
+end
+arch woodfloor2
+x 37
+y 8
+end
+arch stwall_2_1_1
+x 37
+y 8
+end
 arch bosgrass2
 x 37
 y 9
 elevation 11194
+end
+arch cobblestones2
+x 37
+y 9
+end
+arch woodfloor2
+x 37
+y 9
+end
+arch stwall_3_1
+x 37
+y 9
 end
 arch bosgrass2
 x 37
@@ -9394,25 +9825,148 @@ x 38
 y 5
 elevation 7203
 end
+arch cobblestones2
+x 38
+y 5
+end
+arch stwall_2_1_2
+x 38
+y 5
+end
+arch woodfloor2
+x 38
+y 5
+end
+arch stwall_2_1_2
+x 38
+y 5
+end
 arch bosgrass2
 x 38
 y 6
 elevation 8049
+end
+arch cobblestones2
+x 38
+y 6
+end
+arch woodfloor2
+x 38
+y 6
+end
+arch woodfloor2
+x 38
+y 6
+end
+arch exit
+slaying world_107_115
+hp 41
+sp 10
+x 38
+y 6
 end
 arch bosgrass2
 x 38
 y 7
 elevation 9371
 end
+arch cobblestones2
+x 38
+y 7
+end
+arch magic_mouth
+msg
+Drop the Head of the Goblin Chief here
+to prove your worthiness of the Order
+of Knighthood.
+endmsg
+x 38
+y 7
+end
+arch woodfloor2
+x 38
+y 7
+end
+arch altar_trigger
+slaying monster_head
+food 1
+x 38
+y 7
+resist_physical 30
+invisible 1
+last_sp 1
+connected 1
+move_on walk
+end
+arch pentagram
+x 38
+y 7
+end
+arch teleporter
+slaying world_107_115
+hp 40
+sp 6
+x 38
+y 7
+speed 0.000000
+resist_physical 30
+invisible 1
+connected 1
+end
 arch bosgrass2
 x 38
 y 8
 elevation 10507
 end
+arch cobblestones2
+x 38
+y 8
+end
+arch woodfloor2
+x 38
+y 8
+end
+arch scroll
+msg
+His Majesty, the King of Scorn,
+announces that whomsoever returns
+with the Head of the Goblin Chief
+shall be awarded a Knightdom.
+These goblins have been making a
+nuisance of themselves to the North
+East of Scorn.  Go and make them
+regret their disorderly conduct.
+endmsg
+x 38
+y 8
+no_pick 1
+end
+arch marker
+slaying begin_wildy_quest
+lore
+get the goblin chief head
+draw this also
+endlore
+food 0
+x 38
+y 8
+end
 arch bosgrass2
 x 38
 y 9
 elevation 10690
+end
+arch cobblestones2
+x 38
+y 9
+end
+arch woodfloor2
+x 38
+y 9
+end
+arch stwall_2_1_2
+x 38
+y 9
 end
 arch bosgrass2
 x 38
@@ -9641,25 +10195,89 @@ x 39
 y 5
 elevation 7399
 end
+arch cobblestones2
+x 39
+y 5
+end
+arch stwall_2_1_2
+x 39
+y 5
+end
+arch woodfloor2
+x 39
+y 5
+end
+arch stwall_3_3
+x 39
+y 5
+end
 arch bosgrass2
 x 39
 y 6
 elevation 8785
+end
+arch cobblestones2
+x 39
+y 6
+end
+arch woodfloor2
+x 39
+y 6
+end
+arch stwall_2_1_1
+x 39
+y 6
 end
 arch bosgrass2
 x 39
 y 7
 elevation 9728
 end
+arch cobblestones2
+x 39
+y 7
+end
+arch woodfloor2
+x 39
+y 7
+end
+arch stwall_3_2
+x 39
+y 7
+end
 arch bosgrass2
 x 39
 y 8
 elevation 9876
 end
+arch cobblestones2
+x 39
+y 8
+end
+arch woodfloor2
+x 39
+y 8
+end
+arch stwall_2_1_1
+x 39
+y 8
+end
 arch bosgrass2
 x 39
 y 9
 elevation 9209
+end
+arch cobblestones2
+x 39
+y 9
+end
+arch woodfloor2
+x 39
+y 9
+end
+arch stwall_3_1
+x 39
+y 9
 end
 arch bosgrass2
 x 39
@@ -9888,25 +10506,111 @@ x 40
 y 5
 elevation 7818
 end
+arch cobblestones2
+x 40
+y 5
+end
+arch stwall_2_1_2
+x 40
+y 5
+end
+arch woodfloor2
+x 40
+y 5
+end
+arch stwall_2_1_2
+x 40
+y 5
+end
 arch bosgrass2
 x 40
 y 6
 elevation 8500
+end
+arch cobblestones2
+x 40
+y 6
+end
+arch magic_mouth
+msg
+Congratulations on completing your
+quest.  Kneel and receive your
+accolade.....
+You are now a Knight, with all the
+privileges pertaining thereto.
+endmsg
+x 40
+y 6
+end
+arch woodfloor2
+x 40
+y 6
+end
+arch marker
+name begin_wildy_quest
+slaying got_monster_head
+food 0
+x 40
+y 6
 end
 arch bosgrass2
 x 40
 y 7
 elevation 9109
 end
+arch cobblestones2
+x 40
+y 7
+end
+arch woodfloor2
+x 40
+y 7
+end
+arch stwall_2_1_2
+x 40
+y 7
+end
 arch bosgrass2
 x 40
 y 8
 elevation 8833
 end
+arch cobblestones2
+x 40
+y 8
+end
+arch woodfloor2
+x 40
+y 8
+end
+arch pentagram
+x 40
+y 8
+end
+arch teleporter
+slaying world_107_115
+hp 38
+sp 8
+x 40
+y 8
+invisible 1
+end
 arch bosgrass2
 x 40
 y 9
 elevation 6526
+end
+arch cobblestones2
+x 40
+y 9
+end
+arch woodfloor2
+x 40
+y 9
+end
+arch stwall_1_3
+x 40
+y 9
 end
 arch bosgrass2
 x 40
@@ -10135,25 +10839,94 @@ x 41
 y 5
 elevation 7684
 end
+arch cobblestones2
+x 41
+y 5
+end
+arch stwall_2_1_2
+x 41
+y 5
+end
+arch woodfloor2
+x 41
+y 5
+end
+arch stwall_2_1_2
+x 41
+y 5
+end
 arch bosgrass2
 x 41
 y 6
 elevation 7986
+end
+arch woodfloor2
+x 41
+y 6
+end
+arch exit
+slaying world_107_115
+hp 41
+sp 10
+x 41
+y 6
 end
 arch bosgrass2
 x 41
 y 7
 elevation 8140
 end
+arch cobblestones2
+x 41
+y 7
+end
+arch woodfloor2
+x 41
+y 7
+end
+arch stwall_2_1_2
+x 41
+y 7
+end
 arch bosgrass2
 x 41
 y 8
 elevation 7799
 end
+arch cobblestones2
+x 41
+y 8
+end
+arch magic_mouth
+msg
+Step on the pentagram to receive your
+quest
+endmsg
+x 41
+y 8
+end
+arch woodfloor2
+x 41
+y 8
+end
 arch bosgrass2
 x 41
 y 9
 elevation 7332
+end
+arch cobblestones2
+x 41
+y 9
+end
+arch woodfloor2
+x 41
+y 9
+end
+arch door_look_1
+x 41
+y 9
+alive 0
+no_pass 0
 end
 arch bosgrass2
 x 41
@@ -10382,25 +11155,81 @@ x 42
 y 5
 elevation 6073
 end
+arch woodfloor2
+x 42
+y 5
+end
+arch stwall_3_4
+x 42
+y 5
+end
 arch bosgrass2
 x 42
 y 6
 elevation 7159
+end
+arch cobblestones2
+x 42
+y 6
+end
+arch woodfloor2
+x 42
+y 6
+end
+arch stwall_2_1_1
+x 42
+y 6
 end
 arch bosgrass2
 x 42
 y 7
 elevation 6908
 end
+arch cobblestones2
+x 42
+y 7
+end
+arch woodfloor2
+x 42
+y 7
+end
+arch stwall_3_4
+x 42
+y 7
+end
 arch bosgrass2
 x 42
 y 8
 elevation 7122
 end
+arch cobblestones2
+x 42
+y 8
+end
+arch woodfloor2
+x 42
+y 8
+end
+arch stwall_2_1_1
+x 42
+y 8
+end
 arch bosgrass2
 x 42
 y 9
 elevation 7234
+end
+arch cobblestones2
+x 42
+y 9
+end
+arch woodfloor2
+x 42
+y 9
+end
+arch stwall_2_1_1
+x 42
+y 9
 end
 arch bosgrass2
 x 42
