@@ -62,6 +62,17 @@ void map_info(object *op, char *search) {
   }
 }
 
+void command_quests(object *op, char *params) {
+	list_ongoing_quests(op);
+
+
+}
+
+void command_questinfo(object *op, char *params) {
+	list_quest_description(op, params);
+
+}
+
 /**
  * This command dumps the body information for object *op.
  * it doesn't care what the params are.
@@ -1699,6 +1710,7 @@ static void display_quest_details( object* pl, object* quest )
  * For current quests, will display either the lore of the non start tags,
  *  or the lore of start tag if no other tag.
  **/
+/*
 int command_quests( object *pl, char *params )
     {
     object* item;
@@ -1729,8 +1741,9 @@ int command_quests( object *pl, char *params )
             }
         return 1;
         }
-
+*/
     /*Display current quests */
+/*
     new_draw_info( NDI_WHITE, 0, pl, "Current quests:\n" );
     for ( item = pl->inv; item; item = item->below )
         {
@@ -1743,3 +1756,4 @@ int command_quests( object *pl, char *params )
         }
     return 1;
     }
+*/

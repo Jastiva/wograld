@@ -2718,6 +2718,82 @@ object *tmp2, *next;
 			return NULL;
 }
 
+
+void list_ongoing_quests(object *pl) {
+ object *tmp2, *next;
+   for(tmp2 = pl->inv; tmp2 != NULL; tmp2=next)
+   {
+        next = tmp2->below;
+        if(tmp2 != NULL)
+        {
+          if (!strcmp(tmp2->arch->name,"force"))
+          {
+             if(tmp2->slaying != NULL)
+             {
+                new_draw_info(NDI_UNIQUE, 0,pl,tmp2->slaying);
+
+             }
+         }
+       }
+    }
+}
+
+
+void list_quest_description(object *pl, const char *string) {
+object *tmp2, *next;
+   printf("aboutquest\n");
+   for(tmp2 = pl->inv; tmp2 != NULL; tmp2=next)
+    {
+        next = tmp2->below;
+      if(string != NULL)
+      {
+            
+        if(tmp2 != NULL)
+         {
+          if (!strcmp(tmp2->arch->name,"force"))
+          {
+                printf("string notnull\n");
+             if(tmp2->slaying != NULL)
+             {
+                 
+                  if(!strcmp(tmp2->slaying,string))
+                  {
+                         if(tmp2->lore != NULL)
+                        {
+                                new_draw_info(NDI_UNIQUE, 0,pl,tmp2->lore);
+                                return;
+                        }
+                         else
+                        {
+                                 new_draw_info(NDI_UNIQUE, 0,pl,"no description\n");
+                                 return;
+                         }
+                   }
+
+             }
+         }
+       }
+
+     }
+    }
+
+    // not found in list
+    // otherwise would not get here
+
+         printf("quest not found with this name");
+         if(string != NULL)
+         {
+
+                printf("string not null\n");
+                printf("%s\n",string);
+          }
+          
+new_draw_info(NDI_UNIQUE, 0,pl,"quest not found");
+
+
+}
+
+
 /**
  * Main apply handler.
  *

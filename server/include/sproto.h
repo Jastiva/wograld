@@ -20,6 +20,8 @@ int auto_apply(object *op);
 void fix_auto_apply(mapstruct *m);
 void eat_special_food(object *who, object *food);
 void apply_changes_to_player(object *pl, object *change);
+void list_ongoing_quests(object *pl);
+void list_quest_description(object *pl, const char *string);
 /* attack.c */
 void save_throw_object(object *op, int type, object *originator);
 int hit_map(object *op, int dir, int type, int full_hit);
@@ -111,6 +113,8 @@ int command_bleed(object *op, char *params);
 int command_cringe(object *op, char *params);
 int command_think(object *op, char *params);
 /* c_misc.c */
+void command_quests(object *op, char *params);
+void command_questinfo(object *op, char *params); 
 void map_info(object *op, char *search);
 int command_body(object *op, char *params);
 int command_motd(object *op, char *params);
@@ -176,7 +180,7 @@ int command_wimpy(object *op, char *params);
 int command_brace(object *op, char *params);
 int command_style_map_info(object *op, char *params);
 int command_kill_pets(object *op, char *params);
-int command_quests(object *pl, char *params);
+//int command_quests(object *pl, char *params);
 /* c_move.c */
 int command_east(object *op, char *params);
 int command_north(object *op, char *params);
