@@ -22,6 +22,8 @@
 package com.realtime.wograld.jxclient.main;
 
 import com.realtime.wograld.jxclient.account.CharacterModel;
+import com.realtime.wograld.jxclient.commands.ListQuestsCommand;
+import com.realtime.wograld.jxclient.commands.QuestInfoCommand;
 import com.realtime.wograld.jxclient.commands.BindCommand;
 import com.realtime.wograld.jxclient.commands.ClearCommand;
 import com.realtime.wograld.jxclient.commands.Commands;
@@ -237,6 +239,8 @@ public class JXClient {
                                         final GUICommandFactory guiCommandFactory = new GUICommandFactory(commandCallback, commands, macros);
                                         commands.addCommand(new BindCommand(server, commandCallback, guiCommandFactory));
                                         commands.addCommand(new UnbindCommand(commandCallback, server));
+                                        commands.addCommand(new ListQuestsCommand(server, commandCallback, guiCommandFactory, commandQueue));
+                                        commands.addCommand(new QuestInfoCommand(server, commandCallback, guiCommandFactory, commandQueue));
                                         commands.addCommand(new ScreenshotCommand(windowRenderer, server, screenshotFiles));
                                         commands.addCommand(new ScriptCommand(scriptManager, server));
                                         commands.addCommand(new ScriptkillCommand(scriptManager, server));
