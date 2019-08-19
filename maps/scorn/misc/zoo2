@@ -6,8 +6,9 @@ width 50
 height 50
 msg
 Created:  2001-02-13
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2019-08-19 lori
 endmsg
+background_music highcity
 end
 arch dungeon_magic
 end
@@ -396,7 +397,7 @@ end
 arch dungeon_magic
 y 43
 end
-arch pstone_1
+arch graymarble
 y 43
 end
 arch awall_2_1_1
@@ -405,7 +406,7 @@ end
 arch dungeon_magic
 y 44
 end
-arch pstone_1
+arch lostlabfloor3
 y 44
 end
 arch awall_2_1_1
@@ -414,7 +415,7 @@ end
 arch dungeon_magic
 y 45
 end
-arch pstone_1
+arch lostlabfloor3
 y 45
 end
 arch awall_2_1_1
@@ -423,7 +424,7 @@ end
 arch dungeon_magic
 y 46
 end
-arch pstone_1
+arch lostlabfloor3
 y 46
 end
 arch awall_2_1_1
@@ -432,7 +433,7 @@ end
 arch dungeon_magic
 y 47
 end
-arch pstone_1
+arch lostlabfloor3
 y 47
 end
 arch awall_2_1_1
@@ -441,13 +442,13 @@ end
 arch dungeon_magic
 y 48
 end
-arch pstone_1
+arch lostlabfloor3
 y 48
 end
 arch awall_2_1_1
 y 48
 end
-arch pstone_1
+arch graymarble
 y 49
 end
 arch awall_2_2_1
@@ -845,7 +846,7 @@ arch dungeon_magic
 x 1
 y 43
 end
-arch pstone_1
+arch graymarble
 x 1
 y 43
 end
@@ -857,7 +858,7 @@ arch dungeon_magic
 x 1
 y 44
 end
-arch pstone_1
+arch lostlabfloor3
 x 1
 y 44
 end
@@ -865,7 +866,7 @@ arch dungeon_magic
 x 1
 y 45
 end
-arch pstone_1
+arch lostlabfloor3
 x 1
 y 45
 end
@@ -873,7 +874,7 @@ arch dungeon_magic
 x 1
 y 46
 end
-arch pstone_1
+arch lostlabfloor3
 x 1
 y 46
 end
@@ -881,11 +882,7 @@ arch dungeon_magic
 x 1
 y 47
 end
-arch pstone_1
-x 1
-y 47
-end
-arch cobra
+arch lostlabfloor3
 x 1
 y 47
 end
@@ -893,11 +890,11 @@ arch dungeon_magic
 x 1
 y 48
 end
-arch pstone_1
+arch lostlabfloor3
 x 1
 y 48
 end
-arch pstone_1
+arch graymarble
 x 1
 y 49
 end
@@ -1310,7 +1307,7 @@ arch dungeon_magic
 x 2
 y 43
 end
-arch pstone_1
+arch graymarble
 x 2
 y 43
 end
@@ -1322,7 +1319,7 @@ arch dungeon_magic
 x 2
 y 44
 end
-arch pstone_1
+arch lostlabfloor3
 x 2
 y 44
 end
@@ -1330,11 +1327,11 @@ arch dungeon_magic
 x 2
 y 45
 end
-arch pstone_1
+arch lostlabfloor3
 x 2
 y 45
 end
-arch cobra
+arch big_chaos_dragon
 x 2
 y 45
 end
@@ -1342,7 +1339,7 @@ arch dungeon_magic
 x 2
 y 46
 end
-arch pstone_1
+arch lostlabfloor3
 x 2
 y 46
 end
@@ -1350,11 +1347,7 @@ arch dungeon_magic
 x 2
 y 47
 end
-arch pstone_1
-x 2
-y 47
-end
-arch cobra
+arch lostlabfloor3
 x 2
 y 47
 end
@@ -1362,11 +1355,11 @@ arch dungeon_magic
 x 2
 y 48
 end
-arch pstone_1
+arch lostlabfloor3
 x 2
 y 48
 end
-arch pstone_1
+arch graymarble
 x 2
 y 49
 end
@@ -1764,7 +1757,7 @@ arch dungeon_magic
 x 3
 y 43
 end
-arch pstone_1
+arch graymarble
 x 3
 y 43
 end
@@ -1776,7 +1769,7 @@ arch dungeon_magic
 x 3
 y 44
 end
-arch pstone_1
+arch lostlabfloor3
 x 3
 y 44
 end
@@ -1784,11 +1777,7 @@ arch dungeon_magic
 x 3
 y 45
 end
-arch pstone_1
-x 3
-y 45
-end
-arch cobra
+arch lostlabfloor3
 x 3
 y 45
 end
@@ -1796,7 +1785,7 @@ arch dungeon_magic
 x 3
 y 46
 end
-arch pstone_1
+arch lostlabfloor3
 x 3
 y 46
 end
@@ -1804,11 +1793,7 @@ arch dungeon_magic
 x 3
 y 47
 end
-arch pstone_1
-x 3
-y 47
-end
-arch cobra
+arch lostlabfloor3
 x 3
 y 47
 end
@@ -1816,11 +1801,11 @@ arch dungeon_magic
 x 3
 y 48
 end
-arch pstone_1
+arch lostlabfloor3
 x 3
 y 48
 end
-arch pstone_1
+arch graymarble
 x 3
 y 49
 end
@@ -2205,7 +2190,7 @@ arch dungeon_magic
 x 4
 y 43
 end
-arch pstone_1
+arch graymarble
 x 4
 y 43
 end
@@ -2217,7 +2202,7 @@ arch dungeon_magic
 x 4
 y 44
 end
-arch pstone_1
+arch lostlabfloor3
 x 4
 y 44
 end
@@ -2225,7 +2210,7 @@ arch dungeon_magic
 x 4
 y 45
 end
-arch pstone_1
+arch lostlabfloor3
 x 4
 y 45
 end
@@ -2233,7 +2218,7 @@ arch dungeon_magic
 x 4
 y 46
 end
-arch pstone_1
+arch lostlabfloor3
 x 4
 y 46
 end
@@ -2241,7 +2226,7 @@ arch dungeon_magic
 x 4
 y 47
 end
-arch pstone_1
+arch lostlabfloor3
 x 4
 y 47
 end
@@ -2249,11 +2234,11 @@ arch dungeon_magic
 x 4
 y 48
 end
-arch pstone_1
+arch lostlabfloor3
 x 4
 y 48
 end
-arch pstone_1
+arch graymarble
 x 4
 y 49
 end
@@ -2702,7 +2687,7 @@ arch dungeon_magic
 x 5
 y 43
 end
-arch pstone_1
+arch graymarble
 x 5
 y 43
 end
@@ -2714,7 +2699,7 @@ arch dungeon_magic
 x 5
 y 44
 end
-arch pstone_1
+arch graymarble
 x 5
 y 44
 end
@@ -2726,7 +2711,7 @@ arch dungeon_magic
 x 5
 y 45
 end
-arch pstone_1
+arch graymarble
 x 5
 y 45
 end
@@ -2738,7 +2723,7 @@ arch dungeon_magic
 x 5
 y 46
 end
-arch pstone_1
+arch graymarble
 x 5
 y 46
 end
@@ -2750,7 +2735,7 @@ arch dungeon_magic
 x 5
 y 47
 end
-arch pstone_1
+arch graymarble
 x 5
 y 47
 end
@@ -2762,7 +2747,7 @@ arch dungeon_magic
 x 5
 y 48
 end
-arch pstone_1
+arch graymarble
 x 5
 y 48
 end
@@ -2770,7 +2755,7 @@ arch swall_1_2
 x 5
 y 48
 end
-arch pstone_1
+arch graymarble
 x 5
 y 49
 end
@@ -3211,7 +3196,7 @@ arch dungeon_magic
 x 6
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 44
 end
@@ -3223,7 +3208,7 @@ arch dungeon_magic
 x 6
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 45
 end
@@ -3231,7 +3216,7 @@ arch dungeon_magic
 x 6
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 46
 end
@@ -3239,7 +3224,7 @@ arch dungeon_magic
 x 6
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 47
 end
@@ -3247,11 +3232,11 @@ arch dungeon_magic
 x 6
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 6
 y 49
 end
@@ -3620,7 +3605,7 @@ arch dungeon_magic
 x 7
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 44
 end
@@ -3632,7 +3617,7 @@ arch dungeon_magic
 x 7
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 45
 end
@@ -3640,7 +3625,7 @@ arch dungeon_magic
 x 7
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 46
 end
@@ -3652,7 +3637,7 @@ arch dungeon_magic
 x 7
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 47
 end
@@ -3664,11 +3649,11 @@ arch dungeon_magic
 x 7
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 7
 y 49
 end
@@ -4041,7 +4026,7 @@ arch dungeon_magic
 x 8
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 44
 end
@@ -4053,7 +4038,7 @@ arch dungeon_magic
 x 8
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 45
 end
@@ -4061,7 +4046,7 @@ arch dungeon_magic
 x 8
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 46
 end
@@ -4073,7 +4058,7 @@ arch dungeon_magic
 x 8
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 47
 end
@@ -4085,11 +4070,11 @@ arch dungeon_magic
 x 8
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 8
 y 49
 end
@@ -4458,7 +4443,7 @@ arch dungeon_magic
 x 9
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 44
 end
@@ -4470,7 +4455,7 @@ arch dungeon_magic
 x 9
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 45
 end
@@ -4478,7 +4463,7 @@ arch dungeon_magic
 x 9
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 46
 end
@@ -4490,7 +4475,7 @@ arch dungeon_magic
 x 9
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 47
 end
@@ -4502,11 +4487,11 @@ arch dungeon_magic
 x 9
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 9
 y 49
 end
@@ -4875,7 +4860,7 @@ arch dungeon_magic
 x 10
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 44
 end
@@ -4887,7 +4872,7 @@ arch dungeon_magic
 x 10
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 45
 end
@@ -4899,7 +4884,7 @@ arch dungeon_magic
 x 10
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 46
 end
@@ -4911,7 +4896,7 @@ arch dungeon_magic
 x 10
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 47
 end
@@ -4923,7 +4908,7 @@ arch dungeon_magic
 x 10
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 48
 end
@@ -4931,7 +4916,7 @@ arch swall_1_2
 x 10
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor
 x 10
 y 49
 end
@@ -5300,7 +5285,7 @@ arch dungeon_magic
 x 11
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 44
 end
@@ -5312,7 +5297,7 @@ arch dungeon_magic
 x 11
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 45
 end
@@ -5320,7 +5305,7 @@ arch dungeon_magic
 x 11
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 46
 end
@@ -5328,7 +5313,7 @@ arch dungeon_magic
 x 11
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 47
 end
@@ -5336,11 +5321,11 @@ arch dungeon_magic
 x 11
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 11
 y 49
 end
@@ -5709,7 +5694,7 @@ arch dungeon_magic
 x 12
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 44
 end
@@ -5721,7 +5706,7 @@ arch dungeon_magic
 x 12
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 45
 end
@@ -5729,7 +5714,7 @@ arch dungeon_magic
 x 12
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 46
 end
@@ -5737,7 +5722,7 @@ arch dungeon_magic
 x 12
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 47
 end
@@ -5749,11 +5734,11 @@ arch dungeon_magic
 x 12
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 12
 y 49
 end
@@ -6122,7 +6107,7 @@ arch dungeon_magic
 x 13
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 44
 end
@@ -6134,7 +6119,7 @@ arch dungeon_magic
 x 13
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 45
 end
@@ -6142,7 +6127,7 @@ arch dungeon_magic
 x 13
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 46
 end
@@ -6154,7 +6139,7 @@ arch dungeon_magic
 x 13
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 47
 end
@@ -6166,11 +6151,11 @@ arch dungeon_magic
 x 13
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 13
 y 49
 end
@@ -6539,7 +6524,7 @@ arch dungeon_magic
 x 14
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 14
 y 44
 end
@@ -6551,7 +6536,7 @@ arch dungeon_magic
 x 14
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 14
 y 45
 end
@@ -6571,7 +6556,7 @@ arch dungeon_magic
 x 14
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 14
 y 47
 end
@@ -6583,11 +6568,11 @@ arch dungeon_magic
 x 14
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 14
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 14
 y 49
 end
@@ -6984,7 +6969,7 @@ arch dungeon_magic
 x 15
 y 44
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 44
 end
@@ -6996,7 +6981,7 @@ arch dungeon_magic
 x 15
 y 45
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 45
 end
@@ -7008,7 +6993,7 @@ arch dungeon_magic
 x 15
 y 46
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 46
 end
@@ -7020,7 +7005,7 @@ arch dungeon_magic
 x 15
 y 47
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 47
 end
@@ -7032,7 +7017,7 @@ arch dungeon_magic
 x 15
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 48
 end
@@ -7040,7 +7025,7 @@ arch swall_1_2
 x 15
 y 48
 end
-arch pstone_1
+arch blacklostlabfloor7
 x 15
 y 49
 end
@@ -7409,7 +7394,7 @@ arch dungeon_magic
 x 16
 y 44
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 44
 end
@@ -7421,7 +7406,7 @@ arch dungeon_magic
 x 16
 y 45
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 45
 end
@@ -7429,7 +7414,7 @@ arch dungeon_magic
 x 16
 y 46
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 46
 end
@@ -7437,7 +7422,7 @@ arch dungeon_magic
 x 16
 y 47
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 47
 end
@@ -7445,11 +7430,11 @@ arch dungeon_magic
 x 16
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 16
 y 49
 end
@@ -7886,7 +7871,7 @@ arch dungeon_magic
 x 17
 y 44
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 44
 end
@@ -7898,7 +7883,7 @@ arch dungeon_magic
 x 17
 y 45
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 45
 end
@@ -7906,11 +7891,11 @@ arch dungeon_magic
 x 17
 y 46
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 46
 end
-arch shadowtiger
+arch big_orange
 x 17
 y 46
 end
@@ -7918,7 +7903,7 @@ arch dungeon_magic
 x 17
 y 47
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 47
 end
@@ -7926,11 +7911,11 @@ arch dungeon_magic
 x 17
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 17
 y 49
 end
@@ -8328,7 +8313,7 @@ arch dungeon_magic
 x 18
 y 44
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 44
 end
@@ -8340,7 +8325,7 @@ arch dungeon_magic
 x 18
 y 45
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 45
 end
@@ -8348,7 +8333,7 @@ arch dungeon_magic
 x 18
 y 46
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 46
 end
@@ -8356,7 +8341,7 @@ arch dungeon_magic
 x 18
 y 47
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 47
 end
@@ -8364,11 +8349,11 @@ arch dungeon_magic
 x 18
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 18
 y 49
 end
@@ -8773,7 +8758,7 @@ arch dungeon_magic
 x 19
 y 44
 end
-arch pstone_1
+arch blackmarble
 x 19
 y 44
 end
@@ -8785,7 +8770,7 @@ arch dungeon_magic
 x 19
 y 45
 end
-arch pstone_1
+arch blackmarble
 x 19
 y 45
 end
@@ -8793,7 +8778,11 @@ arch dungeon_magic
 x 19
 y 46
 end
-arch pstone_1
+arch blackmarble
+x 19
+y 46
+end
+arch big_orange
 x 19
 y 46
 end
@@ -8801,7 +8790,7 @@ arch dungeon_magic
 x 19
 y 47
 end
-arch pstone_1
+arch blackmarble
 x 19
 y 47
 end
@@ -8809,11 +8798,11 @@ arch dungeon_magic
 x 19
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 19
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 19
 y 49
 end
@@ -9225,7 +9214,7 @@ arch dungeon_magic
 x 20
 y 44
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 44
 end
@@ -9237,7 +9226,7 @@ arch dungeon_magic
 x 20
 y 45
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 45
 end
@@ -9249,7 +9238,7 @@ arch dungeon_magic
 x 20
 y 46
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 46
 end
@@ -9261,7 +9250,7 @@ arch dungeon_magic
 x 20
 y 47
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 47
 end
@@ -9273,7 +9262,7 @@ arch dungeon_magic
 x 20
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 48
 end
@@ -9281,7 +9270,7 @@ arch swall_1_2
 x 20
 y 48
 end
-arch pstone_1
+arch blackmarble
 x 20
 y 49
 end
@@ -9686,7 +9675,7 @@ arch dungeon_magic
 x 21
 y 44
 end
-arch pstone_1
+arch blackslate
 x 21
 y 44
 end
@@ -9698,7 +9687,7 @@ arch dungeon_magic
 x 21
 y 45
 end
-arch pstone_1
+arch blackslate
 x 21
 y 45
 end
@@ -9706,11 +9695,7 @@ arch dungeon_magic
 x 21
 y 46
 end
-arch pstone_1
-x 21
-y 46
-end
-arch baslic
+arch blackslate
 x 21
 y 46
 end
@@ -9718,7 +9703,7 @@ arch dungeon_magic
 x 21
 y 47
 end
-arch pstone_1
+arch blackslate
 x 21
 y 47
 end
@@ -9726,11 +9711,11 @@ arch dungeon_magic
 x 21
 y 48
 end
-arch pstone_1
+arch blackslate
 x 21
 y 48
 end
-arch pstone_1
+arch blackslate
 x 21
 y 49
 end
@@ -10153,7 +10138,7 @@ arch dungeon_magic
 x 22
 y 44
 end
-arch pstone_1
+arch blackslate
 x 22
 y 44
 end
@@ -10165,7 +10150,7 @@ arch dungeon_magic
 x 22
 y 45
 end
-arch pstone_1
+arch blackslate
 x 22
 y 45
 end
@@ -10173,7 +10158,11 @@ arch dungeon_magic
 x 22
 y 46
 end
-arch pstone_1
+arch blackslate
+x 22
+y 46
+end
+arch shadow_dragon
 x 22
 y 46
 end
@@ -10181,7 +10170,7 @@ arch dungeon_magic
 x 22
 y 47
 end
-arch pstone_1
+arch blackslate
 x 22
 y 47
 end
@@ -10189,11 +10178,11 @@ arch dungeon_magic
 x 22
 y 48
 end
-arch pstone_1
+arch blackslate
 x 22
 y 48
 end
-arch pstone_1
+arch blackslate
 x 22
 y 49
 end
@@ -10617,7 +10606,7 @@ arch dungeon_magic
 x 23
 y 44
 end
-arch pstone_1
+arch blackslate
 x 23
 y 44
 end
@@ -10629,7 +10618,7 @@ arch dungeon_magic
 x 23
 y 45
 end
-arch pstone_1
+arch blackslate
 x 23
 y 45
 end
@@ -10637,7 +10626,7 @@ arch dungeon_magic
 x 23
 y 46
 end
-arch pstone_1
+arch blackslate
 x 23
 y 46
 end
@@ -10645,7 +10634,11 @@ arch dungeon_magic
 x 23
 y 47
 end
-arch pstone_1
+arch blackslate
+x 23
+y 47
+end
+arch shadow_dragon
 x 23
 y 47
 end
@@ -10653,11 +10646,11 @@ arch dungeon_magic
 x 23
 y 48
 end
-arch pstone_1
+arch blackslate
 x 23
 y 48
 end
-arch pstone_1
+arch blackslate
 x 23
 y 49
 end
@@ -11071,7 +11064,7 @@ arch dungeon_magic
 x 24
 y 44
 end
-arch pstone_1
+arch blackslate
 x 24
 y 44
 end
@@ -11083,7 +11076,7 @@ arch dungeon_magic
 x 24
 y 45
 end
-arch pstone_1
+arch blackslate
 x 24
 y 45
 end
@@ -11095,7 +11088,7 @@ arch dungeon_magic
 x 24
 y 46
 end
-arch pstone_1
+arch blackslate
 x 24
 y 46
 end
@@ -11107,7 +11100,7 @@ arch dungeon_magic
 x 24
 y 47
 end
-arch pstone_1
+arch blackslate
 x 24
 y 47
 end
@@ -11119,7 +11112,7 @@ arch dungeon_magic
 x 24
 y 48
 end
-arch pstone_1
+arch blackslate
 x 24
 y 48
 end
@@ -11127,7 +11120,7 @@ arch swall_1_2
 x 24
 y 48
 end
-arch pstone_1
+arch blackslate
 x 24
 y 49
 end
@@ -11564,7 +11557,7 @@ arch dungeon_magic
 x 25
 y 44
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 44
 end
@@ -11576,7 +11569,7 @@ arch dungeon_magic
 x 25
 y 45
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 45
 end
@@ -11584,7 +11577,7 @@ arch dungeon_magic
 x 25
 y 46
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 46
 end
@@ -11592,7 +11585,7 @@ arch dungeon_magic
 x 25
 y 47
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 47
 end
@@ -11600,11 +11593,11 @@ arch dungeon_magic
 x 25
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 25
 y 49
 end
@@ -12005,7 +11998,7 @@ arch dungeon_magic
 x 26
 y 44
 end
-arch pstone_1
+arch bluemarble
 x 26
 y 44
 end
@@ -12017,7 +12010,11 @@ arch dungeon_magic
 x 26
 y 45
 end
-arch pstone_1
+arch bluemarble
+x 26
+y 45
+end
+arch big_white
 x 26
 y 45
 end
@@ -12025,11 +12022,7 @@ arch dungeon_magic
 x 26
 y 46
 end
-arch pstone_1
-x 26
-y 46
-end
-arch fire_dragon
+arch bluemarble
 x 26
 y 46
 end
@@ -12037,11 +12030,7 @@ arch dungeon_magic
 x 26
 y 47
 end
-arch pstone_1
-x 26
-y 47
-end
-arch fire_dragon
+arch bluemarble
 x 26
 y 47
 end
@@ -12049,7 +12038,7 @@ arch dungeon_magic
 x 26
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 26
 y 48
 end
@@ -12057,7 +12046,7 @@ arch dungeon_magic
 x 26
 y 49
 end
-arch pstone_1
+arch bluemarble
 x 26
 y 49
 end
@@ -12451,7 +12440,7 @@ arch dungeon_magic
 x 27
 y 44
 end
-arch pstone_1
+arch bluemarble
 x 27
 y 44
 end
@@ -12463,7 +12452,7 @@ arch dungeon_magic
 x 27
 y 45
 end
-arch pstone_1
+arch bluemarble
 x 27
 y 45
 end
@@ -12471,11 +12460,11 @@ arch dungeon_magic
 x 27
 y 46
 end
-arch pstone_1
+arch bluemarble
 x 27
 y 46
 end
-arch fire_dragon
+arch big_white
 x 27
 y 46
 end
@@ -12483,11 +12472,7 @@ arch dungeon_magic
 x 27
 y 47
 end
-arch pstone_1
-x 27
-y 47
-end
-arch fire_dragon
+arch bluemarble
 x 27
 y 47
 end
@@ -12495,7 +12480,7 @@ arch dungeon_magic
 x 27
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 27
 y 48
 end
@@ -12503,7 +12488,7 @@ arch dungeon_magic
 x 27
 y 49
 end
-arch pstone_1
+arch bluemarble
 x 27
 y 49
 end
@@ -12897,7 +12882,7 @@ arch dungeon_magic
 x 28
 y 44
 end
-arch pstone_1
+arch bluemarble
 x 28
 y 44
 end
@@ -12909,7 +12894,7 @@ arch dungeon_magic
 x 28
 y 45
 end
-arch pstone_1
+arch bluemarble
 x 28
 y 45
 end
@@ -12917,11 +12902,7 @@ arch dungeon_magic
 x 28
 y 46
 end
-arch pstone_1
-x 28
-y 46
-end
-arch fire_dragon
+arch bluemarble
 x 28
 y 46
 end
@@ -12929,11 +12910,7 @@ arch dungeon_magic
 x 28
 y 47
 end
-arch pstone_1
-x 28
-y 47
-end
-arch fire_dragon
+arch bluemarble
 x 28
 y 47
 end
@@ -12941,7 +12918,7 @@ arch dungeon_magic
 x 28
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 28
 y 48
 end
@@ -12949,7 +12926,7 @@ arch dungeon_magic
 x 28
 y 49
 end
-arch pstone_1
+arch bluemarble
 x 28
 y 49
 end
@@ -13379,7 +13356,7 @@ arch dungeon_magic
 x 29
 y 44
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 44
 end
@@ -13391,7 +13368,7 @@ arch dungeon_magic
 x 29
 y 45
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 45
 end
@@ -13403,7 +13380,7 @@ arch dungeon_magic
 x 29
 y 46
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 46
 end
@@ -13415,7 +13392,7 @@ arch dungeon_magic
 x 29
 y 47
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 47
 end
@@ -13427,7 +13404,7 @@ arch dungeon_magic
 x 29
 y 48
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 48
 end
@@ -13439,7 +13416,7 @@ arch dungeon_magic
 x 29
 y 49
 end
-arch pstone_1
+arch bluemarble
 x 29
 y 49
 end
@@ -13837,7 +13814,7 @@ arch dungeon_magic
 x 30
 y 44
 end
-arch pstone_1
+arch bluemarblemedium
 x 30
 y 44
 end
@@ -13849,7 +13826,11 @@ arch dungeon_magic
 x 30
 y 45
 end
-arch pstone_1
+arch bluemarblemedium
+x 30
+y 45
+end
+arch big_gray
 x 30
 y 45
 end
@@ -13857,7 +13838,7 @@ arch dungeon_magic
 x 30
 y 46
 end
-arch pstone_1
+arch bluemarblemedium
 x 30
 y 46
 end
@@ -13865,7 +13846,7 @@ arch dungeon_magic
 x 30
 y 47
 end
-arch pstone_1
+arch bluemarblemedium
 x 30
 y 47
 end
@@ -13873,7 +13854,7 @@ arch dungeon_magic
 x 30
 y 48
 end
-arch pstone_1
+arch bluemarblemedium
 x 30
 y 48
 end
@@ -13881,7 +13862,7 @@ arch dungeon_magic
 x 30
 y 49
 end
-arch pstone_1
+arch bluemarblemedium
 x 30
 y 49
 end
@@ -14283,7 +14264,7 @@ arch dungeon_magic
 x 31
 y 44
 end
-arch pstone_1
+arch bluemarblemedium
 x 31
 y 44
 end
@@ -14295,7 +14276,7 @@ arch dungeon_magic
 x 31
 y 45
 end
-arch pstone_1
+arch bluemarblemedium
 x 31
 y 45
 end
@@ -14303,11 +14284,7 @@ arch dungeon_magic
 x 31
 y 46
 end
-arch pstone_1
-x 31
-y 46
-end
-arch elec_dragon
+arch bluemarblemedium
 x 31
 y 46
 end
@@ -14315,11 +14292,7 @@ arch dungeon_magic
 x 31
 y 47
 end
-arch pstone_1
-x 31
-y 47
-end
-arch elec_dragon
+arch bluemarblemedium
 x 31
 y 47
 end
@@ -14327,7 +14300,7 @@ arch dungeon_magic
 x 31
 y 48
 end
-arch pstone_1
+arch bluemarblemedium
 x 31
 y 48
 end
@@ -14335,7 +14308,7 @@ arch dungeon_magic
 x 31
 y 49
 end
-arch pstone_1
+arch bluemarblemedium
 x 31
 y 49
 end
@@ -14729,7 +14702,7 @@ arch dungeon_magic
 x 32
 y 44
 end
-arch pstone_1
+arch bluemarblemedium
 x 32
 y 44
 end
@@ -14741,7 +14714,7 @@ arch dungeon_magic
 x 32
 y 45
 end
-arch pstone_1
+arch bluemarblemedium
 x 32
 y 45
 end
@@ -14749,11 +14722,11 @@ arch dungeon_magic
 x 32
 y 46
 end
-arch pstone_1
+arch bluemarblemedium
 x 32
 y 46
 end
-arch elec_dragon
+arch big_gray
 x 32
 y 46
 end
@@ -14761,11 +14734,7 @@ arch dungeon_magic
 x 32
 y 47
 end
-arch pstone_1
-x 32
-y 47
-end
-arch elec_dragon
+arch bluemarblemedium
 x 32
 y 47
 end
@@ -14773,7 +14742,7 @@ arch dungeon_magic
 x 32
 y 48
 end
-arch pstone_1
+arch bluemarblemedium
 x 32
 y 48
 end
@@ -14781,7 +14750,7 @@ arch dungeon_magic
 x 32
 y 49
 end
-arch pstone_1
+arch bluemarblemedium
 x 32
 y 49
 end
@@ -15203,7 +15172,7 @@ arch dungeon_magic
 x 33
 y 44
 end
-arch pstone_1
+arch bluemarblemedium
 x 33
 y 44
 end
@@ -15215,7 +15184,7 @@ arch dungeon_magic
 x 33
 y 45
 end
-arch pstone_1
+arch bluemarblemedium
 x 33
 y 45
 end
@@ -15223,11 +15192,7 @@ arch dungeon_magic
 x 33
 y 46
 end
-arch pstone_1
-x 33
-y 46
-end
-arch elec_dragon
+arch bluemarblemedium
 x 33
 y 46
 end
@@ -15235,11 +15200,7 @@ arch dungeon_magic
 x 33
 y 47
 end
-arch pstone_1
-x 33
-y 47
-end
-arch elec_dragon
+arch bluemarblemedium
 x 33
 y 47
 end
@@ -15247,7 +15208,7 @@ arch dungeon_magic
 x 33
 y 48
 end
-arch pstone_1
+arch bluemarblemedium
 x 33
 y 48
 end
@@ -15255,7 +15216,7 @@ arch dungeon_magic
 x 33
 y 49
 end
-arch pstone_1
+arch bluemarblemedium
 x 33
 y 49
 end
@@ -15637,7 +15598,7 @@ arch dungeon_magic
 x 34
 y 44
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 44
 end
@@ -15649,7 +15610,7 @@ arch dungeon_magic
 x 34
 y 45
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 45
 end
@@ -15661,7 +15622,7 @@ arch dungeon_magic
 x 34
 y 46
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 46
 end
@@ -15673,7 +15634,7 @@ arch dungeon_magic
 x 34
 y 47
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 47
 end
@@ -15685,7 +15646,7 @@ arch dungeon_magic
 x 34
 y 48
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 48
 end
@@ -15697,7 +15658,7 @@ arch dungeon_magic
 x 34
 y 49
 end
-arch pstone_1
+arch bluemarblemedium
 x 34
 y 49
 end
@@ -16063,7 +16024,7 @@ arch dungeon_magic
 x 35
 y 44
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 44
 end
@@ -16075,7 +16036,7 @@ arch dungeon_magic
 x 35
 y 45
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 45
 end
@@ -16083,7 +16044,7 @@ arch dungeon_magic
 x 35
 y 46
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 46
 end
@@ -16091,7 +16052,7 @@ arch dungeon_magic
 x 35
 y 47
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 47
 end
@@ -16099,7 +16060,7 @@ arch dungeon_magic
 x 35
 y 48
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 48
 end
@@ -16107,7 +16068,7 @@ arch dungeon_magic
 x 35
 y 49
 end
-arch pstone_1
+arch lostlabfloor
 x 35
 y 49
 end
@@ -16545,7 +16506,7 @@ arch dungeon_magic
 x 36
 y 44
 end
-arch pstone_1
+arch lostlabfloor
 x 36
 y 44
 end
@@ -16557,7 +16518,7 @@ arch dungeon_magic
 x 36
 y 45
 end
-arch pstone_1
+arch lostlabfloor
 x 36
 y 45
 end
@@ -16565,11 +16526,7 @@ arch dungeon_magic
 x 36
 y 46
 end
-arch pstone_1
-x 36
-y 46
-end
-arch cold_dragon
+arch lostlabfloor
 x 36
 y 46
 end
@@ -16577,11 +16534,7 @@ arch dungeon_magic
 x 36
 y 47
 end
-arch pstone_1
-x 36
-y 47
-end
-arch cold_dragon
+arch lostlabfloor
 x 36
 y 47
 end
@@ -16589,7 +16542,7 @@ arch dungeon_magic
 x 36
 y 48
 end
-arch pstone_1
+arch lostlabfloor
 x 36
 y 48
 end
@@ -16597,7 +16550,7 @@ arch dungeon_magic
 x 36
 y 49
 end
-arch pstone_1
+arch lostlabfloor
 x 36
 y 49
 end
@@ -16979,7 +16932,7 @@ arch dungeon_magic
 x 37
 y 44
 end
-arch pstone_1
+arch lostlabfloor
 x 37
 y 44
 end
@@ -16991,7 +16944,7 @@ arch dungeon_magic
 x 37
 y 45
 end
-arch pstone_1
+arch lostlabfloor
 x 37
 y 45
 end
@@ -16999,11 +16952,11 @@ arch dungeon_magic
 x 37
 y 46
 end
-arch pstone_1
+arch lostlabfloor
 x 37
 y 46
 end
-arch cold_dragon
+arch chinese_dragon
 x 37
 y 46
 end
@@ -17011,11 +16964,7 @@ arch dungeon_magic
 x 37
 y 47
 end
-arch pstone_1
-x 37
-y 47
-end
-arch cold_dragon
+arch lostlabfloor
 x 37
 y 47
 end
@@ -17023,7 +16972,7 @@ arch dungeon_magic
 x 37
 y 48
 end
-arch pstone_1
+arch lostlabfloor
 x 37
 y 48
 end
@@ -17031,7 +16980,7 @@ arch dungeon_magic
 x 37
 y 49
 end
-arch pstone_1
+arch lostlabfloor
 x 37
 y 49
 end
@@ -17194,10 +17143,6 @@ x 38
 y 17
 end
 arch pstone_1
-x 38
-y 17
-end
-arch gryphon
 x 38
 y 17
 end
@@ -17214,6 +17159,10 @@ x 38
 y 19
 end
 arch pstone_1
+x 38
+y 19
+end
+arch big_dragon_worthless
 x 38
 y 19
 end
@@ -17417,7 +17366,7 @@ arch dungeon_magic
 x 38
 y 44
 end
-arch pstone_1
+arch lostlabfloor
 x 38
 y 44
 end
@@ -17429,7 +17378,7 @@ arch dungeon_magic
 x 38
 y 45
 end
-arch pstone_1
+arch lostlabfloor
 x 38
 y 45
 end
@@ -17437,11 +17386,7 @@ arch dungeon_magic
 x 38
 y 46
 end
-arch pstone_1
-x 38
-y 46
-end
-arch cold_dragon
+arch lostlabfloor
 x 38
 y 46
 end
@@ -17449,11 +17394,7 @@ arch dungeon_magic
 x 38
 y 47
 end
-arch pstone_1
-x 38
-y 47
-end
-arch cold_dragon
+arch lostlabfloor
 x 38
 y 47
 end
@@ -17461,7 +17402,7 @@ arch dungeon_magic
 x 38
 y 48
 end
-arch pstone_1
+arch lostlabfloor
 x 38
 y 48
 end
@@ -17469,7 +17410,7 @@ arch dungeon_magic
 x 38
 y 49
 end
-arch pstone_1
+arch lostlabfloor
 x 38
 y 49
 end
@@ -17867,7 +17808,7 @@ arch dungeon_magic
 x 39
 y 44
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 44
 end
@@ -17879,7 +17820,7 @@ arch dungeon_magic
 x 39
 y 45
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 45
 end
@@ -17891,7 +17832,7 @@ arch dungeon_magic
 x 39
 y 46
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 46
 end
@@ -17903,7 +17844,7 @@ arch dungeon_magic
 x 39
 y 47
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 47
 end
@@ -17915,7 +17856,7 @@ arch dungeon_magic
 x 39
 y 48
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 48
 end
@@ -17927,7 +17868,7 @@ arch dungeon_magic
 x 39
 y 49
 end
-arch pstone_1
+arch lostlabfloor
 x 39
 y 49
 end
@@ -18313,7 +18254,7 @@ arch dungeon_magic
 x 40
 y 44
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 44
 end
@@ -18325,7 +18266,7 @@ arch dungeon_magic
 x 40
 y 45
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 45
 end
@@ -18333,7 +18274,7 @@ arch dungeon_magic
 x 40
 y 46
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 46
 end
@@ -18341,7 +18282,7 @@ arch dungeon_magic
 x 40
 y 47
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 47
 end
@@ -18349,7 +18290,7 @@ arch dungeon_magic
 x 40
 y 48
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 48
 end
@@ -18357,7 +18298,7 @@ arch dungeon_magic
 x 40
 y 49
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 40
 y 49
 end
@@ -18743,7 +18684,7 @@ arch dungeon_magic
 x 41
 y 44
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 41
 y 44
 end
@@ -18755,7 +18696,11 @@ arch dungeon_magic
 x 41
 y 45
 end
-arch pstone_1
+arch white-green-x-marble_115
+x 41
+y 45
+end
+arch big_elec
 x 41
 y 45
 end
@@ -18763,11 +18708,7 @@ arch dungeon_magic
 x 41
 y 46
 end
-arch pstone_1
-x 41
-y 46
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 41
 y 46
 end
@@ -18775,11 +18716,7 @@ arch dungeon_magic
 x 41
 y 47
 end
-arch pstone_1
-x 41
-y 47
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 41
 y 47
 end
@@ -18787,11 +18724,7 @@ arch dungeon_magic
 x 41
 y 48
 end
-arch pstone_1
-x 41
-y 48
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 41
 y 48
 end
@@ -18799,7 +18732,7 @@ arch dungeon_magic
 x 41
 y 49
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 41
 y 49
 end
@@ -19233,7 +19166,7 @@ arch dungeon_magic
 x 42
 y 44
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 42
 y 44
 end
@@ -19245,7 +19178,7 @@ arch dungeon_magic
 x 42
 y 45
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 42
 y 45
 end
@@ -19253,11 +19186,7 @@ arch dungeon_magic
 x 42
 y 46
 end
-arch pstone_1
-x 42
-y 46
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 42
 y 46
 end
@@ -19265,11 +19194,7 @@ arch dungeon_magic
 x 42
 y 47
 end
-arch pstone_1
-x 42
-y 47
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 42
 y 47
 end
@@ -19277,11 +19202,7 @@ arch dungeon_magic
 x 42
 y 48
 end
-arch pstone_1
-x 42
-y 48
-end
-arch faerie_dragon
+arch white-green-x-marble_115
 x 42
 y 48
 end
@@ -19289,7 +19210,7 @@ arch dungeon_magic
 x 42
 y 49
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 42
 y 49
 end
@@ -19655,7 +19576,7 @@ arch dungeon_magic
 x 43
 y 44
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 44
 end
@@ -19667,7 +19588,7 @@ arch dungeon_magic
 x 43
 y 45
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 45
 end
@@ -19675,7 +19596,7 @@ arch dungeon_magic
 x 43
 y 46
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 46
 end
@@ -19683,7 +19604,7 @@ arch dungeon_magic
 x 43
 y 47
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 47
 end
@@ -19691,7 +19612,7 @@ arch dungeon_magic
 x 43
 y 48
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 48
 end
@@ -19699,7 +19620,7 @@ arch dungeon_magic
 x 43
 y 49
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 43
 y 49
 end
@@ -20185,7 +20106,7 @@ arch dungeon_magic
 x 44
 y 44
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 44
 end
@@ -20197,7 +20118,7 @@ arch dungeon_magic
 x 44
 y 45
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 45
 end
@@ -20209,7 +20130,7 @@ arch dungeon_magic
 x 44
 y 46
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 46
 end
@@ -20221,7 +20142,7 @@ arch dungeon_magic
 x 44
 y 47
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 47
 end
@@ -20233,7 +20154,7 @@ arch dungeon_magic
 x 44
 y 48
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 48
 end
@@ -20245,7 +20166,7 @@ arch dungeon_magic
 x 44
 y 49
 end
-arch pstone_1
+arch white-green-x-marble_115
 x 44
 y 49
 end
@@ -20758,10 +20679,6 @@ x 46
 y 2
 end
 arch pstone_1
-x 46
-y 2
-end
-arch skree
 x 46
 y 2
 end

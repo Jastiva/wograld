@@ -11,7 +11,7 @@ enter_x 8
 enter_y 24
 msg
 Created:  2002-04-02 Bernd Edler (edler@heydernet.de)
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2019-08-15 lori
 endmsg
 end
 arch dungeon_magic
@@ -2528,10 +2528,6 @@ y 17
 end
 arch orcchop
 name cheap bonbons (exhibit)
-msg
-Just hit any one target and you have
-already won this.
-endmsg
 face pearl.111
 food 1
 x 7
@@ -2888,12 +2884,6 @@ y 17
 end
 arch silvercoin
 name cloth rose (exhibit)
-race none
-slaying wurfb2
-msg
-At least two different targets have to
-be hit to win one of these.
-endmsg
 face rose_red.111
 x 8
 y 17
@@ -3282,13 +3272,8 @@ y 17
 end
 arch goldcoin
 name Teddy (exhibit)
-race none
 slaying wurfb3
-msg
-All 3 different targets must be hit to
-win one of these.
-endmsg
-face elem_earth.112
+face teddybear.111
 x 9
 y 17
 material 128

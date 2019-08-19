@@ -8,7 +8,9 @@ enter_x 17
 enter_y 1
 msg
 Created:  1999-01-15 Cater/Wade (john_cater@yahoo.com)
+Modified: 2019-08-19 lori
 endmsg
+background_music dkch
 end
 arch dungeon_floor
 end
@@ -1513,111 +1515,111 @@ arch random_wealth
 x 8
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 8
 end
-arch wwall_2_2_2
+arch dkbluemarblewall_4
 x 8
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 9
 end
-arch wwall_2_1_1
+arch white_wall_1_1
 x 8
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 10
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 11
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 12
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 13
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 14
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 15
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 16
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 17
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 18
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 8
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 19
 end
-arch wwall_2_1_1
+arch white_wall_1_2
 x 8
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 8
 y 20
 end
-arch wwall_2_2_1
+arch dkbluemarblewall_4
 x 8
 y 20
 end
-arch grass
+arch medium_stones
 x 8
 y 21
 end
@@ -1732,15 +1734,15 @@ arch grass
 x 9
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_1_4
 x 9
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 9
 end
@@ -1749,39 +1751,39 @@ x 9
 y 9
 no_pick 1
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 18
 end
@@ -1789,7 +1791,7 @@ arch chair_1.4
 x 9
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 19
 end
@@ -1797,15 +1799,15 @@ arch chair_1.4
 x 9
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 9
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_4
 x 9
 y 20
 end
-arch grass
+arch beach
 x 9
 y 21
 end
@@ -1921,51 +1923,51 @@ x 10
 y 7
 speed_left -0.380000
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 10
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 18
 end
@@ -1973,7 +1975,7 @@ arch chair_1.4
 x 10
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 19
 end
@@ -1981,15 +1983,15 @@ arch chair_1.4
 x 10
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 10
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_3
 x 10
 y 20
 end
-arch grass
+arch bosgrass10
 x 10
 y 21
 end
@@ -2100,23 +2102,23 @@ arch grass
 x 11
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 11
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 11
 end
@@ -2124,7 +2126,7 @@ arch wwall_1_4
 x 11
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 12
 end
@@ -2132,11 +2134,11 @@ arch chair_1.1
 x 11
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 14
 end
@@ -2144,11 +2146,11 @@ arch chair_1.1
 x 11
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 16
 end
@@ -2156,19 +2158,19 @@ arch chair_1.1
 x 11
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 11
 y 20
 end
@@ -2295,23 +2297,23 @@ arch random_wealth
 x 12
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 12
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 11
 end
@@ -2319,7 +2321,7 @@ arch wwall_2_1_2
 x 12
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 12
 end
@@ -2331,11 +2333,11 @@ arch zombie
 x 12
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 14
 end
@@ -2347,11 +2349,11 @@ arch ghost
 x 12
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 16
 end
@@ -2363,19 +2365,19 @@ arch zombie
 x 12
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 12
 y 20
 end
@@ -2497,19 +2499,19 @@ arch grass
 x 13
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 13
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 10
 end
@@ -2521,7 +2523,7 @@ arch wwall_2_1_2
 x 13
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 12
 end
@@ -2529,7 +2531,7 @@ arch chair_1.1
 x 13
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 13
 end
@@ -2537,7 +2539,7 @@ arch ghost
 x 13
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 14
 end
@@ -2545,11 +2547,11 @@ arch chair_1.1
 x 13
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 16
 end
@@ -2557,27 +2559,27 @@ arch chair_1.1
 x 13
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 13
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_4
 x 13
 y 20
 end
-arch grass
+arch bosgrass16
 x 13
 y 21
 end
@@ -2688,23 +2690,23 @@ arch grass
 x 14
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_1_3
 x 14
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 11
 end
@@ -2712,7 +2714,7 @@ arch wwall_2_1_2
 x 14
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 12
 end
@@ -2724,7 +2726,7 @@ arch zombie
 x 14
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 13
 end
@@ -2732,7 +2734,7 @@ arch ghost
 x 14
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 14
 end
@@ -2740,11 +2742,11 @@ arch chair_1.1
 x 14
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 16
 end
@@ -2756,15 +2758,15 @@ arch zombie
 x 14
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 19
 end
@@ -2773,15 +2775,15 @@ x 14
 y 19
 no_pick 1
 end
-arch woodfloor
+arch bluemarble
 x 14
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 14
 y 20
 end
-arch grass
+arch bosgrass16
 x 14
 y 21
 end
@@ -2919,23 +2921,23 @@ arch swall_2_1_1
 x 15
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 8
 end
-arch wwall_2_2_4
+arch dkbluemarblewall_4
 x 15
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 11
 end
@@ -2943,7 +2945,7 @@ arch wwall_2_1_2
 x 15
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 12
 end
@@ -2951,7 +2953,7 @@ arch chair_1.1
 x 15
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 13
 end
@@ -2959,7 +2961,7 @@ arch ghost
 x 15
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 14
 end
@@ -2967,11 +2969,11 @@ arch chair_1.1
 x 15
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 16
 end
@@ -2979,27 +2981,27 @@ arch chair_1.1
 x 15
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 15
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 15
 y 20
 end
-arch grass
+arch bosgrass16
 x 15
 y 21
 end
@@ -3162,15 +3164,15 @@ arch door_look_1
 x 16
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 11
 end
@@ -3178,7 +3180,7 @@ arch wwall_2_1_2
 x 16
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 12
 end
@@ -3190,7 +3192,7 @@ arch zombie
 x 16
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 13
 end
@@ -3198,7 +3200,7 @@ arch ghost
 x 16
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 14
 end
@@ -3206,11 +3208,11 @@ arch chair_1.1
 x 16
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 16
 end
@@ -3222,11 +3224,11 @@ arch zombie
 x 16
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 18
 end
@@ -3235,7 +3237,7 @@ x 16
 y 18
 level 120
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 19
 end
@@ -3244,11 +3246,11 @@ name Devourer Priest
 x 16
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 16
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 16
 y 20
 end
@@ -3434,15 +3436,15 @@ arch door_look_1
 x 17
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 11
 end
@@ -3450,7 +3452,7 @@ arch wwall_2_1_2
 x 17
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 12
 end
@@ -3458,11 +3460,11 @@ arch chair_1.1
 x 17
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 14
 end
@@ -3474,11 +3476,11 @@ arch ghost
 x 17
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 16
 end
@@ -3486,11 +3488,11 @@ arch chair_1.1
 x 17
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 18
 end
@@ -3499,7 +3501,7 @@ x 17
 y 18
 level 120
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 19
 end
@@ -3512,11 +3514,11 @@ endmsg
 x 17
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 17
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 17
 y 20
 end
@@ -3702,15 +3704,15 @@ arch door_look_1
 x 18
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 11
 end
@@ -3718,7 +3720,7 @@ arch wwall_2_1_2
 x 18
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 12
 end
@@ -3730,7 +3732,7 @@ arch zombie
 x 18
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 13
 end
@@ -3738,7 +3740,7 @@ arch ghost
 x 18
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 14
 end
@@ -3746,11 +3748,11 @@ arch chair_1.1
 x 18
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 16
 end
@@ -3762,11 +3764,11 @@ arch zombie
 x 18
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 18
 end
@@ -3775,7 +3777,7 @@ x 18
 y 18
 level 120
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 19
 end
@@ -3784,11 +3786,11 @@ name Devourer Priest
 x 18
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 18
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 18
 y 20
 end
@@ -3954,23 +3956,23 @@ arch swall_2_1_1
 x 19
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 8
 end
-arch wwall_2_2_1
+arch dkbluemarblewall_4
 x 19
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 11
 end
@@ -3978,7 +3980,7 @@ arch wwall_2_1_2
 x 19
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 12
 end
@@ -3986,7 +3988,7 @@ arch chair_1.1
 x 19
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 13
 end
@@ -3994,7 +3996,7 @@ arch ghost
 x 19
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 14
 end
@@ -4002,11 +4004,11 @@ arch chair_1.1
 x 19
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 16
 end
@@ -4014,27 +4016,27 @@ arch chair_1.1
 x 19
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 19
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 19
 y 20
 end
-arch grass
+arch bosgrass16
 x 19
 y 21
 end
@@ -4165,23 +4167,23 @@ arch random_wealth
 x 20
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_1_4
 x 20
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 11
 end
@@ -4189,7 +4191,7 @@ arch wwall_2_1_2
 x 20
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 12
 end
@@ -4201,7 +4203,7 @@ arch zombie
 x 20
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 13
 end
@@ -4209,7 +4211,7 @@ arch ghost
 x 20
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 14
 end
@@ -4217,11 +4219,11 @@ arch chair_1.1
 x 20
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 16
 end
@@ -4233,15 +4235,15 @@ arch zombie
 x 20
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 19
 end
@@ -4250,15 +4252,15 @@ x 20
 y 19
 no_pick 1
 end
-arch woodfloor
+arch bluemarble
 x 20
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 20
 y 20
 end
-arch grass
+arch bosgrass16
 x 20
 y 21
 end
@@ -4393,23 +4395,23 @@ arch grass
 x 21
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 21
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 11
 end
@@ -4417,7 +4419,7 @@ arch wwall_2_1_2
 x 21
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 12
 end
@@ -4425,7 +4427,7 @@ arch chair_1.1
 x 21
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 13
 end
@@ -4433,7 +4435,7 @@ arch ghost
 x 21
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 14
 end
@@ -4441,11 +4443,11 @@ arch chair_1.1
 x 21
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 16
 end
@@ -4453,27 +4455,27 @@ arch chair_1.1
 x 21
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 21
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_3
 x 21
 y 20
 end
-arch grass
+arch bosgrass16
 x 21
 y 21
 end
@@ -4597,23 +4599,23 @@ x 22
 y 7
 speed_left -0.380000
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 22
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 11
 end
@@ -4621,7 +4623,7 @@ arch wwall_2_1_2
 x 22
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 12
 end
@@ -4633,11 +4635,11 @@ arch zombie
 x 22
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 14
 end
@@ -4649,11 +4651,11 @@ arch ghost
 x 22
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 16
 end
@@ -4665,19 +4667,19 @@ arch zombie
 x 22
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 22
 y 20
 end
@@ -4796,23 +4798,23 @@ arch grass
 x 23
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 23
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 11
 end
@@ -4820,7 +4822,7 @@ arch wwall_1_3
 x 23
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 12
 end
@@ -4828,11 +4830,11 @@ arch chair_1.1
 x 23
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 14
 end
@@ -4840,11 +4842,11 @@ arch chair_1.1
 x 23
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 16
 end
@@ -4852,19 +4854,19 @@ arch chair_1.1
 x 23
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 23
 y 20
 end
@@ -4992,51 +4994,51 @@ x 24
 y 7
 speed_left -0.268000
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_2_1_2
 x 24
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 18
 end
@@ -5044,7 +5046,7 @@ arch chair_1.2
 x 24
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 19
 end
@@ -5052,15 +5054,15 @@ arch chair_1.2
 x 24
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 24
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_4
 x 24
 y 20
 end
-arch grass
+arch bosgrass16
 x 24
 y 21
 end
@@ -5179,15 +5181,15 @@ arch random_treasure
 x 25
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 8
 end
-arch wwall_2_1_2
+arch white_wall_1_3
 x 25
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 9
 end
@@ -5196,39 +5198,39 @@ x 25
 y 9
 no_pick 1
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 18
 end
@@ -5236,7 +5238,7 @@ arch chair_1.2
 x 25
 y 18
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 19
 end
@@ -5244,15 +5246,15 @@ arch chair_1.2
 x 25
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 25
 y 20
 end
-arch wwall_2_1_2
+arch white_wall_1_3
 x 25
 y 20
 end
-arch grass
+arch bosgrass16
 x 25
 y 21
 end
@@ -5372,91 +5374,91 @@ arch grass
 x 26
 y 7
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 8
 end
-arch wwall_2_2_3
+arch dkbluemarblewall_4
 x 26
 y 8
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 9
 end
-arch wwall_2_1_1
+arch white_wall_1_1
 x 26
 y 9
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 10
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 10
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 11
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 11
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 12
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 12
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 13
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 13
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 14
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 14
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 15
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 15
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 16
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 16
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 17
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 17
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 18
 end
-arch wwall_2_1_1
+arch white_wall_2_1_1
 x 26
 y 18
 end
@@ -5464,19 +5466,19 @@ arch woodfloor
 x 26
 y 19
 end
-arch wwall_2_1_1
+arch white_wall_1_2
 x 26
 y 19
 end
-arch woodfloor
+arch bluemarble
 x 26
 y 20
 end
-arch wwall_2_2_4
+arch dkbluemarblewall_4
 x 26
 y 20
 end
-arch grass
+arch pstone_4
 x 26
 y 21
 end
