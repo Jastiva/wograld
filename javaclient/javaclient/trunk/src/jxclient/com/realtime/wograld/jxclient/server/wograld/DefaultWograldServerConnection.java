@@ -4075,6 +4075,11 @@ public class DefaultWograldServerConnection extends DefaultServerConnection impl
         
         trackname="riseagain.ogg";
     }
+    else if(track==65 )
+    {
+        
+        trackname="snow01.ogg";
+    }
     else if(track==66 )
     {
         
