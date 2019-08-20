@@ -5,7 +5,13 @@ name ophan
 face ophan.111
 anim
 ophan.111
+ophan.112
 ophan.111
+ophan.114
+ophan.113
+ophan.115
+ophan.111
+ophan.112
 mina
 monster 1
 sleep 0

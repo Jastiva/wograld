@@ -2,10 +2,17 @@ Object phoenix
 randomitems phoenix
 race angel
 name phoenix
-face phoenix.111
+face phoenix.151
 anim
+facings 4
 phoenix.111
-phoenix.111
+phoenix.112
+phoenix.131
+phoenix.132
+phoenix.151
+phoenix.152
+phoenix.171
+phoenix.172
 mina
 monster 1
 sleep 0
