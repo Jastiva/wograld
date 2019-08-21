@@ -6,9 +6,9 @@ face archon.111
 color_fg red 
 anim
 archon.111
-archon.222
-archon.333
-archon.444
+archon.112
+archon.113
+archon.114
 mina
 is_animated 1
 flying 1

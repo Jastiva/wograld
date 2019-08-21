@@ -1,13 +1,18 @@
 object black_metallic_serpent
 anim
-cobra_black.x11
-cobra_black.x12
-cobra_black.x13
-cobra_black.x12
+facings 2
+cobra_black.151
+cobra_black.153
+cobra_black.152
+cobra_black.153
+cobra_black.171
+cobra_black.173
+cobra_black.172
+cobra_black.173
 mina
 inherit cobra
 name black metallic serpent
-face cobra_black.x12
+face cobra_black.151
 hp 500
 maxhp 500
 exp 10000
@@ -18,18 +23,6 @@ resist_electricity 30
 resist_poison 100
 randomitems black_metallic_serpent
 can_see_in_dark 1
-end
-more
-object black_metallic_serpent_2
-anim
-cobra_black.x11
-cobra_black.x12
-cobra_black.x13
-cobra_black.x12
-mina
-inherit cobra_2
-face cobra_black.x12
-y 1
 end
 
 object black_metallic_serpent_lightning
@@ -42,10 +35,6 @@ speed 1
 randomitems black_metallic_serpent_lightning
 end
 
-object black_metallic_serpent_lightning_2
-inherit black_metallic_serpent_sleek_2
-end
-
 object black_metallic_serpent_sleek
 inherit black_metallic_serpent
 name One sleek black metallic serpent
@@ -54,20 +43,21 @@ maxhp 500
 exp 25000
 speed 0.7
 end
-more
-object black_metallic_serpent_sleek_2
-inherit black_metallic_serpent_2
-end
 
 Object cobra
 name giant cobra
-face cobra.112
+face cobra.151
 race reptile
 anim
-cobra.111
-cobra.112
-cobra.113
-cobra.112
+facings 2
+cobra.151
+cobra.153
+cobra.152
+cobra.153
+cobra.171
+cobra.173
+cobra.172
+cobra.173
 mina
 color_fg green
 speed -0.1
@@ -87,19 +77,4 @@ maxhp 30
 level 5
 weight 20000
 editable 1
-end
-More
-Object cobra_2
-name giant cobra
-face cobra.212
-anim
-cobra.211
-cobra.212
-cobra.213
-cobra.212
-mina
-color_fg green
-alive 1
-no_pick 1
-y 1
 end
