@@ -1,16 +1,12 @@
 Object s_mastif
 name shadow mastif
-face s_mastif.131
+face s_mastif.151
 race shadow
 anim
 facings 2
-s_mastif.131
-s_mastif.132
-s_mastif.133
-s_mastif.132
+s_mastif.151
+s_mastif.152
 s_mastif.171
-s_mastif.172
-s_mastif.173
 s_mastif.172
 mina
 monster 1

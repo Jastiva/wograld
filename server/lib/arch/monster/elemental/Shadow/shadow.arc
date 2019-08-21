@@ -1,11 +1,14 @@
 Object shadow
 name shadow
-face shadow.111
+face shadow.151
 race shadow
 randomitems shadow
 anim
-shadow.111
-shadow.112
+facings 2
+shadow.151
+shadow.152
+shadow.171
+shadow.172
 mina
 monster 1
 sleep 1

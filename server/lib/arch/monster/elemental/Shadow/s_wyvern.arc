@@ -1,12 +1,12 @@
 Object s_wyvern
 name shadow wyvern
-face s_wyvern.171
+face s_wyvern.151
 race shadow
 randomitems s_wyvern
 anim
 facings 2
-s_wyvern.131
-s_wyvern.132
+s_wyvern.151
+s_wyvern.152
 s_wyvern.171
 s_wyvern.172
 mina
@@ -46,22 +46,4 @@ editable 1
 run_away 5
 attack_movement 3
 color_fg black
-end
-More
-Object s_wyvern_2
-name shadow wyvern
-face s_wyvern.271
-color_fg black
-anim
-facings 2
-s_wyvern.231
-s_wyvern.232
-s_wyvern.271
-s_wyvern.272
-mina
-monster 1
-x 1
-alive 1
-no_pick 1
-weight 1000
 end
