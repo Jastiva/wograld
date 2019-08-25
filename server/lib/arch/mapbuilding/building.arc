@@ -16,6 +16,16 @@ type 160
 subtype 2
 face mbhammer.111
 end
+Object building_title
+name building_title
+type 171
+no_steal 1
+inv_locked 1
+title 0
+weight 100
+value 150
+face power_crystal.111
+end
 Object shop_building
 name tiles
 is_floor 1

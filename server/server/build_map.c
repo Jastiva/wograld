@@ -347,7 +347,9 @@ void fix_walls( struct mapdef* map, int x, int y )
  *   Note: this function will inconditionally change squares around (x, y)
  *    so don't call it with x == 0 for instance!
  */
-void apply_builder_floor(object* pl, object* material, short x, short y )
+
+
+void apply_builder_floor(object* pl, object* material, short x, short y, object *build_title )
     {
     object* tmp, *above;
     object* above_floor; /* Item above floor, if any */
@@ -359,7 +361,7 @@ void apply_builder_floor(object* pl, object* material, short x, short y )
     sprintf( message, "You change the floor to better suit your tastes." );
 
     /*
-     * Now the building part... 
+     * Now the building part...
      * First, remove wall(s) and floor(s) at position x, y
      */
     above_floor = NULL;
@@ -394,23 +396,55 @@ void apply_builder_floor(object* pl, object* material, short x, short y )
             tmp = above;
             }
         }
-
     /* Now insert our floor */
     new_floor = find_archetype( material->slaying );
     if ( !new_floor )
         {
         /* Not found, log & bail out */
-	    LOG( llevError, "apply_builder_floor: unable to find archetype %s.\n", material->slaying );
+            LOG( llevError, "apply_builder_floor: unable to find archetype %s.\n", material->slaying );
         return;
         }
 
     tmp = arch_to_object( new_floor );
     SET_FLAG( tmp, FLAG_IS_BUILDABLE );
     SET_FLAG( tmp, FLAG_UNIQUE );
-	SET_FLAG( tmp, FLAG_IS_FLOOR );
+        SET_FLAG( tmp, FLAG_IS_FLOOR );
     tmp->type = FLOOR;
-    insert_ob_in_map_at( tmp, pl->map, above_floor, above_floor ? INS_BELOW_ORIGINATOR : INS_ON_TOP, x, y );
 
+      if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp->title=build_title->title;
+               printf("new item build_title %s\n", tmp->title);
+           }
+      }
+
+   // if(above_floor != 0)
+    //{
+	object *backup_floor = arch_to_object(find_archetype("woodfloor"));	
+
+	SET_FLAG(backup_floor, FLAG_IS_BUILDABLE);
+        SET_FLAG(backup_floor, FLAG_UNIQUE);
+        SET_FLAG(backup_floor, FLAG_IS_FLOOR);
+        if(build_title != NULL)
+        {
+              if(build_title->title != NULL)
+              {
+                 backup_floor->title=build_title->title;
+                 printf("backup item build_title %s\n", build_title->title);
+	     }
+       }
+
+       
+
+    insert_ob_in_map_at( backup_floor, pl->map, above_floor, INS_ON_TOP, x, y);	
+
+    //}
+    insert_ob_in_map_at( tmp, pl->map, above_floor, above_floor ? INS_BELOW_ORIGINATOR : INS_ON_TOP, x, y );
+//	insert_ob_in_map_at( tmp, pl->map, above_floor, INS_ON_TOP, x, y );
     /*
      * Next step: make sure there are either walls or floors around the new square
      * Since building, you can have: blocking view / floor / wall / nothing
@@ -428,18 +462,44 @@ void apply_builder_floor(object* pl, object* material, short x, short y )
             SET_FLAG( tmp, FLAG_UNIQUE );
             SET_FLAG( tmp, FLAG_IS_BUILDABLE );
             tmp->type = FLOOR;
-            insert_ob_in_map_at( tmp, pl->map, 0, 0, xt, yt );
+
+      if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp->title=build_title->title;
+               printf("new item build_title %s\n", tmp->title);
+           }
+      }
+
+
+       //     insert_ob_in_map_at( tmp, pl->map, 0, 0, xt, yt );
+	  insert_ob_in_map_at( tmp, pl->map, 0, INS_ON_TOP, xt, yt);
             /* Insert wall if exists. Note: if it doesn't, the map is weird... */
             if ( new_wall )
                 {
                 tmp = arch_to_object( new_wall );
                 SET_FLAG( tmp, FLAG_IS_BUILDABLE );
+                SET_FLAG(tmp, FLAG_UNIQUE);
                 tmp->type = WALL;
-                insert_ob_in_map_at( tmp, pl->map, 0, 0, xt, yt );
+                if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp->title=build_title->title;
+               printf("new item build_title %s\n",tmp->title);
+           }
+      }
+
+              //  insert_ob_in_map_at( tmp, pl->map, 0, 0, xt, yt );
+ 		insert_ob_in_map_at( tmp, pl->map, 0, INS_ON_TOP, xt, yt);
                 }
             }
         }
-
     /* Finally fixing walls to ensure nice continuous walls
      * Note: 2 squares around are checked, because potentially we added walls around the building
      * spot, so need to check that those new walls connect correctly
@@ -458,6 +518,9 @@ void apply_builder_floor(object* pl, object* material, short x, short y )
     new_draw_info( NDI_UNIQUE, 0, pl, message );
     }
 
+
+
+
 /**
  * Wall building function
  *
@@ -465,7 +528,9 @@ void apply_builder_floor(object* pl, object* material, short x, short y )
  *  - on a floor without anything else
  *  - on an existing wall, with or without a floor
  */
-void apply_builder_wall( object* pl, object* material, short x, short y )
+
+
+void apply_builder_wall( object* pl, object* material, short x, short y, object *build_title )
     {
     object* current_wall;
     object* tmp;
@@ -473,7 +538,7 @@ void apply_builder_wall( object* pl, object* material, short x, short y )
     struct archt* new_wall;
     char message[ MAX_BUF ];
 
-    remove_marking_runes( pl->map, x, y );    
+    remove_marking_runes( pl->map, x, y );
 
     /* Grab existing wall, if any */
     current_wall = NULL;
@@ -493,13 +558,25 @@ void apply_builder_wall( object* pl, object* material, short x, short y )
     new_wall = find_archetype( material->slaying );
     if ( !new_wall )
         {
-	    LOG( llevError, "apply_builder_wall: unable to find archetype %s\n", material->slaying );
+            LOG( llevError, "apply_builder_wall: unable to find archetype %s\n", material->slaying );
         return;
         }
 
     tmp = arch_to_object( new_wall );
     tmp->type = WALL;
     SET_FLAG( tmp, FLAG_IS_BUILDABLE );
+    SET_FLAG( tmp, FLAG_UNIQUE);
+
+     if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp->title=build_title->title;
+               printf("new tile title %s\n", tmp->title);
+           }
+      }
     insert_ob_in_map_at( tmp, pl->map, 0, INS_ABOVE_FLOOR_ONLY, x, y );
 
     /* If existing wall, remove it, no need to fix other walls */
@@ -518,7 +595,6 @@ void apply_builder_wall( object* pl, object* material, short x, short y )
                 {
                 if ( OUT_OF_REAL_MAP( pl->map, xt, yt ) )
                     continue;
-
                 fix_walls( pl->map, xt, yt );
                 }
         }
@@ -530,6 +606,7 @@ void apply_builder_wall( object* pl, object* material, short x, short y )
     new_draw_info( NDI_UNIQUE, 0, pl, message );
     }
 
+
 /**
  * Generic item builder.
  *
@@ -538,7 +615,9 @@ void apply_builder_wall( object* pl, object* material, short x, short y )
  * Type of inserted item is tested for specific cases (doors & such).
  * Item is inserted above the floor, unless Str == 1 (only for detectors i guess)
  */
-void apply_builder_item( object* pl, object* item, short x, short y )
+
+
+void apply_builder_item( object* pl, object* item, short x, short y, object *build_title )
     {
     object* tmp;
     struct archt* arch;
@@ -569,16 +648,26 @@ void apply_builder_item( object* pl, object* item, short x, short y )
         return;
 
     tmp = arch_to_object( arch );
-    
+
     if ( ( floor->above ) && ( !can_build_over(pl->map, tmp, x, y) ) )
         /* Floor has something on top that interferes with building */
         {
         new_draw_info( NDI_UNIQUE, 0, pl, "You can't build here." );
         return;
         }
-    
+
     SET_FLAG( tmp, FLAG_IS_BUILDABLE );
     SET_FLAG( tmp, FLAG_NO_PICK );
+     if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp->title=build_title->title;
+               printf("new tile title %s\n", tmp->title);
+           }
+      }
 
     /*
      * This doesn't work on non unique maps. pedestals under floor will not be saved...
@@ -596,13 +685,13 @@ void apply_builder_item( object* pl, object* item, short x, short y )
         case TIMED_GATE:
         case PEDESTAL:
         case CF_HANDLE:
-	case MAGIC_EAR:
-	case SIGN:
-	    /* Signs don't need a connection, but but magic mouths do. */
-	    if (tmp->type == SIGN && strcmp( tmp->arch->name, "magic_mouth" ))
-	        break;
-	    con_rune = get_connection_rune( pl, x, y );
-	    connected = find_or_create_connection_for_map( pl, x, y, con_rune );
+        case MAGIC_EAR:
+        case SIGN:
+            /* Signs don't need a connection, but but magic mouths do. */
+            if (tmp->type == SIGN && strcmp( tmp->arch->name, "magic_mouth" ))
+                break;
+            con_rune = get_connection_rune( pl, x, y );
+            connected = find_or_create_connection_for_map( pl, x, y, con_rune );
             if ( connected == -1 )
                 {
                 /* Player already informed of failure by the previous function */
@@ -613,16 +702,16 @@ void apply_builder_item( object* pl, object* item, short x, short y )
             remove_ob( con_rune );
             free_object( con_rune );
         }
-	
-    /* For magic mouths/ears, and signs, take the msg from a book of scroll */	
+
+    /* For magic mouths/ears, and signs, take the msg from a book of scroll */
     if ((tmp->type == SIGN) || (tmp->type == MAGIC_EAR))
         {
-	if (adjust_sign_msg( pl, x, y, tmp ) == -1)
-	    {
+        if (adjust_sign_msg( pl, x, y, tmp ) == -1)
+            {
             free_object( tmp );
             return;
-	    }
-	}
+            }
+        }
 
     insert_ob_in_map_at( tmp, pl->map, floor, insert_flag, x, y );
     if ( connected != 0 )
@@ -631,6 +720,8 @@ void apply_builder_item( object* pl, object* item, short x, short y )
     new_draw_info_format( NDI_UNIQUE, 0, pl, "You build the %s", query_name( tmp ) );
     decrease_ob_nr( item, 1 );
     }
+
+
 
 /**
  * Item remover.
@@ -660,8 +751,9 @@ void apply_builder_remove( object* pl, int dir )
 
     if ( !item )
         {
-        new_draw_info( NDI_UNIQUE, 0, pl, "Nothing to remove." );
+        new_draw_info( NDI_UNIQUE, 0, pl, "Nothing except floor to remove." );
         return;
+        // item=GET_MAP_OB(pl->map,x,y);
         }
 
     /* Now remove object, with special cases (buttons & such) */
@@ -700,26 +792,31 @@ void apply_builder_remove( object* pl, int dir )
  * This is the general map building function. Called when the player 'fires' a builder
  * or remover object.
  */
+   
+
 void apply_map_builder( object* pl, int dir )
     {
     object* builder;
     object* tmp;
     object* tmp2;
+    object* tmp3;
     short x, y;
+
+    char *localtitle = NULL;
 
     if ( !pl->type == PLAYER )
         return;
 
     /*if ( !player->map->unique )
         {
-	    new_draw_info( NDI_UNIQUE, 0, player, "You can't build outside a unique map." );
-	    return;
+            new_draw_info( NDI_UNIQUE, 0, player, "You can't build outside a unique map." );
+            return;
         }*/
 
     if ( dir == 0 )
         {
-	    new_draw_info( NDI_UNIQUE, 0, pl, "You can't build or destroy under yourself." );
-	    return;
+            new_draw_info( NDI_UNIQUE, 0, pl, "You can't build or destroy under yourself." );
+            return;
         }
 
     x = pl->x + freearr_x[ dir ];
@@ -738,31 +835,101 @@ void apply_map_builder( object* pl, int dir )
      * since they are used for special things like connecting doors / buttons
      */
 
-    tmp = GET_MAP_OB( pl->map, x, y );
+   
+  int permission=0;
+ tmp = GET_MAP_OB( pl->map, x, y );
     if ( !tmp )
         {
         /* Nothing, meaning player is standing next to an undefined square... */
-	    LOG( llevError, "apply_map_builder: undefined square at (%d, %d, %s)\n", x, y, pl->map->path );
+            LOG( llevError, "apply_map_builder: undefined square at (%d, %d, %s)\n", x, y, pl->map->path );
         new_draw_info( NDI_UNIQUE, 0, pl, "You'd better not build here, it looks weird." );
         return;
         }
     tmp2 = find_marked_object( pl );
+
+
     while ( tmp )
-        {
+
+  {
         if ( !QUERY_FLAG( tmp, FLAG_IS_BUILDABLE ) && ( ( tmp->type != SIGN )
-	|| ( strcmp( tmp->arch->name, "rune_mark" ) ) ) )
+        || ( strcmp( tmp->arch->name, "rune_mark" ) ) ) )
             {
-	        /* The item building function already has it's own special
-		 * checks for this
-		 */
-	        if ((!tmp2) || (tmp2->subtype != ST_MAT_ITEM ))
-		    {
-	            new_draw_info( NDI_UNIQUE, 0, pl, "You can't build here." );
-	            return;
-		    }
+                /* The item building function already has it's own special
+                 * checks for this
+                 */
+                if ((!tmp2) || (tmp2->subtype != ST_MAT_ITEM ))
+                    {
+                    new_draw_info( NDI_UNIQUE, 0, pl, "You can't build here." );
+                    return;
+                    }
             }
         tmp = tmp->above;
         }
+
+  tmp=GET_MAP_OB(pl->map, x, y);
+  while(tmp)
+  {
+     
+     // idk why the above check also looked at the build material
+         
+         
+          
+         //if((tmp->type==DOOR )||(tmp->type==GATE )||(tmp->type==BUTTON )||(tmp->type==DETECTOR )||(tmp->type==TIMED_GATE )||( tmp->type==PEDESTAL )||( tmp->type==CF_HANDLE )||(tmp->type==MAGIC_EAR )|| 
+         // (tmp->type== SIGN ) || ( tmp->type==FLOOR ) || ( tmp->type==WALL ) )
+         // {
+                // check for titles on swords or players,
+                // you should not try to build here anyway
+              if(tmp->title != NULL)
+              {
+              localtitle = tmp->title;
+              break;
+              }
+         // }
+          // lets not worry too much here because other items may have their own title
+
+         tmp=tmp->above;
+          
+  }
+
+  if(localtitle == NULL)
+  {
+     new_draw_info( NDI_UNIQUE, 0, pl, "You don't have permission to build here." );
+      return;
+   }
+
+   printf("tile title %s\n", localtitle);
+
+   for(tmp3= pl->inv;tmp3;tmp3=tmp3->below) {
+                      // if (tmp3->type==BUILD_TITLE){
+                      printf("got buildtitle\n");
+                         printf("localtitle\n");
+                        if(tmp3->title)
+                        {
+                          printf("build title %s\n",tmp3->title); 
+                            if (!(strcmp( tmp3->title, localtitle)))
+                            {
+				  permission = 1;
+                                  break;
+                            }
+                            else
+                            {
+                                  printf("not match title\n");
+                            }
+                         }
+                         else
+                        {
+                           printf("no title found\n");
+
+                       }
+                    // }
+                  }
+ if(permission != 1)
+   {
+ new_draw_info( NDI_UNIQUE, 0, pl, "No permission to build here." );
+      return;
+   }
+   else
+   {
 
     /* Now we know the square is ok */
     builder = pl->contr->ranges[ range_builder ];
@@ -783,42 +950,47 @@ void apply_map_builder( object* pl, int dir )
         tmp = tmp2;
         if ( !tmp )
             {
-	        new_draw_info( NDI_UNIQUE, 0, pl, "You need to mark raw materials to use." );
-	        return;
+                new_draw_info( NDI_UNIQUE, 0, pl, "You need to mark raw materials to use." );
+                return;
             }
 
         if ( tmp->type != MATERIAL )
             {
-	        new_draw_info( NDI_UNIQUE, 0, pl, "You can't use the marked item to build." );
-	        return;
+                new_draw_info( NDI_UNIQUE, 0, pl, "You can't use the marked item to build." );
+                return;
             }
-	    
+
         switch( tmp->subtype )
             {
             case ST_MAT_FLOOR:
-                apply_builder_floor( pl, tmp, x, y );
+                apply_builder_floor( pl, tmp, x, y, tmp3 );
                 return;
-        
+
             case ST_MAT_WALL:
-                apply_builder_wall( pl, tmp, x, y );
+                apply_builder_wall( pl, tmp, x, y, tmp3 );
                 return;
 
             case ST_MAT_ITEM:
-                apply_builder_item( pl, tmp, x, y );
+                apply_builder_item( pl, tmp, x, y, tmp3 );
                 return;
 
             default:
                 new_draw_info( NDI_UNIQUE, 0, pl, "Don't know how to apply this material, sorry." );
-	            LOG( llevError, "apply_map_builder: invalid material subtype %d\n", tmp->subtype );
+                    LOG( llevError, "apply_map_builder: invalid material subtype %d\n", tmp->subtype );
                 return;
             }
         }
 
-    /* Here, it means the builder has an invalid type */
+ /* Here, it means the builder has an invalid type */
     new_draw_info( NDI_UNIQUE, 0, pl, "Don't know how to apply this tool, sorry." );
     LOG( llevError, "apply_map_builder: invalid builder subtype %d\n", builder->subtype );
+
+
+      } // permission
     }
-    
+
+
+ 
 /**
  * Make the built object inherit the msg of books that are used with it.
  * For objects already invisible (i.e. magic mouths & ears), also make it
