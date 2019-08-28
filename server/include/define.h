@@ -296,8 +296,9 @@ error - Your ANSI C compiler should be defining __STDC__;
 #define BANKBOX			168
 #define CLOSE_BANK		169
 #define BANK_HOLD		170
+#define BUILD_TITLE             171
 
-#define OBJECT_TYPE_MAX		    170 /* update if you add new types */
+#define OBJECT_TYPE_MAX		    171 /* update if you add new types */
 /* END TYPE DEFINE */
 
 /* Subtypes for BUILDER */
