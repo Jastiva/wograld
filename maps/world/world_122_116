@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  2002-06-02
-Modified: 2018-09-08 lori
+Modified: 2019-08-23 lori
 endmsg
 outdoor 1
 tile_path_1 world_122_115
@@ -238,9 +238,6 @@ arch dungeon_magic
 y 39
 end
 arch greenmarblelight
-y 39
-end
-arch barrack_up
 y 39
 end
 arch dungeon_magic
@@ -596,6 +593,10 @@ arch greenmarblemedium
 x 1
 y 39
 end
+arch fountain_exit
+x 1
+y 39
+end
 arch dungeon_magic
 x 1
 y 40
@@ -617,6 +618,10 @@ x 1
 y 42
 end
 arch greenmarblemedium
+x 1
+y 42
+end
+arch fountain_exit
 x 1
 y 42
 end
@@ -934,25 +939,26 @@ arch dungeon_magic
 x 2
 y 39
 end
-arch greenmarblemedium
+arch grass
 x 2
 y 39
 end
-arch university
-slaying /navar_city/university
+arch dungeon_magic
+x 2
+y 40
+end
+arch grass
+x 2
+y 40
+no_pass 1
+end
+arch keep_sym_noflag
+name University
+slaying ../navar_city/university
 hp 1
 sp 1
 x 2
-y 39
-end
-arch dungeon_magic
-x 2
 y 40
-end
-arch grass
-x 2
-y 40
-no_pass 1
 end
 arch dungeon_magic
 x 2
@@ -961,13 +967,12 @@ end
 arch grass
 x 2
 y 41
-no_pass 1
 end
 arch dungeon_magic
 x 2
 y 42
 end
-arch greenmarblemedium
+arch grass
 x 2
 y 42
 end
@@ -996,12 +1001,6 @@ x 2
 y 45
 end
 arch grass
-x 2
-y 45
-end
-arch palace
-name Navr City Palace
-name_pl Navr City Palace
 x 2
 y 45
 end
@@ -1278,6 +1277,14 @@ x 3
 y 40
 no_pass 1
 end
+arch keep_sym_noflag
+name University
+slaying ../navar_city/university
+hp 1
+sp 1
+x 3
+y 40
+end
 arch dungeon_magic
 x 3
 y 41
@@ -1285,13 +1292,12 @@ end
 arch grass
 x 3
 y 41
-no_pass 1
 end
 arch dungeon_magic
 x 3
 y 42
 end
-arch greenmarblemedium
+arch grass
 x 3
 y 42
 end
@@ -1546,9 +1552,9 @@ arch grass
 x 4
 y 34
 end
-arch a_civic
+arch keep_sym_noflag_misc_colored
 name Civic Theater
-slaying /navar_city/misc/theater
+slaying ../navar_city/misc/theater
 hp 15
 sp 28
 x 4
@@ -1590,7 +1596,7 @@ arch dungeon_magic
 x 4
 y 39
 end
-arch greenmarblemedium
+arch grass
 x 4
 y 39
 end
@@ -1602,11 +1608,19 @@ arch greenmarblemedium
 x 4
 y 40
 end
+arch keep_sym_noflag
+name University
+slaying ../navar_city/university
+hp 1
+sp 1
+x 4
+y 40
+end
 arch dungeon_magic
 x 4
 y 41
 end
-arch greenmarblemedium
+arch grass
 x 4
 y 41
 end
@@ -1614,7 +1628,7 @@ arch dungeon_magic
 x 4
 y 42
 end
-arch greenmarblemedium
+arch grass
 x 4
 y 42
 end
@@ -1911,6 +1925,14 @@ arch grass
 x 5
 y 34
 end
+arch lyth_temple
+name Civic Theater
+slaying ../navar_city/misc/theater
+hp 15
+sp 28
+x 5
+y 34
+end
 arch dungeon_magic
 x 5
 y 35
@@ -1947,7 +1969,7 @@ arch dungeon_magic
 x 5
 y 39
 end
-arch greenmarblemedium
+arch grass
 x 5
 y 39
 end
@@ -1959,11 +1981,19 @@ arch greenmarblemedium
 x 5
 y 40
 end
+arch keep_sym_noflag
+name University
+slaying ../navar_city/university
+hp 1
+sp 1
+x 5
+y 40
+end
 arch dungeon_magic
 x 5
 y 41
 end
-arch greenmarblemedium
+arch grass
 x 5
 y 41
 end
@@ -1971,7 +2001,7 @@ arch dungeon_magic
 x 5
 y 42
 end
-arch greenmarblemedium
+arch grass
 x 5
 y 42
 end
@@ -2226,6 +2256,14 @@ arch grass
 x 6
 y 34
 end
+arch keep_sym_noflag_misc_colored
+name Civic Theater
+slaying ../navar_city/misc/theater
+hp 15
+sp 28
+x 6
+y 34
+end
 arch dungeon_magic
 x 6
 y 35
@@ -2266,6 +2304,10 @@ arch greenmarblemedium
 x 6
 y 39
 end
+arch fountain_exit
+x 6
+y 39
+end
 arch dungeon_magic
 x 6
 y 40
@@ -2287,6 +2329,10 @@ x 6
 y 42
 end
 arch greenmarblemedium
+x 6
+y 42
+end
+arch fountain_exit
 x 6
 y 42
 end
@@ -3694,10 +3740,6 @@ arch grass
 x 10
 y 42
 end
-arch hovels
-x 10
-y 42
-end
 arch dungeon_magic
 x 10
 y 43
@@ -3706,19 +3748,11 @@ arch cobblestones4
 x 10
 y 43
 end
-arch hovels
-x 10
-y 43
-end
 arch dungeon_magic
 x 10
 y 44
 end
 arch cobblestones4
-x 10
-y 44
-end
-arch hovels
 x 10
 y 44
 end
@@ -4362,19 +4396,11 @@ arch cobblestones4
 x 12
 y 42
 end
-arch house_small
-x 12
-y 42
-end
 arch dungeon_magic
 x 12
 y 43
 end
 arch cobblestones4
-x 12
-y 43
-end
-arch house_small
 x 12
 y 43
 end
@@ -4395,6 +4421,7 @@ x 12
 y 45
 end
 arch house_1
+name 103 Lake Lane
 slaying /navar_city/city1houses
 hp 13
 sp 25
@@ -4418,6 +4445,7 @@ x 12
 y 47
 end
 arch house_small
+name 105 Lake Lane
 slaying /navar_city/city1houses
 hp 25
 sp 25
@@ -4433,6 +4461,7 @@ x 12
 y 48
 end
 arch house_1
+name 107 Lake Lane
 slaying /navar_city/city1houses2
 hp 1
 sp 27
@@ -4790,17 +4819,6 @@ arch cobblestones4
 x 13
 y 47
 end
-arch church
-name Church of Ixalovh
-slaying /navar_city/temples/ixalovh
-msg
-Under construction!
-endmsg
-hp 4
-sp 18
-x 13
-y 47
-end
 arch dungeon_magic
 x 13
 y 48
@@ -5100,6 +5118,7 @@ x 14
 y 41
 end
 arch house_1
+name 100 Lake Lane
 slaying /navar_city/city1houses
 hp 5
 sp 25
@@ -5147,6 +5166,7 @@ x 14
 y 45
 end
 arch house_1
+name 102 Lake Lane
 slaying /navar_city/city1houses
 hp 21
 sp 25
@@ -5174,6 +5194,14 @@ x 14
 y 48
 end
 arch cobblestones4
+x 14
+y 48
+end
+arch lyth_temple
+name Church of Ixalovh
+slaying ../navar_city/temples/ixalovh
+hp 4
+sp 18
 x 14
 y 48
 end
@@ -6205,7 +6233,7 @@ arch dungeon_magic
 x 17
 y 41
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 41
 end

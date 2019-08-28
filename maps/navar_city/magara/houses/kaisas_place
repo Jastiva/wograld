@@ -6,29 +6,28 @@ width 80
 height 17
 msg
 Created:  1994-02-11
+Modified: 2019-08-23 lori
 endmsg
+background_music highcity
 end
 arch stonefloor2
 name stonefloor
 end
 arch bwall_2_2_2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 y 1
 end
 arch bwall_2_1_1
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 y 2
 end
 arch bwall_1_2
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 y 3
 end
 arch oakdoor
@@ -37,15 +36,13 @@ hp 0
 sp 2
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 y 4
 end
 arch bwall_1_1
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 y 5
 end
 arch bwall_2_1_1
@@ -72,8 +69,7 @@ end
 arch bwall_2_1_1
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 y 9
 end
 arch bwall_2_1_1
@@ -135,23 +131,19 @@ end
 arch bwall_2_1_2
 x 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 1
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 1
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 1
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 1
 y 4
 end
@@ -182,8 +174,7 @@ arch bwall_3_1
 x 1
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 8
 end
@@ -194,8 +185,7 @@ sp 5
 x 1
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 9
 end
@@ -203,23 +193,19 @@ arch earthwall
 x 1
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 13
 end
@@ -227,13 +213,11 @@ arch orc
 x 1
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 1
 y 15
 end
@@ -257,28 +241,23 @@ end
 arch bwall_2_1_2
 x 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 2
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 2
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 2
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 2
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 2
 y 5
 end
@@ -309,8 +288,7 @@ name stonefloor
 x 2
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 9
 end
@@ -318,18 +296,15 @@ arch earthwall
 x 2
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 12
 end
@@ -337,18 +312,15 @@ arch orc
 x 2
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 2
 y 15
 end
@@ -372,28 +344,23 @@ end
 arch bwall_2_1_2
 x 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 3
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 3
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 3
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 3
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 3
 y 5
 end
@@ -424,8 +391,7 @@ name stonefloor
 x 3
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 9
 end
@@ -433,18 +399,15 @@ arch earthwall
 x 3
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 12
 end
@@ -452,8 +415,7 @@ arch orc
 x 3
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 13
 end
@@ -461,13 +423,11 @@ arch orc
 x 3
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 3
 y 15
 end
@@ -491,18 +451,15 @@ end
 arch bwall_2_1_2
 x 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 4
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 4
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 4
 y 3
 end
@@ -510,13 +467,11 @@ arch goblin
 x 4
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 4
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 4
 y 5
 end
@@ -547,8 +502,7 @@ name stonefloor
 x 4
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 4
 y 9
 end
@@ -556,18 +510,15 @@ arch earthwall
 x 4
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 4
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 4
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 4
 y 12
 end
@@ -575,18 +526,15 @@ arch orc
 x 4
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 4
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 4
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 4
 y 15
 end
@@ -606,23 +554,19 @@ end
 arch bwall_2_1_2
 x 5
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 5
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 5
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 5
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 5
 y 4
 end
@@ -630,8 +574,7 @@ arch goblin
 x 5
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 5
 y 5
 end
@@ -662,8 +605,7 @@ name stonefloor
 x 5
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 9
 end
@@ -671,33 +613,27 @@ arch earthwall
 x 5
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 5
 y 15
 end
@@ -717,18 +653,15 @@ end
 arch bwall_2_1_2
 x 6
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 6
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 6
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 6
 y 3
 end
@@ -777,8 +710,7 @@ name stonefloor
 x 6
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 9
 end
@@ -786,33 +718,27 @@ arch earthwall
 x 6
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 6
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 6
 y 15
 end
@@ -832,13 +758,11 @@ end
 arch bwall_2_1_2
 x 7
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 7
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 7
 y 2
 end
@@ -846,8 +770,7 @@ arch goblin
 x 7
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 7
 y 3
 end
@@ -855,8 +778,7 @@ arch goblin
 x 7
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 7
 y 4
 end
@@ -864,8 +786,7 @@ arch earthwall
 x 7
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 7
 y 5
 end
@@ -896,8 +817,7 @@ name stonefloor
 x 7
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 7
 y 9
 end
@@ -905,33 +825,27 @@ arch earthwall
 x 7
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 7
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 7
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 7
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 7
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_111
 x 7
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 7
 y 15
 end
@@ -951,18 +865,15 @@ end
 arch bwall_2_1_2
 x 8
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 8
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 8
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 8
 y 3
 end
@@ -975,8 +886,7 @@ arch earthwall
 x 8
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 8
 y 5
 end
@@ -998,8 +908,7 @@ arch bwall_3_1
 x 8
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 8
 end
@@ -1007,8 +916,7 @@ arch boulder
 x 8
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 9
 end
@@ -1016,8 +924,7 @@ arch boulder
 x 8
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 10
 end
@@ -1025,8 +932,7 @@ arch boulder
 x 8
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 11
 end
@@ -1034,8 +940,7 @@ arch boulder
 x 8
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 12
 end
@@ -1043,8 +948,7 @@ arch boulder
 x 8
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 13
 end
@@ -1052,8 +956,7 @@ arch boulder
 x 8
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 14
 end
@@ -1061,8 +964,7 @@ arch boulder
 x 8
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 15
 end
@@ -1070,8 +972,7 @@ arch earthwall
 x 8
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 8
 y 16
 end
@@ -1086,18 +987,15 @@ end
 arch bwall_2_1_2
 x 9
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 9
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 9
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 9
 y 3
 end
@@ -1110,8 +1008,7 @@ arch earthwall
 x 9
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch oldwoodfloor2
 x 9
 y 5
 end
@@ -1140,8 +1037,7 @@ arch bwall_3_1
 x 9
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 8
 end
@@ -1149,18 +1045,15 @@ arch generate_ogre
 x 9
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 11
 end
@@ -1168,18 +1061,15 @@ arch generate_ogre
 x 9
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 14
 end
@@ -1187,13 +1077,11 @@ arch generate_ogre
 x 9
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 9
 y 16
 end
@@ -1271,18 +1159,15 @@ arch bwall_3_1
 x 10
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 10
 end
@@ -1290,33 +1175,27 @@ arch ogre
 x 10
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 10
 y 16
 end
@@ -1331,8 +1210,7 @@ end
 arch bwall_2_1_2
 x 11
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 11
 y 1
 end
@@ -1358,13 +1236,11 @@ arch bwall_1_2
 x 11
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 11
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 11
 y 5
 end
@@ -1390,43 +1266,35 @@ arch bwall_3_1
 x 11
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 11
 y 15
 end
@@ -1443,31 +1311,26 @@ arch stonefloor2
 name stonefloor
 x 12
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 12
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 12
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 12
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 12
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 12
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 12
 y 5
 end
@@ -1489,33 +1352,27 @@ arch bwall_3_1
 x 12
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 13
 end
@@ -1523,13 +1380,11 @@ arch ogre
 x 12
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 12
 y 15
 end
@@ -1546,31 +1401,26 @@ arch stonefloor2
 name stonefloor
 x 13
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 13
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 13
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 13
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 13
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 13
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 13
 y 5
 end
@@ -1592,43 +1442,35 @@ arch bwall_3_1
 x 13
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 13
 y 15
 end
@@ -1645,31 +1487,26 @@ arch stonefloor2
 name stonefloor
 x 14
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 14
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 14
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 14
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 14
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 14
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 14
 y 5
 end
@@ -1691,18 +1528,15 @@ arch bwall_3_1
 x 14
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 10
 end
@@ -1710,13 +1544,11 @@ arch ogre
 x 14
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 12
 end
@@ -1724,18 +1556,15 @@ arch ogre
 x 14
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 14
 y 15
 end
@@ -1752,16 +1581,14 @@ arch stonefloor2
 name stonefloor
 x 15
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 15
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 15
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 15
 y 2
 end
@@ -1769,8 +1596,7 @@ arch madman
 x 15
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 15
 y 3
 end
@@ -1778,13 +1604,11 @@ arch madman
 x 15
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 15
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 15
 y 5
 end
@@ -1806,43 +1630,35 @@ arch bwall_3_1
 x 15
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 15
 y 15
 end
@@ -1859,16 +1675,14 @@ arch stonefloor2
 name stonefloor
 x 16
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 16
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 16
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 16
 y 2
 end
@@ -1876,8 +1690,7 @@ arch madman
 x 16
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 16
 y 3
 end
@@ -1885,13 +1698,11 @@ arch madman
 x 16
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 16
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 16
 y 5
 end
@@ -1913,48 +1724,39 @@ arch bwall_3_1
 x 16
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 16
 y 16
 end
@@ -1966,16 +1768,14 @@ arch stonefloor2
 name stonefloor
 x 17
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 17
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 17
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 17
 y 2
 end
@@ -1983,18 +1783,15 @@ arch madman
 x 17
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 17
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 17
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 17
 y 5
 end
@@ -2016,8 +1813,7 @@ arch bwall_3_1
 x 17
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 8
 end
@@ -2025,38 +1821,31 @@ arch chest
 x 17
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 17
 y 15
 end
@@ -2077,16 +1866,14 @@ arch stonefloor2
 name stonefloor
 x 18
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 18
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 18
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 18
 y 2
 end
@@ -2094,18 +1881,15 @@ arch madman
 x 18
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 18
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 18
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 18
 y 5
 end
@@ -2127,8 +1911,7 @@ arch bwall_3_1
 x 18
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 8
 end
@@ -2136,33 +1919,27 @@ arch chest
 x 18
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 14
 end
@@ -2170,8 +1947,7 @@ arch random_scroll
 x 18
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 18
 y 15
 end
@@ -2192,16 +1968,14 @@ arch stonefloor2
 name stonefloor
 x 19
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 19
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 19
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 19
 y 2
 end
@@ -2209,18 +1983,15 @@ arch madman
 x 19
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 19
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 19
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 19
 y 5
 end
@@ -2296,8 +2067,7 @@ arch bwall_2_1_1
 x 19
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 19
 y 14
 end
@@ -2305,8 +2075,7 @@ arch bwall_2_1_1
 x 19
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 19
 y 15
 end
@@ -2327,16 +2096,14 @@ arch stonefloor2
 name stonefloor
 x 20
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 20
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 20
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 20
 y 2
 end
@@ -2344,18 +2111,15 @@ arch madman
 x 20
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 20
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 20
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 20
 y 5
 end
@@ -2368,8 +2132,7 @@ arch bwall_2_1_2
 x 20
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 7
 end
@@ -2389,38 +2152,31 @@ arch earthwall
 x 20
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 20
 y 15
 end
@@ -2441,31 +2197,26 @@ arch stonefloor2
 name stonefloor
 x 21
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 21
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 21
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 21
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 21
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 21
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 21
 y 5
 end
@@ -2478,13 +2229,11 @@ arch bwall_2_1_2
 x 21
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 8
 end
@@ -2492,43 +2241,39 @@ arch earthwall
 x 21
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch bones5
+x 21
+y 9
+end
+arch cobblestones4
 x 21
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 21
 y 16
 end
@@ -2540,31 +2285,26 @@ arch stonefloor2
 name stonefloor
 x 22
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 22
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 22
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 22
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 22
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 22
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 22
 y 5
 end
@@ -2577,13 +2317,11 @@ arch bwall_2_1_2
 x 22
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 8
 end
@@ -2591,43 +2329,35 @@ arch earthwall
 x 22
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 22
 y 16
 end
@@ -2639,31 +2369,26 @@ arch stonefloor2
 name stonefloor
 x 23
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 23
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 23
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 23
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 23
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 23
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 23
 y 5
 end
@@ -2676,13 +2401,11 @@ arch bwall_2_1_2
 x 23
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 8
 end
@@ -2690,38 +2413,35 @@ arch earthwall
 x 23
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch bones3
+x 23
+y 10
+end
+arch cobblestones4
 x 23
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 15
 end
@@ -2729,8 +2449,7 @@ arch chest
 x 23
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 23
 y 16
 end
@@ -2742,31 +2461,26 @@ arch stonefloor2
 name stonefloor
 x 24
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 24
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 24
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 24
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 24
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 24
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 24
 y 5
 end
@@ -2779,8 +2493,7 @@ arch bwall_2_1_2
 x 24
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 7
 end
@@ -2797,43 +2510,39 @@ arch earthwall
 x 24
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch bones5
+x 24
+y 12
+end
+arch cobblestones4
 x 24
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 24
 y 16
 end
@@ -2845,31 +2554,26 @@ arch stonefloor2
 name stonefloor
 x 25
 end
-arch bwall_2_1_2
+arch greymarblewall_4
 x 25
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 25
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 25
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 25
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 25
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 25
 y 5
 end
@@ -2882,53 +2586,43 @@ arch bwall_2_1_2
 x 25
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 25
 y 16
 end
@@ -2940,31 +2634,26 @@ arch stonefloor2
 name stonefloor
 x 26
 end
-arch bwall_2_1_2
+arch dkgreenmarblewall_4
 x 26
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 26
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 26
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 26
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 26
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 26
 y 5
 end
@@ -2977,28 +2666,27 @@ arch bwall_2_1_2
 x 26
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch bones2
+x 26
+y 8
+end
+arch cobblestones4
 x 26
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 11
 end
@@ -3006,23 +2694,23 @@ arch skeleton
 x 26
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch bones3
+x 26
+y 13
+end
+arch cobblestones4
 x 26
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 26
 y 15
 end
@@ -3042,8 +2730,7 @@ end
 arch bwall_2_1_2
 x 27
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 27
 y 1
 end
@@ -3051,23 +2738,19 @@ arch generate_madman
 x 27
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 27
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 27
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 27
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 27
 y 5
 end
@@ -3080,28 +2763,23 @@ arch bwall_2_1_2
 x 27
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 11
 end
@@ -3109,23 +2787,19 @@ arch skeleton
 x 27
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 15
 end
@@ -3133,8 +2807,7 @@ arch chest
 x 27
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 27
 y 16
 end
@@ -3185,8 +2858,7 @@ arch bwall_1_2
 x 28
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch afloor_black_left
 x 28
 y 5
 end
@@ -3203,18 +2875,15 @@ arch bwall_2_1_2
 x 28
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 9
 end
@@ -3222,38 +2891,31 @@ arch skeleton
 x 28
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 28
 y 16
 end
@@ -3268,8 +2930,7 @@ end
 arch bwall_2_1_2
 x 29
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 29
 y 1
 end
@@ -3280,8 +2941,7 @@ sp 7
 x 29
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 29
 y 2
 end
@@ -3289,18 +2949,15 @@ arch earthwall
 x 29
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 29
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 29
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 29
 y 5
 end
@@ -3313,18 +2970,15 @@ arch bwall_2_1_2
 x 29
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 9
 end
@@ -3332,13 +2986,11 @@ arch skeleton
 x 29
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 11
 end
@@ -3346,28 +2998,23 @@ arch skeleton
 x 29
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 29
 y 16
 end
@@ -3382,13 +3029,11 @@ end
 arch bwall_2_1_2
 x 30
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 30
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 30
 y 2
 end
@@ -3396,18 +3041,15 @@ arch earthwall
 x 30
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 30
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 30
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 30
 y 5
 end
@@ -3420,18 +3062,15 @@ arch bwall_2_1_2
 x 30
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 9
 end
@@ -3439,13 +3078,11 @@ arch skeleton
 x 30
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 11
 end
@@ -3453,28 +3090,27 @@ arch skeleton
 x 30
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch bones2
+x 30
+y 14
+end
+arch cobblestones4
 x 30
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 30
 y 16
 end
@@ -3489,8 +3125,7 @@ end
 arch bwall_2_1_2
 x 31
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 31
 y 1
 end
@@ -3503,18 +3138,15 @@ arch earthwall
 x 31
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 31
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 31
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 31
 y 5
 end
@@ -3527,18 +3159,15 @@ arch bwall_2_1_2
 x 31
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 9
 end
@@ -3546,13 +3175,11 @@ arch skeleton
 x 31
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 11
 end
@@ -3560,23 +3187,23 @@ arch skeleton
 x 31
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch bones5
+x 31
+y 13
+end
+arch cobblestones4
 x 31
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 15
 end
@@ -3584,8 +3211,7 @@ arch chest
 x 31
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 31
 y 16
 end
@@ -3600,8 +3226,7 @@ end
 arch bwall_2_1_2
 x 32
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 32
 y 1
 end
@@ -3618,18 +3243,15 @@ arch earthwall
 x 32
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 32
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 32
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 32
 y 5
 end
@@ -3642,28 +3264,23 @@ arch bwall_2_1_2
 x 32
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 11
 end
@@ -3671,28 +3288,27 @@ arch skeleton
 x 32
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch bones3
+x 32
+y 13
+end
+arch cobblestones4
 x 32
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 32
 y 16
 end
@@ -3716,8 +3332,7 @@ arch earthwall
 x 33
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 33
 y 2
 end
@@ -3725,18 +3340,15 @@ arch earthwall
 x 33
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 33
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 33
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 33
 y 5
 end
@@ -3749,18 +3361,15 @@ arch bwall_2_1_2
 x 33
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 9
 end
@@ -3768,33 +3377,27 @@ arch skeleton
 x 33
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 33
 y 15
 end
@@ -3814,8 +3417,7 @@ end
 arch bwall_2_1_2
 x 34
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 34
 y 1
 end
@@ -3823,23 +3425,19 @@ arch generate_beholder
 x 34
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 34
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 34
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 34
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 34
 y 5
 end
@@ -3856,53 +3454,55 @@ arch bwall_2_1_2
 x 34
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch bones2
+x 34
+y 10
+end
+arch cobblestones4
 x 34
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch chalice_sil
+x 34
+y 11
+end
+arch cobblestones4
 x 34
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch bones2
+x 34
+y 13
+end
+arch cobblestones4
 x 34
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 34
 y 16
 end
@@ -3917,23 +3517,19 @@ end
 arch bwall_2_1_2
 x 35
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 35
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 35
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 35
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 35
 y 4
 end
@@ -3941,8 +3537,7 @@ arch beholder
 x 35
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 35
 y 5
 end
@@ -3959,48 +3554,39 @@ arch bwall_2_1_2
 x 35
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 35
 y 15
 end
@@ -4020,28 +3606,23 @@ end
 arch bwall_2_1_2
 x 36
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 36
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 36
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 36
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 36
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 36
 y 5
 end
@@ -4058,53 +3639,55 @@ arch bwall_2_1_2
 x 36
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch bones5
+x 36
+y 8
+end
+arch cobblestones4
 x 36
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch bones3
+x 36
+y 10
+end
+arch cobblestones4
 x 36
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch bones5
+x 36
+y 13
+end
+arch cobblestones4
 x 36
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 36
 y 16
 end
@@ -4119,23 +3702,19 @@ end
 arch bwall_2_1_2
 x 37
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 37
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 37
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 37
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 37
 y 4
 end
@@ -4143,8 +3722,7 @@ arch beholder
 x 37
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 37
 y 5
 end
@@ -4161,28 +3739,23 @@ arch bwall_2_1_2
 x 37
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 11
 end
@@ -4190,8 +3763,7 @@ arch generate_skeleton
 x 37
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 12
 end
@@ -4199,8 +3771,7 @@ arch generate_skeleton
 x 37
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 13
 end
@@ -4208,8 +3779,7 @@ arch generate_skeleton
 x 37
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 14
 end
@@ -4217,8 +3787,7 @@ arch generate_skeleton
 x 37
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 37
 y 15
 end
@@ -4242,28 +3811,23 @@ end
 arch bwall_2_1_2
 x 38
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 38
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 38
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 38
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 38
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 38
 y 5
 end
@@ -4377,28 +3941,23 @@ end
 arch bwall_2_1_2
 x 39
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 39
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 39
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 39
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 39
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 39
 y 5
 end
@@ -4415,8 +3974,7 @@ arch bwall_2_1_2
 x 39
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 7
 end
@@ -4424,8 +3982,7 @@ arch food
 x 39
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 8
 end
@@ -4433,8 +3990,7 @@ arch chest
 x 39
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 9
 end
@@ -4442,8 +3998,7 @@ arch chest
 x 39
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 10
 end
@@ -4451,8 +4006,7 @@ arch chest
 x 39
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 11
 end
@@ -4460,8 +4014,7 @@ arch chest
 x 39
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 12
 end
@@ -4469,8 +4022,7 @@ arch chest
 x 39
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 13
 end
@@ -4478,8 +4030,7 @@ arch chest
 x 39
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 14
 end
@@ -4487,8 +4038,7 @@ arch random_scroll
 x 39
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 15
 end
@@ -4496,8 +4046,7 @@ arch booze
 x 39
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 39
 y 16
 end
@@ -4512,28 +4061,23 @@ end
 arch bwall_2_1_2
 x 40
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 40
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 40
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 40
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 40
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 40
 y 5
 end
@@ -4550,18 +4094,15 @@ arch bwall_2_1_2
 x 40
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 9
 end
@@ -4569,13 +4110,11 @@ arch grimreaper
 x 40
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 11
 end
@@ -4583,13 +4122,11 @@ arch grimreaper
 x 40
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 13
 end
@@ -4597,18 +4134,15 @@ arch grimreaper
 x 40
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 40
 y 16
 end
@@ -4623,28 +4157,23 @@ end
 arch bwall_2_1_2
 x 41
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 41
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 41
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 41
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 41
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 41
 y 5
 end
@@ -4661,18 +4190,15 @@ arch bwall_2_1_2
 x 41
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 9
 end
@@ -4680,18 +4206,15 @@ arch grimreaper
 x 41
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 12
 end
@@ -4699,13 +4222,11 @@ arch grimreaper
 x 41
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 14
 end
@@ -4713,13 +4234,11 @@ arch grimreaper
 x 41
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 41
 y 16
 end
@@ -4734,28 +4253,23 @@ end
 arch bwall_2_1_2
 x 42
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 42
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 42
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 42
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 42
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 42
 y 5
 end
@@ -4772,18 +4286,15 @@ arch bwall_2_1_2
 x 42
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 9
 end
@@ -4791,13 +4302,11 @@ arch grimreaper
 x 42
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 11
 end
@@ -4805,13 +4314,11 @@ arch grimreaper
 x 42
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 13
 end
@@ -4819,18 +4326,15 @@ arch grimreaper
 x 42
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 42
 y 16
 end
@@ -4845,28 +4349,23 @@ end
 arch bwall_2_1_2
 x 43
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 43
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 43
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 43
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 43
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 43
 y 5
 end
@@ -4883,53 +4382,43 @@ arch bwall_2_1_2
 x 43
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 43
 y 16
 end
@@ -4944,8 +4433,7 @@ end
 arch bwall_2_1_2
 x 44
 end
-arch stonefloor2
-name stonefloor
+arch lostlabfloor7
 x 44
 y 1
 end
@@ -5070,8 +4558,7 @@ arch bwall_1_2
 x 44
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-green-x-marble_112
 x 44
 y 15
 end
@@ -5095,23 +4582,19 @@ end
 arch bwall_2_1_2
 x 45
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 45
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 45
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 45
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 45
 y 4
 end
@@ -5137,8 +4620,7 @@ arch bwall_3_1
 x 45
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 7
 end
@@ -5146,8 +4628,7 @@ arch generate_stalker
 x 45
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 8
 end
@@ -5155,28 +4636,23 @@ arch generate_stalker
 x 45
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 45
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 45
 y 13
 end
@@ -5184,8 +4660,7 @@ arch gravestone
 x 45
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 45
 y 14
 end
@@ -5193,8 +4668,7 @@ arch gravestone
 x 45
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 45
 y 15
 end
@@ -5214,28 +4688,23 @@ end
 arch bwall_2_1_2
 x 46
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 46
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 46
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 46
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 46
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 46
 y 5
 end
@@ -5252,8 +4721,7 @@ arch bwall_2_1_2
 x 46
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 46
 y 7
 end
@@ -5261,38 +4729,31 @@ arch generate_stalker
 x 46
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 46
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 46
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 46
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 46
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 46
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 46
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 46
 y 14
 end
@@ -5300,8 +4761,7 @@ arch gravestone
 x 46
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 46
 y 15
 end
@@ -5321,23 +4781,19 @@ end
 arch bwall_2_1_2
 x 47
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 47
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 47
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 47
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 47
 y 4
 end
@@ -5345,8 +4801,7 @@ arch bird
 x 47
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 47
 y 5
 end
@@ -5359,48 +4814,39 @@ arch bwall_2_1_2
 x 47
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 47
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 47
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 47
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 47
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 47
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 47
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 47
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 47
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 47
 y 15
 end
@@ -5424,18 +4870,15 @@ end
 arch bwall_2_1_2
 x 48
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 48
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 48
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 48
 y 3
 end
@@ -5443,8 +4886,7 @@ arch bird
 x 48
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 48
 y 4
 end
@@ -5452,8 +4894,7 @@ arch bird
 x 48
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 48
 y 5
 end
@@ -5470,18 +4911,15 @@ arch bwall_2_1_2
 x 48
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 9
 end
@@ -5489,33 +4927,27 @@ arch stalker
 x 48
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 48
 y 15
 end
@@ -5539,18 +4971,15 @@ end
 arch bwall_2_1_2
 x 49
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 49
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 49
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 49
 y 3
 end
@@ -5558,13 +4987,11 @@ arch bird
 x 49
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 49
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 49
 y 5
 end
@@ -5581,18 +5008,15 @@ arch bwall_2_1_2
 x 49
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 9
 end
@@ -5600,33 +5024,27 @@ arch stalker
 x 49
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 15
 end
@@ -5634,8 +5052,7 @@ arch chest
 x 49
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 49
 y 16
 end
@@ -5650,18 +5067,15 @@ end
 arch bwall_2_1_2
 x 50
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 50
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 50
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 50
 y 3
 end
@@ -5669,8 +5083,7 @@ arch bird
 x 50
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 50
 y 4
 end
@@ -5678,8 +5091,7 @@ arch bird
 x 50
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 50
 y 5
 end
@@ -5692,48 +5104,39 @@ arch bwall_2_1_2
 x 50
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 50
 y 15
 end
@@ -5757,28 +5160,23 @@ end
 arch bwall_2_1_2
 x 51
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 51
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 51
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 51
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 51
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 51
 y 5
 end
@@ -5791,18 +5189,15 @@ arch bwall_1_3
 x 51
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 9
 end
@@ -5810,38 +5205,31 @@ arch stalker
 x 51
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 51
 y 16
 end
@@ -5856,13 +5244,11 @@ end
 arch bwall_2_1_2
 x 52
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 52
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 52
 y 2
 end
@@ -5870,8 +5256,7 @@ arch chest
 x 52
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 52
 y 3
 end
@@ -5879,8 +5264,7 @@ arch chest
 x 52
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 52
 y 4
 end
@@ -5888,13 +5272,11 @@ arch chest
 x 52
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch lightgreenmarble
 x 52
 y 5
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 6
 end
@@ -5902,53 +5284,43 @@ arch door_2
 x 52
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 52
 y 16
 end
@@ -6017,53 +5389,43 @@ arch bwall_2_2_1
 x 53
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 53
 y 16
 end
@@ -6132,53 +5494,47 @@ arch bwall_2_1_2
 x 54
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch clock_ag
+x 54
+y 7
+end
+arch white-pink-c-marble_113
 x 54
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 54
 y 16
 end
@@ -6247,53 +5603,43 @@ arch bwall_2_1_2
 x 55
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 55
 y 16
 end
@@ -6362,53 +5708,51 @@ arch bwall_2_1_2
 x 56
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch bed_1
+x 56
+y 8
+end
+arch white-pink-c-marble_113
 x 56
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch bed_1
+x 56
+y 11
+end
+arch white-pink-c-marble_113
 x 56
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 56
 y 16
 end
@@ -6461,8 +5805,7 @@ arch bwall_2_1_2
 x 57
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch white-pink-c-marble_113
 x 57
 y 7
 end
@@ -6558,8 +5901,7 @@ end
 arch bwall_2_1_2
 x 58
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 58
 y 1
 end
@@ -6567,23 +5909,19 @@ arch generate_gnoll
 x 58
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 58
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 58
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 58
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 58
 y 5
 end
@@ -6596,8 +5934,7 @@ arch bwall_2_1_2
 x 58
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 7
 end
@@ -6605,8 +5942,7 @@ arch bwall_0
 x 58
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 8
 end
@@ -6614,8 +5950,7 @@ arch bwall_0
 x 58
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 9
 end
@@ -6623,8 +5958,7 @@ arch bwall_0
 x 58
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 10
 end
@@ -6632,8 +5966,7 @@ arch bwall_0
 x 58
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 11
 end
@@ -6641,8 +5974,7 @@ arch bwall_0
 x 58
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 12
 end
@@ -6650,8 +5982,7 @@ arch bwall_0
 x 58
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 13
 end
@@ -6659,8 +5990,7 @@ arch bwall_0
 x 58
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 14
 end
@@ -6668,8 +5998,7 @@ arch earthwall
 x 58
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 58
 y 15
 end
@@ -6693,28 +6022,23 @@ end
 arch bwall_2_1_2
 x 59
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 59
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 59
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 59
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 59
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 59
 y 5
 end
@@ -6727,8 +6051,7 @@ arch bwall_2_1_2
 x 59
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 7
 end
@@ -6736,8 +6059,7 @@ arch bwall_0
 x 59
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 8
 end
@@ -6745,8 +6067,7 @@ arch bwall_0
 x 59
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 9
 end
@@ -6754,8 +6075,7 @@ arch bwall_0
 x 59
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 10
 end
@@ -6763,8 +6083,7 @@ arch bwall_0
 x 59
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 11
 end
@@ -6772,8 +6091,7 @@ arch bwall_0
 x 59
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 12
 end
@@ -6781,8 +6099,7 @@ arch bwall_0
 x 59
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 13
 end
@@ -6790,8 +6107,7 @@ arch earthwall
 x 59
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 14
 end
@@ -6799,8 +6115,7 @@ arch bwall_0
 x 59
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 15
 end
@@ -6808,8 +6123,7 @@ arch bwall_0
 x 59
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 59
 y 16
 end
@@ -6824,28 +6138,23 @@ end
 arch bwall_2_1_2
 x 60
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 60
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 60
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 60
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 60
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 60
 y 5
 end
@@ -6858,8 +6167,7 @@ arch bwall_2_1_2
 x 60
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 7
 end
@@ -6867,8 +6175,7 @@ arch bwall_0
 x 60
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 8
 end
@@ -6876,8 +6183,7 @@ arch bwall_0
 x 60
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 9
 end
@@ -6885,8 +6191,7 @@ arch bwall_0
 x 60
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 10
 end
@@ -6894,8 +6199,7 @@ arch bwall_0
 x 60
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 11
 end
@@ -6912,8 +6216,7 @@ arch earthwall
 x 60
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 13
 end
@@ -6921,8 +6224,7 @@ arch bwall_0
 x 60
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 14
 end
@@ -6930,8 +6232,7 @@ arch bwall_0
 x 60
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 15
 end
@@ -6939,8 +6240,7 @@ arch bwall_0
 x 60
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 60
 y 16
 end
@@ -6955,18 +6255,15 @@ end
 arch bwall_2_1_2
 x 61
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 61
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 61
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 61
 y 3
 end
@@ -6974,13 +6271,11 @@ arch gnoll
 x 61
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 61
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 61
 y 5
 end
@@ -6993,8 +6288,7 @@ arch bwall_2_1_2
 x 61
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 7
 end
@@ -7002,8 +6296,7 @@ arch earthwall
 x 61
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 8
 end
@@ -7020,8 +6313,7 @@ arch earthwall
 x 61
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 10
 end
@@ -7029,8 +6321,7 @@ arch earthwall
 x 61
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 11
 end
@@ -7047,8 +6338,7 @@ arch earthwall
 x 61
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 13
 end
@@ -7056,8 +6346,7 @@ arch earthwall
 x 61
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 14
 end
@@ -7065,8 +6354,7 @@ arch earthwall
 x 61
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 61
 y 15
 end
@@ -7090,18 +6378,15 @@ end
 arch bwall_2_1_2
 x 62
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 62
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 62
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 62
 y 3
 end
@@ -7109,13 +6394,11 @@ arch gnoll
 x 62
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 62
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 62
 y 5
 end
@@ -7128,8 +6411,7 @@ arch bwall_2_1_2
 x 62
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 62
 y 7
 end
@@ -7153,23 +6435,19 @@ name stonefloor
 x 62
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 62
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 62
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 62
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 62
 y 15
 end
@@ -7189,18 +6467,15 @@ end
 arch bwall_2_1_2
 x 63
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 63
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 63
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 63
 y 3
 end
@@ -7208,13 +6483,11 @@ arch gnoll
 x 63
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 63
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 63
 y 5
 end
@@ -7227,48 +6500,39 @@ arch bwall_2_1_2
 x 63
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 63
 y 15
 end
@@ -7288,18 +6552,15 @@ end
 arch bwall_2_1_2
 x 64
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 64
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 64
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 64
 y 3
 end
@@ -7307,13 +6568,11 @@ arch gnoll
 x 64
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 64
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 64
 y 5
 end
@@ -7322,52 +6581,43 @@ name stonefloor
 x 64
 y 6
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 64
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 64
 y 15
 end
@@ -7376,7 +6626,7 @@ name stonefloor
 x 64
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 64
 y 16
 end
@@ -7387,18 +6637,15 @@ end
 arch bwall_2_1_2
 x 65
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 65
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 65
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 65
 y 3
 end
@@ -7406,8 +6653,7 @@ arch gnoll
 x 65
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 65
 y 4
 end
@@ -7415,8 +6661,7 @@ arch gnoll
 x 65
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 65
 y 5
 end
@@ -7429,48 +6674,39 @@ arch bwall_2_1_2
 x 65
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 65
 y 15
 end
@@ -7490,28 +6726,23 @@ end
 arch bwall_2_1_2
 x 66
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 66
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 66
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 66
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 66
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 66
 y 5
 end
@@ -7520,52 +6751,43 @@ name stonefloor
 x 66
 y 6
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 66
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 66
 y 15
 end
@@ -7574,7 +6796,7 @@ name stonefloor
 x 66
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 66
 y 16
 end
@@ -7585,23 +6807,19 @@ end
 arch bwall_2_1_2
 x 67
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 67
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 67
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 67
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 67
 y 4
 end
@@ -7609,8 +6827,7 @@ arch gnoll
 x 67
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 67
 y 5
 end
@@ -7623,18 +6840,15 @@ arch bwall_2_1_2
 x 67
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 9
 end
@@ -7642,33 +6856,27 @@ arch giant
 x 67
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 67
 y 15
 end
@@ -7688,23 +6896,19 @@ end
 arch bwall_2_1_2
 x 68
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 68
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 68
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 68
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 68
 y 4
 end
@@ -7712,8 +6916,7 @@ arch gnoll
 x 68
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 68
 y 5
 end
@@ -7722,52 +6925,43 @@ name stonefloor
 x 68
 y 6
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 68
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 68
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 68
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 68
 y 15
 end
@@ -7776,7 +6970,7 @@ name stonefloor
 x 68
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 68
 y 16
 end
@@ -7787,23 +6981,19 @@ end
 arch bwall_2_1_2
 x 69
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 69
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 69
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 69
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 69
 y 4
 end
@@ -7811,8 +7001,7 @@ arch gnoll
 x 69
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 69
 y 5
 end
@@ -7825,48 +7014,39 @@ arch bwall_2_1_2
 x 69
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 69
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 69
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 69
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 69
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 69
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 69
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 69
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 69
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 69
 y 15
 end
@@ -7886,23 +7066,19 @@ end
 arch bwall_2_1_2
 x 70
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 70
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 70
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 70
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 70
 y 4
 end
@@ -7910,8 +7086,7 @@ arch gnoll
 x 70
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 70
 y 5
 end
@@ -7924,48 +7099,39 @@ arch bwall_2_1_2
 x 70
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 70
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 70
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 70
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_111
 x 70
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_112
 x 70
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 70
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 70
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 70
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 70
 y 15
 end
@@ -7985,28 +7151,23 @@ end
 arch bwall_2_1_2
 x 71
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 71
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 71
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 71
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 71
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 71
 y 5
 end
@@ -8015,52 +7176,43 @@ name stonefloor
 x 71
 y 6
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 71
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 71
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 71
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 71
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_114
 x 71
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_113
 x 71
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 71
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 71
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 71
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 71
 y 15
 end
@@ -8069,39 +7221,33 @@ name stonefloor
 x 71
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 71
 y 16
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 end
 arch bwall_2_1_2
 x 72
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 72
 y 5
 end
@@ -8114,48 +7260,39 @@ arch bwall_2_1_2
 x 72
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 72
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 72
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 72
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_111
 x 72
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_112
 x 72
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 72
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 72
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 72
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 72
 y 15
 end
@@ -8168,35 +7305,29 @@ arch bwall_2_1_2
 x 72
 y 16
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 end
 arch bwall_2_1_2
 x 73
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 73
 y 5
 end
@@ -8209,53 +7340,43 @@ arch bwall_2_1_2
 x 73
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 73
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_114
 x 73
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_113
 x 73
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 73
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 73
 y 16
 end
@@ -8270,28 +7391,23 @@ end
 arch bwall_2_1_2
 x 74
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 74
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 74
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 74
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 74
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 74
 y 5
 end
@@ -8300,52 +7416,43 @@ name stonefloor
 x 74
 y 6
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 74
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 74
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 74
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 74
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_111
 x 74
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_112
 x 74
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 74
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 74
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 74
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 74
 y 15
 end
@@ -8354,7 +7461,7 @@ name stonefloor
 x 74
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 74
 y 16
 end
@@ -8365,28 +7472,23 @@ end
 arch bwall_2_1_2
 x 75
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 75
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 75
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 75
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 75
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 75
 y 5
 end
@@ -8399,8 +7501,7 @@ arch bwall_2_1_2
 x 75
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 75
 y 7
 end
@@ -8408,43 +7509,35 @@ arch generate_giant
 x 75
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 75
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 75
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_114
 x 75
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch white-green-c-marble_113
 x 75
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 75
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 75
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 75
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch cobblestones4
 x 75
 y 15
 end
@@ -8468,28 +7561,23 @@ end
 arch bwall_2_1_2
 x 76
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 76
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 76
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 76
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 76
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 76
 y 5
 end
@@ -8502,48 +7590,39 @@ arch bwall_2_1_2
 x 76
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 76
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 76
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 76
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 76
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 76
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 76
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 76
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 76
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 76
 y 15
 end
@@ -8563,8 +7642,7 @@ end
 arch bwall_2_1_2
 x 77
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 77
 y 1
 end
@@ -8572,23 +7650,19 @@ arch key
 x 77
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 77
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 77
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 77
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 77
 y 5
 end
@@ -8605,57 +7679,47 @@ arch bwall_2_1_2
 x 77
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 77
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch marble
 x 77
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 15
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 77
 y 16
 end
-arch bwall_2_1_2
+arch ltgreenmarblewall_4
 x 77
 y 16
 end
@@ -8666,8 +7730,7 @@ end
 arch bwall_2_1_2
 x 78
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 78
 y 1
 end
@@ -8675,8 +7738,7 @@ arch key
 x 78
 y 1
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 78
 y 2
 end
@@ -8684,13 +7746,11 @@ arch key
 x 78
 y 2
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 78
 y 3
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 78
 y 4
 end
@@ -8698,8 +7758,7 @@ arch key
 x 78
 y 4
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblelight
 x 78
 y 5
 end
@@ -8716,8 +7775,7 @@ arch bwall_2_1_2
 x 78
 y 6
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 7
 end
@@ -8725,8 +7783,7 @@ arch random_scroll
 x 78
 y 7
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 8
 end
@@ -8734,8 +7791,7 @@ arch chest
 x 78
 y 8
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 9
 end
@@ -8743,8 +7799,7 @@ arch random_treasure
 x 78
 y 9
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 10
 end
@@ -8752,8 +7807,7 @@ arch food
 x 78
 y 10
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 11
 end
@@ -8761,8 +7815,7 @@ arch random_wealth
 x 78
 y 11
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 12
 end
@@ -8770,8 +7823,7 @@ arch food
 x 78
 y 12
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 13
 end
@@ -8779,8 +7831,7 @@ arch random_treasure
 x 78
 y 13
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 14
 end
@@ -8788,8 +7839,7 @@ arch chest
 x 78
 y 14
 end
-arch stonefloor2
-name stonefloor
+arch greenmarblemedium
 x 78
 y 15
 end
@@ -8893,7 +7943,7 @@ name stonefloor
 x 79
 y 9
 end
-arch bwall_2_1_1
+arch ltgreenmarblewall_4
 x 79
 y 9
 end
@@ -8920,7 +7970,7 @@ name stonefloor
 x 79
 y 12
 end
-arch bwall_2_1_1
+arch ltgreenmarblewall_4
 x 79
 y 12
 end

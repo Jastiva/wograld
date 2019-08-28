@@ -8,6 +8,7 @@ enter_x 15
 enter_y 28
 msg
 Created:  2003-08-06 Avion
+Modified: 2019-08-25 lori
 endmsg
 end
 arch permanent_lava
@@ -721,63 +722,63 @@ arch awall_2_1_2
 x 5
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 15
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 16
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 17
 end
@@ -785,35 +786,35 @@ arch rune_summon_devil
 x 5
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 5
 y 25
 end
@@ -852,15 +853,15 @@ arch awall_2_1_2
 x 6
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 5
 end
@@ -872,11 +873,11 @@ arch dungeon_magic
 x 6
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 6
 end
-arch awall_2_1_1
+arch awall_1_2
 x 6
 y 6
 end
@@ -884,11 +885,7 @@ arch dungeon_magic
 x 6
 y 6
 end
-arch cobblestones2
-x 6
-y 7
-end
-arch awall_2_1_1
+arch lostlabfloor16
 x 6
 y 7
 end
@@ -896,11 +893,15 @@ arch dungeon_magic
 x 6
 y 7
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 7
+end
+arch lostlabfloor16
 x 6
 y 8
 end
-arch awall_2_1_1
+arch awall_0
 x 6
 y 8
 end
@@ -908,23 +909,27 @@ arch dungeon_magic
 x 6
 y 8
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 8
+end
+arch lostlabfloor16
 x 6
 y 9
 end
-arch awall_2_1_1
-x 6
-y 9
-end
 arch dungeon_magic
 x 6
 y 9
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 9
+end
+arch lostlabfloor16
 x 6
 y 10
 end
-arch awall_2_1_1
+arch awall_0
 x 6
 y 10
 end
@@ -932,71 +937,71 @@ arch dungeon_magic
 x 6
 y 10
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 10
+end
+arch lostlabfloor16
 x 6
 y 11
 end
-arch awall_2_1_1
-x 6
-y 11
-end
 arch dungeon_magic
 x 6
 y 11
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 11
+end
+arch lostlabfloor16
 x 6
 y 12
 end
-arch awall_2_1_1
-x 6
-y 12
-end
 arch dungeon_magic
 x 6
 y 12
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 12
+end
+arch lostlabfloor16
 x 6
 y 13
 end
-arch awall_2_1_1
-x 6
-y 13
-end
 arch dungeon_magic
 x 6
 y 13
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 13
+end
+arch lostlabfloor16
 x 6
 y 14
 end
-arch awall_2_1_1
-x 6
-y 14
-end
 arch dungeon_magic
 x 6
 y 14
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 14
+end
+arch lostlabfloor16
 x 6
 y 15
 end
-arch awall_2_1_1
-x 6
-y 15
-end
 arch dungeon_magic
 x 6
 y 15
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
 x 6
-y 16
+y 15
 end
-arch awall_2_1_1
+arch lostlabfloor16
 x 6
 y 16
 end
@@ -1004,11 +1009,11 @@ arch dungeon_magic
 x 6
 y 16
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
 x 6
-y 17
+y 16
 end
-arch awall_2_1_1
+arch lostlabfloor16
 x 6
 y 17
 end
@@ -1016,11 +1021,11 @@ arch dungeon_magic
 x 6
 y 17
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
 x 6
-y 18
+y 17
 end
-arch awall_2_1_1
+arch lostlabfloor16
 x 6
 y 18
 end
@@ -1028,15 +1033,19 @@ arch dungeon_magic
 x 6
 y 18
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 18
+end
+arch lostlabfloor16
 x 6
 y 19
 end
-arch awall_2_1_1
+arch dungeon_magic
 x 6
 y 19
 end
-arch dungeon_magic
+arch ltagreenmarblewall_1_2
 x 6
 y 19
 end
@@ -1044,19 +1053,19 @@ arch cobblestones2
 x 6
 y 20
 end
-arch awall_2_1_1
-x 6
-y 20
-end
 arch dungeon_magic
 x 6
 y 20
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 6
+y 20
+end
+arch lostlabfloor16
 x 6
 y 21
 end
-arch awall_2_1_1
+arch awall_1_1
 x 6
 y 21
 end
@@ -1076,7 +1085,7 @@ arch dungeon_magic
 x 6
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 23
 end
@@ -1088,7 +1097,7 @@ arch dungeon_magic
 x 6
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 24
 end
@@ -1100,7 +1109,7 @@ arch dungeon_magic
 x 6
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 6
 y 25
 end
@@ -1143,15 +1152,15 @@ arch awall_win2
 x 7
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 5
 end
@@ -1163,15 +1172,15 @@ arch dungeon_magic
 x 7
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 8
 end
@@ -1179,15 +1188,15 @@ arch chair_1.4
 x 7
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 11
 end
@@ -1195,7 +1204,7 @@ arch chair_1.4
 x 7
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 12
 end
@@ -1203,7 +1212,7 @@ arch firepot
 x 7
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 13
 end
@@ -1214,11 +1223,11 @@ x 7
 y 13
 last_sp 1
 end
-arch cobblestones
+arch cobblestones4
 x 7
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 15
 end
@@ -1233,19 +1242,19 @@ title Python
 slaying /python/casino/goldslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 7
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 7
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 19
 end
@@ -1253,7 +1262,7 @@ arch firepot
 x 7
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 20
 end
@@ -1261,11 +1270,11 @@ arch diamond_converter
 x 7
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 22
 end
@@ -1277,7 +1286,7 @@ arch dungeon_magic
 x 7
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 23
 end
@@ -1295,7 +1304,7 @@ title Python
 slaying /python/IPO/banksay.py
 end
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 24
 end
@@ -1307,7 +1316,7 @@ arch dungeon_magic
 x 7
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 7
 y 25
 end
@@ -1350,15 +1359,15 @@ arch awall_2_1_2
 x 8
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 5
 end
@@ -1370,11 +1379,11 @@ arch dungeon_magic
 x 8
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 7
 end
@@ -1382,7 +1391,7 @@ arch chair_1.1
 x 8
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 8
 end
@@ -1390,7 +1399,7 @@ arch table_3
 x 8
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 9
 end
@@ -1398,11 +1407,11 @@ arch chair_1.3
 x 8
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 11
 end
@@ -1410,39 +1419,39 @@ arch table_3
 x 8
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 12
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 8
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 20
 end
@@ -1450,11 +1459,11 @@ arch gold_converter
 x 8
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 22
 end
@@ -1466,7 +1475,7 @@ arch dungeon_magic
 x 8
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 23
 end
@@ -1478,7 +1487,7 @@ arch dungeon_magic
 x 8
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 24
 end
@@ -1490,7 +1499,7 @@ arch dungeon_magic
 x 8
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 8
 y 25
 end
@@ -1529,15 +1538,15 @@ arch awall_2_1_2
 x 9
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 5
 end
@@ -1558,31 +1567,31 @@ arch spell_poison_cloud
 level 12
 end
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 12
 end
@@ -1600,19 +1609,19 @@ title Python
 slaying /python/casino/imperialslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 9
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 9
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 9
 y 15
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 16
 end
@@ -1627,19 +1636,19 @@ title Python
 slaying /python/casino/goldslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 9
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 9
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 20
 end
@@ -1647,19 +1656,19 @@ arch platinum_converter
 x 9
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 24
 end
@@ -1671,7 +1680,7 @@ arch dungeon_magic
 x 9
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 9
 y 25
 end
@@ -1683,7 +1692,7 @@ arch awall_2_2_3
 x 9
 y 26
 end
-arch grass
+arch lostlabfloor16
 x 9
 y 27
 end
@@ -1691,7 +1700,7 @@ arch awall_2_1_1
 x 9
 y 27
 end
-arch grass
+arch lostlabfloor16
 x 9
 y 28
 end
@@ -1699,7 +1708,7 @@ arch awall_2_1_1
 x 9
 y 28
 end
-arch grass
+arch lostlabfloor16
 x 9
 y 29
 end
@@ -1710,7 +1719,7 @@ end
 arch permanent_lava
 x 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 1
 end
@@ -1718,7 +1727,7 @@ arch awall_2_2_2
 x 10
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 2
 end
@@ -1726,7 +1735,7 @@ arch awall_2_2_4
 x 10
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 3
 end
@@ -1734,7 +1743,7 @@ arch cobblestones2
 x 10
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 5
 end
@@ -1746,7 +1755,7 @@ arch dungeon_magic
 x 10
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 6
 end
@@ -1754,15 +1763,15 @@ arch firepot
 x 10
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 9
 end
@@ -1770,7 +1779,7 @@ arch firepot
 x 10
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 10
 end
@@ -1791,43 +1800,43 @@ y 10
 unaggressive 1
 sleep 0
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 12
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 10
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 20
 end
@@ -1835,15 +1844,15 @@ arch silver_converter
 x 10
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 23
 end
@@ -1855,7 +1864,7 @@ endmsg
 x 10
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 24
 end
@@ -1867,11 +1876,11 @@ arch dungeon_magic
 x 10
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 25
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 26
 end
@@ -1879,15 +1888,15 @@ arch door_2
 x 10
 y 26
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 27
 end
-arch cobblestones2
+arch lostlabfloor16
 x 10
 y 28
 end
-arch grass
+arch lostlabfloor16
 x 10
 y 29
 end
@@ -1906,7 +1915,7 @@ arch awall_2_1_2
 x 11
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 2
 end
@@ -1914,11 +1923,11 @@ arch chest
 x 11
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 4
 end
@@ -1926,7 +1935,7 @@ arch blocked
 x 11
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 5
 end
@@ -2006,7 +2015,7 @@ arch dungeon_magic
 x 11
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 10
 end
@@ -2014,15 +2023,15 @@ arch table_3
 x 11
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 11
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 13
 end
@@ -2033,11 +2042,11 @@ x 11
 y 13
 last_sp 1
 end
-arch cobblestones
+arch cobblestones4
 x 11
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 15
 end
@@ -2052,35 +2061,35 @@ title Python
 slaying /python/casino/goldslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 11
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 11
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 23
 end
@@ -2096,7 +2105,7 @@ arch dungeon_magic
 x 11
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 25
 end
@@ -2108,7 +2117,7 @@ arch dungeon_magic
 x 11
 y 25
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 26
 end
@@ -2120,7 +2129,7 @@ arch dungeon_magic
 x 11
 y 26
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 27
 end
@@ -2136,7 +2145,7 @@ x 11
 y 27
 unaggressive 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 11
 y 28
 end
@@ -2164,15 +2173,15 @@ arch awall_2_1_2
 x 12
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 4
 end
@@ -2180,7 +2189,7 @@ arch blocked
 x 12
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 5
 end
@@ -2240,7 +2249,7 @@ arch dungeon_magic
 x 12
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 10
 end
@@ -2248,11 +2257,11 @@ arch chair_1.2
 x 12
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 12
 end
@@ -2280,7 +2289,7 @@ endmsg
 x 12
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 13
 end
@@ -2308,7 +2317,7 @@ endmsg
 x 12
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 14
 end
@@ -2316,7 +2325,7 @@ arch firepot
 x 12
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 15
 end
@@ -2342,15 +2351,15 @@ endmsg
 x 12
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 12
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 12
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 18
 end
@@ -2358,15 +2367,15 @@ arch firepot
 x 12
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 21
 end
@@ -2386,7 +2395,7 @@ attack_movement 3
 will_apply 0
 unaggressive 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 12
 y 22
 end
@@ -2407,7 +2416,7 @@ arch dungeon_magic
 x 12
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 12
 y 24
 end
@@ -2419,7 +2428,7 @@ arch dungeon_magic
 x 12
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 12
 y 25
 end
@@ -2435,7 +2444,7 @@ title Python
 slaying /python/casino/silverslots.py
 end
 end
-arch cobblestones2
+arch cobblestones4
 x 12
 y 26
 end
@@ -2490,7 +2499,7 @@ arch awall_2_1_2
 x 13
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 2
 end
@@ -2507,11 +2516,11 @@ level 18
 attacktype 0
 connected 88
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 4
 end
@@ -2519,7 +2528,7 @@ arch blocked
 x 13
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 5
 end
@@ -2592,19 +2601,19 @@ endmsg
 x 13
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 13
 end
@@ -2612,35 +2621,35 @@ arch chair_1.4
 x 13
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 13
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 13
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 13
 y 21
 end
@@ -2660,7 +2669,7 @@ arch dungeon_magic
 x 13
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 13
 y 23
 end
@@ -2672,7 +2681,7 @@ arch dungeon_magic
 x 13
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 13
 y 24
 end
@@ -2686,11 +2695,11 @@ title Python
 slaying /python/casino/silverslots.py
 end
 end
-arch cobblestones2
+arch cobblestones4
 x 13
 y 25
 end
-arch cobblestones2
+arch cobblestones4
 x 13
 y 26
 end
@@ -2737,19 +2746,19 @@ arch awall_2_1_2
 x 14
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 5
 end
@@ -2799,19 +2808,19 @@ arch dungeon_magic
 x 14
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 13
 end
@@ -2819,7 +2828,7 @@ arch table_3
 x 14
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 14
 end
@@ -2827,35 +2836,35 @@ arch chair_1.3
 x 14
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 14
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 18
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 19
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 20
 end
-arch cobblestones
+arch cobblestones4
 x 14
 y 21
 end
-arch cobblestones2
+arch cobblestones4
 x 14
 y 22
 end
@@ -2868,19 +2877,19 @@ arch dungeon_magic
 x 14
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 14
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 14
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 14
 y 25
 end
-arch cobblestones2
+arch cobblestones4
 x 14
 y 26
 end
@@ -2914,7 +2923,7 @@ arch awall_2_1_2
 x 15
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 2
 end
@@ -2922,15 +2931,15 @@ arch chest
 x 15
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 5
 end
@@ -2991,11 +3000,11 @@ endmsg
 x 15
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 11
 end
@@ -3003,11 +3012,11 @@ arch chair_1.4
 x 15
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 13
 end
@@ -3015,39 +3024,39 @@ arch chair_1.2
 x 15
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 15
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 18
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 19
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 20
 end
-arch cobblestones
+arch cobblestones4
 x 15
 y 21
 end
-arch cobblestones2
+arch cobblestones4
 x 15
 y 22
 end
@@ -3060,19 +3069,19 @@ arch dungeon_magic
 x 15
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 15
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 15
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 15
 y 25
 end
-arch cobblestones2
+arch cobblestones4
 x 15
 y 26
 end
@@ -3106,19 +3115,19 @@ arch awall_2_1_2
 x 16
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 5
 end
@@ -3168,11 +3177,11 @@ arch dungeon_magic
 x 16
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 11
 end
@@ -3180,7 +3189,7 @@ arch table_3
 x 16
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 12
 end
@@ -3188,11 +3197,11 @@ arch chair_1.3
 x 16
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 14
 end
@@ -3200,7 +3209,7 @@ arch table_3
 x 16
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 16
 y 15
 end
@@ -3208,31 +3217,31 @@ arch chair_1.3
 x 16
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 18
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 19
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 20
 end
-arch cobblestones
+arch cobblestones4
 x 16
 y 21
 end
-arch cobblestones2
+arch cobblestones4
 x 16
 y 22
 end
@@ -3245,19 +3254,19 @@ arch dungeon_magic
 x 16
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 16
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 16
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 16
 y 25
 end
-arch cobblestones2
+arch cobblestones4
 x 16
 y 26
 end
@@ -3291,7 +3300,7 @@ arch awall_2_1_2
 x 17
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 2
 end
@@ -3299,11 +3308,11 @@ arch chest
 x 17
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 4
 end
@@ -3311,7 +3320,7 @@ arch blocked
 x 17
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 5
 end
@@ -3364,7 +3373,7 @@ arch dungeon_magic
 x 17
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 10
 end
@@ -3372,7 +3381,7 @@ arch chair_1.4
 x 17
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 11
 end
@@ -3380,15 +3389,15 @@ arch chair_1.2
 x 17
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 14
 end
@@ -3396,31 +3405,31 @@ arch chair_1.2
 x 17
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 17
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 17
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 17
 y 21
 end
@@ -3428,7 +3437,7 @@ arch firepot
 x 17
 y 21
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 22
 end
@@ -3440,7 +3449,7 @@ arch dungeon_magic
 x 17
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 23
 end
@@ -3452,7 +3461,7 @@ arch dungeon_magic
 x 17
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 24
 end
@@ -3465,11 +3474,11 @@ title Python
 slaying /python/casino/silverslots.py
 end
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 25
 end
-arch cobblestones2
+arch cobblestones4
 x 17
 y 26
 end
@@ -3507,15 +3516,15 @@ arch awall_2_1_2
 x 18
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 4
 end
@@ -3523,7 +3532,7 @@ arch blocked
 x 18
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 5
 end
@@ -3590,7 +3599,7 @@ arch dungeon_magic
 x 18
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 10
 end
@@ -3598,7 +3607,7 @@ arch table_3
 x 18
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 11
 end
@@ -3606,7 +3615,7 @@ arch chair_1.3
 x 18
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 12
 end
@@ -3634,7 +3643,7 @@ endmsg
 x 18
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 13
 end
@@ -3662,7 +3671,7 @@ endmsg
 x 18
 y 13
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 14
 end
@@ -3670,7 +3679,7 @@ arch firepot
 x 18
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 15
 end
@@ -3696,15 +3705,15 @@ endmsg
 x 18
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 18
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 18
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 18
 end
@@ -3712,23 +3721,23 @@ arch firepot
 x 18
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 18
 y 22
 end
-arch cobblestones2
+arch cobblestones4
 x 18
 y 23
 end
@@ -3740,7 +3749,7 @@ arch dungeon_magic
 x 18
 y 23
 end
-arch cobblestones2
+arch cobblestones4
 x 18
 y 24
 end
@@ -3752,7 +3761,7 @@ arch dungeon_magic
 x 18
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 18
 y 25
 end
@@ -3767,7 +3776,7 @@ title Python
 slaying /python/casino/silverslots.py
 end
 end
-arch cobblestones2
+arch cobblestones4
 x 18
 y 26
 end
@@ -3826,7 +3835,7 @@ arch awall_2_1_2
 x 19
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 2
 end
@@ -3834,11 +3843,11 @@ arch chest
 x 19
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 4
 end
@@ -3846,7 +3855,7 @@ arch blocked
 x 19
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 5
 end
@@ -3926,7 +3935,7 @@ arch dungeon_magic
 x 19
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 10
 end
@@ -3934,15 +3943,15 @@ arch chair_1.2
 x 19
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 19
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 13
 end
@@ -3957,11 +3966,11 @@ title Python
 slaying /python/casino/diamondslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 19
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 15
 end
@@ -3975,27 +3984,27 @@ title Python
 slaying /python/casino/goldslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 19
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 19
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 21
 end
@@ -4012,7 +4021,7 @@ x 19
 y 21
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 22
 end
@@ -4029,7 +4038,7 @@ x 19
 y 22
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 23
 end
@@ -4046,7 +4055,7 @@ x 19
 y 23
 no_pick 1
 end
-arch cobblestones2
+arch cobblestones4
 x 19
 y 24
 end
@@ -4058,7 +4067,7 @@ arch dungeon_magic
 x 19
 y 24
 end
-arch cobblestones2
+arch cobblestones4
 x 19
 y 25
 end
@@ -4070,7 +4079,7 @@ arch dungeon_magic
 x 19
 y 25
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 26
 end
@@ -4082,15 +4091,11 @@ arch dungeon_magic
 x 19
 y 26
 end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 27
-arch event_say
-title Python
-slaying casinodoor.py
 end
-end
-arch cobblestones2
+arch lostlabfloor16
 x 19
 y 28
 end
@@ -4113,7 +4118,7 @@ arch awall_2_2_3
 x 20
 y 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 2
 end
@@ -4121,15 +4126,15 @@ arch awall_2_2_1
 x 20
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 5
 end
@@ -4141,7 +4146,7 @@ arch dungeon_magic
 x 20
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 6
 end
@@ -4149,15 +4154,15 @@ arch firepot
 x 20
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 9
 end
@@ -4165,47 +4170,47 @@ arch firepot
 x 20
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 12
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 20
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 20
 end
@@ -4222,7 +4227,7 @@ x 20
 y 20
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 21
 end
@@ -4235,7 +4240,7 @@ arch dungeon_magic
 x 20
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 22
 end
@@ -4261,7 +4266,7 @@ arch dungeon_magic
 x 20
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 24
 end
@@ -4273,11 +4278,11 @@ arch dungeon_magic
 x 20
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 25
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 26
 end
@@ -4285,11 +4290,11 @@ arch door_2
 x 20
 y 26
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 27
 end
-arch cobblestones2
+arch lostlabfloor16
 x 20
 y 28
 end
@@ -4323,15 +4328,15 @@ arch awall_2_1_2
 x 21
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 5
 end
@@ -4343,31 +4348,31 @@ arch dungeon_magic
 x 21
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 12
 end
@@ -4383,15 +4388,15 @@ title Python
 slaying /python/casino/imperialslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 21
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 21
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 21
 y 15
 end
@@ -4404,7 +4409,7 @@ food 1
 x 21
 y 16
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 16
 end
@@ -4425,19 +4430,19 @@ title Python
 slaying /python/misc/CFInsulter.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 21
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 21
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 20
 end
@@ -4454,7 +4459,7 @@ x 21
 y 20
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 21
 end
@@ -4467,7 +4472,7 @@ arch dungeon_magic
 x 21
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 22
 end
@@ -4484,7 +4489,7 @@ x 21
 y 22
 unaggressive 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 23
 end
@@ -4492,7 +4497,7 @@ arch chest
 x 21
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 24
 end
@@ -4504,7 +4509,7 @@ arch dungeon_magic
 x 21
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 21
 y 25
 end
@@ -4555,11 +4560,11 @@ arch awall_2_1_2
 x 22
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 4
 end
@@ -4587,7 +4592,7 @@ arch dungeon_magic
 x 22
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 7
 end
@@ -4624,7 +4629,7 @@ arch dungeon_magic
 x 22
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 10
 end
@@ -4632,7 +4637,7 @@ arch table_3
 x 22
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 11
 end
@@ -4640,39 +4645,39 @@ arch chair_1.3
 x 22
 y 11
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 12
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 13
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 14
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 15
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 17
 end
-arch cobblestones
+arch cobblestones4
 x 22
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 20
 end
@@ -4689,7 +4694,7 @@ x 22
 y 20
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 21
 end
@@ -4702,11 +4707,11 @@ arch dungeon_magic
 x 22
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 23
 end
@@ -4714,7 +4719,7 @@ arch chest
 x 22
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 24
 end
@@ -4726,11 +4731,11 @@ arch dungeon_magic
 x 22
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 22
 y 25
 end
-arch grass
+arch lostlabfloor16
 x 22
 y 26
 end
@@ -4769,15 +4774,15 @@ arch awall_win2
 x 23
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 5
 end
@@ -4789,7 +4794,7 @@ arch dungeon_magic
 x 23
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 6
 end
@@ -4800,15 +4805,15 @@ sp 6
 x 23
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 9
 end
@@ -4820,7 +4825,7 @@ arch dungeon_magic
 x 23
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 10
 end
@@ -4828,11 +4833,11 @@ arch chair_1.2
 x 23
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 12
 end
@@ -4840,7 +4845,7 @@ arch firepot
 x 23
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 13
 end
@@ -4855,11 +4860,11 @@ title Python
 slaying /python/casino/diamondslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 23
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 15
 end
@@ -4874,19 +4879,19 @@ title Python
 slaying /python/casino/goldslots.py
 end
 end
-arch cobblestones
+arch cobblestones4
 x 23
 y 16
 end
-arch cobblestones
+arch cobblestones4
 x 23
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 19
 end
@@ -4894,7 +4899,7 @@ arch firepot
 x 23
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 20
 end
@@ -4911,7 +4916,7 @@ x 23
 y 20
 no_pick 1
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 21
 end
@@ -4924,11 +4929,11 @@ arch dungeon_magic
 x 23
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 23
 end
@@ -4937,7 +4942,7 @@ x 23
 y 23
 connected 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 24
 end
@@ -4949,7 +4954,7 @@ arch dungeon_magic
 x 23
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 23
 y 25
 end
@@ -4988,11 +4993,11 @@ arch awall_2_1_2
 x 24
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 4
 end
@@ -5012,7 +5017,7 @@ arch dungeon_magic
 x 24
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 6
 end
@@ -5024,7 +5029,7 @@ arch dungeon_magic
 x 24
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 7
 end
@@ -5036,7 +5041,7 @@ arch dungeon_magic
 x 24
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 8
 end
@@ -5060,151 +5065,151 @@ arch dungeon_magic
 x 24
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 10
-end
-arch awall_2_1_1
-x 24
-y 10
-end
-arch dungeon_magic
-x 24
-y 10
-end
-arch cobblestones2
-x 24
-y 11
-end
-arch awall_2_1_1
-x 24
-y 11
-end
-arch dungeon_magic
-x 24
-y 11
-end
-arch cobblestones2
-x 24
-y 12
-end
-arch awall_2_1_1
-x 24
-y 12
-end
-arch dungeon_magic
-x 24
-y 12
-end
-arch cobblestones2
-x 24
-y 13
-end
-arch awall_2_1_1
-x 24
-y 13
-end
-arch dungeon_magic
-x 24
-y 13
-end
-arch cobblestones2
-x 24
-y 14
-end
-arch awall_2_1_1
-x 24
-y 14
-end
-arch dungeon_magic
-x 24
-y 14
-end
-arch cobblestones2
-x 24
-y 15
-end
-arch awall_2_1_1
-x 24
-y 15
-end
-arch dungeon_magic
-x 24
-y 15
-end
-arch cobblestones2
-x 24
-y 16
-end
-arch awall_2_1_1
-x 24
-y 16
-end
-arch dungeon_magic
-x 24
-y 16
-end
-arch cobblestones2
-x 24
-y 17
-end
-arch awall_2_1_1
-x 24
-y 17
-end
-arch dungeon_magic
-x 24
-y 17
-end
-arch cobblestones2
-x 24
-y 18
-end
-arch awall_2_1_1
-x 24
-y 18
-end
-arch dungeon_magic
-x 24
-y 18
-end
-arch cobblestones2
-x 24
-y 19
-end
-arch awall_2_1_1
-x 24
-y 19
-end
-arch dungeon_magic
-x 24
-y 19
-end
-arch cobblestones2
-x 24
-y 20
-end
-arch awall_2_1_1
-x 24
-y 20
-end
-arch dungeon_magic
-x 24
-y 20
-end
-arch cobblestones2
-x 24
-y 21
 end
 arch awall_1_2
 x 24
+y 10
+end
+arch dungeon_magic
+x 24
+y 10
+end
+arch lostlabfloor16
+x 24
+y 11
+end
+arch dungeon_magic
+x 24
+y 11
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 11
+end
+arch lostlabfloor16
+x 24
+y 12
+end
+arch dungeon_magic
+x 24
+y 12
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 12
+end
+arch lostlabfloor16
+x 24
+y 13
+end
+arch dungeon_magic
+x 24
+y 13
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 13
+end
+arch lostlabfloor16
+x 24
+y 14
+end
+arch dungeon_magic
+x 24
+y 14
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 14
+end
+arch lostlabfloor16
+x 24
+y 15
+end
+arch dungeon_magic
+x 24
+y 15
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 15
+end
+arch lostlabfloor16
+x 24
+y 16
+end
+arch dungeon_magic
+x 24
+y 16
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 16
+end
+arch lostlabfloor16
+x 24
+y 17
+end
+arch dungeon_magic
+x 24
+y 17
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 17
+end
+arch lostlabfloor16
+x 24
+y 18
+end
+arch dungeon_magic
+x 24
+y 18
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 18
+end
+arch lostlabfloor16
+x 24
+y 19
+end
+arch dungeon_magic
+x 24
+y 19
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 19
+end
+arch lostlabfloor16
+x 24
+y 20
+end
+arch dungeon_magic
+x 24
+y 20
+end
+arch ltagreenmarblewall_1_2
+x 24
+y 20
+end
+arch lostlabfloor16
+x 24
 y 21
 end
 arch dungeon_magic
 x 24
 y 21
 end
-arch cobblestones2
+arch ltagreenmarblewall_1_2
+x 24
+y 21
+end
+arch lostlabfloor16
 x 24
 y 22
 end
@@ -5229,7 +5234,7 @@ arch dungeon_magic
 x 24
 y 23
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 24
 end
@@ -5241,7 +5246,7 @@ arch dungeon_magic
 x 24
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 24
 y 25
 end
@@ -5280,11 +5285,11 @@ arch awall_2_1_2
 x 25
 y 2
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 3
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 4
 end
@@ -5292,39 +5297,39 @@ arch rune_summon_devil
 x 25
 y 4
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 6
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 7
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 8
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 9
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 10
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 11
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 12
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 13
 end
@@ -5335,11 +5340,11 @@ invisible 1
 connected 10
 activate_on_release 0
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 14
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 15
 end
@@ -5347,35 +5352,35 @@ arch rune_summon_devil
 x 25
 y 15
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 16
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 17
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 18
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 19
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 20
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 21
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 22
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 23
 end
@@ -5384,11 +5389,11 @@ x 25
 y 23
 connected 5
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 24
 end
-arch cobblestones2
+arch lostlabfloor16
 x 25
 y 25
 end

@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2019-05-08 lori
+Modified: 2019-08-23 lori
 endmsg
 outdoor 1
 tile_path_1 world_121_116
@@ -10983,10 +10983,6 @@ arch grass
 x 39
 y 4
 end
-arch r_house1
-x 39
-y 4
-end
 arch dungeon_magic
 x 39
 y 5
@@ -12048,10 +12044,6 @@ arch grass
 x 42
 y 7
 end
-arch slum1
-x 42
-y 7
-end
 arch dungeon_magic
 x 42
 y 8
@@ -12385,10 +12377,6 @@ arch grass
 x 43
 y 7
 end
-arch slum2
-x 43
-y 7
-end
 arch dungeon_magic
 x 43
 y 8
@@ -12699,10 +12687,6 @@ x 44
 y 7
 end
 arch grass
-x 44
-y 7
-end
-arch slum3
 x 44
 y 7
 end
@@ -13440,16 +13424,6 @@ arch cobblestones4
 x 46
 y 11
 end
-arch cathedral
-name Mostrai Cathedral
-name_pl Mostrai cathedral
-slaying /navar_city/city1church1
-hp 8
-sp 25
-x 46
-y 11
-no_pass 0
-end
 arch dungeon_magic
 x 46
 y 12
@@ -13458,6 +13432,14 @@ arch grass
 x 46
 y 12
 no_pass 1
+end
+arch darkhold_sym
+name Mostrai Cathedral
+slaying ../navar_city/city1church1
+hp 8
+sp 25
+x 46
+y 12
 end
 arch dungeon_magic
 x 46
