@@ -3,7 +3,7 @@ name world_115_103
 width 50
 height 50
 msg
-Modified: 2018-12-11 lx
+Modified: 2019-08-29 lx
 endmsg
 outdoor 1
 tile_path_1 world_115_102
@@ -3441,6 +3441,13 @@ arch small_stones
 x 13
 y 20
 end
+arch dark_elf
+x 13
+y 20
+attack_movement 0
+randomitems orc
+faction_elf 1
+end
 arch small_stones
 x 13
 y 21
@@ -3754,6 +3761,7 @@ end
 arch gnoll
 x 14
 y 32
+faction_orc 1
 end
 arch small_stones
 x 14
@@ -3944,8 +3952,7 @@ end
 arch orc
 x 15
 y 22
-monster 0
-unaggressive 1
+faction_orc 1
 end
 arch small_stones
 x 15
@@ -4722,6 +4729,15 @@ y 22
 end
 arch small_stones
 x 18
+y 22
+end
+arch orc
+x 18
+y 22
+faction_elf 1
+end
+arch small_stones
+x 18
 y 23
 end
 arch small_stones
@@ -5009,8 +5025,7 @@ end
 arch gnoll
 x 19
 y 26
-monster 0
-unaggressive 1
+faction_orc 1
 end
 arch small_stones
 x 19
@@ -8116,6 +8131,7 @@ end
 arch goblin
 x 30
 y 48
+faction_orc 1
 end
 arch small_stones
 x 30
