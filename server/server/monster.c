@@ -113,8 +113,85 @@ object *check_enemy(object *npc, rv_vector *rv) {
 		    
 		    
 	else if (!QUERY_FLAG(npc, FLAG_FRIENDLY) && 
-             (!QUERY_FLAG(npc->enemy, FLAG_FRIENDLY) && npc->enemy->type!=PLAYER))
+             (!QUERY_FLAG(npc->enemy, FLAG_FRIENDLY)))
+           {
+                 printf("notfriend\n");
+              // && npc->enemy->type!=PLAYER))
+                 if(npc->enemy->type != PLAYER)
+                 {
+                   printf("monster consider fight monster\n");
+                if((QUERY_FLAG(npc, FACTION_ELF)) &&
+                    (QUERY_FLAG(npc->enemy, FACTION_ELF)))
+                   {
                 npc->enemy=NULL;
+                   }
+
+                   if((QUERY_FLAG(npc, FACTION_ORC)) &&
+                    (QUERY_FLAG(npc->enemy, FACTION_ORC)))
+                    {
+                          printf("monster ignore matching monster\n");
+                         npc->enemy=NULL;
+                    }
+
+                    if((QUERY_FLAG(npc, FACTION_HUMAN)) &&
+              		(QUERY_FLAG(npc->enemy, FACTION_HUMAN)))
+                      {
+                           npc->enemy=NULL;
+                      }
+
+                     if((QUERY_FLAG(npc,FACTION_UNDEAD)) &&
+                         (QUERY_FLAG(npc->enemy, FACTION_UNDEAD)))
+                        {
+                           npc->enemy=NULL;
+                        } 
+
+                        if(npc->enemy != NULL)
+                        {
+                            printf("monster fight monster\n");
+                        }
+             
+                  }
+                  else
+                  {
+                      printf("is plyr\n");
+                      // PLAYER is npc->enemy->type
+                     if(npc->enemy->race != NULL)
+                      {
+                     printf("plyr %s \n",npc->enemy->race);
+                      
+                     if(!strcmp(npc->enemy->race, "goblin"))
+                     {
+                          printf("found gb\n");
+                     }
+                if((QUERY_FLAG(npc, FACTION_ELF)) &&
+                    (!strcmp(npc->enemy->race,"faerie")))
+                   {
+                npc->enemy=NULL;
+                   }
+
+                   if((QUERY_FLAG(npc, FACTION_ORC)) &&
+                    (!strcmp(npc->enemy->race,"goblin")))
+                    {
+                          printf("skip matching opponent\n");
+                         npc->enemy=NULL;
+                    }
+
+                    if((QUERY_FLAG(npc, FACTION_HUMAN)) &&
+                        (!strcmp(npc->enemy->race,"human")))
+                      {
+                           npc->enemy=NULL;
+                      }
+
+                     if((QUERY_FLAG(npc,FACTION_UNDEAD)) &&
+                        (!strcmp(npc->enemy->race, "undead")))
+                        {
+                           npc->enemy=NULL;
+                        } 
+                       }
+                  }
+
+
+            }
 
 	/* I've noticed that pets could sometimes get an arrow as the
 	 * target enemy - this code below makes sure the enemy is something
@@ -184,6 +261,50 @@ object *find_nearest_living_creature(object *npc) {
 }
 
 
+object *find_nearest_nonplayer_creature(object *npc) {
+int i,mflags;
+    sint16 nx,ny;
+    mapstruct *m;
+    object *tmp;
+    int search_arr[SIZEOFFREE];
+
+    get_search_arr(search_arr);
+    for(i=0;i<SIZEOFFREE;i++) {
+        /* modified to implement smart searching using search_arr
+         * guidance array to determine direction of search order
+         */
+        nx = npc->x + freearr_x[search_arr[i]];
+        ny = npc->y + freearr_y[search_arr[i]];
+        m = npc->map;
+
+        mflags = get_map_flags(m, &m, nx, ny, &nx, &ny);
+        if (mflags & P_OUT_OF_MAP) continue;
+
+        if (mflags & P_IS_ALIVE) {
+            tmp=get_map_ob(m,nx,ny);
+            while(tmp!=NULL && !QUERY_FLAG(tmp,FLAG_MONSTER)&&
+                  !QUERY_FLAG(tmp,FLAG_GENERATOR ) )
+                tmp=tmp->above;
+
+            if (!tmp) {
+                LOG(llevDebug,"find_nearest_living_creature: map %s (%d,%d) has is_alive set but did not find a monster?\n",
+                    m->path, nx, ny);
+            }
+            else {
+                if(can_see_monsterP(m,nx,ny,i))
+                    return tmp;
+            }
+        } /* is something living on this space */
+    }
+    return NULL;  /* nothing found */
+
+
+
+
+
+}
+
+
 /* Tries to find an enmy for npc.  We pass the range vector since
  * our caller will find the information useful.
  * Currently, only move_monster calls this function.
@@ -237,8 +358,78 @@ static object *find_enemy(object *npc, rv_vector *rv)
                 if( QUERY_FLAG(npc, FLAG_NEUTRAL) || QUERY_FLAG(attacker, FLAG_NEUTRAL) || /* neutral */
                     (QUERY_FLAG(npc, FLAG_FRIENDLY) && QUERY_FLAG(attacker, FLAG_FRIENDLY)) ||
                     (!QUERY_FLAG(npc, FLAG_FRIENDLY) && 
-                    (!QUERY_FLAG(attacker, FLAG_FRIENDLY) && attacker->type!=PLAYER)) )        
+                    (!QUERY_FLAG(attacker, FLAG_FRIENDLY))))
+                   {  
+                 //  && attacker->type!=PLAYER)) )
+                     if(attacker->type != PLAYER)
+                     {
+                        if( QUERY_FLAG(npc, FACTION_ELF ) && ( QUERY_FLAG(attacker, FACTION_ELF)))
+                        { 
                          CLEAR_FLAG(npc,FLAG_SLEEP); /* skip it, but lets wakeup */
+                        }
+                        else if( QUERY_FLAG(npc, FACTION_ORC ) && ( QUERY_FLAG(attacker, FACTION_ORC)))
+                        {
+                         CLEAR_FLAG(npc,FLAG_SLEEP);
+                        }
+                        else if( QUERY_FLAG(npc, FACTION_HUMAN) && (QUERY_FLAG(attacker, FACTION_HUMAN)))
+                        {
+                         CLEAR_FLAG(npc, FLAG_SLEEP);
+                        }
+                        else if(QUERY_FLAG(npc, FACTION_UNDEAD)&& (QUERY_FLAG(attacker, FACTION_UNDEAD)))
+                        {
+                           CLEAR_FLAG(npc, FLAG_SLEEP);
+                        }
+                        else
+                        {
+                              if(on_same_map(npc,attacker))
+                              {
+				CLEAR_FLAG(npc, FLAG_SLEEP);
+                                npc->enemy = attacker;
+                                return attacker;	
+				}
+
+                        }
+
+                     }
+                     else
+                     {
+			// if attacker->type==PLAYER
+                          if( QUERY_FLAG(npc, FACTION_ELF) && (!strcmp(attacker->race, "faerie")) )
+                          {
+                            CLEAR_FLAG(npc, FLAG_SLEEP);
+
+                          }
+                          else if(QUERY_FLAG(npc, FACTION_ORC) && (!strcmp(attacker->race,"goblin")))
+                          {
+                             CLEAR_FLAG(npc, FLAG_SLEEP);
+
+
+                          }
+      			  else if(QUERY_FLAG(npc, FACTION_HUMAN) && (!strcmp(attacker->race,"human")))
+                          {
+                             CLEAR_FLAG(npc, FLAG_SLEEP);
+
+                          }
+                          else if(QUERY_FLAG(npc, FACTION_UNDEAD) && (!strcmp(attacker->race,"undead")))
+                          {
+                            CLEAR_FLAG(npc, FLAG_SLEEP);
+
+                          }
+                          else
+                          {
+				 if(on_same_map(npc,attacker))
+                              {
+                                CLEAR_FLAG(npc, FLAG_SLEEP);
+                                npc->enemy = attacker;
+                                return attacker;
+                                }
+
+
+                          }
+
+
+                      }
+                   }
                 else if(on_same_map(npc, attacker)) /* thats the only thing we must know... */
                 {
                     CLEAR_FLAG(npc,FLAG_SLEEP); /* well, NOW we really should wake up! */
@@ -253,8 +444,164 @@ static object *find_enemy(object *npc, rv_vector *rv)
             !QUERY_FLAG(npc, FLAG_NEUTRAL))
         {
 	    npc->enemy = get_nearest_player(npc);
-	    if (npc->enemy) 
+	    if (npc->enemy)
+            { 
+                printf("mons try adding target\n");
 		tmp = check_enemy(npc,rv);
+
+
+                  //if adding player as enemy, search around monster
+                  // for other monster of opposing faction
+		object *enemy2;
+
+                   enemy2=find_nearest_nonplayer_creature(npc);
+                   if(enemy2 != NULL)
+                   {
+                         printf("found enemy2\n");
+                          return enemy2;
+                        /*
+			if((QUERY_FLAG(npc, FACTION_HUMAN)) && (QUERY_FLAG(enemy2, FACTION_UNDEAD)))
+                        {
+				enemy2->attacked_by = npc;       
+       				enemy2->attacked_by_count = npc->count;                                
+                        }
+                        
+                         if((QUERY_FLAG(enemy2, FACTION_HUMAN)) && (QUERY_FLAG(npc, FACTION_UNDEAD)))    
+                        {
+                                enemy2->attacked_by = npc;      
+                                enemy2->attacked_by_count = npc->count; 
+                               
+                        }
+
+                        if((QUERY_FLAG(enemy2, FACTION_ORC)) && (QUERY_FLAG(npc, FACTION_ELF)))
+                        {
+                                   enemy2->attacked_by = npc;       
+                                enemy2->attacked_by_count = npc->count; 
+
+                        }
+
+                        if((QUERY_FLAG(npc, FACTION_ORC)) && (QUERY_FLAG(enemy2, FACTION_ELF)))
+                        {
+                                  enemy2->attacked_by = npc;       
+                                enemy2->attacked_by_count = npc->count; 
+
+
+                        }
+                     */
+
+                    }
+                    
+
+            }
+            else
+            {
+                 printf("try this\n");
+                if((QUERY_FLAG(npc, FACTION_HUMAN)) || (QUERY_FLAG(npc,FACTION_ELF)) || (QUERY_FLAG(npc,FACTION_UNDEAD)) || (QUERY_FLAG(npc,FACTION_ORC)))
+                {
+               npc->enemy=find_nearest_nonplayer_creature(npc);
+                }
+                if(npc->enemy)
+                {
+                   printf("mons try fight mons new\n");
+                    if(npc->enemy->type == PLAYER)
+                    {
+                          npc->enemy = NULL;
+                    }
+                    else
+                    {
+                       printf("and is not plyr\n"); 
+                 //  tmp=check_enemy(npc,rv);
+                           printf("notfriend\n");
+              // && npc->enemy->type!=PLAYER))
+                   printf("monster consider fight monster\n");
+
+               /* 
+                if((QUERY_FLAG(npc, FACTION_ELF)) &&
+                    (QUERY_FLAG(npc->enemy, FACTION_ELF)))
+                   {
+                //npc->enemy=NULL;
+                           npc->enemy=find_nearest_nonplayer_creature(npc->enemy);
+                           if(npc->enemy==npc)
+                           {
+                                npc->enemy=NULL;
+                            }
+
+                   }
+
+                   if((QUERY_FLAG(npc, FACTION_ORC)) &&
+                    (QUERY_FLAG(npc->enemy, FACTION_ORC)))
+                    {
+                          printf("monster ignore matching monster\n");
+                           npc->enemy=find_nearest_nonplayer_creature(npc->enemy);
+                           if(npc->enemy==npc)
+                           {
+                              npc->enemy=NULL;
+                           }
+ 
+                         //npc->enemy=NULL;
+                    }
+
+                    if((QUERY_FLAG(npc, FACTION_HUMAN)) &&
+                        (QUERY_FLAG(npc->enemy, FACTION_HUMAN)))
+                      {
+                          // npc->enemy=NULL;
+                           npc->enemy=find_nearest_nonplayer_creature(npc->enemy);
+                           if(npc->enemy==npc)
+                             {
+                                   npc->enemy=NULL;
+                             }
+                      }
+
+                     if((QUERY_FLAG(npc,FACTION_UNDEAD)) &&
+                         (QUERY_FLAG(npc->enemy, FACTION_UNDEAD)))
+                        {
+                          // npc->enemy=NULL;
+                            npc->enemy=find_nearest_nonplayer_creature(npc->enemy);
+                              if(npc->enemy==npc)
+                              {
+                                  npc->enemy=NULL;
+                               }
+                        }
+                     */
+                           
+
+                       //  if((QUERY_FLAG(npc, FACTION_HUMAN)) && (QUERY_FLAG(npc->enemy, FACTION_UNDEAD)))
+                       // {
+                              printf("monster fight monster\n");
+                                 return npc->enemy;
+                       // }
+		/*
+                         if((QUERY_FLAG(npc->enemy, FACTION_HUMAN)) && (QUERY_FLAG(npc, FACTION_UNDEAD)))
+                        {
+                              printf("monster fight monster\n");
+                                 return npc->enemy;
+
+                        }
+
+                        if((QUERY_FLAG(npc->enemy, FACTION_ORC)) && (QUERY_FLAG(npc, FACTION_ELF)))
+                        {
+                                printf("monster fight monster\n");
+                                 return npc->enemy;
+
+                        }
+
+                        if((QUERY_FLAG(npc, FACTION_ORC)) && (QUERY_FLAG(npc->enemy, FACTION_ELF)))
+                        {
+                               printf("monster fight monster\n");
+                                 return npc->enemy;
+
+
+                        }
+                    */
+
+                   
+                      //can_detect_enemy(npc,npc->enemy,rv)?npc->enemy:NULL;
+		}
+
+               }
+
+
+            }
         }
         
     }

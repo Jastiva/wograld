@@ -845,6 +845,43 @@ A	.+
 			}
 			else CLEAR_FLAG(op, FLAG_FRIENDLY);
 		    }
+^faction_human{S}   {  if(IVAL) {
+                            SET_FLAG(op, FACTION_HUMAN);
+                            if(op->type != PLAYER) {
+                                LOG(llevDebug," Adding human factioner %s \n",op->name);
+                            // nyi   add_friendly_object(op); 
+                            }
+                         }
+                         else CLEAR_FLAG(op, FACTION_HUMAN);
+                    }
+^faction_orc{S}     {  if(IVAL) {
+                            SET_FLAG(op, FACTION_ORC);
+                            if(op->type != PLAYER) {
+                                 LOG(llevDebug," Adding orc factioner %s \n",op->name);
+                            // nyi add_friendly_object(op);
+                            }
+                         }
+                         else CLEAR_FLAG(op, FACTION_ORC);
+                    }
+^faction_elf{S}     {  if(IVAL) {
+                            SET_FLAG(op, FACTION_ELF);
+                            if(op->type != PLAYER) {
+                                LOG(llevDebug," Adding elf factioner %s \n",op->name);
+                             // nyi add_friendly_object(op);
+                             }
+                           }
+                           else CLEAR_FLAG(op, FACTION_ELF);
+                    } 
+^faction_undead{S}  {  if(IVAL) {
+                            SET_FLAG(op, FACTION_UNDEAD);
+                            if(op->type != PLAYER) {
+                                LOG(llevDebug," Adding undead factioner %s \n",op->name);
+                               // nyi add_friendly_object(op);
+                              }
+                            }
+                            else CLEAR_FLAG(op, FACTION_UNDEAD);
+                    }
+                    
 ^generator{S}	    SET_OR_CLEAR_FLAG(op, FLAG_GENERATOR, IVAL);
 ^use_content_on_gen{S} SET_OR_CLEAR_FLAG (op,FLAG_CONTENT_ON_GEN, IVAL);
 ^is_thrown{S}	    SET_OR_CLEAR_FLAG(op, FLAG_IS_THROWN, IVAL);

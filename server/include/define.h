@@ -607,7 +607,11 @@ extern typedata ItemTypes[];
 #define FLAG_IS_A_TEMPLATE       109 /* Object has no ingame life until instanciated*/
 #define FLAG_IS_BUILDABLE        110 /* Can build on item */
 #define FLAG_AFK                 111 /* Player is AFK */
-#define NUM_FLAGS                111 /* Should always be equal to the last
+#define FACTION_HUMAN            112
+#define FACTION_ORC              113
+#define FACTION_ELF		 114
+#define FACTION_UNDEAD		 115 
+#define NUM_FLAGS                115 /* Should always be equal to the last
                                       * defined flag.  If you change this,
                                       * make sure you update the flag_links
                                       * in common/loader.l
