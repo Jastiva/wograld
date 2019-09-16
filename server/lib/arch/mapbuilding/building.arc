@@ -319,5 +319,15 @@ subtype 4
 face mbwindow.111
 slaying dwall_win1
 end
+Object building_hollow
+name hollow building material
+nrof 1
+weight 1500
+value 1500
+type 161
+subtype 1
+face mbstove.111
+slaying hollow
+end
 
 
