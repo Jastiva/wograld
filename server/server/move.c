@@ -589,7 +589,15 @@ void apply_gravity(object *faller)
 			if(temp_ob != 0)
 			{
 			/* if((temp_ob -> type) && FLOOR){ */
-				canfall  += 1;
+                	  
+			if (temp_ob->face->number !=  find_face("empty.111",0))
+			{
+				canfall += 1;
+			}
+			else
+			{
+  				printf("found empty\n");
+			} 
 				/* printf("%i\n",555555); */
 			/* } */
 			}
