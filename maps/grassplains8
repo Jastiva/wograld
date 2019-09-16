@@ -10,8 +10,8 @@ Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
 Modified: 2019-09-15 lx
 endmsg
-tile_path_2 grassplains8
-tile_path_4 grassplains6
+tile_path_4 grassplains7
+tile_path_5 grassplains81
 end
 arch grassmedium
 end
@@ -3317,6 +3317,14 @@ arch building_wall2
 x 13
 y 37
 end
+arch building_blackmarble
+x 13
+y 37
+end
+arch building_blackmarble
+x 13
+y 37
+end
 arch grassmedium
 x 13
 y 38
@@ -3325,7 +3333,7 @@ arch grassmedium
 x 13
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 13
 y 40
 end
@@ -3333,20 +3341,7 @@ arch grassmedium
 x 13
 y 41
 end
-arch detector
-slaying need_build_title
-x 13
-y 41
-connected 5
-end
-arch teleporter
-hp 15
-sp 41
-x 13
-y 41
-connected 5
-end
-arch bluebrick1
+arch grassmedium
 x 13
 y 42
 end
@@ -3569,7 +3564,7 @@ arch grassmedium
 x 14
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 14
 y 40
 end
@@ -3577,11 +3572,7 @@ arch grassmedium
 x 14
 y 41
 end
-arch grate_closed_2
-x 14
-y 41
-end
-arch bluebrick1
+arch grassmedium
 x 14
 y 42
 end
@@ -3594,16 +3585,6 @@ x 14
 y 44
 end
 arch grassmedium
-x 14
-y 45
-end
-arch grassmedium
-x 14
-y 45
-unique 1
-end
-arch building_title
-title 6646
 x 14
 y 45
 end
@@ -3678,36 +3659,11 @@ arch grassmedium
 x 15
 y 13
 end
-arch bluebrick1
-x 15
-y 13
-end
 arch grassmedium
 x 15
 y 14
 end
 arch grassmedium
-x 15
-y 14
-end
-arch detector
-slaying need_build_title
-x 15
-y 14
-connected 8
-end
-arch teleporter
-hp 17
-sp 14
-x 15
-y 14
-connected 8
-end
-arch grassmedium
-x 15
-y 15
-end
-arch bluebrick1
 x 15
 y 15
 end
@@ -3717,19 +3673,7 @@ y 16
 end
 arch grassmedium
 x 15
-y 16
-end
-arch grassmedium
-x 15
 y 17
-end
-arch grassmedium
-x 15
-y 17
-end
-arch grassmedium
-x 15
-y 18
 end
 arch grassmedium
 x 15
@@ -3843,7 +3787,7 @@ arch grassmedium
 x 15
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 15
 y 40
 end
@@ -3851,7 +3795,7 @@ arch grassmedium
 x 15
 y 41
 end
-arch bluebrick1
+arch grassmedium
 x 15
 y 42
 end
@@ -3938,27 +3882,11 @@ arch grassmedium
 x 16
 y 13
 end
-arch bluebrick1
-x 16
-y 13
-end
 arch grassmedium
 x 16
 y 14
 end
 arch grassmedium
-x 16
-y 14
-end
-arch grate_closed_2
-x 16
-y 14
-end
-arch grassmedium
-x 16
-y 15
-end
-arch bluebrick1
 x 16
 y 15
 end
@@ -3968,19 +3896,7 @@ y 16
 end
 arch grassmedium
 x 16
-y 16
-end
-arch grassmedium
-x 16
 y 17
-end
-arch grassmedium
-x 16
-y 17
-end
-arch grassmedium
-x 16
-y 18
 end
 arch grassmedium
 x 16
@@ -4078,7 +3994,7 @@ arch grassmedium
 x 16
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 16
 y 40
 end
@@ -4086,14 +4002,7 @@ arch grassmedium
 x 16
 y 41
 end
-arch altar
-slaying goldcoin
-x 16
-y 41
-connected 6
-move_on walk
-end
-arch bluebrick1
+arch grassmedium
 x 16
 y 42
 end
@@ -4180,23 +4089,11 @@ arch grassmedium
 x 17
 y 13
 end
-arch bluebrick1
-x 17
-y 13
-end
 arch grassmedium
 x 17
 y 14
 end
 arch grassmedium
-x 17
-y 14
-end
-arch grassmedium
-x 17
-y 15
-end
-arch bluebrick1
 x 17
 y 15
 end
@@ -4206,19 +4103,7 @@ y 16
 end
 arch grassmedium
 x 17
-y 16
-end
-arch grassmedium
-x 17
 y 17
-end
-arch grassmedium
-x 17
-y 17
-end
-arch grassmedium
-x 17
-y 18
 end
 arch grassmedium
 x 17
@@ -4336,7 +4221,7 @@ arch grassmedium
 x 17
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 17
 y 40
 end
@@ -4344,24 +4229,19 @@ arch grassmedium
 x 17
 y 41
 end
-arch grate_closed_2
-x 17
-y 41
-connected 6
-end
-arch bluebrick1
+arch grassmedium
 x 17
 y 42
 end
-arch bluebrick1
+arch grassmedium
 x 17
 y 43
 end
-arch bluebrick1
+arch grassmedium
 x 17
 y 44
 end
-arch bluebrick1
+arch grassmedium
 x 17
 y 45
 end
@@ -4436,30 +4316,11 @@ arch grassmedium
 x 18
 y 13
 end
-arch bluebrick1
-x 18
-y 13
-end
 arch grassmedium
 x 18
 y 14
 end
 arch grassmedium
-x 18
-y 14
-end
-arch altar
-slaying goldcoin
-x 18
-y 14
-connected 9
-move_on walk
-end
-arch grassmedium
-x 18
-y 15
-end
-arch bluebrick1
 x 18
 y 15
 end
@@ -4469,19 +4330,7 @@ y 16
 end
 arch grassmedium
 x 18
-y 16
-end
-arch grassmedium
-x 18
 y 17
-end
-arch grassmedium
-x 18
-y 17
-end
-arch grassmedium
-x 18
-y 18
 end
 arch grassmedium
 x 18
@@ -4599,7 +4448,15 @@ arch grassmedium
 x 18
 y 39
 end
-arch bluebrick1
+arch hedge
+x 18
+y 39
+end
+arch grassmedium
+x 18
+y 40
+end
+arch hedge
 x 18
 y 40
 end
@@ -4607,24 +4464,7 @@ arch grassmedium
 x 18
 y 41
 end
-arch cross_sign
-msg
-if there is not a crystal ie
-build_title 6646 next to you, do not
-go down that hall, use the exit
-ahead.  You can find another
-build title in another spot
-endmsg
-x 18
-y 41
-end
 arch grassmedium
-x 18
-y 42
-unique 1
-end
-arch building_title
-title 6646
 x 18
 y 42
 end
@@ -4632,23 +4472,11 @@ arch grassmedium
 x 18
 y 43
 end
-arch marker
-name need_map_title
-slaying have_build_title
-x 18
-y 43
-end
 arch grassmedium
 x 18
 y 44
 end
-arch teleporter
-hp 18
-sp 46
-x 18
-y 44
-end
-arch bluebrick1
+arch grassmedium
 x 18
 y 45
 end
@@ -4739,28 +4567,11 @@ arch grassmedium
 x 19
 y 13
 end
-arch bluebrick1
-x 19
-y 13
-end
 arch grassmedium
 x 19
 y 14
 end
 arch grassmedium
-x 19
-y 14
-end
-arch grate_closed_2
-x 19
-y 14
-connected 9
-end
-arch grassmedium
-x 19
-y 15
-end
-arch bluebrick1
 x 19
 y 15
 end
@@ -4768,23 +4579,11 @@ arch grassmedium
 x 19
 y 16
 end
-arch bluebrick1
-x 19
-y 16
-end
 arch grassmedium
 x 19
 y 17
 end
-arch bluebrick1
-x 19
-y 17
-end
 arch grassmedium
-x 19
-y 18
-end
-arch bluebrick1
 x 19
 y 18
 end
@@ -4900,7 +4699,15 @@ arch grassmedium
 x 19
 y 39
 end
-arch bluebrick1
+arch hedge
+x 19
+y 39
+end
+arch grassmedium
+x 19
+y 40
+end
+arch hedge
 x 19
 y 40
 end
@@ -4908,27 +4715,19 @@ arch grassmedium
 x 19
 y 41
 end
-arch check_inv
-race building_title
-slaying *
-x 19
-y 41
-last_sp 0
-connected 7
-end
-arch bluebrick1
+arch grassmedium
 x 19
 y 42
 end
-arch bluebrick1
+arch grassmedium
 x 19
 y 43
 end
-arch bluebrick1
+arch grassmedium
 x 19
 y 44
 end
-arch bluebrick1
+arch grassmedium
 x 19
 y 45
 end
@@ -5027,26 +4826,7 @@ arch grassmedium
 x 20
 y 13
 end
-arch bluebrick1
-x 20
-y 13
-end
 arch grassmedium
-x 20
-y 14
-end
-arch grassmedium
-x 20
-y 14
-end
-arch cross_sign
-msg
-if there is not a crystal ie
-build_title 6645 next to you, do not
-go down that hall, use the exit
-ahead.  You can find another
-build title in another spot
-endmsg
 x 20
 y 14
 end
@@ -5056,26 +4836,6 @@ y 15
 end
 arch grassmedium
 x 20
-y 15
-unique 1
-end
-arch building_title
-title 6645
-x 20
-y 15
-end
-arch grassmedium
-x 20
-y 16
-end
-arch grassmedium
-x 20
-y 16
-end
-arch marker
-name need_map_title
-slaying have_build_title
-x 20
 y 16
 end
 arch grassmedium
@@ -5083,20 +4843,6 @@ x 20
 y 17
 end
 arch grassmedium
-x 20
-y 17
-end
-arch teleporter
-hp 20
-sp 19
-x 20
-y 17
-end
-arch grassmedium
-x 20
-y 18
-end
-arch bluebrick1
 x 20
 y 18
 end
@@ -5224,7 +4970,7 @@ arch hedge
 x 20
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 20
 y 40
 end
@@ -5232,12 +4978,7 @@ arch grassmedium
 x 20
 y 41
 end
-arch grate_closed_2
-x 20
-y 41
-connected 7
-end
-arch bluebrick1
+arch grassmedium
 x 20
 y 42
 end
@@ -5364,31 +5105,11 @@ arch grassmedium
 x 21
 y 13
 end
-arch bluebrick1
-x 21
-y 13
-end
 arch grassmedium
 x 21
 y 14
 end
 arch grassmedium
-x 21
-y 14
-end
-arch check_inv
-race building_title
-slaying *
-x 21
-y 14
-last_sp 0
-connected 10
-end
-arch grassmedium
-x 21
-y 15
-end
-arch bluebrick1
 x 21
 y 15
 end
@@ -5396,23 +5117,11 @@ arch grassmedium
 x 21
 y 16
 end
-arch bluebrick1
-x 21
-y 16
-end
 arch grassmedium
 x 21
 y 17
 end
-arch bluebrick1
-x 21
-y 17
-end
 arch grassmedium
-x 21
-y 18
-end
-arch bluebrick1
 x 21
 y 18
 end
@@ -5544,7 +5253,11 @@ arch hedge
 x 21
 y 39
 end
-arch bluebrick1
+arch grassmedium
+x 21
+y 40
+end
+arch hedge
 x 21
 y 40
 end
@@ -5552,13 +5265,11 @@ arch grassmedium
 x 21
 y 41
 end
-arch teleporter
-hp 23
-sp 41
+arch hedge
 x 21
 y 41
 end
-arch bluebrick1
+arch grassmedium
 x 21
 y 42
 end
@@ -5696,28 +5407,11 @@ arch grassmedium
 x 22
 y 13
 end
-arch bluebrick1
-x 22
-y 13
-end
 arch grassmedium
 x 22
 y 14
 end
 arch grassmedium
-x 22
-y 14
-end
-arch grate_closed_2
-x 22
-y 14
-connected 10
-end
-arch grassmedium
-x 22
-y 15
-end
-arch bluebrick1
 x 22
 y 15
 end
@@ -5727,19 +5421,7 @@ y 16
 end
 arch grassmedium
 x 22
-y 16
-end
-arch grassmedium
-x 22
 y 17
-end
-arch grassmedium
-x 22
-y 17
-end
-arch grassmedium
-x 22
-y 18
 end
 arch grassmedium
 x 22
@@ -5857,15 +5539,27 @@ arch grassmedium
 x 22
 y 39
 end
-arch bluebrick1
+arch grassmedium
 x 22
 y 40
 end
-arch bluebrick1
+arch hedge
+x 22
+y 40
+end
+arch grassmedium
 x 22
 y 41
 end
-arch bluebrick1
+arch hedge
+x 22
+y 41
+end
+arch grassmedium
+x 22
+y 42
+end
+arch hedge
 x 22
 y 42
 end
@@ -5999,29 +5693,11 @@ arch grassmedium
 x 23
 y 13
 end
-arch bluebrick1
-x 23
-y 13
-end
 arch grassmedium
 x 23
 y 14
 end
 arch grassmedium
-x 23
-y 14
-end
-arch teleporter
-hp 25
-sp 14
-x 23
-y 14
-end
-arch grassmedium
-x 23
-y 15
-end
-arch bluebrick1
 x 23
 y 15
 end
@@ -6031,19 +5707,7 @@ y 16
 end
 arch grassmedium
 x 23
-y 16
-end
-arch grassmedium
-x 23
 y 17
-end
-arch grassmedium
-x 23
-y 17
-end
-arch grassmedium
-x 23
-y 18
 end
 arch grassmedium
 x 23
@@ -6068,11 +5732,6 @@ end
 arch grassmedium
 x 23
 y 23
-end
-arch goldcoin
-x 23
-y 23
-nrof 100
 end
 arch grassmedium
 x 23
@@ -6304,23 +5963,11 @@ arch grassmedium
 x 24
 y 13
 end
-arch bluebrick1
-x 24
-y 13
-end
 arch grassmedium
 x 24
 y 14
 end
-arch bluebrick1
-x 24
-y 14
-end
 arch grassmedium
-x 24
-y 15
-end
-arch bluebrick1
 x 24
 y 15
 end
@@ -6330,19 +5977,7 @@ y 16
 end
 arch grassmedium
 x 24
-y 16
-end
-arch grassmedium
-x 24
 y 17
-end
-arch grassmedium
-x 24
-y 17
-end
-arch grassmedium
-x 24
-y 18
 end
 arch grassmedium
 x 24
@@ -8847,6 +8482,13 @@ arch grassmedium
 x 33
 y 26
 end
+arch sign
+msg
+home 6645
+endmsg
+x 33
+y 26
+end
 arch grassmedium
 x 33
 y 27
@@ -10401,7 +10043,7 @@ x 40
 y 18
 end
 arch stair2_up
-slaying grassplains31
+slaying grassplains81
 hp 39
 sp 20
 x 40
