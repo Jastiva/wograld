@@ -579,12 +579,14 @@ void apply_gravity(object *faller)
 	oldy = faller->y;
 	oldmap = faller->map;
 
-	if(((faller->type == PLAYER) || (faller->flags && FLAG_CAN_ROLL)) && (faller->move_type != MOVE_FLYING))
+//	if(((faller->type == PLAYER) || (faller->flags && FLAG_CAN_ROLL)) && (faller->move_type != MOVE_FLYING))
+        if(((faller->type == PLAYER) || (faller->type == TRANSPORT) || (faller->flags && FLAG_ALIVE) || (faller->flags && FLAG_CAN_ROLL)) && (faller->move_type != MOVE_FLYING))
 	{
 		canfall = 0;
 		
 		for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
 		{
+              // this is a bug, are you sure you should not use lists per tile of objects not from viewport?
 			temp_ob = (GET_MAP_FACE_OBJ(faller->map, faller->x, faller->y, mlayer));
 			if(temp_ob != 0)
 			{
@@ -650,3 +652,193 @@ void apply_gravity(object *faller)
 		
 	}
 }
+
+
+int try_elevate_enter(object *pushed)
+{
+
+int canraise;
+        int mlayer;
+        object *temp_ob;
+        mapstruct *mu1, *oldmap;
+        int oldx, oldy;
+
+        oldx = pushed->x;
+        oldy = pushed->y;
+        oldmap = pushed->map;
+
+
+  if((pushed->type == PLAYER) || (pushed->flags && FLAG_ALIVE) || (pushed->flags && FLAG_CAN_ROLL) || (pushed->type == TRANSPORT))
+    {
+   canraise=0;
+
+    if(pushed->map->upper)
+      {
+
+        mu1 = load_and_link_upper_map(pushed->map);
+        for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
+        {
+           temp_ob=(GET_MAP_FACE_OBJ(mu1, pushed->x, pushed->y, mlayer));
+           if(temp_ob != 0)
+           { 
+                         // at the moment do not push monsters and items up into player
+                 if(temp_ob->face->number != find_face("empty.111",0))
+                 {
+                     canraise +=1;
+                 }
+           }
+        }
+      }
+      else
+      {
+	printf("no upper floor for elevator\n");
+        return 0;
+      }
+
+      if(canraise < 1)
+      {
+            mu1=load_and_link_upper_map(pushed->map);
+
+		if(pushed->type == PLAYER)
+                                        {
+                                       printf("moved player to upper map\n");
+                                               fall_enter(pushed, mu1);
+                                             // enter_map(pushed, mu1, pushed->x, (pushed->y)-1);
+                                            /*    if((pushed->x != oldx) || (pushed->y !=oldy))
+                                                {
+                                                        remove_ob(pushed);
+                                                        insert_ob_in_map(pushed,oldmap, oldx, oldy);
+
+                                                }
+                                          */
+                                                printf("tried to add player char to above map\n");
+                                        }
+                                        else
+                                        {
+                                             //   if(faller->flags && FLAG_CAN_ROLL)
+                                              //  {
+                                        /*              printf("%i\n",888888); */
+                                                        remove_ob(pushed);
+                                                     //    insert_ob_in_map(pushed, mu1, pushed,0); WHAT?
+                                               //       insert_ob_in_map(pushed,mu1,pushed->x, pushed->y);
+                                           /*             if((pushed->x != oldx) || (pushed->y !=oldy))
+                                                        {
+                                                                remove_ob(pushed);
+                                                                insert_ob_in_map(pushed,oldmap, oldx, oldy);
+
+                                                        }
+                                            */
+                                              insert_ob_in_map_at(pushed,mu1,NULL,0,pushed->x,pushed->y);
+                                                     printf("moved rollable to above map\n"); 
+                                              //  }
+
+                                        }
+                                    return 1;
+
+
+       }
+       else
+       {
+          printf("floor or item blocks movement upward\n");
+          return 0;
+       }
+    }
+    else
+    {
+          printf("not a type that can be pushed upward yet, items will be examined soon\n");
+         return 0;
+    }
+}
+
+
+void check_above_for_gravity( mapstruct *drop, int x, int y)
+{
+mapstruct *mu1;
+int mlayer,nlayer;
+object *tmp_ob, *first_ob, *floor_ob;
+     if(drop->upper)
+      {
+         mu1 = load_and_link_upper_map(drop);
+         mlayer=0;
+//         first_ob=(GET_MAP_FACE_OBJ(mu1, x, y, mlayer));
+ //        if(first_ob != NULL)
+  //       {   
+	  for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
+                {
+              // this is a bug, are you sure you should not use lists per tile of objects not from viewport?
+                        tmp_ob = (GET_MAP_FACE_OBJ(mu1, x, y, mlayer));
+                        if(tmp_ob != 0)
+	                       {
+        			printf("found something to try drop\n");      
+             // for(tmp_ob=first_ob; tmp_ob!=NULL; tmp_ob=tmp_ob->above)
+             // {
+                   if(((tmp_ob->type == PLAYER) || (tmp_ob->type == TRANSPORT) || (tmp_ob->flags && FLAG_ALIVE) || (tmp_ob->flags && FLAG_CAN_ROLL)) && (tmp_ob->move_type != MOVE_FLYING))
+                   {
+                        // for(floor_ob=first_ob; floor_ob!=NULL; floor_ob=floor_ob->above)
+                       //  {
+                        for(nlayer=0; nlayer < MAP_LAYERS; nlayer++)
+                        {
+                            floor_ob=GET_MAP_FACE_OBJ(mu1,x,y,nlayer);
+                            if(floor_ob !=0)
+                             {
+                      		if(nlayer == mlayer)
+                                { 
+                                 printf("no floors found under current object\n");
+                               //good, try to drop it
+                              			 
+                                    if(tmp_ob->type == PLAYER)
+                                        {
+                                                fall_enter(tmp_ob, drop);
+                                         }
+                                         else
+                                        {
+                                       		if((tmp_ob->flags && FLAG_ALIVE) || (tmp_ob->flags && FLAG_CAN_ROLL))
+                                                 {
+						   remove_ob(tmp_ob);
+                                                 
+                                              insert_ob_in_map_at(tmp_ob,drop,NULL,0,x,y);
+                                                 }
+                                         }
+                                         printf("dropped item, refresh list\n");
+                                         break;
+                                         //first_ob=GET_MAP_FACE_OBJ(mu1,x,y,mlayer);
+                                         //tmp_ob=first_ob;
+                                         //break;
+                          		// elevator below already cleared blocked flag 
+
+
+
+                             }
+                             else
+                             {
+                                 if(floor_ob->face->number != find_face("empty.111",0))
+                                 {
+                                  // check again the floor tiles
+                                     continue;
+                                 }
+                                 else
+                                 {
+                                       // fail
+                                       printf("floor found under player or rollable to drop\n");
+                                       break;
+                                       // try for next item to drop, but this should fail also
+                                     
+                                 }
+
+
+                             }
+                            }
+                         }               
+                   }
+
+              }  // tmp_ob
+             
+             
+          }
+      }
+// for(tmp=op->above;tmp!=NULL && tmp->above!=NULL;tmp=tmp->above);
+
+}
+
+
+

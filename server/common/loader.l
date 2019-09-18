@@ -881,6 +881,14 @@ A	.+
                             }
                             else CLEAR_FLAG(op, FACTION_UNDEAD);
                     }
+
+^is_elevator{S}     {  if(IVAL) {
+                            SET_FLAG(op, IS_ELEVATOR);
+                       }
+                       else CLEAR_FLAG(op, IS_ELEVATOR);
+                    }
+ 
+
                     
 ^generator{S}	    SET_OR_CLEAR_FLAG(op, FLAG_GENERATOR, IVAL);
 ^use_content_on_gen{S} SET_OR_CLEAR_FLAG (op,FLAG_CONTENT_ON_GEN, IVAL);
