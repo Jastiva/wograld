@@ -8,7 +8,7 @@ height 50
 enter_x 1
 enter_y 1
 msg
-Modified: 2019-08-23 lori
+Modified: 2019-09-11 lori
 endmsg
 outdoor 1
 tile_path_1 world_121_116
@@ -191,27 +191,27 @@ arch cyanbrush
 y 43
 elevation 15483
 end
-arch mountain4
+arch grass_only
 y 44
 elevation 15207
 end
-arch mountain4
+arch grass_only
 y 45
 elevation 14793
 end
-arch mountain4
+arch grass_only
 y 46
 elevation 14640
 end
-arch mountain4
+arch grass_only
 y 47
 elevation 13911
 end
-arch mountain2
+arch grass_only
 y 48
 elevation 11853
 end
-arch mountain4
+arch grass_only
 y 49
 elevation 12819
 end
@@ -427,37 +427,37 @@ x 1
 y 42
 elevation 16069
 end
-arch cyanbrush
+arch river_new4
 x 1
 y 43
 elevation 15974
 end
-arch mountain4
+arch grass
 x 1
 y 44
 elevation 13195
 end
-arch mountain4
+arch grass
 x 1
 y 45
 elevation 12522
 end
-arch mountain4
+arch grass
 x 1
 y 46
 elevation 12151
 end
-arch mountain4
+arch grass
 x 1
 y 47
 elevation 12566
 end
-arch mountain4
+arch grass
 x 1
 y 48
 elevation 12423
 end
-arch mountain2
+arch grass_only
 x 1
 y 49
 elevation 11775
@@ -674,37 +674,37 @@ x 2
 y 42
 elevation 16334
 end
-arch mountain4
+arch river_new4
 x 2
 y 43
 elevation 15387
 end
-arch mountain4
+arch river_new4
 x 2
 y 44
 elevation 13777
 end
-arch mountain4
+arch grass
 x 2
 y 45
 elevation 12308
 end
-arch mountain2
+arch bosgrass3
 x 2
 y 46
 elevation 11536
 end
-arch mountain2
+arch grass
 x 2
 y 47
 elevation 11485
 end
-arch mountain2
+arch grass
 x 2
 y 48
 elevation 11470
 end
-arch mountain2
+arch grass_only
 x 2
 y 49
 elevation 10889
@@ -926,32 +926,32 @@ x 3
 y 43
 elevation 13322
 end
-arch grass
+arch river_new4
 x 3
 y 44
 elevation 11869
 end
-arch mountain2
+arch bosgrass11
 x 3
 y 45
 elevation 10759
 end
-arch mountain2
+arch bosgrass13
 x 3
 y 46
 elevation 10093
 end
-arch mountain2
+arch bosgrass3
 x 3
 y 47
 elevation 9619
 end
-arch mountain2
+arch grass
 x 3
 y 48
 elevation 10012
 end
-arch mountain2
+arch grass_only
 x 3
 y 49
 elevation 9741
@@ -1174,36 +1174,32 @@ x 4
 y 43
 elevation 9391
 end
-arch mountain
+arch river_new4
 x 4
 y 44
 elevation 7530
 end
-arch river_nw-e
-x 4
-y 44
-end
-arch grass
+arch river_new4
 x 4
 y 45
 elevation 8573
 end
-arch mountain
+arch bosgrass12
 x 4
 y 46
 elevation 7128
 end
-arch mountain
+arch grass
 x 4
 y 47
 elevation 7499
 end
-arch mountain
+arch bosgrass3
 x 4
 y 48
 elevation 8478
 end
-arch mountain
+arch grass_only
 x 4
 y 49
 elevation 8441
@@ -1431,35 +1427,27 @@ x 5
 y 44
 elevation 4863
 end
-arch river_se-w
-x 5
-y 44
-end
-arch grass
+arch river_new4
 x 5
 y 45
 elevation 7243
 end
-arch river_nw-se_l
-x 5
-y 45
-end
-arch mountain
+arch river_new4
 x 5
 y 46
 elevation 7284
 end
-arch mountain
+arch river_new4
 x 5
 y 47
 elevation 7675
 end
-arch mountain
+arch grass
 x 5
 y 48
 elevation 6192
 end
-arch mountain
+arch grass_only
 x 5
 y 49
 elevation 7037
@@ -1687,39 +1675,27 @@ x 6
 y 44
 elevation 7952
 end
-arch river_nw-se_u
-x 6
-y 44
-end
-arch mountain
+arch grass
 x 6
 y 45
 elevation 7541
 end
-arch river_nw-se
-x 6
-y 45
-end
-arch mountain
+arch grass
 x 6
 y 46
 elevation 7958
 end
-arch river_nw-se_l
-x 6
-y 46
-end
-arch mountain
+arch river_new4
 x 6
 y 47
 elevation 8021
 end
-arch mountain
+arch grass
 x 6
 y 48
 elevation 7965
 end
-arch mountain
+arch grass_only
 x 6
 y 49
 elevation 7465
@@ -1951,39 +1927,27 @@ x 7
 y 44
 elevation 8145
 end
-arch mountain
+arch grass_only
 x 7
 y 45
 elevation 8267
 end
-arch river_nw-se_u
-x 7
-y 45
-end
-arch mountain
+arch grass_only
 x 7
 y 46
 elevation 8157
 end
-arch river_nw-se
-x 7
-y 46
-end
-arch mountain
+arch river_new4
 x 7
 y 47
 elevation 8286
 end
-arch river_nw-se_l
-x 7
-y 47
-end
-arch mountain
+arch grass_only
 x 7
 y 48
 elevation 8353
 end
-arch mountain
+arch grass_only
 x 7
 y 49
 elevation 7774
@@ -2216,34 +2180,22 @@ x 8
 y 45
 elevation 8246
 end
-arch mountain
+arch grass_only
 x 8
 y 46
 elevation 8110
 end
-arch river_nw-se_u
-x 8
-y 46
-end
-arch mountain
+arch river_new4
 x 8
 y 47
 elevation 7356
 end
-arch river_nw-se
-x 8
-y 47
-end
-arch mountain
+arch river_new4
 x 8
 y 48
 elevation 8312
 end
-arch river_nw-se_l
-x 8
-y 48
-end
-arch mountain
+arch grass_only
 x 8
 y 49
 elevation 7845
@@ -2454,16 +2406,12 @@ x 9
 y 40
 elevation 11138
 end
-arch cyanbrush
+arch river_new
 x 9
 y 41
 elevation 7664
 end
-arch river_nw-se
-x 9
-y 41
-end
-arch grass
+arch river_new
 x 9
 y 42
 elevation 9343
@@ -2472,12 +2420,12 @@ arch river_nw-se_l
 x 9
 y 42
 end
-arch grass
+arch river_new
 x 9
 y 43
 elevation 8378
 end
-arch grass
+arch river_new
 x 9
 y 44
 elevation 7380
@@ -2487,30 +2435,22 @@ x 9
 y 45
 elevation 7822
 end
-arch grass
+arch grass_only
 x 9
 y 46
 elevation 7670
 end
-arch mountain
+arch grass_only
 x 9
 y 47
 elevation 7836
 end
-arch river_nw-se_u
-x 9
-y 47
-end
-arch mountain
+arch river_new4
 x 9
 y 48
 elevation 7973
 end
-arch river_nw-e
-x 9
-y 48
-end
-arch mountain
+arch grass_only
 x 9
 y 49
 elevation 7881
@@ -2778,29 +2718,17 @@ x 10
 y 41
 elevation 9770
 end
-arch river_nw-se_u
-x 10
-y 41
-end
 arch grass
 x 10
 y 42
 elevation 8909
-end
-arch river_nw-se
-x 10
-y 42
 end
 arch grass
 x 10
 y 43
 elevation 8185
 end
-arch river_nw-se_l
-x 10
-y 43
-end
-arch mountain
+arch river_new4
 x 10
 y 44
 elevation 6939
@@ -2810,26 +2738,22 @@ x 10
 y 45
 elevation 6978
 end
-arch mountain
+arch grass_only
 x 10
 y 46
 elevation 6977
 end
-arch mountain
+arch grass_only
 x 10
 y 47
 elevation 6986
 end
-arch mountain
+arch river_new4
 x 10
 y 48
 elevation 7140
 end
-arch river_w-e
-x 10
-y 48
-end
-arch mountain
+arch grass_only
 x 10
 y 49
 elevation 7076
@@ -3054,57 +2978,37 @@ x 11
 y 42
 elevation 8541
 end
-arch river_nw-se_u
-x 11
-y 42
-end
 arch grass
 x 11
 y 43
 elevation 7341
 end
-arch river_nw-se
-x 11
-y 43
-end
-arch grass
+arch river_new4
 x 11
 y 44
 elevation 6258
 end
-arch river_nw-se_l
-x 11
-y 44
-end
-arch mountain
+arch grass_only
 x 11
 y 45
 elevation 5693
 end
-arch mountain
+arch grass_only
 x 11
 y 46
 elevation 5499
 end
-arch mountain
+arch grass_only
 x 11
 y 47
 elevation 5485
 end
-arch river_sw-ne_u
-x 11
-y 47
-end
-arch mountain
+arch river_new4
 x 11
 y 48
 elevation 5397
 end
-arch river_ne-w
-x 11
-y 48
-end
-arch mountain
+arch grass_only
 x 11
 y 49
 elevation 5527
@@ -3176,6 +3080,10 @@ arch greenmarble
 x 12
 y 12
 elevation 8974
+end
+arch bolt_silk
+x 12
+y 12
 end
 arch greenmarble
 x 12
@@ -3350,54 +3258,30 @@ x 12
 y 43
 elevation 4842
 end
-arch river_nw-se_u
-x 12
-y 43
-end
-arch hills_rocky
+arch river_new
 x 12
 y 44
 elevation 4396
 end
-arch river_nw-se
-x 12
-y 44
-end
-arch hills_rocky
+arch river_new
 x 12
 y 45
 elevation 3252
 end
-arch river_nw-se_l
-x 12
-y 45
-end
-arch hills_rocky
+arch river_new4
 x 12
 y 46
 elevation 4182
 end
-arch river_sw-ne_u
-x 12
-y 46
-end
-arch hills_rocky
+arch river_new3
 x 12
 y 47
 elevation 3109
 end
-arch river_sw-ne
-x 12
-y 47
-end
-arch hills_rocky
+arch river_new3
 x 12
 y 48
 elevation 3435
-end
-arch river_sw-ne_l
-x 12
-y 48
 end
 arch hills_rocky
 x 12
@@ -3452,15 +3336,27 @@ x 13
 y 8
 elevation 5140
 end
+arch chair_bc_2.4
+x 13
+y 8
+end
 arch greenmarble
 x 13
 y 9
 elevation 5437
 end
+arch chair_bc_2.4
+x 13
+y 9
+end
 arch greenmarble
 x 13
 y 10
 elevation 5240
+end
+arch chair_bc_2.4
+x 13
+y 10
 end
 arch greenmarble
 x 13
@@ -3646,40 +3542,20 @@ x 13
 y 44
 elevation 3543
 end
-arch river_nw-se_u
-x 13
-y 44
-end
 arch hills_rocky
 x 13
 y 45
 elevation 3123
 end
-arch river_nw-se
-x 13
-y 45
-end
-arch hills_rocky
+arch river_new4
 x 13
 y 46
 elevation 3408
-end
-arch river_nw-se_l
-x 13
-y 46
-end
-arch river_sw-ne
-x 13
-y 46
 end
 arch hills_rocky
 x 13
 y 47
 elevation 3314
-end
-arch river_sw-ne_l
-x 13
-y 47
 end
 arch woods
 x 13
@@ -3719,10 +3595,18 @@ x 14
 y 4
 elevation 2499
 end
+arch para_earth
+x 14
+y 4
+end
 arch greenmarble
 x 14
 y 5
 elevation 4573
+end
+arch para_water
+x 14
+y 5
 end
 arch greenmarble
 x 14
@@ -3734,20 +3618,60 @@ x 14
 y 7
 elevation 2878
 end
+arch para_air
+x 14
+y 7
+end
 arch greenmarble
 x 14
 y 8
 elevation 6091
+end
+arch table_blue
+x 14
+y 8
+end
+arch chalice_sil
+x 14
+y 8
+end
+arch platter1_sil
+x 14
+y 8
 end
 arch greenmarble
 x 14
 y 9
 elevation 6644
 end
+arch table_blue
+x 14
+y 9
+end
+arch platter1_sil
+x 14
+y 9
+end
+arch chalice_sil
+x 14
+y 9
+end
 arch greenmarble
 x 14
 y 10
 elevation 6191
+end
+arch table_blue
+x 14
+y 10
+end
+arch platter1_sil
+x 14
+y 10
+end
+arch chalice_sil
+x 14
+y 10
 end
 arch greenmarble
 x 14
@@ -3934,27 +3858,15 @@ x 14
 y 45
 elevation 3426
 end
-arch river_nw-se_u
-x 14
-y 45
-end
-arch hills_rocky
+arch river_new4
 x 14
 y 46
 elevation 3351
-end
-arch river_nw-se
-x 14
-y 46
 end
 arch hills_rocky
 x 14
 y 47
 elevation 3190
-end
-arch river_nw-se_l
-x 14
-y 47
 end
 arch hills_rocky
 x 14
@@ -3989,6 +3901,11 @@ x 15
 y 3
 elevation 2999
 end
+arch statue2
+face statue_gold.111
+x 15
+y 3
+end
 arch greenmarble
 x 15
 y 4
@@ -4014,15 +3931,27 @@ x 15
 y 8
 elevation 6756
 end
+arch table_blue
+x 15
+y 8
+end
 arch greenmarble
 x 15
 y 9
 elevation 7327
 end
+arch table_blue
+x 15
+y 9
+end
 arch greenmarble
 x 15
 y 10
 elevation 6994
+end
+arch table_blue
+x 15
+y 10
 end
 arch greenmarble
 x 15
@@ -4033,6 +3962,10 @@ arch greenmarble
 x 15
 y 12
 elevation 9088
+end
+arch para_air
+x 15
+y 12
 end
 arch greenmarble
 x 15
@@ -4213,34 +4146,22 @@ x 15
 y 45
 elevation 3140
 end
-arch hills_rocky
+arch river_new4
 x 15
 y 46
 elevation 3146
-end
-arch river_nw-se_u
-x 15
-y 46
 end
 arch hills_rocky
 x 15
 y 47
 elevation 3380
 end
-arch river_nw-se
-x 15
-y 47
-end
 arch hills_rocky
 x 15
 y 48
 elevation 4095
 end
-arch river_nw-se_l
-x 15
-y 48
-end
-arch hills_rocky
+arch bosgrass3
 x 15
 y 49
 elevation 4966
@@ -4293,15 +4214,51 @@ x 16
 y 8
 elevation 7585
 end
+arch table_blue
+x 16
+y 8
+end
+arch platter1_sil
+x 16
+y 8
+end
+arch chalice_sil
+x 16
+y 8
+end
 arch greenmarble
 x 16
 y 9
 elevation 7325
 end
+arch table_blue
+x 16
+y 9
+end
+arch platter1_sil
+x 16
+y 9
+end
+arch chalice_sil
+x 16
+y 9
+end
 arch greenmarble
 x 16
 y 10
 elevation 7535
+end
+arch table_blue
+x 16
+y 10
+end
+arch platter1_sil
+x 16
+y 10
+end
+arch chalice_sil
+x 16
+y 10
 end
 arch greenmarble
 x 16
@@ -4500,7 +4457,7 @@ x 16
 y 45
 elevation 3178
 end
-arch grass_br_gr
+arch river_new4
 x 16
 y 46
 elevation 2250
@@ -4510,20 +4467,12 @@ x 16
 y 47
 elevation 2378
 end
-arch river_nw-se_u
-x 16
-y 47
-end
-arch hills_rocky
+arch bosgrass3
 x 16
 y 48
 elevation 4237
 end
-arch river_nw-e
-x 16
-y 48
-end
-arch mountain
+arch bosgrass3
 x 16
 y 49
 elevation 5281
@@ -4551,6 +4500,10 @@ x 17
 y 3
 elevation 4473
 end
+arch stove
+x 17
+y 3
+end
 arch greenmarble
 x 17
 y 4
@@ -4560,6 +4513,10 @@ arch greenmarble
 x 17
 y 5
 elevation 6537
+end
+arch para_air
+x 17
+y 5
 end
 arch greenmarble
 x 17
@@ -4576,15 +4533,27 @@ x 17
 y 8
 elevation 8335
 end
+arch chair_bc_2.2
+x 17
+y 8
+end
 arch greenmarble
 x 17
 y 9
 elevation 8857
 end
+arch chair_bc_2.2
+x 17
+y 9
+end
 arch greenmarble
 x 17
 y 10
 elevation 9138
+end
+arch chair_bc_2.2
+x 17
+y 10
 end
 arch greenmarble
 x 17
@@ -4771,7 +4740,7 @@ x 17
 y 45
 elevation 3622
 end
-arch grass_br_gr
+arch river_new4
 x 17
 y 46
 elevation 3236
@@ -4786,11 +4755,7 @@ x 17
 y 48
 elevation 4314
 end
-arch river_w-e
-x 17
-y 48
-end
-arch mountain
+arch bosgrass3
 x 17
 y 49
 elevation 5390
@@ -4863,6 +4828,10 @@ x 18
 y 12
 elevation 10091
 end
+arch para_fire
+x 18
+y 12
+end
 arch greenmarble
 x 18
 y 13
@@ -4873,7 +4842,7 @@ x 18
 y 14
 elevation 9351
 end
-arch mdoor_closed_1
+arch odoor_2_fant_blue-green
 x 18
 y 14
 end
@@ -5042,7 +5011,7 @@ x 18
 y 45
 elevation 4356
 end
-arch hills_rocky
+arch river_new4
 x 18
 y 46
 elevation 3783
@@ -5057,11 +5026,7 @@ x 18
 y 48
 elevation 4710
 end
-arch river_w-e
-x 18
-y 48
-end
-arch mountain
+arch bosgrass3
 x 18
 y 49
 elevation 5452
@@ -5089,6 +5054,10 @@ x 19
 y 3
 elevation 7811
 end
+arch bookshelf
+x 19
+y 3
+end
 arch greenmarble
 x 19
 y 4
@@ -5109,10 +5078,18 @@ x 19
 y 7
 elevation 8065
 end
+arch para_earth
+x 19
+y 7
+end
 arch greenmarble
 x 19
 y 8
 elevation 8917
+end
+arch para_water
+x 19
+y 8
 end
 arch greenmarble
 x 19
@@ -5321,7 +5298,7 @@ x 19
 y 45
 elevation 5000
 end
-arch hills_rocky
+arch river_new4
 x 19
 y 46
 elevation 3104
@@ -5336,18 +5313,10 @@ x 19
 y 48
 elevation 4710
 end
-arch river_se-w
-x 19
-y 48
-end
-arch mountain
+arch bosgrass3
 x 19
 y 49
 elevation 5362
-end
-arch river_nw-se_l
-x 19
-y 49
 end
 arch grass
 x 20
@@ -5372,6 +5341,10 @@ x 20
 y 3
 elevation 9113
 end
+arch clock_ag
+x 20
+y 3
+end
 arch greenmarble
 x 20
 y 4
@@ -5386,6 +5359,10 @@ arch greenmarble
 x 20
 y 6
 elevation 6393
+end
+arch para_air
+x 20
+y 6
 end
 arch greenmarble
 x 20
@@ -5595,33 +5572,37 @@ x 20
 y 45
 elevation 5204
 end
-arch grass_br_gr
+arch s_bridge2a
+x 20
+y 45
+end
+arch pstone_4
 x 20
 y 46
 elevation 5176
+end
+arch s_bridge2
+x 20
+y 46
 end
 arch grass_br_gr
 x 20
 y 47
 elevation 5305
 end
+arch s_bridge2b
+x 20
+y 47
+end
 arch grass_br_gr
 x 20
 y 48
 elevation 5300
 end
-arch river_nw-se_u
-x 20
-y 48
-end
 arch hills_rocky
 x 20
 y 49
 elevation 4979
-end
-arch river_nw-e
-x 20
-y 49
 end
 arch grass
 x 21
@@ -5676,6 +5657,10 @@ x 21
 y 9
 elevation 7671
 end
+arch para_air
+x 21
+y 9
+end
 arch greenmarble
 x 21
 y 10
@@ -5685,6 +5670,10 @@ arch greenmarble
 x 21
 y 11
 elevation 6782
+end
+arch para_air
+x 21
+y 11
 end
 arch greenmarble
 x 21
@@ -5868,14 +5857,10 @@ x 21
 y 45
 elevation 4762
 end
-arch grass_br_gr
+arch river_new4
 x 21
 y 46
 elevation 5851
-end
-arch woods5
-x 21
-y 46
 end
 arch grass_br_gr
 x 21
@@ -5887,14 +5872,10 @@ x 21
 y 48
 elevation 4886
 end
-arch hills_rocky
+arch bosgrass3
 x 21
 y 49
 elevation 3847
-end
-arch bridge_ns
-x 21
-y 49
 end
 arch grass
 x 22
@@ -5919,6 +5900,10 @@ x 22
 y 3
 elevation 6721
 end
+arch bookshelf
+x 22
+y 3
+end
 arch greenmarble
 x 22
 y 4
@@ -5938,6 +5923,10 @@ arch greenmarble
 x 22
 y 7
 elevation 6141
+end
+arch para_air
+x 22
+y 7
 end
 arch greenmarble
 x 22
@@ -6142,7 +6131,7 @@ arch woods4
 x 22
 y 45
 end
-arch grass_br_gr
+arch river_new4
 x 22
 y 46
 elevation 5829
@@ -6157,18 +6146,10 @@ x 22
 y 48
 elevation 4218
 end
-arch river_sw-ne_u
-x 22
-y 48
-end
-arch woods_2
+arch bosgrass3
 x 22
 y 49
 elevation 2151
-end
-arch river_ne-w
-x 22
-y 49
 end
 arch grass
 x 23
@@ -6203,6 +6184,10 @@ x 23
 y 5
 elevation 6699
 end
+arch para_fire
+x 23
+y 5
+end
 arch greenmarble
 x 23
 y 6
@@ -6218,6 +6203,10 @@ x 23
 y 8
 elevation 7073
 end
+arch para_water
+x 23
+y 8
+end
 arch greenmarble
 x 23
 y 9
@@ -6232,6 +6221,10 @@ arch greenmarble
 x 23
 y 11
 elevation 6120
+end
+arch para_earth
+x 23
+y 11
 end
 arch greenmarble
 x 23
@@ -6412,7 +6405,7 @@ x 23
 y 45
 elevation 6141
 end
-arch grass_br_gr
+arch river_new4
 x 23
 y 46
 elevation 5507
@@ -6427,18 +6420,10 @@ x 23
 y 48
 elevation 3100
 end
-arch river_sw-e
-x 23
-y 48
-end
 arch steppe
 x 23
 y 49
 elevation 3551
-end
-arch river_sw-ne_l
-x 23
-y 49
 end
 arch grass
 x 24
@@ -6483,6 +6468,10 @@ x 24
 y 7
 elevation 7251
 end
+arch candelabra
+x 24
+y 7
+end
 arch greenmarble
 x 24
 y 8
@@ -6497,6 +6486,10 @@ arch greenmarble
 x 24
 y 10
 elevation 6696
+end
+arch candelabra
+x 24
+y 10
 end
 arch greenmarble
 x 24
@@ -6682,7 +6675,7 @@ x 24
 y 45
 elevation 4517
 end
-arch grass_br_gr
+arch river_new4
 x 24
 y 46
 elevation 5384
@@ -6696,10 +6689,6 @@ arch steppe
 x 24
 y 48
 elevation 4205
-end
-arch river_w-e
-x 24
-y 48
 end
 arch hills_rocky
 x 24
@@ -7000,7 +6989,7 @@ arch woods5
 x 25
 y 45
 end
-arch hills_rocky
+arch river_new4
 x 25
 y 46
 elevation 4744
@@ -7014,10 +7003,6 @@ arch hills_rocky
 x 25
 y 48
 elevation 4426
-end
-arch river_w-e
-x 25
-y 48
 end
 arch hills_rocky
 x 25
@@ -7258,7 +7243,7 @@ x 26
 y 45
 elevation 6871
 end
-arch grass_br_gr
+arch river_new4
 x 26
 y 46
 elevation 6248
@@ -7272,10 +7257,6 @@ arch hills_rocky
 x 26
 y 48
 elevation 4342
-end
-arch river_w-e
-x 26
-y 48
 end
 arch hills
 x 26
@@ -7520,7 +7501,7 @@ x 27
 y 45
 elevation 7441
 end
-arch grass_br_gr
+arch river_new4
 x 27
 y 46
 elevation 6584
@@ -7534,10 +7515,6 @@ arch hills_rocky
 x 27
 y 48
 elevation 4928
-end
-arch river_w-e
-x 27
-y 48
 end
 arch steppe
 x 27
@@ -7786,7 +7763,7 @@ x 28
 y 45
 elevation 6878
 end
-arch grass_br_gr
+arch river_new4
 x 28
 y 46
 elevation 6083
@@ -7800,10 +7777,6 @@ arch hills_rocky
 x 28
 y 48
 elevation 4629
-end
-arch river_w-e
-x 28
-y 48
 end
 arch steppe
 x 28
@@ -8043,12 +8016,12 @@ x 29
 y 44
 elevation 5282
 end
-arch grass_br_gr
+arch river_new4
 x 29
 y 45
 elevation 5482
 end
-arch grass_br_gr
+arch river_new4
 x 29
 y 46
 elevation 5568
@@ -8058,18 +8031,10 @@ x 29
 y 47
 elevation 4816
 end
-arch river_sw-ne_u
-x 29
-y 47
-end
 arch hills_rocky
 x 29
 y 48
 elevation 3697
-end
-arch river_ne-w
-x 29
-y 48
 end
 arch bosgrass2
 x 29
@@ -8272,62 +8237,50 @@ x 30
 y 39
 elevation 2797
 end
-arch grass_br_gr
+arch river_new4
 x 30
 y 40
 elevation 2248
 end
-arch grass_br_gr
+arch river_new3
 x 30
 y 41
 elevation 2929
 end
-arch grass_br_gr
+arch river_new3
 x 30
 y 42
 elevation 3546
 end
-arch grass_br_gr
+arch river_new3
 x 30
 y 43
 elevation 3265
 end
-arch grass_br_gr
+arch river_new3
 x 30
 y 44
 elevation 3024
 end
-arch hills_rocky
+arch river_new3
 x 30
 y 45
 elevation 4870
 end
-arch hills_rocky
+arch river_new3
 x 30
 y 46
 elevation 4873
-end
-arch river_sw-ne_u
-x 30
-y 46
 end
 arch steppe
 x 30
 y 47
 elevation 4104
 end
-arch river_sw-ne
-x 30
-y 47
-end
 arch hills_rocky
 x 30
 y 48
 elevation 2540
-end
-arch river_sw-ne_l
-x 30
-y 48
 end
 arch hills_rocky
 x 30
@@ -8570,7 +8523,7 @@ x 31
 y 39
 elevation 2065
 end
-arch hills_rocky
+arch river_new4
 x 31
 y 40
 elevation 1679
@@ -8600,27 +8553,15 @@ x 31
 y 45
 elevation 4597
 end
-arch river_sw-ne_u
-x 31
-y 45
-end
 arch steppe
 x 31
 y 46
 elevation 4414
 end
-arch river_sw-ne
-x 31
-y 46
-end
 arch tree
 x 31
 y 47
 elevation 2912
-end
-arch river_sw-ne_l
-x 31
-y 47
 end
 arch hills
 x 31
@@ -8837,7 +8778,7 @@ x 32
 y 39
 elevation 3477
 end
-arch jungle_1
+arch river_new4
 x 32
 y 40
 elevation 2947
@@ -8852,45 +8793,25 @@ x 32
 y 42
 elevation 2568
 end
-arch river_sw-ne_u
-x 32
-y 42
-end
 arch steppe
 x 32
 y 43
 elevation 3755
-end
-arch river_ne-s
-x 32
-y 43
 end
 arch steppe
 x 32
 y 44
 elevation 4367
 end
-arch river_n-s
-x 32
-y 44
-end
 arch steppe
 x 32
 y 45
 elevation 4878
 end
-arch river_sw-n
-x 32
-y 45
-end
 arch steppe
 x 32
 y 46
 elevation 4237
-end
-arch river_sw-ne_l
-x 32
-y 46
 end
 arch steppe
 x 32
@@ -9015,6 +8936,10 @@ x 33
 y 20
 elevation 4738
 end
+arch stol_king_1
+x 33
+y 20
+end
 arch greenmarblemedium
 x 33
 y 21
@@ -9099,60 +9024,40 @@ x 33
 y 36
 elevation 4599
 end
-arch steppe
+arch river_new4
 x 33
 y 37
 elevation 4643
 end
-arch steppe
+arch river_new3
 x 33
 y 38
 elevation 4470
 end
-arch hills_rocky
+arch river_new3
 x 33
 y 39
 elevation 4138
 end
-arch river_sw-ne_u
-x 33
-y 39
-end
-arch hills
+arch river_new3
 x 33
 y 40
 elevation 3475
-end
-arch river_ne-s
-x 33
-y 40
 end
 arch steppe
 x 33
 y 41
 elevation 3389
 end
-arch river_n-s
-x 33
-y 41
-end
 arch hills
 x 33
 y 42
 elevation 3747
 end
-arch river_sw-n
-x 33
-y 42
-end
 arch steppe
 x 33
 y 43
 elevation 4428
-end
-arch river_sw-ne_l
-x 33
-y 43
 end
 arch steppe
 x 33
@@ -9292,6 +9197,10 @@ x 34
 y 20
 elevation 5077
 end
+arch table_cw_3
+x 34
+y 20
+end
 arch greenmarblemedium
 x 34
 y 21
@@ -9376,7 +9285,7 @@ x 34
 y 36
 elevation 4324
 end
-arch hills
+arch river_new4
 x 34
 y 37
 elevation 3509
@@ -9386,27 +9295,15 @@ x 34
 y 38
 elevation 4326
 end
-arch river_sw-ne_u
-x 34
-y 38
-end
 arch hills
 x 34
 y 39
 elevation 4285
 end
-arch river_sw-ne
-x 34
-y 39
-end
 arch hills
 x 34
 y 40
 elevation 3883
-end
-arch river_sw-ne_l
-x 34
-y 40
 end
 arch bosgrass
 x 34
@@ -9611,6 +9508,10 @@ x 35
 y 20
 elevation 5315
 end
+arch stol_king_1
+x 35
+y 20
+end
 arch greenmarblemedium
 x 35
 y 21
@@ -9620,6 +9521,10 @@ arch greenmarblemedium
 x 35
 y 22
 elevation 3967
+end
+arch para_ice
+x 35
+y 22
 end
 arch greenmarble
 x 35
@@ -9715,32 +9620,20 @@ x 35
 y 36
 elevation 3903
 end
-arch hills
+arch river_new4
 x 35
 y 37
 elevation 3696
-end
-arch river_sw-ne_u
-x 35
-y 37
 end
 arch hills
 x 35
 y 38
 elevation 4268
 end
-arch river_sw-ne
-x 35
-y 38
-end
 arch hills
 x 35
 y 39
 elevation 3625
-end
-arch river_sw-ne_l
-x 35
-y 39
 end
 arch hills
 x 35
@@ -9888,13 +9781,6 @@ arch cobblestones4
 x 36
 y 7
 end
-arch prison
-name Prison
-slaying /navar_city/city1prison
-sp 2
-x 36
-y 7
-end
 arch dungeon_magic
 x 36
 y 8
@@ -10015,6 +9901,10 @@ x 36
 y 20
 elevation 5182
 end
+arch table_cw_3
+x 36
+y 20
+end
 arch greenmarblemedium
 x 36
 y 21
@@ -10099,23 +9989,15 @@ x 36
 y 36
 elevation 3927
 end
-arch hills
+arch river_new4
 x 36
 y 37
 elevation 4261
-end
-arch river_sw-e
-x 36
-y 37
 end
 arch hills
 x 36
 y 38
 elevation 4664
-end
-arch river_sw-ne_l
-x 36
-y 38
 end
 arch hills
 x 36
@@ -10283,6 +10165,13 @@ arch cobblestones4
 x 37
 y 8
 end
+arch fort_sym
+name Prison
+slaying /navar_city/city1prison
+sp 2
+x 37
+y 8
+end
 arch dungeon_magic
 x 37
 y 9
@@ -10397,6 +10286,10 @@ x 37
 y 20
 elevation 4703
 end
+arch stol_king_1
+x 37
+y 20
+end
 arch greenmarblemedium
 x 37
 y 21
@@ -10406,6 +10299,10 @@ arch greenmarblemedium
 x 37
 y 22
 elevation 1193
+end
+arch para_lightning
+x 37
+y 22
 end
 arch greenmarblemedium
 x 37
@@ -10481,18 +10378,10 @@ x 37
 y 36
 elevation 2994
 end
-arch river_sw-ne_u
-x 37
-y 36
-end
-arch hills
+arch river_new4
 x 37
 y 37
 elevation 4649
-end
-arch river_ne-w
-x 37
-y 37
 end
 arch bosgrass
 x 37
@@ -10779,6 +10668,10 @@ x 38
 y 20
 elevation 4500
 end
+arch table_cw_3
+x 38
+y 20
+end
 arch greenmarblemedium
 x 38
 y 21
@@ -10794,6 +10687,10 @@ x 38
 y 23
 elevation 4453
 end
+arch para_ice
+x 38
+y 23
+end
 arch greenmarblelight
 x 38
 y 24
@@ -10808,6 +10705,10 @@ arch greenmarblelight
 x 38
 y 26
 elevation 6680
+end
+arch para_ice
+x 38
+y 26
 end
 arch greenmarblemedium
 x 38
@@ -10863,14 +10764,10 @@ x 38
 y 36
 elevation 4153
 end
-arch hills
+arch river_new4
 x 38
 y 37
 elevation 4938
-end
-arch river_sw-ne_l
-x 38
-y 37
 end
 arch bosgrass
 x 38
@@ -10938,7 +10835,8 @@ end
 arch grass
 x 39
 end
-arch house_up
+arch woodhouse
+name 100 New Way
 slaying /navar_city/city1houses2
 hp 28
 sp 8
@@ -10957,13 +10855,6 @@ x 39
 y 2
 end
 arch grass
-x 39
-y 2
-end
-arch house_long
-slaying /navar_city/city1houses2
-hp 10
-sp 12
 x 39
 y 2
 end
@@ -11011,19 +10902,19 @@ arch grass
 x 39
 y 7
 end
-arch slum1
-name Rock Gardens
-slaying /navar_city/slums/rockgardens
-hp 1
-sp 2
-x 39
-y 7
-end
 arch dungeon_magic
 x 39
 y 8
 end
 arch cobblestones4
+x 39
+y 8
+end
+arch castle
+name Rock Gardens
+slaying /navar_city/slums/rockgardens
+hp 1
+sp 2
 x 39
 y 8
 end
@@ -11154,6 +11045,10 @@ x 39
 y 20
 elevation 4578
 end
+arch stol_king_1
+x 39
+y 20
+end
 arch greenmarblemedium
 x 39
 y 21
@@ -11188,6 +11083,10 @@ arch greenmarblemedium
 x 39
 y 27
 elevation 6053
+end
+arch para_lightning
+x 39
+y 27
 end
 arch greenmarble
 x 39
@@ -11333,6 +11232,14 @@ arch grass
 x 40
 y 2
 end
+arch woodhouse_shop
+name 200 New Way
+slaying /navar_city/city1houses2
+hp 10
+sp 12
+x 40
+y 2
+end
 arch dungeon_magic
 x 40
 y 3
@@ -11373,19 +11280,19 @@ arch grass
 x 40
 y 7
 end
-arch slum3
-name Rockgardens
-slaying /navar_city/slums/rockgardens
-hp 21
-sp 2
-x 40
-y 7
-end
 arch dungeon_magic
 x 40
 y 8
 end
 arch cobblestones4
+x 40
+y 8
+end
+arch castle
+name Rock Gardens
+slaying /navar_city/slums/rockgardens
+hp 21
+sp 2
 x 40
 y 8
 end
@@ -11476,6 +11383,18 @@ arch greenmarble
 x 40
 y 20
 elevation 2828
+end
+arch table_cw_3
+x 40
+y 20
+end
+arch platter1_tin
+x 40
+y 20
+end
+arch apple
+x 40
+y 20
 end
 arch greenmarblemedium
 x 40
@@ -11733,7 +11652,7 @@ arch dungeon_magic
 x 41
 y 11
 end
-arch cobblestones4
+arch grass_only
 x 41
 y 11
 end
@@ -11749,20 +11668,19 @@ arch grass
 x 41
 y 12
 end
-arch guild_west
-name Dreaming Sage's Storage Room
-name_pl Dreaming Sage's Storage Room
-slaying /navar_city/dreaming_sage/storage_room
-hp 1
-sp 10
-x 41
-y 12
-end
 arch dungeon_magic
 x 41
 y 13
 end
 arch grass
+x 41
+y 13
+end
+arch keep_sym
+name Dreaming Sage's Storage Room
+slaying /navar_city/dreaming_sage/storage_room
+hp 1
+sp 10
 x 41
 y 13
 end
@@ -11820,6 +11738,10 @@ x 41
 y 20
 elevation 8258
 end
+arch stol_king_1
+x 41
+y 20
+end
 arch greenmarblemedium
 x 41
 y 21
@@ -11829,6 +11751,10 @@ arch greenmarblelight
 x 41
 y 22
 elevation 7920
+end
+arch para_lightning
+x 41
+y 22
 end
 arch greenmarblelight
 x 41
@@ -11849,6 +11775,10 @@ arch greenmarblelight
 x 41
 y 26
 elevation 7739
+end
+arch para_ice
+x 41
+y 26
 end
 arch greenmarblemedium
 x 41
@@ -12011,20 +11941,19 @@ arch grass
 x 42
 y 4
 end
-arch temple1
-name temple of Sorig
-name_pl temple of Sorig
-slaying /navar_city/temples/sorig
-hp 7
-sp 13
-x 42
-y 4
-end
 arch dungeon_magic
 x 42
 y 5
 end
 arch cobblestones4
+x 42
+y 5
+end
+arch shrine_northwest
+name Temple of Sorig
+slaying /navar_city/temples/sorig
+hp 7
+sp 13
 x 42
 y 5
 end
@@ -12081,7 +12010,7 @@ arch dungeon_magic
 x 42
 y 11
 end
-arch tree
+arch grass_only
 x 42
 y 11
 end
@@ -12089,7 +12018,7 @@ arch dungeon_magic
 x 42
 y 12
 end
-arch cobblestones4
+arch grass_only
 x 42
 y 12
 end
@@ -12097,7 +12026,7 @@ arch dungeon_magic
 x 42
 y 13
 end
-arch cobblestones4
+arch grass_only
 x 42
 y 13
 end
@@ -12154,6 +12083,18 @@ arch greenmarble
 x 42
 y 20
 elevation 10436
+end
+arch table_cw_3
+x 42
+y 20
+end
+arch platter1_iro
+x 42
+y 20
+end
+arch apple
+x 42
+y 20
 end
 arch greenmarblemedium
 x 42
@@ -12381,7 +12322,7 @@ arch dungeon_magic
 x 43
 y 8
 end
-arch cobblestones4
+arch grass_only
 x 43
 y 8
 end
@@ -12405,7 +12346,7 @@ arch dungeon_magic
 x 43
 y 11
 end
-arch cobblestones4
+arch grass_only
 x 43
 y 11
 end
@@ -12413,7 +12354,7 @@ arch dungeon_magic
 x 43
 y 12
 end
-arch cobblestones4
+arch grass_only
 x 43
 y 12
 end
@@ -12421,7 +12362,7 @@ arch dungeon_magic
 x 43
 y 13
 end
-arch cobblestones2
+arch grass_only
 x 43
 y 13
 end
@@ -12479,6 +12420,10 @@ x 43
 y 20
 elevation 10982
 end
+arch stol_king_1
+x 43
+y 20
+end
 arch greenmarblemedium
 x 43
 y 21
@@ -12493,6 +12438,10 @@ arch greenmarblelight
 x 43
 y 23
 elevation 8168
+end
+arch para_ice
+x 43
+y 23
 end
 arch greenmarblelight
 x 43
@@ -12694,7 +12643,7 @@ arch dungeon_magic
 x 44
 y 8
 end
-arch cobblestones4
+arch grass_only
 x 44
 y 8
 end
@@ -12818,6 +12767,18 @@ x 44
 y 20
 elevation 11343
 end
+arch table_cw_3
+x 44
+y 20
+end
+arch platter1_gol
+x 44
+y 20
+end
+arch apple
+x 44
+y 20
+end
 arch greenmarblemedium
 x 44
 y 21
@@ -12842,6 +12803,10 @@ arch greenmarblelight
 x 44
 y 25
 elevation 8175
+end
+arch para_lightning
+x 44
+y 25
 end
 arch greenmarblelight
 x 44
@@ -13004,6 +12969,7 @@ x 45
 y 2
 end
 arch house_1
+name The Song and Dance
 name_pl Dancing Lessons
 slaying /navar_city/city1houses3
 hp 27
@@ -13150,6 +13116,10 @@ arch greenmarble
 x 45
 y 20
 elevation 11067
+end
+arch stol_king_1
+x 45
+y 20
 end
 arch greenmarblemedium
 x 45
@@ -13379,20 +13349,19 @@ arch grass_only
 x 46
 y 7
 end
-arch house_up
-name Iggy's house
-name_pl Iggy's house
-slaying /navar_city/slums/Iggys_house
-hp 1
-sp 15
-x 46
-y 7
-end
 arch dungeon_magic
 x 46
 y 8
 end
 arch grass
+x 46
+y 8
+end
+arch woodhouse
+name Iggy's House
+slaying /navar_city/slums/Iggys_house
+hp 1
+sp 15
 x 46
 y 8
 end
@@ -13431,7 +13400,6 @@ end
 arch grass
 x 46
 y 12
-no_pass 1
 end
 arch darkhold_sym
 name Mostrai Cathedral
@@ -13448,7 +13416,6 @@ end
 arch grass
 x 46
 y 13
-no_pass 1
 end
 arch dungeon_magic
 x 46
@@ -13457,7 +13424,6 @@ end
 arch grass
 x 46
 y 14
-no_pass 1
 end
 arch dungeon_magic
 x 46
@@ -13499,6 +13465,18 @@ x 46
 y 20
 elevation 10243
 end
+arch table_cw_3
+x 46
+y 20
+end
+arch platter1_cop
+x 46
+y 20
+end
+arch apple
+x 46
+y 20
+end
 arch greenmarblemedium
 x 46
 y 21
@@ -13508,6 +13486,10 @@ arch greenmarblemedium
 x 46
 y 22
 elevation 10192
+end
+arch para_ice
+x 46
+y 22
 end
 arch greenmarblemedium
 x 46
@@ -13528,6 +13510,10 @@ arch greenmarblemedium
 x 46
 y 26
 elevation 6532
+end
+arch para_ice
+x 46
+y 26
 end
 arch greenmarblemedium
 x 46
@@ -13760,7 +13746,6 @@ end
 arch grass
 x 47
 y 12
-no_pass 1
 end
 arch dungeon_magic
 x 47
@@ -13769,7 +13754,6 @@ end
 arch grass
 x 47
 y 13
-no_pass 1
 end
 arch dungeon_magic
 x 47
@@ -13978,19 +13962,19 @@ end
 arch grass
 x 48
 end
-arch rl_house_west
-name Private apartments
-slaying /navar_city/apartments/apartment
-hp 10
-sp 13
-x 48
-unique 1
-end
 arch dungeon_magic
 x 48
 y 1
 end
 arch grass
+x 48
+y 1
+end
+arch stronghold_sym
+name Private Apartments
+slaying /navar_city/apartments/apartment
+hp 10
+sp 13
 x 48
 y 1
 end
@@ -14072,12 +14056,9 @@ arch grass
 x 48
 y 8
 end
-arch s_shop2
+arch tavern_fant_shop
 name Strange Little Store
 slaying /navar_city/misc/thamshop
-msg
-You hear the flap of batwings.
-endmsg
 hp 4
 sp 13
 x 48
@@ -14118,7 +14099,6 @@ end
 arch grass
 x 48
 y 12
-no_pass 1
 end
 arch dungeon_magic
 x 48
@@ -14127,7 +14107,6 @@ end
 arch grass
 x 48
 y 13
-no_pass 1
 end
 arch dungeon_magic
 x 48
@@ -14136,7 +14115,6 @@ end
 arch grass
 x 48
 y 14
-no_pass 1
 end
 arch dungeon_magic
 x 48
