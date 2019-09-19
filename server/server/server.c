@@ -225,11 +225,15 @@ void leave_map(object *op)
  * whatever reason.  If default map coordinates are to be used, then
  * the function that calls this should figure them out.
  */
-static void enter_map(object *op, mapstruct *newmap, int x, int y) {
+ void enter_map(object *op, mapstruct *newmap, int x, int y) {
     mapstruct *oldmap = op->map;
 	
 /* oldup = op->map->upper; */
 /* printf("%s\n",op->upway); */
+
+
+int oldx = op->x;
+int oldy = op->y;
 
 
     if (out_of_map(newmap, x, y)) {
@@ -417,7 +421,24 @@ for(mp=first_map;mp!=NULL;mp=mp->next)
         }
 
 
-   apply_gravity(op);
+
+int do_try_gravity=1;
+if( op->map->down_map != NULL){
+mapstruct *ml= op->map->down_map;
+if(oldmap == ml){
+if(( op->x== oldx) && ( op->y == oldy )) {
+do_try_gravity=0;
+printf("probable elevator\n");
+}
+}
+}
+if(do_try_gravity)  {
+apply_gravity(op);
+}
+
+
+
+  // apply_gravity(op);
 // can lead to another enter_map
 // which can change music again
 

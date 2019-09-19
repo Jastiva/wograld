@@ -355,6 +355,8 @@ int transfer_ob(object *op, int x, int y, int randomly, object *originator);
 int teleport(object *teleporter, uint8 tele_type, object *user);
 void recursive_roll(object *op, int dir, object *pusher);
 int push_ob(object *who, int dir, object *pusher);
+int try_elevate_enter(object *pushed);
+void check_above_for_gravity( mapstruct *drop, int x, int y);
 /* pets.c */
 object *get_pet_enemy(object *pet, rv_vector *rv);
 void terminate_all_pets(object *owner);

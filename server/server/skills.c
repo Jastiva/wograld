@@ -427,6 +427,7 @@ int hide(object *op, object *skill) {
 static void stop_jump(object *pl, int dist, int spaces) {
     fix_player(pl);
     insert_ob_in_map(pl,pl->map,pl,0);
+    apply_gravity(pl);
 }
 
 

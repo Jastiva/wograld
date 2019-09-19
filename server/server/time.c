@@ -266,9 +266,18 @@ static void move_gate(object *op) { /* 1 = going down, 0 = goind up */
 	    op->move_block = 0;
 	    CLEAR_FLAG(op, FLAG_BLOCKSVIEW);
 	    update_all_los(op->map, op->x, op->y);
+
 	}
 	SET_ANIMATION(op, op->stats.wc);
 	update_object(op,UP_OBJ_CHANGE);
+         if((int)op->stats.wc < (NUM_ANIMATIONS(op)/2+1)) {
+
+            if(QUERY_FLAG(op, IS_ELEVATOR))
+            {
+                  check_above_for_gravity( op->map, op->x, op->y );
+            }
+        }
+
 	return;
     }
 
@@ -320,6 +329,15 @@ static void move_gate(object *op) { /* 1 = going down, 0 = goind up */
 	    for(tmp=op->above;tmp!=NULL && tmp->above!=NULL;tmp=tmp->above);
 
 	    if(tmp!=NULL) {
+
+                int elevate_success=0;
+                if(QUERY_FLAG(op, IS_ELEVATOR)){
+		elevate_success=try_elevate_enter(tmp);
+                }
+
+		if(!elevate_success)
+                {
+
 		if(QUERY_FLAG(tmp, FLAG_ALIVE)) {
 		    hit_player(tmp, random_roll(1, op->stats.dam, tmp, PREFER_LOW), op, AT_PHYSICAL, 1);
 		    if(tmp->type==PLAYER) 
@@ -343,6 +361,8 @@ static void move_gate(object *op) { /* 1 = going down, 0 = goind up */
 			insert_ob_in_map(tmp,op->map,op,0);
 		    }
 		}
+             }
+
 	    }
 
 	    /* See if there is still anything blocking the gate */

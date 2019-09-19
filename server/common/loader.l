@@ -881,6 +881,14 @@ A	.+
                             }
                             else CLEAR_FLAG(op, FACTION_UNDEAD);
                     }
+
+^is_elevator{S}     {  if(IVAL) {
+                            SET_FLAG(op, IS_ELEVATOR);
+                       }
+                       else CLEAR_FLAG(op, IS_ELEVATOR);
+                    }
+ 
+
                     
 ^generator{S}	    SET_OR_CLEAR_FLAG(op, FLAG_GENERATOR, IVAL);
 ^use_content_on_gen{S} SET_OR_CLEAR_FLAG (op,FLAG_CONTENT_ON_GEN, IVAL);
@@ -1499,7 +1507,7 @@ static const char *const flag_names[NUM_FLAGS+1] = {
 "alive", "wiz", NULL, NULL, "was_wiz", "applied", "unpaid",
 "can_use_shield", "no_pick", "client_anim_sync", "client_anim_random", /* 10 */
 "is_animated", NULL /* slow_move */, 
-NULL /* flying */, "monster", "friendly", "generator",
+NULL /* flying */, "monster", "friendly", "faction_human", "faction_orc", "faction_elf", "faction_undead", "is_elevator", "generator",
 "is_thrown", "auto_apply", "treasure", "player sold",   /* 20 */
 "see_invisible", "can_roll", "overlay_floor",
 "is_turnable", NULL /* walk_off */, NULL /* fly_on */,

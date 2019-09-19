@@ -411,6 +411,8 @@ void apply_builder_floor(object* pl, object* material, short x, short y, object 
         SET_FLAG( tmp, FLAG_IS_FLOOR );
     tmp->type = FLOOR;
 
+
+
       if(build_title != NULL)
       {
        // already checks in caller to see if there was a build_title in the pl
@@ -441,6 +443,31 @@ void apply_builder_floor(object* pl, object* material, short x, short y, object 
        
 
     insert_ob_in_map_at( backup_floor, pl->map, above_floor, INS_ON_TOP, x, y);	
+
+
+	 if(tmp->face->number ==  find_face("empty.111",0))
+        {
+          printf("also found empty\n");
+
+                if (pl->map)
+                {
+                        if (pl->map->down_map == NULL)
+                        {
+                                printf("tried to draw hollow on floor without lower\n");
+                                return;
+
+                        }
+
+                }
+                else
+                {
+
+                printf("error, no map for object\n");
+
+                }
+        }
+
+
 
     //}
     insert_ob_in_map_at( tmp, pl->map, above_floor, above_floor ? INS_BELOW_ORIGINATOR : INS_ON_TOP, x, y );
@@ -862,6 +889,7 @@ void apply_map_builder( object* pl, int dir )
                     new_draw_info( NDI_UNIQUE, 0, pl, "You can't build here." );
                     return;
                     }
+
             }
         tmp = tmp->above;
         }
