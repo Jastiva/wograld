@@ -5,7 +5,7 @@ width 26
 height 23
 msg
 Created:  1993-10-27
-Modified: 2019-08-25 lori
+Modified: 2019-09-19 lx
 endmsg
 background_music eminor
 end
@@ -3595,6 +3595,18 @@ no bones remaining......
 endmsg
 x 22
 y 21
+end
+arch marker
+name secrets_of_the_spellcasters
+slaying necromancer_opponent
+food 0
+x 22
+y 21
+lore
+look in gatehouse for more secrets
+the opponent of the necromancer was
+named as Kurte.
+endlore
 end
 arch dungeon_floor
 x 22

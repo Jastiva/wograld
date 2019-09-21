@@ -6,6 +6,7 @@ width 27
 height 33
 msg
 Created:  1993-11-01
+Modified: 2019-09-19 lx
 endmsg
 end
 arch cobblestones
@@ -1771,6 +1772,17 @@ end
 arch pstone_3
 x 10
 y 30
+end
+arch marker
+name necromancer_opponent
+slaying defeated_necromancer
+food 0
+x 10
+y 30
+lore
+you defeated Morkov
+and received the Darkblade
+endlore
 end
 arch pstone_3
 x 10
@@ -4206,7 +4218,6 @@ end
 arch demilich
 name Morkov the demilich
 hp 500
-dam 20
 x 25
 y 4
 level 15

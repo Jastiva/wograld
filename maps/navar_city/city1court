@@ -6,7 +6,7 @@ width 21
 height 19
 msg
 Created:  1993-11-01 (john_cater@yahoo.com)
-Modified: 2019-08-25 lori
+Modified: 2019-09-19 lx
 endmsg
 background_music highcity
 end
@@ -749,7 +749,7 @@ I charge you with finding the source
 and stoping it, with any means
 possible...you might start with
 talking to that good for nothing High
-Wizzard of ours, Wizzo, you will find
+Wizard of ours, Wizzo, you will find
 him in his shop, he may know something
 about the dead that plague us.
 @match necromancy|Necromancy
@@ -761,15 +761,25 @@ creatures.  But we put a stop to him,
 threw him in prison we did.
 @match wizzo|Wizzo
 Yes that Wizzo is a good for nothing
-Leach, oh he was of some use to the
+leech, oh he was of some use to the
 city until he opened his shop.  He is
-more entrepinour than wizzard now.
+more entrepinour than wizard now.
 @match *
 I would like to help you, but I am
 very busy, you must be very specific.
 endmsg
 x 6
 y 9
+end
+arch marker
+slaying begin_navar_undead_quest
+food 0
+x 6
+y 9
+lore
+for more info on the necromancer
+visit Wizzo at his magery shop
+endlore
 end
 arch lightgreenmarble
 x 6
@@ -1630,7 +1640,7 @@ So you are the ones who think they can
 get rid of these smugglers...well we
 have tried and they keep coming back.
 Well you might want to talk to the
-Dwarven priests in the church, they do
+Elven priests in the Mostrai Cathedral, they do
 know something that they won't tell
 us, something about being worthy
 @match smugglers|Smugglers
@@ -1648,6 +1658,16 @@ do for ya.
 endmsg
 x 14
 y 9
+end
+arch marker
+slaying begin_smuggler_quest
+food 0
+x 14
+y 9
+lore
+for more info on smugglers
+visit the priests at the Mostrai cathedral
+endlore
 end
 arch lightgreenmarble
 x 14

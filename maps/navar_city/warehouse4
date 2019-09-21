@@ -6,7 +6,7 @@ width 30
 height 16
 msg
 Created:  1993-11-12
-Modified: 2019-08-17 lori
+Modified: 2019-09-19 lx
 endmsg
 background_music highcity
 end
@@ -183,6 +183,17 @@ end
 arch white-green-x-marble_112
 x 1
 y 12
+end
+arch marker
+name smuggler_additional
+slaying smuggler_lighthouse
+food 0
+x 1
+y 12
+lore
+a key to the lighthouse upstairs
+was found, use it to reach the basement
+endlore
 end
 arch magic_ear
 msg

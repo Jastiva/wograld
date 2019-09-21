@@ -7,6 +7,7 @@ width 26
 height 21
 msg
 Created:  1993-10-31
+Modified: 2019-09-19 lx
 endmsg
 end
 arch cobblestones
@@ -627,6 +628,18 @@ end
 arch cobblestones
 x 4
 y 8
+end
+arch marker
+slaying necromancer_mystery
+food 0
+x 4
+y 8
+lore
+on the first gate
+answer the necros name
+on the second name what his practice
+on the last name his opponent
+endlore
 end
 arch cobblestones
 x 4

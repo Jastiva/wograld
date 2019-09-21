@@ -6,7 +6,7 @@ width 20
 height 35
 msg
 Created:  1993-11-10
-Modified: 2019-08-17 lori
+Modified: 2019-09-19 lx
 endmsg
 end
 arch oldwoodfloor2
@@ -663,6 +663,17 @@ face ldoor_brown1.111
 x 2
 y 33
 blocksview 1
+end
+arch marker
+name smuggler_warehouse
+slaying smuggler_second
+food 0
+x 2
+y 33
+lore
+a smuggler hideout was unlocked
+in warehouse 3
+endlore
 end
 arch oldwoodfloor2
 x 2
@@ -1770,7 +1781,33 @@ arch oldwoodfloor2
 x 8
 y 1
 end
+arch sign_e
+msg
+me treasures
+endmsg
+x 8
+y 1
+end
+arch marker
+name smuggler_second
+slaying smuggler_additional
+food 0
+x 8
+y 1
+lore
+Jorg the viking dropped a key to another
+of the smugglers warehouses
+endlore
+end
 arch oldwoodfloor2
+x 8
+y 2
+end
+arch oldwoodfloor2
+x 8
+y 2
+end
+arch wwall_1_1
 x 8
 y 2
 end
