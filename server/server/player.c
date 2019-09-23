@@ -2632,12 +2632,12 @@ static void loot_object(object *op) { /* Grab and destroy some treasure */
             loot_object(tmp);
         }
         if(!QUERY_FLAG(tmp, FLAG_UNIQUE) && (QUERY_FLAG(tmp, FLAG_STARTEQUIP) 
-            || QUERY_FLAG(tmp,FLAG_NO_DROP) || !(RANDOM()%3))) {
-                if(tmp->nrof>1) {
-                    tmp2=get_split_ob(tmp,1+RANDOM()%(tmp->nrof-1));
-                    free_object(tmp2);
-                    insert_ob_in_map(tmp,op->map,NULL,0);
-                } else
+            || QUERY_FLAG(tmp,FLAG_NO_DROP)) ) {
+               // if(tmp->nrof>1) {
+                  //  tmp2=get_split_ob(tmp,1+RANDOM()%(tmp->nrof-1));
+                //    free_object(tmp2);
+                //    insert_ob_in_map(tmp,op->map,NULL,0);
+              //  } else
                     free_object(tmp);
             } else
                 insert_ob_in_map(tmp,op->map,NULL,0);
