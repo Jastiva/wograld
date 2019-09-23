@@ -2,10 +2,13 @@ Object armour_troll2
 randomitems troll
 race troll
 name small armoured troll
-face armourtroll2.111
+face armourtroll2.151
 anim
-armourtroll2.111
-armourtroll2.112
+facings 2
+armourtroll2.151
+armourtroll2.152
+armourtroll2.171
+armourtroll2.172
 mina
 color_fg brown
 monster 1
@@ -45,7 +48,14 @@ Object armour_troll3
 randomitems troll
 race troll
 name small armoured troll
-face armourtroll3.111
+face armourtroll3.151
+anim
+facings 2
+armourtroll3.151
+armourtroll3.152
+armourtroll3.171
+armourtroll3.172
+mina
 color_fg brown
 monster 1
 sleep 1
@@ -84,7 +94,14 @@ Object armour_troll4
 randomitems troll
 race troll
 name small armoured troll
-face armourtroll4.111
+face armourtroll4.151
+anim
+facings 2
+armourtroll4.151
+armourtroll4.152
+armourtroll4.171
+armourtroll4.172
+mina
 color_fg brown
 monster 1
 sleep 1

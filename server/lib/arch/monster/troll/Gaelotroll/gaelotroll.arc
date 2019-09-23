@@ -1,25 +1,13 @@
 Object gaelotroll
 randomitems giant
 race troll
-face gaelotroll.x31
+face gaelotroll.151
 anim
 facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
+gaelotroll.151
+gaelotroll.152
+gaelotroll.171
+gaelotroll.172
 mina
 resist_fire -100
 resist_physical 50
@@ -51,146 +39,4 @@ can_use_skill 1
 magicmap blue
 body_skill 1
 body_arm 2
-end
-More
-Object gaelotroll_2
-name troll
-face gaelotroll.x31
-anim
-facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-mina
-monster 1
-alive 1
-x 1
-magicmap blue
-end
-More
-Object gaelotroll_3
-name troll
-face gaelotroll.x31
-anim
-facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-mina
-monster 1
-alive 1
-y 1
-magicmap blue
-end
-More
-Object gaelotroll_4
-name troll
-face gaelotroll.x31
-anim
-facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-mina
-monster 1
-alive 1
-x 1
-y 1
-magicmap blue
-end
-More
-Object gaelotroll_5
-name troll
-face gaelotroll.x31
-anim
-facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-mina
-monster 1
-alive 1
-y 2
-magicmap blue
-end
-More
-Object gaelotroll_6
-name troll
-face gaelotroll.x31
-anim
-facings 2
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x31
-gaelotroll.x32
-gaelotroll.x33
-gaelotroll.x32
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-gaelotroll.x71
-gaelotroll.x72
-gaelotroll.x73
-gaelotroll.x72
-mina
-monster 1
-alive 1
-x 1
-y 2
-magicmap blue
 end
