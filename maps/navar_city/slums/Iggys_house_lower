@@ -8,9 +8,11 @@ enter_x 13
 enter_y 1
 msg
 Created:  2004-01-12 Avion
+Modified: 2019-09-23 lori
 endmsg
+background_music eminorh
 end
-arch woodfloor
+arch cobblestones4
 end
 arch bwall_2_2_2
 end
@@ -26,31 +28,31 @@ end
 arch bwall_3_2
 y 2
 end
-arch woodfloor
+arch lostlabfloor
 y 3
 end
 arch bwall_2_1_1
 y 3
 end
-arch woodfloor
+arch lostlabfloor
 y 4
 end
 arch bwall_2_1_1
 y 4
 end
-arch woodfloor
+arch lostlabfloor
 y 5
 end
 arch bwall_2_1_1
 y 5
 end
-arch woodfloor
+arch lostlabfloor
 y 6
 end
 arch bwall_2_1_1
 y 6
 end
-arch woodfloor
+arch lostlabfloor
 y 7
 end
 arch bwall_2_1_1
@@ -62,19 +64,19 @@ end
 arch bwall_3_2
 y 8
 end
-arch woodfloor
+arch cobblestones4
 y 9
 end
 arch bwall_2_1_1
 y 9
 end
-arch woodfloor
+arch cobblestones4
 y 10
 end
 arch bwall_2_1_1
 y 10
 end
-arch woodfloor
+arch cobblestones4
 y 11
 end
 arch bwall_2_1_1
@@ -86,7 +88,7 @@ end
 arch bwall_2_1_1
 y 12
 end
-arch woodfloor
+arch cobblestones4
 y 13
 end
 arch bwall_2_1_1
@@ -176,13 +178,13 @@ end
 arch bwall_2_1_1
 y 27
 end
-arch woodfloor
+arch cobblestones4
 y 28
 end
 arch bwall_2_1_1
 y 28
 end
-arch woodfloor
+arch cobblestones4
 y 29
 end
 arch bwall_2_2_1
@@ -194,7 +196,7 @@ end
 arch bwall_2_1_2
 x 1
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 1
 end
@@ -213,23 +215,23 @@ endmsg
 x 1
 y 3
 end
-arch woodfloor
+arch oldwoodfloor3
 x 1
 y 3
 end
-arch woodfloor
+arch lostlabfloor
 x 1
 y 4
 end
-arch woodfloor
+arch oldwoodfloor3
 x 1
 y 5
 end
-arch woodfloor
+arch oldwoodfloor3
 x 1
 y 6
 end
-arch woodfloor
+arch lostlabfloor
 x 1
 y 7
 end
@@ -245,27 +247,27 @@ arch bwall_2_1_2
 x 1
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 9
 end
-arch flagstone
+arch cobblestones4
 x 1
 y 10
 end
-arch flagstone
+arch cobblestones4
 x 1
 y 11
 end
-arch flagstone
+arch cobblestones4
 x 1
 y 12
 end
-arch flagstone
+arch cobblestones4
 x 1
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 14
 end
@@ -281,7 +283,7 @@ arch bwall_2_1_2
 x 1
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 16
 end
@@ -289,7 +291,7 @@ arch generate_ogre
 x 1
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 17
 end
@@ -357,7 +359,7 @@ arch gnoll
 x 1
 y 26
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 27
 end
@@ -365,7 +367,7 @@ arch goblin_leader_arc
 x 1
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 28
 end
@@ -373,7 +375,7 @@ arch generate_gnoll
 x 1
 y 28
 end
-arch woodfloor
+arch cobblestones4
 x 1
 y 29
 end
@@ -387,7 +389,7 @@ end
 arch bwall_2_1_2
 x 2
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 1
 end
@@ -399,7 +401,7 @@ arch bwall_2_1_2
 x 2
 y 2
 end
-arch woodfloor
+arch oldwoodfloor3
 x 2
 y 3
 end
@@ -407,11 +409,11 @@ arch ogre
 x 2
 y 3
 end
-arch woodfloor
+arch oldwoodfloor3
 x 2
 y 4
 end
-arch woodfloor
+arch oldwoodfloor3
 x 2
 y 5
 end
@@ -423,7 +425,7 @@ arch gnoll
 x 2
 y 5
 end
-arch woodfloor
+arch oldwoodfloor3
 x 2
 y 6
 end
@@ -431,11 +433,11 @@ arch gnoll
 x 2
 y 6
 end
-arch woodfloor
+arch lostlabfloor
 x 2
 y 7
 end
-arch woodfloor
+arch lostlabfloor
 x 2
 y 8
 end
@@ -443,7 +445,7 @@ arch bwall_2_1_2
 x 2
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 9
 end
@@ -463,11 +465,11 @@ arch flagstone
 x 2
 y 12
 end
-arch flagstone
+arch cobblestones4
 x 2
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 14
 end
@@ -511,7 +513,7 @@ arch gnoll_chief_arc
 x 2
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 21
 end
@@ -523,7 +525,7 @@ arch ogre
 x 2
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 23
 end
@@ -535,7 +537,7 @@ arch light4
 x 2
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 25
 end
@@ -543,7 +545,7 @@ arch ogre
 x 2
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 26
 end
@@ -551,11 +553,11 @@ arch gnoll
 x 2
 y 26
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 2
 y 28
 end
@@ -573,7 +575,7 @@ end
 arch bwall_2_1_2
 x 3
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 1
 end
@@ -585,11 +587,11 @@ arch bwall_2_1_2
 x 3
 y 2
 end
-arch woodfloor
+arch oldwoodfloor3
 x 3
 y 3
 end
-arch woodfloor
+arch oldwoodfloor3
 x 3
 y 4
 end
@@ -605,7 +607,7 @@ arch gnoll
 x 3
 y 5
 end
-arch woodfloor
+arch oldwoodfloor3
 x 3
 y 6
 end
@@ -613,7 +615,7 @@ arch gnoll
 x 3
 y 6
 end
-arch woodfloor
+arch lostlabfloor
 x 3
 y 7
 end
@@ -625,7 +627,7 @@ arch bwall_2_1_2
 x 3
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 9
 end
@@ -645,7 +647,7 @@ arch light4
 x 3
 y 12
 end
-arch flagstone
+arch cobblestones4
 x 3
 y 13
 end
@@ -653,7 +655,7 @@ arch barrel
 x 3
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 14
 end
@@ -669,7 +671,7 @@ arch bwall_2_1_2
 x 3
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 16
 end
@@ -681,11 +683,11 @@ arch goblin_leader_arc
 x 3
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 19
 end
@@ -693,11 +695,11 @@ arch goblin_leader_arc
 x 3
 y 19
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 21
 end
@@ -705,7 +707,7 @@ arch goblin_leader_arc
 x 3
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 22
 end
@@ -713,11 +715,11 @@ arch goblin_leader_arc
 x 3
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 3
 y 23
 end
-arch dirtfloor
+arch cobblestones4
 x 3
 y 24
 end
@@ -725,7 +727,7 @@ arch goblin_leader_arc
 x 3
 y 24
 end
-arch dirtfloor
+arch cobblestones4
 x 3
 y 25
 end
@@ -733,7 +735,7 @@ arch gnoll
 x 3
 y 25
 end
-arch dirtfloor
+arch cobblestones4
 x 3
 y 26
 end
@@ -761,13 +763,13 @@ arch bwall_2_1_2
 x 3
 y 29
 end
-arch woodfloor
+arch cobblestones4
 x 4
 end
 arch bwall_2_1_2
 x 4
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 1
 end
@@ -788,11 +790,11 @@ arch bwall_2_1_2
 x 4
 y 2
 end
-arch woodfloor
+arch oldwoodfloor3
 x 4
 y 3
 end
-arch woodfloor
+arch oldwoodfloor3
 x 4
 y 4
 end
@@ -800,15 +802,15 @@ arch gnoll
 x 4
 y 4
 end
-arch woodfloor
+arch oldwoodfloor3
 x 4
 y 5
 end
-arch dirtfloor
+arch lostlabfloor
 x 4
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 4
 y 7
 end
@@ -820,27 +822,27 @@ arch bwall_2_1_2
 x 4
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 12
 end
-arch dirtfloor
+arch cobblestones4
 x 4
 y 13
 end
-arch dirtfloor
+arch cobblestones4
 x 4
 y 14
 end
@@ -862,19 +864,19 @@ y 16
 run_away 20
 can_see_in_dark 1
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 17
 end
-arch dirtfloor
+arch cobblestones4
 x 4
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 19
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 20
 end
@@ -882,11 +884,11 @@ arch gnoll_chief_arc
 x 4
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 22
 end
@@ -894,7 +896,7 @@ arch gnoll
 x 4
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 23
 end
@@ -902,11 +904,11 @@ arch gnoll
 x 4
 y 23
 end
-arch dirtfloor
+arch cobblestones4
 x 4
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 25
 end
@@ -914,7 +916,7 @@ arch gnoll_chief_arc
 x 4
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 4
 y 26
 end
@@ -948,7 +950,7 @@ end
 arch bwall_2_1_2
 x 5
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 1
 end
@@ -969,7 +971,7 @@ arch bwall_2_1_2
 x 5
 y 2
 end
-arch woodfloor
+arch oldwoodfloor3
 x 5
 y 3
 end
@@ -977,19 +979,19 @@ arch generate_gnoll
 x 5
 y 3
 end
-arch dirtfloor
+arch lostlabfloor
 x 5
 y 4
 end
-arch woodfloor
+arch oldwoodfloor3
 x 5
 y 5
 end
-arch dirtfloor
+arch lostlabfloor
 x 5
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 5
 y 7
 end
@@ -1005,27 +1007,27 @@ arch bwall_2_1_2
 x 5
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 12
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 14
 end
@@ -1037,11 +1039,11 @@ arch bwall_2_1_2
 x 5
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 17
 end
@@ -1049,11 +1051,11 @@ arch generate_gnoll
 x 5
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 19
 end
@@ -1061,7 +1063,7 @@ arch gnoll
 x 5
 y 19
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 20
 end
@@ -1069,7 +1071,7 @@ arch gnoll
 x 5
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 21
 end
@@ -1077,7 +1079,7 @@ arch gnoll
 x 5
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 22
 end
@@ -1085,11 +1087,11 @@ arch generate_goblin
 x 5
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 24
 end
@@ -1097,7 +1099,7 @@ arch gnoll
 x 5
 y 24
 end
-arch dirtfloor
+arch cobblestones4
 x 5
 y 25
 end
@@ -1105,11 +1107,11 @@ arch gnoll
 x 5
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 26
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 27
 end
@@ -1117,7 +1119,7 @@ arch generate_gnoll
 x 5
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 5
 y 28
 end
@@ -1135,7 +1137,7 @@ end
 arch bwall_3_3
 x 6
 end
-arch woodfloor
+arch cobblestones4
 x 6
 y 1
 end
@@ -1193,7 +1195,7 @@ arch woodfloor
 x 6
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 6
 y 6
 end
@@ -1442,7 +1444,7 @@ end
 arch bwall_2_1_2
 x 7
 end
-arch woodfloor
+arch cobblestones4
 x 7
 y 1
 end
@@ -1458,19 +1460,19 @@ arch dirtfloor
 x 7
 y 4
 end
-arch woodfloor
+arch lostlabfloor
 x 7
 y 5
 end
-arch woodfloor
+arch lostlabfloor
 x 7
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 7
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 7
 y 8
 end
@@ -1482,7 +1484,7 @@ arch woodfloor
 x 7
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 7
 y 11
 end
@@ -1494,7 +1496,7 @@ arch woodfloor
 x 7
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 7
 y 14
 end
@@ -1575,11 +1577,11 @@ end
 arch bwall_2_1_2
 x 8
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 1
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 2
 end
@@ -1591,27 +1593,27 @@ arch dirtfloor
 x 8
 y 4
 end
-arch dirtfloor
+arch lostlabfloor
 x 8
 y 5
 end
-arch dirtfloor
+arch lostlabfloor
 x 8
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 8
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 10
 end
@@ -1621,19 +1623,19 @@ y 10
 run_away 20
 can_see_in_dark 1
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 12
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 14
 end
@@ -1643,15 +1645,15 @@ y 14
 run_away 20
 can_see_in_dark 1
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 17
 end
@@ -1663,7 +1665,7 @@ arch dirtfloor
 x 8
 y 19
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 20
 end
@@ -1674,27 +1676,27 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 26
 end
@@ -1702,7 +1704,7 @@ arch dirtfloor
 x 8
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 8
 y 28
 end
@@ -1720,7 +1722,7 @@ end
 arch bwall_2_1_2
 x 9
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 1
 end
@@ -1732,7 +1734,7 @@ arch dirtfloor
 x 9
 y 3
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 4
 end
@@ -1740,35 +1742,35 @@ arch dirtfloor
 x 9
 y 5
 end
-arch dirtfloor
+arch lostlabfloor
 x 9
 y 6
 end
-arch dirtfloor
+arch lostlabfloor
 x 9
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 12
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 13
 end
@@ -1776,15 +1778,15 @@ arch dirtfloor
 x 9
 y 14
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 17
 end
@@ -1792,7 +1794,7 @@ arch dirtfloor
 x 9
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 19
 end
@@ -1803,27 +1805,27 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 25
 end
@@ -1831,15 +1833,15 @@ arch spider
 x 9
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 26
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 9
 y 28
 end
@@ -1857,19 +1859,19 @@ end
 arch bwall_2_1_2
 x 10
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 1
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 2
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 3
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 4
 end
@@ -1891,31 +1893,31 @@ arch dirtfloor
 x 10
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 12
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 13
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 10
 y 14
 end
@@ -1933,11 +1935,11 @@ arch dirtfloor
 x 10
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 18
 end
@@ -1948,7 +1950,7 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 19
 end
@@ -1970,19 +1972,19 @@ x 10
 y 22
 connected 5
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 26
 end
@@ -1990,7 +1992,7 @@ arch dirtfloor
 x 10
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 10
 y 28
 end
@@ -2002,29 +2004,29 @@ arch bwall_2_1_2
 x 10
 y 29
 end
-arch woodfloor
+arch cobblestones4
 x 11
 end
 arch bwall_2_1_2
 x 11
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 1
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 2
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 3
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 4
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 5
 end
@@ -2036,31 +2038,31 @@ arch dirtfloor
 x 11
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 10
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 11
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 12
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 11
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 14
 end
@@ -2068,7 +2070,7 @@ arch bones3
 x 11
 y 14
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 15
 end
@@ -2084,7 +2086,7 @@ arch dirtfloor
 x 11
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 19
 end
@@ -2095,7 +2097,7 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 20
 end
@@ -2103,7 +2105,7 @@ arch dirtfloor
 x 11
 y 21
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 11
 y 22
 end
@@ -2117,15 +2119,15 @@ y 23
 run_away 20
 can_see_in_dark 1
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 26
 end
@@ -2133,7 +2135,7 @@ arch dirtfloor
 x 11
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 11
 y 28
 end
@@ -2149,61 +2151,61 @@ arch bwall_2_1_2
 x 11
 y 29
 end
-arch woodfloor
+arch cobblestones4
 x 12
 end
 arch bwall_2_1_2
 x 12
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 1
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 2
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 3
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 4
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 5
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 6
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 9
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 12
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 12
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 13
 end
@@ -2223,15 +2225,15 @@ arch dirtfloor
 x 12
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 18
 end
-arch dirtfloor
+arch cobblestones4
 x 12
 y 19
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 20
 end
@@ -2242,7 +2244,7 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch dirtfloor
+arch white-green-x-marble_112
 x 12
 y 21
 end
@@ -2250,11 +2252,11 @@ arch dirtfloor
 x 12
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 24
 end
@@ -2274,7 +2276,7 @@ arch dirtfloor
 x 12
 y 28
 end
-arch woodfloor
+arch cobblestones4
 x 12
 y 29
 end
@@ -2282,13 +2284,13 @@ arch bwall_2_1_2
 x 12
 y 29
 end
-arch woodfloor
+arch cobblestones4
 x 13
 end
 arch bwall_2_1_2
 x 13
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 1
 end
@@ -2299,47 +2301,47 @@ sp 1
 x 13
 y 1
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 2
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 3
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 4
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 5
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 6
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 7
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 8
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 9
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 10
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 11
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 12
 end
@@ -2349,11 +2351,11 @@ y 12
 run_away 20
 can_see_in_dark 1
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 13
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 14
 end
@@ -2361,19 +2363,19 @@ arch dirtfloor
 x 13
 y 15
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 19
 end
@@ -2384,27 +2386,27 @@ invisible 1
 connected 5
 activate_on_release 0
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 20
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 21
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 22
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 23
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 24
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 25
 end
@@ -2412,19 +2414,19 @@ arch spider
 x 13
 y 25
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 26
 end
-arch dirtfloor
+arch cobblestones4
 x 13
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 28
 end
-arch woodfloor
+arch cobblestones4
 x 13
 y 29
 end
@@ -2432,13 +2434,13 @@ arch bwall_2_1_2
 x 13
 y 29
 end
-arch woodfloor
+arch cobblestones4
 x 14
 end
 arch bwall_2_2_3
 x 14
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 1
 end
@@ -2566,7 +2568,7 @@ arch bwall_2_1_1
 x 14
 y 16
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 17
 end
@@ -2574,7 +2576,7 @@ arch bwall_2_1_1
 x 14
 y 17
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 18
 end
@@ -2582,7 +2584,7 @@ arch bwall_2_1_1
 x 14
 y 18
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 19
 end
@@ -2646,7 +2648,7 @@ arch bwall_2_1_1
 x 14
 y 26
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 27
 end
@@ -2654,7 +2656,7 @@ arch bwall_2_1_1
 x 14
 y 27
 end
-arch woodfloor
+arch cobblestones4
 x 14
 y 28
 end
