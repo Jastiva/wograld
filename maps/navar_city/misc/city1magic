@@ -15,7 +15,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1993-11-02
-Modified: 2007-11-04 Andreas Kirschbaum
+Modified: 2019-09-19 lx
 endmsg
 end
 arch flagstone
@@ -323,6 +323,17 @@ end
 arch shop_empty
 x 2
 y 4
+end
+arch marker
+name begin_navar_undead_quest
+slaying secrets_of_the_spellcasters
+food 0
+x 2
+y 4
+lore
+the wizard who owned the tower before Wizzo
+was sent to the navar prison, investigate there
+endlore
 end
 arch shop_empty
 x 2

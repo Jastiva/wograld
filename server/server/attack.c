@@ -153,15 +153,107 @@ static int did_make_save_item(object *op, int type, object *originator) {
 
 void save_throw_object (object *op, int type, object *originator)
 {
+    object *tmp, *next;
     if ( ! did_make_save_item (op, type,originator))
     {
-	object *env=op->env;
-	int x=op->x,y=op->y;
-	mapstruct *m=op->map;
+
+     object *env=op->env;
+        int x=op->x,y=op->y;
+        mapstruct *m=op->map;
 
         op = stop_item (op);
         if (op == NULL)
             return;
+
+
+        
+if((op->type==CONTAINER) || (op->type == FLESH ) || ( op->type == WEAPON) ||
+  (op->type == ARMOUR) || (op->type == BOOTS ) || (op->type == GLOVES) ||
+  (op->type == AMULET) || (op->type == GIRDLE ) || (op->type == BRACERS) ||
+  (op->type == SHIELD) || (op->type == HELMET ) || (op->type == RING ) ||
+  (op->type == CLOAK ) || (op->type == WAND) || (op->type == ROD ) ||
+  (op->type == HORN ) || (op->type == ARMOUR_IMPROVER ) || (op->type == WEAPON_IMPROVER) ||
+  (op->type == POWER_CRYSTAL ) || (op->type == BOW) || (op->type == SKILLSCROLL)  ||
+  (op->type == SPELLBOOK ) || (op->type == POTION ))
+  {
+		return;
+/*
+     if(type&AT_COLD &&(op->resist[ATNR_COLD]<50) &&
+      !QUERY_FLAG(op,FLAG_NO_PICK)&&(RANDOM()&2)) {
+        object *tmp;
+        archetype *at = find_archetype("icecube");
+        if (at == NULL)
+          return;
+        op = stop_item (op);
+        if (op == NULL)
+            return;
+        if ((tmp = present_arch(at,op->map,op->x,op->y)) == NULL) {
+            tmp = arch_to_object(at);
+            tmp->x=op->x,tmp->y=op->y;
+             This was in the old (pre new movement code) -
+             icecubes have slow_move set to 1 - don't want
+              that for ones we create.
+             
+            tmp->move_slow_penalty=0;
+            tmp->move_slow=0;
+            insert_ob_in_map(tmp,op->map,originator,0);
+        }
+        if ( ! QUERY_FLAG (op, FLAG_REMOVED))
+            remove_ob(op);
+        (void) insert_ob_in_ob(op,tmp);
+        return;
+    }
+*/
+
+
+  }  
+  else
+  {
+if (!strcmp(op->arch, "icecube"))
+  {
+  if(type&(AT_FIRE|AT_ELECTRICITY)) 
+   {
+     for (tmp=op->inv; tmp; tmp=next) 
+     {
+      next = tmp->below;
+       insert_ob_in_map(tmp,m,originator,0);
+      }
+      if( !QUERY_FLAG(op, FLAG_REMOVED) )
+      {
+
+        remove_ob(op);
+        free_object(op);
+        return;
+      }
+    }
+  }
+  else
+  {
+/*
+     if(op->type == CONTAINER)
+     {
+        // already failed saving throw
+         // not sure that treasure chests inherently should be tested
+        // when is their inv generated??
+
+        for (tmp=op->inv; tmp; tmp=next) 
+     {
+       next = tmp->below;
+       insert_ob_in_map(tmp,m,originator,0);
+      }
+      if( !QUERY_FLAG(op, FLAG_REMOVED) )
+      {
+
+        remove_ob(op);
+        free_object(op);
+        return;
+      }
+         
+      }
+*/   
+   }
+ }
+
 
 	/* Hacked the following so that type LIGHTER will work. 
 	 * Also, objects which are potenital "lights" that are hit by 

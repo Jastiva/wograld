@@ -9,7 +9,7 @@ enter_x 1
 enter_y 1
 msg
 Created:  1993-10-28
-Modified: 2019-08-25 lori
+Modified: 2019-09-19 lx
 endmsg
 background_music grassland01
 end
@@ -1153,6 +1153,15 @@ endmsg
 face necromancer_book.111
 x 13
 y 7
+end
+arch marker
+slaying name_of_necro
+food 0
+x 13
+y 7
+lore
+Morkov is the name of the necromancer in Navar
+endlore
 end
 arch dungeon_floor
 x 13

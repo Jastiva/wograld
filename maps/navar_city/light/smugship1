@@ -6,6 +6,7 @@ width 29
 height 25
 msg
 Created:  1993-11-17
+Modified: 2019-09-19 lx
 endmsg
 end
 arch woodfloor
@@ -3176,6 +3177,17 @@ end
 arch random_spells
 x 23
 y 21
+end
+arch marker
+name smuggler_lair
+slaying defeated_smugglers
+food 0
+x 23
+y 21
+lore
+you defeated the smugglers and received
+the girdle of strength
+endlore
 end
 arch woodfloor
 name deck
