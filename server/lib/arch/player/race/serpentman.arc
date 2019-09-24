@@ -2,7 +2,7 @@ Object serpentman_player
 name Serpentman
 race reptile
 randomitems serpentman_player_items
-face serpentman.131
+face serpentman.151
 msg
 The Serpentman adventurer is a rare breed.
 Few Serpentmen ever leave the swamps, as they

@@ -1,12 +1,18 @@
 Object serp_priest
 race reptile
 name Serpentman Priest
-face serp_priest.131
+face serp_priest.151
 randomitems serp_priest
 anim
-facings 2
+facings 4
+serp_priest.111
+serp_priest.112
 serp_priest.131
+serp_priest.132
+serp_priest.151
+serp_priest.152
 serp_priest.171
+serp_priest.172
 mina
 monster 1
 no_pick 1

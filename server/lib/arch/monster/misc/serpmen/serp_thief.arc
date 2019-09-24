@@ -1,17 +1,17 @@
-Object serp_man
+Object serp_thief
 race reptile
-name Serpentman knight
-face serp_man.151
+name Serpentman thief
+face serpentman.151
 randomitems serp_man
 anim
-serp_man.111
-serp_man.112
-serp_man.131
-serp_man.132
-serp_man.151
-serp_man.152
-serp_man.171
-serp_man.172
+serpentman.111
+serpentman.112
+serpentman.131
+serpentman.132
+serpentman.151
+serpentman.152
+serpentman.171
+serpentman.172
 facings 4
 mina
 monster 1
