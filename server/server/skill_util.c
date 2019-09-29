@@ -946,8 +946,11 @@ static int do_skill_attack(object *tmp, object *op, const char *string, object *
  
 int skill_attack (object *tmp, object *pl, int dir, const char *string, object *skill) {
     sint16 tx,ty;
+    sint16 ux,uy;
     mapstruct *m;
     int mflags;
+    object *next=NULL;
+    object *tmp2=NULL;
  
     if(!dir) dir=pl->facing;
     tx=freearr_x[dir];
@@ -956,6 +959,28 @@ int skill_attack (object *tmp, object *pl, int dir, const char *string, object *
     /* If we don't yet have an opponent, find if one exists, and attack.
      * Legal opponents are the same as outlined in move_player_attack()
      */
+   // m = pl->map;
+   // ux = pl->x;
+   // uy = pl->y;
+
+     for (tmp2=get_map_ob(pl->map, pl->x, pl->y); tmp2 != NULL;tmp2=next) {
+                next=tmp2->above;
+                if(QUERY_FLAG(tmp2, FLAG_NO_MELEE)) {
+
+    //mflags = get_map_flags(m, &m, ux, uy, &ux, &uy);
+    //if( mflags & P_NO_MELEE )
+   // {
+        if(pl->type == PLAYER)
+        {
+            new_draw_info(NDI_UNIQUE, 0, pl, "You are not supposed to fight on this spot");
+            printf("plyr attempted fight from no_melee\n");
+        }
+        printf("no melee from this tile\n");
+        return 0;
+    }
+    }
+
+             
  
     if(tmp==NULL) {
 	m = pl->map;

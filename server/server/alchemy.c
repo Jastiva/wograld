@@ -207,8 +207,8 @@ void attempt_do_alchemy(object *caster, object *cauldron) {
 	}
     }
     /* if we get here, we failed!! */
-    alchemy_failure_effect(caster, cauldron, rp,
-	calc_alch_danger(caster, cauldron, rp));
+    //  alchemy_failure_effect(caster, cauldron, rp,
+	//calc_alch_danger(caster, cauldron, rp));
 }
 
 /**

@@ -2310,6 +2310,14 @@ void update_position (mapstruct *m, int x, int y) {
 
 	if (QUERY_FLAG(tmp,FLAG_BLOCKSVIEW))
 	    flags |= P_BLOCKSVIEW;
+
+        if (QUERY_FLAG(tmp,FLAG_NO_MELEE))
+            flags |= P_NO_MELEE;
+
+
+        if (QUERY_FLAG(tmp,FLAG_NO_ALCH))
+            flags |= P_NO_ALCH;
+
     } /* for stack of objects */
 
     /* we don't want to rely on this function to have accurate flags, but

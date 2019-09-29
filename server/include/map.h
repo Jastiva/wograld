@@ -192,6 +192,9 @@ extern const char *map_layer_name[MAP_LAYERS];
 #define P_OUT_OF_MAP	0x100	/* This space is outside the map */
 #define	P_NEW_MAP	0x200	/* Coordinates passed result in a new tiled map  */
 
+#define P_NO_MELEE      0x400
+#define P_NO_ALCH       0x800
+
 #if 0
 /* These go away with new movement code - can't do such simplistic
  * checks anymore

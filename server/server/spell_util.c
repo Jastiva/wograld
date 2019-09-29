@@ -977,6 +977,8 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
     const char *godname;
     int success=0,mflags, cast_level=0, old_shoottype;
     object *skill=NULL;
+    object *tmp=NULL;
+    object *next=NULL;
 
     old_shoottype = op->contr ? op->contr->shoottype : 0;
 
@@ -1108,6 +1110,24 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
 	}
 	return 0;
     }
+
+    if (spell_ob->type == SPELL && caster->type == POTION && !QUERY_FLAG(op, FLAG_WIZCAST))
+    {
+         printf("potion\n");
+          for (tmp=get_map_ob(op->map, op->x, op->y); tmp != NULL;tmp=next) {
+                next=tmp->above;
+                if(QUERY_FLAG(tmp, FLAG_NO_ALCH)) {
+        // if(mflags & P_NO_ALCH)
+        // {
+              if(op->type != PLAYER)
+                  return 0;
+
+              new_draw_info(NDI_UNIQUE, 0, op, "Something blocks the magic of the alchemy.");
+              return 0;
+         }
+       }
+    } 
+                  
 
     if (caster == op && settings.casting_time == TRUE && spell_ob->type == SPELL) {
 	if (op->casting_time==-1) { /* begin the casting */

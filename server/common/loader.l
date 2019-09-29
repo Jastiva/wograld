@@ -920,6 +920,8 @@ A	.+
 ^reflect_missile{S} SET_OR_CLEAR_FLAG(op, FLAG_REFL_MISSILE, IVAL);
 ^reflect_spell{S}   SET_OR_CLEAR_FLAG(op, FLAG_REFL_SPELL, IVAL);
 ^no_magic{S} 	    SET_OR_CLEAR_FLAG(op, FLAG_NO_MAGIC, IVAL);
+^no_melee{S}        SET_OR_CLEAR_FLAG(op, FLAG_NO_MELEE, IVAL);
+^no_alch{S}         SET_OR_CLEAR_FLAG(op, FLAG_NO_ALCH, IVAL);
 ^wiz{S}  	    {	if (IVAL) {
 			    SET_FLAG(op, FLAG_WIZ);
 			    SET_FLAG(op, FLAG_WAS_WIZ);
@@ -1515,7 +1517,7 @@ NULL /*fly_off*/, "is_used_up", "identified", "reflecting",	/* 30 */
 "changing", "splitting", "hitback", "startequip",
 "blocksview", "undead", "scared", "unaggressive",
 "reflect_missile", "reflect_spell",                             /* 40 */
-"no_magic", "no_fix_player", "is_lightable", "tear_down", 
+"no_magic", "no_melee", "no_alch", "no_fix_player", "is_lightable", "tear_down", 
 "run_away", NULL /*pass_thru */, NULL /*can_pass_thru*/, 
 "pick_up", "unique", "no_drop",					/* 50 */
 NULL /* wizcast*/, "can_cast_spell", "can_use_scroll", "can_use_range",

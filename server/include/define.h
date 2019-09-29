@@ -612,7 +612,9 @@ extern typedata ItemTypes[];
 #define FACTION_ELF		 114
 #define FACTION_UNDEAD		 115 
 #define IS_ELEVATOR		 116
-#define NUM_FLAGS                116 /* Should always be equal to the last
+#define FLAG_NO_MELEE            117
+#define FLAG_NO_ALCH             118
+#define NUM_FLAGS                118 /* Should always be equal to the last
                                       * defined flag.  If you change this,
                                       * make sure you update the flag_links
                                       * in common/loader.l
