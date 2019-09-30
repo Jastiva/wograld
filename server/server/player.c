@@ -1621,6 +1621,8 @@ int fire_bow(object *op, object *part, object *arrow, int dir, int wc_mod,
     tag_t left_tag, tag;
     int bowspeed, mflags;
     mapstruct	*m;
+    object *tmp;
+    object *next;
 
     if (!dir) {
 	new_draw_info(NDI_UNIQUE, 0, op, "You can't shoot yourself!");
@@ -1672,6 +1674,18 @@ int fire_bow(object *op, object *part, object *arrow, int dir, int wc_mod,
     if (GET_MAP_MOVE_BLOCK(m, sx, sy) == MOVE_FLY_LOW) {
 	new_draw_info(NDI_UNIQUE, 0,op,"Something is in the way.");
 	return 0;
+    }
+
+    for (tmp=get_map_ob(op->map, op->x, op->y); tmp != NULL;tmp=next) {
+          next=tmp->above;
+         if (tmp->move_block & MOVE_FLY_LOW) 
+         {
+ 	new_draw_info(NDI_UNIQUE, 0,op,"Something is in the way.");
+        return 0;
+
+
+
+         }
     }
 
     /* this should not happen, but sometimes does */
