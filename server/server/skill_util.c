@@ -948,6 +948,8 @@ int skill_attack (object *tmp, object *pl, int dir, const char *string, object *
     sint16 tx,ty;
     mapstruct *m;
     int mflags;
+    object *temp_ob=NULL;
+    int mlayer=0;
  
     if(!dir) dir=pl->facing;
     tx=freearr_x[dir];
@@ -956,6 +958,45 @@ int skill_attack (object *tmp, object *pl, int dir, const char *string, object *
     /* If we don't yet have an opponent, find if one exists, and attack.
      * Legal opponents are the same as outlined in move_player_attack()
      */
+
+    /*    
+for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
+        {
+           temp_ob=(GET_MAP_FACE_OBJ(pl->map, pl->x, pl->y, mlayer));
+           if(temp_ob != 0)
+           {
+    if ((!strcmp(temp_ob->arch, "town_protect")) || (!strcmp(temp_ob->arch, "no_melee")))
+    {
+  
+        if(pl->type == PLAYER)
+        {
+            new_draw_info(NDI_UNIQUE, 0, pl, "You are not supposed to fight on this spot");
+            printf("plyr attempted fight from no_melee\n");
+        }
+        printf("no melee from this tile\n");
+        return 0;
+    }
+     if(!strcmp(temp_ob->arch, "town_protect"))
+    {
+        printf("no melee from this tile\n");
+    }
+
+    }
+
+}
+*/
+
+     if(pl->map->no_melee == 1)
+     {
+	 if(pl->type == PLAYER)
+         { 
+		new_draw_info(NDI_UNIQUE, 0, pl, "You are not supposed to fight on this spot");
+            printf("plyr attempted fight from no_melee\n");
+        }
+        printf("no melee from this tile\n");
+        return 0;
+
+     }
  
     if(tmp==NULL) {
 	m = pl->map;

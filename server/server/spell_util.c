@@ -977,6 +977,8 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
     const char *godname;
     int success=0,mflags, cast_level=0, old_shoottype;
     object *skill=NULL;
+    object *temp_ob=NULL;
+    int mlayer=0;
 
     old_shoottype = op->contr ? op->contr->shoottype : 0;
 
@@ -1108,6 +1110,38 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
 	}
 	return 0;
     }
+
+   if (spell_ob->type == SPELL && caster->type == POTION && !QUERY_FLAG(op, FLAG_WIZCAST))
+    { 
+/*
+for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
+        {
+           temp_ob=(GET_MAP_FACE_OBJ(op->map, op->x, op->y, mlayer));
+           if(temp_ob != 0)
+           {
+                         // at the moment do not push monsters and items up into player
+                
+ if ((!strcmp(temp_ob->arch, "town_protect")) || (!strcmp(temp_ob->arch, "no_alch")))
+        {
+ if(op->type != PLAYER)
+                  return 0;
+
+              new_draw_info(NDI_UNIQUE, 0, op, "Something blocks the magic of the alchemy.");
+              return 0;
+        }
+    }
+}
+*/
+     if(op->map->no_alch == 1)
+     {
+         if(op->type != PLAYER)
+               return 0;
+        
+         new_draw_info(NDI_UNIQUE, 0, op, "Something blocks the magic of the alchemy.");
+              return 0;
+        }
+
+}
 
     if (caster == op && settings.casting_time == TRUE && spell_ob->type == SPELL) {
 	if (op->casting_time==-1) { /* begin the casting */

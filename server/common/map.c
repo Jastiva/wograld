@@ -972,7 +972,12 @@ static int load_map_header(FILE *fp, mapstruct *m)
 	    m->sky = atoi(value);
 	} else if (!strcmp(key, "nosmooth")) {
 	    m->nosmooth = atoi(value);
-	}
+	} else if (!strcmp(key, "no_melee")) {
+            m->no_melee = atoi(value);
+        } else if (!strcmp(key, "no_alch")) {
+            m->no_alch = atoi(value);
+        }
+       
 	else if (!strcmp(key, "background_music")) {
         m->trackname=strdup_local(value);
         LOG(llevDebug, "track_ref %s\n", m->trackname);
@@ -1736,6 +1741,8 @@ int new_save_map(mapstruct *m, int flag) {
     if (m->winddir) fprintf(fp, "winddir %d\n", m->winddir);
     if (m->sky) fprintf(fp, "sky %d\n", m->sky);
     if (m->nosmooth) fprintf(fp, "nosmooth %d\n", m->nosmooth);
+    if (m->no_melee) fprintf(fp, "no_melee %d\n", 1);
+    if (m->no_alch) fprintf(fp, "no_alch %d\n", 1);
     if (m->trackname) fprintf(fp, "background_music %s\n",m->trackname);
     if (m->upper) fprintf(fp, "tile_path_5 %s\n", m->upper);
     if (m->lower) fprintf(fp, "tile_path_6 %s\n", m->lower);
