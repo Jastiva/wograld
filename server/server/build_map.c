@@ -3,7 +3,7 @@
  *   "$Id: build_map.c,v 1.2 2010/07/26 22:00:30 jastiv Exp $";
  */
 /*
-    CrossFire, A Multiplayer game for X-windows
+    A Multiplayer game for X-windows
 
     Copyright (C) 2001 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -45,6 +45,26 @@ int can_build_over( struct mapdef* map, object* tmp, short x, short y)
 	/* if ob is not a marking rune or floor, then check special cases */
 	if ( strcmp( ob->arch->name, "rune_mark" ) && ob->type != FLOOR )
 	    {
+            printf("found item \n");
+    /*
+            if(!strcmp(ob->arch, "rune_mark"))
+            {
+  
+              printf("found markrune \n");
+               break;
+            }
+            if(( ob->type == SIGN) && (ob->stats.hp == 1))
+            {
+               printf("found markrune \n");
+               break;
+             }
+            if(ob->type == SIGN)
+            {
+                  printf("found sign \n");
+                  break;
+            }
+   */
+            
             switch ( tmp->type )
                 {
 	        case SIGN:
@@ -58,11 +78,13 @@ int can_build_over( struct mapdef* map, object* tmp, short x, short y)
                 case PEDESTAL:
                 case CF_HANDLE:
 		    /* Allow buttons and levers to be built under gates */
-	            if ( ob->type != GATE && ob->type != DOOR ) {
+	 //           if ( ob->type != GATE && ob->type != DOOR ) {
+                      if( ob->type == WALL || ob->type == BUTTON || ob->type == DETECTOR || ob->type == PEDESTAL || ob->type == MAGIC_EAR || ob->type == CF_HANDLE){
 		        return 0; } 
                     break;
 		default:
-                    return 0;
+                    break;
+            //        return 0;
                 }
             }
         ob = ob->above;
