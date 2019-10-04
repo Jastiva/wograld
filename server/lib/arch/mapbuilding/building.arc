@@ -329,5 +329,16 @@ subtype 1
 face mbstove.111
 slaying hollow
 end
+Object building_teleporter
+name teleporter material
+nrof 1
+weight 150
+value 1500
+type 161
+subtype 3
+slaying teleporter
+face mbteleporter.111
+end
+
 
 

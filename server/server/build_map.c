@@ -32,6 +32,88 @@
 #include <tod.h>
 #include <sproto.h>
 
+object *get_teleporter_loc( object* pl)
+{
+   object *force;
+   force=pl->inv;
+
+   while ( force && ( ( force->type != FORCE ) || ( !force->slaying ) || ( strcmp( force->slaying, pl->map->path ) ) || (force->path_attuned != 0) || ((force->last_heal ==0)&&(force->last_sp==0))  ) )
+        force = force->below;
+
+    // have to skip forces that are listed as being used for gate
+    // but should not in practice nest these activities
+
+    // try to skip quests, I dont have a plan for that yet
+    // based on lore?
+
+     // quests, have slaying but do not have attuned
+     // are you sure that hp, sp are not taken?
+
+    
+    return force;
+    // nullable
+}
+
+
+void  create_teleporter_loc(object *pl, int tx, int ty)
+{
+          object *force;
+
+        force = create_archetype( FORCE_NAME );
+        force->speed = 0;
+        update_ob_speed( force );
+        force->slaying = add_string( pl->map->path );
+       // force->msg = add_string( rune->msg );
+      //  force->path_attuned = connected;
+        force->last_heal=tx;
+        force->last_sp=ty;
+       // the first buildable teleporter will be dropped on pl x and pl y
+        // the second one will refer to it
+       // and also try to get map ob at that location
+       // and then try to change its hp, sp to second loc x y
+
+        insert_ob_in_ob( force, pl );
+
+}  
+
+// tmp already exists,
+
+// and after this fn will be insert_ob_in_map_at
+
+void modify_teleporters_for_loc(object *pl, object *sideone_loc, object *sidetwo, int tx, int ty)
+{
+       int tmpone_x=sideone_loc->last_heal;
+       int tmpone_y=sideone_loc->last_sp;
+       sidetwo->stats.hp=sideone_loc->last_heal;
+       sidetwo->stats.sp=sideone_loc->last_sp;
+
+
+       object* floor;
+   
+
+    /* Find floor */
+    floor = GET_MAP_OB( pl->map, tmpone_x, tmpone_y );
+    if ( !floor )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "Invalid square." );
+        return;
+        }
+
+      while ( floor && ( floor->type != TELEPORTER ) )
+        floor = floor->above;
+
+      if ( !floor )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "first side of teleporter not built yet" );
+        return;
+        }
+
+       floor->stats.hp=tx;
+       floor->stats.sp=ty;
+}
+
+
+
 /**
  *  Check if objects on a square interfere with building
  */
@@ -725,8 +807,20 @@ void apply_builder_item( object* pl, object* item, short x, short y, object *bui
     insert_flag = INS_ABOVE_FLOOR_ONLY;
 
     connected = 0;
+    object *sideone_loc;
     switch( tmp->type )
         {
+         case TELEPORTER:
+             sideone_loc = get_teleporter_loc( pl);
+             if(sideone_loc != NULL)
+             {
+                modify_teleporters_for_loc(pl,sideone_loc,tmp, x,y);
+             }
+      	     else
+      	     {
+               create_teleporter_loc(pl,x,y);
+      	     }
+    		break;
         case DOOR:
         case GATE:
         case BUTTON:
@@ -950,7 +1044,7 @@ void apply_map_builder( object* pl, int dir )
    printf("tile title %s\n", localtitle);
 
    for(tmp3= pl->inv;tmp3;tmp3=tmp3->below) {
-                      // if (tmp3->type==BUILD_TITLE){
+                       if (tmp3->type==BUILD_TITLE){
                       printf("got buildtitle\n");
                          printf("localtitle\n");
                         if(tmp3->title)
@@ -971,7 +1065,7 @@ void apply_map_builder( object* pl, int dir )
                            printf("no title found\n");
 
                        }
-                    // }
+                     }
                   }
  if(permission != 1)
    {

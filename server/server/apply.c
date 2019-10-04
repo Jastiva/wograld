@@ -2730,7 +2730,19 @@ void list_ongoing_quests(object *pl) {
           {
              if(tmp2->slaying != NULL)
              {
+                if(tmp2->path_attuned == 0) {
+                       // not gate build force
+		   if(tmp2->last_heal == 0) {
+                         if(tmp2->last_sp == 0){
+                       // not teleporter build force
+                            if(tmp2->race == 0){
+                            // not portal force
                 new_draw_info(NDI_UNIQUE, 0,pl,tmp2->slaying);
+                           }
+                         }
+                      }
+
+                 }
 
              }
          }
