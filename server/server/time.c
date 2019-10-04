@@ -866,8 +866,11 @@ static void change_object(object *op) { /* Doesn`t handle linked objs yet */
   free_object(op);
 }
 
+
 void move_teleporter(object *op) {
     object *tmp, *head=op;
+    object *tmp3;
+    int permission = 0;
 
     /* if this is a multipart teleporter, handle the other parts
      * The check for speed isn't strictly needed - basically, if
@@ -881,40 +884,118 @@ void move_teleporter(object *op) {
     if (op->head) head=op->head;
 
     for (tmp=op->above; tmp!=NULL; tmp=tmp->above)
-	if (!QUERY_FLAG(tmp, FLAG_IS_FLOOR)) break;
+        if (!QUERY_FLAG(tmp, FLAG_IS_FLOOR)) break;
 
     /* If nothing above us to move, nothing to do */
     if (!tmp || QUERY_FLAG(tmp, FLAG_WIZPASS)) return;
 
     if(EXIT_PATH(head)) {
-	if(tmp->type==PLAYER) {
+        if(tmp->type==PLAYER) {
             /* Lauwenmark: Handle for plugin TRIGGER event */
             /* if (execute_event(op, EVENT_TRIGGER, tmp, NULL, NULL, SCRIPT_FIX_ALL) != 0)
                 return; */
-	    enter_exit(tmp, head);
-	}
-	else
-	    /* Currently only players can transfer maps */
-	    return;
+            enter_exit(tmp, head);
+        }
+        else
+            /* Currently only players can transfer maps */
+            return;
     }
     else if(EXIT_X(head)||EXIT_Y(head)) {
-	if (out_of_map(head->map, EXIT_X(head), EXIT_Y(head))) {
-	    LOG(llevError, "Removed illegal teleporter.\n");
-	    remove_ob(head);
-	    free_object(head);
-	    return;
-	}
-        /* Lauwenmark: Handle for plugin TRIGGER event */
-        /* if (execute_event(op, EVENT_TRIGGER, tmp, NULL, NULL, SCRIPT_FIX_ALL) != 0)
+        if (out_of_map(head->map, EXIT_X(head), EXIT_Y(head))) {
+            LOG(llevError, "Removed illegal teleporter.\n");
+            remove_ob(head);
+            free_object(head);
+            return;
+        }
+  
+        permission=0;
+   
+        if(op->title)
+        {
+            for(tmp3= tmp->inv;tmp3;tmp3=tmp3->below) {
+                      if (tmp3->type==BUILD_TITLE){
+                      printf("got buildtitle\n");
+                         printf("localtitle\n");
+                        if(tmp3->title)
+                        {
+                          printf("build title %s\n",tmp3->title);
+                            if (!(strcmp( tmp3->title, op->title)))
+                            {
+                                  permission = 1;
+                                  break;
+                            }
+                            else
+                            {
+                                  printf("not match title\n");
+                            }
+                         }
+                         else
+                        {
+                           printf("no title found\n");
+
+                       }
+                     }
+                  }
+                
+                if(permission == 0)
+                {
+                     // and op->title
+                     printf("player or monster tried teleport on titled teleporter without holding matching title\n");
+                    return;
+                }
+               // else drop through
+
+        }
+
+   /* if (execute_event(op, EVENT_TRIGGER, tmp, NULL, NULL, SCRIPT_FIX_ALL) != 0)
         return; */
-	transfer_ob(tmp,EXIT_X(head),EXIT_Y(head),0,head);
+        transfer_ob(tmp,EXIT_X(head),EXIT_Y(head),0,head);
     }
     else {
-	/* Random teleporter */
+        /* Random teleporter */
         /* Lauwenmark: Handle for plugin TRIGGER event */
         /* if (execute_event(op, EVENT_TRIGGER, tmp, NULL, NULL, SCRIPT_FIX_ALL) != 0)
             return; */
-	teleport(head, TELEPORTER, tmp);
+
+        permission=0;
+   
+        if(op->title)
+        {
+            for(tmp3= tmp->inv;tmp3;tmp3=tmp3->below) {
+                      if (tmp3->type==BUILD_TITLE){
+                      printf("got buildtitle\n");
+                         printf("localtitle\n");
+                        if(tmp3->title)
+                        {
+                          printf("build title %s\n",tmp3->title);
+                            if (!(strcmp( tmp3->title, op->title)))
+                            {
+                                  permission = 1;
+                                  break;
+                            }
+                            else
+                            {
+                                  printf("not match title\n");
+                            }
+                         }
+                         else
+                        {
+                           printf("no title found\n");
+
+                       }
+                     }
+                  }
+                
+                if(permission == 0)
+                {
+                     // and op->title
+                     printf("player or monster tried random teleport on titled teleporter without holding matching title\n");
+                    return;
+                }
+               // else drop through
+
+        }
+        teleport(head, TELEPORTER, tmp);
     }
 }
 
