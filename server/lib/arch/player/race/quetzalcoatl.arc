@@ -2,7 +2,7 @@ Object quetzalcoatl_player
 name Quetzalcoatl
 race reptile
 randomitems quetzalcoatl_player_items
-face quetzalcoatl.131
+face quetzalcoatl.151
 msg
 Quetzalcoatls are a strange mix of snake,
 bird, human, and a dash of the divine. They
@@ -33,12 +33,12 @@ thicker as they gain power, compensating them
 somewhat for not being able to use armour.
 endmsg
 anim
-quetzalcoatl.171
-quetzalcoatl.172
+quetzalcoatl.111
+quetzalcoatl.112
 quetzalcoatl.131
 quetzalcoatl.132
-quetzalcoatl.131
-quetzalcoatl.132
+quetzalcoatl.151
+quetzalcoatl.152
 quetzalcoatl.171
 quetzalcoatl.172
 facings 4
