@@ -871,9 +871,6 @@ void move_teleporter(object *op) {
     object *tmp, *head=op;
     object *tmp3;
     int permission = 0;
-    
-    player *pl;
-    object *tmp2;
 
     /* if this is a multipart teleporter, handle the other parts
      * The check for speed isn't strictly needed - basically, if
@@ -939,69 +936,11 @@ void move_teleporter(object *op) {
                        }
                      }
                   }
-
-                if(permission == 0)
-                {
-
-
-if(tmp->type == PLAYER)
-{
-if(tmp->contr)
-  {
-     if(tmp->contr->party)
-     {
-         printf("party found for current pl\n");
-
-         for(pl=first_player; pl!=NULL;pl=pl->next)
-         {
-            if(pl->ob->contr->party==tmp->contr->party && pl->ob != tmp)
-            {
-                 printf("party member found for current pl\n");
-                 tmp2 = pl->ob;
-                                              
-                  for(tmp3= tmp2->inv;tmp3;tmp3=tmp3->below) {
-                      if (tmp3->type==BUILD_TITLE){
-                      printf("got buildtitle\n");
-                         printf("localtitle\n");
-                        if(tmp3->title)
-                        {
-                          printf("build title %s\n",tmp3->title);
-                            if (!(strcmp( tmp3->title, op->title)))
-                            {
-                                  permission = 1;
-                                  break;
-                            }
-                            else
-                            {
-                                  printf("not match title for party member\n");
-                            }
-                         }
-                         else
-                        {
-                           printf("no title found on party member\n");
-
-                       }
-                     }
-                  }
-                  if(permission == 1)
-                  {
-                      break;
-                  }
-              }
-           }
-            // for pl
-        }
-  }
-}
-
-                }
-
                 
                 if(permission == 0)
                 {
                      // and op->title
                      printf("player or monster tried teleport on titled teleporter without holding matching title\n");
-
                     return;
                 }
                // else drop through
@@ -1046,63 +985,6 @@ if(tmp->contr)
                        }
                      }
                   }
-
-                  if(permission == 0)
-                {
-
-
-if(tmp->type == PLAYER)
-{
-if(tmp->contr)
-  {
-     if(tmp->contr->party)
-     {
-         printf("party found for current pl\n");
-
-         for(pl=first_player; pl!=NULL;pl=pl->next)
-         {
-            if(pl->ob->contr->party==tmp->contr->party && pl->ob != tmp)
-            {
-                 printf("party member found for current pl\n");
-                 tmp2 = pl->ob;
-                                              
-                  for(tmp3= tmp2->inv;tmp3;tmp3=tmp3->below) {
-                      if (tmp3->type==BUILD_TITLE){
-                      printf("got buildtitle\n");
-                         printf("localtitle\n");
-                        if(tmp3->title)
-                        {
-                          printf("build title %s\n",tmp3->title);
-                            if (!(strcmp( tmp3->title, tmp2->title)))
-                            {
-                                  permission = 1;
-                                  break;
-                            }
-                            else
-                            {
-                                  printf("not match title for party member\n");
-                            }
-                         }
-                         else
-                        {
-                           printf("no title found on party member\n");
-
-                       }
-                     }
-                  }
-                  if(permission == 1)
-                  {
-                      break;
-                  }
-              }
-           }
-            // for pl
-        }
-  }
-}
-
-                }
-
                 
                 if(permission == 0)
                 {

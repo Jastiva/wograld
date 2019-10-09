@@ -1598,6 +1598,98 @@ static int apply_shop_mat (object *shop_mat, object *op)
     return rv;
 }
 
+
+
+static int apply_player_shop_mat (object *shop_mat, object *op)
+{
+    int rv = 0;
+    double opinion;
+    object *tmp, *next;
+
+    SET_FLAG (op,FLAG_NO_APPLY);   /* prevent loops */
+
+    if (op->type != PLAYER) {
+        /* Remove all the unpaid objects that may be carried here.
+         * This could be pets or monsters that are somehow in
+         * the shop.
+         */
+        for (tmp=op->inv; tmp; tmp=next) {
+            next = tmp->below;
+            if (QUERY_FLAG(tmp, FLAG_UNPAID)) {
+                int i = find_free_spot (tmp, op->map, op->x, op->y, 1, 9);
+
+                remove_ob(tmp);
+                if (i==-1) i=0;
+                tmp->map = op->map;
+                tmp->x = op->x + freearr_x[i];
+                tmp->y = op->y + freearr_y[i];
+                insert_ob_in_map(tmp, op->map, op, 0);
+            }
+        }
+
+        /* Don't teleport things like spell effects */
+        if (QUERY_FLAG(op, FLAG_NO_PICK)) return 0;
+
+        /* unpaid objects, or non living objects, can't transfer by
+         * shop mats.  Instead, put it on a nearby space.
+         */
+        if (QUERY_FLAG(op, FLAG_UNPAID) || !QUERY_FLAG(op, FLAG_ALIVE)) {
+
+            /* Somebody dropped an unpaid item, just move to an adjacent place. */
+            int i = find_free_spot (op, op->map, op->x, op->y, 1, 9);
+            if (i != -1) {
+                rv = transfer_ob (op, op->x + freearr_x[i], op->y + freearr_y[i], 0,
+                       shop_mat);
+            }
+            return 0;
+        }
+        /* Removed code that checked for multipart objects - it appears that
+         * the teleport function should be able to handle this just fine.
+         */
+        rv = teleport (shop_mat, SHOP_MAT, op);
+    }
+    /* immediate block below is only used for players */
+ else if (can_pay(op)) {
+        int dest_gold_x = shop_mat->stats.hp;
+        int dest_gold_y = shop_mat->stats.sp;
+        player_shop_get_payment (op, op->inv, dest_gold_x, dest_gold_y);
+        //rv = teleport (shop_mat, SHOP_MAT, op);
+        rv = teleport (shop_mat, P_SHOP_MAT, op);
+        if (shop_mat->msg) {
+            new_draw_info (NDI_UNIQUE, 0, op, shop_mat->msg);
+        }
+        /* This check below is a bit simplistic - generally it should be correct,
+         * but there is never a guarantee that the bottom space on the map is
+         * actually the shop floor.
+         */
+        else if ( ! rv && (tmp = get_map_ob (op->map, op->x, op->y)) != NULL
+                   && tmp->type != SHOP_FLOOR) {
+                new_draw_info (NDI_UNIQUE, 0, op, "The site owner will receive payment");
+        }
+    }
+    else {
+        /* if we get here, a player tried to leave a shop but was not able
+         * to afford the items he has.  We try to move the player so that
+         * they are not on the mat anymore
+         */
+
+        int i = find_free_spot (op, op->map, op->x, op->y, 1, 9);
+        if(i == -1) {
+            LOG (llevError, "Internal shop-mat problem.\n");
+        } else {
+            remove_ob (op);
+            op->x += freearr_x[i];
+            op->y += freearr_y[i];
+            rv = insert_ob_in_map (op, op->map, shop_mat,0) == NULL;
+            esrv_map_scroll(&op->contr->socket, freearr_x[i],freearr_y[i]);
+            op->contr->socket.update_look=1;
+            op->contr->socket.look_position=0;
+        }
+    }
+    CLEAR_FLAG (op, FLAG_NO_APPLY);
+    return rv;
+}
+
 /**
  * Handles applying a sign.
  */
@@ -1840,6 +1932,10 @@ void move_apply (object *trap, object *victim, object *originator)
 	case SHOP_MAT:
 	    apply_shop_mat (trap, victim);
 	    goto leave;
+
+        case P_SHOP_MAT:
+            apply_player_shop_mat(trap, victim);
+            goto leave;
 
 	/* Drop a certain amount of gold, and have one item identified */
 	case IDENTIFY_ALTAR:
@@ -2730,19 +2826,7 @@ void list_ongoing_quests(object *pl) {
           {
              if(tmp2->slaying != NULL)
              {
-                if(tmp2->path_attuned == 0) {
-                       // not gate build force
-		   if(tmp2->last_heal == 0) {
-                         if(tmp2->last_sp == 0){
-                       // not teleporter build force
-                            if(tmp2->race == 0){
-                            // not portal force
                 new_draw_info(NDI_UNIQUE, 0,pl,tmp2->slaying);
-                           }
-                         }
-                      }
-
-                 }
 
              }
          }

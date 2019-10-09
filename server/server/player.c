@@ -296,6 +296,7 @@ static player* get_player(player *p) {
     p->socket.update_look=0;
     p->socket.look_position=0;
     p->waitfordraw = 30;
+    p->waitforres = 0;
     return p;
 }
 

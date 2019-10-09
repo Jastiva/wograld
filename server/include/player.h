@@ -213,5 +213,6 @@ typedef struct pl {
     /* Special DM fields */
     tag_t*  stack_items;    /* Item stack for patch/dump/... commands */
     int     stack_position; /* Current stack position, 0 for no item */
-uint16 waitfordraw;
+    uint16 waitfordraw;
+    uint16 waitforres;
 } player;

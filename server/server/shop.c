@@ -465,6 +465,288 @@ uint64 query_money(const object *op) {
     }
     return total;
 }
+
+
+static uint64 pshop_pay_from_container(object *pl, object *pouch, uint64 to_pay, int sx, int sy) {
+    int count, i;
+    sint64 remain;
+    object *tmp, *coin_objs[NUM_COINS], *next;
+    archetype *at;
+    
+int cointype = 0;
+int ins_count = 0;
+archetype *coin;
+object *tmp2;
+
+
+
+    if (pouch->type != PLAYER && pouch->type != CONTAINER) return to_pay;
+
+    remain = to_pay;
+    for (i=0; i<NUM_COINS; i++) coin_objs[i] = NULL;
+
+    /* This hunk should remove all the money objects from the player/container */
+    for (tmp=pouch->inv; tmp; tmp=next) {
+        next = tmp->below;
+
+        if (tmp->type == MONEY) {
+            for (i=0; i<NUM_COINS; i++) {
+                if (!strcmp(coins[NUM_COINS-1-i], tmp->arch->name) &&
+                    (tmp->value == tmp->arch->clone.value) ) {
+
+                    /* This should not happen, but if it does, just             *
+                     * merge the two.                                           */
+                    if (coin_objs[i]!=NULL) {
+                        LOG(llevError,"%s has two money entries of (%s)\n",
+                            pouch->name, coins[NUM_COINS-1-i]);
+                        remove_ob(tmp);
+                        coin_objs[i]->nrof += tmp->nrof;
+                        esrv_del_item(pl->contr, tmp->count);
+                        free_object(tmp);
+                    }
+                    else {
+                        remove_ob(tmp);
+                        if(pouch->type==PLAYER) esrv_del_item(pl->contr, tmp->count);
+                        coin_objs[i] = tmp;
+                    }
+                    break;
+                }
+            }
+            if (i==NUM_COINS)
+                LOG(llevError,"in pay_for_item: Did not find string match for %s\n", tmp->arch->name);
+        }
+    }
+
+    /* Fill in any gaps in the coin_objs array - needed to make change. */
+    /* Note that the coin_objs array goes from least value to greatest value */
+    for (i=0; i<NUM_COINS; i++)
+        if (coin_objs[i]==NULL) {
+            at = find_archetype(coins[NUM_COINS-1-i]);
+            if (at==NULL) LOG(llevError, "Could not find %s archetype\n", coins[NUM_COINS-1-i]);
+            coin_objs[i] = get_object();
+            copy_object(&at->clone, coin_objs[i]);
+            coin_objs[i]->nrof = 0;
+        }
+
+    for (i=0; i<NUM_COINS; i++) {
+        int num_coins;
+
+        if (coin_objs[i]->nrof*coin_objs[i]->value> remain) {
+            num_coins = remain / coin_objs[i]->value;
+            if ((uint64)num_coins*(uint64)coin_objs[i]->value < remain) num_coins++;
+        } else {
+            num_coins = coin_objs[i]->nrof;
+        }
+        remain -= (sint64) num_coins * (sint64)coin_objs[i]->value;
+        coin_objs[i]->nrof -= num_coins;
+        /* Now start making change.  Start at the coin value
+         * below the one we just did, and work down to
+         * the lowest value.
+         */
+        count=i-1;
+        while (remain<0 && count>=0) {
+                num_coins = -remain/ coin_objs[count]->value;
+                coin_objs[count]->nrof += num_coins;
+                remain += num_coins * coin_objs[count]->value;
+                count--;
+        }
+    }
+    for (i=0; i<NUM_COINS; i++) {
+        if (coin_objs[i]->nrof) {
+            object *tmp = insert_ob_in_ob(coin_objs[i], pouch);
+
+            esrv_send_item(pl, tmp);
+            esrv_send_item (pl, pouch);
+            if (pl != pouch) esrv_update_item (UPD_WEIGHT, pl, pouch);
+            if (pl->type != PLAYER) {
+                esrv_send_item (pl, pl);
+            }
+        } else {
+            free_object(coin_objs[i]);
+        }
+    }
+
+    // use backed_up value to_pay
+    // to generate coins
+    // and insert to stored sx, sy
+
+     
+coin = find_next_coin(to_pay, &cointype);
+if(coin != NULL)
+{
+
+   ins_count = to_pay / coin->clone.value;
+   to_pay = to_pay % coin->clone.value;
+   // generate ob of count ins_count 
+   tmp2 = get_object();
+   copy_object(&coin->clone, tmp2);
+   tmp2->nrof = ins_count;
+  // put in map at sx, sy
+   insert_ob_in_map_at( tmp2, pl->map, pl, INS_ON_TOP, sx, sy );
+   merge_ob(tmp2,NULL);
+
+   coin = find_next_coin(to_pay, &cointype);
+
+   if(coin != NULL)
+   {
+      
+       ins_count = to_pay / coin->clone.value;
+   to_pay = to_pay % coin->clone.value;
+   // generate ob of count ins_count and put in map at
+tmp2 = get_object();
+   copy_object(&coin->clone, tmp2);
+   tmp2->nrof = ins_count;
+  // put in map at sx, sy
+   insert_ob_in_map_at( tmp2, pl->map, pl, INS_ON_TOP, sx, sy );
+   merge_ob(tmp2,NULL);
+
+   coin = find_next_coin(to_pay, &cointype);
+           
+
+
+      if(coin != NULL)
+      {
+      
+       ins_count = to_pay / coin->clone.value;
+   to_pay = to_pay % coin->clone.value;
+   // generate ob of count ins_count and put in map at
+       tmp2 = get_object();
+   copy_object(&coin->clone, tmp2);
+   tmp2->nrof = ins_count;
+  // put in map at sx, sy
+   insert_ob_in_map_at( tmp2, pl->map, pl, INS_ON_TOP, sx, sy );
+   merge_ob(tmp2,NULL);
+
+      }
+   }
+}
+
+
+
+    return(remain);
+}
+
+int player_shop_pay_for_item(object *op,object *pl, int sx, int sy) {
+
+    uint64 to_pay = query_cost(op,pl,F_BUY | F_SHOP);
+    object *pouch;
+    uint64 saved_money;
+    object *floor;
+    object *tmp2;
+
+    if (to_pay==0) return 1;
+    if (to_pay>query_money(pl)) return 0;
+
+    // this is before the teleport from SHOP_MAT that removes them from the shop_floor
+    // however they have moved out of the shop_floor
+
+    // it is extremely unlikely that this code is necessary
+    // for regular SHOP_MAT
+   
+    // but for P_SHOP_MAT, need also to get dest coords for payment
+    
+    floor = get_map_ob (pl->map, pl->x, pl->y);
+    if( floor && floor->type == SHOP_FLOOR )
+    {
+        if(floor->title)
+        {
+             for(tmp2= pl->inv;tmp2;tmp2=tmp2->below) {
+                       if (tmp2->type==BUILD_TITLE){
+                      printf("shop buy got buildtitle\n");
+                         
+                        if(tmp2->title)
+                        {
+                          printf("build title %s\n",tmp2->title);
+                            if (!(strcmp( tmp2->title, floor->title)))
+                            {
+                                  new_draw_info_format(NDI_UNIQUE, 0, pl,
+                                 "Picking up %s to remove from sale.",query_name(op));
+
+                                  // to_pay == 0
+                                  return 1;
+          
+                                   
+                            }
+                          
+                       }
+                   }
+              }
+        }
+    }
+
+
+    /* We compare the paid price with the one for a player
+     * without bargaining skill.
+     * This determins the amount of exp (if any) gained for bargaining.
+     */
+    saved_money = query_cost(op,pl,F_BUY | F_NO_BARGAIN | F_SHOP) - to_pay;
+
+    if (saved_money > 0)
+      change_exp(pl,saved_money,"bargaining",SK_EXP_NONE);
+
+    to_pay = pshop_pay_from_container(pl, pl, to_pay, sx, sy);
+
+    for (pouch=pl->inv; (pouch!=NULL) && (to_pay>0); pouch=pouch->below) {
+        if (pouch->type == CONTAINER
+            && QUERY_FLAG(pouch, FLAG_APPLIED)
+            && (pouch->race == NULL || strstr(pouch->race, "gold"))) {
+            to_pay = pshop_pay_from_container(pl, pouch, to_pay, sx, sy);
+        }
+    }
+    if (settings.real_wiz == FALSE && QUERY_FLAG(pl, FLAG_WAS_WIZ))
+        SET_FLAG(op, FLAG_WAS_WIZ);
+    fix_player(pl);
+    return 1;
+}
+
+int player_shop_get_payment(object *pl, object *op, int sx, int sy) {
+    char buf[MAX_BUF];
+    int ret=1;
+
+    if (op!=NULL&&op->inv)
+        ret = player_shop_get_payment(pl, op->inv, sx, sy);
+
+    if (!ret)
+        return 0;
+
+    if (op!=NULL&&op->below)
+        ret = player_shop_get_payment (pl, op->below, sx, sy);
+
+    if (!ret)
+        return 0;
+
+    if(op!=NULL&&QUERY_FLAG(op,FLAG_UNPAID)) {
+        strncpy(buf,query_cost_string(op,pl,F_BUY | F_SHOP),MAX_BUF);
+        buf[MAX_BUF-1] = '\0';
+        if(!player_shop_pay_for_item(op,pl,sx,sy)) {
+            uint64 i=query_cost(op,pl,F_BUY | F_SHOP) - query_money(pl);
+            CLEAR_FLAG(op, FLAG_UNPAID);
+            new_draw_info_format(NDI_UNIQUE, 0, pl,
+                "You lack %s to buy %s.", cost_string_from_value(i),
+                query_name(op));
+            SET_FLAG(op, FLAG_UNPAID);
+            return 0;
+        } else {
+            object *tmp;
+            tag_t c = op->count;
+
+            CLEAR_FLAG(op, FLAG_UNPAID);
+            CLEAR_FLAG(op, FLAG_PLAYER_SOLD);
+            new_draw_info_format(NDI_UNIQUE, 0, op,
+                "You paid %s for %s.",buf,query_name(op));
+            tmp=merge_ob(op,NULL);
+            if (pl->type == PLAYER) {
+                if (tmp) {      /* it was merged */
+                    esrv_del_item (pl->contr, c);
+                    op = tmp;
+                }
+                esrv_send_item(pl, op);
+            }
+        }
+    }
+    return 1;
+}
+
 /* TCHIZE: This function takes the amount of money from the
  * the player inventory and from it's various pouches using the
  * pay_from_container function.
@@ -752,34 +1034,68 @@ int get_payment(object *pl, object *op) {
  * Modified to fill available race: gold containers before dumping
  * remaining coins in character's inventory.
  */
-void sell_item(object *op, object *pl) {
+
+
+ void sell_item(object *op, object *pl) {
     uint64 i=query_cost(op,pl,F_SELL | F_SHOP), extra_gain;
     int count;
     object *tmp, *pouch;
     archetype *at;
+    object *tmp2;
+    object *floor;
 
     if(pl==NULL||pl->type!=PLAYER) {
-	LOG(llevDebug,"Object other than player tried to sell something.\n");
-	return;
+        LOG(llevDebug,"Object other than player tried to sell something.\n");
+        return;
     }
 
     if(op->custom_name) FREE_AND_CLEAR_STR(op->custom_name);
 
-    if(!i) {
-	new_draw_info_format(NDI_UNIQUE, 0, pl,
-	     "We're not interested in %s.",query_name(op));
 
-	/* Even if the character doesn't get anything for it, it may still be
-	 * worth something.  If so, make it unpaid
-	 */
-	if (op->value) {
-	    SET_FLAG(op, FLAG_UNPAID);
-	    SET_FLAG(op, FLAG_PLAYER_SOLD);
-	}
-	identify(op);
-	return;
+    floor = get_map_ob (op->map, op->x, op->y);
+    if( floor && floor->type == SHOP_FLOOR )
+    {
+        if(floor->title)
+        {
+             
+                                  new_draw_info_format(NDI_UNIQUE, 0, pl,
+                                 "Readying %s for sale.",query_name(op));
+
+        /* Even if the character doesn't get anything for it, it may still be
+         * worth something.  If so, make it unpaid
+         */
+        if (op->value) {
+            SET_FLAG(op, FLAG_UNPAID);
+            SET_FLAG(op, FLAG_PLAYER_SOLD);
+        }
+        identify(op);
+        return;
+                       // for now, do not permit  other players
+                       // from receiving payment for sale on a titled shop_floor
+
+                       
+                     
+                         // if you want to forbid dropping the item
+                         // this will require edits on at least the calling function
+          
+                          
+        }
     }
 
+    if(!i) {
+        new_draw_info_format(NDI_UNIQUE, 0, pl,
+             "We're not interested in %s.",query_name(op));
+
+        /* Even if the character doesn't get anything for it, it may still be
+         * worth something.  If so, make it unpaid
+         */
+        if (op->value) {
+            SET_FLAG(op, FLAG_UNPAID);
+            SET_FLAG(op, FLAG_PLAYER_SOLD);
+        }
+        identify(op);
+        return;
+    }
     /* We compare the price with the one for a player
      * without bargaining skill.
      * This determins the amount of exp (if any) gained for bargaining.

@@ -253,6 +253,8 @@ int transfer_ob (object *op, int x, int y, int randomly, object *originator)
  * be used close to each other and not have the player put to the
  * one of another type.
  */
+
+
 int teleport (object *teleporter, uint8 tele_type, object *user)
 {
     object *altern[120]; /* Better use c/malloc here in the future */
@@ -263,40 +265,43 @@ int teleport (object *teleporter, uint8 tele_type, object *user)
 
     if(user==NULL) return 0;
     if(user->head!=NULL)
-	user=user->head;
+        user=user->head;
 
     /* Find all other teleporters within range.  This range
      * should really be setable by some object attribute instead of
      * using hard coded values.
      */
     for(i= -5;i<6;i++)
-	for(j= -5;j<6;j++) {
-	    if(i==0&&j==0)
-		continue;
-	    /* Perhaps this should be extended to support tiled maps */
-	    if(OUT_OF_REAL_MAP(teleporter->map,teleporter->x+i,teleporter->y+j))
-		continue;
-	    other_teleporter=get_map_ob(teleporter->map,
+        for(j= -5;j<6;j++) {
+            if(i==0&&j==0)
+                continue;
+            /* Perhaps this should be extended to support tiled maps */
+            if(OUT_OF_REAL_MAP(teleporter->map,teleporter->x+i,teleporter->y+j))
+                continue;
+            other_teleporter=get_map_ob(teleporter->map,
                                   teleporter->x+i,teleporter->y+j);
 
-	    while (other_teleporter) {
-		if (other_teleporter->type == tele_type) break;
-		other_teleporter = other_teleporter->above;
-	    }
-	    if (other_teleporter)
-		altern[nrofalt++]=other_teleporter;
-	}
+            while (other_teleporter) {
+                if (other_teleporter->type == tele_type) break;
+                other_teleporter = other_teleporter->above;
+            }
+            if (other_teleporter)
+                altern[nrofalt++]=other_teleporter;
+        }
 
     if(!nrofalt) {
-	LOG(llevError,"No alternative teleporters around!\n");
-	return 0;
+        LOG(llevError,"No alternative teleporters around!\n");
+        return 0;
     }
+
+
+// addition of p_shop_mat should be partly encapsulated by the other_teleporter code
 
     other_teleporter=altern[RANDOM()%nrofalt];
     k=find_free_spot(user,other_teleporter->map,
                         other_teleporter->x,other_teleporter->y,1,9);
 
-    /* if k==-1, unable to find a free spot.  If this is shop
+ /* if k==-1, unable to find a free spot.  If this is shop
      * mat that the player is using, find someplace to move
      * the player - otherwise, player can get trapped in the shops
      * that appear in random dungeons.  We basically just make
@@ -304,36 +309,40 @@ int teleport (object *teleporter, uint8 tele_type, object *user)
      * about is alive.
      */
     if (k==-1) {
-	if (tele_type == SHOP_MAT && user->type == PLAYER) {
-	    for (k=1; k<9; k++) {
-		if (get_map_flags(other_teleporter->map, &m, 
-			other_teleporter->x + freearr_x[k],
-			other_teleporter->y + freearr_y[k], &sx,&sy) &
-			P_OUT_OF_MAP) continue;
+      //  if (tele_type == SHOP_MAT && user->type == PLAYER) {
+      if((tele_type == SHOP_MAT ) || (tele_type == P_SHOP_MAT)) {
 
-		if (!OB_TYPE_MOVE_BLOCK(user, GET_MAP_MOVE_BLOCK(m, sx, sy))) break;
+          if(user->type == PLAYER) {
+            for (k=1; k<9; k++) {
+                if (get_map_flags(other_teleporter->map, &m,
+                        other_teleporter->x + freearr_x[k],
+                        other_teleporter->y + freearr_y[k], &sx,&sy) &
+                        P_OUT_OF_MAP) continue;
 
-	    }
-	    if (k==9) {
-		LOG(llevError,"Shop mat %s (%d, %d) is in solid rock?\n",
-		    other_teleporter->name, other_teleporter->x, other_teleporter->y);
-		return 0;
-	    }
-	}
-	else return 0;
+                if (!OB_TYPE_MOVE_BLOCK(user, GET_MAP_MOVE_BLOCK(m, sx, sy))) break;
+
+            }
+            if (k==9) {
+                LOG(llevError,"Shop mat %s (%d, %d) is in solid rock?\n",
+                    other_teleporter->name, other_teleporter->x, other_teleporter->y);
+                return 0;
+            }
+          }
+        }
+        else return 0;
     }
 
     remove_ob(user);
 
     /* Update location for the object */
     for(tmp=user;tmp!=NULL;tmp=tmp->more) {
-	tmp->x=other_teleporter->x+freearr_x[k]+
+        tmp->x=other_teleporter->x+freearr_x[k]+
            (tmp->arch==NULL?0:tmp->arch->clone.x);
-	tmp->y=other_teleporter->y+freearr_y[k]+
+        tmp->y=other_teleporter->y+freearr_y[k]+
            (tmp->arch==NULL?0:tmp->arch->clone.y);
     }
     tmp = insert_ob_in_map(user,other_teleporter->map,NULL,0);
-	  if (tmp && tmp->type == PLAYER)
+          if (tmp && tmp->type == PLAYER)
         {
          map_newmap_cmd(tmp->contr);
           int mnum=0;
@@ -346,6 +355,7 @@ int teleport (object *teleporter, uint8 tele_type, object *user)
         }
     return (tmp == NULL);
 }
+  
 
 void recursive_roll(object *op,int dir,object *pusher) {
   if(!roll_ob(op,dir,pusher)) {
