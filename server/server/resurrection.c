@@ -194,11 +194,6 @@ static int resurrect_player(object *op,char *playername,object *spell)
         return 0;
     }
 
-
-
-       
-
-
      }
 
 
@@ -221,10 +216,10 @@ static int resurrect_player(object *op,char *playername,object *spell)
         sscanf(buf,"%s",buf2);
         if( ! (strcmp(buf2,"exp"))) {
             sscanf(buf,"%s %" FMT64, buf2, &exp);
-            if (spell->stats.exp) {
+            //if (spell->stats.exp) {
      //           exp-=exp/spell->stats.exp;
                 sprintf(buf,"exp %" FMT64 "\n",exp);
-            }
+          //  }
         }
         if(! (strcmp(buf2,"Con"))) {
             sscanf(buf,"%s %d",buf2,&Con);
@@ -253,6 +248,8 @@ static int resurrect_player(object *op,char *playername,object *spell)
                     break;
              }
         }
+
+      pl->ob->stats.hp=pl->ob->stats.maxhp;
 
      insert_ob_in_map (pl->ob, pl->ob->map, op,0);
 

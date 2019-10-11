@@ -669,6 +669,13 @@ void check_login(object *op) {
 	op->x = pl->bed_x, op->y = pl->bed_y;
     }
 
+    // add
+if(settings.wait_res_or_bed == 1)
+    {
+        strcpy(pl->maplevel, pl->savebed_map);
+        op->x = pl->bed_x, op->y = pl->bed_y;
+  }
+
     /* make sure he's a player--needed because of class change. */
     op->type = PLAYER;
 

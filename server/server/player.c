@@ -3021,7 +3021,8 @@ char buf[MAX_BUF];
       // will continue redraw of server to client
 
       // do not delete character
-       op->stats.hp = op->stats.maxhp;
+ //      op->stats.hp = op->stats.maxhp;
+         op->stats.hp = 1;
                 op->stats.food = 999;
 
                 /*  set the location of where the person will reappear when  */
@@ -3039,7 +3040,6 @@ char buf[MAX_BUF];
                 dead_player(op);
                 // the file
 
-          
 
          tmp=arch_to_object(find_archetype("corpse_pl"));
         sprintf(buf,"%s", op->name);
@@ -3052,6 +3052,8 @@ char buf[MAX_BUF];
         tmp->msg = add_string (gravestone_text(op));
         SET_FLAG (tmp, FLAG_UNIQUE);
         insert_ob_in_map (tmp, map, NULL,0);
+
+ //     op->stats.hp=op->stats.maxhp;
 
 	// try
 	remove_ob(op);
