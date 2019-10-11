@@ -1439,6 +1439,147 @@ int command_explore (object *op, char *params)
     return 1;
 }
 
+
+int command_savebed(object *op, char *params)
+{
+  object *tmp;
+  archetype *at;
+  int will_kill_again=0;
+  char oldname[MAX_BUF];
+          char newname[MAX_BUF];
+  char path[MAX_BUF];
+
+
+  if(op->contr->waitforres == 1)
+  {  
+op->contr->waitforres = 0;
+    /* remove any poisoning and confusion the character may be suffering.*/
+        /* restore player */
+        at = find_archetype("poisoning");
+        tmp=present_arch_in_ob(at,op);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
+        }
+
+        at = find_archetype("confusion");
+        tmp=present_arch_in_ob(at,op);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,tmp, "Your mind feels clearer");
+        }
+
+ cure_disease(op,0);  /* remove any disease */
+
+      op->stats.hp = op->stats.maxhp;
+        op->stats.sp = MAX(op->stats.sp,  op->stats.maxsp);
+        op->stats.grace = MAX(op->stats.grace, op->stats.maxgrace);
+
+  for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
+            if (tmp->type == SHOP_FLOOR) {
+                remove_unpaid_objects(op->inv, op);
+                break;
+            }
+        }
+
+
+        /****************************************/
+        /*                                      */
+        /* Move player to his current respawn-  */
+        /* position (usually last savebed)      */
+        /*                                      */
+        /****************************************/
+
+        enter_player_savebed(op);
+
+        /* Save the player before inserting the force to reduce
+         * chance of abuse.
+         */
+        op->contr->braced=0;
+        save_player(op,1);
+
+        /* it is possible that the player has blown something up
+         * at his savebed location, and that can have long lasting
+         * spell effects.  So first see if there is a spell effect
+         * on the space that might harm the player.
+         */
+        will_kill_again=0;
+        for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
+            if (tmp->type ==SPELL_EFFECT)
+                will_kill_again|=tmp->attacktype;
+        }
+        if (will_kill_again) {
+   object *force;
+            int  at;
+
+            force=create_archetype(FORCE_NAME);
+            /* 50 ticks should be enough time for the spell to abate */
+            force->speed=0.1;
+            force->speed_left=-5.0;
+            SET_FLAG(force, FLAG_APPLIED);
+            for (at=0; at<NROFATTACKS; at++) {
+                if (will_kill_again & (1 << at))
+                    force->resist[at] = 100;
+            }
+            insert_ob_in_ob(force, op);
+            fix_player(op);
+
+        }
+          // with waitforres set to 0,
+          // the normal commands should be unlocked
+
+          new_draw_info(NDI_UNIQUE, 0,op, "You retreat from your remains\n");
+
+         // quests, skills, spells should remain with them
+         // party should not be cleared unless they logged out
+
+         // what happens if the client disconnects
+         // but there is a corpse file, and someone tries to raise?
+
+
+          // note that if pl disconnects and does not perish
+         // or quit
+          // and the server does not reset
+           // and the map is not random
+          // they will emerge into the map that they disconnected from
+          // possibly after the map has reset
+
+         // ensure that the thing that other player would have raised, is not available
+          // for allies to mess with
+
+
+         sprintf(path,"%s/%s/%s/%s",settings.localdir,settings.playerdir,op->name,
+          op->name);
+
+    strcpy(newname,path);
+    strcat(newname,".pl");
+
+    strcpy(oldname,newname);
+    strcat(oldname,".dead");
+
+    FILE *deadplayer;
+
+    if( deadplayer=fopen(oldname,"r")) {
+       unlink(oldname);
+    }
+
+         
+
+         
+    }
+    else
+    {
+         new_draw_info(NDI_UNIQUE, 0,op, "You are too restless to go to bed\n");
+
+     }
+      
+
+   return 1;
+}
+
+
 int command_sound (object *op, char *params)
 {
     if (op->contr->socket.sound) {

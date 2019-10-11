@@ -488,7 +488,16 @@ static void load_settings(void)
 		LOG(llevError, "load_settings: Unknown value for not_permadeth"
 		    ": %s\n", cp);
 	    }
-	} else if (!strcasecmp(buf, "resurrection")) {
+	} else if (!strcasecmp(buf, "allow_wait_res_or_bed")) {
+            if (!strcasecmp(cp, "on") || !strcasecmp(cp, "true")) {
+                settings.wait_res_or_bed=TRUE;
+            } else if (!strcasecmp(cp, "off") || !strcasecmp(cp, "false")) {
+                settings.wait_res_or_bed=FALSE;
+            } else {
+                LOG(llevError, "load_settings: Unknown value for wait_res_or_bed"
+                   ": %s\n", cp); 
+	    }
+        } else if (!strcasecmp(buf, "resurrection")) {
 	    if (!strcasecmp(cp, "on") || !strcasecmp(cp, "true")) {
 		settings.resurrection=TRUE;
 	    } else if (!strcasecmp(cp, "off") || !strcasecmp(cp, "false")) {

@@ -2372,7 +2372,7 @@ static int save_life(object *op) {
  * function will descend into containers.  op is the object to start the search
  * from.
  */
-static void remove_unpaid_objects(object *op, object *env)
+void remove_unpaid_objects(object *op, object *env)
 {
     object *next;
 
@@ -2639,7 +2639,10 @@ static void loot_object(object *op) { /* Grab and destroy some treasure */
                 //    free_object(tmp2);
                 //    insert_ob_in_map(tmp,op->map,NULL,0);
               //  } else
-                    free_object(tmp);
+
+	// not sure
+//                    free_object(tmp);
+
             } else
                 insert_ob_in_map(tmp,op->map,NULL,0);
     }
@@ -2653,10 +2656,10 @@ static void loot_object(object *op) { /* Grab and destroy some treasure */
  * file.
  */
 
-/* serpentshard hacked out some or all of the stat loss 10/11/11 */
+/*  hacked out some or all of the stat loss 10/11/11 */
 void kill_player(object *op)
 {
-    char buf[MAX_BUF];
+char buf[MAX_BUF];
     int x,y,i;
     mapstruct *map;  /*  this is for resurrection */
     int z;
@@ -2669,7 +2672,7 @@ void kill_player(object *op)
     object *tmp;
 
     if(save_life(op))
-	return;
+        return;
 
 
     /* If player dies on BATTLEGROUND, no stat/exp loss! For Combat-Arenas
@@ -2677,53 +2680,53 @@ void kill_player(object *op)
      * Look at op_on_battleground() for more info       --AndreasV
      */
     if (op_on_battleground(op, &x, &y)) {
-	new_draw_info(NDI_UNIQUE | NDI_NAVY, 0,op,
-		    "You have been defeated in combat!");
-	new_draw_info(NDI_UNIQUE | NDI_NAVY, 0,op,
-		    "Local medics have saved your life...");
-      
-	/* restore player */
-	at = find_archetype("poisoning");
-        tmp=present_arch_in_ob(at,op);
-	if (tmp) {
-	    remove_ob(tmp);
-	    free_object(tmp);
-	    new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
-	}
+        new_draw_info(NDI_UNIQUE | NDI_NAVY, 0,op,
+                    "You have been defeated in combat!");
+        new_draw_info(NDI_UNIQUE | NDI_NAVY, 0,op,
+                    "Local medics have saved your life...");
 
-	at = find_archetype("confusion");
+        /* restore player */
+        at = find_archetype("poisoning");
         tmp=present_arch_in_ob(at,op);
-	if (tmp) {
-	    remove_ob(tmp);
-	    free_object(tmp);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
+        }
+
+        at = find_archetype("confusion");
+        tmp=present_arch_in_ob(at,op);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
             new_draw_info(NDI_UNIQUE, 0,tmp, "Your mind feels clearer");
-	}
+        }
 
-	cure_disease(op,0);  /* remove any disease */
-	op->stats.hp=op->stats.maxhp;
-	if (op->stats.food<=0) op->stats.food=999;
-      
-	/* create a bodypart-trophy to make the winner happy */
-	tmp=arch_to_object(find_archetype("finger"));
+        cure_disease(op,0);  /* remove any disease */
+        op->stats.hp=op->stats.maxhp;
+        if (op->stats.food<=0) op->stats.food=999;
+
+        /* create a bodypart-trophy to make the winner happy */
+        tmp=arch_to_object(find_archetype("finger"));
         if (tmp != NULL)
         {
-	    sprintf(buf,"%s's finger",op->name);
-	    tmp->name = add_string(buf);
-	    sprintf(buf,"  This finger has been cut off %s\n"
-	            "  the %s, when he was defeated at\n  level %d by %s.\n",
-	        op->name, op->contr->title, (int)(op->level),
-	        op->contr->killer);
-	    tmp->msg=add_string(buf);
-	    tmp->value=0, tmp->material=0, tmp->type=0;
-	    tmp->materialname = NULL;
-	    tmp->x = op->x, tmp->y = op->y;
-	    insert_ob_in_map(tmp,op->map,op,0);
-	}
-      
-	/* teleport defeated player to new destination*/
-	transfer_ob(op, x, y, 0, NULL);
-	op->contr->braced=0;
-	return;
+  sprintf(buf,"%s's finger",op->name);
+            tmp->name = add_string(buf);
+            sprintf(buf,"  This finger has been cut off %s\n"
+                    "  the %s, when he was defeated at\n  level %d by %s.\n",
+                op->name, op->contr->title, (int)(op->level),
+                op->contr->killer);
+            tmp->msg=add_string(buf);
+            tmp->value=0, tmp->material=0, tmp->type=0;
+            tmp->materialname = NULL;
+            tmp->x = op->x, tmp->y = op->y;
+            insert_ob_in_map(tmp,op->map,op,0);
+        }
+
+        /* teleport defeated player to new destination*/
+        transfer_ob(op, x, y, 0, NULL);
+        op->contr->braced=0;
+        return;
     }
 
     /* Lauwenmark: Handle for plugin death event */
@@ -2733,322 +2736,400 @@ void kill_player(object *op)
     /* Lauwenmark: Handle for the global death event */
       /*  execute_global_event(EVENT_PLAYER_DEATH, op); */
     if(op->stats.food<0) {
-	if (op->contr->explore) {
-	    new_draw_info(NDI_UNIQUE, 0,op,"You would have starved, but you are");
-	    new_draw_info(NDI_UNIQUE, 0,op,"in explore mode, so...");
-	    op->stats.food=999;
-	    return;
-	}
-	sprintf(buf,"%s starved to death.",op->name);
-	strcpy(op->contr->killer,"starvation");
+        if (op->contr->explore) {
+            new_draw_info(NDI_UNIQUE, 0,op,"You would have starved, but you are");
+            new_draw_info(NDI_UNIQUE, 0,op,"in explore mode, so...");
+            op->stats.food=999;
+            return;
+        }
+        sprintf(buf,"%s starved to death.",op->name);
+        strcpy(op->contr->killer,"starvation");
     }
     else {
-	if (op->contr->explore) {
-	    new_draw_info(NDI_UNIQUE, 0,op,"You would have died, but you are");
-	    new_draw_info(NDI_UNIQUE, 0,op,"in explore mode, so...");
-	    op->stats.hp=op->stats.maxhp;
-	    return;
-	}
-	sprintf(buf,"%s died.",op->name);
+        if (op->contr->explore) {
+            new_draw_info(NDI_UNIQUE, 0,op,"You would have died, but you are");
+            new_draw_info(NDI_UNIQUE, 0,op,"in explore mode, so...");
+            op->stats.hp=op->stats.maxhp;
+            return;
+        }
+        sprintf(buf,"%s died.",op->name);
     }
-    play_sound_player_only(op->contr, SOUND_PLAYER_DIES,0,0);  
+    play_sound_player_only(op->contr, SOUND_PLAYER_DIES,0,0);
 
     /*  save the map location for corpse, gravestone */
      x=op->x;y=op->y;map=op->map;
 
+ if (settings.not_permadeth == TRUE) {
+        /* NOT_PERMADEATH code.  This basically brings the character back to
+         * life if they are dead - it takes some exp and a random stat.
+         * See the config.h file for a little more in depth detail about this.
+         */
 
-    if (settings.not_permadeth == TRUE) {  
-	/* NOT_PERMADEATH code.  This basically brings the character back to
-	 * life if they are dead - it takes some exp and a random stat.
-	 * See the config.h file for a little more in depth detail about this.
-	 */
+        /* Basically two ways to go - remove a stat permanently, or just
+         * make it depletion.  This bunch of code deals with that aspect
+         * of death.
+         */
 
-	/* Basically two ways to go - remove a stat permanently, or just
-	 * make it depletion.  This bunch of code deals with that aspect
-	 * of death.
-	 */
+    if(settings.wait_res_or_bed == FALSE) {
 
-/*	if (settings.balanced_stat_loss) {  */
-	    /* If stat loss is permanent, lose one stat only. */
-	    /* Lower level chars don't lose as many stats because they suffer
-	       more if they do. */
-	    /* Higher level characters can afford things such as potions of
-	       restoration, or better, stat potions. So we slug them that
-	       little bit harder. */
-	    /* GD */
-/*	    if (settings.stat_loss_on_death)
-		num_stats_lose = 1;
-	    else
-		num_stats_lose = 1 + op->level/BALSL_NUMBER_LOSSES_RATIO;
-	} else {
-	    num_stats_lose = 1;
-	}
-	lost_a_stat = 0;
+/*      if (settings.balanced_stat_loss) {  */
+            /* If stat loss is permanent, lose one stat only. */
+            /* Lower level chars don't lose as many stats because they suffer
+               more if they do. */
+            /* Higher level characters can afford things such as potions of
+               restoration, or better, stat potions. So we slug them that
+               little bit harder. */
+            /* GD */
+/*          if (settings.stat_loss_on_death)
+                num_stats_lose = 1;
+            else
+                num_stats_lose = 1 + op->level/BALSL_NUMBER_LOSSES_RATIO;
+        } else {
+            num_stats_lose = 1;
+        }
+        lost_a_stat = 0;
 
-	for (z=0; z<num_stats_lose; z++) {
-	    if (settings.stat_loss_on_death) {  */
-		/* Pick a random stat and take a point off it.  Tell the player
-		 * what he lost.
-		 */
-/*		i = RANDOM() % 7; 
-		change_attr_value(&(op->stats), i,-1);
-		check_stat_bounds(&(op->stats));
-		change_attr_value(&(op->contr->orig_stats), i,-1);
-		check_stat_bounds(&(op->contr->orig_stats));
-		new_draw_info(NDI_UNIQUE, 0,op, lose_msg[i]);
-		lost_a_stat = 1;
-	    } else {  */
-		/* deplete a stat */
-/*		archetype *deparch=find_archetype("depletion");
-		object *dep;
-            
-		i = RANDOM() % 7;
-		dep = present_arch_in_ob(deparch,op);
-		if(!dep) {
-		    dep = arch_to_object(deparch);
-		    insert_ob_in_ob(dep, op);
-		}
-		lose_this_stat = 1;
-		if (settings.balanced_stat_loss) {  */
-		    /* GD */
-		    /* Get the stat that we're about to deplete. */
-		   /*  this_stat = get_attr_value(&(dep->stats), i);
-		    if (this_stat < 0) {
-			int loss_chance = 1 + op->level/BALSL_LOSS_CHANCE_RATIO;
-			int keep_chance = this_stat * this_stat;  */
-			/* Yes, I am paranoid. Sue me. */
-	/*		if (keep_chance < 1)
-			    keep_chance = 1;  */
+        for (z=0; z<num_stats_lose; z++) {
+            if (settings.stat_loss_on_death) {  */
+                /* Pick a random stat and take a point off it.  Tell the player
+                 * what he lost.
+                 */
+/*              i = RANDOM() % 7;
+                change_attr_value(&(op->stats), i,-1);
+                check_stat_bounds(&(op->stats));
+                change_attr_value(&(op->contr->orig_stats), i,-1);
+                check_stat_bounds(&(op->contr->orig_stats));
+                new_draw_info(NDI_UNIQUE, 0,op, lose_msg[i]);
+                lost_a_stat = 1;
+            } else {  */
+                /* deplete a stat */
+/*              archetype *deparch=find_archetype("depletion");
+                object *dep;
 
-			/* There is a maximum depletion total per level. */
-			/* if (this_stat < -1 - op->level/BALSL_MAX_LOSS_RATIO) {
-			    lose_this_stat = 0;  */
-			    /* Take loss chance vs keep chance to see if we 
-			       retain the stat. */
-		/*	} else {
-			    if (random_roll(0, loss_chance + keep_chance-1,
-				op, PREFER_LOW) < keep_chance)
-				lose_this_stat = 0;  */
-			    /* LOG(llevDebug, "Determining stat loss. Stat: %d Keep: %d Lose: %d Result: %s.\n",
-			       this_stat, keep_chance, loss_chance,
-			       lose_this_stat?"LOSE":"KEEP"); */
-			/* }
-		    }
-		}
-            
-		if (lose_this_stat) {
-		    this_stat = get_attr_value(&(dep->stats), i); */
-		    /* We could try to do something clever like find another
-		     * stat to reduce if this fails.  But chances are, if
-		     * stats have been depleted to -50, all are pretty low
-		     * and should be roughly the same, so it shouldn't make a
-		     * difference.
-		     */
-	/*	    if (this_stat>=-50) {
-			change_attr_value(&(dep->stats), i, -1);
-			SET_FLAG(dep, FLAG_APPLIED);
-			new_draw_info(NDI_UNIQUE, 0,op, lose_msg[i]);
-			fix_player(op);
-			lost_a_stat = 1;
-		    }
-		}
-	    }
-	}  */
-	/* If no stat lost, tell the player. */
-/*	if (!lost_a_stat)
-	    {   */
-		/* determine_god() seems to not work sometimes... why is this?
-		   Should I be using something else? GD */
-/*		const char *god = determine_god(op);
-		if (god && (strcmp(god, "none")))
-		    new_draw_info_format(NDI_UNIQUE, 0, op, "For a brief "
-			"moment you feel the holy presence of %s protecting"
-			" you.", god);
-		else
-		    new_draw_info(NDI_UNIQUE, 0, op, "For a brief moment you"
-			" feel a holy presence protecting you.");
-	    } */
+                i = RANDOM() % 7;
+                dep = present_arch_in_ob(deparch,op);
+                if(!dep) {
+                    dep = arch_to_object(deparch);
+                    insert_ob_in_ob(dep, op);
+                }
+ lose_this_stat = 1;
+                if (settings.balanced_stat_loss) {  */
+                    /* GD */
+                    /* Get the stat that we're about to deplete. */
+                   /*  this_stat = get_attr_value(&(dep->stats), i);
+                    if (this_stat < 0) {
+                        int loss_chance = 1 + op->level/BALSL_LOSS_CHANCE_RATIO;
+                        int keep_chance = this_stat * this_stat;  */
+                        /* Yes, I am paranoid. Sue me. */
+        /*              if (keep_chance < 1)
+                            keep_chance = 1;  */
 
-	/* Put a gravestone up where the character 'almost' died.  List the
-	 * exp loss on the stone.
-	 */
-	tmp=arch_to_object(find_archetype("gravestone"));
-	sprintf(buf,"%s's gravestone",op->name);
-	FREE_AND_COPY(tmp->name, buf);
-	sprintf(buf,"%s's gravestones",op->name);
-	FREE_AND_COPY(tmp->name_pl, buf);
-	sprintf(buf,"RIP\nHere rests the hero %s the %s,\n"
-	        "who was killed\n"
-	        "by %s.\n",
-	        op->name, op->contr->title,
-	        op->contr->killer);
-	tmp->msg = add_string(buf);
-	tmp->x=op->x,tmp->y=op->y;
-	insert_ob_in_map (tmp, op->map, NULL,0);
+                        /* There is a maximum depletion total per level. */
+                        /* if (this_stat < -1 - op->level/BALSL_MAX_LOSS_RATIO) {
+                            lose_this_stat = 0;  */
+                            /* Take loss chance vs keep chance to see if we
+                               retain the stat. */
+                /*      } else {
+                            if (random_roll(0, loss_chance + keep_chance-1,
+                                op, PREFER_LOW) < keep_chance)
+                                lose_this_stat = 0;  */
+                            /* LOG(llevDebug, "Determining stat loss. Stat: %d Keep: %d Lose: %d Result: %s.\n",
+                               this_stat, keep_chance, loss_chance,
+                               lose_this_stat?"LOSE":"KEEP"); */
+                        /* }
+                    }
+                }
 
-	/**************************************/
-	/*                                    */
-	/* Subtract the experience points,    */
-	/* if we died cause of food, give us  */
-	/* food, and reset HP's...            */
-	/*                                    */
-	/**************************************/
+                if (lose_this_stat) {
+                    this_stat = get_attr_value(&(dep->stats), i); */
+                    /* We could try to do something clever like find another
+                     * stat to reduce if this fails.  But chances are, if
+                     * stats have been depleted to -50, all are pretty low
+                     * and should be roughly the same, so it shouldn't make a
+                     * difference.
+                     */
+        /*          if (this_stat>=-50) {
+                        change_attr_value(&(dep->stats), i, -1);
+                        SET_FLAG(dep, FLAG_APPLIED);
+                        new_draw_info(NDI_UNIQUE, 0,op, lose_msg[i]);
+                        fix_player(op);
+                        lost_a_stat = 1;
+                    }
+                }
+            }
+        }  */
+        /* If no stat lost, tell the player. */
+/*      if (!lost_a_stat)
+            {   */
+                /* determine_god() seems to not work sometimes... why is this?
+                   Should I be using something else? GD */
+/*              const char *god = determine_god(op);
+                if (god && (strcmp(god, "none")))
+                    new_draw_info_format(NDI_UNIQUE, 0, op, "For a brief "
+                        "moment you feel the holy presence of %s protecting"
+                        " you.", god);
+                else
+                    new_draw_info(NDI_UNIQUE, 0, op, "For a brief moment you"
+                        " feel a holy presence protecting you.");
+            } */
 
-	/* remove any poisoning and confusion the character may be suffering.*/
-	/* restore player */
-	at = find_archetype("poisoning");
+        /* Put a gravestone up where the character 'almost' died.  List the
+         * exp loss on the stone.
+         */
+        tmp=arch_to_object(find_archetype("gravestone"));
+        sprintf(buf,"%s's gravestone",op->name);
+        FREE_AND_COPY(tmp->name, buf);
+        sprintf(buf,"%s's gravestones",op->name);
+        FREE_AND_COPY(tmp->name_pl, buf);
+        sprintf(buf,"RIP\nHere rests the hero %s the %s,\n"
+                "who was killed\n"
+                "by %s.\n",
+                op->name, op->contr->title,
+                op->contr->killer);
+        tmp->msg = add_string(buf);
+        tmp->x=op->x,tmp->y=op->y;
+        insert_ob_in_map (tmp, op->map, NULL,0);
+
+        /**************************************/
+        /*                                    */
+        /* Subtract the experience points,    */
+        /* if we died cause of food, give us  */
+        /* food, and reset HP's...            */
+        /*                                    */
+        /**************************************/
+
+        /* remove any poisoning and confusion the character may be suffering.*/
+        /* restore player */
+        at = find_archetype("poisoning");
         tmp=present_arch_in_ob(at,op);
-	if (tmp) {
-	    remove_ob(tmp);
-	    free_object(tmp);
-	    new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
-	}
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
+        }
 
-	at = find_archetype("confusion");
+        at = find_archetype("confusion");
         tmp=present_arch_in_ob(at,op);
-	if (tmp) {
-	    remove_ob(tmp);
-	    free_object(tmp);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
             new_draw_info(NDI_UNIQUE, 0,tmp, "Your mind feels clearer");
-	}
-	cure_disease(op,0);  /* remove any disease */
-	
-	/*add_exp(op, (op->stats.exp * -0.20)); */
-	apply_death_exp_penalty(op);
-	if(op->stats.food < 100) op->stats.food = 900;
-	op->stats.hp = op->stats.maxhp;
-	op->stats.sp = MAX(op->stats.sp,  op->stats.maxsp);
-	op->stats.grace = MAX(op->stats.grace, op->stats.maxgrace);
+        }
 
-	/*
-	 * Check to see if the player is in a shop. IF so, then check to see if
-	 * the player has any unpaid items.  If so, remove them and put them back
-	 * in the map.
-	 */
+ cure_disease(op,0);  /* remove any disease */
 
-	for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
-	    if (tmp->type == SHOP_FLOOR) {
-		remove_unpaid_objects(op->inv, op);
-		break;
-	    }
-	}
+        /*add_exp(op, (op->stats.exp * -0.20)); */
+    //    apply_death_exp_penalty(op);
+        if(op->stats.food < 100) op->stats.food = 900;
+        op->stats.hp = op->stats.maxhp;
+        op->stats.sp = MAX(op->stats.sp,  op->stats.maxsp);
+        op->stats.grace = MAX(op->stats.grace, op->stats.maxgrace);
+
+        /*
+         * Check to see if the player is in a shop. IF so, then check to see if
+         * the player has any unpaid items.  If so, remove them and put them back
+         * in the map.
+         */
+
+        for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
+            if (tmp->type == SHOP_FLOOR) {
+                remove_unpaid_objects(op->inv, op);
+                break;
+            }
+        }
+
+
+        /****************************************/
+        /*                                      */
+        /* Move player to his current respawn-  */
+        /* position (usually last savebed)      */
+        /*                                      */
+        /****************************************/
+
+        enter_player_savebed(op);
+
+        /* Save the player before inserting the force to reduce
+         * chance of abuse.
+         */
+        op->contr->braced=0;
+        save_player(op,1);
+
+        /* it is possible that the player has blown something up
+         * at his savebed location, and that can have long lasting
+         * spell effects.  So first see if there is a spell effect
+         * on the space that might harm the player.
+         */
+        will_kill_again=0;
+        for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
+            if (tmp->type ==SPELL_EFFECT)
+                will_kill_again|=tmp->attacktype;
+        }
+        if (will_kill_again) {
+   object *force;
+            int  at;
+
+            force=create_archetype(FORCE_NAME);
+            /* 50 ticks should be enough time for the spell to abate */
+            force->speed=0.1;
+            force->speed_left=-5.0;
+            SET_FLAG(force, FLAG_APPLIED);
+            for (at=0; at<NROFATTACKS; at++) {
+                if (will_kill_again & (1 << at))
+                    force->resist[at] = 100;
+            }
+            insert_ob_in_ob(force, op);
+            fix_player(op);
+
+        }
+        /**************************************/
+        /*                                    */
+        /* Repaint the characters inv, and    */
+        /* stats, and show a nasty message ;) */
+        /*                                    */
+        /**************************************/
+
+        new_draw_info(NDI_UNIQUE, 0,op,"YOU HAVE DIED.");
+        return;
+
+       } // wait_res_or_bed false
+       else
+       {
+  
+        // new code, leave a corpse and loot
+        // and give pl the option to go to savebed
+
+        // do not drop quests or skills or spells
+        // this is already accounted for by loot_player
+
+        
+       op->contr->waitforres = 1;
+
+       loot_object(op); 
+
+       esrv_send_inventory(op,op);
+       fix_player(op);
+
+      // during this mode
+      // which does not cause pl to leave ST_PLAYING
+      // but requires filtering of player commands
+
+      // to only permit them to go to savebed or wait
+      // or to disconnect
+      // and does not permit movement
  
+      // but unlike permadeth
+      // will continue redraw of server to client
 
-	/****************************************/
-	/*                                      */
-	/* Move player to his current respawn-  */
-	/* position (usually last savebed)      */
-	/*                                      */
-	/****************************************/
+      // do not delete character
+       op->stats.hp = op->stats.maxhp;
+                op->stats.food = 999;
 
-	enter_player_savebed(op);
+                /*  set the location of where the person will reappear when  */
+                /* maybe resurrection code should fix map also */
+                strcpy(op->contr->maplevel, settings.emergency_mapname);
+        //        if(op->map!=NULL)
+         //           op->map = NULL;
+          //      op->x = settings.emergency_x;
+           //     op->y = settings.emergency_y;
 
-	/* Save the player before inserting the force to reduce
-	 * chance of abuse.
-	 */
-	op->contr->braced=0;
-	save_player(op,1);
+                save_player(op,1);
 
-	/* it is possible that the player has blown something up
-	 * at his savebed location, and that can have long lasting
-	 * spell effects.  So first see if there is a spell effect
-	 * on the space that might harm the player.
-	 */
-	will_kill_again=0;
-	for (tmp= get_map_ob(op->map, op->x, op->y); tmp; tmp=tmp->above) {
-	    if (tmp->type ==SPELL_EFFECT)
-		will_kill_again|=tmp->attacktype;
-	}
-	if (will_kill_again) {
-	    object *force;
-	    int  at;
+            //    op->map = map;
+                /* please see resurrection.c: peterm */
+                dead_player(op);
+                // the file
 
-	    force=create_archetype(FORCE_NAME);
-	    /* 50 ticks should be enough time for the spell to abate */
-	    force->speed=0.1;
-	    force->speed_left=-5.0;
-	    SET_FLAG(force, FLAG_APPLIED);
-	    for (at=0; at<NROFATTACKS; at++) {
-		if (will_kill_again & (1 << at))
-		    force->resist[at] = 100;
-	    }
-	    insert_ob_in_ob(force, op);
-	    fix_player(op);
-	    
-	}
-	/**************************************/
-	/*                                    */
-	/* Repaint the characters inv, and    */
-	/* stats, and show a nasty message ;) */
-	/*                                    */
-	/**************************************/
+          
 
-	new_draw_info(NDI_UNIQUE, 0,op,"YOU HAVE DIED.");
-	return;
+         tmp=arch_to_object(find_archetype("corpse_pl"));
+        sprintf(buf,"%s", op->name);
+        FREE_AND_COPY(tmp->name, buf);
+        FREE_AND_COPY(tmp->name_pl, buf);
+        tmp->level=op->level;
+        tmp->x=x;tmp->y=y;
+        if (tmp->msg)
+            free_string(tmp->msg);
+        tmp->msg = add_string (gravestone_text(op));
+        SET_FLAG (tmp, FLAG_UNIQUE);
+        insert_ob_in_map (tmp, map, NULL,0);
+
+	// try
+	remove_ob(op);
+
+      // do not stuck the server, do other stuff while wait for client events
+
+  new_draw_info(NDI_UNIQUE, 0,op,"YOU HAVE DIED.");
+
+
+   new_draw_info( NDI_UNIQUE, 0, op, "If you do not want to wait for someone to resurrect," );
+   new_draw_info( NDI_UNIQUE, 0, op, "Then type go_savebed" );  
+        return;
+       }
     } /* NOT_PERMADETH */
     else {
-	/* If NOT_PERMADETH is set, then the rest of this is not reachable.  This
-	 * should probably be embedded in an else statement.
-	 */
+        /* If NOT_PERMADETH is set, then the rest of this is not reachable.  This
+         * should probably be embedded in an else statement.
+         */
 
-	op->contr->party=NULL;
-	if (settings.set_title == TRUE)
-	    op->contr->own_title[0]='\0';
-	new_draw_info(NDI_UNIQUE|NDI_ALL, 0,NULL, buf);
-	check_score(op);
-	if(op->contr->ranges[range_golem]!=NULL) {
-	    remove_friendly_object(op->contr->ranges[range_golem]);
-	    remove_ob(op->contr->ranges[range_golem]);
-	    free_object(op->contr->ranges[range_golem]);
-	    op->contr->ranges[range_golem]=NULL;
-	    op->contr->golem_count=0;
-	}
-	loot_object(op); /* Remove some of the items for good */
-	remove_ob(op);
-	op->direction=0;
+        op->contr->party=NULL;
+        if (settings.set_title == TRUE)
+            op->contr->own_title[0]='\0';
+        new_draw_info(NDI_UNIQUE|NDI_ALL, 0,NULL, buf);
+        check_score(op);
+        if(op->contr->ranges[range_golem]!=NULL) {
+            remove_friendly_object(op->contr->ranges[range_golem]);
+            remove_ob(op->contr->ranges[range_golem]);
+            free_object(op->contr->ranges[range_golem]);
+            op->contr->ranges[range_golem]=NULL;
+            op->contr->golem_count=0;
+        }
+        loot_object(op); 
+        remove_ob(op);
+        op->direction=0;
 
-	if(!QUERY_FLAG(op,FLAG_WAS_WIZ)&&op->stats.exp) {
-	    delete_character(op->name,0);
-	    if (settings.resurrection == TRUE) {
-		/* save playerfile sans equipment when player dies
-		 ** then save it as player.pl.dead so that future resurrection
-		 ** type spells will work on them nicely
-		 */
-		delete_character(op->name,0);
-		op->stats.hp = op->stats.maxhp;
-		op->stats.food = 999;
+        if(!QUERY_FLAG(op,FLAG_WAS_WIZ)&&op->stats.exp) {
+            delete_character(op->name,0);
+            if (settings.resurrection == TRUE) {
+                /* save playerfile sans equipment when player dies
+                 ** then save it as player.pl.dead so that future resurrection
+                 ** type spells will work on them nicely
+                 */
+                delete_character(op->name,0);
+                op->stats.hp = op->stats.maxhp;
+                op->stats.food = 999;
 
-		/*  set the location of where the person will reappear when  */
-		/* maybe resurrection code should fix map also */
-		strcpy(op->contr->maplevel, settings.emergency_mapname);
-		if(op->map!=NULL)
-		    op->map = NULL;
-		op->x = settings.emergency_x;
-		op->y = settings.emergency_y;
-		save_player(op,0);
-		op->map = map;
-		/* please see resurrection.c: peterm */
-		dead_player(op);
-	    } else {
-		delete_character(op->name,1);
-	    }
-	}
-	play_again(op);
+                /*  set the location of where the person will reappear when  */
+                /* maybe resurrection code should fix map also */
+                strcpy(op->contr->maplevel, settings.emergency_mapname);
+                if(op->map!=NULL)
+                    op->map = NULL;
+                op->x = settings.emergency_x;
+                op->y = settings.emergency_y;
+                save_player(op,0);
+                op->map = map;
+                /* please see resurrection.c: peterm */
+                dead_player(op);
+            } else {
+                delete_character(op->name,1);
+            }
+        }
+        play_again(op);
 
-	/*  peterm:  added to create a corpse at deathsite.  */
-	tmp=arch_to_object(find_archetype("corpse_pl"));
-	sprintf(buf,"%s", op->name);
-	FREE_AND_COPY(tmp->name, buf);
-	FREE_AND_COPY(tmp->name_pl, buf);
-	tmp->level=op->level;
-	tmp->x=x;tmp->y=y;
-	if (tmp->msg)
-	    free_string(tmp->msg);
-	tmp->msg = add_string (gravestone_text(op));
-	SET_FLAG (tmp, FLAG_UNIQUE);
-	insert_ob_in_map (tmp, map, NULL,0);
+        /*  peterm:  added to create a corpse at deathsite.  */
+        tmp=arch_to_object(find_archetype("corpse_pl"));
+        sprintf(buf,"%s", op->name);
+        FREE_AND_COPY(tmp->name, buf);
+        FREE_AND_COPY(tmp->name_pl, buf);
+        tmp->level=op->level;
+        tmp->x=x;tmp->y=y;
+        if (tmp->msg)
+            free_string(tmp->msg);
+        tmp->msg = add_string (gravestone_text(op));
+        SET_FLAG (tmp, FLAG_UNIQUE);
+        insert_ob_in_map (tmp, map, NULL,0);
     }
 }
+
 
 /**
  * fix_weight(): Check recursively the weight of all players, and fix

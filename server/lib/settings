@@ -94,14 +94,21 @@ who_wiz_format %N %T%t%h%d%b%nLevel %l [%m](@%i)(%c)
 # adventuring right at the edge of death something more reasonable to do
 # (death still hurts here).  On the other hand, it certainly makes the
 # game a bit safer and easier.
-# not_permadeth true
+not_permadeth true
+
+# new option that does not have permadeth
+# but does cause loot drops
+# and permits a choice of waiting for another player to resurrect
+# or going to savebed
+allow_wait_res_or_bed true
+
 
 # define resurrection if you want to let players bring other players
 # back to life via some spells.  If resurrection is undefined, then a
 # death is permanent.  NOTE: resurrection (either defined or undefined)
 # has no meaning if not_permadeth is true.
 
-resurrection false
+resurrection true
 
 # set the following if you wish to allow players to set their title
 # and to save it on the disk.  There really isn't much reason not

@@ -49,6 +49,7 @@ static int resurrection_fails(int levelcaster,int leveldead);
 /*  name of the person to resurrect and which spell was used
  * to resurrect  
  */
+
 static int resurrect_player(object *op,char *playername,object *spell)
 {
     FILE *deadplayer,*liveplayer;
@@ -62,31 +63,38 @@ static int resurrect_player(object *op,char *playername,object *spell)
     sint64 exp;
     int Con;
 
+    player *pl;
+    int user_is_online = 0;
+
+    if(settings.wait_res_or_bed == 0)
+    {
 
     /* reincarnation, which changes the race */
     if (spell->race) {
-	treasurelist *tl = find_treasurelist(spell->race);
-	treasure *t;
-	int value;
-	if (!tl) {
-	    LOG(llevError,"resurrect_player: race set to %s, but no treasurelist of that name!\n", spell->race);
-	    return 0;
-	}
-	value = RANDOM() % tl->total_chance;
-	for (t=tl->items; t; t=t->next) {
-	    value -= t->chance;
-	    if (value<0) break;
-	}
-	if (!t) {
-	    LOG(llevError,"resurrect_player: got null treasure from treasurelist %s!\n", spell->race);
-	    return 0;
-	}
-	race = t->item->name;
+        treasurelist *tl = find_treasurelist(spell->race);
+        treasure *t;
+        int value;
+        if (!tl) {
+            LOG(llevError,"resurrect_player: race set to %s, but no treasurelist of that name!\n", spell->race);
+            return 0;
+        }
+        value = RANDOM() % tl->total_chance;
+        for (t=tl->items; t; t=t->next) {
+            value -= t->chance;
+            if (value<0) break;
+        }
+        if (!t) {
+            LOG(llevError,"resurrect_player: got null treasure from treasurelist %s!\n", spell->race);
+            return 0;
+        }
+        race = t->item->name;
+    }
+
     }
 
     /*  set up our paths/strings...  */
     sprintf(path,"%s/%s/%s/%s",settings.localdir,settings.playerdir,playername,
-	  playername);
+          playername);
 
     strcpy(newname,path);
     strcat(newname,".pl");
@@ -95,55 +103,128 @@ static int resurrect_player(object *op,char *playername,object *spell)
     strcat(oldname,".dead");
 
     if(! (deadplayer=fopen(oldname,"r"))) {
-	new_draw_info_format(NDI_UNIQUE, 0, op,
-	     "The soul of %s cannot be reached.",playername);
-	return 0;
+        new_draw_info_format(NDI_UNIQUE, 0, op,
+             "The soul of %s cannot be reached.",playername);
+        return 0;
     }
 
+    if(settings.wait_res_or_bed == 0)
+    {
+
     if(!access(newname,0)) {
-	new_draw_info_format(NDI_UNIQUE, 0, op,
-	     "The soul of %s has already been reborn!",playername);
-	fclose(deadplayer);
-	return 0;
+
+      // on success 0 is returned
+
+        new_draw_info_format(NDI_UNIQUE, 0, op,
+             "The soul of %s has already been reborn!",playername);
+        fclose(deadplayer);
+        return 0;
     }
 
     if(! (liveplayer=fopen(newname,"w"))) {
-	new_draw_info_format(NDI_UNIQUE, 0, op,
-		"The soul of %s cannot be re-embodied at the moment.",playername);
-	LOG(llevError,"Cannot write player in resurrect_player!\n");
-	fclose(deadplayer);
-	return 0;
+        new_draw_info_format(NDI_UNIQUE, 0, op,
+                "The soul of %s cannot be re-embodied at the moment.",playername);
+        LOG(llevError,"Cannot write player in resurrect_player!\n");
+        fclose(deadplayer);
+        return 0;
     }
 
+    }
+    else
+    {
+     // the target often has both the player file
+      // and the player.dead file
+      
+        // however there are cases of the pl being online or not
+       // but being online doesnt usually prevent write
+
+        // how to you tell if ST_PLAYING in the old system?
+
+       // note that op is caster
+  
+        for(pl=first_player; pl!=NULL;pl=pl->next)
+        {
+             if(!strcmp(pl->ob->name,playername))
+             {
+                    printf("found live player online\n");
+                    user_is_online = 1;
+                    break;
+             }
+        }
+
+        if(pl)
+        {
+              if(pl->waitforres == 0)
+              {
+                   new_draw_info_format(NDI_UNIQUE, 0, op,
+                "The person %s is already alive",playername);
+                     fclose(deadplayer);
+        return 0;
+
+              }
+              else
+              {
+                     printf("user %s probably wants res\n", playername);
+                   // online and waiting for res probably wants res
+
+                    // however might want to check for damage objects
+
+                    // offline  probably wants res
+              }
+
+
+        }
+
+
+       
+
+
+     }
+
     while (!feof(deadplayer)) {
-	fgets(buf,255,deadplayer);
-	sscanf(buf,"%s",buf2);
-	if( ! (strcmp(buf2,"exp"))) {
-	    sscanf(buf,"%s %" FMT64, buf2, &exp);
-	    if (spell->stats.exp) {
-		exp-=exp/spell->stats.exp;
-		sprintf(buf,"exp %" FMT64 "\n",exp);
-	    }
-	}
-	if(! (strcmp(buf2,"Con"))) {
-	    sscanf(buf,"%s %d",buf2,&Con);
-	    Con -= spell->stats.Con;
-	    if (Con < 1) Con = 1;
-	    sprintf(buf,"Con %d\n",Con);
-	}
-	if(race && !strcmp(buf2,"race")) {
-	    sprintf(buf,"race %s\n",race);
-	}
-	fputs(buf,liveplayer);
+        fgets(buf,255,deadplayer);
+        sscanf(buf,"%s",buf2);
+        if( ! (strcmp(buf2,"exp"))) {
+            sscanf(buf,"%s %" FMT64, buf2, &exp);
+            if (spell->stats.exp) {
+     //           exp-=exp/spell->stats.exp;
+                sprintf(buf,"exp %" FMT64 "\n",exp);
+            }
+        }
+        if(! (strcmp(buf2,"Con"))) {
+            sscanf(buf,"%s %d",buf2,&Con);
+      //      Con -= spell->stats.Con;
+            if (Con < 1) Con = 1;
+            sprintf(buf,"Con %d\n",Con);
+        }
+        if(race && !strcmp(buf2,"race")) {
+            sprintf(buf,"race %s\n",race);
+        }
+        fputs(buf,liveplayer);
     }
     fclose(liveplayer);
     fclose(deadplayer);
     unlink(oldname);
     new_draw_info_format(NDI_UNIQUE, 0, op,
-	"%s lives again!",playername);
+        "%s lives again!",playername);
+
+
+ for(pl=first_player; pl!=NULL;pl=pl->next)
+        {
+             if(!strcmp(pl->ob->name,playername))
+             {
+                    printf("found live player, unlock their commands \n");
+                    pl->waitforres = 0;
+                    break;
+             }
+        }
 
     return 1;
-}
+
+  
+        
+
+    }
 
 
 /* raise_dead by peterm and mehlhaff@soda.berkeley.edu

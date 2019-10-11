@@ -74,6 +74,7 @@ command_array_struct Commands[] = {
   {"explore", command_explore,  0.0},
   {"fix_me", command_fix_me,	0.0},
   {"get", command_take,		1.0},
+  {"go_savebed", command_savebed, 0.0},
   {"help", command_help,	0.0},
   {"hiscore", command_hiscore,	0.0},
   {"inventory", command_inventory,0.0},

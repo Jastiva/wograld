@@ -343,6 +343,7 @@ typedef struct Settings {
     uint8   death_penalty_level; /* how many levels worth of exp may be lost on one death */
     uint8   balanced_stat_loss; /* If true, Death stat depletion based on level etc */
     uint8   not_permadeth;  /* if true, death is non-permament */
+    uint8   wait_res_or_bed;  /* new feature, instead of res OR savebed, permit both */
     uint8   simple_exp;	    /* If true, use the simple experience system */
     int	    reset_loc_time; /* Number of seconds to put player back at home */
     uint8   set_title;	    /* players can set thier title */
