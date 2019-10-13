@@ -3006,6 +3006,26 @@ char buf[MAX_BUF];
 
        loot_object(op); 
 
+        /* restore player */
+        at = find_archetype("poisoning");
+        tmp=present_arch_in_ob(at,op);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,op, "Your body feels cleansed");
+        }
+
+        at = find_archetype("confusion");
+        tmp=present_arch_in_ob(at,op);
+        if (tmp) {
+            remove_ob(tmp);
+            free_object(tmp);
+            new_draw_info(NDI_UNIQUE, 0,tmp, "Your mind feels clearer");
+        }
+
+        cure_disease(op,0);  /* remove any disease */
+
+
        esrv_send_inventory(op,op);
        fix_player(op);
 

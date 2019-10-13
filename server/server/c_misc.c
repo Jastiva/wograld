@@ -1455,6 +1455,8 @@ int command_savebed(object *op, char *params)
 op->contr->waitforres = 0;
     /* remove any poisoning and confusion the character may be suffering.*/
         /* restore player */
+
+/*
         at = find_archetype("poisoning");
         tmp=present_arch_in_ob(at,op);
         if (tmp) {
@@ -1471,7 +1473,9 @@ op->contr->waitforres = 0;
             new_draw_info(NDI_UNIQUE, 0,tmp, "Your mind feels clearer");
         }
 
- cure_disease(op,0);  /* remove any disease */
+ cure_disease(op,0); 
+*/
+ /* remove any disease */
 
       op->stats.hp = op->stats.maxhp;
         op->stats.sp = MAX(op->stats.sp,  op->stats.maxsp);
