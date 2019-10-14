@@ -5,11 +5,18 @@ randomitems stonegiant_poor
 monster 1
 sleep 1
 Wis 10
-face stonegiant.x11
+face stonegiant.151
 magicmap grey
 anim
-stonegiant.x11
-stonegiant.x12
+stonegiant.111
+stonegiant.112
+stonegiant.131
+stonegiant.132
+stonegiant.151
+stonegiant.152
+stonegiant.171
+stonegiant.172
+facings 4
 mina
 resist_electricity 100
 resist_fire 100
@@ -45,21 +52,6 @@ editable 1
 body_skill 1
 body_arm 2
 end
-More
-Object stonegiant_2
-name stone giant
-face stonegiant.x11
-magicmap grey
-anim
-stonegiant.x11
-stonegiant.x12
-mina
-monster 1
-alive 1
-no_pick 1
-y 1
-weight 300000
-end
 
 
 Object stonegiant_onetile
@@ -72,8 +64,15 @@ Wis 10
 face stonegiant.x11
 magicmap grey
 anim
-stonegiant.x11
-stonegiant.x12
+stonegiant.111
+stonegiant.112
+stonegiant.131
+stonegiant.132
+stonegiant.151
+stonegiant.152
+stonegiant.171
+stonegiant.172
+facings 4
 mina
 resist_electricity 100
 resist_fire 100

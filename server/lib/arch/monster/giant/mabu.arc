@@ -5,13 +5,18 @@ randomitems giant
 monster 1
 sleep 1
 Wis 10
-face mabu.x11
+face mabu.151
 color_fg brown
 anim
-mabu.x11
-mabu.x12
-mabu.x13
-mabu.x12
+mabu.111
+mabu.112
+mabu.131
+mabu.132
+mabu.151
+mabu.152
+mabu.171
+mabu.172
+facings 4
 mina
 resist_electricity 50
 exp 1500
@@ -35,21 +40,4 @@ can_use_skill 1
 editable 1
 body_skill 1
 body_arm 2
-end
-More
-Object mabu_2
-name mabu suke
-face mabu.x11
-color_fg brown
-anim
-mabu.x11
-mabu.x12
-mabu.x13
-mabu.x12
-mina
-monster 1
-alive 1
-no_pick 1
-y 1
-weight 300000
 end

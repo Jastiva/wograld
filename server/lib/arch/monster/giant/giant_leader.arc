@@ -6,7 +6,7 @@ monster 1
 move_type walk
 sleep 1
 Wis 10
-face giant_leader.x11
+face giant_leader.151
 animation giant_leader
 resist_physical 30
 resist_electricity 50
@@ -32,16 +32,4 @@ can_use_skill 1
 will_apply 12
 body_skill 1
 body_arm 2
-end
-More
-Object giant_leader_2
-name giant champion
-face giant_leader.x11
-animation giant_leader
-monster 1
-move_type walk
-alive 1
-no_pick 1
-y 1
-weight 300000
 end

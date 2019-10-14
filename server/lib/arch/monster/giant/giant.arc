@@ -5,11 +5,18 @@ randomitems giant
 monster 1
 sleep 1
 Wis 10
-face giant.x11
+face giant.151
 color_fg brown
 anim
-giant.x11
-giant.x12
+giant.111
+giant.112
+giant.131
+giant.132
+giant.151
+giant.152
+giant.171
+giant.172
+facings 4
 mina
 resist_electricity 50
 resist_blind -30
@@ -34,19 +41,4 @@ can_use_skill 1
 editable 1
 body_skill 1
 body_arm 2
-end
-More
-Object giant_2
-name hill giant
-face giant.x11
-color_fg brown
-anim
-giant.x11
-giant.x12
-mina
-monster 1
-alive 1
-no_pick 1
-y 1
-weight 300000
 end
