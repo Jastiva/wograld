@@ -1869,6 +1869,70 @@ void move_apply (object *trap, object *victim, object *originator)
 	}
 
 
+        
+case CRUMBLEFLOOR:
+        {
+            int max;
+           // , sound_was_played;
+            object *ab, *ab_next;
+            if(!trap->value) {
+                int tot;
+                for(ab=trap->above,tot=0;ab!=NULL;ab=ab->above)
+                    if ((ab->move_type && trap->move_on) || ab->move_type==0)
+                        tot += (ab->nrof ? ab->nrof : 1) * ab->weight + ab->carrying;
+
+                if(!(trap->value=(tot>trap->weight)?1:0))
+                    goto leave;
+
+               // SET_ANIMATION(trap, trap->value);
+               // update_object(trap,UP_OBJ_FACE);
+            }
+
+            for (ab = trap->above, max=100; --max && ab; ab=ab_next) {
+                /* need to set this up, since if we do transfer the object,
+                 * ab->above would be bogus
+                 */
+                ab_next = ab->above;
+
+                if ((ab->move_type && trap->move_on) || ab->move_type==0) {
+
+
+                
+                    new_draw_info(NDI_UNIQUE, 0,ab,"a floor begins to crumble");
+               
+                     if(trap->stats.wc < 0 || (int)trap->stats.wc  >= NUM_ANIMATIONS(trap)) {
+        LOG(llevError,"crumble error: animation was %d, max=%d\n",trap->stats.wc,
+            NUM_ANIMATIONS(trap));
+        dump_object(trap);
+        LOG(llevError,"%s\n",errmsg);
+        trap->stats.wc=0;
+    }
+
+    /* We're going down */
+   
+    //    --trap->stats.wc;
+           
+     
+      //  SET_ANIMATION(trap, trap->stats.wc);
+      //  update_object(trap,UP_OBJ_CHANGE);
+
+     trap->speed=0.5;
+                update_ob_speed(trap);
+
+      
+      //    if((int)trap->stats.wc < 1) {
+       //            apply_gravity(ab);
+
+
+       // }
+       
+	}                
+                }
+            
+            goto leave;
+        }
+
+
 	case CONVERTER:
 	    if (convert_item (victim, trap) < 0) {
 		object *op;
@@ -4086,6 +4150,14 @@ void fix_auto_apply(mapstruct *m) {
 			update_ob_speed(tmp);
 		    }
 		}
+                else if(tmp->type==ELEVATOR) {
+                     object *head = tmp->head != NULL ? tmp->head : tmp;
+                    if (QUERY_FLAG(head, FLAG_IS_LINKED)) {
+                        tmp->speed = 0;
+                        update_ob_speed(tmp);
+                    }
+                }
+
 		/* This function can be called everytime a map is loaded, even when
 		 * swapping back in.  As such, we don't want to create the treasure
 		 * over and ove again, so after we generate the treasure, blank out

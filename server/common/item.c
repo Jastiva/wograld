@@ -221,6 +221,8 @@ static const typedata item_types[] = {
 {ITEM_TRANSFORMER, "item_transformer", "item_transformers", 0, 0},
 {BUILD_TITLE, "building title", "building titles", 0, 0},
 {P_SHOP_MAT, "player shop mat", "player shop mats", 0, 0},
+{ELEVATOR, "elevator", "elevators", 0, 0},
+{CRUMBLEFLOOR, "crumblefloor", "crumblefloors", 0, 0},
 };
 
 const int item_types_size=sizeof(item_types)/sizeof(*item_types);
