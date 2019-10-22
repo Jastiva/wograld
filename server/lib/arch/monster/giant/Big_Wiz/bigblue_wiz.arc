@@ -6,7 +6,7 @@ monster 1
 move_type walk
 sleep 1
 Wis 16
-face bigblue_wiz.x11
+face bigblue_wiz.151
 animation bigblue_wiz
 level 22
 attacktype 128
@@ -51,100 +51,4 @@ body_waist 1
 body_finger 2
 body_arm 2
 body_range 1
-end
-More
-Object bigblue_wiz2
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 1
-y 0
-weight 4000000
-end
-More
-Object bigblue_wiz3
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 2
-y 0
-weight 4000000
-end
-More
-Object bigblue_wiz4
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-y 1
-x 0
-weight 4000000
-end
-More
-Object bigblue_wiz5
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 1
-y 1
-weight 4000000
-end
-More
-Object bigblue_wiz6
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 2
-y 1
-weight 4000000
-end
-More
-Object bigblue_wiz7
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-y 2
-x 0
-weight 4000000
-end
-More
-Object bigblue_wiz8
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 1
-y 2
-weight 4000000
-end
-More
-Object bigblue_wiz9
-name sorcerer
-face bigblue_wiz.x11
-animation bigblue_wiz
-monster 1
-move_type walk
-alive 1
-x 2
-y 2
-weight 4000000
 end
