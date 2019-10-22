@@ -272,10 +272,11 @@ static void move_gate(object *op) { /* 1 = going down, 0 = goind up */
 	update_object(op,UP_OBJ_CHANGE);
          if((int)op->stats.wc < (NUM_ANIMATIONS(op)/2+1)) {
 
-            if(QUERY_FLAG(op, IS_ELEVATOR))
-            {
+//            if(QUERY_FLAG(op, IS_ELEVATOR))
+//            if(op->type == ELEVATOR)
+ //           {
                   check_above_for_gravity( op->map, op->x, op->y );
-            }
+  //          }
         }
 
 	return;
@@ -331,9 +332,10 @@ static void move_gate(object *op) { /* 1 = going down, 0 = goind up */
 	    if(tmp!=NULL) {
 
                 int elevate_success=0;
-                if(QUERY_FLAG(op, IS_ELEVATOR)){
+              //  if(QUERY_FLAG(op, IS_ELEVATOR)){
+   //             if(op->type == ELEVATOR){
 		elevate_success=try_elevate_enter(tmp);
-                }
+    //            }
 
 		if(!elevate_success)
                 {
@@ -410,6 +412,81 @@ static void move_timed_gate(object *op)
     }
   }
 }
+
+static void move_elevator(object *op)
+{
+ int v = op->value;
+
+  if (op->stats.sp) {
+    move_gate(op);
+    if (op->value != v)   /* change direction ? */
+      op->stats.sp = 0;
+    return;
+  }
+  if (--op->stats.hp <= 0) { /* keep gate down */
+    move_gate(op);
+    if (op->value != v) {  /* ready ? */
+        op->speed = 0;
+        update_ob_speed(op);
+    }
+  }
+}
+
+static void move_crumblefloor(object *trap)
+{
+
+int max;
+          
+   object *ab, *ab_next;
+           
+                int tot;
+
+for(ab=trap->above,tot=0;ab!=NULL;ab=ab->above)
+                    if ((ab->move_type && trap->move_on) || ab->move_type==0)
+                        tot += (ab->nrof ? ab->nrof : 1) * ab->weight + ab->carrying;
+
+if(!(trap->value=(tot>trap->weight)?1:0))
+                {
+                       // stop change, pl moved off or weight reduced
+                        trap->speed = 0;
+             update_ob_speed(trap);
+                }
+                else
+                {
+
+      printf("update crumble\n");
+      printf("%d \n", trap->stats.wc);
+if(--trap->stats.wc<=0) { /* Reached bottom, let's stop */
+            trap->stats.wc=0;
+        
+            }
+
+                }
+
+        SET_ANIMATION(trap, trap->stats.wc);
+        update_object(trap,UP_OBJ_CHANGE);
+
+          if((int)trap->stats.wc < 1) {
+
+for(ab=trap->above;ab!=NULL;ab=ab->above)
+{
+      printf("open crumble\n");
+      if(ab->type == PLAYER)
+      {
+                 printf("try drop plyr\n");
+                   apply_gravity(ab);
+                     update_object(ab, UP_OBJ_CHANGE);
+      }
+}
+
+trap->speed = 0;
+             update_ob_speed(trap);
+
+
+        }
+
+}
+
 
 /**  slaying:    name of the thing the detector is to look for
  *	 speed:      frequency of 'glances'
@@ -1436,6 +1513,16 @@ int process_object(object *op) {
 	case TIMED_GATE:
 	    move_timed_gate(op);
 	    return 0;
+
+        case ELEVATOR:
+            printf("try move elev 2\n");
+            move_elevator(op);
+            return 0;
+
+        case CRUMBLEFLOOR:
+            printf("try move crumblefloor \n");
+            move_crumblefloor(op);
+            return 0;
 
 	case TRIGGER:
 	case TRIGGER_BUTTON:

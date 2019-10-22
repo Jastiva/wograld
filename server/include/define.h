@@ -298,8 +298,10 @@ error - Your ANSI C compiler should be defining __STDC__;
 #define BANK_HOLD		170
 #define BUILD_TITLE             171
 #define P_SHOP_MAT              172
+#define ELEVATOR	        173
+#define CRUMBLEFLOOR	        174
 
-#define OBJECT_TYPE_MAX		    172 /* update if you add new types */
+#define OBJECT_TYPE_MAX		    174 /* update if you add new types */
 /* END TYPE DEFINE */
 
 /* Subtypes for BUILDER */
