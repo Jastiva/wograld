@@ -1,7 +1,7 @@
 Object priest_class
 name priest
 randomitems priest_class_items
-face priestnew.171
+face priest.171
 type 37
 anim
 priest.111
