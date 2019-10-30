@@ -660,6 +660,87 @@ static int move_randomly(object *op) {
     return 0;
 }
 
+
+int check_for_fall_ob(object *op, int dir)
+{
+ sint16 newx = op->x+freearr_x[dir];
+    sint16 newy = op->y+freearr_y[dir];
+  object *temp_ob;
+
+    mapstruct *m;
+  int mflags;
+   int mlayer;
+   int canfall=0;
+
+ if(op==NULL) {
+        LOG(llevError,"Trying to move NULL.\n");
+        return 0;
+    }
+
+    m = op->map;
+    mflags = get_map_flags(m, &m, newx, newy, &newx, &newy);
+
+    /* If the space the player is trying to is out of the map,
+     * bail now - we know it can't work.
+     */
+    if (mflags & P_OUT_OF_MAP) return 0;
+
+          if(op->move_type & MOVE_FLYING)
+         {
+              printf("found flying mob\n");
+             return 0;
+         }
+
+      if(((op->type == PLAYER) || (op->type == TRANSPORT) || (op->flags && FLAG_ALIVE) || (op->flags && FLAG_CAN_ROLL)) && (!(op->move_type & MOVE_FLYING)))
+        {
+
+    for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
+                {
+              // this is a bug, are you sure you should not use lists per tile of objects not from viewport?
+                        temp_ob = (GET_MAP_FACE_OBJ(op->map, op->x, op->y, mlayer));
+                        if(temp_ob != 0)
+                        {
+                        /* if((temp_ob -> type) && FLOOR){ */
+
+                        if (temp_ob->face->number !=  find_face("empty.111",0))
+                        {
+                                canfall += 1;
+                        }
+                        else
+                        {
+                                printf("found empty\n");
+                        }
+                                /* printf("%i\n",555555); */
+                        /* } */
+                        }
+        /*      printf("%i\n",canfall); */
+                }
+          }
+      //    else
+       //   {
+        //          return 0;
+        //  }
+
+             
+
+                if(canfall < 2)
+                {
+                      // normally is ok to drop,
+                     // this time is for ranged monsters to avoid jumping down
+                  // consider that scrolls and throwing are lousy and that these monsters should melee
+
+                      return 1;
+                }
+                else
+                {
+//move_object(op,dir)
+                      return 0;
+                }
+
+        
+}
+
+
 /*
  * Move-monster returns 1 if the object has been freed, otherwise 0.
  */
@@ -947,24 +1028,116 @@ int move_monster(object *op) {
     if (!dir)
     	return 0;
 
-    if (!QUERY_FLAG(op,FLAG_STAND_STILL)) {
-	if(move_object(op,dir)) /* Can the monster move directly toward player? */
-	    return 0;
+   
+ if (!QUERY_FLAG(op,FLAG_STAND_STILL)) {
+        
+//if(move_object(op,dir)) /* Can the monster move directly toward player? */
 
-	if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv) 
-	   || QUERY_FLAG(op,FLAG_RUN_AWAY)) {
 
-	    /* Try move around corners if !close */
-	    int maxdiff = (QUERY_FLAG(op, FLAG_ONLY_ATTACK) || RANDOM()&1) ? 1 : 2;
-	    for(diff = 1; diff <= maxdiff; diff++) {
-		/* try different detours */
-		int m = 1-(RANDOM()&2);          /* Try left or right first? */
-		if(move_object(op,absdir(dir + diff*m)) ||
-		   move_object(op,absdir(dir - diff*m)))
-		return 0;
-	    }
-	}
-    } /* if monster is not standing still */
+if(!((QUERY_FLAG(op,FLAG_CAST_SPELL)) ||  
+    (QUERY_FLAG(op,FLAG_USE_RANGE)) ||   
+       (QUERY_FLAG(op,FLAG_USE_BOW)))) {
+              
+// if floor, try to cross
+// if no floor, try to cross, but fall
+
+ // (QUERY_FLAG(op,FLAG_USE_SCROLL)) ||
+ //  (QUERY_FLAG(op,FLAG_CAN_USE_SKILL)) ||
+               
+
+
+
+
+            if(move_object(op,dir))
+    {
+           if(check_for_fall_ob(op,dir))
+           {
+            if(!(op->move_type & MOVE_FLYING))
+            {
+              printf("considered not flying\n");
+            apply_gravity(op); 
+               // if flying it cannot fall
+             }
+            }
+            return 0;
+    }
+
+if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv)
+           || QUERY_FLAG(op,FLAG_RUN_AWAY)) {
+
+            /* Try move around corners if !close */
+            int maxdiff = (QUERY_FLAG(op, FLAG_ONLY_ATTACK) || RANDOM()&1) ? 1 : 2;
+            for(diff = 1; diff <= maxdiff; diff++) {
+                /* try different detours */
+                int m = 1-(RANDOM()&2);          /* Try left or right first? */
+                if(move_object(op,absdir(dir + diff*m)) ||
+                   move_object(op,absdir(dir - diff*m)))
+                 {
+                   if(check_for_fall_ob(op,dir))
+                    {
+                   if(!(op->move_type & MOVE_FLYING))
+                    {
+                  printf("considered 2\n");
+                  apply_gravity(op);
+                    }
+                   }
+                // if flying it cannot fall
+                return 0;
+                 }
+            }
+        }
+       }
+       else
+       {
+           // some ranged ability, do not try to cross falling off
+           printf("ranged\n");
+
+           if(!(check_for_fall_ob(op, dir)))
+           {
+              if(move_object(op,dir))
+              {
+            return 0;
+              }
+           }
+
+        if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv)
+           || QUERY_FLAG(op,FLAG_RUN_AWAY)) {
+
+            /* Try move around corners if !close */
+            int maxdiff = (QUERY_FLAG(op, FLAG_ONLY_ATTACK) || RANDOM()&1) ? 1 : 2;
+            for(diff = 1; diff <= maxdiff; diff++) {
+                /* try different detours */
+                int m = 1-(RANDOM()&2);          /* Try left or right first? */
+
+                 int angle1=0;
+
+                 // return 1 if success
+
+                if(!(check_for_fall_ob(op, dir+ diff*m)))
+           {
+              if(move_object(op,dir + diff*m))
+              {
+            return 0;
+              }
+           }
+             if(!(check_for_fall_ob(op, dir- diff*m)))
+           {
+              if(move_object(op,dir - diff*m))
+              {
+            return 0;
+              }
+           }
+                 
+               
+            }
+        }
+
+      }
+
+  //  }  // ! flying
+
+}
+
 
     /*
      * Eneq(@csd.uu.se): Patch to make RUN_AWAY or SCARED monsters move a random
@@ -972,7 +1145,28 @@ int move_monster(object *op) {
      */
     if (!QUERY_FLAG(op, FLAG_ONLY_ATTACK)&&(QUERY_FLAG(op,FLAG_RUN_AWAY)||QUERY_FLAG(op, FLAG_SCARED)))
 	if(move_randomly(op))
+        {
+
+		 if(!((QUERY_FLAG(op,FLAG_CAST_SPELL)) ||
+    (QUERY_FLAG(op,FLAG_USE_SCROLL)) ||
+    (QUERY_FLAG(op,FLAG_USE_RANGE)) ||
+     (QUERY_FLAG(op,FLAG_CAN_USE_SKILL)) ||
+       (QUERY_FLAG(op,FLAG_USE_BOW)))) {
+
+               // already checks for flying
+                   if(!(op->move_type & MOVE_FLYING))
+                   {
+                  apply_gravity(op);
+                   }
+                }
+
+
+
+   
 	    return 0;
+         }
+
+
 
     /*
      * Try giving the monster a new enemy - the player that is closest
