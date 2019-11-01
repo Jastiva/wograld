@@ -621,7 +621,7 @@ void apply_gravity(object *faller)
 			if(faller->map->lower)
 			{
 				ml1 = load_and_link_lower_map(faller->map);
-				printf("%d\n",ml1);
+				printf("%s\n",faller->map->lower);
 				/* if(GET_MAP_MOVE_BLOCK(ml1, faller->x, faller->y) == MOVE_ALL) */
 				if(!blocked_link(faller, ml1, faller->x, faller->y))
 				{

@@ -339,6 +339,25 @@ subtype 3
 slaying teleporter
 face mbteleporter.111
 end
-
+Object building_stairs_up
+name stair up material
+nrof 1
+weight 150
+value 1500
+type 161
+subtype 3
+slaying stair_up_1
+face mbstairup.111
+end
+Object building_stairs_down
+name stair down material
+nrof 1
+weight 150
+value 1500
+type 161
+subtype 3
+slaying stair_down_1
+face mbstairdown.111
+end
 
 

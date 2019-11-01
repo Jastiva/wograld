@@ -808,6 +808,7 @@ void apply_builder_item( object* pl, object* item, short x, short y, object *bui
 
     connected = 0;
     object *sideone_loc;
+    char *localtitle = NULL;
     switch( tmp->type )
         {
          case TELEPORTER:
@@ -821,6 +822,396 @@ void apply_builder_item( object* pl, object* item, short x, short y, object *bui
                create_teleporter_loc(pl,x,y);
       	     }
     		break;
+        case EXIT:
+
+                if(!strcmp(tmp->arch->name, "stair_up_1"))
+                {
+                     if(pl->map->upper)
+                        {
+                                mapstruct *mu1 = load_and_link_upper_map(pl->map);
+                               
+                                printf("%s\n",pl->map->upper);
+                                if(mu1 != NULL)
+                                {
+                                      printf("mu1 not null\n");
+                                }
+                               
+                                if(!blocked_link(pl, mu1, x, y))
+                                {
+                                       printf("not blocked mu1\n");
+                                       int permission=0;
+ object *tmp2 = GET_MAP_OB( pl->map, x, y );
+    if ( !tmp2 )
+        {
+        /* Nothing, meaning player is standing next to an undefined square... */
+            LOG( llevError, "apply_map_builder: undefined square at (%d, %d, %s)\n", x, y, pl->map->path );
+        new_draw_info( NDI_UNIQUE, 0, pl, "You'd better not build here, above looks weird." );
+        return;
+        }
+   
+
+    while ( tmp2 )
+  {
+        if ( !QUERY_FLAG( tmp2, FLAG_IS_BUILDABLE ) && ( ( tmp2->type != SIGN )
+        || ( strcmp( tmp2->arch->name, "rune_mark" ) ) ) )
+            {
+                /* The item building function already has it's own special
+                 * checks for this
+                 */
+                
+
+            }
+        tmp2 = tmp2->above;
+        }
+
+        tmp2=GET_MAP_OB(mu1, x, y);
+  while(tmp2)
+  {
+
+       
+              if(tmp2->title != NULL)
+              {
+              localtitle = tmp2->title;
+              break;
+              }
+        
+         tmp2=tmp2->above;
+
+  }
+
+  if(localtitle == NULL)
+  {
+     new_draw_info( NDI_UNIQUE, 0, pl, "You don't have permission to build here." );
+      return;
+   }
+
+   printf("tile title %s\n", localtitle);
+
+ if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+                  
+              printf("build title %s\n",build_title->title);
+              if (!(strcmp( build_title->title, localtitle)))
+              {
+                                  permission = 1;
+                                 // break;
+               }
+                else
+                  {
+                                  printf("not match title\n");
+                   }
+           }
+            else
+           {
+                           printf("no title found\n");
+
+          }
+     }
+                 
+ if(permission != 1)
+   {
+ new_draw_info( NDI_UNIQUE, 0, pl, "No permission to build above." );
+    printf("no permission to build above\n");
+      return;
+   }
+   else
+   {
+          object *tmp3;
+          struct archt* arch2;
+ object* floor2;
+    
+        floor2 = GET_MAP_OB( mu1, x, y );
+    if ( !floor2 )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "Invalid square above." );
+ 
+        printf("invalid square above\n");
+        return;
+        }
+
+    while ( floor2 && ( floor2->type != FLOOR ) && ( !QUERY_FLAG( floor2, FLAG_IS_FLOOR ) ) )
+        floor2 = floor2->above;
+
+    if ( !floor2 )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "This square has no floor, you can't build here." );
+          printf("no floor above\n");
+        return;
+        }
+    /* Create item, set flag, insert in map */
+    arch2 = find_archetype( "stair_down_1" );
+    if ( !arch2 )
+    {
+         printf("arch not found\n");
+        return;
+    }
+
+    tmp3 = arch_to_object( arch2 );
+
+    if ( ( floor2->above ) && ( !can_build_over(mu1, tmp3, x, y) ) )
+        /* Floor has something on top that interferes with building */
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "You can't build above." );
+        printf("cant build above\n");
+        return;
+        }
+
+    SET_FLAG( tmp3, FLAG_IS_BUILDABLE );
+    SET_FLAG( tmp3, FLAG_NO_PICK );
+     if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp3->title=build_title->title;
+               printf("new tile title %s\n", tmp3->title);
+           }
+      }
+     tmp3->slaying = add_string(pl->map->path);
+     tmp3->stats.hp = x;
+     tmp3->stats.sp = y;
+   
+    tmp->slaying = add_string(mu1->path);
+     tmp->stats.hp = x;
+     tmp->stats.sp = y;
+
+    printf("stairs down %s\n",pl->map->path);
+
+    // insert_flag = INS_ABOVE_FLOOR_ONLY;
+    insert_ob_in_map_at( tmp3, mu1, floor, insert_flag, x, y );
+    
+    new_draw_info_format( NDI_UNIQUE, 0, pl, "You build the %s", query_name( tmp3 ) );
+
+    // finish the stairs at end of fn
+    // although if error in insert stairs down to connected map
+    // then will have returned already
+
+
+        printf("completing build \n");
+
+    insert_ob_in_map_at( tmp, pl->map, floor, insert_flag, x, y );
+
+    new_draw_info_format( NDI_UNIQUE, 0, pl, "You build the %s", query_name( tmp ) );
+    decrease_ob_nr( item, 1 );
+
+    return;
+
+
+   }
+
+                               
+                                }
+                                else
+                                {
+                                    printf("not possible to complete stairs up\n");
+                                    return;
+                                }
+                        }
+                        else
+                        {
+                               printf("cannot complete stairs up\n");
+                               return;
+                        }
+
+
+                }
+                else if(!strcmp(tmp->arch->name,"stair_down_1"))
+                {
+ if(pl->map->lower)
+                        {
+                                mapstruct *ml1 = load_and_link_lower_map(pl->map);
+                                printf("%s\n",pl->map->lower);
+                                 if(ml1 != NULL)
+                                 {
+                                       printf("ml1 not null\n");
+                                 }
+                               
+                                if(!blocked_link(pl, ml1, x, y))
+                                {
+                                       int permission=0;
+ object *tmp2= GET_MAP_OB( ml1, x, y );
+    if ( !tmp2 )
+        {
+        /* Nothing, meaning player is standing next to an undefined square... */
+            LOG( llevError, "apply_map_builder: undefined square at (%d, %d, %s)\n", x, y, pl->map->path );
+        new_draw_info( NDI_UNIQUE, 0, pl, "You'd better not build here, above looks weird." );
+        return;
+        }
+   
+
+    while ( tmp2 )
+
+  {
+        if ( !QUERY_FLAG( tmp2, FLAG_IS_BUILDABLE ) && ( ( tmp2->type != SIGN )
+        || ( strcmp( tmp2->arch->name, "rune_mark" ) ) ) )
+            {
+                /* The item building function already has it's own special
+                 * checks for this
+                 */
+                
+
+            }
+        tmp2 = tmp2->above;
+        }
+
+        tmp2=GET_MAP_OB(ml1, x, y);
+  while(tmp2)
+  {
+
+       
+              if(tmp2->title != NULL)
+              {
+              localtitle = tmp2->title;
+              break;
+              }
+        
+         tmp2=tmp2->above;
+
+  }
+
+  if(localtitle == NULL)
+  {
+     new_draw_info( NDI_UNIQUE, 0, pl, "You don't have permission to build here." );
+      return;
+   }
+
+   printf("tile title %s\n", localtitle);
+
+ if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+                  
+              printf("build title %s\n",build_title->title);
+              if (!(strcmp( build_title->title, localtitle)))
+              {
+                                  permission = 1;
+                                  //break;
+               }
+                else
+                  {
+                                  printf("not match title\n");
+                   }
+           }
+            else
+           {
+                           printf("no title found\n");
+
+          }
+     }
+                 
+ if(permission != 1)
+   {
+ new_draw_info( NDI_UNIQUE, 0, pl, "No permission to build below." );
+      return;
+   }
+   else
+   {
+          object *tmp3;
+          struct archt* arch2;
+ object* floor2;
+    
+        floor2 = GET_MAP_OB( ml1, x, y );
+    if ( !floor2 )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "Invalid square." );
+        return;
+        }
+
+    while ( floor2 && ( floor2->type != FLOOR ) && ( !QUERY_FLAG( floor2, FLAG_IS_FLOOR ) ) )
+        floor2 = floor2->above;
+
+    if ( !floor2 )
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "This square has no floor, you can't build here." );
+        return;
+        }
+    /* Create item, set flag, insert in map */
+    arch2 = find_archetype( "stair_up_1" );
+    if ( !arch2 )
+        return;
+
+    tmp3 = arch_to_object( arch2 );
+
+    if ( ( floor2->above ) && ( !can_build_over(ml1, tmp3, x, y) ) )
+        /* Floor has something on top that interferes with building */
+        {
+        new_draw_info( NDI_UNIQUE, 0, pl, "You can't build below." );
+        return;
+        }
+
+    SET_FLAG( tmp3, FLAG_IS_BUILDABLE );
+    SET_FLAG( tmp3, FLAG_NO_PICK );
+     if(build_title != NULL)
+      {
+       // already checks in caller to see if there was a build_title in the pl
+       // and that it matches some floor below the wall
+           if(build_title->title != NULL)
+           {
+               tmp3->title=build_title->title;
+               printf("new tile title %s\n", tmp3->title);
+           }
+      }
+
+    tmp3->slaying = add_string(pl->map->path);
+     tmp3->stats.hp = x;
+     tmp3->stats.sp = y;
+
+   tmp->slaying = add_string(ml1->path);
+     tmp->stats.hp = x;
+     tmp->stats.sp = y;
+
+     printf("stairs up %s\n", pl->map->path);
+
+    // insert_flag = INS_ABOVE_FLOOR_ONLY;
+    insert_ob_in_map_at( tmp3, ml1, floor, insert_flag, x, y );
+    
+    new_draw_info_format( NDI_UNIQUE, 0, pl, "You build the %s", query_name( tmp3 ) );
+
+    // finish the stairs at end of fn
+    // although if error in insert stairs down to connected map
+    // then will have returned already
+
+    printf("completing build \n");
+
+    insert_ob_in_map_at( tmp, pl->map, floor, insert_flag, x, y );
+
+    new_draw_info_format( NDI_UNIQUE, 0, pl, "You build the %s", query_name( tmp ) );
+    decrease_ob_nr( item, 1 );
+
+    return;
+
+   }
+
+                               
+                                }
+                                else
+                                {
+                                    printf("not possible to complete stairs down\n");
+                                    return;
+                                }
+                        }
+                        else
+                        {
+                               printf("cannot complete stairs down\n");
+                               return;
+                        }
+
+
+                }
+                else
+                {
+                      printf("nonvalid exit type for building\n");
+                      return;
+                }
+
         case DOOR:
         case GATE:
         case BUTTON:
@@ -855,6 +1246,8 @@ void apply_builder_item( object* pl, object* item, short x, short y, object *bui
             return;
             }
         }
+
+    printf("completing build \n");
 
     insert_ob_in_map_at( tmp, pl->map, floor, insert_flag, x, y );
     if ( connected != 0 )
