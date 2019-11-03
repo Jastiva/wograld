@@ -10,7 +10,7 @@ msg
 Creator: Gnat the Gnu
 Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
-Modified: 2019-10-08 lx
+Modified: 2019-11-03 lx
 endmsg
 tile_path_4 grassplains8
 tile_path_5 grassplains91
@@ -3578,6 +3578,30 @@ arch grassmedium
 x 14
 y 39
 end
+arch building_stairs_down
+x 14
+y 39
+end
+arch building_stairs_down
+x 14
+y 39
+end
+arch building_stairs_up
+x 14
+y 39
+end
+arch building_stairs_up
+x 14
+y 39
+end
+arch building_teleporter
+x 14
+y 39
+end
+arch building_teleporter
+x 14
+y 39
+end
 arch grassmedium
 x 14
 y 40
@@ -3802,6 +3826,14 @@ x 15
 y 39
 end
 arch grassmedium
+x 15
+y 40
+end
+arch building_arrowslot1
+x 15
+y 40
+end
+arch building_arrowslot2
 x 15
 y 40
 end

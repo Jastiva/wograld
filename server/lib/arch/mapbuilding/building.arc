@@ -359,5 +359,26 @@ subtype 3
 slaying stair_down_1
 face mbstairdown.111
 end
+Object building_arrowslot1
+name arrowslot material
+nrof 1
+weight 150
+value 1500
+type 161
+subtype 2
+slaying arrowslot1
+face mbarrowslot1.111
+end
+Object building_arrowslot2
+name arrowslot material
+nrof 1
+weight 150
+value 1500
+type 161
+subtype 2
+slaying arrowslot2
+face mbarrowslot2.111
+end
+
 
 
