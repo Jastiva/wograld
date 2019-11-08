@@ -6,16 +6,18 @@ width 33
 height 33
 msg
 Created:  1999-01-20 Cater/Wade (john_cater@yahoo.com)
+Modified: 2019-09-25 lori
 endmsg
+background_music beach02
 end
 arch cobblestones2
 end
-arch wwall_2_2_2
+arch redmarblewall_4
 end
 arch cobblestones2
 y 1
 end
-arch wwall_2_1_1
+arch redmarblewall_4
 y 1
 end
 arch cobblestones2
@@ -123,7 +125,7 @@ end
 arch cobblestones2
 y 19
 end
-arch wwall_2_1_1
+arch ltbeigemarblewall_4
 y 19
 end
 arch cobblestones2
@@ -150,6 +152,9 @@ end
 arch wwall_2_1_1
 y 23
 end
+arch ltbeigemarblewall_4
+y 23
+end
 arch cobblestones2
 y 24
 end
@@ -171,7 +176,7 @@ end
 arch cobblestones2
 y 27
 end
-arch wwall_2_1_1
+arch ltbeigemarblewall_4
 y 27
 end
 arch cobblestones2
@@ -201,13 +206,13 @@ end
 arch cobblestones2
 y 32
 end
-arch wwall_2_2_1
+arch ltbeigemarblewall_4
 y 32
 end
 arch cobblestones2
 x 1
 end
-arch wwall_2_1_2
+arch redmarblewall_4
 x 1
 end
 arch cobblestones2
@@ -222,19 +227,19 @@ arch cobblestones2
 x 1
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 6
 end
@@ -250,23 +255,23 @@ arch cobblestones2
 x 1
 y 8
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 1
 y 13
 end
@@ -290,7 +295,7 @@ arch wwall_2_1_2
 x 1
 y 16
 end
-arch cobblestones2
+arch desert
 x 1
 y 17
 end
@@ -298,23 +303,23 @@ arch chest
 x 1
 y 17
 end
-arch cobblestones2
+arch desert
 x 1
 y 18
 end
-arch cobblestones2
+arch desert
 x 1
 y 19
 end
-arch cobblestones2
+arch desert
 x 1
 y 20
 end
-arch cobblestones2
+arch desert
 x 1
 y 21
 end
-arch cobblestones2
+arch desert
 x 1
 y 22
 end
@@ -338,19 +343,19 @@ arch cobblestones2
 x 1
 y 26
 end
-arch cobblestones2
+arch desert
 x 1
 y 27
 end
-arch cobblestones2
+arch desert
 x 1
 y 28
 end
-arch cobblestones2
+arch desert
 x 1
 y 29
 end
-arch cobblestones2
+arch desert
 x 1
 y 30
 end
@@ -380,11 +385,11 @@ arch cobblestones2
 x 2
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 3
 end
@@ -392,15 +397,15 @@ arch fire_elemental
 x 2
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 6
 end
@@ -408,23 +413,23 @@ arch wwall_2_1_1
 x 2
 y 6
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 2
 y 7
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 2
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 2
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 2
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 2
 y 11
 end
@@ -444,7 +449,7 @@ arch fire_elemental
 x 2
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 2
 y 14
 end
@@ -460,11 +465,11 @@ arch wwall_2_1_2
 x 2
 y 16
 end
-arch cobblestones2
+arch desert
 x 2
 y 17
 end
-arch cobblestones2
+arch desert
 x 2
 y 18
 end
@@ -480,7 +485,7 @@ arch cobblestones2
 x 2
 y 20
 end
-arch cobblestones2
+arch desert
 x 2
 y 21
 end
@@ -488,35 +493,35 @@ arch air_elemental
 x 2
 y 21
 end
-arch cobblestones2
+arch desert
 x 2
 y 22
 end
-arch cobblestones2
+arch desert
 x 2
 y 23
 end
-arch cobblestones2
+arch desert
 x 2
 y 24
 end
-arch cobblestones2
+arch desert
 x 2
 y 25
 end
-arch cobblestones2
+arch desert
 x 2
 y 26
 end
-arch cobblestones2
+arch desert
 x 2
 y 27
 end
-arch cobblestones2
+arch lostlabdesert3
 x 2
 y 28
 end
-arch cobblestones2
+arch lostlabdesert3
 x 2
 y 29
 end
@@ -524,11 +529,11 @@ arch air_elemental
 x 2
 y 29
 end
-arch cobblestones2
+arch desert
 x 2
 y 30
 end
-arch cobblestones2
+arch desert
 x 2
 y 31
 end
@@ -546,31 +551,34 @@ end
 arch wwall_2_1_2
 x 3
 end
-arch cobblestones2
+arch redmarblewall_4
+x 3
+end
+arch blacklostlabfloor
 x 3
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 7
 end
@@ -578,7 +586,7 @@ arch wwall_2_1_1
 x 3
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 8
 end
@@ -586,27 +594,27 @@ arch fire_elemental
 x 3
 y 8
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 11
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 3
 y 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 3
 y 14
 end
@@ -626,47 +634,47 @@ arch wwall_2_1_2
 x 3
 y 16
 end
-arch cobblestones2
+arch desert
 x 3
 y 17
 end
-arch cobblestones2
+arch desert
 x 3
 y 18
 end
-arch cobblestones2
+arch desert
 x 3
 y 19
 end
-arch cobblestones2
+arch desert
 x 3
 y 20
 end
-arch cobblestones2
+arch desert
 x 3
 y 21
 end
-arch cobblestones2
+arch desert
 x 3
 y 22
 end
-arch cobblestones2
+arch desert
 x 3
 y 23
 end
-arch cobblestones2
+arch desert
 x 3
 y 24
 end
-arch cobblestones2
+arch desert
 x 3
 y 25
 end
-arch cobblestones2
+arch desert
 x 3
 y 26
 end
-arch cobblestones2
+arch desert
 x 3
 y 27
 end
@@ -674,15 +682,15 @@ arch air_elemental
 x 3
 y 27
 end
-arch cobblestones2
+arch lostlabdesert3
 x 3
 y 28
 end
-arch cobblestones2
+arch lostlabdesert3
 x 3
 y 29
 end
-arch cobblestones2
+arch desert
 x 3
 y 30
 end
@@ -690,7 +698,7 @@ arch rune_summon_air_elemental
 x 3
 y 30
 end
-arch cobblestones2
+arch desert
 x 3
 y 31
 end
@@ -708,19 +716,19 @@ end
 arch wwall_2_1_2
 x 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 4
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 4
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 4
 y 3
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 4
 y 4
 end
@@ -728,7 +736,7 @@ arch wwall_2_1_1
 x 4
 y 4
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 4
 y 5
 end
@@ -772,7 +780,7 @@ arch wwall_2_1_1
 x 4
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 4
 y 11
 end
@@ -780,7 +788,7 @@ arch cobblestones2
 x 4
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 4
 y 13
 end
@@ -788,11 +796,11 @@ arch fire_elemental
 x 4
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 4
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 4
 y 15
 end
@@ -804,7 +812,7 @@ arch wwall_2_1_2
 x 4
 y 16
 end
-arch cobblestones2
+arch desert
 x 4
 y 17
 end
@@ -832,11 +840,11 @@ arch cobblestones2
 x 4
 y 21
 end
-arch cobblestones2
+arch desert
 x 4
 y 22
 end
-arch cobblestones2
+arch desert
 x 4
 y 23
 end
@@ -844,11 +852,11 @@ arch air_elemental
 x 4
 y 23
 end
-arch cobblestones2
+arch desert
 x 4
 y 24
 end
-arch cobblestones2
+arch lostlabdesert3
 x 4
 y 25
 end
@@ -856,23 +864,23 @@ arch air_elemental
 x 4
 y 25
 end
-arch cobblestones2
+arch desert
 x 4
 y 26
 end
-arch cobblestones2
+arch lostlabdesert3
 x 4
 y 27
 end
-arch cobblestones2
+arch desert
 x 4
 y 28
 end
-arch cobblestones2
+arch desert
 x 4
 y 29
 end
-arch cobblestones2
+arch desert
 x 4
 y 30
 end
@@ -898,23 +906,23 @@ end
 arch wwall_2_1_2
 x 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 5
 end
@@ -922,15 +930,15 @@ arch fire_elemental
 x 5
 y 5
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 5
 y 6
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 5
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 8
 end
@@ -942,7 +950,7 @@ arch para_fire
 x 5
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 10
 end
@@ -962,7 +970,7 @@ arch wwall_2_1_1
 x 5
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 5
 y 13
 end
@@ -970,7 +978,7 @@ arch wwall_2_2_1
 x 5
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 5
 y 14
 end
@@ -990,7 +998,7 @@ arch wwall_2_1_2
 x 5
 y 16
 end
-arch cobblestones2
+arch desert
 x 5
 y 17
 end
@@ -1018,7 +1026,7 @@ arch wwall_2_1_2
 x 5
 y 20
 end
-arch cobblestones2
+arch desert
 x 5
 y 21
 end
@@ -1026,7 +1034,7 @@ arch air_elemental
 x 5
 y 21
 end
-arch cobblestones2
+arch desert
 x 5
 y 22
 end
@@ -1034,7 +1042,7 @@ arch wwall_1_4
 x 5
 y 22
 end
-arch cobblestones2
+arch desert
 x 5
 y 23
 end
@@ -1042,19 +1050,19 @@ arch air_elemental
 x 5
 y 23
 end
-arch cobblestones2
+arch desert
 x 5
 y 24
 end
-arch wwall_1_4
+arch beigemarblewall_1_4
 x 5
 y 24
 end
-arch cobblestones2
+arch desert
 x 5
 y 25
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 5
 y 26
 end
@@ -1062,7 +1070,7 @@ arch wwall_1_4
 x 5
 y 26
 end
-arch cobblestones2
+arch desert
 x 5
 y 27
 end
@@ -1070,7 +1078,7 @@ arch air_elemental
 x 5
 y 27
 end
-arch cobblestones2
+arch desert
 x 5
 y 28
 end
@@ -1078,7 +1086,7 @@ arch wwall_1_4
 x 5
 y 28
 end
-arch cobblestones2
+arch desert
 x 5
 y 29
 end
@@ -1086,7 +1094,7 @@ arch air_elemental
 x 5
 y 29
 end
-arch cobblestones2
+arch desert
 x 5
 y 30
 end
@@ -1094,7 +1102,7 @@ arch air_elemental
 x 5
 y 30
 end
-arch cobblestones2
+arch desert
 x 5
 y 31
 end
@@ -1112,7 +1120,7 @@ end
 arch wwall_2_1_2
 x 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 1
 end
@@ -1120,15 +1128,15 @@ arch para_fire
 x 6
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 3
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 4
 end
@@ -1136,11 +1144,11 @@ arch fire_elemental
 x 6
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 5
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 6
 end
@@ -1148,7 +1156,7 @@ arch wwall_2_1_1
 x 6
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 7
 end
@@ -1156,7 +1164,7 @@ arch wwall_2_1_1
 x 6
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 8
 end
@@ -1164,19 +1172,19 @@ arch fire_elemental
 x 6
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 11
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 12
 end
@@ -1188,11 +1196,11 @@ arch wwall_2_1_2
 x 6
 y 13
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 6
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 6
 y 15
 end
@@ -1204,11 +1212,11 @@ arch wwall_2_1_2
 x 6
 y 16
 end
-arch cobblestones2
+arch desert
 x 6
 y 17
 end
-arch cobblestones2
+arch desert
 x 6
 y 18
 end
@@ -1220,7 +1228,7 @@ arch cobblestones2
 x 6
 y 19
 end
-arch cobblestones2
+arch desert
 x 6
 y 20
 end
@@ -1228,7 +1236,7 @@ arch wwall_2_1_2
 x 6
 y 20
 end
-arch cobblestones2
+arch desert
 x 6
 y 21
 end
@@ -1240,7 +1248,7 @@ arch wwall_2_1_2
 x 6
 y 22
 end
-arch cobblestones2
+arch desert
 x 6
 y 23
 end
@@ -1248,15 +1256,15 @@ arch para_air
 x 6
 y 23
 end
-arch cobblestones2
+arch desert
 x 6
 y 24
 end
-arch wwall_2_1_2
+arch beigemarblewall_1_4
 x 6
 y 24
 end
-arch cobblestones2
+arch desert
 x 6
 y 25
 end
@@ -1264,7 +1272,7 @@ arch rune_summon_air_elemental
 x 6
 y 25
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 6
 y 26
 end
@@ -1284,15 +1292,15 @@ arch wwall_1_3
 x 6
 y 28
 end
-arch cobblestones2
+arch desert
 x 6
 y 29
 end
-arch cobblestones2
+arch desert
 x 6
 y 30
 end
-arch cobblestones2
+arch desert
 x 6
 y 31
 end
@@ -1307,18 +1315,18 @@ end
 arch cobblestones2
 x 7
 end
-arch wwall_2_1_2
+arch redmarblewall_4
 x 7
 end
 arch cobblestones2
 x 7
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 2
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 7
 y 2
 end
@@ -1326,7 +1334,7 @@ arch cobblestones2
 x 7
 y 3
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 7
 y 3
 end
@@ -1334,19 +1342,19 @@ arch cobblestones2
 x 7
 y 4
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 7
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 5
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 7
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 7
 end
@@ -1354,7 +1362,7 @@ arch rune_summon_fire_elemental
 x 7
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 8
 end
@@ -1362,7 +1370,7 @@ arch wwall_2_1_1
 x 7
 y 8
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 9
 end
@@ -1370,11 +1378,11 @@ arch wwall_2_1_1
 x 7
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 7
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 11
 end
@@ -1382,11 +1390,11 @@ arch wwall_2_1_1
 x 7
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 7
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 7
 y 13
 end
@@ -1394,7 +1402,7 @@ arch wwall_2_1_2
 x 7
 y 13
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 7
 y 14
 end
@@ -1410,11 +1418,11 @@ arch wwall_2_1_2
 x 7
 y 16
 end
-arch cobblestones2
+arch desert
 x 7
 y 17
 end
-arch cobblestones2
+arch desert
 x 7
 y 18
 end
@@ -1426,7 +1434,7 @@ arch cobblestones2
 x 7
 y 19
 end
-arch cobblestones2
+arch desert
 x 7
 y 20
 end
@@ -1434,7 +1442,7 @@ arch wwall_2_1_2
 x 7
 y 20
 end
-arch cobblestones2
+arch desert
 x 7
 y 21
 end
@@ -1446,19 +1454,19 @@ arch wwall_2_1_2
 x 7
 y 22
 end
-arch cobblestones2
+arch desert
 x 7
 y 23
 end
-arch cobblestones2
+arch desert
 x 7
 y 24
 end
-arch wwall_2_1_2
+arch beigemarblewall_1_4
 x 7
 y 24
 end
-arch cobblestones2
+arch desert
 x 7
 y 25
 end
@@ -1478,7 +1486,7 @@ arch cobblestones2
 x 7
 y 28
 end
-arch cobblestones2
+arch desert
 x 7
 y 29
 end
@@ -1486,11 +1494,11 @@ arch air_elemental
 x 7
 y 29
 end
-arch cobblestones2
+arch desert
 x 7
 y 30
 end
-arch cobblestones2
+arch desert
 x 7
 y 31
 end
@@ -1502,7 +1510,7 @@ arch cobblestones2
 x 7
 y 32
 end
-arch wwall_2_1_2
+arch ltbeigemarblewall_4
 x 7
 y 32
 end
@@ -1531,39 +1539,39 @@ arch para_fire
 x 8
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 8
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 8
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 8
 y 6
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 7
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 8
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 8
 y 12
 end
@@ -1571,7 +1579,7 @@ arch fire_elemental
 x 8
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 13
 end
@@ -1579,7 +1587,7 @@ arch wwall_2_1_2
 x 8
 y 13
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 8
 y 14
 end
@@ -1599,7 +1607,7 @@ arch wwall_2_1_2
 x 8
 y 16
 end
-arch cobblestones2
+arch desert
 x 8
 y 17
 end
@@ -1623,7 +1631,7 @@ arch air_elemental
 x 8
 y 19
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 8
 y 20
 end
@@ -1631,7 +1639,7 @@ arch wwall_2_1_2
 x 8
 y 20
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 8
 y 21
 end
@@ -1643,7 +1651,7 @@ arch wwall_2_1_2
 x 8
 y 22
 end
-arch cobblestones2
+arch desert
 x 8
 y 23
 end
@@ -1651,19 +1659,19 @@ arch rune_summon_air_elemental
 x 8
 y 23
 end
-arch cobblestones2
+arch desert
 x 8
 y 24
 end
-arch wwall_2_1_2
+arch beigemarblewall_1_4
 x 8
 y 24
 end
-arch cobblestones2
+arch desert
 x 8
 y 25
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 8
 y 26
 end
@@ -1671,7 +1679,7 @@ arch wwall_1_3
 x 8
 y 26
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 8
 y 27
 end
@@ -1683,15 +1691,15 @@ arch air_elemental
 x 8
 y 28
 end
-arch cobblestones2
+arch desert
 x 8
 y 29
 end
-arch cobblestones2
+arch desert
 x 8
 y 30
 end
-arch cobblestones2
+arch desert
 x 8
 y 31
 end
@@ -1709,26 +1717,26 @@ end
 arch cobblestones2
 x 9
 end
-arch wwall_2_1_2
+arch redmarblewall_4
 x 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 5
 end
@@ -1736,7 +1744,7 @@ arch wwall_2_1_1
 x 9
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 6
 end
@@ -1744,7 +1752,7 @@ arch wwall_2_1_1
 x 9
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 7
 end
@@ -1752,11 +1760,11 @@ arch wwall_2_1_1
 x 9
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 8
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 9
 end
@@ -1764,7 +1772,7 @@ arch para_fire
 x 9
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 9
 y 10
 end
@@ -1772,15 +1780,15 @@ arch wwall_2_1_1
 x 9
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 9
 y 13
 end
@@ -1788,11 +1796,11 @@ arch wwall_2_1_2
 x 9
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 9
 y 15
 end
@@ -1804,11 +1812,11 @@ arch wwall_2_1_2
 x 9
 y 16
 end
-arch cobblestones2
+arch desert
 x 9
 y 17
 end
-arch cobblestones2
+arch desert
 x 9
 y 18
 end
@@ -1816,7 +1824,7 @@ arch wwall_2_1_2
 x 9
 y 18
 end
-arch cobblestones2
+arch desert
 x 9
 y 19
 end
@@ -1828,7 +1836,7 @@ arch wwall_2_1_2
 x 9
 y 20
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 9
 y 21
 end
@@ -1844,7 +1852,7 @@ arch wwall_2_1_2
 x 9
 y 22
 end
-arch cobblestones2
+arch desert
 x 9
 y 23
 end
@@ -1852,11 +1860,11 @@ arch cobblestones2
 x 9
 y 24
 end
-arch wwall_2_1_2
+arch beigemarblewall_1_4
 x 9
 y 24
 end
-arch cobblestones2
+arch desert
 x 9
 y 25
 end
@@ -1864,7 +1872,7 @@ arch air_elemental
 x 9
 y 25
 end
-arch cobblestones2
+arch desert
 x 9
 y 26
 end
@@ -1872,15 +1880,15 @@ arch cobblestones2
 x 9
 y 27
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 9
 y 28
 end
-arch cobblestones2
+arch desert
 x 9
 y 29
 end
-arch cobblestones2
+arch desert
 x 9
 y 30
 end
@@ -1892,7 +1900,7 @@ arch cobblestones2
 x 9
 y 32
 end
-arch wwall_2_1_2
+arch ltbeigemarblewall_4
 x 9
 y 32
 end
@@ -1902,27 +1910,27 @@ end
 arch wwall_2_1_2
 x 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 6
 end
@@ -1930,7 +1938,7 @@ arch fire_elemental
 x 10
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 7
 end
@@ -1938,15 +1946,15 @@ arch cobblestones2
 x 10
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 10
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 10
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 11
 end
@@ -1954,11 +1962,11 @@ arch wwall_2_1_1
 x 10
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 10
 y 13
 end
@@ -1966,7 +1974,7 @@ arch wwall_2_1_2
 x 10
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 14
 end
@@ -1974,7 +1982,7 @@ arch fire_elemental
 x 10
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 10
 y 15
 end
@@ -1986,7 +1994,7 @@ arch wwall_2_1_2
 x 10
 y 16
 end
-arch cobblestones2
+arch desert
 x 10
 y 17
 end
@@ -1998,7 +2006,7 @@ arch wwall_2_1_2
 x 10
 y 18
 end
-arch cobblestones2
+arch desert
 x 10
 y 19
 end
@@ -2018,7 +2026,7 @@ arch cobblestones2
 x 10
 y 21
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 10
 y 22
 end
@@ -2026,23 +2034,23 @@ arch wwall_2_1_2
 x 10
 y 22
 end
-arch cobblestones2
+arch desert
 x 10
 y 23
 end
-arch cobblestones2
+arch desert
 x 10
 y 24
 end
-arch wwall_1_3
+arch beigemarblewall_1_4
 x 10
 y 24
 end
-arch cobblestones2
+arch desert
 x 10
 y 25
 end
-arch cobblestones2
+arch desert
 x 10
 y 26
 end
@@ -2054,19 +2062,19 @@ arch air_elemental
 x 10
 y 27
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 10
 y 28
 end
-arch cobblestones2
+arch desert
 x 10
 y 29
 end
-arch cobblestones2
+arch desert
 x 10
 y 30
 end
-arch cobblestones2
+arch desert
 x 10
 y 31
 end
@@ -2096,19 +2104,19 @@ arch para_fire
 x 11
 y 1
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 11
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 4
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 11
 y 4
 end
@@ -2140,7 +2148,7 @@ arch wwall_2_1_1
 x 11
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 11
 y 9
 end
@@ -2148,19 +2156,19 @@ arch wwall_2_1_1
 x 11
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 11
 y 13
 end
@@ -2168,7 +2176,7 @@ arch wwall_2_1_2
 x 11
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 11
 y 14
 end
@@ -2184,7 +2192,7 @@ arch wwall_2_1_2
 x 11
 y 16
 end
-arch cobblestones2
+arch desert
 x 11
 y 17
 end
@@ -2200,7 +2208,7 @@ arch wwall_2_1_2
 x 11
 y 18
 end
-arch cobblestones2
+arch desert
 x 11
 y 19
 end
@@ -2208,7 +2216,7 @@ arch air_elemental
 x 11
 y 19
 end
-arch cobblestones2
+arch desert
 x 11
 y 20
 end
@@ -2216,7 +2224,7 @@ arch cobblestones2
 x 11
 y 21
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 11
 y 22
 end
@@ -2224,7 +2232,7 @@ arch wwall_1_3
 x 11
 y 22
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 11
 y 23
 end
@@ -2232,7 +2240,7 @@ arch para_air
 x 11
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 11
 y 24
 end
@@ -2240,7 +2248,7 @@ arch cobblestones2
 x 11
 y 25
 end
-arch cobblestones2
+arch desert
 x 11
 y 26
 end
@@ -2248,11 +2256,11 @@ arch air_elemental
 x 11
 y 26
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 11
 y 27
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 11
 y 28
 end
@@ -2260,11 +2268,11 @@ arch cobblestones2
 x 11
 y 29
 end
-arch cobblestones2
+arch desert
 x 11
 y 30
 end
-arch cobblestones2
+arch desert
 x 11
 y 31
 end
@@ -2282,27 +2290,27 @@ end
 arch wwall_2_1_2
 x 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 1
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 2
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 3
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 12
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 5
 end
@@ -2318,11 +2326,11 @@ arch cobblestones2
 x 12
 y 8
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 10
 end
@@ -2330,7 +2338,7 @@ arch rune_summon_fire_elemental
 x 12
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 11
 end
@@ -2338,7 +2346,7 @@ arch wwall_2_1_1
 x 12
 y 11
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 12
 end
@@ -2346,7 +2354,7 @@ arch wwall_2_1_1
 x 12
 y 12
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 12
 y 13
 end
@@ -2354,7 +2362,7 @@ arch wwall_2_2_4
 x 12
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 14
 end
@@ -2362,7 +2370,7 @@ arch fire_elemental
 x 12
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 12
 y 15
 end
@@ -2374,7 +2382,7 @@ arch wwall_2_1_2
 x 12
 y 16
 end
-arch cobblestones2
+arch desert
 x 12
 y 17
 end
@@ -2394,11 +2402,11 @@ arch air_elemental
 x 12
 y 19
 end
-arch cobblestones2
+arch desert
 x 12
 y 20
 end
-arch cobblestones2
+arch desert
 x 12
 y 21
 end
@@ -2406,35 +2414,35 @@ arch air_elemental
 x 12
 y 21
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 12
 y 22
 end
-arch cobblestones2
+arch desert
 x 12
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 12
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 12
 y 25
 end
-arch cobblestones2
+arch desert
 x 12
 y 26
 end
-arch cobblestones2
+arch desert
 x 12
 y 27
 end
-arch cobblestones2
+arch desert
 x 12
 y 28
 end
-arch cobblestones2
+arch desert
 x 12
 y 29
 end
@@ -2442,7 +2450,7 @@ arch air_elemental
 x 12
 y 29
 end
-arch cobblestones2
+arch desert
 x 12
 y 30
 end
@@ -2464,19 +2472,19 @@ end
 arch wwall_2_1_2
 x 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 1
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 13
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 3
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 4
 end
@@ -2484,11 +2492,11 @@ arch fire_elemental
 x 13
 y 4
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 5
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 6
 end
@@ -2496,11 +2504,11 @@ arch fire_elemental
 x 13
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 7
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 13
 y 8
 end
@@ -2516,15 +2524,15 @@ arch wwall_2_1_1
 x 13
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 13
 y 10
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 13
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 13
 y 11
 end
@@ -2532,11 +2540,11 @@ arch fire_elemental
 x 13
 y 11
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 13
 end
@@ -2544,11 +2552,11 @@ arch rune_summon_fire_elemental
 x 13
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 13
 y 15
 end
@@ -2560,7 +2568,7 @@ arch wwall_2_1_2
 x 13
 y 16
 end
-arch cobblestones2
+arch desert
 x 13
 y 17
 end
@@ -2588,7 +2596,7 @@ arch cobblestones2
 x 13
 y 20
 end
-arch cobblestones2
+arch desert
 x 13
 y 21
 end
@@ -2596,15 +2604,15 @@ arch air_elemental
 x 13
 y 21
 end
-arch cobblestones2
+arch desert
 x 13
 y 22
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 13
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 13
 y 24
 end
@@ -2612,11 +2620,11 @@ arch air_elemental
 x 13
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_113
 x 13
 y 25
 end
-arch cobblestones2
+arch desert
 x 13
 y 26
 end
@@ -2624,11 +2632,11 @@ arch para_air
 x 13
 y 26
 end
-arch cobblestones2
+arch desert
 x 13
 y 27
 end
-arch cobblestones2
+arch desert
 x 13
 y 28
 end
@@ -2640,7 +2648,7 @@ arch cobblestones2
 x 13
 y 30
 end
-arch cobblestones2
+arch desert
 x 13
 y 31
 end
@@ -2658,23 +2666,23 @@ end
 arch wwall_2_1_2
 x 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 2
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 3
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 14
 y 4
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 14
 y 4
 end
@@ -2682,7 +2690,7 @@ arch cobblestones2
 x 14
 y 5
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 14
 y 5
 end
@@ -2694,11 +2702,11 @@ arch cobblestones2
 x 14
 y 7
 end
-arch wwall_2_1_1
+arch redmarblewall_1_2
 x 14
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 8
 end
@@ -2706,27 +2714,27 @@ arch cobblestones2
 x 14
 y 9
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 14
 y 10
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 14
 y 11
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 14
 y 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 13
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 14
 y 14
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 14
 y 15
 end
@@ -2738,23 +2746,23 @@ arch wwall_2_1_2
 x 14
 y 16
 end
-arch cobblestones2
+arch desert
 x 14
 y 17
 end
-arch cobblestones2
+arch desert
 x 14
 y 18
 end
-arch cobblestones2
+arch desert
 x 14
 y 19
 end
-arch cobblestones2
+arch desert
 x 14
 y 20
 end
-arch cobblestones2
+arch desert
 x 14
 y 21
 end
@@ -2766,23 +2774,23 @@ arch para_air
 x 14
 y 22
 end
-arch cobblestones2
+arch desert
 x 14
 y 23
 end
-arch cobblestones2
+arch desert
 x 14
 y 24
 end
-arch cobblestones2
+arch desert
 x 14
 y 25
 end
-arch cobblestones2
+arch desert
 x 14
 y 26
 end
-arch cobblestones2
+arch desert
 x 14
 y 27
 end
@@ -2794,15 +2802,15 @@ arch air_elemental
 x 14
 y 28
 end
-arch cobblestones2
+arch desert
 x 14
 y 29
 end
-arch cobblestones2
+arch desert
 x 14
 y 30
 end
-arch cobblestones2
+arch desert
 x 14
 y 31
 end
@@ -2814,13 +2822,13 @@ arch wwall_2_1_2
 x 14
 y 32
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 end
 arch wwall_2_1_2
 x 15
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 1
 end
@@ -2828,15 +2836,15 @@ arch fire_elemental
 x 15
 y 1
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 2
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 15
 y 3
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 15
 y 4
 end
@@ -2852,11 +2860,11 @@ arch wwall_2_1_1
 x 15
 y 6
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 7
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 8
 end
@@ -2864,27 +2872,27 @@ arch para_fire
 x 15
 y 8
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 9
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 10
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 11
 end
-arch cobblestones2
+arch white-green-x-marble_114
 x 15
 y 12
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 13
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 15
 y 14
 end
@@ -2904,7 +2912,7 @@ arch wwall_2_1_2
 x 15
 y 16
 end
-arch cobblestones2
+arch desert
 x 15
 y 17
 end
@@ -2912,11 +2920,11 @@ arch chest
 x 15
 y 17
 end
-arch cobblestones2
+arch desert
 x 15
 y 18
 end
-arch cobblestones2
+arch desert
 x 15
 y 19
 end
@@ -2924,27 +2932,27 @@ arch air_elemental
 x 15
 y 19
 end
-arch cobblestones2
+arch desert
 x 15
 y 20
 end
-arch cobblestones2
+arch desert
 x 15
 y 21
 end
-arch cobblestones2
+arch desert
 x 15
 y 22
 end
-arch cobblestones2
+arch desert
 x 15
 y 23
 end
-arch cobblestones2
+arch desert
 x 15
 y 24
 end
-arch cobblestones2
+arch desert
 x 15
 y 25
 end
@@ -2952,19 +2960,19 @@ arch air_elemental
 x 15
 y 25
 end
-arch cobblestones2
+arch desert
 x 15
 y 26
 end
-arch cobblestones2
+arch desert
 x 15
 y 27
 end
-arch cobblestones2
+arch desert
 x 15
 y 28
 end
-arch cobblestones2
+arch desert
 x 15
 y 29
 end
@@ -2994,7 +3002,7 @@ end
 arch wwall_3_3
 x 16
 end
-arch cobblestones2
+arch blacklostlabfloor
 x 16
 y 1
 end
@@ -3296,7 +3304,7 @@ arch water_elemental
 x 17
 y 8
 end
-arch cobblestones2
+arch moss
 x 17
 y 9
 end
@@ -3320,11 +3328,11 @@ arch cobblestones2
 x 17
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 17
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 17
 y 15
 end
@@ -3340,7 +3348,7 @@ arch wwall_2_1_2
 x 17
 y 16
 end
-arch cobblestones2
+arch earth
 x 17
 y 17
 end
@@ -3348,47 +3356,47 @@ arch chest
 x 17
 y 17
 end
-arch cobblestones2
+arch earth
 x 17
 y 18
 end
-arch cobblestones2
+arch earth
 x 17
 y 19
 end
-arch cobblestones2
+arch earth
 x 17
 y 20
 end
-arch cobblestones2
+arch earth
 x 17
 y 21
 end
-arch cobblestones2
+arch earth
 x 17
 y 22
 end
-arch cobblestones2
+arch earth
 x 17
 y 23
 end
-arch cobblestones2
+arch earth
 x 17
 y 24
 end
-arch cobblestones2
+arch earth
 x 17
 y 25
 end
-arch cobblestones2
+arch earth
 x 17
 y 26
 end
-arch cobblestones2
+arch earth
 x 17
 y 27
 end
-arch cobblestones2
+arch earth
 x 17
 y 28
 end
@@ -3396,19 +3404,19 @@ arch para_earth
 x 17
 y 28
 end
-arch cobblestones2
+arch earth
 x 17
 y 29
 end
-arch cobblestones2
+arch earth
 x 17
 y 30
 end
-arch cobblestones2
+arch earth
 x 17
 y 31
 end
-arch cobblestones2
+arch earth
 x 17
 y 32
 end
@@ -3426,19 +3434,19 @@ arch cobblestones2
 x 18
 y 1
 end
-arch cobblestones2
+arch moss
 x 18
 y 2
 end
-arch cobblestones2
+arch moss
 x 18
 y 3
 end
-arch cobblestones2
+arch moss
 x 18
 y 4
 end
-arch cobblestones2
+arch moss
 x 18
 y 5
 end
@@ -3446,11 +3454,11 @@ arch water_elemental
 x 18
 y 5
 end
-arch cobblestones2
+arch moss
 x 18
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 7
 end
@@ -3458,27 +3466,27 @@ arch cobblestones2
 x 18
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 9
 end
-arch cobblestones2
+arch moss
 x 18
 y 10
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 11
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 14
 end
@@ -3486,7 +3494,7 @@ arch rune_summon_water_elemental
 x 18
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 18
 y 15
 end
@@ -3498,19 +3506,19 @@ arch wwall_2_1_2
 x 18
 y 16
 end
-arch cobblestones2
+arch earth
 x 18
 y 17
 end
-arch cobblestones2
+arch earth
 x 18
 y 18
 end
-arch cobblestones2
+arch earth
 x 18
 y 19
 end
-arch cobblestones2
+arch earth
 x 18
 y 20
 end
@@ -3518,7 +3526,7 @@ arch earth_elemental
 x 18
 y 20
 end
-arch cobblestones2
+arch earth
 x 18
 y 21
 end
@@ -3526,7 +3534,7 @@ arch wwall_2_1_1
 x 18
 y 21
 end
-arch cobblestones2
+arch earth
 x 18
 y 22
 end
@@ -3534,11 +3542,11 @@ arch wwall_2_1_2
 x 18
 y 22
 end
-arch cobblestones2
+arch earth
 x 18
 y 23
 end
-arch cobblestones2
+arch earth
 x 18
 y 24
 end
@@ -3546,27 +3554,27 @@ arch earth_elemental
 x 18
 y 24
 end
-arch cobblestones2
+arch earth
 x 18
 y 25
 end
-arch cobblestones2
+arch earth
 x 18
 y 26
 end
-arch cobblestones2
+arch earth
 x 18
 y 27
 end
-arch cobblestones2
+arch earth
 x 18
 y 28
 end
-arch cobblestones2
+arch earth
 x 18
 y 29
 end
-arch cobblestones2
+arch earth
 x 18
 y 30
 end
@@ -3574,11 +3582,11 @@ arch rune_summon_earth_elemental
 x 18
 y 30
 end
-arch cobblestones2
+arch earth
 x 18
 y 31
 end
-arch cobblestones2
+arch earth
 x 18
 y 32
 end
@@ -3592,19 +3600,19 @@ end
 arch wwall_2_1_2
 x 19
 end
-arch cobblestones2
+arch moss
 x 19
 y 1
 end
-arch cobblestones2
+arch moss
 x 19
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 19
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 19
 y 4
 end
@@ -3620,23 +3628,23 @@ arch cobblestones2
 x 19
 y 6
 end
-arch cobblestones2
+arch moss
 x 19
 y 7
 end
-arch cobblestones2
+arch moss
 x 19
 y 8
 end
-arch cobblestones2
+arch moss
 x 19
 y 9
 end
-arch cobblestones2
+arch moss
 x 19
 y 10
 end
-arch cobblestones2
+arch moss
 x 19
 y 11
 end
@@ -3652,11 +3660,11 @@ arch para_water
 x 19
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 19
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 19
 y 15
 end
@@ -3668,7 +3676,7 @@ arch wwall_2_1_2
 x 19
 y 16
 end
-arch cobblestones2
+arch earth
 x 19
 y 17
 end
@@ -3676,15 +3684,15 @@ arch earth_elemental
 x 19
 y 17
 end
-arch cobblestones2
+arch earth
 x 19
 y 18
 end
-arch cobblestones2
+arch earth
 x 19
 y 19
 end
-arch cobblestones2
+arch earth
 x 19
 y 20
 end
@@ -3692,7 +3700,7 @@ arch wwall_2_1_2
 x 19
 y 20
 end
-arch cobblestones2
+arch earth
 x 19
 y 21
 end
@@ -3700,7 +3708,7 @@ arch rune_summon_earth_elemental
 x 19
 y 21
 end
-arch cobblestones2
+arch earth
 x 19
 y 22
 end
@@ -3708,19 +3716,19 @@ arch wwall_2_1_2
 x 19
 y 22
 end
-arch cobblestones2
+arch earth
 x 19
 y 23
 end
-arch cobblestones2
+arch earth
 x 19
 y 24
 end
-arch cobblestones2
+arch earth
 x 19
 y 25
 end
-arch cobblestones2
+arch earth
 x 19
 y 26
 end
@@ -3728,27 +3736,27 @@ arch para_earth
 x 19
 y 26
 end
-arch cobblestones2
+arch earth
 x 19
 y 27
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 19
 y 28
 end
-arch cobblestones2
+arch earth
 x 19
 y 29
 end
-arch cobblestones2
+arch earth
 x 19
 y 30
 end
-arch cobblestones2
+arch earth
 x 19
 y 31
 end
-arch cobblestones2
+arch earth
 x 19
 y 32
 end
@@ -3762,15 +3770,15 @@ end
 arch wwall_2_1_2
 x 20
 end
-arch cobblestones2
+arch moss
 x 20
 y 1
 end
-arch cobblestones2
+arch moss
 x 20
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 20
 y 3
 end
@@ -3778,11 +3786,11 @@ arch wwall_1_4
 x 20
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 20
 y 4
 end
-arch cobblestones2
+arch lostlabfloor4
 x 20
 y 5
 end
@@ -3790,15 +3798,15 @@ arch wwall_1_4
 x 20
 y 5
 end
-arch cobblestones2
+arch moss
 x 20
 y 6
 end
-arch cobblestones2
+arch moss
 x 20
 y 7
 end
-arch cobblestones2
+arch moss
 x 20
 y 8
 end
@@ -3810,23 +3818,23 @@ arch water_elemental
 x 20
 y 9
 end
-arch cobblestones2
+arch moss
 x 20
 y 10
 end
-arch cobblestones2
+arch moss
 x 20
 y 11
 end
-arch cobblestones2
+arch moss
 x 20
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 20
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 20
 y 14
 end
@@ -3846,19 +3854,19 @@ arch wwall_2_1_2
 x 20
 y 16
 end
-arch cobblestones2
+arch earth
 x 20
 y 17
 end
-arch cobblestones2
+arch earth
 x 20
 y 18
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 20
 y 19
 end
-arch cobblestones2
+arch earth
 x 20
 y 20
 end
@@ -3866,15 +3874,15 @@ arch wwall_2_1_2
 x 20
 y 20
 end
-arch cobblestones2
+arch earth
 x 20
 y 21
 end
-arch cobblestones2
+arch earth
 x 20
 y 22
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 20
 y 23
 end
@@ -3882,23 +3890,23 @@ arch wwall_2_1_2
 x 20
 y 23
 end
-arch cobblestones2
+arch earth
 x 20
 y 24
 end
-arch cobblestones2
+arch earth
 x 20
 y 25
 end
-arch cobblestones2
+arch earth
 x 20
 y 26
 end
-arch cobblestones2
+arch earth
 x 20
 y 27
 end
-arch cobblestones2
+arch earth
 x 20
 y 28
 end
@@ -3906,7 +3914,7 @@ arch wwall_2_1_1
 x 20
 y 28
 end
-arch cobblestones2
+arch earth
 x 20
 y 29
 end
@@ -3914,7 +3922,7 @@ arch wwall_2_1_1
 x 20
 y 29
 end
-arch cobblestones2
+arch earth
 x 20
 y 30
 end
@@ -3922,11 +3930,11 @@ arch wwall_2_2_1
 x 20
 y 30
 end
-arch cobblestones2
+arch earth
 x 20
 y 31
 end
-arch cobblestones2
+arch earth
 x 20
 y 32
 end
@@ -3940,11 +3948,11 @@ end
 arch wwall_2_1_2
 x 21
 end
-arch cobblestones2
+arch moss
 x 21
 y 1
 end
-arch cobblestones2
+arch moss
 x 21
 y 2
 end
@@ -3952,15 +3960,15 @@ arch wwall_1_4
 x 21
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 21
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 21
 y 4
 end
-arch cobblestones2
+arch lostlabfloor4
 x 21
 y 5
 end
@@ -3968,7 +3976,7 @@ arch para_water
 x 21
 y 5
 end
-arch cobblestones2
+arch moss
 x 21
 y 6
 end
@@ -3976,7 +3984,7 @@ arch wwall_1_4
 x 21
 y 6
 end
-arch cobblestones2
+arch moss
 x 21
 y 7
 end
@@ -3984,15 +3992,15 @@ arch water_elemental
 x 21
 y 7
 end
-arch cobblestones2
+arch moss
 x 21
 y 8
 end
-arch cobblestones2
+arch moss
 x 21
 y 9
 end
-arch cobblestones2
+arch moss
 x 21
 y 10
 end
@@ -4004,7 +4012,7 @@ arch cobblestones2
 x 21
 y 11
 end
-arch cobblestones2
+arch moss
 x 21
 y 12
 end
@@ -4020,7 +4028,7 @@ arch wwall_2_1_1
 x 21
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 21
 y 14
 end
@@ -4040,11 +4048,11 @@ arch wwall_2_1_2
 x 21
 y 16
 end
-arch cobblestones2
+arch earth
 x 21
 y 17
 end
-arch cobblestones2
+arch earth
 x 21
 y 18
 end
@@ -4052,11 +4060,11 @@ arch para_earth
 x 21
 y 18
 end
-arch cobblestones2
+arch earth
 x 21
 y 19
 end
-arch cobblestones2
+arch earth
 x 21
 y 20
 end
@@ -4064,31 +4072,27 @@ arch wwall_2_1_2
 x 21
 y 20
 end
-arch cobblestones2
+arch earth
 x 21
 y 21
 end
-arch cobblestones2
+arch earth
 x 21
 y 22
 end
-arch cobblestones2
+arch earth
 x 21
 y 23
 end
-arch cobblestones2
+arch mosscliff1
 x 21
 y 24
 end
-arch wwall_2_1_1
-x 21
-y 24
-end
-arch cobblestones2
+arch earth
 x 21
 y 25
 end
-arch cobblestones2
+arch earth
 x 21
 y 26
 end
@@ -4096,7 +4100,7 @@ arch wwall_2_1_1
 x 21
 y 26
 end
-arch cobblestones2
+arch earth
 x 21
 y 27
 end
@@ -4104,15 +4108,15 @@ arch wwall_2_1_1
 x 21
 y 27
 end
-arch cobblestones2
+arch earth
 x 21
 y 28
 end
-arch cobblestones2
+arch earth
 x 21
 y 29
 end
-arch cobblestones2
+arch earth
 x 21
 y 30
 end
@@ -4120,11 +4124,11 @@ arch wwall_2_1_2
 x 21
 y 30
 end
-arch cobblestones2
+arch earth
 x 21
 y 31
 end
-arch cobblestones2
+arch earth
 x 21
 y 32
 end
@@ -4138,7 +4142,7 @@ end
 arch wwall_2_1_2
 x 22
 end
-arch cobblestones2
+arch moss
 x 22
 y 1
 end
@@ -4146,7 +4150,7 @@ arch para_water
 x 22
 y 1
 end
-arch cobblestones2
+arch moss
 x 22
 y 2
 end
@@ -4174,27 +4178,27 @@ arch cobblestones2
 x 22
 y 6
 end
-arch cobblestones2
+arch moss
 x 22
 y 7
 end
-arch wwall_2_1_1
+arch mbluemarblewall_1_2
 x 22
 y 7
 end
-arch cobblestones2
+arch moss
 x 22
 y 8
 end
-arch wwall_2_1_1
+arch mbluemarblewall_1_2
 x 22
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 22
 y 9
 end
-arch cobblestones2
+arch moss
 x 22
 y 10
 end
@@ -4206,7 +4210,7 @@ arch wwall_2_1_1
 x 22
 y 11
 end
-arch cobblestones2
+arch moss
 x 22
 y 12
 end
@@ -4222,7 +4226,7 @@ arch rune_summon_water_elemental
 x 22
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 22
 y 14
 end
@@ -4242,15 +4246,15 @@ arch wwall_2_1_2
 x 22
 y 16
 end
-arch cobblestones2
+arch earth
 x 22
 y 17
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 22
 y 18
 end
-arch cobblestones2
+arch earth
 x 22
 y 19
 end
@@ -4258,7 +4262,7 @@ arch rune_summon_earth_elemental
 x 22
 y 19
 end
-arch cobblestones2
+arch earth
 x 22
 y 20
 end
@@ -4266,19 +4270,19 @@ arch wwall_2_2_4
 x 22
 y 20
 end
-arch cobblestones2
+arch earth
 x 22
 y 21
 end
-arch cobblestones2
+arch earth
 x 22
 y 22
 end
-arch cobblestones2
+arch earth
 x 22
 y 23
 end
-arch cobblestones2
+arch earth
 x 22
 y 24
 end
@@ -4286,7 +4290,7 @@ arch para_earth
 x 22
 y 24
 end
-arch cobblestones2
+arch earth
 x 22
 y 25
 end
@@ -4294,7 +4298,7 @@ arch wwall_2_1_1
 x 22
 y 25
 end
-arch cobblestones2
+arch earth
 x 22
 y 26
 end
@@ -4302,19 +4306,19 @@ arch earth_elemental
 x 22
 y 26
 end
-arch cobblestones2
+arch earth
 x 22
 y 27
 end
-arch cobblestones2
+arch earth
 x 22
 y 28
 end
-arch cobblestones2
+arch earth
 x 22
 y 29
 end
-arch cobblestones2
+arch earth
 x 22
 y 30
 end
@@ -4322,11 +4326,11 @@ arch para_earth
 x 22
 y 30
 end
-arch cobblestones2
+arch earth
 x 22
 y 31
 end
-arch cobblestones2
+arch earth
 x 22
 y 32
 end
@@ -4337,30 +4341,30 @@ end
 arch cobblestones2
 x 23
 end
-arch wwall_2_1_2
+arch mbluemarblewall_4
 x 23
 end
-arch cobblestones2
+arch moss
 x 23
 y 1
 end
-arch cobblestones2
+arch moss
 x 23
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 3
 end
-arch wwall_1_4
+arch mbluemarblewall_1_4
 x 23
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 4
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 5
 end
@@ -4368,7 +4372,7 @@ arch wwall_2_1_1
 x 23
 y 5
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 6
 end
@@ -4376,15 +4380,15 @@ arch wwall_2_1_1
 x 23
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 9
 end
@@ -4392,7 +4396,7 @@ arch wwall_2_1_1
 x 23
 y 9
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 10
 end
@@ -4404,15 +4408,15 @@ arch cobblestones2
 x 23
 y 11
 end
-arch cobblestones2
+arch moss
 x 23
 y 12
 end
-arch cobblestones2
+arch moss
 x 23
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 14
 end
@@ -4420,7 +4424,7 @@ arch wwall_2_1_2
 x 23
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 23
 y 15
 end
@@ -4436,15 +4440,15 @@ arch wwall_2_1_2
 x 23
 y 16
 end
-arch cobblestones2
+arch earth
 x 23
 y 17
 end
-arch cobblestones2
+arch earth
 x 23
 y 18
 end
-arch cobblestones2
+arch earth
 x 23
 y 19
 end
@@ -4452,19 +4456,19 @@ arch wwall_2_1_2
 x 23
 y 19
 end
-arch cobblestones2
+arch earth
 x 23
 y 20
 end
-arch cobblestones2
+arch earth
 x 23
 y 21
 end
-arch cobblestones2
+arch earth
 x 23
 y 22
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 23
 y 23
 end
@@ -4472,19 +4476,19 @@ arch earth_elemental
 x 23
 y 23
 end
-arch cobblestones2
+arch earth
 x 23
 y 24
 end
-arch cobblestones2
+arch earth
 x 23
 y 25
 end
-arch cobblestones2
+arch earth
 x 23
 y 26
 end
-arch cobblestones2
+arch earth
 x 23
 y 27
 end
@@ -4492,11 +4496,11 @@ arch para_earth
 x 23
 y 27
 end
-arch cobblestones2
+arch earth
 x 23
 y 28
 end
-arch cobblestones2
+arch earth
 x 23
 y 29
 end
@@ -4504,15 +4508,15 @@ arch wwall_2_1_1
 x 23
 y 29
 end
-arch cobblestones2
+arch earth
 x 23
 y 30
 end
-arch cobblestones2
+arch earth
 x 23
 y 31
 end
-arch cobblestones2
+arch earth
 x 23
 y 32
 end
@@ -4533,23 +4537,23 @@ arch cobblestones2
 x 24
 y 1
 end
-arch cobblestones2
+arch moss
 x 24
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 3
 end
-arch wwall_2_1_2
+arch mbluemarblewall_1_4
 x 24
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 4
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 5
 end
@@ -4557,11 +4561,11 @@ arch water_elemental
 x 24
 y 5
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 7
 end
@@ -4569,11 +4573,11 @@ arch para_water
 x 24
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 9
 end
@@ -4581,15 +4585,15 @@ arch water_elemental
 x 24
 y 9
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 10
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 11
 end
-arch cobblestones2
+arch moss
 x 24
 y 12
 end
@@ -4597,7 +4601,7 @@ arch wwall_2_1_1
 x 24
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 13
 end
@@ -4605,7 +4609,7 @@ arch wwall_2_1_1
 x 24
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 14
 end
@@ -4613,7 +4617,7 @@ arch wwall_2_1_2
 x 24
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 24
 y 15
 end
@@ -4629,7 +4633,7 @@ arch wwall_2_1_2
 x 24
 y 16
 end
-arch cobblestones2
+arch earth
 x 24
 y 17
 end
@@ -4637,7 +4641,7 @@ arch random_wealth
 x 24
 y 17
 end
-arch cobblestones2
+arch earth
 x 24
 y 18
 end
@@ -4645,7 +4649,7 @@ arch wwall_2_1_2
 x 24
 y 18
 end
-arch cobblestones2
+arch earth
 x 24
 y 19
 end
@@ -4653,11 +4657,11 @@ arch earth_elemental
 x 24
 y 19
 end
-arch cobblestones2
+arch earth
 x 24
 y 20
 end
-arch cobblestones2
+arch earth
 x 24
 y 21
 end
@@ -4665,27 +4669,27 @@ arch para_earth
 x 24
 y 21
 end
-arch cobblestones2
+arch earth
 x 24
 y 22
 end
-arch cobblestones2
+arch earth
 x 24
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 24
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 24
 y 25
 end
-arch cobblestones2
+arch earth
 x 24
 y 26
 end
-arch cobblestones2
+arch earth
 x 24
 y 27
 end
@@ -4693,7 +4697,7 @@ arch para_earth
 x 24
 y 27
 end
-arch cobblestones2
+arch earth
 x 24
 y 28
 end
@@ -4701,15 +4705,15 @@ arch wwall_2_1_1
 x 24
 y 28
 end
-arch cobblestones2
+arch earth
 x 24
 y 29
 end
-arch cobblestones2
+arch earth
 x 24
 y 30
 end
-arch cobblestones2
+arch earth
 x 24
 y 31
 end
@@ -4727,30 +4731,30 @@ end
 arch cobblestones2
 x 25
 end
-arch wwall_2_1_2
+arch mbluemarblewall_4
 x 25
 end
 arch cobblestones2
 x 25
 y 1
 end
-arch cobblestones2
+arch moss
 x 25
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 3
 end
-arch wwall_1_3
+arch mbluemarblewall_1_4
 x 25
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 4
 end
-arch cobblestones2
+arch moss
 x 25
 y 5
 end
@@ -4766,7 +4770,7 @@ arch wwall_2_1_1
 x 25
 y 7
 end
-arch cobblestones2
+arch moss
 x 25
 y 8
 end
@@ -4774,7 +4778,7 @@ arch wwall_2_1_1
 x 25
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 9
 end
@@ -4782,11 +4786,11 @@ arch wwall_2_1_1
 x 25
 y 9
 end
-arch cobblestones2
+arch moss
 x 25
 y 10
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 11
 end
@@ -4794,7 +4798,7 @@ arch wwall_2_1_1
 x 25
 y 11
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 12
 end
@@ -4802,11 +4806,11 @@ arch wwall_2_1_1
 x 25
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 14
 end
@@ -4814,7 +4818,7 @@ arch wwall_2_1_2
 x 25
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 25
 y 15
 end
@@ -4826,15 +4830,15 @@ arch wwall_2_1_2
 x 25
 y 16
 end
-arch cobblestones2
+arch earth
 x 25
 y 17
 end
-arch cobblestones2
+arch earth
 x 25
 y 18
 end
-arch cobblestones2
+arch earth
 x 25
 y 19
 end
@@ -4842,19 +4846,19 @@ arch wwall_2_1_2
 x 25
 y 19
 end
-arch cobblestones2
+arch earth
 x 25
 y 20
 end
-arch cobblestones2
+arch earth
 x 25
 y 21
 end
-arch cobblestones2
+arch earth
 x 25
 y 22
 end
-arch cobblestones2
+arch earth
 x 25
 y 23
 end
@@ -4862,15 +4866,15 @@ arch earth_elemental
 x 25
 y 23
 end
-arch cobblestones2
+arch earth
 x 25
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 25
 y 25
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 25
 y 26
 end
@@ -4878,7 +4882,7 @@ arch earth_elemental
 x 25
 y 26
 end
-arch cobblestones2
+arch earth
 x 25
 y 27
 end
@@ -4886,15 +4890,15 @@ arch wwall_2_1_2
 x 25
 y 27
 end
-arch cobblestones2
+arch earth
 x 25
 y 28
 end
-arch cobblestones2
+arch earth
 x 25
 y 29
 end
-arch cobblestones2
+arch earth
 x 25
 y 30
 end
@@ -4906,7 +4910,7 @@ arch para_earth
 x 25
 y 31
 end
-arch cobblestones2
+arch earth
 x 25
 y 32
 end
@@ -4928,15 +4932,15 @@ arch para_water
 x 26
 y 1
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 3
 end
-arch cobblestones2
+arch moss
 x 26
 y 4
 end
@@ -4944,11 +4948,11 @@ arch wwall_1_3
 x 26
 y 4
 end
-arch cobblestones2
+arch moss
 x 26
 y 5
 end
-arch cobblestones2
+arch moss
 x 26
 y 6
 end
@@ -4956,31 +4960,31 @@ arch wwall_2_1_1
 x 26
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 8
 end
-arch cobblestones2
+arch moss
 x 26
 y 9
 end
-arch cobblestones2
+arch moss
 x 26
 y 10
 end
-arch cobblestones2
+arch moss
 x 26
 y 11
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 12
 end
-arch cobblestones2
+arch moss
 x 26
 y 13
 end
@@ -4988,7 +4992,7 @@ arch water_elemental
 x 26
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 14
 end
@@ -4996,7 +5000,7 @@ arch wwall_2_1_2
 x 26
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 26
 y 15
 end
@@ -5008,19 +5012,19 @@ arch wwall_2_1_2
 x 26
 y 16
 end
-arch cobblestones2
+arch earth
 x 26
 y 17
 end
-arch cobblestones2
+arch earth
 x 26
 y 18
 end
-arch cobblestones2
+arch earth
 x 26
 y 19
 end
-arch cobblestones2
+arch bosgrass8
 x 26
 y 20
 end
@@ -5028,31 +5032,27 @@ arch wwall_2_2_1
 x 26
 y 20
 end
-arch cobblestones2
+arch earth
 x 26
 y 21
 end
-arch cobblestones2
+arch earth
 x 26
 y 22
 end
-arch cobblestones2
+arch earth
 x 26
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 26
 y 24
 end
-arch cobblestones2
+arch mosscliff1
 x 26
 y 25
 end
-arch wwall_2_1_1
-x 26
-y 25
-end
-arch cobblestones2
+arch white-green-x-marble_112
 x 26
 y 26
 end
@@ -5072,15 +5072,15 @@ arch cobblestones2
 x 26
 y 29
 end
-arch cobblestones2
+arch earth
 x 26
 y 30
 end
-arch cobblestones2
+arch earth
 x 26
 y 31
 end
-arch cobblestones2
+arch earth
 x 26
 y 32
 end
@@ -5094,23 +5094,23 @@ end
 arch wwall_2_1_2
 x 27
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 1
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 2
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 3
 end
-arch cobblestones2
+arch moss
 x 27
 y 4
 end
-arch cobblestones2
+arch moss
 x 27
 y 5
 end
@@ -5118,7 +5118,7 @@ arch wwall_1_3
 x 27
 y 5
 end
-arch cobblestones2
+arch moss
 x 27
 y 6
 end
@@ -5126,7 +5126,7 @@ arch para_water
 x 27
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 7
 end
@@ -5134,7 +5134,7 @@ arch wwall_2_1_1
 x 27
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 8
 end
@@ -5142,7 +5142,7 @@ arch wwall_2_1_1
 x 27
 y 8
 end
-arch cobblestones2
+arch moss
 x 27
 y 9
 end
@@ -5150,15 +5150,15 @@ arch wwall_2_1_1
 x 27
 y 9
 end
-arch cobblestones2
+arch moss
 x 27
 y 10
 end
-arch cobblestones2
+arch moss
 x 27
 y 11
 end
-arch cobblestones2
+arch moss
 x 27
 y 12
 end
@@ -5170,7 +5170,7 @@ arch wwall_2_1_1
 x 27
 y 13
 end
-arch cobblestones2
+arch moss
 x 27
 y 14
 end
@@ -5178,7 +5178,7 @@ arch wwall_2_1_2
 x 27
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 27
 y 15
 end
@@ -5190,11 +5190,11 @@ arch wwall_2_1_2
 x 27
 y 16
 end
-arch cobblestones2
+arch earth
 x 27
 y 17
 end
-arch cobblestones2
+arch earth
 x 27
 y 18
 end
@@ -5202,11 +5202,11 @@ arch para_earth
 x 27
 y 18
 end
-arch cobblestones2
+arch earth
 x 27
 y 19
 end
-arch cobblestones2
+arch earth
 x 27
 y 20
 end
@@ -5214,19 +5214,19 @@ arch wwall_2_1_2
 x 27
 y 20
 end
-arch cobblestones2
+arch bosgrass7
 x 27
 y 21
 end
-arch cobblestones2
+arch earth
 x 27
 y 22
 end
-arch cobblestones2
+arch earth
 x 27
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 27
 y 24
 end
@@ -5234,7 +5234,7 @@ arch wwall_2_1_1
 x 27
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 27
 y 25
 end
@@ -5254,11 +5254,11 @@ arch rune_summon_earth_elemental
 x 27
 y 27
 end
-arch cobblestones2
+arch earth
 x 27
 y 28
 end
-arch cobblestones2
+arch earth
 x 27
 y 29
 end
@@ -5266,7 +5266,7 @@ arch wwall_2_1_1
 x 27
 y 29
 end
-arch cobblestones2
+arch earth
 x 27
 y 30
 end
@@ -5274,7 +5274,7 @@ arch earth_elemental
 x 27
 y 30
 end
-arch cobblestones2
+arch earth
 x 27
 y 31
 end
@@ -5292,19 +5292,19 @@ end
 arch wwall_2_1_2
 x 28
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 1
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 2
 end
-arch cobblestones2
+arch moss
 x 28
 y 3
 end
-arch cobblestones2
+arch moss
 x 28
 y 4
 end
@@ -5316,7 +5316,7 @@ arch cobblestones2
 x 28
 y 5
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 6
 end
@@ -5324,15 +5324,15 @@ arch wwall_1_3
 x 28
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 8
 end
-arch cobblestones2
+arch moss
 x 28
 y 9
 end
@@ -5340,35 +5340,35 @@ arch water_elemental
 x 28
 y 9
 end
-arch cobblestones2
+arch moss
 x 28
 y 10
 end
-arch wwall_2_1_1
+arch mbluemarblewall_1_2
 x 28
 y 10
 end
-arch cobblestones2
+arch moss
 x 28
 y 11
 end
-arch wwall_2_1_1
+arch mbluemarblewall_1_2
 x 28
 y 11
 end
-arch cobblestones2
+arch moss
 x 28
 y 12
 end
-arch wwall_2_1_1
+arch mbluemarblewall_1_2
 x 28
 y 12
 end
-arch cobblestones2
+arch moss
 x 28
 y 13
 end
-arch cobblestones2
+arch moss
 x 28
 y 14
 end
@@ -5376,7 +5376,7 @@ arch wwall_2_2_4
 x 28
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 28
 y 15
 end
@@ -5388,15 +5388,15 @@ arch wwall_2_1_2
 x 28
 y 16
 end
-arch cobblestones2
+arch earth
 x 28
 y 17
 end
-arch cobblestones2
+arch earth
 x 28
 y 18
 end
-arch cobblestones2
+arch earth
 x 28
 y 19
 end
@@ -5404,7 +5404,7 @@ arch rune_summon_earth_elemental
 x 28
 y 19
 end
-arch cobblestones2
+arch earth
 x 28
 y 20
 end
@@ -5412,15 +5412,15 @@ arch wwall_2_1_2
 x 28
 y 20
 end
-arch cobblestones2
+arch earth
 x 28
 y 21
 end
-arch cobblestones2
+arch earth
 x 28
 y 22
 end
-arch cobblestones2
+arch earth
 x 28
 y 23
 end
@@ -5428,19 +5428,19 @@ arch wwall_2_1_2
 x 28
 y 23
 end
-arch cobblestones2
+arch earth
 x 28
 y 24
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 28
 y 25
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 28
 y 26
 end
-arch cobblestones2
+arch earth
 x 28
 y 27
 end
@@ -5448,15 +5448,15 @@ arch wwall_2_1_1
 x 28
 y 27
 end
-arch cobblestones2
+arch earth
 x 28
 y 28
 end
-arch cobblestones2
+arch earth
 x 28
 y 29
 end
-arch cobblestones2
+arch earth
 x 28
 y 30
 end
@@ -5468,7 +5468,7 @@ arch earth_elemental
 x 28
 y 31
 end
-arch cobblestones2
+arch earth
 x 28
 y 32
 end
@@ -5482,19 +5482,22 @@ end
 arch wwall_2_1_2
 x 29
 end
-arch cobblestones2
+arch mbluemarblewall_4
+x 29
+end
+arch lostlabfloor4
 x 29
 y 1
 end
-arch cobblestones2
+arch moss
 x 29
 y 2
 end
-arch cobblestones2
+arch moss
 x 29
 y 3
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 4
 end
@@ -5502,11 +5505,11 @@ arch water_elemental
 x 29
 y 4
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 5
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 6
 end
@@ -5514,7 +5517,7 @@ arch rune_summon_water_elemental
 x 29
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 7
 end
@@ -5522,7 +5525,7 @@ arch wwall_2_1_1
 x 29
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 8
 end
@@ -5530,7 +5533,7 @@ arch wwall_2_1_1
 x 29
 y 8
 end
-arch cobblestones2
+arch moss
 x 29
 y 9
 end
@@ -5538,15 +5541,15 @@ arch wwall_2_1_1
 x 29
 y 9
 end
-arch cobblestones2
+arch moss
 x 29
 y 10
 end
-arch cobblestones2
+arch moss
 x 29
 y 11
 end
-arch cobblestones2
+arch moss
 x 29
 y 12
 end
@@ -5554,7 +5557,7 @@ arch water_elemental
 x 29
 y 12
 end
-arch cobblestones2
+arch moss
 x 29
 y 13
 end
@@ -5562,7 +5565,7 @@ arch wwall_1_3
 x 29
 y 13
 end
-arch cobblestones2
+arch moss
 x 29
 y 14
 end
@@ -5570,7 +5573,7 @@ arch rune_summon_water_elemental
 x 29
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 29
 y 15
 end
@@ -5582,11 +5585,11 @@ arch wwall_2_1_2
 x 29
 y 16
 end
-arch cobblestones2
+arch earth
 x 29
 y 17
 end
-arch cobblestones2
+arch earth
 x 29
 y 18
 end
@@ -5594,11 +5597,11 @@ arch earth_elemental
 x 29
 y 18
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 29
 y 19
 end
-arch cobblestones2
+arch earth
 x 29
 y 20
 end
@@ -5606,7 +5609,7 @@ arch wwall_2_1_2
 x 29
 y 20
 end
-arch cobblestones2
+arch earth
 x 29
 y 21
 end
@@ -5622,19 +5625,19 @@ arch wwall_2_1_2
 x 29
 y 22
 end
-arch cobblestones2
+arch earth
 x 29
 y 23
 end
-arch cobblestones2
+arch earth
 x 29
 y 24
 end
-arch cobblestones2
+arch earth
 x 29
 y 25
 end
-arch cobblestones2
+arch earth
 x 29
 y 26
 end
@@ -5646,7 +5649,7 @@ arch cobblestones2
 x 29
 y 27
 end
-arch cobblestones2
+arch earth
 x 29
 y 28
 end
@@ -5654,11 +5657,11 @@ arch wwall_2_1_1
 x 29
 y 28
 end
-arch cobblestones2
+arch earth
 x 29
 y 29
 end
-arch cobblestones2
+arch earth
 x 29
 y 30
 end
@@ -5666,11 +5669,11 @@ arch wwall_2_1_2
 x 29
 y 30
 end
-arch cobblestones2
+arch earth
 x 29
 y 31
 end
-arch cobblestones2
+arch earth
 x 29
 y 32
 end
@@ -5684,7 +5687,7 @@ end
 arch wwall_2_1_2
 x 30
 end
-arch cobblestones2
+arch lostlabfloor4
 x 30
 y 1
 end
@@ -5692,35 +5695,35 @@ arch cobblestones2
 x 30
 y 2
 end
-arch cobblestones2
+arch moss
 x 30
 y 3
 end
-arch cobblestones2
+arch moss
 x 30
 y 4
 end
-arch cobblestones2
+arch moss
 x 30
 y 5
 end
-arch cobblestones2
+arch lostlabfloor4
 x 30
 y 6
 end
-arch cobblestones2
+arch lostlabfloor4
 x 30
 y 7
 end
-arch cobblestones2
+arch lostlabfloor4
 x 30
 y 8
 end
-arch cobblestones2
+arch moss
 x 30
 y 9
 end
-arch cobblestones2
+arch moss
 x 30
 y 10
 end
@@ -5728,7 +5731,7 @@ arch wwall_2_1_1
 x 30
 y 10
 end
-arch cobblestones2
+arch moss
 x 30
 y 11
 end
@@ -5744,15 +5747,15 @@ arch wwall_2_1_1
 x 30
 y 12
 end
-arch cobblestones2
+arch moss
 x 30
 y 13
 end
-arch cobblestones2
+arch moss
 x 30
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 30
 y 15
 end
@@ -5764,23 +5767,23 @@ arch wwall_2_1_2
 x 30
 y 16
 end
-arch cobblestones2
+arch earth
 x 30
 y 17
 end
-arch cobblestones2
+arch earth
 x 30
 y 18
 end
-arch cobblestones2
+arch earth
 x 30
 y 19
 end
-arch cobblestones2
+arch earth
 x 30
 y 20
 end
-arch cobblestones2
+arch earth
 x 30
 y 21
 end
@@ -5788,7 +5791,7 @@ arch wwall_2_1_1
 x 30
 y 21
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 30
 y 22
 end
@@ -5796,7 +5799,7 @@ arch wwall_2_1_2
 x 30
 y 22
 end
-arch cobblestones2
+arch earth
 x 30
 y 23
 end
@@ -5804,23 +5807,23 @@ arch earth_elemental
 x 30
 y 23
 end
-arch cobblestones2
+arch white-green-x-marble_112
 x 30
 y 24
 end
-arch cobblestones2
+arch earth
 x 30
 y 25
 end
-arch cobblestones2
+arch earth
 x 30
 y 26
 end
-arch cobblestones2
+arch earth
 x 30
 y 27
 end
-arch cobblestones2
+arch earth
 x 30
 y 28
 end
@@ -5828,7 +5831,7 @@ arch earth_elemental
 x 30
 y 28
 end
-arch cobblestones2
+arch earth
 x 30
 y 29
 end
@@ -5836,7 +5839,7 @@ arch wwall_2_1_1
 x 30
 y 29
 end
-arch cobblestones2
+arch earth
 x 30
 y 30
 end
@@ -5844,11 +5847,11 @@ arch wwall_2_2_4
 x 30
 y 30
 end
-arch cobblestones2
+arch earth
 x 30
 y 31
 end
-arch cobblestones2
+arch earth
 x 30
 y 32
 end
@@ -5862,7 +5865,7 @@ end
 arch wwall_2_1_2
 x 31
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 1
 end
@@ -5870,7 +5873,7 @@ arch water_elemental
 x 31
 y 1
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 2
 end
@@ -5878,15 +5881,15 @@ arch cobblestones2
 x 31
 y 3
 end
-arch cobblestones2
+arch moss
 x 31
 y 4
 end
-arch cobblestones2
+arch moss
 x 31
 y 5
 end
-arch cobblestones2
+arch moss
 x 31
 y 6
 end
@@ -5894,11 +5897,11 @@ arch water_elemental
 x 31
 y 6
 end
-arch cobblestones2
+arch moss
 x 31
 y 7
 end
-arch cobblestones2
+arch moss
 x 31
 y 8
 end
@@ -5906,31 +5909,31 @@ arch water_elemental
 x 31
 y 8
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 9
 end
-arch cobblestones2
+arch moss
 x 31
 y 10
 end
-arch cobblestones2
+arch moss
 x 31
 y 11
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 14
 end
-arch cobblestones2
+arch lostlabfloor4
 x 31
 y 15
 end
@@ -5946,7 +5949,7 @@ arch wwall_2_1_2
 x 31
 y 16
 end
-arch cobblestones2
+arch earth
 x 31
 y 17
 end
@@ -5954,31 +5957,31 @@ arch chest
 x 31
 y 17
 end
-arch cobblestones2
+arch earth
 x 31
 y 18
 end
-arch cobblestones2
+arch earth
 x 31
 y 19
 end
-arch cobblestones2
+arch earth
 x 31
 y 20
 end
-arch cobblestones2
+arch earth
 x 31
 y 21
 end
-arch cobblestones2
+arch earth
 x 31
 y 22
 end
-arch cobblestones2
+arch earth
 x 31
 y 23
 end
-arch cobblestones2
+arch earth
 x 31
 y 24
 end
@@ -5986,31 +5989,31 @@ arch para_earth
 x 31
 y 24
 end
-arch cobblestones2
+arch earth
 x 31
 y 25
 end
-arch cobblestones2
+arch earth
 x 31
 y 26
 end
-arch cobblestones2
+arch earth
 x 31
 y 27
 end
-arch cobblestones2
+arch earth
 x 31
 y 28
 end
-arch cobblestones2
+arch earth
 x 31
 y 29
 end
-arch cobblestones2
+arch earth
 x 31
 y 30
 end
-arch cobblestones2
+arch earth
 x 31
 y 31
 end
@@ -6018,7 +6021,7 @@ arch para_earth
 x 31
 y 31
 end
-arch cobblestones2
+arch earth
 x 31
 y 32
 end
@@ -6029,7 +6032,7 @@ end
 arch cobblestones2
 x 32
 end
-arch wwall_2_2_3
+arch mbluemarblewall_4
 x 32
 end
 arch cobblestones2
@@ -6060,7 +6063,7 @@ arch cobblestones2
 x 32
 y 4
 end
-arch wwall_2_1_1
+arch mbluemarblewall_4
 x 32
 y 4
 end
@@ -6092,11 +6095,11 @@ arch cobblestones2
 x 32
 y 8
 end
-arch wwall_2_1_1
+arch mbluemarblewall_4
 x 32
 y 8
 end
-arch cobblestones2
+arch moss
 x 32
 y 9
 end
@@ -6104,7 +6107,7 @@ arch wwall_2_1_1
 x 32
 y 9
 end
-arch cobblestones2
+arch moss
 x 32
 y 10
 end
@@ -6112,7 +6115,7 @@ arch wwall_2_1_1
 x 32
 y 10
 end
-arch cobblestones2
+arch moss
 x 32
 y 11
 end
@@ -6124,11 +6127,11 @@ arch cobblestones2
 x 32
 y 12
 end
-arch wwall_2_1_1
+arch mbluemarblewall_4
 x 32
 y 12
 end
-arch cobblestones2
+arch lostlabfloor4
 x 32
 y 13
 end
@@ -6136,11 +6139,11 @@ arch wwall_2_1_1
 x 32
 y 13
 end
-arch cobblestones2
+arch lostlabfloor4
 x 32
 y 14
 end
-arch wwall_2_1_1
+arch mbluemarblewall_4
 x 32
 y 14
 end
@@ -6188,7 +6191,7 @@ arch cobblestones2
 x 32
 y 20
 end
-arch wwall_2_1_1
+arch ltgreenmarblewall_4
 x 32
 y 20
 end
@@ -6224,6 +6227,10 @@ arch wwall_2_1_1
 x 32
 y 24
 end
+arch ltgreenmarblewall_4
+x 32
+y 24
+end
 arch cobblestones2
 x 32
 y 25
@@ -6256,6 +6263,10 @@ arch wwall_2_1_1
 x 32
 y 28
 end
+arch ltgreenmarblewall_4
+x 32
+y 28
+end
 arch cobblestones2
 x 32
 y 29
@@ -6280,11 +6291,11 @@ arch wwall_2_1_1
 x 32
 y 31
 end
-arch cobblestones2
+arch earth
 x 32
 y 32
 end
-arch wwall_2_2_4
+arch ltgreenmarblewall_4
 x 32
 y 32
 end

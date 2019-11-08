@@ -2,11 +2,15 @@ arch map
 name world_123_109
 width 50
 height 50
+msg
+Modified: 2019-11-07 lori
+endmsg
 outdoor 1
 tile_path_1 world_123_108
 tile_path_2 world_124_109
 tile_path_3 world_123_110
 tile_path_4 world_122_109
+background_music lava02
 end
 arch mountain
 elevation 6482
@@ -3912,12 +3916,12 @@ x 15
 y 43
 elevation 13845
 end
-arch mountain4
+arch blacklostlabfloor
 x 15
 y 44
 elevation 13172
 end
-arch mountain2
+arch blacklostlabfloor
 x 15
 y 45
 elevation 10998
@@ -4156,27 +4160,27 @@ x 16
 y 42
 elevation 11205
 end
-arch mountain4
+arch blacklostlabfloor
 x 16
 y 43
 elevation 12356
 end
-arch mountain4
+arch blacklostlabfloor
 x 16
 y 44
 elevation 13450
 end
-arch mountain4
+arch blacklostlabfloor
 x 16
 y 45
 elevation 13137
 end
-arch mountain2
+arch blacklostlabfloor
 x 16
 y 46
 elevation 10376
 end
-arch mountain
+arch blacklostlabfloor
 x 16
 y 47
 elevation 6007
@@ -4405,32 +4409,32 @@ x 17
 y 42
 elevation 9128
 end
-arch mountain2
+arch blacklostlabfloor
 x 17
 y 43
 elevation 10527
 end
-arch mountain4
+arch blacklostlabfloor
 x 17
 y 44
 elevation 13322
 end
-arch mountain4
+arch blacklostlabfloor
 x 17
 y 45
 elevation 13731
 end
-arch mountain2
+arch blacklostlabfloor
 x 17
 y 46
 elevation 11221
 end
-arch mountain
+arch blacklostlabfloor
 x 17
 y 47
 elevation 6058
 end
-arch grass
+arch blacklostlabfloor
 x 17
 y 48
 elevation 956
@@ -4654,32 +4658,32 @@ x 18
 y 42
 elevation 8101
 end
-arch mountain2
+arch blacklostlabfloor
 x 18
 y 43
 elevation 10963
 end
-arch mountain4
+arch blacklostlabfloor
 x 18
 y 44
 elevation 13012
 end
-arch mountain4
+arch blacklostlabfloor
 x 18
 y 45
 elevation 13528
 end
-arch mountain2
+arch blacklostlabfloor
 x 18
 y 46
 elevation 11127
 end
-arch mountain
+arch blacklostlabfloor
 x 18
 y 47
 elevation 6770
 end
-arch hills
+arch blacklostlabfloor
 x 18
 y 48
 elevation 3270
@@ -4898,32 +4902,32 @@ x 19
 y 41
 elevation 4800
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 42
 elevation 8188
 end
-arch mountain2
+arch blacklostlabfloor
 x 19
 y 43
 elevation 10612
 end
-arch mountain4
+arch blacklostlabfloor
 x 19
 y 44
 elevation 12345
 end
-arch mountain4
+arch blacklostlabfloor
 x 19
 y 45
 elevation 12551
 end
-arch mountain2
+arch blacklostlabfloor
 x 19
 y 46
 elevation 10404
 end
-arch mountain
+arch blacklostlabfloor
 x 19
 y 47
 elevation 7016
@@ -5147,32 +5151,32 @@ x 20
 y 41
 elevation 5165
 end
-arch mountain
+arch blacklostlabfloor
 x 20
 y 42
 elevation 7332
 end
-arch mountain2
+arch blacklostlabfloor
 x 20
 y 43
 elevation 9232
 end
-arch mountain2
+arch blacklostlabfloor
 x 20
 y 44
 elevation 10656
 end
-arch mountain2
+arch blacklostlabfloor
 x 20
 y 45
 elevation 11022
 end
-arch mountain2
+arch blacklostlabfloor
 x 20
 y 46
 elevation 9237
 end
-arch hills_rocky
+arch blacklostlabfloor
 x 20
 y 47
 elevation 4825
@@ -5396,7 +5400,7 @@ x 21
 y 41
 elevation 5191
 end
-arch mountain
+arch blacklostlabfloor
 x 21
 y 42
 elevation 6296
@@ -5406,22 +5410,22 @@ x 21
 y 43
 elevation 4676
 end
-arch mountain
+arch blacklostlabfloor
 x 21
 y 44
 elevation 8447
 end
-arch mountain
+arch blacklostlabfloor
 x 21
 y 45
 elevation 8855
 end
-arch mountain
+arch blacklostlabfloor
 x 21
 y 46
 elevation 7582
 end
-arch mountain
+arch blacklostlabfloor
 x 21
 y 47
 elevation 5944
@@ -5645,32 +5649,32 @@ x 22
 y 41
 elevation 4327
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 42
 elevation 5111
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 43
 elevation 5709
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 44
 elevation 6284
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 45
 elevation 5694
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 46
 elevation 5497
 end
-arch mountain
+arch blacklostlabfloor
 x 22
 y 47
 elevation 5969
@@ -5894,17 +5898,17 @@ x 23
 y 41
 elevation 649
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 42
 elevation 5242
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 43
 elevation 6283
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 44
 elevation 5760
@@ -5914,17 +5918,17 @@ x 23
 y 45
 elevation 2254
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 46
 elevation 5840
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 47
 elevation 6466
 end
-arch mountain
+arch blacklostlabfloor
 x 23
 y 48
 elevation 5419
@@ -6143,17 +6147,17 @@ x 24
 y 41
 elevation 3067
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 42
 elevation 6291
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 43
 elevation 7487
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 44
 elevation 6444
@@ -6163,22 +6167,22 @@ x 24
 y 45
 elevation 4648
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 46
 elevation 6716
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 47
 elevation 7517
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 48
 elevation 7161
 end
-arch mountain
+arch blacklostlabfloor
 x 24
 y 49
 elevation 5436
@@ -6392,42 +6396,42 @@ x 25
 y 41
 elevation 5905
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 42
 elevation 8359
 end
-arch mountain2
+arch blacklostlabfloor
 x 25
 y 43
 elevation 9157
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 44
 elevation 8656
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 45
 elevation 8345
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 46
 elevation 7490
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 47
 elevation 8906
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 48
 elevation 8983
 end
-arch mountain
+arch blacklostlabfloor
 x 25
 y 49
 elevation 7644
@@ -6646,37 +6650,37 @@ x 26
 y 42
 elevation 10490
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 43
 elevation 11535
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 44
 elevation 11389
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 45
 elevation 10673
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 46
 elevation 9072
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 47
 elevation 10620
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 48
 elevation 10713
 end
-arch mountain2
+arch blacklostlabfloor
 x 26
 y 49
 elevation 10007
@@ -6885,47 +6889,47 @@ x 27
 y 40
 elevation 9689
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 41
 elevation 10600
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 42
 elevation 11970
 end
-arch mountain4
+arch blacklostlabfloor
 x 27
 y 43
 elevation 13021
 end
-arch mountain4
+arch blacklostlabfloor
 x 27
 y 44
 elevation 12827
 end
-arch mountain4
+arch blacklostlabfloor
 x 27
 y 45
 elevation 12122
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 46
 elevation 11800
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 47
 elevation 11812
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 48
 elevation 11799
 end
-arch mountain2
+arch blacklostlabfloor
 x 27
 y 49
 elevation 11151
@@ -7129,52 +7133,52 @@ x 28
 y 39
 elevation 10619
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 40
 elevation 11001
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 41
 elevation 11542
 end
-arch mountain4
+arch blacklostlabfloor
 x 28
 y 42
 elevation 12538
 end
-arch mountain4
+arch blacklostlabfloor
 x 28
 y 43
 elevation 13170
 end
-arch mountain4
+arch blacklostlabfloor
 x 28
 y 44
 elevation 12823
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 45
 elevation 11798
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 46
 elevation 11804
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 47
 elevation 11748
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 48
 elevation 11853
 end
-arch mountain2
+arch blacklostlabfloor
 x 28
 y 49
 elevation 11362
@@ -7373,12 +7377,12 @@ x 29
 y 38
 elevation 7897
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 39
 elevation 10866
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 40
 elevation 11023
@@ -7393,37 +7397,37 @@ x 29
 y 42
 elevation 12304
 end
-arch mountain4
+arch blacklostlabfloor
 x 29
 y 43
 elevation 12743
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 44
 elevation 10129
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 45
 elevation 11479
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 46
 elevation 9877
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 47
 elevation 10476
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 48
 elevation 11278
 end
-arch mountain2
+arch blacklostlabfloor
 x 29
 y 49
 elevation 10942
@@ -7587,22 +7591,22 @@ x 30
 y 31
 elevation 8062
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 y 32
 elevation 7375
 end
-arch mountain
+arch blacklostlabfloor
 x 30
 y 33
 elevation 7680
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 34
 elevation 11473
 end
-arch mountain4
+arch blacklostlabfloor
 x 30
 y 35
 elevation 12485
@@ -7622,12 +7626,12 @@ x 30
 y 38
 elevation 10300
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 39
 elevation 10692
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 40
 elevation 10564
@@ -7647,32 +7651,32 @@ x 30
 y 43
 elevation 11966
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 44
 elevation 10774
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 45
 elevation 11135
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 46
 elevation 11085
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 47
 elevation 10486
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 48
 elevation 9942
 end
-arch mountain2
+arch blacklostlabfloor
 x 30
 y 49
 elevation 9773
@@ -7836,47 +7840,47 @@ x 31
 y 31
 elevation 9048
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 32
 elevation 9420
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 33
 elevation 9697
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 34
 elevation 10727
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 35
 elevation 11845
 end
-arch mountain4
+arch blacklostlabfloor
 x 31
 y 36
 elevation 12267
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 37
 elevation 11951
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 38
 elevation 11166
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 39
 elevation 10352
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 40
 elevation 9713
@@ -7901,27 +7905,27 @@ x 31
 y 44
 elevation 9930
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 45
 elevation 10131
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 46
 elevation 10828
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 47
 elevation 9343
 end
-arch mountain2
+arch blacklostlabfloor
 x 31
 y 48
 elevation 9272
 end
-arch mountain
+arch blacklostlabfloor
 x 31
 y 49
 elevation 5454
@@ -8085,12 +8089,12 @@ x 32
 y 31
 elevation 10436
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 32
 elevation 10338
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 33
 elevation 9882
@@ -8110,12 +8114,12 @@ x 32
 y 36
 elevation 11165
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 37
 elevation 10806
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 38
 elevation 9882
@@ -8125,7 +8129,7 @@ x 32
 y 39
 elevation 9065
 end
-arch mountain
+arch blacklostlabfloor
 x 32
 y 40
 elevation 8291
@@ -8155,22 +8159,22 @@ x 32
 y 45
 elevation 4545
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 46
 elevation 11133
 end
-arch mountain4
+arch blacklostlabfloor
 x 32
 y 47
 elevation 13010
 end
-arch mountain4
+arch blacklostlabfloor
 x 32
 y 48
 elevation 12396
 end
-arch mountain2
+arch blacklostlabfloor
 x 32
 y 49
 elevation 11153
@@ -8329,12 +8333,12 @@ x 33
 y 30
 elevation 11722
 end
-arch mountain2
+arch blacklostlabfloor
 x 33
 y 31
 elevation 11358
 end
-arch mountain2
+arch blacklostlabfloor
 x 33
 y 32
 elevation 10828
@@ -8349,17 +8353,17 @@ x 33
 y 34
 elevation 7840
 end
-arch mountain2
+arch blacklostlabfloor
 x 33
 y 35
 elevation 9400
 end
-arch mountain2
+arch blacklostlabfloor
 x 33
 y 36
 elevation 9498
 end
-arch mountain
+arch blacklostlabfloor
 x 33
 y 37
 elevation 8848
@@ -8369,12 +8373,12 @@ x 33
 y 38
 elevation 8060
 end
-arch mountain
+arch blacklostlabfloor
 x 33
 y 39
 elevation 5670
 end
-arch mountain
+arch blacklostlabfloor
 x 33
 y 40
 elevation 7790
@@ -8399,27 +8403,27 @@ x 33
 y 44
 elevation 8345
 end
-arch mountain2
+arch blacklostlabfloor
 x 33
 y 45
 elevation 10039
 end
-arch mountain4
+arch blacklostlabfloor
 x 33
 y 46
 elevation 13456
 end
-arch mountain4
+arch blacklostlabfloor
 x 33
 y 47
 elevation 15837
 end
-arch mountain4
+arch blacklostlabfloor
 x 33
 y 48
 elevation 15839
 end
-arch mountain4
+arch blacklostlabfloor
 x 33
 y 49
 elevation 14532
@@ -8578,7 +8582,7 @@ x 34
 y 30
 elevation 11126
 end
-arch mountain2
+arch blacklostlabfloor
 x 34
 y 31
 elevation 11017
@@ -8593,12 +8597,12 @@ x 34
 y 33
 elevation 9900
 end
-arch mountain2
+arch blacklostlabfloor
 x 34
 y 34
 elevation 9443
 end
-arch mountain
+arch blacklostlabfloor
 x 34
 y 35
 elevation 8546
@@ -8608,7 +8612,7 @@ x 34
 y 36
 elevation 7978
 end
-arch mountain
+arch blacklostlabfloor
 x 34
 y 37
 elevation 6520
@@ -8618,12 +8622,12 @@ x 34
 y 38
 elevation 6895
 end
-arch mountain
+arch blacklostlabfloor
 x 34
 y 39
 elevation 8198
 end
-arch mountain
+arch blacklostlabfloor
 x 34
 y 40
 elevation 8286
@@ -8648,27 +8652,27 @@ x 34
 y 44
 elevation 10716
 end
-arch mountain4
+arch blacklostlabfloor
 x 34
 y 45
 elevation 13010
 end
-arch mountain5
+arch blacklostlabfloor
 x 34
 y 46
 elevation 16103
 end
-arch mountain5
+arch blacklostlabfloor
 x 34
 y 47
 elevation 18100
 end
-arch mountain5
+arch blacklostlabfloor
 x 34
 y 48
 elevation 18056
 end
-arch mountain5
+arch blacklostlabfloor
 x 34
 y 49
 elevation 16611
@@ -8822,12 +8826,12 @@ x 35
 y 29
 elevation 8798
 end
-arch mountain2
+arch blacklostlabfloor
 x 35
 y 30
 elevation 10364
 end
-arch mountain2
+arch blacklostlabfloor
 x 35
 y 31
 elevation 9807
@@ -8842,12 +8846,12 @@ x 35
 y 33
 elevation 10232
 end
-arch mountain2
+arch blacklostlabfloor
 x 35
 y 34
 elevation 9486
 end
-arch mountain
+arch blacklostlabfloor
 x 35
 y 35
 elevation 7885
@@ -8857,7 +8861,7 @@ x 35
 y 36
 elevation 4288
 end
-arch mountain
+arch blacklostlabfloor
 x 35
 y 37
 elevation 7346
@@ -8872,7 +8876,7 @@ x 35
 y 39
 elevation 9231
 end
-arch mountain2
+arch blacklostlabfloor
 x 35
 y 40
 elevation 9518
@@ -8897,27 +8901,27 @@ x 35
 y 44
 elevation 11096
 end
-arch mountain4
+arch blacklostlabfloor
 x 35
 y 45
 elevation 14179
 end
-arch mountain5
+arch blacklostlabfloor
 x 35
 y 46
 elevation 17127
 end
-arch mountain5
+arch blacklostlabfloor
 x 35
 y 47
 elevation 19151
 end
-arch mountain5
+arch blacklostlabfloor
 x 35
 y 48
 elevation 19317
 end
-arch mountain5
+arch blacklostlabfloor
 x 35
 y 49
 elevation 17538
@@ -9071,12 +9075,12 @@ x 36
 y 29
 elevation 11631
 end
-arch mountain2
+arch blacklostlabfloor
 x 36
 y 30
 elevation 11616
 end
-arch mountain2
+arch blacklostlabfloor
 x 36
 y 31
 elevation 10009
@@ -9091,27 +9095,27 @@ x 36
 y 33
 elevation 10759
 end
-arch mountain
+arch blacklostlabfloor
 x 36
 y 34
 elevation 8696
 end
-arch mountain
+arch blacklostlabfloor
 x 36
 y 35
 elevation 7811
 end
-arch mountain
+arch blacklostlabfloor
 x 36
 y 36
 elevation 6643
 end
-arch mountain
+arch blacklostlabfloor
 x 36
 y 37
 elevation 7877
 end
-arch mountain2
+arch blacklostlabfloor
 x 36
 y 38
 elevation 9262
@@ -9126,7 +9130,7 @@ x 36
 y 40
 elevation 10000
 end
-arch mountain2
+arch blacklostlabfloor
 x 36
 y 41
 elevation 9655
@@ -9141,32 +9145,32 @@ x 36
 y 43
 elevation 6200
 end
-arch mountain2
+arch blacklostlabfloor
 x 36
 y 44
 elevation 10960
 end
-arch mountain4
+arch blacklostlabfloor
 x 36
 y 45
 elevation 13760
 end
-arch mountain5
+arch blacklostlabfloor
 x 36
 y 46
 elevation 16625
 end
-arch mountain5
+arch blacklostlabfloor
 x 36
 y 47
 elevation 18820
 end
-arch mountain5
+arch blacklostlabfloor
 x 36
 y 48
 elevation 19118
 end
-arch mountain5
+arch blacklostlabfloor
 x 36
 y 49
 elevation 18471
@@ -9320,47 +9324,47 @@ x 37
 y 29
 elevation 12709
 end
-arch mountain4
+arch blacklostlabfloor
 x 37
 y 30
 elevation 13189
 end
-arch mountain4
+arch blacklostlabfloor
 x 37
 y 31
 elevation 13475
 end
-arch mountain4
+arch blacklostlabfloor
 x 37
 y 32
 elevation 12911
 end
-arch mountain2
+arch blacklostlabfloor
 x 37
 y 33
 elevation 11321
 end
-arch mountain2
+arch blacklostlabfloor
 x 37
 y 34
 elevation 9203
 end
-arch mountain
+arch blacklostlabfloor
 x 37
 y 35
 elevation 7781
 end
-arch mountain
+arch blacklostlabfloor
 x 37
 y 36
 elevation 7522
 end
-arch mountain
+arch blacklostlabfloor
 x 37
 y 37
 elevation 8506
 end
-arch mountain2
+arch blacklostlabfloor
 x 37
 y 38
 elevation 9440
@@ -9375,47 +9379,47 @@ x 37
 y 40
 elevation 9776
 end
-arch mountain
+arch blacklostlabfloor
 x 37
 y 41
 elevation 8739
 end
-arch mountain2
+arch blacklostlabfloor
 x 37
 y 42
 elevation 9376
 end
-arch mountain
+arch blacklostlabfloor
 x 37
 y 43
 elevation 8309
 end
-arch mountain2
+arch blacklostlabfloor
 x 37
 y 44
 elevation 10616
 end
-arch mountain4
+arch blacklostlabfloor
 x 37
 y 45
 elevation 14574
 end
-arch mountain5
+arch blacklostlabfloor
 x 37
 y 46
 elevation 16709
 end
-arch mountain5
+arch blacklostlabfloor
 x 37
 y 47
 elevation 17700
 end
-arch mountain5
+arch blacklostlabfloor
 x 37
 y 48
 elevation 17319
 end
-arch mountain5
+arch blacklostlabfloor
 x 37
 y 49
 elevation 16771
@@ -9569,52 +9573,52 @@ x 38
 y 29
 elevation 11959
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 30
 elevation 14647
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 31
 elevation 14952
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 32
 elevation 13556
 end
-arch mountain2
+arch blacklostlabfloor
 x 38
 y 33
 elevation 11226
 end
-arch mountain
+arch blacklostlabfloor
 x 38
 y 34
 elevation 7920
 end
-arch mountain
+arch blacklostlabfloor
 x 38
 y 35
 elevation 5817
 end
-arch mountain
+arch blacklostlabfloor
 x 38
 y 36
 elevation 7926
 end
-arch mountain
+arch blacklostlabfloor
 x 38
 y 37
 elevation 8454
 end
-arch mountain2
+arch blacklostlabfloor
 x 38
 y 38
 elevation 9042
 end
-arch mountain
+arch blacklostlabfloor
 x 38
 y 39
 elevation 8696
@@ -9624,7 +9628,7 @@ x 38
 y 40
 elevation 9197
 end
-arch mountain2
+arch blacklostlabfloor
 x 38
 y 41
 elevation 9389
@@ -9634,37 +9638,37 @@ x 38
 y 42
 elevation 10536
 end
-arch mountain2
+arch blacklostlabfloor
 x 38
 y 43
 elevation 11675
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 44
 elevation 13395
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 45
 elevation 15586
 end
-arch mountain5
+arch blacklostlabfloor
 x 38
 y 46
 elevation 16979
 end
-arch mountain5
+arch blacklostlabfloor
 x 38
 y 47
 elevation 16853
 end
-arch mountain4
+arch blacklostlabfloor
 x 38
 y 48
 elevation 15287
 end
-arch mountain2
+arch blacklostlabfloor
 x 38
 y 49
 elevation 11430
@@ -9818,52 +9822,52 @@ x 39
 y 29
 elevation 15095
 end
-arch mountain5
+arch blacklostlabfloor
 x 39
 y 30
 elevation 16269
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 31
 elevation 15855
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 32
 elevation 14155
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 33
 elevation 8215
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 34
 elevation 8059
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 35
 elevation 8472
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 36
 elevation 8333
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 37
 elevation 8381
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 38
 elevation 8234
 end
-arch mountain
+arch blacklostlabfloor
 x 39
 y 39
 elevation 8140
@@ -9873,47 +9877,47 @@ x 39
 y 40
 elevation 7830
 end
-arch mountain2
+arch blacklostlabfloor
 x 39
 y 41
 elevation 9725
 end
-arch mountain2
+arch blacklostlabfloor
 x 39
 y 42
 elevation 11366
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 43
 elevation 13087
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 44
 elevation 13745
 end
-arch mountain5
+arch blacklostlabfloor
 x 39
 y 45
 elevation 17017
 end
-arch mountain5
+arch blacklostlabfloor
 x 39
 y 46
 elevation 17885
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 47
 elevation 15557
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 48
 elevation 15716
 end
-arch mountain4
+arch blacklostlabfloor
 x 39
 y 49
 elevation 14420
@@ -10077,92 +10081,92 @@ x 40
 y 31
 elevation 17910
 end
-arch mountain4
+arch blacklostlabfloor
 x 40
 y 32
 elevation 15452
 end
-arch mountain2
+arch blacklostlabfloor
 x 40
 y 33
 elevation 11883
 end
-arch mountain2
+arch blacklostlabfloor
 x 40
 y 34
 elevation 10180
 end
-arch mountain2
+arch blacklostlabfloor
 x 40
 y 35
 elevation 9314
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 36
 elevation 8609
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 37
 elevation 7747
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 38
 elevation 6870
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 39
 elevation 6880
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 40
 elevation 7622
 end
-arch mountain
+arch blacklostlabfloor
 x 40
 y 41
 elevation 8685
 end
-arch mountain2
+arch blacklostlabfloor
 x 40
 y 42
 elevation 11276
 end
-arch mountain4
+arch blacklostlabfloor
 x 40
 y 43
 elevation 13337
 end
-arch mountain4
+arch blacklostlabfloor
 x 40
 y 44
 elevation 15618
 end
-arch mountain5
+arch blacklostlabfloor
 x 40
 y 45
 elevation 17828
 end
-arch mountain5
+arch blacklostlabfloor
 x 40
 y 46
 elevation 18612
 end
-arch mountain5
+arch blacklostlabfloor
 x 40
 y 47
 elevation 17793
 end
-arch mountain5
+arch blacklostlabfloor
 x 40
 y 48
 elevation 16285
 end
-arch mountain4
+arch blacklostlabfloor
 x 40
 y 49
 elevation 15392
@@ -10326,32 +10330,32 @@ x 41
 y 31
 elevation 19232
 end
-arch mountain5
+arch blacklostlabfloor
 x 41
 y 32
 elevation 16723
 end
-arch mountain4
+arch blacklostlabfloor
 x 41
 y 33
 elevation 13798
 end
-arch mountain2
+arch blacklostlabfloor
 x 41
 y 34
 elevation 11264
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 35
 elevation 8782
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 36
 elevation 8741
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 37
 elevation 7151
@@ -10361,57 +10365,57 @@ x 41
 y 38
 elevation 3974
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 39
 elevation 5223
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 40
 elevation 5844
 end
-arch mountain
+arch blacklostlabfloor
 x 41
 y 41
 elevation 7744
 end
-arch mountain2
+arch blacklostlabfloor
 x 41
 y 42
 elevation 10301
 end
-arch mountain4
+arch blacklostlabfloor
 x 41
 y 43
 elevation 12273
 end
-arch mountain4
+arch blacklostlabfloor
 x 41
 y 44
 elevation 15527
 end
-arch mountain5
+arch blacklostlabfloor
 x 41
 y 45
 elevation 17623
 end
-arch mountain5
+arch blacklostlabfloor
 x 41
 y 46
 elevation 18333
 end
-arch mountain5
+arch blacklostlabfloor
 x 41
 y 47
 elevation 17259
 end
-arch mountain4
+arch blacklostlabfloor
 x 41
 y 48
 elevation 15134
 end
-arch mountain4
+arch blacklostlabfloor
 x 41
 y 49
 elevation 13774
@@ -10575,32 +10579,32 @@ x 42
 y 31
 elevation 19041
 end
-arch mountain5
+arch blacklostlabfloor
 x 42
 y 32
 elevation 16910
 end
-arch mountain2
+arch blacklostlabfloor
 x 42
 y 33
 elevation 11863
 end
-arch mountain2
+arch blacklostlabfloor
 x 42
 y 34
 elevation 11810
 end
-arch mountain2
+arch blacklostlabfloor
 x 42
 y 35
 elevation 10341
 end
-arch mountain
+arch blacklostlabfloor
 x 42
 y 36
 elevation 8790
 end
-arch mountain
+arch blacklostlabfloor
 x 42
 y 37
 elevation 7081
@@ -10620,47 +10624,47 @@ x 42
 y 40
 elevation 3034
 end
-arch hills
+arch blacklostlabfloor
 x 42
 y 41
 elevation 3772
 end
-arch mountain2
+arch blacklostlabfloor
 x 42
 y 42
 elevation 9289
 end
-arch mountain4
+arch blacklostlabfloor
 x 42
 y 43
 elevation 12248
 end
-arch mountain4
+arch blacklostlabfloor
 x 42
 y 44
 elevation 14078
 end
-arch mountain4
+arch blacklostlabfloor
 x 42
 y 45
 elevation 15753
 end
-arch mountain5
+arch blacklostlabfloor
 x 42
 y 46
 elevation 16457
 end
-arch mountain4
+arch blacklostlabfloor
 x 42
 y 47
 elevation 15850
 end
-arch mountain2
+arch blacklostlabfloor
 x 42
 y 48
 elevation 10715
 end
-arch mountain
+arch blacklostlabfloor
 x 42
 y 49
 elevation 8951
@@ -10824,42 +10828,42 @@ x 43
 y 31
 elevation 17660
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 32
 elevation 15937
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 33
 elevation 14048
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 34
 elevation 12280
 end
-arch mountain2
+arch blacklostlabfloor
 x 43
 y 35
 elevation 9420
 end
-arch mountain
+arch blacklostlabfloor
 x 43
 y 36
 elevation 8845
 end
-arch mountain
+arch blacklostlabfloor
 x 43
 y 37
 elevation 6925
 end
-arch mountain
+arch blacklostlabfloor
 x 43
 y 38
 elevation 5227
 end
-arch hills
+arch blacklostlabfloor
 x 43
 y 39
 elevation 4445
@@ -10869,47 +10873,47 @@ x 43
 y 40
 elevation 3786
 end
-arch mountain
+arch blacklostlabfloor
 x 43
 y 41
 elevation 5356
 end
-arch mountain
+arch blacklostlabfloor
 x 43
 y 42
 elevation 8684
 end
-arch mountain2
+arch blacklostlabfloor
 x 43
 y 43
 elevation 11179
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 44
 elevation 12500
 end
-arch mountain2
+arch blacklostlabfloor
 x 43
 y 45
 elevation 10331
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 46
 elevation 14188
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 47
 elevation 14305
 end
-arch mountain4
+arch blacklostlabfloor
 x 43
 y 48
 elevation 12969
 end
-arch mountain2
+arch blacklostlabfloor
 x 43
 y 49
 elevation 11265
@@ -11073,92 +11077,92 @@ x 44
 y 31
 elevation 16560
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 32
 elevation 13407
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 33
 elevation 13698
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 34
 elevation 12400
 end
-arch mountain2
+arch blacklostlabfloor
 x 44
 y 35
 elevation 10987
 end
-arch mountain2
+arch blacklostlabfloor
 x 44
 y 36
 elevation 9141
 end
-arch hills
+arch blacklostlabfloor
 x 44
 y 37
 elevation 4863
 end
-arch hills
+arch blacklostlabfloor
 x 44
 y 38
 elevation 4794
 end
-arch mountain
+arch blacklostlabfloor
 x 44
 y 39
 elevation 5356
 end
-arch mountain
+arch blacklostlabfloor
 x 44
 y 40
 elevation 5345
 end
-arch mountain
+arch blacklostlabfloor
 x 44
 y 41
 elevation 5328
 end
-arch mountain
+arch blacklostlabfloor
 x 44
 y 42
 elevation 8820
 end
-arch mountain2
+arch blacklostlabfloor
 x 44
 y 43
 elevation 10932
 end
-arch mountain2
+arch blacklostlabfloor
 x 44
 y 44
 elevation 11452
 end
-arch mountain2
+arch blacklostlabfloor
 x 44
 y 45
 elevation 9966
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 46
 elevation 12241
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 47
 elevation 13145
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 48
 elevation 13119
 end
-arch mountain4
+arch blacklostlabfloor
 x 44
 y 49
 elevation 12766
@@ -11257,7 +11261,7 @@ x 45
 y 18
 elevation 14804
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 19
 elevation 15043
@@ -11317,47 +11321,47 @@ x 45
 y 30
 elevation 17612
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 31
 elevation 15980
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 32
 elevation 13727
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 33
 elevation 12019
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 34
 elevation 11162
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 35
 elevation 10764
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 36
 elevation 9586
 end
-arch mountain
+arch blacklostlabfloor
 x 45
 y 37
 elevation 8089
 end
-arch mountain
+arch blacklostlabfloor
 x 45
 y 38
 elevation 6878
 end
-arch mountain
+arch blacklostlabfloor
 x 45
 y 39
 elevation 5923
@@ -11367,47 +11371,47 @@ x 45
 y 40
 elevation 4912
 end
-arch mountain
+arch blacklostlabfloor
 x 45
 y 41
 elevation 6844
 end
-arch mountain
+arch blacklostlabfloor
 x 45
 y 42
 elevation 8787
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 43
 elevation 10680
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 44
 elevation 11416
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 45
 elevation 11552
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 46
 elevation 10579
 end
-arch mountain2
+arch blacklostlabfloor
 x 45
 y 47
 elevation 11276
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 48
 elevation 12867
 end
-arch mountain4
+arch blacklostlabfloor
 x 45
 y 49
 elevation 12881
@@ -11496,22 +11500,22 @@ x 46
 y 16
 elevation 15289
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 17
 elevation 16436
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 18
 elevation 17120
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 19
 elevation 16532
 end
-arch mountain4
+arch blacklostlabfloor
 x 46
 y 20
 elevation 14882
@@ -11531,132 +11535,132 @@ x 46
 y 23
 elevation 20413
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 24
 elevation 21418
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 25
 elevation 21651
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 26
 elevation 21617
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 27
 elevation 21142
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 28
 elevation 19623
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 29
 elevation 17482
 end
-arch mountain5
+arch blacklostlabfloor
 x 46
 y 30
 elevation 16796
 end
-arch mountain4
+arch blacklostlabfloor
 x 46
 y 31
 elevation 15489
 end
-arch mountain4
+arch blacklostlabfloor
 x 46
 y 32
 elevation 12350
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 33
 elevation 6666
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 34
 elevation 9143
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 35
 elevation 9379
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 36
 elevation 9005
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 37
 elevation 8501
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 38
 elevation 7900
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 39
 elevation 7516
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 40
 elevation 7175
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 41
 elevation 6490
 end
-arch mountain
+arch blacklostlabfloor
 x 46
 y 42
 elevation 8841
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 43
 elevation 10058
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 44
 elevation 11363
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 45
 elevation 11368
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 46
 elevation 11370
 end
-arch mountain2
+arch blacklostlabfloor
 x 46
 y 47
 elevation 11746
 end
-arch mountain4
+arch blacklostlabfloor
 x 46
 y 48
 elevation 12069
 end
-arch mountain4
+arch blacklostlabfloor
 x 46
 y 49
 elevation 13077
@@ -11745,37 +11749,37 @@ x 47
 y 16
 elevation 16016
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 17
 elevation 17927
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 18
 elevation 18525
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 19
 elevation 17902
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 20
 elevation 16800
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 21
 elevation 18069
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 22
 elevation 19854
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 23
 elevation 21187
@@ -11785,127 +11789,127 @@ x 47
 y 24
 elevation 21346
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 25
 elevation 20869
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 26
 elevation 20093
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 27
 elevation 19357
 end
-arch mountain5
+arch blacklostlabfloor
 x 47
 y 28
 elevation 18351
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 29
 elevation 15436
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 30
 elevation 15382
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 31
 elevation 15070
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 32
 elevation 12598
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 33
 elevation 9433
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 34
 elevation 7935
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 35
 elevation 5271
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 36
 elevation 7129
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 37
 elevation 7218
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 38
 elevation 8058
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 39
 elevation 8508
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 40
 elevation 8465
 end
-arch mountain
+arch blacklostlabfloor
 x 47
 y 41
 elevation 7190
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 42
 elevation 9325
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 43
 elevation 10434
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 44
 elevation 10990
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 45
 elevation 10937
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 46
 elevation 9583
 end
-arch mountain2
+arch blacklostlabfloor
 x 47
 y 47
 elevation 11777
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 48
 elevation 13082
 end
-arch mountain4
+arch blacklostlabfloor
 x 47
 y 49
 elevation 13587
@@ -11994,167 +11998,167 @@ x 48
 y 16
 elevation 15369
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 17
 elevation 17448
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 18
 elevation 18043
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 19
 elevation 18252
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 20
 elevation 18632
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 21
 elevation 19320
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 22
 elevation 20301
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 23
 elevation 20541
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 24
 elevation 19955
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 25
 elevation 18691
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 26
 elevation 15270
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 27
 elevation 14868
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 28
 elevation 17117
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 29
 elevation 17020
 end
-arch mountain5
+arch blacklostlabfloor
 x 48
 y 30
 elevation 16212
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 31
 elevation 14875
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 32
 elevation 13170
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 33
 elevation 10848
 end
-arch mountain
+arch blacklostlabfloor
 x 48
 y 34
 elevation 7957
 end
-arch jungle_1
+arch blacklostlabfloor
 x 48
 y 35
 elevation 2944
 end
-arch mountain
+arch blacklostlabfloor
 x 48
 y 36
 elevation 5215
 end
-arch mountain
+arch blacklostlabfloor
 x 48
 y 37
 elevation 6266
 end
-arch mountain
+arch blacklostlabfloor
 x 48
 y 38
 elevation 7848
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 39
 elevation 9066
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 40
 elevation 9216
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 41
 elevation 10003
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 42
 elevation 10361
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 43
 elevation 10452
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 44
 elevation 10526
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 45
 elevation 10170
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 46
 elevation 9237
 end
-arch mountain2
+arch blacklostlabfloor
 x 48
 y 47
 elevation 11616
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 48
 elevation 13100
 end
-arch mountain4
+arch blacklostlabfloor
 x 48
 y 49
 elevation 13863
@@ -12208,202 +12212,202 @@ x 49
 y 9
 elevation 12432
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 10
 elevation 11534
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 11
 elevation 11144
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 12
 elevation 10759
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 13
 elevation 11449
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 14
 elevation 10430
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 15
 elevation 12646
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 16
 elevation 14233
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 17
 elevation 15816
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 18
 elevation 16254
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 19
 elevation 16925
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 20
 elevation 17642
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 21
 elevation 18773
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 22
 elevation 18396
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 23
 elevation 18110
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 24
 elevation 16997
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 25
 elevation 15745
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 26
 elevation 14969
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 27
 elevation 15264
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 28
 elevation 16290
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 29
 elevation 16748
 end
-arch mountain5
+arch blacklostlabfloor
 x 49
 y 30
 elevation 16025
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 31
 elevation 14795
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 32
 elevation 13242
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 33
 elevation 11053
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 34
 elevation 7857
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 35
 elevation 6515
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 36
 elevation 6434
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 37
 elevation 7157
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 38
 elevation 8123
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 39
 elevation 9007
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 40
 elevation 10208
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 41
 elevation 10955
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 42
 elevation 11342
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 43
 elevation 10773
 end
-arch mountain
+arch blacklostlabfloor
 x 49
 y 44
 elevation 8781
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 45
 elevation 9456
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 46
 elevation 10079
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 47
 elevation 10791
 end
-arch mountain2
+arch blacklostlabfloor
 x 49
 y 48
 elevation 11999
 end
-arch mountain4
+arch blacklostlabfloor
 x 49
 y 49
 elevation 13173
