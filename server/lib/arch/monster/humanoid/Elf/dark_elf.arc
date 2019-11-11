@@ -2,10 +2,17 @@ Object dark_elf
 race faerie
 name dark elf
 randomitems dark_elf
-face dark_elf.111
+face dark_elf.151
 anim
+facings 4
 dark_elf.111
 dark_elf.112
+dark_elf.131
+dark_elf.132
+dark_elf.151
+dark_elf.152
+dark_elf.171
+dark_elf.172
 mina
 monster 1
 sleep 1

@@ -3,7 +3,7 @@ name world_110_112
 width 50
 height 50
 msg
-Modified: 2019-01-10 lori
+Modified: 2019-11-09 lx
 endmsg
 outdoor 1
 tile_path_1 world_110_111
@@ -5878,6 +5878,10 @@ x 23
 y 37
 elevation 8114
 end
+arch g_worm
+x 23
+y 37
+end
 arch lostlabdesert
 x 23
 y 38
@@ -10354,6 +10358,10 @@ arch lostlabdesert
 x 41
 y 36
 elevation 12384
+end
+arch g_worm
+x 41
+y 36
 end
 arch lostlabdesert
 x 41
