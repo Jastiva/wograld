@@ -2,13 +2,18 @@ Object elf_1
 race faerie
 name elf
 randomitems elf_1
-face elf_1.111
+face elf_1.151
 color_fg black
 anim
+facings 4
 elf_1.111
 elf_1.112
-elf_1.113
-elf_1.112
+elf_1.131
+elf_1.132
+elf_1.151
+elf_1.152
+elf_1.171
+elf_1.172
 mina
 monster 1
 alive 1
