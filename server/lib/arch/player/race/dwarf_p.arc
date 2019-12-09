@@ -1,32 +1,37 @@
 Object dwarf_player
-name elf female
+name dwarf
 randomitems dwarf_player_items
-face elf_f_p.151
+face dwarf_p.151
 msg
-An Elf heals slowly, but mana flows into
-them more quickly. They also need far less
-food.
+The Dwarves are the hardy scions of Mostrai.
+The traditional profession of the dwarf is
+smithery, and you'll be hard-pressed to find
+a dwarf who is not competent at it. Whether
+their great strength and hardiness leads them
+to become smiths and miners, or whether their
+profession leads to their strength and
+hardiness is unknown. Their thick musculature
+makes them slow of body, and seemingly, some
+of their muscle has crept into their brain.
+Perhaps their repetitive tasks dull their
+minds, perhaps they're simply born dumb.
 
-Every elf is taught the use of a bow, but
-their long lives allow them to take up any
-trade. They are weaker and less hardy than
-humans, but quicker of body and mind, and
-generally make more powerful spellcasters.
-However, they have a notoriously offhanded
-attitude toward their religious devotions
-and make poor priests.
-
-Elves possess a charisma and eyes that see in the dark.
+Dwarves can see in the dark, but they're
+slightly impious and tend to be a bit poor at
+controlling magic. Despite this, there are
+indeed dwarven clerics and mages. They're
+just not quite as good as human clerics or
+mages.
 endmsg
 anim
-elf_f_p.111
-elf_f_p.112
-elf_f_p.131
-elf_f_p.132
-elf_f_p.151
-elf_f_p.152
-elf_f_p.171
-elf_f_p.172
+dwarf_p.111
+dwarf_p.112
+dwarf_p.131
+dwarf_p.132
+dwarf_p.151
+dwarf_p.152
+dwarf_p.171
+dwarf_p.172
 facings 4
 mina
 is_animated 1

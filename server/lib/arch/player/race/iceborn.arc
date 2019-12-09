@@ -5,7 +5,7 @@ iceborn.x12
 iceborn.x13
 iceborn.x14
 mina
-type 0
+type 80
 name iceborn
 race para_ice
 color_fg red

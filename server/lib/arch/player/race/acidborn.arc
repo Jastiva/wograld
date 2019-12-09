@@ -1,11 +1,11 @@
-Object elem_acidborn_player
+object elem_acidborn_player
 anim
 acidborn.x11
 acidborn.x12
 acidborn.x13
 acidborn.x14
 mina
-type 0
+type 80
 name acidborn
 race para_air
 color_fg red

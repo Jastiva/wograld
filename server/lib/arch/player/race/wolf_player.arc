@@ -31,7 +31,7 @@ facings 8
 mina
 is_animated 1
 anim_speed -1
-type 0
+type 1
 level 1
 ac 10
 wc 21

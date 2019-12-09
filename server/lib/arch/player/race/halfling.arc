@@ -1,36 +1,28 @@
 Object halfling_player
-name ghoul_male
-race undead
-randomitems wraith_player_items
-face ghoulm_p.151
+name halfling
+randomitems halfling_player
+face halfling.151
 msg
+Halflings are another sub-race of humankind,
+like the Northman. They are much smaller and
+shorter than humans, so they are weaker, but
+they are far quicker and hardier. They're
+quite unreligious, but many take up magic.
 
-A ghoul is a former human who has
-been raised by necromancy
-after death.
-This transformation frees them of the limits
-of a natural lifespan, and grants them
-immunity to diseases, poison, and loss of
-lifeforce.  Ghouls also need feel little
-fear of cold, and they can see well in the
-dark.  A ghoul's corporeal form has terrible
-vulnerabilities: fire and most godpower are
-dangerous to ghouls.
-
-Ghouls have a strong affinity to magic,
-especially cold spells, and are very strong
-spellcasters. However, they cannot use fire
-spells for fear of self-destruction.
+Their small size lets them hide more
+effectively, and for some reason chance seems
+to favor them with good luck. They are also
+surprisingly resistant to loss of lifeforce.
 endmsg
 anim
-ghoulm_p.111
-ghoulm_p.112
-ghoulm_p.131
-ghoulm_p.132
-ghoulm_p.151
-ghoulm_p.152
-ghoulm_p.171
-ghoulm_p.172
+halfling.111
+halfling.112
+halfling.131
+halfling.132
+halfling.151
+halfling.152
+halfling.171
+halfling.172
 facings 4
 mina
 is_animated 1
