@@ -1,14 +1,13 @@
 arch map
-name Wraith Players
-difficulty 1
+name HallOfSelection
 region creation
 width 15
 height 35
 enter_x 7
 enter_y 5
 msg
-Created:  2005-12-25 Pippijn van Steenhoven (pip88nl@gmail.com)
-Modified: 2014-04-18 serpentshard
+Created:  2000-10-12
+Modified: 2018-11-17 lx
 endmsg
 end
 arch blocked
@@ -55,131 +54,178 @@ end
 arch blocked
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 y 15
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_2_2
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 16
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 17
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 17
+end
+arch cwall_2_1_1
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 18
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 19
 end
-arch fog
+arch swall_1_4_half
 y 19
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 21
+end
+arch cwall_2_1_1
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 23
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 23
+end
+arch cwall_2_1_1
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 25
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 25
+end
+arch cwall_2_1_1
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 26
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 27
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 27
+end
+arch cwall_2_1_1
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 29
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_4_half
+y 29
+end
+arch cwall_2_1_1
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 30
 end
-arch fog
+arch cwall_2_1_1
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_3_2
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-y 34
+arch cwall_2_2_1
+y 33
 end
 arch permanent_lava
 x 1
@@ -253,194 +299,212 @@ arch blocked
 x 1
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 15
 end
-arch warlock_class
+arch cwall_2_1_2
 x 1
 y 15
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 16
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch warlock_class
+msg
+Warlock
+You've divided your time between
+learning magic and learning weapons,
+but have totally disregarded
+religious devotion.  You're
+physically stronger and hardier
+because of your training, and you
+know the use of weapons and bows.
+However, you're just a bit clumsy in
+both weaponry and magic because
+you've had to divide your time
+between them.
+endmsg
+face mage.151
+x 1
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 17
 end
-arch evoker_class
+arch swall_2_1_2
 x 1
 y 17
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 18
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch evoker_class
+face evoker.151
+x 1
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 19
+end
+arch swall_2_1_2
+x 1
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 1
+y 20
 end
 arch summoner_class
 face wizard_yellow.151
 x 1
-y 19
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 1
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 21
 end
-arch wizard_class
-face wizard.151
+arch swall_2_1_2
 x 1
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch wizard
+face wizard.151
+x 1
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 23
 end
-arch alchemist_class
+arch swall_2_1_2
 x 1
 y 23
 end
-arch fog
-x 1
-y 23
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch alchemist_class
+face alchemist.151
+x 1
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 25
+end
+arch swall_2_1_2
+x 1
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 1
+y 26
 end
 arch sorcerer_class
 face sorcerer.151
 x 1
-y 25
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 1
 y 26
 end
-arch fog
-x 1
-y 26
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 27
+end
+arch swall_2_1_2
+x 1
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 1
+y 28
 end
 arch devotee_class
 face wizard_white.151
 x 1
-y 27
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 1
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 29
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_2
+x 1
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch pyromancer_class
+x 1
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 31
 end
-arch Wraith
-face wraithp.151
+arch cwall_2_1_2
 x 1
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 1
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 1
-y 34
-end
-arch fog
-x 1
-y 34
+y 33
 end
 arch permanent_lava
 x 2
@@ -511,149 +575,207 @@ arch blocked
 x 2
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 15
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
+x 2
+y 15
+end
+arch swall_1_1_half
+x 2
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 16
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 17
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 18
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 19
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 23
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 25
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 26
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 27
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 29
 end
-arch fog
+arch swall_1_2_half
 x 2
 y 29
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 2
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 2
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_2_1
+x 2
+y 31
+end
+arch cwall_2_2_3
+x 2
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 2
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 2
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_3_1
 x 2
-y 34
+y 33
 end
 arch permanent_lava
 x 3
@@ -722,201 +844,232 @@ arch blocked
 x 3
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 15
 end
+arch cwall_2_1_2
+x 3
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 16
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 15
+y 16
 arch warlock_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 16
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 17
 end
+arch swall_2_1_2
+x 3
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 18
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 17
+y 18
 arch evoker_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 18
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 19
 end
+arch swall_2_1_2
+x 3
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 20
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 19
+y 20
 arch summoner_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 20
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 21
 end
+arch swall_2_1_2
+x 3
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 22
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 21
+y 22
 carrying 70000
 arch wizard
 end
 end
-arch rough_wall_1_4
-x 3
-y 22
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 23
 end
+arch swall_2_1_2
+x 3
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 24
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 23
+y 24
 arch alchemist_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 24
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 25
 end
+arch swall_2_1_2
+x 3
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 26
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 25
+y 26
 arch sorcerer_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 26
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 27
 end
+arch swall_2_1_2
+x 3
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 3
+y 28
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 3
-y 27
+y 28
 arch devotee_class
 end
 end
-arch rough_wall_1_4
-x 3
-y 28
-move_block 0
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 29
-move_block walk fly_low fly_high swim
 end
-arch rough_wall_1_4
+arch swall_2_1_2
+x 3
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 30
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch player_changer
+slaying /start/Nexus_orc
+hp 12
+sp 12
+x 3
+y 30
+arch pyromancer_class
+end
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 31
 end
-arch rough_wall_1_4
+arch swall_2_1_2
+x 3
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 32
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 3
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 3
-y 34
+y 33
 end
 arch permanent_lava
 x 4
@@ -991,10 +1144,13 @@ arch blocked
 x 4
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 15
+end
+arch cwall_2_1_2
 x 4
 y 15
 end
@@ -1003,22 +1159,25 @@ msg
 Step forward to become a Warlock.
 endmsg
 x 4
-y 15
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 16
 end
 arch dungeon_magic
 x 4
-y 15
-end
-arch roughwall_2_1_2
-x 4
 y 16
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 17
+end
+arch swall_2_1_2
 x 4
 y 17
 end
@@ -1027,22 +1186,25 @@ msg
 Step forward to become an Evoker.
 endmsg
 x 4
-y 17
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 18
 end
 arch dungeon_magic
 x 4
-y 17
-end
-arch roughwall_2_1_2
-x 4
 y 18
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 19
+end
+arch swall_2_1_2
 x 4
 y 19
 end
@@ -1051,22 +1213,25 @@ msg
 Step forward to become a Summoner.
 endmsg
 x 4
-y 19
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 20
 end
 arch dungeon_magic
 x 4
-y 19
-end
-arch roughwall_2_1_2
-x 4
 y 20
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 21
+end
+arch swall_2_1_2
 x 4
 y 21
 end
@@ -1075,22 +1240,25 @@ msg
 Step forward to become a Wizard.
 endmsg
 x 4
-y 21
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 22
 end
 arch dungeon_magic
 x 4
-y 21
-end
-arch roughwall_2_1_2
-x 4
 y 22
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 23
+end
+arch swall_2_1_2
 x 4
 y 23
 end
@@ -1101,22 +1269,25 @@ Alchemists are for somewhat advanced
 players.
 endmsg
 x 4
-y 23
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 24
 end
 arch dungeon_magic
 x 4
-y 23
-end
-arch roughwall_2_1_2
-x 4
 y 24
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 25
+end
+arch swall_2_1_2
 x 4
 y 25
 end
@@ -1127,22 +1298,25 @@ Sorcerers are difficult to play and
 not recommended for beginners.
 endmsg
 x 4
-y 25
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 26
 end
 arch dungeon_magic
 x 4
-y 25
-end
-arch roughwall_2_1_2
-x 4
 y 26
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 27
+end
+arch swall_2_1_2
 x 4
 y 27
 end
@@ -1151,61 +1325,67 @@ msg
 Step forward to become a Devotee.
 endmsg
 x 4
-y 27
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
+y 28
 end
 arch dungeon_magic
 x 4
-y 27
-end
-arch roughwall_2_1_2
-x 4
 y 28
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 4
 y 29
 end
-arch roughwall_2_1_2
+arch swall_2_1_2
+x 4
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 4
 y 30
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 4
-y 31
 end
 arch dungeon_magic
 x 4
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 4
 y 31
 end
-arch roughwall_2_1_2
+arch swall_2_1_2
+x 4
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 4
 y 32
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch dungeon_magic
+x 4
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 4
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 4
-y 34
+y 33
 end
 arch permanent_lava
 x 5
@@ -1224,11 +1404,10 @@ y 3
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 5
 y 4
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1238,11 +1417,10 @@ y 4
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 5
 y 5
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1252,11 +1430,10 @@ y 5
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 5
 y 6
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1266,11 +1443,10 @@ y 6
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 5
 y 7
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1280,11 +1456,10 @@ y 7
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 5
 y 8
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1320,10 +1495,13 @@ arch blocked
 x 5
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 15
+end
+arch cwall_2_1_2
 x 5
 y 15
 end
@@ -1343,22 +1521,25 @@ you've had to divide your time
 between them.
 endmsg
 x 5
-y 15
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 16
 end
 arch dungeon_magic
 x 5
-y 15
-end
-arch rough_wall_1_3
-x 5
 y 16
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 17
+end
+arch swall_1_3
 x 5
 y 17
 end
@@ -1371,10 +1552,10 @@ spells daily, and your capacity to
 cast them has increased hugely.
 You've had some training in weaponry
 to help defend yourself, but you tend
-to leave most of the fighting
-to others, so your physical training
-has been somewhat lacking.
-You've never learend to use magic
+to leave most of the fighting to
+others, so your physical training has
+been somewhat lacking.
+You've never learned to use magic
 innately, but instead rely on a magic
 talisman to channel mana for you.
 The attack spells have imprinted
@@ -1388,22 +1569,25 @@ have no particular difficulty taking
 up the service of a god.
 endmsg
 x 5
-y 17
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 18
 end
 arch dungeon_magic
 x 5
-y 17
-end
-arch rough_wall_1_3
-x 5
 y 18
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 19
+end
+arch swall_1_3
 x 5
 y 19
 end
@@ -1427,22 +1611,25 @@ also had a reasonable education in
 religious devotion.
 endmsg
 x 5
-y 19
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 20
 end
 arch dungeon_magic
 x 5
-y 19
-end
-arch rough_wall_1_3
-x 5
 y 20
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 21
+end
+arch swall_1_3
 x 5
 y 21
 end
@@ -1462,22 +1649,25 @@ sedentary, and so you're not nearly
 so strong and healthy as you could be.
 endmsg
 x 5
-y 21
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 22
 end
 arch dungeon_magic
 x 5
-y 21
-end
-arch rough_wall_1_3
-x 5
 y 22
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 23
+end
+arch swall_1_3
 x 5
 y 23
 end
@@ -1500,26 +1690,29 @@ Your dependence on magical devices
 extends to the use of a talisman to
 channel mana.  The talisman has
 become attuned to detonation and
-transmutation because of how you've
-used it.
+transmutation because of the way you
+have used it.
 endmsg
 x 5
-y 23
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 24
 end
 arch dungeon_magic
 x 5
-y 23
-end
-arch rough_wall_1_3
-x 5
 y 24
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 25
+end
+arch swall_1_3
 x 5
 y 25
 end
@@ -1531,7 +1724,7 @@ obsessive.  Your frequent practice
 has greatly enhanced your powers, and
 your intellect has been sharpened
 enormously by your quest for ever
-betterways to channel energies.
+better ways to channel energies.
 However, you've totally neglected to
 learn to use weaponry, and you're
 soft and weak.  Barbarians used to
@@ -1551,22 +1744,25 @@ can often fathom the purpose of
 magical devices.
 endmsg
 x 5
-y 25
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 26
 end
 arch dungeon_magic
 x 5
-y 25
-end
-arch rough_wall_1_3
-x 5
 y 26
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 27
+end
+arch swall_1_3
 x 5
 y 27
 end
@@ -1585,62 +1781,71 @@ you to learn weaponry as well,
 against your will.  You will find
 that they were wise to do so, but you
 haven't trained as assiduously as you
-should have, so you are soft and weak.
+should have, so you are soft and
+weak.
 endmsg
 x 5
-y 27
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
+y 28
 end
 arch dungeon_magic
 x 5
-y 27
-end
-arch rough_wall_1_3
-x 5
 y 28
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 5
 y 29
 end
-arch rough_wall_1_3
+arch swall_1_3
+x 5
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 5
 y 30
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 5
-y 31
 end
 arch dungeon_magic
 x 5
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 5
 y 31
 end
-arch rough_wall_1_3
+arch swall_1_3
+x 5
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 5
 y 32
-move_block walk
-blocksview 0
 end
-arch blocked
-name nothingness
-name_pl nothingness
+arch dungeon_magic
+x 5
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 5
 y 33
 end
-arch blocked
-name nothingness
-name_pl nothingness
+arch cwall_2_1_2
 x 5
-y 34
+y 33
 end
 arch permanent_lava
 x 6
@@ -1659,11 +1864,10 @@ y 3
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 6
 y 4
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -1673,7 +1877,6 @@ y 4
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 6
 y 5
@@ -1689,7 +1892,6 @@ type 0
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 6
 y 6
@@ -1700,7 +1902,6 @@ y 6
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 6
 y 7
@@ -1785,11 +1986,13 @@ arch cobblestones2
 x 6
 y 15
 end
-arch dungeon_magic
+arch cwall_1_3
 x 6
 y 15
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 16
 end
@@ -1797,31 +2000,9 @@ arch dungeon_magic
 x 6
 y 16
 end
-arch ghost
-name Whiskey
-name_pl Whiskey
-msg
-@match choice|choose|class
-If he's a man he'd go for Warrior.
-@match *
-Why would you want to go back to
-the material plane? It is such a
-dreadful place.
-endmsg
-ac -100
-x 6
-y 16
-attacktype 0
-monster 0
-friendly 1
-unaggressive 1
-reflect_missile 1
-reflect_spell 1
-sleep 0
-stand_still 1
-wis 50
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 17
 end
@@ -1829,7 +2010,9 @@ arch dungeon_magic
 x 6
 y 17
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 18
 end
@@ -1837,13 +2020,9 @@ arch dungeon_magic
 x 6
 y 18
 end
-arch gravestone2
-x 6
-y 18
-weight 0
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 19
 end
@@ -1851,7 +2030,9 @@ arch dungeon_magic
 x 6
 y 19
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 20
 end
@@ -1859,11 +2040,9 @@ arch dungeon_magic
 x 6
 y 20
 end
-arch fog
-x 6
-y 20
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 21
 end
@@ -1871,7 +2050,9 @@ arch dungeon_magic
 x 6
 y 21
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 22
 end
@@ -1879,7 +2060,9 @@ arch dungeon_magic
 x 6
 y 22
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 23
 end
@@ -1887,7 +2070,9 @@ arch dungeon_magic
 x 6
 y 23
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 24
 end
@@ -1895,7 +2080,9 @@ arch dungeon_magic
 x 6
 y 24
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 25
 end
@@ -1903,7 +2090,9 @@ arch dungeon_magic
 x 6
 y 25
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 26
 end
@@ -1911,13 +2100,9 @@ arch dungeon_magic
 x 6
 y 26
 end
-arch coffin
-x 6
-y 26
-weight 0
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 27
 end
@@ -1925,7 +2110,9 @@ arch dungeon_magic
 x 6
 y 27
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 28
 end
@@ -1933,11 +2120,9 @@ arch dungeon_magic
 x 6
 y 28
 end
-arch fog
-x 6
-y 28
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 29
 end
@@ -1945,7 +2130,9 @@ arch dungeon_magic
 x 6
 y 29
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 30
 end
@@ -1953,7 +2140,9 @@ arch dungeon_magic
 x 6
 y 30
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 31
 end
@@ -1961,7 +2150,9 @@ arch dungeon_magic
 x 6
 y 31
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 32
 end
@@ -1969,37 +2160,15 @@ arch dungeon_magic
 x 6
 y 32
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 6
 y 33
 end
-arch dungeon_magic
+arch cwall_2_1_2
 x 6
 y 33
-end
-arch cobblestones2
-x 6
-y 34
-end
-arch dungeon_magic
-x 6
-y 34
-end
-arch magic_mouth
-msg
-This road leads to the afterlife.
-You feel that you have unfinished
-business in the material world.
-endmsg
-x 6
-y 34
-end
-arch mover_1
-x 6
-y 34
-speed 0.200000
-level 1
-attacktype 1
 end
 arch permanent_lava
 x 7
@@ -2018,11 +2187,10 @@ y 3
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 7
 y 4
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2032,7 +2200,6 @@ y 4
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 7
 y 5
@@ -2043,7 +2210,6 @@ y 5
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 7
 y 6
@@ -2054,7 +2220,6 @@ y 6
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 7
 y 7
@@ -2072,7 +2237,7 @@ end
 arch magic_mouth
 msg
 Welcome to the Hall of Selection.
-Here, you will pick what your
+Here you will pick what your
 character's initial skills shall be.
 Different classes start out with
 different skills, but as you play the
@@ -2080,10 +2245,10 @@ game, you will be able to 'train'
 your character to do whatever task
 you wish.  Like a person, your
 character can learn a new career, IF
-his native abilities allow it.
-Your choice of class will, however,
-have a permanent effect on how the
-player shall appear on the board.
+his native abilities allow it.  Your
+choice of class will, however, have a
+permanent effect on how the player
+will appear on the board.
 endmsg
 x 7
 y 8
@@ -2116,14 +2281,14 @@ not to drop things you don't want to.
 Some things are gone forever if you
 drop them onto the ground.
 You can use the command "help" to
-learn more about other commands.
-The ',' (comma) key also picks up
-objects below you.  Another important
-key is the ' key, which tells your
-client that you're about to begin a
-text command.  On some clients you
-can click in a window to type in a
-text command.
+learn more about other commands.  The
+',' (comma) key also picks up objects
+below you.  Another important key is
+the ' key, which tells your client
+that you're about to begin a text
+command.  On some clients you can
+click in a window to type in a text
+command.
 endmsg
 x 7
 y 9
@@ -2139,7 +2304,7 @@ end
 arch magic_mouth
 msg
 Crossfire primer #2:
-skills
+Skills
 Crossfire players can have many
 skills.  Type in the command "skills"
 to see which ones you have.  Right
@@ -2148,8 +2313,8 @@ will be able to choose your beginning
 skills, which are determined by your
 choice of class.
 The main ones are magic, weapons, and
-praying.  There are many more.
-Some you will use like this:
+praying.  There are many more.  Some
+you will use like this:
 use_skill alchemy
 Others, like praying, weapons, and
 magic are automatic.
@@ -2169,17 +2334,19 @@ arch magic_mouth
 msg
 Crossfire primer #3:
 Magic
-Players with the magic skill can cast
-magical spells.
-Magical spells are used in this way:
-by typing, for example:
+Players with magic skills can cast
+magical spells. The magic skills are
+evocation, pyromancy, sorcery, and
+summoning.
+Magical spells are used by typing, for
+example:
 cast small lightning
 cast burning hands
-Either of these commands will set the
-RANGE ATTACK to that magic spell.
-Then, "firing" in a direction will
-invoke that spell in that direction.
-Magical energy is call mana, and it
+These commands will set the RANGE
+ATTACK to that magic spell.  Then,
+"firing" in a direction will invoke
+that spell in that direction.
+Magical energy is called mana, and it
 is depleted whenever a player invokes
 a magical spell.   Mana is normally
 replenished slowly, but certain items
@@ -2207,22 +2374,22 @@ in much the same way, for example,
 by typing:
 cast holy word
 cast burning hands
-Either of these commands will set the
-RANGE ATTACK to that praying skill.
-Then, "firing" in a direction will
-invoke that prayer in that direction.
-Grace is a measure of how pleased
-your god is with you at the moment.
-Your god will grant you favors if
-you have sufficient grace for the
-favor, or even sometimes if you don't.
+These commands will set the RANGE
+ATTACK to that prayer.  Then,
+"firing" in a direction will invoke
+that prayer in that direction.  Grace
+is a measure of how pleased your god
+is with you at the moment.  Your god
+will grant you favors if you have
+sufficient grace for the favor, or
+even sometimes if you don't.
 However, asking for big favors when
 you have insufficient grace may bring
 down divine retribution.
-Grace is slowly replenished, up
-to a point.  Beyond that point, you
-must pray to gain more grace.
-This is a convenient way to do this:
+Grace is slowly replenished, up to a
+point.  Beyond that point, you must
+pray to gain more grace.  This is a
+convenient way to do this:
 bind use_skill praying
 P
 Then simply hit the P key repeatedly.
@@ -2257,14 +2424,15 @@ h l
 bjn
 Running in a direction is done by
 <Ctrl> directon.  Firing in
-a direction is <shift> direction.
+a direction is <Shift> direction.
 It's generally better to hit a
 monster with a weapon besides your
-fists.   Click on your inventory
+fists.  Click on your inventory
 until you figure out how to get a
 weapon to be marked "wielded".  Then,
 you'll be able to hit the monster
-with the weapon when you run into him.
+with the weapon when you run into
+him.
 endmsg
 x 7
 y 13
@@ -2289,11 +2457,11 @@ Religions are acquired by praying at
 an altar.  Any player with the
 praying skill may pray at an altar
 and become a devotee of that god.
-The various dieties are very
+The various deities are very
 different from each other.  Beginning
 players should probably choose either
-Mostrai or Valriel, and avoid Gaea and
-Rugilli.  Temples for most of the
+Mostrai or Valriel, and avoid Gaea
+and Rugilli.  Temples for most of the
 religions are in the town Scorn,
 where you will appear after you
 choose a class.
@@ -2329,7 +2497,9 @@ arch dungeon_magic
 x 7
 y 15
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 16
 end
@@ -2337,7 +2507,9 @@ arch dungeon_magic
 x 7
 y 16
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 17
 end
@@ -2345,7 +2517,9 @@ arch dungeon_magic
 x 7
 y 17
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 18
 end
@@ -2353,7 +2527,9 @@ arch dungeon_magic
 x 7
 y 18
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 19
 end
@@ -2361,7 +2537,9 @@ arch dungeon_magic
 x 7
 y 19
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 20
 end
@@ -2369,7 +2547,9 @@ arch dungeon_magic
 x 7
 y 20
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 21
 end
@@ -2377,13 +2557,9 @@ arch dungeon_magic
 x 7
 y 21
 end
-arch gravestone
-x 7
-y 21
-weight 0
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 22
 end
@@ -2391,7 +2567,9 @@ arch dungeon_magic
 x 7
 y 22
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 23
 end
@@ -2399,7 +2577,9 @@ arch dungeon_magic
 x 7
 y 23
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 24
 end
@@ -2407,11 +2587,9 @@ arch dungeon_magic
 x 7
 y 24
 end
-arch fog
-x 7
-y 24
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 25
 end
@@ -2419,7 +2597,9 @@ arch dungeon_magic
 x 7
 y 25
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 26
 end
@@ -2427,7 +2607,9 @@ arch dungeon_magic
 x 7
 y 26
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 27
 end
@@ -2435,7 +2617,9 @@ arch dungeon_magic
 x 7
 y 27
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 28
 end
@@ -2443,7 +2627,9 @@ arch dungeon_magic
 x 7
 y 28
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 29
 end
@@ -2451,7 +2637,9 @@ arch dungeon_magic
 x 7
 y 29
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 30
 end
@@ -2459,7 +2647,9 @@ arch dungeon_magic
 x 7
 y 30
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 31
 end
@@ -2467,7 +2657,9 @@ arch dungeon_magic
 x 7
 y 31
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 32
 end
@@ -2475,37 +2667,15 @@ arch dungeon_magic
 x 7
 y 32
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 7
 y 33
 end
-arch dungeon_magic
+arch cwall_2_1_2
 x 7
 y 33
-end
-arch cobblestones2
-x 7
-y 34
-end
-arch dungeon_magic
-x 7
-y 34
-end
-arch magic_mouth
-msg
-This road leads to the afterlife.
-You feel that you have unfinished
-business in the material world.
-endmsg
-x 7
-y 34
-end
-arch mover_1
-x 7
-y 34
-speed 0.200000
-level 1
-attacktype 1
 end
 arch earth
 x 8
@@ -2524,11 +2694,10 @@ y 3
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 8
 y 4
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2538,7 +2707,6 @@ y 4
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 8
 y 5
@@ -2549,7 +2717,6 @@ y 5
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 8
 y 6
@@ -2560,7 +2727,6 @@ y 6
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 8
 y 7
@@ -2645,17 +2811,13 @@ arch cobblestones2
 x 8
 y 15
 end
-arch dungeon_magic
+arch cwall_1_4
 x 8
 y 15
 end
-arch gravestone
-x 8
-y 15
-weight 0
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 16
 end
@@ -2663,30 +2825,9 @@ arch dungeon_magic
 x 8
 y 16
 end
-arch wraith
-name Jack
-name_pl Jack
-msg
-@match choice|choose|class
-I would definately take the Evoker.
-endmsg
-hp -25536
-maxhp -25536
-ac -100
-x 8
-y 16
-monster 0
-friendly 1
-unaggressive 1
-sleep 0
-stand_still 1
-con 50
-end
-arch fog
-x 8
-y 16
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 17
 end
@@ -2694,7 +2835,9 @@ arch dungeon_magic
 x 8
 y 17
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 18
 end
@@ -2702,7 +2845,9 @@ arch dungeon_magic
 x 8
 y 18
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 19
 end
@@ -2710,12 +2855,9 @@ arch dungeon_magic
 x 8
 y 19
 end
-arch coffin
-x 8
-y 19
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 20
 end
@@ -2723,7 +2865,9 @@ arch dungeon_magic
 x 8
 y 20
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 21
 end
@@ -2731,7 +2875,9 @@ arch dungeon_magic
 x 8
 y 21
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 22
 end
@@ -2739,7 +2885,9 @@ arch dungeon_magic
 x 8
 y 22
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 23
 end
@@ -2747,7 +2895,9 @@ arch dungeon_magic
 x 8
 y 23
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 24
 end
@@ -2755,7 +2905,9 @@ arch dungeon_magic
 x 8
 y 24
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 25
 end
@@ -2763,7 +2915,9 @@ arch dungeon_magic
 x 8
 y 25
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 26
 end
@@ -2771,7 +2925,9 @@ arch dungeon_magic
 x 8
 y 26
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 27
 end
@@ -2779,7 +2935,9 @@ arch dungeon_magic
 x 8
 y 27
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 28
 end
@@ -2787,7 +2945,9 @@ arch dungeon_magic
 x 8
 y 28
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 29
 end
@@ -2795,12 +2955,9 @@ arch dungeon_magic
 x 8
 y 29
 end
-arch bones5
-x 8
-y 29
-no_pick 1
-end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 30
 end
@@ -2808,7 +2965,9 @@ arch dungeon_magic
 x 8
 y 30
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 31
 end
@@ -2816,7 +2975,9 @@ arch dungeon_magic
 x 8
 y 31
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 32
 end
@@ -2824,42 +2985,15 @@ arch dungeon_magic
 x 8
 y 32
 end
-arch cobblestones2
+arch flagstone
+name floor
+face shop_empty.111
 x 8
 y 33
 end
-arch dungeon_magic
+arch cwall_2_1_2
 x 8
 y 33
-end
-arch coffin
-x 8
-y 33
-no_pick 1
-end
-arch cobblestones2
-x 8
-y 34
-end
-arch dungeon_magic
-x 8
-y 34
-end
-arch magic_mouth
-msg
-This road leads to the afterlife.
-You feel that you have unfinished
-business in the material world.
-endmsg
-x 8
-y 34
-end
-arch mover_1
-x 8
-y 34
-speed 0.200000
-level 1
-attacktype 1
 end
 arch earth
 x 9
@@ -2882,11 +3016,10 @@ y 3
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 9
 y 4
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2896,11 +3029,10 @@ y 4
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 9
 y 5
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2910,11 +3042,10 @@ y 5
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 9
 y 6
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2924,11 +3055,10 @@ y 6
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 9
 y 7
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2938,11 +3068,10 @@ y 7
 end
 arch flagstone
 name floor
-name_pl floor
 face shop_empty.111
 x 9
 y 8
-move_block walk fly_low fly_high swim
+no_pass 1
 no_magic 1
 damned 1
 end
@@ -2974,10 +3103,13 @@ arch blocked
 x 9
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 15
+end
+arch cwall_2_1_2
 x 9
 y 15
 end
@@ -2994,22 +3126,25 @@ the magical arts, religious devotion,
 and lacks breadth in general.
 endmsg
 x 9
-y 15
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 16
 end
 arch dungeon_magic
 x 9
-y 15
-end
-arch rough_wall_1_4
-x 9
 y 16
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 17
+end
+arch swall_1_4
 x 9
 y 17
 end
@@ -3040,22 +3175,25 @@ idea of gods, but you don't know much
 about them.
 endmsg
 x 9
-y 17
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 18
 end
 arch dungeon_magic
 x 9
-y 17
-end
-arch rough_wall_1_4
-x 9
 y 18
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 19
+end
+arch swall_1_4
 x 9
 y 19
 end
@@ -3082,22 +3220,25 @@ weapons, but you've had no chance to
 learn any magic or the ways of gods.
 endmsg
 x 9
-y 19
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 20
 end
 arch dungeon_magic
 x 9
-y 19
-end
-arch rough_wall_1_4
-x 9
 y 20
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 21
+end
+arch swall_1_4
 x 9
 y 21
 end
@@ -3117,22 +3258,25 @@ had NO introduction to either
 religious devotion or magic.
 endmsg
 x 9
-y 21
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 22
 end
 arch dungeon_magic
 x 9
-y 21
-end
-arch rough_wall_1_4
-x 9
 y 22
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 23
+end
+arch swall_1_4
 x 9
 y 23
 end
@@ -3153,22 +3297,25 @@ but your quick wits have kept you
 alive many times.
 endmsg
 x 9
-y 23
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 24
 end
 arch dungeon_magic
 x 9
-y 23
-end
-arch rough_wall_1_4
-x 9
 y 24
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 25
+end
+arch swall_1_4
 x 9
 y 25
 end
@@ -3177,33 +3324,36 @@ msg
 Monk
 In the Monastery, they believed in
 mental discipline and peace through
-physical training, meditation, and to
-a lesser extent, religious devotion.
-Your mental equilibrium requires you
-to forego the use of weapons, but
-your physical training in karate
-means you're not helpless.  Your
-inner peacefulness grants you the
-ability to regenerate faster and to
-sense auras.
+physical training, meditation, and,
+to a lesser extent, religious
+devotion.  Your mental equilibrium
+requires you to forego the use of
+weapons, but your physical training
+in karate means you're not helpless.
+Your inner peacefulness grants you
+the ability to regenerate faster and
+to sense auras.
 endmsg
 x 9
-y 25
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 26
 end
 arch dungeon_magic
 x 9
-y 25
-end
-arch rough_wall_1_4
-x 9
 y 26
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 27
+end
+arch swall_1_4
 x 9
 y 27
 end
@@ -3215,12 +3365,12 @@ emphasis on 'priest'.  You've been
 taught archery and the use of
 weapons, but great care has been
 taken that you're doctrinally
-correct.  Now you've been sent out
-in the world to convert the
-unrighteous and destroy the enemies
-of the faith, and your churchmembers
-have been charged a pretty penny to
-equip you to do it!
+correct.  Now you've been sent out in
+the world to convert the unrighteous
+and destroy the enemies of the faith,
+and your churchmembers have been
+charged a pretty penny to equip you
+to do it!
 All other areas of your education
 have been neglected.  Perhaps aware
 of your deficiency, your superiors
@@ -3228,22 +3378,25 @@ have given you a measure of
 protection from magic.
 endmsg
 x 9
-y 27
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 28
 end
 arch dungeon_magic
 x 9
-y 27
-end
-arch rough_wall_1_4
-x 9
 y 28
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 29
+end
+arch swall_1_4
 x 9
 y 29
 end
@@ -3263,43 +3416,47 @@ tell when a god has marked an object
 as accursed.
 endmsg
 x 9
-y 29
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 9
+y 30
 end
 arch dungeon_magic
 x 9
-y 29
-end
-arch rough_wall_1_4
-x 9
 y 30
-move_block 0
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 9
 y 31
 end
-arch rough_wall_1_4
+arch swall_1_4
+x 9
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 9
 y 32
-move_block 0
-blocksview 0
 end
-arch blocked
-name nothingness
-name_pl nothingness
-face blocked.111
+arch dungeon_magic
+x 9
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 9
 y 33
 end
-arch blocked
-name nothingness
-name_pl nothingness
+arch cwall_2_1_2
 x 9
-y 34
+y 33
 end
 arch earth
 x 10
@@ -3360,10 +3517,13 @@ arch blocked
 x 10
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 15
+end
+arch cwall_2_1_2
 x 10
 y 15
 end
@@ -3373,22 +3533,25 @@ Step on the circle to become a
 Warrior.
 endmsg
 x 10
-y 15
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 16
 end
 arch dungeon_magic
 x 10
-y 15
-end
-arch roughwall_2_1_2
-x 10
 y 16
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 17
+end
+arch swall_2_1_2
 x 10
 y 17
 end
@@ -3398,22 +3561,25 @@ Step onto the circle to become a
 Barbarian.
 endmsg
 x 10
-y 17
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 18
 end
 arch dungeon_magic
 x 10
-y 17
-end
-arch roughwall_2_1_2
-x 10
 y 18
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 19
+end
+arch swall_2_1_2
 x 10
 y 19
 end
@@ -3423,22 +3589,25 @@ Step forward to become a
 swashbuckler.
 endmsg
 x 10
-y 19
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 20
 end
 arch dungeon_magic
 x 10
-y 19
-end
-arch roughwall_2_1_2
-x 10
 y 20
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 21
+end
+arch swall_2_1_2
 x 10
 y 21
 end
@@ -3447,22 +3616,25 @@ msg
 Step forward to become a Ninja.
 endmsg
 x 10
-y 21
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 22
 end
 arch dungeon_magic
 x 10
-y 21
-end
-arch roughwall_2_1_2
-x 10
 y 22
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 23
+end
+arch swall_2_1_2
 x 10
 y 23
 end
@@ -3471,22 +3643,25 @@ msg
 Step forward to become a thief.
 endmsg
 x 10
-y 23
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 24
 end
 arch dungeon_magic
 x 10
-y 23
-end
-arch roughwall_2_1_2
-x 10
 y 24
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 25
+end
+arch swall_2_1_2
 x 10
 y 25
 end
@@ -3498,22 +3673,25 @@ This is a significant handicap:
 experienced players only.
 endmsg
 x 10
-y 25
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 26
 end
 arch dungeon_magic
 x 10
-y 25
-end
-arch roughwall_2_1_2
-x 10
 y 26
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 27
+end
+arch swall_2_1_2
 x 10
 y 27
 end
@@ -3522,22 +3700,25 @@ msg
 Step forward to become a Paladin.
 endmsg
 x 10
-y 27
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 28
 end
 arch dungeon_magic
 x 10
-y 27
-end
-arch roughwall_2_1_2
-x 10
 y 28
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 29
+end
+arch swall_2_1_2
 x 10
 y 29
 end
@@ -3546,44 +3727,47 @@ msg
 Step forward to become a Priest.
 endmsg
 x 10
-y 29
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 10
+y 30
 end
 arch dungeon_magic
 x 10
-y 29
-end
-arch roughwall_2_1_2
-x 10
 y 30
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 10
 y 31
 end
-arch roughwall_2_1_2
+arch swall_2_1_2
+x 10
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 10
 y 32
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch dungeon_magic
+x 10
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 10
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 10
-y 34
+y 33
 end
 arch earth
 x 11
@@ -3648,209 +3832,235 @@ arch blocked
 x 11
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 15
 end
+arch cwall_2_1_2
+x 11
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 16
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 15
+y 16
 arch warrior_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 16
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 17
 end
+arch swall_2_1_2
+x 11
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 18
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 17
+y 18
 arch barbarian_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 18
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 19
 end
+arch swall_2_1_2
+x 11
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 20
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 19
+y 20
 arch swashbuckler_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 20
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 21
 end
+arch swall_2_1_2
+x 11
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 22
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 21
+y 22
 arch ninja_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 22
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 23
 end
+arch swall_2_1_2
+x 11
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 24
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 23
+y 24
 arch thief_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 24
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 25
 end
+arch swall_2_1_2
+x 11
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 26
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 25
+y 26
 arch monk_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 26
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 27
 end
+arch swall_2_1_2
+x 11
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 28
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 27
+y 28
 arch paladin_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 28
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 29
 end
+arch swall_2_1_2
+x 11
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 11
+y 30
+end
 arch player_changer
-slaying /start/Nexus_wraith
+slaying /start/Nexus_orc
 hp 12
 sp 12
 x 11
-y 29
+y 30
 arch priest_class
 end
 end
-arch rough_wall_1_3
-x 11
-y 30
-move_block walk
-blocksview 0
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 31
-move_block walk fly_low fly_high swim
 end
-arch rough_wall_1_3
+arch swall_2_1_2
+x 11
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 32
-move_block walk
-blocksview 0
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch dungeon_magic
+x 11
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 11
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 11
-y 34
+y 33
 end
 arch earth
 x 12
@@ -3911,145 +4121,203 @@ arch blocked
 x 12
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 15
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
+x 12
+y 15
+end
+arch swall_1_1_half
+x 12
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 16
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 17
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 18
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 19
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 23
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 25
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 26
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 27
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 29
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_4
+x 12
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_2_1_1
+x 12
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 12
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_2_half
 x 12
-y 34
+y 33
+end
+arch cwall_2_1_2
+x 12
+y 33
 end
 arch earth
 x 13
@@ -4114,196 +4382,212 @@ arch blocked
 x 13
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 15
+end
+arch cwall_2_1_2
+x 13
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 13
+y 16
 end
 arch warrior_class
-x 13
-y 15
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+face warrior.151
 x 13
 y 16
 end
-arch fog
-x 13
-y 16
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 17
+end
+arch swall_2_1_2
+x 13
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 13
+y 18
 end
 arch barbarian_class
-x 13
-y 17
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+face barbarian.151
 x 13
 y 18
 end
-arch fog
-x 13
-y 18
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 19
 end
-arch swashbuckler_class
+arch swall_2_1_2
 x 13
 y 19
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swashbuckler_class
+face swashbuckl.151
+x 13
+y 20
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 21
 end
-arch ninja_class
+arch swall_2_1_2
 x 13
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch ninja_class
+face ninja.151
+x 13
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 23
+end
+arch swall_2_1_2
+x 13
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 13
+y 24
 end
 arch thief_class
 face thief.151
 x 13
-y 23
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 13
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 25
 end
-arch monk_class
+arch swall_2_1_2
 x 13
 y 25
 end
-arch fog
-x 13
-y 25
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 26
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch monk_class
+msg
+In the Monastery, they believed in
+mental discipline and peace through
+physical training, meditation, and to
+a lesser extent, religious devotion.
+Your mental equilibrium requires you
+to forego the use of weapons, but
+your physical training in karate
+means you're not helpless.  Your
+inner peacefulness grants you the
+ability to regenerate faster and to
+sense auras.
+endmsg
+face monk.151
+x 13
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 27
+end
+arch swall_2_1_2
+x 13
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 13
+y 28
 end
 arch paladin_class
 face paladin.151
 x 13
-y 27
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 13
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 29
+end
+arch swall_2_1_2
+x 13
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
+x 13
+y 30
 end
 arch priest_class
 face priestnew.151
 x 13
-y 29
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 13
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 31
 end
-arch fog
+arch swall_2_1_2
 x 13
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 13
 y 33
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_2
 x 13
-y 34
+y 33
 end
 arch blocked
 x 14
@@ -4364,155 +4648,225 @@ arch blocked
 x 14
 y 14
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 15
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_2_3
+x 14
+y 15
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 16
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 16
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 17
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 17
+end
+arch swall_1_3_half
+x 14
+y 17
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 18
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 18
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 19
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 19
+end
+arch swall_1_3_half
+x 14
+y 19
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 20
 end
-arch fog
+arch cwall_2_1_1
 x 14
 y 20
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 21
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 21
+end
+arch swall_1_3_half
+x 14
+y 21
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 22
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 22
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 23
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 23
+end
+arch swall_1_3_half
+x 14
+y 23
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 24
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 24
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 25
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 25
+end
+arch swall_1_3_half
+x 14
+y 25
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 26
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 26
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 27
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 27
+end
+arch swall_1_3_half
+x 14
+y 27
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 28
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 28
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 29
 end
-arch fog
+arch cwall_2_1_1
 x 14
 y 29
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch swall_1_3_half
+x 14
+y 29
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 30
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 30
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 31
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 31
+end
+arch swall_1_3_half
+x 14
+y 31
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 32
 end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
+arch cwall_2_1_1
+x 14
+y 32
+end
+arch flagstone
+name floor
+face shop_empty.111
 x 14
 y 33
 end
-arch fog
+arch cwall_2_2_4
 x 14
 y 33
-end
-arch blackmarble
-name nothingness
-name_pl nothingness
-face blocked.111
-x 14
-y 34
 end
