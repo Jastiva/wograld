@@ -1,6 +1,7 @@
 Object pl_orc
-name badlands orc
+name orc_female
 randomitems pl_orc
+race goblin
 face pl_orc.151
 msg
 Orcs are elves who have lost immortality.

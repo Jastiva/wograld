@@ -26,7 +26,7 @@ fenx.172
 mina
 is_animated 1
 anim_speed -1
-type 80
+type 0
 level 1
 ac 10
 wc 21

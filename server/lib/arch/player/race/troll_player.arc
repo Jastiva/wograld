@@ -1,34 +1,22 @@
 Object troll_player
-name troll
-race troll
-randomitems troll_player_items
-face troll_p.151
+name orc_male
+race goblin
+randomitems pl_orc
+face pl_morc.151
 msg
-Trolls are usually nasty creatures: scions
-of Gnarg. They have amazing strength and
-hardiness, but they're a bit clumsy, very
-stupid, impious, and bad at handling and
-obtaining magic.  They heal with amazing
-rapidity and can see in the dark.  Because of
-the above attributes, they're great in any
-fight.  Well, they're great until someone
-waves torches at them: fire presents great
-peril to trolls.
-
-Most trolls are destroyed on sight by
-civilized people: but a few have proved
-deserving of tolerance and are permitted to
-enter cities.
+Orcs are elves who have lost immortality.
+They value warfighting and thievery.
+but have unique building styles and society.
 endmsg
 anim
-troll_p.111
-troll_p.112
-troll_p.131
-troll_p.132
-troll_p.151
-troll_p.152
-troll_p.171
-troll_p.172
+pl_morc.111
+pl_morc.112
+pl_morc.131
+pl_morc.132
+pl_morc.151
+pl_morc.152
+pl_morc.171
+pl_morc.172
 facings 4
 mina
 is_animated 1

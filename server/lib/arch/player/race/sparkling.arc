@@ -1,11 +1,11 @@
-object sparkling_player
+Object sparkling_player
 anim
 sparkling.x11
 sparkling.x12
 sparkling.x13
 sparkling.x14
 mina
-type 80
+type 0
 name sparkling
 race para_lightning
 color_fg red
