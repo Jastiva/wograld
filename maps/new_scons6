@@ -7,7 +7,7 @@ width 50
 height 50
 msg
 Created:  2014-04-05 serpentshard
-Modified: 2019-12-22 lx
+Modified: 2019-12-24 lx
 endmsg
 tile_path_1 new_scons4
 tile_path_3 new_scons9
@@ -11604,7 +11604,22 @@ arch woodfloor
 x 43
 y 43
 end
+arch exit
+slaying new_scons6
+hp 43
+sp 45
+x 43
+y 43
+end
 arch woodfloor
+x 43
+y 44
+end
+arch grass
+x 43
+y 44
+end
+arch swall_2_1_2
 x 43
 y 44
 end
@@ -11901,6 +11916,14 @@ y 44
 end
 arch grass
 x 44
+y 44
+end
+arch swall_2_1_2
+x 44
+y 44
+end
+arch grass
+x 44
 y 45
 end
 arch pstone_4
@@ -12171,6 +12194,21 @@ x 45
 y 44
 end
 arch grass
+x 45
+y 44
+end
+arch swall_2_1_2
+x 45
+y 44
+end
+arch grass
+x 45
+y 45
+end
+arch exit
+slaying new_scons6
+hp 45
+sp 43
 x 45
 y 45
 end
