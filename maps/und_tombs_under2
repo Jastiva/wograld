@@ -1,0 +1,5341 @@
+arch map
+name und_tombs_under2
+width 50
+height 50
+msg
+Created:  2019-12-28 lx
+Modified: 2019-12-28 lx
+endmsg
+end
+arch earth
+y 36
+move_block all
+end
+arch cave4
+y 36
+end
+arch earth
+y 37
+end
+arch river_w-e
+y 37
+move_block 0
+end
+arch mover_3
+y 37
+level 1
+end
+arch earth
+y 38
+move_block all
+end
+arch cave2
+y 38
+end
+arch blocked
+y 39
+end
+arch blocked
+y 43
+end
+arch earth
+y 44
+end
+arch cave_6
+y 44
+end
+arch earth
+y 45
+end
+arch cave3
+y 45
+end
+arch earth
+y 46
+end
+arch biglake_2_2_3
+y 46
+end
+arch cave8
+y 46
+end
+arch earth
+y 47
+end
+arch biglake_se
+y 47
+end
+arch cave7
+y 47
+end
+arch earth
+y 48
+end
+arch cave3
+y 48
+end
+arch earth
+y 49
+end
+arch cave23
+y 49
+end
+arch earth
+x 1
+y 36
+move_block all
+end
+arch cave4
+x 1
+y 36
+end
+arch earth
+x 1
+y 37
+end
+arch river_w-e
+x 1
+y 37
+move_block 0
+end
+arch mover_3
+x 1
+y 37
+level 1
+attacktype 1
+end
+arch earth
+x 1
+y 38
+move_block all
+end
+arch cave2
+x 1
+y 38
+end
+arch blocked
+x 1
+y 39
+end
+arch blocked
+x 1
+y 43
+end
+arch earth
+x 1
+y 44
+end
+arch cave4
+x 1
+y 44
+end
+arch earth
+x 1
+y 45
+end
+arch generate_goblin
+Wis 8
+x 1
+y 45
+end
+arch earth
+x 1
+y 46
+end
+arch bracers_ac
+x 1
+y 46
+end
+arch goblin
+Wis 5
+x 1
+y 46
+end
+arch earth
+x 1
+y 47
+end
+arch battle_axe
+x 1
+y 47
+end
+arch goblin_leader_arc
+Wis 8
+x 1
+y 47
+end
+arch earth
+x 1
+y 48
+end
+arch generate_goblin
+Wis 8
+x 1
+y 48
+end
+arch earth
+x 1
+y 49
+end
+arch cave2
+x 1
+y 49
+end
+arch earth
+x 2
+y 36
+move_block all
+end
+arch cave4
+x 2
+y 36
+end
+arch magic_mouth
+msg
+You seem to be stuck in some sort of an underground river...
+The water is moving to fast to go back up,  I guess you'll have to find another way out.
+endmsg
+x 2
+y 37
+end
+arch earth
+x 2
+y 37
+end
+arch river_w-e
+x 2
+y 37
+move_block 0
+end
+arch mover_3
+x 2
+y 37
+level 1
+end
+arch earth
+x 2
+y 38
+move_block all
+end
+arch cave2
+x 2
+y 38
+end
+arch blocked
+x 2
+y 39
+end
+arch blocked
+x 2
+y 43
+end
+arch earth
+x 2
+y 44
+end
+arch cave4
+x 2
+y 44
+end
+arch earth
+x 2
+y 45
+end
+arch goblin
+Wis 5
+x 2
+y 45
+end
+arch earth
+x 2
+y 46
+end
+arch goblin
+Wis 7
+x 2
+y 46
+end
+arch earth
+x 2
+y 47
+end
+arch goblin
+Wis 7
+x 2
+y 47
+end
+arch earth
+x 2
+y 48
+end
+arch goblin
+Wis 7
+x 2
+y 48
+end
+arch earth
+x 2
+y 49
+end
+arch cave2
+x 2
+y 49
+end
+arch earth
+x 3
+y 36
+move_block all
+end
+arch cave4
+x 3
+y 36
+end
+arch earth
+x 3
+y 37
+end
+arch river_w-e
+x 3
+y 37
+move_block 0
+end
+arch mover_3
+x 3
+y 37
+level 1
+end
+arch earth
+x 3
+y 38
+move_block all
+end
+arch cave2
+x 3
+y 38
+end
+arch blocked
+x 3
+y 39
+end
+arch blocked
+x 3
+y 43
+end
+arch earth
+x 3
+y 44
+end
+arch cave4
+x 3
+y 44
+end
+arch earth
+x 3
+y 45
+end
+arch goblin
+Wis 5
+x 3
+y 45
+end
+arch earth
+x 3
+y 46
+end
+arch goblin
+Wis 5
+x 3
+y 46
+end
+arch earth
+x 3
+y 47
+end
+arch cave21
+x 3
+y 47
+end
+arch earth
+x 3
+y 48
+end
+arch goblin
+Wis 7
+x 3
+y 48
+end
+arch earth
+x 3
+y 49
+end
+arch cave2
+x 3
+y 49
+end
+arch earth
+x 4
+y 36
+move_block all
+end
+arch cave4
+x 4
+y 36
+end
+arch earth
+x 4
+y 37
+end
+arch river_w-e
+x 4
+y 37
+move_block 0
+end
+arch mover_3
+x 4
+y 37
+level 1
+end
+arch earth
+x 4
+y 38
+move_block all
+end
+arch cave2
+x 4
+y 38
+end
+arch blocked
+x 4
+y 39
+end
+arch blocked
+x 4
+y 40
+end
+arch blocked
+x 4
+y 41
+end
+arch blocked
+x 4
+y 42
+end
+arch blocked
+x 4
+y 43
+end
+arch earth
+x 4
+y 44
+end
+arch cave4
+x 4
+y 44
+end
+arch earth
+x 4
+y 45
+end
+arch random_gem
+x 4
+y 45
+end
+arch goblin
+Wis 5
+x 4
+y 45
+end
+arch earth
+x 4
+y 46
+end
+arch random_mineral
+x 4
+y 46
+end
+arch goblin
+Wis 5
+x 4
+y 46
+end
+arch earth
+x 4
+y 47
+end
+arch random_wealth
+x 4
+y 47
+end
+arch goblin
+Wis 6
+x 4
+y 47
+end
+arch earth
+x 4
+y 48
+end
+arch random_wealth
+x 4
+y 48
+end
+arch goblin
+Wis 7
+x 4
+y 48
+end
+arch earth
+x 4
+y 49
+end
+arch biglake_2_2_2
+x 4
+y 49
+end
+arch cave7
+x 4
+y 49
+end
+arch earth
+x 5
+y 36
+move_block all
+end
+arch cave4
+x 5
+y 36
+end
+arch earth
+x 5
+y 37
+end
+arch river_w-e
+x 5
+y 37
+move_block 0
+end
+arch mover_3
+x 5
+y 37
+level 1
+end
+arch earth
+x 5
+y 38
+move_block all
+end
+arch cave2
+x 5
+y 38
+end
+arch blocked
+x 5
+y 39
+end
+arch blocked
+x 5
+y 40
+end
+arch earth
+x 5
+y 41
+end
+arch cave18
+x 5
+y 41
+end
+arch earth
+x 5
+y 42
+end
+arch cave3
+x 5
+y 42
+end
+arch earth
+x 5
+y 43
+end
+arch cave3
+x 5
+y 43
+end
+arch earth
+x 5
+y 44
+end
+arch cave13
+x 5
+y 44
+end
+arch river_sw-ne_u
+x 5
+y 44
+end
+arch earth
+x 5
+y 45
+end
+arch river_ne-s
+x 5
+y 45
+move_block 0
+end
+arch mover_2
+x 5
+y 45
+level 1
+end
+arch earth
+x 5
+y 46
+end
+arch ford_we
+x 5
+y 46
+end
+arch magic_mouth
+msg
+The current seems to deposit items in the soft banks of the river here.
+endmsg
+x 5
+y 47
+end
+arch earth
+x 5
+y 47
+end
+arch ford_we
+x 5
+y 47
+end
+arch earth
+x 5
+y 48
+end
+arch river_n-s
+x 5
+y 48
+move_block 0
+end
+arch mover_1
+x 5
+y 48
+end
+arch earth
+x 5
+y 49
+end
+arch river_n-s
+x 5
+y 49
+end
+arch biglake_ne
+x 5
+y 49
+end
+arch mover_1
+x 5
+y 49
+end
+arch earth
+x 6
+y 36
+move_block all
+end
+arch cave4
+x 6
+y 36
+end
+arch earth
+x 6
+y 37
+end
+arch river_w-e
+x 6
+y 37
+move_block 0
+end
+arch mover_3
+x 6
+y 37
+level 1
+end
+arch earth
+x 6
+y 38
+move_block all
+end
+arch cave2
+x 6
+y 38
+end
+arch blocked
+x 6
+y 39
+end
+arch earth
+x 6
+y 40
+end
+arch cave18
+x 6
+y 40
+end
+arch earth
+x 6
+y 41
+end
+arch river_sw-ne_u
+x 6
+y 41
+end
+arch cave13
+x 6
+y 41
+end
+arch earth
+x 6
+y 42
+end
+arch river_ne-s
+x 6
+y 42
+move_block 0
+end
+arch mover_2
+x 6
+y 42
+level 1
+end
+arch earth
+x 6
+y 43
+end
+arch river_n-s
+x 6
+y 43
+move_block 0
+end
+arch mover_1
+x 6
+y 43
+level 1
+end
+arch earth
+x 6
+y 44
+end
+arch rjunct_ns-se
+x 6
+y 44
+move_block 0
+end
+arch river_sw-n
+x 6
+y 44
+move_block 0
+end
+arch mover_1
+x 6
+y 44
+level 1
+end
+arch earth
+x 6
+y 45
+end
+arch river_nw-se_l
+x 6
+y 45
+move_block 0
+end
+arch river_sw-ne_l
+x 6
+y 45
+end
+arch earth
+x 6
+y 46
+end
+arch random_wealth
+x 6
+y 46
+end
+arch earth
+x 6
+y 47
+end
+arch random_mineral
+x 6
+y 47
+end
+arch earth
+x 6
+y 48
+end
+arch random_gem
+x 6
+y 48
+end
+arch earth
+x 6
+y 49
+end
+arch cave15
+x 6
+y 49
+end
+arch earth
+x 7
+y 36
+move_block all
+end
+arch cave4
+x 7
+y 36
+end
+arch earth
+x 7
+y 37
+end
+arch river_w-e
+x 7
+y 37
+move_block 0
+end
+arch mover_3
+x 7
+y 37
+level 1
+end
+arch earth
+x 7
+y 38
+move_block all
+end
+arch cave2
+x 7
+y 38
+end
+arch blocked
+x 7
+y 39
+end
+arch earth
+x 7
+y 40
+end
+arch cave4
+x 7
+y 40
+end
+arch earth
+x 7
+y 41
+end
+arch river_sw-e
+x 7
+y 41
+move_block 0
+end
+arch mover_3
+x 7
+y 41
+level 1
+end
+arch earth
+x 7
+y 42
+end
+arch river_sw-ne_l
+x 7
+y 42
+end
+arch cave15
+x 7
+y 42
+end
+arch earth
+x 7
+y 43
+end
+arch cave1
+x 7
+y 43
+end
+arch earth
+x 7
+y 44
+end
+arch river_nw-se_u
+x 7
+y 44
+end
+arch cave14
+x 7
+y 44
+end
+arch earth
+x 7
+y 45
+end
+arch river_nw-e
+x 7
+y 45
+move_block 0
+end
+arch mover_8
+x 7
+y 45
+level 1
+end
+arch earth
+x 7
+y 46
+end
+arch cave21
+x 7
+y 46
+end
+arch earth
+x 7
+y 47
+end
+arch earth
+x 7
+y 48
+end
+arch earth
+x 7
+y 49
+end
+arch cave2
+x 7
+y 49
+end
+arch earth
+x 8
+y 36
+move_block all
+end
+arch cave4
+x 8
+y 36
+end
+arch earth
+x 8
+y 37
+end
+arch river_w-e
+x 8
+y 37
+move_block 0
+end
+arch mover_3
+x 8
+y 37
+level 1
+end
+arch earth
+x 8
+y 38
+move_block all
+end
+arch cave2
+x 8
+y 38
+end
+arch blocked
+x 8
+y 39
+end
+arch earth
+x 8
+y 40
+end
+arch cave4
+x 8
+y 40
+end
+arch earth
+x 8
+y 41
+end
+arch river_w-e
+x 8
+y 41
+move_block 0
+end
+arch mover_3
+x 8
+y 41
+level 1
+end
+arch earth
+x 8
+y 42
+end
+arch cave2
+x 8
+y 42
+end
+arch blocked
+x 8
+y 43
+end
+arch earth
+x 8
+y 44
+end
+arch cave4
+x 8
+y 44
+end
+arch earth
+x 8
+y 45
+end
+arch river_se-w
+x 8
+y 45
+move_block 0
+end
+arch mover_7
+x 8
+y 45
+level 1
+end
+arch earth
+x 8
+y 46
+end
+arch river_nw-se_l
+x 8
+y 46
+move_block 0
+end
+arch earth
+x 8
+y 47
+end
+arch earth
+x 8
+y 48
+end
+arch earth
+x 8
+y 49
+end
+arch cave2
+x 8
+y 49
+end
+arch lostlabfloor11
+x 9
+y 2
+elevation 5691
+end
+arch hills
+x 9
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 2
+end
+arch lostlabfloor11
+x 9
+y 3
+elevation 5691
+end
+arch hills
+x 9
+y 3
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 3
+end
+arch lostlabfloor11
+x 9
+y 4
+elevation 5691
+end
+arch hills
+x 9
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 4
+end
+arch lostlabfloor11
+x 9
+y 5
+elevation 2765
+end
+arch lostlabfloor11
+x 9
+y 5
+elevation 5691
+end
+arch hills
+x 9
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 5
+end
+arch lostlabfloor11
+x 9
+y 6
+elevation 5691
+end
+arch hills
+x 9
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 6
+end
+arch lostlabfloor11
+x 9
+y 7
+elevation 5691
+end
+arch hills
+x 9
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 7
+end
+arch lostlabfloor11
+x 9
+y 8
+elevation 5691
+end
+arch hills
+x 9
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 8
+end
+arch lostlabfloor11
+x 9
+y 9
+elevation 5691
+end
+arch hills
+x 9
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 9
+y 9
+end
+arch earth
+x 9
+y 36
+move_block all
+end
+arch cave4
+x 9
+y 36
+end
+arch earth
+x 9
+y 37
+end
+arch river_w-e
+x 9
+y 37
+move_block 0
+end
+arch mover_3
+x 9
+y 37
+level 1
+end
+arch earth
+x 9
+y 38
+move_block all
+end
+arch cave2
+x 9
+y 38
+end
+arch blocked
+x 9
+y 39
+end
+arch earth
+x 9
+y 40
+end
+arch cave4
+x 9
+y 40
+end
+arch earth
+x 9
+y 41
+end
+arch river_w-e
+x 9
+y 41
+move_block 0
+end
+arch mover_3
+x 9
+y 41
+level 1
+end
+arch earth
+x 9
+y 42
+end
+arch cave2
+x 9
+y 42
+end
+arch blocked
+x 9
+y 43
+end
+arch earth
+x 9
+y 44
+end
+arch cave4
+x 9
+y 44
+end
+arch earth
+x 9
+y 45
+end
+arch river_nw-se_u
+x 9
+y 45
+move_block 0
+end
+arch earth
+x 9
+y 46
+end
+arch river_nw-se
+x 9
+y 46
+move_block 0
+end
+arch mover_turn
+x 9
+y 46
+level 1
+end
+arch earth
+x 9
+y 47
+end
+arch river_nw-se_l
+x 9
+y 47
+move_block 0
+end
+arch earth
+x 9
+y 48
+move_block all
+end
+arch cave6
+x 9
+y 48
+end
+arch earth
+x 9
+y 49
+move_block all
+end
+arch cave13
+x 9
+y 49
+end
+arch lostlabfloor11
+x 10
+y 2
+elevation 5691
+end
+arch hills
+x 10
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 10
+y 2
+end
+arch dirtfloor
+title 3643
+x 10
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 10
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 10
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 10
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 10
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 10
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 10
+y 9
+elevation 5691
+end
+arch hills
+x 10
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 10
+y 9
+end
+arch earth
+x 10
+y 36
+end
+arch cave4
+x 10
+y 36
+end
+arch earth
+x 10
+y 37
+end
+arch river_se-w
+x 10
+y 37
+move_block 0
+end
+arch mover_4
+x 10
+y 37
+level 1
+end
+arch earth
+x 10
+y 38
+end
+arch river_nw-se_l
+x 10
+y 38
+end
+arch cave16
+x 10
+y 38
+end
+arch earth
+x 10
+y 39
+end
+arch cave3
+x 10
+y 39
+end
+arch earth
+x 10
+y 40
+end
+arch cave13
+x 10
+y 40
+end
+arch magic_mouth
+msg
+The current is to strong to go that way.
+endmsg
+x 10
+y 41
+end
+arch earth
+x 10
+y 41
+end
+arch river_w-e
+x 10
+y 41
+move_block 0
+end
+arch mover_3
+x 10
+y 41
+level 1
+attacktype 1
+end
+arch earth
+x 10
+y 42
+end
+arch cave2
+x 10
+y 42
+end
+arch blocked
+x 10
+y 43
+end
+arch earth
+x 10
+y 44
+end
+arch cave4
+x 10
+y 44
+end
+arch earth
+x 10
+y 45
+end
+arch earth
+x 10
+y 46
+end
+arch river_nw-se_u
+x 10
+y 46
+move_block 0
+end
+arch magic_mouth
+msg
+You crash through the wall.
+Goblin Leader shouts:
+"Kill the intruder!"
+endmsg
+food 1
+x 10
+y 47
+end
+arch earth
+x 10
+y 47
+end
+arch river_nw-se
+x 10
+y 47
+move_block 0
+end
+arch cave6
+race wall
+hp 1000
+maxhp 300
+ac 20
+x 10
+y 47
+level 1
+alive 1
+tear_down 1
+end
+arch biglake_2_2_2
+x 10
+y 48
+end
+arch cave13
+x 10
+y 48
+end
+arch magic_mouth
+msg
+The water is moving to fast to go any further upstream.
+endmsg
+x 10
+y 49
+end
+arch earth
+x 10
+y 49
+move_block 0
+end
+arch river_ne-s
+x 10
+y 49
+move_block 0
+end
+arch mover_2
+x 10
+y 49
+level 1
+end
+arch lostlabfloor11
+x 11
+y 2
+elevation 5691
+end
+arch hills
+x 11
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 11
+y 2
+end
+arch dirtfloor
+title 3643
+x 11
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 11
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 11
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 11
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 11
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 11
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 11
+y 9
+elevation 5691
+end
+arch hills
+x 11
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 11
+y 9
+end
+arch earth
+x 11
+y 36
+end
+arch cave19
+x 11
+y 36
+end
+arch earth
+x 11
+y 37
+end
+arch river_nw-se_u
+x 11
+y 37
+end
+arch cave14
+x 11
+y 37
+end
+arch earth
+x 11
+y 38
+end
+arch river_nw-s
+x 11
+y 38
+move_block 0
+end
+arch mover_5
+x 11
+y 38
+level 1
+end
+arch earth
+x 11
+y 39
+end
+arch river_n-s
+x 11
+y 39
+move_block 0
+end
+arch mover_5
+x 11
+y 39
+level 1
+end
+arch earth
+x 11
+y 40
+end
+arch river_se-n
+x 11
+y 40
+move_block 0
+end
+arch mover_4
+x 11
+y 40
+level 1
+end
+arch earth
+x 11
+y 41
+end
+arch river_w-e
+x 11
+y 41
+move_block 0
+end
+arch river_nw-se_l
+x 11
+y 41
+move_block 0
+end
+arch mover_3
+x 11
+y 41
+end
+arch earth
+x 11
+y 42
+end
+arch cave2
+x 11
+y 42
+end
+arch blocked
+x 11
+y 43
+end
+arch blocked
+x 11
+y 44
+end
+arch cave7
+x 11
+y 44
+end
+arch earth
+x 11
+y 45
+move_block all
+end
+arch cave15
+x 11
+y 45
+no_magic 1
+damned 1
+end
+arch cave5
+x 11
+y 45
+end
+arch earth
+x 11
+y 46
+move_block all
+end
+arch cave15
+x 11
+y 46
+no_magic 1
+damned 1
+end
+arch cave14
+x 11
+y 46
+end
+arch earth
+x 11
+y 47
+move_block all
+end
+arch river_sw-ne_u
+x 11
+y 47
+end
+arch cave13
+x 11
+y 47
+no_magic 1
+damned 1
+end
+arch magic_mouth
+msg
+Odd...
+The river seems to flow under the northwest wall.
+endmsg
+food 1
+x 11
+y 48
+end
+arch earth
+x 11
+y 48
+end
+arch river_sw-ne
+x 11
+y 48
+move_block 0
+end
+arch river_nw-se
+x 11
+y 48
+move_block 0
+end
+arch earth
+x 11
+y 49
+move_block all
+end
+arch river_nw-se_l
+x 11
+y 49
+end
+arch river_sw-ne_l
+x 11
+y 49
+end
+arch cave21
+x 11
+y 49
+end
+arch lostlabfloor11
+x 12
+y 2
+elevation 5691
+end
+arch hills
+x 12
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 12
+y 2
+end
+arch dirtfloor
+title 3643
+x 12
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 12
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 12
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 12
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 12
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 12
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 12
+y 9
+elevation 5691
+end
+arch hills
+x 12
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 12
+y 9
+end
+arch blocked
+x 12
+y 36
+end
+arch earth
+x 12
+y 37
+end
+arch cave19
+x 12
+y 37
+end
+arch earth
+x 12
+y 38
+end
+arch cave1
+x 12
+y 38
+end
+arch earth
+x 12
+y 39
+end
+arch cave1
+x 12
+y 39
+end
+arch earth
+x 12
+y 40
+end
+arch river_nw-se_u
+x 12
+y 40
+end
+arch cave14
+x 12
+y 40
+end
+arch earth
+x 12
+y 41
+end
+arch river_w-e
+x 12
+y 41
+move_block 0
+end
+arch river_nw-e
+x 12
+y 41
+move_block 0
+end
+arch mover_3
+x 12
+y 41
+level 1
+end
+arch earth
+x 12
+y 42
+end
+arch cave2
+x 12
+y 42
+end
+arch blocked
+x 12
+y 43
+end
+arch blocked
+x 12
+y 44
+end
+arch cave15
+x 12
+y 44
+no_magic 1
+damned 1
+end
+arch earth
+x 12
+y 45
+move_block all
+end
+arch river_sw-ne_u
+x 12
+y 45
+end
+arch cave13
+x 12
+y 45
+no_magic 1
+damned 1
+end
+arch earth
+x 12
+y 46
+move_block 0
+end
+arch river_ne-s
+x 12
+y 46
+move_block 0
+end
+arch mover_2
+x 12
+y 46
+level 1
+end
+arch earth
+x 12
+y 47
+move_block 0
+end
+arch river_sw-n
+x 12
+y 47
+move_block 0
+end
+arch mover_1
+x 12
+y 47
+level 1
+end
+arch earth
+x 12
+y 48
+move_block all
+end
+arch river_sw-ne_l
+x 12
+y 48
+end
+arch cave21
+x 12
+y 48
+end
+arch river_nw-se_u
+x 12
+y 48
+end
+arch magic_mouth
+msg
+The water is moving to fast to go any further upstream.
+endmsg
+x 12
+y 49
+end
+arch earth
+x 12
+y 49
+move_block all
+end
+arch river_nw-se
+x 12
+y 49
+end
+arch mover_turn
+x 12
+y 49
+level 1
+end
+arch lostlabfloor11
+x 13
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 13
+y 2
+elevation 5691
+end
+arch hills
+x 13
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 13
+y 2
+end
+arch dirtfloor
+title 3643
+x 13
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 13
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 13
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 13
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 13
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 13
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 13
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 13
+y 9
+elevation 5691
+end
+arch hills
+x 13
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 13
+y 9
+end
+arch blocked
+x 13
+y 36
+end
+arch blocked
+x 13
+y 37
+end
+arch blocked
+x 13
+y 38
+end
+arch blocked
+x 13
+y 39
+end
+arch earth
+x 13
+y 40
+move_block all
+end
+arch cave4
+x 13
+y 40
+end
+arch earth
+x 13
+y 41
+end
+arch magic_mouth
+msg
+The river is deep here where the two meet.
+To your east you can see a crack of daylight, maybe it's a way out?
+endmsg
+x 13
+y 41
+end
+arch biglake_center
+name river
+x 13
+y 41
+move_block 0
+end
+arch mover_3
+x 13
+y 41
+level 1
+end
+arch earth
+x 13
+y 42
+move_block all
+end
+arch biglake_center
+name river
+x 13
+y 42
+end
+arch cave16
+x 13
+y 42
+no_magic 1
+damned 1
+end
+arch blocked
+x 13
+y 43
+end
+arch earth
+x 13
+y 43
+move_block all
+end
+arch cave3
+x 13
+y 43
+no_magic 1
+damned 1
+end
+arch earth
+x 13
+y 44
+move_block all
+end
+arch river_sw-ne_u
+x 13
+y 44
+end
+arch cave13
+x 13
+y 44
+no_magic 1
+damned 1
+end
+arch earth
+x 13
+y 45
+move_block 0
+end
+arch river_sw-ne
+x 13
+y 45
+move_block 0
+end
+arch mover_2
+x 13
+y 45
+level 1
+end
+arch earth
+x 13
+y 46
+move_block all
+end
+arch river_sw-ne_l
+x 13
+y 46
+end
+arch cave11
+x 13
+y 46
+end
+arch earth
+x 13
+y 47
+move_block all
+end
+arch cave1
+x 13
+y 47
+end
+arch earth
+x 13
+y 48
+move_block all
+end
+arch cave1
+x 13
+y 48
+end
+arch earth
+x 13
+y 49
+move_block all
+end
+arch cave5
+x 13
+y 49
+end
+arch river_nw-se_u
+x 13
+y 49
+end
+arch lostlabfloor11
+x 14
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 14
+y 2
+elevation 5691
+end
+arch hills
+x 14
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 14
+y 2
+end
+arch dirtfloor
+title 3643
+x 14
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 14
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 14
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 14
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 14
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 14
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 14
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 14
+y 9
+elevation 5691
+end
+arch hills
+x 14
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 14
+y 9
+end
+arch blocked
+x 14
+y 39
+end
+arch earth
+x 14
+y 40
+move_block all
+end
+arch cave4
+x 14
+y 40
+end
+arch earth
+x 14
+y 41
+end
+arch biglake_center
+name river
+x 14
+y 41
+move_block 0
+end
+arch mover_3
+x 14
+y 41
+level 1
+end
+arch earth
+x 14
+y 42
+move_block 0
+end
+arch biglake_center
+name river
+x 14
+y 42
+move_block 0
+end
+arch earth
+x 14
+y 43
+move_block 0
+end
+arch river_n-s
+x 14
+y 43
+move_block 0
+end
+arch mover_1
+x 14
+y 43
+level 1
+end
+arch earth
+x 14
+y 44
+move_block 0
+end
+arch river_sw-n
+x 14
+y 44
+move_block 0
+end
+arch mover_1
+x 14
+y 44
+level 1
+end
+arch earth
+x 14
+y 45
+move_block all
+end
+arch river_sw-ne_l
+x 14
+y 45
+end
+arch cave6
+x 14
+y 45
+end
+arch earth
+x 14
+y 46
+move_block all
+end
+arch cave22
+x 14
+y 46
+end
+arch blocked
+x 14
+y 47
+end
+arch blocked
+x 14
+y 48
+end
+arch blocked
+x 14
+y 49
+end
+arch lostlabfloor11
+x 15
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 15
+y 2
+elevation 5691
+end
+arch hills
+x 15
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 15
+y 2
+end
+arch lostlabfloor11
+x 15
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 15
+y 2
+elevation 5691
+end
+arch hills
+x 15
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 15
+y 2
+end
+arch dirtfloor
+title 3643
+x 15
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 15
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 15
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 15
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 15
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 15
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 15
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 15
+y 9
+elevation 5691
+end
+arch hills
+x 15
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 15
+y 9
+end
+arch blocked
+x 15
+y 39
+end
+arch earth
+x 15
+y 40
+move_block all
+end
+arch cave4
+x 15
+y 40
+end
+arch earth
+x 15
+y 41
+end
+arch biglake_center
+name river
+x 15
+y 41
+move_block 0
+end
+arch mover_3
+x 15
+y 41
+level 1
+end
+arch earth
+x 15
+y 42
+move_block all
+end
+arch biglake_center
+x 15
+y 42
+end
+arch cave15
+x 15
+y 42
+end
+arch blocked
+x 15
+y 43
+end
+arch earth
+x 15
+y 43
+move_block all
+end
+arch cave1
+x 15
+y 43
+end
+arch earth
+x 15
+y 44
+move_block all
+end
+arch cave1
+x 15
+y 44
+end
+arch earth
+x 15
+y 45
+move_block all
+end
+arch cave20
+x 15
+y 45
+end
+arch blocked
+x 15
+y 46
+end
+arch blocked
+x 15
+y 47
+end
+arch lostlabfloor11
+x 16
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 16
+y 2
+elevation 5691
+end
+arch hills
+x 16
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 16
+y 2
+end
+arch dirtfloor
+title 3643
+x 16
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 16
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 16
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 16
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 16
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 16
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 16
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 16
+y 9
+elevation 5691
+end
+arch hills
+x 16
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 16
+y 9
+end
+arch blocked
+x 16
+y 39
+end
+arch earth
+x 16
+y 40
+move_block all
+end
+arch cave4
+x 16
+y 40
+end
+arch earth
+x 16
+y 41
+end
+arch river_w-e
+x 16
+y 41
+move_block 0
+end
+arch mover_3
+x 16
+y 41
+level 1
+end
+arch earth
+x 16
+y 42
+move_block all
+end
+arch cave2
+x 16
+y 42
+end
+arch blocked
+x 16
+y 43
+end
+arch blocked
+x 16
+y 44
+end
+arch blocked
+x 16
+y 45
+end
+arch blocked
+x 16
+y 46
+end
+arch lostlabfloor11
+x 17
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 17
+y 2
+elevation 5691
+end
+arch hills
+x 17
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 17
+y 2
+end
+arch dirtfloor
+title 3643
+x 17
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 17
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 17
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 17
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 17
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 17
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 17
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 17
+y 9
+elevation 5691
+end
+arch hills
+x 17
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 17
+y 9
+end
+arch blocked
+x 17
+y 39
+end
+arch earth
+x 17
+y 40
+move_block all
+end
+arch cave4
+x 17
+y 40
+end
+arch earth
+x 17
+y 41
+end
+arch river_w-e
+x 17
+y 41
+move_block 0
+end
+arch mover_3
+x 17
+y 41
+level 1
+end
+arch earth
+x 17
+y 42
+move_block all
+end
+arch cave2
+x 17
+y 42
+end
+arch blocked
+x 17
+y 43
+end
+arch blocked
+x 17
+y 44
+end
+arch blocked
+x 17
+y 45
+end
+arch blocked
+x 17
+y 46
+end
+arch lostlabfloor11
+x 18
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 18
+y 2
+elevation 5691
+end
+arch hills
+x 18
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 18
+y 2
+end
+arch dirtfloor
+title 3643
+x 18
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 18
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 18
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 18
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 18
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3643
+x 18
+y 8
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 18
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 18
+y 9
+elevation 5691
+end
+arch hills
+x 18
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 18
+y 9
+end
+arch blocked
+x 18
+y 39
+end
+arch earth
+x 18
+y 40
+move_block all
+end
+arch cave4
+x 18
+y 40
+end
+arch invis_exit
+slaying und_tombs_2
+msg
+You see a ray of light poking through a small opening and wiggle yourself back to the surface, the rocks collapsing behind you.
+Maybe next time you should be more careful in the water!
+endmsg
+hp 26
+sp 41
+x 18
+y 41
+end
+arch earth
+x 18
+y 41
+end
+arch river_w-e
+x 18
+y 41
+move_block 0
+end
+arch mover_3
+x 18
+y 41
+level 1
+end
+arch earth
+x 18
+y 42
+move_block all
+end
+arch cave2
+x 18
+y 42
+end
+arch blocked
+x 18
+y 43
+end
+arch generate_goblin
+x 18
+y 44
+speed 0.0010
+end
+arch blocked
+x 18
+y 46
+end
+arch blocked
+x 18
+y 47
+end
+arch blocked
+x 18
+y 48
+end
+arch blocked
+x 18
+y 49
+end
+arch lostlabfloor11
+x 19
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 19
+y 2
+elevation 5691
+end
+arch hills
+x 19
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 19
+y 2
+end
+arch dirtfloor
+x 19
+y 3
+end
+arch dirtfloor
+x 19
+y 4
+end
+arch dirtfloor
+x 19
+y 5
+end
+arch dirtfloor
+x 19
+y 6
+end
+arch redmarble
+x 19
+y 6
+end
+arch stair_up_2
+slaying und_tombs_2
+hp 19
+sp 6
+x 19
+y 6
+end
+arch dirtfloor
+x 19
+y 7
+end
+arch lostlabfloor11
+x 19
+y 8
+elevation 4307
+end
+arch dirtfloor
+x 19
+y 8
+end
+arch lostlabfloor11
+x 19
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 19
+y 9
+elevation 5691
+end
+arch hills
+x 19
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 19
+y 9
+end
+arch blocked
+x 19
+y 39
+end
+arch earth
+x 19
+y 40
+move_block all
+end
+arch cave4
+x 19
+y 40
+end
+arch earth
+x 19
+y 41
+end
+arch river_w-e
+x 19
+y 41
+move_block 0
+end
+arch teleporter
+name Water teleporter
+hp 19
+sp 49
+x 19
+y 41
+invisible 1
+end
+arch earth
+x 19
+y 42
+move_block all
+end
+arch cave2
+x 19
+y 42
+end
+arch blocked
+x 19
+y 43
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 19
+y 44
+invisible 1
+end
+arch mover_1
+x 19
+y 45
+level 1
+end
+arch mover_1
+x 19
+y 46
+level 1
+end
+arch goblin
+name goblin scout
+Wis 5
+x 19
+y 46
+end
+arch mover_1
+x 19
+y 47
+level 1
+end
+arch mover_1
+x 19
+y 48
+level 1
+end
+arch mover_1
+x 19
+y 49
+level 1
+end
+arch lostlabfloor11
+x 20
+y 2
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 2
+elevation 5691
+end
+arch hills
+x 20
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 2
+end
+arch lostlabfloor11
+x 20
+y 3
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 3
+elevation 5691
+end
+arch hills
+x 20
+y 3
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 3
+end
+arch lostlabfloor11
+x 20
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 4
+elevation 5691
+end
+arch hills
+x 20
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 4
+end
+arch lostlabfloor11
+x 20
+y 5
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 5
+elevation 5691
+end
+arch hills
+x 20
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 5
+end
+arch lostlabfloor11
+x 20
+y 6
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 6
+elevation 5691
+end
+arch hills
+x 20
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 6
+end
+arch lostlabfloor11
+x 20
+y 7
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 7
+elevation 5691
+end
+arch hills
+x 20
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 7
+end
+arch lostlabfloor11
+x 20
+y 8
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 8
+elevation 5691
+end
+arch hills
+x 20
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 8
+end
+arch lostlabfloor11
+x 20
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 20
+y 9
+elevation 5691
+end
+arch hills
+x 20
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 20
+y 9
+end
+arch lostlabfloor11
+x 27
+y 2
+elevation 4465
+end
+arch hills
+x 27
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 2
+end
+arch lostlabfloor11
+x 27
+y 3
+elevation 4527
+end
+arch hills
+x 27
+y 3
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 3
+end
+arch lostlabfloor11
+x 27
+y 4
+elevation 4582
+end
+arch hills
+x 27
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 4
+end
+arch lostlabfloor11
+x 27
+y 5
+elevation 4015
+end
+arch hills
+x 27
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 5
+end
+arch lostlabfloor11
+x 27
+y 6
+elevation 3389
+end
+arch hills
+x 27
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 6
+end
+arch lostlabfloor11
+x 27
+y 7
+elevation 3983
+end
+arch hills
+x 27
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 7
+end
+arch lostlabfloor11
+x 27
+y 8
+elevation 4335
+end
+arch lostlabfloor11
+x 27
+y 8
+elevation 3983
+end
+arch hills
+x 27
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 8
+end
+arch lostlabfloor11
+x 27
+y 9
+elevation 4602
+end
+arch hills
+x 27
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 9
+end
+arch lostlabfloor11
+x 27
+y 10
+elevation 5010
+end
+arch hills
+x 27
+y 10
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 10
+end
+arch lostlabfloor11
+x 27
+y 11
+elevation 4766
+end
+arch hills
+x 27
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 11
+end
+arch lostlabfloor11
+x 27
+y 12
+elevation 4421
+end
+arch hills
+x 27
+y 12
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 12
+end
+arch lostlabfloor11
+x 27
+y 13
+elevation 4273
+end
+arch hills
+x 27
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 27
+y 13
+end
+arch lostlabfloor11
+x 28
+y 2
+elevation 4307
+end
+arch hills
+x 28
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 28
+y 2
+end
+arch dirtfloor
+title 3645
+x 28
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 28
+y 9
+unique 1
+is_buildable 1
+end
+arch biglake_center
+name Flooded Basement
+x 28
+y 10
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 28
+y 10
+speed 0.02
+invisible 1
+end
+arch biglake_center
+name Flooded Basement
+x 28
+y 11
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 28
+y 11
+speed 0.02
+invisible 1
+end
+arch biglake_center
+name Flooded Basement
+x 28
+y 12
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 28
+y 12
+speed 0.02
+invisible 1
+end
+arch lostlabfloor11
+x 28
+y 13
+elevation 2765
+end
+arch hills
+x 28
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 28
+y 13
+end
+arch lostlabfloor11
+x 29
+y 2
+elevation 4307
+end
+arch hills
+x 29
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 29
+y 2
+end
+arch dirtfloor
+title 3645
+x 29
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 29
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+x 29
+y 10
+end
+arch biglake_2_2_3
+name Flooded Basement
+x 29
+y 10
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 29
+y 10
+speed 0.01
+invisible 1
+end
+arch biglake_center
+name Flooded Basement
+x 29
+y 11
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 29
+y 11
+speed 0.02
+invisible 1
+end
+arch biglake_center
+name Flooded Basement
+x 29
+y 12
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 29
+y 12
+speed 0.02
+invisible 1
+end
+arch lostlabfloor11
+x 29
+y 13
+elevation 2765
+end
+arch hills
+x 29
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 29
+y 13
+end
+arch lostlabfloor11
+x 30
+y 2
+elevation 4307
+end
+arch hills
+x 30
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 30
+y 2
+end
+arch dirtfloor
+title 3645
+x 30
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 30
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+x 30
+y 10
+unique 1
+end
+arch dirtfloor
+x 30
+y 11
+end
+arch biglake_2_2_3
+name Flooded Basement
+x 30
+y 11
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 30
+y 11
+speed 0.01
+invisible 1
+end
+arch biglake_center
+name Flooded Basement
+x 30
+y 12
+no_pass 0
+end
+arch teleporter
+name Water teleporter
+hp 1
+sp 37
+x 30
+y 12
+speed 0.02
+invisible 1
+end
+arch lostlabfloor11
+x 30
+y 13
+elevation 2765
+end
+arch hills
+x 30
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 30
+y 13
+end
+arch lostlabfloor11
+x 31
+y 2
+elevation 3553
+end
+arch hills
+x 31
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 31
+y 2
+end
+arch dirtfloor
+title 3645
+x 31
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 10
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 11
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 31
+y 12
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 31
+y 13
+elevation 4284
+end
+arch hills
+x 31
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 31
+y 13
+end
+arch lostlabfloor11
+x 32
+y 2
+elevation 4938
+end
+arch hills
+x 32
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 32
+y 2
+end
+arch dirtfloor
+title 3645
+x 32
+y 3
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 4
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 10
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 11
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 32
+y 12
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 32
+y 13
+elevation 4207
+end
+arch hills
+x 32
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 32
+y 13
+end
+arch lostlabfloor11
+x 33
+y 2
+elevation 5545
+end
+arch hills
+x 33
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 33
+y 2
+end
+arch dirtfloor
+x 33
+y 3
+end
+arch dirtfloor
+x 33
+y 4
+end
+arch dirtfloor
+x 33
+y 5
+end
+arch dirtfloor
+x 33
+y 6
+end
+arch dirtfloor
+x 33
+y 7
+end
+arch redmarble
+x 33
+y 7
+end
+arch stair_up_2
+slaying und_tombs_2
+hp 33
+sp 7
+x 33
+y 7
+end
+arch dirtfloor
+x 33
+y 8
+end
+arch dirtfloor
+x 33
+y 9
+end
+arch dirtfloor
+x 33
+y 10
+end
+arch dirtfloor
+x 33
+y 11
+end
+arch dirtfloor
+x 33
+y 12
+end
+arch lostlabfloor11
+x 33
+y 13
+elevation 4100
+end
+arch hills
+x 33
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 33
+y 13
+end
+arch lostlabfloor11
+x 34
+y 2
+elevation 5691
+end
+arch hills
+x 34
+y 2
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 2
+end
+arch lostlabfloor11
+x 34
+y 3
+elevation 4433
+end
+arch hills
+x 34
+y 3
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 3
+end
+arch lostlabfloor11
+x 34
+y 4
+elevation 5239
+end
+arch hills
+x 34
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 4
+end
+arch lostlabfloor11
+x 34
+y 5
+elevation 6161
+end
+arch hills
+x 34
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 5
+end
+arch lostlabfloor11
+x 34
+y 6
+elevation 5272
+end
+arch hills
+x 34
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 6
+end
+arch lostlabfloor11
+x 34
+y 7
+elevation 3801
+end
+arch hills
+x 34
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 7
+end
+arch lostlabfloor11
+x 34
+y 8
+elevation 1514
+end
+arch hills
+x 34
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 8
+end
+arch lostlabfloor11
+x 34
+y 9
+elevation 888
+end
+arch hills
+x 34
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 9
+end
+arch lostlabfloor11
+x 34
+y 10
+elevation 4365
+end
+arch hills
+x 34
+y 10
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 10
+end
+arch lostlabfloor11
+x 34
+y 11
+elevation 3781
+end
+arch hills
+x 34
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 11
+end
+arch lostlabfloor11
+x 34
+y 12
+elevation 3495
+end
+arch hills
+x 34
+y 12
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 12
+end
+arch lostlabfloor11
+x 34
+y 13
+elevation 3049
+end
+arch hills
+x 34
+y 13
+elevation 4630
+end
+arch und_wall_0
+x 34
+y 13
+end
+arch lostlabfloor11
+x 37
+y 4
+elevation 5691
+end
+arch hills
+x 37
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 4
+end
+arch lostlabfloor11
+x 37
+y 5
+elevation 5691
+end
+arch hills
+x 37
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 5
+end
+arch lostlabfloor11
+x 37
+y 6
+elevation 5691
+end
+arch hills
+x 37
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 6
+end
+arch lostlabfloor11
+x 37
+y 7
+elevation 2765
+end
+arch lostlabfloor11
+x 37
+y 7
+elevation 5691
+end
+arch hills
+x 37
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 7
+end
+arch lostlabfloor11
+x 37
+y 8
+elevation 5691
+end
+arch hills
+x 37
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 8
+end
+arch lostlabfloor11
+x 37
+y 9
+elevation 5691
+end
+arch hills
+x 37
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 9
+end
+arch lostlabfloor11
+x 37
+y 10
+elevation 5691
+end
+arch hills
+x 37
+y 10
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 10
+end
+arch lostlabfloor11
+x 37
+y 11
+elevation 5691
+end
+arch hills
+x 37
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 37
+y 11
+end
+arch lostlabfloor11
+x 38
+y 4
+elevation 5691
+end
+arch hills
+x 38
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 38
+y 4
+end
+arch dirtfloor
+title 3644
+x 38
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 38
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 38
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 38
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 38
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 38
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 38
+y 11
+elevation 5691
+end
+arch hills
+x 38
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 38
+y 11
+end
+arch lostlabfloor11
+x 39
+y 4
+elevation 5691
+end
+arch hills
+x 39
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 39
+y 4
+end
+arch dirtfloor
+title 3645
+x 39
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 39
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 39
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 39
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 39
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 39
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 39
+y 11
+elevation 5691
+end
+arch hills
+x 39
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 39
+y 11
+end
+arch lostlabfloor11
+x 40
+y 4
+elevation 5691
+end
+arch hills
+x 40
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 40
+y 4
+end
+arch dirtfloor
+title 3645
+x 40
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 40
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 40
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 40
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 40
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 40
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 40
+y 11
+elevation 5691
+end
+arch hills
+x 40
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 40
+y 11
+end
+arch lostlabfloor11
+x 41
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 41
+y 4
+elevation 5691
+end
+arch hills
+x 41
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 41
+y 4
+end
+arch dirtfloor
+title 3645
+x 41
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 41
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 41
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 41
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 41
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 41
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 41
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 41
+y 11
+elevation 5691
+end
+arch hills
+x 41
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 41
+y 11
+end
+arch lostlabfloor11
+x 42
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 42
+y 4
+elevation 5691
+end
+arch hills
+x 42
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 42
+y 4
+end
+arch dirtfloor
+title 3645
+x 42
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 42
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 42
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 42
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 42
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 42
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 42
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 42
+y 11
+elevation 5691
+end
+arch hills
+x 42
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 42
+y 11
+end
+arch lostlabfloor11
+x 43
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 43
+y 4
+elevation 5691
+end
+arch hills
+x 43
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 43
+y 4
+end
+arch dirtfloor
+title 3645
+x 43
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 43
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 43
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 43
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 43
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 43
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 43
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 43
+y 11
+elevation 5691
+end
+arch hills
+x 43
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 43
+y 11
+end
+arch lostlabfloor11
+x 44
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 44
+y 4
+elevation 5691
+end
+arch hills
+x 44
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 44
+y 4
+end
+arch dirtfloor
+title 3645
+x 44
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 44
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 44
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 44
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 44
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 44
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 44
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 44
+y 11
+elevation 5691
+end
+arch hills
+x 44
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 44
+y 11
+end
+arch lostlabfloor11
+x 45
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 45
+y 4
+elevation 5691
+end
+arch hills
+x 45
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 45
+y 4
+end
+arch dirtfloor
+title 3645
+x 45
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 45
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 45
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 45
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 45
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 45
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 45
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 45
+y 11
+elevation 5691
+end
+arch hills
+x 45
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 45
+y 11
+end
+arch lostlabfloor11
+x 46
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 46
+y 4
+elevation 5691
+end
+arch hills
+x 46
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 46
+y 4
+end
+arch dirtfloor
+title 3645
+x 46
+y 5
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 46
+y 6
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 46
+y 7
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 46
+y 8
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 46
+y 9
+unique 1
+is_buildable 1
+end
+arch dirtfloor
+title 3645
+x 46
+y 10
+unique 1
+is_buildable 1
+end
+arch lostlabfloor11
+x 46
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 46
+y 11
+elevation 5691
+end
+arch hills
+x 46
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 46
+y 11
+end
+arch lostlabfloor11
+x 47
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 47
+y 4
+elevation 5691
+end
+arch hills
+x 47
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 47
+y 4
+end
+arch dirtfloor
+x 47
+y 5
+end
+arch dirtfloor
+x 47
+y 6
+end
+arch dirtfloor
+x 47
+y 7
+end
+arch dirtfloor
+x 47
+y 8
+end
+arch dirtfloor
+x 47
+y 8
+end
+arch redmarble
+x 47
+y 8
+end
+arch stair_up_2
+slaying und_tombs_2
+hp 47
+sp 8
+x 47
+y 8
+end
+arch dirtfloor
+x 47
+y 9
+end
+arch dirtfloor
+x 47
+y 10
+end
+arch lostlabfloor11
+x 47
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 47
+y 11
+elevation 5691
+end
+arch hills
+x 47
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 47
+y 11
+end
+arch lostlabfloor11
+x 48
+y 4
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 4
+elevation 5691
+end
+arch hills
+x 48
+y 4
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 4
+end
+arch lostlabfloor11
+x 48
+y 5
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 5
+elevation 5691
+end
+arch hills
+x 48
+y 5
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 5
+end
+arch lostlabfloor11
+x 48
+y 6
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 6
+elevation 5691
+end
+arch hills
+x 48
+y 6
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 6
+end
+arch lostlabfloor11
+x 48
+y 7
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 7
+elevation 5691
+end
+arch hills
+x 48
+y 7
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 7
+end
+arch lostlabfloor11
+x 48
+y 8
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 8
+elevation 5691
+end
+arch hills
+x 48
+y 8
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 8
+end
+arch lostlabfloor11
+x 48
+y 9
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 9
+elevation 5691
+end
+arch hills
+x 48
+y 9
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 9
+end
+arch lostlabfloor11
+x 48
+y 10
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 10
+elevation 5691
+end
+arch hills
+x 48
+y 10
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 10
+end
+arch lostlabfloor11
+x 48
+y 11
+elevation 2765
+end
+arch lostlabfloor11
+x 48
+y 11
+elevation 5691
+end
+arch hills
+x 48
+y 11
+elevation 4630
+end
+arch und_wall_0
+x 48
+y 11
+end

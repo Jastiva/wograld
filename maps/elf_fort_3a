@@ -4,7 +4,7 @@ width 50
 height 50
 msg
 Created:  2019-12-25 lx
-Modified: 2019-12-27 lx
+Modified: 2019-12-28 lx
 endmsg
 tile_path_1 elf_fort_1
 tile_path_5 elf_fort_31
@@ -1340,13 +1340,11 @@ arch lightgreenmarble
 x 11
 y 16
 end
-arch guildmaster
-name Court Master Kurte
-msg
-
-endmsg
+arch gnome
+name Eldwid
 x 11
 y 16
+type 0
 end
 arch greenmarble
 x 11
@@ -2398,10 +2396,11 @@ arch chair_3.2
 x 19
 y 16
 end
-arch warrior_1
-name Staff Sgt. MacDonald
+arch greater_dwarven_guard
+name Cedwyn
 x 19
 y 16
+unaggressive 1
 end
 arch greenmarble
 x 19
