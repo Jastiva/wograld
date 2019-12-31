@@ -3,14 +3,13 @@ name world_121_120
 width 50
 height 50
 msg
-Modified: 2019-11-07 lori
+Modified: 2019-12-30 lx
 endmsg
 outdoor 1
 tile_path_1 world_121_119
 tile_path_2 world_122_120
 tile_path_3 world_121_121
 tile_path_4 world_120_120
-background_music fool1
 end
 arch lostlabdesert
 elevation 10947
@@ -1515,8 +1514,51 @@ elevation 23629
 end
 arch stonefloorred2
 x 5
+y 31
+elevation 13591
+end
+arch stonefloorred2
+x 5
+y 31
+elevation 13127
+end
+arch redmarblewall_4
+x 5
+y 31
+end
+arch stonefloorred2
+x 5
 y 32
 elevation 20743
+end
+arch stonefloorred2
+x 5
+y 32
+elevation 9676
+end
+arch dungeon_magic
+x 5
+y 32
+end
+arch chair
+x 5
+y 32
+end
+arch man
+name Tweedledea
+msg
+@match Foolhardiness
+I am glad you are brave enough to be here.
+I have this cup here, I need you to fill it with lava from the pools
+at the back of the dungeon entrance.
+@match cup
+Meet me at the next booth once you have a cup of lava
+@match *
+Welcome to the shrine of Foolhardiness, I have a quest for you
+endmsg
+face barbarian.151
+x 5
+y 32
 end
 arch stonefloorred2
 x 5
@@ -1528,10 +1570,38 @@ x 5
 y 34
 elevation 14682
 end
+arch grate_closed_1
+x 5
+y 34
+connected 3
+end
 arch stonefloorred2
 x 5
 y 35
 elevation 11322
+end
+arch stonefloorred2
+x 5
+y 35
+elevation 13491
+end
+arch stonefloorred2
+x 5
+y 35
+elevation 13779
+end
+arch detector
+slaying cup_of_lava
+hp 1
+x 5
+y 35
+resist_magic 30
+invisible 1
+connected 3
+end
+arch pentagram
+x 5
+y 35
 end
 arch stonefloorred2
 x 5
@@ -1555,8 +1625,46 @@ elevation 10509
 end
 arch stonefloorred2
 x 5
+y 39
+elevation 10521
+end
+arch stonefloorred2
+x 5
+y 39
+elevation 11446
+end
+arch stonefloorred2
+x 5
+y 39
+elevation 13779
+end
+arch redmarblewall_4
+x 5
+y 39
+end
+arch stonefloorred2
+x 5
 y 40
 elevation 9321
+end
+arch stonefloorred2
+x 5
+y 40
+elevation 10521
+end
+arch stonefloorred2
+x 5
+y 40
+elevation 11446
+end
+arch stonefloorred2
+x 5
+y 40
+elevation 13779
+end
+arch redmarblewall_4
+x 5
+y 40
 end
 arch stonefloorred2
 x 5
@@ -1565,18 +1673,70 @@ elevation 9467
 end
 arch stonefloorred2
 x 5
+y 41
+elevation 11446
+end
+arch stonefloorred2
+x 5
+y 41
+elevation 13779
+end
+arch redmarblewall_4
+x 5
+y 41
+end
+arch stonefloorred2
+x 5
 y 42
 elevation 8958
+end
+arch stonefloorred2
+x 5
+y 42
+elevation 13779
+end
+arch redmarblewall_4
+x 5
+y 42
 end
 arch stonefloorred2
 x 5
 y 43
 elevation 9676
 end
+arch dungeon_magic
+x 5
+y 43
+end
+arch chair
+x 5
+y 43
+end
+arch man
+name Tweedledee
+msg
+@match Foolhardiness
+I am glad you are brave enough to be here.
+I have this cup here, I need you to fill it with lava from the pools
+at the back of the dungeon entrance.
+@match cup
+Meet me at the next booth once you have a cup of lava
+@match *
+Welcome to the shrine of Foolhardiness, I have a quest for you
+endmsg
+face barbarian.131
+x 5
+y 43
+end
 arch stonefloorred2
 x 5
 y 44
 elevation 11188
+end
+arch stonefloorred2
+x 5
+y 44
+elevation 11682
 end
 arch redmarblewall_4
 x 5
@@ -1779,8 +1939,36 @@ elevation 23286
 end
 arch stonefloorred2
 x 6
+y 31
+elevation 13591
+end
+arch stonefloorred2
+x 6
+y 31
+elevation 13127
+end
+arch redmarblewall_4
+x 6
+y 31
+end
+arch stonefloorred2
+x 6
 y 32
 elevation 19819
+end
+arch stonefloorred2
+x 6
+y 32
+elevation 13591
+end
+arch stonefloorred2
+x 6
+y 32
+elevation 13127
+end
+arch redmarblewall_4
+x 6
+y 32
 end
 arch stonefloorred2
 x 6
@@ -1789,13 +1977,45 @@ elevation 16389
 end
 arch stonefloorred2
 x 6
+y 33
+elevation 13591
+end
+arch stonefloorred2
+x 6
+y 33
+elevation 13127
+end
+arch redmarblewall_4
+x 6
+y 33
+end
+arch stonefloorred2
+x 6
 y 34
 elevation 13591
 end
 arch stonefloorred2
 x 6
+y 34
+elevation 13127
+end
+arch redmarblewall_4
+x 6
+y 34
+end
+arch stonefloorred2
+x 6
 y 35
 elevation 12190
+end
+arch stonefloorred2
+x 6
+y 35
+elevation 13127
+end
+arch redmarblewall_4
+x 6
+y 35
 end
 arch stonefloorred2
 x 6
@@ -1819,13 +2039,47 @@ elevation 10569
 end
 arch stonefloorred2
 x 6
+y 39
+elevation 10521
+end
+arch stonefloorred2
+x 6
+y 39
+elevation 11446
+end
+arch stonefloorred2
+x 6
+y 39
+elevation 13779
+end
+arch redmarblewall_4
+x 6
+y 39
+end
+arch stonefloorred2
+x 6
 y 40
 elevation 10355
+end
+arch chalice_bro
+name empty_lava_cup
+x 6
+y 40
+end
+arch button_trigger
+x 6
+y 40
+connected 2
 end
 arch stonefloorred2
 x 6
 y 41
 elevation 9317
+end
+arch gateTrg1
+x 6
+y 41
+connected 2
 end
 arch stonefloorred2
 x 6
@@ -1834,8 +2088,40 @@ elevation 10649
 end
 arch stonefloorred2
 x 6
+y 42
+elevation 13779
+end
+arch detector
+slaying get_lava_cup
+hp 1
+x 6
+y 42
+connected 2
+end
+arch stonefloorred2
+x 6
 y 43
 elevation 11385
+end
+arch table
+x 6
+y 43
+end
+arch button_trigger
+x 6
+y 43
+connected 1
+end
+arch marker
+name begin_foolhardiness
+slaying get_lava_cup
+lore
+get the cup and bring it to the lava
+pool on the first floor of Foolhardiness
+endlore
+food 0
+x 6
+y 43
 end
 arch stonefloorred2
 x 6
@@ -2132,8 +2418,46 @@ elevation 11242
 end
 arch stonefloorred2
 x 7
+y 39
+elevation 10521
+end
+arch stonefloorred2
+x 7
+y 39
+elevation 11446
+end
+arch stonefloorred2
+x 7
+y 39
+elevation 13779
+end
+arch redmarblewall_4
+x 7
+y 39
+end
+arch stonefloorred2
+x 7
 y 40
 elevation 10704
+end
+arch stonefloorred2
+x 7
+y 40
+elevation 10521
+end
+arch stonefloorred2
+x 7
+y 40
+elevation 11446
+end
+arch stonefloorred2
+x 7
+y 40
+elevation 13779
+end
+arch redmarblewall_4
+x 7
+y 40
 end
 arch stonefloorred2
 x 7
@@ -2142,13 +2466,41 @@ elevation 10521
 end
 arch stonefloorred2
 x 7
+y 41
+elevation 11446
+end
+arch stonefloorred2
+x 7
+y 41
+elevation 13779
+end
+arch redmarblewall_4
+x 7
+y 41
+end
+arch stonefloorred2
+x 7
 y 42
 elevation 11446
 end
 arch stonefloorred2
 x 7
+y 42
+elevation 13779
+end
+arch redmarblewall_4
+x 7
+y 42
+end
+arch stonefloorred2
+x 7
 y 43
 elevation 12467
+end
+arch grate_closed_2
+x 7
+y 43
+connected 1
 end
 arch stonefloorred2
 x 7
@@ -2420,8 +2772,40 @@ elevation 11258
 end
 arch stonefloorred2
 x 8
+y 42
+elevation 11446
+end
+arch stonefloorred2
+x 8
+y 42
+elevation 13779
+end
+arch redmarblewall_4
+x 8
+y 42
+end
+arch stonefloorred2
+x 8
 y 43
 elevation 13491
+end
+arch stonefloorred2
+x 8
+y 43
+elevation 13779
+end
+arch detector
+slaying begin_foolhardiness
+hp 1
+x 8
+y 43
+resist_magic 30
+invisible 1
+connected 1
+end
+arch pentagram
+x 8
+y 43
 end
 arch stonefloorred2
 x 8
@@ -2965,10 +3349,6 @@ x 10
 y 43
 elevation 15244
 end
-arch redmarblewall_4
-x 10
-y 43
-end
 arch stonefloorred2
 x 10
 y 44
@@ -3213,6 +3593,31 @@ arch stonefloorred2
 x 11
 y 39
 elevation 13431
+end
+arch stonefloorred2
+x 11
+y 39
+elevation 20743
+end
+arch stonefloorred2
+x 11
+y 39
+elevation 9676
+end
+arch dungeon_magic
+x 11
+y 39
+end
+arch man
+name Tweedledum
+msg
+@match *
+Welcome to the shrine of Foolhardiness, If you dont have a quest,
+I suggest visiting a library in one of the towns.
+There are lots of monsters and lava here.
+endmsg
+x 11
+y 39
 end
 arch stonefloorred2
 x 11
@@ -7195,6 +7600,38 @@ arch white-green-x-marble_114
 x 26
 y 26
 elevation 20940
+end
+arch magic_mouth
+msg
+The crater you see here is filled
+with a strange, almost burning liquid.
+endmsg
+x 26
+y 26
+end
+arch creator
+slaying cup_of_lava
+other_arch chalice
+x 26
+y 26
+connected 20
+end
+arch creator
+other_arch burnout
+face crater.111
+hp 999
+x 26
+y 26
+speed -0.010000
+invisible 0
+end
+arch altar
+slaying empty_lava_cup
+food 1
+x 26
+y 26
+invisible 1
+connected 20
 end
 arch white-green-x-marble_114
 x 26

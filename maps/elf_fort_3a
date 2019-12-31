@@ -4,7 +4,7 @@ width 50
 height 50
 msg
 Created:  2019-12-25 lx
-Modified: 2019-12-28 lx
+Modified: 2019-12-27 lx
 endmsg
 tile_path_1 elf_fort_1
 tile_path_5 elf_fort_31
@@ -1340,11 +1340,35 @@ arch lightgreenmarble
 x 11
 y 16
 end
-arch gnome
-name Eldwid
+arch lightgreenmarble
 x 11
 y 16
-type 0
+end
+arch dungeon_magic
+x 11
+y 16
+end
+arch woodfloor
+x 11
+y 16
+end
+arch chair
+x 11
+y 16
+end
+arch man
+name Eldwid
+msg
+@match Masochism
+It is south of the human lands.  The shrine is in the middle of a maze
+and it is tedious to get there.  There is no getting around the tediousness
+of the quests there.
+@match *
+Masochism is one of the nine ideas to follow.
+endmsg
+face elf_lad.111
+x 11
+y 16
 end
 arch greenmarble
 x 11
@@ -2388,6 +2412,10 @@ x 19
 y 15
 no_pass 1
 end
+arch dungeon_magic
+x 19
+y 16
+end
 arch lightgreenmarble
 x 19
 y 16
@@ -2396,11 +2424,23 @@ arch chair_3.2
 x 19
 y 16
 end
-arch greater_dwarven_guard
-name Cedwyn
+arch lightgreenmarble
 x 19
 y 16
-unaggressive 1
+end
+arch woman
+name Niodia
+msg
+@match Foolhardiness
+There is a dungeon and shrine, but if I were you, I would skip this one.
+You may not come back in one piece.  But do adventurers care?
+No, they do not realize what they could lose. It is west of human lands.
+@match *
+One of the nine ideas to follow is Foolhardiness
+endmsg
+face elf_lass.111
+x 19
+y 16
 end
 arch greenmarble
 x 19
