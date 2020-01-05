@@ -4,7 +4,7 @@ width 50
 height 50
 msg
 Created:  2018-12-01 lx
-Modified: 2019-12-28 lx
+Modified: 2020-01-01 lx
 endmsg
 outdoor 1
 tile_path_1 und_tombs_11
@@ -2833,6 +2833,13 @@ arch flagstone
 x 29
 y 25
 end
+arch exit
+slaying start/Nexus_wraith
+hp 11
+sp 10
+x 29
+y 25
+end
 arch flagstone
 x 29
 y 26
@@ -2982,6 +2989,10 @@ x 30
 y 18
 end
 arch flagstone
+x 30
+y 19
+end
+arch bed_save
 x 30
 y 19
 end

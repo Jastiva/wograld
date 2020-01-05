@@ -4,7 +4,7 @@ width 50
 height 50
 msg
 Created:  2014-06-17 serpentshard
-Modified: 2019-12-27 lx
+Modified: 2020-01-01 lx
 endmsg
 tile_path_2 elf_fort_21
 tile_path_3 elf_fort_31
@@ -1347,7 +1347,7 @@ x 6
 y 9
 smoothlevel 254
 end
-arch wall_3_2
+arch wall_2_1_1
 x 6
 y 9
 end
@@ -1555,14 +1555,17 @@ x 7
 y 8
 smoothlevel 254
 end
+arch exit
+slaying start/Nexus_elf
+hp 11
+sp 10
+x 7
+y 8
+end
 arch woodfloor
 x 7
 y 9
 smoothlevel 254
-end
-arch wall_2_1_2
-x 7
-y 9
 end
 arch woodfloor
 x 7
@@ -1723,7 +1726,7 @@ x 8
 y 9
 smoothlevel 254
 end
-arch wall_3_1
+arch wall_2_2_1
 x 8
 y 9
 end
