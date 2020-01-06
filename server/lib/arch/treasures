@@ -6951,6 +6951,8 @@ treasureone praying_l1
   more
   arch spell_turn_undead
     chance 3
+  arch spell_healray
+    chance 2
 end
 #
 treasureone sorcery_l1
@@ -7520,6 +7522,9 @@ treasureone prayer_book_low
     chance 1
   more
   arch spell_cure_poison
+    chance 5
+  more
+  arch spell_healray
     chance 5
   more
   arch spell_medium_healing
