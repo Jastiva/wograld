@@ -1429,6 +1429,9 @@ for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
     case SP_PARTY_SPELL:
         success = cast_party_spell( op, caster, dir, spell_ob, stringarg );
 
+    case SP_HEAL_RAY:
+        success = cast_heal_ray(op, caster, dir, spell_ob);
+
 	default:
 	    LOG(llevError,"cast_spell: Unhandled spell subtype %d\n",
 		spell_ob->subtype);
@@ -1499,6 +1502,10 @@ void move_spell_effect(object *op) {
 	case SP_AURA:
 	    move_aura(op);
 	    break;
+
+        case SP_HEAL_RAY:
+            move_heal_ray(op);
+            break;
 
     }
 }

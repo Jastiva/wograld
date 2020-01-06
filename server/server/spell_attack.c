@@ -510,6 +510,46 @@ void check_bullet(object *op)
     }
 }
 
+void check_heal_ray(object *op)
+{
+ tag_t op_tag = op->count, tmp_tag;
+    object *tmp;
+    int dam, mflags;
+    mapstruct *m;
+    sint16 sx, sy;
+
+    mflags = get_map_flags(op->map,&m, op->x, op->y, &sx, &sy);
+
+    if (!(mflags & P_IS_ALIVE) &&  !OB_TYPE_MOVE_BLOCK(op, GET_MAP_MOVE_BLOCK(m, sx, sy)))
+        return;
+
+
+    /* If nothing alive on this space, no reason to do anything further */
+    if (!(mflags & P_IS_ALIVE)) return;
+
+    for (tmp = get_map_ob (op->map,op->x,op->y); tmp != NULL; tmp = tmp->above)
+    {
+        if (QUERY_FLAG (tmp, FLAG_ALIVE)) {
+            tmp_tag = tmp->count;
+//            dam = hit_player (tmp, op->stats.dam, op, op->attacktype, 1);
+
+	    dam = cast_heal( tmp , op->owner, op,op->direction); 
+
+            if (was_destroyed (op, op_tag) || ! was_destroyed (tmp, tmp_tag)
+                || (op->stats.dam -= dam) < 0)
+            {
+                if(!QUERY_FLAG(op,FLAG_REMOVED)) {
+                    remove_ob (op);
+                    free_object(op);
+                    return;
+                }
+            }
+        }
+    }
+
+
+}
+
 
 /* Basically, we move 'op' one square, and if it hits something,
  * call check_bullet.
@@ -582,6 +622,51 @@ void move_bullet(object *op)
 }
 
 
+void move_heal_ray(object *op)
+{
+    sint16 new_x, new_y;
+    int mflags;
+    mapstruct *m;
+
+
+    /* Reached the end of its life - remove it */
+    if (--op->range <=0) {
+            remove_ob (op);
+            free_object (op);
+        return;
+    }
+
+    new_x = op->x + DIRX(op);
+    new_y = op->y + DIRY(op);
+    m = op->map;
+    mflags = get_map_flags(m, &m, new_x, new_y, &new_x, &new_y);
+
+    if (mflags & P_OUT_OF_MAP) {
+        remove_ob (op);
+        free_object (op);
+        return;
+    }
+
+    if ( ! op->direction || OB_TYPE_MOVE_BLOCK(op, GET_MAP_MOVE_BLOCK(m, new_x, new_y))) {
+            remove_ob (op);
+            free_object (op);
+        return;
+    }
+
+    remove_ob (op);
+    op->x = new_x;
+    op->y = new_y;
+    if ((op = insert_ob_in_map (op, m, op,0)) == NULL)
+        return;
+
+ if (reflwall (op->map, op->x, op->y, op)) {
+        op->direction = absdir (op->direction + 4);
+        update_turn_face (op);
+    } else {
+        check_heal_ray (op);
+    }
+}
+
 
 
 /* fire_bullet
@@ -649,6 +734,60 @@ int fire_bullet(object *op,object *caster,int dir,object *spob) {
 }
 
 
+
+int cast_heal_ray(object *op,object *caster,int dir,object *spob) {
+    object *tmp=NULL;
+    int mflags;
+
+    if (!spob->other_arch)
+        return 0;
+
+    tmp=arch_to_object(spob->other_arch);
+    if(tmp==NULL)
+        return 0;
+
+    tmp->stats.dam = spob->stats.dam + SP_level_dam_adjust(caster,spob);
+    tmp->attacktype = spob->attacktype;
+    if (spob->slaying) tmp->slaying = add_refcount(spob->slaying);
+
+    tmp->range = 50;
+
+    /* Need to store duration/range for the ball to use */
+    tmp->stats.hp = spob->duration + SP_level_duration_adjust(caster,spob);
+    tmp->stats.maxhp = spob->range + SP_level_range_adjust(caster,spob);
+    tmp->dam_modifier = spob->stats.food + SP_level_dam_adjust(caster,spob);
+
+    tmp->direction=dir;
+    if(QUERY_FLAG(tmp, FLAG_IS_TURNABLE))
+        SET_ANIMATION(tmp, dir);
+
+    set_owner(tmp,op);
+    set_spell_skill(op, caster, spob, tmp);
+
+    tmp->x=op->x + freearr_x[dir];
+    tmp->y=op->y + freearr_y[dir];
+    tmp->map = op->map;
+
+    mflags = get_map_flags(tmp->map, &tmp->map, tmp->x, tmp->y, &tmp->x, &tmp->y);
+    if (mflags & P_OUT_OF_MAP) {
+        free_object(tmp);
+        return 0;
+    }
+    if (OB_TYPE_MOVE_BLOCK(tmp, GET_MAP_MOVE_BLOCK(tmp->map, tmp->x, tmp->y))) {
+        if(!QUERY_FLAG(tmp, FLAG_REFLECTING)) {
+            free_object(tmp);
+            return 0;
+        }
+        tmp->x=op->x;
+        tmp->y=op->y;
+        tmp->direction=absdir(tmp->direction+4);
+        tmp->map = op->map;
+    }
+    if ((tmp = insert_ob_in_map(tmp,tmp->map,op,0)) != NULL) {
+        check_heal_ray(tmp);
+    }
+    return 1;
+}
 
 
 /*****************************************************************************
