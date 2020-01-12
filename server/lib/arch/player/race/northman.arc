@@ -1,28 +1,25 @@
 Object northman_player
-name Northman
+name human_male
 race human
-randomitems northman_player_items
-face viking.151
+randomitems human
+face human_m.151
 msg
-Northmen are simply humans who have been
-shaped by their harsh environment. They are
-stronger, quicker, and hardier than most
-humans, but also stupid and impious. Most
-races also consider them a bit unattractive.
-They have some resistance to cold, but the
-few of them who take up magic find it
-difficult to master fire spells.
+Humans are the generalists of the races.
+They are fit for any trade, and usually
+pick up a skill from their parents in
+addition to what they've learned as
+apprentices in their craft.
 endmsg
 color_fg black
 anim
-viking.111
-viking.112
-viking.131
-viking.132
-viking.151
-viking.152
-viking.171
-viking.172
+human_m.111
+human_m.112
+human_m.131
+human_m.132
+human_m.151
+human_m.152
+human_m.171
+human_m.172
 facings 4
 mina
 resist_cold 30

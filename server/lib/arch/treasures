@@ -3410,6 +3410,14 @@ treasure gnome_player_items
   end
 treasure dwarf_player_items
   arch skill_smithery
+  more
+  arch skill_jumping
+  more
+  arch skill_literacy
+  more
+  arch skill_praying
+  more
+  arch cleric_book_l1
   end
 treasure dwarf
   list fighter_skills
@@ -3440,7 +3448,13 @@ treasure pl_orc
   more
   arch no_class_face_change
   more
-  arch skill_stealing
+  arch skill_jumping
+  more
+  arch skill_literacy
+  more
+  arch skill_praying
+  more
+  arch cleric_book_l1
   end
 treasure acidborn_player_items
   arch skill_levitate
@@ -3565,20 +3579,17 @@ treasure pl_troll
 treasure elf_player_items
   arch elf_player_force
   more
-  arch bow
-    magic 2
-  more
-  arch arrow
-    magic 3
-    nrof 100
-  more
-  arch quiver
-  more
   arch skill_bowyer
   more
   arch skill_woodsman
   more
-  arch skill_missile_weapon
+  arch skill_jumping
+  more
+  arch skill_literacy
+  more
+  arch skill_praying
+  more
+  arch cleric_book_l1 
   end
 treasure elf
   list fighter_skills
@@ -3614,6 +3625,14 @@ treasure human
   arch sack
   more
   arch cloak
+  more
+  arch skill_jumping
+  more
+  arch skill_literacy
+  more
+  arch skill_praying
+  more
+  arch cleric_book_l1
   end
 treasure ninja_class_items
   list fighter_skills
@@ -3713,12 +3732,16 @@ treasure sorcerer_class_items
   more
   arch skill_thaumaturgy
   more
+  arch skill_meditation
+  more
   arch sorcerer_hat
   more
   arch robe
   end
 treasure evoker_class_items
   list basic_skills
+  more
+  list sorcerer_class_items
   more
   arch skill_one_handed_weapon
   more
@@ -3732,6 +3755,12 @@ treasure evoker_class_items
   more
   arch b_ssword_1
   more
+  arch skill_singing
+  more
+  arch skill_oratory
+  more
+  arch skill_meditation
+  more
   arch staff
   end
 treasure pyromancer_class_items
@@ -3740,6 +3769,8 @@ treasure pyromancer_class_items
   arch skill_one_handed_weapon
   more
   arch talisman_pyromancy
+  more
+  arch skill_meditation
   more
   arch robe
   more
@@ -3757,6 +3788,8 @@ treasure alchemist_class_items
   arch skill_alchemy
   more
   arch skill_thaumaturgy
+  more
+  arch skill_meditation
   more
   arch spell_alchemy
   more
@@ -3781,6 +3814,8 @@ treasure summoner_class_items
   more
   arch guide_summon
   more
+  arch skill_meditation
+  more
   arch talisman_summoner
   more
   arch robe
@@ -3792,19 +3827,15 @@ treasure summoner_class_items
   arch b_ssword_1
   end
 treasure wizard_class_items
-  list wizard_skills
+  list basic_skills
   more
-  arch skill_sorcery
+  list pyromancer_class_items
   more
   arch guide_wizard
   more
+  list summoner_class_items
+  more
   arch robe
-  more
-  arch sorcerer_book_l1
-  more
-  arch sorcerer_book_l1
-  more
-  arch sorcerer_book_l1
   more
   arch b_dagger
   end
@@ -3817,6 +3848,8 @@ treasure devotee_class_items
   more
   arch robe
   more
+  arch skill_meditation
+  more
   arch cleric_book_l1
   more
   arch evoker_book_l1
@@ -3826,15 +3859,15 @@ treasure devotee_class_items
   arch b_dagger
   end
 treasure wizard
-  list wizard_skills
+  list basic_skills
   more
-  arch skill_sorcery
+  list pyromancer_class_items
+  more
+  list summoner_class_items
+  more
+  arch skill_meditation
   more
   arch robe
-  more
-  arch sorcerer_book_l1
-  more
-  arch sorcerer_book_l1
   more
   arch b_dagger
   end
@@ -3844,6 +3877,14 @@ treasure wraith_player_items
   arch no_class_face_change
   more
 arch skill_wraith_feed
+  more
+  arch skill_jumping
+  more
+  arch skill_literacy
+  more
+  arch skill_praying
+  more
+  arch cleric_book_l1
   end
 treasure cleric
   list fighter_skills
@@ -3913,6 +3954,8 @@ treasure priest_class_items
   more
   arch skill_praying
   more
+  arch skill_meditation
+  more
   arch skill_one_handed_weapon
   more
   arch skill_two_handed_weapon
@@ -3950,6 +3993,8 @@ treasure warlock_class_items
   list fighter_skills
   more
   arch talisman_evocation
+  more
+  arch skill_meditation
   more
   arch b_lsword
   more
@@ -3993,9 +4038,20 @@ treasure swashbuckler_class_items
   more
   arch b_lsword
   more
-  arch skill_stealing
+  arch bow
+    magic 2
   more
-  arch skill_singing
+  arch arrow
+    magic 3
+    nrof 100
+  more
+  arch quiver
+  more
+  arch skill_bowyer
+  more
+  arch skill_woodsman
+  more
+  arch skill_missile_weapon
   more
   arch b_dagger
   more
@@ -4026,6 +4082,8 @@ treasure thief_class_items
   arch shortsword
   more
   arch skill_stealing
+  more
+  arch skill_hide
   more
   arch lockpicks
   more
@@ -6893,6 +6951,8 @@ treasureone praying_l1
   more
   arch spell_turn_undead
     chance 3
+  arch spell_healray
+    chance 2
 end
 #
 treasureone sorcery_l1
@@ -7462,6 +7522,9 @@ treasureone prayer_book_low
     chance 1
   more
   arch spell_cure_poison
+    chance 5
+  more
+  arch spell_healray
     chance 5
   more
   arch spell_medium_healing

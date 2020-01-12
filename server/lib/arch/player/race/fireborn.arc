@@ -44,7 +44,7 @@ fireborn.333
 fireborn.444
 mina
 is_animated 1
-type 1
+type 0
 level 1
 ac 0
 wc 21

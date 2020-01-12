@@ -1,5 +1,5 @@
 Object human_player
-name human
+name human_female
 race human
 randomitems human
 face human.151

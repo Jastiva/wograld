@@ -29,7 +29,7 @@ level 1
 wc 21
 ac 10
 dam 1
-type 1
+type 0
 speed 1
 weight 70000
 resist_poison 30

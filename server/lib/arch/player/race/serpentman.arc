@@ -32,7 +32,7 @@ serpentman.172
 facings 4
 mina
 is_animated 0
-type 1
+type 0
 level 1
 ac 5
 wc 21
