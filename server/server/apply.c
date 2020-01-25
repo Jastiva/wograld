@@ -3705,6 +3705,7 @@ int apply_special (object *who, object *op, int aflags)
     int basic_flag = aflags & AP_BASIC_FLAGS;
     object *tmp, *tmp2, *skop=NULL;
     int i;
+    archetype *at;
 
     if(who==NULL) {
 	LOG(llevError,"apply_special() from object without environment.\n");
@@ -3897,6 +3898,65 @@ new_draw_info(NDI_UNIQUE, 0, who, "You must get it first");
 		LOG (llevError, "BUG: apply_special(): can't apply two skills\n");
 		return 1;
 	    }
+
+ new_draw_info(NDI_UNIQUE, 0,who, "trying to apply talisman");
+
+if(!strncmp(op->skill, "sorcery", 7 ))
+{
+new_draw_info(NDI_UNIQUE,0,who,"talisman_sorcery");
+ at = find_archetype("force_sorcry");
+        tmp=present_arch_in_ob(at,who);
+        if (!tmp) {
+           // remove_ob(tmp);
+           // free_object(tmp);
+          new_draw_info(NDI_UNIQUE, 0,who, "No force to apply talisman_sorcery");
+ return 1;
+
+        }
+   }
+
+if(!strncmp(op->skill, "summoning", 9))
+{
+
+ at = find_archetype("force_summning");
+        tmp=present_arch_in_ob(at,who);
+        if (!tmp) {
+           // remove_ob(tmp);
+           // free_object(tmp);
+          new_draw_info(NDI_UNIQUE, 0,who, "No force to apply talisman_summoning");
+ return 1;
+
+        }
+   }
+
+if(!strncmp(op->skill, "evocation", 9))
+{
+
+ at = find_archetype("force_evoction");
+        tmp=present_arch_in_ob(at,who);
+        if (!tmp) {
+           // remove_ob(tmp);
+           // free_object(tmp);
+          new_draw_info(NDI_UNIQUE, 0,who, "No force to apply talisman_evocation");
+ return 1;
+
+        }
+   }
+
+if(!strncmp(op->skill, "pyromancy", 9))
+{
+
+ at = find_archetype("force_pyromncy");
+        tmp=present_arch_in_ob(at,who);
+        if (!tmp) {
+           // remove_ob(tmp);
+           // free_object(tmp);
+          new_draw_info(NDI_UNIQUE, 0,who, "No force to apply talisman_pyromancy");
+ return 1;
+
+        }
+   }
+
 	    if (who->type == PLAYER) {
 		who->contr->shoottype = range_skill;
 		who->contr->ranges[range_skill] = op;

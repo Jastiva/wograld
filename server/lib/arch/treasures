@@ -3346,6 +3346,8 @@ treasure fighter_skills
 # basic set for talisman spellcasting players
 treasure mage_skills
   arch talisman_sorcery
+  more
+  arch force_sorcry
   end
 # basic set for multi-spellcasting players
 # Note that removed the spell skill form here,
@@ -3718,7 +3720,9 @@ treasure warrior
 treasure sorcerer_class_items
   list basic_skills
   more
-  arch skill_sorcery
+  arch talisman_sorcery
+  more
+  arch force_sorcry
   more
   arch guide_wizard
   more
@@ -3745,7 +3749,9 @@ treasure evoker_class_items
   more
   arch skill_one_handed_weapon
   more
-  arch talisman_evoker
+  arch talisman_evocation
+  more
+  arch force_evoction
   more
   arch robe
   more
@@ -3770,6 +3776,8 @@ treasure pyromancer_class_items
   more
   arch talisman_pyromancy
   more
+  arch force_pyromncy
+  more
   arch skill_meditation
   more
   arch robe
@@ -3784,6 +3792,8 @@ treasure alchemist_class_items
   arch skill_one_handed_weapon
   more
   arch talisman_alchemist
+  more
+  arch force_sorcry
   more
   arch skill_alchemy
   more
@@ -3817,6 +3827,8 @@ treasure summoner_class_items
   arch skill_meditation
   more
   arch talisman_summoner
+  more
+  arch force_summning
   more
   arch robe
   more
@@ -3993,6 +4005,8 @@ treasure warlock_class_items
   list fighter_skills
   more
   arch talisman_evocation
+  more
+  arch force_evoction
   more
   arch skill_meditation
   more
