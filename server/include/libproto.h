@@ -217,6 +217,7 @@ extern object *present(unsigned char type, mapstruct *m, int x, int y);
 extern object *present_in_ob(unsigned char type, const object *op);
 extern object *present_in_ob_by_name(int type, const char *str, const object *op);
 extern object *present_arch_in_ob(const archetype *at, const object *op);
+extern int present_arch_in_ob_recursive(const archetype *at, const object *op);
 extern void flag_inv(object *op, int flag);
 extern void unflag_inv(object *op, int flag);
 extern void set_cheat(object *op);

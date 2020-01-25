@@ -2235,6 +2235,24 @@ object *present_arch_in_ob(const archetype *at, const object *op)  {
   return NULL;
 }
 
+int present_arch_in_ob_recursive(const archetype *at, const object *op)
+{
+object *tmp3;
+for(tmp3= op->inv;tmp3;tmp3=tmp3->below) {
+                       if (tmp3->arch==at){
+                            return 1;
+                    }
+                    else if(tmp3->type==CONTAINER){
+                             if( present_arch_in_ob_recursive(at, tmp3) )
+                             {
+                                  return 1;
+                             }
+                     }
+                   }  // loop
+                return 0;
+}
+
+
 /**
  * activate recursively a flag on an object inventory
  */

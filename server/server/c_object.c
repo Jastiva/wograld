@@ -689,7 +689,7 @@ tmp = insert_ob_in_ob(tmp, op);
 
 void pick_up(object *op,object *alt)
 /* modified slightly to allow monsters use this -b.t. 5-31-95 */
-// serpentshard modified to include bankbox
+// modified to include bankbox
 {
     int need_fix_tmp = 0;
     object *tmp=NULL;
@@ -725,6 +725,67 @@ void pick_up(object *op,object *alt)
     need_fix_tmp = 1;
     if ( ! can_pick (op, tmp))
         goto leave;
+
+
+int tmp2=0;
+archetype *at2;
+
+if(tmp->type == POWER_CRYSTAL)
+{
+at2 = find_archetype("power_crystal");
+        tmp2=present_arch_in_ob_recursive(at2,op);
+
+if(tmp2)
+  {
+       new_draw_info (NDI_UNIQUE, 0, op,
+                            "You cannot hold more than one power crystal.");
+             if (tmp->below == NULL || ! can_pick (op, tmp->below)) {
+             new_draw_info (NDI_UNIQUE, 0, op,
+                            "There is nothing to pick up here.");
+             goto leave;
+        }
+        tmp = tmp->below;
+
+           tmp_map = tmp->map;
+ tmp = stop_item (tmp);
+    if (tmp == NULL)
+        goto leave;
+    need_fix_tmp = 1;
+    if ( ! can_pick (op, tmp))
+        goto leave;
+
+           
+
+   }
+}
+
+
+if(tmp->type == BUILD_TITLE)
+{
+   at2 = find_archetype("building_title");
+        tmp2=present_arch_in_ob_recursive(at2,op);
+
+if(tmp2)
+  {
+       new_draw_info (NDI_UNIQUE, 0, op,
+                            "You cannot hold more than one build title.");
+              if (tmp->below == NULL || ! can_pick (op, tmp->below)) {
+             new_draw_info (NDI_UNIQUE, 0, op,
+                            "There is nothing to pick up here.");
+             goto leave;
+        }
+        tmp = tmp->below;
+        tmp_map = tmp->map;
+ tmp = stop_item (tmp);
+    if (tmp == NULL)
+        goto leave;
+    need_fix_tmp = 1;
+    if ( ! can_pick (op, tmp))
+        goto leave;
+
+   }
+}
+
 
     if (op->type==PLAYER) {
         count=op->contr->count;
