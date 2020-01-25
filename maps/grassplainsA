@@ -12,9 +12,7 @@ Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
 Modified: 2020-01-24 lx
 endmsg
-tile_path_1 grassplainsA
-tile_path_4 grassplains8
-tile_path_5 grassplains91
+tile_path_3 grassplains9
 end
 arch grassmedium
 end
@@ -4873,6 +4871,10 @@ arch grassmedium
 x 20
 y 13
 end
+arch power_crystal
+x 20
+y 13
+end
 arch grassmedium
 x 20
 y 14
@@ -5748,6 +5750,10 @@ arch grassmedium
 x 23
 y 15
 end
+arch power_crystal
+x 23
+y 15
+end
 arch grassmedium
 x 23
 y 16
@@ -6305,6 +6311,10 @@ x 25
 y 19
 end
 arch grassmedium
+x 25
+y 20
+end
+arch dwarf_pr4
 x 25
 y 20
 end
@@ -7882,54 +7892,54 @@ arch woodwall_2_1_2
 x 31
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 31
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 31
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 31
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 31
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 31
 y 15
 unique 1
-end
-arch woodfloor
-title 6645
-x 31
-y 16
-end
-arch swall_1_1
-x 31
-y 16
-end
-arch woodfloor
-title 6645
-x 31
-y 17
 is_buildable 1
 end
-arch swall_2_2_1
+arch woodfloor
+title 6645
+x 31
+y 16
+unique 1
+is_buildable 1
+end
+arch woodfloor
+title 6645
 x 31
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
@@ -8172,58 +8182,54 @@ arch woodwall_2_1_2
 x 32
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 32
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 32
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 32
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 32
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 32
 y 15
 unique 1
-end
-arch woodfloor
-title 6645
-x 32
-y 16
-is_buildable 0
-end
-arch teleporter
-title 6645
-hp 34
-sp 18
-x 32
-y 16
-end
-arch woodfloor
-title 6645
-x 32
-y 17
 is_buildable 1
 end
-arch swall_2_1_2
+arch woodfloor
+title 6645
+x 32
+y 16
+unique 1
+is_buildable 1
+end
+arch woodfloor
+title 6645
 x 32
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
@@ -8437,44 +8443,47 @@ arch woodwall_2_1_2
 x 33
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 33
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 33
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 33
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 33
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 33
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 33
 y 16
-end
-arch swall_2_2_2
-x 33
-y 16
+unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
@@ -8482,10 +8491,6 @@ x 33
 y 17
 unique 1
 is_buildable 1
-end
-arch swall_2_2_4
-x 33
-y 17
 end
 arch woodfloor
 title 6645
@@ -8694,45 +8699,47 @@ arch woodwall_2_1_2
 x 34
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 34
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 34
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 34
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 34
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 34
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 34
 y 16
+unique 1
 is_buildable 1
-end
-arch swall_2_1_2
-x 34
-y 16
 end
 arch woodfloor
 title 6645
@@ -8740,13 +8747,6 @@ x 34
 y 17
 unique 1
 is_buildable 1
-end
-arch teleporter
-title 6645
-hp 32
-sp 15
-x 34
-y 17
 end
 arch woodfloor
 title 6645
@@ -8949,63 +8949,47 @@ arch swall_1_1
 x 35
 y 10
 end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 35
 y 11
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 35
-y 11
-end
-arch swall_2_1_1
-x 35
-y 11
-end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 35
 y 12
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 35
-y 12
-end
-arch swall_2_1_1
-x 35
-y 12
-end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 35
 y 13
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 35
-y 13
-end
-arch swall_3_1
-x 35
-y 13
-end
-arch shop_empty
+arch woodfloor
 title 6645
 x 35
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 35
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 35
 y 16
+unique 1
 is_buildable 1
-end
-arch swall_2_1_2
-x 35
-y 16
 end
 arch woodfloor
 title 6645
@@ -9203,66 +9187,47 @@ arch grassmedium
 x 36
 y 10
 end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 36
 y 11
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 36
-y 11
-end
-arch dungeon_magic
-x 36
-y 12
-end
-arch flagstone
+arch woodfloor
+title 6645
 x 36
 y 12
+unique 1
+is_buildable 1
 end
-arch p_shop_mat
-hp 37
-sp 18
-x 36
-y 12
-end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 36
 y 13
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 36
-y 13
-end
-arch swall_2_1_2
-x 36
-y 13
-end
-arch shop_empty
+arch woodfloor
 title 6645
 x 36
 y 14
+unique 1
+is_buildable 1
 end
-arch p_shop_mat
-hp 37
-sp 18
-x 36
-y 14
-end
-arch shop_empty
+arch woodfloor
 title 6645
 x 36
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 36
 y 16
+unique 1
 is_buildable 1
-end
-arch swall_2_1_2
-x 36
-y 16
 end
 arch woodfloor
 title 6645
@@ -9477,67 +9442,54 @@ arch swall_1_1
 x 37
 y 10
 end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 37
 y 11
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 37
-y 11
-end
-arch swall_2_1_1
-x 37
-y 11
-end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 37
 y 12
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 37
-y 12
-end
-arch swall_2_1_1
-x 37
-y 12
-end
-arch dungeon_magic
+arch woodfloor
+title 6645
 x 37
 y 13
+unique 1
+is_buildable 1
 end
-arch flagstone
-x 37
-y 13
-end
-arch swall_3_1
-x 37
-y 13
-end
-arch shop_empty
+arch woodfloor
 title 6645
 x 37
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 37
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 37
 y 16
+unique 1
 is_buildable 1
 end
-arch swall_2_1_2
-x 37
-y 16
-end
 arch woodfloor
+title 6645
 x 37
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
 x 37
@@ -9722,49 +9674,54 @@ arch woodwall_2_1_2
 x 38
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 38
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 38
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 38
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 38
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 38
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 38
 y 16
+unique 1
 is_buildable 1
 end
-arch swall_2_1_2
-x 38
-y 16
-end
 arch woodfloor
+title 6645
 x 38
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
 x 38
@@ -9949,49 +9906,54 @@ arch woodwall_2_1_2
 x 39
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 39
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 39
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 39
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 39
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 39
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 39
 y 16
+unique 1
 is_buildable 1
 end
-arch swall_2_1_2
-x 39
-y 16
-end
 arch woodfloor
+title 6645
 x 39
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
 x 39
@@ -10188,58 +10150,56 @@ arch woodwall_win2
 x 40
 y 10
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 40
 y 11
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 40
 y 12
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 40
 y 13
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 40
 y 14
 unique 1
+is_buildable 1
 end
-arch shop_empty
+arch woodfloor
 title 6645
 x 40
 y 15
 unique 1
+is_buildable 1
 end
 arch woodfloor
 title 6645
 x 40
 y 16
+unique 1
 is_buildable 1
 end
-arch swall_1_3
-x 40
-y 16
-end
 arch woodfloor
+title 6645
 x 40
 y 17
+unique 1
+is_buildable 1
 end
 arch woodfloor
-x 40
-y 18
-end
-arch stair2_up
-slaying grassplains91
-hp 39
-sp 20
 x 40
 y 18
 end
