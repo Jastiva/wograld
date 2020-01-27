@@ -12,8 +12,7 @@ Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
 Modified: 2020-01-27 lx
 endmsg
-tile_path_2 grassplainsB
-tile_path_3 grassplains9
+tile_path_4 grassplainsA
 end
 arch grassmedium
 end
@@ -4609,6 +4608,10 @@ arch grassmedium
 x 19
 y 12
 end
+arch spider2
+x 19
+y 12
+end
 arch grassmedium
 x 19
 y 13
@@ -4872,10 +4875,6 @@ arch grassmedium
 x 20
 y 13
 end
-arch power_crystal
-x 20
-y 13
-end
 arch grassmedium
 x 20
 y 14
@@ -5748,10 +5747,6 @@ x 23
 y 14
 end
 arch grassmedium
-x 23
-y 15
-end
-arch power_crystal
 x 23
 y 15
 end
@@ -6312,10 +6307,6 @@ x 25
 y 19
 end
 arch grassmedium
-x 25
-y 20
-end
-arch dwarf_pr4
 x 25
 y 20
 end
@@ -7894,99 +7885,60 @@ x 31
 y 10
 end
 arch woodfloor
-title 6645
 x 31
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 19
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 31
 y 22
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 31
 y 23
 end
 arch woodfloor
-title 6645
 x 31
 y 24
-unique 1
-is_buildable 1
 end
 arch grassmedium
 x 31
@@ -8184,102 +8136,60 @@ x 32
 y 10
 end
 arch woodfloor
-title 6645
 x 32
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 19
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 22
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 23
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 32
 y 24
-unique 1
-is_buildable 1
 end
 arch grassmedium
 x 32
@@ -8445,102 +8355,60 @@ x 33
 y 10
 end
 arch woodfloor
-title 6645
 x 33
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 19
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 22
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 23
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 33
 y 24
-unique 1
-is_buildable 1
 end
 arch grassmedium
 x 33
@@ -8701,102 +8569,60 @@ x 34
 y 10
 end
 arch woodfloor
-title 6645
 x 34
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 19
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 22
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 23
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 34
 y 24
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 34
@@ -8951,87 +8777,73 @@ x 35
 y 10
 end
 arch woodfloor
-title 6645
 x 35
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 16
-unique 1
-is_buildable 1
+end
+arch cobblestones
+x 35
+y 16
+end
+arch firewall
+x 35
+y 16
+speed -0.01
+level 12
+alive 0
+no_pick 1
+arch spell_spiderweb
+level 12
+end
+end
+arch statue
+name Spider Idol
+face spider.111
+x 35
+y 16
 end
 arch woodfloor
-title 6645
 x 35
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 19
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 35
 y 22
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 35
@@ -9189,80 +9001,48 @@ x 36
 y 10
 end
 arch woodfloor
-title 6645
 x 36
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 18
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 19
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 20
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 36
 y 21
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 36
@@ -9444,53 +9224,32 @@ x 37
 y 10
 end
 arch woodfloor
-title 6645
 x 37
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 37
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 37
@@ -9676,53 +9435,32 @@ x 38
 y 10
 end
 arch woodfloor
-title 6645
 x 38
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 38
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 38
@@ -9908,53 +9646,32 @@ x 39
 y 10
 end
 arch woodfloor
-title 6645
 x 39
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 39
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 39
@@ -10152,53 +9869,36 @@ x 40
 y 10
 end
 arch woodfloor
-title 6645
 x 40
 y 11
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 40
 y 12
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 40
 y 13
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 40
 y 14
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
+x 40
+y 14
+end
+arch woodfloor
 x 40
 y 15
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 40
 y 16
-unique 1
-is_buildable 1
 end
 arch woodfloor
-title 6645
 x 40
 y 17
-unique 1
-is_buildable 1
 end
 arch woodfloor
 x 40

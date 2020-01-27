@@ -2691,6 +2691,8 @@ void move_aura(object *aura) {
 	 * is flying also, if player is walking, it is on the ground, etc.
 	 */
 	if (!(mflags & P_OUT_OF_MAP) && !(OB_TYPE_MOVE_BLOCK(env, GET_MAP_MOVE_BLOCK(m, nx, ny)))) {
+
+            if(!(m->no_alch)){
 	    hit_map(aura,i,aura->attacktype,0);
 
 	    if(aura->other_arch) {
@@ -2700,6 +2702,7 @@ void move_aura(object *aura) {
 		new_ob->x = nx;
 		new_ob->y = ny;
 		insert_ob_in_map(new_ob,m,aura,0);
+              }
 	    }
 	}
     }

@@ -479,6 +479,12 @@ int ok_to_put_more(mapstruct *m,sint16 x,sint16 y,object *op,int immune_stop) {
 	    (tmp->subtype == op->subtype))
 	    return 0;
 
+        if(tmp->arch == op->arch)
+            return 0;
+
+        if(m->no_alch ==1)
+            return 0;
+
 	/* Perhaps we should also put checks in for no magic and unholy
 	 * ground to prevent it from moving along?
 	 */
