@@ -793,13 +793,13 @@ void roll_stats(object *op) {
     int statsort[7];
 
     do {
-	op->stats.Str=roll_stat();
-	op->stats.Dex=roll_stat();
-	op->stats.Int=roll_stat();
-	op->stats.Con=roll_stat();
-	op->stats.Wis=roll_stat();
-	op->stats.Pow=roll_stat();
-	op->stats.Cha=roll_stat();
+	op->stats.Str=15;
+	op->stats.Dex=15;
+	op->stats.Int=15;
+	op->stats.Con=15;
+	op->stats.Wis=15;
+	op->stats.Pow=15;
+	op->stats.Cha=15;
 	sum=op->stats.Str+op->stats.Dex+op->stats.Int+
 	    op->stats.Con+op->stats.Wis+op->stats.Pow+
 	    op->stats.Cha;
