@@ -6679,6 +6679,9 @@ end
 treasure dwarf_pr4
 arch abil_wounding_beam
 end
+treasure cockatrice
+arch spell_paralyze
+end
 treasure stonegolem
   arch rubble
   end
@@ -7606,6 +7609,12 @@ treasureone prayer_book_medium
   arch spell_show_invisible
     chance 1
   more
+  arch spell_dimension_door
+    chance 1
+  more
+  arch spell_town_portal
+    chance 1
+  more
   arch spell_cause_typhoid
     chance 1
   more
@@ -7836,9 +7845,6 @@ treasureone sorcery_book_medium
   arch spell_improved_invisibility
     chance 1
   more
-  arch spell_dimension_door
-    chance 1
-  more
   arch spell_xray
     chance 1
 end
@@ -7853,9 +7859,6 @@ treasureone sorcery_book_high
     chance 1
   more
   arch spell_destruction
-    chance 1
-  more
-  arch spell_town_portal
     chance 1
 end
 treasureone sorcery_book
