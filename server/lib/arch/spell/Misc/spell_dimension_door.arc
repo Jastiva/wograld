@@ -4,13 +4,13 @@ name_pl dimension door
 face spell_dimension_door.111
 level 10
 value 100
-sp 25
+grace 25
 casting_time 10
 path_attuned 4096
 range 25
 range_modifier 5
-maxsp 25
-skill sorcery
+maxgrace 25
+skill praying
 type 101
 subtype 13
 no_drop 1
