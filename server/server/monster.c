@@ -893,6 +893,15 @@ int move_monster(object *op) {
                 (void) move_randomly(op);
 
 	} /* stand still */
+
+
+  if(!(op->move_type & MOVE_FLYING))
+                   {
+                  apply_gravity(op);
+                   }
+               
+
+
         return 0;
     } /* no enemy */
 
@@ -1052,15 +1061,15 @@ if(!((QUERY_FLAG(op,FLAG_CAST_SPELL)) ||
 
             if(move_object(op,dir))
     {
-           if(check_for_fall_ob(op,dir))
-           {
+        //   if(check_for_fall_ob(op,dir))
+        //   {
             if(!(op->move_type & MOVE_FLYING))
             {
               printf("considered not flying\n");
             apply_gravity(op); 
                // if flying it cannot fall
              }
-            }
+          //  }
             return 0;
     }
 
@@ -1075,14 +1084,14 @@ if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv)
                 if(move_object(op,absdir(dir + diff*m)) ||
                    move_object(op,absdir(dir - diff*m)))
                  {
-                   if(check_for_fall_ob(op,dir))
-                    {
+               //    if(check_for_fall_ob(op,dir))
+                //    {
                    if(!(op->move_type & MOVE_FLYING))
                     {
                   printf("considered 2\n");
                   apply_gravity(op);
                     }
-                   }
+                 //  }
                 // if flying it cannot fall
                 return 0;
                  }
