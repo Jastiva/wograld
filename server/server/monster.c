@@ -697,7 +697,9 @@ int check_for_fall_ob(object *op, int dir)
     for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
                 {
               // this is a bug, are you sure you should not use lists per tile of objects not from viewport?
-                        temp_ob = (GET_MAP_FACE_OBJ(op->map, op->x, op->y, mlayer));
+                     //   temp_ob = (GET_MAP_FACE_OBJ(op->map, op->x, op->y, mlayer));
+temp_ob = (GET_MAP_FACE_OBJ(op->map, newx, newy, mlayer));
+
                         if(temp_ob != 0)
                         {
                         /* if((temp_ob -> type) && FLOOR){ */
@@ -1144,29 +1146,32 @@ if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv)
      * direction if they can't move away.
      */
     if (!QUERY_FLAG(op, FLAG_ONLY_ATTACK)&&(QUERY_FLAG(op,FLAG_RUN_AWAY)||QUERY_FLAG(op, FLAG_SCARED)))
-	if(move_randomly(op))
-        {
-
-		 if(!((QUERY_FLAG(op,FLAG_CAST_SPELL)) ||
+     {
+ if(!((QUERY_FLAG(op,FLAG_CAST_SPELL)) ||
     (QUERY_FLAG(op,FLAG_USE_SCROLL)) ||
     (QUERY_FLAG(op,FLAG_USE_RANGE)) ||
      (QUERY_FLAG(op,FLAG_CAN_USE_SKILL)) ||
-       (QUERY_FLAG(op,FLAG_USE_BOW)))) {
+       (QUERY_FLAG(op,FLAG_USE_BOW))))
+      {
+	if(move_randomly(op))
+        {
+
+		
 
                // already checks for flying
                    if(!(op->move_type & MOVE_FLYING))
                    {
                   apply_gravity(op);
                    }
-                }
+               
 
 
 
    
 	    return 0;
          }
-
-
+      }
+    }
 
     /*
      * Try giving the monster a new enemy - the player that is closest
@@ -1205,6 +1210,11 @@ if(QUERY_FLAG(op, FLAG_SCARED) || !can_hit(part,enemy,&rv)
         else
             (void)skill_attack(enemy,part,0,NULL, NULL);
     } /* if monster is in attack range */
+
+ if(!(op->move_type & MOVE_FLYING))
+                   {
+                  apply_gravity(op);
+                   }
 
     if(QUERY_FLAG(part,FLAG_FREED))    /* Might be freed by ghost-attack or hit-back */
     	return 1;

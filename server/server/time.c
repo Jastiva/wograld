@@ -121,6 +121,7 @@ static void generate_monster_inv(object *gen) {
     if (rndm(0, 9))
         generate_artifact(head, gen->map->difficulty);
     insert_ob_in_map_at(head,gen->map,gen,0,gen->x+freearr_x[i],gen->y+freearr_y[i]);
+    apply_gravity(head);
     if (QUERY_FLAG(head, FLAG_FREED)) return;
     if(HAS_RANDOM_ITEMS(head))
         create_treasure(head->randomitems,head,GT_APPLY,
@@ -164,6 +165,7 @@ static void generate_monster_arch(object *gen) {
 	    head=op;
 	prev=op;
 	at=at->more;
+        apply_gravity(op);
     }
 }
 
