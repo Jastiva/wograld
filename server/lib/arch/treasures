@@ -8027,11 +8027,13 @@ arch spell_cause_leprosy
      chance 20
      magic 12
   end
-treasure necromancer_summon
+treasureone necromancer_summon
  arch zombie
+  nrof 2
   chance 10
   more
   arch skeleton
+  nrof 1
   chance 10
   magic 3
   more
@@ -8041,47 +8043,57 @@ treasure necromancer_summon
   magic 3
   more
   arch grimreaper
+  nrof 1
   chance 10
   magic 5
   more
   arch wight
+  nrof 1
   chance 10
   magic 5
   more
   arch skull
+  nrof 1
   chance 10
   magic 7
   more
   arch wraith
+  nrof 3
   chance 10
   nrof 3
   magic 7
   more
   arch ghast
+  nrof 1
   chance 10
   magic 7
   more
   arch vampire
+  nrof 1
   chance 10
   magic 10
   more
   arch nightmare
+  nrof 1
   chance 10
   magic 10
   more
   arch spectre
+  nrof 1
   chance 10
   magic 14
   more
   arch lich
+  nrof 1
   chance 10
   magic 14
   more
   arch pet_necro
+  nrof 1
   chance 10
   magic 15
   end
-treasure ranger_pet_monster
+treasureone ranger_pet_monster
  arch ant
  nrof 3
  chance 10
@@ -8112,78 +8124,97 @@ treasure ranger_pet_monster
   chance 10
   more
   arch para_earth
+  nrof 1
   magic 4
   chance 10
   more
   arch bird
+  nrof 1
   magic 5
   chance 10
   more
   arch spider
+  nrof 1
   magic 6
   chance 10
   more
   arch killer_bee
+  nrof 1
   magic 7
   chance 10
   more
   arch fungus
+  nrof 1
   magic 8
   chance 10
   more
   arch scorpion
+  nrof 1
   magic 9
   chance 10
   more
   arch blob
+  nrof 1
   magic 9
   chance 10
   more
   arch para_fire
+  nrof 1
   magic 10
   chance 10
   more
   arch giant_bat
+  nrof 1
   magic 10
   chance 10
   more
-  arch para_water 
+  arch para_water
+  nrof 1 
   magic 11
   chance 10
   more
   arch xan
+  nrof 1
   magic 11
   chance 10
   more
   arch para_air
+  nrof 1
   magic 12
   chance 10
   more
   arch panther
+  nrof 1
   magic 12
   chance 10
   more
   arch para_ice
+  nrof 1
   magic 13
   chance 10
   more
   arch wolf
+  nrof 1
   magic 13
   chance 10
   more
   arch para_lava
+  nrof 1
   magic 14
   chance 10
   more
   arch para_lightning
+  nrof 1
   magic 14
   chance 10
   more
   arch para_mud
+  nrof 1
   magic 14
   chance 10
   more
   arch bear
+  nrof 1
   magic 15
   chance 10
   end
