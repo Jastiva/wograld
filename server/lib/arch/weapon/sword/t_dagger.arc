@@ -20,8 +20,8 @@ is_turnable 1
 is_thrown 1
 material 2
 dam 1
-weight 1500
-value 35
+weight 15
+value 3
 editable 1024
 attacktype 1
 weapontype 2

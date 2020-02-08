@@ -215,6 +215,10 @@ void esrv_send_item( object* ob, object* obx )
 void dragon_ability_gain( object* ob, int x, int y )
     {
     }
+
+void berserker_ability_gain(object *ob, int x)
+{
+}
  
 void weather_effect( const char* c )
     {

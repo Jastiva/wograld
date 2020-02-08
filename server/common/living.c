@@ -26,8 +26,15 @@
     The authors can be reached via e-mail at wograld-devel@real-time.com
 */
 
+
 #include <global.h>
+
 #include <funcpoint.h>
+#include <sproto.h>
+//#include <player.h> 
+
+
+//extern void berserker_ability_gain(object *who, int level);
 
 /* Handy little macro that adds exp and keeps it within bounds.  Since
  * we are now using 64 bit values, I'm not all concerned about overflow issues
@@ -1509,6 +1516,41 @@ void dragon_level_gain(object *who) {
     set_dragon_name(who, abil, skin);
 }
 
+
+// part of new code to implement class skills
+void berserker_level_gain(object *who) {
+    object *abil = NULL;    /* pointer to dragon ability force*/
+   
+    object *tmp = NULL;     /* tmp. object */
+    char buf[MAX_BUF];      /* tmp. string buffer */
+  
+    /* now grab the 'dragon_ability'-forces from the player's inventory */
+    for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "berserker_ability_force")==0)
+		abil = tmp;
+                break;
+	   
+	}
+    }
+    /* if the force is missing -> bail out */
+    if (abil == NULL) return;
+  
+    /* The ability_force keeps track of maximum level ever achieved.
+     * New abilties can only be gained by surpassing this max level 
+     */
+    if (who->level > abil->level) {
+	
+        if((who->level % 5) ==  0)
+        {
+            berserker_ability_gain(who,who->level);
+	}    
+	
+	abil->level = who->level;
+    }
+  
+}
+
 /* Handy function - given the skill name skill_name, we find the skill
  * archetype/object, set appropriate values, and insert it into
  * the object (op) that is passed.
@@ -1554,6 +1596,7 @@ object *give_skill_by_name(object *op, const char *skill_name)
  */
 void player_lvl_adj(object *who, object *op) {
     char buf[MAX_BUF];
+   object *tmp;
     
     if(!op)        /* when rolling stats */ 
 	op = who;	
@@ -1563,6 +1606,18 @@ void player_lvl_adj(object *who, object *op) {
 	
 	if (op != NULL && op == who && op->stats.exp > 1 && is_dragon_pl(who))
 	  dragon_level_gain(who);
+
+         for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "berserker_ability_force")==0)
+            {
+		berserker_level_gain(who);
+                break;
+             }
+	   
+	}
+      }
+
 
         /* Only roll these if it is the player (who) that gained the level */
 	if(who && op==who && (who->level < 11) && who->type==PLAYER) { 

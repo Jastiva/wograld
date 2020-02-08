@@ -39,9 +39,11 @@
 #include <spells.h>
 #include <skills.h>
 #include <newclient.h>
+//#include <funcpoint.h>
 
 static archetype *get_player_archetype(archetype* at);
 static int action_makes_visible (object *op);
+//void berserker_ability_gain(object *who, int level);
 
 player *find_player(const char *plname)
 {
@@ -3603,6 +3605,100 @@ void dragon_ability_gain(object *who, int atnr, int level) {
 	    esrv_send_item(who, tmp);
     }
 }
+
+// part of new class skill system
+
+void berserker_ability_gain(object *who, int level) {
+    treasurelist *trlist = NULL;    /* treasurelist */
+    treasure *tr;		    /* treasure */
+    object *tmp,*skop;		    /* tmp. object */
+    object *item;		    /* treasure object */
+    char buf[MAX_BUF];		    /* tmp. string buffer */
+    int i=0, j=0;
+  
+    /* get the appropriate treasurelist */
+    
+	trlist = find_treasurelist("berserker_skills");
+   
+  
+    if (trlist == NULL || who->type != PLAYER)
+	return;
+  
+   // for (i=0, tr = trlist->items; tr != NULL && i<level-1;
+	// tr = tr->next, i++);
+    for(tr=trlist->items; tr != NULL; tr=tr->next)
+    {
+         if( level < tr->magic )
+            break;
+    }
+  
+    if (tr == NULL || tr->item == NULL) {
+     new_draw_info_format(NDI_UNIQUE|NDI_BLUE, 0, who, "No more treasure for skill");
+	/* LOG(llevDebug, "-> no more treasure for %s\n", change_resist_msg[atnr]); */
+	return;
+    }
+  
+    /* everything seems okay - now bring on the gift: */
+    item = &(tr->item->clone);
+
+    if (item->type == SPELL) {
+	if (check_spell_known (who, item->name))
+	    return;
+
+	new_draw_info_format(NDI_UNIQUE|NDI_BLUE, 0, who, "You gained the ability of %s", item->name);
+	do_learn_spell (who, item, 0);
+	return;
+    }
+
+    /* grant direct spell */
+    if (item->type == SPELLBOOK) {
+	if (!item->inv) {
+	    LOG(llevDebug,"ability_gain: Broken spellbook %s\n",
+		item->name);
+	    return;
+	}
+	if (check_spell_known (who, item->inv->name))
+	    return;
+	if (item->invisible) {
+	    new_draw_info_format(NDI_UNIQUE|NDI_BLUE, 0, who, "You gained the ability of %s", item->inv->name);
+	    do_learn_spell (who, item->inv, 0);
+	    return;
+	}
+    }
+    else if (item->type == SKILL_TOOL && item->invisible) {
+/*
+ // only assassin, thf are probable to gain skills with level
+	if (item->subtype == SK_CLAWING && (skop=find_skill_by_name(who, item->skill))!=NULL) {
+
+	  
+	    if (!(skop->attacktype & item->attacktype)) {
+		
+		skop->attacktype |= item->attacktype;
+
+		
+		skop->attacktype |= AT_PHYSICAL;
+	
+		if (item->msg != NULL)
+		    new_draw_info(NDI_UNIQUE|NDI_BLUE, 0, who, item->msg);
+
+		
+		if (item->animation_id) {
+		    who->face = skop->face;
+		    who->animation_id = item->animation_id;
+		    who->anim_speed = item->anim_speed;
+		    who->last_anim = 0;
+		    who->state = 0;
+		    animate_object(who, who->direction);
+		}
+	    }
+	}
+    */
+
+    }
+   
+}
+
+
 
 /**
  * Unready an object for a player. This function does nothing if the object was

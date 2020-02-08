@@ -19,8 +19,8 @@ is_turnable 1
 is_thrown 1
 material 2
 dam 7
-weight 8500
-value 50
+weight 85
+value 5
 editable 1024
 magicmap brown
 attacktype 1

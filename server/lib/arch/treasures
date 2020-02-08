@@ -1464,12 +1464,12 @@ treasureone missile_weapons
 treasureone throw_weapons
   arch t_dagger
     magic 2
-    nrof 8
+    nrof 50
     chance 30
   more
   arch spear
     magic 2
-    nrof 4
+    nrof 15
     chance 35
   more
   arch axe_2
@@ -1483,6 +1483,7 @@ treasureone throw_weapons
     chance 15
   more
   arch t_star1
+    nrof 50
     magic 4
     chance 5
   more
@@ -1540,6 +1541,7 @@ treasureone melee_weapons
     chance 5
   more
   arch t_dagger
+    nrof 50
     magic 4
     chance 5
   more
@@ -1564,6 +1566,7 @@ treasureone melee_weapons
     chance 5
   more
   arch spear
+    nrof 10
     magic 4
     chance 5
   more
@@ -1736,6 +1739,7 @@ treasureone uncommon_weapons
     chance 2
   more
   arch t_star1
+    nrof 25
     magic 4
     chance 3
   more
@@ -3934,9 +3938,13 @@ treasure barbarian_class_items
   more
   arch mace
   more
+  arch skill_punching
+  more
   arch skill_climbing
   more
   arch skill_woodsman
+  more
+  arch berserker_ability_force
   more
   arch b_horned_helmet
   more
@@ -7087,6 +7095,7 @@ treasureone shopweapoeastweaps
     chance 10
   more
   arch t_star1
+    nrof 50
     magic 3
     chance 10
   more
@@ -7495,12 +7504,6 @@ treasureone prayer_book_low
   arch spell_bless
     chance 3
   more
-  arch spell_cause_cold
-    chance 5
-  more
-  arch spell_cause_flu
-    chance 5
-  more
   arch spell_curse
     chance 3
   more
@@ -7542,9 +7545,6 @@ treasureone prayer_book_low
   more
   arch spell_cause_heavy_wounds
     chance 2
-  more
-  arch spell_cause_leprosy
-    chance 5
   more
   arch spell_command_undead
     chance 3
@@ -7596,9 +7596,6 @@ treasureone prayer_book_medium
   arch spell_town_portal
     chance 1
   more
-  arch spell_cause_typhoid
-    chance 1
-  more
   arch spell_major_healing
     chance 3
   more
@@ -7636,9 +7633,6 @@ end
 treasureone prayer_book_high
   arch spell_protection_from_cancellation
     chance 2
-  more
-  arch spell_cause_anthrax
-    chance 1
   more
   arch spell_glyph
     chance 1
