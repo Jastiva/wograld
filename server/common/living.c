@@ -35,6 +35,8 @@
 
 
 //extern void berserker_ability_gain(object *who, int level);
+//void ranger_level_gain(object *who);
+extern void ranger_ability_gain(object *who, int level);
 
 /* Handy little macro that adds exp and keeps it within bounds.  Since
  * we are now using 64 bit values, I'm not all concerned about overflow issues
@@ -1548,8 +1550,46 @@ void berserker_level_gain(object *who) {
 	
 	abil->level = who->level;
     }
+}
+  
+
+void ranger_level_gain(object *who) {
+    object *abil = NULL;    /* pointer to dragon ability force*/
+   
+    object *tmp = NULL;     /* tmp. object */
+    char buf[MAX_BUF];      /* tmp. string buffer */
+  
+    /* now grab the '_ability'-forces from the player's inventory */
+    for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "ranger_ability_force")==0)
+		abil = tmp;
+                break;
+	   
+	}
+    }
+    /* if the force is missing -> bail out */
+    if (abil == NULL) return;
+  
+    /* The ability_force keeps track of maximum level ever achieved.
+     * New abilties can only be gained by surpassing this max level 
+     */
+    if (who->level > abil->level) {
+	
+    
+      //  if((who->level % 5) ==  0)
+       // {
+
+            ranger_ability_gain(who,who->level);
+	
+//	}
+    
+	
+        abil->level = who->level; 
+    }
   
 }
+
 
 /* Handy function - given the skill name skill_name, we find the skill
  * archetype/object, set appropriate values, and insert it into
@@ -1614,8 +1654,18 @@ void player_lvl_adj(object *who, object *op) {
 		berserker_level_gain(who);
                 break;
              }
+	  } 
+	}
+
+          for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "ranger_ability_force")==0)
+            {
+		ranger_level_gain(who);
+                break;
 	   
 	}
+      }
       }
 
 

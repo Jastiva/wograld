@@ -4075,6 +4075,8 @@ treasure swashbuckler_class_items
   more
   arch skill_missile_weapon
   more
+  arch ranger_ability_force
+  more
   arch b_dagger
   more
   arch amulet
@@ -7965,25 +7967,39 @@ arch spell_create_earth_wall
    end
 treasureone ranger_skills
    arch spell_create_missile
-    chance 20
+    magic 3
+    chance 100
+    nrof 1
    more
    arch spell_insect_plague
-   chance 20
+   magic 4
+   chance 100
+   nrof 1
   more
    arch spell_spiderweb
-   chance 20
+   magic 6
+   chance 100
+    nrof 1
   more
  arch spell_wall_of_thorns
-   chance 20
+   magic 8
+   chance 100
+     nrof 1
   more
   arch spell_nightfall
-   chance 20
+   magic 10
+   chance 100
+   nrof 1
   more
  arch spell_daylight
-   chance 20
+   magic 12
+   chance 100
+   nrof 1
   more
  arch spell_summon_ranger_pet
-  chance 20
+  magic 14
+  chance 100
+   nrof 1
    end
 treasureone necromancy_book
 arch spell_cause_cold
@@ -8213,9 +8229,6 @@ treasureone ranger_pet_monster
   chance 10
   end
 treasureone summoner_book_low
-  arch spell_create_missile
-    chance 1
-  more
   arch spell_lesser_summon_golem
     chance 4
   more

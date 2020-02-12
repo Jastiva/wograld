@@ -219,6 +219,11 @@ void dragon_ability_gain( object* ob, int x, int y )
 void berserker_ability_gain(object *ob, int x)
 {
 }
+
+
+void ranger_ability_gain(object *ob, int x)
+{
+}
  
 void weather_effect( const char* c )
     {

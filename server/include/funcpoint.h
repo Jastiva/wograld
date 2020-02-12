@@ -63,5 +63,8 @@ extern void dragon_ability_gain(object *, int, int);
 extern void  berserker_ability_gain(object *, int );
 extern void	weather_effect(const char *);
 extern object *	find_skill_by_number(object *, int);
+extern void ranger_ability_gain(object *, int);
+extern void ranger_level_gain(object *);
+
 
 #endif
