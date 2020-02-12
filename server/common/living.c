@@ -1590,6 +1590,36 @@ void ranger_level_gain(object *who) {
   
 }
 
+void knight_level_gain(object *who) {
+    object *abil = NULL;    /* pointer to dragon ability force*/
+   
+    object *tmp = NULL;     /* tmp. object */
+    char buf[MAX_BUF];      /* tmp. string buffer */
+  
+    /* now grab the '_ability'-forces from the player's inventory */
+    for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "knight_ability_force")==0)
+		abil = tmp;
+                break;
+	   
+	}
+    }
+    /* if the force is missing -> bail out */
+    if (abil == NULL) return;
+  
+    /* The ability_force keeps track of maximum level ever achieved.
+     * New abilties can only be gained by surpassing this max level 
+     */
+    if (who->level > abil->level) {
+	
+ 
+            knight_ability_gain(who,who->level);
+ 
+	abil->level = who->level;
+    }
+  
+}
 
 /* Handy function - given the skill name skill_name, we find the skill
  * archetype/object, set appropriate values, and insert it into
@@ -1666,6 +1696,18 @@ void player_lvl_adj(object *who, object *op) {
 	   
 	}
       }
+      }
+
+
+for (tmp=who->inv; tmp!=NULL; tmp=tmp->below) {
+	if (tmp->type == FORCE) {
+	    if (strcmp(tmp->arch->name, "knight_ability_force")==0)
+              {
+		knight_level_gain(who);
+                break;
+              }
+	   
+	}
       }
 
 

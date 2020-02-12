@@ -224,6 +224,10 @@ void berserker_ability_gain(object *ob, int x)
 void ranger_ability_gain(object *ob, int x)
 {
 }
+
+void knight_ability_gain(object *ob, int x)
+{
+}
  
 void weather_effect( const char* c )
     {

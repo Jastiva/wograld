@@ -416,6 +416,7 @@ void dragon_ability_gain(object *who, int atnr, int level);
 void player_unready_range_ob(player *pl, object *ob);
 void berserker_ability_gain(object *who, int level);
 void ranger_ability_gain(object *who, int level);
+void knight_ability_gain(object *who, int level);
 /* plugins.c */
 int execute_event(object *op, int eventcode, object *activator, object *third, const char *message, int fix);
 int execute_global_event(int eventcode, ...);

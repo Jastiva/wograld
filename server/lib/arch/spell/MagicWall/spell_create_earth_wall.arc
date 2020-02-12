@@ -3,11 +3,11 @@ name create earth wall
 name_pl create earth wall
 face spell_create_earth_wall.111
 level 4
-sp 6
+grace 6
 casting_time 12
 path_attuned 2048
 other_arch earthwall
-skill summoning
+skill praying
 type 101
 subtype 15
 value 40
