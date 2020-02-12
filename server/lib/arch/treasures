@@ -4077,6 +4077,8 @@ treasure swashbuckler_class_items
   more
   arch ranger_ability_force
   more
+  arch guide_ranger
+  more
   arch b_dagger
   more
   arch amulet
@@ -7907,63 +7909,79 @@ arch spell_build_fireball_wall
   end
 treasureone knight_skills
   arch spell_turn_undead
-    chance 3
+    magic 3
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_cold
-    nrof 3
-    chance 1
+    magic 4
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_electricity
-    nrof 3
-    chance 1
+    magic 5
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_fire
-    nrof 3
-    chance 1
+    magic 6
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_poison
-    nrof 3
-    chance 1
+    magic 7
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_slow
-    nrof 3
-    chance 1
+    magic 8
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_paralysis
-    nrof 3
-    chance 1
+    magic 9
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_draining
-    nrof 3
-    chance 1
+    magic 10
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_magic
-    nrof 3
-    chance 1
+    magic 11
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_attack
-    nrof 3
-    chance 1
+    magic 12
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_confusion
-    nrof 3
-    chance 1
+    magic 13
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_cancellation
-    nrof 3
-    chance 1
+    magic 14
+    chance 100
+    nrof 1
   more
   arch spell_protection_from_depletion
-    nrof 3
-    chance 1
+    magic 15
+    chance 100
+    nrof 1
   more
 arch spell_create_earth_wall
-    chance 6
-    magic 5
+    magic 16
+    chance 100
+    nrof 1
   more
  arch spell_sunspear
-    chance 1
-    magic 10
+    magic 20
+    chance 100
+    nrof 1
    end
 treasureone ranger_skills
    arch spell_create_missile
@@ -8246,9 +8264,6 @@ treasureone summoner_book_low
   more
   arch spell_alchemy
     chance 5
-  more
-  arch spell_create_earth_wall
-    chance 6
   more
   arch spell_summon_earth_elemental
     chance 3
