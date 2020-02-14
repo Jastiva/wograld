@@ -1260,10 +1260,12 @@ static int hit_player_attacktype(object *op, object *hitter, int dam,
 	    for(tmp=op->inv; tmp!=NULL; tmp=tmp->below) {
 		if(tmp->invisible)
 		  continue;
-		if(!QUERY_FLAG(tmp, FLAG_APPLIED) ||
-		   (tmp->resist[ATNR_ACID] >= 10))
+		//if(!QUERY_FLAG(tmp, FLAG_APPLIED) ||
+		if(tmp->resist[ATNR_ACID] >= 10)
 		  /* >= 10% acid res. on itmes will protect these */
 		  continue;
+                if((op->type == PLAYER) && (!QUERY_FLAG(tmp,FLAG_APPLIED)))
+                  continue;
 		if(!(tmp->material & M_IRON))
 		  continue;
 		if(tmp->magic < -4) /* Let's stop at -5 */
@@ -1282,16 +1284,22 @@ static int hit_player_attacktype(object *op, object *hitter, int dam,
                    objects */
 		if(rndm(0, dam+4) >
 		    random_roll(0, 39, op, PREFER_HIGH)+2*tmp->magic) {
+                    tmp->magic--;
+                    flag=1;
 		    if(op->type == PLAYER)
+                       {
 			/* Make this more visible */
 			new_draw_info_format(NDI_UNIQUE|NDI_RED,0, op,
 				 "The %s's acid corrodes your %s!",
 				 query_name(hitter), query_name(tmp));
-		    flag = 1;
-		    tmp->magic--;
-		    if(op->type == PLAYER)
+		   // flag = 1;
+		    // tmp->magic--;
+		    //if(op->type == PLAYER)
 			esrv_send_item(op, tmp);
+                      }
 		}
+
+                
 	    }
 	    if(flag)
 	      fix_player(op); /* Something was corroded */
@@ -2046,11 +2054,10 @@ static void poison_player(object *op, object *hitter, int dam)
 	    tmp->stats.food+=dam;  /*  more damage, longer poisoning */
 
 	    if(op->type==PLAYER) {
-		/* player looses stats, maximum is -10 of each */
-		tmp->stats.Con= MAX(-(dam/4+1), -10);
-		tmp->stats.Str= MAX(-(dam/3+2), -10);
-		tmp->stats.Dex= MAX(-(dam/6+1), -10);
-		tmp->stats.Int= MAX(-dam/7, -10);
+	//	tmp->stats.Con= MAX(-(dam/4+1), -10);
+	//	tmp->stats.Str= MAX(-(dam/3+2), -10);
+	//	tmp->stats.Dex= MAX(-(dam/6+1), -10);
+	//	tmp->stats.Int= MAX(-dam/7, -10);
 		SET_FLAG(tmp,FLAG_APPLIED);
 		fix_player(op);
 		new_draw_info(NDI_UNIQUE, 0,op,"You suddenly feel very ill.");

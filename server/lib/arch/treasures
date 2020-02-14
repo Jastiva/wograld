@@ -2027,6 +2027,9 @@ treasureone random_books
   arch summoner_book
      chance 15
   more
+  arch necromancer_book
+     chance 15
+  more
     list random_read
     chance 5
   end
@@ -3890,6 +3893,29 @@ treasure wizard
   arch robe
   more
   arch b_dagger
+  end
+treasure necromancer_class_items
+  list basic_skills
+  more
+  arch skill_meditation
+  more
+  arch robe
+  more
+  arch skill_one_handed_weapon
+  more
+  arch skill_praying
+  more
+  arch talisman_necromancy
+  more
+  arch force_necromncy
+  more
+  arch robe
+  more
+  arch necromancer_book_l1
+  more
+  arch necromancer_book_l1
+  more
+  arch b_ssword_1
   end
 treasure wraith_player_items
   arch wraith_player_force
@@ -7005,6 +7031,16 @@ treasureone sorcery_l1
   arch spell_spark_shower
     chance 5 
 end
+treasureone necromancy_l1
+arch spell_cause_cold
+    chance 20
+    more
+arch spell_cause_flu
+    chance 20
+  more
+arch spell_summon_undead
+    chance 10
+    end
 #
 treasureone pyromancy_l1
   arch spell_burning_hands
@@ -7130,6 +7166,9 @@ treasureone talisman
     chance 1
   more
   arch talisman_pyromancy
+    chance 1
+  more
+  arch talisman_necromancy
     chance 1
 end
 treasure raise_dead_failure
@@ -7628,9 +7667,9 @@ treasureone prayer_book_medium
   arch spell_protection_from_magic
     chance 1
   more
-#  arch spell_raise_dead
-#    chance 1
-#  more
+  arch spell_raise_dead
+    chance 1
+  more
   arch spell_summon_avatar
     chance 1
   more
@@ -7661,6 +7700,36 @@ treasureone prayer_book_high
 #    chance 1
 end
 #
+treasureone necromancer_book_low
+arch spell_cause_cold
+    chance 20
+    more
+arch spell_cause_flu
+    chance 20
+  more
+arch spell_summon_undead
+    chance 10
+    end
+treasureone necromancer_book_medium
+arch spell_cause_leprosy
+    chance 10
+  more
+  arch spell_cause_footandmouth
+    chance 10
+    end
+treasureone necromancer_book_high
+arch spell_cause_typhoid
+    chance 10
+  more
+ arch spell_vitriol
+     chance 20
+     more
+ arch spell_finger_of_death
+     chance 20
+  more
+  arch spell_cause_many_wounds
+     chance 20
+end
 treasureone prayer_book
   list prayer_book_low
     chance 20
@@ -7672,6 +7741,21 @@ treasureone prayer_book
     nrof 1
   more
   list prayer_book_high
+    chance 40
+    magic 11
+    nrof 1
+end
+treasureone necromancer_book
+  list necromancer_book_low
+    chance 20
+    nrof 1
+  more
+  list necromancer_book_medium
+    chance 30
+    magic 6
+    nrof 1
+  more
+  list necromancer_book_high
     chance 40
     magic 11
     nrof 1
@@ -8023,42 +8107,6 @@ treasureone ranger_skills
   chance 100
    nrof 1
    end
-treasureone necromancy_book
-arch spell_cause_cold
-    chance 20
-    more
-arch spell_cause_flu
-    chance 20
-    magic 2
-  more
-arch spell_summon_undead
-    chance 10
-    magic 3
-    more
-arch spell_cause_leprosy
-    chance 10
-   magic 4
-  more
-  arch spell_cause_anthrax
-    chance 10
-    magic 6
-  more
-  arch spell_cause_typhoid
-    chance 10
-    magic 8
-  more
- arch spell_vitriol
-     chance 20
-     magic 10
-     more
- arch spell_finger_of_death
-     chance 20
-     magic 12
-  more
-  arch spell_cause_many_wounds
-     chance 20
-     magic 12
-  end
 treasureone necromancer_summon
  arch zombie
   nrof 2

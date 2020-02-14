@@ -364,6 +364,22 @@ int do_skill (object *op, object *part, object *skill, int dir, const char *stri
 	    (void) attack_hth(op,dir,"flamed", skill);
 	    break;
 
+        case SK_SHIVER:
+            (void) attack_hth(op,dir, "shivered",skill);
+            break;
+
+        case SK_SPARK_TOUCH:
+            (void) attack_hth(op,dir, "electrified",skill);
+            break;
+
+        case SK_POISON_NAIL:
+            (void) attack_hth(op,dir, "nauseated", skill);
+            break;
+
+        case SK_ACID_SPLASH:
+            (void) attack_hth(op,dir, "corroded", skill);
+            break;
+
 	case SK_CLAWING:
 	    (void) attack_hth(op,dir,"clawed", skill);
 	    break;
@@ -457,6 +473,7 @@ int do_skill (object *op, object *part, object *skill, int dir, const char *stri
 	case SK_EVOCATION:
 	case SK_PYROMANCY:
 	case SK_SUMMONING:
+        case SK_NECROMANCY:
 	case SK_CLIMBING:
 	    new_draw_info(NDI_UNIQUE, 0,op,"This skill is already in effect.");
 	    break;

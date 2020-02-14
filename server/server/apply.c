@@ -3957,6 +3957,21 @@ if(!strncmp(op->skill, "pyromancy", 9))
         }
    }
 
+if(!strncmp(op->skill, "necromancy", 10))
+{
+
+ at = find_archetype("force_necromncy");
+        tmp=present_arch_in_ob(at,who);
+        if (!tmp) {
+           // remove_ob(tmp);
+           // free_object(tmp);
+          new_draw_info(NDI_UNIQUE, 0,who, "No force to apply talisman_necromancy");
+ return 1;
+
+        }
+   }
+
+
 	    if (who->type == PLAYER) {
 		who->contr->shoottype = range_skill;
 		who->contr->ranges[range_skill] = op;

@@ -1,6 +1,7 @@
 Object skill_spark_touch
 name spark touch
 skill spark touch
+type 43
 exp 0
 dam 2
 level 100

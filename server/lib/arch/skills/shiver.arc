@@ -5,7 +5,7 @@ type 43
 exp 0
 dam 2
 level 100
-subtype 45
+subtype 49
 editable 0
 body_skill -1
 attacktype 16
