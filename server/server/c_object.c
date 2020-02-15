@@ -1449,6 +1449,7 @@ int command_dropall (object *op, char *params) {
 	case ARMOUR_IMPROVER:
 	case WEAPON_IMPROVER:
 	case WAND:
+        case TINKERER_TOOL:
 	case ROD:
 	case POTION:
 	  drop(op,curinv);
@@ -1727,6 +1728,13 @@ void examine(object *op, object *tmp) {
 	    if(QUERY_FLAG(tmp, FLAG_IDENTIFIED))
 		sprintf(buf,"It has %d charges left.",tmp->stats.food);
 	    break;
+        case TINKERER_TOOL:
+            if(QUERY_FLAG(tmp, FLAG_IDENTIFIED))
+		sprintf(buf,"It has %d charges left.",tmp->stats.food);
+	    break;
+        case BUILD_TITLE:
+            sprintf(buf, "It gives permission to build on lot %s", tmp->title);
+            break;
     }
 
     if(buf[0]!='\0')

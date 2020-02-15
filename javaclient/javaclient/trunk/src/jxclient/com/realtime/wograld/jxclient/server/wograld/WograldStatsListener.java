@@ -433,7 +433,7 @@ public interface WograldStatsListener extends EventListener {
      * it is used as a range of values so that the client can have some idea how
      * many skill categories there may be.
      */
-    int CS_NUM_SKILLS = 51;
+    int CS_NUM_SKILLS = 52;
 
     /**
      * CS_STAT_SKILLINFO is used as the starting index point.  Skill

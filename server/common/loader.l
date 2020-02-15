@@ -412,7 +412,7 @@ static void check_loaded_object(object *op) {
 
     }
     /* Old spellcasting object - need to load in the appropiate object */
-    if ((op->type == ROD || op->type == WAND || op->type == SCROLL || op->type == HORN
+    if ((op->type == ROD || op->type == WAND || op->type == SCROLL || op->type == HORN || op->type == TINKERER_TOOL
 	|| op->type == FIREWALL ||
 	  /* POTIONS and ALTARS don't always cast spells, but if they do, update them */
 	  ((op->type == POTION || op->type == ALTAR) && op->stats.sp)) && !op->inv && !arch_init)  {

@@ -5,7 +5,7 @@
 
 
 /*
-    CrossFire, A Multiplayer game for X-windows
+   
 
     Copyright (C) 2006 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -1190,7 +1190,7 @@ for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
 		op->speed_left < -spell_ob->casting_time*PATH_TIME_MULT(op,spell_ob) * FABS(op->speed))
 		op->speed_left = -spell_ob->casting_time*PATH_TIME_MULT(op,spell_ob) * FABS(op->speed);
 	} else if (caster->type == WAND || caster->type == HORN ||
-		   caster->type == ROD || caster->type == POTION ||
+		   caster->type == ROD || caster->type == POTION || caster->type == TINKERER_TOOL ||
 		   caster->type == SCROLL) {
 	    op->speed_left -= 2 * FABS(op->speed);
 	}

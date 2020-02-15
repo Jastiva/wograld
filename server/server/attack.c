@@ -172,7 +172,7 @@ if((op->type==CONTAINER) || (op->type == FLESH ) || ( op->type == WEAPON) ||
   (op->type == AMULET) || (op->type == GIRDLE ) || (op->type == BRACERS) ||
   (op->type == SHIELD) || (op->type == HELMET ) || (op->type == RING ) ||
   (op->type == CLOAK ) || (op->type == WAND) || (op->type == ROD ) ||
-  (op->type == HORN ) || (op->type == ARMOUR_IMPROVER ) || (op->type == WEAPON_IMPROVER) ||
+  (op->type == HORN ) || (op->type == TINKERER_TOOL) || (op->type == ARMOUR_IMPROVER ) || (op->type == WEAPON_IMPROVER) ||
   (op->type == POWER_CRYSTAL ) || (op->type == BOW) || (op->type == SKILLSCROLL)  ||
   (op->type == SPELLBOOK ) || (op->type == POTION ))
   {
@@ -1276,7 +1276,7 @@ static int hit_player_attacktype(object *op, object *hitter, int dam,
 		   tmp->type==GIRDLE ||
 		   tmp->type==AMULET ||
 		   tmp->type==WAND ||
-		   tmp->type==ROD ||
+		   tmp->type==ROD || tmp->type == TINKERER_TOOL ||
 		   tmp->type==HORN)
 		  continue; /* To avoid some strange effects */
 

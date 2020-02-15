@@ -8,7 +8,7 @@ msg
 Creator: Gnat the Gnu
 Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
-Modified: 2019-08-24 lx
+Modified: 2020-02-15 lx
 endmsg
 tile_path_1 grassplains2
 tile_path_3 grassplains6
@@ -4610,6 +4610,10 @@ arch grassmedium
 x 17
 y 2
 end
+arch wand
+x 17
+y 2
+end
 arch grassmedium
 x 17
 y 3
@@ -5168,6 +5172,10 @@ arch grassmedium
 x 19
 y 2
 end
+arch ttool_empty
+x 19
+y 2
+end
 arch grassmedium
 x 19
 y 3
@@ -5641,6 +5649,13 @@ end
 arch grassmedium
 x 21
 y 3
+end
+arch ttool_cspell
+x 21
+y 3
+randomitems none
+arch spell_counterspell
+end
 end
 arch grassmedium
 x 21
@@ -8808,6 +8823,11 @@ name stonefloor
 name_pl stonefloor
 x 34
 y 18
+end
+arch generate_orc
+x 34
+y 18
+no_damage 1
 end
 arch stonefloor2
 name stonefloor

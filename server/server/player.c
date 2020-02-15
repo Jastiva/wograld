@@ -4,7 +4,7 @@
  */
 
 /*
-    CrossFire, A Multiplayer game for X-windows
+    
 
     Copyright (C) 2002 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -1363,7 +1363,7 @@ int check_pick(object *op) {
 
     /* wands/staves/rods/horns */
     if (op->contr->mode & PU_MAGIC_DEVICE) 
-	if (tmp->type == WAND || tmp->type == ROD || tmp->type == HORN)
+	if (tmp->type == WAND || tmp->type == ROD || tmp->type == HORN || tmp->type == TINKERER_TOOL)
 	{ pick_up(op, tmp); if(0)fprintf(stderr,"MAGIC_DEVICE\n"); continue; }
 
       /* pick up all magical items */
@@ -1814,6 +1814,7 @@ static int player_fire_bow(object *op, int dir)
 static void fire_misc_object(object *op, int dir)
 {
     object  *item;
+    object *skop;
 
     if (!op->contr->ranges[range_misc]) {
 	new_draw_info(NDI_UNIQUE, 0,op,"You have range item readied.");
@@ -1825,7 +1826,7 @@ static void fire_misc_object(object *op, int dir)
 	LOG(llevError,"Object %s lacks a spell\n", item->name);
 	return;
     }
-    if (item->type == WAND) {
+    if (item->type == WAND || item->type == TINKERER_TOOL) {
 	if(item->stats.food<=0) {
 	    play_sound_player_only(op->contr, SOUND_WAND_POOF,0,0);
 	    new_draw_info_format(NDI_UNIQUE, 0,op,"The %s goes poof.", query_base_name(item, 0));
@@ -1844,9 +1845,22 @@ static void fire_misc_object(object *op, int dir)
 	}
     }
 
+    if(item->type == TINKERER_TOOL)
+    {
+
+ 
+    skop = find_skill_by_name(op, item->skill);
+     if(!skop)
+      {
+        new_draw_info_format(NDI_UNIQUE, 0,op,
+			  "You lack the skill tinkering to zap with this tool");
+        return;
+      }
+    }
+
     if(cast_spell(op,item,dir,item->inv,NULL)) {
 	SET_FLAG(op, FLAG_BEEN_APPLIED); /* You now know something about it */
-	if (item->type == WAND) {
+	if (item->type == WAND || item->type == TINKERER_TOOL) {
 	    if (!(--item->stats.food)) {
 		object *tmp;
 		if (item->arch) {

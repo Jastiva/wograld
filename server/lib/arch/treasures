@@ -3826,6 +3826,23 @@ treasure alchemist_class_items
   more
   arch b_dagger
   end
+treasure tinkerer_class_items
+  list basic_skills
+  more
+  arch skill_one_handed_weapon
+  more
+  arch skill_alchemy
+  more
+  arch skill_tinkering
+  more
+  arch skill_smithery
+  more
+  arch guide_alchemy
+  more
+  arch robe
+  more
+  arch b_dagger
+  end
 treasure summoner_class_items
   list basic_skills
   more
@@ -7994,6 +8011,10 @@ arch spell_build_fireball_wall
   arch spell_build_lightning_wall
     chance 5
     magic 10
+  more
+  arch spell_wrathful_eye
+  chance 5
+  magic 10
   end
 treasureone knight_skills
   arch spell_turn_undead
@@ -8540,6 +8561,10 @@ treasureone staff
     nrof 5
     chance 2
 end
+treasure tt_cspell
+   arch spell_counterspell
+   nrof 20
+   end
 treasureone wand
   arch spell_firebolt
     nrof 35

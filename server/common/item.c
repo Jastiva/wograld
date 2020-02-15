@@ -223,6 +223,7 @@ static const typedata item_types[] = {
 {P_SHOP_MAT, "player shop mat", "player shop mats", 0, 0},
 {ELEVATOR, "elevator", "elevators", 0, 0},
 {CRUMBLEFLOOR, "crumblefloor", "crumblefloors", 0, 0},
+{TINKERER_TOOL, "tinkerer_tool", "tinkerer_tools", SK_TINKERING, 0},
 };
 
 const int item_types_size=sizeof(item_types)/sizeof(*item_types);
@@ -535,6 +536,7 @@ const char *query_short_name(const object *op)
 	case SPELLBOOK:
 	case SCROLL:
 	case WAND:
+        case TINKERER_TOOL:
 	case ROD:
 	    if (QUERY_FLAG(op,FLAG_IDENTIFIED)||QUERY_FLAG(op,FLAG_BEEN_APPLIED)) {
 		if(!op->title) {
@@ -647,6 +649,7 @@ char *query_name(const object *op) {
 	  case WAND:
 	  case ROD:
 	  case HORN:
+          case TINKERER_TOOL:
 	    safe_strcat(buf[use_buf]," (readied)", &len, HUGE_BUF);
 	    break;
 	  case WEAPON:
@@ -736,6 +739,7 @@ const char *query_base_name(const object *op, int plural) {
 	case SPELLBOOK:
 	case SCROLL:
 	case WAND:
+        case TINKERER_TOOL:
 	case ROD:
 	    if (QUERY_FLAG(op,FLAG_IDENTIFIED)||QUERY_FLAG(op,FLAG_BEEN_APPLIED)) {
 		if(!op->title) {
@@ -969,6 +973,7 @@ char *describe_item(const object *op, const object *owner) {
 	case BOW:
 	case ARROW:
 	case WAND:
+        case TINKERER_TOOL:
 	case ROD:
 	case HORN:
 	case WEAPON:
@@ -1144,6 +1149,7 @@ char *describe_item(const object *op, const object *owner) {
 	    case BOW:
 	    case ARROW:
 	    case WAND:
+            case TINKERER_TOOL:
 	    case FOOD:
 	    case FLESH:
 	    case DRINK:
@@ -1275,7 +1281,7 @@ int is_magical(const object *op) {
      * assuming they still have any charges left.
      */
     if (op->type==POTION || op->type==ROD ||
-	(op->type==WAND && op->stats.food))
+	(op->type==WAND && op->stats.food) || (op->type==TINKERER_TOOL && op->stats.food))
 	    return 1;
 
     /* if something gives a protection, either positive or negative, its magical */
@@ -1315,6 +1321,7 @@ int need_identify(const object *op) {
     switch(op->type) {
 	case RING:
 	case WAND:
+        case TINKERER_TOOL:
 	case ROD:
 	case HORN:
 	case SCROLL:

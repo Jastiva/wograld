@@ -300,8 +300,15 @@ error - Your ANSI C compiler should be defining __STDC__;
 #define P_SHOP_MAT              172
 #define ELEVATOR	        173
 #define CRUMBLEFLOOR	        174
+#define TINKERER_TOOL           175
+#define AUTORAMP                176
+#define EAST_PLATFORM           177
+#define NORTH_PLATFORM          178
+#define UP_PLATFORM             179
+#define SLIDER                  180
+#define BOUNCE_BALL             181
 
-#define OBJECT_TYPE_MAX		    174 /* update if you add new types */
+#define OBJECT_TYPE_MAX		    181 /* update if you add new types */
 /* END TYPE DEFINE */
 
 /* Subtypes for BUILDER */

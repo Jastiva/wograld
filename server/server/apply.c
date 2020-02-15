@@ -3110,6 +3110,7 @@ int manual_apply (object *op, object *tmp, int aflag)
 	case CLOAK:
 	case WAND:
 	case ROD:
+        case TINKERER_TOOL:
 	case HORN:
 	case SKILL:
 	case BOW:
@@ -3389,6 +3390,7 @@ static int unapply_special (object *who, object *op, int aflags)
 	case WAND:
 	case ROD:
 	case HORN:
+        case TINKERER_TOOL:
 	    clear_skill(who);
 	    new_draw_info_format(NDI_UNIQUE, 0, who, "You unready %s.",query_name(op));
 	    if(who->type==PLAYER) {
@@ -3663,7 +3665,7 @@ int can_apply_object(object *who, object *op)
 
 
     if (who->type != PLAYER) {
-	if ((op->type == WAND || op->type == HORN || op->type==ROD)
+	if ((op->type == WAND || op->type == HORN || op->type==ROD || op->type == TINKERER_TOOL)
 	    && !QUERY_FLAG(who, FLAG_USE_RANGE))
 		retval |= CAN_APPLY_RESTRICTION;
 	if (op->type == BOW && !QUERY_FLAG(who, FLAG_USE_BOW))
@@ -4012,6 +4014,7 @@ if(!strncmp(op->skill, "necromancy", 10))
 	case WAND:
 	case ROD:
 	case HORN:
+        case TINKERER_TOOL:
 	    /* check for skill, alter player status */ 
 	    SET_FLAG(op, FLAG_APPLIED);
 	    if (skop) change_skill(who, skop, 0);
@@ -4059,7 +4062,7 @@ if(!strncmp(op->skill, "necromancy", 10))
      * you don't know anything about them.
      */
     if (who->type == PLAYER && op->type!=WAND && op->type!=HORN &&
-	op->type!=ROD)
+	op->type!=ROD && op->type!=TINKERER_TOOL)
 	SET_FLAG(op,FLAG_BEEN_APPLIED);
 
     if (QUERY_FLAG(op, FLAG_CURSED) || QUERY_FLAG(op, FLAG_DAMNED)) {
@@ -4205,7 +4208,7 @@ void fix_auto_apply(mapstruct *m) {
 		     */
 		    if (tmp->type == WAND || tmp->type == ROD || tmp->type == SCROLL ||
 			tmp->type == HORN || tmp->type == FIREWALL || tmp->type == POTION ||
-			tmp->type == ALTAR || tmp->type == SPELLBOOK)
+			tmp->type == ALTAR || tmp->type == SPELLBOOK || tmp->type == TINKERER_TOOL)
 			    tmp->randomitems = NULL;
 
 		}

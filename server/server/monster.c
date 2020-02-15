@@ -1681,7 +1681,7 @@ static void monster_check_pickup(object *monster) {
 
 /*
  * monster_can_pick(): If the monster is interested in picking up
- * the item, then return 0.  Otherwise 0.
+ * the item, then return 1.  Otherwise 0.
  * Instead of pick_up, flags for "greed", etc, should be used.
  * I've already utilized flags for bows, wands, rings, etc, etc. -Frank.
  */
@@ -1733,6 +1733,7 @@ static int monster_can_pick(object *monster, object *item) {
 	case WAND:
 	case HORN:
 	case ROD:
+        case TINKERER_TOOL:
 	    flag=QUERY_FLAG(monster,FLAG_USE_RANGE);
 	    break;
 

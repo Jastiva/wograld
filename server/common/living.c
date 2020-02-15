@@ -593,7 +593,7 @@ int change_abil(object *op, object *tmp) {
 		 "You feel much less healthy!");
     }
 
-    if(tmp->stats.sp && op->type==PLAYER && tmp->type!=SKILL) {
+    if(tmp->stats.sp && op->type==PLAYER && tmp->type!=SKILL && tmp->type != BOW) {
 	success=1;
 	DIFF_MSG(flag*tmp->stats.sp, "You feel one with the powers of magic!",
 		 "You suddenly feel very mundane.");
@@ -916,7 +916,7 @@ void fix_player(object *op) {
 		if (tmp->type == BOW) 
 		    op->contr->ranges[range_bow] = tmp;
 
-		if (tmp->type == WAND || tmp->type == ROD || tmp->type==HORN) 
+		if (tmp->type == WAND || tmp->type == ROD || tmp->type==HORN || tmp->type == TINKERER_TOOL) 
 		    op->contr->ranges[range_misc] = tmp;
 
 		for(i=0;i<NUM_STATS;i++)

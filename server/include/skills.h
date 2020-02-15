@@ -85,6 +85,7 @@
 #define SK_ACID_SPLASH          48
 #define SK_SHIVER               49
 #define SK_NECROMANCY           50
+#define SK_TINKERING            51
 
 
 /* This is the highest number skill in the table +1
@@ -92,7 +93,7 @@
  * to make life easier, we use the value above as index,
  * eg, SK_EVOCATION (35) will be in last_skills[35].
  */
-#define NUM_SKILLS		51
+#define NUM_SKILLS		52
 
 
 /* This is used in the exp functions - basically what to do if

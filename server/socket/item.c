@@ -5,7 +5,7 @@
  */
 
 /*
-    CrossFire, A Multiplayer game for X-windows
+   
 
     Copyright (C) 2002 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -87,6 +87,7 @@ static unsigned int query_flags(const object *op)
 	  case WAND:
 	  case ROD:
 	  case HORN:
+          case TINKERER_TOOL:
 	    flags = a_readied;
 	    break;
 	  case WEAPON:

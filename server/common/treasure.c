@@ -5,7 +5,7 @@
  */
 
 /*
-    CrossFire, A Multiplayer game for X-windows
+   
 
     Copyright (C) 2002 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -24,7 +24,7 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-    The authors can be reached via e-mail at wograld-devel@real-time.com
+    The authors can be reached via e-mail at 
 */
 
 #define ALLOWED_COMBINATION
@@ -982,6 +982,31 @@ void fix_generated_item (object *op, object *creator, int difficulty,
 		    op->value = op->value * op->inv->value;
 		}
 		break;
+
+             case TINKERER_TOOL:
+		/* nrof in the treasure list is number of charges,
+		 * not number of wands.  So copy that into food (charges),
+		 * and reset nrof.
+		 */
+		op->stats.food=op->inv->nrof;
+		op->nrof=1;
+		/* If the spell changes by level, choose a random level
+		 * for it, and adjust price.  If the spell doesn't
+		 * change by level, just set the wand to the level of
+		 * the spell, and value calculation is simpler.
+		 */
+		if (op->inv->duration_modifier || op->inv->dam_modifier ||
+		  op->inv->range_modifier) {
+		    op->level = level_for_item(op, difficulty, 0);
+		    op->value= op->value* op->inv->value * (op->level +50)/ 
+			(op->inv->level + 50);
+		}
+		else {
+		    op->level = op->inv->level;
+		    op->value = op->value * op->inv->value;
+		}
+		break;
+
 
 	    case ROD:
 		op->level = level_for_item(op, difficulty, 0);

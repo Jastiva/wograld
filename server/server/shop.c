@@ -169,7 +169,7 @@ uint64 query_cost(const object *tmp, object *who, int flag) {
 	    val/=(1-tmp->magic);
     }
 
-    if (tmp->type==WAND) {
+    if (tmp->type==WAND || tmp->type == TINKERER_TOOL) {
 	/* Value of the wand is multiplied by the number of
 	 * charges.  the treasure code already sets up the value
 	 * 50 charges is used as the baseline.
