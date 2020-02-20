@@ -1871,6 +1871,31 @@ static void fire_misc_object(object *op, int dir)
 		}
 		if ((tmp=is_player_inv(item)))
 		    esrv_update_item(UPD_ANIM, tmp, item);
+
+                if(item->type == TINKERER_TOOL)
+                {
+                 if(item->arch->name)
+                   {
+                     if(!strcmp(item->arch->name,"ttool_cspell"))
+                      {
+                           struct archt *arch3=find_archetype("ttool_empty");
+                           object *tmp3=arch_to_object(arch3);
+                           insert_ob_in_ob(tmp3,op);
+                           remove_ob(item);
+                           free_object(item);
+                                 new_draw_info_format(NDI_UNIQUE, 0,op,
+			  "the tool runs out of charges");
+                               op->contr->ranges[range_misc]=NULL;
+                              esrv_send_inventory(op,op);
+                              fix_player(op);
+                              return;
+                      }
+
+                   }      
+
+                 }
+
+   
 	    }
 	}
 	else if (item->type == ROD || item->type==HORN) {

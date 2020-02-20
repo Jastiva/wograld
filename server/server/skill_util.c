@@ -427,6 +427,9 @@ int do_skill (object *op, object *part, object *skill, int dir, const char *stri
 	    if (did_alc == 0)
 		exp = success = skill_ident(op,skill);
 	    break;
+        case SK_TINKERING:
+            exp=do_tinkering(op,skill);
+            break;
 
 	case SK_DET_MAGIC:
 	case SK_DET_CURSE:
@@ -1096,6 +1099,119 @@ static int attack_melee_weapon(object *op, int dir, const char *string, object *
     return skill_attack(NULL,op,dir,string, skill);
 
 }
+
+int do_tinkering(object *pl, object *skill) {
+sint16 tx,ty;
+        mapstruct *m;
+        int mflags;
+         object *tmp=NULL;
+        object *tmp3;
+        object *tmp4;
+         object *tmp5;
+         object *tmp6;
+
+         int localcount=0;
+
+         if(pl->type != PLAYER) {
+            return 0;
+          }
+
+         m=pl->map;
+         tx=pl->x;
+         ty=pl->y;
+         mflags=get_map_flags(m, &m, tx, ty, &tx, &ty);
+         if(mflags & P_OUT_OF_MAP) return 0;
+
+         struct archt *arch2;
+         struct archt *arch3;
+
+         arch2=find_archetype("ironbar");
+         
+
+         int prepare=0;
+
+         for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+              if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"ironore"))
+                 {
+                    tmp3=arch_to_object(arch2);
+                  //  insert_ob_in_map_at( tmp3, m, NULL, INS_ABOVE_FLOOR_ONLY, tx, ty);
+                    insert_ob_in_ob( tmp3,pl);
+                      new_draw_info(NDI_UNIQUE, 0, pl, "ore smelted\n");
+                    remove_ob(tmp);
+                    free_object(tmp);
+                    return 100;
+                  }
+              }
+            }
+
+          arch3=find_archetype("ttool_cspell");
+            
+          for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+              if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"ttool_empty"))
+                 {
+                    prepare=1;
+                    break;
+                 }
+               }
+           }
+           if(prepare=1)
+           {
+                 new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+           {
+               if(tmp->arch->name)
+               {
+                   if(!strcmp(tmp->arch->name,"dust_generic"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                        if(tmp->inv != NULL)
+                        {
+                           tmp4=tmp->inv;
+                           if(tmp4->type == SPELL)
+                           {
+                              new_draw_info(NDI_UNIQUE, 0, pl, "dust has spell\n");
+                      //       object *tmp5;
+                              localcount=tmp->nrof;
+                             tmp5 = get_object();
+                             
+                              copy_object(tmp4,tmp5);
+                              //tmp5->nrof=1;
+                               tmp6=arch_to_object(arch3);     
+                               tmp6->stats.food=localcount;
+                               tmp6->level=1;
+                               insert_ob_in_ob(tmp5,tmp6);     
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                           
+
+                           }
+                        }
+                            
+                    }
+
+               }
+           }
+           }
+  
+                    
+        }
+   
 
 /* add, based on skill_attack */
 int do_mining (object *pl, int dir, object *skill) {
