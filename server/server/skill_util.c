@@ -1142,10 +1142,209 @@ sint16 tx,ty;
                       new_draw_info(NDI_UNIQUE, 0, pl, "ore smelted\n");
                     remove_ob(tmp);
                     free_object(tmp);
+                    esrv_send_inventory(pl,pl);
+                              fix_player(pl);
                     return 100;
                   }
               }
             }
+
+          struct archt *arch4=find_archetype("consumable_generic");
+          int prepare2=0;
+          int prepare3=0;
+          int prepare4=0;
+
+          for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+               if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"building_wall9"))
+                 {
+                    prepare2=1;
+                    break;
+                 }
+               }
+           }
+
+
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+               if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"fix_mercury"))
+                 {
+                    prepare3=1;
+                    break;
+                 }
+               }
+           }
+
+           
+
+          
+
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+               if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"sulphur"))
+                 {
+                    prepare4=1;
+                    break;
+                 }
+               }
+           }
+              
+           /*
+           if(prepare4=1)
+           {
+                 new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+           {
+               if(tmp->arch->name)
+               {
+                   if(!strcmp(tmp->arch->name,"min_oil"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_create_);
+                      tmp5=arch_to_object(arch5);
+                      tmp6=arch_to_object(arch4); 
+                   insert_ob_in_ob(tmp5,tmp6);     
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                */
+
+           if(prepare3=1)
+           {
+                 new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+           {
+               if(tmp->arch->name)
+               {
+                   if(!strcmp(tmp->arch->name,"phil_phosphorus"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_wrathful_eye");
+                       struct archt *arch6=find_archetype("fix_mercury");
+                      tmp5=arch_to_object(arch5);
+                      tmp6=arch_to_object(arch4); 
+                   insert_ob_in_ob(tmp5,tmp6); 
+                              tmp6->name=add_string("expensive camera");  
+                              tmp6->face=arch6->clone.face;  
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                }
+              }
+          }
+          }
+
+           if(prepare2=1)
+           {
+                 new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+           {
+               if(tmp->arch->name)
+               {
+                   if(!strcmp(tmp->arch->name,"ruby"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_build_fireball_wall");
+                       struct archt *arch6=find_archetype("firewall");
+                      tmp5=arch_to_object(arch5);
+                      tmp6=arch_to_object(arch4); 
+                   insert_ob_in_ob(tmp5,tmp6); 
+                              tmp6->name=add_string("build fireball wall");  
+                              tmp6->face=arch6->clone.face;  
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                }
+
+if(!strcmp(tmp->arch->name,"emerald"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_build_lightning_wall");
+                       struct archt *arch6=find_archetype("lightningwall");
+                      tmp5=arch_to_object(arch5);
+                      tmp6=arch_to_object(arch4); 
+                   insert_ob_in_ob(tmp5,tmp6); 
+                              tmp6->name=add_string("build lightning wall");  
+                              tmp6->face=arch6->clone.face;  
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                }
+
+
+if(!strcmp(tmp->arch->name,"sapphire"))
+                 {
+                      new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_build_bullet_wall");
+                       struct archt *arch6=find_archetype("bulletwall");
+                      tmp5=arch_to_object(arch5);
+                      tmp6=arch_to_object(arch4); 
+                   insert_ob_in_ob(tmp5,tmp6); 
+                              tmp6->name=add_string("build turret");  
+                              tmp6->face=arch6->clone.face;  
+                       new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                               remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                }
+
+              }
+          }
+          }
+
+
+
+
 
           arch3=find_archetype("ttool_cspell");
             

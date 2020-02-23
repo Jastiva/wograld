@@ -3057,6 +3057,22 @@ int manual_apply (object *op, object *tmp, int aflag)
 	    return 1;
 
         case CONSUMABLE:
+             if(op->type == PLAYER)
+                {
+           struct object *skop=find_skill_by_name(op, "tinkering");
+     
+	if (skop)
+             {
+                 (void) apply_potion(op, tmp);
+	    return 1;
+             }
+             else
+              {
+                   new_draw_info(NDI_UNIQUE,0,op,"you lack the skill tinkering to use the item");
+                  return 0;
+              }
+              }
+           
 	case POTION:
 	    (void) apply_potion(op, tmp);
 	    return 1;
