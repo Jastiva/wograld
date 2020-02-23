@@ -8,7 +8,7 @@ msg
 Creator: Gnat the Gnu
 Email: gnu@foo.bar
 Date: Sun Jan  7 00:48:22 2007
-Modified: 2020-02-15 lx
+Modified: 2020-02-23 lx
 endmsg
 tile_path_1 grassplains2
 tile_path_3 grassplains6
@@ -3392,6 +3392,20 @@ y 5
 end
 arch grassmedium
 x 13
+y 5
+end
+arch grassmedium
+x 13
+y 5
+end
+arch consumable_generic
+x 13
+y 5
+arch spell_wrathful_eye
+end
+end
+arch grassmedium
+x 13
 y 6
 end
 arch grassmedium
@@ -3996,6 +4010,13 @@ arch grassmedium
 x 15
 y 3
 end
+arch potion_generic
+face bomb.111
+x 15
+y 3
+arch spell_create_bomb
+end
+end
 arch grassmedium
 x 15
 y 4
@@ -4310,6 +4331,13 @@ end
 arch grassmedium
 x 16
 y 5
+end
+arch potion_generic
+face firewall_5.111
+x 16
+y 5
+arch spell_build_fireball_wall
+end
 end
 arch grassmedium
 x 16
@@ -4927,6 +4955,14 @@ y 6
 end
 arch grassmedium
 x 18
+y 6
+end
+arch grassmedium
+x 18
+y 6
+end
+arch grassmedium
+x 18
 y 7
 end
 arch grassmedium
@@ -5190,6 +5226,21 @@ y 5
 end
 arch grassmedium
 x 19
+y 5
+end
+arch grassmedium
+x 19
+y 5
+end
+arch ttool_cspell
+x 19
+y 5
+randomitems none
+arch spell_antimagic_rune
+end
+end
+arch grassmedium
+x 19
 y 6
 end
 arch grassmedium
@@ -5438,6 +5489,17 @@ end
 arch grassmedium
 x 20
 y 7
+end
+arch grassmedium
+x 20
+y 7
+end
+arch ttool_cspell
+x 20
+y 7
+randomitems none
+arch spell_rune_of_magic_drain
+end
 end
 arch grassmedium
 x 20
@@ -5667,6 +5729,19 @@ y 5
 end
 arch grassmedium
 x 21
+y 5
+end
+arch ttool_cspell
+face fix_mercury.111
+x 21
+y 5
+randomitems none
+is_animated 0
+arch spell_wrathful_eye
+end
+end
+arch grassmedium
+x 21
 y 6
 end
 arch grassmedium
@@ -6058,6 +6133,13 @@ end
 arch grassmedium
 x 23
 y 2
+end
+arch dust_generic
+x 23
+y 2
+nrof 8
+arch spell_firebolt
+end
 end
 arch grassmedium
 x 23

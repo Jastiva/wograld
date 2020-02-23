@@ -1090,7 +1090,7 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
      * objects on the space - presume that they know what they are
      * doing.
      */
-    if (spell_ob->type == SPELL && caster->type != POTION && !QUERY_FLAG(op, FLAG_WIZCAST) &&
+    if (spell_ob->type == SPELL && caster->type != POTION && caster->type != CONSUMABLE && !QUERY_FLAG(op, FLAG_WIZCAST) &&
 	(QUERY_FLAG(caster, FLAG_ALIVE) || QUERY_FLAG(op, FLAG_ALIVE)) &&
 	(((mflags & P_NO_MAGIC) && spell_ob->stats.sp) ||
 	   ((mflags & P_NO_CLERIC) && spell_ob->stats.grace))) {
@@ -1117,7 +1117,7 @@ int cast_spell(object *op, object *caster,int dir,object *spell_ob, char *string
 	return 0;
     }
 
-   if (spell_ob->type == SPELL && caster->type == POTION && !QUERY_FLAG(op, FLAG_WIZCAST))
+   if (spell_ob->type == SPELL && (caster->type == POTION || caster->type == CONSUMABLE  ) && !QUERY_FLAG(op, FLAG_WIZCAST))
     { 
 /*
 for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
@@ -1148,6 +1148,23 @@ for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
         }
 
 }
+
+
+    if(caster->type == CONSUMABLE)
+     {
+         if(op->type == PLAYER) 
+         {
+           //  if(!find_skill(op,TINKERING))
+        //struct *arch2=find_archetype("skill_tinkering");
+            struct object *skop=find_skill_by_name(op, "tinkering");
+     
+	if (!skop)
+             {
+             new_draw_info(NDI_UNIQUE,0,op,"you lack the skill tinkering to use the item");
+                  return 0;
+             }
+         }
+     }
 
     if (caster == op && settings.casting_time == TRUE && spell_ob->type == SPELL) {
 	if (op->casting_time==-1) { /* begin the casting */
@@ -1191,7 +1208,7 @@ for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
 		op->speed_left = -spell_ob->casting_time*PATH_TIME_MULT(op,spell_ob) * FABS(op->speed);
 	} else if (caster->type == WAND || caster->type == HORN ||
 		   caster->type == ROD || caster->type == POTION || caster->type == TINKERER_TOOL ||
-		   caster->type == SCROLL) {
+		   caster->type == SCROLL || caster->type == CONSUMABLE) {
 	    op->speed_left -= 2 * FABS(op->speed);
 	}
     }

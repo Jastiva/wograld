@@ -306,9 +306,10 @@ error - Your ANSI C compiler should be defining __STDC__;
 #define NORTH_PLATFORM          178
 #define UP_PLATFORM             179
 #define SLIDER                  180
-#define BOUNCE_BALL             181
+#define BOUNCE_BALL             181  
+#define CONSUMABLE              182
 
-#define OBJECT_TYPE_MAX		    181 /* update if you add new types */
+#define OBJECT_TYPE_MAX		    182 /* update if you add new types */
 /* END TYPE DEFINE */
 
 /* Subtypes for BUILDER */

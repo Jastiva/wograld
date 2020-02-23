@@ -3,7 +3,6 @@
  *   "$Id: apply.c,v 1.5 2014/12/13 22:03:00 serpentshard Exp $";
  */
 /*
-    CrossFire, A Multiplayer game for X-windows
 
     Copyright (C) 2006 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -376,7 +375,7 @@ int apply_potion(object *op, object *tmp)
 	    fix_player(op);
 	}
 	else
-	    new_draw_info(NDI_UNIQUE,0,op, "You potion had no effect.");
+	    new_draw_info(NDI_UNIQUE,0,op, "Your potion had no effect.");
 
 	decrease_ob(tmp);
 	return 1;
@@ -3057,6 +3056,7 @@ int manual_apply (object *op, object *tmp, int aflag)
 	    apply_scroll (op, tmp, 0);
 	    return 1;
 
+        case CONSUMABLE:
 	case POTION:
 	    (void) apply_potion(op, tmp);
 	    return 1;
@@ -4207,7 +4207,7 @@ void fix_auto_apply(mapstruct *m) {
 		     * Ryo 2004-08-16
 		     */
 		    if (tmp->type == WAND || tmp->type == ROD || tmp->type == SCROLL ||
-			tmp->type == HORN || tmp->type == FIREWALL || tmp->type == POTION ||
+		tmp->type == HORN || tmp->type == FIREWALL || tmp->type == POTION || tmp->type == CONSUMABLE  ||
 			tmp->type == ALTAR || tmp->type == SPELLBOOK || tmp->type == TINKERER_TOOL)
 			    tmp->randomitems = NULL;
 

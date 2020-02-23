@@ -1347,7 +1347,7 @@ int check_pick(object *op) {
 	{ pick_up(op, tmp); if(0)fprintf(stderr,"DRINK\n"); continue; }
 
       if(op->contr->mode & PU_POTION)
-	if (tmp->type == POTION)
+	if (tmp->type == POTION || tmp->type == CONSUMABLE  )
 	{ pick_up(op, tmp); if(0)fprintf(stderr,"POTION\n"); continue; }
 
       /* spellbooks, skillscrolls and normal books/scrolls */

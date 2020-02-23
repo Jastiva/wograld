@@ -174,7 +174,7 @@ if((op->type==CONTAINER) || (op->type == FLESH ) || ( op->type == WEAPON) ||
   (op->type == CLOAK ) || (op->type == WAND) || (op->type == ROD ) ||
   (op->type == HORN ) || (op->type == TINKERER_TOOL) || (op->type == ARMOUR_IMPROVER ) || (op->type == WEAPON_IMPROVER) ||
   (op->type == POWER_CRYSTAL ) || (op->type == BOW) || (op->type == SKILLSCROLL)  ||
-  (op->type == SPELLBOOK ) || (op->type == POTION ))
+  (op->type == SPELLBOOK ) || (op->type == POTION ) || (op->type == CONSUMABLE ))
   {
 		return;
 /*

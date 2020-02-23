@@ -3,7 +3,6 @@
  *   "$Id: c_object.c,v 1.4 2014/12/13 22:03:00 serpentshard Exp $";
  */
 /*
-    CrossFire, A Multiplayer game for X-windows
 
     Copyright (C) 2002 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
@@ -1452,6 +1451,7 @@ int command_dropall (object *op, char *params) {
         case TINKERER_TOOL:
 	case ROD:
 	case POTION:
+        case CONSUMABLE:
 	  drop(op,curinv);
 	  curinv = nextinv;
 	  break;

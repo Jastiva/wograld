@@ -224,6 +224,7 @@ static const typedata item_types[] = {
 {ELEVATOR, "elevator", "elevators", 0, 0},
 {CRUMBLEFLOOR, "crumblefloor", "crumblefloors", 0, 0},
 {TINKERER_TOOL, "tinkerer_tool", "tinkerer_tools", SK_TINKERING, 0},
+{CONSUMABLE, "consumable", "consumables",SK_TINKERING,0},
 };
 
 const int item_types_size=sizeof(item_types)/sizeof(*item_types);
@@ -1280,7 +1281,7 @@ int is_magical(const object *op) {
     /* Potions & rods are always magical.  Wands/staves are also magical,
      * assuming they still have any charges left.
      */
-    if (op->type==POTION || op->type==ROD ||
+    if (op->type==POTION || op->type==ROD || op->type==CONSUMABLE ||
 	(op->type==WAND && op->stats.food) || (op->type==TINKERER_TOOL && op->stats.food))
 	    return 1;
 
@@ -1381,7 +1382,7 @@ void identify(object *op) {
     if (QUERY_FLAG(op,FLAG_CURSED) || QUERY_FLAG(op,FLAG_DAMNED))
 	SET_FLAG(op,FLAG_KNOWN_CURSED);
 
-    if (op->type == POTION) {
+    if (op->type == POTION  || op->type==CONSUMABLE) {
 	if (op->inv && op->randomitems) {
 	    if (op->title) free_string(op->title);
 	    op->title = add_refcount(op->inv->name);
