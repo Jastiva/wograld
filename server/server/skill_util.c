@@ -1108,7 +1108,7 @@ sint16 tx,ty;
         object *tmp3;
         object *tmp4;
          object *tmp5;
-         object *tmp6;
+         object *tmp6=NULL;
 
          int localcount=0;
 
@@ -1153,6 +1153,8 @@ sint16 tx,ty;
           int prepare2=0;
           int prepare3=0;
           int prepare4=0;
+          int prepare5=0;
+
 
           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
           {
@@ -1179,7 +1181,7 @@ sint16 tx,ty;
                }
            }
 
-           
+           // topaz,  amethyst
 
           
 
@@ -1194,8 +1196,82 @@ sint16 tx,ty;
                  }
                }
            }
+
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+          {
+               if(tmp->arch->name)
+              {
+                 if(!strcmp(tmp->arch->name,"consumable_generic"))
+                 {
+                    tmp6=tmp; 
+                     
+                    prepare5=1;
+                    break;
+                 }
+               }
+           }
+
+           if(prepare5=1)
+           {
+                 new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
+           for(tmp=get_map_ob(m,tx,ty); tmp; tmp=tmp->above)
+           {
+               if(tmp->arch->name)
+               {
+                   if(!strcmp(tmp->arch->name,"amethyst"))
+                 {
+                  // spell_antimagic_rune
+                   new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_antimagic_rune");
+                      tmp5=arch_to_object(arch5);
+                      if(tmp6)
+                      {
+                     insert_ob_in_ob(tmp5,tmp6);
+                      tmp6->name=add_string("create antimagic rune");
+                      new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                                  remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                        }
+                  }
+
+                   if(!strcmp(tmp->arch->name,"topaz"))
+                 {
+                  // spell_antimagic_rune
+                   new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
+                       struct archt *arch5=find_archetype("spell_rune_of_magic_drain");
+                      tmp5=arch_to_object(arch5);
+                      if(tmp6)
+                      {
+                     insert_ob_in_ob(tmp5,tmp6);
+                      tmp6->name=add_string("create magicdrain trap");
+                      new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
+                               
+                               insert_ob_in_ob(tmp6,pl);
+                               // printf("put item in user\n");
+                              new_draw_info(NDI_UNIQUE, 0, pl, "put item in user\n");
+                                  remove_ob(tmp);
+                    free_object(tmp);
+                               printf("removed dusts\n");
+                               esrv_send_inventory(pl,pl);
+                              fix_player(pl);
+                  
+                    return 100;
+                        }
+                  }
+               }
+             }
+           }
               
-           /*
+           
            if(prepare4=1)
            {
                  new_draw_info(NDI_UNIQUE, 0, pl, "tool prepared\n");
@@ -1205,11 +1281,16 @@ sint16 tx,ty;
                {
                    if(!strcmp(tmp->arch->name,"min_oil"))
                  {
+/*
                       new_draw_info(NDI_UNIQUE, 0, pl, "found dust\n");
-                       struct archt *arch5=find_archetype("spell_create_);
+                       struct archt *arch5=find_archetype("spell_create_");
                       tmp5=arch_to_object(arch5);
                       tmp6=arch_to_object(arch4); 
-                   insert_ob_in_ob(tmp5,tmp6);     
+                   insert_ob_in_ob(tmp5,tmp6);  
+                        struct archt *arch6=find_archetype(");
+                      
+                              tmp6->name=add_string("enchanted hourglass");  
+                              tmp6->face=arch6->clone.face;     
                        new_draw_info(NDI_UNIQUE, 0, pl, "put spell in item\n");
                                
                                insert_ob_in_ob(tmp6,pl);
@@ -1220,9 +1301,13 @@ sint16 tx,ty;
                                printf("removed dusts\n");
                                esrv_send_inventory(pl,pl);
                               fix_player(pl);
+                      */
                   
                     return 100;
-                */
+                   }
+               }
+           }
+           }
 
            if(prepare3=1)
            {
