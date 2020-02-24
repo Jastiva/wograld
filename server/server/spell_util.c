@@ -1338,6 +1338,10 @@ for(mlayer = 0; mlayer < MAP_LAYERS; mlayer++)
 	    success = cast_change_ability(op,caster,spell_ob, dir, 0);
 	    break;
 
+        case SP_LOWER_ABILITY:
+            success = cast_lower_ability(op,caster,spell_ob, dir, 0);
+	    break;
+
 	case SP_BLESS:
 	    success = cast_bless(op,caster,spell_ob, dir);
 	    break;

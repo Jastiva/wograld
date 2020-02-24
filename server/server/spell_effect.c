@@ -5,8 +5,7 @@
 
 
 /*
-    CrossFire, A Multiplayer game for X-windows
-
+   
     Copyright (C) 2002 Mark Wedel & Wograld Development Team
     Copyright (C) 1992 Frank Tore Johansen
 
@@ -1615,6 +1614,136 @@ int cast_change_ability(object *op,object *caster,object *spell_ob, int dir, int
     fix_player(tmp);
     return 1;
 }
+
+
+
+int cast_lower_ability(object *op,object *caster,object *spell_ob, int dir, int silent) {
+    object *tmp, *tmp2=NULL;
+    object *force=NULL;
+    int i;
+  
+    /* if dir = 99 op defaults to tmp, eat_special_food() requires this. */
+         // if(dir!=0) {
+	//tmp=find_target_for_friendly_spell(op,dir);
+      // else {
+	// tmp = op;
+            
+    sint16 sx, sy;
+
+            
+        int tx=op->x + freearr_x[dir];
+         int ty=op->y + freearr_y[dir];
+         // tmp->map
+         int  mflags = get_map_flags(op->map,&op->map, tx, ty, &sx, &sy);
+
+    if (!(mflags & P_IS_ALIVE) &&  !OB_TYPE_MOVE_BLOCK(op, GET_MAP_MOVE_BLOCK(op->map, sx, sy)))
+        return 0;
+
+
+    /* If nothing alive on this space, no reason to do anything further */
+    if (!(mflags & P_IS_ALIVE)) return 0;
+
+    for (tmp = get_map_ob (op->map,tx,ty); tmp != NULL; tmp = tmp->above)
+    {
+        if (QUERY_FLAG (tmp, FLAG_ALIVE)) {
+                break;
+           }
+        
+    }
+
+    if(tmp==NULL) return 0;
+  
+    /* If we've already got a force of this type, don't add a new one. */
+    for(tmp2=tmp->inv; tmp2!=NULL; tmp2=tmp2->below) {
+	if (tmp2->type==FORCE && tmp2->subtype == FORCE_CHANGE_ABILITY)  {
+	    if (tmp2->name == spell_ob->name) {
+		force=tmp2;    /* the old effect will be "refreshed" */
+		break;
+	    }
+	    else if (spell_ob->race && spell_ob->race == tmp2->name) {
+            if ( !silent )
+		        new_draw_info_format(NDI_UNIQUE, 0, op,
+		            "You can not cast %s while %s is in effect",
+		            spell_ob->name, tmp2->name_pl);
+		    return 0;
+	    }
+	}
+    }
+    if(force==NULL) {
+	force=create_archetype(FORCE_NAME);
+	force->subtype = FORCE_CHANGE_ABILITY;
+	free_string(force->name);
+	if (spell_ob->race) 
+	    force->name = add_refcount(spell_ob->race);
+	else
+	    force->name = add_refcount(spell_ob->name);
+	free_string(force->name_pl);
+	force->name_pl = add_refcount(spell_ob->name);
+
+    } else {
+	int duration;
+
+	duration = spell_ob->duration + SP_level_duration_adjust(caster, spell_ob) * 50;
+	if (duration > force->duration) {
+	    force->duration = duration;
+	    new_draw_info(NDI_UNIQUE, 0, op, "You recast the spell while in effect.");
+	} else {
+	    new_draw_info(NDI_UNIQUE, 0, op, "Recasting the spell had no effect.");
+	}
+	return 1;
+    }
+    force->duration = spell_ob->duration + SP_level_duration_adjust(caster, spell_ob) * 50;
+    force->speed = 1.0;
+    force->speed_left = -1.0;
+    SET_FLAG(force, FLAG_APPLIED);
+
+
+         // if (tmp->type == PLAYER) {
+               // I do hope this works on monsters
+	/* Stat adjustment spells */
+	for (i=0; i < NUM_STATS; i++) {
+	    sint8 stat = get_attr_value(&spell_ob->stats, i), k, sm;
+	    if (stat) {
+		sm=0;
+		// for (k=0; k<stat; k++)
+		    sm -= rndm(1, 3);
+
+		// if ((get_attr_value(&tmp->stats, i) + sm) > (15 + 5 * stat)) {
+		//    sm = (15 + 5 * stat) - get_attr_value(&tmp->stats, i);
+		//    if (sm<0) sm = 0;
+		// }
+		set_attr_value(&force->stats, i, sm);
+		// if (!sm)
+		//    new_draw_info(NDI_UNIQUE, 0,op,no_gain_msgs[i]);
+	    }
+	}
+         //  }
+
+
+
+    insert_ob_in_ob(force,tmp);
+    change_abil(tmp,force);	/* Mostly to display any messages */
+    
+
+          if(tmp->type == PLAYER)
+          { 
+          fix_player(tmp);
+            }
+             else
+            {
+                if(tmp->arch)
+                {
+                     if(tmp->arch->name)
+                     {
+                      new_draw_info_format(NDI_UNIQUE, 0,op,"You change the %s Str to %d",
+			  tmp->arch->name, tmp->stats.Str);
+                     }
+               }
+
+            }
+    return 1;
+}
+
 
 /**
  * This used to be part of cast_change_ability, but it really didn't make

@@ -130,6 +130,7 @@ extern const char* const spellpathnames[NRSPELLPATHS];
 #define SP_TOWN_PORTAL	    47
 #define SP_PARTY_SPELL      48
 #define SP_HEAL_RAY         49
+#define SP_LOWER_ABILITY    50
 
 /* Potion subtypes */
 #define POT_SPELL	    1

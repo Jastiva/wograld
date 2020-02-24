@@ -7052,6 +7052,9 @@ treasureone necromancy_l1
 arch spell_cause_cold
     chance 20
     more
+    arch spell_weakness
+     chance 20
+     more
 arch spell_cause_flu
     chance 20
   more
@@ -7721,6 +7724,9 @@ treasureone necromancer_book_low
 arch spell_cause_cold
     chance 20
     more
+   arch spell_weakness
+    chance 20
+     more
 arch spell_cause_flu
     chance 20
   more
